@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "az-mohave-kingman",
+  "publisher": "Mohave County GIS (Kingman zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mcgis.mohave.gov/arcgis/rest/services/CoKgm_Zoning/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Zoning districts layer KGM hosted by Mohave County GIS; appears to cover the Kingman area (city zoning). LINK field is empty. Some ZONEDESC values may be blank; zone code is always present.",
+  "verification": {
+    "verified_at": 1792133768297,
+    "counties": [
+      "04015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

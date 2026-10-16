@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "54059",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services3.arcgis.com/nJbIFHiSnaX0z0hS/arcgis/rest/services/MingoAGOL/FeatureServer",
+    "https://landrecords.us/documentation/coverage/counties/54-059-mingo",
+    "https://region2pdc.org/mingo-county-2/"
+  ],
+  "note": "Searched ArcGIS Online/Hub and web for Mingo County and Williamson/Delbarton/Kermit zoning. The county's MingoAGOL service has parcels, roads, floodplains and addresses but no zoning district layer; the only zoning-related field found is an unpopulated parcel zoning column. No city zoning GIS layer was found.",
+  "recorded_at": 1792136026264,
+  "recheck_after": 1807688026264,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13291",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.unioncountyga.gov/207/Geographic-Information-System-GIS",
+    "https://union.georgiagis.com/union/",
+    "https://fgis-map-110.flagshipcloud.com/mapserver110/mobile/?mapLabel=UNION"
+  ],
+  "note": "Searched county GIS page, FlagshipGIS county mapping viewer (parcel/address search only, no zoning layer listed; its REST root returns 500), ucmaps portal (internal use), ArcGIS Online/Hub searches for Union County GA zoning, and Blairsville city zoning. No public queryable zoning district service found; zoning appears only in third-party sites (Zoneomics, Regrid).",
+  "recorded_at": 1792134009756,
+  "recheck_after": 1807686009756,
+  "model": "claude-haiku-5-5"
+}

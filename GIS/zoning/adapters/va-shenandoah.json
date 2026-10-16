@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-shenandoah",
+  "publisher": "Shenandoah County (via Shenandoah Zoning feature service, jth4qt_uvalibrary)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/8k2PygHqghVevhzy/arcgis/rest/services/Shenandoah_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51171"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "loc_zone",
+    "zone": "zoning",
+    "zone_name": "Descriptio"
+  },
+  "notes": "Copy uploaded to ArcGIS Online by jth4qt_uvalibrary (not the county account); county-branded layer not found as queryable polygon service. Verify fields: loc_zone may be a location/jurisdiction code.",
+  "verification": {
+    "verified_at": 1792135957190,
+    "counties": [
+      "51171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

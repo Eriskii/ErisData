@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "26117",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://montcalm.us/DocumentCenter/View/5490/Zoning-Administrators-09-23-2025-PDF?bidId=",
+    "https://services6.arcgis.com/GJ2uZAPsEvtmqpe1/arcgis/rest/services",
+    "https://www.gismaps.org/mi-montcalm-county/",
+    "https://greenvillemi.org/residents/community/maps/index.php",
+    "https://www.stantononline.com/wp-content/uploads/2011/03/zoning.pdf"
+  ],
+  "note": "Montcalm County's GIS services (ArcGIS host GJ2uZAPsEvtmqpe1) publish parcels, municipal boundaries, roads, drains and water, but no zoning layer. The county's zoning administrators list shows zoned townships enforce their own zoning. Cities such as Greenville, Stanton and Carson City publish zoning only as ordinance text or PDF/viewer maps, with no queryable district polygon service found. Searches of ArcGIS Hub/Online for Montcalm zoning found only third-party copies and a parcel layer without zoning fields (Regrid, a third-party dataset, is not a public service).",
+  "recorded_at": 1792132396312,
+  "recheck_after": 1807684396312,
+  "model": "claude-haiku-5-5"
+}

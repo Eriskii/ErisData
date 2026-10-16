@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ak-ketchikan-gateway",
+  "publisher": "Ketchikan Gateway Borough GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/65jtiGuzdaRB5FxF/ArcGIS/rest/services/KetchikanAKFeatures/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02130"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_DIST",
+    "zone_name": "ZONE_CLASS"
+  },
+  "notes": "Borough zoning layer (352 polygons) in the borough GIS org; ZONE_CLASS gives broad class. Overlays in OVERLAY/SL_OVERLAY/MOBIL_OVERLAY not mapped.",
+  "verification": {
+    "verified_at": 1792133715267,
+    "counties": [
+      "02130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

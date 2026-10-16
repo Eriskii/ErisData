@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-redwood-falls",
+  "publisher": "City of Redwood Falls (ArcGIS Online copy by bkRedwood01)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/CwLPl749ngyCGysF/arcgis/rest/services/Zoning_Redwood_Falls/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27127"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONING_DES"
+  },
+  "notes": "Personal ArcGIS Online item by bkRedwood01 of Redwood Falls zoning districts; not the city own service. Official city zoning map is at https://ci.redwood-falls.mn.us/download/12019/. Covers the city only.",
+  "verification": {
+    "verified_at": 1792134515480,
+    "counties": [
+      "27127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

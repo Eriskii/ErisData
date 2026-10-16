@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-iron-ironton",
+  "publisher": "City of Ironton / SEMO RPC",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.semogis.com/server/rest/services/Ironton_CTY/Ironton_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29093"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Covers only the City of Ironton (county seat); no county-wide or unincorporated zoning layer found. Hosted by SEMO RPC for the city. Only one field, ZONING, holds the district code.",
+  "verification": {
+    "verified_at": 1792134690136,
+    "counties": [
+      "29093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

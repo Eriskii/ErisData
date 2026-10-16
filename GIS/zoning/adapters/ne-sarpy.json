@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ne-sarpy",
+  "publisher": "Sarpy County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geodata.sarpy.gov/arcgis/rest/services/Cadastral/LandRecordsDynamic/MapServer/25",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31153"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Zoning districts for unincorporated Sarpy County and cities of Bellevue, Gretna, La Vista, Papillion, Springfield. Jurisdiction is a numeric code.",
+  "verification": {
+    "verified_at": 1792134916968,
+    "counties": [
+      "31153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

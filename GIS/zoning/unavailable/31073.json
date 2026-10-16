@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "31073",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gospercountyne.gov/planning-and-zoning/",
+    "https://revenue.nebraska.gov/PAD/county-assessors-and-parcel-search",
+    "https://www.gismaps.org/ne-gosper-county/"
+  ],
+  "note": "Gosper County has county zoning (joint planning commission, effective 1991, joint zoning with Elwood Village and Johnson Lake), but no public queryable zoning district service was found. The county's parcel/GIS viewer is a Schneider Beacon app (schneidergis.co / beacon.schneidercorp.com) that is Cloudflare-blocked and offers no ArcGIS REST endpoint; the county website returns a rate-limit block; ArcGIS Hub/Online searches for Gosper zoning returned nothing; the only zoning attribute data found is a paid commercial parcel shapefile (dynamospatial.com). No city zoning layer was found for Elwood or Smithfield.",
+  "recorded_at": 1792134968112,
+  "recheck_after": 1807686968112,
+  "model": "claude-haiku-5-5"
+}

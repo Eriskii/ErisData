@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-marshall-calvert-city",
+  "publisher": "City of Calvert City (copy hosted by alepisto on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/MPzXAppZq4kTyKOS/arcgis/rest/services/CalvertCurrentZoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21157"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Unofficial copy: personal ArcGIS Online item by alepisto, described as current zoning boundaries for City of Calvert City. Nothing official in Marshall County KY is queryable (county has no zoning; Benton and Calvert City publish zoning only as PDF). Covers Calvert City only. Layer uses state plane wkid 102680; runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792134392119,
+    "counties": [
+      "21157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

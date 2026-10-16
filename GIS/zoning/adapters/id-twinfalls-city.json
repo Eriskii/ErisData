@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "id-twinfalls-city",
+  "publisher": "City of Twin Falls GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/I78Ijvc0YuZijqmq/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16083"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT"
+  },
+  "notes": "City of Twin Falls zoning districts only (city limits, not unincorporated county land); no zone_name or link field in source. Published by City of Twin Falls GIS account.",
+  "verification": {
+    "verified_at": 1792133654628,
+    "counties": [
+      "16083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

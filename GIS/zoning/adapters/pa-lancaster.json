@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-lancaster",
+  "publisher": "Lancaster County GIS (municipal zoning maps)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.lancastercountypa.gov/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI_ID",
+    "zone": "ZONING",
+    "zone_name": "FULLNAME"
+  },
+  "notes": "County-hosted layer of municipal zoning polygons for all Lancaster County municipalities. jurisdiction is the numeric municipality code MUNI_ID (no name field in source). zone_name is a generic description (e.g. RESIDENTIAL, COMMERCIAL) and ZONING is the ordinance code. Source has no ordinance link field (ZONE_LINK is an internal key), so link is omitted.",
+  "verification": {
+    "verified_at": 1792135312750,
+    "counties": [
+      "42071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "20021",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://galenaks.gov/documents/zoning-map-for-the-city-of-galena/",
+    "https://www.cherokeecountyks.gov/main/departments/planning-zoning",
+    "https://cherokeegis.integritygis.com/H5/Index.html?viewer=cherokee"
+  ],
+  "note": "Cherokee County KS (FIPS 20021) publishes no queryable zoning district polygon service that I could find. The county's GIS (integritygis parcel viewer) is parcel-focused and its service endpoints did not respond. Galena publishes its zoning map only as a static PDF (Aug 2023). Columbus abolished its planning commission per its ordinance list. Baxter Springs showed no zoning GIS. Only third-party commercial parcel data (Regrid, Dynamo Spatial, Rockford Map) carries zoning fields.",
+  "recorded_at": 1792134300490,
+  "recheck_after": 1807686300490,
+  "model": "claude-haiku-5-5"
+}

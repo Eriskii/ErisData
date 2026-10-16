@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wa-sanjuan-friday-harbor",
+  "publisher": "Town of Friday Harbor (copy hosted by SCJ Alliance, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/PIM6ojLbIEBpWUkK/arcgis/rest/services/Friday_Harbor_Constraints_WFL1/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53055"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Town of Friday Harbor zoning districts, in a constraints service posted to ArcGIS Online by scjalliance (appears to be the town consultant). Copy is not confirmed as official; only the Town of Friday Harbor is covered, not unincorporated county land. Zone holds the district code.",
+  "verification": {
+    "verified_at": 1792136049579,
+    "counties": [
+      "53055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

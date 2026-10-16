@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-pitkin-county",
+  "publisher": "Pitkin County (ArcGIS Online copy by a third party)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/8uN5i97bMkq2Mzrt/arcgis/rest/services/25_092_Pitkin_County_Zoning/FeatureServer/58",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08097"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "ZoneDist_1",
+    "zone_name": "ZoneDistri"
+  },
+  "notes": "Copy of Pitkin County zone districts hosted on ArcGIS Online by a personal account (bryanleyba_apd / kimvoros), not the county server; used because the county server layer fails polygon validity. Covers unincorporated county land; Aspen zoning is in a separate spec. Descriptio holds the sub-area; Ordinance holds the adopting ordinance ID.",
+  "verification": {
+    "verified_at": 1792133848669,
+    "counties": [
+      "08097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

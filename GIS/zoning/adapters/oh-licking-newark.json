@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-licking-newark",
+  "publisher": "City of Newark, Ohio (portal.newarkohio.net)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://portal.newarkohio.net/server/rest/services/CityViewServices/ZoningView/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39089"
+    ]
+  },
+  "fields": {
+    "link": "ZONE_LINK",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "City of Newark base zoning classifications from the city portal. Newark is in Licking County. County Planning/Zoning MapServer was unreachable during search.",
+  "verification": {
+    "verified_at": 1792136033265,
+    "counties": [
+      "39089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

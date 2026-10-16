@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-barron",
+  "publisher": "Barron County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/3Kf2DMwaWP7HTsew/arcgis/rest/services/Zoning_Viewing_Layer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55005"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode"
+  },
+  "notes": "Barron County zoning layer from the 2017 zoning map, hosted by the county GIS org (barronGIS); 1,562 polygons. Zone codes from ZoneCode (e.g. R1, R2); no zone name or jurisdiction field. Features carry parcel IDs, so polygons may be parcel-level zoning. Newer 2026 county zoning exists only as a download at geodata.wisc.edu.",
+  "verification": {
+    "verified_at": 1792136027194,
+    "counties": [
+      "55005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

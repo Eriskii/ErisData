@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-pike-shohola",
+  "publisher": "Upper Delaware SRR municipal zoning (Shohola Township, compiled by Shippensburg Univ. CLUS / NPS)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/UPDE_BND_TownZoning_ply/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "link": "Link",
+    "zone": "ZoningID",
+    "zone_name": "Zoning"
+  },
+  "notes": "Unofficial copy: NPS-hosted layer of Shohola Township zoning (2016) acquired from the township by Shippensburg University; not the township's own service. Covers only Shohola Twp, not the whole county.",
+  "verification": {
+    "verified_at": 1792135614184,
+    "counties": [
+      "42103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

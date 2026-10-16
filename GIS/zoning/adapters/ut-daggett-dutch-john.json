@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-daggett-dutch-john",
+  "publisher": "Uintah Basin Association of Governments (for Dutch John)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/5fDwKG9d6YoFpMDE/arcgis/rest/services/DutchJohnZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ABBR",
+    "zone_name": "ZONE"
+  },
+  "notes": "Dutch John zoning prepared by UBAOG regional planning body.",
+  "verification": {
+    "verified_at": 1792135904028,
+    "counties": [
+      "49009"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

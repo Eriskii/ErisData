@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-baldwin",
+  "publisher": "Baldwin County GIS (Georgia)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Da8HZMsU25Hzzob3/arcgis/rest/services/Baldwin_County_Zoning_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13009"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClassification",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Baldwin County GA zoning districts layer hosted on the county GIS ArcGIS Online org (bhegler_baldwinboc); no jurisdiction field. Layer described as proposed zoning map; 911 features.",
+  "verification": {
+    "verified_at": 1792133865360,
+    "counties": [
+      "13009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

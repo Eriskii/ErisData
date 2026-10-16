@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "47025",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://claibornecountytn.gov/business/planningcommission/",
+    "https://www.tnlds.com/planning/",
+    "https://tnmap.tn.gov/assessment/",
+    "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/72"
+  ],
+  "note": "Searched ArcGIS Online/Hub and web for Claiborne County TN zoning districts. No zoning district polygon layer is published as a queryable service. County planning commission page links only subdivision regulations PDF; TNLDS directory lists no zoning map; state Tennessee Property Viewer has parcels only. The only ArcGIS match (HNTB TN County Parcel Map, Claiborne_Parcels layer 72) is parcels with assessor fields and no zoning attribute. Tazewell town zoning (Title 15) found in MTAS code but no GIS service located.",
+  "recorded_at": 1792135479497,
+  "recheck_after": 1807687479497,
+  "model": "claude-haiku-5-5"
+}

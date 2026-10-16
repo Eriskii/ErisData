@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-scott-bettendorf",
+  "publisher": "City of Bettendorf IA (ArcGIS Online, tbeswickBett)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/5hE5PoX87LzkB5tp/arcgis/rest/services/City_of_Bettendorf_IA_Zoning_Map_2_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19163"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_LAB"
+  },
+  "notes": "City of Bettendorf zoning only (not unincorporated Scott County). Scott County zoning is not published as a queryable service; county zoning exists only in Beacon viewer.",
+  "verification": {
+    "verified_at": 1792134223617,
+    "counties": [
+      "19163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

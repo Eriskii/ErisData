@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "18121",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://parkein.wthgis.com",
+    "https://www.in.gov/counties/parke/planning-and-zoning/",
+    "https://www.in.gov/counties/parke/files/PARKE-COUNTY-ZONING-ORDINANCE.pdf"
+  ],
+  "note": "Parke County (IN) has no queryable zoning district service found. The county GIS portal parkein.wthgis.com is a web map viewer with no public ArcGIS REST services (/arcgis/rest/services returns 404). The county planning office publishes the zoning ordinance as a PDF; no zoning district polygon layer or ArcGIS service was found for the county or its towns (Rockville, Rosedale, Montezuma etc.). ArcGIS searches for Parke County zoning returned nothing relevant; Rockville's code links only to text and a zoning map table, not a queryable map.",
+  "recorded_at": 1792134200161,
+  "recheck_after": 1807686200161,
+  "model": "claude-haiku-5-5"
+}

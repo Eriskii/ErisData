@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-york",
+  "publisher": "York County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/2AGLxyiJoNiVHKwq/arcgis/rest/services/York%20County%20Zoning%20(regions)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45091"
+    ]
+  },
+  "fields": {
+    "zone": "zone"
+  },
+  "notes": "Unincorporated York County only (excludes municipalities). Zone code in zone; no name or ordinance link published. Layer also carries ConditionalZoning flag and RezoningCaseNumber.",
+  "verification": {
+    "verified_at": 1792135551274,
+    "counties": [
+      "45091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

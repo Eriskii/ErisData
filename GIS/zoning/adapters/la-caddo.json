@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-caddo",
+  "publisher": "Shreveport-Caddo Metropolitan Planning Commission (MPC), hosted by City of Shreveport",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/cEsSI6IR59h5UGE4/arcgis/rest/services/MPC_Zoning06022026_view/FeatureServer/32",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TWNTAX",
+    "zone": "BASE_ZONE"
+  },
+  "notes": "MPC current zoning layer covering Shreveport, Caddo Parish unincorporated, Blanchard, Greenwood and Bossier City jurisdictions (TWNTAX). Parcel-level polygons carrying each parcel base zoning district; no zone_name field. Tax-status variants (Adjudicated, Tax Exempt, Public Service) and blank jurisdictions are included as published.",
+  "verification": {
+    "verified_at": 1792134445777,
+    "counties": [
+      "22017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

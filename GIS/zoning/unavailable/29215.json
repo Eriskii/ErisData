@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29215",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://houstonms.gov/zoning-maps/",
+    "https://houstonms.gov/documents/city-of-houston-zoning-map.pdf",
+    "https://www.gis-portal.org/mo-texas-county/",
+    "https://www.texascountymissouri.gov/"
+  ],
+  "note": "Texas County (MO) publishes no queryable zoning districts: the county GIS (texasgis.breezemaps.com) is a parcel viewer and the City of Houston zoning map is a PDF only. The only queryable city zoning layer found, Mountain Grove's (services2.arcgis.com/5fBksrmhqE9Y6xQi .../Mountain_Grove_Zoning_Hosted_Map_view/FeatureServer/0), lies almost entirely in Wright County; it failed validation (0 of 343 districts in Texas County, none near the county's interior point).",
+  "recorded_at": 1792134897042,
+  "recheck_after": 1807686897042,
+  "model": "claude-haiku-5-5"
+}

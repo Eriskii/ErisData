@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-bladen-elizabethtown",
+  "publisher": "Town of Elizabethtown",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/WHjw3CrURMxrOV54/arcgis/rest/services/Zoning_231118/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Elizabethtown zoning designations for its extraterritorial jurisdiction planning district, published by ETownNC on ArcGIS Online. Covers Elizabethtown ETJ only, not the rest of Bladen County.",
+  "verification": {
+    "verified_at": 1792135092048,
+    "counties": [
+      "37017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ak-yakutat",
+  "publisher": "City and Borough of Yakutat GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/gRKiTtxkoTx0gERB/arcgis/rest/services/ParcelsOnline/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02282"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Landuse"
+  },
+  "notes": "Last resort: a tax parcel layer whose Zoning attribute carries each parcel zoning code; no district polygon layer is published by the borough (zoning map is PDF only). zone_name maps Landuse, which is a land use field, not a zoning description.",
+  "verification": {
+    "verified_at": 1792133727811,
+    "counties": [
+      "02282"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

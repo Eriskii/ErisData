@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wy-campbell",
+  "publisher": "Campbell County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.campbellcountywy.gov/arcgis/rest/services/Campbell_Public/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "County zoning layer (unincorporated Campbell County). Overlay codes in OVERLAYZNCD1 not mapped. Town of Wright and City of Gillette zone their own land separately.",
+  "verification": {
+    "verified_at": 1792136105610,
+    "counties": [
+      "56005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

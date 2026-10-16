@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "31095",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://jeffersoncounty.nebraska.gov/planning-and-zoning-administrator",
+    "https://beacon.schneidercorp.com/Application.aspx?App=JeffersonCountyNE&PageType=Map",
+    "https://jeffersoncounty.nebraska.gov/sites/default/files/doc/Jefferson_Co_NE-Official_Zoning_Map%202026.pdf",
+    "https://www.fairburyne.org/DocumentCenter/View/103/Fairbury-Zoning?bidId="
+  ],
+  "note": "Jefferson County NE zoning districts are published only through the Beacon (Schneider) viewer, which is not a public ArcGIS REST service and returned 403/Cloudflare to automated reads, and as a static PDF zoning map. The county GIS is stated to be not publicly accessible; the county's gworks ArcGIS server (mapserver01.gworks.com/Jefferson_County_NE_Clerk, _EM) has no zoning layer. Fairbury (largest city) publishes only its 2013 ordinance PDF and a district list, with no queryable zoning layer.",
+  "recorded_at": 1792134948364,
+  "recheck_after": 1807686948364,
+  "model": "claude-haiku-5-5"
+}

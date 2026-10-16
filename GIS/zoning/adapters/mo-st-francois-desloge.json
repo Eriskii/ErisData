@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-st-francois-desloge",
+  "publisher": "City of Desloge / SEMO RPC",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.semogis.com/server/rest/services/Desloge_CTY/Desloge_Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29187"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Desloge zoning districts, hosted by SEMO GIS",
+  "verification": {
+    "verified_at": 1792134957240,
+    "counties": [
+      "29187"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

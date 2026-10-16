@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "55045",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.greencountywi.org/177/Land-Records-Mapping-Applications",
+    "https://www.greencountywi.org/179/Downloadable-GIS-Data-Forms",
+    "https://geodata.wisc.edu/catalog/DC4D1119-D484-4C49-B619-05D6A3D66EF2",
+    "https://web.s3.wisc.edu/rml-gisdata/GREEN_ZONING_2026.zip"
+  ],
+  "note": "Green County publishes county zoning only as zipped File Geodatabase downloads (2017, 2026), not a queryable service. The county ArcGIS server (landrecords.greencountywi.org/arcgis/rest/services) did not respond from here, so no REST zoning layer could be identified. Municipal zoning (Brodhead, Monroe) was not found as a queryable public service either; a Brodhead MSA-hosted MapServer was listed but was unreachable.",
+  "recorded_at": 1792136224823,
+  "recheck_after": 1807688224823,
+  "model": "claude-haiku-5-5"
+}

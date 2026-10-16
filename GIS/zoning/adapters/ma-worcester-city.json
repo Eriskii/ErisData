@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ma-worcester-city",
+  "publisher": "City of Worcester, MA (WorcesterGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/j8dqo2DJE7mVUBU1/arcgis/rest/services/Zoning/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "NAME"
+  },
+  "notes": "City of Worcester base zoning districts only; covers the City of Worcester, not other Worcester County towns. Source CRS is state plane (wkid 102686).",
+  "verification": {
+    "verified_at": 1792134462855,
+    "counties": [
+      "25027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

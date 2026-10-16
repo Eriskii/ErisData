@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-mendocino",
+  "publisher": "Mendocino County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/8y4r60VTvWj2wnDH/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06045"
+    ]
+  },
+  "fields": {
+    "link": "SEC_URL",
+    "zone": "BASEZONE1",
+    "zone_name": "ZONEDISP"
+  },
+  "filter": "Shape__Area < 1000000000 AND FID NOT IN (2539,1549)",
+  "notes": "Merged county zoning layer from county ArcGIS Online org; a few large polygons with invalid geometry excluded",
+  "verification": {
+    "verified_at": 1792134084279,
+    "counties": [
+      "06045"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

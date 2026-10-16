@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-cullman-goodhope",
+  "publisher": "City of Good Hope via Cullman County GIS (KCS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://al25portal.kcsgis.com/al25server/rest/services/Cullman_Public_ISV/MapServer/124",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01043"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Classification"
+  },
+  "notes": "City of Good Hope zoning only. Served by county KCS ISV public MapServer. DistrictsConsolidated holds standard codes (e.g. AG-1) where present; OverlayDistrict not mapped as base zones.",
+  "verification": {
+    "verified_at": 1792133699526,
+    "counties": [
+      "01043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

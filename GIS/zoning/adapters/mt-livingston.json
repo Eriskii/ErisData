@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mt-livingston",
+  "publisher": "City of Livingston / Park County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/De8iY1SoM3l4PKku/arcgis/rest/services/CoLZoning_PlannerView/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30067"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZoneType",
+    "zone": "ZONE_",
+    "zone_name": "ZoneDescri"
+  },
+  "notes": "City of Livingston zoning districts (planner view, updated 2022). Zone codes per Livingston Municipal Code Chapter 30.",
+  "verification": {
+    "verified_at": 1792134933921,
+    "counties": [
+      "30067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

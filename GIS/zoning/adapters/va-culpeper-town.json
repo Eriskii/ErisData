@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-culpeper-town",
+  "publisher": "Town of Culpeper GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/umAze4B28rywBpwB/arcgis/rest/services/ZoningOverhaulLayers/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "51047"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Culpeper current zoning districts, within the Town only; the county layer covers the rest of the county.",
+  "verification": {
+    "verified_at": 1792136023227,
+    "counties": [
+      "51047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

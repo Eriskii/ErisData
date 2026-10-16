@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "54079",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://putnamcountywv.gov/planning-and-infrastructure/ordinances/",
+    "https://putnamcountywv.gov/planning-and-infrastructure/wp-content/uploads/sites/6/2023/09/Article-200-Zoning-Districts-Maps.pdf",
+    "https://services3.arcgis.com/nJbIFHiSnaX0z0hS/arcgis/rest/services/Putnam_AGOL/FeatureServer/14"
+  ],
+  "note": "Putnam County's zoning districts are published as PDF maps (Article 200) and a reference-only parcel viewer. The only zoning polygon layer found (Putnam_AGOL FeatureServer layer 14 'Zoning', 33,881 features) has its district code field Zone1 blank in essentially every feature (1 of 837 nearby), so it carries no usable zoning codes. The county's parcel layer has no zoning field populated, and Hurricane's zoning page lists no GIS layer. No queryable district layer with codes was found.",
+  "recorded_at": 1792136084540,
+  "recheck_after": 1807688084540,
+  "model": "claude-haiku-5-5"
+}

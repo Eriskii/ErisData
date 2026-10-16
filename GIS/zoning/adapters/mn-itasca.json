@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-itasca",
+  "publisher": "Itasca County GIS (via Minnesota Geospatial Commons)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_co_itasca/plan_zoning/FeatureServer/0",
+    "page_size": 10,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27061"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "filter": "Zone IS NOT NULL",
+  "notes": "Itasca County zoning layer from MN Geospatial Commons. Districts with no zone code in the source are excluded. Source CRS is NAD83 UTM 15N (EPSG:26915).",
+  "verification": {
+    "verified_at": 1792134601548,
+    "counties": [
+      "27061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

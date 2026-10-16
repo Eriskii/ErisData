@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-johnson-greenwood",
+  "publisher": "Johnson County GIS (City Zoning, Greenwood)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/s5B7dXoVjGiD4IBE/arcgis/rest/services/City_Zoning/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18081"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "City of Greenwood zoning layer from Johnson County GIS City Zoning service. ZONEDESC is almost empty, so zone_name is not mapped; zone holds the district code",
+  "verification": {
+    "verified_at": 1792134151605,
+    "counties": [
+      "18081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

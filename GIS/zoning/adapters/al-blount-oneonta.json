@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-blount-oneonta",
+  "publisher": "City of Oneonta, AL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/MXVrt4nfGKuC8vSj/arcgis/rest/services/OneontaZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01009"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "Zoning <> ' '",
+  "notes": "Parcel layer from the City of Oneonta GIS carrying each parcel zoning code in Zoning; blank-zoned parcels are dropped by the filter. Parcel-based rather than a district layer; no zone description field; city limits only.",
+  "verification": {
+    "verified_at": 1792133716122,
+    "counties": [
+      "01009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

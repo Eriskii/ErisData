@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-poweshiek-cities",
+  "publisher": "Iowa State University GIS Facility (statewide zoning compilation)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19157"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "OBJECTID IN (262,263,264,265,266,267)",
+  "notes": "ISU GIS Facility statewide zoning compilation; Brooklyn",
+  "verification": {
+    "verified_at": 1792134417109,
+    "counties": [
+      "19157"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

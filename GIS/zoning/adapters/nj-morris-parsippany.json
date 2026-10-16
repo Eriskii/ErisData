@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nj-morris-parsippany",
+  "publisher": "Township of Parsippany-Troy Hills (ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/VL0k2z5a3NgP89hg/arcgis/rest/services/ParsippanyZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34027"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "ZnLabel"
+  },
+  "notes": "Parsippany-Troy Hills Township zoning only (not countywide); published by the township on ArcGIS Online, source noted as Morris County data. Spatial reference is NJ State Plane; service supports GeoJSON output.",
+  "verification": {
+    "verified_at": 1792135039455,
+    "counties": [
+      "34027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-alamosa-city",
+  "publisher": "City of Alamosa",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/kQ9CrbL3URg6t3jo/arcgis/rest/services/AddressForWebApp_view/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08003"
+    ]
+  },
+  "fields": {
+    "zone": "NAME",
+    "zone_name": "UpdateZone"
+  },
+  "notes": "City of Alamosa zoning districts (city limits only; unincorporated county zoning not published as a queryable layer). Layer CurrentZoning10232023_project from the city ArcGIS org, used by the city zoning web map.",
+  "verification": {
+    "verified_at": 1792133818866,
+    "counties": [
+      "08003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

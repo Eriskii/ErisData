@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "29063",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://dekalbcounty.org/departments/information-management-office/",
+    "https://spatial.dekalbcounty.org/vertigisstudio/web/?app=9aa6e557bf3441938d8d224b3a5cd849",
+    "https://dekalbcounty.org/property-data-and-maps/",
+    "https://ecode360.com/31146291",
+    "https://cms5.revize.com/revize/maysville/Document%20Center/Forms/New%20node/Planning%20&%20Zoning/Zoning%20Map.pdf"
+  ],
+  "note": "DeKalb County MO publishes zoning only through its VertiGIS Studio Community Development viewer (spatial.dekalbcounty.org); no queryable ArcGIS REST zoning service was found there (common REST paths return 404) and the county's Integrity Geocortex site lists no zoning layer. Maysville's zoning map is an image PDF and its ordinance is on eCode360; Stewartsville publishes no zoning service found. Zoning data is otherwise sold via order forms or by Regrid (commercial, not official).",
+  "recorded_at": 1792134872546,
+  "recheck_after": 1807686872546,
+  "model": "claude-haiku-5-5"
+}

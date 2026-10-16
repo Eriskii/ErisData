@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-cherokee-canton",
+  "publisher": "City of Canton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/dpaY3zboICQILFY5/arcgis/rest/services/Canton_Zoning_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13057"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "CantonZoning"
+  },
+  "notes": "City of Canton zoning, per parcel (Canton_Zoning_Parcels layer published by CantonGIS): each feature is a parcel carrying its city zoning code. Used because the Canton district layer has invalid polygons.",
+  "verification": {
+    "verified_at": 1792133911897,
+    "counties": [
+      "13057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

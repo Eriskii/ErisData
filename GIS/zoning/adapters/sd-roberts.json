@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sd-roberts",
+  "publisher": "Roberts County GIS (First District Association of Local Governments)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Roberts/robertsmapnetpro/FeatureServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46109"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "County Zoning layer from the Roberts County official MapNet web app. ZONING holds district category names (e.g. COMMERCIAL, LAKE FRONT RESIDENTIAL) rather than codes; Zone is a numeric id. Only 79 polygons; coverage may be partial and may not include city zoning.",
+  "verification": {
+    "verified_at": 1792135454866,
+    "counties": [
+      "46109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

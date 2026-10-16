@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-oostburg",
+  "publisher": "Village of Oostburg (via CedarCorp)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/hxi0xsSkg0fqj2cp/arcgis/rest/services/Oostburg_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "55117"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDist",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "Village of Oostburg zoning layer published by CedarCorp.",
+  "verification": {
+    "verified_at": 1792136103185,
+    "counties": [
+      "55117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

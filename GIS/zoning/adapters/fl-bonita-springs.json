@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-bonita-springs",
+  "publisher": "City of Bonita Springs (hosted by Lee County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismapserver.leegov.com/gisserver910/rest/services/Layers/DCD_Zoning/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12071"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Bonita Springs zoning districts from Lee County DCD_Zoning service; zone_name not published. Publisher describes municipal zoning layers as historic.",
+  "verification": {
+    "verified_at": 1792133948569,
+    "counties": [
+      "12071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

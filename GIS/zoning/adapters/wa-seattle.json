@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wa-seattle",
+  "publisher": "City of Seattle Department of Construction and Inspections",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Current_Land_Use_Zoning_Detail_2/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "link": "CHAPTER_LINK",
+    "zone": "ZONING",
+    "zone_name": "ZONING_DESC"
+  },
+  "notes": "City of Seattle zoning, part of King County. Layer is Seattle zoning only; unincorporated and other cities are not in it. Zone code is ZONING; zone_name ZONING_DESC.",
+  "verification": {
+    "verified_at": 1792130968960,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-simpson-dlo",
+  "publisher": "Central Mississippi Planning and Development District (for Town of D'Lo)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Simpson_County_Feature_Layer/FeatureServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28127"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "D'Lo zoning, pre-2008 vintage.",
+  "verification": {
+    "verified_at": 1792134879889,
+    "counties": [
+      "28127"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

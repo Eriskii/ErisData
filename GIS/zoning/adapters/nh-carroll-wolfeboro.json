@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nh-carroll-wolfeboro",
+  "publisher": "Town of Wolfeboro (via allthingsspatial ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/EvDRLcHhbHG5BnwT/arcgis/rest/services/Wolfeboro_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33003"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "Town of Wolfeboro zoning districts, 85 polygons, found on ArcGIS Online under allthingsspatial; not confirmed as the town-published service, so official is false. Carroll County itself publishes no zoning layer found.",
+  "verification": {
+    "verified_at": 1792134981768,
+    "counties": [
+      "33003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-peachtree-city",
+  "publisher": "City of Peachtree City GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.peachtree-city.org/arcgis/rest/services/Zoning2021/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13113"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Subdivisio"
+  },
+  "notes": "City of Peachtree City zoning districts (city limits only; the county layer ga-fayette covers unincorporated land). zone_name holds the subdivision name, not a district description.",
+  "verification": {
+    "verified_at": 1792133918075,
+    "counties": [
+      "13113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

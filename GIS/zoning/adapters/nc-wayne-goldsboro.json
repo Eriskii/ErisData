@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-wayne-goldsboro",
+  "publisher": "City of Goldsboro GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/q2nSlChj7QgGTANO/arcgis/rest/services/Goldsboro_Zoning/FeatureServer/43",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37191"
+    ]
+  },
+  "fields": {
+    "zone": "CURRENT_ZONING"
+  },
+  "notes": "City of Goldsboro current zoning districts, published by Wayne County GIS.",
+  "verification": {
+    "verified_at": 1792135140839,
+    "counties": [
+      "37191"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

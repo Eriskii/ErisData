@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pr-corozal",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/MapServer/0",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72047"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "link": "clasi",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "OBJECTID >= 588376 AND OBJECTID <= 602400 AND municipio = 'Corozal'",
+  "notes": "Statewide JP calificacion layer; filter by municipio plus OBJECTID range to speed query. Parcel-level polygons.",
+  "verification": {
+    "verified_at": 1792138117498,
+    "counties": [
+      "72047"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ut-summit-county-east",
+  "publisher": "Summit County, Utah (Eastern Summit County Planning District)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/gyfpgFh2Wj2gglYD/arcgis/rest/services/Zoning_Service/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49043"
+    ]
+  },
+  "fields": {
+    "link": "DescLink",
+    "zone": "Label",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "Eastern Summit County planning district base zoning (unincorporated east county); hosted by the county GIS owner jmward.",
+  "verification": {
+    "verified_at": 1792135838350,
+    "counties": [
+      "49043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

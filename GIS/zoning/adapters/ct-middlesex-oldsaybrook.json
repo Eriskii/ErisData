@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ct-middlesex-oldsaybrook",
+  "publisher": "RiverCOG (Lower Connecticut River Valley Council of Governments), Town of Old Saybrook zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uH7GnAlGDzMooG4B/arcgis/rest/services/RiverCOG_Regional_Zoning/FeatureServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09130"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Old Saybrook layer from RiverCOG regional zoning service",
+  "verification": {
+    "verified_at": 1792133860208,
+    "counties": [
+      "09130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

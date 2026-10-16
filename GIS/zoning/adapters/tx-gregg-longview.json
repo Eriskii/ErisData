@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-gregg-longview",
+  "publisher": "City of Longview GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cloud.longviewtexas.gov/arcgis/rest/services/WebMaps/SPLCM/MapServer/87",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48183"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_DESCRIPTION"
+  },
+  "notes": "City of Longview zoning only (not unincorporated Gregg County, which does not zone). Layer 87 Zoning of the city WebMaps SPLCM map service.",
+  "verification": {
+    "verified_at": 1792135702453,
+    "counties": [
+      "48183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

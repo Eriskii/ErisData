@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-montgomery-red-oak",
+  "publisher": "Red Oak, Iowa (zoning districts compiled by Iowa State University ISUGIS)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "19137"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Red Oak'",
+  "notes": "Copy of Red Oak zoning districts compiled by ISU Extension/ISUGIS (Online Guide to Iowa Zoning), not hosted by the city. County (unincorporated) zoning is only a PDF map, so no county layer is queryable. Filtered to city Red Oak from the statewide compilation.",
+  "verification": {
+    "verified_at": 1792134216081,
+    "counties": [
+      "19137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

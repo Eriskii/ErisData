@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wi-polk",
+  "publisher": "Polk County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/2RIFco0Rk0YlWKga/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "55095"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "link": "LINK",
+    "zone": "ZONINGCODE",
+    "zone_name": "ZONINGCLASS"
+  },
+  "notes": "Polk County WI Zoning Districts (Ordinance No. 07-19), county-hosted ArcGIS Online service by PolkCountyWI. Covers unincorporated towns and any municipality in the layer, distinguished by JURISDICTION. ZONINGCODE blank for some village/city features.",
+  "verification": {
+    "verified_at": 1792136209019,
+    "counties": [
+      "55095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

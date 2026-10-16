@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-middlesex",
+  "publisher": "Middlesex County GIS (Virginia)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/UrElc2PRESEUr5jw/arcgis/rest/services/Zones/FeatureServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51119"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "Zone"
+  },
+  "notes": "Planning zones layer published by Middlesex County GIS (gnix hub). Zone holds district code.",
+  "verification": {
+    "verified_at": 1792135936548,
+    "counties": [
+      "51119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

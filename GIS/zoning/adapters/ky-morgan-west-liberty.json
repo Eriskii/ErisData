@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ky-morgan-west-liberty",
+  "publisher": "City of West Liberty, KY (via ArcGIS Online WL_Zoning Public View)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/aaZhjjkUqOHS7oRg/arcgis/rest/services/WL_Zoning_Public_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21175"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of West Liberty zoning districts only (county seat); Morgan County itself publishes no county-wide zoning layer found. Layer hosted on ArcGIS Online by account gwadduser, named WL_Zoning Public View; no zone_name or ordinance link field available.",
+  "verification": {
+    "verified_at": 1792134390546,
+    "counties": [
+      "21175"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

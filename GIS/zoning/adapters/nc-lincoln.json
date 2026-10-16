@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-lincoln",
+  "publisher": "Lincoln County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/TaX0xkzgvxdv4n56/arcgis/rest/services/Zoning_Layer_Web_Map_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONECODE"
+  },
+  "notes": "Lincoln County Zoning Layer (County Zoning sublayer), published by Lincoln County NC on ArcGIS Hub. JURISDICTION names the zoning authority (county or municipality such as LINCOLNTON, MAIDEN). CUSE is mostly blank so zone_name is not mapped.",
+  "verification": {
+    "verified_at": 1792135090095,
+    "counties": [
+      "37109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

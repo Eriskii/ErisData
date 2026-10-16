@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-houston-dothan",
+  "publisher": "City of Dothan, Alabama",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/UXN4FGWBfn79LLPC/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01069"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "Zone_descr"
+  },
+  "notes": "City of Dothan zoning only (largest city in Houston County); county unincorporated zoning is not published as a service. No ordinance link field is populated.",
+  "verification": {
+    "verified_at": 1792133711979,
+    "counties": [
+      "01069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

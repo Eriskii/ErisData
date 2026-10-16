@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "32015",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.landercountynv.org/departments/planning_and_zoning/index.php",
+    "https://www.landercountynv.org/document_center/Planning/MP_Fig_A-2_BattleMt_ZoningExisting_Town_24x26.pdf",
+    "https://www.landercountynv.org/document_center/Planning/MP_Fig_A-4_BattleMt_ZoningExisting_24x36.pdf",
+    "https://www.landercountynv.org/government/assessor/gis_interactive_map.php"
+  ],
+  "note": "Lander County (NV) publishes its zoning only as static PDF maps (2010 master plan Figures A-2 Battle Mountain Town Zoning and A-4 Battle Mountain Area Zoning). No queryable ArcGIS REST zoning district layer was found in ArcGIS Online/Hub searches or county pages. The assessor's GIS viewer (experience.arcgis.com) could not be inspected for a zoning layer. The state parcel layer (arcgis.water.nv.gov County_Parcels_in_Nevada) has no zoning field, so it is not a fallback. No city in the county publishes zoning GIS separately; Battle Mountain is governed by the county's zoning.",
+  "recorded_at": 1792134981922,
+  "recheck_after": 1807686981922,
+  "model": "claude-haiku-5-5"
+}

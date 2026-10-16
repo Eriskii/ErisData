@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-morgan",
+  "publisher": "Morgan County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/iSzqv8eal4TO2oVb/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08087"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "LOCCITY",
+    "zone": "ZONING"
+  },
+  "filter": "ZONING IS NOT NULL",
+  "notes": "Last resort: county parcel layer whose ZONING attribute carries each parcel zoning code (not a district layer). Published by Morgan County GIS in the county ArcGIS Online organization. Unincorporated parcels show LOCCITY NULL; city parcels show the city name.",
+  "verification": {
+    "verified_at": 1792133852470,
+    "counties": [
+      "08087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

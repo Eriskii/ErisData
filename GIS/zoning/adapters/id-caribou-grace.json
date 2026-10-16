@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "id-caribou-grace",
+  "publisher": "Caribou County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/qnw9CxcuDG55fwTB/arcgis/rest/services/Zoning_and_Land_Use_PUBLIC/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16029"
+    ]
+  },
+  "fields": {
+    "zone": "Sub_Zone"
+  },
+  "notes": "Zoning districts of Grace city, published by Caribou County GIS in the Zoning_and_Land_Use_PUBLIC service; Zone_Class holds the broad class (RES, etc.) and is sparse",
+  "verification": {
+    "verified_at": 1792133726607,
+    "counties": [
+      "16029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

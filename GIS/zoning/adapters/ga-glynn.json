@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-glynn",
+  "publisher": "Glynn County GA (copy hosted in ArcGIS Online by tgiarrusso, CoastalZoning 2024)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/I9cUOJUZvdGAJncI/arcgis/rest/services/CoastalZoning/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13127"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE_TYPE"
+  },
+  "notes": "Unofficial copy of Glynn County zoning (2024) in the CoastalZoning service; county server gis-web.glynncounty-ga.gov was down. Appears to cover county plus city zoning in one layer.",
+  "verification": {
+    "verified_at": 1792134031139,
+    "counties": [
+      "13127"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

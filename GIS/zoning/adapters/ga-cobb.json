@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-cobb",
+  "publisher": "Cobb County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cobbcounty.gov/gisserver/rest/services/comdev/CobbZoningData/MapServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13067"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict",
+    "zone_name": "ZoningDistrictLabel"
+  },
+  "notes": "Cobb County Zoning Districts from CobbZoningData MapServer layer 6 (8,467 polygons). Covers unincorporated Cobb; cities such as Marietta and Smyrna zone their own land. zone_name is the district label and may carry a stipulation tag (e.g. RA-6 ws); no ordinance link field is published.",
+  "verification": {
+    "verified_at": 1792133899365,
+    "counties": [
+      "13067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

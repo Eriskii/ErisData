@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-clinton-lock-haven",
+  "publisher": "City of Lock Haven GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/q8sarOko6mCDwiGm/arcgis/rest/services/Lock_Haven_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42035"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "NewZoning"
+  },
+  "notes": "Lock Haven zoning layer; parcel-level zoning",
+  "verification": {
+    "verified_at": 1792135920144,
+    "counties": [
+      "42035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

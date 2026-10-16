@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-calhoun",
+  "publisher": "Calhoun County, FL (zoning layer hosted by Apalachee Regional Planning Council)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arpc.org/server/rest/services/Hosted/Map/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12013"
+    ]
+  },
+  "fields": {
+    "zone": "zoningcode",
+    "zone_name": "updated"
+  },
+  "notes": "Calhoun County Zoning Lookup web app (ARPC-hosted). Layer is parcel-keyed (parcelno) with zoning code per parcel; no jurisdiction field. Verify zone_name content.",
+  "verification": {
+    "verified_at": 1792133850200,
+    "counties": [
+      "12013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

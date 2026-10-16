@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-indian-river-vero-beach",
+  "publisher": "City of Vero Beach GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/mK9abRqiJFkUgbPZ/arcgis/rest/services/ZoningFutureLandUse/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12061"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "City of Vero Beach zoning (combined zoning/future land use layer; covers city only, not unincorporated county). Field Code holds district code.",
+  "verification": {
+    "verified_at": 1792133879762,
+    "counties": [
+      "12061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

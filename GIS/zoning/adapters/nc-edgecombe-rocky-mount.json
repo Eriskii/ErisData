@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-edgecombe-rocky-mount",
+  "publisher": "City of Rocky Mount (via Edgecombe County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.edgecombecountync.gov/arcgis/rest/services/webmap/MapServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37065"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Rocky Mount zoning layer from the Edgecombe County webmap MapServer, layer 16. Rocky Mount extends into Nash County too; this spec covers the Edgecombe portion.",
+  "verification": {
+    "verified_at": 1792135087549,
+    "counties": [
+      "37065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

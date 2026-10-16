@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-pueblo-city",
+  "publisher": "City of Pueblo",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.pueblo.co.us/outside/rest/services/Landbase/PuebloCounty_ZoningCountyCity/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08101"
+    ]
+  },
+  "fields": {
+    "link": "ZoningURL",
+    "zone": "ZONE_CODE"
+  },
+  "notes": "City of Pueblo zoning from the county-hosted combined zoning service.",
+  "verification": {
+    "verified_at": 1792133812242,
+    "counties": [
+      "08101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

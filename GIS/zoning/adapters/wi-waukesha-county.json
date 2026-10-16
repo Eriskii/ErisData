@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-waukesha-county",
+  "publisher": "Waukesha County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.waukeshacounty.gov/host/rest/services/ZoningCountyShoreland/MapServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55133"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Town",
+    "zone": "Zoning_Area"
+  },
+  "notes": "Waukesha County zoning districts (county zoning authority, unincorporated areas). Town field names the town.",
+  "verification": {
+    "verified_at": 1792136092760,
+    "counties": [
+      "55133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

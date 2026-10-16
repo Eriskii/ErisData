@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-erath-stephenville",
+  "publisher": "City of Stephenville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/armqhDnJhaLpleFI/arcgis/rest/services/Zoning_to_AGOL/FeatureServer/594",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48143"
+    ]
+  },
+  "fields": {
+    "zone": "Short_Code",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Stephenville zoning districts (city limits only, not the county unincorporated area), published by the city GIS office via its public interactive map. Layer reprojected by runtime to lon/lat.",
+  "verification": {
+    "verified_at": 1792135646177,
+    "counties": [
+      "48143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

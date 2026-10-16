@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-holmes-millersburg",
+  "publisher": "Holmes County GIS (Village of Millersburg zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.holmes.oh.us/server/rest/services/Millersburg_Zoning/MapServer/0",
+    "page_size": 100,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "39075"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "ZoningDistrict"
+  },
+  "notes": "Covers only the Village of Millersburg (county seat), about 80 features; no county-wide or other-municipality zoning layer found on the Holmes County GIS server. Ordinance field holds ordinance reference.",
+  "verification": {
+    "verified_at": 1792135178998,
+    "counties": [
+      "39075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

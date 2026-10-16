@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-washington-marietta",
+  "publisher": "City of Marietta, Ohio (Buckeye Hills Regional Council, 2016)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/nmiTqKBr781zgH63/arcgis/rest/services/Marietta_Ohio_Zoning_2016_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39167"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TaxDistric",
+    "zone": "Zoning"
+  },
+  "notes": "City of Marietta zoning, 2016 update by Buckeye Hills Regional Council of Governments; parcel-based polygons carrying a Zoning attribute; may be dated",
+  "verification": {
+    "verified_at": 1792135284664,
+    "counties": [
+      "39167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

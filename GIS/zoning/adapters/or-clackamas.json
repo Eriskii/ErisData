@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-clackamas",
+  "publisher": "Oregon Metro RLIS (Clackamas County jurisdictions)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/McQ0OlIABe29rJJy/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZONE",
+    "zone_name": "ZONE_CLASS"
+  },
+  "filter": "CITY IN ('Clackamas Co.','Oregon City','Milwaukie','Sandy','Canby','Wilsonville','Gladstone','Happy Valley','West Linn','Lake Oswego','Estacada','Molalla','Johnson City','Gaston','Barlow','King City')",
+  "notes": "Metro RLIS regional zoning layer (OregonMetro.RLIS, under RLIS license); covers Clackamas County jurisdictions. ZONE_CLASS is the class/description field; ZONEGEN_CL is a generalized class.",
+  "verification": {
+    "verified_at": 1792135254498,
+    "counties": [
+      "41005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

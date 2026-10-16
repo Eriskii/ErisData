@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wv-marion-fairmont",
+  "publisher": "City of Fairmont GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/xaLRpaLmRR9wPXdQ/arcgis/rest/services/Current_Zoning_Map/FeatureServer/30",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54049"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT"
+  },
+  "notes": "City of Fairmont zoning only (no county zoning layer found for Marion County WV); city-published Current Zoning Map underlay. zone_name sparsely populated in source (DESCRIPTION), so omitted. Covers City of Fairmont only, not unincorporated county land or other towns.",
+  "verification": {
+    "verified_at": 1792136025406,
+    "counties": [
+      "54049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

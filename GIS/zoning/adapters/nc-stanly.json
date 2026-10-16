@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-stanly",
+  "publisher": "Stanly County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/w1igg0Q14weqYXUh/arcgis/rest/services/parcel_records_base_2/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37167"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONING"
+  },
+  "notes": "Zoning layer from the Stanly County GIS web map (stanlycounty.maps.arcgis.com), hosted on the county services6 org. PENDINGZONING holds pending changes and is not mapped.",
+  "verification": {
+    "verified_at": 1792135146000,
+    "counties": [
+      "37167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

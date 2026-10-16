@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-cherokee-andrews",
+  "publisher": "Town of Andrews (hosted by Cherokee County NC GIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/UmQCfTNQbyTzAV5N/arcgis/rest/services/AndrewsNCZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37039"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneType",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "Town of Andrews zoning districts only; unincorporated county not covered by any reachable layer. County MainLayers service (gis.cherokeega.com) was unreachable.",
+  "verification": {
+    "verified_at": 1792135063147,
+    "counties": [
+      "37039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

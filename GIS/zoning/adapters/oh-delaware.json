@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "oh-delaware",
+  "publisher": "Delaware County Auditor GIS / Delaware County Regional Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.delco-gis.org/arcgiswebadaptor/rest/services/AuditorGISWebsite/AuditorMap_Zoning_WM/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TWP",
+    "link": "LINK",
+    "zone": "ZONING",
+    "zone_name": "DSC_ZONE"
+  },
+  "notes": "Township zoning from DCRPC/auditor MapServer layer; 1260 features. Village/city zoning not included in this layer.",
+  "verification": {
+    "verified_at": 1792135158846,
+    "counties": [
+      "39041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

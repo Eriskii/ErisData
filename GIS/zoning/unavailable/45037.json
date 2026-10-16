@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "45037",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=859&LayerID=16089&PageTypeID=1&PageID=7159",
+    "https://edgefieldcounty.sc.gov/building-permits-applications-and-fees",
+    "https://edgefieldcounty.sc.gov/wp-content/uploads/2025/07/24-31-Clean-2025.pdf"
+  ],
+  "note": "Edgefield County (SC) zoning districts are shown only in the qPublic/Schneider web viewer (separate Edgefield, Johnston and Trenton zoning layers), which is behind Cloudflare and offers no REST endpoint; county zoning documents are PDFs. The county's GIS services (Clemson Edgefield_Features FeatureServer) hold wetlands, sinks, PRT and county boundary only. No public queryable zoning polygon service was found after searching ArcGIS Online/Hub, county and town sites.",
+  "recorded_at": 1792135378318,
+  "recheck_after": 1807687378318,
+  "model": "claude-haiku-5-5"
+}

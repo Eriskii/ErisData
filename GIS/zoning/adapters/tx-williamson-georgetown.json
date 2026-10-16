@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-williamson-georgetown",
+  "publisher": "City of Georgetown GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.georgetowntexas.gov/arcgis/rest/services/Planning/PlanningDevelopmentNew_WebMap/MapServer/20",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48491"
+    ]
+  },
+  "fields": {
+    "link": "Doc_Link",
+    "zone": "ZONE",
+    "zone_name": "FULLZONE"
+  },
+  "notes": "City of Georgetown base zoning districts from the city planning MapServer. City-only layer.",
+  "verification": {
+    "verified_at": 1792135866362,
+    "counties": [
+      "48491"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

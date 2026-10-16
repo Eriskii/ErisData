@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "27093",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://meeker-county-gis-meekergis.hub.arcgis.com/api/search/v1/collections/dataset/items?limit=100",
+    "https://www.meekercountymn.gov/DocumentCenter/View/2719/Meeker-County-Land-Development-Ordinances-PDF",
+    "https://www.ci.litchfield.mn.us/DocumentCenter/View/708/Zoning-Map-2021"
+  ],
+  "note": "Meeker County GIS Hub publishes only parcels, roads, address points and similar layers; no zoning district service found in the Hub catalog, the county ArcGIS Online org (services2.arcgis.com/pHb2Lre5eSy5plfE), or ArcGIS Online search. County zoning districts (A-1, R-1, R-2, C-1, C-2, I-1) appear only in the 2018 ordinance PDF; Litchfield's zoning map is a PDF/image. No queryable zoning polygon layer for the county or its cities was found.",
+  "recorded_at": 1792134572107,
+  "recheck_after": 1807686572107,
+  "model": "claude-haiku-5-5"
+}

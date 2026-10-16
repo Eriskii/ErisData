@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "38063",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.nelsonco.org/government/cities_townships.php",
+    "https://www.nelsonco.org/Documents/Government/Zoning%20Regulations/Nelson_Countys_Zoning_Regulations(1).pdf",
+    "https://lakota-nd.com/index.asp?DE=311D8845-C321-4083-B158-CAA91B9431AD&SEC=91123057-7F2A-4A28-B2A9-64FB5C3D6DBB",
+    "https://nelson.offroadsoftware.com/"
+  ],
+  "note": "Nelson County ND has zoning regulations, but the regulations PDF is a scanned image with no extractable text and no published district map. The county parcel viewer (nelson.offroadsoftware.com) exposes no zoning layer or public ArcGIS service; the old mapserver.co.nelson.nd.us returns 404 for ArcGIS REST. The city of Lakota's Zoning Map is 'on file in the office of the city auditor' per Sec. 17.0302, with no published service. ArcGIS Online searches for Nelson County zoning returned no official or copy layer. Only image/PDF or viewer-only zoning was found.",
+  "recorded_at": 1792135166069,
+  "recheck_after": 1807687166069,
+  "model": "claude-haiku-5-5"
+}

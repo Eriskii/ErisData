@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-grayson",
+  "publisher": "Grayson County GIS (WebGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.webgis.net/arcgis/rest/services/VA/GraysonCo_WebGIS1/MapServer/21",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51077"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONING"
+  },
+  "notes": "Grayson County, VA WebGIS zoning layer; covers unincorporated county land. Towns (Independence, Troutdale, Fries) not included in this layer.",
+  "verification": {
+    "verified_at": 1792135943126,
+    "counties": [
+      "51077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

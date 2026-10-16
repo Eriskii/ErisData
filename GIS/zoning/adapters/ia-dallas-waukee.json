@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-dallas-waukee",
+  "publisher": "City of Waukee GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.waukee.org/arcgis/rest/services/OpenGov/OpenGov/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19049"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Class",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "City of Waukee zoning only (part of Dallas County); not county-wide. Source is the city OpenGov FeatureServer.",
+  "verification": {
+    "verified_at": 1792133665713,
+    "counties": [
+      "19049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

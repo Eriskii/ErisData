@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-adams-quincy",
+  "publisher": "Western Illinois University GIS class (Quincy Zoning Master), Quincy parcels with zoning",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/yKAN6qXNTxhi4ojw/arcgis/rest/services/Quincy_Zoning_Master/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Zoning",
+    "zone": "Zoning",
+    "zone_name": "ZoningLabel"
+  },
+  "notes": "Unofficial copy: a student-project ArcGIS Online item by wiuclass, not the City of Quincy. Quincy city only, and a parcel layer (QuincyParcelsZoning, about 20,600 parcels) whose attributes carry each parcel zoning. Used because the official-looking district polygons in the county basemap and Web_Jurisdiction_Data failed polygon validity.",
+  "verification": {
+    "verified_at": 1792134005632,
+    "counties": [
+      "17001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

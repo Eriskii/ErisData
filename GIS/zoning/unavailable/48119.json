@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48119",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.deltacountytx.com/community/page/county-maps",
+    "https://cityofcoopertx.municipalimpact.com/planning-and-zoning",
+    "https://en.wikipedia.org/wiki/Pecan_Gap,_Texas"
+  ],
+  "note": "Delta County TX (48119) does not zone unincorporated land; Texas counties generally lack county zoning. The county's GIS (ATCOG, CUPPAD) publishes parcels, precincts and fire districts, not zoning. City of Cooper (county seat) publishes zoning only as PDF (Zoning Information notice, code of ordinances); no zoning GIS layer found. Pecan Gap has no zoning map or GIS. The zoning_districts FeatureServer found on ArcGIS (lQySeXwbBg53XWDi) returns zero features in the county bounding box, so it is not Delta County's.",
+  "recorded_at": 1792135646472,
+  "recheck_after": 1807687646472,
+  "model": "claude-haiku-5-5"
+}

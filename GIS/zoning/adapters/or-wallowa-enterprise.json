@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-wallowa-enterprise",
+  "publisher": "Oregon DLCD statewide zoning compilation (City of Enterprise zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41063"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Enterprise'",
+  "notes": "Statewide DLCD zoning compilation (2023). Wallowa County unincorporated zoning and the cities of Joseph, Wallowa and Lostine are not in it (no-data or Not Public only); only City of Enterprise zoning is present. Zone codes are state standard codes (orZCode); local codes are blank.",
+  "verification": {
+    "verified_at": 1792135360639,
+    "counties": [
+      "41063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

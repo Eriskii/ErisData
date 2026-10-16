@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-berkeley-hanahan",
+  "publisher": "Berkeley County GIS (City of Hanahan zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.berkeleycountysc.gov/arcgis/rest/services/desktop/internet_map/MapServer/38",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Hanahan zoning districts as published by Berkeley County GIS. ZONE holds the district code.",
+  "verification": {
+    "verified_at": 1792135353994,
+    "counties": [
+      "45015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

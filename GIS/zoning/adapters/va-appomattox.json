@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-appomattox",
+  "publisher": "Appomattox County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/wnL4os9xzGCi48td/arcgis/rest/services/Appomattox_WL_P/FeatureServer/26",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "County zoning layer (unincorporated county) from the county GIS mapping service. Only a zone code is published; no description or ordinance link.",
+  "verification": {
+    "verified_at": 1792135864486,
+    "counties": [
+      "51011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

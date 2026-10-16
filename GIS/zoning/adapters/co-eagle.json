@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-eagle",
+  "publisher": "Eagle County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map.eaglecounty.us/arcgiswa/rest/services/ArcGIS_Server_GIS_Viewer/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08037"
+    ]
+  },
+  "fields": {
+    "link": "PUDlink",
+    "zone": "ZONING_CLA",
+    "zone_name": "ZONING_NM"
+  },
+  "notes": "Eagle County unincorporated zoning from the county GIS Viewer; 663 features. Zoning_CLA holds district codes; PUD records carry PUD_Name.",
+  "verification": {
+    "verified_at": 1792133783894,
+    "counties": [
+      "08037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

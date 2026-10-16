@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "or-klamath",
+  "publisher": "Klamath County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/H6Mh1bySxR4oHx6x/arcgis/rest/services/KC_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41035"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_"
+  },
+  "notes": "Klamath County Land Use Zoning layer (ArcGIS Online item by Klamath County GIS user ewilde). Only zone code field is provided; no name or jurisdiction field.",
+  "verification": {
+    "verified_at": 1792135258644,
+    "counties": [
+      "41035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

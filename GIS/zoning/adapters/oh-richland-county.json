@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-richland-county",
+  "publisher": "Richland County Regional Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/IjP9BJi77tsOI6vD/arcgis/rest/services/Richland_County_Zoning20260623/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "COMM",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Combined zoning for all zoned jurisdictions in Richland County, maintained by RCRPC (jwerner). COMM names the city, village or township; RES_URL holds ordinance numbers, not links, so it is not mapped.",
+  "verification": {
+    "verified_at": 1792135179633,
+    "counties": [
+      "39139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

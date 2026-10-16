@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-richland",
+  "publisher": "Richland County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.richland.wi.us/arcgis/rest/services/RichlandCo_GIS_Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUN_NAME",
+    "link": "LINK",
+    "zone": "ZONE_DESIG"
+  },
+  "notes": "County zoning layer; holds county and municipal zoning districts with MUN_NAME naming each jurisdiction. Source is county GIS (RichlandCo_GIS_Zoning).",
+  "verification": {
+    "verified_at": 1792136051369,
+    "counties": [
+      "55103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

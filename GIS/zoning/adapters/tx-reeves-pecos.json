@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-reeves-pecos",
+  "publisher": "Town of Pecos City, TX (ArcGIS Online, Pecos Zoning and Planning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/HqkR3CySve4NGHdL/arcgis/rest/services/Pecos_Zoning_and_Planning_WFL1/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48389"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode_1",
+    "zone_name": "ZoneDesc_1"
+  },
+  "notes": "Town of Pecos City zoning codes, published as a parcel-based layer (one feature per parcel, with the zoning code and description on each; includes RCAD ownership attributes). Covers the city only, not unincorporated Reeves County. Source is the city-run ArcGIS Online item; no ordinance link field.",
+  "verification": {
+    "verified_at": 1792135952344,
+    "counties": [
+      "48389"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

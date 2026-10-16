@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-altavista",
+  "publisher": "Town of Altavista (copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/xfQUUFsoHxzE0NMx/arcgis/rest/services/Zoning_Map_WFL1/FeatureServer/44",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Unofficial copy uploaded by an individual (mperkins510) of Altavista town zoning as of 10/10/22; no official queryable town zoning service found. Town zoning, not county; attributes NOTES say ZONED BY THE TOWN OF ALTAVISTA.",
+  "verification": {
+    "verified_at": 1792135902449,
+    "counties": [
+      "51031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-san-juan",
+  "publisher": "San Juan County, Colorado (Town of Silverton zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/wkH46IqOhYntFxVp/arcgis/rest/services/Zoning_Silverton/FeatureServer/100",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08111"
+    ]
+  },
+  "fields": {
+    "zone": "PropZonAbbr",
+    "zone_name": "Zoning"
+  },
+  "notes": "Town of Silverton zoning as of 2025, published by San Juan County GIS. Covers only the Town of Silverton, not unincorporated county land. Parcel-level polygons carrying zoning attributes; zone is PropZonAbbr (district code), zone_name is the broader Zoning category.",
+  "verification": {
+    "verified_at": 1792133829469,
+    "counties": [
+      "08111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

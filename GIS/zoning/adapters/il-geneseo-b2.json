@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-geneseo-b2",
+  "publisher": "City of Geneseo, IL (Bi-State Regional Commission ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/nNJLeOqxAgP4H4UY/arcgis/rest/services/Geneseo_Zoning_Map_WFL1/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17073"
+    ]
+  },
+  "fields": {
+    "link": "ZoningOrdinanceLink",
+    "zone": "Zoning"
+  },
+  "notes": "Geneseo B-2 Business (Highway) layer only (one layer per district; parcel-based polygons).",
+  "verification": {
+    "verified_at": 1792134280687,
+    "counties": [
+      "17073"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

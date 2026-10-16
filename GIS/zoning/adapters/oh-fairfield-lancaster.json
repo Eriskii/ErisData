@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-fairfield-lancaster",
+  "publisher": "City of Lancaster GIS (LancasterGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/CRjnKyCe3OfYTMC3/arcgis/rest/services/Zoning_Pre2023_(view)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39045"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "Zoning_Code",
+    "zone_name": "Code_Description"
+  },
+  "notes": "City of Lancaster zoning before the 2023 revision (parcel-level polygons); the current 2023 layer Zoning_(view) fails geometry validity so this older layer is used",
+  "verification": {
+    "verified_at": 1792135268321,
+    "counties": [
+      "39045"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

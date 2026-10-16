@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-campbell",
+  "publisher": "Campbell County GIS Office",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.campbell.va.us/arcgis/rest/services/Public_Data/Zoning_Districts/MapServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "County zoning districts for unincorporated Campbell County; towns (Altavista, Brookneal) zone their own land and are not in this layer. No jurisdiction field; no ordinance link field.",
+  "verification": {
+    "verified_at": 1792135873087,
+    "counties": [
+      "51031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

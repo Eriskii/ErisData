@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "id-idaho-county",
+  "publisher": "Idaho County GIS (Grangeville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/gqcDdwE7LMrYrEMJ/arcgis/rest/services/Grangeville_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16049"
+    ]
+  },
+  "fields": {
+    "zone": "Layer"
+  },
+  "notes": "Only zoning layer found on Idaho County GIS services; covers the Grangeville area only (11 CAD-derived polygons, dated 2021). Zone holds the category (COMMERCIAL, INDUSTRIAL, RESIDENTIAL A/B), no ordinance link or zone name. Unincorporated county land is not zoned in this layer.",
+  "verification": {
+    "verified_at": 1792133667307,
+    "counties": [
+      "16049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

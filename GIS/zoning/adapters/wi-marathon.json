@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-marathon",
+  "publisher": "Marathon County GIS (copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/82iS1Pc7dgs3LFZv/arcgis/rest/services/Marathon_County_Zoned_Towns/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55073"
+    ]
+  },
+  "fields": {
+    "zone": "newzone1"
+  },
+  "notes": "Personal ArcGIS Online copy (owner ntice, Marathon_County_Zoned_Towns) of the county zoning districts for towns under county zoning; used because the county own County Zoning Districts layer (gis2.co.marathon.wi.us Planning_and_Zoning/MapServer/51) refuses paging. Cities such as Wausau are not included. Only district code published.",
+  "verification": {
+    "verified_at": 1792136110003,
+    "counties": [
+      "55073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

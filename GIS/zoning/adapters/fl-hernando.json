@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-hernando",
+  "publisher": "Hernando County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/x5zvhhxfUuRDntRe/arcgis/rest/services/Zoning_Flu/FeatureServer/75",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12053"
+    ]
+  },
+  "fields": {
+    "link": "ZONE_NOTES",
+    "zone": "ZONING",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Hernando County unincorporated zoning from the County GIS Zoning layer (Zoning_Flu service). Cities such as Brooksville maintain their own zoning and are not in this layer.",
+  "verification": {
+    "verified_at": 1792133838766,
+    "counties": [
+      "12053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

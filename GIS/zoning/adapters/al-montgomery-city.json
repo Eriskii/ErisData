@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-montgomery-city",
+  "publisher": "City of Montgomery GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.montgomeryal.gov/server/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01101"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "City of Montgomery zoning only; the county publishes no unincorporated zoning layer found in search, so this covers the city, not the whole county. Source: City of Montgomery GIS Zoning FeatureServer.",
+  "verification": {
+    "verified_at": 1792133712132,
+    "counties": [
+      "01101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

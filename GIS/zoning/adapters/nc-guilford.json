@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-guilford",
+  "publisher": "Guilford County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gcgis.guilfordcountync.gov/arcgis/rest/services/Planning_Zoning/Combined_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37081"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONING",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Combined county layer of base zoning for unincorporated county and municipalities/ETJs in Guilford County (JURISDICTION field). Source is a county-hosted service.",
+  "verification": {
+    "verified_at": 1792135068454,
+    "counties": [
+      "37081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

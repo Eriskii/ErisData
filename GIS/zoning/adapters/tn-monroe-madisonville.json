@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-monroe-madisonville",
+  "publisher": "Monroe County TN GIS (City of Madisonville)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/ce7KWJtkyRqyMe6X/arcgis/rest/services/ZoningMadisonville_20210225/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47123"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Current"
+  },
+  "filter": "OBJECTID <> 18",
+  "notes": "Madisonville city zoning, Monroe County org; one self-intersecting polygon excluded",
+  "verification": {
+    "verified_at": 1792135561355,
+    "counties": [
+      "47123"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

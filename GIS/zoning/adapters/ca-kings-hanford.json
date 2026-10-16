@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-kings-hanford",
+  "publisher": "City of Hanford",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/xJA6NTvwhTUZnE2Z/arcgis/rest/services/2035_Zoning/FeatureServer/36",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06031"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "zoningdesc"
+  },
+  "notes": "City of Hanford 2035 zoning layer (city limits only, not unincorporated county land). Hosted by City of Hanford on ArcGIS Online.",
+  "verification": {
+    "verified_at": 1792134015749,
+    "counties": [
+      "06031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

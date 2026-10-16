@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-gadsden-havana",
+  "publisher": "Town of Havana / Apalachee Regional Planning Council (ARPC maps)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/N3lCn6dEKCL6LidU/arcgis/rest/services/Havana_Zoning_Districts_WFL1/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12039"
+    ]
+  },
+  "fields": {
+    "zone": "Category",
+    "zone_name": "Category"
+  },
+  "notes": "Town of Havana zoning districts only (not unincorporated county). Hosted by ARPC (regional planning council) on ArcGIS Online. Only a category field is published; no separate district code.",
+  "verification": {
+    "verified_at": 1792133873744,
+    "counties": [
+      "12039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

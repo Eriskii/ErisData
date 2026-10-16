@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "20139",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.osageco.org/DocumentCenter/View/245/Osage-County-Zoning-Regulations-PDF",
+    "https://experience.arcgis.com/experience/c823d0c5999347f1b424932b54d9fd03/",
+    "https://services9.arcgis.com/yGerJCngvNpaN2km/arcgis/rest/services"
+  ],
+  "note": "Osage County KS has zoning regulations (AG, SR, R-1, V-1 districts) and says official zoning maps may be computer records, but its public ArcGIS services (services9.arcgis.com/yGerJCngvNpaN2km: Aguse land use, parcels, city limits, soils, roads, sections) include no zoning district layer; the Community GIS viewer's config lists no zoning layer. Searches of ArcGIS Hub/Online and of Osage City, Lyndon, Carbondale and Burlingame found no zoning district service. Only a commercial Regrid parcel dataset carries zoning fields, with about 30% coverage, so it was not submitted.",
+  "recorded_at": 1792134323835,
+  "recheck_after": 1807686323835,
+  "model": "claude-haiku-5-5"
+}

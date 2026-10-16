@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ok-canadian-el-reno",
+  "publisher": "City of El Reno, OK",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/9voKBZ2F2TY0HVPc/arcgis/rest/services/Zoning20180928__VIEW_Layer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "City of El Reno zoning (2018 layer, 549 districts) from the city ArcGIS Online organization; covers El Reno city limits only. No ordinance links in the source; ORDINANCE_ is mostly blank.",
+  "verification": {
+    "verified_at": 1792135308451,
+    "counties": [
+      "40017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

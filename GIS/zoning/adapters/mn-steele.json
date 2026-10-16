@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-steele",
+  "publisher": "Steele County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.steele.mn/server/rest/services/gcportal_us_mn_co_steele/Tax_Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27147"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITYDESC",
+    "zone": "Zoning"
+  },
+  "notes": "Fallback: no zoning district polygon layer found on the county server or in searches. This is the county tax parcel layer; each parcel carries its zoning code in Zoning. Parcel polygons, not district polygons, so dissolve by zone for district shapes. Zoning covers unincorporated land and cities that zone for themselves may differ.",
+  "verification": {
+    "verified_at": 1792134561720,
+    "counties": [
+      "27147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

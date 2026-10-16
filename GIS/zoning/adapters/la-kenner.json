@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-kenner",
+  "publisher": "City of Kenner Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/gCizoHqvF7Wwkv9D/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22051"
+    ]
+  },
+  "fields": {
+    "zone": "SPRZ",
+    "zone_name": "Descriptio"
+  },
+  "notes": "City of Kenner zoning districts only (Kenner is a city in Jefferson Parish, outside the parish layer). SPRZ is the district code; some features are Special Ordinance (S.O.) areas with no code detail.",
+  "verification": {
+    "verified_at": 1792134447819,
+    "counties": [
+      "22051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-waterloo",
+  "publisher": "City of Waterloo, Iowa",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/QOAXA4I2iTKKdBuy/arcgis/rest/services/City_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DEF"
+  },
+  "notes": "City of Waterloo zoning districts within city limits only; unincorporated county zoning is in ia-black-hawk.",
+  "verification": {
+    "verified_at": 1792133691405,
+    "counties": [
+      "19013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

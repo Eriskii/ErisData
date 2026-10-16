@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-hardin-lumberton",
+  "publisher": "City of Lumberton, Texas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/DTccFR0HgNCXG62z/arcgis/rest/services/Lumberton_Zones/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48199"
+    ]
+  },
+  "fields": {
+    "zone": "LABEL",
+    "zone_name": "ZONE"
+  },
+  "notes": "City of Lumberton zoning districts (city limits only; Hardin County unincorporated land is not zoned in Texas counties). From the city zoning map web app (services.arcgis.com/DTccFR0HgNCXG62z). LABEL is the district code, ZONE the district name.",
+  "verification": {
+    "verified_at": 1792135700545,
+    "counties": [
+      "48199"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

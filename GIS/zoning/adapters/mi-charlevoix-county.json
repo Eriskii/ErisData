@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mi-charlevoix-county",
+  "publisher": "City of Charlevoix (Michigan) via ArcGIS Online",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/1lVQrZMRGwmkesR4/arcgis/rest/services/Zoning_Map_2022/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26029"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Covers only the City of Charlevoix (districts such as R1, R2, CBD, I), not county-wide. No county or other township zoning layer is queryable: township zoning is published only as PDF maps. Layer dated 2022.",
+  "verification": {
+    "verified_at": 1792132298135,
+    "counties": [
+      "26029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

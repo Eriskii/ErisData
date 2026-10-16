@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wy-natrona",
+  "publisher": "Natrona County / City of Casper GIS (NRGC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.casperwy.gov/nrgisc/rest/services/Zoning/Zoning/FeatureServer/0",
+    "page_size": 49,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56025"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONING_JURISDICTION",
+    "link": "ZoningLink",
+    "zone": "ZONING_CLASSIFICATION"
+  },
+  "notes": "Countywide layer from the Natrona Regional Geospatial Cooperative; ZONING_JURISDICTION is a numeric code for the county or each city. Zone descriptions and comments in ZONING_COMMENTS.",
+  "verification": {
+    "verified_at": 1792136127674,
+    "counties": [
+      "56025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ks-butler",
+  "publisher": "Butler County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ww1.bucoks.com/bucogis1/rest/services/Zoning/Rural_Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20015"
+    ]
+  },
+  "fields": {
+    "link": "Regs_Link",
+    "zone": "ZONE",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Butler County KS rural (unincorporated) zoning districts from the county GIS; incorporated cities zone their own land and are not included.",
+  "verification": {
+    "verified_at": 1792134357986,
+    "counties": [
+      "20015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

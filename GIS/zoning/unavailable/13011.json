@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13011",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.bankscountyga.org/1455/GIS-Data-and-Maps",
+    "https://www.bankscountyga.org/1467/Zoning",
+    "https://www.bankscountyga.org/planning-dev/page/zoning",
+    "https://library.municode.com/search?stateId=10&clientId=5235&searchText=zoning&contentTypeId=CODES"
+  ],
+  "note": "Banks County GA publishes zoning as an online dynamic zoning map (viewer) linked from its GIS and Planning pages, and its ordinance names an Official Zoning Map of Unincorporated Banks County. No ArcGIS REST service, FeatureServer, or downloadable zoning file was found behind it. The county's own GIS host (gis.bankscountyga.org, maps.bankscountyga.org) did not respond to probes, and the county pages returned 404 to the reader, so the underlying service could not be checked directly. Searches of ArcGIS Hub/Online for the county box returned no Banks County zoning layer. Third-party zoneomics pages show zoning but are not official and were not used.",
+  "recorded_at": 1792133950827,
+  "recheck_after": 1807685950827,
+  "model": "claude-haiku-5-5"
+}

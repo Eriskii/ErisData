@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-outagamie-county",
+  "publisher": "Outagamie County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/VJeP6MUQzbTKwSpv/arcgis/rest/services/CountyZoningJurisdiction_OpenData/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55087"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWN_NAME",
+    "zone": "DIST_CODE",
+    "zone_name": "DIST_NAME"
+  },
+  "notes": "County zoning jurisdiction (unincorporated towns) from Outagamie County open data; cities zone separately.",
+  "verification": {
+    "verified_at": 1792136135429,
+    "counties": [
+      "55087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

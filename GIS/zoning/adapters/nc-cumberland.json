@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-cumberland",
+  "publisher": "Cumberland County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.cumberland.nc.us/server/rest/services/Planning/CCZoning/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37051"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Class"
+  },
+  "notes": "County zoning layer (Planning/CCZoning). Zone_Class is the district code. Jurisdiction attribute is blank for nearly all features (only a few towns such as Eastover, Wade, Spring Lake, Godwin, Hope Mills, Falcon, Stedman, Linden, and COUNTY appear), so it is not mapped. Parcel-based city zoning (e.g. Fayetteville) may not be included.",
+  "verification": {
+    "verified_at": 1792135070131,
+    "counties": [
+      "37051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

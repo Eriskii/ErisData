@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48465",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://landrecords.us/documentation/coverage/counties/48-465-val-verde",
+    "https://www.cityofdelrio.com/government/departments/planning-zoning",
+    "https://www.cityofdelrio.com/government/departments/gis"
+  ],
+  "note": "No Val Verde County zoning layer found in ArcGIS Hub/Online or county GIS pages; Texas counties generally do not zone. City of Del Rio lists a Planning and Zoning Map, but its city GIS and planning pages return HTTP 403 to our tools, so no queryable zoning service could be found or read. Only a non-official ArcGIS Online copy (romeoparr25 urban database view) exists, and its Zones layer is empty.",
+  "recorded_at": 1792135838588,
+  "recheck_after": 1807687838588,
+  "model": "claude-haiku-5-5"
+}

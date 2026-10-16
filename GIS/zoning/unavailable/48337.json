@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "48337",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.taxnetusa.com/texas/montague/",
+    "https://www.cityofbowietx.com/334/Bowie-Maps",
+    "https://ecode360.com/40039686",
+    "https://gis.cityofbowie.org/arcgis/rest/services/FeatureLayers/Property_Web/MapServer/11"
+  ],
+  "note": "Montague County publishes no zoning district layer; its GIS is a paid/subscription appraisal map. Nocona has zoning in its code (Chapter 14) but no queryable zoning service found. City of Bowie's public ArcGIS server has only a parcel layer (Property_Web/MapServer/11) with a ZONE_CODE1 attribute, covering Bowie only; a validation at the county sample point (near Nocona) returned 0 districts.",
+  "recorded_at": 1792135765968,
+  "recheck_after": 1807687765968,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mt-flathead-kalispell",
+  "publisher": "City of Kalispell",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.flatheadcounty.gov/server/rest/services/IMA/Zoning/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30029"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_USE",
+    "zone_name": "USE_DESCR"
+  },
+  "notes": "City of Kalispell zoning districts, from Flathead County IMA Zoning MapServer layer 9. ZONE_USE holds the district code (e.g. R-3); USE_DESCR the use category. Layer also holds PUD names.",
+  "verification": {
+    "verified_at": 1792134854469,
+    "counties": [
+      "30029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

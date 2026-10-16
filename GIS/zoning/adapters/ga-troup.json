@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-troup",
+  "publisher": "Troup County / City of LaGrange GIS (Parcels_City zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/V4Y8xIvXuYJiVZwF/arcgis/rest/services/Zoning_Update/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13285"
+    ]
+  },
+  "fields": {
+    "zone": "New_Zone"
+  },
+  "notes": "Parcel layer (Parcels_City) carrying each parcel zoning in New_Zone (current UDO code, e.g. TN-R, CR-MX; some values list alternatives joined by or) with the older code in ZoningCode (e.g. 16-R-2). City of LaGrange parcels only, not a district layer; last resort. Served from the county GIS organization that backs the UDO Interactive Zoning Map.",
+  "verification": {
+    "verified_at": 1792133991764,
+    "counties": [
+      "13285"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wa-colville",
+  "publisher": "Stevens County GIS (City of Colville zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stevenscountywa.gov/server/rest/services/Stevens_County_Zoning_Data/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53065"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "NAME"
+  },
+  "notes": "City of Colville zoning districts from the Stevens County zoning data service.",
+  "verification": {
+    "verified_at": 1792136003418,
+    "counties": [
+      "53065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ak-skagway",
+  "publisher": "Municipality of Skagway",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/cUHUWk42bzkg9QL1/arcgis/rest/services/Skagway_Zoning_Map_WFL1_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "02230"
+    ]
+  },
+  "fields": {
+    "link": "Link_to_Code",
+    "zone": "Zone"
+  },
+  "filter": "OBJECTID <> 7",
+  "notes": "Skagway 2015 zoning map. Filter excludes OBJECTID 7 (huge Residential - Conservation polygon, ~77,854 ac) because its source geometry is invalid; other Residential - Conservation polygons (9, 10) remain.",
+  "verification": {
+    "verified_at": 1792133781719,
+    "counties": [
+      "02230"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

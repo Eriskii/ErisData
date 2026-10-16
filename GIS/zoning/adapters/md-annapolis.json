@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "md-annapolis",
+  "publisher": "City of Annapolis (hosted in City ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/7ww0md22RA7aTw3W/arcgis/rest/services/ANNAPOLIS_DATAMANAGER_adm_zoning_2016/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24003"
+    ]
+  },
+  "fields": {
+    "link": "Zone_URL",
+    "zone": "ZoningCode",
+    "zone_name": "Zone_decrip"
+  },
+  "notes": "City of Annapolis zoning districts (2016 administrative zoning layer). Covers the City of Annapolis only.",
+  "verification": {
+    "verified_at": 1792134444331,
+    "counties": [
+      "24003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

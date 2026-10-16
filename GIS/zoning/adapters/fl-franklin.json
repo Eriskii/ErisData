@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-franklin",
+  "publisher": "Franklin County GIS (ARPC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/N3lCn6dEKCL6LidU/arcgis/rest/services/Zoning_Franklin/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12037"
+    ]
+  },
+  "fields": {
+    "zone": "Category"
+  },
+  "notes": "Franklin County FL zoning layer hosted by ARPC for the county; 2557 features. Only a category field is present; zone names not provided.",
+  "verification": {
+    "verified_at": 1792133822560,
+    "counties": [
+      "12037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

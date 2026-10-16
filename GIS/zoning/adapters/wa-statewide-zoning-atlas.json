@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "id": "wa-statewide-zoning-atlas",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "WA"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Hosted by WA Commerce. Statewide compilation of local base zoning districts (39 counties, ~281 cities) with normalized use and dimensional attributes. Layer is named Prototype but is the Commerce Zoning Atlas. ReferenceURL (chapter link) is empty for some jurisdictions, so not mapped. Coverage may be partial for some jurisdictions; see Jurisdictions layer (FeatureServer/2).",
+  "verification": {
+    "verified_at": 1792133750777,
+    "counties": [
+      "53001",
+      "53003",
+      "53007",
+      "53009",
+      "53017",
+      "53021",
+      "53023",
+      "53025",
+      "53035",
+      "53039",
+      "53047",
+      "53049",
+      "53051",
+      "53053",
+      "53057",
+      "53061",
+      "53063",
+      "53067",
+      "53071",
+      "53073",
+      "53075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

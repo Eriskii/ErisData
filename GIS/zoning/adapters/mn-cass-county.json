@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-cass-county",
+  "publisher": "Cass County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cassweb.casscountymn.gov/arcgis/rest/services/Municipalities/MapServer/21",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27021"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "County GIS Municipalities service, Zoning Map layer",
+  "verification": {
+    "verified_at": 1792134488381,
+    "counties": [
+      "27021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

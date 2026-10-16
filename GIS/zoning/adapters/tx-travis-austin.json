@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-travis-austin",
+  "publisher": "City of Austin Planning / GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.austintexas.gov/arcgis/rest/services/Shared/Zoning_1/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48453"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_ZTYPE"
+  },
+  "notes": "City of Austin base zoning districts (Zoning_1 service, layer 0; ZONING_BASE is the base district family, e.g. SF, LO, CS; ZONING_ZTYPE is the full district incl. overlays such as -CO, -NP). Covers Austin city limits and portions of Travis County; unincorporated county land and other cities are not in this layer. No zone name or ordinance link field in this layer.",
+  "verification": {
+    "verified_at": 1792130904437,
+    "counties": [
+      "48453"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

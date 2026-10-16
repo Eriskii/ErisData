@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40049",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://csagis-uok.opendata.arcgis.com/maps/402326131d584d5094efc2e638bed051",
+    "https://assessorsearch.com/property-records/oklahoma/garvin-county",
+    "https://www.paulsvalley.com/code-enforcement",
+    "https://www.cityoflindsay.com/planning-zoning/page/city-maps"
+  ],
+  "note": "Garvin County's GIS warehouse holds only transportation, municipal boundary, legislative and hydrology layers; no zoning districts. The county says zoning is handled by the cities (Pauls Valley, Lindsay, Wynnewood), and none of them publishes zoning districts as a queryable GIS service that we could find; Pauls Valley's zoning map is a 1983 print. ArcGIS searches for Garvin zoning returned nothing usable.",
+  "recorded_at": 1792135306358,
+  "recheck_after": 1807687306358,
+  "model": "claude-haiku-5-5"
+}

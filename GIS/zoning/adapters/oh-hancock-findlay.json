@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-hancock-findlay",
+  "publisher": "City of Findlay, Ohio (copy by bendolan on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/XMr9uonP553LyU3o/arcgis/rest/services/FindlayZoning/FeatureServer/0",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "39063"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "OLDZONING",
+    "zone": "Zoning",
+    "zone_name": "Category"
+  },
+  "notes": "Unofficial copy: ArcGIS Online item by user bendolan titled City of Findlay Zoning (zoning map with parcels dissolved). Only queryable zoning polygon layer found for Hancock County; covers City of Findlay only. Official Findlay zoning viewer is access-denied to automated access; official map is a static PDF at hancockrpc.org.",
+  "verification": {
+    "verified_at": 1792135230338,
+    "counties": [
+      "39063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

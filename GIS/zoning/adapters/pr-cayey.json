@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pr-cayey",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/MapServer/0",
+    "page_size": 100,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "72035"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "OBJECTID >= 2376372 AND OBJECTID <= 2376771",
+  "verification": {
+    "verified_at": 1792139638848,
+    "counties": [
+      "72035"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

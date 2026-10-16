@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-wood-mineola",
+  "publisher": "City of Mineola, TX (hosted by East Texas Council of Governments)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.etcog.org/arcgis/rest/services/Mineola/MINEOLA_ZONING/MapServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48499"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Mineola zoning districts only (city limits; not county unincorporated land). Layer published by ETCOG for the city.",
+  "verification": {
+    "verified_at": 1792135845648,
+    "counties": [
+      "48499"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

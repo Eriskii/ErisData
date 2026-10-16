@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-radford",
+  "publisher": "City of Radford (GIS, via Radford Interactive Map web service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/gNrBvIUXaCagAxJ2/arcgis/rest/services/Radford_Interactive_Map_WFL1/FeatureServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51750"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "ZCODE",
+    "zone_name": "ZDESC"
+  },
+  "notes": "Radford city zoning districts (single jurisdiction). Layer published in a Radford city-hosted ArcGIS service by the city GIS team (Radford University account). Last city zoning map dated 2009 per city site.",
+  "verification": {
+    "verified_at": 1792135966992,
+    "counties": [
+      "51750"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

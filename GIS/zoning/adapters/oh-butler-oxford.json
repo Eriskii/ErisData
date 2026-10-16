@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-butler-oxford",
+  "publisher": "City of Oxford, Ohio",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/FS7YxIXpWoaR2sAe/arcgis/rest/services/Butler_County_Rural_Zoning_Districts_(Retained_After_Annexation)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39017"
+    ]
+  },
+  "fields": {
+    "zone": "ABBREV",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "City of Oxford base zoning; only areas inside Oxford corporate limits that retain Butler County rural zoning classifications (8 features).",
+  "verification": {
+    "verified_at": 1792135218363,
+    "counties": [
+      "39017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "47097",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.gismaps.org/tn-lauderdale-county/",
+    "https://www.lauderdalecounty.org/redistricting-maps/",
+    "https://www.cityofripley.org/maps.html",
+    "https://services5.arcgis.com/ScW4u2klbKdBmpCe/arcgis/rest/services/Ripley_Zoning_view/FeatureServer/120"
+  ],
+  "note": "No county-published zoning districts layer found (county GIS and redistricting pages only; no zoning services in ArcGIS Hub/Online search). Only public zoning service is City of Ripley's layer (71 features), which does not cover the sample point (-89.68339, 35.74182) west of city limits; validation returned 0 districts. Halls, Henning, Gates: no published zoning services found. Dashboard movrc.maps.arcgis.com/.../7fd282ffa802455cbdab303c7026e798 wraps the same Ripley web map.",
+  "recorded_at": 1792135554500,
+  "recheck_after": 1807687554500,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ok-mcclain-newcastle",
+  "publisher": "City of Newcastle, OK",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Tkj64juGWKKHPp01/arcgis/rest/services/Newcastle_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40087"
+    ]
+  },
+  "fields": {
+    "link": "Hyperlink",
+    "zone": "Zoning",
+    "zone_name": "Description"
+  },
+  "notes": "City of Newcastle zoning districts (city limits only; unincorporated McClain County and other cities not covered). Source hosted on city ArcGIS Online org.",
+  "verification": {
+    "verified_at": 1792135254766,
+    "counties": [
+      "40087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

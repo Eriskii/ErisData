@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-pennington-county",
+  "publisher": "Pennington County / Rapid City GIS (RapidMap)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rcgov.org/server/rest/services/PublicSites/PublicRapidMap/MapServer/82",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46103"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZoneCode"
+  },
+  "notes": "Pennington County unincorporated zoning (PCZoning layer of the Rapid City-Pennington County RapidMap service). Only ZoneCode carries the district code; no separate description field.",
+  "verification": {
+    "verified_at": 1792135454250,
+    "counties": [
+      "46103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

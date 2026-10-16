@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-las-animas-trinidad",
+  "publisher": "City of Trinidad (copy hosted by jflory, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/Uxvzt22pCg5oECCO/arcgis/rest/services/Tdad_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08071"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Trinidad zoning as of 1/1/2023, pending city review; no county zoning layer is published as a queryable service (county site blocked, county zoning map is a PDF). Covers only Trinidad city limits, not the unincorporated county. Unofficial ArcGIS Online copy uploaded by an individual (jflory); used because nothing official is queryable.",
+  "verification": {
+    "verified_at": 1792133863925,
+    "counties": [
+      "08071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

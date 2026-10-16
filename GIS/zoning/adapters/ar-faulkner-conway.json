@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ar-faulkner-conway",
+  "publisher": "City of Conway Planning & Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://data.conwayarkansas.gov/arcgis/rest/services/zoning/ConwayZoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05045"
+    ]
+  },
+  "fields": {
+    "link": "ord_link",
+    "zone": "zone",
+    "zone_name": "zonedetail"
+  },
+  "notes": "City of Conway current zoning districts (Conway city limits only, not unincorporated county). Layer served by City of Conway.",
+  "verification": {
+    "verified_at": 1792133781031,
+    "counties": [
+      "05045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

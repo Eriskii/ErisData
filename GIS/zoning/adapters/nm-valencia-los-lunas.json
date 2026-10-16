@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nm-valencia-los-lunas",
+  "publisher": "Village of Los Lunas (hosted on village ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/wQmwBTDjgFbdIrkt/arcgis/rest/services/Zoning/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "35061"
+    ]
+  },
+  "fields": {
+    "link": "Active_Ordinance",
+    "zone": "Zone",
+    "zone_name": "Permitted_Use"
+  },
+  "notes": "Village of Los Lunas base zoning only (not unincorporated county land). Updated through Feb 2025, includes changes through Ordinance 481. Layer title says Zoning (Do not use) in ArcGIS Online; it is the only queryable base zoning layer found for Valencia County. zone_name holds permitted use, not a district description; link holds the active ordinance number, not a URL.",
+  "verification": {
+    "verified_at": 1792135037057,
+    "counties": [
+      "35061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

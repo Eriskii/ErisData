@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-spalding",
+  "publisher": "Spalding County GIS (SCWA GIS, Community Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/IBG8fFojdkoiHAvQ/arcgis/rest/services/Spalding_County_Zoning_(public_view)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13255"
+    ]
+  },
+  "fields": {
+    "zone": "LABEL",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "County zoning layer (unincorporated county); hosted by SCWA GIS for Spalding County Community Development.",
+  "verification": {
+    "verified_at": 1792133932107,
+    "counties": [
+      "13255"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

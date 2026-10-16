@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-ukiah",
+  "publisher": "City of Ukiah",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/KYBJaItvh9UgViWU/arcgis/rest/services/Ukiah_Parcels_Zonin_Dissolve1/FeatureServer/20",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06045"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Class"
+  },
+  "notes": "City of Ukiah zoning districts (dissolved from parcels), hosted in City of Ukiah ArcGIS Online org",
+  "verification": {
+    "verified_at": 1792134137349,
+    "counties": [
+      "06045"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

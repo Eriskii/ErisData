@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-wyoming-tunkhannock-boro",
+  "publisher": "Wyoming County GIS / Borough of Tunkhannock",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/0POQ0PQT9pHLMnL2/arcgis/rest/services/Tunkhannock_Borough_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42131"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNIC_NAME",
+    "zone": "Zoning",
+    "zone_name": "ZONE_TYPE"
+  },
+  "notes": "Tunkhannock Borough only; Wyoming County has no county-wide zoning. Only 6 district polygons. Published by county GIS account.",
+  "verification": {
+    "verified_at": 1792135346415,
+    "counties": [
+      "42131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

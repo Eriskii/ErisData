@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "28073",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://lamarcountyms.gov/ms/departments/planning/zoning-ordinance/",
+    "https://lamarms.maps.arcgis.com/sharing/rest/content/items/b8acfe45927b4d69a9dd528590be923c/data?f=json",
+    "https://services1.arcgis.com/mz3jHVSffoNsLuEB/arcgis/rest/services/Lamar_Service/FeatureServer/9",
+    "https://lamarcountyms.gov/ms/wp-content/uploads/2019/07/land_use_zoning1.2019.pdf"
+  ],
+  "note": "County's ArcGIS org (lamarms) has a Zoning layer (Lamar_Service FeatureServer/9) that is empty (count 0). The county's zoning map is published only as PDF maps (2016, 2019) and in the web viewer; no queryable district polygons found. Searched county and city (Purvis, Lumberton) sources; no city zoning service found.",
+  "recorded_at": 1792134644474,
+  "recheck_after": 1807686644474,
+  "model": "claude-haiku-5-5"
+}

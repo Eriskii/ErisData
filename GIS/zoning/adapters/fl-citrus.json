@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-citrus",
+  "publisher": "Citrus County BOCC GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/G6NDVglwRcrz6l7N/arcgis/rest/services/ZONING/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCRIPT"
+  },
+  "notes": "Hosted by Citrus County BOCC ArcGIS Online organization (citrusboccfl). No jurisdiction field.",
+  "verification": {
+    "verified_at": 1792133818319,
+    "counties": [
+      "12017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

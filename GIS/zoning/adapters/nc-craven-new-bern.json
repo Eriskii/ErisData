@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-craven-new-bern",
+  "publisher": "City of New Bern GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.newbernnc.gov/arcgis/rest/services/Dev_Services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "City of New Bern zoning polygons within city limits and ETJ (not county-wide). Layer covers only New Bern and its extraterritorial jurisdiction.",
+  "verification": {
+    "verified_at": 1792135087199,
+    "counties": [
+      "37049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

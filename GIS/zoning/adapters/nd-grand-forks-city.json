@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nd-grand-forks-city",
+  "publisher": "City of Grand Forks GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/tEvkdB384rqq9Ook/arcgis/rest/services/OpenDataLayers/FeatureServer/29",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38035"
+    ]
+  },
+  "fields": {
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "City of Grand Forks Land Use Zoning layer (city limits only, not county unincorporated land). zoneclass holds the district class code; PUD overlays in pud_name/pud. No county zoning layer found in ArcGIS search.",
+  "verification": {
+    "verified_at": 1792135122895,
+    "counties": [
+      "38035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

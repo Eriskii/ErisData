@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-ionia-county-ionia-city",
+  "publisher": "City of Ionia (compiled in Ionia County Zoning Layer, ArcGIS Online copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/i2awudUyJK8gxxEe/arcgis/rest/services/Zoning/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26067"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Abbre",
+    "zone_name": "Name"
+  },
+  "notes": "Copy uploaded to ArcGIS Online by user jmbush97 (Ionia County Zoning Layer), not an official county service; no official queryable county or city zoning service was found (county online services and city zoning are PDF maps). Layer holds City of Ionia base zoning districts only. Source CRS EPSG:2253; service reprojects to 4326.",
+  "verification": {
+    "verified_at": 1792132319748,
+    "counties": [
+      "26067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

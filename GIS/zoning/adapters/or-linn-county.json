@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-linn-county",
+  "publisher": "Oregon DLCD statewide zoning (Linn County unincorporated portion)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41043"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Linn County'",
+  "notes": "DLCD statewide compiled zoning; filtered to features owned by Linn County (unincorporated county zoning). Cities are in or-linn-cities.",
+  "verification": {
+    "verified_at": 1792135313501,
+    "counties": [
+      "41043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

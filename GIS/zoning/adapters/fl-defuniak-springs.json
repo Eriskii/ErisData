@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-defuniak-springs",
+  "publisher": "City of DeFuniak Springs via Walton County GIS (WeeklyUpdatesDFS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/TaXHPwWfIMuzJ7Ov/arcgis/rest/services/WeeklyUpdatesDFS/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12131"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of DeFuniak Springs zoning districts from the DeFuniak Springs EnerGov service, hosted by Walton County GIS. ZONING holds the district code and name together (e.g. R-1, PD, Planned Development). Covers DeFuniak Springs city only.",
+  "verification": {
+    "verified_at": 1792133883692,
+    "counties": [
+      "12131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-summit",
+  "publisher": "Summit County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/dmNYNuTJZDtkcRJq/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08117"
+    ]
+  },
+  "fields": {
+    "link": "RESO_NO",
+    "zone": "Zone",
+    "zone_name": "ZONING_TYP"
+  },
+  "notes": "Unincorporated Summit County zoning districts; PUD_NAME holds planned unit development names. Towns zone their own land and are not in this layer.",
+  "verification": {
+    "verified_at": 1792133804919,
+    "counties": [
+      "08117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ky-hardin-vine-grove",
+  "publisher": "City of Vine Grove, KY",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/ZEEfHlyOqtzNL4oA/arcgis/rest/services/Vine_Grove_Online_001/FeatureServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21093"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Vine Grove zoning layer (Vine_Grove_Zoning) on the city ArcGIS Online org. Covers the city only. zone_name (ZONING_NAM) is almost empty, so not mapped. Parcel-level polygons (PIDN).",
+  "verification": {
+    "verified_at": 1792134409029,
+    "counties": [
+      "21093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

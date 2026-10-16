@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-eaton-delta-twp",
+  "publisher": "Delta Charter Township",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.deltami.gov/arcgis/rest/services/GeneralLayers/Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26045"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Delta Charter Township zoning districts only (not county-wide). Source: Delta Township GIS MapServer, layer 0 Zoning, 290 polygons.",
+  "verification": {
+    "verified_at": 1792132307443,
+    "counties": [
+      "26045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

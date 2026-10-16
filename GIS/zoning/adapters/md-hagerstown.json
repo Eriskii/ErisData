@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-hagerstown",
+  "publisher": "City of Hagerstown, Maryland (Planning & Code Administration)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/9aTeWThUK7pWn6CQ/arcgis/rest/services/Zoning_Districts1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24043"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID",
+    "zone_name": "ZONE_DISTR"
+  },
+  "notes": "City of Hagerstown zoning districts only (municipal, not county unincorporated land). ZONE_ID is the district code; ZONE_DISTR holds the district name with its code.",
+  "verification": {
+    "verified_at": 1792134601949,
+    "counties": [
+      "24043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "in-johnson-new-whiteland",
+  "publisher": "Johnson County GIS (City Zoning, New Whiteland)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/s5B7dXoVjGiD4IBE/arcgis/rest/services/City_Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18081"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "AGENCY",
+    "zone": "CODE",
+    "zone_name": "CLASS"
+  },
+  "notes": "Town of New Whiteland zoning layer from Johnson County GIS City Zoning service",
+  "verification": {
+    "verified_at": 1792134164501,
+    "counties": [
+      "18081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

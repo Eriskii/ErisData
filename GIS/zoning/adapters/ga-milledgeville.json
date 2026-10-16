@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-milledgeville",
+  "publisher": "City of Milledgeville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/j5Ki1KdzS4smxL2b/arcgis/rest/services/Zoning_Layers/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13009"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONEENTITY",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Milledgeville zoning districts from the city GIS Zoning_Layers service (services8 org, GIS analyst jfuto). Covers city land only; records are parcel-level polygons (about 2866) carrying the district code.",
+  "verification": {
+    "verified_at": 1792133895362,
+    "counties": [
+      "13009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

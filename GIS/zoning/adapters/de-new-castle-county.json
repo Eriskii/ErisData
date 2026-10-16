@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "de-new-castle-county",
+  "publisher": "New Castle County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.nccde.org/agsserver/rest/services/BaseMaps/Zoning/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "10003"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "New Castle County Zoning layer from county GIS MapServer (BaseMaps/Zoning). Daily-updated county zoning polygons. Municipal zoning is a separate layer (Municipal Zoning, layer 4).",
+  "verification": {
+    "verified_at": 1792133837642,
+    "counties": [
+      "10003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

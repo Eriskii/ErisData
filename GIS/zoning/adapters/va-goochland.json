@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-goochland",
+  "publisher": "Goochland County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.goochland.va.us/arcgis/rest/services/Goochland_Public/MapServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51075"
+    ]
+  },
+  "fields": {
+    "link": "Online_URL",
+    "zone": "Zoning",
+    "zone_name": "Description"
+  },
+  "notes": "Goochland County zoning districts from the county public MapServer; includes conditional zoning case info in Case_No/Cond_Zone.",
+  "verification": {
+    "verified_at": 1792135897761,
+    "counties": [
+      "51075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

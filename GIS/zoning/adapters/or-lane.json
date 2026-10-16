@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "or-lane",
+  "publisher": "Oregon DLCD (statewide zoning compilation, Lane County portions)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/CD5mKowwN6nIaqd8/arcgis/rest/services/library_bnd_or_zoning_2023/FeatureServer/56",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41039"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "notes": "Statewide DLCD zoning compilation (2023) hosted by Oregon Explorer/OSU, filtered by bounding box since it has no county field. Uses the state standard zone codes (orZCode) because local codes are blank in the rural units.",
+  "verification": {
+    "verified_at": 1792135300104,
+    "counties": [
+      "41039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

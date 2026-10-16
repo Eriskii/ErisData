@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-caswell-hyco-lake",
+  "publisher": "Caswell County (Hyco Lake Zoning layer, unincorporated Hyco Lake area)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/qIxONdgChJ7eng3H/arcgis/rest/services/Hyco_Lake_Zoning/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37033"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Descriptio"
+  },
+  "notes": "Hosted on an ArcGIS Online item by user MickiJ, described as authoritative for Caswell County; covers the Hyco Lake area, which the county zones directly (county planning page links the Hyco Lake Zoning Map). 16 features. No official county ArcGIS service found.",
+  "verification": {
+    "verified_at": 1792135080715,
+    "counties": [
+      "37033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

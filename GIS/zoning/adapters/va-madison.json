@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-madison",
+  "publisher": "Madison County GIS (Hurt & Proffitt WebGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.webgis.net/arcgis/rest/services/VA/MadisonCo_WebGIS1/MapServer/36",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "51113"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE"
+  },
+  "filter": "ZONE_CODE IS NOT NULL AND ZONE_CODE <> ' '",
+  "notes": "County zoning layer served by vendor Hurt & Proffitt for Madison County VA; ZONE_DESC is empty in the source.",
+  "verification": {
+    "verified_at": 1792136478800,
+    "counties": [
+      "51113"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

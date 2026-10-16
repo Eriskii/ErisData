@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48485",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.wichitafallstx.gov/2382/Development-Interactive-Map",
+    "https://gisinfo.wichitafallstx.gov/portal/apps/webappviewer/index.html?id=5a19c940f5134bda8af0a72989064df6",
+    "https://www.wichitafallstx.gov/156/Planning"
+  ],
+  "note": "Wichita County TX (48485): no county zoning layer found; Texas counties generally do not zone unincorporated land. City of Wichita Falls (largest city) publishes zoning only inside its public Development Interactive Map (ArcGIS web app viewer on gisinfo.wichitafallstx.gov). The web map item lists no zoning service URL, and the city's ArcGIS server, services directory and portal search all return 403/502 to non-browser requests, so no queryable zoning polygon layer could be found. Its only static zoning file is a PDF map (DocumentCenter/View/38957). No Burkburnett, Iowa Park or Electra zoning service found.",
+  "recorded_at": 1792135907273,
+  "recheck_after": 1807687907273,
+  "model": "claude-haiku-5-5"
+}

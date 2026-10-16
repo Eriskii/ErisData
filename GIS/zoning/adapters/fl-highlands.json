@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-highlands",
+  "publisher": "Highlands County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.highlandsfl.gov/server/rest/services/Layers/Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12055"
+    ]
+  },
+  "fields": {
+    "zone": "ZON"
+  },
+  "notes": "Highlands County Zoning layer (county-published, unincorporated land). One record per parcel (STRAP_NUM) carrying the district code in ZON (e.g. A1, AU, B1, CG1, EU); FLUM is the future land use code, not used here. No separate district name field.",
+  "verification": {
+    "verified_at": 1792133830862,
+    "counties": [
+      "12055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

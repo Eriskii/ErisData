@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "md-laplata",
+  "publisher": "Town of La Plata (copy on ArcGIS Online by user Bstahl)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/R8eEyuFZUSEyoRLJ/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24017"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Unofficial copy: an ArcGIS Online item by user Bstahl of Town of La Plata zoning polygons, conforming to town boundary and parcel lines; no official queryable town zoning service was found (the town publishes its zoning map as a PDF, updated 2020/2024). Only the zone code is provided; no zone_name or ordinance link.",
+  "verification": {
+    "verified_at": 1792134838996,
+    "counties": [
+      "24017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

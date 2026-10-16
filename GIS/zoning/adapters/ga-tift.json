@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-tift",
+  "publisher": "Tift County GA (zoning hosted by Southern Georgia Regional Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.sgrcmaps.com/alma/rest/services/Tift/Tift_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13277"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS"
+  },
+  "notes": "Zoning district polygons from the SGRC-hosted Tift County mapping service, also used by the county Zoning Map viewer (garc.maps.arcgis.com). CLASS holds the district code (e.g. R-8, G-B). No jurisdiction or name field in source. Layer has 2565 features.",
+  "verification": {
+    "verified_at": 1792133971110,
+    "counties": [
+      "13277"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

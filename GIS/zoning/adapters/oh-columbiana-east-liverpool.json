@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "oh-columbiana-east-liverpool",
+  "publisher": "Columbiana County GIS Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/234WKrCI77bh5yOY/arcgis/rest/services/Columbiana_County_Zoning_WFL1/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39029"
+    ]
+  },
+  "fields": {
+    "zone": "Code"
+  },
+  "notes": "City of East Liverpool zoning districts only, from the Columbiana County GIS layer.",
+  "verification": {
+    "verified_at": 1792135191594,
+    "counties": [
+      "39029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

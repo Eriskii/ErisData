@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-houston",
+  "publisher": "City of Warner Robins GIS (Houston County parcels with zoning attribute)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/wtKwyZlCD3bY8Zh4/arcgis/rest/services/Base_Map_Polygon/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13153"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "City",
+    "zone": "Zoned"
+  },
+  "filter": "Zoned IS NOT NULL",
+  "notes": "No county or city zoning-district polygon layer is published as a service. This is a parcel layer (city of Warner Robins hub) whose Zoned attribute carries each parcel zoning code; used as last resort. Covers Warner Robins and county parcels (County=Houston); City null for unincorporated. Codes are raw (C1, R1, RAG, County). Not zone-name mapped.",
+  "verification": {
+    "verified_at": 1792133967771,
+    "counties": [
+      "13153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

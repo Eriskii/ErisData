@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ny-monroe-rochester",
+  "publisher": "City of Rochester, NY",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.cityofrochester.gov/server/rest/services/App_PropertyInformation/ROC_Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36055"
+    ]
+  },
+  "fields": {
+    "link": "HREF1",
+    "zone": "ZONE_LABEL",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "City of Rochester only (not the towns or county). Zoning Districts layer of the city ROC_Zoning service.",
+  "verification": {
+    "verified_at": 1792135033220,
+    "counties": [
+      "36055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

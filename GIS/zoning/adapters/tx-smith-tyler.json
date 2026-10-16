@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-smith-tyler",
+  "publisher": "Smith County GIS (Tyler zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.smithcountymapsite.org/publicgis/rest/services/Maps/LandUse_Zoning/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48423"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Tyler zoning, approximate boundaries from Smith County map site LandUse_Zoning service; covers Tyler only",
+  "verification": {
+    "verified_at": 1792135741843,
+    "counties": [
+      "48423"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

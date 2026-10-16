@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "me-knox-camden",
+  "publisher": "Town of Camden, Maine (hosted by ummgis)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Hi6kEmQzn9cl2oYk/arcgis/rest/services/Camden_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23013"
+    ]
+  },
+  "fields": {
+    "zone": "Z_CODE"
+  },
+  "notes": "Camden, ME zoning districts only (Knox County does not zone; Camden is a town). Copy is an ArcGIS Online item by ummgis describing the Town of Camden zoning; no zone name field present. Not verified as the town-published copy.",
+  "verification": {
+    "verified_at": 1792134438985,
+    "counties": [
+      "23013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "05143-springdale",
+  "publisher": "City of Springdale, AR GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis1.springdalear.gov/arcgis/rest/services/Planning/Zoning/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05143"
+    ]
+  },
+  "fields": {
+    "link": "web",
+    "zone": "zn_class"
+  },
+  "notes": "City of Springdale zoning classifications (base districts) layer; Springdale city limits, not county-wide. Ordinance number ord_num available. County arcserv.co.washington.ar.us was unreachable during search.",
+  "verification": {
+    "verified_at": 1792133841158,
+    "counties": [
+      "05143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

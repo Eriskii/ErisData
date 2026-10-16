@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "15005",
+  "reason": "none-exists",
+  "evidence": [
+    "https://geodata.hawaii.gov/arcgis/rest/services/ParcelsZoning/MapServer/33",
+    "https://en.wikipedia.org/wiki/Kalawao_County,_Hawaii"
+  ],
+  "note": "Kalawao County has no county government or zoning; it is administered by the Hawaii Dept. of Health and has no cities or towns. The state ParcelsZoning service's Maui County zoning layer (MapServer/33) returns only 'Not Zoned' (ZONE_DIST, Molokai) at the county's point, and no other public zoning service covers Kalawao. Equator's commercial portal is not an official source.",
+  "recorded_at": 1792133630550,
+  "recheck_after": 1807685630550,
+  "model": "claude-haiku-5-5"
+}

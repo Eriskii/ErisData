@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-truckee",
+  "publisher": "Town of Truckee GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/i75zh9vlhYUpqwjr/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06057"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Dist",
+    "zone_name": "Name"
+  },
+  "notes": "Town of Truckee zoning districts (Town of Truckee GIS, ArcGIS Online). Res_Density not mapped. Town layer last updated per town page Oct 2018 per third-party note; verify currency.",
+  "verification": {
+    "verified_at": 1792134096304,
+    "counties": [
+      "06057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

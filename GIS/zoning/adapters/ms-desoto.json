@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ms-desoto",
+  "publisher": "DeSoto County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.desotocountyms.gov/arcgis/rest/services/CountyWebMap/Zoning/MapServer/20",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28033"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE",
+    "zone": "ZONE"
+  },
+  "notes": "DeSoto County MS county GIS zoning layer (CountyWebMap/Zoning MapServer layer 20), 2551 features. zone_name not mapped: NAME holds sparse case/development names. link is the county zoning ordinance PDF.",
+  "verification": {
+    "verified_at": 1792134581830,
+    "counties": [
+      "28033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

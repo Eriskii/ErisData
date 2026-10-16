@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-luce",
+  "publisher": "Eastern Upper Peninsula Regional Planning and Development Commission (Luce County Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/r3fID69a2yHQdVc4/arcgis/rest/services/Luce_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26095"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Township",
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Class"
+  },
+  "notes": "Layer published by EUP Regional Planning and Development Commission covering Luce County zoning; jurisdiction is the township field. Zone_Gener holds generalized category.",
+  "verification": {
+    "verified_at": 1792132274383,
+    "counties": [
+      "26095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

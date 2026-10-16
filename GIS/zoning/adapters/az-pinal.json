@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "az-pinal",
+  "publisher": "Pinal County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pinal.gov/mapping/rest/services/Zoning_2010/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "Zoning_2010 layer, maintained by Pinal County GIS. ZONING is a coded value (SmallInteger).",
+  "verification": {
+    "verified_at": 1792133748738,
+    "counties": [
+      "04021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

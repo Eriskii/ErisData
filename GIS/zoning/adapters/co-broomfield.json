@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "co-broomfield",
+  "publisher": "City and County of Broomfield GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/vXSRPZbyyOmH9pek/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "08014"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City and County of Broomfield zoning layer (covers city and unincorporated county); only zone code field published, no name or ordinance link.",
+  "verification": {
+    "verified_at": 1792133784246,
+    "counties": [
+      "08014"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

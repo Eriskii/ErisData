@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "28063",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.jeffersoncountyms.com/board-of-supervisors/",
+    "https://mississippigovernmentauthority.com/jefferson-county-mississippi",
+    "https://services5.arcgis.com/EjsUJgMlkj0y13HQ/arcgis/rest/services/JeffersonE911_Service/FeatureServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Jefferson County, MS zoning districts. No zoning district layer is published as a queryable service. The county E911 service has parcels, boundaries and address points but no zoning field; the Jefferson_Service layers are lines and legislative districts. Fayette reportedly has its own zoning ordinance, but no GIS layer for it was found.",
+  "recorded_at": 1792134610444,
+  "recheck_after": 1807686610444,
+  "model": "claude-haiku-5-5"
+}

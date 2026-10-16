@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-kendall-boerne",
+  "publisher": "City of Boerne, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/IdcmpjAKMhM2YdbF/arcgis/rest/services/Boerne_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48259"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Boerne zoning layer (city ArcGIS org). Layer carries parcel attributes (prop_id, situs_full) with zoning code; covers Boerne city land only. Kendall County unincorporated land does not zone.",
+  "verification": {
+    "verified_at": 1792135703593,
+    "counties": [
+      "48259"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

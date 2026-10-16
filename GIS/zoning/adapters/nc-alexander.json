@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-alexander",
+  "publisher": "Alexander County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.alexandercountync.gov/arcgis/rest/services/Zoning_Website_map/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37003"
+    ]
+  },
+  "fields": {
+    "zone": "ProposedZoning",
+    "zone_name": "ProposedZoning"
+  },
+  "notes": "County Zoning layer is parcel-based: each parcel polygon carries its zoning code in ProposedZoning (no separate district dissolve, no zone description field). Unincorporated county land per county zoning ordinance; cities not included. Source: Alexander County NC GIS public MapServer.",
+  "verification": {
+    "verified_at": 1792135057667,
+    "counties": [
+      "37003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-obion-union-city",
+  "publisher": "City of Union City, TN (Planning View Layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/DbbLhLFEB4kIrNAR/arcgis/rest/services/PlanningViewLayer/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47131"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Union City zoning districts only (not unincorporated county or other towns). Hosted on the city planning view layer; 81 districts. Last update fields are empty.",
+  "verification": {
+    "verified_at": 1792135524189,
+    "counties": [
+      "47131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

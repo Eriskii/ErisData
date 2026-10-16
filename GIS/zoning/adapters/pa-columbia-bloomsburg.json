@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-columbia-bloomsburg",
+  "publisher": "Town of Bloomsburg",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ps1YVQiv5JQLIFu2/arcgis/rest/services/BZO_EXISTING_ZONING/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "Z_DESC"
+  },
+  "notes": "Town of Bloomsburg base zoning districts (existing zoning, 34 polygons). Only covers the Town of Bloomsburg, not the county unincorporated land. Source served by the Bloomsburg zoning consultant (epd_llc) org. Reprojected by service to 4326 on query.",
+  "verification": {
+    "verified_at": 1792135605042,
+    "counties": [
+      "42037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

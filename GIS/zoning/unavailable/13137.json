@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13137",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.habershamga.com/userfiles/File/ZOning-map-approved-7-20-26-1-.pdf",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=1010&LayerID=20413&PageTypeID=1&PageID=8923",
+    "https://www.habershamga.com/gis-department.cfm"
+  ],
+  "note": "Habersham County zoning is published only as an approved PDF zoning map and inside viewers (qPublic Schneider map with a 'Habersham Zoning' layer, which blocks automated access; and the ROK Technologies county rokmaps service, which listed city zoning sublayers for Alto, Baldwin, Clarkesville, Cornelia but whose habersham/habersham_rokmaps MapServer now returns 'Service not found' on arcgis4 and arcgis5 and is absent from the server folder listings). No queryable zoning polygon service found in ArcGIS Online or Hub searches for the county or its cities (Cornelia, Clarkesville, Demorest, Baldwin); city zoning is published as PDF maps.",
+  "recorded_at": 1792134008903,
+  "recheck_after": 1807686008903,
+  "model": "claude-haiku-5-5"
+}

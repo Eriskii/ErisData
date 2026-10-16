@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "id-owyhee",
+  "publisher": "Idaho State Tax Commission (Owyhee County zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/91hXl6NfvLGEi8x5/arcgis/rest/services/ZONING_113023_(2)/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16073"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "LOCATION",
+    "zone": "ZONING_COD"
+  },
+  "filter": "ACRES < 600000",
+  "notes": "Compiled county zoning polygons (Nov 2023) from the Idaho State Tax Commission service; ZONING_COD holds the broad class; LOCATION names the city or area, Owyhee County = unincorporated. The single 631,000-acre county-wide Agricultural polygon is excluded because its geometry fails validation.",
+  "verification": {
+    "verified_at": 1792133672861,
+    "counties": [
+      "16073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

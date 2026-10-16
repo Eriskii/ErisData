@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "18159",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.tiptongov.com/egov/documents/1448921407_35308.pdf",
+    "https://www.tipton.in.gov/media/3501",
+    "https://beacon.schneidercorp.com/?site=TiptonCountyIN",
+    "https://data-tiptoncountygis.hub.arcgis.com/"
+  ],
+  "note": "Tipton County, IN has no queryable zoning district service found. The county's zoning district maps are published as PDF (county zoning ordinance adopts township district zone maps) and the City of Tipton zoning map is a static PDF/image download. The Tipton County GIS Hub zoning layer (services3.arcgis.com/dpcWjCfPyDdLMs5n/.../Zoning/FeatureServer/0) is Tipton County, Tennessee, not Indiana: its coordinates fall near -89.9, 35.4 and it fails the location check. The Beacon (Schneider) viewer is parcel-level and not a public zoning service. The only queryable Elwood zoning layer (rmlawson2 personal copy, Elwood_Zoning/FeatureServer/3) lies mostly in Madison County (only 5 of 840 districts inside Tipton), so it was not submitted.)",
+  "recorded_at": 1792134235410,
+  "recheck_after": 1807686235410,
+  "model": "claude-haiku-5-5"
+}

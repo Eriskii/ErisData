@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-rice-northfield-parcels",
+  "publisher": "City of Northfield GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ci.northfield.mn.us/arcgis/rest/services/BaseData/Northfield_Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27131"
+    ]
+  },
+  "fields": {
+    "link": "NFLD.DBO.RiceCountyParcelsJOIN.URL",
+    "zone": "NFLD.DBO.RiceCountyParcelsJOIN.Zoning"
+  },
+  "notes": "Last resort: no base zoning district layer is queryable for Rice County (county host rc-arcgis01 unreachable). This is Rice County parcel polygons (Northfield server) with a joined Zoning attribute, each parcel carrying its zoning; coverage is limited to the parcels that layer holds, not the whole county.",
+  "verification": {
+    "verified_at": 1792134652566,
+    "counties": [
+      "27131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

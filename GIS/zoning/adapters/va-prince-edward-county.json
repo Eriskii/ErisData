@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-prince-edward-county",
+  "publisher": "Prince Edward County GIS (PECVAGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/7uRcISB6fkHAMbyM/arcgis/rest/services/PrinceEdward_WL_P/FeatureServer/33",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "51147"
+    ]
+  },
+  "fields": {
+    "zone": "Name",
+    "zone_name": "Name"
+  },
+  "notes": "County zoning districts (7 districts) from the county GIS service hosted by PECVAGIS. No separate code or ordinance-link field. Covers unincorporated county land; Farmville town zoning is a separate layer.",
+  "verification": {
+    "verified_at": 1792135974098,
+    "counties": [
+      "51147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

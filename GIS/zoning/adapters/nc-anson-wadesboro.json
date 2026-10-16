@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-anson-wadesboro",
+  "publisher": "Town of Wadesboro (via Anson County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ansoncountygis.com/arcgis/rest/services/ZoningLayers/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE"
+  },
+  "notes": "Town of Wadesboro zoning from Anson County GIS ZoningLayers MapServer. No zone description field published.",
+  "verification": {
+    "verified_at": 1792135053372,
+    "counties": [
+      "37007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

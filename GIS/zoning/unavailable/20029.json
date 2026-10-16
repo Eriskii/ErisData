@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20029",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.concordiaks.org/news_detail_T6_R7.php",
+    "https://www.concordiaks.org/departments/building___zoning/index.php",
+    "https://concordiagis.integritygis.com/H5/Index.html?viewer=concordia",
+    "https://services9.arcgis.com/yGerJCngvNpaN2km/arcgis/rest/services/CloudCoKSwebGIS_gdb/FeatureServer"
+  ],
+  "note": "Cloud County's public GIS service (CloudCoKSwebGIS_gdb) has parcels, sections, city limits and no zoning layer. The City of Concordia's zoning appears only in its integritygis interactive map viewer (Planning and Zoning layers); that host was unreachable from here and no queryable zoning service was found. No county zoning layer was found.",
+  "recorded_at": 1792134276549,
+  "recheck_after": 1807686276549,
+  "model": "claude-haiku-5-5"
+}

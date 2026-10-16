@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-marshall",
+  "publisher": "Marshall County GIS (Sidwell/Magnasoft-hosted Zoning_MarshallIL)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/Zoning_MarshallIL/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17123"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Parcel-level layer (about 13,167 features, one per parcel) carrying each parcel zoning in the Zoning field; no separate district polygon layer found. Hosted in the Sidwell/Magnasoft services organization serving Marshall County IL; linked from the county viewer at portico.mygisonline.com. Fallback because no district layer was published; zone_name not available.",
+  "verification": {
+    "verified_at": 1792134064063,
+    "counties": [
+      "17123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

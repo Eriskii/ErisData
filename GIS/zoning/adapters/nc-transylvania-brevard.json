@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-transylvania-brevard",
+  "publisher": "Transylvania County GIS (City of Brevard zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.transylvaniacounty.org/server/rest/services/Brevard_Zoning_Districts/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37175"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "District",
+    "zone_name": "District"
+  },
+  "notes": "City of Brevard zoning only; the source has no separate district code, so zone holds the district name. County has no county-wide zoning; Pisgah Forest zoning is a separate county layer. Ordinance field gives the adopting ordinance number.",
+  "verification": {
+    "verified_at": 1792135117420,
+    "counties": [
+      "37175"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

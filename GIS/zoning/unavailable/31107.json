@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "31107",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://knoxcountyne.gov/planning-and-zoning/forms-permits-and-regulations/",
+    "https://knoxcountyne.gov/wp-content/uploads/sites/37/2025/08/Zoning-Map_Size-E_r.pdf"
+  ],
+  "note": "Knox County NE publishes its zoning map only as a PDF (raster image, no queryable service). The county GIS viewer knox.gworks.com exposes parcel data with no zoning REST service found (/arcgis/rest/services returns 404). The KGIS zoning service found is for Knox County, Tennessee, not Nebraska. No Knox County NE city (Bloomfield, Creighton, Crofton, Center, Niobrara, Verdigre) publishes a queryable zoning layer found in search.",
+  "recorded_at": 1792134965400,
+  "recheck_after": 1807686965400,
+  "model": "claude-haiku-5-5"
+}

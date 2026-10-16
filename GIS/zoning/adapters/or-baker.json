@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-baker",
+  "publisher": "Oregon DLCD / Oregon Explorer statewide zoning (2023)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/CD5mKowwN6nIaqd8/arcgis/rest/services/library_bnd_or_zoning_2023/FeatureServer/56",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName IN ('Baker County','Baker City') AND OBJECTID <> 584",
+  "notes": "Statewide DLCD zoning (2023), hosted by Oregon Explorer (OSU); covers Baker County and Baker City. Filter excludes OBJECTID 584, one ~50 sq km Secondary Forest 80 polygon whose geometry is invalid in the source, so that polygon is missing from the adapter.",
+  "verification": {
+    "verified_at": 1792135668628,
+    "counties": [
+      "41001"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

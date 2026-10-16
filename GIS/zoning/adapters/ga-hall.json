@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-hall",
+  "publisher": "Hall County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZN_JURISDI",
+    "zone": "ZN_CLASS"
+  },
+  "notes": "Hall County unincorporated zoning districts from the county ZoningTab service (Hall County Zoning layer). Source is in state plane feet; runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792133938591,
+    "counties": [
+      "13139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

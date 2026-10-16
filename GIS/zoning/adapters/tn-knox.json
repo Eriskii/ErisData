@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-knox",
+  "publisher": "Knoxville-Knox County Planning (KGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/QWaOgwdmpqI9HUzf/arcgis/rest/services/KnoxvilleKnoxCountyZoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47093"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONE_TYPE",
+    "zone": "ZONE1"
+  },
+  "notes": "Base zoning districts for City of Knoxville and unincorporated Knox County, maintained by Knoxville-Knox County Planning; layer 2 of the KnoxvilleKnoxCountyZoning service. Layers 0 and 1 are overlays and planned districts, not used. ZONE_TYPE names the jurisdiction.",
+  "verification": {
+    "verified_at": 1792135584876,
+    "counties": [
+      "47093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

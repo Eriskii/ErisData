@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "39003",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.allencountyohio.com/arcgis/rest/services",
+    "https://www.lacrpc.com/182/Comprehensive-Planning-Land-Use-Zoning",
+    "https://colgis.cityhall.lima.oh.us/server/rest/services/CitywideMaps/Lima_Zoning/MapServer"
+  ],
+  "note": "Allen County GIS (all folders/services) and the regional planning commission publish no zoning polygons (township zoning is PDF only; Bluffton/Delphos have only PDFs/third-party viewers). Lima's Lima_Zoning MapServer is listed but its host is unreachable (every request, including the validator's, fails), so no queryable service could be validated.",
+  "recorded_at": 1792135306568,
+  "recheck_after": 1807687306568,
+  "model": "claude-sonnet-5-5"
+}

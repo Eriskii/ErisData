@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ok-comanche-lawton",
+  "publisher": "City of Lawton Planning Division",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/baoUryRiOxhCY0yb/arcgis/rest/services/Zoning_AGOL_MapService_WFL1/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40031"
+    ]
+  },
+  "fields": {
+    "zone": "Use_"
+  },
+  "notes": "City of Lawton zoning only (city limits); Comanche County has no county zoning. Zone code in Use_ (e.g. R-1, C-3). Ordinance/Request fields are sparse, so no link mapped. Source: City of Lawton Planning Division, updated 2/24/2026.",
+  "verification": {
+    "verified_at": 1792135216966,
+    "counties": [
+      "40031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

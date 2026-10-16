@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ma-fall-river",
+  "publisher": "City of Fall River",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Uc7BADlP3uoZyD3u/arcgis/rest/services/FallRiverMA_OpenGov_Parcels_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "Text_"
+  },
+  "notes": "City of Fall River zoning polygons (ZONING_POLY_2024) from the city OpenGov parcels/zoning service. TxtMemo holds an amendment date, not a district name, so zone_name is not mapped.",
+  "verification": {
+    "verified_at": 1792134472398,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-barry",
+  "publisher": "Barry County Land Information Services",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/i0SsdDzLI3mLGmPR/arcgis/rest/services/InteractiveZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "26015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "jurisdiction",
+    "zone": "zoning_class"
+  },
+  "notes": "County-published layer of zoning for jurisdictions under county zoning (about 230 records); townships and cities with their own zoning are not in this layer. jurisdiction is an integer code (99 = county zoning in sample).",
+  "verification": {
+    "verified_at": 1792132278857,
+    "counties": [
+      "26015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

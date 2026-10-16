@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-oakland-rochester-hills",
+  "publisher": "City of Rochester Hills",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://atlas.rochesterhills.org/arcgis/rest/services/PlanningZoning/Zoning_PublicDataset/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26125"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "BROAD_ZONE"
+  },
+  "notes": "City of Rochester Hills public zoning dataset; Zone holds district code, BROAD_ZONE the broad category. Covers Rochester Hills only.",
+  "verification": {
+    "verified_at": 1792132402268,
+    "counties": [
+      "26125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

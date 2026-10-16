@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-henrico",
+  "publisher": "Henrico County (copy hosted by browndr8_VCU on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/9MNW08Jq46DD7XQg/arcgis/rest/services/Zoning_henrico_710/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51087"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_LABEL",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Unofficial copy of Henrico County zoning districts uploaded to ArcGIS Online by a personal account (browndr8_VCU); the county official layer (gis.henrico.us Planning_Zoning_Map) was unreachable and portal.henrico.gov zoning requires a token. Use only as the nothing-official-queryable fallback.",
+  "verification": {
+    "verified_at": 1792135945904,
+    "counties": [
+      "51087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

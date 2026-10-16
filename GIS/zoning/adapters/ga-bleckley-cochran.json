@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-bleckley-cochran",
+  "publisher": "Heart of Georgia Altamaha Regional Commission (City of Cochran)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/City_of_Cochran_View/FeatureServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13023"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "Zoning IS NOT NULL AND Zoning <> ''",
+  "notes": "City of Cochran zoning, published by HOGARC; parcel-level polygons with Zoning attribute",
+  "verification": {
+    "verified_at": 1792134111569,
+    "counties": [
+      "13023"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-pipestone",
+  "publisher": "Pipestone County (zoning carried on parcel layer; hosted by ArcGIS Online account Davidsa_BMI)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZkOsbg84o8DsPPaP/arcgis/rest/services/Pipestone_Zoning_By_Parcel_Editing/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27117"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "AllZones"
+  },
+  "notes": "Last resort: no official county or city zoning district layer was found. This is a parcel layer (about 2,371 parcels) whose Zoning attribute carries each parcel zone; it is an unofficial copy uploaded by an individual ArcGIS Online account (Davidsa_BMI), not the county. Not a district polygon layer; zone is per parcel.",
+  "verification": {
+    "verified_at": 1792134519309,
+    "counties": [
+      "27117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

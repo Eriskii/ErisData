@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "or-harney-county",
+  "publisher": "Harney County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/e3KSI9Py4B7m3xu6/arcgis/rest/services/06_arcgis_online_Land_Use/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41025"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "LOCATION",
+    "link": "Link",
+    "zone": "CODE",
+    "zone_name": "DEFINITION"
+  },
+  "filter": "LOCATION = 'COUNTY' AND OBJECTID > 1",
+  "notes": "County-zoned (unincorporated) rows of the Harney County zoning layer, Harney County GIS ArcGIS Online org; Burns and Hines are separate specs",
+  "verification": {
+    "verified_at": 1792135407687,
+    "counties": [
+      "41025"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

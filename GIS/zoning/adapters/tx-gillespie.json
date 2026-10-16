@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-gillespie",
+  "publisher": "City of Fredericksburg, TX (copy hosted on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/McSbN5b7vSsm1ymB/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48171"
+    ]
+  },
+  "fields": {
+    "zone": "ZONED"
+  },
+  "notes": "Copy of the City of Fredericksburg TX zoning map (current as of Feb 2, 2015) uploaded to ArcGIS Online by an individual (LeaFeuge/ewilliamson8); not an official city service. Covers the city of Fredericksburg only, not unincorporated county land; no jurisdiction or link field. ZONED holds the district code (R1, C1, etc.).",
+  "verification": {
+    "verified_at": 1792135650184,
+    "counties": [
+      "48171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

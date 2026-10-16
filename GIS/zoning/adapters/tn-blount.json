@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-blount",
+  "publisher": "Blount County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://bc.blountgis.org/server/rest/services/LandUsePlanning/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47009"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ADMINNAME",
+    "link": "WebURL",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "OBJECTID <> 92",
+  "notes": "Combined zoning for Blount County, Alcoa, Maryville, Rockford, Friendsville, Louisville.",
+  "verification": {
+    "verified_at": 1792135520317,
+    "counties": [
+      "47009"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

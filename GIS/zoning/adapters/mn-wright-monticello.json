@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-wright-monticello",
+  "publisher": "City of Monticello MN (hosted by Sherburne County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/A86cpFIY5mfMGCej/arcgis/rest/services/Monticello_Zoning_and_Land_Use/FeatureServer/97",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27171"
+    ]
+  },
+  "fields": {
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "City of Monticello zoning districts, a layer in the Monticello Zoning and Land Use service published from Sherburne County GIS. Covers the city only; Wright County and other Wright cities do not publish a queryable zoning districts layer found in search.",
+  "verification": {
+    "verified_at": 1792134578576,
+    "counties": [
+      "27171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

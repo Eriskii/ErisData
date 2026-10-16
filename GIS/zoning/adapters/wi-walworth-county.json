@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-walworth-county",
+  "publisher": "Walworth County Land Information Division",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisinfo.co.walworth.wi.us/arcgis/rest/services/OneView/WALCOZoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55127"
+    ]
+  },
+  "fields": {
+    "zone": "TAG"
+  },
+  "notes": "County zoning district areas from the county OneView map service. Covers unincorporated county zoning; cities zone their own land and are not included. Zone code is TAG (e.g. A-3, C-2, C-4). No zone name or ordinance link field.",
+  "verification": {
+    "verified_at": 1792136103045,
+    "counties": [
+      "55127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

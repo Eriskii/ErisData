@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-stokes",
+  "publisher": "Stokes County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://stokescountygis.com/server/rest/services/Baselayers/MapServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37169"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONING_JURI",
+    "zone": "ZONING"
+  },
+  "notes": "Stokes County GIS Baselayers MapServer layer 17 (County Zoning). Countywide polygons for county and municipal/planning-area zoning; ZONING_JURI names the zoning jurisdiction (RPO-COUNTY, MPO-KING, RPO-WALNUT COVE, etc.); TOWNSHIP is the township name. Some features have null jurisdiction.",
+  "verification": {
+    "verified_at": 1792135101171,
+    "counties": [
+      "37169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-geauga",
+  "publisher": "Geauga County GIS (gcgis.geauga.oh.gov)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gcgis.geauga.oh.gov/arcgis/rest/services/Planning/General_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39055"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_LABEL",
+    "zone_name": "ZONING"
+  },
+  "notes": "County generalized zoning layer; ZONE_LABEL holds district code, ZONING holds code plus description. No jurisdiction field populated (ENTITY null), so townships and cities are not separated.",
+  "verification": {
+    "verified_at": 1792135163682,
+    "counties": [
+      "39055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

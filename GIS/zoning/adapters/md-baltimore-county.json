@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-baltimore-county",
+  "publisher": "Baltimore County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://bcgisdata.baltimorecountymd.gov/arcgis/rest/services/DevelopmentManagement/Zoning/MapServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_DIST",
+    "zone_name": "ZONE_CLASS"
+  },
+  "notes": "Baltimore County zoning reflecting the 2016 CZMP changes (not the newer 2024 layer, MapServer/1, which fails paging with duplicate records). Unincorporated county layer; no ordinance link field. ZONE_DIST is district code.",
+  "verification": {
+    "verified_at": 1792134505042,
+    "counties": [
+      "24005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

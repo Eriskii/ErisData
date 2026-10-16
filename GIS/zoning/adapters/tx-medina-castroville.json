@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-medina-castroville",
+  "publisher": "City of Castroville",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/VHWxvFumFCe0qvFk/arcgis/rest/services/Zoning_Features_view/FeatureServer/167",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48325"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_"
+  },
+  "notes": "City of Castroville zoning served through the city GIS web map (Zoning_Features_view). Covers Castroville city limits only; no district name field.",
+  "verification": {
+    "verified_at": 1792135930955,
+    "counties": [
+      "48325"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

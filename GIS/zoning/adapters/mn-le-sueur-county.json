@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-le-sueur-county",
+  "publisher": "Le Sueur County GIS (zoning web map hosted by county consultant BMI)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZkOsbg84o8DsPPaP/arcgis/rest/services/Zoning_by_Parcel_Le_Sueur_County/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27079"
+    ]
+  },
+  "fields": {
+    "zone": "Existing_Zoning"
+  },
+  "notes": "Last resort: a parcel-based zoning layer (polygons per parcel carrying Existing_Zoning and Proposed_Zoning) for the whole county, hosted in the county web map account; no standalone district layer was found. Use Existing_Zoning, not Proposed_Zoning.",
+  "verification": {
+    "verified_at": 1792134500215,
+    "counties": [
+      "27079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

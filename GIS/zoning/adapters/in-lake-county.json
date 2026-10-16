@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-lake-county",
+  "publisher": "Lake County Indiana (Lake County GIS / Plan Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://lcsogis.lakecountyin.org/server/rest/services/Hosted/Unincorporated_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18089"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "Unincorporated Lake County only; cities such as Gary, Hammond and Merrillville zone their own land and are not in this layer. Zoning codes as the county spells them (R-3, B-3, BP-2). Special exception and ordinance number fields exist in source but are mostly empty.",
+  "verification": {
+    "verified_at": 1792134139944,
+    "counties": [
+      "18089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

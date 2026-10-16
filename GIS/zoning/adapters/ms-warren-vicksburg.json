@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-warren-vicksburg",
+  "publisher": "City of Vicksburg (hosted by Warren County GIS, tpenegar ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/nJbIFHiSnaX0z0hS/arcgis/rest/services/WarrenMS_Static/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28149"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGTYPE"
+  },
+  "notes": "City of Vicksburg zoning only (2024-09 snapshot); Warren County unincorporated land has no published zoning layer. Zone codes as in ZONINGTYPE; no zone name field.",
+  "verification": {
+    "verified_at": 1792134641406,
+    "counties": [
+      "28149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

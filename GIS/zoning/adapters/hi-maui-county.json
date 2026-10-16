@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "hi-maui-county",
+  "publisher": "County of Maui (Zoning Maui County, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/s8fTJiMUCb5sw2rB/arcgis/rest/services/Zoning_Maui_County_Symbology/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "15009"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CP_AREA_NA",
+    "zone": "ZONE_NUM",
+    "zone_name": "ZONE_CLASS"
+  },
+  "notes": "County of Maui Land Use Zoning Designations as of Oct 2023 (Maui County Code Ch. 19), cty_zoning_mau layer, hosted on the county organization ArcGIS Online account. jurisdiction holds the community plan area.",
+  "verification": {
+    "verified_at": 1792133656831,
+    "counties": [
+      "15009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

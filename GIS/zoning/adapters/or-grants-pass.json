@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "or-grants-pass",
+  "publisher": "Oregon DLCD (statewide zoning, City of Grants Pass jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41033"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "link": "codeRef",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Grants Pass'",
+  "notes": "Statewide DLCD zoning compiled from local jurisdictions; filtered to the City of Grants Pass (ownerName). zone is the state-standard code; localZCode/localZDesc hold local codes.",
+  "verification": {
+    "verified_at": 1792135313071,
+    "counties": [
+      "41033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

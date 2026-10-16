@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "17127",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gis-massac-county.hub.arcgis.com/documents/bbdb5731904a401d94efda0097164142",
+    "https://gis-massac-county.hub.arcgis.com/api/search/v1/collections/all/items?q=zoning",
+    "https://www.massaccountyil.gov/supervisor-of-assessments/"
+  ],
+  "note": "Massac County GIS Hub (gis-massac-county.hub.arcgis.com) publishes no queryable zoning district service. Its only zoning item is a PDF map of the City of Metropolis (Hub document bbdb5731...). Searches of ArcGIS Online and Hub for Massac zoning returned no county or city zoning FeatureServer/MapServer; the only zoning-named service found (services.arcgis.com/f4rR7WnIfGBdVYFd Zoning_Districts) is for a different jurisdiction (chapter-numbered codes, not Massac). Metropolis zoning is published only as a PDF map and in the city code (codelibrary.amlegal.com), so this county is viewer-only at best.",
+  "recorded_at": 1792134106803,
+  "recheck_after": 1807686106803,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "26109",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.menominee.us/media/341",
+    "https://www.menomineecounty.com/forms_and_documents/all/",
+    "https://colligogis.com/desktop/",
+    "https://www.menomineecountymi.gov/departments/land-information-services-gis/"
+  ],
+  "note": "Menominee County MI: no queryable zoning district polygon layer found. City of Menominee zoning map is a PDF (menominee.us/media/341) and county forms link district maps as documents. County GIS is a Colligo GIS Desktop login viewer (colligogis.com) that does not expose a public service. The ArcGIS parcel layer found (GDITAdmin menominee_parcels) requires a token. The ArcGIS Zoning_Districts FeatureServer found (services.arcgis.com/f4rR7WnIfGBdVYFd) is for another Michigan jurisdiction (CHAPTER/HOTLINK fields, Michigan South State Plane coordinates), not Menominee. Stephenson and other townships publish zoning ordinances as documents only.",
+  "recorded_at": 1792132374971,
+  "recheck_after": 1807684374971,
+  "model": "claude-haiku-5-5"
+}

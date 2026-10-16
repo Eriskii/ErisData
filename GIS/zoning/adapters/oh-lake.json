@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-lake",
+  "publisher": "Lake County GIS (Ohio)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lakecountyohio.gov/arcgis/rest/services/GIS/GeneralZoningPublic_Publish/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39085"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "FULL_NAME",
+    "zone": "Gen_zone",
+    "zone_name": "Dist_Name"
+  },
+  "notes": "County-wide generalized zoning layer covering unincorporated townships (JURIS CO) and cities/villages. Gen_zone is a generalized category (Single Family, Commercial, Industrial, Airport...), not the local district code; Local_Code and Dist_Name are mostly N/A. Layer is in Ohio State Plane (wkid 102722); service supports geoJSON.",
+  "verification": {
+    "verified_at": 1792135194378,
+    "counties": [
+      "39085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

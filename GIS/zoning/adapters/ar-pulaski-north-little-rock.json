@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ar-pulaski-north-little-rock",
+  "publisher": "City of North Little Rock (via PAgis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.pagis.org/arcgis/rest/services/APPS_NLR/Apps_OperationalNLRZoning_Web/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05119"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Class"
+  },
+  "notes": "City of North Little Rock zoning only, served by PAgis for the city. Covers NLR, not unincorporated county land.",
+  "verification": {
+    "verified_at": 1792133794601,
+    "counties": [
+      "05119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-topeka",
+  "publisher": "City of Topeka (Topeka Zoning Atlas)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/Topeka_Zoning_Atlas/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20177"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Topeka zoning districts from the Topeka Zoning Atlas joined layer. Zone code ZONECLASS, description ZONEDESC.",
+  "verification": {
+    "verified_at": 1792134345427,
+    "counties": [
+      "20177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

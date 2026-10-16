@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-san-bernardino-county",
+  "publisher": "County of San Bernardino Land Use Services Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services/LUS_LUS_LUD_2024_May/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "zone": "TEXT1",
+    "zone_name": "TEXT2"
+  },
+  "filter": "TEXT1 NOT LIKE 'LU/%'",
+  "notes": "County land use zoning districts (2024 May layer), unincorporated county. TEXT1 is the zoning code (e.g. RL-5, 7M-RM); TEXT2 the alternate code. The filter drops LU/-prefixed general-plan land use categories (CH, CR and similar), which are not zoning districts; so areas labelled only LU/ (e.g. parts of the Ludlow desert) have no zoning polygon in this layer. Incorporated cities zone their own land and are not in this layer.",
+  "verification": {
+    "verified_at": 1792134118551,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

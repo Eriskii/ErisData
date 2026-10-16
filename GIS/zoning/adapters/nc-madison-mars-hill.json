@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-madison-mars-hill",
+  "publisher": "Town of Mars Hill (via Madison County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/NwIC4HArqo0JlKGT/arcgis/rest/services/Mars_Hill_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37115"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode"
+  },
+  "notes": "Town of Mars Hill zoning districts, hosted on the Madison County GIS ArcGIS Online organization. 39 features.",
+  "verification": {
+    "verified_at": 1792135101234,
+    "counties": [
+      "37115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

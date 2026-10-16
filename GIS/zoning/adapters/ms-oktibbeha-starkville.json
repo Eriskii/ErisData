@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-oktibbeha-starkville",
+  "publisher": "City of Starkville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/kQPfxbSKhIDcSFXL/arcgis/rest/services/Starkville_Feature_Service/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28105"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Starkville zoning districts (StarkvilleZoning layer of the city Opengov feature service). Covers the City of Starkville only; no county unincorporated zoning found. No district name or ordinance link fields published.",
+  "verification": {
+    "verified_at": 1792134603699,
+    "counties": [
+      "28105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

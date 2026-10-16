@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-st-petersburg",
+  "publisher": "City of St. Petersburg GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/ZoningDistricts_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "link": "PDFURL",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of St. Petersburg zoning districts. Layer is in Florida State Plane (EPSG:2882); the runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792133896882,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

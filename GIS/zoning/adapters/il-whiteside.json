@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-whiteside",
+  "publisher": "Whiteside County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/l0M0OC6J9QAHCiGx/arcgis/rest/services/Zoning_District_ONLY/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17195"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Juristiction",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Single county layer holding zoning districts for unincorporated Whiteside County and its cities (e.g. Sterling, Fulton), distinguished by Juristiction. Hosted by county GIS owner eowyn14 on ArcGIS Online.",
+  "verification": {
+    "verified_at": 1792134062382,
+    "counties": [
+      "17195"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ok-tulsa-city",
+  "publisher": "City of Tulsa GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/XkZ90iCdbTJ9oNXl/arcgis/rest/services/TulsaZoning_OpenData/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40143"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE",
+    "zone_name": "LEGEND"
+  },
+  "notes": "City of Tulsa open data zoning layer (city limits only). ORDINANCE is almost always blank, so no link is mapped.",
+  "verification": {
+    "verified_at": 1792135257288,
+    "counties": [
+      "40143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

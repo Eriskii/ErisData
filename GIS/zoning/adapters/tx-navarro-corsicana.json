@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-navarro-corsicana",
+  "publisher": "City of Corsicana, Texas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/V3MtivrTOPqThQ57/arcgis/rest/services/Zoning_Corsicana/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48349"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "City of Corsicana zoning districts only (city limits), hosted on the city ArcGIS Hub web GIS. Unincorporated county land is not zoned by Navarro County. No ordinance links populated.",
+  "verification": {
+    "verified_at": 1792135925318,
+    "counties": [
+      "48349"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

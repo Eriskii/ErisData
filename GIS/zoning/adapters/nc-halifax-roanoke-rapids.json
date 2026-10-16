@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-halifax-roanoke-rapids",
+  "publisher": "City of Roanoke Rapids Planning (OpenGov_RR_Layers)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/0zS9csrI5fS6Bcym/arcgis/rest/services/OpenGov_RR_Layers/FeatureServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Roanoke Rapids only (not county-wide; no county or other town zoning layer found as queryable). Layer is parcel-based: each parcel record carries its ZONE, so it is a last-resort source. zone_name not populated in source.",
+  "verification": {
+    "verified_at": 1792135114209,
+    "counties": [
+      "37083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

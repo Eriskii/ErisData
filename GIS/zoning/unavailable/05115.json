@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "05115",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.popecountyar.gov/maps",
+    "https://www.russellvillearkansas.org/491/Zoning",
+    "https://www.russellvillearkansas.org/252/GIS-Services",
+    "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES"
+  ],
+  "note": "Pope County's maps page lists no county zoning layer (only fire, JP, constable, school, voting maps). Russellville's zoning page says its zoning map is on a city GIS maps platform, but no queryable zoning service was found in ArcGIS search or the city's pages (which I could not open). Arkansas state GIS has no zoning layer; Dover, Atkins and Pottsville showed no published zoning GIS.",
+  "recorded_at": 1792133831509,
+  "recheck_after": 1807685831509,
+  "model": "claude-haiku-5-5"
+}

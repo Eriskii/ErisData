@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "46067",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gis.districtiii.org/server/rest/services/HUTCHINSON_COUNTY_WEB_LAYERS2/MapServer",
+    "https://www.cityoffreeman.org/planning-zoning",
+    "https://www.cityofparkston.org/?DE=8561512C-E49B-4589-A05A-48E8459431C4&SEC=0BBB56E1-7C02-44C9-BA34-D72CA83C6AF0"
+  ],
+  "note": "Hutchinson County's GIS service (District III host, HUTCHINSON_COUNTY_WEB_LAYERS2) has parcels, sections, city limits, districts and flood layers but no zoning layer. The county's zoning ordinance page links no zoning map service. Freeman's zoning map (June 2020) and Parkston's ZONING(11X17) are PDF images only, with no queryable zoning polygons. Other towns checked (Menno, Olivet, Tripp) show no GIS zoning either.",
+  "recorded_at": 1792135454262,
+  "recheck_after": 1807687454262,
+  "model": "claude-haiku-5-5"
+}

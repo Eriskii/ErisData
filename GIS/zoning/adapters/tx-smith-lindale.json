@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-smith-lindale",
+  "publisher": "Smith County GIS (Lindale zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.smithcountymapsite.org/publicgis/rest/services/Maps/LandUse_Zoning/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48423"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Lindale zoning, approximate boundaries from Smith County map site LandUse_Zoning service; covers Lindale only",
+  "verification": {
+    "verified_at": 1792135750326,
+    "counties": [
+      "48423"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

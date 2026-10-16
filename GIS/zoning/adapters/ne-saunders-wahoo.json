@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-saunders-wahoo",
+  "publisher": "City of Wahoo (gWorks-hosted Saunders County PZ service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Saunders_County_NE_PZ/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31155"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Zoning districts for the City of Wahoo, from the county planning and zoning MapServer hosted by gWorks.",
+  "verification": {
+    "verified_at": 1792134961070,
+    "counties": [
+      "31155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

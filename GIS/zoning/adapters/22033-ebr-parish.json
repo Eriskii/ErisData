@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "22033-ebr-parish",
+  "publisher": "EBRGIS (East Baton Rouge Parish GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.brla.gov/gis/rest/services/Cadastral/Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22033"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_TYPE"
+  },
+  "notes": "Covers City of Baton Rouge and unincorporated EBR Parish; no separate jurisdiction field. Data last updated 2023.",
+  "verification": {
+    "verified_at": 1792134388217,
+    "counties": [
+      "22033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

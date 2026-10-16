@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-clearwater-county",
+  "publisher": "Clearwater County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/bkAz0G7Qq4dmkYCg/arcgis/rest/services/County_Zoning_view/FeatureServer/41",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16035"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_",
+    "zone_name": "District"
+  },
+  "notes": "County zoning for unincorporated Clearwater County, Idaho; 59 polygons from the county GIS repository. Cities (Orofino, Elk River) have separate layers not included here.",
+  "verification": {
+    "verified_at": 1792133625159,
+    "counties": [
+      "16035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

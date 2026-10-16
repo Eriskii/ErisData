@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "18099",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.co.marshall.in.us/egov/apps/document/center.egov?view=detail&id=986",
+    "https://www.plymouthin.com/egov/apps/document/center.egov?view=detail&id=47",
+    "https://gis.marshallcountyia.gov/arcgis/rest/services/Zoning/MapServer"
+  ],
+  "note": "Marshall County IN publishes its zoning only as static PDF maps (City of Plymouth districts map 2023; City of Plymouth zoning map 2012). Its ArcGIS Zoning/MapServer/0 layer is not Marshall County data: 12,940 polygons whose features sit in Iowa (about -92.8, 42.0), with zero features inside the Indiana county bounding box, so it cannot serve zoning here. No queryable district polygon service was found for the county or Plymouth, Argos, Bourbon or Bremen.",
+  "recorded_at": 1792134152336,
+  "recheck_after": 1807686152336,
+  "model": "claude-haiku-5-5"
+}

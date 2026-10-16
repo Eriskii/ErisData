@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29223",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://data-wayne.opendata.arcgis.com/",
+    "https://piedmont.hosted.civiclive.com/common/pages/DisplayFile.aspx?itemId=14164662",
+    "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_13659739/File/Government/City%20Charter%20&%20Code/Chapter%2017.pdf"
+  ],
+  "note": "Wayne County MO (29223): the county's Hub open-data site lists no zoning dataset (search API returns zero hits for zoning). The SEMO GIS server (maps.semogis.com) hosts no Wayne County folder; neighbouring Iron County's zoning is there but not Wayne's. Piedmont, the largest city, zones under Chapter 17 with its zoning map kept by the City Clerk, not as a queryable service. The 'Piedmont Zoning Viewer' found is an Oklahoma city's viewer. Regrid has zoning fields but is a commercial third-party copy, not an official service.",
+  "recorded_at": 1792134878667,
+  "recheck_after": 1807686878667,
+  "model": "claude-haiku-5-5"
+}

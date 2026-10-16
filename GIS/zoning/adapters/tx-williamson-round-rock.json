@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-williamson-round-rock",
+  "publisher": "City of Round Rock GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.roundrocktexas.gov/arcgis/rest/services/Planning/Planning_Multi/MapServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48491"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "BASE_ZONIN",
+    "zone_name": "NAME"
+  },
+  "notes": "City of Round Rock base zoning districts (Williamson and Travis counties). City-only layer; county has no countywide zoning.",
+  "verification": {
+    "verified_at": 1792135786930,
+    "counties": [
+      "48491"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

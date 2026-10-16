@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-knox-county",
+  "publisher": "Galesburg GIS (Knox County Zoning Districts, city planning radius)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/T5ar9pn3YeFZ47Wh/arcgis/rest/services/Knox_County_Zoning_Districts_(City_Planning_Radius)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17095"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Published by City of Galesburg GIS; covers county zoning within the city planning radius (1.5 miles outside Galesburg). Zone field only; no ordinance link field.",
+  "verification": {
+    "verified_at": 1792133995007,
+    "counties": [
+      "17095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

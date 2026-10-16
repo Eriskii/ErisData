@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-kent-grand-rapids",
+  "publisher": "City of Grand Rapids Planning Department (hosted copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/vElyTHUSDMtSHSgT/arcgis/rest/services/zoning_grand_rapids/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26081"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_DES"
+  },
+  "notes": "City of Grand Rapids base zoning districts (only the city, not the rest of Kent County). Hosted on an ArcGIS Online account (alinares_iffchgo), not confirmed as the city org; use it because no official queryable county-wide layer was found. Covers Grand Rapids only.",
+  "verification": {
+    "verified_at": 1792132308545,
+    "counties": [
+      "26081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

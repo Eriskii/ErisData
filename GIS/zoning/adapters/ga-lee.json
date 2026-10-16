@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-lee",
+  "publisher": "Lee County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/xWHrkwYCAX9v0Owj/arcgis/rest/services/Zoning_09_11_26/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13177"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Id"
+  },
+  "notes": "County zoning layer from the Lee County GA web map (leecounty.maps.arcgis.com app 9673277598af407994f9b5ed5e8baac5). Zoning_Id is the current district code; LastZone is the prior zoning and is not mapped. Comment holds conditions notes. Covers county zoning districts; city zoning not included.",
+  "verification": {
+    "verified_at": 1792133940970,
+    "counties": [
+      "13177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

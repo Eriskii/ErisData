@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nj-gloucester",
+  "publisher": "Gloucester County NJ (compiled municipal zoning, ArcGIS Online copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/ALQeR5k3182nooX1/arcgis/rest/services/Zoning_2016/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUN",
+    "zone": "Zone_AB",
+    "zone_name": "Zone_DESC"
+  },
+  "notes": "Copy hosted on ArcGIS Online by individual account cgross95 (titled Gloucester County Zoning, 2016 snapshot), not verified as the county organization; no official county zoning service was found. One row per district across municipalities; jurisdiction in MUN. Gloucester Township and Mantua appear absent or null in this snapshot.",
+  "verification": {
+    "verified_at": 1792134979568,
+    "counties": [
+      "34015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

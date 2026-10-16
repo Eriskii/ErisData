@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-harney-burns",
+  "publisher": "Harney County GIS (City of Burns zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/e3KSI9Py4B7m3xu6/arcgis/rest/services/51_arcgis_online_Burns_Amended_Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41025"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "LOCATION",
+    "link": "Link",
+    "zone": "CODE",
+    "zone_name": "DEFINITION"
+  },
+  "notes": "City of Burns amended zoning, hosted in Harney County GIS ArcGIS Online org",
+  "verification": {
+    "verified_at": 1792135374360,
+    "counties": [
+      "41025"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

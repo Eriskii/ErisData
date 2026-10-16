@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-racine-burlington",
+  "publisher": "City of Burlington (via Racine County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.racinecounty.com/arcgis/rest/services/Zoning/BurlingtonCityZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCLASS",
+    "zone_name": "ZONINGDESCRIPTION"
+  },
+  "notes": "City of Burlington zoning, provided to the County in 2016 (may be dated). Covers City of Burlington only.",
+  "verification": {
+    "verified_at": 1792136086768,
+    "counties": [
+      "55101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

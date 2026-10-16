@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ma-suffolk-boston",
+  "publisher": "City of Boston Planning Department (BPDA) GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.bostonplans.org/hosting/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25025"
+    ]
+  },
+  "fields": {
+    "link": "ARTICLE",
+    "zone": "DISTRICT",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "City of Boston only (Suffolk County also includes Chelsea, Revere, Winthrop, which do not appear here). Public domain, data.boston.gov. Base zoning districts; DISTRICT holds the district code, ARTICLE the zoning code article.",
+  "verification": {
+    "verified_at": 1792131911294,
+    "counties": [
+      "25025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

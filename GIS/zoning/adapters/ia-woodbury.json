@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-woodbury",
+  "publisher": "Woodbury County, Iowa (WCICC parcel service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/kd1jFI4TM5bZHeP8/arcgis/rest/services/Woodbury_County_IA_Parcel_Data_Feature/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19193"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "filter": "city1_county2 = '2'",
+  "notes": "Last resort: no county or city base-zoning district layer found. Parcel layer whose ZONING attribute carries each parcel district as CODE - NAME (e.g. AP - AGRICULTURAL PRESERVATION); unincorporated parcels only (city1_county2 = 2). Some parcels empty. Served from the county/city GIS org account.",
+  "verification": {
+    "verified_at": 1792134247925,
+    "counties": [
+      "19193"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

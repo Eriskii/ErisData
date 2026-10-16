@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "39033",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.cityofbucyrusoh.us/zoning",
+    "https://www.cityofbucyrusoh.us/docs-form/zoning-map",
+    "https://app.iamgis.com/map/703bc125559e4055b4206a444133a816/",
+    "https://www.galion.city/392/Zoning-Districts",
+    "https://upperWyandot"
+  ],
+  "note": "Crawford County (OH) publishes no countywide zoning layer; townships and cities zone themselves. Bucyrus zoning is a PDF map plus an iamGIS viewer that requires login (API redirects to login), no public REST service. Galion's zoning map link is not reachable and no service found. The county Experience app 56d0b053... is a Crawford County, Georgia map (MGRC template), not Ohio. ArcGIS search and the county GIS host (gis.crawford-co.org) yielded no zoning service.",
+  "recorded_at": 1792135299612,
+  "recheck_after": 1807687299612,
+  "model": "claude-haiku-5-5"
+}

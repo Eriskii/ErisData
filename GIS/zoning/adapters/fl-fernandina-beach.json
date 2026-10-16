@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-fernandina-beach",
+  "publisher": "City of Fernandina Beach (Nassau County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauCountyPublicTaxMap/MapServer/297",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12089"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "zoning_description"
+  },
+  "notes": "City of Fernandina Beach zoning districts, served by Nassau County Property Appraiser GIS.",
+  "verification": {
+    "verified_at": 1792133918391,
+    "counties": [
+      "12089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

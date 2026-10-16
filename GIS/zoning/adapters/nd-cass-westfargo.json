@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nd-cass-westfargo",
+  "publisher": "City of West Fargo GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/kycwcva1achR3cJA/arcgis/rest/services/CityZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "City of West Fargo current zoning districts (city limits). Hosted by West Fargo on ArcGIS Online.",
+  "verification": {
+    "verified_at": 1792135130572,
+    "counties": [
+      "38017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

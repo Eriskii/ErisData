@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-forest-park",
+  "publisher": "Forest Park, GA (unofficial copy, AlainaEllis ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Mm1BAVEiAXrYE9vn/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13063"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Unofficial copy: a personal ArcGIS Online item by AlainaEllis, titled Zoning of Forest Park, Georgia, from secondaryfiles.gdb (layer NewZoning). No official queryable Forest Park zoning service was found; the city planning page links only a PDF map. Layer also carries parcel/PLSS survey fields (Name is a parcel ID); ZONE holds the district code. Covers Forest Park only. Verify against the city zoning map before relying on it.",
+  "verification": {
+    "verified_at": 1792133938458,
+    "counties": [
+      "13063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

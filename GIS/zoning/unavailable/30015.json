@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "30015",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://co.chouteau.mt.us/planning.htm",
+    "https://co.chouteau.mt.us/index_htm_files/2011%20County%20Development%20Regulations.pdf",
+    "https://services8.arcgis.com/pGAq1gLItvGrOScO/arcgis/rest/services/CHOUTEAU_COUNTY_PARCELS/FeatureServer/0",
+    "https://www.arcgis.com/home/item.html?id=5dfee772d0bd446e8fdc8e8df3a14c93"
+  ],
+  "note": "Chouteau County MT: no queryable zoning district layer found. County zoning exists only as text regulations (2011 PDF), which exclude the cities of Fort Benton, Big Sandy and Geraldine. The county's public ArcGIS map (PUBLIC MAP, chouteaumt_des) references parcels, PLSS, boundary, road and structure services only, no zoning. The parcel service requires a token. Fort Benton's municipal code has zoning text but no GIS. ArcGIS Online and the Chouteau_WebPUBLIC service have no zoning layer.",
+  "recorded_at": 1792134933308,
+  "recheck_after": 1807686933308,
+  "model": "claude-haiku-5-5"
+}

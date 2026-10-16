@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-clay-vermillion",
+  "publisher": "City of Vermillion, SD (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/f5akCEJI8E26cilQ/arcgis/rest/services/Zoning_View_Layer_Only/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46027"
+    ]
+  },
+  "fields": {
+    "link": "ZoneLink",
+    "zone": "ZONECODE"
+  },
+  "notes": "City of Vermillion zoning districts (only the city-zoned layer found; Clay County itself publishes zoning only as PDF maps). Covers the city and its joint jurisdiction area as published by the city. Layer is in a ftUS state plane projection; service converts to lat/lon on query.",
+  "verification": {
+    "verified_at": 1792135409295,
+    "counties": [
+      "46027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

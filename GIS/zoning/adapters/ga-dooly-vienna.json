@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-dooly-vienna",
+  "publisher": "City of Vienna (ArcGIS Online copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/PYn6bWCjT6bhw1z3/arcgis/rest/services/Dooly_WFL1/FeatureServer/16",
+    "page_size": 50,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "13093"
+    ]
+  },
+  "fields": {
+    "zone": "Zones_1",
+    "zone_name": "Zones"
+  },
+  "notes": "Unofficial ArcGIS Online copy of Vienna GA zoning (personal owner; no official queryable layer found).",
+  "verification": {
+    "verified_at": 1792134016596,
+    "counties": [
+      "13093"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

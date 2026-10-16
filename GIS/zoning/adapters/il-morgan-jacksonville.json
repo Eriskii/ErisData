@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-morgan-jacksonville",
+  "publisher": "Morgan County GIS / City of Jacksonville, IL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/95PFahBF8eyGEfuc/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17137"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_"
+  },
+  "notes": "City of Jacksonville zoning districts (not county-wide; unincorporated county and other towns not included). Layer served from Morgan County GIS org (morganmaps). Zone_ holds district codes such as B-4, R-5, M-1, Public. No zone name field; Document holds ordinance number (e.g. 2022-O-006), SpecUse is a special-use flag.",
+  "verification": {
+    "verified_at": 1792134082236,
+    "counties": [
+      "17137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

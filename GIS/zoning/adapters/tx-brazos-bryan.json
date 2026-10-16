@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-brazos-bryan",
+  "publisher": "City of Bryan (layer published by mapsgis, a GIS vendor, from the city dataset Bryan Zoning 2017)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/qr14biwnHA6Vis6l/arcgis/rest/services/Bryan_Zoning_2017/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48041"
+    ]
+  },
+  "fields": {
+    "link": "IMS_LINK",
+    "zone": "ZONING",
+    "zone_name": "ZONING_DES"
+  },
+  "notes": "City of Bryan zoning, 2017 vintage; the city also publishes a shapefile at docs.bryantx.gov COB_ZONING.zip. Covers city limits only.",
+  "verification": {
+    "verified_at": 1792135610824,
+    "counties": [
+      "48041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

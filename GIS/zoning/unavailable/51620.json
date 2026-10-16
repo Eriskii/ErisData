@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "51620",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services.arcgis.com/ex1Az95h0eiponPK/arcgis/rest/services/Locality_Zones/FeatureServer/1",
+    "https://www.franklinva.gov/224/Planning-Zoning",
+    "https://ecode360.com/28953921",
+    "https://franklin.civ.quest"
+  ],
+  "note": "City of Franklin zones its land (zoning ordinance on eCode360), but no queryable zoning district service was found. The only candidate, the Hampton Roads Locality_Zones layer for Franklin City (FeatureServer/1), holds a single placeholder feature with Notes 'Currently unavailable' and no zone field. The city's CivQuest GIS viewer exposes no confirmed REST zoning layer.",
+  "recorded_at": 1792135994997,
+  "recheck_after": 1807687994997,
+  "model": "claude-haiku-5-5"
+}

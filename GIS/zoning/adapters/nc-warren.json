@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-warren",
+  "publisher": "Warren County GIS (RokMap)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis5.roktech.net/arcgis/rest/services/Warren/RokMap/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37185"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "County RokMap (vendor-hosted for Warren County NC) Zoning layer. Codes only, no district name or ordinance link. Zone codes include AR, RL, NB, HB, GC, LB, LI, TC, R; one blank value. Town of Warrenton zoning is PDF only, so not included.",
+  "verification": {
+    "verified_at": 1792135260200,
+    "counties": [
+      "37185"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

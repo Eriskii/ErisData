@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "51135",
+  "reason": "login-required",
+  "evidence": [
+    "https://nottoway.org/departments/planning/geographical_information_system_(gis)/index.php",
+    "https://nottoway.org/departments/zoning/zoning_districts/index.php",
+    "https://services9.arcgis.com/jf148xSqMmgeAF0f/arcgis/rest/services/Nottoway_WL_D/FeatureServer"
+  ],
+  "note": "Nottoway County GIS lists zoning as 'not currently available'. Its GIS layers (Nottoway_WL_D on ArcGIS Online, services9.arcgis.com) return 'Token Required'; the county GIS portal (nottowaycova.interactivegis.com) requires login. The county's zoning district page links only PDF maps. No public queryable zoning district service was found for Nottoway County; towns of Crewe, Blackstone and Burkeville publish zoning only as ordinances/PDFs or third-party maps.",
+  "recorded_at": 1792135956020,
+  "recheck_after": 1807687956020,
+  "model": "claude-haiku-5-5"
+}

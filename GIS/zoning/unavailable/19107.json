@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "19107",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://keokukcounty.iowa.gov/business/county-government/county-assessor",
+    "https://iowacountyoffices.org/keokuk/",
+    "https://sigourney.com/city-ordinances/",
+    "https://www.keotaiowa.org/includes/doc/ordinance/Keota%20Zoning%20Map.pdf",
+    "https://services7.arcgis.com/luTVRuFG69dNpCb5/arcgis/rest/services"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Keokuk County, Iowa zoning districts. The county's public GIS is the Beacon (Schneider) parcel viewer, which exposes no zoning-district service. Sigourney's ArcGIS services hold only voting wards, parks and points of interest; its zoning ordinance is text with no map layer. Keota's zoning map is a 2013 PDF only. No open zoning district polygon layer was found for the county or its cities.",
+  "recorded_at": 1792134220365,
+  "recheck_after": 1807686220365,
+  "model": "claude-haiku-5-5"
+}

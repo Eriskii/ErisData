@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-niagara-parcels",
+  "publisher": "Lockport Zoning parcel layer (PlanningDesign, ArcGIS Online copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/yisUfwZZ4fyubK3R/arcgis/rest/services/Lockport_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36063"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "PrclMuni",
+    "zone": "ZoneCode"
+  },
+  "notes": "Unofficial copy hosted by PlanningDesign, not the county or city. Last resort: a parcel layer whose ZoneCode carries each parcel zoning, covering only the Lockport area (City and Town of Lockport), not the whole county. Parcel polygons, not district polygons; the county-wide compiled layer (services2 ASaO6mkKxE2fYJAi Zoning, by amyfisk) failed validation with invalid polygons.",
+  "verification": {
+    "verified_at": 1792135080066,
+    "counties": [
+      "36063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

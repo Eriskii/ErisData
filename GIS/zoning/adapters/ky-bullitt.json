@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-bullitt",
+  "publisher": "Bullitt County Planning and Development (BCPAD) via county ArcGIS web map",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/7GIe3Xxna70nAWN0/arcgis/rest/services/Bullitt_County_Kentucky_Zoning_Classification_WFL1/FeatureServer/46",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21029"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "INCORP_AREA",
+    "zone": "Zoning"
+  },
+  "notes": "County planning office zoning classification layer (BC_ZONE_AUG_21_Export) from the official county ArcGIS web map. Polygons are parcel-level, each carrying its zoning code in Zoning; Zn_Name (zone name) is blank for most parcels so it is not mapped. INCORP_AREA names the city or unincorporated area.",
+  "verification": {
+    "verified_at": 1792134348613,
+    "counties": [
+      "21029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

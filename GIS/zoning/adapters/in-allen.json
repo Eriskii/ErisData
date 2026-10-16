@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "in-allen",
+  "publisher": "Allen County GIS / City of Fort Wayne (allen-county-indiana-zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/pgpW6qJ4VMq85bSI/arcgis/rest/services/Fort_Wayne_Special_Districts/FeatureServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18003"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDIC_1",
+    "zone": "ZONING_CLA",
+    "zone_name": "ZONING_PRO"
+  },
+  "notes": "Countywide base zoning layer with jurisdiction field (AC, FW, WB, GB, HT, MV, etc.), served from the City of Fort Wayne map service host. zone_name holds the category (e.g. INDUSTRIAL ZONING DISTRICTS). Some values are blank spaces.",
+  "verification": {
+    "verified_at": 1792134152860,
+    "counties": [
+      "18003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

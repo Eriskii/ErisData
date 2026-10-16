@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-marin-unincorporated",
+  "publisher": "Marin County Community Development Agency",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/T8eS7sop5hLmgRRH/arcgis/rest/services/Zoning_of_Unincorporated_Marin_County/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06041"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Unincorporated Marin County only; Title 22 Development Code land use designations. Cities zone their own land.",
+  "verification": {
+    "verified_at": 1792134100122,
+    "counties": [
+      "06041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

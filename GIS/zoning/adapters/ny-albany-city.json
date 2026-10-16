@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ny-albany-city",
+  "publisher": "City of Albany (layer copy hosted on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/rhmvOR2TDsslEybT/arcgis/rest/services/NY_Albany_City_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36001"
+    ]
+  },
+  "fields": {
+    "link": "eCode",
+    "zone": "ReZone",
+    "zone_name": "Descr"
+  },
+  "notes": "City of Albany zoning districts, a copy uploaded to ArcGIS Online by user aclbsean, not the city itself; the city GIS hub links its own zoning app. Used because no official county layer passes validation.",
+  "verification": {
+    "verified_at": 1792135009768,
+    "counties": [
+      "36001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

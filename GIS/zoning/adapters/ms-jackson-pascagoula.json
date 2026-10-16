@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-jackson-pascagoula",
+  "publisher": "City of Pascagoula (Pascagoula Zoning Map 6.20.22, ArcGIS Online copy by Bobbarber)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/zxqi28jLbBeyF8Y2/arcgis/rest/services/Pascagoula_Zoning_Map_WFL1/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28059"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Last resort, unofficial: an ArcGIS Online copy uploaded by Bobbarber, not a city-hosted service. Covers City of Pascagoula only, not unincorporated Jackson County. The layer is parcel-style (owner, parcel IDs, values) with a ZONING field on each parcel; DISTRICT is a tax district code and is not mapped. Dated 6.20.22.",
+  "verification": {
+    "verified_at": 1792134611933,
+    "counties": [
+      "28059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

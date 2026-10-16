@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wv-jefferson-charlestown",
+  "publisher": "Jefferson County GIS (town zoning, hosted by county staff account rpierce_JCWVGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/XHPMHLtcwUiGJ0nS/arcgis/rest/services/Zoning_Towns/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54037"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zone_Dist"
+  },
+  "notes": "City of Charles Town zoning polygons from the Jefferson County GIS town zoning service. Zoning holds district code; Zone_Dist holds district name or description.",
+  "verification": {
+    "verified_at": 1792136069319,
+    "counties": [
+      "54037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

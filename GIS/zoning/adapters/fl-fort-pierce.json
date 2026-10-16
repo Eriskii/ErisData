@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-fort-pierce",
+  "publisher": "City of Fort Pierce GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/oDRzuf2MGmdEHAbQ/arcgis/rest/services/Zoning/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12111"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Fort Pierce zoning districts, parcel-level attributes; Zoning holds the district code.",
+  "verification": {
+    "verified_at": 1792133880143,
+    "counties": [
+      "12111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

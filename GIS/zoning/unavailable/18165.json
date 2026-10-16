@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "18165",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.vermilliongov.us/zoning/",
+    "https://www.vermilliongov.us/wp-content/uploads/2025/04/VC-Zoning-Map-Final.pdf",
+    "https://vermillionin.wthgis.com/",
+    "https://www.vermilliongov.us/webgis/"
+  ],
+  "note": "Vermillion County (IN) publishes its zoning only as a static PDF map (VC-Zoning-Map-Final.pdf) and UDO ordinance. The county Web GIS viewer (vermillionin.wthgis.com, WTH GIS) is linked from the surveyor and webgis pages; third-party pages say it shows zoning overlays, but no ArcGIS REST services directory was found on it (/rest/services, /arcgis/rest/services, /server/rest/services all 404) and its config is not exposed. ArcGIS Hub/Online searches for Vermillion County zoning returned no zoning service. No city zoning service was found for Clinton, the largest city, either (only third-party Zoneomics pages).",
+  "recorded_at": 1792134225151,
+  "recheck_after": 1807686225151,
+  "model": "claude-haiku-5-5"
+}

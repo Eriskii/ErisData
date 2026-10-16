@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ct-middlesex-middletown",
+  "publisher": "RiverCOG (Lower Connecticut River Valley Council of Governments), City of Middletown zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uH7GnAlGDzMooG4B/arcgis/rest/services/RiverCOG_Regional_Zoning/FeatureServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09130"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_ID",
+    "zone_name": "LND_ZONE"
+  },
+  "notes": "Middletown layer from RiverCOG regional zoning service; Zone_ID is the district code, LND_ZONE the name",
+  "verification": {
+    "verified_at": 1792133855420,
+    "counties": [
+      "09130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

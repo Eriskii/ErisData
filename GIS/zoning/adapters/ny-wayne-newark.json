@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-wayne-newark",
+  "publisher": "Wayne County GIS (Village of Newark zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.wayne.ny.us/arcgis/rest/services/Newark_Zoning/FeatureServer/61",
+    "page_size": 50,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36117"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Class",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "Village of Newark zoning, published by Wayne County GIS (GTG standardization, 2024).",
+  "verification": {
+    "verified_at": 1792135060821,
+    "counties": [
+      "36117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

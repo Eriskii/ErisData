@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-commerce",
+  "publisher": "Jackson County GIS (City of Commerce zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/bcbi4lYRFOsss0F5/arcgis/rest/services/jackson_baselayers/FeatureServer/14",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13157"
+    ]
+  },
+  "fields": {
+    "zone": "zoning_commerce"
+  },
+  "filter": "ZONING = 'Commerce'",
+  "notes": "City of Commerce zoning carried in the county base-layer service; code in zoning_commerce, city parcels identified by ZONING = Commerce.",
+  "verification": {
+    "verified_at": 1792133937566,
+    "counties": [
+      "13157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-taylor-lenox",
+  "publisher": "Iowa State University Online Guide to Iowa Zoning (copy of Lenox, IA zoning)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19173"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Lenox'",
+  "notes": "Third-party compilation by Iowa State University (ISUGISF), not an official Lenox or Taylor County layer; covers only the city of Lenox (part of Taylor County), no Bedford/Gravity/Blockton/Conway zoning found. Used because no official queryable zoning service was found for Taylor County.",
+  "verification": {
+    "verified_at": 1792134268705,
+    "counties": [
+      "19173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

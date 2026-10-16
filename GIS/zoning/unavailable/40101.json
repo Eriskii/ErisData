@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40101",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.muskogeeok.gov/departments/planning/city_maps.php",
+    "https://www.gismaps.org/ok-muskogee-county/",
+    "https://muskogee.okcounties.org/offices/county-assessor",
+    "https://library.municode.com/OK/muskogee/codes/code_of_ordinances?nodeId=PTIICOOR_CH90ZO_ART06ZODI_90-06-03ZOMA"
+  ],
+  "note": "No public queryable zoning district layer found for Muskogee County or the City of Muskogee. The City's planning page says its zoning map is moving to ArcGIS ('coming soon', 04/27/2026) and gives only a PDF legend. The county's ArcGIS services (Muskogee_County_Data) hold only boundaries, wards and districts, no zoning. A Fort Gibson zoning layer (FtGibsonGIS) requires a token. Regrid parcel zoning is a paid third-party product, not an official source. Searches of ArcGIS Hub/Online and the county/city sites found no service.",
+  "recorded_at": 1792135288746,
+  "recheck_after": 1807687288746,
+  "model": "claude-haiku-5-5"
+}

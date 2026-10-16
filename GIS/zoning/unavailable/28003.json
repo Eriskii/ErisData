@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "28003",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.corinthms.gov/maps",
+    "https://www.corinthms.gov/planning",
+    "https://www.alcorncounty.org/",
+    "https://services1.arcgis.com/A1bgwl2NW8ybMUDF/arcgis/rest/services/ALCORN_COUNTY/FeatureServer"
+  ],
+  "note": "No queryable zoning district layer found for Alcorn County or its largest city, Corinth. Corinth publishes its zoning only as a static PDF map (corinthms.gov/maps, planning page). The Corinth ArcGIS Zoning MapServer found on gis-portal.cityofcorinth.com is Corinth, Texas (coordinates near -97.08), not Corinth, MS. The county site and county ArcGIS services (ALCORN_COUNTY, SUPPORTING_DATA) hold no zoning layer. Alcorn County itself appears not to zone.",
+  "recorded_at": 1792134572338,
+  "recheck_after": 1807686572338,
+  "model": "claude-haiku-5-5"
+}

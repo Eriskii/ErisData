@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-linn",
+  "publisher": "Linn County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.linncountyks.com/server/rest/services/Adopted_Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20107"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_COD",
+    "zone_name": "ZONING_DES"
+  },
+  "notes": "Linn County KS adopted zoning map layer from the county ArcGIS server. Check whether it covers cities.",
+  "verification": {
+    "verified_at": 1792134363227,
+    "counties": [
+      "20107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

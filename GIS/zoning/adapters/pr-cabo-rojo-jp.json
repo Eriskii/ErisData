@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pr-cabo-rojo-jp",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/MapServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72023"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "notes": "JP statewide calificacion layer (cali_vige), no attribute filter (a municipio filter times out on this service). jurisdiction = municipio. zone = calificacion code (AD, SRC...), zone_name = description; cali_2021 is the 2021 revised code.",
+  "verification": {
+    "verified_at": 1792137762662,
+    "counties": [
+      "72023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

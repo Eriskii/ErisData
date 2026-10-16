@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-cape-girardeau-jackson",
+  "publisher": "City of Jackson, MO (hosted by SEMO RPC / semogis.com)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.semogis.com/server/rest/services/Jackson_CTY/Jackson_Zoning/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29031"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_II"
+  },
+  "notes": "City of Jackson (county seat) zoning districts only; not the unincorporated county or other cities. Zone field Zoning_II holds the district code. Ord_No (ordinance) is mostly blank, so no link mapped.",
+  "verification": {
+    "verified_at": 1792134820792,
+    "counties": [
+      "29031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

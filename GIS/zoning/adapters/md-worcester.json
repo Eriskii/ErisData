@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-worcester",
+  "publisher": "Worcester County Government (Maryland)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://wcg-gisweb.co.worcester.md.us/arcgis/rest/services/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24047"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "Designation_1"
+  },
+  "notes": "Worcester County Zoning Districts, adopted 2009 with later rezonings; county unincorporated land. Designation codes such as A1 (Agricultural). Incorporated towns zone their own land and are not in this layer.",
+  "verification": {
+    "verified_at": 1792134544000,
+    "counties": [
+      "24047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

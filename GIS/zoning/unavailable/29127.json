@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29127",
+  "reason": "login-required",
+  "evidence": [
+    "https://services2.integritygis.com/arcgis/rest/services/MO/Marion_Assessor_Data/MapServer",
+    "https://mariongis.integritygis.com/H5/Index.html",
+    "https://sites5.integritygis.com/geocortex/essentials/rest/sites/Marion_County_MO_Public/map"
+  ],
+  "note": "Marion County, MO publishes its zoning layer (id 57) inside the Marion_Assessor_Data MapServer on services2.integritygis.com, which answers 'Token Required' to every request, so it is not publicly queryable. The city zoning maps for Hannibal and Palmyra are static PDFs (viewer-only), with no queryable service found. Stopping here rather than working around the login.",
+  "recorded_at": 1792134813375,
+  "recheck_after": 1807686813375,
+  "model": "claude-haiku-5-5"
+}

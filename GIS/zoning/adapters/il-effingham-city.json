@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-effingham-city",
+  "publisher": "City of Effingham, IL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/4aeqJB5xSs86LgEv/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17049"
+    ]
+  },
+  "fields": {
+    "link": "ZoningDocumentation",
+    "zone": "Zoning"
+  },
+  "notes": "City of Effingham corporate zoning only (county has no zoning layer; other towns not published). Served from the city ArcGIS Online organization (effinghamil.maps.arcgis.com webmap).",
+  "verification": {
+    "verified_at": 1792133986122,
+    "counties": [
+      "17049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

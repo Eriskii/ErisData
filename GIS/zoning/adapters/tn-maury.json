@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tn-maury",
+  "publisher": "Maury County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/XUPcCUM3EN27beNY/arcgis/rest/services/MCParcelZonelLayer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47119"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JUR",
+    "zone": "cZoneDistr",
+    "zone_name": "C_ZoneDist"
+  },
+  "notes": "Maury County Base Zone Districts from the county zoning web map. Parcel-based layer: each parcel carries its zoning district (cZoneDistr). Covers unincorporated areas; city limits are separate layers.",
+  "verification": {
+    "verified_at": 1792135890563,
+    "counties": [
+      "47119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

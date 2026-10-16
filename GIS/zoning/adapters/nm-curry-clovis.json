@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-curry-clovis",
+  "publisher": "City of Clovis GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.cityofclovis.org/arcgis/rest/services/MapService/ZoningDistricts/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35009"
+    ]
+  },
+  "fields": {
+    "zone": "UnifiedZon",
+    "zone_name": "UZoneDesc"
+  },
+  "notes": "City of Clovis zoning only (not unincorporated county land). Unified Zoning Districts layer; ZONECLASS is the older class code, UnifiedZon the district code.",
+  "verification": {
+    "verified_at": 1792135022825,
+    "counties": [
+      "35009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

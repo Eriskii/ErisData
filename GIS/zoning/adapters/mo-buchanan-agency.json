@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-buchanan-agency",
+  "publisher": "Buchanan County GIS (Village of Agency zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/wTcQ72xtx5Lnk2YJ/arcgis/rest/services/AgencyZoningServiceFinal/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CODE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "County-hosted layer covering only the Village of Agency, 72 districts; the county publishes no county-wide zoning service. Not the unincorporated county zoning.",
+  "verification": {
+    "verified_at": 1792134670272,
+    "counties": [
+      "29021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

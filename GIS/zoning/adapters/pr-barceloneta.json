@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-barceloneta",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "municipio = 'Barceloneta'",
+  "notes": "JP official calificacion vigente layer (parcel-level polygons), filtered to Barceloneta; server can be slow.",
+  "verification": {
+    "verified_at": 1792139795455,
+    "counties": [
+      "72017"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

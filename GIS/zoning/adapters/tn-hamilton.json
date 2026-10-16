@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-hamilton",
+  "publisher": "Chattanooga-Hamilton County Regional Planning Agency (Hamilton County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/cclAu9OKhOfjeUdr/arcgis/rest/services/Hamilton_County_Zoning_6_23_2026_WFL1/FeatureServer/18",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47065"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Current Zoning layer from the Chattanooga-Hamilton County RPA zoning service (base districts, unincorporated county and municipalities it covers). No jurisdiction or link field populated in layer.",
+  "verification": {
+    "verified_at": 1792135479198,
+    "counties": [
+      "47065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

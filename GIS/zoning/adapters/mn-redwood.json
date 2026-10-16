@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-redwood",
+  "publisher": "Redwood County (ArcGIS Online copy by bkRedwood01)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/CwLPl749ngyCGysF/arcgis/rest/services/Redwood_County_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27127"
+    ]
+  },
+  "fields": {
+    "link": "Notes",
+    "zone": "Code",
+    "zone_name": "Descrip"
+  },
+  "notes": "Personal ArcGIS Online item by bkRedwood01, not the county own service; used because no official queryable county zoning layer found. 77 features; attributes look like permit records (PermitNum, Applicant), so district coverage may be partial.",
+  "verification": {
+    "verified_at": 1792134519203,
+    "counties": [
+      "27127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

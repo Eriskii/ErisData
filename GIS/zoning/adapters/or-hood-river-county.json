@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-hood-river-county",
+  "publisher": "Oregon DLCD statewide zoning compilation (Hood River County jurisdiction records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41027"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Hood River County'",
+  "notes": "Statewide DLCD zoning feature class (OR_FRAMEWORK host, Oregon Geospatial). Standardized state zone codes in orZCode/orZDesc; localZCode is blank for county records. Filtered to Hood River County ownership (unitOwner 1155131).",
+  "verification": {
+    "verified_at": 1792135373256,
+    "counties": [
+      "41027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

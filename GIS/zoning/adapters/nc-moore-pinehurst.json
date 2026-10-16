@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-moore-pinehurst",
+  "publisher": "Village of Pinehurst",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/WOKJvFrknOcT2chj/arcgis/rest/services/Village_of_Pinehurst_Official_Zoning_Map_Updated_20201015_WFL1/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37125"
+    ]
+  },
+  "fields": {
+    "zone": "ZCODE"
+  },
+  "notes": "Village of Pinehurst Official Zoning Map (2020 update), published by the Village on its ArcGIS Online organization, layer Official Zoning. COND_USE holds conditional-district notes where present; not mapped.",
+  "verification": {
+    "verified_at": 1792135170740,
+    "counties": [
+      "37125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

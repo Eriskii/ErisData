@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-daviess",
+  "publisher": "Owensboro Metropolitan Planning Commission (OMPC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.owensboro.org/arcgis/rest/services/OMPC/OMPC/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21059"
+    ]
+  },
+  "fields": {
+    "zone": "ZON_CODE",
+    "zone_name": "DESCRIBE"
+  },
+  "notes": "OMPC zoning layer covering the Owensboro-Daviess County planning area (city and county zoning under the Metropolitan Zoning Ordinance). Jurisdiction field not present in this layer.",
+  "verification": {
+    "verified_at": 1792134323708,
+    "counties": [
+      "21059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

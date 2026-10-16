@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-catoosa",
+  "publisher": "Catoosa County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/UWegEIVn0JwnAZjA/arcgis/rest/services/ZoningFeatureLayer_withDescriptions_Feb2026_view/FeatureServer/83",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13047"
+    ]
+  },
+  "fields": {
+    "zone": "zoningcode",
+    "zone_name": "descriptio"
+  },
+  "notes": "Unincorporated Catoosa County only; cities zone their own land. Case_Number and Notes fields are not mapped.",
+  "verification": {
+    "verified_at": 1792133870907,
+    "counties": [
+      "13047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

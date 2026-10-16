@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "28107",
+  "reason": "viewer-only",
+  "evidence": [
+    "http://panolacoms.com/wp-content/uploads/2015/01/Land-Use-Map.pdf",
+    "https://panolacoms.com/land-use-zoning/",
+    "https://batesville.ms/wp-content/uploads/2021/09/Batesville-Zone-Map.pdf",
+    "https://services3.arcgis.com/I6c0KK3K6U5XeoUz/arcgis/rest/services/LANDUSE/FeatureServer"
+  ],
+  "note": "Panola County publishes its zoning districts only as a PDF land-use/zoning map (2014) and an ordinance PDF; no queryable zoning polygon service found. The county's ArcGIS org (PanolaMS) has a LANDUSE layer, but it is parcel-level assessment use codes (USE_, AGUSE), not zoning districts. Its property viewer (agdmaps WMS) has no zoning layer. Batesville's zone map is also a PDF. Searched ArcGIS Online/Hub, the state hub and county pages.",
+  "recorded_at": 1792134650817,
+  "recheck_after": 1807686650817,
+  "model": "claude-haiku-5-5"
+}

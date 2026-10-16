@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-poquoson",
+  "publisher": "City of Poquoson GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/hCzFMACCMQgadoak/arcgis/rest/services/Poquoson_GIS/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51735"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Poquoson own zoning layer (147 features), hosted on city ArcGIS Online organization. Only zone code provided; no name or ordinance link field.",
+  "verification": {
+    "verified_at": 1792136010704,
+    "counties": [
+      "51735"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

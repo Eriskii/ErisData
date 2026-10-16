@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "id": "pr-jp-calificacion",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/MapServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "PR"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "notes": "Capa Oficial JP de Calificacion (vigente). Layer Calificacion_Clasificacion; zone = calificación code (e.g. A-3, R-2); zone_name = descripción; jurisdiction = municipio. Some polygons carry overlay codes (cali_sobre, etc.) not mapped. Source CRS 3857 served; ~1.49M features.",
+  "verification": {
+    "verified_at": 1792134426772,
+    "counties": [
+      "72001",
+      "72007",
+      "72009",
+      "72011",
+      "72021",
+      "72027",
+      "72031",
+      "72037",
+      "72045",
+      "72051",
+      "72053",
+      "72054",
+      "72055",
+      "72059",
+      "72065",
+      "72069",
+      "72073",
+      "72075",
+      "72077",
+      "72079",
+      "72081",
+      "72087",
+      "72089",
+      "72105",
+      "72109",
+      "72113",
+      "72115",
+      "72117",
+      "72119",
+      "72121",
+      "72125",
+      "72127",
+      "72129",
+      "72131",
+      "72135",
+      "72137",
+      "72141",
+      "72145",
+      "72147",
+      "72149",
+      "72151",
+      "72153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

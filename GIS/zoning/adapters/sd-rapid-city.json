@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-rapid-city",
+  "publisher": "City of Rapid City GIS (RapidMap)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rcgov.org/server/rest/services/PublicSites/PublicRapidMap/MapServer/72",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46103"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "CodeExplanation"
+  },
+  "notes": "Rapid City zoning (RCZoning layer of the Rapid City-Pennington County RapidMap service), the largest city in the county. Covers city land only; the county layer covers unincorporated land.",
+  "verification": {
+    "verified_at": 1792135455953,
+    "counties": [
+      "46103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-page",
+  "publisher": "Page County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/vzTTDUcNo7s6eLCJ/arcgis/rest/services/MultiZone/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURIS",
+    "zone": "ZONING",
+    "zone_name": "ParentZone"
+  },
+  "notes": "Layer of county zoning polygons (JURIS=COUNTY); ZONING is base district code, ParentZone is the combined/parent zone. Towns of Luray, Stanley, Shenandoah not covered by this layer if JURIS lists only COUNTY.",
+  "verification": {
+    "verified_at": 1792135969917,
+    "counties": [
+      "51139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-portage-shalersville",
+  "publisher": "Shalersville Township (copy hosted on ArcGIS Online by AZavertn2000)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/SgnNGAXkX6G8bVuc/arcgis/rest/services/ShaZoning_2023/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39133"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZoningDist"
+  },
+  "notes": "Shalersville Township zoning districts, 2023, from an ArcGIS Online item by a personal account (AZavertn2000), not the township or county. Covers Shalersville Township only; used because no official county or city zoning layer is queryable near the county interior.",
+  "verification": {
+    "verified_at": 1792135904627,
+    "counties": [
+      "39133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

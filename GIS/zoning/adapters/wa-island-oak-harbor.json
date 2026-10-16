@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wa-island-oak-harbor",
+  "publisher": "City of Oak Harbor (PWENG_OakHarbor)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/SVlf413Qqlzv09Uo/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53029"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "filter": "ZONING IS NOT NULL AND ZONING <> ' ' AND ZONING <> 'NAVY'",
+  "notes": "City of Oak Harbor zone districts over Island County parcels within city limits (updated 05/09/2023). Polygons are per parcel and repeat the zone; only features with a populated zone code are kept (NAVY placeholders excluded). Oak Harbor only, not the rest of the county; no zone name or link published.",
+  "verification": {
+    "verified_at": 1792136046226,
+    "counties": [
+      "53029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

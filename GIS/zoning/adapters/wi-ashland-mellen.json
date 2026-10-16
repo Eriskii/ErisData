@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-ashland-mellen",
+  "publisher": "Village of Mellen (copy in Wisconsin PSC project map service)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.psc.wi.gov/server/rest/services/Electric/AshlandIronwood_4220CE183/MapServer/22",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55003"
+    ]
+  },
+  "fields": {
+    "zone": "Land_Use",
+    "zone_name": "Land_Use"
+  },
+  "notes": "Copy of Village of Mellen zoning hosted in a Wisconsin PSC utility project MapServer, not the village server. Covers only the village.",
+  "verification": {
+    "verified_at": 1792136103467,
+    "counties": [
+      "55003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

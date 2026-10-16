@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-clear-creek-municipal",
+  "publisher": "Clear Creek County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/faTiISwEuJk1lvB1/arcgis/rest/services/Property/FeatureServer/22",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08019"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "munic_id",
+    "zone": "curr_zone"
+  },
+  "notes": "Municipality Zoning layer from the Clear Creek County Property service; covers the incorporated towns in the county, with munic_id naming each town (gtown = Georgetown, etc.). Zone codes are the municipal district codes (e.g. HR, MR, C-1).",
+  "verification": {
+    "verified_at": 1792133793432,
+    "counties": [
+      "08019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

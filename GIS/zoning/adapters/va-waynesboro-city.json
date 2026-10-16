@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-waynesboro-city",
+  "publisher": "City of Waynesboro, Virginia",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/mViSwZiWRTlITuys/arcgis/rest/services/Map/FeatureServer/28",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51820"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode"
+  },
+  "notes": "City of Waynesboro GIS layer Zoning District Code (Map service, city ArcGIS org). Provides district code only; no name or ordinance link fields. City zones all its land.",
+  "verification": {
+    "verified_at": 1792136017579,
+    "counties": [
+      "51820"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

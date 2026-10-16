@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "06063",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://mangomap.com/plumasgis/maps/47662/zoning",
+    "https://www.plumascounty.us/2191/Geographic-Information-Systems-GIS",
+    "https://services.arcgis.com/q3Zg9ERurv23iysr/arcgis/rest/services/Plumas_County_ExportFeatures/FeatureServer/0"
+  ],
+  "note": "Plumas County publishes its primary zoning only through the mangomap.com web map viewer (no public ArcGIS REST, WFS or file download found). County GIS (Becky Osborn, 530-283-6420) is the contact for data. The only queryable ArcGIS layer carrying zoning is an unofficial personal ArcGIS Online copy of APN-level parcels (jasmin.dominguez, Zoning field); its sampled polygons fail validity (3 of 4 valid, 90% needed), so it was not submitted. Portola's zoning is likewise only on mangomap.",
+  "recorded_at": 1792134137782,
+  "recheck_after": 1807686137782,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ma-plymouth-carver",
+  "publisher": "Town of Carver (base zoning hosted by SRPEDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/euKKjtGUuDiy24vy/arcgis/rest/services/Carver_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25023"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Town of Carver base zoning map (14 polygons), last updated 2013, published by the Southeastern Regional Planning and Economic Development District (SRPEDD). Carver only.",
+  "verification": {
+    "verified_at": 1792134576828,
+    "counties": [
+      "25023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

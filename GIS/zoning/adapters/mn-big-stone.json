@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-big-stone",
+  "publisher": "Big Stone County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.bigstonecounty.gov/arcgis/rest/services/Environment/ZoningOrdinance/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "ZONECODE IS NOT NULL AND ZONECODE NOT LIKE 'S-%' AND OBJECTID <> 289",
+  "notes": "County layer; Shoreland overlay polygons (S-G, S-N) and null-code rows excluded. OBJECTID 289 (a very large A-1 polygon, ~353 sq mi) excluded because its geometry is invalid in the source; it is missing from this adapter until the county repairs it.",
+  "verification": {
+    "verified_at": 1792134584131,
+    "counties": [
+      "27011"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

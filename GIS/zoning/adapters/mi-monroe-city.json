@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-monroe-city",
+  "publisher": "City of Monroe, Michigan GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.monroemi.gov/server/rest/services/Hosted/Zoning_Designations_2021/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26115"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "propcity",
+    "zone": "zoning"
+  },
+  "notes": "City of Monroe zoning designations (2021), one polygon per parcel carrying its zoning code; covers City of Monroe only.",
+  "verification": {
+    "verified_at": 1792132382806,
+    "counties": [
+      "26115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

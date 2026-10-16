@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-forrest-hattiesburg",
+  "publisher": "City of Hattiesburg GIS (Planning Division)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/jDD84VOqBEa0haCs/arcgis/rest/services/HattiesburgMS_PublicLayers_PSA_WFL1/FeatureServer/126",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28035"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneClass"
+  },
+  "notes": "City of Hattiesburg zoning only (city limits, portion in Forrest County); unincorporated county not covered. Parcel-keyed zoning polygons; some zone values blank; no ordinance link published in the layer.",
+  "verification": {
+    "verified_at": 1792134635628,
+    "counties": [
+      "28035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

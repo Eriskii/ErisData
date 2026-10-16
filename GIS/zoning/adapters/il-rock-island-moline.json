@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-rock-island-moline",
+  "publisher": "City of Moline GIS",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/lqsw3Y2lFZx0ifEV/arcgis/rest/services/Moline_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17161"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "notes": "Moline zoning layer hosted on an ArcGIS Online account (tagree2), not confirmed as the city own server; parcel-keyed (RICO_PARCE). Covers City of Moline only.",
+  "verification": {
+    "verified_at": 1792134214489,
+    "counties": [
+      "17161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

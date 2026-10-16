@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-twiggs",
+  "publisher": "Twiggs County GIS (Middle Georgia Regional Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services/Twiggs_County_Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13289"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONINGTYPE"
+  },
+  "notes": "Unincorporated county zoning districts (ZONINGTYPE=County); MAPID is parcel-style map id. Cities in the county are not in this layer. Zone codes: R-1, R-2, GC, GI, AG, R-AG.",
+  "verification": {
+    "verified_at": 1792133958894,
+    "counties": [
+      "13289"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

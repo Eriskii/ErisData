@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "28057",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://mississippistateauthority.com/itawamba-county-mississippi.html",
+    "https://app.regrid.com/store/us/ms/itawamba",
+    "https://www.acres.com/plat-map/map/ms/itawamba-county-ms"
+  ],
+  "note": "Itawamba County (FIPS 28057) publishes no queryable zoning district layer. Searches of ArcGIS Hub/Online and the web found none for the county or its cities (Fulton, Tremont, Mantachie, Dorsey, Marietta, which have their own zoning per mississippistateauthority.com, but none publish a GIS layer). Only commercial parcel products (Regrid, Acres, Rockford) carry zoning fields; those are licensed, not public. A county GIS parcel layer found (GDITAdmin Itawamba_parcels2020) would not serve; the Itawamba_MS CommunitySystems service requires a token.",
+  "recorded_at": 1792134591361,
+  "recheck_after": 1807686591361,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "18155",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.in.gov/counties/switzerland/departments-a-e/building-inspector-planning-and-zoning/",
+    "https://www.in.gov/counties/switzerland/files/zoning_code_1.pdf",
+    "https://switzerlandin.wthgis.com",
+    "https://codelibrary.amlegal.com/codes/switzerlandcounty/latest/switzerland_in/0-0-0-2662"
+  ],
+  "note": "Switzerland County (IN) publishes its zoning ordinance as PDF/legal text only. The county planning page links no zoning map or GIS service. The county web map (switzerlandin.wthgis.com) exposes no ArcGIS REST endpoint (404 on /arcgis/rest/services) and no zoning layer was found. ArcGIS Hub/Online searches for Switzerland County zoning returned no queryable district layer. Vevay's code (codelibrary.amlegal.com/codes/vevayin) lists zoning map changes only as text; no city GIS zoning layer was found.",
+  "recorded_at": 1792134189636,
+  "recheck_after": 1807686189636,
+  "model": "claude-haiku-5-5"
+}

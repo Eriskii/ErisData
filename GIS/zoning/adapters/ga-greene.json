@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-greene",
+  "publisher": "Greene County GA (GreeneBOC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/QbbsWI5nIfBp4cMB/arcgis/rest/services/Greene_County_Zoning_Polygons_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13133"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Descriptio"
+  },
+  "notes": "County zoning polygons for unincorporated Greene County GA, from the county GIS (GreeneBOC). Zoning holds district code; Descriptio holds district description. Source has 461 polygons.",
+  "verification": {
+    "verified_at": 1792133917405,
+    "counties": [
+      "13133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

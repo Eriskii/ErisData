@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "oh-lorain",
+  "publisher": "Lorain County GIS (LorainCoGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/vGBb7WYV10mOJRNM/arcgis/rest/services/Lorain_County_Zoning_Map/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39093"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTI",
+    "link": "PDF_ZONING_MAP",
+    "zone": "ZONING_COD",
+    "zone_name": "ZONING_DES"
+  },
+  "notes": "Countywide layer of zoning polygons for unincorporated townships and some cities/villages; jurisdiction field names each. Some cities coded X/UNDETERMINED. Source is Lorain County Auditor GIS.",
+  "verification": {
+    "verified_at": 1792135168240,
+    "counties": [
+      "39093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "or-deschutes",
+  "publisher": "Deschutes County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.deschutes.org/arcgis/rest/services/OpenData/LandFD/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "filter": "OBJECTID NOT IN (123,695,847)",
+  "notes": "County zoning (unincorporated). Excludes three polygons (OBJECTIDs 123, 695, 847) whose source geometry is invalid; all other 1,477 features are included.",
+  "verification": {
+    "verified_at": 1792135633333,
+    "counties": [
+      "41017"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

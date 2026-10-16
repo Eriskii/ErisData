@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-weld-greeley",
+  "publisher": "City of Greeley GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.greeleygov.com/arcgis_svr/rest/services/Data_Services/Zoning/FeatureServer/2",
+    "page_size": 24,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08123"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_DESC"
+  },
+  "notes": "City of Greeley zoning only (not unincorporated Weld County). Layer 2 of Greeley Zoning FeatureServer; ZONING holds codes such as R-L, R-H, C-D.",
+  "verification": {
+    "verified_at": 1792133836369,
+    "counties": [
+      "08123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

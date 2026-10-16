@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "30073",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.cityofconrad.com/maps",
+    "https://www.townofvalier.com/zoning-map",
+    "https://services5.arcgis.com/IxTFx7t7oe2NViid/arcgis/rest/services/Conrad_Zoning/FeatureServer"
+  ],
+  "note": "Pondera County's unincorporated land is not zoned (2011 growth policy). The cities that zone publish their zoning only as PDF maps (Conrad's Zoning Map PDF; Valier's zoning-map page, apparently a PDF or viewer). Conrad has an ArcGIS Online parcel layer with a ZONING field (conradmt/Conrad_Zoning), but it returns 'Token Required' to anonymous queries, so it cannot be read. No queryable zoning district polygon layer for Pondera County or its towns was found; the Frontier Zoning Atlas layers contain no Pondera features.",
+  "recorded_at": 1792134935213,
+  "recheck_after": 1807686935213,
+  "model": "claude-haiku-5-5"
+}

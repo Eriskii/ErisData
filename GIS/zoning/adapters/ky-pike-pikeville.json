@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ky-pike-pikeville",
+  "publisher": "City of Pikeville, KY",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HLQ6ft7NxIOd9TFf/arcgis/rest/services/NEW_ZONING_MAP_VER_4_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21195"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Type"
+  },
+  "notes": "City of Pikeville official 2026 zoning map (city ArcGIS Online org pikeville.maps.arcgis.com). City of Pikeville only; unincorporated Pike County has no published zoning layer found. Zone_Type holds codes like Zone C-2.",
+  "verification": {
+    "verified_at": 1792134392416,
+    "counties": [
+      "21195"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

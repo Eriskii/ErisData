@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ms-marshall",
+  "publisher": "Marshall County, Mississippi (Parcels 2025 layer, county account admin_marshallcounty)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/rOWz6b5IdTidXCaS/arcgis/rest/services/PARCELS_2025/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28093"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "Last resort: no county or city zoning district polygon layer is queryable. This is the county parcel layer; each parcel carries its ZONING code (e.g. R-1, C-2, A-R; SPLIT ... values where a parcel spans several districts). Holly Springs, Byhalia and Potts Camp zoning exist only as PDF maps. Parcel polygons, not district polygons.",
+  "verification": {
+    "verified_at": 1792134683990,
+    "counties": [
+      "28093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

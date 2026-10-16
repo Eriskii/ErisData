@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-christiansburg",
+  "publisher": "Town of Christiansburg GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/hK4vGUcrLZsYhZjD/arcgis/rest/services/Town_of_Christiansburg_GeoWeb_Flood_Zoning_Future_Land/FeatureServer/46",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51121"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Classification",
+    "zone_name": "Zoning_Classification"
+  },
+  "notes": "Town of Christiansburg Zoning Polygon layer from the town GeoWeb service (town account ChristiansburgGIS). Town-limits zoning only; county layer covers unincorporated land.",
+  "verification": {
+    "verified_at": 1792135955609,
+    "counties": [
+      "51121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

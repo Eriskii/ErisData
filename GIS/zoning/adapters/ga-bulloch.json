@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-bulloch",
+  "publisher": "Bulloch County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/ubipOx65ptjBcDZM/arcgis/rest/services/zoning_change_map/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13031"
+    ]
+  },
+  "fields": {
+    "zone": "FTR_CODE"
+  },
+  "notes": "Zoning layer of the Bulloch County zoning change map service (ArcGIS Online, published by Bulloch GIS staff); stabull.org Statesboro_Bulloch_Zoning server was unreachable.",
+  "verification": {
+    "verified_at": 1792133959866,
+    "counties": [
+      "13031"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

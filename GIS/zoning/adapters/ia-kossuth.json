@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-kossuth",
+  "publisher": "Iowa State University compilation of City of Algona zoning (hosted by ISU)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Algona' AND fips7 = '1901135'",
+  "notes": "Only Kossuth County zoning polygons found queryable: ISU statewide compilation (source field: City of Algona GIS), covering the city of Algona only. Unincorporated county land is not covered; no official county zoning service found. Not an official county/city host; submitted as a copy.",
+  "verification": {
+    "verified_at": 1792134208197,
+    "counties": [
+      "19109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

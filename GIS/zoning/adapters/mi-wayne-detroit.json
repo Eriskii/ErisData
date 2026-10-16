@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-wayne-detroit",
+  "publisher": "City of Detroit City Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/Zoning_1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26163"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_REV",
+    "zone_name": "ZDESCR_N"
+  },
+  "notes": "City of Detroit zoning only (Wayne County suburbs and townships are not in this layer). Detroit open data, updated 2025.",
+  "verification": {
+    "verified_at": 1792132389789,
+    "counties": [
+      "26163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

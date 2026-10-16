@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sd-codington-watertown",
+  "publisher": "City of Watertown GIS (1st District MapNet)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Codington/codingtonmapnetpro/MapServer/36",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46029"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT"
+  },
+  "notes": "City of Watertown base zoning districts from the county MapNet service. DISTRICT holds codes such as R1, R2A, R3. Covers city land only.",
+  "verification": {
+    "verified_at": 1792135396943,
+    "counties": [
+      "46029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

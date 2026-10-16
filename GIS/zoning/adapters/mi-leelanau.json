@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-leelanau",
+  "publisher": "Leelanau County GIS (Elmwood Township zoning, hosted by consultant)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/xJvlcOU5Vdf86o1L/arcgis/rest/services/2017_Zoning_Map/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26089"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPAL",
+    "zone": "Zoning17"
+  },
+  "notes": "Only queryable zoning layer found for Leelanau County: a 2017 parcel layer covering Elmwood Township only (zone on each parcel, not a district dissolve). Zoning is otherwise township-level in this county; no countywide layer published.",
+  "verification": {
+    "verified_at": 1792132314093,
+    "counties": [
+      "26089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

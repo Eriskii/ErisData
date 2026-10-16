@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-polk",
+  "publisher": "Polk County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.polkcountymn.gov/arcgis/rest/services/Planning_and_Zoning/Polk_Mobile_PZ/MapServer/54",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27119"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "notes": "Polk County MN zoning districts from the county Planning & Zoning field-app service (Polk_Mobile_PZ layer 54). District holds coarse categories (Agricultural, Commercial, Industrial, plus City and Village areas); Name holds a city/village name for city and village polygons and is mostly blank otherwise, so it is not mapped. No jurisdiction or ordinance link field.",
+  "verification": {
+    "verified_at": 1792134526653,
+    "counties": [
+      "27119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

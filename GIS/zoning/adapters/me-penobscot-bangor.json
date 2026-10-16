@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "me-penobscot-bangor",
+  "publisher": "City of Bangor, Maine (Planning Department)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/yIxdYDwtUG29jfAN/arcgis/rest/services/Existing_Zoning/FeatureServer/50",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "LABEL"
+  },
+  "notes": "City of Bangor zoning districts only (Existing Zoning layer, 1448 features). Digitized from hardcopy maps by city planning staff; accuracy varies. Covers Bangor only, not other Penobscot County towns.",
+  "verification": {
+    "verified_at": 1792134446095,
+    "counties": [
+      "23019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-gainesville",
+  "publisher": "City of Gainesville GA (via Hall County GIS ZoningTab)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://hallgis.hallcounty.org/arcgis/rest/services/ZoningTab/MapServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZN_JURISDI",
+    "zone": "ZN_CLASS"
+  },
+  "notes": "City of Gainesville zoning districts from the Hall County GIS ZoningTab service (Gainesville Zoning layer).",
+  "verification": {
+    "verified_at": 1792133939883,
+    "counties": [
+      "13139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

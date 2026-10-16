@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-carbon",
+  "publisher": "Carbon County GIS (via PASDA)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/CarbonCounty/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42025"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNINAME",
+    "zone": "ZONE",
+    "zone_name": "ZNDESC"
+  },
+  "notes": "County zoning base districts merged from 23 municipalities, PASDA copy dated 2020; jurisdiction names the municipality.",
+  "verification": {
+    "verified_at": 1792135286277,
+    "counties": [
+      "42025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

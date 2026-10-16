@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "51159",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://co.richmond.va.us/departments/county-administration/planning-and-zoning",
+    "https://onlinegis.net/RichmondCountyVA/Map.html",
+    "https://co.richmond.va.us/pdf/ZoningOrdinance.pdf",
+    "https://www.townofwarsaw.com/planning-zoning/page/zoning-documents"
+  ],
+  "note": "Searched ArcGIS Online/Hub and the web. Richmond County's planning page links no zoning map or GIS service. Its OnlineGIS parcel viewer lists addresses, buildings, roads, and parcels, with no zoning layer. The county zoning ordinance is a PDF, and the county's official zoning map is adopted by reference in Code 157.044 with no service. The Town of Warsaw's only zoning map is a qgis2web web export (northernneck.us) with no queryable zoning service found. No ArcGIS REST zoning district layer exists for Richmond County.",
+  "recorded_at": 1792136039638,
+  "recheck_after": 1807688039638,
+  "model": "claude-haiku-5-5"
+}

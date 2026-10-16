@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-dane-county",
+  "publisher": "Dane County Planning & Development (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://dcimapapps.countyofdane.com/arcgissrv/rest/services/Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_DISTRICT",
+    "zone_name": "ZONING_CATAGORY"
+  },
+  "notes": "County zoning for unincorporated towns that have not opted out (rural zoning districts). Six towns and cities zone themselves and are not included.",
+  "verification": {
+    "verified_at": 1792130896298,
+    "counties": [
+      "55025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

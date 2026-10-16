@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "05015",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.arcgis.com/home/item.html?id=1fbecc7ba0714f66aa60c64e9d7d1290",
+    "https://services7.arcgis.com/gBl2TAGOgqspXS4y/arcgis/rest/services/Eureka_Springs__Arkansas_WFL1/FeatureServer",
+    "https://berryvillear.gov/wp-content/uploads/2022/08/Zoning-Map.pdf"
+  ],
+  "note": "No county zoning layer exists. Eureka Springs' only GIS zoning is a web map with one geometry-only layer per district (FeatureServer layers 16-24). The layers have only OBJECTID and Shape fields, so no district code or name can be mapped. Berryville publishes zoning only as a PDF map. No service found for Green Forest or Holiday Island.",
+  "recorded_at": 1792133870889,
+  "recheck_after": 1807685870889,
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ak-utqiagvik-zoning",
+  "publisher": "North Slope Borough GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Y7pceKxvo6htl90x/arcgis/rest/services/OpenGov_NSB02_feature01/FeatureServer/304",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "02185"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "NAME",
+    "zone": "ZONE_DISTR"
+  },
+  "filter": "ZONE_DISTR <> 'BEO'",
+  "notes": "Utqiagvik (Barrow) base zoning 2012; BEO (Barrow Environmental Observatory) excluded; borough-hosted ArcGIS Online org",
+  "verification": {
+    "verified_at": 1792133842841,
+    "counties": [
+      "02185"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

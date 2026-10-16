@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "31137",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://phelpscounty.ne.gov/pdfs/zoning/Phelps%20County%20Final%20Draft%20Zoning%20112622.pdf",
+    "https://phelpscounty.ne.gov/webpages/planning_zoning/admin.html",
+    "https://phelpscounty.ne.gov/webpages/planning_zoning/districts.html",
+    "https://cityofholdrege.org/uploads/2024-holdrege-zoning-map.pdf",
+    "https://mapserver01.gworks.com/arcgis/rest/services/Phelps_County_NE_Assessor/MapServer"
+  ],
+  "note": "Phelps County publishes its zoning resolution as text PDF and its zoning map is kept by the zoning administrator with no download or service. The county's gWorks host (Phelps_County_NE_Assessor) has roads, parcels and sections only, with no zoning field. Holdrege, the largest city, publishes its zoning map only as a PDF. The ArcGIS search found no Phelps or Holdrege zoning service. A services.arcgis.com 'zoning_districts' layer labelled for this county is actually Mesa, Arizona data with no features in the county.",
+  "recorded_at": 1792134985716,
+  "recheck_after": 1807686985716,
+  "model": "claude-haiku-5-5"
+}

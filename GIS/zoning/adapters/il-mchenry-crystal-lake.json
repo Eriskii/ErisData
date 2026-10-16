@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-mchenry-crystal-lake",
+  "publisher": "City of Crystal Lake, IL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/f2jEcnX0lCSqvw2G/arcgis/rest/services/Zoning_ReadOnlyView/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17111"
+    ]
+  },
+  "fields": {
+    "zone": "ZONED",
+    "zone_name": "ZONINGDESCRIPTION"
+  },
+  "notes": "City of Crystal Lake zoning districts (read-only view published by the city). Covers Crystal Lake city limits only; unincorporated county land is in il-mchenry-county.",
+  "verification": {
+    "verified_at": 1792134011400,
+    "counties": [
+      "17111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

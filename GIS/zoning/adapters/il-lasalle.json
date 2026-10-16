@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-lasalle",
+  "publisher": "LaSalle County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lasallecounty.org/arcgis/rest/services/Lasalle_IL_GIS/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17099"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode"
+  },
+  "filter": "ZoneCode <> 'City' AND ZoneCode IS NOT NULL",
+  "notes": "LaSalle County unincorporated zoning from the county GIS office. Features labeled City are inside incorporated municipalities and are excluded; ZoneCode2 holds a secondary code and is not mapped.",
+  "verification": {
+    "verified_at": 1792134107162,
+    "counties": [
+      "17099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-anaheim",
+  "publisher": "City of Anaheim GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.anaheim.net/map/rest/services/OpenData2/FeatureServer/59",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "link": "CODELINK",
+    "zone": "ZONING",
+    "zone_name": "ZONINGDES"
+  },
+  "notes": "City of Anaheim base zoning designations.",
+  "verification": {
+    "verified_at": 1792134152243,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-scott-shakopee",
+  "publisher": "City of Shakopee GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/XMlKSb5fLzy2Uagk/arcgis/rest/services/Land_and_Property/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27139"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Shakopee zoning districts, from the city's Land and Property service (rrborm00 ArcGIS Online org). Covers the city only; Scott County layer covers unincorporated land.",
+  "verification": {
+    "verified_at": 1792134563364,
+    "counties": [
+      "27139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

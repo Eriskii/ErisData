@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-montgomery",
+  "publisher": "Clarksville-Montgomery County Regional Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/bsMxxAoaPLw5EHPS/arcgis/rest/services/ZONING/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47125"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Clarksville-Montgomery County RPC zoning layer; zone field holds district code only (no name or jurisdiction field). Layer in state plane feet (wkid 102736), reprojected by the runtime.",
+  "verification": {
+    "verified_at": 1792135507528,
+    "counties": [
+      "47125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

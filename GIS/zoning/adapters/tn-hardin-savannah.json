@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-hardin-savannah",
+  "publisher": "City of Savannah, TN (copy uploaded to ArcGIS Online by JCBurgess)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/QuuhNNKD3xQ6RqEv/arcgis/rest/services/Savannah_Zoning_2021A/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47071"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Unofficial ArcGIS Online copy of City of Savannah, TN municipal zoning (2021 upload, layer ZoningUploadTemp, 42 districts). Only city-level zoning found for Hardin County; county unincorporated zoning layer found was for Hardin County, KY (wrong county).",
+  "verification": {
+    "verified_at": 1792135921545,
+    "counties": [
+      "47071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

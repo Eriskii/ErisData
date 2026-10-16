@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-brevard",
+  "publisher": "Brevard County Planning and Development (BOCC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.brevardfl.gov/gissrv/rest/services/Planning_Development/Zoning_WKID2881/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Brevard County unincorporated zoning districts (AU, AGR, ARR, etc.). DENSCAP holds density cap code; no zone name field in source. Cities maintain their own zoning separately.",
+  "verification": {
+    "verified_at": 1792133641387,
+    "counties": [
+      "12009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

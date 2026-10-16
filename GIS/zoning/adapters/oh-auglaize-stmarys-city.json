@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-auglaize-stmarys-city",
+  "publisher": "Auglaize County GIS / City of St. Marys",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.auglaizecounty.org/arcgis/rest/services/Zoning/StMarysCity/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Name",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "St. Marys city zoning districts; 63 features. Zone_Name carries the district label.",
+  "verification": {
+    "verified_at": 1792135162590,
+    "counties": [
+      "39011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "me-androscoggin-lewiston",
+  "publisher": "City of Lewiston, Maine GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps2.lewistonmaine.gov/arcgis/rest/services/Public/2017ZoningDyanmic/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23001"
+    ]
+  },
+  "fields": {
+    "link": "StandardsDocLink",
+    "zone": "ZONE_BASE"
+  },
+  "notes": "City of Lewiston zoning districts only (Lewiston city, not county-wide). Zone codes from ZONE_BASE; no descriptive name field available.",
+  "verification": {
+    "verified_at": 1792134435858,
+    "counties": [
+      "23001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

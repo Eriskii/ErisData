@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-dewitt",
+  "publisher": "De Witt County GIS (Sidwell Portico)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/Zoning_DeWittIL/FeatureServer/0",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "17039"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "Zoning IS NOT NULL AND Shape__Area < 20000000",
+  "notes": "Excludes null-code and the largest county-wide polygons, whose geometry is invalid (self-intersecting)",
+  "verification": {
+    "verified_at": 1792134132100,
+    "counties": [
+      "17039"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

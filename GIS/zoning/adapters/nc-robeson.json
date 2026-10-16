@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-robeson",
+  "publisher": "Robeson County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/miWUVbMhSUq6a8y1/arcgis/rest/services/Robeson_County_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37155"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE__DESC"
+  },
+  "notes": "Hosted on ArcGIS Online by a Robeson County staff account; county zoning layer, 720 polygons. No jurisdiction field.",
+  "verification": {
+    "verified_at": 1792135094246,
+    "counties": [
+      "37155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

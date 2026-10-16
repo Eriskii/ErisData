@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "27135",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gis.co.roseau.mn.us/arcgis/rest/services?f=pjson",
+    "https://www.co.roseau.mn.us/ordinances/index.php",
+    "https://www.city.roseau.mn.us/buildingpermits",
+    "https://city.roseau.mn.us/planning"
+  ],
+  "note": "Roseau County GIS server (gis.co.roseau.mn.us) has parcels, atlas, districts, and municipal boundaries but no zoning district layer. County zoning is published as PDF ordinances via co.roseau.mn.us; City of Roseau publishes its zoning ordinance and a land use map only as PDF/JPG. No queryable zoning district polygon service found.",
+  "recorded_at": 1792134561783,
+  "recheck_after": 1807686561783,
+  "model": "claude-haiku-5-5"
+}

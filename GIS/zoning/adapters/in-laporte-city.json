@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-laporte-city",
+  "publisher": "City of La Porte, Indiana (via city ArcGIS Online zoning map viewer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/UQK1sLtYIkGb3tys/arcgis/rest/services/ZoningMap/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18091"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of La Porte zoning only (not county unincorporated land). Layer is the ZoningMap service behind the city's Interactive Zoning Map Viewer; item owned by an individual account in the city org. ZONE holds district codes such as R1B. Layer also carries joined parcel attributes, not used.",
+  "verification": {
+    "verified_at": 1792134239557,
+    "counties": [
+      "18091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

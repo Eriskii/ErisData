@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "in-st-joseph-county",
+  "publisher": "St. Joseph County Area Plan Commission / SJC GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/OjftlhRHkAABcyiF/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18141"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "DISTRICT",
+    "link": "NewWebLink",
+    "zone": "ZONING",
+    "zone_name": "Label"
+  },
+  "notes": "Layer covers zoning under St. Joseph County Area Plan Commission jurisdiction (unincorporated county); DISTRICT field is COUNTY for county districts. Cities of South Bend and Mishawaka zone separately.",
+  "verification": {
+    "verified_at": 1792134180358,
+    "counties": [
+      "18141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

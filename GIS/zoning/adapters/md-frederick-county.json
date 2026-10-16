@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "md-frederick-county",
+  "publisher": "Frederick County (MD) Division of Planning and Permitting",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://fcgis.frederickcountymd.gov/server_pub/rest/services/PlanningAndPermitting/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24021"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE"
+  },
+  "notes": "County zoning layer (Zoning/MapServer/1), TYPE holds the district code (R1, R3, PUD, RC, ...). Some features are plat/right-of-way polygons with TYPE ROW or blank NAME; zone codes as recorded. Municipal zoning is a separate layer (md-frederick-municipal).",
+  "verification": {
+    "verified_at": 1792134490089,
+    "counties": [
+      "24021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

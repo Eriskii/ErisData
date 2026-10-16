@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-burke-morganton",
+  "publisher": "Burke County GIS (Municipal Zoning, Morganton layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/axQ4OCSpcxALIQsV/arcgis/rest/services/Municipal_Zoning_FS/FeatureServer/75",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37023"
+    ]
+  },
+  "fields": {
+    "zone": "Base_Distr",
+    "zone_name": "Zones"
+  },
+  "notes": "City of Morganton base zoning districts from the Burke County municipal zoning feature service. Overlay fields Housing_Ov and Corridor_O not mapped.",
+  "verification": {
+    "verified_at": 1792135098033,
+    "counties": [
+      "37023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

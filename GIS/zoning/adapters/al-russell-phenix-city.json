@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "al-russell-phenix-city",
+  "publisher": "City of Phenix City GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.phenixcityal.gov/arcgis/rest/services/Map_and_features_svcs/Zoning/FeatureServer/0",
+    "page_size": 15,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01113"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode"
+  },
+  "notes": "City of Phenix City zoning only (city limits, not county unincorporated land). Layer from the city Zoning web map; zone field holds the district code only, no description or ordinance link published in the layer.",
+  "verification": {
+    "verified_at": 1792133747719,
+    "counties": [
+      "01113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

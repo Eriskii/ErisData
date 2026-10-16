@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-burt-oakland",
+  "publisher": "City of Oakland (via Burt County gWorks)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Burt_County_NE_PZ/MapServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31021"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "City of Oakland Zoning layer (10 features) from the Burt County gWorks Planning/Zoning MapServer, layer 16.",
+  "verification": {
+    "verified_at": 1792135012179,
+    "counties": [
+      "31021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

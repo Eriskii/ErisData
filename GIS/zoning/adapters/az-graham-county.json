@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "az-graham-county",
+  "publisher": "Graham County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rr5PkYU3R3HXxyDH/arcgis/rest/services/Graham_County_Parcels_New/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04009"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_abbr",
+    "zone_name": "Zone"
+  },
+  "notes": "Graham County unincorporated zoning districts from the county parcels service (Graham_County_Parcels_New layer 6). Cities zone their own land (separate specs).",
+  "verification": {
+    "verified_at": 1792133658066,
+    "counties": [
+      "04009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

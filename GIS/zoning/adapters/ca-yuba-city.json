@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-yuba-city",
+  "publisher": "City of Yuba City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/825Aldz8SjazbSUY/arcgis/rest/services/Yuba_City_Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Yuba City zoning districts, city limits only; Yuba City zones its own land. Combining district and other attributes not mapped.",
+  "verification": {
+    "verified_at": 1792134039267,
+    "counties": [
+      "06101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

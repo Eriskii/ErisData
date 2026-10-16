@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-laurens-east-dublin",
+  "publisher": "City of East Dublin, GA (hosted on Laurens County Wide View ArcGIS service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/City_of_East_Dublin_View/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13175"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of East Dublin zoning districts (current Zoning field; ProposedZoning not mapped). Zone holds district code.",
+  "verification": {
+    "verified_at": 1792134005924,
+    "counties": [
+      "13175"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

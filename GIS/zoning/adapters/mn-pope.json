@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-pope",
+  "publisher": "Pope County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.popecountymn.gov/arcgis/rest/services/LandResourceManagement/LandUseZoning_public/FeatureServer/1",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27121"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneDesc",
+    "zone_name": "ZoneDesc"
+  },
+  "filter": "SimpleType = 'General Zone' AND Status = 'Active' AND OBJECTID <> 10",
+  "notes": "Pope County L&RM current zoning (unincorporated); ZoneClass is mostly empty so ZoneDesc used. OBJECTID 10 (A-1) excluded because its geometry is invalid at source.",
+  "verification": {
+    "verified_at": 1792134616282,
+    "counties": [
+      "27121"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

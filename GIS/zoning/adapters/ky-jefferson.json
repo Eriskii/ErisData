@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ky-jefferson",
+  "publisher": "Louisville Metro / LOJIC (Jefferson County KY GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lojic.org/maps/rest/services/LojicSolutions/OpenDataHistoricZoning/MapServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21111"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONING_TYPE",
+    "zone": "ZONING_CODE",
+    "zone_name": "ZONING_NAME"
+  },
+  "notes": "LOJIC county-wide zoning layer, December 2023 snapshot; ZONING_TYPE used as jurisdiction-type field.",
+  "verification": {
+    "verified_at": 1792134345955,
+    "counties": [
+      "21111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nv-sparks",
+  "publisher": "City of Sparks GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/NzFLuZvliHVJl0Mz/arcgis/rest/services/AccelaSparks/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32031"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningCode"
+  },
+  "notes": "City of Sparks zoning layer from the city Accela services; covers land inside Sparks city limits only. Zone is the Zoning attribute; zone_name holds the municipal code link.",
+  "verification": {
+    "verified_at": 1792135003368,
+    "counties": [
+      "32031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

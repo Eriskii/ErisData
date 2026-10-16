@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mt-missoula-city",
+  "publisher": "City of Missoula",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/HfwHS0BxZBQ1E5DY/arcgis/rest/services/Zoning_and_Land_Use_mso/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30063"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Base"
+  },
+  "notes": "City of Missoula City Zoning layer (base zoning districts inside the city). Zone code in Zoning, base district in Base. Covers the city only; county zoning is in a separate spec.",
+  "verification": {
+    "verified_at": 1792134889052,
+    "counties": [
+      "30063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

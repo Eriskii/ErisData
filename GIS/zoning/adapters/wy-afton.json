@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wy-afton",
+  "publisher": "Town of Afton",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/0Es3oxsPnVw4fnW9/arcgis/rest/services/Afton_Zoning_Districts/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56023"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Afton zoning districts, hosted by the town (ArcGIS Online item 96ec959418eb40e0869c4a2d49bcb64d). Town-only coverage; county layer Public_Download_Zoning has 16 of 20 self-intersecting polygons so was not submitted.",
+  "verification": {
+    "verified_at": 1792136210846,
+    "counties": [
+      "56023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

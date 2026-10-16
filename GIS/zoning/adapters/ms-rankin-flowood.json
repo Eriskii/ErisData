@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ms-rankin-flowood",
+  "publisher": "City of Flowood (via CMPDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Flowood_Feature_Layer/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28121"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE_TEXT"
+  },
+  "notes": "Flowood Zoning Dec 2025, parcel-based polygons, CMPDD-hosted (HTTP only).",
+  "verification": {
+    "verified_at": 1792134904267,
+    "counties": [
+      "28121"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

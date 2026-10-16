@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-martin-stuart",
+  "publisher": "City of Stuart GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/RyoFD3Lw9KSERnvQ/arcgis/rest/services/COS_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12085"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Stuart current zoning districts (city limits only); hosted by City of Stuart ArcGIS Online account. zone_name omitted: PCDesc is a parcel use description, not a district name",
+  "verification": {
+    "verified_at": 1792133882672,
+    "counties": [
+      "12085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

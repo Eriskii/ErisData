@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-leavenworth-county",
+  "publisher": "Leavenworth County GIS (via Eagleview/integritygis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.integritygis.com/arcgis/rest/services/Public/Leavenworth_Eagleview/MapServer/181",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20103"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Nm"
+  },
+  "notes": "County Eagleview public MapServer, Zoning layer (868 features). Resolution number in Resol_No; no jurisdiction field.",
+  "verification": {
+    "verified_at": 1792134285234,
+    "counties": [
+      "20103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

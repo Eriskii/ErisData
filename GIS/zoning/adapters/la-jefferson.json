@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-jefferson",
+  "publisher": "Jefferson Parish GIS (CODE geoPortal)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://eweb.jeffparish.net/arcgis/rest/services/CODE/geoPortal/MapServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22051"
+    ]
+  },
+  "fields": {
+    "link": "MUNICODE",
+    "zone": "CLASS"
+  },
+  "notes": "Parish zoning district layer (7,619 polygons) from the Jefferson Parish CODE geoPortal. CLASS is the district code (e.g. S1); SCD is an internal zoning key. MUNICODE holds a link to the Municode code of ordinances. Covers the parish zoning map; incorporated cities that zone themselves may be absent.",
+  "verification": {
+    "verified_at": 1792134423287,
+    "counties": [
+      "22051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

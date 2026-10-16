@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-peach-byron",
+  "publisher": "City of Byron (GA) via Middle Georgia Regional Commission",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services/City_of_Byron_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13225"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClass",
+    "zone_name": "Description"
+  },
+  "notes": "Zoning classifications by tax parcel for the City of Byron only, published by nwilliams_MGRC on ArcGIS Online; not county-wide. Copy hosted by a regional commission account; used because no county or Fort Valley zoning service was found.",
+  "verification": {
+    "verified_at": 1792133978753,
+    "counties": [
+      "13225"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-jefferson",
+  "publisher": "Jefferson County Department of Development Services (AL)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://jccgis.jccal.org/server/rest/services/DDS/Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01073"
+    ]
+  },
+  "fields": {
+    "zone": "ZNCODE"
+  },
+  "filter": "DATEDELETED IS NULL",
+  "notes": "County zoning layer from DDS Zoning MapServer (Accela-sourced). Current districts only (DATEDELETED IS NULL). AUTHORITYID distinguishes zoning authorities; ZNCODE is the district code. Layer covers county zoning; cities may zone separately.",
+  "verification": {
+    "verified_at": 1792133694684,
+    "counties": [
+      "01073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

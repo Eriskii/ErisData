@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nh-merrimack-concord",
+  "publisher": "City of Concord NH GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.concordnh.gov/arc1061/rest/services/Public/PubWebGIS2020/MapServer/58",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "33013"
+    ]
+  },
+  "fields": {
+    "zone": "Text__1"
+  },
+  "notes": "City of Concord only (county NH does not zone; towns zone themselves). Zone code field Text__1; 126 features. Source: city ArcGIS public web GIS, zoning adopted 2001.",
+  "verification": {
+    "verified_at": 1792134959396,
+    "counties": [
+      "33013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

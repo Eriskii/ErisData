@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-henderson-hendersonville",
+  "publisher": "City of Hendersonville GIS (via Henderson County GISWeb)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.hendersoncountync.gov/arcgis/rest/services/GISWeb/Primary_GISWeb_Layers/MapServer/83",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37089"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Cla"
+  },
+  "notes": "City of Hendersonville zoning districts, hosted on Henderson County GISWeb. Zoning holds the district code; Zoning_Cla the class/description.",
+  "verification": {
+    "verified_at": 1792135083889,
+    "counties": [
+      "37089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-cherokee-rusk",
+  "publisher": "City of Rusk (layer by MHS Planning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aThczr7xl4XYBVaC/arcgis/rest/services/RUSK_Z_ZONING/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48073"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZONECLASS"
+  },
+  "notes": "City of Rusk zoning districts (Cherokee County seat), published on ArcGIS by MHS Planning. City only; no usable county unincorporated zoning layer found. ZONEDESC and ordinance fields are mostly blank, so no zone_name or link is mapped.",
+  "verification": {
+    "verified_at": 1792135618190,
+    "counties": [
+      "48073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

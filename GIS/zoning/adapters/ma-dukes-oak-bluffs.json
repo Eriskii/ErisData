@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ma-dukes-oak-bluffs",
+  "publisher": "Dukes County GIS (mvdukes) - Oak Bluffs zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/FNsEJ848HT5uDOHD/arcgis/rest/services/duk_zoning/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "PRIM_USE"
+  },
+  "notes": "Town of Oak Bluffs zoning district layer, hosted by Dukes County GIS (layer 4 of duk_zoning service). Source attribute SOURCE is MVC.",
+  "verification": {
+    "verified_at": 1792134458723,
+    "counties": [
+      "25007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

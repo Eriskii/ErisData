@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nd-ramsey-devils-lake",
+  "publisher": "City of Devils Lake (RamseyND ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ppx8SK7eYa16HHRW/arcgis/rest/services/City_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38071"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_"
+  },
+  "notes": "City of Devils Lake base zoning only (73 districts); no zone name or ordinance link field in source. Covers city only, not county unincorporated land.",
+  "verification": {
+    "verified_at": 1792135145100,
+    "counties": [
+      "38071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

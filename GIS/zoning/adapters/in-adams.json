@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "in-adams",
+  "publisher": "Adams County GIS (Indiana)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://adamsingis.adams.in.us/arcgis/rest/services/General/County_Web/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18001"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningType"
+  },
+  "notes": "Adams County GIS County_Web service, Zoning layer (county zoning, unincorporated land). 242 features. Zone codes like R-1, C-2, I-1. Layer also holds case/petition attributes; Decatur city zoning is in a separate service (Decatur/Zoning) not included.",
+  "verification": {
+    "verified_at": 1792133663695,
+    "counties": [
+      "18001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

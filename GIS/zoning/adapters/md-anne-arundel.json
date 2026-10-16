@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-anne-arundel",
+  "publisher": "Anne Arundel County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.aacounty.org/arcgis/rest/services/OpenData/Planning_OpenData/MapServer/29",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONED",
+    "zone_name": "TYPE"
+  },
+  "notes": "County Zoning ADOPTED layer (unincorporated county zoning; municipalities zone their own land and are not included).",
+  "verification": {
+    "verified_at": 1792134425225,
+    "counties": [
+      "24003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-logan-bellefontaine",
+  "publisher": "City of Bellefontaine (ArcGIS Online account hharpst)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/16AV5jEYvrAeZIqL/arcgis/rest/services/City_of_Bellefontaine_Zoning_Map_WFL1/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39091"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "ZONING_DIS"
+  },
+  "filter": "OBJECTID_12_13_14 <> 1479",
+  "notes": "City of Bellefontaine zoning districts (city-branded ArcGIS Online org; ordinance link in LINK). Filter excludes OBJECTID 1479 (an M-2 polygon near -83.76,40.38) because its geometry is invalid (fails validity check); that one district is therefore missing until the source is repaired. Covers the city only; townships and villages publish PDF maps only.",
+  "verification": {
+    "verified_at": 1792135346326,
+    "counties": [
+      "39091"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

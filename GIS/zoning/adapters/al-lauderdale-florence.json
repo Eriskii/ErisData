@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-lauderdale-florence",
+  "publisher": "City of Florence, Alabama",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/l8kNBnIAAJvrLU10/arcgis/rest/services/Public/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01077"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Florence zoning districts from the city public map service; covers Florence city limits only, not unincorporated county land.",
+  "verification": {
+    "verified_at": 1792133724706,
+    "counties": [
+      "01077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

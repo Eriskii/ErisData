@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nj-burlington-cinnaminson",
+  "publisher": "Cinnaminson Township (GIS by Burlington County Economic Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/IDYoyDAB3hSuNMIH/arcgis/rest/services/Cinnaminson_Zoning_District_Boundaries/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34005"
+    ]
+  },
+  "fields": {
+    "zone": "M_ZoneCode",
+    "zone_name": "M_ZoneDesc"
+  },
+  "notes": "Cinnaminson Township zoning districts, one municipality only. C_ZoneCode/C_ZoneDesc hold the alternate (county-coded) labels.",
+  "verification": {
+    "verified_at": 1792135023268,
+    "counties": [
+      "34005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

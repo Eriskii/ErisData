@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ri-kent-statewide",
+  "publisher": "Rhode Island Commerce / URI EDC RIGIS (statewide municipal zoning, Kent County towns)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/S8zZg9pg23JUEexQ/arcgis/rest/services/RI_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "44003"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI_NAME",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "filter": "MUNI_NAME IN ('Warwick', 'West Warwick')",
+  "notes": "Statewide Rhode Island municipal zoning layer (RIGIS/URI EDC), filtered to the Kent County cities of Warwick and West Warwick. Kent County has no county-level zoning; the town layers are generalized from town zoning maps and some source polygons are invalid.",
+  "verification": {
+    "verified_at": 1792135412810,
+    "counties": [
+      "44003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

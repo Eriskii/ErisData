@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-tompkins-trumansburg",
+  "publisher": "Tompkins County GIS (Village of Trumansburg zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/oJbAAWNInLrxvF0A/arcgis/rest/services/T_burg2025Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36109"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Village of Trumansburg zoning, 2025",
+  "verification": {
+    "verified_at": 1792135048272,
+    "counties": [
+      "36109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

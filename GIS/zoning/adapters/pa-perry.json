@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-perry",
+  "publisher": "Perry County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/b1rOZp0BNgsXJwyv/arcgis/rest/services/Perry_County_Web_Map_WFL1/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42099"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Mun",
+    "zone": "Acronym",
+    "zone_name": "ZoneType"
+  },
+  "notes": "Perry County Parcel Viewer web map layer (county-hosted). Zone code in Acronym, district name in ZoneType, municipality in Mun. Covers all municipalities in county.",
+  "verification": {
+    "verified_at": 1792135375650,
+    "counties": [
+      "42099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

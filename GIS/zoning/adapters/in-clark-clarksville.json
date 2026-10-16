@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-clark-clarksville",
+  "publisher": "Town of Clarksville, Indiana",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.townofclarksville.com/clarksvillemaps/rest/services/Planning/ClarksvilleZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18019"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Name"
+  },
+  "notes": "Town of Clarksville zoning districts (Zones layer). Town-only; covers Clarksville, not unincorporated county or other cities.",
+  "verification": {
+    "verified_at": 1792134182217,
+    "counties": [
+      "18019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

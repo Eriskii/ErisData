@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-cameron-harlingen",
+  "publisher": "City of Harlingen GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/gSCPzHZGMdbiljnH/arcgis/rest/services/City_of_Harlingen_Zoning_Map/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48061"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Harlingen zoning map (Zone Map layer). SUP and Rezone fields flag special-use and rezoning cases; base district code is in Zone. Layer in State Plane feet; runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792135615892,
+    "counties": [
+      "48061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

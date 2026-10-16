@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-union-marysville",
+  "publisher": "City of Marysville, Ohio",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/ccRMrVzOSHBUG6X2/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39159"
+    ]
+  },
+  "fields": {
+    "zone": "zoningcode",
+    "zone_name": "zoninglabel"
+  },
+  "notes": "City of Marysville zoning map, passed Nov 2020, in effect Dec 23, 2020. City only.",
+  "verification": {
+    "verified_at": 1792135260655,
+    "counties": [
+      "39159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

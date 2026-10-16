@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-horry",
+  "publisher": "Horry County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.horrycounty.org/parcelapp/rest/services/HorryCountyGISApp/MapServer/30",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45051"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode"
+  },
+  "notes": "Horry County zoning districts from the county GIS application service (MapServer layer 30). Ordinance field is mostly empty, so no link is mapped. Zone names are not in the source.",
+  "verification": {
+    "verified_at": 1792135380647,
+    "counties": [
+      "45051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

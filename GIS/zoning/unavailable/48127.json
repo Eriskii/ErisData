@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48127",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.cityofcarrizo.org/bc-pc/page/zoning-map-1",
+    "https://dimmit-cad.org/",
+    "https://services8.arcgis.com/LnmYQjpj3hrjkj1L/arcgis/rest/services/DimmitCADWebService/FeatureServer"
+  ],
+  "note": "Dimmit County publishes no zoning districts layer; Texas counties generally do not zone. The only zoning in the county is the City of Carrizo Springs zoning map, published as a 29 MB PDF map (viewer-only, no queryable polygons). The Dimmit CAD ArcGIS service has parcels, city limits and boundaries but no zoning layer. No other city in the county was found publishing zoning.",
+  "recorded_at": 1792135921367,
+  "recheck_after": 1807687921367,
+  "model": "claude-haiku-5-5"
+}

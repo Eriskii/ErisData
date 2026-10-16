@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ar-garland-hot-springs",
+  "publisher": "City of Hot Springs GIS (CHSMAPS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/lCwVhIwyitVebu0v/arcgis/rest/services/Zoning/FeatureServer/20",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05051"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code"
+  },
+  "notes": "City of Hot Springs zoning districts (layer named Zoning_Old by the city, 610 polygons). Covers the city only; Garland County unincorporated land is not zoned in this layer. No name or ordinance link field published.",
+  "verification": {
+    "verified_at": 1792133756139,
+    "counties": [
+      "05051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

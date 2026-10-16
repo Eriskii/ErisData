@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ut-carbon-price",
+  "publisher": "Price City (via Carbon County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.carbon.utah.gov/arcgis/rest/services/CountyGeneralMap/Planning___Zoning/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Price zoning layer hosted by Carbon County GIS; covers the City of Price only. No district name field; zone is the district code.",
+  "verification": {
+    "verified_at": 1792135785285,
+    "counties": [
+      "49007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

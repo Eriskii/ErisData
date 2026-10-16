@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-jasper-joplin",
+  "publisher": "City of Joplin GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://joplingis.org/server/rest/services/Landbase/LandbaseII/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29097"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning2",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "City of Joplin zoning districts only (city layer, not county-wide); parcel-level polygons from the city GIS server. Jasper County publishes no queryable county zoning layer found.",
+  "verification": {
+    "verified_at": 1792134685044,
+    "counties": [
+      "29097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

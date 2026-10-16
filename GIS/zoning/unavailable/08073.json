@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "08073",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://lincolncounty.colorado.gov/county-land-use",
+    "https://www.townoflimon.com/images/maps/tol_zoning_map.pdf",
+    "https://coagritourismbiz.org/wp-content/uploads/2023/10/Zoning-Regulations.Lincoln.pdf",
+    "https://www.lincolncomo.gov/county-assessor-mapping"
+  ],
+  "note": "Lincoln County, CO publishes its zoning resolution and the Town of Limon publishes its zoning map only as PDF documents. The county land use page returned HTTP 403 to my reader, and the Assessor's WebGIS viewer (lincolngis.integritygis.com) was unreachable, so I could not confirm whether it draws zoning from a queryable service. Searches of ArcGIS Hub and Online found no Lincoln County, CO zoning feature layer.",
+  "recorded_at": 1792133844284,
+  "recheck_after": 1807685844284,
+  "model": "claude-haiku-5-5"
+}

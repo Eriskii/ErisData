@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-monterey",
+  "publisher": "Monterey County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.monterey.ca.us/server/rest/services/Land_Use/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06053"
+    ]
+  },
+  "fields": {
+    "link": "CodeURL",
+    "zone": "ZONESTRING",
+    "zone_name": "ZONE_CATEG"
+  },
+  "notes": "Unincorporated Monterey County only; cities zone their own land, not included. ZONESTRING is the full district code (e.g. RC/40-D); ZONE_CATEG is the base category code. Some parcels labeled Under Review.",
+  "verification": {
+    "verified_at": 1792134038043,
+    "counties": [
+      "06053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

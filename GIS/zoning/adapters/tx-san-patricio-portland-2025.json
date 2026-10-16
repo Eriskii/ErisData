@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-san-patricio-portland-2025",
+  "publisher": "City of Portland, Texas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/DAf01WuIltSLujAv/arcgis/rest/services/Portland_Zoning_December_2025/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48409"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "City of Portland base zoning districts, December 2025 update, from the city ArcGIS services. Covers city limits only; unincorporated county land is not zoned by the county.",
+  "verification": {
+    "verified_at": 1792135931778,
+    "counties": [
+      "48409"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ok-atoka-county",
+  "publisher": "City of Atoka (Oklahoma) via ArcGIS Online",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/nlZN4VPoCeta6ngK/arcgis/rest/services/Atoka_Zoning_public_view/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40005"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "City of Atoka zoning only (town limits and planning region); no county-wide zoning layer found. Polygons from public non-editable view of the city zoning layer, with ordinance attachments. Layer is in state plane feet; the runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792135225135,
+    "counties": [
+      "40005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

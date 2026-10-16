@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-st-clair-county",
+  "publisher": "St. Clair County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgispublicmap.co.st-clair.il.us/server/rest/services/Zoning_layers/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17163"
+    ]
+  },
+  "fields": {
+    "zone": "code"
+  },
+  "notes": "St. Clair County IL county GIS zoning layer (Zoning_layers MapServer layer 9). Only a zone code is published; no zone name, jurisdiction or ordinance link field. Covers the county zoning districts; municipal zoning may be absent.",
+  "verification": {
+    "verified_at": 1792134059700,
+    "counties": [
+      "17163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

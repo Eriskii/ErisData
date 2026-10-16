@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-dodge-fremont",
+  "publisher": "City of Fremont, Nebraska",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/6VKlIQXg1rgWny7H/arcgis/rest/services/ZoningV3/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31053"
+    ]
+  },
+  "fields": {
+    "zone": "PropZoning"
+  },
+  "notes": "City of Fremont zoning (ZoningV3 layer on the city ArcGIS host, used by the city Zoning and Future Land Use Explorer). Polygons carry each parcel zoning code, so this is parcel-level zoning; no district-name or ordinance-link field. Covers the City of Fremont only, not unincorporated Dodge County, which publishes its zoning only as a PDF map.",
+  "verification": {
+    "verified_at": 1792134957277,
+    "counties": [
+      "31053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

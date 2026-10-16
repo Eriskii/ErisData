@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-branch",
+  "publisher": "Branch County GIS (parcel layer carrying zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/OHynDFZ1SVDsGFwm/arcgis/rest/services/County_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26023"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "zone": "ZONING"
+  },
+  "filter": "ZONING > ' '",
+  "notes": "Parcel layer, not a district layer: each parcel carries its ZONING code; no district polygons published. Only parcels with a zoning code are included (about half of parcels have a blank ZONING). Parcel data last updated Sept 2024; some townships (Batavia, Bronson, Nobel, Union per the county parcel item) are not current. No zone_name field.",
+  "verification": {
+    "verified_at": 1792132324293,
+    "counties": [
+      "26023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-wilkin-all",
+  "publisher": "Wilkin County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.co.wilkin.mn.us/arcgis/rest/services/EnvironmentalServices/LandUseZoning_public/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27167"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "agency",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Combined Wilkin County zoning districts layer (48 features): unincorporated county districts (agency Wilkin County) plus City of Breckenridge districts. Hosted by Wilkin County GIS.",
+  "verification": {
+    "verified_at": 1792134530272,
+    "counties": [
+      "27167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

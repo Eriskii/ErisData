@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ak-kenai-peninsula-soldotna",
+  "publisher": "City of Soldotna GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/OYA21y8obYlVqfbj/arcgis/rest/services/ZoningCOSMarch2024/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02122"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_ZON"
+  },
+  "notes": "City of Soldotna zoning districts (March 2024 layer), published by the City of Soldotna GIS. Covers the City of Soldotna only; no district name field.",
+  "verification": {
+    "verified_at": 1792133755725,
+    "counties": [
+      "02122"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ar-pulaski-little-rock",
+  "publisher": "City of Little Rock GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.littlerock.gov/server/rest/services/Zoning_Only/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05119"
+    ]
+  },
+  "fields": {
+    "link": "GIS_LR.GISADM.Zoning_Definitions.LINKS",
+    "zone": "GIS_LR.GISADM.Zoning_Poly.ZONING",
+    "zone_name": "GIS_LR.GISADM.Zoning_Definitions.CATEGORY"
+  },
+  "notes": "City of Little Rock zoning only (not county unincorporated). zone_name is the category from the joined definitions table.",
+  "verification": {
+    "verified_at": 1792133787449,
+    "counties": [
+      "05119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

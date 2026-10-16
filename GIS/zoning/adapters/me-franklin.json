@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "me-franklin",
+  "publisher": "Maine Land Use Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/LUPC_TEST/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "State LUPC zoning for the unorganized territory only (no municipal zoning there); towns such as Farmington are not covered. Served from a LUPC-published service named LUPC_TEST; statewide layer, filter to county not possible by attribute.",
+  "verification": {
+    "verified_at": 1792134458316,
+    "counties": [
+      "23007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

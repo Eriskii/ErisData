@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-sequatchie-dunlap",
+  "publisher": "City of Dunlap, TN (hosted by Southeast Tennessee Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Dunlap_Zoning_10152026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47153"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "City of Dunlap base zoning only (8 districts); the only queryable zoning layer found for Sequatchie County. Unincorporated county land has no published zoning layer. Layer is in the Sequatchie County experience/web map by CReese_SETDD; no zone name or link field.",
+  "verification": {
+    "verified_at": 1792135925582,
+    "counties": [
+      "47153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

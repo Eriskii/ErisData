@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-portsmouth",
+  "publisher": "City of Portsmouth GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/nGsguNiHLn7MU4R4/arcgis/rest/services/Zoning/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51740"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Portsmouth GIS layer (hosted by city staff account winzah). Each feature is a parcel carrying its zoning code in ZONING; no separate district polygon layer was found, so this is a parcel-level fallback. Zone name not provided.",
+  "verification": {
+    "verified_at": 1792135982908,
+    "counties": [
+      "51740"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

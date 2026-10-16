@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-dupage-unincorporated",
+  "publisher": "DuPage County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.dupageco.org/arcgis/rest/services/Zoning/UnincorporatedZoningData/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17043"
+    ]
+  },
+  "fields": {
+    "link": "Link_to_Ord",
+    "zone": "ZONING"
+  },
+  "notes": "DuPage County unincorporated zoning only; incorporated municipalities zone their own land.",
+  "verification": {
+    "verified_at": 1792133976749,
+    "counties": [
+      "17043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

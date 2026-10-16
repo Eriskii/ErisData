@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-sacramento-city",
+  "publisher": "City of Sacramento",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/54falWtcpty3V47Z/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06067"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "BASE_ZONE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "City of Sacramento zoning only (one city, not countywide); BASE_ZONE is base district code; OVERLAY field not mapped",
+  "verification": {
+    "verified_at": 1792134034638,
+    "counties": [
+      "06067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "az-yuma-city",
+  "publisher": "City of Yuma GIS Division",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ci.yuma.az.us/server/rest/services/pan/Zoning/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CODE"
+  },
+  "notes": "City of Yuma Zoning Boundaries (city limits only, not county unincorporated land). Zone code only; no name or ordinance link published in this layer.",
+  "verification": {
+    "verified_at": 1792133770179,
+    "counties": [
+      "04027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

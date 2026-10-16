@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-roscommon-lake-twp",
+  "publisher": "Roscommon County GIS (Lake Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/rAGekBpQuVeYptc1/arcgis/rest/services/LakeTwpZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "26143"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTI",
+    "zone": "CODE",
+    "zone_name": "DESCRIPTIO"
+  },
+  "filter": "FID <> 7",
+  "notes": "Lake Township zoning, in Roscommon County GIS ArcGIS Online org. One district excluded for invalid geometry.",
+  "verification": {
+    "verified_at": 1792132446235,
+    "counties": [
+      "26143"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

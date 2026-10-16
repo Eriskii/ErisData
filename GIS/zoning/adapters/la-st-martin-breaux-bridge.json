@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-st-martin-breaux-bridge",
+  "publisher": "City of Breaux Bridge (hosted by ArcGIS org evfpsq4DPUft8Uyf)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/evfpsq4DPUft8Uyf/arcgis/rest/services/BreauxBridgeZoning_Updated/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22099"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance_NO",
+    "zone": "ZONE",
+    "zone_name": "Description"
+  },
+  "notes": "City of Breaux Bridge zoning districts only (84 features), not parish-wide. Parish unincorporated zoning is published only as PDFs. Layer published by an ArcGIS Online user in the same org as the Acadiana regional planning layers; treat as the city layer.",
+  "verification": {
+    "verified_at": 1792134435899,
+    "counties": [
+      "22099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

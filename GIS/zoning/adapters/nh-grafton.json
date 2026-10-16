@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nh-grafton",
+  "publisher": "New Hampshire Zoning Atlas (Saint Anselm / UpstateGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Atlas_Zoning_Districts_Buildable/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "33009"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "AbbreviatedDistrict",
+    "zone_name": "Abbreviated_District_Name"
+  },
+  "filter": "County = 'Grafton' AND Overlay = 'No'",
+  "notes": "Statewide NH Zoning Atlas buildable district layer (non-buildable areas of 10+ acres removed), valid 2025. Filtered to Grafton County base (non-overlay) districts. Jurisdiction = municipality name.",
+  "verification": {
+    "verified_at": 1792135067943,
+    "counties": [
+      "33009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

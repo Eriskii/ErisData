@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-perry",
+  "publisher": "City of Perryville / SEMO RPC (Perry County GIS, hosted by SEMO GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.semogis.com/server/rest/services/Perry_CO/PerryCo_PublicBase/MapServer/23",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29157"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Layer holds City of Perryville zoning districts only (467 polygons); unincorporated county has no zoning layer found. Effective 06/16/2026 per city viewer. Hosted by SEMO GIS for Perry County/SEMO RPC.",
+  "verification": {
+    "verified_at": 1792134828665,
+    "counties": [
+      "29157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

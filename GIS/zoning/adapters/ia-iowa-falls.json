@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-iowa-falls",
+  "publisher": "City of Iowa Falls (via Schneider Geospatial)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/09JsFDXeRqZYiaZt/arcgis/rest/services/IowaFallsZoningDistricts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19083"
+    ]
+  },
+  "fields": {
+    "zone": "NAME",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "City of Iowa Falls zoning districts, hosted by Schneider Geospatial; 127 polygons. Zone codes in NAME (AC, AG); ordinance numbers not populated in source.",
+  "verification": {
+    "verified_at": 1792134176731,
+    "counties": [
+      "19083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

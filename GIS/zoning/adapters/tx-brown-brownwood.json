@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-brown-brownwood",
+  "publisher": "City of Brownwood, Texas (via city ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/851VKtbxUCkPr71H/arcgis/rest/services/Zoning_Map_2020_Read_Only/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48049"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "situs_city",
+    "zone": "zoning"
+  },
+  "filter": "zoning IS NOT NULL AND zoning <> 'Outside City Limits' AND zoning <> 'Out of City Limits'",
+  "notes": "Brownwood city zoning, taken from the city viewer Brownwood Zoning (brownwoodtx.maps.arcgis.com). Layer is a parcel layer (9,182 parcels) whose zoning attribute carries each parcel's base zone code, not a district polygon layer; no district layer found for Brown County or Brownwood. Brown County (Texas) does not zone unincorporated land. Other cities (Early, Bangs, May, Blanket) not found publishing zoning. Parcels with no zone are null. Updated 2020 snapshot per layer title.",
+  "verification": {
+    "verified_at": 1792135660797,
+    "counties": [
+      "48049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

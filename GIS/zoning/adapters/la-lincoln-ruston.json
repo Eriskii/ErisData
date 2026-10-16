@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-lincoln-ruston",
+  "publisher": "Lincoln Parish GIS Commission / City of Ruston",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.lincolnparish.org/arcgis/rest/services/LP_Jackson_27/MapServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22061"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID",
+    "zone_name": "ZONETEXT"
+  },
+  "notes": "Covers the City of Ruston only (parish-hosted layer, Ruston Zoning); no parish-wide or other-city zoning layer found. ZONE_ID is the district code; ZONETEXT the description.",
+  "verification": {
+    "verified_at": 1792134412371,
+    "counties": [
+      "22061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

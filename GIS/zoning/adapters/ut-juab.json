@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ut-juab",
+  "publisher": "Utah AGRC (state) generalized zoning, Juab cities",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49023"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county = 'Juab'",
+  "notes": "Statewide UtahAGRC work-in-progress generalized zoning layer; filtered to county Juab (cities of Eureka, Levan, Mona, Nephi). Unincorporated county zoning not included; county publishes zoning only as PDF map.",
+  "verification": {
+    "verified_at": 1792135791126,
+    "counties": [
+      "49023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

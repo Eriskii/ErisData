@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "la-st-charles-parish",
+  "publisher": "St. Charles Parish GIS / Planning and Zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Nj65ZtNghtksKPeG/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22089"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "Official Zoning Map, St. Charles Parish (ordinance 16-6-10 as amended), shapefile hosted by parish GIS. Single parish-wide layer; zone field holds district code only, no zone name field; ordinance links mostly blank.",
+  "verification": {
+    "verified_at": 1792134414905,
+    "counties": [
+      "22089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

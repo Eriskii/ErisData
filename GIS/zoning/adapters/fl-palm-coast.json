@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-palm-coast",
+  "publisher": "City of Palm Coast GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.palmcoast.gov/hosting/rest/services/DataForThePublic/PalmCoastFL_Zoning_Labeled/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12035"
+    ]
+  },
+  "fields": {
+    "zone": "LAYER"
+  },
+  "notes": "City of Palm Coast zoning districts (city GIS public data). LAYER holds the current district code. The layer also carries zoning-change history (OriginalZone, TypeOfChange) and may hold superseded polygons; no district-name field.",
+  "verification": {
+    "verified_at": 1792133855724,
+    "counties": [
+      "12035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

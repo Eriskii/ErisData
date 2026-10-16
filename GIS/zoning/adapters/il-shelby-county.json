@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-shelby-county",
+  "publisher": "Shelby County, IL (copy hosted by rudy88 on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/hiovbjLDyGQZm4LO/arcgis/rest/services/Shelby_County_Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17173"
+    ]
+  },
+  "fields": {
+    "zone": "CURRENT_Zo"
+  },
+  "notes": "Unofficial personal ArcGIS Online copy by rudy88 of the Shelby County zoning map (created 2014, may be outdated). Official county host cama.shelbycountyauditors.com (SCEO_Basemaps/Shelby_Zoning/MapServer/0) was unreachable when tried. Zone field holds district code only; no zone name or jurisdiction field. Parcel layer is not used.",
+  "verification": {
+    "verified_at": 1792134069380,
+    "counties": [
+      "17173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

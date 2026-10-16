@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "or-polk",
+  "publisher": "Oregon DLCD (statewide zoning, Polk County records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41053"
+    ]
+  },
+  "fields": {
+    "zone": "localZCode",
+    "zone_name": "localZDesc"
+  },
+  "filter": "ownerName = 'Polk County'",
+  "notes": "Statewide DLCD zoning layer; filtered to features owned by Polk County (ownerName). Zone codes are local codes. Source is the state-hosted copy, not the county service (maps.co.polk.or.us returned HTTP 500 during this search). City zoning in Polk not included by this filter.",
+  "verification": {
+    "verified_at": 1792135288967,
+    "counties": [
+      "41053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

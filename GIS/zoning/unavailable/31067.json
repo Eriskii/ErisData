@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "31067",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gagecountyne.gov/wp-content/uploads/sites/35/2025/07/zoning_map.pdf",
+    "https://www.beatrice.ne.gov/business-development/maps/",
+    "https://gage.gworks.com"
+  ],
+  "note": "Gage County zoning is published only as a PDF zoning map (county) and a static PNG zoning map (City of Beatrice). The county parcel viewer at gage.gworks.com is gWorks-hosted; its Gage_County_NE_Assessor MapServer has no zoning layer (Parcels layer carries only PID), and no Gage_County_NE_PZ service exists on mapserver01.gworks.com. Beatrice's ArcGIS web map (beatricebpw.maps.arcgis.com, item 312cd684...) only draws a 2-Mile Zoning Boundary polyline (services3.arcgis.com/I2jzMcLnq8BDWpwz, 2_Mile_Zoning_Map/FeatureServer/0, LIMIT_TYPE), not district polygons. No queryable zoning district polygon layer found for the county or its cities.",
+  "recorded_at": 1792135018522,
+  "recheck_after": 1807687018522,
+  "model": "claude-haiku-5-5"
+}

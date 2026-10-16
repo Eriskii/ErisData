@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29185",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.land.com/api/documents/5066976709/zonning.pdf",
+    "https://cityofosceolamo.com/city-ordinances.html",
+    "https://services8.integritygis.com/arcgis/rest/services/MO/St_Clair_Assessor_Data/MapServer",
+    "https://www.gismaps.org/mo-st-clair-county/"
+  ],
+  "note": "St. Clair County, MO has no public queryable zoning district service found. The county zoning map is a PDF (land.com); the City of Osceola zoning map is an image embedded in a PDF. The county's GIS server (services8.integritygis.com, St_Clair_Assessor_Data) returns 'Token Required', and its listed layers show no zoning layer. The City of St. Clair zoning service found in the city's viewer is for a different St. Clair (Franklin County), so it was not used.",
+  "recorded_at": 1792134928973,
+  "recheck_after": 1807686928973,
+  "model": "claude-haiku-5-5"
+}

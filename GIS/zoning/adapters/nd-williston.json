@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nd-williston",
+  "publisher": "City of Williston Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/NWfsmUbUBtasjV2n/arcgis/rest/services/ZONING_MAP/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38105"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_DES"
+  },
+  "notes": "City of Williston zoning districts (ArcGIS layer zoning, ZONING_MAP service). Single-city layer, so no jurisdiction field. Not in the Williams County layer.",
+  "verification": {
+    "verified_at": 1792135146521,
+    "counties": [
+      "38105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

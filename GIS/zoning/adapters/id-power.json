@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-power",
+  "publisher": "Power County, Idaho",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/91hXl6NfvLGEi8x5/ArcGIS/rest/services/Power_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16077"
+    ]
+  },
+  "fields": {
+    "zone": "label",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Layer hosted in an ArcGIS Online organization (services.arcgis.com/91hXl6NfvLGEi8x5) with the name Power_County_Zoning; 25 polygons. Owner not stated in metadata; treated as the county layer.",
+  "verification": {
+    "verified_at": 1792133651428,
+    "counties": [
+      "16077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

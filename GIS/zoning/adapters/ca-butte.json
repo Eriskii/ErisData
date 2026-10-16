@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-butte",
+  "publisher": "Butte County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.buttecounty.net/arcgis/rest/services/GP2030_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06007"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "filter": "Zone NOT LIKE 'City of%' AND Zone <> 'Town of Paradise'",
+  "notes": "County GP2030 zoning layer, unincorporated Butte County districts; city and town placeholder polygons excluded because their geometry fails validity checks. Cities zone their own land.",
+  "verification": {
+    "verified_at": 1792134072044,
+    "counties": [
+      "06007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

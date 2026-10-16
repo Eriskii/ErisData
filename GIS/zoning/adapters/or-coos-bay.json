@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "or-coos-bay",
+  "publisher": "City of Coos Bay GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/1ImxIkTGl8I2AWzX/arcgis/rest/services/Coos_Bay_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41011"
+    ]
+  },
+  "fields": {
+    "link": "ZONE_LINK",
+    "zone": "Zone",
+    "zone_name": "Plan_Des"
+  },
+  "notes": "City of Coos Bay own zoning districts (city limits only). The layer has no jurisdiction attribute; all districts are Coos Bay. Plan_Des holds the comprehensive-plan designation beside the zone code.",
+  "verification": {
+    "verified_at": 1792135979608,
+    "counties": [
+      "41011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

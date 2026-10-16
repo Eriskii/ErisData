@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-san-jose",
+  "publisher": "City of San Jose Planning, Building and Code Enforcement",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/401",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06085"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGABBREV",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of San Jose zoning districts only (city limits within Santa Clara County).",
+  "verification": {
+    "verified_at": 1792134041666,
+    "counties": [
+      "06085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

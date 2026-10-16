@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-sacramento-elk-grove",
+  "publisher": "Sacramento County GIS (City of Elk Grove zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.gis.saccounty.net/arcgis/rest/services/ELK_GROVE/MapServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06067"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Elk Grove zoning only, served by county GIS; no zone name or jurisdiction field in source",
+  "verification": {
+    "verified_at": 1792134075606,
+    "counties": [
+      "06067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

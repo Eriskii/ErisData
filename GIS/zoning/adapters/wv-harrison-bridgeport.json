@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wv-harrison-bridgeport",
+  "publisher": "City of Bridgeport WV GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/AbeGRKIiXK4snvXa/arcgis/rest/services/Zoning_public_c9d8f08e6e8848d084ea743bb6dcbfa9/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54033"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "OBJECTID <> 5",
+  "notes": "City of Bridgeport open data",
+  "verification": {
+    "verified_at": 1792136233167,
+    "counties": [
+      "54033"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

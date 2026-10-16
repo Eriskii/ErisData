@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-clark-new-carlisle",
+  "publisher": "Clark County, Ohio (zoning for City of New Carlisle)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ago.clarkcountyohio.gov/ccoarcgis/rest/services/BHA/AGS_Clark_Zones/MapServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39023"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "zone": "ZONING",
+    "zone_name": "ZONINGDESC"
+  },
+  "notes": "City of New Carlisle zoning districts, hosted by Clark County.",
+  "verification": {
+    "verified_at": 1792135188754,
+    "counties": [
+      "39023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

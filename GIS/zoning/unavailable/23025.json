@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "23025",
+  "reason": "login-required",
+  "evidence": [
+    "https://gis.maine.gov/arcgis/rest/services/lupc/LUPC_Zoning_Data_Offline/FeatureServer",
+    "https://gis.maine.gov/arcgis/rest/services/lupc/LUPC_Zoning_Data_Offline/MapServer",
+    "https://maine.hub.arcgis.com/maps/969f562e8b994fa5ae790443d9883c4e"
+  ],
+  "note": "Somerset County has no county-wide zoning layer found. The only state zoning service (LUPC zoning, covering unorganized territory only) returns 'Token Required' on gis.maine.gov, so it is not queryable. No queryable zoning district layers were found for Skowhegan, Madison, Norridgewock, Pittsfield or Fairfield; their zoning is published as PDF maps or ordinances, and the Skowhegan maps page is a viewer without a found zoning service.",
+  "recorded_at": 1792134472210,
+  "recheck_after": 1807686472210,
+  "model": "claude-haiku-5-5"
+}

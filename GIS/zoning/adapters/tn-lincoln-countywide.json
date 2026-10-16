@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tn-lincoln-countywide",
+  "publisher": "Lincoln County, TN GIS (Fayetteville-Lincoln County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/6g8EiHg00n6qjpO2/arcgis/rest/services/Zoning_Online/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "jurisdiction",
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "Countywide zoning layer covering unincorporated county and cities (Fayetteville, Ardmore, Petersburg); jurisdiction names each (CITY or LINCOLN CO). Published by Lincoln County GIS organization. No ordinance links in source.",
+  "verification": {
+    "verified_at": 1792135923276,
+    "counties": [
+      "47103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

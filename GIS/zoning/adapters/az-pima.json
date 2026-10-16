@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "az-pima",
+  "publisher": "Pima County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisdata.pima.gov/arcgis1/rest/services/GISOpenData/Boundaries2/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04019"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONE"
+  },
+  "notes": "Pima County Zoning - All Jurisdictions (zone_all), base zoning for unincorporated county plus incorporated cities and towns. ZONE holds the base zoning code; JURISDICTION names the jurisdiction.",
+  "verification": {
+    "verified_at": 1792133649603,
+    "counties": [
+      "04019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

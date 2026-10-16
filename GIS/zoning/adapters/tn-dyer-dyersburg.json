@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-dyer-dyersburg",
+  "publisher": "City of Dyersburg (zoning layer hosted by WSP)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/TuQ8KXxdnKZCJwrs/arcgis/rest/services/Dyersburg_Current_Zoning_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47045"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESCR"
+  },
+  "notes": "Dyersburg city zoning only (148 polygons); county-unincorporated zoning in Dyer County is published only as a PDF map (dyercounty.com). Copy hosted on an ArcGIS Online item by WSP consultant, not the city; the city site links only a PDF zoning map. Uses ZONE for code, DESCR for description; no ordinance link field.",
+  "verification": {
+    "verified_at": 1792135881912,
+    "counties": [
+      "47045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

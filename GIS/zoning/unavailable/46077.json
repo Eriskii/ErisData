@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "46077",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://kingsbury.sdcounty.gov/departments/zoning-planning/",
+    "https://kingsbury.sdcounty.gov/wp-content/uploads/2026/09/Kingsbury%20County%20Zoning%20Ordinance%20%20090926%20-%20Todd%20Kays.pdf",
+    "https://www.1stdistrict.org/arcgis/rest/services/Kingsbury/kingsburymapnetpro/MapServer"
+  ],
+  "note": "Kingsbury County zones (A-Agricultural and other districts in the county zoning ordinance), but the Official Zoning Map is kept at the County Auditor's office and is not published as a queryable service. The county's official GIS (First District MapNet, kingsburymapnetpro MapServer, 42 layers) has parcels, plats, floodplain, voting and city boundaries but no zoning district layer. Kingsbury County's cities (De Smet, Lake Preston, Arlington, Iroquois) publish no zoning GIS found online; the only zoning-related hits were PDF maps and a commercial parcel dataset with a zone field, which is not official.",
+  "recorded_at": 1792135499059,
+  "recheck_after": 1807687499059,
+  "model": "claude-haiku-5-5"
+}

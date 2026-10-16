@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-nash-rocky-mount",
+  "publisher": "City of Rocky Mount Development Services",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4MdqIsNzxG7xyTvf/arcgis/rest/services/City_of_Rocky_Mount_Zoning/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37127"
+    ]
+  },
+  "fields": {
+    "link": "District_I",
+    "zone": "Prim_Code",
+    "zone_name": "Z_Desc"
+  },
+  "notes": "City of Rocky Mount zoning districts (city limits, mostly in Nash County; layer includes some Edgecombe County area). Some features carry county districts (e.g. A-1, O-I, COUNTY) in ZONING. County unincorporated zoning not found in any queryable service.",
+  "verification": {
+    "verified_at": 1792135159930,
+    "counties": [
+      "37127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

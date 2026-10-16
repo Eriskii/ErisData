@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-richland-center",
+  "publisher": "City of Richland Center (via SWWisRegPlanning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/OwVO8oKCUjTngz5f/arcgis/rest/services/RichlandCenter_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNTYPE",
+    "zone": "Zoning_Abb",
+    "zone_name": "Zoning_Cit"
+  },
+  "notes": "City of Richland Center zoning districts, hosted by Southwest Wisconsin Regional Planning Commission on ArcGIS Online. Jurisdiction is the city (MUNTYPE field).",
+  "verification": {
+    "verified_at": 1792136081556,
+    "counties": [
+      "55103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

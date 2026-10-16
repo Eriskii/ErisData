@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-elkhart-city-zoning",
+  "publisher": "City of Elkhart",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/RhRpaq8RpEQjlpir/arcgis/rest/services/Zoning_District/FeatureServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18039"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "City of Elkhart zoning districts; layer used by the city's Zoning Districts web map / zoning Experience app.",
+  "verification": {
+    "verified_at": 1792134239454,
+    "counties": [
+      "18039"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

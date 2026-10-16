@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "35053",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.socorronm.gov/city-services/zoning-department/",
+    "https://www.socorronm.gov/wp-content/uploads/2019/04/Zoning-Map-2018.pdf",
+    "https://www.gis-portal.org/nm-socorro-county/",
+    "https://www.socorrocounty.net/general-information/ordinances"
+  ],
+  "note": "Socorro County (NM) publishes no queryable zoning district service. The City of Socorro, the only municipality found zoning, publishes its zoning map only as a static 2018 PDF (Zoning-Map-2018.pdf). County zoning is directed to phone (575-835-0589); the county ordinances page and GIS portal link no zoning layer. ArcGIS searches for Socorro zoning and the county's Axiom-hosted services (nm.gis.axiomnh.com) returned only parcels, addresses and tax districts. Regrid has zoning fields but is a paid commercial dataset, not official.",
+  "recorded_at": 1792135050639,
+  "recheck_after": 1807687050639,
+  "model": "claude-haiku-5-5"
+}

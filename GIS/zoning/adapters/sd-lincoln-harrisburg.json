@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sd-lincoln-harrisburg",
+  "publisher": "City of Harrisburg (zoning maintained by Stockwell Engineers, Inc.)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Bd8KYgH4umFssn8U/arcgis/rest/services/Harrisburg_Zoning_SEI/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46083"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Harrisburg city zoning as maintained by its engineer Stockwell Engineers, Inc., served from their ArcGIS org. Polygons are parcel-based, each carrying its parcel zoning code; ZoneCommen is empty.",
+  "verification": {
+    "verified_at": 1792135453461,
+    "counties": [
+      "46083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

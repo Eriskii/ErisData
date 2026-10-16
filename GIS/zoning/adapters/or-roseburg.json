@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "or-roseburg",
+  "publisher": "City of Roseburg",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/jFkuwQwKKhg01E9K/arcgis/rest/services/Zoning_ViewLayer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41019"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "City of Roseburg zoning map layer (ArcGIS Online org of the city).",
+  "verification": {
+    "verified_at": 1792135888178,
+    "counties": [
+      "41019"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

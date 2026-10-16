@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-juniata-fayette",
+  "publisher": "Juniata County / Fayette Township (hosted by county GIS consultant)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ue5fMdTkPeHLCobS/arcgis/rest/services/Juniata_Base_Layers/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42067"
+    ]
+  },
+  "fields": {
+    "zone": "Coverage"
+  },
+  "notes": "Fayette Township zoning districts only, from the Juniata_Base_Layers service. Zone code is in the Coverage field.",
+  "verification": {
+    "verified_at": 1792135323385,
+    "counties": [
+      "42067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ia-monroe",
+  "publisher": "Monroe County GIS (copy in ArcGIS Online, item by pfreshwater)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/rPGIngGsuNJl5jbk/arcgis/rest/services/Monroe_Features/FeatureServer/45",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19135"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Districts"
+  },
+  "notes": "Unofficial copy: personal ArcGIS Online item Monroe_Features by pfreshwater, layer Zoning districts (525 polygons, Monroe County IA parcel-based). Zone is a numeric code in Zoning_Districts with no name field; no official county zoning layer found on the county GIS hub or in ArcGIS Online. Layer appears parcel-derived (carries PIN and owner fields).",
+  "verification": {
+    "verified_at": 1792134220566,
+    "counties": [
+      "19135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

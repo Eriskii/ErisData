@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-clarke-berryville",
+  "publisher": "Clarke County GIS (Berryville Zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/1uNEgmtBVWGKSY5Q/arcgis/rest/services/Berryville_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51043"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "CLASS",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "Zoning districts of the Town of Berryville, hosted in the Clarke County GIS organization. Jurisdiction attribute MUNI; CORPORATED field marks incorporated areas. OVERLAY not mapped.",
+  "verification": {
+    "verified_at": 1792135910957,
+    "counties": [
+      "51043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

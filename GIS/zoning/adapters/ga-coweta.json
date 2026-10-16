@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-coweta",
+  "publisher": "Coweta County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13077"
+    ]
+  },
+  "fields": {
+    "zone": "BaseZoning",
+    "zone_name": "ZoningLabel"
+  },
+  "notes": "Coweta County zoning districts layer; BaseZoning holds district code, ZoningLabel the label. Unincorporated county zoning.",
+  "verification": {
+    "verified_at": 1792133876486,
+    "counties": [
+      "13077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "20077",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.harpercountyks.gov/appraiser",
+    "https://harper.integritygis.com",
+    "https://www.cityofatticaks.com/pview.aspx?id=56297&catid=897"
+  ],
+  "note": "Harper County publishes its zoning only as a PDF zoning map (harpercountyks.gov/appraiser) and a document Article 4 ordinance. The county GIS (harper.integritygis.com, an Integrity GIS viewer) exposes no public ArcGIS REST zoning layer that I could reach; the host did not respond to requests. The only Zoning_Districts FeatureServer found (services.arcgis.com/f4rR7WnIfGBdVYFd) is a different jurisdiction: a query at the county's sample point returns zero features. Anthony (county seat) publishes its code as text with no GIS layer; no city zoning service found for Attica, Anthony or Harper.",
+  "recorded_at": 1792134293715,
+  "recheck_after": 1807686293715,
+  "model": "claude-haiku-5-5"
+}

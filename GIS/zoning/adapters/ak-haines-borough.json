@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ak-haines-borough",
+  "publisher": "Haines Borough (via GDITAdmin ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/pMlUMMROURtJLUZt/ArcGIS/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02100"
+    ]
+  },
+  "fields": {
+    "link": "LandUseChart",
+    "zone": "Type",
+    "zone_name": "Type"
+  },
+  "filter": "Type IS NOT NULL AND Type <> 'Lutak Planning District'",
+  "notes": "Haines Borough zoning (townsite, General Use, Mud Bay); published on borough parcel viewer web map. Lutak Planning District polygon and null-type polygon excluded.",
+  "verification": {
+    "verified_at": 1792133780520,
+    "counties": [
+      "02100"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

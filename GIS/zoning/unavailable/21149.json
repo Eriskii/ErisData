@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "21149",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.mcleancounty.ky.gov/planning-and-zoning-commission/page/zoning-maps-0",
+    "https://www.mcleancounty.ky.gov/media/5006",
+    "https://mcleancounty-mcggis.hub.arcgis.com/documents/mclean-county-zoning-map"
+  ],
+  "note": "McLean County KY publishes zoning only as static PDF maps (county McLean, Sacramento, Livermore, Island, Calhoun). The county GIS hub (mcleancounty-mcggis) has only a zoning map document, no zoning district layer. ArcGIS search found no McLean KY zoning FeatureServer/MapServer. The Zoning_Districts FeatureServer under services.arcgis.com/f4rR7WnIfGBdVYFd returns no features at the county point (not McLean). Cities (Livermore, Calhoun, Island, Sacramento) show no queryable GIS zoning either.",
+  "recorded_at": 1792134462213,
+  "recheck_after": 1807686462213,
+  "model": "claude-haiku-5-5"
+}

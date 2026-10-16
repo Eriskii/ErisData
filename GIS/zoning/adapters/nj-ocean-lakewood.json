@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nj-ocean-lakewood",
+  "publisher": "Lakewood Township (LW_Admin hosted zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/FYaUP9MQ6B0FbNAY/arcgis/rest/services/LW_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34029"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_"
+  },
+  "notes": "Lakewood Township only; zone is the district code in ZONE_. Layer has no district name or ordinance link field.",
+  "verification": {
+    "verified_at": 1792135009627,
+    "counties": [
+      "34029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

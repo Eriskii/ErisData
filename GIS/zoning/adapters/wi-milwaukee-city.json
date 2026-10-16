@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-milwaukee-city",
+  "publisher": "City of Milwaukee",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://milwaukeemaps.milwaukee.gov/arcgis/rest/services/planning/zoning/MapServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55079"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningType"
+  },
+  "notes": "City of Milwaukee base zoning only (layer 11 of planning/zoning MapServer); overlays and planned developments are separate layers",
+  "verification": {
+    "verified_at": 1792136065453,
+    "counties": [
+      "55079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

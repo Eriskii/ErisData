@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-collin-mckinney",
+  "publisher": "City of McKinney GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.mckinneytexas.org/mckinney/rest/services/OpenData/Planning_and_Zoning/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48085"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "ZoningType"
+  },
+  "notes": "City of McKinney zoning districts (city limits only; part of McKinney lies in Collin County). Zone holds district code; ZoningType the type description.",
+  "verification": {
+    "verified_at": 1792135660690,
+    "counties": [
+      "48085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

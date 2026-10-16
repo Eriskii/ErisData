@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-winnebago-rockton",
+  "publisher": "City of Rockton (via Rockford Parcel Viewer GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://rockgis.rockfordil.gov/arcgissvr/rest/services/Rockford_Parcel_Viewer/MapServer/150",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17201"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneType",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "Village of Rockton zoning districts; layer data dated 2012-2013.",
+  "verification": {
+    "verified_at": 1792134153393,
+    "counties": [
+      "17201"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

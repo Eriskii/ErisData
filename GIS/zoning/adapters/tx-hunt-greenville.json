@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-hunt-greenville",
+  "publisher": "City of Greenville, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/PbnvqazCuoNZ4rzO/arcgis/rest/services/Zoning_Districts_2026/FeatureServer/25",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48231"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Greenville (county seat, largest city in Hunt County) zoning districts, 2026 layer published by the city on its ArcGIS Online account. Hunt County itself does not zone its unincorporated land beyond Lake Tawakoni area, so no county layer.",
+  "verification": {
+    "verified_at": 1792135858452,
+    "counties": [
+      "48231"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

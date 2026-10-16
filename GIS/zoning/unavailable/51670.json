@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "51670",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.hopewellva.gov/614/Property-Search",
+    "https://www.hopewellva.gov/DocumentCenter/View/4678/June-26-2026---City-of-Hopewell-Launches-New-Online-Property-Search-and-Mapping-Platform-PDF",
+    "https://atlas.civ.quest/hopewell_va"
+  ],
+  "note": "Hopewell's zoning district layer is published only inside the CivQuest Atlas viewer (atlas.civ.quest/hopewell_va, linked from the city's Property Search page). The city GIS page says zoning is in its 75+ layers but offers them on a fee basis; no public ArcGIS REST zoning service for Hopewell was found in ArcGIS Online/Hub searches. CivQuest viewers in other localities draw from parcelviewer.geodecisions.com ArcGIS services, but no Hopewell service endpoint is published and that host did not respond from here, so no zoning layer could be queried or validated.",
+  "recorded_at": 1792136221292,
+  "recheck_after": 1807688221292,
+  "model": "claude-haiku-5-5"
+}

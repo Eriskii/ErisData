@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-sangamon-county",
+  "publisher": "Sangamon County Zoning Office",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sangis.co.sangamon.il.us/server/rest/services/Sangamon_County_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17167"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "Zoning IS NOT NULL",
+  "notes": "Unincorporated Sangamon County zoning only (excludes villages and cities; those are separate). Aggregated by zoning class from parcel zoning; parcels without a zoning code are filtered out. Zoning is a numeric class code (not the ordinance abbreviation); CPUdesc gives a description only for a few records.",
+  "verification": {
+    "verified_at": 1792134128351,
+    "counties": [
+      "17167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

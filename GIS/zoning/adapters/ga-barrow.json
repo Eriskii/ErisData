@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-barrow",
+  "publisher": "Barrow County Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/OVFGXfRTCVcPwl55/arcgis/rest/services/Zoning_Districts_2019_View/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13013"
+    ]
+  },
+  "fields": {
+    "link": "Zone_Description",
+    "zone": "Zone"
+  },
+  "notes": "Barrow County zoning districts view kept current by County Planning; official map updated yearly. Layer holds parcel-level polygons for unincorporated Barrow and the cities (Winder, Auburn, Statham, Braselton, Bethlehem, Carl) in the Zone field; some zone codes are city names; Zone_Description mostly holds the Municode ordinance link. No zone_name mapped.",
+  "verification": {
+    "verified_at": 1792133876233,
+    "counties": [
+      "13013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ny-westchester",
+  "publisher": "Westchester County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XKEHpOulfycN9cGC/arcgis/rest/services/Zoning_ecode/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36119"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUN",
+    "link": "WEBLINK",
+    "zone": "ZONING",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Composite of zoning districts for all 43 municipalities in Westchester County (hosted by county GIS, aeh2_wcgis); links go to eCode360 ordinance text.",
+  "verification": {
+    "verified_at": 1792135040867,
+    "counties": [
+      "36119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

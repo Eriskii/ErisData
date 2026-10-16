@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-trumbull-niles",
+  "publisher": "City of Niles, Ohio (GIS, via BasemapFeatureService_PublicView)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/LKVg1cdjyJ1xKLIY/arcgis/rest/services/BasemapFeatureService_PublicView/FeatureServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39155"
+    ]
+  },
+  "fields": {
+    "link": "URL_Link",
+    "zone": "Zoning_Cod",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Niles zoning districts only (not county unincorporated land or other cities). Layer is part of the city.s public basemap feature service; zone codes like RA, B1; link to Niles municipal code.",
+  "verification": {
+    "verified_at": 1792135216762,
+    "counties": [
+      "39155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

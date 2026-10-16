@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-channahon",
+  "publisher": "Village of Channahon",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/b55bc9445c034b878ac75ad4e36c7dfc/rest/services/Channahon_Community_Development/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "17063"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Village of Channahon zoning districts (ArcGIS Online proxy service).",
+  "verification": {
+    "verified_at": 1792134151792,
+    "counties": [
+      "17063"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

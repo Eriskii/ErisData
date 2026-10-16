@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wv-ohio-wheeling",
+  "publisher": "City of Wheeling GIS (zoning2021 layer, Wheeling web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/zmCEY1dhncXWv1Yr/arcgis/rest/services/zoning2021/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54069"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Wheeling base zoning districts only (2021); county unincorporated land and other towns not covered. Layer has no name or ordinance link fields.",
+  "verification": {
+    "verified_at": 1792136070316,
+    "counties": [
+      "54069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

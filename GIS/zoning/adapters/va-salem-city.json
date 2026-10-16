@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-salem-city",
+  "publisher": "City of Salem, Virginia GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/RL8aZgZHmJOdyNXk/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "51775"
+    ]
+  },
+  "fields": {
+    "link": "MunicCodeLink",
+    "zone": "ZONING",
+    "zone_name": "DistrictName"
+  },
+  "notes": "City of Salem zoning districts (24 features in layer), official city layer. Some district polygons may be self-intersecting in the source.",
+  "verification": {
+    "verified_at": 1792135990234,
+    "counties": [
+      "51775"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

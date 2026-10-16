@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "in-bartholomew-hartsville",
+  "publisher": "Bartholomew County GIS (Elevate eGIS), City of Hartsville zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://elb.elevatemaps.io/arcgis/rest/services/eGISDynamicServices/BartholomewINDynamic/MapServer/71",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18005"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "name"
+  },
+  "notes": "Hartsville town zoning districts from the Bartholomew County eGIS; zone_name holds the layer Name attribute",
+  "verification": {
+    "verified_at": 1792134099823,
+    "counties": [
+      "18005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

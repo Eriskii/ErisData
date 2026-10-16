@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-sierra",
+  "publisher": "Governor's Office of Planning and Research (statewide zoning compilation)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_South/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06091"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'SIE'",
+  "notes": "Statewide zoning compilation (OPR, 2024 version); county code SIE. Covers Loyalton city zoning; unincorporated county zoning may be absent from this layer.",
+  "verification": {
+    "verified_at": 1792134192824,
+    "counties": [
+      "06091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

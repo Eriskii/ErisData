@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-moultrie",
+  "publisher": "Moultrie County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.colesco.illinois.gov/arcgis/rest/services/Moultrie/MoultrieBaseLayers/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17139"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CLASS"
+  },
+  "notes": "County GIS base layers service (hosted by Coles County GIS for Moultrie County). Zoning layer is polygons carrying Assessment PIN per parcel; a parcel-level zoning layer, not a district dissolve. Notes field free text.",
+  "verification": {
+    "verified_at": 1792134056828,
+    "counties": [
+      "17139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

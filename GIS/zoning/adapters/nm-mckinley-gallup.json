@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nm-mckinley-gallup",
+  "publisher": "City of Gallup GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/hdYa3Y1uJyFc7VUo/arcgis/rest/services/The_City_of_Gallup_Zoning/FeatureServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35031"
+    ]
+  },
+  "fields": {
+    "link": "ZONE_LINK",
+    "zone": "ZONE_TYPE",
+    "zone_name": "OLD_Z_TYPE"
+  },
+  "notes": "City of Gallup zoning only (incorporated city); McKinley County has no county-wide zoning ordinance. Layer hosted in the city GIS ArcGIS Online org.",
+  "verification": {
+    "verified_at": 1792134986960,
+    "counties": [
+      "35031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

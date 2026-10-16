@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-davison",
+  "publisher": "Davison County GIS (District III)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/DAVISON_COUNTY_WEB_LAYERS1/MapServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46035"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "LOCATION",
+    "zone": "ZONING"
+  },
+  "notes": "Davison County web viewer zoning layer (county unincorporated plus city zoning). ZONING holds district code (e.g. AG) or description; CODE is empty. LOCATION names jurisdiction (DAVISON COUNTY or city name).",
+  "verification": {
+    "verified_at": 1792135402902,
+    "counties": [
+      "46035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

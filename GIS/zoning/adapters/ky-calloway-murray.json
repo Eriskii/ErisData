@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ky-calloway-murray",
+  "publisher": "City of Murray, Kentucky GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/sVkxJW6wzVZwjTeo/arcgis/rest/services/LandUsePlanning_Zoning_gdb_view_PUBLIC/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "21035"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Murray zoning districts (layer Zones, 17 polygons) from the city GIS Data Viewer. Covers City of Murray only; no county-wide zoning layer found for Calloway County. Zone holds district code (AG, B-1, B-2...). No description field published.",
+  "verification": {
+    "verified_at": 1792134408455,
+    "counties": [
+      "21035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

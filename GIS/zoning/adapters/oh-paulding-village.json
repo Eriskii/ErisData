@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-paulding-village",
+  "publisher": "Village of Paulding, via Paulding County Auditor (ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kiHlZpY4RugxH2pF/arcgis/rest/services/Paulding_Village_Zoning/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39125"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Code",
+    "zone_name": "Zoning_Description"
+  },
+  "notes": "Zoning districts of the Village of Paulding (county seat), as of 3/13/2024, published by the Paulding County Auditor. Covers the village only; the county layer oh-paulding covers the rest.",
+  "verification": {
+    "verified_at": 1792135210901,
+    "counties": [
+      "39125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

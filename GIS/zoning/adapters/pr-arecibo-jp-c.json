@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-arecibo-jp-c",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/MapServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "municipio = 'Arecibo' AND barrio NOT IN ('Arenalejos','Arrozal','Barrio Pueblo','Cambalache','Caniaco','Carreras','Carrizales','Dominguito','Domingo Ruíz','Esperanza','Factor','Florida Adentro','Garrochales','Hato Abajo','Hato Arriba','Hato Viejo')",
+  "notes": "JP statewide calificacion layer (cali_vige) filtered to municipio Arecibo, part C of 3 (remaining barrios: Islote, Miraflores, Río Arriba, Sabana Hoyos, Santana, Tanamá, blank), split by barrio because the full municipio (~44k parcel-level features) is too slow to read in one pass. zone = cali, zone_name = descrip.",
+  "verification": {
+    "verified_at": 1792139691347,
+    "counties": [
+      "72013"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

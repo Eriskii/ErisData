@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "48345",
+  "reason": "none-exists",
+  "evidence": [
+    "https://texascountygisdata.com/product/motley-county-shapefile-and-property-data/",
+    "https://services5.arcgis.com/FmxVFcLfGZgh8t6m/arcgis/rest/services/Motley_County_Web_Map_WFL1/FeatureServer",
+    "https://matadortx.gov/department-directory/",
+    "https://www.dallascounty.org/departments/plandev/zoning.php"
+  ],
+  "note": "Motley County has no zoning districts layer. Its only ArcGIS service (Motley_County_Web_Map) holds polling places, addresses, county outline and precincts, no zoning. Texas counties do not zone; only cities do. The seat, Matador, lists a Planning & Zoning department but publishes no zoning map, ordinance or GIS service, and no other Motley city was found with zoning data.",
+  "recorded_at": 1792135732889,
+  "recheck_after": 1807687732889,
+  "model": "claude-haiku-5-5"
+}

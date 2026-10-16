@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-madison-county",
+  "publisher": "Madison County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/NwIC4HArqo0JlKGT/arcgis/rest/services/CtyZoningWO_MH_Marsh/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37115"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Madison County unincorporated zoning (layer excludes Mars Hill and Marshall). Built from parcel-level zoning polygons: many features per district; Zoning holds district code (e.g. R-2, R-A). No zone name or ordinance link fields.",
+  "verification": {
+    "verified_at": 1792135104860,
+    "counties": [
+      "37115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

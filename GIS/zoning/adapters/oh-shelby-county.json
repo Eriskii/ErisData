@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-shelby-county",
+  "publisher": "Shelby County Auditor / Shelby County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://cama.shelbycountyauditors.com/arcgis/rest/services/SCEO_Basemaps/Shelby_Zoning/MapServer/0",
+    "page_size": 12,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "39149"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "Shelby County Zoning layer, 452 polygons; county-hosted.",
+  "verification": {
+    "verified_at": 1792135206070,
+    "counties": [
+      "39149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

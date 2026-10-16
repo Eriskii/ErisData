@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nv-churchill",
+  "publisher": "Churchill County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/uPb1UC2HwTkBAlth/arcgis/rest/services/Churchill_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32001"
+    ]
+  },
+  "fields": {
+    "zone": "Name"
+  },
+  "filter": "Name <> 'City of Fallon'",
+  "notes": "Churchill County unincorporated zoning districts (A-10, A-5, RR-20, C-1, I-1 etc.). Zone code in Name. Feature with Name City of Fallon is a city placeholder and is excluded. City of Fallon zoning is not in this layer.",
+  "verification": {
+    "verified_at": 1792134938552,
+    "counties": [
+      "32001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

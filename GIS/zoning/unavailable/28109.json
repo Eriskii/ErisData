@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "28109",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.poplarvillems.gov/city-hall/page/zoning-and-ordinance",
+    "https://picayune.ms.us/1194/Maps",
+    "https://data-prcgis.hub.arcgis.com/",
+    "https://maps.pearlrivercounty.net/arcgis/rest/services"
+  ],
+  "note": "Pearl River County GIS publishes no zoning district layer: its ArcGIS services (maps.pearlrivercounty.net, Hub, MGO_Public, Public_Services_2021, Appraisal Live Maps) hold flood, boundary, address and parcel layers but no zoning. Poplarville and Picayune publish zoning only as PDF maps (Poplarville Zoning Map PDF, Picayune Maps page PDFs) and ordinance text on Municode, with no queryable polygon service. The only zoning_districts FeatureServer found (services.arcgis.com/lQySeXwbBg53XWDi) has 0 features in the county bounding box, so it is not Pearl River's. Third-party sites (zoneomics, rezone.io, Regrid) are not official.",
+  "recorded_at": 1792134656474,
+  "recheck_after": 1807686656474,
+  "model": "claude-haiku-5-5"
+}

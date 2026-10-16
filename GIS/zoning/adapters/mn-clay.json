@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-clay",
+  "publisher": "Clay County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/mS1vc6dGT4od9xCB/arcgis/rest/services/Zoning_Districts_WFL1_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27027"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTI",
+    "zone": "ZONE",
+    "zone_name": "NAME"
+  },
+  "filter": "ZONE <> 'MUNICIPALITY' AND ZONE <> 'SHORELAND: SPECIAL PROTECTION RIVER & STREAM'",
+  "notes": "Clay County AGOL org view of CLAY_LINK Zoning Districts (unincorporated; mostly shoreland and highway/service-center districts). Excludes MUNICIPALITY placeholders and the river/stream special protection polygons whose geometry is invalid.",
+  "verification": {
+    "verified_at": 1792135058466,
+    "counties": [
+      "27027"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wa-mason-allyn",
+  "publisher": "Mason County GIS (MasonGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/jJDDJN0XbP5tQU8H/arcgis/rest/services/Public_Map_Viewer/FeatureServer/30",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53045"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCRIP"
+  },
+  "filter": "ZONING <> ' '",
+  "notes": "Allyn urban growth area zoning from MasonGIS Public Map Viewer; covers the Allyn UGA only. Polygons with no zone code are excluded.",
+  "verification": {
+    "verified_at": 1792136030962,
+    "counties": [
+      "53045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

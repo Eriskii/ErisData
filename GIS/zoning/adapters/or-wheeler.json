@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-wheeler",
+  "publisher": "Oregon DLCD (statewide zoning compilation, Wheeler County records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41069"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Wheeler County'",
+  "notes": "Oregon DLCD statewide zoning compilation hosted by OR_FRAMEWORK; ownerName Wheeler County marks county-jurisdiction records; city records carry localZCode/localZDesc and are not used.",
+  "verification": {
+    "verified_at": 1792135283331,
+    "counties": [
+      "41069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

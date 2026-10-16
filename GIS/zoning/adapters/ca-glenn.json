@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-glenn",
+  "publisher": "Glenn County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/GUHJKBhKMcD5JjTe/arcgis/rest/services/Zoning_Finder/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06021"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Zoning"
+  },
+  "notes": "Parcel-level layer published by Glenn County GIS (county ArcGIS org) with zoning code per parcel (Zoning) and jurisdiction name; no separate district polygon layer found. Parcels, not dissolved districts. Zone name not provided.",
+  "verification": {
+    "verified_at": 1792134011560,
+    "counties": [
+      "06021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

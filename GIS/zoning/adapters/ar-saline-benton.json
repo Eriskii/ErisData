@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ar-saline-benton",
+  "publisher": "City of Benton, Arkansas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/wyoDVuo3QgawYe6R/arcgis/rest/services/Benton_Zoning_2026/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05125"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Cod",
+    "zone_name": "New_Zoning"
+  },
+  "notes": "City of Benton zoning districts only, not county-wide; from the layer behind the city interactive Zoning Map (Benton Zoning 2026 web map). Other Saline County jurisdictions are not covered.",
+  "verification": {
+    "verified_at": 1792133808858,
+    "counties": [
+      "05125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

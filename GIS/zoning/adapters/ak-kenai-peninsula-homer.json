@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ak-kenai-peninsula-homer",
+  "publisher": "City of Homer",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/ba4DH9pIcqkXJVfl/arcgis/rest/services/City_of_Homer_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02122"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Homer zoning districts, hosted on the Kenai Peninsula Borough ArcGIS organization. Covers the City of Homer only.",
+  "verification": {
+    "verified_at": 1792133734248,
+    "counties": [
+      "02122"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-monroe",
+  "publisher": "Monroe County GIS (Zoning as of February 2026, hosted by bhausmann_MonroeCountyIL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/AZVIEb4WFZST2UYx/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "17133"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Copy hosted by a Monroe County IL ArcGIS Online account (bhausmann); not confirmed as the county organization. Single zoning field; 357 polygons.",
+  "verification": {
+    "verified_at": 1792134038743,
+    "counties": [
+      "17133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

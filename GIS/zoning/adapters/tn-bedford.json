@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-bedford",
+  "publisher": "Bedford County Planning & Zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/stdeQLycoro1cFrh/arcgis/rest/services/Zoning_Data_view/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Bedford County Zoning Machine (bedfordtn.maps.arcgis.com) Zoning layer, ZoningDistrictRevisions. Zone = ZONING CLASS code. NOTES holds free-text rezoning notes, not ordinance links.",
+  "verification": {
+    "verified_at": 1792135536165,
+    "counties": [
+      "47003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

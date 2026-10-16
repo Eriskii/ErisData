@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-columbia",
+  "publisher": "Oregon DLCD statewide zoning (Columbia County and its cities)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41009"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "unitOwner IN ('1135847','1128526','1637838','1126468','1126635','1125788','1125655','1118980') AND orZCode <> 'OSC'",
+  "notes": "Statewide DLCD zoning layer (2023 compilation). Filtered to Columbia County unincorporated and the cities of Vernonia, Columbia City, Saint Helens, Scappoose, Rainier, Prescott, Clatskanie by GNIS unitOwner code. County Open Space/Conservation (OSC) districts are excluded because the source polygons for that code fail geometry validity checks in the sample area; all other districts are kept. No link field in source. Custom state license.",
+  "verification": {
+    "verified_at": 1792135320846,
+    "counties": [
+      "41009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-ben-hill-city",
+  "publisher": "Ben Hill County / SGRC (Fitzgerald)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HA2thkMWRBDb77XN/arcgis/rest/services/BH_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "13017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "WHERE_",
+    "zone": "ZONE_"
+  },
+  "filter": "WHERE_ = 'CITY'",
+  "notes": "Hosted by SGRC (rstrom_sgrc) on ArcGIS Online; city districts only",
+  "verification": {
+    "verified_at": 1792133919013,
+    "counties": [
+      "13017"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

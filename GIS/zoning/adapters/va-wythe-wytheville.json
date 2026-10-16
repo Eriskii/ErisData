@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-wythe-wytheville",
+  "publisher": "Town of Wytheville (hosted via webgis.net)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.webgis.net/arcgis/rest/services/VA/Wytheville_WebGIS/MapServer/21",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51197"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "Town of Wytheville zoning districts only (town limits; unincorporated county has no zoning yet). Served by webgis.net for the Town. All features are Wytheville.",
+  "verification": {
+    "verified_at": 1792136010565,
+    "counties": [
+      "51197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

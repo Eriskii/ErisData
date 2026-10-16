@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-centre",
+  "publisher": "Centre County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gissites4.centrecountypa.gov/arcgis/rest/services/OpenData/MapServer/21",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42027"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "link": "Link",
+    "zone": "Code",
+    "zone_name": "Zoning"
+  },
+  "notes": "County GIS OpenData layer, combined county zoning; 384 features; Category field also present. Layer named UnofficialCountyZoning by county host.",
+  "verification": {
+    "verified_at": 1792135436235,
+    "counties": [
+      "42027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

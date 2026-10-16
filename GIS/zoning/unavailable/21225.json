@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21225",
+  "reason": "login-required",
+  "evidence": [
+    "https://services1.arcgis.com/vnQrVInZWMvGWBbA/arcgis/rest/services/Morganfield_Zoning_Map_WFL1/FeatureServer",
+    "https://services1.arcgis.com/k2n3aN0z854TRTGp/arcgis/rest/services/Sturgis_Zoning_Map_WFL1/FeatureServer",
+    "https://services1.arcgis.com/k2n3aN0z854TRTGp/arcgis/rest/services/Morganfield_Zoning_Map_WFL1/FeatureServer",
+    "https://www.unioncountyky.org/local-government/planning-commission/zoning"
+  ],
+  "note": "Union County KY has no county-wide zoning layer found. Zoning for Morganfield, Sturgis and Waverly is handled by the joint Union County Planning Commission. The only zoning district services found (Morganfield and Sturgis Zoning Map_WFL1 on ArcGIS Online, by SusieRobertson and sheffsp) return 'Token Required' for every layer, so they are not queryable anonymously. The county's own zoning page and GIS page return HTTP 403. No open zoning REST service was found for the county or its cities.",
+  "recorded_at": 1792134426728,
+  "recheck_after": 1807686426728,
+  "model": "claude-haiku-5-5"
+}

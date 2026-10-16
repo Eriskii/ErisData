@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-fayette",
+  "publisher": "Lexington-Fayette Urban County Government",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Mg7DLdfYcSWIaDnu/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21067"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "ZONING"
+  },
+  "notes": "LFUCG zoning layer, consolidated urban county government covering all of Fayette County. Layer has no zone-name field.",
+  "verification": {
+    "verified_at": 1792134313757,
+    "counties": [
+      "21067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

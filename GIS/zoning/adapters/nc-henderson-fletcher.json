@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-henderson-fletcher",
+  "publisher": "Town of Fletcher (via Henderson County GISWeb)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.hendersoncountync.gov/arcgis/rest/services/GISWeb/Primary_GISWeb_Layers/MapServer/80",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37089"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Fletcher zoning districts, hosted on Henderson County GISWeb. Zoning holds the district code only.",
+  "verification": {
+    "verified_at": 1792135097122,
+    "counties": [
+      "37089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ok-mcintosh-eufaula",
+  "publisher": "City of Eufaula GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/GcyFnE7rOCb4sVFc/arcgis/rest/services/Eufaula%20City%20Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40091"
+    ]
+  },
+  "fields": {
+    "zone": "LAYER"
+  },
+  "notes": "City of Eufaula zoning only (not county-wide; unincorporated county and other towns not covered); from the City of Eufaula GIS web map. Zone code in LAYER (e.g. Agriculture, Residential R-1). Supp_Notes is blank.",
+  "verification": {
+    "verified_at": 1792135272367,
+    "counties": [
+      "40091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

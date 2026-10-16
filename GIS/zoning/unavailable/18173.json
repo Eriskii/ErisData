@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "18173",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://warrickin.wthgis.com/",
+    "https://energyzoning.org/sites/default/files/PDF/18173_Warrick_20220915.pdf",
+    "https://www.newburgh-in.gov/government/departments/planning_department/zoning_page.php",
+    "https://www.lolaapp.com/warrick-county-gis/"
+  ],
+  "note": "Warrick County zoning is shown only in the WTH-hosted county GIS viewer (warrickin.wthgis.com, a Zoning layer checkbox). Probed /arcgis/rest/services and /server/rest/services on that host: both 404; no public REST endpoint for zoning districts was found in the viewer, its pages, or ArcGIS Hub/Online searches. The county zoning ordinance (PDF) says official district maps are kept by the Area Plan Commission. Newburgh publishes its zoning map as a PDF only; Boonville and Chandler publish ordinances and maps as PDF/code pages. No queryable zoning polygon service found.",
+  "recorded_at": 1792134224243,
+  "recheck_after": 1807686224243,
+  "model": "claude-haiku-5-5"
+}

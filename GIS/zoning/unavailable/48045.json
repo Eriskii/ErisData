@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48045",
+  "reason": "none-exists",
+  "evidence": [
+    "https://texascountygisdata.com/product/briscoe-county-shapefile-and-property-data/",
+    "https://texaspropertyrecords.us/briscoe-county",
+    "https://www.zoningatlas.org/texas"
+  ],
+  "note": "Briscoe County TX does not appear to zone its unincorporated land; its only incorporated cities, Silverton and Quitaque, publish no zoning district layer. ArcGIS search for zoning in Briscoe County and Silverton returned nothing. The county's GIS data list (city limits, parcels, ownership, streets) has no zoning layer. Regrid has zoning only as third-party parcel attributes, not an official layer.",
+  "recorded_at": 1792135588568,
+  "recheck_after": 1807687588568,
+  "model": "claude-haiku-5-5"
+}

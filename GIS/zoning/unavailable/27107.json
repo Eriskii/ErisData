@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "27107",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://cms8.revize.com/revize/normancounty/Documents%20Center/Department/Environmental%20Services/Planning%20&%20Zoning/Norman_County_Ordinance.pdf",
+    "https://www.adamn.gov/p/getconnected/ordinances",
+    "http://gismap.co.norman.mn.us/arcgis/rest/services/Norman"
+  ],
+  "note": "Norman County (MN) publishes its zoning only as a PDF ordinance with a separate Zoning District Map. Its public ArcGIS server (gismap.co.norman.mn.us, folder Norman: LandRecords, PublicDataLayers, Norman_Internal_LINK, ConnectExplorer) has parcels, municipalities and environmental layers but no zoning districts. The City of Ada, the largest city, publishes its zoning map only as a static PDF (Zoning_Map.pdf). No queryable zoning polygon service was found for Norman County or Ada, Halstad or Twin Valley. The only zoning-attributed parcel data is Regrid's commercial standardized zoning (17% populated), not an official service.",
+  "recorded_at": 1792134620391,
+  "recheck_after": 1807686620391,
+  "model": "claude-haiku-5-5"
+}

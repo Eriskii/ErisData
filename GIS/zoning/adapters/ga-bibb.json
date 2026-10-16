@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-bibb",
+  "publisher": "Macon-Bibb County Planning & Zoning (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/zPFLSOZ5HzUzzTQb/arcgis/rest/services/WebZoning_2025_WFL1/FeatureServer/25",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Macon-Bibb consolidated government; layer covers city and unincorporated county zoning. Base zoning districts from the county WebZoning_2025_WFL1 service. ZONEURL is empty in the source, so no link is mapped.",
+  "verification": {
+    "verified_at": 1792133901093,
+    "counties": [
+      "13021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

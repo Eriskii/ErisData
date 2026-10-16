@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wa-yakima-county",
+  "publisher": "Yakima County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/9Qz94N8Zml9hnG84/arcgis/rest/services/CountyZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53077"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICT",
+    "zone": "ZONE",
+    "zone_name": "Descriptio"
+  },
+  "filter": "JURISDICT <> 'UAZO' AND ZONE <> 'LIM'",
+  "notes": "Yakima County zoning layer from the county open GIS portal; JURISDICT names County (unincorporated) or a city. UAZO urban-area rows excluded (City of Yakima urban zoning is covered by wa-yakima-city-urban); LIM rows excluded because their polygons are often invalid. Blank zone values are not districts.",
+  "verification": {
+    "verified_at": 1792136006883,
+    "counties": [
+      "53077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

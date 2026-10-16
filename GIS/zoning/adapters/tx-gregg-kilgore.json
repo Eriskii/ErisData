@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-gregg-kilgore",
+  "publisher": "City of Kilgore GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cloud.cityofkilgore.com/arcgis/rest/services/WebMaps/OpenData1_00/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48183"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "District"
+  },
+  "notes": "City of Kilgore zoning only (city limits; not unincorporated Gregg County). Layer 15 Zoning of the city OpenData1_00 map service.",
+  "verification": {
+    "verified_at": 1792135716914,
+    "counties": [
+      "48183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

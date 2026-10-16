@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-lincoln-county",
+  "publisher": "Lincoln County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lincolncountysd.gov/arcgis/rest/services/Pro29/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46083"
+    ]
+  },
+  "fields": {
+    "zone": "Map2009",
+    "zone_name": "Dscrptn"
+  },
+  "notes": "Unincorporated county zoning from the county GIS Pro29/Zoning service; Map2009 is the current zone code. Cities zone their own land.",
+  "verification": {
+    "verified_at": 1792135443086,
+    "counties": [
+      "46083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

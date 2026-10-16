@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-gaston-belmont",
+  "publisher": "Gaston County GIS (City of Belmont zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gastoncountync.gov/publicgis/rest/services/PublicGIS/Zoning/MapServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "TYPE",
+    "zone_name": "NAME"
+  },
+  "notes": "City of Belmont city and ETJ zoning districts (JURISDICTION names the city), served by the Gaston County PublicGIS zoning service",
+  "verification": {
+    "verified_at": 1792135080157,
+    "counties": [
+      "37071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

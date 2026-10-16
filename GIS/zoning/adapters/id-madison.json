@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "id-madison",
+  "publisher": "Madison County GIS (MRGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://madison.rexburg.org/mrgis/rest/services/Data/ZoningDistricts/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16065"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "link": "ZONEDEFURL",
+    "zone": "ZONINGCODE"
+  },
+  "notes": "Single layer of zoning districts for unincorporated Madison County plus cities of Rexburg and Sugar City; JURISDICTION is an integer code, ZONINGCODE an integer code (descriptions in a related table not exposed in this layer). Source: MRGIS / Madison County Zoning Districts service.",
+  "verification": {
+    "verified_at": 1792133643466,
+    "counties": [
+      "16065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

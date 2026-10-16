@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-chattooga-parcels-zoning",
+  "publisher": "City of Summerville GIS (svillegis ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/eXIsbyIncFwEzqul/arcgis/rest/services/parcels_zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13055"
+    ]
+  },
+  "fields": {
+    "zone": "zoningcode"
+  },
+  "filter": "zoningcode IS NOT NULL",
+  "notes": "Parcel layer, not a district layer: each parcel carries its zoning code in zoningcode, filled for only about 2,165 of 14,451 parcels; filter keeps only coded parcels. Zone name not provided by source.",
+  "verification": {
+    "verified_at": 1792133976709,
+    "counties": [
+      "13055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

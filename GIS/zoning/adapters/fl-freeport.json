@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-freeport",
+  "publisher": "City of Freeport via Walton County GIS (WeeklyUpdatesFreeport)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/TaXHPwWfIMuzJ7Ov/arcgis/rest/services/WeeklyUpdatesFreeport/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12131"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Freeport zoning districts from the Freeport EnerGov service, hosted by Walton County GIS. Zoning is a numeric district code with no name published (Description is blank). Covers Freeport city only.",
+  "verification": {
+    "verified_at": 1792133886864,
+    "counties": [
+      "12131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

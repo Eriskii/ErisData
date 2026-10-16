@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ks-riley",
+  "publisher": "Riley County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rileycountyks.gov/arcgis/rest/services/GISWebV6/ZoningCounty/MapServer/131",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20161"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Agency",
+    "zone": "ZoneClass",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "Riley County Community GIS zoning districts layer (1,870 features). Agency distinguishes Riley County from the City of Riley (value Riley). Special zone overlays in SpecZone; not separated. Link field is empty in source.",
+  "verification": {
+    "verified_at": 1792134267772,
+    "counties": [
+      "20161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

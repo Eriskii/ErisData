@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "56031",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://maps.terragis.net/platte/",
+    "https://www.plattecountywyoming.com/departments/Assessor/gis-information",
+    "https://www.arcgis.com/home/item.html?id=7791d50809a24a118463a81552c06a9b",
+    "https://townofwheatlandwy.org/departments/planning-zoning/"
+  ],
+  "note": "Platte County WY publishes zoning only inside its TerraGIS web viewer (maps.terragis.net/platte, 'Download GIS files' with no public link found). The county's ArcGIS item points to WyGISC PathfinderSupport MapServer, which has only a Wyo_Boundary layer, no zoning. No queryable county zoning service found. Town of Wheatland publishes its zoning only as a JPG map image. No ArcGIS REST zoning layer found for Glendo, Guernsey, Chugwater or Hartville.",
+  "recorded_at": 1792136257070,
+  "recheck_after": 1807688257070,
+  "model": "claude-haiku-5-5"
+}

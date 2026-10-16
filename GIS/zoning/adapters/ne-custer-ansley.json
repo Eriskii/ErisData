@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-custer-ansley",
+  "publisher": "City of Ansley (via Custer County GIS host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Custer_County_NE_PZ/MapServer/30",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31041"
+    ]
+  },
+  "fields": {
+    "zone": "Label",
+    "zone_name": "LAYER"
+  },
+  "notes": "City of Ansley zoning from the Custer County PZ service; 7 features",
+  "verification": {
+    "verified_at": 1792134936842,
+    "counties": [
+      "31041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

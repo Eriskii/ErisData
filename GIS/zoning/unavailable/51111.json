@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "51111",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.lunenburgva.gov/government/commissioner_of_the_revenue/gis_mapping.php",
+    "https://lunenburgva.gov/government/planning_commission/index.php",
+    "https://cms5.revize.com/revize/lunenburg/LKV%20Comp%20Plan%202019-2024.pdf",
+    "https://lunenburg.southsidegis.org/",
+    "https://services.arcgis.com/4fG3YBzBoefRGq66/arcgis/rest/services/Lunenburg_MapInsights_Prod/FeatureServer/10"
+  ],
+  "note": "Lunenburg County has a zoning ordinance (Municode) but publishes no queryable zoning district layer. The county's GIS (lunenburg.southsidegis.org, the county's ArcGIS Online MapInsights service) has no zoning layer; its Tax Parcels layer has a Zoning field but it is blank for all parcels. The 2019-2024 joint comprehensive plan has only a generalized zoning map (PDF) and the county planned an official zoning map but none is published as GIS. Towns of Kenbridge and Victoria publish no zoning GIS either; Victoria refers building permits to the county. ArcGIS Online searches for Lunenburg zoning found only parcel, address and survey layers.",
+  "recorded_at": 1792135966241,
+  "recheck_after": 1807687966241,
+  "model": "claude-haiku-5-5"
+}

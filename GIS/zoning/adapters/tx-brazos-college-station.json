@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-brazos-college-station",
+  "publisher": "City of College Station GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cstx.gov/csgis/rest/services/_OpenData/OpenData_PDS/MapServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48041"
+    ]
+  },
+  "fields": {
+    "link": "UDO_Link",
+    "zone": "Zoning_Type",
+    "zone_name": "Description"
+  },
+  "notes": "City of College Station official zoning layer; covers city limits only (Brazos County does not zone unincorporated land). zone is the district code (Zoning_Type), zone_name the district name (Description).",
+  "verification": {
+    "verified_at": 1792135585770,
+    "counties": [
+      "48041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

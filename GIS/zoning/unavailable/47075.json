@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "47075",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://haywoodtn.gov/wp-content/uploads/2023/09/Haywood_Zoning_1_2023_w_inserts.pdf",
+    "https://haywoodtn.gov/wp-content/uploads/2024/07/Haywood-County-Zoning-Resolution-July-2024.pdf",
+    "https://haywoodtn.gov/government/development/"
+  ],
+  "note": "Haywood County publishes its official zoning map only as a static PDF (2023, with inserts); the zoning resolution adopts that map by reference. No ArcGIS REST or other queryable zoning district layer was found for the county, nor for the cities of Brownsville or Stanton. The county's ArcGIS parcel layer (HNTB TN_County_Parcel_Map, Haywood_Parcels) carries no zoning field. Regrid has zoning codes but is a commercial aggregator, not an official source.",
+  "recorded_at": 1792135529197,
+  "recheck_after": 1807687529197,
+  "model": "claude-haiku-5-5"
+}

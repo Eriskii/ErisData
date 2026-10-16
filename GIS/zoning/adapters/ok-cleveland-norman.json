@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ok-cleveland-norman",
+  "publisher": "City of Norman GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.normanok.gov/arcgis/rest/services/Zoning2018/MapServer/35",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONECODE"
+  },
+  "notes": "City of Norman base zoning only (city limits, part of Cleveland County). Overlay districts are in separate sublayers, not included. zone_name duplicates the district code because no description field exists.",
+  "verification": {
+    "verified_at": 1792135215576,
+    "counties": [
+      "40027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

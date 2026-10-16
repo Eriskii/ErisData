@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-council-bluffs",
+  "publisher": "City of Council Bluffs GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gispublic.councilbluffs-ia.gov/publicserver/rest/services/CommDev_Public/cbZoningDistricts_Public/FeatureServer/0",
+    "page_size": 10,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19155"
+    ]
+  },
+  "fields": {
+    "link": "MunicodeLink",
+    "zone": "Zoning",
+    "zone_name": "Description"
+  },
+  "notes": "City of Council Bluffs zoning districts (city limits, within Pottawattamie County). The county layer covers unincorporated land.",
+  "verification": {
+    "verified_at": 1792134201524,
+    "counties": [
+      "19155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

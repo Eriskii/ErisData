@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "or-gilliam",
+  "publisher": "Gilliam County, Oregon (hosted via Gilliam County Map viewer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/e3KSI9Py4B7m3xu6/arcgis/rest/services/Gilliam01_TL/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41021"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Area_Name",
+    "zone": "Zone",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Gilliam County Zoning layer (105 polygons) from the county map service; Area_Name names the city (Condon, Lonerock, Mayville, etc.) or county area. Source attribute shows the older zone map used. Statewide DLCD layer marks Gilliam and its cities as not public, so this county layer is used.",
+  "verification": {
+    "verified_at": 1792135295755,
+    "counties": [
+      "41021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

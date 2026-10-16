@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-sonoma-county",
+  "publisher": "Sonoma County Permit Sonoma (PRMD GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/P5Mv5GY5S66M8Z1Q/arcgis/rest/services/Zoning_Area/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06097"
+    ]
+  },
+  "fields": {
+    "zone": "BASEZONING",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "Base zoning for unincorporated Sonoma County only; incorporated cities zone their own land and are not included. DENSITY field also available.",
+  "verification": {
+    "verified_at": 1792134037104,
+    "counties": [
+      "06097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

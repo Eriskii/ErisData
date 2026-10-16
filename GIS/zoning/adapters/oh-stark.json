@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "oh-stark",
+  "publisher": "Stark County Regional Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgisa.starkcountyohio.gov/arcgis/rest/services/RegionalPlanningCommission/StarkCountyGeneralizedZoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39151"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CVT",
+    "link": "Link",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDescription"
+  },
+  "notes": "Countywide generalized zoning for cities, villages and townships compiled by SCRPC from community data; CVT is the community name",
+  "verification": {
+    "verified_at": 1792135183745,
+    "counties": [
+      "39151"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

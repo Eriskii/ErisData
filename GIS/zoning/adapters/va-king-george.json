@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-king-george",
+  "publisher": "King George County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/S8zMJrpz61FbvL5t/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51099"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "County GIS zoning layer (230 polygons); only a zone code field is published, no name or ordinance link.",
+  "verification": {
+    "verified_at": 1792135924647,
+    "counties": [
+      "51099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

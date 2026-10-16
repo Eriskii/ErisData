@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nd-mountrail",
+  "publisher": "Mountrail County GIS (Sidwell)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/Zoning_Mountrail/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38061"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "Zoning IS NOT NULL AND Zoning <> '' AND Shape__Area < 1000000",
+  "notes": "Mountrail County zoning polygons (Sidwell-hosted); blank-zoning and very large polygons (invalid geometry) excluded",
+  "verification": {
+    "verified_at": 1792135254132,
+    "counties": [
+      "38061"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ny-jefferson-watertown",
+  "publisher": "City of Watertown, NY (GIS/Planning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.watertown-ny.gov/server/rest/services/PublicWebMapSvc/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36045"
+    ]
+  },
+  "fields": {
+    "link": "ZoningLink",
+    "zone": "zoning",
+    "zone_name": "zoning"
+  },
+  "notes": "City of Watertown zoning layer from the city public GIS viewer (PublicWebMapSvc layer 10). Covers the City of Watertown only; the county publishes no zoning service and the towns are not included. zone holds the district name (no separate code field); ZoningLink points to the ordinance PDF.",
+  "verification": {
+    "verified_at": 1792135052370,
+    "counties": [
+      "36045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

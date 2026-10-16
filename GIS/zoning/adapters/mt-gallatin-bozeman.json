@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mt-gallatin-bozeman",
+  "publisher": "City of Bozeman GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.bozeman.net/arcgis/rest/services/Open_Data/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Bozeman official zoning districts (Zoning 2025) from the city GIS open data. Covers the City of Bozeman only; unincorporated county land is in the separate mt-gallatin layer. Muni_Hyperlink holds ordinance code text, not a URL, so it is not mapped.",
+  "verification": {
+    "verified_at": 1792134875287,
+    "counties": [
+      "30031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

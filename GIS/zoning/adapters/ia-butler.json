@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-butler",
+  "publisher": "Iowa State University research compilation (digitized city zoning, Butler County cities)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "19023"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city IN ('Parkersburg','Shell Rock','Clarksville')",
+  "notes": "Not an official Butler County layer; no official queryable zoning for Butler County IA was found. Copy by Iowa State University compiling city zoning districts; covers only Parkersburg, Shell Rock and Clarksville within Butler County. Unincorporated county zoning and Allison/Greene are not covered.",
+  "verification": {
+    "verified_at": 1792133734161,
+    "counties": [
+      "19023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

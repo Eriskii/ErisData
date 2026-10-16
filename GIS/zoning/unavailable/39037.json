@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "39037",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.mydarkecounty.com/zoning",
+    "https://www.cityofgreenville.org/2233/Zoning-Information",
+    "https://versaillesoh.com/government/zoning-regulations"
+  ],
+  "note": "Darke County Planning & Zoning (mydarkecounty.com/zoning) publishes zoning for its 9 townships only as static PDF maps, one per township; no ArcGIS REST, WFS or downloadable polygon layer found. Greenville city and villages (Versailles, Arcanum) run their own zoning and publish ordinances/maps as PDFs; no queryable zoning district service found in ArcGIS Online or the county/city pages. The Darke Auditor GIS viewer (darkecountyrealestate.org/Map) shows parcels, not a zoning service. The only zoning FeatureServer found (services.arcgis.com/f4rR7WnIfGBdVYFd, Zoning_Districts) does not cover Darke County: it returns no features at the county point -84.61936,40.13543.",
+  "recorded_at": 1792135237966,
+  "recheck_after": 1807687237966,
+  "model": "claude-haiku-5-5"
+}

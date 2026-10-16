@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-catano-jp",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/Analisis_cali_MIL1/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72033"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali_2021",
+    "zone_name": "cali_2021_desc"
+  },
+  "filter": "municipio = 'Cataño'",
+  "notes": "Official JP calificacion layer, statewide parcel-level; filtered to Cataño",
+  "verification": {
+    "verified_at": 1792138945186,
+    "counties": [
+      "72033"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

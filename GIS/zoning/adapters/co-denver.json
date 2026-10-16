@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-denver",
+  "publisher": "City and County of Denver Community Planning and Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://denvergov.org/maps/data/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_DISTRICT",
+    "zone_name": "ZONE_DESCRIPTION"
+  },
+  "notes": "Denver city and county zoning boundaries (Denver Zoning MapServer layer 1), updated weekly; single jurisdiction so no jurisdiction field. Also on Denver open data hub (geospatialDenver).",
+  "verification": {
+    "verified_at": 1792131913599,
+    "counties": [
+      "08031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-stephenson-freeport",
+  "publisher": "City of Freeport, IL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/1Wpk33n06s235zfI/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17177"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "City of Freeport zoning (the only zoning layer found for Stephenson County; the county publishes no zoning service). Layer is zoning per parcel (Web Zoning Parcels), covers City of Freeport only, not unincorporated county land. Zone = district code from Zoning field.",
+  "verification": {
+    "verified_at": 1792134106905,
+    "counties": [
+      "17177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

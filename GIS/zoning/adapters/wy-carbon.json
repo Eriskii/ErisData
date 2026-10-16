@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wy-carbon",
+  "publisher": "Carbon County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/qEJ3hgR2R81AFChw/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56007"
+    ]
+  },
+  "fields": {
+    "zone": "CATEGORY"
+  },
+  "notes": "Carbon County, WY zoning from county GIS (Zoning FeatureServer, county-branded). CATEGORY holds the district code (RRA, RAM, C-1, C-2, IL, IH, RD, PUD, FPSR); ZONE holds finer codes such as RRA-40 but is blank for many records, so CATEGORY is used. TYPE and ZONE are mostly blank; no zone name or ordinance link is published in this layer.",
+  "verification": {
+    "verified_at": 1792136098603,
+    "counties": [
+      "56007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

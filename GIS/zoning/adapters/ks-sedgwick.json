@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ks-sedgwick",
+  "publisher": "Sedgwick County GIS (Op_Zoning_Dynamic_SP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismaps.sedgwickcounty.org/arcgis/rest/services/Map/Op_Zoning_Dynamic_SP/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20173"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "County dynamic zoning MapServer layer 9 Zoning (maintained with City of Wichita); 19,330 district polygons with Wichita-style codes (SF-5, LC, MF-18, PUD). No jurisdiction field; no zone name or ordinance link field available.",
+  "verification": {
+    "verified_at": 1792134280471,
+    "counties": [
+      "20173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

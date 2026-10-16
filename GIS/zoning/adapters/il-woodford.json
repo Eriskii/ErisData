@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-woodford",
+  "publisher": "Woodford County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/iOG1OLysrxLAswZi/arcgis/rest/services/Zoning_Districts/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17203"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "Woodford County Illinois zoning districts layer published by county GIS (Admin_CP). Only the zone code is mapped; no name or ordinance link field in source.",
+  "verification": {
+    "verified_at": 1792134125360,
+    "counties": [
+      "17203"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

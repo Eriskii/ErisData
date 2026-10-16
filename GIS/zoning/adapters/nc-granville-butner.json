@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-granville-butner",
+  "publisher": "Town of Butner (via Granville County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/dT3Tew5pivPd2bWH/arcgis/rest/services/Granville_Static/FeatureServer/43",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37077"
+    ]
+  },
+  "fields": {
+    "zone": "NewZone"
+  },
+  "notes": "Town of Butner zoning districts from the Granville County GIS service (Butner_Zoning). Only the zone code is published; no zone name or ordinance link.",
+  "verification": {
+    "verified_at": 1792135080170,
+    "counties": [
+      "37077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

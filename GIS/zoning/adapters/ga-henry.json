@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-henry",
+  "publisher": "Henry County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.co.henry.ga.us/server/rest/services/Current_Zoning_and_Future_Land_Use/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13151"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "County current zoning layer from the Henry County ArcGIS server; features are parcel-level polygons carrying the district code in ZONING. CityZoning holds city zone codes for some parcels and is not mapped. Parcel-level zoning attribute; no district polygons were found for this county.",
+  "verification": {
+    "verified_at": 1792133940054,
+    "counties": [
+      "13151"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-hopkins-dawson-springs",
+  "publisher": "Hopkins County GIS / City of Dawson Springs",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.hopkinscountygis.com:6443/arcgis/rest/services/DawsonSpringsZoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21107"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Dawson Springs zoning only, served by Hopkins County GIS.",
+  "verification": {
+    "verified_at": 1792134392049,
+    "counties": [
+      "21107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

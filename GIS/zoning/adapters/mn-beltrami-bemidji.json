@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-beltrami-bemidji",
+  "publisher": "City of Bemidji GIS (hosted on Beltrami County ArcGIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.co.beltrami.mn.us/arcgis/rest/services/BemidjiOpenData/BemidjiOpenDataZoning/MapServer/52",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Bemidji zoning only (not unincorporated county land); JPB Zoning layer, 194 features. No county-wide zoning layer found on the Beltrami County ArcGIS server or GIS Hub.",
+  "verification": {
+    "verified_at": 1792134484411,
+    "counties": [
+      "27007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "id-blackfoot",
+  "publisher": "City of Blackfoot, Idaho",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/XmBDaFZj0FeY84wR/arcgis/rest/services/Zoning_(View)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Blackfoot official zoning layer (ericsmithgis_COB83221), city limits only; unincorporated land is in id-bingham. Descriptions are mostly empty, so only the zone code is mapped.",
+  "verification": {
+    "verified_at": 1792133718801,
+    "counties": [
+      "16011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

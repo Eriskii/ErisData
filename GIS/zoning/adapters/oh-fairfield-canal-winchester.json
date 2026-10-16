@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-fairfield-canal-winchester",
+  "publisher": "City of Canal Winchester",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/y4utLgB1hH3ocvdq/arcgis/rest/services/Zoning_Districts_2022_01/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39045"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningAbv",
+    "zone_name": "Zoning"
+  },
+  "filter": "PID LIKE '0%'",
+  "notes": "City of Canal Winchester zoning (parcel-level polygons, 2022); city lies in Fairfield and Franklin counties; filter keeps Fairfield County parcel IDs (start with 0)",
+  "verification": {
+    "verified_at": 1792135261723,
+    "counties": [
+      "39045"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ks-lawrence",
+  "publisher": "City of Lawrence GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/8O9UlSTnqjKptoda/arcgis/rest/services/Zoning_Districts/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20045"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict"
+  },
+  "notes": "City of Lawrence zoning districts (layer 1 of the Zoning_Districts service). PUD_CLASS holds planned unit development class.",
+  "verification": {
+    "verified_at": 1792134237261,
+    "counties": [
+      "20045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

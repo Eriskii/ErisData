@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wv-monongalia-west-run",
+  "publisher": "Monongalia County Planning Commission / GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/MGBEQZtkTlJin8UB/arcgis/rest/services/Monongalia_AGOL/FeatureServer/20",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54061"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "DIST",
+    "zone": "Zone_Abb",
+    "zone_name": "Zone_Class"
+  },
+  "notes": "West Run Planning District zoning, unincorporated county only. Hosted in the county GIS AGOL org (Monongalia_AGOL).",
+  "verification": {
+    "verified_at": 1792136020518,
+    "counties": [
+      "54061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

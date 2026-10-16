@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ia-chickasaw-new-hampton",
+  "publisher": "City of New Hampton, Iowa (GIS layer behind city Zoning Map WebApp)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/gTVQjOemHjQpAWul/arcgis/rest/services/City_Zoning_Layer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDIST"
+  },
+  "notes": "City of New Hampton zoning districts (layer behind the city 2024 Zoning Map WebApp). Only the district code is published; no district name field. County itself has no zoning ordinance in effect. Other cities not checked.",
+  "verification": {
+    "verified_at": 1792133685232,
+    "counties": [
+      "19037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

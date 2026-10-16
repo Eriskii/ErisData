@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "md-gaithersburg",
+  "publisher": "City of Gaithersburg",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.gaithersburgmd.gov/arcgis/rest/services/layers/Zoning_SinglePart/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24031"
+    ]
+  },
+  "fields": {
+    "link": "MuniCode_Link",
+    "zone": "Zoning",
+    "zone_name": "Zoning_Description"
+  },
+  "notes": "City of Gaithersburg Chapter 24 zoning districts.",
+  "verification": {
+    "verified_at": 1792134848665,
+    "counties": [
+      "24031"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-rolla",
+  "publisher": "City of Rolla GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rollacity.gov/server/rest/services/Boundaries/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29161"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance_Hyperlink",
+    "zone": "Type_of_Zoning",
+    "zone_name": "Description"
+  },
+  "notes": "City of Rolla zoning only (not unincorporated Phelps County); layer from City of Rolla GIS public map. Phelps County itself publishes no zoning layer found; Rolla is the largest city in the county.",
+  "verification": {
+    "verified_at": 1792134825650,
+    "counties": [
+      "29161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

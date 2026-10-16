@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mi-cass-dowagiac",
+  "publisher": "City of Dowagiac",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/LizLtlkDIZfHKLXt/arcgis/rest/services/DowagiacZoningFLUM_Public_View/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "City of Dowagiac only, not county-wide. Parcel-based zoning layer: each polygon is a parcel carrying its zoning class (ZONECLASS); zone_name (ZONEDESC) is empty. Published by the city on its ArcGIS Online organization behind the city Zoning Map.",
+  "verification": {
+    "verified_at": 1792132296878,
+    "counties": [
+      "26027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

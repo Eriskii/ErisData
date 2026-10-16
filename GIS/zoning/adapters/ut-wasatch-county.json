@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ut-wasatch-county",
+  "publisher": "Wasatch County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.wasatch.utah.gov/arcgis/rest/services/MapLayers/Zoning/MapServer/33",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49051"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "ZONE_",
+    "zone_name": "NAME"
+  },
+  "filter": "OBJECTID <> 3434",
+  "notes": "Wasatch County Planning zoning districts for unincorporated county land (county ordinance chapters 16.05-16.11). Source: maps.wasatch.utah.gov MapLayers/Zoning. OVERLAY attribute is NO for base districts. OBJECTID 3434 excluded: its source polygon fails geometry validity checks.",
+  "verification": {
+    "verified_at": 1792135886027,
+    "counties": [
+      "49051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

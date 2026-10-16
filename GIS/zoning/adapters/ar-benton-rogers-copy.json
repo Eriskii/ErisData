@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ar-benton-rogers-copy",
+  "publisher": "PDyment (ArcGIS Online copy of City of Rogers zoning)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/KAS2Ol4X7Ca0Dta5/arcgis/rest/services/Rogers_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05007"
+    ]
+  },
+  "fields": {
+    "zone": "LAYER",
+    "zone_name": "LAYER"
+  },
+  "notes": "Unofficial ArcGIS Online copy of City of Rogers zoning uploaded by PDyment, used because the official Rogers layer (gis.rogersar.gov PublicWebServices MapServer/70) ignores resultOffset and cannot be paged. Covers Rogers city limits; zone is the LAYER district code.",
+  "verification": {
+    "verified_at": 1792133822340,
+    "counties": [
+      "05007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

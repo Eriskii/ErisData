@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-jackson-carbondale",
+  "publisher": "City of Carbondale",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/lNrzIHYICuzkgTNM/arcgis/rest/services/Official_Zoning_Districts_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17077"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT",
+    "zone_name": "NAME"
+  },
+  "notes": "City of Carbondale official zoning districts only (not county unincorporated land). Layer from the city GIS account; 300 features.",
+  "verification": {
+    "verified_at": 1792134005733,
+    "counties": [
+      "17077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

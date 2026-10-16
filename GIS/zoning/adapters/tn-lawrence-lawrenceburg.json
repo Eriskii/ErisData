@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tn-lawrence-lawrenceburg",
+  "publisher": "City of Lawrenceburg, TN (via ArcGIS Online, hosted by Collier Engineering)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/sPTEq2CjjwVxhAIM/arcgis/rest/services/City_of_Lawrenceburg_TN_Zoning/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47099"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "IncorporatedArea",
+    "zone": "Zone",
+    "zone_name": "ZoneDescription"
+  },
+  "notes": "Only the City of Lawrenceburg is covered; this is a parcel layer whose attributes carry each parcel zoning (Zone, ZoneDescription), not a district layer. No county-wide or unincorporated zoning layer was found as of search. Last resort.",
+  "verification": {
+    "verified_at": 1792135565229,
+    "counties": [
+      "47099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

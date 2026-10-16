@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-wilkes-wilkesboro",
+  "publisher": "Town of Wilkesboro (via HCCOG GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/xb2qUX5xzfQSbb1s/arcgis/rest/services/Wilkesboro_PublicTownWebMap/FeatureServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37193"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDescri"
+  },
+  "notes": "Town of Wilkesboro zoning districts from the town public web map hosted by HCCOG. Covers the town only, not the county unincorporated area.",
+  "verification": {
+    "verified_at": 1792135117022,
+    "counties": [
+      "37193"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

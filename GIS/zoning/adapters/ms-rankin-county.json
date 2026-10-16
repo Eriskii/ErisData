@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-rankin-county",
+  "publisher": "Central Mississippi Planning & Development District (CMPDD) for Rankin County",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Rankin_County_Feature_Layer/FeatureServer/16",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28121"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING2025"
+  },
+  "notes": "Official Zoning 2025 layer from CMPDD-hosted Rankin County service (HTTP only; https host unreachable); polygons are parcel-based with zoning attributes (ZONING2025, also Zoning, ZoningActi). Unincorporated county zoning.",
+  "verification": {
+    "verified_at": 1792134870906,
+    "counties": [
+      "28121"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

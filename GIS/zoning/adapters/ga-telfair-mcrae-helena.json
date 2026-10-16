@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-telfair-mcrae-helena",
+  "publisher": "City of McRae-Helena / HOGARC GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/City_of_McRae_View/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13271"
+    ]
+  },
+  "fields": {
+    "zone": "ProposedZoning",
+    "zone_name": "ProposedZoningDescr"
+  },
+  "filter": "ProposedZoning <> ' '",
+  "notes": "City of McRae-Helena (Telfair County seat) zoning layer, the only queryable zoning districts found for Telfair County; fields are proposed zoning (ProposedZoning), so districts are proposed. Blank placeholder polygons excluded. Unincorporated county zoning not found as a service.",
+  "verification": {
+    "verified_at": 1792133972497,
+    "counties": [
+      "13271"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

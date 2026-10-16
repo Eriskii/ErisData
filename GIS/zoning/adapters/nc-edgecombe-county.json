@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-edgecombe-county",
+  "publisher": "Edgecombe County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.edgecombecountync.gov/arcgis/rest/services/webmap/MapServer/23",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37065"
+    ]
+  },
+  "fields": {
+    "zone": "ALPHA"
+  },
+  "notes": "County zoning layer (unincorporated county and ETJ) from the county webmap MapServer, layer 23 under the County Zoning group. Municipal zoning is in separate layers.",
+  "verification": {
+    "verified_at": 1792135077537,
+    "counties": [
+      "37065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

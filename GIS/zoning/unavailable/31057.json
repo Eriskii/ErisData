@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "31057",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://dundycounty.nebraska.gov/webpages/planning_zoning/planning_zoning.html",
+    "https://benkelmanusa.com/wp-content/uploads/Benkelman-Zoning-Updates-2023.pdf",
+    "https://dundy.gworks.com/"
+  ],
+  "note": "Dundy County has a planning and zoning office, but no public ArcGIS REST, WFS or downloadable zoning district layer was found. The county planning page links only to a contact form and an FAQ page; the county GIS site (dundy.gworks.com) is a parcel viewer with no queryable service. Benkelman, the county seat, publishes its zoning ordinance only as PDF text with no map service. ArcGIS searches for Dundy/Benkelman zoning returned nothing. The county website's planning page returned HTTP 503 (Wordfence rate limit) during checks.",
+  "recorded_at": 1792134932251,
+  "recheck_after": 1807686932251,
+  "model": "claude-haiku-5-5"
+}

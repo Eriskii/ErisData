@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-midland-city",
+  "publisher": "City of Midland, MI Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis1.midland-mi.org/arcgis/rest/services/Planning/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26111"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING2"
+  },
+  "notes": "City of Midland zoning districts (city only; townships and county unincorporated land not included). Source: city Planning MapServer layer 8.",
+  "verification": {
+    "verified_at": 1792132339203,
+    "counties": [
+      "26111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

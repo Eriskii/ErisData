@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-greensville",
+  "publisher": "Greensville County GIS (WebGIS.net)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.webgis.net/arcgis/rest/services/VA/GreensvilleCo_WebGIS/MapServer/38",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51081"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "County WebGIS layer 38 (Zoning), 338 polygons; only the zoning code is published, no zone name or ordinance link. Town of Jarratt is a separate area in the county and may not be zoned in this layer.",
+  "verification": {
+    "verified_at": 1792135948448,
+    "counties": [
+      "51081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

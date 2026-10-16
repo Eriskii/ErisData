@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tn-williamson-franklin",
+  "publisher": "City of Franklin, TN GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://publicmaps.franklintn.gov/arcgis/rest/services/Maps/ZoningWebMercator/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47187"
+    ]
+  },
+  "fields": {
+    "link": "WEBLINK",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Franklin zoning districts only (not unincorporated county). Municipal layer from the city ZoningWebMercator MapServer; overlay layers excluded.",
+  "verification": {
+    "verified_at": 1792135573296,
+    "counties": [
+      "47187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

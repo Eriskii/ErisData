@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-clark-springfield-city",
+  "publisher": "City of Springfield, Ohio (hosted by Clark County)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ago.clarkcountyohio.gov/ccoarcgis/rest/services/WMAS/City_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39023"
+    ]
+  },
+  "fields": {
+    "zone": "Zonedesc",
+    "zone_name": "Zone"
+  },
+  "notes": "City of Springfield base zoning districts. Zonedesc holds the district code (e.g. CITY RS-8); Zone holds a internal label. Layer 0 is current zoning (layer 1 is pre-2025 changes; layer 2 is an overlay, excluded).",
+  "verification": {
+    "verified_at": 1792135182042,
+    "counties": [
+      "39023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

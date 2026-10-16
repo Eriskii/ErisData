@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-johnson",
+  "publisher": "Johnson County GA (parcel copy, ReportAll vendor data, hosted by jamie_cvg)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ue5fMdTkPeHLCobS/arcgis/rest/services/Johnson_GA_Parcels_gdb/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13167"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipality",
+    "zone": "zoning_code"
+  },
+  "notes": "Last resort: parcel layer, not a district layer. Zoning is each parcel zoning_code (county-coded value), carried on parcels. Copy is a personal ArcGIS Online item by jamie_cvg, not the county own service; no official county or city zoning district layer was found. Zoning fields cover only part of parcels. zone_name not available.",
+  "verification": {
+    "verified_at": 1792133931303,
+    "counties": [
+      "13167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

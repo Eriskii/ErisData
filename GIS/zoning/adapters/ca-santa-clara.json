@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-santa-clara",
+  "publisher": "Santa Clara County Planning Office",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/tcv2cMrq63AgvbHF/arcgis/rest/services/PlanningOfficeDataService2/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06085"
+    ]
+  },
+  "fields": {
+    "zone": "BaseZone",
+    "zone_name": "Zoning"
+  },
+  "notes": "Unincorporated Santa Clara County only; cities zone their own land. Zoning field holds full zone code incl. overlays; BaseZone is base district.",
+  "verification": {
+    "verified_at": 1792134021583,
+    "counties": [
+      "06085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

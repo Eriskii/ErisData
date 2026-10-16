@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-antelope",
+  "publisher": "Antelope County NE (assessor GIS, hosted copy)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/bRhJe4i6arzgfrvF/arcgis/rest/services/Antelope_County_NE_Assessor_PRO/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31003"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Label"
+  },
+  "notes": "Zoning layer from the Antelope County assessor GIS project, hosted on ArcGIS Online by a county GIS account; 28 polygons. Brunswick city zoning is in separate layers (6,7) not included.",
+  "verification": {
+    "verified_at": 1792134934032,
+    "counties": [
+      "31003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "48425",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.glenrosetexas.org/building-department/page/city-mapping",
+    "https://www.glenrosetexas.org/building-department/page/city-maps",
+    "https://map.3cgeo.com/fist/fistMain.php?site=grzoning",
+    "https://www.glenrosetexas.org/document-library"
+  ],
+  "note": "Somervell County (FIPS 48425) has no county zoning layer found. The only city of note, Glen Rose, publishes its zoning map as a PDF and through a 3cgeo web viewer (fistMain.php?site=grzoning) that exposes no ArcGIS REST service or downloadable layer. Searches of ArcGIS Hub/Online found no Somervell or Glen Rose zoning FeatureServer; the zoning_districts service at services.arcgis.com/lQySeXwbBg53XWDi is not Somervell (no features in county bbox, codes such as Guadalupe).",
+  "recorded_at": 1792135838843,
+  "recheck_after": 1807687838843,
+  "model": "claude-haiku-5-5"
+}

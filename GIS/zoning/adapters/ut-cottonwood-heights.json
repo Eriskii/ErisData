@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-cottonwood-heights",
+  "publisher": "Cottonwood Heights City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/w3P61ZsUVtl411Ls/arcgis/rest/services/Cottonwood_Heights/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49035"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Descriptio"
+  },
+  "notes": "City of Cottonwood Heights zoning classifications, hosted by the city-linked ArcGIS account (zachleavitt_utcdo). Ordinance links are mostly blank; ordinance is linked from the city website.",
+  "verification": {
+    "verified_at": 1792131971277,
+    "counties": [
+      "49035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

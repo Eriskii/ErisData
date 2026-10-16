@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-warrenton",
+  "publisher": "Town of Warrenton",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/7Q2bdSYWSeUYx2U5/arcgis/rest/services/ZoningOnlineMDX_07082020/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51061"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_NAM"
+  },
+  "notes": "Town of Warrenton base zoning districts (town layer; ZONING numeric field is unused, ZONING_NAM holds the district code). Fauquier County zones the rest of the county.",
+  "verification": {
+    "verified_at": 1792135907943,
+    "counties": [
+      "51061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

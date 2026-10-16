@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ct-danbury",
+  "publisher": "City of Danbury, CT",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/TWuNUq6ILU5haptM/arcgis/rest/services/AxisGISDataSync/FeatureServer/70",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09190"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESC_"
+  },
+  "notes": "City of Danbury zoning districts from the city AxisGIS data sync service (CAI Technologies). Single-jurisdiction layer.",
+  "verification": {
+    "verified_at": 1792133933033,
+    "counties": [
+      "09190"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

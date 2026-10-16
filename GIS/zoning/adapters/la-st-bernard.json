@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "la-st-bernard",
+  "publisher": "St. Bernard Parish Government (sbpgoit12 ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/4fqapJ8XMsv2AQ0j/arcgis/rest/services/Lots_zoning_work/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22087"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Lot-level (parcel-based) zoning polygons published by St. Bernard Parish GOIT on ArcGIS Online (Lots_zoning_work); used because the parish district layer on lucitymobile.sbpg.net is unreachable. Zone attribute carries each lot's zoning code.",
+  "verification": {
+    "verified_at": 1792134584626,
+    "counties": [
+      "22087"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

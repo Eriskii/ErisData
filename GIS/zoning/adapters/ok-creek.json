@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ok-creek",
+  "publisher": "INCOG (Indian Nations Council of Governments) for Creek County and Sapulpa",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map11.incog.org/arcgis11wa/rest/services/Zoning_CreekCo/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE",
+    "zone_name": "LEGEND"
+  },
+  "notes": "Creek County and Sapulpa zoning polygons, maintained by INCOG; last updated per a 2019 amendment. ZONE_TYPE is the district code; LEGEND is a broad category. Sapulpa city zoning is included alongside unincorporated county zoning.",
+  "verification": {
+    "verified_at": 1792135249265,
+    "counties": [
+      "40037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

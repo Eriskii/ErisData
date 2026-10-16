@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-jersey-jerseyville",
+  "publisher": "City of Jerseyville (zoning map by PGAV)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/GqKSNSsjLGWhm1yT/arcgis/rest/services/Jerseyville_Zoning_Map_2021_WFL1/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17083"
+    ]
+  },
+  "fields": {
+    "link": "Hyperlink",
+    "zone": "Zone_2018"
+  },
+  "filter": "Zone_2018 <> ' '",
+  "notes": "City of Jerseyville zoning (PGAV, zoning map as of Dec 2020). Parcel-level polygons carrying the current district code in Zone_2018; blank-zone parcels excluded by filter. Covers the city only; no county zoning layer was found for Jersey County. Linked from jerseyville-il.us zoning page.",
+  "verification": {
+    "verified_at": 1792134045989,
+    "counties": [
+      "17083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

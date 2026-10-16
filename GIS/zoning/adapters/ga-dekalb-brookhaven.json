@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-dekalb-brookhaven",
+  "publisher": "City of Brookhaven GA",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.brookhavenga.gov/arcgis/rest/services/LandUsePlanning/LandUsePlanning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13089"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Brookhaven official Zoning layer (LandUsePlanning MapServer layer 3). Covers City of Brookhaven only, not unincorporated DeKalb.",
+  "verification": {
+    "verified_at": 1792133919587,
+    "counties": [
+      "13089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

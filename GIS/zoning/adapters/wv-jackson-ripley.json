@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wv-jackson-ripley",
+  "publisher": "City of Ripley, WV",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/ScW4u2klbKdBmpCe/arcgis/rest/services/Ripley_Zoning_view/FeatureServer/120",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54035"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE",
+    "zone_name": "ZONE_TYPE"
+  },
+  "filter": "OBJECTID NOT IN (3,8)",
+  "notes": "City of Ripley zoning only, not county unincorporated land. Only ZONE_TYPE carries the district name. Filter omits two polygons (OBJECTIDs 3 and 8) whose source geometry is invalid.",
+  "verification": {
+    "verified_at": 1792136117134,
+    "counties": [
+      "54035"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

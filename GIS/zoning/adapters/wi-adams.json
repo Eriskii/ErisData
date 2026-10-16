@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-adams",
+  "publisher": "Adams County GIS / Planning and Zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/cmcEK45KcVMmaCd7/arcgis/rest/services/Comp_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Township",
+    "link": "Link",
+    "zone": "Zoning"
+  },
+  "notes": "Adams County comprehensive zoning districts maintained by county GIS/Planning and Zoning; one layer covering unincorporated towns, with Township naming each town. Farmland preservation flag FP and ordinance date fields not mapped.",
+  "verification": {
+    "verified_at": 1792136113264,
+    "counties": [
+      "55001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

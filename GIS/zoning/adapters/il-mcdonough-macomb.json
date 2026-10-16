@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-mcdonough-macomb",
+  "publisher": "City of Macomb / Western Illinois University GIS Center",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wiu.edu/arcgis/rest/services/mpd/MapServer/36",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17109"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "City of Macomb zoning only (county seat); hosted by WIU GIS Center for the city. Unincorporated county and other cities not covered by this layer.",
+  "verification": {
+    "verified_at": 1792134011134,
+    "counties": [
+      "17109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

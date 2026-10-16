@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "47089",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://jeffersoncountytn.gov/zoning/",
+    "https://jeffersoncountytn.gov/wp-content/uploads/2026/08/Zoning-Resolution-with-Amendments-Feb.-26.pdf",
+    "https://webgen1files1.revize.com/jeffersoncitytn/Documents/Government/Boards%20Committees/Planning%20Commission/Jefferson%20City%20ZoningColor_wUGB__Adopted_Feb_2008__Revised_5_2_2023.pdf",
+    "https://services7.arcgis.com/in9ruKxwZKI20efQ/arcgis/rest/services/Parcels_CAMA_A/FeatureServer/0"
+  ],
+  "note": "Jefferson County TN publishes zoning only as PDF (county zoning resolution and map; Jefferson City zoning map is a PDF with legend; Dandridge ordinance is PDF). No queryable zoning district polygon layer was found on the county's GIS consortium services (jcgiscb ArcGIS org: no zoning layer). The county parcel layer Parcels_CAMA_A has a ZONING field but it is blank for nearly all parcels (4 non-blank of 35,167), so it is not usable as zoning. Morristown's city zoning_districts service lies almost entirely in Hamblen County, outside this county.",
+  "recorded_at": 1792135930425,
+  "recheck_after": 1807687930425,
+  "model": "claude-haiku-5-5"
+}

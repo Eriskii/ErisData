@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72049",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/Calificación/MapServer/228",
+    "https://sigejp.pr.gov/server/rest/services/Analisis_cali_MIL1/MapServer/7",
+    "https://zonaspr.com/municipios/"
+  ],
+  "note": "Culebra Municipio (72049) has no queryable zoning district polygons. The Junta de Planificación statewide calificación layers (cali_vige/0, Calificación/228, Analisis_cali_MIL1/7) hold 1.4M+ polygons with a municipio field, but zero features have municipio or barrio Culebra, and envelope queries over the county's bounding box return 0 features. The MIPR viewer folder returns 403. ZonasPR lists Culebra districts under RC-2023-E but offers only a viewer and parcel map, no service. ArcGIS searches turned up no Culebra zoning layer, only parcels, which are not districts and not official zoning.",
+  "recorded_at": 1792138310006,
+  "recheck_after": 1807690310006,
+  "model": "claude-haiku-5-5"
+}

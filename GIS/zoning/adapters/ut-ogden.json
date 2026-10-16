@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-ogden",
+  "publisher": "Ogden City Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/5bEsxSBu0dtu5rkP/arcgis/rest/services/Southeast_Ogden_Zoning_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49057"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Gen_Zones"
+  },
+  "notes": "Ogden City zoning districts published by Ogden City (org account 5bEsxSBu0dtu5rkP), titled Southeast Ogden Zoning but holds citywide districts (CBD, R-1-8, M-1, etc.); zone_name is the general zone category. Ordinance link not in layer.",
+  "verification": {
+    "verified_at": 1792135905594,
+    "counties": [
+      "49057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

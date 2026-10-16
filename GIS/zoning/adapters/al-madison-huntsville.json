@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-madison-huntsville",
+  "publisher": "City of Huntsville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.huntsvilleal.gov/server/rest/services/Zoning/ZoningDistricts/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01089"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoneLabel"
+  },
+  "notes": "City of Huntsville zoning districts only (not unincorporated county). Layer 5 of ZoningDistricts MapServer; 796 polygons.",
+  "verification": {
+    "verified_at": 1792133727386,
+    "counties": [
+      "01089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wa-cowlitz-county",
+  "publisher": "Cowlitz County Building & Planning (EPIC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cowlitzwa.gov/ccserver/rest/services/BuildPlanning/EPIC_V2_Features/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CODE"
+  },
+  "notes": "Parcel layer: each parcel carries its ZONING_CODE; used because the county district layer (BuildPlanning/Zoning_County_Only, 14 features, unincorporated only) has invalid polygons. Parcel polygons, not district polygons; no zone_name or jurisdiction field available. Cities not covered by this layer. Layer in EPSG:2927.",
+  "verification": {
+    "verified_at": 1792136047384,
+    "counties": [
+      "53015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-marquette-city",
+  "publisher": "City of Marquette MI, zoning districts service hosted in ArcGIS Online by makoss",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/SAu6e8T3mmoVbRYn/arcgis/rest/services/Zoning_Map_Viewer_AGOL/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26103"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Cod",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "City of Marquette zoning districts only. County has no zoning; townships zone separately. Layer is the city Zoning Map Viewer service, hosted under an ArcGIS Online account. Full description in FULL_ZONE_DESC; Use_Regs and Dev_Stnds hold regulations.",
+  "verification": {
+    "verified_at": 1792132333973,
+    "counties": [
+      "26103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

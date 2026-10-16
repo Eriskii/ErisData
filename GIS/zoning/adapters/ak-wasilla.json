@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ak-wasilla",
+  "publisher": "City of Wasilla",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/4BUCUauRizArVHgH/arcgis/rest/services/Zoning_Districts_July_2024/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02170"
+    ]
+  },
+  "fields": {
+    "zone": "Layer",
+    "zone_name": "RefName"
+  },
+  "notes": "City of Wasilla base zoning districts (RR, R1, R2, RM, C, I, P), hosted by the borough-related ArcGIS Online organization used by the City of Wasilla. Covers only the City of Wasilla; the borough itself has no base zoning layer (its SPUD layer covers special districts only).",
+  "verification": {
+    "verified_at": 1792133782826,
+    "counties": [
+      "02170"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

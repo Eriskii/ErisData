@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ar-benton-bentonville",
+  "publisher": "City of Bentonville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.bentonvillear.com/arcgis/rest/services/Planning/Community_Development23/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05007"
+    ]
+  },
+  "fields": {
+    "link": "ZONE_LINK",
+    "zone": "ZONE",
+    "zone_name": "ZONE"
+  },
+  "notes": "City of Bentonville zoning districts only (not unincorporated county, which does not zone). Layer is Bentonville city zoning; zone_name uses ZONE code since no separate name field.",
+  "verification": {
+    "verified_at": 1792133756404,
+    "counties": [
+      "05007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

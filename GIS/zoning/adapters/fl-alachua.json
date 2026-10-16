@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "fl-alachua",
+  "publisher": "Alachua County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/MiBZ4u97DWldovjI/arcgis/rest/services/ZoningCountyWide/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURIS",
+    "link": "ZONELINK",
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDISTRICT"
+  },
+  "notes": "Countywide zoning layer covering unincorporated county and incorporated jurisdictions; JURIS is a coded jurisdiction value.",
+  "verification": {
+    "verified_at": 1792133638802,
+    "counties": [
+      "12001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

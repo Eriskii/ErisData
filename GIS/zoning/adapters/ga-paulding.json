@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-paulding",
+  "publisher": "Paulding County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/7YXQzPPGs9Uc4qKl/arcgis/rest/services/Paulding_County_GA_Zoning_Map_WFL1/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13223"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode"
+  },
+  "notes": "Zoning case polygons for Paulding County GA incl. cities of Braswell, Dallas and Hiram; Jurisdiction field (PAUC, BRWL, DAL, HIR) is filled on only a minority of records so it is not mapped. zone_name (ZoningClass) is sparse. Hosted on county ArcGIS Online organization (GISAdmin_GIS). Layer 3 of Zoning Map service.",
+  "verification": {
+    "verified_at": 1792133946598,
+    "counties": [
+      "13223"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

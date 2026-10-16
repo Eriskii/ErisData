@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-blair-altoona",
+  "publisher": "City of Altoona (AltoonaPAGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/TVVKUhTNEViJGK4M/arcgis/rest/services/OpenGov_GIS_Service/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42013"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Abr",
+    "zone_name": "Zoning_Dis"
+  },
+  "notes": "City of Altoona zoning districts only (not county-wide); served by the city's OpenGov GIS service.",
+  "verification": {
+    "verified_at": 1792135279146,
+    "counties": [
+      "42013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

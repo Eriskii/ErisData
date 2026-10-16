@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-cottonwood",
+  "publisher": "Cottonwood County GIS (City of Windom zoning layer, hosted by county)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/HWNeJO1BX8XvS0O8/arcgis/rest/services/Windom_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27033"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "filter": "ZONE IS NOT NULL AND ZONE <> ''",
+  "notes": "Only the City of Windom is covered; no county-wide or county unincorporated zoning district layer is published as a service. Layer is parcels categorized by primary zoning (ZONE holds district codes such as R1, R2, B1, I1, AO); parcels with blank ZONE are excluded by the filter. Source is the county ArcGIS Online organization.",
+  "verification": {
+    "verified_at": 1792134487706,
+    "counties": [
+      "27033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

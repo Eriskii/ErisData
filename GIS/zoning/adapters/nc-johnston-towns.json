@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-johnston-towns",
+  "publisher": "Johnston County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/GuzKGtwBFbX83DiX/arcgis/rest/services/Johnston_County_NC_Town_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37101"
+    ]
+  },
+  "fields": {
+    "zone": "TAG"
+  },
+  "notes": "Zoning of Johnston County towns (districts only, no jurisdiction attribute). Hosted by NLRGIS on ArcGIS Online, from county GIS data.",
+  "verification": {
+    "verified_at": 1792135082845,
+    "counties": [
+      "37101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

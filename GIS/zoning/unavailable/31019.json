@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "31019",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/Application.aspx?App=BuffaloCountyNE&PageType=Map",
+    "https://buffalocounty.ne.gov/county-offices/assessor/buffalo-county-gis",
+    "https://buffalocounty.ne.gov/county-offices/zoning-floodplain/zoning-division/zoning-regulations"
+  ],
+  "note": "Buffalo County, NE publishes county zoning only through its Schneider Beacon viewer (Planning/Zoning tab), which is behind Cloudflare and offers no public ArcGIS REST or download. The county GIS page's only download is a 2015 centerline zip; the zoning regulations are a PDF. The county hub (gis-buffalocounty.hub.arcgis.com) and buffalocounty.maps.arcgis.com showed no zoning FeatureServer in searches. Kearney's GIS is a HomeBase/Smartmaps viewer with no queryable service found. No city zoning service found for Gibbon, Ravenna or Shelton.",
+  "recorded_at": 1792135009913,
+  "recheck_after": 1807687009913,
+  "model": "claude-haiku-5-5"
+}

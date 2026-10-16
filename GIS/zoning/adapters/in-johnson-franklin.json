@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "in-johnson-franklin",
+  "publisher": "Johnson County GIS (City Zoning, Franklin)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/s5B7dXoVjGiD4IBE/arcgis/rest/services/City_Zoning/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18081"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "AGENCY",
+    "zone": "CODE",
+    "zone_name": "CLASS"
+  },
+  "notes": "City of Franklin zoning layer from Johnson County GIS City Zoning service",
+  "verification": {
+    "verified_at": 1792134167559,
+    "counties": [
+      "18081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

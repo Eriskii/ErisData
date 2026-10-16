@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-dickson-county",
+  "publisher": "Dickson County Government (zoning layer by RCSPlanners, county planning consultant)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/8PmFuaCvSsknw5Z0/arcgis/rest/services/DicksonCo_Zoning_Master/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47043"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre",
+    "zone_name": "Zoning_Des"
+  },
+  "notes": "Dickson County zoning layer by RCSPlanners, the county zoning consultant; 198 features. Zone code blank for one district, which has a description only (A1 - Agricultural). Link field not mapped: ordinance number is filled for only a few districts.",
+  "verification": {
+    "verified_at": 1792135892955,
+    "counties": [
+      "47043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

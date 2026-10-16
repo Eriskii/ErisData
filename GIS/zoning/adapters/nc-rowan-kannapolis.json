@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-rowan-kannapolis",
+  "publisher": "Rowan County GIS (Kannapolis zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rowancountync.gov/arcgis/rest/services/Public/Alll_Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37159"
+    ]
+  },
+  "fields": {
+    "zone": "basedist"
+  },
+  "notes": "City of Kannapolis zoning hosted on Rowan County GIS",
+  "verification": {
+    "verified_at": 1792135191345,
+    "counties": [
+      "37159"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

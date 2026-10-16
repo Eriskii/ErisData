@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-sonoma-petaluma",
+  "publisher": "City of Petaluma / Sonoma County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://socogis.sonomacounty.ca.gov/map/rest/services/OWTSPublic/Zoning_City_Petaluma/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06097"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning8"
+  },
+  "notes": "City of Petaluma 2008 zoning polygons, hosted by Sonoma County. Only the district code field is available; no name or ordinance link field.",
+  "verification": {
+    "verified_at": 1792134126840,
+    "counties": [
+      "06097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

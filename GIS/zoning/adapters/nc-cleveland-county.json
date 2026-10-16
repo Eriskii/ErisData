@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-cleveland-county",
+  "publisher": "Cleveland County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.clevelandcounty.com/arcgis/rest/services/Planning/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37045"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "zone": "ZoneType_Code",
+    "zone_name": "ZoneType_Desc"
+  },
+  "notes": "County zoning layer; Municipality attribute names the jurisdiction (Cleveland County unincorporated, City of Kings Mountain entries also present). Source is the county MapServer Planning/Zoning layer 0.",
+  "verification": {
+    "verified_at": 1792135078623,
+    "counties": [
+      "37045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

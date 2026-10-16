@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "39079",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.jacksonohio.us/city_council/zoning_regulations.php",
+    "https://cityofwellston.org/code-zoning-and-building/",
+    "https://jcengr.net/map-office.html"
+  ],
+  "note": "Jackson County, Ohio publishes no queryable zoning district layer. Its GIS (jcengr.net, Beacon Schneider viewer) lists no zoning. The county's ArcGIS host jcgis.jacksongov.org has UnincorporatedZoning, but that service is Jackson County, Missouri (extent around -94.6 lon), not Ohio. Ohio counties generally do not zone; townships do. The cities of Jackson (Full Zoning Maps PDF, 2025) and Wellston (wellstonzoning-map PDF) publish zoning only as PDF maps. No Oak Hill zoning layer was found.",
+  "recorded_at": 1792135289688,
+  "recheck_after": 1807687289688,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "48373",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://polk-county-geoportal-open-data-polk-bocc-gis.hub.arcgis.com/api/search/v1/collections/all/items?q=zoning",
+    "https://www.polktx.gov/340/County-Web-Map",
+    "https://www.cityoflivingston-tx.com/210/Street-Map",
+    "https://library.municode.com/tx/livingston",
+    "https://ecode360.com/ON6430"
+  ],
+  "note": "Polk County TX (48373) publishes no queryable zoning district layer. The county Hub's only zoning-related service is Map Land Use and Zoning FLU 2030 (future land use, a plan, not zoning districts). The county web map lists no zoning layer. DETCOG's ArcGIS services hold only ESN and other regional layers. Livingston, Onalaska and Corrigan zoning appears only in municipal codes (Municode, eCode360), with no city zoning GIS service found.",
+  "recorded_at": 1792135787222,
+  "recheck_after": 1807687787222,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-oconee",
+  "publisher": "Oconee County GIS (OCGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ocgis.oconee.ga.us/server/rest/services/OCGIS_Zoning_Public/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13219"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZoningAgency",
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "One layer holding unincorporated Oconee County plus city zoning (Bishop, Bogart, North High Shoals, etc.); ZoningAgency names the jurisdiction, some null. 1073 features. Source CRS is state plane; runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792133933661,
+    "counties": [
+      "13219"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

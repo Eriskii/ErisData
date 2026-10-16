@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-sandoval",
+  "publisher": "Sandoval County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/04AQv4PgUZUh16VF/arcgis/rest/services/Zoning_(6_2024)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35043"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "Sandoval County unincorporated zoning districts (layer 6/2024, 536 polygons) from the county's ArcGIS Online organization; municipalities not included. zone_name mirrors the code as no description field exists.",
+  "verification": {
+    "verified_at": 1792135182022,
+    "counties": [
+      "35043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

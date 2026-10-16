@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-del-norte-coastal",
+  "publisher": "Del Norte County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/IkUDY1vRIUWiVvcz/arcgis/rest/services/Coastal_Zoning_Layer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06015"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "Zoning"
+  },
+  "notes": "County GIS coastal zone zoning layer (unincorporated land inside the California Coastal Zone). Overlay field holds overlay districts, not mapped as zone. Companion to ca-del-norte-noncoastal.",
+  "verification": {
+    "verified_at": 1792134036545,
+    "counties": [
+      "06015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

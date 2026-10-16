@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wa-king-unincorporated",
+  "publisher": "King County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Ej0PsM5Aw677QF1W/arcgis/rest/services/ZONING_AREA_450/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "CURRZONE"
+  },
+  "filter": "CURRZONE <> ' ' AND Shape__Area < 10000000000",
+  "notes": "King County zoning for unincorporated King County only (parcel-based polygons; CURRZONE is the current zoning designation, POTENTIAL the proposed one). Records with a blank zone code, and one malformed polygon of over 13,000 sq km that fails geometry validity, are excluded. Cities zone their own land and are not included. Published by King County on its ArcGIS Online organization.",
+  "verification": {
+    "verified_at": 1792130962222,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

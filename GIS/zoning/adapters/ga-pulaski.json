@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-pulaski",
+  "publisher": "City of Hawkinsville-Pulaski County",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services/Hawkinsville_Pulaski_Zoning_Classifications/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13235"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClass"
+  },
+  "notes": "City of Hawkinsville and Pulaski County zoning classifications in one layer (source of the Hawkinsville-Pulaski zoning web map). No jurisdiction field, so city and county districts are not separated. Polygons are parcel-based, carrying owner and address fields; zone is ZoningClass.",
+  "verification": {
+    "verified_at": 1792133966430,
+    "counties": [
+      "13235"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

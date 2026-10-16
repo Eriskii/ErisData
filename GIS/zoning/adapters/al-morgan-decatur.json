@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "al-morgan-decatur",
+  "publisher": "City of Decatur, AL (Zoning layer, ArcGIS Online org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/l30Xr6XkGqKMjkly/arcgis/rest/services/Zoning/FeatureServer/36",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONETYPE"
+  },
+  "notes": "City of Decatur zoning districts only (Decatur portion in Morgan County). Source has only zone type code; no jurisdiction or ordinance link.",
+  "verification": {
+    "verified_at": 1792133734553,
+    "counties": [
+      "01103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-tangipahoa",
+  "publisher": "Tangipahoa Parish GIS (TANGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://tangis.tangipahoa.org/server/rest/services/Cadastral/ZoningDistrict_A/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22105"
+    ]
+  },
+  "fields": {
+    "zone": "PropZon",
+    "zone_name": "PropZonDescription"
+  },
+  "notes": "Parish GIS zoning district layer (parcel-based polygons carrying each parcel zone). PropZonMinLot gives minimum lot size. Some features have blank land_use; zone field is the district code.",
+  "verification": {
+    "verified_at": 1792134437203,
+    "counties": [
+      "22105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

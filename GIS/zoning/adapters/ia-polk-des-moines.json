@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ia-polk-des-moines",
+  "publisher": "City of Des Moines GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/HT7H9QGiZQoRJDpJ/arcgis/rest/services/Zoning_Districts_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19153"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneType"
+  },
+  "notes": "City of Des Moines zoning districts (city limits only, not unincorporated Polk County). ZoneType holds district code such as N3a, MX1, RL-1. No ordinance link field filled, so none mapped.",
+  "verification": {
+    "verified_at": 1792134253525,
+    "counties": [
+      "19153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

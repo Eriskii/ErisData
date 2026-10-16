@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-calhoun-battle-creek",
+  "publisher": "City of Battle Creek GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/cuKwt0IKP5B84jop/arcgis/rest/services/Zoning_Adopted_2025/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26025"
+    ]
+  },
+  "fields": {
+    "link": "link",
+    "zone": "zoning",
+    "zone_name": "descriptio"
+  },
+  "notes": "City of Battle Creek adopted zoning (2025) from the city parcel layer with zoning attached; some parcels split for zoning. zone_name is a district description text. Covers only the City of Battle Creek; townships and other cities are not in this layer.",
+  "verification": {
+    "verified_at": 1792132304884,
+    "counties": [
+      "26025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

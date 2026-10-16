@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-tampa",
+  "publisher": "City of Tampa Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.tampagov.net/arcgis/rest/services/OpenData/Planning/MapServer/28",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12057"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Tampa zoning districts within Tampa city limits (Hillsborough County portion of the city). Unincorporated county land is in fl-hillsborough.",
+  "verification": {
+    "verified_at": 1792133848451,
+    "counties": [
+      "12057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

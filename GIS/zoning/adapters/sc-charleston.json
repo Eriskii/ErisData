@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-charleston",
+  "publisher": "Charleston County Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisccapps.charlestoncounty.org/arcgis/rest/services/ENERGOV/energov_ent/MapServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "County Zoning layer covering unincorporated Charleston County and smaller municipalities; ZONING value MUNI marks municipal areas without county zoning; zone_name (ZONE_DESC) is mostly blank so omitted.",
+  "verification": {
+    "verified_at": 1792135332976,
+    "counties": [
+      "45019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

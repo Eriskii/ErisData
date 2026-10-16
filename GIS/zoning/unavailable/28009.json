@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "28009",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.bentoncountyms.gov/tools-and-tips",
+    "https://gis.equatorstudios.com/mississippi_benton/",
+    "https://services7.arcgis.com/deoj2Y8l1tBr7P5X/arcgis/rest/services/BentonService/FeatureServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web. The county's Maps & Zoning page says zoning maps exist but links only to a contact email; no zoning district polygon service is published. The only county ArcGIS service found (BentonService, by AHOS1977) holds lot lines and leader lines, not zoning. The county GIS hub and tscmaps viewer expose no public zoning layer. Ashland and Hickory Flat show no zoning services either; the Equator Studios CAD portal is commercial and offers no queryable service.",
+  "recorded_at": 1792134872765,
+  "recheck_after": 1807686872765,
+  "model": "claude-haiku-5-5"
+}

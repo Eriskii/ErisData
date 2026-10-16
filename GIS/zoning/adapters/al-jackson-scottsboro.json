@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-jackson-scottsboro",
+  "publisher": "City of Scottsboro, AL (Planning/City Engineer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/rrCVxHaaHQin9jsq/arcgis/rest/services/Zoning_Public/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01071"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Description"
+  },
+  "notes": "City of Scottsboro zoning only (county has no zoning outside municipalities; the county is not covered by this layer beyond Scottsboro city limits). Hosted on the city of Scottsboro ArcGIS Online organization. 148 features. Description domain values are inconsistent (e.g., Commerical, Bussiness); zone codes are the ordinance codes.",
+  "verification": {
+    "verified_at": 1792133784506,
+    "counties": [
+      "01071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-los-banos",
+  "publisher": "City of Los Banos (zoning, via Merced County ArcGIS organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/LYh3hRvKq5ASgAVM/arcgis/rest/services/zoning_data/FeatureServer/23",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "Zoning districts of the City of Los Banos only, from the county-organization service zoning_data (layer Zoning_Los_Banos).",
+  "verification": {
+    "verified_at": 1792134060990,
+    "counties": [
+      "06047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

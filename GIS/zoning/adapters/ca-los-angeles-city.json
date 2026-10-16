@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-los-angeles-city",
+  "publisher": "City of Los Angeles Department of City Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/tzwalEyxl2rpamKs/arcgis/rest/services/Zoning_CPA_v2/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "NAME_ALF",
+    "zone": "ZONE_CMPLT",
+    "zone_name": "CATEGORY"
+  },
+  "notes": "City of Los Angeles zoning by Community Plan Area, published by LA City Planning (ladcp) on ArcGIS Online. jurisdiction is the community plan area.",
+  "verification": {
+    "verified_at": 1792132065637,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

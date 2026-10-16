@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-kalamazoo-county",
+  "publisher": "Kalamazoo County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/RGltUbqpl4h9E3Qh/arcgis/rest/services/ZoningGeneralized/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26077"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Juris",
+    "link": "LINK",
+    "zone": "ZONE",
+    "zone_name": "GZ_Descr"
+  },
+  "notes": "Kalamazoo County generalized zoning, countywide with jurisdiction field (townships and cities). Generalized categories; GEN_ZONE holds the generalized code.",
+  "verification": {
+    "verified_at": 1792132270236,
+    "counties": [
+      "26077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-liberty-county",
+  "publisher": "Liberty County GA GIS (via SEGRASS portal)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://portal.segrass.org/crcarcgis/rest/services/Liberty/LandUsePlanning/MapServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13179"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Unincorporated Liberty County zoning polygons (Zoning_County layer), one feature per parcel-zone polygon; zone code in Zoning field. Parcel_Number is a parcel identifier; no jurisdiction or ordinance link field.",
+  "verification": {
+    "verified_at": 1792133977091,
+    "counties": [
+      "13179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

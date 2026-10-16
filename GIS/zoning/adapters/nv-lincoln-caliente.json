@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nv-lincoln-caliente",
+  "publisher": "City of Caliente (hosted by Lincoln County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/zEd0UM6DWpfqnURg/arcgis/rest/services/Landbase_Viewer/FeatureServer/11",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "32017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_1",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "City of Caliente zoning from the county landbase viewer service.",
+  "verification": {
+    "verified_at": 1792134972123,
+    "counties": [
+      "32017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

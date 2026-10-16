@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-wise",
+  "publisher": "Wise County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Ae2apjWUMm5bph7e/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51195"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "LOCATION_2",
+    "zone": "ZONE_ID_12",
+    "zone_name": "ZONE_12"
+  },
+  "notes": "Wise County GIS zoning layer (2016), county and town districts; ZONE_ID_12 is the district code, ZONE_12 its name. Some rows are blank placeholders.",
+  "verification": {
+    "verified_at": 1792136003964,
+    "counties": [
+      "51195"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

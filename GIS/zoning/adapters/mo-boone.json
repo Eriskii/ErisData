@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-boone",
+  "publisher": "Boone County GIS Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/vLIkEstGHRy4RrNF/arcgis/rest/services/Zoning_Polygons/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Boone County GIS Department zoning polygons, county-wide layer as published (unincorporated county zoning districts such as A-R, R-S). No jurisdiction or zone name field; ORDINANCE mostly empty and not mapped. Hosted on county ArcGIS Online organization; licensed by county for download.",
+  "verification": {
+    "verified_at": 1792134644856,
+    "counties": [
+      "29019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

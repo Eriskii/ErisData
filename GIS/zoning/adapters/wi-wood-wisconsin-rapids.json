@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-wood-wisconsin-rapids",
+  "publisher": "City of Wisconsin Rapids",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wirapids.org/arcgis/rest/services/Public_Basemap_svc/MapServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55141"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Wisconsin Rapids public basemap zoning districts",
+  "verification": {
+    "verified_at": 1792136203329,
+    "counties": [
+      "55141"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

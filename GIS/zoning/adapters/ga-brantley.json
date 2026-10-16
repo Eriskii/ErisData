@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-brantley",
+  "publisher": "Brantley County GIS (parcel layer, zoning attribute)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/86pyA5PND5NdokIc/arcgis/rest/services/Brantley_Parcels_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13025"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "LAST RESORT: no county zoning district layer is published. This is the county parcel layer; its zoning attribute holds unlabelled numeric codes (001 for about 12,000 parcels, 002-008 for others, blank for some), not district codes such as R-1. zoningcode is blank. Codes are not mapped to district names; the Brantley County Land Use Ordinance (2016, PDF) defines the districts. Parcel polygons, not district polygons.",
+  "verification": {
+    "verified_at": 1792133935991,
+    "counties": [
+      "13025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-hickman",
+  "publisher": "Hickman County zoning (RCSPlanners, county planning consultant)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/8PmFuaCvSsknw5Z0/arcgis/rest/services/HickmanCounty_Zoning/FeatureServer/0",
+    "page_size": 1,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47081"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Current",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "Dense geometry, so page_size 1 and esri JSON (geojson false) needed; county zoning outside Centerville",
+  "verification": {
+    "verified_at": 1792136737186,
+    "counties": [
+      "47081"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

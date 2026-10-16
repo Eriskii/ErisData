@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-natchitoches-parish",
+  "publisher": "Natchitoches Parish GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/KjpqEgbfVdifqJ9y/arcgis/rest/services/Zoning_(PUBLIC_VIEW)/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22069"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "notes": "Parish GIS public view of base zoning districts (31,339 polygons; Zoning field holds the district code). Layer 18 (Special Use) is a separate overlay and not used. No ordinance link field is populated. Verify currency with Parish Planning and Zoning.",
+  "verification": {
+    "verified_at": 1792134408313,
+    "counties": [
+      "22069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

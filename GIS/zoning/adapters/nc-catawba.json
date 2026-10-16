@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-catawba",
+  "publisher": "Catawba County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis2.catawbacountync.gov/arcgis/rest/services/energov/energov_map/MapServer/66",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37035"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "District",
+    "zone": "Zoning",
+    "zone_name": "GenZoning"
+  },
+  "notes": "County energov_map Zoning_All layer: unincorporated county plus municipal zoning; District holds the jurisdiction name. GenZoning is the general class (residential, industrial), not a full district name.",
+  "verification": {
+    "verified_at": 1792135106271,
+    "counties": [
+      "37035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

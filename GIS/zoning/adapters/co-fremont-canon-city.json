@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-fremont-canon-city",
+  "publisher": "City of Cañon City GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/uyiKfcZeJueKDjKQ/arcgis/rest/services/Zoning/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08043"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_LBL",
+    "zone_name": "ZONE_L"
+  },
+  "notes": "City of Cañon City zoning only; unincorporated county land is not covered by this layer. Source is the city-hosted ArcGIS Online service.",
+  "verification": {
+    "verified_at": 1792133903729,
+    "counties": [
+      "08043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

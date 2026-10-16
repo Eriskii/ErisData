@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ky-kenton",
+  "publisher": "LINK-GIS / Planning and Development Services of Kenton County",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.linkgis.org/server/rest/services/Economic_Development_Theme/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21117"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY_NAME",
+    "link": "ORDINANCE",
+    "zone": "ZONE",
+    "zone_name": "PRIMARY_DE"
+  },
+  "notes": "Kenton County zoning layer from LINK-GIS covering unincorporated county and cities in Kenton County; CITY_NAME gives jurisdiction (Unincorporated for county land). zone_name from PRIMARY_DE. Overlay districts are in separate fields and are not used for zone.",
+  "verification": {
+    "verified_at": 1792134337559,
+    "counties": [
+      "21117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

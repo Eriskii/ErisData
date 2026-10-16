@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "al-lee-auburn",
+  "publisher": "City of Auburn, AL Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/0RjRAvWbkNc5KOKe/arcgis/rest/services/Zoning_Districts/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01081"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "City of Auburn base zoning districts (Auburn is mostly in Lee County). Unincorporated Lee County and other cities have no queryable zoning layer found. Ordinance field holds ordinance reference, not a URL.",
+  "verification": {
+    "verified_at": 1792133715732,
+    "counties": [
+      "01081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

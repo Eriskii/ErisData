@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-somerset-crisfield",
+  "publisher": "City of Crisfield (zoning layer hosted by ESRGCoop)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/X3lKekbdaBmNjCHu/arcgis/rest/services/crisfieldZoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24039"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZoneType"
+  },
+  "notes": "City of Crisfield zoning districts, the largest incorporated town in the county, published on ArcGIS by its consultant. Covers only land inside Crisfield city limits and complements the state generalized layer.",
+  "verification": {
+    "verified_at": 1792134691802,
+    "counties": [
+      "24039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

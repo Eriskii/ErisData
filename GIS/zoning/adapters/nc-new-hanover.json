@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-new-hanover",
+  "publisher": "New Hanover County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.nhcgov.com/server/rest/services/Layers/Zoning/FeatureServer/1",
+    "page_size": 25,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "37129"
+    ]
+  },
+  "fields": {
+    "link": "WEBSITE",
+    "zone": "ZONING",
+    "zone_name": "ZONINGTXT"
+  },
+  "notes": "County zoning districts (unincorporated county layer; municipal zoning not included). Conditional zoning layer is separate (FeatureServer/0).",
+  "verification": {
+    "verified_at": 1792135087295,
+    "counties": [
+      "37129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

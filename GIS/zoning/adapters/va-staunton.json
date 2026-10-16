@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-staunton",
+  "publisher": "City of Staunton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/bp3MWUdz4OBPF6xz/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51790"
+    ]
+  },
+  "fields": {
+    "link": "WEBLINK",
+    "zone": "LABEL_FLD"
+  },
+  "notes": "City of Staunton zoning map layer (426 features), StauntonGIS. Zone code in LABEL_FLD; no separate district name field.",
+  "verification": {
+    "verified_at": 1792135980987,
+    "counties": [
+      "51790"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

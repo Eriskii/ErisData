@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "17131",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.mercercountyil.org/deparments/assessments.php",
+    "https://illinoispropertyrecords.us/mercer-county",
+    "https://www.mercercountyil.org/deparments/zoning.php",
+    "https://cms8.revize.com/revize/mercer/Zoning/Zoning%20Resolution.pdf"
+  ],
+  "note": "Mercer County IL publishes zoning only through its Portico viewer (portico.mygisonline.com/html5/MercerIL, an ArcGIS web app whose REST services return 500/no public service URL) and through PDF zoning resolution/maps; the zoning department page points to the property-tax software (merceril.devnetwedge.com), not a queryable service. No county or city zoning FeatureServer/MapServer was found for Mercer County, IL (Aledo's zoning map is a PDF; WIU's Aledo web map is password protected).",
+  "recorded_at": 1792134113935,
+  "recheck_after": 1807686113935,
+  "model": "claude-haiku-5-5"
+}

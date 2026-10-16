@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "oh-knox-mtvernon",
+  "publisher": "City of Mount Vernon, Ohio (MountVernonAdmin ArcGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Y7PeWn4D91vS4Fza/arcgis/rest/services/City_of_Mount_Vernon_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39083"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Mount Vernon zoning, published as a parcel-polygon layer carrying each parcel zoning code in Zone (blank for some parcels). A fallback: the county zoning zip did not validate. Covers the city only; no district name or ordinance link field.",
+  "verification": {
+    "verified_at": 1792135253462,
+    "counties": [
+      "39083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

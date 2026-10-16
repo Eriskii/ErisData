@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-greenville-city",
+  "publisher": "City of Greenville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://citygis.greenvillesc.gov/arcgis/rest/services/GeneralData/GeneralData_6570/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45045"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Greenville zoning only (not county unincorporated land). Layer has no zone name or ordinance link field.",
+  "verification": {
+    "verified_at": 1792135394817,
+    "counties": [
+      "45045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

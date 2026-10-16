@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-union-county",
+  "publisher": "Oregon DLCD / Oregon Explorer statewide zoning (2023)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/CD5mKowwN6nIaqd8/arcgis/rest/services/library_bnd_or_zoning_2023/FeatureServer/56",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41061"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Union County' AND OBJECTID <> 38643",
+  "notes": "DLCD statewide compilation, 2023; unincorporated Union County; one polygon with invalid geometry excluded",
+  "verification": {
+    "verified_at": 1792135705997,
+    "counties": [
+      "41061"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

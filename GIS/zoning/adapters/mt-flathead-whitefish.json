@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mt-flathead-whitefish",
+  "publisher": "City of Whitefish",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.flatheadcounty.gov/server/rest/services/IMA/Zoning/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30029"
+    ]
+  },
+  "fields": {
+    "link": "CODEURL",
+    "zone": "Zone_Base",
+    "zone_name": "ZONE_USE"
+  },
+  "notes": "City of Whitefish zoning districts, from Flathead County IMA Zoning MapServer layer 10. Zone_Base is the base district code; ZONE_USE the district description; PUD overlays carried in Zone_PUD.",
+  "verification": {
+    "verified_at": 1792134857178,
+    "counties": [
+      "30029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

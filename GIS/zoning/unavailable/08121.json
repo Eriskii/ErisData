@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "08121",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://washingtoncounty.colorado.gov/departments/administration/planning-and-zoning",
+    "https://washingtoncounty.colorado.gov/maps",
+    "https://www.townofakron.com/173/Municipal-Code-Zoning-Maps",
+    "https://services2.arcgis.com/j80Jz20at6Bi0thr/arcgis/rest/services/WashingtonCo_Parcels/FeatureServer/0"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web. Washington County CO's Land Use Office publishes no zoning district service; county pages are blocked (403) or list no GIS layer. Akron's zoning page links only to code text and says to contact the Town Clerk for maps; Otis has none found. The only Washington County CO layer found (COOIT-derived parcel layer, services2 j80Jz20at6Bi0thr WashingtonCo_Parcels) has a zoningCode field that is empty for every feature, so it cannot serve as zoning. The 'Land Use Districts (zoning / plan)' hub dataset belongs to Washington County, Wisconsin. Adams County's host has no Washington County layer.)",
+  "recorded_at": 1792133886892,
+  "recheck_after": 1807685886892,
+  "model": "claude-haiku-5-5"
+}

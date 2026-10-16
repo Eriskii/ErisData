@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wv-wood-parkersburg",
+  "publisher": "City of Parkersburg (copy hosted by PDawkins84, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/I8pSJOemL3kCZnh8/arcgis/rest/services/Parkersburg_Zones/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54107"
+    ]
+  },
+  "fields": {
+    "zone": "layer",
+    "zone_name": "Zone_Def"
+  },
+  "notes": "Copy of City of Parkersburg zoning uploaded to ArcGIS Online by an individual account (PDawkins84); no official county or city service found. Covers City of Parkersburg only, not unincorporated county.",
+  "verification": {
+    "verified_at": 1792136052776,
+    "counties": [
+      "54107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

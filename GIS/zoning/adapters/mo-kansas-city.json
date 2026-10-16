@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-kansas-city",
+  "publisher": "City of Kansas City, Missouri (City Planning & Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapd.kcmo.org/kcgis/rest/services/maps/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29165"
+    ]
+  },
+  "fields": {
+    "link": "ORD_NO",
+    "zone": "CLASSIFICATION",
+    "zone_name": "LANDUSE"
+  },
+  "notes": "City of Kansas City MO base zoning; covers the Kansas City portion within Platte County. Overlay districts are in a separate layer and are not used.",
+  "verification": {
+    "verified_at": 1792134888246,
+    "counties": [
+      "29165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

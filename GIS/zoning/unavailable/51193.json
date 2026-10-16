@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "51193",
+  "reason": "login-required",
+  "evidence": [
+    "https://services8.arcgis.com/GsW4wq87Gx6QRYit/arcgis/rest/services/ZONING/FeatureServer",
+    "https://www.arcgis.com/sharing/rest/content/items/a4913e7fc3814da79289b424e7940955?f=json",
+    "https://hub.arcgis.com/datasets/a4913e7fc3814da79289b424e7940955_0"
+  ],
+  "note": "Westmoreland County's zoning layer (ArcGIS Online item by WesmoGIS, ZONING FeatureServer on services8.arcgis.com) returns 'Token Required'. The county's Hub zoning dataset points to a Tennessee service (Sumner County area), not Westmoreland. No other public Westmoreland zoning polygon layer was found; the county GIS web map has parcels and addresses only.",
+  "recorded_at": 1792136052259,
+  "recheck_after": 1807688052259,
+  "model": "claude-haiku-5-5"
+}

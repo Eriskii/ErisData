@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-ware",
+  "publisher": "Ware County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/XAyIBOsw3fLfDjTY/arcgis/rest/services/WareCounty_Base_gdb/FeatureServer/25",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "13299"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_DIS",
+    "zone_name": "Zoning_Long"
+  },
+  "notes": "Ware County GA base GIS geodatabase, County_Zoning layer (unincorporated county zoning; Waycross and other cities zone separately).",
+  "verification": {
+    "verified_at": 1792134005937,
+    "counties": [
+      "13299"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

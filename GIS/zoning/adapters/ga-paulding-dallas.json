@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-paulding-dallas",
+  "publisher": "City of Dallas, Georgia",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/eaXMnnhlTkGbwQYU/arcgis/rest/services/City_of_Dallas_Official_Zoning_Map_WFL1/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13223"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "UDC"
+  },
+  "notes": "City of Dallas GA official zoning map (Master Zoning layer), published by the city on its ArcGIS Online organization; UDC holds the current zoning as named in the Unified Development Code. Covers City of Dallas only.",
+  "verification": {
+    "verified_at": 1792133999426,
+    "counties": [
+      "13223"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ks-douglas-county",
+  "publisher": "Douglas County Kansas GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/8O9UlSTnqjKptoda/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20045"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "Unincorporated Douglas County zoning districts, published by City of Lawrence/Douglas County GIS. Covers land outside incorporated cities.",
+  "verification": {
+    "verified_at": 1792134234729,
+    "counties": [
+      "20045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

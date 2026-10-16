@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-brazoria-pearland",
+  "publisher": "City of Pearland GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/iJ6DPCVBtManqbJU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48039"
+    ]
+  },
+  "fields": {
+    "link": "LinkField",
+    "zone": "Zone_Name",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "City of Pearland base zoning districts only (city limits, not unincorporated Brazoria County). Source reports 1910 features. Reprojected from state plane 102740 by service.",
+  "verification": {
+    "verified_at": 1792135585087,
+    "counties": [
+      "48039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

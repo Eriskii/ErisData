@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-winona-wilson",
+  "publisher": "Winona County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services4.arcgis.com/JRjQuFG9VKLnZxt7/arcgis/rest/services/Winona_Zoning_Project_gdb/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27169"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_ID",
+    "zone_name": "ZONING"
+  },
+  "notes": "Wilson Township zoning, which the township administers itself, from the county zoning project layer.",
+  "verification": {
+    "verified_at": 1792134695510,
+    "counties": [
+      "27169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

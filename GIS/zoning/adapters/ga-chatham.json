@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-chatham",
+  "publisher": "SAGIS (Savannah-Chatham GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://pub.sagis.org/arcgis/rest/services/OpenData/Boundaries/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13051"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONING_DISTRICT"
+  },
+  "notes": "Official zoning layer for City of Savannah and unincorporated Chatham County (SAGIS open data). ZONE holds district code incl. overlay suffixes (e.g. R-1-B/EO); CODE is a numeric category, not mapped. Other cities in county (Pooler, Garden City, Port Wentworth, Thunderbolt, Tybee) not included.",
+  "verification": {
+    "verified_at": 1792133869373,
+    "counties": [
+      "13051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-adams-council",
+  "publisher": "City of Council, Idaho",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/fhV7YmN3ZH8F4stQ/arcgis/rest/services/City_of_Council_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16003"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Updated_Zone"
+  },
+  "notes": "City of Council zoning only (incorporated city, not unincorporated county). Layer hosted on the city's ArcGIS Online organization, linked from the city zoning web map. 32 features. Updated_Zone is the revised zone label.",
+  "verification": {
+    "verified_at": 1792133711184,
+    "counties": [
+      "16003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

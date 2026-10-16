@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-taney-branson",
+  "publisher": "City of Branson GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.bransonmo.gov/application/rest/services/Applications/NightlyRentalsApp/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29213"
+    ]
+  },
+  "fields": {
+    "link": "ZONING_URL",
+    "zone": "CODE",
+    "zone_name": "LAND_USE"
+  },
+  "notes": "City of Branson zoning only (no unincorporated Taney County layer found). CODE holds category (LDR, MDR, HDR, NC, CC, D, ENT, PD, UZ, A, CON, U); LAND_USE holds district label, inconsistent in places. ZONECODE is a numeric code. Layer is from the city Nightly Rentals app, off by default.",
+  "verification": {
+    "verified_at": 1792134863011,
+    "counties": [
+      "29213"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

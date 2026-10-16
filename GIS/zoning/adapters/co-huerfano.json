@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "co-huerfano",
+  "publisher": "Huerfano County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map.huerfano.us/server/rest/services/Hosted/Huerfano_County_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08055"
+    ]
+  },
+  "fields": {
+    "zone": "zone"
+  },
+  "notes": "Huerfano County county-hosted zoning layer (county maps portal map.huerfano.us). 49 polygons; unincorporated county zoning. Only zone code published; no name or ordinance link fields.",
+  "verification": {
+    "verified_at": 1792133818635,
+    "counties": [
+      "08055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

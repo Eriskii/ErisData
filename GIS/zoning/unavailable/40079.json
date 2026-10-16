@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "40079",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://codelibrary.amlegal.com/codes/poteauok/latest/poteau_ok/0-0-0-5184",
+    "https://www.dynamospatial.com/t/le-flore-county-ok/poteau/parcel-data",
+    "https://www.datacrosspoint.com/leflore-county-property-search/"
+  ],
+  "note": "No queryable zoning district service found for Le Flore County (FIPS 40079) or its cities. ArcGIS searches for zoning returned nothing for Le Flore, Poteau, Sallisaw or Oklahoma; the county's LeFlore_County_Data service (twoody_uok) holds only transportation, legislative, municipal boundary and hydrology layers. Poteau's code (Chapter 3, Zoning Districts; Map) refers to a zoning map but links no GIS service or file. Zoning fields appear only in paid parcel vendor data (Dynamo Spatial) and an assessor lookup (datacrosspoint), not in public district polygons.",
+  "recorded_at": 1792135301084,
+  "recheck_after": 1807687301084,
+  "model": "claude-haiku-5-5"
+}

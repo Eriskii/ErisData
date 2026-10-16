@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nv-douglas",
+  "publisher": "Douglas County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.douglasnv.us/server/rest/services/Zoning/FeatureServer/3",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32005"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDesc"
+  },
+  "filter": "Acres < 1000",
+  "notes": "Douglas County NV base zoning (no incorporated cities). Filter Acres < 1000 omits 43 of 2049 very large polygons (e.g. FR-19 mega-polygon) whose geometry is invalid (fails polygon validity) in the county source; they need fixing by the county.",
+  "verification": {
+    "verified_at": 1792135112614,
+    "counties": [
+      "32005"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

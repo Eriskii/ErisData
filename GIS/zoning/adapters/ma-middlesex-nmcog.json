@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ma-middlesex-nmcog",
+  "publisher": "Northern Middlesex Council of Governments (NMCOG)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/8sfNXBvIUURUO8wz/arcgis/rest/services/NMCOG_Zoning_Districts_v20230106/FeatureServer/131",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Town_Name",
+    "zone": "Zone_CODE",
+    "zone_name": "Zone_DESC"
+  },
+  "notes": "Regional planning commission aggregate (draft, 1/2023) of base zoning districts for Billerica, Chelmsford, Dracut, Dunstable, Lowell, Pepperell, Tewksbury, Tyngsborough and Westford (Middlesex County MA). Cambridge is covered separately. Towns not listed here (e.g. Somerville, Newton) are not in this layer.",
+  "verification": {
+    "verified_at": 1792134502020,
+    "counties": [
+      "25017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

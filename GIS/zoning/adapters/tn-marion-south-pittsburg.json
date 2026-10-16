@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-marion-south-pittsburg",
+  "publisher": "City of South Pittsburg, TN (SETDD hosted)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Corporate_Zoning_52824/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47115"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "City of South Pittsburg zoning districts, hosted by SETDD. Corporate limits layer.",
+  "verification": {
+    "verified_at": 1792136007575,
+    "counties": [
+      "47115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-page",
+  "publisher": "Iowa State University ISUGIS (compiled copy; Page County cities digitized from city zoning maps)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "19145"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city IN ('Clarinda', 'Shenandoah')",
+  "notes": "Compiled copy by Iowa State University ISUGIS of city zoning maps (Clarinda digitized by TZ, Shenandoah digitized by NM); not an official county service. Page County publishes no queryable zoning layer; unincorporated county land is not covered.",
+  "verification": {
+    "verified_at": 1792134210783,
+    "counties": [
+      "19145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

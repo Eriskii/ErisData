@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-cortland",
+  "publisher": "Cortland County GIS / Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/fRWb1mz1huf3Aqyy/arcgis/rest/services/Cortland_Zoning_Feature_Layer/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "36023"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "Cortland County zoning layer published by the county planning office; no jurisdiction field, so towns and villages are not separated. Some municipalities in the county have no zoning (see Cortland Munis Without Zoning layer).",
+  "verification": {
+    "verified_at": 1792134998544,
+    "counties": [
+      "36023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

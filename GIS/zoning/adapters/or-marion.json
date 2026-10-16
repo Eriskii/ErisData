@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "or-marion",
+  "publisher": "Marion County Planning Division",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.marion.or.us/arcgis/rest/services/Public/LandUsePlanningZoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "link": "ZONEWEB",
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Marion County Planning Division zoning for unincorporated county land (URBAN flag marks urban-area zones). Cities zone their own land; not included.",
+  "verification": {
+    "verified_at": 1792135275375,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

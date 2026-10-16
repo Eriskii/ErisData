@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ar-conway-morrilton",
+  "publisher": "City of Morrilton",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/c1MmOsG81vR6nqJP/arcgis/rest/services/Morrilton_PZ/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05029"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "ZoneD"
+  },
+  "notes": "City of Morrilton zoning districts only; not unincorporated county land. Published 1/30/2024 in the City of Morrilton Morrilton_PZ service. Some districts are coded ? / Not defined.",
+  "verification": {
+    "verified_at": 1792133756179,
+    "counties": [
+      "05029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-calcasieu",
+  "publisher": "Calcasieu Parish",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/FqQ2BQIKVGpUWqAa/arcgis/rest/services/Calcasieu_Parish_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "Zn_Descr"
+  },
+  "notes": "Parish zoning polygons; PIN is parcel id. Hosted ArcGIS Online copy; verify ownership.",
+  "verification": {
+    "verified_at": 1792134406126,
+    "counties": [
+      "22019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

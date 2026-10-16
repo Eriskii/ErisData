@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nv-pershing",
+  "publisher": "Pershing County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/qOD0sKAJC4zVpWPR/arcgis/rest/services/Landbase/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32027"
+    ]
+  },
+  "fields": {
+    "zone": "Z1"
+  },
+  "notes": "Last resort: no county zoning-district polygon layer is published in Pershing County GIS (checked the county Hub, the pershingco-nv AGOL org and Landbase). Zone codes are carried on the county Parcel Boundary layer (Z1 = Zone Code #1), so each feature is a parcel carrying its zoning code, not a district polygon. Z1 is populated for about 12,000 of 12,156 parcels. No zone name field is populated. Official county-maintained layer.",
+  "verification": {
+    "verified_at": 1792135022912,
+    "counties": [
+      "32027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

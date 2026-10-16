@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-mchenry-county",
+  "publisher": "McHenry County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.mchenrycountygis.org/arcgis/rest/services/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17111"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CLASSIFICATION",
+    "zone_name": "CLASSIFICATION"
+  },
+  "notes": "Unincorporated McHenry County zoning lots (PlanDev viewer source). Zone code in ZONING_CLASSIFICATION, description in CLASSIFICATION. Covers unincorporated land only; municipalities zone their own.",
+  "verification": {
+    "verified_at": 1792133991959,
+    "counties": [
+      "17111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

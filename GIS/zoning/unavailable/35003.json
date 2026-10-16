@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "35003",
+  "reason": "none-exists",
+  "evidence": [
+    "https://services3.arcgis.com/fneA3L2J0387Pb3S/arcgis/rest/services/Tax_Parcel_Polygon20241007/FeatureServer/0",
+    "https://www.srca.nm.gov/county-subdivision-regulations/",
+    "https://swnmcog.org/wp-content/uploads/2022/06/Catron-County-Comprehensive-Plan-3-07-Complete-Final.pdf"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Catron County NM zoning districts. The county GIS (services3.arcgis.com/fneA3L2J0387Pb3S) publishes parcels, roads, addresses and subdivision linework only; the parcel layer has no zoning field. The county's land documents are subdivision regulations (1973-1998) and a 2007 comprehensive plan, not a zoning district layer. Reserve (county seat village) publishes no zoning layer found. Only third-party sites (Zoneomics, Regrid) show zoning, and they are not official queryable services.",
+  "recorded_at": 1792134992944,
+  "recheck_after": 1807686992944,
+  "model": "claude-haiku-5-5"
+}

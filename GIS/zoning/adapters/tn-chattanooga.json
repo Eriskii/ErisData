@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-chattanooga",
+  "publisher": "City of Chattanooga (zoning districts, hosted by HLA for the city)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/74bZbbuf05Ctvbzv/arcgis/rest/services/Chattanooga_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47065"
+    ]
+  },
+  "fields": {
+    "zone": "new_zone"
+  },
+  "notes": "City of Chattanooga zoning districts; new_zone is the current district code, old_zone the prior code. Covers the city only.",
+  "verification": {
+    "verified_at": 1792135499021,
+    "counties": [
+      "47065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

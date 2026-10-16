@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "37117",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.townofwilliamston.com/departments/planning_and_zoning/Ordinances/zoning_map.php",
+    "https://robersonville.org/town_services/planning/index.php",
+    "https://martincountyedc.com/permitting/",
+    "https://gis.martincountyncgov.com/server/rest/services/ParcelWebMapTest/MapServer/5"
+  ],
+  "note": "Martin County has no countywide zoning (county permitting page). Williamston, Hamilton and Robersonville have zoning ordinances; Williamston and Robersonville publish zoning maps only as PDF/web pages, with no queryable district layer found. The county's only queryable ZONING layer (ParcelWebMapTest and ParcelMapSQLExpress MapServer/5, 65 polygons, ZONE field, last updated 2019) covers only a small part of the county and returned zero districts within 0.25 degrees of the sample point (-77.19555, 35.86510), failing validation (2 attempts).",
+  "recorded_at": 1792135209996,
+  "recheck_after": 1807687209996,
+  "model": "claude-haiku-5-5"
+}

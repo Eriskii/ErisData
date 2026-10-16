@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ky-pendleton",
+  "publisher": "LINK-GIS (Pendleton County zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.linkgis.org/server/rest/services/Economic_Development_Theme/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21191"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "City_name",
+    "link": "Ordinance",
+    "zone": "Zone",
+    "zone_name": "Zone"
+  },
+  "notes": "LINK-GIS hosted layer covering Pendleton County; City_name identifies the jurisdiction (Falmouth, Butler, or unincorporated).",
+  "verification": {
+    "verified_at": 1792134363181,
+    "counties": [
+      "21191"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

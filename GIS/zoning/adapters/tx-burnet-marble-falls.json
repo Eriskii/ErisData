@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-burnet-marble-falls",
+  "publisher": "City of Marble Falls GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/IeXFMFwivjBzu9iB/arcgis/rest/services/Zoning_Official_New/FeatureServer/4",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "48053"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "Zone_ID",
+    "zone_name": "Zone_Name"
+  },
+  "filter": "OBJECTID <> 40",
+  "notes": "City of Marble Falls official zoning; filter drops one feature with invalid (self-intersecting) geometry",
+  "verification": {
+    "verified_at": 1792136209190,
+    "counties": [
+      "48053"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-hinds-jackson",
+  "publisher": "City of Jackson, MS (Office of City Planning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/n0wqzAPJddc1vROD/arcgis/rest/services/2025Zoning_shp/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28049"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneClass"
+  },
+  "notes": "City of Jackson zoning (2025Zoning_shp layer from the city zoning web map, jacksongis org). Covers Jackson city limits only; unincorporated Hinds County and other towns are not in this layer. Each parcel carries its ZoneClass; no zone name or ordinance link field.",
+  "verification": {
+    "verified_at": 1792134841421,
+    "counties": [
+      "28049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

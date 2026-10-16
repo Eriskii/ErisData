@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ut-box-elder",
+  "publisher": "Box Elder County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/QcxW3q3Hq3nqNMhd/arcgis/rest/services/Box_Elder_County_Zoning/FeatureServer/22",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49003"
+    ]
+  },
+  "fields": {
+    "link": "Hyperlink",
+    "zone": "Zone_",
+    "zone_name": "Zoning"
+  },
+  "notes": "Box Elder County Zoning layer from the county GIS (becogis) web map; unincorporated zoning districts.",
+  "verification": {
+    "verified_at": 1792135784894,
+    "counties": [
+      "49003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "45079",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://geoserver.richlandmaps.com/geoserver/wms?service=WMS&version=1.3.0&request=GetCapabilities",
+    "https://www.richlandmaps.com/apps/dataviewer/",
+    "https://services3.arcgis.com/AjBPamFyqRh9Nsiu/ArcGIS/rest/services/2024_8_29_Irmo_Zoning_Map_WFL1/FeatureServer/2"
+  ],
+  "note": "Richland County (SC) zoning districts are shown in the county's RCGeo viewer from a GeoServer layer rcgeo_zoning_wgs84 that is only served as WMS (WFS returns 'Service WFS is disabled'); no county-wide queryable zoning service found on richlandmaps.com, richlandcountysc.gov, or ArcGIS Online. The only queryable ArcGIS zoning layer is a 2024 Irmo-only layer (8,559 polygons, 39% zone fill, no districts at the county's interior point, so it fails validation). Columbia city zoning was not found as a queryable service either.",
+  "recorded_at": 1792135532138,
+  "recheck_after": 1807687532138,
+  "model": "claude-haiku-5-5"
+}

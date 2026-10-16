@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-alamance-burlington",
+  "publisher": "City of Burlington / Burlington-Alamance ReGIS Partnership",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.regisnc.org/arcgis/rest/services/BurlZoningCounty/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37001"
+    ]
+  },
+  "fields": {
+    "zone": "DIST_IDW",
+    "zone_name": "DIST_DESCW"
+  },
+  "notes": "City of Burlington base zoning only (not overlays), hosted by Burlington-Alamance ReGIS on maps.regisnc.org. Covers Burlington city limits only.",
+  "verification": {
+    "verified_at": 1792135091920,
+    "counties": [
+      "37001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

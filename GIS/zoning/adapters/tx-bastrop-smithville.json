@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-bastrop-smithville",
+  "publisher": "City of Smithville / Bastrop County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/wdTkTU0MdZbNBEZy/arcgis/rest/services/Smithville_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Smithville zoning layer hosted on Bastrop County GIS ArcGIS Online organization; described as overlay in metadata but holds zoning district codes. Only city of Smithville covered.",
+  "verification": {
+    "verified_at": 1792135573055,
+    "counties": [
+      "48021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

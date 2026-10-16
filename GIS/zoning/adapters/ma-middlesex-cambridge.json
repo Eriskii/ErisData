@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ma-middlesex-cambridge",
+  "publisher": "City of Cambridge GIS (CDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/WnzC35krSYGuYov4/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE",
+    "zone_name": "ZONE_TYPE"
+  },
+  "notes": "Massachusetts counties do not zone; this is the City of Cambridge base zoning districts layer (Cambridge is in Middlesex County). ZONE_TYPE holds the district code; PUD overlay fields not mapped.",
+  "verification": {
+    "verified_at": 1792134475833,
+    "counties": [
+      "25017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

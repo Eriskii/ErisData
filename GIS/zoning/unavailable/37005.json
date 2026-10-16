@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "37005",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://alleghanycounty-nc.gov/alleghany-county-online-ordinances/",
+    "https://alleghanycounty-nc.gov/ordinances/1-176.pdf",
+    "https://www.webgis.net/arcgis/rest/services/NC/Alleghany/MapServer",
+    "https://www.townofsparta.org/wp-content/uploads/2022/06/Sparta-Land-Use-Plan-Final.pdf"
+  ],
+  "note": "Alleghany County NC has no countywide zoning (unincorporated land is subdivision/land-use regulated only; 1999 Roaring Gap land use district ordinance). Town of Sparta has zoning (Chapter 156, Official Zoning Map), but no queryable zoning district service was found: the county webgis MapServer (49 layers) has Sparta Limits and Sparta ETJ but no zoning layer; ArcGIS Hub/Online searches for Sparta/Alleghany zoning returned only unrelated items; the town's zoning map appears only as PDF/image.",
+  "recorded_at": 1792135114209,
+  "recheck_after": 1807687114209,
+  "model": "claude-haiku-5-5"
+}

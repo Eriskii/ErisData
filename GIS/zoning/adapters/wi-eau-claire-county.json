@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-eau-claire-county",
+  "publisher": "Eau Claire County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.eauclairecounty.gov/agsserver/rest/services/BaseLayers/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55035"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "Name"
+  },
+  "notes": "County zoning covers only unincorporated areas and towns under county zoning; incorporated cities zone their own land and are not in this layer.",
+  "verification": {
+    "verified_at": 1792136033059,
+    "counties": [
+      "55035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

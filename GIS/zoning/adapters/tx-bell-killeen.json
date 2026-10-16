@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-bell-killeen",
+  "publisher": "City of Killeen, TX (copy on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/1UWmeVkkResmC9lR/arcgis/rest/services/Killeen_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48027"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCEN",
+    "zone": "CODE"
+  },
+  "notes": "ArcGIS Online item Killeen_Zoning by an individual account, not the city org; city GIS map at killeengis.killeentexas.gov is not queryable. ORDINANCEN holds ordinance number, not a URL.",
+  "verification": {
+    "verified_at": 1792135644588,
+    "counties": [
+      "48027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

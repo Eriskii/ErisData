@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-camp-pittsburg",
+  "publisher": "City of Pittsburg, TX (hosted by East Texas Council of Governments)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.etcog.org/arcgis/rest/services/PITTSBURG/PITTSBURG_ZONING_public/MapServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48063"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Pittsburg zoning districts only; Camp County itself does not publish a county zoning layer. Hosted by ETCOG for the city. Public MapServer, no login.",
+  "verification": {
+    "verified_at": 1792135583952,
+    "counties": [
+      "48063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

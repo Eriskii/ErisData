@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-st-cloud",
+  "publisher": "City of St. Cloud GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgisweb.stcloud.org/arcgis/rest/services/Referenced_Layers/Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12097"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of St. Cloud zoning (city limits only; complements fl-osceola, which excludes incorporated land). The layer is parcel-level: each feature carries its parcel attributes with the zoning in Zoning, so districts repeat across parcels. Also holds parcel owner fields; not mapped.",
+  "verification": {
+    "verified_at": 1792133920296,
+    "counties": [
+      "12097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

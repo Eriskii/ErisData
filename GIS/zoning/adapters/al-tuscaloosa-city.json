@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-tuscaloosa-city",
+  "publisher": "City of Tuscaloosa Planning Division",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/DADyRNMb7tdzKmmq/arcgis/rest/services/Tuscaloosa_City_Zoning_Districts/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01125"
+    ]
+  },
+  "fields": {
+    "zone": "zone_class",
+    "zone_name": "zone_descript"
+  },
+  "notes": "City of Tuscaloosa base zoning districts only (layer 3; excludes overlays, PUDs, historic). Covers city limits only; unincorporated county not zoned in this layer.",
+  "verification": {
+    "verified_at": 1792133710137,
+    "counties": [
+      "01125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

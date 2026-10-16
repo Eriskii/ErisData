@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "19143",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://osceolacountyia.gov/departments/zoning/",
+    "https://osceolacountyia.gov/wp-content/uploads/2020/09/2013-Osceola-County-Zoning-Map-10-18-13.pdf",
+    "https://beacon.schneidercorp.com/?site=OsceolaCountyIA",
+    "https://gis.osceola.org/hosting/rest/services/Zoning/MapServer"
+  ],
+  "note": "Osceola County, Iowa publishes its official zoning map as a 2013 PDF and points users to the Beacon (Schneider) viewer, which is bot-protected (403). Its own GIS portal host gis.osceola.org is unreachable from here, and the Zoning MapServer on that host is for Osceola County, Florida. No Osceola County zoning district service was found. The only queryable Sibley district layer is an unofficial Iowa State University copy (services.arcgis.com/XORNS2fPFySPlBgy, zoning_districts_all_data_v2, fips7 1972975): 8 districts, 6 of 8 polygons valid (90% required), so it fails validation. Hartley (fips7 1934725) is also present but not in the sample area.",
+  "recorded_at": 1792134313724,
+  "recheck_after": 1807686313724,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "oh-athens-city",
+  "publisher": "City of Athens, Ohio (Planning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/xAZ5HDwCCCLi4H6z/arcgis/rest/services/Community_Overview_WFL1/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_DESIG"
+  },
+  "notes": "City of Athens only (not unincorporated county or townships). Layer is Current Zoning from the city planner web map (AthensOH.CityPlanner). zone_name (DESCRIPTIO) is blank for most districts, so not mapped.",
+  "verification": {
+    "verified_at": 1792135166643,
+    "counties": [
+      "39009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

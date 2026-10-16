@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-anson",
+  "publisher": "Anson County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ansoncountygis.com/arcgis/rest/services/ZoningLayers/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONECODE2"
+  },
+  "notes": "County zoning (unincorporated land) from Anson County GIS ZoningLayers MapServer. ZONECODE2 may be secondary code; no zone description field published.",
+  "verification": {
+    "verified_at": 1792135050623,
+    "counties": [
+      "37007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

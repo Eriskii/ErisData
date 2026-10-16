@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-carbondale",
+  "publisher": "Town of Carbondale Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/jP6gDjVSyLWdfrAN/arcgis/rest/services/Carbondale_Zoning_V2/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08045"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ABV",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Town of Carbondale straight zoning districts, from the town zone district map web app (carbondaleco ArcGIS Online); PUD layers are separate.",
+  "verification": {
+    "verified_at": 1792133953391,
+    "counties": [
+      "08045"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

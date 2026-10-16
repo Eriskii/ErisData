@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-williamson-cedar-park",
+  "publisher": "City of Cedar Park GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisrest.cedarparktexas.gov/cpgis/rest/services/Planning/Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48491"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningAbbrev",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Cedar Park zoning districts (Williamson and Travis counties); excludes overlay and conditional use layers. City-only layer.",
+  "verification": {
+    "verified_at": 1792135795507,
+    "counties": [
+      "48491"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

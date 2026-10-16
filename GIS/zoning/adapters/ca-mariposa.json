@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-mariposa",
+  "publisher": "Mariposa County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/wEula7SYiezXcdRv/arcgis/rest/services/Zoning_Public_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06043"
+    ]
+  },
+  "fields": {
+    "link": "Code_Link",
+    "zone": "BASEZONE",
+    "zone_name": "FULLNAME"
+  },
+  "notes": "Mariposa County Digital Zoning Layer for public viewing (county unincorporated zoning). Base zone in BASEZONE; FULLNAME holds district name; Code_Link county code link. Reference use only.",
+  "verification": {
+    "verified_at": 1792134014008,
+    "counties": [
+      "06043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

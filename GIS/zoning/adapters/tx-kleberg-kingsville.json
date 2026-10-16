@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-kleberg-kingsville",
+  "publisher": "City of Kingsville Planning and Development Services",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/ifjYh8vzZyyAgPfi/arcgis/rest/services/Kingsville_WL_P/FeatureServer/41",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48273"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Description"
+  },
+  "notes": "City of Kingsville base zoning only (not county unincorporated land; Kleberg County does not publish county zoning in a found service). Hosted by city-associated ArcGIS org (kbenson). Layer 41 of Kingsville_WL_P service.",
+  "verification": {
+    "verified_at": 1792135921709,
+    "counties": [
+      "48273"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-grundy-monteagle",
+  "publisher": "Southeast Tennessee Development District (for Town of Monteagle)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Monteagle_Zoning_Master_05022024/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47061"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "filter": "OBJECTID IN (1,5,8)",
+  "notes": "Town of Monteagle zoning, published by SETD (CReese_SETDD) on ArcGIS Online. PARTIAL: filter keeps only C-1, I-D and R-2, the polygons with valid geometry; the source polygons for R-1, R-3, C-2 and C-3 fail geometry validation and are omitted. Monteagle straddles the Grundy/Marion line.",
+  "verification": {
+    "verified_at": 1792135979021,
+    "counties": [
+      "47061"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

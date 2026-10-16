@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ar-sebastian-greenwood",
+  "publisher": "City of Greenwood (copy hosted by Hmikles on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/YnX35jfIPKMwG4ma/arcgis/rest/services/Greenwood_Zoning_Map_WFL1/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05131"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONE_CLASS"
+  },
+  "notes": "Unofficial copy: personal ArcGIS Online item by Hmikles, not the City of Greenwood server. Used because the City of Fort Smith zoning server (largest city) was unreachable. Covers Greenwood city only. No ordinance link field populated.",
+  "verification": {
+    "verified_at": 1792133900595,
+    "counties": [
+      "05131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

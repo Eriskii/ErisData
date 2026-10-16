@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "29055",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://crawfordgis.breezemaps.com",
+    "https://ccauditor.crawford-co.org/gis/",
+    "https://www.gismaps.org/mo-crawford-county/",
+    "https://www.cityofcubamo.gov",
+    "https://ecode360.com/34816026",
+    "https://cms3.revize.com/revize/cityofsullivan/forms/uploads/ZONING_JAN_2015.pdf"
+  ],
+  "note": "Crawford County MO: no county zoning layer found. The county GIS portal (breezemaps) is a JS viewer with no zoning; the County Auditor GIS lists parcel and overlay layers, no zoning. Cuba, the largest city, has a zoning code on eCode360 and a PDF city map but no queryable zoning polygon service. Searches of ArcGIS Hub/Online for Crawford/Cuba/Steelville zoning returned nothing. Other cities (Steelville, Bourbon, Leasburg) showed no GIS zoning either.",
+  "recorded_at": 1792134674709,
+  "recheck_after": 1807686674709,
+  "model": "claude-haiku-5-5"
+}

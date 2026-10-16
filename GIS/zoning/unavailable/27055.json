@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "27055",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/?site=HoustonCountyMN",
+    "https://www.co.houston.mn.us/departments/zoning-planning/",
+    "https://www.caledoniamn.gov/wp-content/uploads/Caledonia-Zoning-Map.pdf",
+    "https://www.cityoflacrescent-mn.gov/DocumentCenter/View/360/Zoning-Map-PDF"
+  ],
+  "note": "Houston County (MN) publishes its zoning districts only through the Beacon (Schneider) viewer, which has a 'Zoning' layer group but no public ArcGIS REST endpoint found; Beacon blocks automated access (Cloudflare 403). The county zoning ordinance is a PDF. Nearby cities checked: Caledonia publishes its zoning as a static PDF map and La Crescent as a static PDF zoning map; no queryable zoning district service found for the county or these cities. ArcGIS Online and the MN state geospatial portal hold parcels and emergency zones only, no zoning districts.",
+  "recorded_at": 1792134542072,
+  "recheck_after": 1807686542072,
+  "model": "claude-haiku-5-5"
+}

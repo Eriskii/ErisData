@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-otero-alamogordo",
+  "publisher": "City of Alamogordo GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/tZhkGVr1gXGPSz0S/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35035"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_2005",
+    "zone_name": "ZONE_TYPE"
+  },
+  "notes": "City of Alamogordo zoning districts only (not county zoning; Otero County states it has no zoning). Covers city limits; ETJ not zoned by this layer. zone = Current Land Use Zone code, zone_name = Current Title. Some records have null/UNDETERMINED ordinance numbers. Source is in state plane NM feet; runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792135015097,
+    "counties": [
+      "35035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

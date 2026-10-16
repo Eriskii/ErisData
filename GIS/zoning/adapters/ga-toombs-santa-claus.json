@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-toombs-santa-claus",
+  "publisher": "City of Santa Claus (hosted via City of Santa Claus View, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/City_of_Santa_Claus_View/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13279"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoneDescript"
+  },
+  "notes": "City of Santa Claus zoning districts only; county unincorporated land is not covered.",
+  "verification": {
+    "verified_at": 1792133969231,
+    "counties": [
+      "13279"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

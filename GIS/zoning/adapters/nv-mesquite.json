@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nv-mesquite",
+  "publisher": "City of Mesquite (hosted by Clark County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/PlanningandZoning/MapServer/13",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32003"
+    ]
+  },
+  "fields": {
+    "zone": "UdoZoneCod"
+  },
+  "notes": "Mesquite zoning from Clark County GIS open data service",
+  "verification": {
+    "verified_at": 1792135056792,
+    "counties": [
+      "32003"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

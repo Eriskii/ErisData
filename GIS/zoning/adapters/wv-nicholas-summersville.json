@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wv-nicholas-summersville",
+  "publisher": "City of Summersville, WV",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/xvTXFK8O3olVCZRY/arcgis/rest/services/Zoning_WFL1/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54067"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Summersville zoning districts only (county seat, Nicholas County); no unincorporated county zoning found. Layer 7 of Summersville Zoning_WFL1 service published by city staff. Only zone code is provided; no description field.",
+  "verification": {
+    "verified_at": 1792136056563,
+    "counties": [
+      "54067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-mcintosh",
+  "publisher": "McIntosh County GIS (copy hosted in CoastalZoning service)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/I9cUOJUZvdGAJncI/arcgis/rest/services/CoastalZoning/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13191"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "ZONE",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "Copy of McIntosh County zoning uploaded to ArcGIS Online by tgiarrusso (2024 coastal zoning layers); not the county server. Used because the official state-hosted service (maps.crc.ga.gov McIntosh/McIntoshZoning) did not respond.",
+  "verification": {
+    "verified_at": 1792133924967,
+    "counties": [
+      "13191"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

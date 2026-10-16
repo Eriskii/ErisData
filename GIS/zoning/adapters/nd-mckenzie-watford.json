@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nd-mckenzie-watford",
+  "publisher": "City of Watford City (Existing Zoning, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/RPIW3ufPaKmSTpzr/arcgis/rest/services/Existing_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38053"
+    ]
+  },
+  "fields": {
+    "zone": "name",
+    "zone_name": "layer"
+  },
+  "notes": "City of Watford City zoning only (city layer, not county-wide). Layer has no jurisdiction field.",
+  "verification": {
+    "verified_at": 1792135149368,
+    "counties": [
+      "38053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-clearwater",
+  "publisher": "City of Clearwater GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.myclearwater.com/arcgis/rest/services/ArcGISMapServices/Zoning_WGS84/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_DESC"
+  },
+  "notes": "City of Clearwater zoning districts (WGS84 MapServer). SPECIAL field holds special-district overlays and is not mapped.",
+  "verification": {
+    "verified_at": 1792133908899,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

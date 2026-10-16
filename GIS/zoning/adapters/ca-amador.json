@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-amador",
+  "publisher": "Amador County Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Z65sx307Hunxj6eq/arcgis/rest/services/Zoning_10_31_2024/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06005"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Parcel-level zoning polygons keyed by APN, published by Amador County Planning (layer updated 2024-10-31). Zone code is the county district code (e.g. R1A); no district name field is published. Polygons are parcels carrying their zoning, so use the Zoning code per polygon.",
+  "verification": {
+    "verified_at": 1792134028878,
+    "counties": [
+      "06005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

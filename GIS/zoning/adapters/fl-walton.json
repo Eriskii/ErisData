@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-walton",
+  "publisher": "Walton County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/TaXHPwWfIMuzJ7Ov/arcgis/rest/services/CitizenServe/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12131"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "PLAN_AREA",
+    "zone": "ZONE_CLASS",
+    "zone_name": "ZONE_CLASS"
+  },
+  "notes": "Walton County unincorporated zoning from the county CitizenServe service (layer Zoning). ZONE_CLASS holds district names (no separate code); PLAN_AREA is the planning area (North, South, etc.), not a municipality. Cities of DeFuniak Springs and Freeport are not in this layer.",
+  "verification": {
+    "verified_at": 1792133864833,
+    "counties": [
+      "12131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ut-rich-garden-city",
+  "publisher": "Garden City, Utah (layer published on ArcGIS by DanikaM)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/QjiQKkFtXufcXWpu/arcgis/rest/services/Garden_City_Zoning_Layers/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49033"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Garden City, Utah zoning districts (139 polygons), the city-linked Garden City Zoning Map layer; uploaded by an ArcGIS account (DanikaM), not verified as the city own host. Only zone code available; no name or ordinance link. Rich County county-wide zoning not found as a queryable service.",
+  "verification": {
+    "verified_at": 1792135931530,
+    "counties": [
+      "49033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

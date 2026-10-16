@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "31029",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://chasecounty.nebraska.gov/sites/default/files/doc/Proposed%20Chase%20County%20Zoning%20Regulations.pdf",
+    "https://chase.gworks.com/",
+    "https://cityofimperial.gworks.com/",
+    "https://www.imperial-ne.com/"
+  ],
+  "note": "Chase County zones its unincorporated land (AG, AGR, R, C, I) and the City of Imperial zones its own, but the official zoning maps are only in gWorks web viewers (chase.gworks.com, cityofimperial.gworks.com) that expose no queryable REST service, and the regulations PDF references an 'Official Zoning Map' without a service. No ArcGIS zoning layer covers Chase County; a zoning FeatureServer found (services.arcgis.com/lQySeXwbBg53XWDi) returns no features around Imperial.",
+  "recorded_at": 1792134964064,
+  "recheck_after": 1807686964064,
+  "model": "claude-haiku-5-5"
+}

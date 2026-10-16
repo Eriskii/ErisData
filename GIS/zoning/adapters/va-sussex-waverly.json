@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-sussex-waverly",
+  "publisher": "Town of Waverly via Sussex County GIS (Virginia)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/nJbIFHiSnaX0z0hS/arcgis/rest/services/SussexParcels_Zoning/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "51183"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "name"
+  },
+  "notes": "Town of Waverly zoning districts from the Sussex County parcels and zoning service (Waverly_Zoning layer). Some features have no name.",
+  "verification": {
+    "verified_at": 1792136020747,
+    "counties": [
+      "51183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

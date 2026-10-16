@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-forest-city",
+  "publisher": "Iowa State University compilation of City of Forest City zoning (hosted by ISU)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19189"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Forest City' AND fips7 = '1928380'",
+  "notes": "ISU compilation of Iowa city zoning districts (as of 2/27/25); not the city's own service.",
+  "verification": {
+    "verified_at": 1792134335809,
+    "counties": [
+      "19189"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "18161",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://unionin.wthgis.com/",
+    "https://www.in.gov/counties/union/files/zoning-and-building.pdf",
+    "https://www.unioncountyinsheriff.org/wth-gis-maping"
+  ],
+  "note": "Union County, IN (FIPS 18161) publishes zoning only through a WTH GIS web viewer (unionin.wthgis.com) and a PDF unified zoning ordinance with a zoning map (joint county/Town of Liberty). No queryable ArcGIS REST service for zoning districts was found: the wthgis host returns 404 for /arcgis/rest/services, no zoning service appears in ArcGIS Hub/Online searches for the county or Liberty, and the Liberty city hub has no zoning service located. Zoning is viewable, not downloadable.",
+  "recorded_at": 1792134328226,
+  "recheck_after": 1807686328226,
+  "model": "claude-haiku-5-5"
+}

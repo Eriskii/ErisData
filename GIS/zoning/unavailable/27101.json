@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "27101",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://murraycountymn.com/community/maps.php",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=1153",
+    "https://cms9files.revize.com/murraycounty/Government/Ordinances/Zoning/Zoning%20Ordinance.pdf",
+    "https://slayton.govoffice.com/planning-zoning"
+  ],
+  "note": "Murray County (MN) publishes zoning only through its Beacon (Schneider Geospatial) viewer, which is behind a bot challenge and offers no public REST service or download, and as PDF maps (Official Zoning Map in the 2019 zoning ordinance; Slayton's Zoning_Map.pdf). ArcGIS searches for Murray County and Slayton zoning returned no district layer. The county GeoMoose viewer (geomoose.lyonco.org/MurrayMoose) was unreachable and the county maps page returned 403. No queryable zoning polygon service was found.",
+  "recorded_at": 1792134556699,
+  "recheck_after": 1807686556699,
+  "model": "claude-haiku-5-5"
+}

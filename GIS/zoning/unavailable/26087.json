@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "26087",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.imlaycity.org/government/zoning-and-ordinances/",
+    "https://www.lapeertwp.org/government/planning-zoning/",
+    "https://www.ci.lapeer.mi.us/planning_and_development/zoning_information.php",
+    "https://www.lapeercountymi.gov/departments/treasurer/mapping_information/index.php"
+  ],
+  "note": "No queryable zoning district polygon service found for Lapeer County. County GIS (Treasurer, FetchGIS viewer) publishes only parcels, roads and imagery. Imlay City zoning map is a static JPG (2025-Zoning-Map.jpg); Lapeer Township publishes its August 2024 zoning map only as PDF/PNG; City of Lapeer links to a zoning map document with no GIS service. ArcGIS searches for Lapeer zoning returned only unrelated layers (Lapeer Political Framework contains political boundaries, not zoning). Zoning exists but is published only as images/PDF maps.",
+  "recorded_at": 1792132329570,
+  "recheck_after": 1807684329570,
+  "model": "claude-haiku-5-5"
+}

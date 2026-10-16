@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-liberty-dayton",
+  "publisher": "City of Dayton, TX (Development and Planning Services)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/1zuvRnm7tm3WFwVI/arcgis/rest/services/ZONING_WFL1/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48291"
+    ]
+  },
+  "fields": {
+    "link": "Districts_",
+    "zone": "Z_Code",
+    "zone_name": "Zoning_Cod"
+  },
+  "notes": "City of Dayton current zoning districts (Dayton is the largest city in Liberty County; the county itself does not publish a zoning layer found in search). Covers city limits only, not ETJ. Source layer from the city webmap cc4f643cfa914ce4a564cebbac745608 on daytontexas.maps.arcgis.com.",
+  "verification": {
+    "verified_at": 1792135937266,
+    "counties": [
+      "48291"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

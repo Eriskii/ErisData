@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-linn",
+  "publisher": "Linn County Planning and Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/i14SLLmXo7Hn9vNc/arcgis/rest/services/PlanningRuralZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19113"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict",
+    "zone_name": "LandUseArea"
+  },
+  "notes": "Linn County rural (unincorporated) zoning districts from the county Planning and Development Rural Zoning layer. Covers unincorporated land only; cities zone their own land. LandUseArea is a land use grouping, not a district name.",
+  "verification": {
+    "verified_at": 1792134162060,
+    "counties": [
+      "19113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

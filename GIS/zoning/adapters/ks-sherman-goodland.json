@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ks-sherman-goodland",
+  "publisher": "City of Goodland, KS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/hvvB0vvqT8BlHZ5L/arcgis/rest/services/2020_Zoning_Goodland_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20181"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Goodland zoning only (2020 zoning view, city-hosted); unincorporated county zoning not published as a service. Zone field holds district code only.",
+  "verification": {
+    "verified_at": 1792134331999,
+    "counties": [
+      "20181"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

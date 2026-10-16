@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mt-yellowstone-laurel",
+  "publisher": "Yellowstone County GIS (City of Laurel zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yellowstonecountymt.gov/arcgis/rest/services/Zoning/MapServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30111"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "City",
+    "zone": "ZONE_CODE"
+  },
+  "notes": "Laurel city zoning layer hosted by Yellowstone County GIS. ZONE_NAME is blank in this layer, so zone holds the district code only.",
+  "verification": {
+    "verified_at": 1792134913379,
+    "counties": [
+      "30111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

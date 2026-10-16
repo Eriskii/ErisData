@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-pegram",
+  "publisher": "City of Pegram (via APSU Cheatham Connect webmap)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://apnsgis4.apsu.edu/arcgis/rest/services/Cheatham_Connect_Webmap_MIL1/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47021"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "zoning"
+  },
+  "notes": "Pegram zoning layer from the Cheatham Connect web map (APSU-hosted).",
+  "verification": {
+    "verified_at": 1792135660707,
+    "counties": [
+      "47021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-vance-henderson",
+  "publisher": "Vance County GIS (VCGIS), for the City of Henderson",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/pET3krhY1T0smsXf/arcgis/rest/services/ETJHendersonZoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37181"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "Zoning IS NOT NULL",
+  "notes": "City of Henderson zoning districts and its extraterritorial jurisdiction (Henderson_ETJ layer). Zoning holds the district code (B1, B2, I2, R8, R20). The layer repeats some districts as label-only rows with no description; zone_name is not mapped because it is filled only on those rows that carry the description.",
+  "verification": {
+    "verified_at": 1792135134325,
+    "counties": [
+      "37181"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

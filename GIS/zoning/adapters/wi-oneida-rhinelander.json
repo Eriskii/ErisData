@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-oneida-rhinelander",
+  "publisher": "Oneida County GIS (City of Rhinelander zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.oneidacountywi.gov/arcgis/rest/services/Oneview/ZoningLandUse/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55085"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "SubType",
+    "zone": "DistrictAbbreviations",
+    "zone_name": "DistrictLabels"
+  },
+  "notes": "City of Rhinelander zoning districts from the county ZoningLandUse service; boundaries approximate per county disclaimer.",
+  "verification": {
+    "verified_at": 1792136116175,
+    "counties": [
+      "55085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

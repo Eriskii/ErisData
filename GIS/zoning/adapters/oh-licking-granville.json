@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-licking-granville",
+  "publisher": "Village of Granville, GranvilleGIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/rFSjZcGPEUhP8lN6/arcgis/rest/services/ZoningInformation_ArcGISOnline/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39089"
+    ]
+  },
+  "fields": {
+    "link": "ZoningChapterLink",
+    "zone": "GranZoning",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "Village of Granville only (city-level layer, not county-wide). Parcel-polygon layer carrying each parcel zoning code (GranZoning) and description (ZoneDesc); overlays are separate. County Planning/Zoning MapServer was unreachable during search.",
+  "verification": {
+    "verified_at": 1792135969360,
+    "counties": [
+      "39089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

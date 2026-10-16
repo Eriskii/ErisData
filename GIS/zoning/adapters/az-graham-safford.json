@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "az-graham-safford",
+  "publisher": "City of Safford",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rr5PkYU3R3HXxyDH/arcgis/rest/services/Graham_County_Parcels_New/FeatureServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04009"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "zone": "Zone",
+    "zone_name": "Zone_Label"
+  },
+  "notes": "Safford city zoning districts, from the Graham County parcels service (layer 16).",
+  "verification": {
+    "verified_at": 1792133646698,
+    "counties": [
+      "04009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

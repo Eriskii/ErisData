@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-sibley",
+  "publisher": "Sibley County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ca9pZxSKQMiPIqAL/arcgis/rest/services/Zoning_Information/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27143"
+    ]
+  },
+  "fields": {
+    "zone": "Label",
+    "zone_name": "ZoningClass"
+  },
+  "notes": "County-published zoning layer (SEH, 2011) covering unincorporated Sibley County; NAME is always Sibley. FINALZONE holds category names. Cities not included.",
+  "verification": {
+    "verified_at": 1792134522334,
+    "counties": [
+      "27143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

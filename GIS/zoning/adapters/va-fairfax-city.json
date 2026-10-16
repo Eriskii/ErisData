@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-fairfax-city",
+  "publisher": "City of Fairfax, VA",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/DANcyjLcCCpGk8Ri/ArcGIS/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51600"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Fairfax GIS (services2 org DANcyjLcCCpGk8Ri) zoning districts layer; 455 features; ZONE holds district code; no description field. PROFFER is proffer condition flag.",
+  "verification": {
+    "verified_at": 1792136018117,
+    "counties": [
+      "51600"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

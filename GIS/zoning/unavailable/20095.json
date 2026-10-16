@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "20095",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://kingmancoks.org/2172/Planning-Zoning",
+    "https://www.kingmancoks.org/2148/Cities",
+    "https://gisdata.cityofkingman.gov/arcgis/rest/services/LandUsePlanning/Zoning_2021/MapServer/0"
+  ],
+  "note": "Kingman County Planning/Zoning page (kingmancoks.org/2172) links only Zoning Regulations and Subdivision Regulations PDFs; no county zoning district layer or public GIS service found in ArcGIS search or web search. County site intermittently unreachable. Only queryable zoning is the City of Kingman layer, which covers city land only and returns 0 districts at the county sample point (-98.13641, 37.55897), so it fails validation for county coverage. Norwich, Cunningham and Zenda show no zoning layers.",
+  "recorded_at": 1792134427434,
+  "recheck_after": 1807686427434,
+  "model": "claude-haiku-5-5"
+}

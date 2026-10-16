@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-warren-queensbury",
+  "publisher": "Warren County GIS (Town of Queensbury zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Fg3XpDIUTR3JZZES/arcgis/rest/services/QueensburyZoning_MASTER/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36113"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "zonelab"
+  },
+  "notes": "Town of Queensbury zoning maintained by Warren County GIS for the town.",
+  "verification": {
+    "verified_at": 1792135058071,
+    "counties": [
+      "36113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

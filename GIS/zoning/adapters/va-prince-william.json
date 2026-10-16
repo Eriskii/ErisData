@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-prince-william",
+  "publisher": "Prince William County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.pwcva.gov/arcgis/rest/services/Planning/Zoning/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51153"
+    ]
+  },
+  "fields": {
+    "link": "ZoningCaseNumber",
+    "zone": "ZoningDistrict",
+    "zone_name": "ZoningCaseName"
+  },
+  "notes": "County zoning districts incl. approved zoning cases; zone is district code. Unincorporated county only per source.",
+  "verification": {
+    "verified_at": 1792135931023,
+    "counties": [
+      "51153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

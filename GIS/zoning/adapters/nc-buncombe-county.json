@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-buncombe-county",
+  "publisher": "Buncombe County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.buncombecounty.org/arcgis/rest/services/opendata/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37021"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode"
+  },
+  "notes": "County zoning only; excludes incorporated Asheville and Weaverville. Overlay districts are in a separate layer.",
+  "verification": {
+    "verified_at": 1792135040807,
+    "counties": [
+      "37021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

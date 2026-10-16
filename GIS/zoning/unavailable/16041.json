@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "16041",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.arcgis.com/home/webmap/viewer.html?webmap=245f3f4699fe4b9799ebc18f1b5e5cf2",
+    "https://www.arcgis.com/sharing/rest/content/items/245f3f4699fe4b9799ebc18f1b5e5cf2?f=json",
+    "https://www.franklincountyidaho.org/departments/planning_zoning.php"
+  ],
+  "note": "Franklin County, ID publishes no queryable zoning district service. The only zoning polygons found are Preston city's 2022 Zoning Map web map (owner cityofpreston), where the district polygons are embedded in the web map item itself with a Zone attribute, not served as a FeatureServer/MapServer or downloadable file. Franklin, Clifton, Dayton and Weston have no zoning service found; county planning page lists only ordinance documents and the GIS Property Map viewer has no zoning layer found.",
+  "recorded_at": 1792133722996,
+  "recheck_after": 1807685722996,
+  "model": "claude-haiku-5-5"
+}

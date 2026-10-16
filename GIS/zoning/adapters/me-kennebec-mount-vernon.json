@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "me-kennebec-mount-vernon",
+  "publisher": "Town of Mount Vernon via Kennebec Valley Council of Governments",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/8reqIUumvYktzomD/arcgis/rest/services/Town_of_Mount_Vernon_Maine_Municipal_Data_Viewer/FeatureServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "STRING"
+  },
+  "notes": "Town of Mount Vernon only (not countywide); hosted by KVCOG. Land Use Districts layer used as zoning; STRING may hold the district description.",
+  "verification": {
+    "verified_at": 1792134485686,
+    "counties": [
+      "23011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

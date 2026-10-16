@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "45011",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.barnwellcountysc.us/189/Zoning",
+    "https://www.barnwellcountysc.gov/250/Barnwell-County-GIS",
+    "https://www.cityofbarnwell.com/building-and-zoning/zoning"
+  ],
+  "note": "Barnwell County SC publishes zoning only as PDF maps (county 2017 zoning map, Blackville/Hilda, Snelling, Williston; City of Barnwell 2025 zoning map PDF, which the city says is not official). County GIS page says GIS is under construction; the qPublic viewer carries parcels only. No ArcGIS REST zoning district layer found for the county or its towns. The Zoning_Districts FeatureServer found (services.arcgis.com/f4rR7WnIfGBdVYFd) is not Barnwell's: a query at the county point returns 0 features.",
+  "recorded_at": 1792135389363,
+  "recheck_after": 1807687389363,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-tipton",
+  "publisher": "Tipton County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/TQnmvJ4NICOaocHd/arcgis/rest/services/Tipton_County_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47167"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "ZONING"
+  },
+  "notes": "County zoning layer in Tipton County GIS ArcGIS Online org. Unincorporated districts carry codes (R-1, R-2, R-3, C-1, C-2, C-3, I-1, FAR, PR-<city>); city areas are labeled generically as City - <name> without city district codes.",
+  "verification": {
+    "verified_at": 1792135566289,
+    "counties": [
+      "47167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-shiawassee",
+  "publisher": "Shiawassee County (Public View parcel layer, zoning attribute)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/3QJzLtv5hT2MmUCR/arcgis/rest/services/Shiawassee_Public_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26155"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "filter": "zoning IS NOT NULL AND zoning <> ' ' AND zoning <> ''",
+  "notes": "No dedicated county zoning district layer was found; this is the county parcel layer (ShiawasseeParInfo) whose zoning attribute carries each parcel's zoning district code. Parcel polygons, not district dissolves; last resort per instructions. Zoning ordinance last updated 2006.",
+  "verification": {
+    "verified_at": 1792132363779,
+    "counties": [
+      "26155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

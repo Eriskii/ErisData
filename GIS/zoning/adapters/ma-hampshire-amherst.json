@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ma-hampshire-amherst",
+  "publisher": "Town of Amherst GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.amherstma.gov/arcgis/rest/services/gpv/GpvParcelsWM/MapServer/47",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "ZONE_OVERL"
+  },
+  "notes": "Town of Amherst zoning layer from the town GIS MapServer; ZONE_ holds the base district code, ZONE_OVERL combines base and overlay codes; overlay codes appear in OVERLAY.",
+  "verification": {
+    "verified_at": 1792134473860,
+    "counties": [
+      "25015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

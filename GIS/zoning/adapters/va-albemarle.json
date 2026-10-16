@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-albemarle",
+  "publisher": "Albemarle County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/khVz7mitcPJHUnlM/arcgis/rest/services/Zoning_Classifications/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51003"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Albemarle County GIS Viewer zoning layer on the county ArcGIS Online org (static hosted layer). Covers county zoning classifications for parcels; zone field holds district code. No name or ordinance link fields published.",
+  "verification": {
+    "verified_at": 1792135889653,
+    "counties": [
+      "51003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

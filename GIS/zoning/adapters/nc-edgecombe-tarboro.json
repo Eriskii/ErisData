@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-edgecombe-tarboro",
+  "publisher": "Town of Tarboro (via Edgecombe County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.edgecombecountync.gov/arcgis/rest/services/webmap/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37065"
+    ]
+  },
+  "fields": {
+    "zone": "ALPHA"
+  },
+  "notes": "Tarboro town zoning layer from the Edgecombe County webmap MapServer, layer 15.",
+  "verification": {
+    "verified_at": 1792135089819,
+    "counties": [
+      "37065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

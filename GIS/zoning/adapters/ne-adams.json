@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ne-adams",
+  "publisher": "Adams County GIS (hosted by City of Hastings)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/TYPEVuuXULssEXx8/arcgis/rest/services/zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31001"
+    ]
+  },
+  "fields": {
+    "link": "CodeLink",
+    "zone": "ZONE_",
+    "zone_name": "ZONE_EX"
+  },
+  "notes": "County zoning regulations (2010 ordinance); single layer with 3119 district polygons. Jurisdiction field not present.",
+  "verification": {
+    "verified_at": 1792134880400,
+    "counties": [
+      "31001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

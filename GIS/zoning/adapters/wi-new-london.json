@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-new-london",
+  "publisher": "City of New London, WI",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/xyJcHDcfEwn7U5aD/arcgis/rest/services/Zoning__Adopted_Feb2026_view/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55135"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "City of New London adopted zoning (Feb 2026), parcel-based polygons carrying each parcel zoning code; hosted on the city ArcGIS org. Covers the city only, not the county layer area.",
+  "verification": {
+    "verified_at": 1792136470162,
+    "counties": [
+      "55135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

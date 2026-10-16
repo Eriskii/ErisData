@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-shasta",
+  "publisher": "Shasta County IT-GIS (combined county and city zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/22p1CUjMjjRWlw6O/arcgis/rest/services/Zoning_County_City/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06089"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "SourceSteward",
+    "link": "ZoneLink1",
+    "zone": "ZoneCode1",
+    "zone_name": "ZoneDescription1"
+  },
+  "notes": "One combined layer for Shasta County unincorporated land plus the cities of Redding, Anderson and Shasta Lake; SourceSteward names the jurisdiction. Steward notes it is not regularly updated; confirm with Shasta County Resource Management - Planning.",
+  "verification": {
+    "verified_at": 1792134022250,
+    "counties": [
+      "06089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

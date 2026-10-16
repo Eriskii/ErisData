@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-marin-sanrafael",
+  "publisher": "City of San Rafael (via Marin County GIS MarinMap)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.marinpublic.com/arcgis/rest/services/MarinMap2/Open_Data_Download/MapServer/122",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06041"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "San Rafael city zoning districts, served by Marin County GIS. Zoning field holds the district code; no description field in source.",
+  "verification": {
+    "verified_at": 1792134104595,
+    "counties": [
+      "06041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

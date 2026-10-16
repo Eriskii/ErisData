@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-greene-county",
+  "publisher": "Greene County GIS (official zoning map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wJODWgtP5NZSwn3k/arcgis/rest/services/Greene_County_Official_Zoning_Map_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47059"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Unincorporated county zoning districts from the county official zoning map service. City zoning not included in this layer.",
+  "verification": {
+    "verified_at": 1792135990282,
+    "counties": [
+      "47059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wv-jefferson-shepherdstown",
+  "publisher": "Jefferson County GIS (town zoning, hosted by county staff account rpierce_JCWVGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/XHPMHLtcwUiGJ0nS/arcgis/rest/services/Zoning_Towns/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54037"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "notes": "Town of Shepherdstown zoning polygons from the Jefferson County GIS town zoning service. District holds the zoning district code (e.g. R1); no name field.",
+  "verification": {
+    "verified_at": 1792136092732,
+    "counties": [
+      "54037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-summit-green",
+  "publisher": "Summit County GIS (Green zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/20",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "City of Green layer from Summit County GIS ZoningNov2025 service. zone_name is a general category; DISTRICT_N is blank.",
+  "verification": {
+    "verified_at": 1792135237812,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

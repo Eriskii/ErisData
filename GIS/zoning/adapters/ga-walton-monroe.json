@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-walton-monroe",
+  "publisher": "City of Monroe, GA (Planning & Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/tX7O9qMhrJRPSGto/arcgis/rest/services/Zoning___Character_Districts_Map_WFL1/FeatureServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13297"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Monroe current zoning (city-published ArcGIS layer, Walton County). Covers the city only; unincorporated county zoning is on qPublic and not queryable. No description field exists, so zone_name repeats the ZONING code.",
+  "verification": {
+    "verified_at": 1792134027608,
+    "counties": [
+      "13297"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

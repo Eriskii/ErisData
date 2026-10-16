@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-aiken-city",
+  "publisher": "City of Aiken GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/1449373f385d40b089816eb560902057/rest/services/PublicGIS/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45003"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningID",
+    "zone_name": "Zone2"
+  },
+  "notes": "City of Aiken Zoning Base layer from the City Public GIS map service; covers City of Aiken limits only, not unincorporated county land. zone = district code (ZoningID); zone_name from Zone2 (district name). County-wide zoning layer not found as a queryable service.",
+  "verification": {
+    "verified_at": 1792135347601,
+    "counties": [
+      "45003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

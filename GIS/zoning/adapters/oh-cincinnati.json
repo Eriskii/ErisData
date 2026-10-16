@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-cincinnati",
+  "publisher": "City of Cincinnati / CAGIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/JyZag7oO4NteHGiq/arcgis/rest/services/Open_Data_Feature_Collection/FeatureServer/31",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39061"
+    ]
+  },
+  "fields": {
+    "link": "ORD_NUMBER",
+    "zone": "ZONING",
+    "zone_name": "DIS_NAME"
+  },
+  "notes": "CAGIS Open Data Cincinnati_Zoning layer (2,471 districts) in the City of Cincinnati. ZONE_TYPE gives the district type. ORD_NUMBER is the ordinance number.",
+  "verification": {
+    "verified_at": 1792135216952,
+    "counties": [
+      "39061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

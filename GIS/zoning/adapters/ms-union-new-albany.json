@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-union-new-albany",
+  "publisher": "New Albany Mississippi Zoning Map (uploaded by Bobbarber, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/zxqi28jLbBeyF8Y2/arcgis/rest/services/New_Albany_Mississippi_Zoning_Map_WFL1/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28145"
+    ]
+  },
+  "fields": {
+    "zone": "New_Zone"
+  },
+  "notes": "Unofficial copy of the City of New Albany zoning map uploaded to ArcGIS Online by an individual (Bobbarber); no official queryable city or county zoning service was found. Union County government publishes no queryable zoning layer. Layer is the Polygons sublayer; zone from New_Zone.",
+  "verification": {
+    "verified_at": 1792134622623,
+    "counties": [
+      "28145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-uintah-vernal",
+  "publisher": "Vernal City zoning (copy hosted by zachleavitt_utcdo on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/w3P61ZsUVtl411Ls/arcgis/rest/services/Vernal/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "NAME"
+  },
+  "notes": "Vernal City zoning districts; personal ArcGIS Online item by zachleavitt_utcdo (copy, not the city's own host). County-wide Uintah zoning layer exists (apps.uintah.utah.gov Uintah_County_Zoning) but fails the polygon validity check due to invalid source geometry.",
+  "verification": {
+    "verified_at": 1792136005568,
+    "counties": [
+      "49047"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

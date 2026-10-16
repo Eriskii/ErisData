@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-orange",
+  "publisher": "Orange County GIS (OCGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ocgis4.ocfl.net/arcgis/rest/services/AGOL_Open_Data/MapServer/51",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12095"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONING"
+  },
+  "notes": "Orange County Zoning layer (ID 51) from OCGIS open data; covers unincorporated Orange plus city-zoned areas tagged in JURISDICTION. Jurisdiction values have typos/trailing spaces (e.g. Orlarndo, WInter Park, Apopka ). No zone description field published; zone is the district code. Source CRS wkid 102658.",
+  "verification": {
+    "verified_at": 1792133848479,
+    "counties": [
+      "12095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

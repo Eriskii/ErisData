@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-ellis",
+  "publisher": "Ellis County GIS (Geospatial Data Portal, Hays/Ellis County)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geodataportal.net/arcgis/rest/services/CityCountyData/MapServer/115",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20051"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CLASS",
+    "zone_name": "ZONE_CLASS"
+  },
+  "notes": "County unincorporated zoning districts (5461 parcels with ZONE_CLASS giving code and description together, e.g. R1 - SINGLE-FAMILY RESIDENTIAL). No jurisdiction field; covers unincorporated Ellis County only. Source: Hays/Ellis County GSDP CityCountyData MapServer layer County_Zoning.",
+  "verification": {
+    "verified_at": 1792134261244,
+    "counties": [
+      "20051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-morgan",
+  "publisher": "Morgan County GA (zoning layer hosted by tgiddens86 on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/mr2xH531NAL4tt7e/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13211"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Personal ArcGIS Online copy titled Zoning of Morgan County, Georgia; no official Morgan County zoning district service was found (county and Madison zoning are PDF only). Layer is parcel-level (REALKEY, PARCEL_N_2, 11,957 features) with the zoning code in Zoning (e.g. AG for unincorporated); per-city codes are in Madison_Zo, Bostwick_Z, Rutledge_Z, Buckhead_Z. Used as last resort; last-resort parcel attributes, not district polygons.",
+  "verification": {
+    "verified_at": 1792133943468,
+    "counties": [
+      "13211"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

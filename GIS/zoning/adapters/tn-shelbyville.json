@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-shelbyville",
+  "publisher": "City of Shelbyville, TN",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/0Uo0Kvp9YTHRegvR/arcgis/rest/services/Shelbyville_Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEID",
+    "zone_name": "NAME"
+  },
+  "notes": "City of Shelbyville zoning districts, published by the city planning office (Zoning Map viewer). City limits only.",
+  "verification": {
+    "verified_at": 1792135588348,
+    "counties": [
+      "47003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

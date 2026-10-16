@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-anderson",
+  "publisher": "Anderson County GIS (Bluegrass GIS, BGGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/BxXA8zJZUU4360ND/arcgis/rest/services/Anderson_County_Zoning_WFL1/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "Hosted by BGGIS (Bluegrass ADD GIS) for Anderson County KY; 263 base zoning polygons. Layer carries no jurisdiction field; city limits layer is FeatureServer/6. Zone code only (no description field).",
+  "verification": {
+    "verified_at": 1792134344402,
+    "counties": [
+      "21005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

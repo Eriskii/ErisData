@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-crook-prineville",
+  "publisher": "City of Prineville / Crook County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.crookcountyor.gov/server/rest/services/CommunityDevelopment/Community_Development_Boundary/MapServer/21",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "link": "web_info",
+    "zone": "zone_",
+    "zone_name": "descriptio"
+  },
+  "notes": "City of Prineville zoning from Crook County GIS (17 features).",
+  "verification": {
+    "verified_at": 1792135299525,
+    "counties": [
+      "41013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-clatsop",
+  "publisher": "Oregon DLCD 2017 statewide zoning (Clatsop County and its cities)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lcd.state.or.us/server/rest/services/Framework/AdminBounds_Zoning/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41007"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "unitOwnerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "unitOwnerName IN ('Clatsop County','Astoria','Seaside','Cannon Beach','Warrenton','Gearhart','Hammond','Manzanita','Wheeler')",
+  "notes": "DLCD statewide zoning compilation (2017 vintage); zone is the generalized state code orZCode. Filtered to Clatsop County and its cities.",
+  "verification": {
+    "verified_at": 1792135579740,
+    "counties": [
+      "41007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

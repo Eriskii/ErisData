@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "51021",
+  "reason": "login-required",
+  "evidence": [
+    "https://www.blandcountyva.gov/departments/building_planning_and_zoning/index.php",
+    "https://blandcova.interactivegis.com/login/",
+    "https://library.municode.com/va/bland_county/codes/code_of_ordinances?nodeId=CO_CH62ZO_ARTVDIRE_DIV3CODIC_S62-243MAHE"
+  ],
+  "note": "Bland County's zoning ordinance adopts an Official Zoning Map, but no public queryable zoning district service was found. The county's GIS portal (blandcova.interactivegis.com) is behind a login page and exposes no ArcGIS REST services (probes of /arcgis/rest/services and /server/rest/services returned 404). Searches of ArcGIS Hub/Online found no official Bland County zoning layer; the only Bland parcel service found requires a token. No Town of Bland zoning layer was found either.",
+  "recorded_at": 1792135907083,
+  "recheck_after": 1807687907083,
+  "model": "claude-haiku-5-5"
+}

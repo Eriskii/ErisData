@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ut-kanab-zoning",
+  "publisher": "City of Kanab (KanabCity ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/w7uyG2LQqtkWzBYM/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49025"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Kanab city zoning layer, 20 features; carries only the zone code, no district name. Official record is the city Zoning Map and Zoning Matrix at kanab.utah.gov/2160. Some polygons are self-intersecting in the source.",
+  "verification": {
+    "verified_at": 1792135910044,
+    "counties": [
+      "49025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

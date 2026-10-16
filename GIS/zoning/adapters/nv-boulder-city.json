@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nv-boulder-city",
+  "publisher": "City of Boulder City (hosted by Clark County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/PlanningandZoning/MapServer/8",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32003"
+    ]
+  },
+  "fields": {
+    "zone": "zone_class",
+    "zone_name": "zone_name"
+  },
+  "notes": "Boulder City zoning from Clark County GIS open data service",
+  "verification": {
+    "verified_at": 1792135038847,
+    "counties": [
+      "32003"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

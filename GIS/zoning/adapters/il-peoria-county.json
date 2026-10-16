@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-peoria-county",
+  "publisher": "Peoria County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/iPiPjILCMYxPZWTc/arcgis/rest/services/Peoria_County_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17143"
+    ]
+  },
+  "fields": {
+    "zone": "LANDUSE",
+    "zone_name": "Name"
+  },
+  "notes": "Peoria County zoning districts county-wide (county open data, hub dataset Peoria County Zoning); zone is the district code",
+  "verification": {
+    "verified_at": 1792134069110,
+    "counties": [
+      "17143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

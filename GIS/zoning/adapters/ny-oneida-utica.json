@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-oneida-utica",
+  "publisher": "City of Utica, NY",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/MBcb1JDktb5ipmv9/arcgis/rest/services/Zoning_2021/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36065"
+    ]
+  },
+  "fields": {
+    "zone": "F08_11",
+    "zone_name": "newDescZon"
+  },
+  "notes": "City of Utica only (not county-wide). Official City of Utica zoning map adopted Feb 2021, published by the city on ArcGIS Online.",
+  "verification": {
+    "verified_at": 1792135102302,
+    "counties": [
+      "36065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "39013",
+  "reason": "none-exists",
+  "evidence": [
+    "https://belmontcic.com/zoning-planning",
+    "https://belmontcountyengineer.com/zoning/",
+    "https://services7.arcgis.com/GfbqZj5EAUgRd4ES/arcgis/rest/services/ST_C_ZoningClassificationCodes/FeatureServer/0"
+  ],
+  "note": "Belmont County has no county zoning; municipalities zone themselves. Only St. Clairsville has a polygon layer, but 5 of 10 of its polygons are geometrically invalid (fails validation in both GeoJSON and JSON). Other cities (Bellaire, Martins Ferry, Barnesville, Bridgeport, Shadyside) publish only ordinances/PDF maps; no usable service found.",
+  "recorded_at": 1792135252203,
+  "recheck_after": 1807687252203,
+  "model": "claude-sonnet-5-5"
+}

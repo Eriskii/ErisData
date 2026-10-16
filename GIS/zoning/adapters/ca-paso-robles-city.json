@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-paso-robles-city",
+  "publisher": "City of El Paso de Robles",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.prcity.com/server/rest/services/PRCityOpenData/MapServer/61",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06079"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning1",
+    "zone_name": "Description"
+  },
+  "notes": "City of El Paso de Robles zoning designations only (city limits). Official city open data server. Zoning2 and Zoning3 hold secondary codes where present.",
+  "verification": {
+    "verified_at": 1792134169904,
+    "counties": [
+      "06079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

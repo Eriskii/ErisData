@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-columbia",
+  "publisher": "Columbia County GIS (Zoning Atlas)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.columbiacountyfla.com/hosting/rest/services/Zoning_Atlas/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12023"
+    ]
+  },
+  "fields": {
+    "zone": "FinalZng",
+    "zone_name": "FinalZng"
+  },
+  "notes": "Columbia County Zoning Atlas (county zoning districts, unincorporated area); FinalZng holds district code. Min lot size and setbacks also present but not mapped. Source maxRecordCount 2000.",
+  "verification": {
+    "verified_at": 1792133851809,
+    "counties": [
+      "12023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

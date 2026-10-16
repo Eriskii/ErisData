@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-livingston-pontiac",
+  "publisher": "City of Pontiac, Illinois",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/QmrZbD3bjVB4tA6O/arcgis/rest/services/PontiacZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17105"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Pontiac (county seat) own zoning layer on the city ArcGIS Online organization; covers city limits only. Zone codes are coded-domain values such as R1, B2, A1.",
+  "verification": {
+    "verified_at": 1792134060760,
+    "counties": [
+      "17105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

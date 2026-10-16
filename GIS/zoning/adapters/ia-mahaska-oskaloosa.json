@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ia-mahaska-oskaloosa",
+  "publisher": "City of Oskaloosa (via city GIS web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/zJyxPPclxiaGtLK4/arcgis/rest/services/Oskaloosa_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19123"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "notes": "City of Oskaloosa zoning districts, the layer used by the city official zoning web map; covers city and extraterritorial zoning area as published. Only Oskaloosa; other Mahaska cities not covered.",
+  "verification": {
+    "verified_at": 1792134251386,
+    "counties": [
+      "19123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

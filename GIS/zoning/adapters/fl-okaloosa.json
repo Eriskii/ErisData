@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-okaloosa",
+  "publisher": "Okaloosa County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://okgis.myokaloosa.com/arcgis/rest/services/Planning-Development/Zoning/MapServer/25",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12091"
+    ]
+  },
+  "fields": {
+    "zone": "ZNGPY_ZONE"
+  },
+  "notes": "County Zoning layer covering unincorporated Okaloosa County; incorporated cities zone their own land and are not in this layer. No ordinance link published in the layer.",
+  "verification": {
+    "verified_at": 1792133838153,
+    "counties": [
+      "12091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

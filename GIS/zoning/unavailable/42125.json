@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "42125",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://wcpagis-washingtoncopa.hub.arcgis.com/api/search/v1/collections/all/items?q=zoning",
+    "https://www.washingtoncopa.gov/planning",
+    "https://ecode360.com/27122984",
+    "https://www.canonsburgboro.com/zoning/page/zoning-map"
+  ],
+  "note": "Washington County PA (42125) does not zone unincorporated land in a queryable form. Its GIS hubs (wcpagis-washingtoncopa, wcpagis-washcodps, planning-commission-washcodps) list municipal zoning only as PDF maps (Buffalo Twp, Mon Valley, Burgettstown, Donora, Ellsworth), and Canonsburg, Union Twp, Peters Twp and City of Washington publish zoning as PDF maps or eCode360 text. The 'Land Use Districts (zoning / plan)' feature service on washcoopendata-washco is Washington County, Oregon, not PA. No ArcGIS REST zoning district layer was found for Washington County PA or its cities.",
+  "recorded_at": 1792135423140,
+  "recheck_after": 1807687423140,
+  "model": "claude-haiku-5-5"
+}

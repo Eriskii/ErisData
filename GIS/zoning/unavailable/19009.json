@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "19009",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.auduboncountyia.gov/county-information/planning-zoning.aspx",
+    "https://www.auduboncountyia.gov/webres/File/audubon-co-zoning.pdf",
+    "https://www.auduboncountyia.gov/webres/File/Misc%20County%20Documents/County-Wide%20Zoning%20Map%202023.pdf",
+    "https://www.auduboncountyia.gov/webres/File/Zoning%20maps%202025/Updated%20Audubon%20Zoning%20Map%20-%20Current.pdf"
+  ],
+  "note": "Audubon County and its cities publish zoning districts only as PDF maps (county-wide 2023 map, City of Audubon 2025 map, Exira, Gray, Hamlin, Kimballton, Ross maps). Beacon viewer (Schneider) returns 403 and offers no zoning layer. No official queryable zoning service found. Only queryable zoning polygons found were an unofficial Iowa State University compilation (services.arcgis.com/XORNS2fPFySPlBgy, zoning_districts_all_data_v2, layer 217) with City of Audubon districts, which failed validation (6 of 8 polygons valid, 90% required).",
+  "recorded_at": 1792133669815,
+  "recheck_after": 1807685669815,
+  "model": "claude-haiku-5-5"
+}

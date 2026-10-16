@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-teller",
+  "publisher": "Teller County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://tcweb.tellercounty.gov/arcgis/rest/services/Planning/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08119"
+    ]
+  },
+  "fields": {
+    "zone": "p_zoning",
+    "zone_name": "ALIAS_NAME"
+  },
+  "notes": "Teller County Planning MapServer layer Zoning (county-published base zoning districts, unincorporated county). p_zoning holds district code; ALIAS_NAME is mostly blank. No jurisdiction field; no ordinance link field.",
+  "verification": {
+    "verified_at": 1792133827607,
+    "counties": [
+      "08119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

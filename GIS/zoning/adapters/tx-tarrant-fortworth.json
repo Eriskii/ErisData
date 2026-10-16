@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-tarrant-fortworth",
+  "publisher": "City of Fort Worth GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapit.fortworthtexas.gov/ags/rest/services/CIVIC/OpenData_Boundaries/MapServer/54",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48439"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Fort Worth zoning districts (city limits only; no zoning in ETJ). ZONING holds the district code; PD means a planned development whose base district is in BASE_ZONING (sparsely filled). Public open data, no key.",
+  "verification": {
+    "verified_at": 1792135773700,
+    "counties": [
+      "48439"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

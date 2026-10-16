@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "al-birmingham",
+  "publisher": "City of Birmingham, Alabama, Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.birminghamal.gov/arcgis/rest/services/Planning/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01073"
+    ]
+  },
+  "fields": {
+    "zone": "BASEZONE"
+  },
+  "notes": "City of Birmingham zoning (Zoning Shaded layer, city MapServer). BASEZONE is the base district code; ZONING adds the Q (qualified) prefix where present. Covers City of Birmingham only, which lies partly in Jefferson County.",
+  "verification": {
+    "verified_at": 1792133715489,
+    "counties": [
+      "01073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

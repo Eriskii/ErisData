@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "26041",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://deltacountymi.gov/wp-content/uploads/2023/03/Delta-County-Zoning-Ordinance.pdf",
+    "https://deltacountymi.gov/building-zoning/",
+    "https://app.fetchgis.com/?currentMap=cuppad",
+    "https://www.escanaba.org/planning/page/current-zoning-map",
+    "https://www.gladstonemi.gov/planning-commission/page/current-zoning-map"
+  ],
+  "note": "Delta County MI (26041): county zoning is published as township zoning map PDFs referenced in the county ordinance. County GIS is the FetchGIS viewer (app.fetchgis.com), which shows a zoning field but exposes no public REST service found. Escanaba's GIS (gis.escanaba.org) is login-gated (Webguest) and its zoning map is a PDF. Gladstone's zoning map is a PDF (media/7516). maps.deltacounty.com LAND_ZONING_MAP_SERVICE is Delta County, Colorado, not Michigan; that host also failed to connect from here.",
+  "recorded_at": 1792132375656,
+  "recheck_after": 1807684375656,
+  "model": "claude-haiku-5-5"
+}

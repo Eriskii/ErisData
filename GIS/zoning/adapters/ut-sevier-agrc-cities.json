@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ut-sevier-agrc-cities",
+  "publisher": "Utah AGRC (state generalized municipal zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county LIKE '%Sevier%' AND city <> 'Aurora'",
+  "notes": "Utah AGRC statewide planning_generalized_zoning, filtered to Sevier County municipalities (Salina, Monroe, Joseph, Elsinore, Redmond, Glenwood, Central Valley, Sigurd, etc.); Aurora excluded because its polygons are invalid; source zoning codes from each municipality",
+  "verification": {
+    "verified_at": 1792135974647,
+    "counties": [
+      "49041"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

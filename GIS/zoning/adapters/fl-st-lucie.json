@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-st-lucie",
+  "publisher": "St. Lucie County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://slcgis.stlucieco.gov/hosting/rest/services/LandUse/Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12111"
+    ]
+  },
+  "fields": {
+    "link": "WebLink",
+    "zone": "Zoned"
+  },
+  "notes": "County zoning for unincorporated St. Lucie County only; cities such as Port St. Lucie and Fort Pierce zone their own land. Zoned holds the district code; no district name field is published.",
+  "verification": {
+    "verified_at": 1792133845935,
+    "counties": [
+      "12111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

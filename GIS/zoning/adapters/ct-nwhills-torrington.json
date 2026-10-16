@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ct-nwhills-torrington",
+  "publisher": "City of Torrington (layer published by davescherf on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/cszgVAzZgLvRmS7T/arcgis/rest/services/Zones2023/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09160"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Torrington CT zoning map zones, 2023 layer; covers the City of Torrington only (Northwest Hills Planning Region town). Owner account davescherf appears to be city GIS staff; the city publishes its zone map as PDF (effective 12-23-2025). No zone name field. Layer has 137 polygons.",
+  "verification": {
+    "verified_at": 1792133872891,
+    "counties": [
+      "09160"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

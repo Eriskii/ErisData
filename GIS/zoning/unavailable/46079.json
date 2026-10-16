@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "46079",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.lake.sd.gov/custom/planning-and-zoning",
+    "https://www.gismaps.org/sd-lake-county/",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=335&LayerID=4059",
+    "https://intuviosolutions.blob.core.windows.net/templator-uploads/Uploads/documents/34/Lake%20County%20Zoning%20Ordinance.pdf",
+    "https://www.1stdistrict.org/arcgis/rest/services/Lake?f=json"
+  ],
+  "note": "Lake County SD zones unincorporated land under an ordinance that names an Official Zoning Map, published only as PDF/viewer. Beacon viewer (Schneider) layer list has parcels, FEMA, townships but no zoning layer. The 1stdistrict.org host's Lake folder holds only FSALake2025, a raster aerial (Lake_2025.sid), no zoning. No public zoning district REST service found for Lake County or the city of Madison (Madison's interactive zoning map is a viewer; no REST endpoint found). Dynamo Spatial parcel data has zoning fields but is paid, not official.",
+  "recorded_at": 1792135578216,
+  "recheck_after": 1807687578216,
+  "model": "claude-haiku-5-5"
+}

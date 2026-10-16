@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-nezperce-lewiston",
+  "publisher": "City of Lewiston Community Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/R6cBwHlkwfCfBjSM/arcgis/rest/services/CDZoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "16069"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID",
+    "zone_name": "ZONE_FIELD"
+  },
+  "notes": "City of Lewiston zoning districts (city limits only); PUD_NAME gives planned unit development names. County unincorporated zoning is not published as a queryable layer. Source is the city of Lewiston Community Development zoning reference map.",
+  "verification": {
+    "verified_at": 1792133657385,
+    "counties": [
+      "16069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

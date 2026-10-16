@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-bristol-city",
+  "publisher": "City of Bristol, Virginia GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Vhoecg08noPQ7wRF/arcgis/rest/services/Zoning_2/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51520"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_PRI"
+  },
+  "notes": "City of Bristol VA GIS (Bristol-VA.maps.arcgis.com org). Layer is parcel-level: each feature is a parcel carrying its primary zoning in ZONING_PRI (ZONING_SEC is mostly blank). No zone_name field; no district-level layer found in the city org. Parcel-based fallback, so polygons are parcels, not dissolved districts.",
+  "verification": {
+    "verified_at": 1792136048130,
+    "counties": [
+      "51520"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

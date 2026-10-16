@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-new-cumberland",
+  "publisher": "Cumberland County Planning Department (New Cumberland Borough zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "New Cumberland Borough zoning layer from the county GIS Zoning_Basemap service (one layer per municipality). Layer is 5 features; the county notes its zoning maps are digitized from municipal paper maps and may not be the official adopted maps.",
+  "verification": {
+    "verified_at": 1792135329253,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

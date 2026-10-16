@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ny-ulster",
+  "publisher": "Ulster County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ulstercountyny.gov/server/rest/services/Parcel_Viewer/Municipal_Zoning/MapServer/33",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36111"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALI",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "County-hosted layer of municipal zoning digitized from 2004 town maps with town updates; one layer covering all towns/cities in Ulster County. Some towns newer (see county GIS downloads).",
+  "verification": {
+    "verified_at": 1792135025883,
+    "counties": [
+      "36111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

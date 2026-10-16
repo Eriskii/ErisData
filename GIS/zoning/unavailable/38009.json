@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "38009",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://portico.mygisonline.com/Geocortex/Essentials/Sidwell/REST/sites/BottineauND/map",
+    "https://www.bottineauco.com/tax",
+    "https://beacon.schneidercorp.com/Application.aspx?App=BottineauCountyND&PageType=Map"
+  ],
+  "note": "Bottineau County's zoning is listed as a MapServer at tiles.arcgis.com/tiles/4YineAQdtmx0tv46/.../BottineauNDZoning/MapServer, but that endpoint answers 'Requested Service not available' to REST probes; the county's Geocortex site returns 500 and the Beacon viewer is blocked. The City of Bottineau publishes its nine zoning districts only as web text, not as a service.",
+  "recorded_at": 1792135187719,
+  "recheck_after": 1807687187719,
+  "model": "claude-haiku-5-5"
+}

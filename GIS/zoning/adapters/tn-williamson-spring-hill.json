@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-williamson-spring-hill",
+  "publisher": "City of Spring Hill, TN (ArcGIS Online account kwesley_SH_TN)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/tF0XsRR9ptiKNVW2/arcgis/rest/services/Zoning_Spring_Hill_view/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47187"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Label"
+  },
+  "notes": "Spring Hill city zoning districts, a view hosted on an ArcGIS Online account (kwesley_SH_TN) that appears to belong to city GIS staff; not confirmed as the city-run service. Official Spring Hill zoning map is at springhilltn.org. Parcel-based zoning polygons; overlay field not used.",
+  "verification": {
+    "verified_at": 1792135614017,
+    "counties": [
+      "47187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

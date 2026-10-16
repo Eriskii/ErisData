@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wv-kanawha-st-albans",
+  "publisher": "Regional Intergovernmental Council (RIC), City of St. Albans zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/fVcw4GvGXZ2a5g3r/arcgis/rest/services/RIC_Zoning_General_Map_WFL1/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54039"
+    ]
+  },
+  "fields": {
+    "zone": "Zones"
+  },
+  "notes": "City of St. Albans zoning as compiled by the Regional Intergovernmental Council (RIC). Only the zone code is provided; no description field.",
+  "verification": {
+    "verified_at": 1792136102155,
+    "counties": [
+      "54039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

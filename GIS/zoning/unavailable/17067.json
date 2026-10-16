@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "17067",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://experience.arcgis.com/experience/e3e5fe3bf87b4ac8b101030ecfd76fb3",
+    "https://services6.arcgis.com/BN5dINZZvv0oeIev/arcgis/rest/services/Hancock_Parcel/FeatureServer",
+    "https://gis.wiu.edu/arcgis/rest/services/hancock/MapServer",
+    "http://carthage-il.com/development/resources/zoning_map.php",
+    "https://www.beautifulnauvoo.com/city-information/"
+  ],
+  "note": "Hancock County IL GIS (ArcGIS experience viewer, WIU-hosted MapServer, Hancock_Parcel FeatureServer) publishes parcels, towns, townships and roads only; no zoning district layer. Assessor parcel layer has no zoning field. City of Carthage publishes its zoning district map as a page plus printable PDF; Nauvoo publishes its zoning map on a city page (no queryable service found); Hamilton zoning is in its code only. No official queryable zoning polygon service found for the county or its cities.",
+  "recorded_at": 1792134135754,
+  "recheck_after": 1807686135754,
+  "model": "claude-haiku-5-5"
+}

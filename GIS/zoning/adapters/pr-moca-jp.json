@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pr-moca-jp",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/FeatureServer/0",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "72099"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "notes": "JP statewide calificacion layer (parcel-level polygons, all municipios); no attribute filter because where-clause queries time out on the server",
+  "verification": {
+    "verified_at": 1792139639830,
+    "counties": [
+      "72099"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-blaine-hailey",
+  "publisher": "City of Hailey GIS (Hailey_GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/X6IADK3MAoq4CuNd/arcgis/rest/services/Hailey_Official_Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16013"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "City of Hailey official zoning districts only (not unincorporated Blaine County). Hosted by City of Hailey on ArcGIS Online. Blaine County itself publishes no queryable zoning district service found.",
+  "verification": {
+    "verified_at": 1792133685327,
+    "counties": [
+      "16013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

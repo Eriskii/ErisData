@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-franklin-saranac-lake-village",
+  "publisher": "Village of Saranac Lake (via MapLink zoning service)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/MkUfAWaYm2SQf4Qa/arcgis/rest/services/SA0109_zoning_07222026_Zoning_Updated_07222026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36033"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "VILLAGE",
+    "zone": "LABEL"
+  },
+  "notes": "Village of Saranac Lake zoning districts, published on ArcGIS Online by MapLink (vendor behind the village zoning map on zoninghub). 35 features. Only the village is covered; the county and other towns/villages are not zoned in this layer.",
+  "verification": {
+    "verified_at": 1792135041011,
+    "counties": [
+      "36033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nj-monmouth-middletown",
+  "publisher": "Middletown Township (hosted by SpatialDataLogic)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/DvTqoyLKkslnGFR5/arcgis/rest/services/Middletown_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_ID"
+  },
+  "notes": "Middletown Township zoning districts; vendor-hosted (SpatialDataLogic)",
+  "verification": {
+    "verified_at": 1792135136131,
+    "counties": [
+      "34025"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

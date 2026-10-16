@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "26113",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.networksnorthwest.org/userfiles/filemanager/v6cvcnzf5v8dh8xmcxyx/",
+    "https://www.missaukee.org/government/local_governments/city_of_lake_city/lake_city_ordinances.php",
+    "https://www.cityofmcbainmichigan.com/departments/planning_zoning.php",
+    "https://beacon.schneidercorp.com/Application.aspx?App=MissaukeeCountyMI&PageType=Map"
+  ],
+  "note": "Missaukee County publishes no queryable zoning district layer. The county does not zone its unincorporated land (the 2021 county permitting guide says only the Cities of Lake City and McBain have zoning). Lake City's zoning is only a PDF ordinance and zoning map amendment; McBain's zoning ordinance book is a JPG file. The county GIS is a Beacon (Schneider) property viewer with no public zoning district service. ArcGIS searches for Missaukee zoning returned only parcels, sales and aerial layers; the MissaukeeBase service requires a token.",
+  "recorded_at": 1792132377026,
+  "recheck_after": 1807684377026,
+  "model": "claude-haiku-5-5"
+}

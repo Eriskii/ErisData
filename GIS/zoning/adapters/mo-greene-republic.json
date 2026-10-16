@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-greene-republic",
+  "publisher": "City of Republic, Missouri (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/FoNeaE7T0zfL3Ub1/arcgis/rest/services/Zoning_And_Districts/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29077"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "City of Republic zoning districts only, from the City of Republic GIS service (RepublicGIS account). Unincorporated county and Springfield not in this layer.",
+  "verification": {
+    "verified_at": 1792134816688,
+    "counties": [
+      "29077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

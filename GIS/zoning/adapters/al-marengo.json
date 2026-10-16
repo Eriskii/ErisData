@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "al-marengo",
+  "publisher": "Marengo County (parcel layer hosted by rembert88 on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuUmeLTCOKueQ4fU/arcgis/rest/services/Parcels2024Rev_view/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01091"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Last resort: no official queryable county or city zoning district layer found. This is a parcel layer (Parcels2024) from a personal ArcGIS Online item by rembert88, whose description says the parcels came from Marengo County and the zoning is assigned per parcel, not per area. Zoning field holds the parcel zoning code. No jurisdiction or zone_name field.",
+  "verification": {
+    "verified_at": 1792133719643,
+    "counties": [
+      "01091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-san-benito",
+  "publisher": "San Benito County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/NjMFCzThTMQy3AJa/arcgis/rest/services/County_of_San_Benito_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06069"
+    ]
+  },
+  "fields": {
+    "zone": "ZONETYPE",
+    "zone_name": "FullName"
+  },
+  "notes": "County unincorporated zoning only; cities such as Hollister zone their own land. Fields: ZONETYPE code, FullName description.",
+  "verification": {
+    "verified_at": 1792134026107,
+    "counties": [
+      "06069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

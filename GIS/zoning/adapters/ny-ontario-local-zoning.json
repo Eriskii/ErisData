@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ny-ontario-local-zoning",
+  "publisher": "Ontario County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/4ZdJfkWE583IARCX/arcgis/rest/services/Local_Zoning_Areas/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36069"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "COMMUNITY",
+    "zone": "NAME",
+    "zone_name": "NAME2"
+  },
+  "filter": "FID <> 331",
+  "notes": "Countywide local primary zoning areas published by Ontario County GIS on its ArcGIS Online org (owner Norton).",
+  "verification": {
+    "verified_at": 1792135135980,
+    "counties": [
+      "36069"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

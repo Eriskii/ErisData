@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "51720",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://nortonva.gov/127/Zoning",
+    "https://nortonva.interactivegis.com/login/",
+    "https://www.nortonva.gov/sitemap"
+  ],
+  "note": "Norton city's zoning page links a current zoning map, which appears to be a static map rather than a queryable service; the city's GIS viewer (nortonva.interactivegis.com) is a login-gated iGIS app that names no public ArcGIS REST zoning layer. Searches of ArcGIS Hub/Online found no official Norton, VA zoning district service. The only Zoning_Districts service found (services.arcgis.com/f4rR7WnIfGBdVYFd) returns no features inside Norton's bounding box, so it is not Norton's. Official city pages were unreachable or 404 from the reader, so the map format could not be confirmed.",
+  "recorded_at": 1792136081728,
+  "recheck_after": 1807688081728,
+  "model": "claude-haiku-5-5"
+}

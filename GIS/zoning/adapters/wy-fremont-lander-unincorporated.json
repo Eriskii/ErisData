@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wy-fremont-lander-unincorporated",
+  "publisher": "City of Lander, WY",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/DaaN11r1KfwdApEp/arcgis/rest/services/Unincorporated_22/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56013"
+    ]
+  },
+  "fields": {
+    "link": "Document",
+    "zone": "Class",
+    "zone_name": "Des"
+  },
+  "notes": "City of Lander zoning for unincorporated lands near Lander; companion to wy-fremont-lander. Fremont County has no countywide zoning.",
+  "verification": {
+    "verified_at": 1792136750472,
+    "counties": [
+      "56013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-bastrop-elgin",
+  "publisher": "City of Elgin / Bastrop County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/wdTkTU0MdZbNBEZy/arcgis/rest/services/Elgin_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48021"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Elgin zoning overlay for the Bastrop County part of Elgin city limits, hosted on Bastrop County GIS ArcGIS Online organization. Travis County part of Elgin is covered by another layer.",
+  "verification": {
+    "verified_at": 1792135587125,
+    "counties": [
+      "48021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

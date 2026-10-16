@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-carroll",
+  "publisher": "Carroll County GIS (hosted by hbeaver, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/T9kPZugHsZ2SNOXt/arcgis/rest/services/ZONING/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13045"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Last resort: parcel-level layer (about 9,000 parcels, Parcel_no/ADDRESS) carrying each parcel zoning in the Zoning field; no official county zoning district layer is queryable (county publishes zoning map as PDF). Copy uploaded to ArcGIS Online by user hbeaver, not verified as county-published. OVERLAY field holds overlay districts (not mapped). No zone_name or jurisdiction field available.",
+  "verification": {
+    "verified_at": 1792133928169,
+    "counties": [
+      "13045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

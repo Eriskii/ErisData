@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "12029",
+  "reason": "viewer-only",
+  "evidence": [
+    "http://ncfrpc.org/MapsAndPlans/Counties/Dixie/DIZN13.pdf",
+    "https://library.municode.com/fl/dixie_county/codes/code_of_ordinances?nodeId=COOR_APXALADERE_ART4ZORE_S4.1ZODI",
+    "https://services.arcgis.com/p7WZ4UyLkrovL07k/arcgis/rest/services/DixieMapData/FeatureServer"
+  ],
+  "note": "Dixie County's official zoning atlas is published only as a static PDF (DIZN13.pdf) on the NCFRPC site. The county's ArcGIS map (DixieMapData FeatureServer, used by the dixie-ems Dixie Map app) has 46 layers, none of them zoning districts. Municode Article 4 gives the district text but no GIS service. A search for Cross City or Horseshoe Beach zoning GIS found nothing queryable.",
+  "recorded_at": 1792133862647,
+  "recheck_after": 1807685862647,
+  "model": "claude-haiku-5-5"
+}

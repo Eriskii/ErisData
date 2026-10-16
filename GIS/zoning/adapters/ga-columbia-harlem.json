@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-columbia-harlem",
+  "publisher": "City of Harlem GIS (hosted by Columbia County)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.columbiacountyga.gov/host/rest/services/MapsOnline/PlanningAndZoning/MapServer/82",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13073"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Harlem zoning districts, served by Columbia County Maps Online.",
+  "verification": {
+    "verified_at": 1792133883509,
+    "counties": [
+      "13073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

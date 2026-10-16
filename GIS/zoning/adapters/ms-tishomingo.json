@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ms-tishomingo",
+  "publisher": "Tishomingo County, MS (AHOS1977 hosted zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/deoj2Y8l1tBr7P5X/arcgis/rest/services/Tishomingo_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28141"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "descript"
+  },
+  "notes": "Hosted by AHOS1977 on ArcGIS Online; 40 base zoning district polygons. Official status to be confirmed by publisher; no jurisdiction field.",
+  "verification": {
+    "verified_at": 1792134818098,
+    "counties": [
+      "28141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

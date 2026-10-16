@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nj-atlantic",
+  "publisher": "Atlantic County, NJ (copy hosted by llandgraf on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/chm8U7s7j8mKxk28/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Mun",
+    "zone": "Zone",
+    "zone_name": "Descriptio"
+  },
+  "notes": "Unofficial copy: ArcGIS Online item by user llandgraf, described as zoning for Atlantic County; no official county zoning service found. 76 polygons across municipalities in Mun field.",
+  "verification": {
+    "verified_at": 1792134961121,
+    "counties": [
+      "34001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

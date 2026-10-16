@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-douglas",
+  "publisher": "Douglas County, WI (general zoning, 2021 copy hosted by Wisconsin PSC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.psc.wi.gov/server/rest/services/Electric/Superior_137CE204/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "FULL_NAME"
+  },
+  "notes": "Douglas County WI general zoning layer (2021 data) as hosted in the Wisconsin PSC project map service; the only queryable Douglas County zoning polygon layer found. Covers unincorporated county land; cities/villages zone themselves.",
+  "verification": {
+    "verified_at": 1792136046519,
+    "counties": [
+      "55031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

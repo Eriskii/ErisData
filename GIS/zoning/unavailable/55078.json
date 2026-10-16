@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "55078",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://geodata.wisc.edu/catalog/B466E378-8CD5-40FD-85AC-ACAF8E9F26FD",
+    "https://geodata.wisc.edu/catalog/B466E378-8CD5-40FD-85AC-ACAF8E9F26FD/metadata",
+    "https://web.s3.wisc.edu/rml-gisdata/MENOMINEE_ZONING_2026.zip",
+    "https://geodata.wisc.edu/catalog/73A1DC86-DCF2-4E7F-8CC3-F093F8DD9419/metadata",
+    "https://www.co.menominee.wi.us/departments/?department=92b0ec46889a&subdepartment=36e3a1f6f4e5"
+  ],
+  "note": "Menominee County's general zoning layer (2026, and 2020 archive) is published only as an ESRI File Geodatabase zip (web.s3.wisc.edu/rml-gisdata). Validating that zip as bulk-download failed: 'the zip has no .shp'. No shapefile, GeoJSON or ArcGIS REST zoning service was found. The county GIS page links only to the statewide parcel viewer. The county has no incorporated cities, so there are no city zoning layers to fall back on.",
+  "recorded_at": 1792136093036,
+  "recheck_after": 1807688093036,
+  "model": "claude-haiku-5-5"
+}

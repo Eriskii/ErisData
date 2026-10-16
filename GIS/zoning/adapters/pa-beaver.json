@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-beaver",
+  "publisher": "Beaver County GIS (hosted zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/q8sarOko6mCDwiGm/arcgis/rest/services/Beaver_County_Zoning/FeatureServer/28",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "42007"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI_NAME",
+    "link": "Ordinance_",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Multi-jurisdiction county layer; MUNI_NAME names the municipality. Hosted by consultant for county zoning boundaries.",
+  "verification": {
+    "verified_at": 1792135321552,
+    "counties": [
+      "42007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

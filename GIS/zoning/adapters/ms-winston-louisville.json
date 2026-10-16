@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-winston-louisville",
+  "publisher": "City of Louisville, MS (via Winston County GIS web app)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/kQPfxbSKhIDcSFXL/arcgis/rest/services/Winston/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28159"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Louisville zoning (LouZoning layer) hosted on the county GIS services org, from the city zoning web map. Covers only the City of Louisville, not unincorporated county land. Polygons are parcel-based (PARCEL_ID, OWNERNAME attributes), so one zone per parcel. ZONE_1 holds a land-use description (e.g. Vacant) and is not mapped as zone_name because it is sparsely filled.",
+  "verification": {
+    "verified_at": 1792134633871,
+    "counties": [
+      "28159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

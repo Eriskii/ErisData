@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-imperial-county",
+  "publisher": "County of Imperial Planning & Development Services",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/RomaVqqozKczDNgd/arcgis/rest/services/Imperial_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06025"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_"
+  },
+  "notes": "County of Imperial zoning districts layer; zone code in Zone_. Zone_Map is a map sheet number, not a name. Covers unincorporated county; cities not included. No zone name field published.",
+  "verification": {
+    "verified_at": 1792134011044,
+    "counties": [
+      "06025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

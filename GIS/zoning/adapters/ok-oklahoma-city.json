@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ok-oklahoma-city",
+  "publisher": "City of Oklahoma City (Open Data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/388d1b1f0e804e378a2d138c39919085/rest/services/OpenData/Licensing_Zoning/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40109"
+    ]
+  },
+  "fields": {
+    "zone": "P_ZONE"
+  },
+  "notes": "City of Oklahoma City Straight Zoning (base districts), from the city open data portal. Zone code only; descriptions are in the Zoning Definitions table (layer 9 of the same service), not joined. Overlay zones are a separate layer and not included.",
+  "verification": {
+    "verified_at": 1792135327815,
+    "counties": [
+      "40109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

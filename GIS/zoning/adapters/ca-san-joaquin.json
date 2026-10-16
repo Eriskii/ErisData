@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-san-joaquin",
+  "publisher": "San Joaquin County (zoning base layer, hosted by CSU Stanislaus account)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/rX5atNlsxFq7LIpv/arcgis/rest/services/San_Joaquin_County_Zoning_BASE/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06077"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jursd",
+    "zone": "ZNCODE",
+    "zone_name": "ZNDESCRIPT"
+  },
+  "notes": "Countywide base zoning with Jurisdiction field; hosted under a university ArcGIS Online account, copy of county data (official false). Verify source.",
+  "verification": {
+    "verified_at": 1792134033385,
+    "counties": [
+      "06077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

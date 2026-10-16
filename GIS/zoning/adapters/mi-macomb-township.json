@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-macomb-township",
+  "publisher": "Macomb County GIS (Macomb Township zoning, county-hosted)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.macombgov.org/arcgis1/rest/services/WEBMAPS/Macomb_Township_Zoning_2021/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26099"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CVT_NAME",
+    "zone": "ZONING"
+  },
+  "notes": "Parcel-level layer (one polygon per parcel) carrying each parcel zoning in ZONING; covers Macomb Township only, not the rest of the county. Published by Macomb County GIS on its own server, 2021 snapshot.",
+  "verification": {
+    "verified_at": 1792132374354,
+    "counties": [
+      "26099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

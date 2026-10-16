@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ut-beaver-county",
+  "publisher": "Beaver County, Utah",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/n8i0jF7SlR2FMUxZ/arcgis/rest/services/Zoning/FeatureServer/40",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49001"
+    ]
+  },
+  "fields": {
+    "link": "ZONE_URL",
+    "zone": "ZONING",
+    "zone_name": "ZONE_DEF"
+  },
+  "filter": "ZONING <> 'MU-20'",
+  "notes": "Beaver County Zoning as of Sept 2 2025. MU-20 polygon excluded because its source geometry is invalid (self-intersecting).",
+  "verification": {
+    "verified_at": 1792135938808,
+    "counties": [
+      "49001"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

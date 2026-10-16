@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nj-bergen",
+  "publisher": "NJTPA (North Jersey Transportation Planning Authority) - NJ Zoning Atlas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.njtpa.org/server/rest/services/LandUse/NJTPA_Zoning_Atlas_082025/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34003"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Abbreviate",
+    "zone_name": "Full_District_Name"
+  },
+  "filter": "County = 'Bergen'",
+  "notes": "NJTPA zoning atlas (Aug 2025) compiled municipal zoning for NJ; filtered to Bergen County.",
+  "verification": {
+    "verified_at": 1792135265285,
+    "counties": [
+      "34003"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

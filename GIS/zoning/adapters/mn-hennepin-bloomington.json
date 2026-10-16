@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-hennepin-bloomington",
+  "publisher": "City of Bloomington MN Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.bloomingtonmn.gov/arcgis/rest/services/ComDev/PlanningPublic/MapServer/77",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27053"
+    ]
+  },
+  "fields": {
+    "zone": "designation",
+    "zone_name": "description"
+  },
+  "notes": "City of Bloomington zoning areas (440 features), city publishes its own zoning; covers Bloomington only.",
+  "verification": {
+    "verified_at": 1792130921984,
+    "counties": [
+      "27053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

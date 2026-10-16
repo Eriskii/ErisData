@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-schenectady-city",
+  "publisher": "City of Schenectady GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.schenectadyny.gov/arcgisserver/rest/services/Hosted/City_of_Schenectady_Zoning_Map_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36093"
+    ]
+  },
+  "fields": {
+    "zone": "symbol",
+    "zone_name": "district"
+  },
+  "notes": "City of Schenectady only (towns such as Niskayuna, Rotterdam, Glenville not covered; no county-wide zoning layer found). City Zoning (2008) layer from the city GIS server, 33 polygons.",
+  "verification": {
+    "verified_at": 1792135051473,
+    "counties": [
+      "36093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

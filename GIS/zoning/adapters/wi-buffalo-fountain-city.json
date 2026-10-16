@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-buffalo-fountain-city",
+  "publisher": "Buffalo County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/4fskj6X2QqYEBVyr/arcgis/rest/services/Zoning_Fountain_City/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55011"
+    ]
+  },
+  "fields": {
+    "link": "ZONINGORDURL",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Fountain City zoning districts, published by Buffalo County GIS (source MRRPC); the layer does not name the jurisdiction, so all features are City of Fountain City.",
+  "verification": {
+    "verified_at": 1792136048649,
+    "counties": [
+      "55011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

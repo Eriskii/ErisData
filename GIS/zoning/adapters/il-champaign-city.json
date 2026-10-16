@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-champaign-city",
+  "publisher": "City of Champaign GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.champaignil.gov/ms/rest/services/Open_Data/Open_Data/MapServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "City of Champaign zoning classifications (city limits only). Source: City of Champaign Open Data via CCRPC portal.",
+  "verification": {
+    "verified_at": 1792133971320,
+    "counties": [
+      "17019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

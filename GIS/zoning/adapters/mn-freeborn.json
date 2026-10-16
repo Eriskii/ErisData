@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-freeborn",
+  "publisher": "Freeborn County GIS (NLRGIS host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/GuzKGtwBFbX83DiX/arcgis/rest/services/Freeborn_County_Zoning/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27047"
+    ]
+  },
+  "fields": {
+    "zone": "CODE"
+  },
+  "notes": "Hosted by NLRGIS in ArcGIS Online as Freeborn County Zoning; only 17 polygons, zone code only, no name or ordinance link. Coverage may be partial (some districts such as A or R-1 may be absent).",
+  "verification": {
+    "verified_at": 1792134503180,
+    "counties": [
+      "27047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

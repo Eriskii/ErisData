@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-casselberry",
+  "publisher": "City of Casselberry Community Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.casselberry.org/mapping/rest/services/CommDev/Casselberry_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12117"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Casselberry zoning, served as parcel polygons carrying each parcel zoning (ZONING). Zone names not published in this layer.",
+  "verification": {
+    "verified_at": 1792133914691,
+    "counties": [
+      "12117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

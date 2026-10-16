@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-hart-horse-cave",
+  "publisher": "BRADD (Barren River Area Development District) for City of Horse Cave, KY",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/LledJs8ADlUCS7Cz/arcgis/rest/services/HorseCaveZoning_ViewLayer/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21099"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "District",
+    "zone": "Zoning"
+  },
+  "notes": "Only queryable zoning source found for Hart County. Zoning is an attribute of the HorseCaveParcels layer (parcel polygons carrying each parcel zoning code: A, B1, B2, B3, I1, I2, R1, R2) covering City of Horse Cave only; no zone_name or ordinance link field. Munfordville and unincorporated county zoning are published only as PDF ordinances/maps, not as services.",
+  "verification": {
+    "verified_at": 1792134379988,
+    "counties": [
+      "21099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

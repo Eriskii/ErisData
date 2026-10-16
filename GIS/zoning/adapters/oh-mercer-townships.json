@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-mercer-townships",
+  "publisher": "Mercer County Ohio township zoning (ArcGIS Online, janell.weiss)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Hym5ktUHlHiJ3AfR/arcgis/rest/services/Township_Zoning/FeatureServer/111",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39107"
+    ]
+  },
+  "fields": {
+    "zone": "TEXTSTRING"
+  },
+  "filter": "OBJECTID <> 101",
+  "notes": "Third-party ArcGIS Online copy of unincorporated township zoning for Mercer County OH; county server gis.mercercountyohio.org unreachable. Excludes one self-intersecting polygon (OBJECTID 101).",
+  "verification": {
+    "verified_at": 1792135271739,
+    "counties": [
+      "39107"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-sully",
+  "publisher": "Sully County GIS (hosted by District III)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/SULLY_COUNTY_WEB_LAYERS/MapServer/35",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46119"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWNSHIP_NAME",
+    "zone": "ZONING"
+  },
+  "notes": "Sully County zoning layer from the county GIS web layers on District III server. Only two districts present: AGRICULTURE A and AGRICULTURE B, by PLSS section (FEATURE_TYPE SECTION, SOURCE CSDED). TOWNSHIP_NAME is the government township, not a city jurisdiction. No zone_name field. No city zoning found in this service.",
+  "verification": {
+    "verified_at": 1792135474247,
+    "counties": [
+      "46119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

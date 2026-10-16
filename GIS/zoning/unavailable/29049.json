@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29049",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://clintoncomo.org/government/courthouse/planning-and-zoning/",
+    "https://clintoncomo.org/wp-content/uploads/2025/03/Clinton-Co-Zoning-Order-Amended-02-13-2025.pdf",
+    "https://www.gismaps.org/mo-clinton-county/",
+    "https://app.fetchgis.com/?currentMap=clinton"
+  ],
+  "note": "Clinton County MO zones its unincorporated land by a county zoning order (2025 amendment) that cites an official zoning map, but no queryable GIS service of county zoning districts was found. Public viewers (county GIS Cloud, Vanguard assessor portal, FetchGIS which is Michigan) expose no zoning service. Only queryable district layer found is City of Cameron's (services2.integritygis.com Cameron_Citizenserve/MapServer/2), which covers only the city; it fails validation because the county's interior point (-94.40409,39.60132) lies outside any published district. Plattsburg and Lathrop publish no zoning GIS. Regrid zoning is a paid vendor product, not an open service.",
+  "recorded_at": 1792134916172,
+  "recheck_after": 1807686916172,
+  "model": "claude-haiku-5-5"
+}

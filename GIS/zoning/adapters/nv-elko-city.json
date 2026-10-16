@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nv-elko-city",
+  "publisher": "City of Elko, NV (zoning map layer hosted on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/xgGzkdHemXBBqR4p/arcgis/rest/services/City_of_Elko___Zoning_Map_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32007"
+    ]
+  },
+  "fields": {
+    "zone": "LAYER",
+    "zone_name": "Full_Zone_Name"
+  },
+  "notes": "City of Elko zoning districts only (City limits; county unincorporated land is not in this layer). Layer published under the City of Elko Zoning item by JakeJefferson on ArcGIS Online. Link field holds local U:\\ paths, so not mapped. Unincorporated Elko County zoning service was not found in ArcGIS search or county site.",
+  "verification": {
+    "verified_at": 1792134981415,
+    "counties": [
+      "32007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-georgetown-city",
+  "publisher": "City of Georgetown, SC",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kfym9sA6EcLu5wTH/arcgis/rest/services/Zoning_View/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45043"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Abbreviation"
+  },
+  "notes": "City of Georgetown zoning districts, from the city Zoning Map web map. Covers city limits only; county unincorporated zoning is on the Georgetown County GIS server (gis1.georgetowncountysc.org), which was unreachable during this search. Zoning_District name is sparsely filled, so only the abbreviation is mapped.",
+  "verification": {
+    "verified_at": 1792135395237,
+    "counties": [
+      "45043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

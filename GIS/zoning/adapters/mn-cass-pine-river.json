@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-cass-pine-river",
+  "publisher": "Cass County GIS (City of Pine River zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cassweb.casscountymn.gov/arcgis/rest/services/Municipalities/MapServer/37",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27021"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Pine River zoning layer hosted by Cass County GIS in Municipalities service. Zone code only.",
+  "verification": {
+    "verified_at": 1792134515543,
+    "counties": [
+      "27021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

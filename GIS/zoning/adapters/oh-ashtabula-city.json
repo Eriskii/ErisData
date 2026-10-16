@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "oh-ashtabula-city",
+  "publisher": "Ashtabula County Auditor GIS (City of Ashtabula zoning, Zoning2021 service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://parcelmap.ashtabulacounty.us/arcgis/rest/services/Zoning2021/Zoning_AshtabulaCity/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39007"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Code"
+  },
+  "notes": "City of Ashtabula. Parcel-level layer (about 11,000 features, one per parcel) carrying each parcel zoning code in Zoning_Code (zone_update mirrors it); a last resort since no district-polygon layer was found. Dissolve by zone for district boundaries. Zone names not filled in source.",
+  "verification": {
+    "verified_at": 1792135194307,
+    "counties": [
+      "39007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nm-lincoln-ruidoso-downs",
+  "publisher": "City of Ruidoso Downs",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/QUGORD2NONN0TA1g/arcgis/rest/services/City_of_Ruidoso_Downs_Zoning_Districts_Map_WFL1/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Ruidoso Downs zoning districts, served by the city webmap Zoning Districts Map (layer 1 of the WFL1 service).",
+  "verification": {
+    "verified_at": 1792135042584,
+    "counties": [
+      "35027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

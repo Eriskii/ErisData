@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-lexington",
+  "publisher": "Lexington County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.lex-co.com/agstserver/rest/services/PlanZoning/MapServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45063"
+    ]
+  },
+  "fields": {
+    "zone": "NameAbbr",
+    "zone_name": "Name"
+  },
+  "notes": "Lexington County GIS zoning layer (PlanZoning MapServer layer 6). Zoning Number is field Num. Unincorporated county zoning per county GIS; check whether city zoning is included.",
+  "verification": {
+    "verified_at": 1792135362898,
+    "counties": [
+      "45063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

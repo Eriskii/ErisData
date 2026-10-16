@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-lancaster",
+  "publisher": "Lancaster County GIS (LancoGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/rJcpRneDUBgTeCT3/arcgis/rest/services/Zoning_022519/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45057"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "OldZone"
+  },
+  "notes": "County zoning layer (Zoning_111919, dated 2019) covering the county; Zoning holds the current district code, OldZone the prior code. Districts are per parcel PIN; no jurisdiction field, so it is unincorporated-county zoning. Overlays are separate layers.",
+  "verification": {
+    "verified_at": 1792135362621,
+    "counties": [
+      "45057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

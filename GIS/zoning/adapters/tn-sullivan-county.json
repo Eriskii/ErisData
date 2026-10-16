@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-sullivan-county",
+  "publisher": "Sullivan County GIS (Tennessee)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/v5m4xG1TT2sxtq3E/arcgis/rest/services/Sullivan_County_Zoning_20220421/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47163"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Description"
+  },
+  "notes": "County zoning layer, Sullivan_County_Zoning_20220421, hosted on the county ArcGIS Online organization (sullcotngis). Split_Zoning flags parcels split between districts. No jurisdiction field.",
+  "verification": {
+    "verified_at": 1792135526826,
+    "counties": [
+      "47163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

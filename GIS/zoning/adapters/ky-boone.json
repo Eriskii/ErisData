@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ky-boone",
+  "publisher": "Boone County Planning Commission / Boone County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://secure.boonecountygis.com/server/rest/services/ServicesBoone/PlanningAndZoningOutlinesGroup_Boone/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTN",
+    "link": "BZARTHLINK",
+    "zone": "BASEZONING"
+  },
+  "notes": "Base zoning districts for Boone County KY, unincorporated county plus cities per BCPC (JURISDICTN BCPC for county; city codes for Florence, Union, Walton). Served by Boone County GIS. ZONINGDESC is mostly empty, so zone_name is not mapped. link is the base zoning article on the county ordinance site.",
+  "verification": {
+    "verified_at": 1792134373301,
+    "counties": [
+      "21015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

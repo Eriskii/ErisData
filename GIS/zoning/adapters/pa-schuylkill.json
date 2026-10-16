@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill",
+  "publisher": "Schuylkill County Planning, Zoning and GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/ParcelLocator/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNIS",
+    "zone": "ZONE",
+    "zone_name": "DESCRPT"
+  },
+  "notes": "County zoning districts for county-zoned municipalities (COUNTY=Y); MUNIS is a numeric municipality code, COUNTY=N rows are municipalities with their own zoning. Overlay and municipal-only districts may be partial.",
+  "verification": {
+    "verified_at": 1792135322402,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ak-chugach-valdez",
+  "publisher": "City of Valdez",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/pDiwEHErgACQrcA3/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02063"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningLetr",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Valdez official zoning layer (city limits only; the unorganized borough does not zone). Rezoning fields REZONE_ORD and PREV_ZONE are available but not mapped.",
+  "verification": {
+    "verified_at": 1792133664538,
+    "counties": [
+      "02063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

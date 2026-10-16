@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-hanover",
+  "publisher": "Hanover County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/sKZWgJlU6SekCzQV/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51085"
+    ]
+  },
+  "fields": {
+    "link": "CASEANNO",
+    "zone": "CLASS"
+  },
+  "notes": "Hanover County GIS Zoning layer from the county ArcGIS org (data-hanovercounty hub). CLASS holds the district code; Ashland town zoning is not included.",
+  "verification": {
+    "verified_at": 1792135945334,
+    "counties": [
+      "51085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

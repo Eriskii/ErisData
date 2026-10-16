@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ak-anchorage",
+  "publisher": "Municipality of Anchorage Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/Ce3DhLRthdwbHlfF/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02020"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance_URL",
+    "zone": "ZONING_DESIGNATIONS",
+    "zone_name": "DistrictName"
+  },
+  "notes": "MOA Planning generalized zoning districts (1,702 features). zone is the district code (e.g. CE-R-6); zone_name is the generalized district name. Overlay layer FeatureServer/1 not used.",
+  "verification": {
+    "verified_at": 1792133635976,
+    "counties": [
+      "02020"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

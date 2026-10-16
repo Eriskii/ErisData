@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "25019",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.nantucket-ma.gov/151/GIS-Maps",
+    "https://nantucketma.mapgeo.io/",
+    "https://ecode360.com/11471589"
+  ],
+  "note": "Nantucket County is coextensive with the Town of Nantucket, which zones the island. The town publishes its zoning districts only as PDF zoning maps (GIS-Maps page) and through the MapGeo web viewer (nantucketma.mapgeo.io), which has no public ArcGIS REST or downloadable zoning layer. The MassGIS-linked town viewer item (f9ca9e33f9a84eadae0594e62a8fb6b0) points to that same MapGeo site. ArcGIS searches for Nantucket zoning found only a county boundary layer (services1.arcgis.com/VLhaRwzp3uCQMr7y/.../Nantucket_County/FeatureServer), not zoning. No queryable zoning polygon service was found.",
+  "recorded_at": 1792134516057,
+  "recheck_after": 1807686516057,
+  "model": "claude-haiku-5-5"
+}

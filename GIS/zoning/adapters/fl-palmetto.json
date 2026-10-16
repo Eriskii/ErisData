@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-palmetto",
+  "publisher": "City of Palmetto, FL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/L2Neyx2ylSeTBS0F/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12081"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESC_"
+  },
+  "notes": "City of Palmetto official zoning layer (city limits only, not unincorporated Manatee County). Current as of Q2 2026. No ordinance link published in the layer.",
+  "verification": {
+    "verified_at": 1792133875173,
+    "counties": [
+      "12081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

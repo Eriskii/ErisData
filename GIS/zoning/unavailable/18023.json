@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "18023",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.clintonco.com/apc/",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=91&LayerID=915&PageTypeID=2&PageID=586",
+    "https://app.fetchgis.com/?currentMap=clinton",
+    "https://www.clintonco.com/downloads/apc/historical/unifiedzoningordinance2009.pdf"
+  ],
+  "note": "Clinton County IN zoning districts appear only in vendor viewers (Schneider Beacon 'Clinton County Zoning' layer, which returns 403 bot-check to our reader; FetchGIS 'County Zoning' viewer layer with no public service URL exposed). The Area Plan Commission publishes its official zoning maps as PDF/convenience copies. No public ArcGIS REST/WFS/bulk zoning polygon layer was found via arcgis search (state and county boxes), web search, or the county's GIS host (gis.clintonco.com did not respond). Frankfort city zoning is also PDF-only.",
+  "recorded_at": 1792134120874,
+  "recheck_after": 1807686120874,
+  "model": "claude-haiku-5-5"
+}

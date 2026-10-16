@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-fayette",
+  "publisher": "Fayette County, TN (Office of Planning and Development) via fcopd ArcGIS Online",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ugpC6Yksa0QOxbEI/arcgis/rest/services/Zoning3wROADS_wZ_labels_w_zoom/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47047"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Fayette County zoning districts (Zoning18 layer, county zoning map as served by the county planning office web map). Zone codes such as R1, R2, R3, B3. Layer carries rezoning history fields; zone is the current district code. Coverage is the county zoning layer; city jurisdictions may not be separated.",
+  "verification": {
+    "verified_at": 1792135576912,
+    "counties": [
+      "47047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

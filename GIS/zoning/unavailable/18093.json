@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "18093",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://lawrencein.elevatemaps.io/",
+    "https://lawrencein.wthgis.com/",
+    "https://bedford.in.gov/planning-zoning/",
+    "https://lawrencecounty.in.gov/201/Surveyor"
+  ],
+  "note": "Lawrence County (IN) zoning districts appear only inside the county's ThinkGIS (wthgis) and Elevate map viewers (a 'Bedford Zoning' layer, no countywide layer). No public ArcGIS REST service for zoning was found: the wthgis /arcgis/rest/services path returns 404 and the Elevate REST path returns 403 AccessDenied. Mitchell's and Bedford's sites link only to viewers or contacts, not queryable district layers.",
+  "recorded_at": 1792134246105,
+  "recheck_after": 1807686246105,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "az-sierra-vista",
+  "publisher": "City of Sierra Vista",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/qsfT0E2It2u5vqBg/arcgis/rest/services/Zoning Sierra Vista/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "TYPE"
+  },
+  "notes": "City of Sierra Vista zoning districts, provided by the city via ArcGIS Online. Covers city limits only.",
+  "verification": {
+    "verified_at": 1792133723103,
+    "counties": [
+      "04003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

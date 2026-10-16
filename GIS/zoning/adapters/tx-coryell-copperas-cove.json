@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-coryell-copperas-cove",
+  "publisher": "City of Copperas Cove",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/8H9GxQIbWMIPLR11/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48099"
+    ]
+  },
+  "fields": {
+    "zone": "ECP_Zoning_Code",
+    "zone_name": "ECP_Zone_Description"
+  },
+  "notes": "City of Copperas Cove adopted zoning districts (CC_Adopted_Zoning_Final), city-limits only; county unincorporated land and other cities not covered.",
+  "verification": {
+    "verified_at": 1792135707317,
+    "counties": [
+      "48099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

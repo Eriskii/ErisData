@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "42075",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.lebanonpa.org/business/building-and-zoning",
+    "https://lebanoncountypa.gov/departments/gis",
+    "https://www.lebanoncountypa.gov/sites-of-local-interest",
+    "https://northlebanontwppa.gov/wp-content/uploads/2023/06/NLT-Zoning-Map-2023.pdf"
+  ],
+  "note": "Lebanon County has no queryable zoning district service. The county GIS office provides data only by request (shapefile via FTP), and its Property Viewer carries parcels, not zoning. The City of Lebanon publishes its zoning map only as a static PDF (Lebanon-City-Official-Zoning-Map-r.pdf), and North Lebanon Township's 2023 zoning map is also a PDF prepared with county GIS. A search of ArcGIS Online and Hub for zoning in Lebanon County found no official or unofficial district layer. The one Zoning_Districts FeatureServer found is in Alaska (extent lon -148.7 to -143.9), so it is not this county. Municipal zoning exists only as PDF maps, so the county is viewer-only.",
+  "recorded_at": 1792135396742,
+  "recheck_after": 1807687396742,
+  "model": "claude-haiku-5-5"
+}

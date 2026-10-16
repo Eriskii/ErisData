@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-tazewell-east-peoria",
+  "publisher": "City of East Peoria GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/tInG7fYjoF1Sayng/arcgis/rest/services/Planning_and_Zoning/FeatureServer/62",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17179"
+    ]
+  },
+  "fields": {
+    "link": "CODE_REF",
+    "zone": "ZONING",
+    "zone_name": "CLASS"
+  },
+  "notes": "City of East Peoria zoning districts (hosted in the city GIS org). Covers East Peoria city only, not the county-wide layer. CODE_REF field carries code reference; verify its content.",
+  "verification": {
+    "verified_at": 1792134195948,
+    "counties": [
+      "17179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

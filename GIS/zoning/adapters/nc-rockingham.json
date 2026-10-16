@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-rockingham",
+  "publisher": "Rockingham County GIS (via webgis.net)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.webgis.net/arcgis/rest/services/NC/Rockingham/MapServer/30",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37157"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE"
+  },
+  "notes": "County GIS Zoning layer from the county webgis.net map service. ZONE_TYPE holds sparse conditional/overlay codes, not district names, so zone_name is not mapped. No jurisdiction field.",
+  "verification": {
+    "verified_at": 1792135136433,
+    "counties": [
+      "37157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

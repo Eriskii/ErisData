@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-carlisle",
+  "publisher": "Cumberland County Planning Department (Carlisle Borough zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Carlisle Borough zoning layer from the county GIS Zoning_Basemap service (one layer per municipality). Layer is 17 features; the county notes its zoning maps are digitized from municipal paper maps and may not be the official adopted maps.",
+  "verification": {
+    "verified_at": 1792135318772,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

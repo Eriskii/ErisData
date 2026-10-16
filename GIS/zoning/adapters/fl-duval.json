@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-duval",
+  "publisher": "dustin112 (ArcGIS Online copy of Duval zoning, 2024)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/0S6Rv8n8gJ4FsJ6r/arcgis/rest/services/Duval_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12031"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE_",
+    "zone": "LABEL"
+  },
+  "notes": "Unofficial copy uploaded to ArcGIS Online by an individual (2024 March); official City of Jacksonville zoning bulk download and REST service could not be reached. Covers Jacksonville/Duval zoning districts; LABEL is the district code.",
+  "verification": {
+    "verified_at": 1792133854052,
+    "counties": [
+      "12031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

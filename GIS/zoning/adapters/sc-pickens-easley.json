@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-pickens-easley",
+  "publisher": "City of Easley, SC (EasleySC ArcGIS organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/xWLt4FVDOKzkUzCP/arcgis/rest/services/EasleyZoningMap_2022/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45077"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Easley zoning districts only (layer 8 of the city zoning map service, 229 features). No Pickens County unincorporated zoning layer or other municipalities were found published as queryable services. Source has no district name or ordinance link field. Coordinates in source spatial reference, runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792135924767,
+    "counties": [
+      "45077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

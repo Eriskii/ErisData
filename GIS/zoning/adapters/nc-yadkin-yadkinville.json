@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-yadkin-yadkinville",
+  "publisher": "Town of Yadkinville (via Yadkin County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yadkincountync.gov/arcgis/rest/services/CountyGISmap/MapServer/44",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37197"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE"
+  },
+  "notes": "Yadkinville town zoning from county GIS map service",
+  "verification": {
+    "verified_at": 1792135105229,
+    "counties": [
+      "37197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-wood-bowling-green",
+  "publisher": "City of Bowling Green GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.bgohio.org/arcgis/rest/services/Planning/Replica_current_zoning_class_MS/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39173"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_2023",
+    "zone_name": "F2023_Desc"
+  },
+  "notes": "Parcel layer of the City of Bowling Green, Ohio: each parcel carries its current zoning (ZONE_2023 code, F2023_Desc description), so zone codes repeat per parcel. No separate district polygon layer is served with geometry. Served from the city GIS server.",
+  "verification": {
+    "verified_at": 1792135585652,
+    "counties": [
+      "39173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

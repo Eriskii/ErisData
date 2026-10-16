@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-daggett-manila",
+  "publisher": "Uintah Basin Association of Governments (for Manila Town)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/5fDwKG9d6YoFpMDE/arcgis/rest/services/ManilaZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49009"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "ZoneDescri"
+  },
+  "notes": "Manila Town zoning prepared by UBAOG regional planning body for the town.",
+  "verification": {
+    "verified_at": 1792135901721,
+    "counties": [
+      "49009"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-yates-benton",
+  "publisher": "Yates County GIS (Town of Benton base zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.yatescounty.org/server/rest/services/Hosted/Benton_Base_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36123"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "Label"
+  },
+  "notes": "Town of Benton base zoning served by Yates County GIS portal; town layer, jurisdiction is the Town of Benton.",
+  "verification": {
+    "verified_at": 1792135054875,
+    "counties": [
+      "36123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

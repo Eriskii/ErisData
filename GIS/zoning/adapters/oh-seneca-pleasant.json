@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "oh-seneca-pleasant",
+  "publisher": "Seneca County Auditor GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/b8eHPJ5KRnX3dHNa/arcgis/rest/services/PleasantZoningLayer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39147"
+    ]
+  },
+  "fields": {
+    "zone": "TWPZoning"
+  },
+  "notes": "Pleasant Township, unincorporated Seneca County only. Published by the Seneca County Auditor GIS office. Single-township layer.",
+  "verification": {
+    "verified_at": 1792135240625,
+    "counties": [
+      "39147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

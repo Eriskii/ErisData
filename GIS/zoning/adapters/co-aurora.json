@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-aurora",
+  "publisher": "City of Aurora GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ags.auroragov.org/aurora/rest/services/OpenData/MapServer/20",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08005"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT_ID",
+    "zone_name": "Dist_Name"
+  },
+  "notes": "City of Aurora zoning; covers only the part of Aurora inside Arapahoe County (the city also extends into Adams and Douglas counties). Unincorporated Arapahoe County zoning is not in this layer.",
+  "verification": {
+    "verified_at": 1792133806710,
+    "counties": [
+      "08005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

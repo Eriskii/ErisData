@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-kaufman-forney",
+  "publisher": "City of Forney GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgisint.forneytx.gov/arcgis/rest/services/Distribution/Forney_Zoning_Districts/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48257"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "description"
+  },
+  "notes": "City of Forney zoning districts (city limits only, not unincorporated Kaufman County). Served from the city ArcGIS host.",
+  "verification": {
+    "verified_at": 1792135726993,
+    "counties": [
+      "48257"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

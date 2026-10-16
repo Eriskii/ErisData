@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-paulding",
+  "publisher": "Paulding County, OH (Maumee Valley Planning Organization copy hosted on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/5w3sYG8B4RAos23t/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39125"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Cod",
+    "zone_name": "Zoning_Des"
+  },
+  "notes": "Single layer of 25 base zoning district polygons; no jurisdiction field. Hosted by ebarrymvpo, the same owner as the Village of Antwerp zoning web map (regional planning org). Verify coverage of municipalities.",
+  "verification": {
+    "verified_at": 1792135194489,
+    "counties": [
+      "39125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

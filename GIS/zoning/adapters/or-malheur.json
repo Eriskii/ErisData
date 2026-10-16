@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "or-malheur",
+  "publisher": "Malheur County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/ZfBm5CKxbEBYLP3J/arcgis/rest/services/County_GIS_Portal_WFL1/FeatureServer/25",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41045"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "Zoning"
+  },
+  "notes": "Malheur County unincorporated zoning (county GIS portal). OverlayZone field holds overlays and is not mapped.",
+  "verification": {
+    "verified_at": 1792135264405,
+    "counties": [
+      "41045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

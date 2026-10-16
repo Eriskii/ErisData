@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ia-scott-davenport",
+  "publisher": "City of Davenport, Iowa (Planning and Zoning MapServer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.davenportiowa.com/arcgis/rest/services/Planning_and_Zoning/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19163"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Davenport Zoning Districts layer (MapServer layer 13) behind the city zoning map viewer. Covers Davenport only, not unincorporated Scott County. No district-name or ordinance-link field is populated in the source.",
+  "verification": {
+    "verified_at": 1792134265744,
+    "counties": [
+      "19163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

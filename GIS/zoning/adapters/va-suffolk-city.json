@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-suffolk-city",
+  "publisher": "City of Suffolk GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://suffolkgis.suffolk-va.net/hosting/rest/services/ALL_GIS_Layers/MapServer/43",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51800"
+    ]
+  },
+  "fields": {
+    "zone": "CODE"
+  },
+  "notes": "City of Suffolk official ArcGIS layer ALL Zoning Districts (448 features). Only the district code field is published.",
+  "verification": {
+    "verified_at": 1792135970317,
+    "counties": [
+      "51800"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

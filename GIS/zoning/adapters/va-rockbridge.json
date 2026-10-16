@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-rockbridge",
+  "publisher": "Rockbridge County GIS (WebGIS.net)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.webgis.net/arcgis/rest/services/VA/RockbridgeCo_WebGIS/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51163"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "filter": "ACRES > 0 AND ACRES < 10000",
+  "notes": "County zoning layer served via WebGIS.net. Filter excludes zero-area slivers and the two very large (>10000 ac) polygons (e.g. 195,739 ac and 14,674 ac), whose geometry is invalid in the source; so the large rural background districts are missing from this spec.",
+  "verification": {
+    "verified_at": 1792136098241,
+    "counties": [
+      "51163"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

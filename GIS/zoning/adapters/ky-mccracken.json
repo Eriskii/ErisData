@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ky-mccracken",
+  "publisher": "McCracken County Fiscal Court",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/xkOPDyh2DVxtFEGe/arcgis/rest/services/County_Zoning_2023/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "21145"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Official county zoning adopted 12/11/2023 for unincorporated McCracken County outside the City of Paducah. Zone field holds district code; no description field.",
+  "verification": {
+    "verified_at": 1792134347626,
+    "counties": [
+      "21145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

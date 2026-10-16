@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "51125",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.nelsoncounty-va.gov/government/geographic-information-system/",
+    "https://nelsoncountygis.org/",
+    "https://www.nelsoncounty-va.gov/departments-offices/planning-zoning/zoning-subdivision-ordinances/"
+  ],
+  "note": "Nelson County (VA) publishes no queryable zoning district service. Its GIS is the CivQuest web viewer at nelsoncountygis.org (not an ArcGIS REST service; /arcgis/rest/services returns 404), and the county zoning page links only the ordinance text and the GIS viewer. A Dec 2025 work-session memo says the official Zoning Map is being updated with a possible future online GIS version. No incorporated towns exist in the county to publish their own zoning. ArcGIS searches for Nelson zoning found only parcels and unrelated layers.",
+  "recorded_at": 1792136003268,
+  "recheck_after": 1807688003268,
+  "model": "claude-haiku-5-5"
+}

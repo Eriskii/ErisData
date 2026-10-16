@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-loudoun-leesburg",
+  "publisher": "Town of Leesburg (hosted by Loudoun County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://logis.loudoun.gov/gis/rest/services/COL/pol_connect/MapServer/23",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51107"
+    ]
+  },
+  "fields": {
+    "zone": "LB_ZONE"
+  },
+  "notes": "Town of Leesburg base zoning districts, a county-hosted layer for the Town. Covers only the Town of Leesburg; the county layer va-loudoun covers unincorporated county land.",
+  "verification": {
+    "verified_at": 1792135933321,
+    "counties": [
+      "51107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-wilson-county",
+  "publisher": "Wilson County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wilson-co.com/arcgis/rest/services/Planning/County_Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37195"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "Wilson County Planning County_Zoning layer; unincorporated county zoning, ZONING holds district code, one feature per parcel-level zoning polygon",
+  "verification": {
+    "verified_at": 1792135112421,
+    "counties": [
+      "37195"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

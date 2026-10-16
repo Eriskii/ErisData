@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-wilson-city",
+  "publisher": "City of Wilson, NC (Planning/GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wilsonnc.org/services/rest/services/publiclayers/Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37195"
+    ]
+  },
+  "fields": {
+    "zone": "CURRENTZONE",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "City of Wilson zoning districts, city limits only; county zoning layer covers the rest of the county",
+  "verification": {
+    "verified_at": 1792135125590,
+    "counties": [
+      "37195"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

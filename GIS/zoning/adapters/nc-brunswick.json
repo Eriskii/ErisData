@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-brunswick",
+  "publisher": "Brunswick County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geo.brunswickcountync.gov/arcgis/rest/services/Mapping/AllZoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37019"
+    ]
+  },
+  "fields": {
+    "zone": "ZCODE"
+  },
+  "filter": "ZCODE NOT LIKE 'CO-%'",
+  "notes": "Municipal zoning only (19 towns) from the county combined AllZoning layer. County unincorporated polygons (ZCODE CO-*) are excluded because one of them fails the polygon validity check. ZCODE prefix identifies the town. No zone_name or ordinance link published. CaseNum is the rezoning case.",
+  "verification": {
+    "verified_at": 1792135081179,
+    "counties": [
+      "37019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

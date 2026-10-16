@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "la-iberia-parish",
+  "publisher": "Iberia Parish Government",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.iberiagov.net/server/rest/services/Zoning/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22045"
+    ]
+  },
+  "fields": {
+    "link": "Ordin_No",
+    "zone": "Zone",
+    "zone_name": "Exist_Use_"
+  },
+  "filter": "Shape_Area < 50000000",
+  "notes": "Parish zoning for unincorporated Iberia; zone_name is existing land use, not the district name. New Iberia zones separately (PDF maps only). Filter Shape_Area < 50000000 (sq ft) drops the very largest polygons, which have invalid geometry in the source and fail validation.",
+  "verification": {
+    "verified_at": 1792134482799,
+    "counties": [
+      "22045"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

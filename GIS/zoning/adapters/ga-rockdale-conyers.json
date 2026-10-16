@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-rockdale-conyers",
+  "publisher": "City of Conyers GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZSjqlUBFAPyCcXYA/arcgis/rest/services/Zoning/FeatureServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13247"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Description",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "City of Conyers zoning districts only; unincorporated Rockdale County zoning is not publicly queryable (the county zoning service requires a token). Zone_Description holds the district name and code, e.g. DCV (Downtown Civic).",
+  "verification": {
+    "verified_at": 1792133992856,
+    "counties": [
+      "13247"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

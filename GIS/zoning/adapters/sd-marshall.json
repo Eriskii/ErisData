@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sd-marshall",
+  "publisher": "Marshall County GIS (hosted by District III)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/MARSHALL_COUNTY_WEB_LAYERS/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46091"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "County web viewer layer (District III hosts Marshall County GIS); covers unincorporated county zoning; no zone_name or jurisdiction field in source; 71 features; coordinates in web mercator.",
+  "verification": {
+    "verified_at": 1792135476959,
+    "counties": [
+      "46091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

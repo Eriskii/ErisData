@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "in-porter",
+  "publisher": "Porter County Plan Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gispro.porterco.org/server/rest/services/PoCoMap_ZoningDistricts/MapServer/0",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "18127"
+    ]
+  },
+  "fields": {
+    "link": "ZonUDO",
+    "zone": "ZONING_CODE",
+    "zone_name": "ZONING_DESCRIPTION"
+  },
+  "filter": "OBJECTID <> 1744",
+  "notes": "Unincorporated Porter County only; cities zone their own land.",
+  "verification": {
+    "verified_at": 1792134221251,
+    "counties": [
+      "18127"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

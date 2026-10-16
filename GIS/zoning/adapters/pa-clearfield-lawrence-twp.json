@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-clearfield-lawrence-twp",
+  "publisher": "Lawrence Township, Clearfield County (copy of zoning layer on ArcGIS Online by Maplink_GenCode)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/MkUfAWaYm2SQf4Qa/arcgis/rest/services/LA1897_Zoning_02212025_Lawrence_Twp_Zoning_2024/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42033"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipali",
+    "zone": "Zone_Ab",
+    "zone_name": "Zone"
+  },
+  "notes": "Not an official county or township service: a copy uploaded to ArcGIS Online by Maplink_GenCode (12 polygons, Lawrence Township zoning 2024, also darkens the borough of Clearfield). Used because no official queryable county or municipal zoning layer was found; county planning reviews Lawrence Twp zoning changes.",
+  "verification": {
+    "verified_at": 1792135520471,
+    "counties": [
+      "42033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

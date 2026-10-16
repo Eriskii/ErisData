@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-henderson-county",
+  "publisher": "Henderson County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.hendersoncountync.gov/arcgis/rest/services/GISWeb/Primary_GISWeb_Layers/MapServer/85",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37089"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONING"
+  },
+  "notes": "County Zoning layer (LDC_Zoning) covering unincorporated county and planning jurisdiction; municipalities publish their own zoning layers separately. Updated roughly monthly.",
+  "verification": {
+    "verified_at": 1792135076292,
+    "counties": [
+      "37089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-gwinnett-municipal",
+  "publisher": "Gwinnett County Planning & Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis3.gwinnettcounty.com/mapvis/rest/services/GISDataBrowser/GC_Planning/MapServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13135"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "TYPE"
+  },
+  "notes": "Zoning districts of the municipalities in Gwinnett County (Lawrenceville, Duluth, Suwanee and others), from the county GC_Planning GIS data browser service. Unincorporated land is in a separate spec (ga-gwinnett-unincorporated).",
+  "verification": {
+    "verified_at": 1792133907839,
+    "counties": [
+      "13135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

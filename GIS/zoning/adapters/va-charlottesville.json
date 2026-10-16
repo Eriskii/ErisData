@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-charlottesville",
+  "publisher": "City of Charlottesville",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.charlottesville.org/gisweb/rest/services/Layers/MapServer/56",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51540"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Charlottesville Zoning Districts layer (ordinance effective Feb 19, 2024). Polygons carry parcel PIN; zone is the district code.",
+  "verification": {
+    "verified_at": 1792135978490,
+    "counties": [
+      "51540"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

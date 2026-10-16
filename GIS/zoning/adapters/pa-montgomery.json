@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-montgomery",
+  "publisher": "Montgomery County via PASDA (Pennsylvania Spatial Data Access)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/MontgomeryCounty/MapServer/29",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42091"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipali",
+    "link": "WebSite",
+    "zone": "Code",
+    "zone_name": "Name"
+  },
+  "notes": "PASDA copy of the county municipal zoning layer (2025-04), covering all Montgomery County municipalities; jurisdiction = municipality name.",
+  "verification": {
+    "verified_at": 1792135342367,
+    "counties": [
+      "42091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

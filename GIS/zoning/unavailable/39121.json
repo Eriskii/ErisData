@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "39121",
+  "reason": "none-exists",
+  "evidence": [
+    "https://noble.osu.edu/program-areas/community-development/noble-county-resources/zoning-and-building-permit-process",
+    "https://noblecountyohio.gov/mapoffice/",
+    "https://services3.arcgis.com/FZ09CBe0jFkql45S/arcgis/rest/services/Tax_Parcels/FeatureServer/0"
+  ],
+  "note": "Noble County, Ohio does not zone countywide; zoning is handled by the 15 civil townships (OSU Extension). The county GIS (Map Office, services3.arcgis.com account FZ09CBe0jFkql45S) publishes parcels, townships, corporate limits, subdivisions, roads, addresses, but no zoning district layer; its parcel layer has no zoning field. ArcGIS search for zoning in Noble County returned no official district layer, and no city or village (Caldwell, Batesville, Sarahsville) was found publishing zoning GIS or maps. Only third-party zoning data (Regrid) exists, which is not official.",
+  "recorded_at": 1792135200342,
+  "recheck_after": 1807687200342,
+  "model": "claude-haiku-5-5"
+}

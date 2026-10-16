@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-saratoga-springs-zoning",
+  "publisher": "City of Saratoga Springs (copy on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/M7jfYoTaLM0yE75d/arcgis/rest/services/Zoning_Districts_for_City_of_Saratoga_Springs/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36091"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Saratoga Springs NY zoning districts, October 2018, digitized by city staff from a scanned map, uploaded to ArcGIS Online by thart_Skid (not hosted by the city). Covers the city only; the county and towns are not covered. Zone names not in the layer; codes only.",
+  "verification": {
+    "verified_at": 1792135055320,
+    "counties": [
+      "36091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

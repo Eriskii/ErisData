@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-clay-liberty",
+  "publisher": "City of Liberty, Missouri (maps.libertymo.gov)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.libertymo.gov/arcgis/rest/services/Layers/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29047"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "ZONE_OFF",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Liberty zoning districts only (not unincorporated Clay County). Zone code from ZONE_OFF (official zoning); ZONECLASS1 duplicates ZONEDESC. Verify with city Planning & Development 816-439-4536.",
+  "verification": {
+    "verified_at": 1792134894596,
+    "counties": [
+      "29047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

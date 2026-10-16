@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-lehigh-allentown",
+  "publisher": "City of Allentown (CityZoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geoservices1.allentownpa.gov/server/rest/services/CityZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42077"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE"
+  },
+  "notes": "City of Allentown own zoning layer (official city GIS), 251 districts; only the district code is published here. Allentown is also in the LV_Zoning regional layer (pa-lehigh), but this is the city's own copy.",
+  "verification": {
+    "verified_at": 1792135331275,
+    "counties": [
+      "42077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

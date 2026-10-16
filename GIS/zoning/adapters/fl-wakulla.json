@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-wakulla",
+  "publisher": "Wakulla County Planning (GIS Portal)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/vAltLjtfYIJc7pDt/arcgis/rest/services/Zoning_Map/FeatureServer/30",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12129"
+    ]
+  },
+  "fields": {
+    "link": "Website",
+    "zone": "CUR_ZONING",
+    "zone_name": "ZONE_TYPE"
+  },
+  "notes": "Official Wakulla County zoning map service (Zoning_Master Pro layer). Unincorporated county zoning per county planning.",
+  "verification": {
+    "verified_at": 1792133849352,
+    "counties": [
+      "12129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

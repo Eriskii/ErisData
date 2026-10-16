@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ut-weber",
+  "publisher": "Weber County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.webercountyutah.gov/arcgis/rest/services/planning_layers/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49057"
+    ]
+  },
+  "fields": {
+    "link": "link",
+    "zone": "ZONE_NAME",
+    "zone_name": "TITLE"
+  },
+  "notes": "Weber County Planning zoning area layer (unincorporated county zones; Ogden Valley and Western Weber). CITY12 field present. Ordinance links to municipalcodeonline.",
+  "verification": {
+    "verified_at": 1792135862313,
+    "counties": [
+      "49057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

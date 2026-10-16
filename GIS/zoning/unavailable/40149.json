@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40149",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services.arcgis.com/3xOwF6p0r7IHIjfn/arcgis/rest/services/Washita_County_Data/FeatureServer",
+    "https://www.gismaps.org/ok-washita-county/",
+    "https://cityofcordell.com/planning-and-zoning",
+    "https://codelibrary.amlegal.com/codes/newcordellok/latest/newcordell_ok/0-0-0-5020"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Washita County (FIPS 40149) and its largest city, Cordell. The only county FeatureServer (OU CSA Washita_County_Data) holds census, municipal boundary, road and hydrology layers, no zoning. The Cordell planning pages and Title 11 zoning code are text only, with no zoning district map or GIS service found. The third-party gismaps.org page says zoning is held by city halls, not as a county layer. No queryable zoning district service is published for the county or Cordell.",
+  "recorded_at": 1792135277879,
+  "recheck_after": 1807687277879,
+  "model": "claude-haiku-5-5"
+}

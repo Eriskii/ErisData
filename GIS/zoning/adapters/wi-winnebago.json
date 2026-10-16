@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-winnebago",
+  "publisher": "Winnebago County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://wcgis3.co.winnebago.wi.us/wings/rest/services/LandUsePlanning/CountyZoningForSearchAndQuery/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONEJURIS",
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "County-hosted layer of county and town zoning districts (ZONEJURIS names the zoning authority; MUNINAME gives the town). Cities such as Oshkosh and Neenah are not in this layer. Shoreland and airport overlays are separate layers and not included.",
+  "verification": {
+    "verified_at": 1792136111370,
+    "counties": [
+      "55139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

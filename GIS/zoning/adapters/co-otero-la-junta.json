@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-otero-la-junta",
+  "publisher": "City of La Junta, CO GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/1XjIDBVnDQpTiqmr/arcgis/rest/services/ZoningDistrict_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08089"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of La Junta zoning districts only (not county unincorporated land). Published by City of La Junta on its public GIS portal.",
+  "verification": {
+    "verified_at": 1792133837751,
+    "counties": [
+      "08089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

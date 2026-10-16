@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-lackawanna-scranton",
+  "publisher": "City of Scranton, PA (Planning Department)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/c8axx5qqzVWAC8iN/arcgis/rest/services/NewZoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42069"
+    ]
+  },
+  "fields": {
+    "link": "Uses",
+    "zone": "Zonecap",
+    "zone_name": "NAME"
+  },
+  "notes": "City of Scranton zoning districts only (not county-wide); from the city GIS services account, 2023 zoning map as adopted. Link field points to the ecode360 district regulations.",
+  "verification": {
+    "verified_at": 1792135889524,
+    "counties": [
+      "42069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

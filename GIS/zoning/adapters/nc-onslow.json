@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-onslow",
+  "publisher": "Onslow County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismaps.onslowcountync.gov/server/rest/services/WEB_PUBLICATIONS/County_Map_Layers/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37133"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "DATA",
+    "link": "URL",
+    "zone": "ZONECODE"
+  },
+  "notes": "Single layer covering unincorporated county (COUNTY/PHASE I-VII) and municipalities (Jacksonville, Swansboro, Richlands, Holly Ridge, Surf City, North Topsail Beach, Camp Lejeune). No zone_name field in source. Some DATA values are blank or former ETJ.",
+  "verification": {
+    "verified_at": 1792135079014,
+    "counties": [
+      "37133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

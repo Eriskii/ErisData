@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-chippewa",
+  "publisher": "Chippewa County Land & Resource Management",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.chippewa.mn/arcgis/rest/services/public_LINK/MapServer/47",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27023"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_DIS",
+    "zone_name": "ZONING_DIS"
+  },
+  "filter": "ZONING_DIS <> 'Feedlot Setbacks' AND ZONING_DIS <> ' '",
+  "notes": "County public_LINK service, Zoning Districts layer (layer 47). ZONING_DIS holds district codes (B-2, I-2) plus some overlay categories (MN River Mgmt, Natural Areas, Feedlot Setbacks; Feedlot Setbacks excluded). Covers unincorporated county land; cities zone separately.",
+  "verification": {
+    "verified_at": 1792134573564,
+    "counties": [
+      "27023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

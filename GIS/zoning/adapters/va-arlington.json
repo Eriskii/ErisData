@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-arlington",
+  "publisher": "Arlington County GIS (arlgis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arlgis.arlingtonva.us/arcgis/rest/services/Public_Maps/Zoning_Map/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51013"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_DESIG",
+    "zone_name": "LABEL"
+  },
+  "notes": "Arlington County Zoning Boundary layer; GZDC holds the general district code.",
+  "verification": {
+    "verified_at": 1792135870020,
+    "counties": [
+      "51013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

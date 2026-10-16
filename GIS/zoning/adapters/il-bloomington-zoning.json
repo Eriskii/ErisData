@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-bloomington-zoning",
+  "publisher": "City of Bloomington (via McLean County GIS Consortium)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.mcgisweb.org/mcgc/rest/services/OpenData/OpenData/MapServer/19",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17113"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Description"
+  },
+  "notes": "City of Bloomington base zoning, published by McGIS. Overlay ordinance fields are not zone districts.",
+  "verification": {
+    "verified_at": 1792134053873,
+    "counties": [
+      "17113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "in-marion",
+  "publisher": "Indianapolis-Marion County (IndyGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.indy.gov/server/rest/services/OpenData/OpenData_PlanningZoning/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18097"
+    ]
+  },
+  "fields": {
+    "zone": "LABEL",
+    "zone_name": "CODE1"
+  },
+  "notes": "Indianapolis/Marion County zoning from IndyGIS open data; 8,243 features. LABEL holds zoning code; CODE1/CODE2 are secondary codes.",
+  "verification": {
+    "verified_at": 1792134112762,
+    "counties": [
+      "18097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

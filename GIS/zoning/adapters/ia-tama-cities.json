@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-tama-cities",
+  "publisher": "Iowa State University GIS Facility statewide zoning compilation (Toledo district polygons)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19171"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Toledo' AND OBJECTID <> 2404",
+  "notes": "Unofficial: ISU GIS Facility statewide compilation (zoning_districts_all_data_v2), Toledo rows digitized from the city zoning map (source field: Digitized by NM). OBJECTID 2404 (R-2, Toledo) excluded because its polygon fails the validity check. Toledo only; Dysart rows omitted. Tama County unincorporated zoning is not in any queryable layer found; county zoning exists only as a 1998 PDF ordinance map.",
+  "verification": {
+    "verified_at": 1792134278391,
+    "counties": [
+      "19171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

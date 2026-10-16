@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-cheboygan",
+  "publisher": "Cheboygan County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/j6ueqNZduqQcCpQQ/arcgis/rest/services/Zone/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "26031"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Dis",
+    "zone_name": "Districts"
+  },
+  "notes": "Cheboygan County Zoning layer from the county ArcGIS Online organization (Zoning Ordinance No. 200 districts). Covers county zoning; city zoning (e.g. City of Cheboygan) is not in this layer.",
+  "verification": {
+    "verified_at": 1792132290689,
+    "counties": [
+      "26031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

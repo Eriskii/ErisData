@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wv-hancock-weirton",
+  "publisher": "City of Weirton (WV) GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/sLyouDCFpgoKjNPa/arcgis/rest/services/WeirtonParcelswithLanduse/FeatureServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54029"
+    ]
+  },
+  "fields": {
+    "zone": "Combined_Zoning",
+    "zone_name": "DistrictNa"
+  },
+  "filter": "CountyName = 'Hancock'",
+  "notes": "City of Weirton parcel layer (not a district layer) whose Combined_Zoning attribute carries each parcel zoning code; the layer also holds Brooke County parcels, so filtered to CountyName Hancock. Last resort: no district polygon layer published. Covers Weirton only, not unincorporated Hancock County. zone_name (DistrictNa) is the parcel district field and may be empty.",
+  "verification": {
+    "verified_at": 1792136262035,
+    "counties": [
+      "54029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

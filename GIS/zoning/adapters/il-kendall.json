@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-kendall",
+  "publisher": "Kendall County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Kendall_County_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17093"
+    ]
+  },
+  "fields": {
+    "link": "lnk_fld",
+    "zone": "zoning"
+  },
+  "filter": "revoked IS NULL",
+  "notes": "Kendall County zoning layer (county GIS, hosted on the county ArcGIS server). Metadata says it covers Kendall unincorporated plus Millbrook and Plattville. Revoked records excluded via revoked IS NULL.",
+  "verification": {
+    "verified_at": 1792133984967,
+    "counties": [
+      "17093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

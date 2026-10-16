@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "id-acequia",
+  "publisher": "City of Acequia",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/0PbkQ9BQ4T40skX2/arcgis/rest/services/City_of_Acequia_Zoning_Map/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16067"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_District"
+  },
+  "notes": "City of Acequia zoning districts, published via the county planning ArcGIS org (bstephensPZ). 14 polygons.",
+  "verification": {
+    "verified_at": 1792133681522,
+    "counties": [
+      "16067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "55075",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.marinettecountywi.gov/departments/land-information/zoning/forms_and_documents/",
+    "https://geodata.wisc.edu/catalog/48EB569F-B542-4DF2-90C0-E3B4BE1A8638/metadata",
+    "https://geodata.wisc.edu/catalog/0793C947-F445-47BE-A532-5667E3667782/metadata",
+    "https://mcgis.marinettecounty.com/"
+  ],
+  "note": "Marinette County publishes zoning only as a PDF zoning map and as File Geodatabase zips (2021 and 2023 countywide zoning, general and shoreland) on UW-Madison GeoData. Neither is a queryable ArcGIS/WFS/OGC service, and the runtime cannot read file geodatabases (validation: 'the zip has no .shp'). The county's Land Information Portal (mcgis) exposes only parcel/CAD services (UW_Marinette_* MapServers) with no zoning layer. No city zoning layer found for the largest cities (City of Marinette has a zoning map link only, no service).",
+  "recorded_at": 1792136253718,
+  "recheck_after": 1807688253718,
+  "model": "claude-haiku-5-5"
+}

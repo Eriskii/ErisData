@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-aurora",
+  "publisher": "City of Aurora / Dearborn County Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.dearborncounty.in.gov/arcgis/rest/services/Planning/ZoningMap/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18029"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Aurora zoning districts from the county-hosted zoning map service (contracted planning). Zoning holds the district code (R1, M); Zoning_ID is blank.",
+  "verification": {
+    "verified_at": 1792134089637,
+    "counties": [
+      "18029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

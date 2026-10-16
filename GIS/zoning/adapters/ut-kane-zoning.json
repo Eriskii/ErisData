@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-kane-zoning",
+  "publisher": "Big Water Corporation / Zoning and Future Roads Viewer (hosted by BWMC.User)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/7gVKY0mjrT6JAXW3/arcgis/rest/services/Zoning_and_Fture_Roads_Viewer/FeatureServer/22",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Copy hosted on an ArcGIS Online account (BWMC.User, Big Water Corporation water system web app), not a county-published layer; only 22 district features, likely Big Water area only. Used because no official Kane County zoning service was found. Kane County zoning ordinance O 2021-01 exists only as PDF.",
+  "verification": {
+    "verified_at": 1792135836542,
+    "counties": [
+      "49025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

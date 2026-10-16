@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-humboldt-eureka",
+  "publisher": "City of Eureka Development Services",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis-svr.ci.eureka.ca.gov/arcgis/rest/services/SERVICE_Land_Use_and_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06023"
+    ]
+  },
+  "fields": {
+    "zone": "zoning_abrev",
+    "zone_name": "zoning_designation"
+  },
+  "notes": "City of Eureka Zoning Current, inland zone only. Coastal Zone parcels are in a separate layer (MapServer/1). Jurisdiction is the City of Eureka.",
+  "verification": {
+    "verified_at": 1792134099423,
+    "counties": [
+      "06023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

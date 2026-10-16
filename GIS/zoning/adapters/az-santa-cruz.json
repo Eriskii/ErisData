@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "az-santa-cruz",
+  "publisher": "Santa Cruz County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.santacruzcountyaz.gov/wagis01/rest/services/AdministrativeArea/zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04023"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Santa Cruz County AZ zoning district boundaries from the county MapServer (AdministrativeArea/zoning), governed by ordinance. ZONETYPE repeats the zone code and is not mapped. No jurisdiction field: cities may not be included.",
+  "verification": {
+    "verified_at": 1792133760549,
+    "counties": [
+      "04023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

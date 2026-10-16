@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "26093",
+  "reason": "login-required",
+  "evidence": [
+    "https://milivcounty.gov/planning/zoning/",
+    "https://livgov.maps.arcgis.com/apps/webappviewer/index.html?id=1e91d68c9eb540d5b63d8cc51f8b3652",
+    "https://livgov.maps.arcgis.com/sharing/rest/content/items/0317f940244747baa7af43feabaccef5/data?f=json"
+  ],
+  "note": "Livingston County's countywide generalized zoning is drawn in the county's public web viewer from a service at utility.arcgis.com/usrsvcs/.../Planning/County_Zoning/MapServer. That service returns 403 'You do not have permissions' to both direct and spec queries. Municipal zoning (Brighton, Howell, Hartland, Genoa, etc.) is only published as PDF maps or ordinances; no queryable municipal zoning layer found in ArcGIS Hub/Online searches.",
+  "recorded_at": 1792132420010,
+  "recheck_after": 1807684420010,
+  "model": "claude-haiku-5-5"
+}

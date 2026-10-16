@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-dougherty-albany",
+  "publisher": "City of Albany GIS (Albany-Dougherty GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VKHi8CC6pMIyYUIs/arcgis/rest/services/Current_Zoning_Information/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13095"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "Zoning districts as of April 17, 2025 (layer updated 2026), published by the Albany-Dougherty GIS office; coverage appears to include Albany and some county land (AG zone present). Not confirmed as county-wide; no separate county zoning layer found.",
+  "verification": {
+    "verified_at": 1792133913196,
+    "counties": [
+      "13095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

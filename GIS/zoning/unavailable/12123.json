@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "12123",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=792&LayerID=11749&PageTypeID=1",
+    "https://www.ncfrpc.org/MapsAndPlans/CitiesAndTowns/Perry/PEZN14.pdf",
+    "https://taylorcountypropertyappraiser.org/gis-maps/",
+    "https://www.taylorcountygov.com/departments/planning_and_zoning/maps.php"
+  ],
+  "note": "Taylor County (FL) publishes no queryable zoning district service. The county's zoning appears only in the qPublic/Schneider map viewer (Enterprise Zoning layer, viewer-only, no download or public REST endpoint found; the viewer returned HTTP 403). The City of Perry's Official Zoning Atlas is a PDF map. The county planning pages link only to PDF maps and land use text. The statewide Florida cadastral parcel layer has no zoning field. Third-party sources (Regrid, Dynamo, Zoneomics) are paid or not official.",
+  "recorded_at": 1792133911881,
+  "recheck_after": 1807685911881,
+  "model": "claude-haiku-5-5"
+}

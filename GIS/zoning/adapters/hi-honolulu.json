@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "hi-honolulu",
+  "publisher": "City and County of Honolulu DPP (Zoning - Land Use Ordinance)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/arcgis/rest/services/Zoning_Reg/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "15003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CLASS",
+    "zone_name": "ZONING_DESCRIPTION"
+  },
+  "notes": "City and County of Honolulu zoning districts (Oahu), official city ArcGIS Online organization layer. Zoning_Reg FeatureServer layer 0.",
+  "verification": {
+    "verified_at": 1792133629682,
+    "counties": [
+      "15003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

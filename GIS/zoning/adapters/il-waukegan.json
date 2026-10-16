@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-waukegan",
+  "publisher": "City of Waukegan",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/DHhRvCxK0wpLjxs2/arcgis/rest/services/WaukeganUDOZoning_mainstar/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17097"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Waukegan UDO zoning districts, parcel-level polygons (one per PIN); zone is the district code. Hosted by city staff account on ArcGIS Online.",
+  "verification": {
+    "verified_at": 1792134038147,
+    "counties": [
+      "17097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

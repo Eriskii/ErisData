@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13043",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://candlerco-ga.gov/1206/Zoning-Ordinances",
+    "https://metter-candlercounty.com/index_208_1405826992.pdf",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=799&LayerID=11965&PageTypeID=1"
+  ],
+  "note": "Candler County's zoning map is published only as a static JPG (May 6, 2024 adopted map) and a PDF (older proposed map). No ArcGIS REST, WFS or downloadable GIS layer of zoning districts was found in ArcGIS Hub/Online or web searches. The county's zoning appears only in the qPublic (Schneider) parcel viewer as a toggleable 'Metter Zoning' layer; no public REST endpoint for it was discoverable, and the viewer returned a bot-check (HTTP 403) to automated access. A county planning document says all unincorporated parcels are mapped AG-3. Metter and other cities in the county publish no separate zoning service found.",
+  "recorded_at": 1792133908721,
+  "recheck_after": 1807685908721,
+  "model": "claude-haiku-5-5"
+}

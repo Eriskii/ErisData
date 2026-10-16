@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mt-yellowstone-billings",
+  "publisher": "Yellowstone County GIS (City of Billings zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yellowstonecountymt.gov/arcgis/rest/services/Zoning/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30111"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "City",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Billings city zoning layer hosted by Yellowstone County GIS.",
+  "verification": {
+    "verified_at": 1792134917764,
+    "counties": [
+      "30111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

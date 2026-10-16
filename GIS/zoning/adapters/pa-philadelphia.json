@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-philadelphia",
+  "publisher": "City of Philadelphia (Office of Planning and Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Zoning_BaseDistricts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42101"
+    ]
+  },
+  "fields": {
+    "zone": "long_code",
+    "zone_name": "zoninggroup"
+  },
+  "notes": "City of Philadelphia Zoning Base Districts (city-owned ArcGIS org). Covers the entire county, which is coterminous with the City. zone uses the dashed code (e.g. RSA-5); zoning group is the general category.",
+  "verification": {
+    "verified_at": 1792135324582,
+    "counties": [
+      "42101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

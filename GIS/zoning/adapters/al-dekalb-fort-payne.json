@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-dekalb-fort-payne",
+  "publisher": "City of Fort Payne (hosted ArcGIS Online, Fort Payne City Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/NT45iGhs5xJWW8xQ/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_LAB"
+  },
+  "notes": "City of Fort Payne zoning districts only (not county unincorporated land); layer linked from the city Zoning Map viewer on fortpayne.org. No countywide DeKalb County zoning layer was found.",
+  "verification": {
+    "verified_at": 1792133706124,
+    "counties": [
+      "01049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

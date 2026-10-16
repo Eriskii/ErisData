@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nj-hudson",
+  "publisher": "Hudson County GIS (gis.hcnj.us)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.hcnj.us/arcgis/rest/services/Hosted/ZoningTest2/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "muni",
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "Hudson County zoning districts layer (HUDCOGIS.GISADMIN.HudCo_Zoning) covering multiple municipalities; jurisdiction in MUNI field. Service path says Hosted/ZoningTest2 but it is served by the county GIS server.",
+  "verification": {
+    "verified_at": 1792134974384,
+    "counties": [
+      "34017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

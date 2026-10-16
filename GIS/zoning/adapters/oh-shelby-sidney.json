@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-shelby-sidney",
+  "publisher": "City of Sidney GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://cama.shelbycountyauditors.com/arcgis/rest/services/City_of_Sidney/Intranet_Map_Original_CAD/MapServer/23",
+    "page_size": 12,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "39149"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Sidney zoning layer (adopted Oct 24, 2016), hosted by the Shelby County auditor for the city; city limits only.",
+  "verification": {
+    "verified_at": 1792135210573,
+    "counties": [
+      "39149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

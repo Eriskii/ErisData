@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-troup-county",
+  "publisher": "Troup County GIS (countywide Parcels layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/V4Y8xIvXuYJiVZwF/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13285"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode"
+  },
+  "notes": "Parcel layer, not a district layer: each parcel carries its zoning in ZoningCode (Zoning_201 holds an alternate code). Countywide, so it covers unincorporated Troup County, where the county zones but publishes only a static PDF map. Last resort; one feature per parcel, so zone codes repeat across parcels.",
+  "verification": {
+    "verified_at": 1792134015163,
+    "counties": [
+      "13285"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

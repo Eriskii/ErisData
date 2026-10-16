@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ok-pottawatomie-shawnee",
+  "publisher": "City of Shawnee GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.shawneeok.org/server/rest/services/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40125"
+    ]
+  },
+  "fields": {
+    "zone": "Updated_Zoning"
+  },
+  "notes": "City of Shawnee zoning only (2024 adopted zone types, Updated_Zoning); covers Shawnee city limits, not unincorporated county land. No district-name or ordinance-link field is published.",
+  "verification": {
+    "verified_at": 1792135418388,
+    "counties": [
+      "40125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

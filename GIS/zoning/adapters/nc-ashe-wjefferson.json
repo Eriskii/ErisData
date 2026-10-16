@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-ashe-wjefferson",
+  "publisher": "Town of West Jefferson via HCCOG GIS (AsheED_Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/vj28eVZMB2OMIUh5/arcgis/rest/services/AsheED_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37009"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Descr"
+  },
+  "notes": "Town of West Jefferson town limits zoning only; unincorporated county has no published zoning layer. Hosted by HCCOG GIS.",
+  "verification": {
+    "verified_at": 1792135061347,
+    "counties": [
+      "37009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

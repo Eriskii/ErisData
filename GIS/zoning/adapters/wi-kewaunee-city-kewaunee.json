@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-kewaunee-city-kewaunee",
+  "publisher": "Kewaunee County (City of Kewaunee zoning, county public view)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/OVykjebCTL9ZTdn8/arcgis/rest/services/Kewaunee_County_Zoning_public_view/FeatureServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55061"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Kewaunee County Zoning public view, layer 11 = City of Kewaunee only. Only zone code field published; no name or ordinance link.",
+  "verification": {
+    "verified_at": 1792136054803,
+    "counties": [
+      "55061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

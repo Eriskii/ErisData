@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ri-statewide",
+  "publisher": "Rhode Island Commerce / URI EDC RIGIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/S8zZg9pg23JUEexQ/arcgis/rest/services/RI_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "RI"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI_NAME",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Generalized statewide compilation of municipal zoning classifications from RIGIS (URIEDC_RIGIS host). CZONE_CODE is a generalized code; ZONE_CODE is the municipal code. Overlay zones are in a separate layer (FeatureServer/0), not used.",
+  "verification": {
+    "verified_at": 1792133619018,
+    "counties": [
+      "44001",
+      "44007",
+      "44009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

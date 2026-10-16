@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mt-ravalli-county-cizd",
+  "publisher": "Ravalli County (citizen-initiated zoning districts)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/5nOJDDRnnsbCKWWP/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30081"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "NAME"
+  },
+  "notes": "Copy of the county's citizen-initiated zoning districts (CIZD, recorded voluntary districts, 54 polygons) uploaded to ArcGIS Online by user Craptauer, not an official county service. The county does not publish full county zoning for unincorporated land as a queryable layer; this covers only the recorded CIZDs.",
+  "verification": {
+    "verified_at": 1792134922617,
+    "counties": [
+      "30081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

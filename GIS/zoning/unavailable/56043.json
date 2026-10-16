@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "56043",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services5.arcgis.com/k6rZTDGNZ7Srk5IB/arcgis/rest/services/Worland_Existing_Data_Web_Map/FeatureServer",
+    "https://www.washakiecountywy.gov/210/Planner",
+    "https://ets.wyo.gov/gis-office/georesources"
+  ],
+  "note": "No countywide or unincorporated Washakie County zoning district layer is published as a queryable service. The only zoning polygons found are City of Worland 2016 zoning, split into 13 per-district layers (Worland_2016Zoning_AIR, CB, ER, GB, HDR, HI, LDR, LI, LMDR, MHDR, MHR, NB, OS) in a Worland utilities/parcels web map. They cover only the city, not the sampled point, and one spec takes one layer. The county planner page lists zoning and subdivision regulations but no GIS district map. The county Beacon service has parcels and resource layers, no zoning. The county assessor map server was unreachable.",
+  "recorded_at": 1792136128431,
+  "recheck_after": 1807688128431,
+  "model": "claude-haiku-5-5"
+}

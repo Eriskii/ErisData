@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-lincoln-north-platte",
+  "publisher": "City of North Platte (draft copy hosted on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Key8PKpOV6A9X6Eu/arcgis/rest/services/North_Platte_Zoning_Map/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31111"
+    ]
+  },
+  "fields": {
+    "zone": "Label",
+    "zone_name": "Description"
+  },
+  "notes": "Unofficial copy: a personal ArcGIS Online item by aaronsorrell titled Draft North Platte Zoning Map; covers the City of North Platte only, not unincorporated Lincoln County. Official county layer (gworks/gisworkshop viewers) is not publicly queryable as far as found.",
+  "verification": {
+    "verified_at": 1792135014505,
+    "counties": [
+      "31111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

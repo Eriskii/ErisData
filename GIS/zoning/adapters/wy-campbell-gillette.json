@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wy-campbell-gillette",
+  "publisher": "City of Gillette GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.gillettewy.gov/arcgisserver/rest/services/PLZoningDistrictsInternalMS/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56005"
+    ]
+  },
+  "fields": {
+    "zone": "MUNISF25",
+    "zone_name": "MUNISF26"
+  },
+  "notes": "City of Gillette zoning districts (city limits only). Layer served from the city GIS portal; ZONINGGENERAL is a broader category.",
+  "verification": {
+    "verified_at": 1792136122034,
+    "counties": [
+      "56005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

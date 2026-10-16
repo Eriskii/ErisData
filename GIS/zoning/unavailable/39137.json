@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "39137",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://home.putnamcountygis.com/",
+    "https://new-pcohio.hub.arcgis.com/pages/downloads",
+    "https://putnamcountyohio.gov/county-agencies/planning-commission/",
+    "https://codelibrary.amlegal.com/codes/ottawa/latest/ottawa_oh/0-0-0-20034"
+  ],
+  "note": "Putnam County OH publishes no zoning district layer: county GIS download categories (flood, land features, parcels, transportation, boundaries) have no zoning, the county planning commission publishes no GIS, and the parcel dataset's zoning fields are unpopulated. Ohio counties do not zone; townships do. The city of Ottawa's zoning map sits in its codified ordinance (Title Five) with no queryable service found. ArcGIS searches for Putnam or Ottawa zoning returned no official zoning service.",
+  "recorded_at": 1792135245782,
+  "recheck_after": 1807687245782,
+  "model": "claude-haiku-5-5"
+}

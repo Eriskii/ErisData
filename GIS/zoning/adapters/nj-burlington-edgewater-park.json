@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nj-burlington-edgewater-park",
+  "publisher": "Edgewater Park Township (DVRPC data, updated by Burlington County Economic Development GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/IDYoyDAB3hSuNMIH/arcgis/rest/services/2021_EWP_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34005"
+    ]
+  },
+  "fields": {
+    "zone": "M_ZoneCode",
+    "zone_name": "M_ZoneDesc"
+  },
+  "notes": "Edgewater Park Township zoning districts only, one municipality. Other fields: M_SubZone, M_Density, C_ZoneCode (county-coded).",
+  "verification": {
+    "verified_at": 1792135026119,
+    "counties": [
+      "34005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "20003",
+  "reason": "no-public-gis",
+  "evidence": [
+    "http://andersoncountyks.org/planning-zoning.html",
+    "http://andersoncountyks.org/public/PlanningAndZoning/ZoningRegulations.zip",
+    "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Anderson_Mobile_ORKA_WFL1/FeatureServer"
+  ],
+  "note": "Anderson County KS (FIPS 20003) publishes zoning regulations as a zip/PDF on its Planning & Zoning page, but no queryable zoning district polygon layer was found on the county site, ArcGIS Online/Hub searches, or the county's ORKA parcel service (AN_Parcels_WM has no zoning field). No Garnett, Colony or Lone Elm zoning GIS layer found in searches.",
+  "recorded_at": 1792134249951,
+  "recheck_after": 1807686249951,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-genesee-attica",
+  "publisher": "Village of Attica (Genesee County part), copy by abijl_wyco on ArcGIS Online",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Sq7KUOgahdDkqoAp/arcgis/rest/services/Attica_Genesee_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36037"
+    ]
+  },
+  "fields": {
+    "zone": "DistrAbr",
+    "zone_name": "Zoning"
+  },
+  "notes": "Uploaded ArcGIS Online copy by abijl_wyco, not confirmed as an official publication; covers only the Genesee County part of the Village of Attica (3 features). No county-wide or city of Batavia base zoning layer is queryable: the bataviail.gov ZONING_20 service is Batavia, Illinois, not NY.",
+  "verification": {
+    "verified_at": 1792135073168,
+    "counties": [
+      "36037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

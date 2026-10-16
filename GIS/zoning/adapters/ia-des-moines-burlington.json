@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ia-des-moines-burlington",
+  "publisher": "City of Burlington, Iowa (via Des Moines County GIS, Iworq)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.dmcwebgis.com/arcgis/rest/services/Iworq/BurlingtonIa/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19057"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Type"
+  },
+  "notes": "Zoning layer of the Burlington, Iowa city GIS (Iworq host run by Des Moines County GIS). Covers Burlington and the area within two miles of it per county land use page; no jurisdiction field. Zone_Type holds the district code.",
+  "verification": {
+    "verified_at": 1792133656569,
+    "counties": [
+      "19057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

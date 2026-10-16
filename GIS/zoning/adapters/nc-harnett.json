@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-harnett",
+  "publisher": "Harnett County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.harnett.org/arcgis/rest/services/Planning/Zoning/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37085"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "ZoneClass",
+    "zone_name": "ZoneDescription"
+  },
+  "notes": "Countywide ZoningDistricts layer covering unincorporated county and towns (Angier, Coats, Benson, Dunn, Erwin, Lillington etc.) via Jurisdiction field. Source layer is in state plane feet; server returns WGS84 geoJSON. Ordinance links are sparse, so no link field is mapped.",
+  "verification": {
+    "verified_at": 1792135073707,
+    "counties": [
+      "37085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

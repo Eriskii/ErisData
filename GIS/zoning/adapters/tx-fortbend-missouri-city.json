@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-fortbend-missouri-city",
+  "publisher": "City of Missouri City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/6vRbgYSxztFGZwla/arcgis/rest/services/Zoning_update2026/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48157"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "LABELS"
+  },
+  "notes": "City of Missouri City zoning districts; city spans Fort Bend and Harris counties. Sparse ordinance links and PD overlay detail in UND_ZONE, so not mapped.",
+  "verification": {
+    "verified_at": 1792135737336,
+    "counties": [
+      "48157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

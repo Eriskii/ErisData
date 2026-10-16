@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29113",
+  "reason": "login-required",
+  "evidence": [
+    "https://services8.integritygis.com/arcgis/rest/services/MO/Lincoln_Assessor_Data/MapServer",
+    "https://services8.integritygis.com/arcgis/rest/services/MO/Lincoln_Assessor_Data/MapServer/50",
+    "https://lincolncomo.gov/planning-and-zoning",
+    "https://lincolngis.integritygis.com/geocortex/essentials/rest/sites/lincoln_county_mo/overviewmap/mapservices/1"
+  ],
+  "note": "Lincoln County MO zoning districts (Zoning Troy, Moscow Mills Zoning, Winfield Zoning) are layers in the county's Lincoln_Assessor_Data MapServer on services8.integritygis.com, which returns 'Token Required' for the service and every layer; the Geocortex directory marks their query flags off. The county has no zoning department; Troy, Elsberry, Moscow Mills and Winfield run their own zoning. No public, token-free zoning district service was found for the county or its cities, so I did not work around the token.",
+  "recorded_at": 1792134843823,
+  "recheck_after": 1807686843823,
+  "model": "claude-haiku-5-5"
+}

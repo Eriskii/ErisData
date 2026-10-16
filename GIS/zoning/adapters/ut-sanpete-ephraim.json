@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ut-sanpete-ephraim",
+  "publisher": "Ephraim City (via JD_Admin ArcGIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/nSnGtAgSmNZcvEzK/arcgis/rest/services/Ephraim_City_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49039"
+    ]
+  },
+  "fields": {
+    "link": "Code_Link",
+    "zone": "Zone",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "City of Ephraim zoning only (not county unincorporated land). 188 features. Layer from the city-associated ArcGIS account.",
+  "verification": {
+    "verified_at": 1792135921890,
+    "counties": [
+      "49039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

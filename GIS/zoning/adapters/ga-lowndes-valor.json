@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-lowndes-valor",
+  "publisher": "VALOR (Valdosta-Lowndes GIS), Zoning - Valdosta & Lowndes County",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.valorgis.com/arcgis/rest/services/PlanningDevelopment/Zoning_Detailed/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13185"
+    ]
+  },
+  "fields": {
+    "zone": "ZOTXT",
+    "zone_name": "ULDC"
+  },
+  "notes": "Official VALOR detailed zoning layer covering unincorporated Lowndes County and the City of Valdosta. No jurisdiction field in the service. Zone code in ZOTXT.",
+  "verification": {
+    "verified_at": 1792133952575,
+    "counties": [
+      "13185"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

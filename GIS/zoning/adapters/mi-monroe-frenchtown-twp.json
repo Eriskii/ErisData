@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mi-monroe-frenchtown-twp",
+  "publisher": "Frenchtown Charter Township, Michigan",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/9PSO5BR5eOIggwRH/arcgis/rest/services/zoning_overlay2025/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26115"
+    ]
+  },
+  "fields": {
+    "zone": "NAME"
+  },
+  "notes": "Frenchtown Charter Township zoning districts (layer named zoning_overlay2025, 2025; NAME holds base district codes such as R-1-A, C-2, AG). Covers Frenchtown Township only.",
+  "verification": {
+    "verified_at": 1792132379592,
+    "counties": [
+      "26115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

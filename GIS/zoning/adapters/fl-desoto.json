@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-desoto",
+  "publisher": "City of Arcadia (copy hosted by CFRPC)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/gutFqkMq9XlLck8D/arcgis/rest/services/City_of_Arcadia_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12027"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZON"
+  },
+  "notes": "Only queryable zoning found for DeSoto County FL: a copy of City of Arcadia zoning (parcel polygons carrying ZON district codes), uploaded to ArcGIS Online by cfrpcouncil (CFRPC), not the county or city itself. Covers Arcadia city only; unincorporated county zoning is published only as PDF map (desotobocc.com). Parcel-level polygons; no zone name field.",
+  "verification": {
+    "verified_at": 1792133885280,
+    "counties": [
+      "12027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

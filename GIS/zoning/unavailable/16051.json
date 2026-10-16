@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "16051",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.jcgov.us/DocumentCenter/View/211/Zone-Map-PDF",
+    "https://cityofrigby.gov/wp-content/uploads/2023/03/ZoneMapRigby.pdf",
+    "https://jeffgis.maps.arcgis.com/apps/webappviewer/index.html?id=0b7543298d5147e9b2b29dbccc1b8192"
+  ],
+  "note": "Jefferson County, Idaho publishes its zoning as a PDF zone map (2008, amended 2010) and Rigby's zone map is a static PDF. The county's zoning viewer (jeffgis ArcGIS Online app) has no public item data, and the county's ArcGIS server (grant.co.jefferson.id.us) was unreachable from my tools. The zoning services I found belong to other counties (Jefferson County WA and CO, Alaska layer), so no queryable Idaho Jefferson County zoning polygons were found.",
+  "recorded_at": 1792133721312,
+  "recheck_after": 1807685721312,
+  "model": "claude-haiku-5-5"
+}

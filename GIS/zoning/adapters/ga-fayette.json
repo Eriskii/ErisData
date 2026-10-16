@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-fayette",
+  "publisher": "Fayette County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.fayettecountyga.gov/arcgis/rest/services/Pictometry/ZoningRO/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13113"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_1"
+  },
+  "notes": "County zoning layer (parcel-level polygons carrying each parcel zoning in ZONING_1); covers unincorporated county land; cities such as Peachtree City zone separately.",
+  "verification": {
+    "verified_at": 1792133912442,
+    "counties": [
+      "13113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-midland-city",
+  "publisher": "City of Midland GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.midlandtexas.gov/arcgis/rest/services/ReferenceData/Planning/FeatureServer/4",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48329"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE"
+  },
+  "notes": "City of Midland zoning districts only (city limits); unincorporated Midland County is not zoned by the county. Layer is the city Planning ReferenceData Zoning layer; PD_TYPE holds planned development type.",
+  "verification": {
+    "verified_at": 1792135702970,
+    "counties": [
+      "48329"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

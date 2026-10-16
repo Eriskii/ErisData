@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-oakland",
+  "publisher": "City of Oakland",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/9tC74aDHuml0x5Yz/arcgis/rest/services/Zoning_base_Eff20241217_Ordxxxxx_shp/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06001"
+    ]
+  },
+  "fields": {
+    "zone": "BASEZONE"
+  },
+  "notes": "City of Oakland base zoning effective Dec 17, 2024. Covers the City of Oakland only. Zone names and ordinance links are not filled in this layer; overlays in OVERLAY not mapped.",
+  "verification": {
+    "verified_at": 1792134090382,
+    "counties": [
+      "06001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

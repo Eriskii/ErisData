@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13315",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://wilcox.capturecama.com/",
+    "https://www.gismaps.org/ga-wilcox-county/",
+    "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/Wilcox_County_Wide_View/FeatureServer",
+    "https://dca.georgia.gov/wilcox-county-w-cities-abbeville-pineview-pitts-rochelle-comprehensive-plan"
+  ],
+  "note": "Searched ArcGIS Hub/Online, the SGRC host the Ben Hill adapter uses, county and city sites (Abbeville, Rochelle, Pineview, Pitts). No county or city zoning district layer is published as a queryable service. Wilcox County's ArcGIS layer (Wilcox_County_Wide_View) has soils, flood, parcels and land use but no zoning; the county assessor portal is a CAMA viewer. Only commercial parcel aggregators (Regrid) carry zoning codes.",
+  "recorded_at": 1792134039120,
+  "recheck_after": 1807686039120,
+  "model": "claude-haiku-5-5"
+}

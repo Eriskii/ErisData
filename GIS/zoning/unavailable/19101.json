@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "19101",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://cityoffairfieldiowa.com/75/Building-Zoning",
+    "https://cityoffairfieldiowa.com/134/Planning-Zoning",
+    "https://cityoffairfieldiowa.com/DocumentCenter/View/12190/Title-20---Zoning",
+    "https://jeffersoncounty.iowa.gov/"
+  ],
+  "note": "No queryable zoning district service found for Jefferson County, Iowa (FIPS 19101). The county's site links only to an assessor GIS (jefferson.iowaassessors.com) with no zoning layer. The Fairfield city site points to a Zoning Map, but its Title 20 code and building page direct users to staff or a map document, not a queryable service. Searches of ArcGIS Hub and Online and the Iowa state REST servers found no Iowa Jefferson County or Fairfield zoning service. The one zoning layer surfaced (gisweb.jeffcowa.us OpenData/MapServer/1) belongs to Jefferson County, Washington, not Iowa, so it was rejected.",
+  "recorded_at": 1792134313450,
+  "recheck_after": 1807686313450,
+  "model": "claude-haiku-5-5"
+}

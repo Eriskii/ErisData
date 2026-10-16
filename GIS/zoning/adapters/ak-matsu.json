@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ak-matsu",
+  "publisher": "Matanuska-Susitna Borough GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.matsugov.us/map/rest/services/OpenData/Administrative_SpecialUseDistricts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02170"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE_ABBRE",
+    "zone_name": "SPUD_NAME"
+  },
+  "notes": "Borough Special Land Use Districts (SPUDs), Residential Land Use Districts and similar borough special districts only; most of the borough is not covered by a zoning district layer. Not general base zoning. Cities such as Wasilla zone their own land separately.",
+  "verification": {
+    "verified_at": 1792133742611,
+    "counties": [
+      "02170"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

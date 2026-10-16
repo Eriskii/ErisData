@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-sutter",
+  "publisher": "Sutter County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/rHMUPKWdiOvdGXkw/arcgis/rest/services/Zoning/FeatureServer/219",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06101"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Sutter County zoning layer hosted by county organization (j_jones). No jurisdiction or zone-name field in source; zone holds district code. Overlay and Specific_Plan attributes exist but are not mapped.",
+  "verification": {
+    "verified_at": 1792134031955,
+    "counties": [
+      "06101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

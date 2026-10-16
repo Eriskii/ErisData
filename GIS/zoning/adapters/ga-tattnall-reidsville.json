@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-tattnall-reidsville",
+  "publisher": "City of Reidsville (hosted via Tattnall County GeoData View, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/City_of_Reidsville_GeoData_View/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13267"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Reidsville zoning districts only; no zone name or ordinance link in the source.",
+  "verification": {
+    "verified_at": 1792134023427,
+    "counties": [
+      "13267"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

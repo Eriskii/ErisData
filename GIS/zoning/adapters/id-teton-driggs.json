@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-teton-driggs",
+  "publisher": "Teton County GIS (City of Driggs zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/as6biEYkl7PaUM4Y/arcgis/rest/services/ZONING_CURRENT/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16081"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Descrip"
+  },
+  "notes": "City of Driggs zoning, from Teton County GIS ZONING_CURRENT service.",
+  "verification": {
+    "verified_at": 1792133731829,
+    "counties": [
+      "16081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-ventura-city",
+  "publisher": "City of San Buenaventura (Ventura) via Ventura County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/XJ5Tb7dTYtAMoyYT/arcgis/rest/services/Zoning_Ventura_Cities/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06111"
+    ]
+  },
+  "fields": {
+    "link": "ZONELINK",
+    "zone": "ZONE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Ventura zoning, hosted on the County GIS services.",
+  "verification": {
+    "verified_at": 1792134091468,
+    "counties": [
+      "06111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

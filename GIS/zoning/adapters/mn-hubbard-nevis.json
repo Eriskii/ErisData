@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-hubbard-nevis",
+  "publisher": "Hubbard County GIS (City of Nevis zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/auNjCUvKlkSqV04X/arcgis/rest/services/Nevis_Zoning2022/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27057"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Nevis zoning only, published by Hubbard County in its Zoning Lookup viewer; county-wide district layer not found on county GIS server. Contact fields in the layer.",
+  "verification": {
+    "verified_at": 1792134561751,
+    "counties": [
+      "27057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

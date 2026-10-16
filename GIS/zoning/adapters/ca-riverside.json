@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-riverside",
+  "publisher": "Riverside County GIS (Planning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.countyofriverside.us/arcgis_mapping/rest/services/OpenData/General/MapServer/620",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "County unincorporated zoning districts only (cities zone their own land; not included). Layer 620 of county OpenData MapServer, 12,894 features. Zone codes like A-1. No name or ordinance link field in source.",
+  "verification": {
+    "verified_at": 1792134027596,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

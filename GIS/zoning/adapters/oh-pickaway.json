@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-pickaway",
+  "publisher": "Pickaway County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/FhJ42byMw3LmPYCN/arcgis/rest/services/ZONING_DRAFT_Pickaway_Co_2026/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39129"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "NAME",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONING_DIS"
+  },
+  "notes": "County-wide merged zoning layer, DRAFT 2026, published by Pickaway County GIS (pickaway-gis ArcGIS org). Overlay districts are in separate layers 1-3 and are not included.",
+  "verification": {
+    "verified_at": 1792135178746,
+    "counties": [
+      "39129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

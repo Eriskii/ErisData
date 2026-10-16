@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-webb-laredo",
+  "publisher": "City of Laredo (OpenLaredo GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/h9QEFLHkUI1SIRs7/arcgis/rest/services/OL_Zoning_Districts/FeatureServer/163",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48479"
+    ]
+  },
+  "fields": {
+    "link": "DOCPATH",
+    "zone": "ZONE_CODE",
+    "zone_name": "DEFINITION"
+  },
+  "notes": "City of Laredo zoning districts only (city limits, not unincorporated Webb County). Source: OpenLaredo OL Zoning Districts, layer Shape.",
+  "verification": {
+    "verified_at": 1792135777042,
+    "counties": [
+      "48479"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

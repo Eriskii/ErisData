@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ny-warren-johnsburg",
+  "publisher": "Warren County GIS (Town of Johnsburg zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Fg3XpDIUTR3JZZES/arcgis/rest/services/WCNY_JohnsburgZoning_MASTER_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36113"
+    ]
+  },
+  "fields": {
+    "link": "ZONE_URL",
+    "zone": "zone",
+    "zone_name": "DESCR"
+  },
+  "notes": "Town of Johnsburg zoning maintained by Warren County GIS for the town zoning office. Single-town layer.",
+  "verification": {
+    "verified_at": 1792135036222,
+    "counties": [
+      "36113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

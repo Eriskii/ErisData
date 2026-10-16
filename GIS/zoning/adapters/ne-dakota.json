@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-dakota",
+  "publisher": "South Sioux City, NE (city GIS, Zoning_Layers service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/SuPJqW5U2jEM6hA3/arcgis/rest/services/Zoning_Layers/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31043"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Typ"
+  },
+  "notes": "South Sioux City city zoning only (no county zoning layer found; county zoning is a PDF map). Zoning_Typ holds the district code or category (e.g. C3, Residential); Name is blank in the source. Comprehensive Zoning layer (FeatureServer/1) is not used.",
+  "verification": {
+    "verified_at": 1792134903968,
+    "counties": [
+      "31043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

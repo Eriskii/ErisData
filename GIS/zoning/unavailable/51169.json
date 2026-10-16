@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "51169",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.scottcountyva.gov/168/Public-Safety-GIS",
+    "https://open-data-scottcounty.hub.arcgis.com/",
+    "https://app.iamgis.com/map/bcbb9a06803e4f08a55accb6e671095a/",
+    "https://www.scottcountyva.gov/ArchiveCenter/ViewFile/Item/68"
+  ],
+  "note": "Scott County VA (51169) has zoning (AF, AR, R-1, MHP, C-1, I-1 per county ordinance; official zoning map is kept as GIS parcel maps), but no queryable ArcGIS/WFS/OGC zoning district service was found. County GIS page and interactive map are viewers; the county open data hub exposes no zoning layer for the county; gis.gscplanning.com has a Zoning MapServer but it is Georgetown-Scott County, KY data (Kentucky coordinates, no layers exposed). Gate City's zoning is only in a third-party iamgis viewer. Virginia's Scott County parcel service on ArcGIS Online requires a token.",
+  "recorded_at": 1792136281873,
+  "recheck_after": 1807688281873,
+  "model": "claude-haiku-5-5"
+}

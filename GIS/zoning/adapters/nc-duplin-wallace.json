@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-duplin-wallace",
+  "publisher": "Town of Wallace Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/8dAtO3qhR0j8kvKI/arcgis/rest/services/Town_of_Wallace_GIS_2018/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37061"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Wallace zoning only (Duplin County has no countywide zoning; other towns do not publish zoning services found). Layer hosted on the town planning ArcGIS Online account. Zoning holds district code; 96 features in source. Conditional/special-use fields not mapped (mostly blank).",
+  "verification": {
+    "verified_at": 1792135079600,
+    "counties": [
+      "37061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-livingston",
+  "publisher": "Livingston Parish Government (adopted zoning, 2/27/2025, hosted by parish consultant WSP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/TuQ8KXxdnKZCJwrs/arcgis/rest/services/AdoptedZoning_06262025_Backup2_WFL1/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22063"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality_1",
+    "zone": "F2_14_Recommended_Zoning__NewUp",
+    "zone_name": "F2_14_Recommended_Zoning__NewUp"
+  },
+  "notes": "Parcel-level polygons carrying each parcel adopted zoning district (adopted 2/27/2025) in F2_14_Recommended_Zoning__NewUp, e.g. (R-2) Single Family Residential; code is in parentheses. Municipality_1 names the jurisdiction (Unincorporated or city). Served from the parish adopted zoning map app. Parcel-based rather than dissolved districts.",
+  "verification": {
+    "verified_at": 1792134454746,
+    "counties": [
+      "22063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

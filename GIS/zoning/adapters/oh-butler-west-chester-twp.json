@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-butler-west-chester-twp",
+  "publisher": "West Chester Township (hosted copy by vickilynn63 on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/vUI8vIh3RxudIQFC/arcgis/rest/services/WC_Zoning_2025/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ELU"
+  },
+  "notes": "Unofficial copy: West Chester Township zoning layer uploaded to ArcGIS Online by an individual (no township or county server found). Covers West Chester Township only, not the whole county. ZONING holds district code; ELU is an existing land use field, used as zone_name.",
+  "verification": {
+    "verified_at": 1792135230995,
+    "counties": [
+      "39017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

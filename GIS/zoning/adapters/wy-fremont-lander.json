@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wy-fremont-lander",
+  "publisher": "City of Lander, WY",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/DaaN11r1KfwdApEp/arcgis/rest/services/Residential/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56013"
+    ]
+  },
+  "fields": {
+    "link": "Document",
+    "zone": "Class",
+    "zone_name": "Description"
+  },
+  "notes": "City of Lander residential zoning districts only (partial: Lander also publishes separate commercial, agriculture, manufacturing, public land and unincorporated layers on the same host, not combined). Fremont County has no countywide zoning. Riverton and Dubois zoning services were not found as queryable.",
+  "verification": {
+    "verified_at": 1792136731019,
+    "counties": [
+      "56013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

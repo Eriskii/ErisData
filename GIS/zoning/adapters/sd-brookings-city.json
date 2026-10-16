@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sd-brookings-city",
+  "publisher": "City of Brookings, SD (Brookings SGEA open data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/ghMlwLxET54qDmAf/arcgis/rest/services/Zoning/FeatureServer/108",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Brookings zoning districts only (Zone codes such as JJ-R1B, JJ-A are joint-jurisdiction codes); unincorporated county land is not covered by this layer. Layer hosted by City of Brookings ArcGIS org; no description or ordinance-link field published.",
+  "verification": {
+    "verified_at": 1792135439421,
+    "counties": [
+      "46011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-alameda",
+  "publisher": "Alameda County Community Development Agency",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/6Yz0DcWQc1LtdRPC/arcgis/rest/services/Alameda_County_Zoning_Draft/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06001"
+    ]
+  },
+  "fields": {
+    "link": "PZ_Hyperlink",
+    "zone": "PRIMARY_ZONING",
+    "zone_name": "Primary_Zoning_Definition"
+  },
+  "notes": "County CDA draft zoning dataset (still being edited); covers unincorporated Alameda County only. Zone code from PRIMARY_ZONING; combining districts not mapped.",
+  "verification": {
+    "verified_at": 1792134000336,
+    "counties": [
+      "06001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

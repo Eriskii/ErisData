@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-juneau-mauston",
+  "publisher": "Juneau County GIS (City of Mauston zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismap.co.juneau.wi.us/server/rest/services/JuneauCo_PublicGIS/MapServer/78",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55057"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ABBRE",
+    "zone_name": "ZONE_CLASS"
+  },
+  "notes": "City of Mauston zoning layer hosted on Juneau County public GIS. Covers Mauston city only; no county-wide zoning layer was published.",
+  "verification": {
+    "verified_at": 1792136058767,
+    "counties": [
+      "55057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-bryan",
+  "publisher": "tgiarrusso (ArcGIS Online copy of Bryan County zoning)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/I9cUOJUZvdGAJncI/arcgis/rest/services/CoastalZoning/FeatureServer/10",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "13029"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "ZONE <> 'A-5'",
+  "notes": "Unofficial copy of 2024 Bryan County (unincorporated) zoning, uploaded by tgiarrusso (coastal Georgia zoning item). Official county service bryangis.bryan-county.org/arcgis/rest/services/Zoning/MapServer was unreachable. Filter omits the A-5 Agricultural district because its polygon geometry is invalid in this copy; replace with the county service when reachable. Districts are dissolved by zone; no city (Richmond Hill, Pembroke) breakdown.",
+  "verification": {
+    "verified_at": 1792134043123,
+    "counties": [
+      "13029"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

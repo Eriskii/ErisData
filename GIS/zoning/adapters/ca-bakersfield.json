@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-bakersfield",
+  "publisher": "City of Bakersfield Planning Division",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.bakersfieldcity.us/webmaps/rest/services/General/LandUse/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06029"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "City of Bakersfield zoning districts (includes pre-zoning); Kern County unincorporated zoning is a separate layer.",
+  "verification": {
+    "verified_at": 1792134053921,
+    "counties": [
+      "06029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

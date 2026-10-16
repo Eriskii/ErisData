@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "la-ouachita-west-monroe",
+  "publisher": "City of West Monroe (WM_Zoning, hosted by city Public Works)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/b2xGdKhlyxuv4zey/arcgis/rest/services/Zoning_8_4_22/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22073"
+    ]
+  },
+  "fields": {
+    "zone": "Layer"
+  },
+  "notes": "City of West Monroe zoning only; parish has no zoning ordinance. CAD-derived change layer (dated 8/4/22). Zone code is the Layer value with a trailing \" HIDDEN\" suffix (e.g. \"R1 HIDDEN\" = R1); Abbreviation is null on many features so it is not used. Lines are CAD polygons, not cleaned.",
+  "verification": {
+    "verified_at": 1792134470254,
+    "counties": [
+      "22073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

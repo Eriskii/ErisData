@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-alleghany",
+  "publisher": "Alleghany County GIS (DPMC_GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/cGI8zn9Oo7U9dF6z/arcgis/rest/services/Alleghany_Zoning_2022/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "County zoning map as of July 2022, published by Alleghany County GIS. Only the district code is provided (no name field). Layer is in NAD83 Virginia South State Plane; service supports geoJSON.",
+  "verification": {
+    "verified_at": 1792135845595,
+    "counties": [
+      "51005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

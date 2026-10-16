@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-sherman",
+  "publisher": "Oregon DLCD statewide zoning compilation (Sherman County, Moro and Grass Valley jurisdictions)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lcd.state.or.us/server/rest/services/Framework/AdminBounds_Zoning/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41055"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "unitOwnerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "unitOwnerName IN ('Sherman', 'Moro', 'Grass Valley')",
+  "notes": "DLCD statewide zoning compilation (state GEOHub Oregon Zoning). Filtered to the county unincorporated layer (unitOwnerName Sherman) plus the cities of Moro and Grass Valley in Sherman County. Sherman County publishes no zoning service of its own; its zoning ordinance is PDF-only. Duplicate polygons per UnitID may occur. Rufus, Wasco and Shaniko are not in this layer.",
+  "verification": {
+    "verified_at": 1792135301319,
+    "counties": [
+      "41055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ar-crawford-alma",
+  "publisher": "City of Alma, Arkansas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/PisBare02Hd4lgLL/arcgis/rest/services/Alma_Zoning_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05033"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "Zone"
+  },
+  "notes": "City of Alma zoning districts (AlmaZoningNEW layer) from the city Planning zoning and parcel map app (almaplanning.maps.arcgis.com). Covers city of Alma only; no district name field. Ordinance field holds ordinance reference, not a URL.",
+  "verification": {
+    "verified_at": 1792133866741,
+    "counties": [
+      "05033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-salinas",
+  "publisher": "City of Salinas GIS Division",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://salinas-gis.ci.salinas.ca.us/hosting/rest/services/Hosted/Zoning_(View_Layer)/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06053"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "district"
+  },
+  "filter": "ActiveFlag = 1",
+  "notes": "City of Salinas base zoning only (city limits, not county land). Last updated 2018 per service listing; ActiveFlag filter keeps active districts.",
+  "verification": {
+    "verified_at": 1792134055109,
+    "counties": [
+      "06053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

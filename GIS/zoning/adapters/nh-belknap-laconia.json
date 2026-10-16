@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nh-belknap-laconia",
+  "publisher": "City of Laconia NH (AxisGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/BzVbhvv3KU5D5eS4/arcgis/rest/services/AxisGISDataSync/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33001"
+    ]
+  },
+  "fields": {
+    "zone": "Name"
+  },
+  "notes": "City of Laconia zoning only, from the AxisGIS tax-map service; covers Laconia only, not other Belknap towns. Name holds the district code (RS, etc.); Type is an unlabelled numeric code and is not mapped.",
+  "verification": {
+    "verified_at": 1792134965179,
+    "counties": [
+      "33001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

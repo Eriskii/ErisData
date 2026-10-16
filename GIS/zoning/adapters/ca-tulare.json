@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-tulare",
+  "publisher": "Tulare County RMA GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/bYBANhmQGwSSLC0l/arcgis/rest/services/ZoningDistrictExisting/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06107"
+    ]
+  },
+  "fields": {
+    "link": "ZoneDescription",
+    "zone": "ZoneCode",
+    "zone_name": "Zone"
+  },
+  "notes": "Tulare County RMA zoning districts for unincorporated county land, synced monthly from RMA zoning GIS data. Cities such as Tulare zone their own land and are not in this layer. ZoneDescription holds an ordinance URL.",
+  "verification": {
+    "verified_at": 1792134047814,
+    "counties": [
+      "06107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

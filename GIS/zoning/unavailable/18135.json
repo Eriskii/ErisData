@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "18135",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.in.gov/counties/randolph/departments/area-planning-zoning/review-zoning-map/",
+    "https://randolphin.wthgis.com/"
+  ],
+  "note": "Randolph County IN publishes zoning districts only inside its ThinkGIS web viewer (randolphin.wthgis.com, 'Zoning Districts' under Political). Probed ArcGIS REST roots on randolphin.wthgis.com and randolph.in.wthgis.com (/arcgis/rest/services, /server/rest/services, /ArcGIS/rest/services): all 404 or unreachable. No public ArcGIS REST zoning service found in ArcGIS Hub/Online searches. Winchester city zoning not found as a service either. Zoning ordinance is only a PDF (UZO 2018).",
+  "recorded_at": 1792134222970,
+  "recheck_after": 1807686222970,
+  "model": "claude-haiku-5-5"
+}

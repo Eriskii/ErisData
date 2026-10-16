@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wy-sheridan-ranchester",
+  "publisher": "Town of Ranchester",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/HB0cTu96I6lNbQ3H/arcgis/rest/services/Ranchester_Master_GIS_WFL1/FeatureServer/65",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56033"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Ranchester zoning, hosted on ArcGIS Online by town consultant (DOWL)",
+  "verification": {
+    "verified_at": 1792136264939,
+    "counties": [
+      "56033"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

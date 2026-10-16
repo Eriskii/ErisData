@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-york-county",
+  "publisher": "York County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.yorkcounty.gov/arcgis/rest/services/York/Public/MapServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51199"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "York County zoning district polygons from the county public MapServer (unincorporated county zoning). ZONING holds the district code; COND and PROFFER flag conditional zoning and proffers, not mapped.",
+  "verification": {
+    "verified_at": 1792135950044,
+    "counties": [
+      "51199"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

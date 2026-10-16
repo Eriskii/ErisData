@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-suffolk-brookhaven",
+  "publisher": "Town of Brookhaven GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.brookhavenny.gov/server/rest/services/Town_Website_Map/MapServer/4",
+    "page_size": 23,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36103"
+    ]
+  },
+  "fields": {
+    "zone": "T_ZONE"
+  },
+  "notes": "Town of Brookhaven zoning districts from the Town public website map; covers the Town of Brookhaven only. Zone code only, no district name field.",
+  "verification": {
+    "verified_at": 1792135080993,
+    "counties": [
+      "36103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

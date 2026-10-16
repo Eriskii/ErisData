@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-tom-green-san-angelo",
+  "publisher": "City of San Angelo GIS Division",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/FMMKUgitF67uKfgb/arcgis/rest/services/planning_p/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48451"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONING_DESC"
+  },
+  "notes": "City of San Angelo base zoning only (county is unzoned; this covers the city). Overlay layers excluded.",
+  "verification": {
+    "verified_at": 1792135881029,
+    "counties": [
+      "48451"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

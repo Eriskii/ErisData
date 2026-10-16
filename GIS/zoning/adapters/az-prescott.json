@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "az-prescott",
+  "publisher": "Yavapai County GIS (City of Prescott zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yavapaiaz.gov/ArcGIS/rest/services/Zoning/MapServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONE1"
+  },
+  "notes": "City of Prescott zoning districts, served by Yavapai County GIS. ZONE1 holds the district code/description per the layer; ZONING the code.",
+  "verification": {
+    "verified_at": 1792133777649,
+    "counties": [
+      "04025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

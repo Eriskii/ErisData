@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-york",
+  "publisher": "York County Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcweb1.ycpc.org/server/rest/services/OPEN_DATA/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42133"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI_NAME",
+    "zone": "ZCODE",
+    "zone_name": "ZNAME"
+  },
+  "notes": "York County Planning Commission open data zoning layer covering municipalities in York County; ZCODE is the municipal zoning code, GEN_ZCODE the general category. Updated on municipal adoption.",
+  "verification": {
+    "verified_at": 1792135332324,
+    "counties": [
+      "42133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

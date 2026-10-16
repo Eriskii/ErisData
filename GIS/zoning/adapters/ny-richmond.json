@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-richmond",
+  "publisher": "NYC Department of City Planning (Staten Island / Richmond County zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/nyzd/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36085"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDIST"
+  },
+  "notes": "NYC DCP citywide Zoning Districts layer (nyzd); Richmond County = Staten Island. Layer has no borough field, so it covers all five boroughs; no filter applied. Zone codes are DCP codes such as R3-2, C1-1, M1-1.",
+  "verification": {
+    "verified_at": 1792135022101,
+    "counties": [
+      "36085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

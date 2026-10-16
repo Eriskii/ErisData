@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tn-sevier-sevierville",
+  "publisher": "City of Sevierville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.seviervilletn.org/arcgis/rest/services/PublicMaps/Sevierville_Zoning_Map/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47155"
+    ]
+  },
+  "fields": {
+    "link": "ZoningOrdinance",
+    "zone": "ZONE_",
+    "zone_name": "ProposedZoneName"
+  },
+  "notes": "City of Sevierville zoning only; covers the city, not unincorporated county land. zone from ZONE_ (e.g. R-1, C-3); zone_name from ProposedZoneName.",
+  "verification": {
+    "verified_at": 1792135556311,
+    "counties": [
+      "47155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

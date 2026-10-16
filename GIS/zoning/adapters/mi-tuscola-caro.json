@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-tuscola-caro",
+  "publisher": "City of Caro (hosted by Tuscola County ArcGIS organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/FA2StDZ4LO95Cm3q/arcgis/rest/services/Caro_Zoning_2024/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26157"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoneSubNam"
+  },
+  "notes": "City of Caro zoning districts, 2024 layer; covers the City of Caro only. Tuscola County publishes no countywide zoning layer; the county parcel layer Zoning field is almost entirely blank so it was not used.",
+  "verification": {
+    "verified_at": 1792132395986,
+    "counties": [
+      "26157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

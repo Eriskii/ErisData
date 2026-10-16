@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wa-port-townsend",
+  "publisher": "City of Port Townsend",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/myRUAsa84ahaMBXL/arcgis/rest/services/Zoning_2_6/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53031"
+    ]
+  },
+  "fields": {
+    "zone": "LANDUSE",
+    "zone_name": "LANDUSE_DESCRIPTION"
+  },
+  "notes": "City of Port Townsend zoning (ArcGIS Online org of cityofpt); city limits only",
+  "verification": {
+    "verified_at": 1792136087977,
+    "counties": [
+      "53031"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

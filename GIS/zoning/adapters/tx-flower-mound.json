@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-flower-mound",
+  "publisher": "Town of Flower Mound GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/6qFRqt366CpC8ZLF/arcgis/rest/services/Layers/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48121"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESCRIPTION"
+  },
+  "notes": "Town of Flower Mound zoning boundaries (town limits only). Planned Development and SUP layers are separate and not included.",
+  "verification": {
+    "verified_at": 1792135892791,
+    "counties": [
+      "48121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

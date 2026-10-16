@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-greenville-city",
+  "publisher": "City of Greenville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisonline.greenvillenc.gov/arcgis/rest/services/OpenData/MapServer/21",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37147"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Greenville official zoning from the city OpenData service. Covers city-zoned land only, not unincorporated Pitt County. Some rows carry a case number and ordinance (CASE_NO, ORD_NO) and a previous zone; not mapped.",
+  "verification": {
+    "verified_at": 1792135115629,
+    "counties": [
+      "37147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

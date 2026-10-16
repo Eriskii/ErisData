@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-scotts-bluff-terrytown",
+  "publisher": "City of Terrytown, NE (hosted by city consultant ArcGIS account sumyer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/ekp6zcmQrlPGio0z/arcgis/rest/services/TerrytownZoning_WFL1/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31157"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneAbbr",
+    "zone_name": "ZoningCode"
+  },
+  "notes": "Only queryable zoning district layer found for Scotts Bluff County after searching. Covers City of Terrytown only (48 polygons), not the county or Scottsbluff/Gering. Item sits in a consultant-hosted ArcGIS account (sumyer) that also serves other city layers. ZONING field is an integer code; ZoneAbbr is the district abbreviation. County zoning exists only as Beacon viewer (not queryable) and 2019 PDF map.",
+  "verification": {
+    "verified_at": 1792135035116,
+    "counties": [
+      "31157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

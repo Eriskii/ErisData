@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-amelia",
+  "publisher": "Amelia County (copy by bms6724_pennstate on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/6EuFgO4fLTqfNOhu/arcgis/rest/services/Amelia/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51007"
+    ]
+  },
+  "fields": {
+    "zone": "Code"
+  },
+  "notes": "Unofficial copy: an ArcGIS Online item named Amelia uploaded by bms6724_pennstate, described as Amelia County zoning codes (Year 2020). Used because the county official Zoning layer (AmeliaCoVA, services1.arcgis.com/KuWoGBd5phLjOeUB Zoning/FeatureServer/31) has an invalid polygon (6 of 7 valid in sample). Covers unincorporated county only; towns not included.",
+  "verification": {
+    "verified_at": 1792135947952,
+    "counties": [
+      "51007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

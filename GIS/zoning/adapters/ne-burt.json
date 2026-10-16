@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-burt",
+  "publisher": "Burt County GIS (gWorks)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Burt_County_NE_PZ/MapServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31021"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Burt County Planning/Zoning gWorks MapServer, layer 18 Zoning (county zoning, 40 features). Source for Burt County Planning & Zoning ZONING layer named on the county FAQ page.",
+  "verification": {
+    "verified_at": 1792135004934,
+    "counties": [
+      "31021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

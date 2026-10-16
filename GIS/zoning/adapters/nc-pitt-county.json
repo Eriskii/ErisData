@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-pitt-county",
+  "publisher": "Pitt County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pittcountync.gov/gis/rest/services/PittOpenData/ZoningPitt/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37147"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Pitt County GIS open data. Covers unincorporated Pitt County base zoning only; incorporated cities zone their own land. USE_ holds a sparse use description and is not mapped.",
+  "verification": {
+    "verified_at": 1792135084867,
+    "counties": [
+      "37147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-crisp",
+  "publisher": "Crisp County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services/Crisp_Zones/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13081"
+    ]
+  },
+  "fields": {
+    "zone": "Label",
+    "zone_name": "Type"
+  },
+  "notes": "Crisp County zoning district layer (unincorporated county) from the county zoning district map webmap; Cordele city zoning not included.",
+  "verification": {
+    "verified_at": 1792133935704,
+    "counties": [
+      "13081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-union",
+  "publisher": "Union County GIS (ArcGIS Online organization, zoning districts compiled for Union and Snyder County municipalities)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/oX0kbxItOpLtURFa/arcgis/rest/services/ZoningDistrict/FeatureServer/107",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42119"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "COUNTY = 'Union County' AND OBJECTID <> 3854",
+  "notes": "Union County zoning districts from the Union County GIS organization ZoningDistrict layer (regional, multi-county). Jurisdiction is the municipality name. OBJECTID 3854 (a West Buffalo Township district) is excluded because its polygon geometry is invalid in the source. Source spatial reference 2271.",
+  "verification": {
+    "verified_at": 1792135703270,
+    "counties": [
+      "42119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

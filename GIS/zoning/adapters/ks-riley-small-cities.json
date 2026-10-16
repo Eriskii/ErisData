@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ks-riley-small-cities",
+  "publisher": "Riley County GIS (Small Cities Zoning Districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rileycountyks.gov/arcgis/rest/services/GISWebV6/ZoningCounty/MapServer/128",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20161"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Agency",
+    "zone": "ZoneClass",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "County-hosted zoning districts for the small cities of Riley County (Agency: Leonardville, Ogden, Riley, Randolph). Excludes Manhattan, which is in ks-riley-manhattan. Randolph entries are marked Unzoned.",
+  "verification": {
+    "verified_at": 1792134314792,
+    "counties": [
+      "20161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

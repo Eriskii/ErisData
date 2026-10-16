@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "me-hancock-ellsworth",
+  "publisher": "Ellsworth, Maine (copy by coagis_org, ArcGIS Online, 2017)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/0EOqWPtpCmgQr2ay/arcgis/rest/services/Ellsworth_Zoning_Map_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23009"
+    ]
+  },
+  "fields": {
+    "zone": "MSCLASS",
+    "zone_name": "MSLABEL"
+  },
+  "notes": "Unofficial copy of the City of Ellsworth 2017 zoning map uploaded to ArcGIS Online by coagis_org (a class project), not published by the city; the city publishes its zoning only as PDF. Covers Ellsworth only, not the rest of Hancock County. Layer in EPSG:26919.",
+  "verification": {
+    "verified_at": 1792134561731,
+    "counties": [
+      "23009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

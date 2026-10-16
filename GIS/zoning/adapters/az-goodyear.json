@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "az-goodyear",
+  "publisher": "City of Goodyear GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.goodyearaz.gov/server/rest/services/Development_Services_Department/City_of_Goodyear_Zoning_Layer/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04013"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningType"
+  },
+  "notes": "City of Goodyear official zoning boundaries (city limits only). ZoningType is a numeric zoning-type code; the source has no district name or code attribute, so zone holds the type code. Case_No and ORD_NO carry the ordinance references where filled.",
+  "verification": {
+    "verified_at": 1792130960459,
+    "counties": [
+      "04013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

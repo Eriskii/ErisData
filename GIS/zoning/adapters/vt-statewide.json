@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "id": "vt-statewide",
+  "publisher": "Vermont Agency of Commerce and Community Development (VCGI / Vermont Zoning Atlas)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/rnCtPMpypTkqwvYT/arcgis/rest/services/Vermont_Zoning_Public_View/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "states": [
+      "VT"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JXTN",
+    "zone": "ABB_DIST_NAME",
+    "zone_name": "DIST_NAME"
+  },
+  "notes": "Vermont Zoning Atlas, statewide compilation of municipal base zoning districts from the RPC GIS files; overlay flag in OVER_ field; bylaw effective date in BYLAW_EFF.",
+  "verification": {
+    "verified_at": 1792133688454,
+    "counties": [
+      "50001",
+      "50003",
+      "50005",
+      "50007",
+      "50009",
+      "50011",
+      "50017",
+      "50019",
+      "50023",
+      "50025",
+      "50027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

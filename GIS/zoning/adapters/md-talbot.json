@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "md-talbot",
+  "publisher": "Maryland Department of Planning (Generalized Zoning, Talbot County jurisdictions)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdpgis.mdp.state.md.us/arcgis/rest/services/PlanningCadastre/Generalized_Zoning_2025/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "GENZONE"
+  },
+  "filter": "JURSCODE = 'TALB'",
+  "notes": "Maryland Department of Planning statewide Generalized Zoning 2025, Talbot County (JURSCODE TALB) incl. towns; zone is the generalized category (e.g. COMMERCIAL, MEDIUM DENSITY RESIDENTIAL), not the ordinance code. MUNICIPALITY_NAME null for unincorporated county land.",
+  "verification": {
+    "verified_at": 1792134522482,
+    "counties": [
+      "24041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

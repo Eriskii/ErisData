@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-santacruz-city",
+  "publisher": "City of Santa Cruz",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://vwgisportal.cityofsantacruz.com/server/rest/services/PublicPlanning/MapServer/50",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06087"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Santa Cruz zoning districts only (within city limits). Single attribute ZONING holds the district code; no name field.",
+  "verification": {
+    "verified_at": 1792134060786,
+    "counties": [
+      "06087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

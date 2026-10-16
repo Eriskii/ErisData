@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "in-south-bend",
+  "publisher": "City of South Bend Department of Community Investment",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.southbendin.gov/arcgis/rest/services/LandRecords/City_of_South_Bend_Zoning_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18141"
+    ]
+  },
+  "fields": {
+    "link": "ORD_LINK",
+    "zone": "SB_ZONE_CODE",
+    "zone_name": "SB_ZONE_DESC"
+  },
+  "notes": "City of South Bend zoning; layer is parcel-level with zoning attributes (about 47,500 features), and includes 2019 proposed district changes in PREVIOUSZONING/PETITIONNUM context.",
+  "verification": {
+    "verified_at": 1792134183889,
+    "counties": [
+      "18141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

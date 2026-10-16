@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ks-lyon-emporia",
+  "publisher": "City of Emporia, Kansas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/Emporia_Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20111"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "link": "TEST",
+    "zone": "Abbreviated_District_Name",
+    "zone_name": "Full_District_Name"
+  },
+  "notes": "City of Emporia zoning districts (county seat and largest city in Lyon County), published by the city. Covers the city only; the link field is the city ordinance article URL. Overlays excluded by the layer design; unincorporated county zoning not found as a queryable layer.",
+  "verification": {
+    "verified_at": 1792134278532,
+    "counties": [
+      "20111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

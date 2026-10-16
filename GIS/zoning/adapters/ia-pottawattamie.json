@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-pottawattamie",
+  "publisher": "Pottawattamie County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pottcounty-ia.gov/arcgis/rest/services/Hosted/Zoning_Pottawattamie/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19155"
+    ]
+  },
+  "fields": {
+    "link": "ZoningDescriptionLink",
+    "zone": "ZONINGCODE"
+  },
+  "notes": "County zoning layer (117 districts), unincorporated county land per county GIS; no jurisdiction field.",
+  "verification": {
+    "verified_at": 1792134193223,
+    "counties": [
+      "19155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

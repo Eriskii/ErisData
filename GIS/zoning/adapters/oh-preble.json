@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-preble",
+  "publisher": "Miami Valley Regional Planning Commission (MVRPC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/3TIUdMHOqnLBrZEH/arcgis/rest/services/Zoning_2025/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "39135"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "COUNTY = 'PRE'",
+  "notes": "MVRPC generalized regional zoning compiled 2025 (Miami Valley Regional Planning Commission). ZONECLASS is generalized zoning, ZONEDESC the specific district. Filtered to Preble County (COUNTY = PRE).",
+  "verification": {
+    "verified_at": 1792135233635,
+    "counties": [
+      "39135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

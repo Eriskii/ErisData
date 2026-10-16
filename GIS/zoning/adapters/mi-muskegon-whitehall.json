@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-muskegon-whitehall",
+  "publisher": "Muskegon County GIS (City of Whitehall zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.muskegoncountygis.com/arcgis/rest/services/Zoning_Viewer/Zoning_Viewer/MapServer/70",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26121"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "County GIS Zoning_Viewer service; City of Whitehall base zoning districts (layer 70).",
+  "verification": {
+    "verified_at": 1792132343903,
+    "counties": [
+      "26121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

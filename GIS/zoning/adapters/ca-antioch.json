@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-antioch",
+  "publisher": "City of Antioch (agiffin_pw ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/4usxdjWKL0Lq9x6D/arcgis/rest/services/Antioch_GPLU_and_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06013"
+    ]
+  },
+  "fields": {
+    "zone": "ZNPROP",
+    "zone_name": "ZNPROPDESC"
+  },
+  "notes": "City of Antioch zoning districts (city limits only). ZNPROP is the zone code matching ZNPROPDESC.",
+  "verification": {
+    "verified_at": 1792134050606,
+    "counties": [
+      "06013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-essex",
+  "publisher": "Essex County GIS (Virginia)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/hPGyuBCaFm583AVs/arcgis/rest/services/CombinedZoning20230725/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51057"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "T_or_C",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Combined county and Town of Tappahannock zoning layer (2023). Jurisdiction field T_or_C distinguishes county from town.",
+  "verification": {
+    "verified_at": 1792135904607,
+    "counties": [
+      "51057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

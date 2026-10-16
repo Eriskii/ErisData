@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-kootenai",
+  "publisher": "Kootenai County (hosted by City of Post Falls GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.postfalls.gov/server/rest/services/GIS2/LandUse/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16055"
+    ]
+  },
+  "fields": {
+    "zone": "LABEL",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Layer titled Kootenai County Zoning on City of Post Falls GIS server; 777 polygons. zone from LABEL (category labels such as RURAL, AGRICULTURE, HAUSER HILLS). Coverage extent to be confirmed against county boundary.",
+  "verification": {
+    "verified_at": 1792133665494,
+    "counties": [
+      "16055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

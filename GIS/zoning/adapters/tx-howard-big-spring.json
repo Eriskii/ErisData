@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-howard-big-spring",
+  "publisher": "City of Big Spring GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/alxLYecgXwbvnM3O/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48227"
+    ]
+  },
+  "fields": {
+    "zone": "zoning_id"
+  },
+  "notes": "City of Big Spring zoning only (not unincorporated Howard County, which does not zone). Zone codes such as R, LI, SF-1, LC, HC. Hosted by City of Big Spring account on ArcGIS Online.",
+  "verification": {
+    "verified_at": 1792135660030,
+    "counties": [
+      "48227"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

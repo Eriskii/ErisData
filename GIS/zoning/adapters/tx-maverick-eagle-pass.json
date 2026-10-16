@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-maverick-eagle-pass",
+  "publisher": "City of Eagle Pass (planning, ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/BqkIAsYysjLDjmUf/arcgis/rest/services/Editable_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48323"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "City of Eagle Pass zoning only (city limits, not unincorporated county). Layer is in the city planning ArcGIS org that also hosts its parcel layer; 1,296 polygons. No jurisdiction field.",
+  "verification": {
+    "verified_at": 1792135716775,
+    "counties": [
+      "48323"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

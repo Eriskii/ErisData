@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ks-jefferson",
+  "publisher": "Jefferson County GIS (JFKS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.jfksgis.us/server/rest/services/BaseLayers/Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20087"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Jefferson County KS county GIS zoning layer (parcel-based polygons, ZONING = district code such as LL, AG, R-1). No jurisdiction field or zone name; covers zoning as published by JFKS GIS.",
+  "verification": {
+    "verified_at": 1792134270908,
+    "counties": [
+      "20087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

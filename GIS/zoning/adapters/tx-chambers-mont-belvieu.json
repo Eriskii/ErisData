@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-chambers-mont-belvieu",
+  "publisher": "City of Mont Belvieu GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.cmbgis.com/arcgis/rest/services/LandUsePlanning_v2/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48071"
+    ]
+  },
+  "fields": {
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Mont Belvieu zoning districts, served from the city public GIS server (cmbgis.com) behind its GIS Public Map viewer. ZONECLASS is blank; district names in ZONEDESC.",
+  "verification": {
+    "verified_at": 1792136052557,
+    "counties": [
+      "48071"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

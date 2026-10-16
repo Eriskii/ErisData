@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-snyder",
+  "publisher": "PASDA / Snyder County",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/SnyderCounty/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALI",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "County-wide zoning districts for all municipalities, hosted by PASDA (Snyder County data)",
+  "verification": {
+    "verified_at": 1792135413277,
+    "counties": [
+      "42109"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

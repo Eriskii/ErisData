@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ma-hampden-west-springfield",
+  "publisher": "Town of West Springfield GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.townofwestspringfield.org/arcgis/rest/services/Services/msrvCSTgeneralUse/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25013"
+    ]
+  },
+  "fields": {
+    "link": "Zoning_Doc",
+    "zone": "ZONING"
+  },
+  "notes": "Town of West Springfield zoning districts layer (64 polygons). Town-only, not county-wide.",
+  "verification": {
+    "verified_at": 1792134498498,
+    "counties": [
+      "25013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

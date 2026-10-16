@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "lc-east-helena-zoning",
+  "publisher": "City of East Helena",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://helenamontanamaps.org/arcgisadp/rest/services/LCSimple/MapServer/103",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "30049"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "Name"
+  },
+  "notes": "City of East Helena base zoning from the Lewis and Clark County Viewer.",
+  "verification": {
+    "verified_at": 1792134873363,
+    "counties": [
+      "30049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

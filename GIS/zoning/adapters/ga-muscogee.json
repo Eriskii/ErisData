@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-muscogee",
+  "publisher": "Columbus Consolidated Government (Muscogee County GA) Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ccggisprod.columbusga.org/server/rest/services/Base/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13215"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "Zone"
+  },
+  "notes": "Columbus Consolidated Government covers all of Muscogee County. Zoning layer from the CCG base map service; one feature per tax parcel carrying its zoning code (ZoneCode) and name (Zone). OldZoneCode holds the prior code.",
+  "verification": {
+    "verified_at": 1792133952357,
+    "counties": [
+      "13215"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

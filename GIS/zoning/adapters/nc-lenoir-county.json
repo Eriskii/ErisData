@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-lenoir-county",
+  "publisher": "Lenoir County (via Kinston Public Services ArcGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/oHyVM17u2FMyV4oB/arcgis/rest/services/Lenoir_County_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37107"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Dist"
+  },
+  "notes": "Lenoir County zoning layer hosted on the City of Kinston ArcGIS organization; field Zone_Dist holds the district code.",
+  "verification": {
+    "verified_at": 1792135116692,
+    "counties": [
+      "37107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-deschutes-redmond",
+  "publisher": "Oregon DLCD (statewide zoning, City of Redmond jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Redmond'",
+  "notes": "State-compiled zoning, City of Redmond portion; codes are the state-standardized orZCode.",
+  "verification": {
+    "verified_at": 1792136059407,
+    "counties": [
+      "41017"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

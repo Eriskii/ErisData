@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wv-jefferson-ranson",
+  "publisher": "Jefferson County GIS (Ranson zoning layer, hosted by county staff account rpierce_JCWVGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/XHPMHLtcwUiGJ0nS/arcgis/rest/services/Zoning_Towns/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54037"
+    ]
+  },
+  "fields": {
+    "zone": "O_ZONING",
+    "zone_name": "Zone_Descr"
+  },
+  "notes": "City of Ranson. This layer is parcel-based: each feature is a parcel with its zoning in O_ZONING (e.g. R-7 Residential); Zone_Descr holds the form-based sector (e.g. Sub-Urban). Used as a last resort because it is the only Ranson zoning service found.",
+  "verification": {
+    "verified_at": 1792136084510,
+    "counties": [
+      "54037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

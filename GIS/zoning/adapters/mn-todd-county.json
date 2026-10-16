@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-todd-county",
+  "publisher": "Todd County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mytoddcounty.com/toddcounty/rest/services/PZ_Parcels/MapServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27153"
+    ]
+  },
+  "fields": {
+    "zone": "ZCODE",
+    "zone_name": "ZONING"
+  },
+  "notes": "Todd County GIS PZ_Parcels MapServer layer 17 (Zoning), county zoning districts for unincorporated land. MCD jurisdiction field is blank in source, so not mapped. Zone codes such as AF-1.",
+  "verification": {
+    "verified_at": 1792134553607,
+    "counties": [
+      "27153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

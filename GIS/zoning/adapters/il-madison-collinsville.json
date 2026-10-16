@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-madison-collinsville",
+  "publisher": "City of Collinsville, IL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/d2MmFDw9QKxXLRGV/arcgis/rest/services/Official_Zoning_Map_03222022/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17119"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "City of Collinsville official zoning districts (2022 update), city limits only; not county-wide. Jurisdiction is Collinsville.",
+  "verification": {
+    "verified_at": 1792134347913,
+    "counties": [
+      "17119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

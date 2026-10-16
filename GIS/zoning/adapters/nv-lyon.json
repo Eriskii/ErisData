@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nv-lyon",
+  "publisher": "Lyon County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lyon-county.org/server/rest/services/Landbase/Parcels/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32019"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "PTOWN",
+    "zone": "PZONE1"
+  },
+  "notes": "Parcel layer, used because the county Landbase/Zoning district layer fails polygon validity. Zoning code from the assessor field PZONE1 on each parcel (no district description field). PTOWN holds the parcel town. Parcel layer, not a district layer: zone is per parcel.",
+  "verification": {
+    "verified_at": 1792135002119,
+    "counties": [
+      "32019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

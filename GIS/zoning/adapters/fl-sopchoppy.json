@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-sopchoppy",
+  "publisher": "City of Sopchoppy (zoning layer hosted by ARPC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/N3lCn6dEKCL6LidU/arcgis/rest/services/Sopchoppy_FLUM_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12129"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCat"
+  },
+  "notes": "City of Sopchoppy zoning districts, the only incorporated city in Wakulla County; layer named Zoning in the Sopchoppy FLUM service hosted by ARPC for the city. Wakulla county layer shows No Zoning inside the city. Zone_Full is empty, so zone comes from ZoningCat.",
+  "verification": {
+    "verified_at": 1792133883333,
+    "counties": [
+      "12129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

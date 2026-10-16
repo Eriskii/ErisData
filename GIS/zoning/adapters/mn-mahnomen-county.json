@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-mahnomen-county",
+  "publisher": "TGuenther12 (ArcGIS Online copy of City of Mahnomen zoning)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/NXuefF2XWCTW24jj/arcgis/rest/services/Zoning_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27087"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "TYPE"
+  },
+  "notes": "Unofficial copy: a personal ArcGIS Online account (TGuenther12) hosts this layer; no official county or city zoning service was found. Codes match the City of Mahnomen zoning ordinance (Chapter 151), so it covers city zoning only, not unincorporated county land. 52 polygons.",
+  "verification": {
+    "verified_at": 1792134558390,
+    "counties": [
+      "27087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

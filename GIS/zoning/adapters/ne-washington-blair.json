@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ne-washington-blair",
+  "publisher": "City of Blair, Nebraska (cpoulsenblair ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/ksv1wRvySwOGRs8x/arcgis/rest/services/Land_Use_(public)/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31177"
+    ]
+  },
+  "fields": {
+    "link": "PDFLink",
+    "zone": "ZONING",
+    "zone_name": "Zoning_Text"
+  },
+  "notes": "City of Blair zoning districts only (not unincorporated county land). Blair public ArcGIS org; layer updated periodically. Found after county-level search found only static PDF maps.",
+  "verification": {
+    "verified_at": 1792135028355,
+    "counties": [
+      "31177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

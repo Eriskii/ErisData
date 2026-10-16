@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-virginia-beach",
+  "publisher": "City of Virginia Beach Planning and Development GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geo.vbgov.com/mapservices/rest/services/Planning_and_Development/Planning_and_Development/MapServer/37",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51810"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Virginia Beach zoning districts (city-zoned land); Zoning holds the district code such as A12, R7.5. Overlay districts are in a separate Overlays field and are not mapped.",
+  "verification": {
+    "verified_at": 1792135971585,
+    "counties": [
+      "51810"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

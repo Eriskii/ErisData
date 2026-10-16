@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-chester",
+  "publisher": "Chester County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/G4S1dGvn7PIgYd6Y/arcgis/rest/services/Zoning_Edit_Working/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42029"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZONE_ABBR",
+    "zone_name": "ZONE_DISTRICT"
+  },
+  "notes": "County-wide zoning districts for Chester County PA, all municipalities in one layer; MUNI is a coded domain (code to municipality name).",
+  "verification": {
+    "verified_at": 1792135300316,
+    "counties": [
+      "42029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

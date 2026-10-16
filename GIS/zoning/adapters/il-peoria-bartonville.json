@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-peoria-bartonville",
+  "publisher": "Village of Bartonville (via Peoria County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.peoriacounty.gov/arcgis/rest/services/DP/Zoning/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17143"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Bartonville zoning districts, hosted by Peoria County GIS",
+  "verification": {
+    "verified_at": 1792134062884,
+    "counties": [
+      "17143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

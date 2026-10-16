@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "18147",
+  "reason": "viewer-only",
+  "evidence": [
+    "http://spencer.in.wthgis.com/",
+    "https://spencerin.wthgis.com/",
+    "https://www.in.gov/counties/spencer/departments/plan-commission-and-building-inspector/schedule-of-uses-and-zoning-map-definitions/"
+  ],
+  "note": "Spencer County publishes zoning via a ThinkGIS web viewer (spencerin.wthgis.com / spencer.in.wthgis.com) that says it has zoning layers, but no ArcGIS REST service or downloadable zoning polygon layer was found there (its /arcgis/rest/services endpoints return 404). The county Plan Commission page offers only zoning definitions and a schedule of uses; no queryable zoning district layer found in ArcGIS Online, Indiana state services, or the county/regional sites. Rockport, Santa Claus and other towns publish only PDF base/aerial maps.",
+  "recorded_at": 1792134245301,
+  "recheck_after": 1807686245301,
+  "model": "claude-haiku-5-5"
+}

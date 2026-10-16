@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "md-carroll-county",
+  "publisher": "Carroll County Land & Resource Management",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Uf0DiYpD9NOFO5YH/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24013"
+    ]
+  },
+  "fields": {
+    "link": "LinktoZoning",
+    "zone": "Zoning"
+  },
+  "filter": "OBJECTID <> 517",
+  "notes": "County-published zoning layer (AGOL, CarrollCo_MD_LRM). Filter excludes OBJECTID 517, whose geometry fails validity checks (invalid polygon) in the source.",
+  "verification": {
+    "verified_at": 1792134828885,
+    "counties": [
+      "24013"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

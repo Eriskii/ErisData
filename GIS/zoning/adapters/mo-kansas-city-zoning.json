@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-kansas-city-zoning",
+  "publisher": "City of Kansas City, Missouri (Open Data KC)",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://data.kcmo.org/api/geospatial/mreg-j9sj?method=export&format=GeoJSON",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "29095"
+    ]
+  },
+  "fields": {
+    "zone": "classification1",
+    "zone_name": "classification"
+  },
+  "notes": "City of Kansas City, MO zoning from Open Data KC (mreg-j9sj). zone is the district code (classification1); classification combines code and overlay suffix. No description field in the source.",
+  "verification": {
+    "verified_at": 1792134901386,
+    "counties": [
+      "29095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

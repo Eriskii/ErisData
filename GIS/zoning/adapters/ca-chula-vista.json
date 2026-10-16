@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-chula-vista",
+  "publisher": "City of Chula Vista GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/2nV1ORz8qFa0iiF2/arcgis/rest/services/Chula_Vista_Zoning_District_Boundary_Data/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06073"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "City of Chula Vista open data portal zoning districts.",
+  "verification": {
+    "verified_at": 1792134275048,
+    "counties": [
+      "06073"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

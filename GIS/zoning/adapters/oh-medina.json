@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "oh-medina",
+  "publisher": "Medina County GIS (zoning layer v2)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/m37BbrYBtVXq1nb8/arcgis/rest/services/Medina_County_Zoning_Layer_v2/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "Hosted by zalexander_MCA on ArcGIS Online; copy of county zoning, not confirmed as the county own service. No jurisdiction field in layer.",
+  "verification": {
+    "verified_at": 1792135184242,
+    "counties": [
+      "39103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

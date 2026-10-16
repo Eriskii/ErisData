@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "id-latah",
+  "publisher": "Latah County Planning, Building and GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.latah.id.us/arcgis/rest/services/PlanningCombined/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16057"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "Short_Label",
+    "zone_name": "ZONE_TYPE"
+  },
+  "notes": "County zoning layer from PlanningCombined MapServer (layer 7); covers zoned land in the county; incorporated cities have their own layers, not included here. Layer includes some rezone records.",
+  "verification": {
+    "verified_at": 1792133632569,
+    "counties": [
+      "16057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

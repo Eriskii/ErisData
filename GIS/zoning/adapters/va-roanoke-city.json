@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-roanoke-city",
+  "publisher": "City of Roanoke GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis03.roanokeva.gov/arcgis/rest/services/Public/Zoning/FeatureServer/0",
+    "page_size": 100,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "51770"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_DESCRIPTION"
+  },
+  "notes": "City of Roanoke zoning districts. ORD and CONDITIONAL fields carry ordinance and conditional-zoning flags.",
+  "verification": {
+    "verified_at": 1792135973533,
+    "counties": [
+      "51770"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

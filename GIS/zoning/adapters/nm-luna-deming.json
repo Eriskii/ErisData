@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nm-luna-deming",
+  "publisher": "Luna County GIS (City of Deming zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/K9P1N7Y1EilGjehZ/arcgis/rest/services/City_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35029"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Layer published by Luna County GIS (gis@lunacountynm.us) as City_Zoning; 178 polygons, appears to cover the City of Deming. Only a zone code field is available; no name or ordinance link.",
+  "verification": {
+    "verified_at": 1792134990471,
+    "counties": [
+      "35029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

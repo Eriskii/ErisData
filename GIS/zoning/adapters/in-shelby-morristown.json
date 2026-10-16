@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-shelby-morristown",
+  "publisher": "Town of Morristown (via Shelby County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/dip9433X97rf7xgg/arcgis/rest/services/ShelbyCountyIN_BeaconUpdated/FeatureServer/23",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18145"
+    ]
+  },
+  "fields": {
+    "zone": "Feature_Na"
+  },
+  "notes": "Morristown town zoning layer from the Shelby County Beacon GIS service. Zone codes only.",
+  "verification": {
+    "verified_at": 1792134149732,
+    "counties": [
+      "18145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

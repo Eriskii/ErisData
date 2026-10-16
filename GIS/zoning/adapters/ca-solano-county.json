@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-solano-county",
+  "publisher": "Solano County GIS (Department of Resource Management)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://solanocountygis.com/server/rest/services/Aumentum/AumentumInternal/MapServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06095"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ABREV",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Unincorporated Solano County zoning only; cities zone their own land. Source: county Aumentum MapServer layer 17. No ordinance link field in source.",
+  "verification": {
+    "verified_at": 1792134058786,
+    "counties": [
+      "06095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

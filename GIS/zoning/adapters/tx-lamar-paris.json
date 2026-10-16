@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-lamar-paris",
+  "publisher": "City of Paris, TX (hosted by city GIS staff)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/YXGc5lG6eRCB6XBL/arcgis/rest/services/Zoning_Present/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48277"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "ZoneCode"
+  },
+  "notes": "City of Paris zoning only (not unincorporated county). Copy published in ArcGIS Online by the city staff account jfore_cop; no county zoning layer found. Zoning designations per APA LBCS color system; verify against city ordinance.",
+  "verification": {
+    "verified_at": 1792135714965,
+    "counties": [
+      "48277"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

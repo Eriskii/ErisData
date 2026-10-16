@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13319",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://library.municode.com/ga/wilkinson_county/ordinances/code_of_ordinances",
+    "https://www.wilkinsoncounty.net/",
+    "https://services1.arcgis.com/ue5fMdTkPeHLCobS/arcgis/rest/services/Wilkinson_GA_gdb/FeatureServer/0"
+  ],
+  "note": "Wilkinson County (GA) and its six municipalities publish zoning only as ordinance text (Municode). No ArcGIS REST, WFS or downloadable zoning district layer was found in ArcGIS Online/Hub or county and DCA sites. The only queryable county layer (Wilkinson_GA_gdb parcel copy by jamie_cvg) has a Zoning attribute that is empty for every sampled parcel, so it cannot supply districts. Commission district web map and qPublic viewer are not zoning services.",
+  "recorded_at": 1792134012193,
+  "recheck_after": 1807686012193,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-clinton-beekmantown",
+  "publisher": "Town of Beekmantown (via Clinton County Zoning compilation, CutterL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/33FPYaVQYNa7sFJ5/arcgis/rest/services/Clinton_County_Zoning_WFL1/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36019"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Copy hosted on ArcGIS Online by CutterL (personal item), not an official county service; no official queryable county zoning service found. Covers Town of Beekmantown only; the county layer set has separate layers per town.",
+  "verification": {
+    "verified_at": 1792135015428,
+    "counties": [
+      "36019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

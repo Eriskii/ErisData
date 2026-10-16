@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "or-lexington",
+  "publisher": "City of Lexington, Oregon (Morrow County ArcGIS organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/MQGnkVpUbcAxMorv/arcgis/rest/services/lex_zoning2025/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41049"
+    ]
+  },
+  "fields": {
+    "zone": "ZID"
+  },
+  "notes": "City of Lexington zoning, 2025 layer hosted on the Morrow County ArcGIS organization. Only zone code is provided; no zone name field.",
+  "verification": {
+    "verified_at": 1792135347727,
+    "counties": [
+      "41049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "oh-clermont",
+  "publisher": "Clermont County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.clermontcountyohio.gov/server/rest/services/WMAS/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39025"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWNSHIP",
+    "link": "HYPERLINK",
+    "zone": "DIST",
+    "zone_name": "DIST_GEN"
+  },
+  "notes": "Clermont County zoning layer from county WMAS/Zoning MapServer; jurisdiction in TOWNSHIP field; DIST_SPEC holds specific district",
+  "verification": {
+    "verified_at": 1792135170613,
+    "counties": [
+      "39025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

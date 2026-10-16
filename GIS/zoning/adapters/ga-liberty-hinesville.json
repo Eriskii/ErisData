@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-liberty-hinesville",
+  "publisher": "City of Hinesville GA (via SEGRASS portal)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://portal.segrass.org/crcarcgis/rest/services/Liberty/LandUsePlanning/MapServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13179"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Hinesville zoning polygons (Zoning_City layer); zone code in Zoning field; one feature per parcel-zone polygon. No ordinance link field.",
+  "verification": {
+    "verified_at": 1792133973856,
+    "counties": [
+      "13179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

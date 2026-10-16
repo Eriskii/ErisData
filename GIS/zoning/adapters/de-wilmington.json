@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "de-wilmington",
+  "publisher": "City of Wilmington, DE",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/hQ3wdpbjO3fPf612/arcgis/rest/services/LUP_Web_Map_updated_11122024_WFL1/FeatureServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "10003"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "City of Wilmington zoning districts, from the city LUP web map FeatureServer layer City Zoning (285 polygons).",
+  "verification": {
+    "verified_at": 1792133872834,
+    "counties": [
+      "10003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

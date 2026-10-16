@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-buena-vista-city",
+  "publisher": "City of Buena Vista (copy hosted by troberts_bv on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/MMt2hghmpEQFWHw2/arcgis/rest/services/BaseZoning/FeatureServer/23",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51530"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Cod",
+    "zone_name": "Zoning_Des"
+  },
+  "notes": "Copy of city base zoning uploaded to ArcGIS Online by user troberts_bv (appears to be city staff, not a city-hosted service); 49 polygons, city-only coverage. Used because no official queryable city or county zoning service was found. Reads city zoning; verify against city ordinance.",
+  "verification": {
+    "verified_at": 1792135963002,
+    "counties": [
+      "51530"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

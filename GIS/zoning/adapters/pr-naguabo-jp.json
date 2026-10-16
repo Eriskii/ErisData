@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pr-naguabo-jp",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/MapServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "notes": "JP statewide calificacion layer (Calificacion_Clasificacion). Zone = cali code, zone_name = descrip, jurisdiction = municipio. Runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792137935627,
+    "counties": [
+      "72103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

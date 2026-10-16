@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-ben-hill-county",
+  "publisher": "Ben Hill County / SGRC",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HA2thkMWRBDb77XN/arcgis/rest/services/BH_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "13017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "WHERE_",
+    "zone": "ZONE_"
+  },
+  "filter": "WHERE_ = 'COUNTY' AND OBJECTID NOT IN (6,9)",
+  "notes": "Hosted by SGRC (rstrom_sgrc) on ArcGIS Online; unincorporated county districts only. Excludes OBJECTIDs 6 and 9 (G-B and G-F county), whose geometry is invalid.",
+  "verification": {
+    "verified_at": 1792133940136,
+    "counties": [
+      "13017"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

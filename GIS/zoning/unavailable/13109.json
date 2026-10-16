@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13109",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=EvansCountyGA&Layer=Parcels&PageType=Search",
+    "https://www.gismaps.org/ga-evans-county/",
+    "https://www.cityofclaxton.org/"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Evans County GA and Claxton zoning. No county or city zoning district layer is published as a queryable ArcGIS REST or open-data service. Only the qPublic parcel viewer (Schneider, no public zoning REST layer found), third-party sites (Zoneomics, gismaps, Regrid, Acres) and paid parcel downloads were found. Claxton's city site lists no GIS or zoning map.",
+  "recorded_at": 1792133933529,
+  "recheck_after": 1807685933529,
+  "model": "claude-haiku-5-5"
+}

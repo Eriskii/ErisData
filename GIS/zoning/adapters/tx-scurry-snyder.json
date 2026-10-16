@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-scurry-snyder",
+  "publisher": "City of Snyder GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/zAt6lJsMz9Wp1t7F/arcgis/rest/services/SnyderMapServices/FeatureServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48415"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Snyder zoning layer from the city SnyderMapServices service; only the zone code is published (no name or ordinance link). Coverage is city-limits zoning, not the unincorporated county.",
+  "verification": {
+    "verified_at": 1792135886513,
+    "counties": [
+      "48415"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

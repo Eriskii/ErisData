@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ak-wrangell",
+  "publisher": "City and Borough of Wrangell GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/7cBSaoaaRaH5ojZy/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02275"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "filter": "ZONING IS NOT NULL",
+  "notes": "No standalone zoning district layer was found; this is the borough parcel layer, whose ZONING attribute holds each parcel zoning designation (e.g. RMU-F1, RMU-F2). Parcel-level zoning: features are parcels, not district outlines; no zone_name field. Filtered to parcels with a zoning value. Borough data updated each spring after assessments.",
+  "verification": {
+    "verified_at": 1792133764673,
+    "counties": [
+      "02275"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

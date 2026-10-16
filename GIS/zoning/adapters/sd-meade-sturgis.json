@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-meade-sturgis",
+  "publisher": "City of Sturgis GIS (SturgisSDGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/NbEEwwcVRO4AIaWE/arcgis/rest/services/Sturgis_Zoning/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46093"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "ZONING"
+  },
+  "filter": "ZONING IS NOT NULL",
+  "notes": "City of Sturgis only; Meade County itself publishes no zoning (2024 draft comprehensive plan says county has no zoning). Layer is Sturgis zoning districts intersected with parcels (one row per parcel, zone from ZONING); no zone_name field. Overlay in OVERLAY_DISTRICT not mapped.",
+  "verification": {
+    "verified_at": 1792135417732,
+    "counties": [
+      "46093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

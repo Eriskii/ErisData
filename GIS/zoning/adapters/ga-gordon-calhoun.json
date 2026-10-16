@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-gordon-calhoun",
+  "publisher": "City of Calhoun GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofcalhoun-ga.com/arcgis/rest/services/Zoning/MapServer/1",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13129"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "filter": "ZONING <> 'COUNTY'",
+  "notes": "City of Calhoun parcel-level layer: each parcel carries its zoning code in ZONING (no description field, so zone_name repeats the code). Parcels coded COUNTY (unincorporated) are excluded. Not a district polygon layer; no separate county zoning service found.",
+  "verification": {
+    "verified_at": 1792133987357,
+    "counties": [
+      "13129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

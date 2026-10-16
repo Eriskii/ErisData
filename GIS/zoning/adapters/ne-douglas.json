@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ne-douglas",
+  "publisher": "Douglas County GIS (DCGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://dcgis.org/server/rest/services/Hosted/Douglas_County_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31055"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "jurisdiction",
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "County development-jurisdiction zoning layer maintained by DCGIS for DCES; covers unincorporated Douglas County plus some joint areas (Valley, Bennington). Omaha city zoning is a separate layer. No ordinance link field populated.",
+  "verification": {
+    "verified_at": 1792134923319,
+    "counties": [
+      "31055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

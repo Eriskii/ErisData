@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "la-gonzales",
+  "publisher": "City of Gonzales",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/NaE1rjvJf3JdTAkI/arcgis/rest/services/Gonzales_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Gonzales zoning map view (public read-only, working draft). Covers the City of Gonzales only; the parish layer Base_Layers/Zoning_Districts on gis.ascensionparishla.gov could not be queried during validation. No zone name field in source.",
+  "verification": {
+    "verified_at": 1792134815473,
+    "counties": [
+      "22005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

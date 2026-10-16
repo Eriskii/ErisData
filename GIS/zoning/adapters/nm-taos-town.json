@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-taos-town",
+  "publisher": "Town of Taos GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/AUzB6nOCWYow3ofS/arcgis/rest/services/Land_Use_Zones/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35055"
+    ]
+  },
+  "fields": {
+    "link": "ZoneCode",
+    "zone": "ZONE_1"
+  },
+  "notes": "Town of Taos land use zones only (incorporated town); unincorporated county zoning is published only as PDF maps. Zone Change Ordinance 2026-06. ZoneCode holds the eCode360 ordinance URL.",
+  "verification": {
+    "verified_at": 1792135010617,
+    "counties": [
+      "35055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-placer",
+  "publisher": "Placer County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/PArfeTGcwA9RGNzN/arcgis/rest/services/Zoning_OpenData/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06061"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "COMMUNITY_PLAN_AREA",
+    "link": "ZONINGLINK",
+    "zone": "ZONING",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Placer County zoning polygons (Zoning_OpenData layer, PCGISAdmin, county-run). Covers unincorporated county and Tahoe Basin; cities such as Auburn, Roseville, Lincoln not included. jurisdiction is the community plan area.",
+  "verification": {
+    "verified_at": 1792134022776,
+    "counties": [
+      "06061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

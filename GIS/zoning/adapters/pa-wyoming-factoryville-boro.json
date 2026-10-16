@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-wyoming-factoryville-boro",
+  "publisher": "Wyoming County GIS account (Factoryville Borough zoning)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/0POQ0PQT9pHLMnL2/arcgis/rest/services/Fact_BORO_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42131"
+    ]
+  },
+  "fields": {
+    "zone_name": "ZONE_TYPE"
+  },
+  "notes": "Factoryville Borough only. Service description labels it NON-OFFICIAL zoning districts, hosted in the county GIS ArcGIS Online account; no zone code field, so zone_name only. Submitted as a non-official copy because no other queryable Factoryville layer was found.",
+  "verification": {
+    "verified_at": 1792135348506,
+    "counties": [
+      "42131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

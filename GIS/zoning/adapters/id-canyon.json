@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-canyon",
+  "publisher": "Canyon County DSD",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.canyonco.org/arcgisserver/rest/services/DSD/Current_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Canyon County DSD Current_Zoning layer; covers unincorporated county zoning (cities zone their own land). Public, no login.",
+  "verification": {
+    "verified_at": 1792133654206,
+    "counties": [
+      "16027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

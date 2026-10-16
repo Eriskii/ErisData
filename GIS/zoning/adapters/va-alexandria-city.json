@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-alexandria-city",
+  "publisher": "City of Alexandria GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ChYV69FhfjwkvRmy/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51510"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Alexandria zoning polygons (509 features) published by the city GIS office on its open data portal; city zones all land within its limits. Zone codes per the Zoning Land Use Codes lookup table. ORDINANCE and AMENDMENT are mostly empty and not mapped.",
+  "verification": {
+    "verified_at": 1792135948165,
+    "counties": [
+      "51510"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-ames",
+  "publisher": "City of Ames GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofames.org/arcgis/rest/services/Ames_Zoning/Ames_Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19169"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE_NO",
+    "zone": "ZONE_",
+    "zone_name": "ZONE_LABEL"
+  },
+  "notes": "City of Ames zoning districts (Ames Municipal Code Chapter 29). ORDINANCE_NO holds the adopting ordinance number, not a URL. Covers Ames only.",
+  "verification": {
+    "verified_at": 1792130893306,
+    "counties": [
+      "19169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

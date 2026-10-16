@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-adams-gettysburg",
+  "publisher": "Borough of Gettysburg (zoning data via MapLink/ZoningHub)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/MkUfAWaYm2SQf4Qa/arcgis/rest/services/GE2335_zoning_05062026_ZoningShapefile05_06/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ABBRV"
+  },
+  "notes": "Borough of Gettysburg zoning districts only (city layer, not county-wide). Dated 2026 shapefile export from the borough zoning vendor. No zone name field.",
+  "verification": {
+    "verified_at": 1792135346468,
+    "counties": [
+      "42001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-polk-benton",
+  "publisher": "Southeast Tennessee Development District (for City of Benton, TN)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Benton_Corporate_Zoning_62325/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47139"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "City of Benton corporate zoning districts, published by SETDD. Only zone code available.",
+  "verification": {
+    "verified_at": 1792135907663,
+    "counties": [
+      "47139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

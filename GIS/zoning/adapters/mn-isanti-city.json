@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-isanti-city",
+  "publisher": "City of Isanti",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/VvrCpMdFGlRGNCo9/arcgis/rest/services/Zoning_Public_View/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27059"
+    ]
+  },
+  "fields": {
+    "zone": "Layer"
+  },
+  "notes": "City of Isanti zoning districts (city ArcGIS Online org IsantiPW); Layer attribute holds district code",
+  "verification": {
+    "verified_at": 1792134855873,
+    "counties": [
+      "27059"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

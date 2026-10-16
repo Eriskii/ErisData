@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ia-black-hawk",
+  "publisher": "Black Hawk County / City of Waterloo GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/QOAXA4I2iTKKdBuy/arcgis/rest/services/County_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE"
+  },
+  "notes": "Zoning for unincorporated Black Hawk County only; cities such as Waterloo zone their own land and are not in this layer. No zone name or link field in source.",
+  "verification": {
+    "verified_at": 1792133643040,
+    "counties": [
+      "19013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

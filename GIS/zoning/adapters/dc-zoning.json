@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "dc-zoning",
+  "publisher": "District of Columbia Office of Planning (DCGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCOZ/Zone_Mapservice/MapServer/24",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "DC"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Zone_District",
+    "link": "Zoning_Web_URL",
+    "zone": "Zoning",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "Zoning Regulations of 2016 specific zone polygons from DC Office of Zoning Zone_Mapservice; 981 features; public DC GIS open data.",
+  "verification": {
+    "verified_at": 1792133635976,
+    "counties": [
+      "11001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

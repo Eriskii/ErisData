@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "oh-montgomery-dayton",
+  "publisher": "City of Dayton",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39113"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT"
+  },
+  "notes": "City of Dayton zoning districts (only Dayton, not whole county), as of 11.26.25, hosted by City of Dayton staff (Cameron.Goschinski). DISTRICT holds the current district code; NEW_ZONE is the proposed AdaptDayton code and is not mapped. LAYER is a form category (MATURE/ECLECTIC). No zone_name field.",
+  "verification": {
+    "verified_at": 1792135220744,
+    "counties": [
+      "39113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

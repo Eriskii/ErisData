@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-simpson-mendenhall",
+  "publisher": "Central Mississippi Planning and Development District (for City of Mendenhall)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Simpson_County_Feature_Layer/FeatureServer/23",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28127"
+    ]
+  },
+  "fields": {
+    "zone": "zonelabel"
+  },
+  "notes": "Mendenhall zoning, pre-2010 vintage; parcel-based polygons.",
+  "verification": {
+    "verified_at": 1792134884464,
+    "counties": [
+      "28127"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

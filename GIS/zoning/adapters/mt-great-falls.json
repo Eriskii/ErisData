@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mt-great-falls",
+  "publisher": "City of Great Falls Planning and Community Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.greatfallsmt.gov/arcgis/rest/services/Planning/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30013"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "Zoning",
+    "zone_name": "Zoning_Nam"
+  },
+  "notes": "City of Great Falls zoning districts only (city limits, not unincorporated county land). Official city service.",
+  "verification": {
+    "verified_at": 1792134925397,
+    "counties": [
+      "30013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

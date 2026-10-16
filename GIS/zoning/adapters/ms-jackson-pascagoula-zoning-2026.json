@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ms-jackson-pascagoula-zoning-2026",
+  "publisher": "City of Pascagoula (PasMaps)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/AM8JWTBr2CQAhR01/arcgis/rest/services/Zone_by_Parcel_DRAFT/FeatureServer/42",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28059"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZoneDescription"
+  },
+  "notes": "City of Pascagoula only, not unincorporated county land. Draft parcel-based zoning layer (each parcel carries its zone), updated 2026-05-13; the layer is titled DRAFT. Ordinance number in OrdinanceN.",
+  "verification": {
+    "verified_at": 1792134642574,
+    "counties": [
+      "28059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-princeton",
+  "publisher": "City of Princeton, IL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ix2MHfNXGn8kY4YN/arcgis/rest/services/Updated_2017_Zoning_Shapefile/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "City of Princeton zoning districts, from the city zoning map viewer (princeton.maps.arcgis.com). Layer named Updated_2017_Zoning_Shapefile; city limits only. ZONEDESC is blank in the source, so no zone_name.",
+  "verification": {
+    "verified_at": 1792134008286,
+    "counties": [
+      "17011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

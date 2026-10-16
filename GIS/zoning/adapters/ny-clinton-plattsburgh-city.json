@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-clinton-plattsburgh-city",
+  "publisher": "City of Plattsburgh (copy on ArcGIS Online by CutterL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/33FPYaVQYNa7sFJ5/arcgis/rest/services/Plattsburgh_City_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36019"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Copy hosted on ArcGIS Online by CutterL (personal item), not an official city service; the city publishes its zoning map and Chapter 360 code on eCode360. Covers City of Plattsburgh only; no zone name field.",
+  "verification": {
+    "verified_at": 1792135031317,
+    "counties": [
+      "36019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

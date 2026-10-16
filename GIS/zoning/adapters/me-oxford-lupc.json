@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "me-oxford-lupc",
+  "publisher": "Maine Land Use Planning Commission (state), unorganized territory of Oxford County",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/LUPC_TEST/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "State LUPC zoning for the unorganized territories only; organized towns zone themselves and are not in this layer. Oxford County itself does not zone. Service is labelled LUPC_TEST on the Maine ArcGIS org; no zone name field published.",
+  "verification": {
+    "verified_at": 1792134572397,
+    "counties": [
+      "23017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

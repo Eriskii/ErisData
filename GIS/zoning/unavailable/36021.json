@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "36021",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.columbiacountyny.gov/503/GeoSpatial",
+    "https://geodata-cc-ny.opendata.arcgis.com/",
+    "https://townofghent.org/departments/building-dept/",
+    "https://www.hudsonny.gov/departments/code_enforcement_department/index.php",
+    "https://townofghent.org/wp-content/uploads/2021/06/Ghent-Zoning-Map-11-10-20-Size-36x48-1.pdf"
+  ],
+  "note": "Searched Columbia County's ArcGIS org (services3.arcgis.com/F5762GA30C3SyZFy, the county's GIS hub) and the Geo-Data portal: no zoning district layer is published. Town of Ghent zoning is a PDF map plus an informational Google My Maps viewer; City of Hudson's zoning map is a code-enforcement page with no GIS. The only ArcGIS 'Zoning View Only' service found (City_of_Hudson_Zoning_View_Only) is the Hudson, Wisconsin layer, not Hudson NY. Village_Districts_2025 is a BOE voting-district layer, not zoning. Towns of Claverack, Germantown, Kinderhook, Livingston publish no queryable zoning polygons found.",
+  "recorded_at": 1792135094881,
+  "recheck_after": 1807687094881,
+  "model": "claude-haiku-5-5"
+}

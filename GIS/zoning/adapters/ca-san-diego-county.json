@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-san-diego-county",
+  "publisher": "County of San Diego Department of Planning & Development Services",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-public.sandiegocounty.gov/arcgis/rest/services/DPW/BASE_LAYERS/MapServer/24",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06073"
+    ]
+  },
+  "fields": {
+    "zone": "USEREG",
+    "zone_name": "LEGEND"
+  },
+  "filter": "OBJECTID <> 6050",
+  "notes": "Unincorporated county zoning only; cities zone their own land. Filter excludes one polygon with self-intersecting geometry in source.",
+  "verification": {
+    "verified_at": 1792134216319,
+    "counties": [
+      "06073"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

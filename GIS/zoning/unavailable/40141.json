@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40141",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://tillman.okcounties.org/maps",
+    "https://tillman.okcounties.org",
+    "https://app.regrid.com/store/us/ok/tillman",
+    "https://services.arcgis.com/3xOwF6p0r7IHIjfn/arcgis/rest/services/Tillman_County_Data/FeatureServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Tillman County (OK) and its seat Frederick, Tipton and Grandfield zoning. The county's maps page lists only static PDFs (precincts, school districts, boundaries). The county's ArcGIS data layer (Tillman_County_Data) holds census, municipal boundary, hydrology and transportation layers but no zoning. No city zoning district service was found for Frederick, Tipton or Grandfield. Only commercial parcel data with partial zoning (Regrid, about 22% coverage) exists, which is not an official queryable zoning service.",
+  "recorded_at": 1792135299381,
+  "recheck_after": 1807687299381,
+  "model": "claude-haiku-5-5"
+}

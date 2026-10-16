@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-thomas-thomasville",
+  "publisher": "City of Thomasville GA GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.thomasville.org/server/rest/services/Zoning_Districts_Referenced_MIL1/FeatureServer/0",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13275"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Thomasville land use zoning only (not unincorporated Thomas County). Source: City GIS server, layer LU Zoning.",
+  "verification": {
+    "verified_at": 1792133992985,
+    "counties": [
+      "13275"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

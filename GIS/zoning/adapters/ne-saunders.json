@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-saunders",
+  "publisher": "Saunders County GIS (gWorks)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Saunders_County_NE_PZ/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31155"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "County zoning for unincorporated Saunders County (layer 1 of the county planning and zoning MapServer hosted by gWorks for the county). Cities such as Wahoo and Colon are separate layers in the same service.",
+  "verification": {
+    "verified_at": 1792134955883,
+    "counties": [
+      "31155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

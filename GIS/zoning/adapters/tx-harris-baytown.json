@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-harris-baytown",
+  "publisher": "City of Baytown Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/2iaYWEMdQLPv0ZUw/arcgis/rest/services/Zoning_Adopted_Jan25/FeatureServer/30",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48201"
+    ]
+  },
+  "fields": {
+    "link": "ORD_Text",
+    "zone": "Zoning_Code",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "City of Baytown adopted zoning (Jan 2025 update), city limits only; Harris County does not zone unincorporated land. ORD_Text holds ordinance text. Source last edited 12/28/2024.",
+  "verification": {
+    "verified_at": 1792131929324,
+    "counties": [
+      "48201"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-bonner-sandpoint",
+  "publisher": "City of Sandpoint, Idaho",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/AQtaKb5EvfD9wl7S/arcgis/rest/services/Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16017"
+    ]
+  },
+  "fields": {
+    "link": "Zonedefined",
+    "zone": "Zone"
+  },
+  "notes": "City of Sandpoint zoning layer (2020 version), hosted on the city ArcGIS Online organization. Zone holds the district code; Zonedefined holds a link to the ordinance text. Covers Sandpoint city only; Bonner County unincorporated zoning not found as a queryable service.",
+  "verification": {
+    "verified_at": 1792133670817,
+    "counties": [
+      "16017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

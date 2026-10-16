@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ky-montgomery",
+  "publisher": "City of Mount Sterling / Gateway Area Development District",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/aaZhjjkUqOHS7oRg/arcgis/rest/services/ZoningDistricts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21173"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Mount Sterling zoning districts (county seat only; no county-wide county zoning layer found). Hosted by the Gateway Area Development District ArcGIS Online organization for the city. Layer also carries PARCEL_ID, so it may be parcel-derived; zone is the district code.",
+  "verification": {
+    "verified_at": 1792134383202,
+    "counties": [
+      "21173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

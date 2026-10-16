@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "53027",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.graysharbor.us/departments/central_services/GISDataDownload.php",
+    "https://cms5.revize.com/revize/graysharborcounty/GIS/Maps/GHC_Zoning.pdf",
+    "https://graysharborwa.mapgeo.io/datasets/properties?themes=%5B%22c7d5175e-4304-4410-9b3f-6570053796b4%22%5D"
+  ],
+  "note": "Grays Harbor County publishes zoning only as PDF maps, a MapGeo web viewer, and a File Geodatabase (Zoning.gdb, City_County_Zoning) whose download link loops back to the HTML page, so no direct file or queryable ArcGIS service was reachable. No ArcGIS REST zoning layer found in county, city (Aberdeen, Hoquiam, Ocean Shores) or Hub searches. The statewide WAZA layer holds zero Grays Harbor features (COUNTYFP 53027).",
+  "recorded_at": 1792136031005,
+  "recheck_after": 1807688031005,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-johnson-mountaincity",
+  "publisher": "Town of Mountain City (zoning map by First Tennessee Development District; layer hosted by markstevans on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/duOXQT76rrwCBokY/arcgis/rest/services/Mountain_City_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47091"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "Only queryable zoning layer found for Johnson County. Covers the Town of Mountain City only (July 2017 zoning, 28 polygons), not the unincorporated county. Copy is a personal ArcGIS Online item by markstevans; the Town zoning map is published by the First Tennessee Development District web map (ftdd.maps.arcgis.com), which points to Mountain City Town Hall for accurate zoning. No zone name or ordinance link field.",
+  "verification": {
+    "verified_at": 1792135490311,
+    "counties": [
+      "47091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

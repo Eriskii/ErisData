@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mt-flathead-county",
+  "publisher": "Flathead County Planning and Zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.flatheadcounty.gov/server/rest/services/IMA/Zoning/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30029"
+    ]
+  },
+  "fields": {
+    "link": "DOC_NO",
+    "zone": "ZONE_USE",
+    "zone_name": "LandUse"
+  },
+  "notes": "Unincorporated Flathead County zoning districts only (cities are separate layers). Source: Flathead County IMA Zoning MapServer layer 8. ZONE_USE holds the district code (e.g. AG-80); LandUse is the growth policy designation.",
+  "verification": {
+    "verified_at": 1792134847566,
+    "counties": [
+      "30029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

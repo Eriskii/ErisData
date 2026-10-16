@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ok-carter-ardmore",
+  "publisher": "City of Ardmore (copy hosted on ArcGIS Online by sshrestha_hla)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/74bZbbuf05Ctvbzv/arcgis/rest/services/Current_Zoning/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40019"
+    ]
+  },
+  "fields": {
+    "zone": "CODE"
+  },
+  "notes": "City of Ardmore zoning districts only (not unincorporated Carter County). Copy on ArcGIS Online from account sshrestha_hla, which the City of Ardmore current zoning web map uses; the city own ArcGIS server (ardmoregis.ardmorecity.org) returned HTTP 500 when checked. zone_name and link are sparsely filled in the source (USAGE_ 9%, PDF_MAP 5%) so not mapped.",
+  "verification": {
+    "verified_at": 1792135316796,
+    "counties": [
+      "40019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

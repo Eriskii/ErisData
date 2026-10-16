@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mt-flathead-columbia-falls",
+  "publisher": "City of Columbia Falls",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.flatheadcounty.gov/server/rest/services/IMA/Zoning/MapServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30029"
+    ]
+  },
+  "fields": {
+    "zone": "USE_ID",
+    "zone_name": "USE_DESC"
+  },
+  "notes": "City of Columbia Falls zoning districts, from Flathead County IMA Zoning MapServer layer 11. USE_ID holds the district code; USE_DESC the description.",
+  "verification": {
+    "verified_at": 1792134858901,
+    "counties": [
+      "30029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

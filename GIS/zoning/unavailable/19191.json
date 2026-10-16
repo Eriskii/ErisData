@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "19191",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://winneshiekcounty.iowa.gov/departments/planning-zoning/zoning-maps",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=110&LayerID=1180&PageID=968&PageTypeID=1",
+    "https://www.decorahia.org/decorah-zoning-map"
+  ],
+  "note": "Winneshiek County zoning districts are published only through the Schneider Beacon viewer (County Zoning and Decorah Zoning layers), which is bot-challenged (HTTP 403) and offers no public REST service or file download. City of Decorah publishes its zoning only as static PDF maps (2016-2022). ArcGIS searches for Winneshiek zoning found no district polygon layer; the county's ArcGIS org holds parcels, addresses and boundaries only. ISU's statewide zoning_districts layer has no Winneshiek or Decorah features.",
+  "recorded_at": 1792134254943,
+  "recheck_after": 1807686254943,
+  "model": "claude-haiku-5-5"
+}

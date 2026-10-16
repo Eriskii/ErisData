@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "in-gary",
+  "publisher": "City of Gary, Indiana (GaryINsight Land-Use Explorer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/ZEo2rzqxSTElUpNo/arcgis/rest/services/Map/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18089"
+    ]
+  },
+  "fields": {
+    "zone": "GaryZoningCode",
+    "zone_name": "DistrictName"
+  },
+  "notes": "City of Gary Official Zoning Districts from the city GaryINsight Land-Use Explorer. Covers Gary only.",
+  "verification": {
+    "verified_at": 1792134219678,
+    "counties": [
+      "18089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

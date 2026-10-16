@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mt-fergus",
+  "publisher": "Lewistown, MT (zoning districts compiled by HLA consultant, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/74bZbbuf05Ctvbzv/arcgis/rest/services/HL_ZoningDist_Lewistown/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "30027"
+    ]
+  },
+  "fields": {
+    "zone": "HL_Current",
+    "zone_name": "HL_ZonNam"
+  },
+  "notes": "Unofficial copy: ArcGIS Online item by rkain_hla/HLA, zoning districts created from MSL parcels for the City of Lewistown only (13 features). Fergus County unincorporated zoning not found in any queryable service; county Planning Office publishes no GIS layer.",
+  "verification": {
+    "verified_at": 1792134891689,
+    "counties": [
+      "30027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

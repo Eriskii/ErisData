@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ok-claremore",
+  "publisher": "City of Claremore, Oklahoma GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/BUoxS2VZPVgU09Nu/arcgis/rest/services/City_of_Claremore_Basemap/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40131"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "City of Claremore Unified Development Code zoning polygons, from the city basemap service (layer 3 of 4). Covers only the city limits of Claremore, not unincorporated county land. About 8,109 features.",
+  "verification": {
+    "verified_at": 1792135313549,
+    "counties": [
+      "40131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

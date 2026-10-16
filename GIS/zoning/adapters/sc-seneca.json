@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-seneca",
+  "publisher": "City of Seneca Planning & Development (SenecaLW ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wIT2v0NbPWvR8TQi/arcgis/rest/services/Planning_Dept_Map/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45073"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode"
+  },
+  "notes": "City of Seneca zoning districts, from the city planning web map layer Character_Areas, whose ZoningCode field holds the city base district codes (R-10, R-15, R-20, RM-8, GC, PD-R, etc.). Layer is named Character_Areas; the Type field may carry the area type. No zone_name field. Covers City of Seneca only.",
+  "verification": {
+    "verified_at": 1792135422036,
+    "counties": [
+      "45073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

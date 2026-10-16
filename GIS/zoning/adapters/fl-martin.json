@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-martin",
+  "publisher": "Martin County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geoweb.martin.fl.us/arcgis/rest/services/Administrative_Areas/Administrative_Areas/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12085"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_DETAILS"
+  },
+  "notes": "Martin County GIS Administrative_Areas Zoning layer; county zoning districts (unincorporated); municipal zoning not included",
+  "verification": {
+    "verified_at": 1792133848568,
+    "counties": [
+      "12085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

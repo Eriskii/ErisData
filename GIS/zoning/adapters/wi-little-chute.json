@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-little-chute",
+  "publisher": "Village of Little Chute",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/REt4zjtFEdDXhrEP/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55087"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "Zone",
+    "zone_name": "Zone_Label"
+  },
+  "notes": "Village of Little Chute zoning (2021 snapshot, hosted by the village ArcGIS Online account; the village notes later updates are not yet on the county site).",
+  "verification": {
+    "verified_at": 1792136214647,
+    "counties": [
+      "55087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

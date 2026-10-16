@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-smith-whitehouse",
+  "publisher": "Smith County GIS (Whitehouse zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.smithcountymapsite.org/publicgis/rest/services/Maps/LandUse_Zoning/MapServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48423"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Whitehouse zoning, approximate boundaries from Smith County map site LandUse_Zoning service; covers Whitehouse only",
+  "verification": {
+    "verified_at": 1792135747412,
+    "counties": [
+      "48423"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

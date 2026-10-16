@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-greene-springfield",
+  "publisher": "City of Springfield, Missouri (GIS / COSMO)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aOss8CrQf3pARS5q/arcgis/rest/services/Springfield_Zoning/FeatureServer/18",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29077"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Springfield zoning districts only; unincorporated county and other cities are not in this layer. No zone name attribute published. 5346 features statewide-city layer.",
+  "verification": {
+    "verified_at": 1792134698362,
+    "counties": [
+      "29077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

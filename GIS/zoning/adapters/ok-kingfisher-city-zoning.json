@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ok-kingfisher-city-zoning",
+  "publisher": "City of Kingfisher GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Db5XpjF4RhP8rhhk/arcgis/rest/services/Kingfisher_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40073"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Kingfisher zoning districts; published by CityofKingfisherGIS on ArcGIS Online",
+  "verification": {
+    "verified_at": 1792135292256,
+    "counties": [
+      "40073"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

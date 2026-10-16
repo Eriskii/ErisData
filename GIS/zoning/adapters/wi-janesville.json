@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-janesville",
+  "publisher": "City of Janesville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/i52vmcFqzIWK9plW/arcgis/rest/services/OpenDataHub/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55105"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Descrip"
+  },
+  "notes": "City of Janesville zoning districts from the city open data hub (Rock County portion of the city). Layer is 462 features.",
+  "verification": {
+    "verified_at": 1792136100882,
+    "counties": [
+      "55105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

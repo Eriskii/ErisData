@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-tuolumne-sonora",
+  "publisher": "City of Sonora (via California Statewide Zoning, Governor's Office of Land Use and Climate Innovation)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'TUO' AND Jurisdiction = 'Sonora'",
+  "notes": "State statewide zoning compilation (OPR), North layer; covers the City of Sonora only for Tuolumne County, filtered on County TUO and Jurisdiction Sonora. Unincorporated county zoning comes from the county parcel layer ca-tuolumne.",
+  "verification": {
+    "verified_at": 1792134292083,
+    "counties": [
+      "06109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

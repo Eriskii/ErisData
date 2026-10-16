@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-miami",
+  "publisher": "Miami County GIS / MVRPC",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/wCWf4EGMg4PzHwzA/arcgis/rest/services/Miami_County_multi-parcel_Zoning_view/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TWP",
+    "zone": "Spec_Zone"
+  },
+  "notes": "County-published multi-parcel zoning for unincorporated townships (Concord, Monroe, Newberry, Newton, Union, Springcreek, Staunton, Washington); parcel-level polygons carrying each parcel zoning. Created 2016, updated more recently. Bethel Twp and cities are separate layers.",
+  "verification": {
+    "verified_at": 1792135182499,
+    "counties": [
+      "39109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

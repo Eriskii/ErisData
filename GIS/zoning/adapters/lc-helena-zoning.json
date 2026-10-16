@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "lc-helena-zoning",
+  "publisher": "City of Helena GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://helenamontanamaps.org/arcgisadp/rest/services/LCSimple/MapServer/42",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "30049"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "City of Helena base zoning from the Lewis and Clark County Viewer (City of Helena GIS layer).",
+  "verification": {
+    "verified_at": 1792134869981,
+    "counties": [
+      "30049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

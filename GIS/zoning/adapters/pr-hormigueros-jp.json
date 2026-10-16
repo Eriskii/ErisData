@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pr-hormigueros-jp",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/MapServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72067"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "notes": "JP statewide calificación vigente; Hormigueros features have municipio = Hormigueros",
+  "verification": {
+    "verified_at": 1792139626540,
+    "counties": [
+      "72067"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

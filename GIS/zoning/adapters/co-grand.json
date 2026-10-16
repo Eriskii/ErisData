@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-grand",
+  "publisher": "Grand County, CO (copy hosted by UCBoulder account on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/b3fMqPOmotX6SV4k/arcgis/rest/services/Grand_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08049"
+    ]
+  },
+  "fields": {
+    "zone": "Zonecode",
+    "zone_name": "Zoning"
+  },
+  "notes": "Copy of Grand County zoning polygons uploaded to ArcGIS Online by jare1328_ucboulder; no official county-hosted zoning service found. Verify against county Zone Maps.",
+  "verification": {
+    "verified_at": 1792133786836,
+    "counties": [
+      "08049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ma-new-bedford",
+  "publisher": "City of New Bedford GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/n2knWtl5p0fT9O6L/arcgis/rest/services/Zoning_Districts/FeatureServer/1091",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningNB"
+  },
+  "notes": "New Bedford city zoning districts only (Bristol County MA has no county zoning). POLY_TYPE and LOC_ID also present.",
+  "verification": {
+    "verified_at": 1792134461859,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

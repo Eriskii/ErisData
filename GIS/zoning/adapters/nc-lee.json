@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-lee",
+  "publisher": "Lee County GIS (UDO zoning layer)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/jtEhr72KtjplbD0a/arcgis/rest/services/Lee_County_zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37105"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONE_UDO"
+  },
+  "notes": "Copy hosted on ArcGIS Online by carolina_sunrock, not on the county server; UDO zoning boundaries with zone codes. Used because the county server carries no base zoning district layer (ZONING_PROPOSED is proposed zoning; ZONING_CITYPLAT is a parcel layer). Ordinance link field mostly blank, so not mapped.",
+  "verification": {
+    "verified_at": 1792135096548,
+    "counties": [
+      "37105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

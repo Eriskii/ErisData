@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wv-hardy",
+  "publisher": "Hardy County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/nJbIFHiSnaX0z0hS/arcgis/rest/services/HardyMapService/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54031"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS",
+    "zone_name": "ZONING"
+  },
+  "notes": "Hardy County GIS (HardyMapService, Zoning layer 8), published with the county parcel viewer; 64 district polygons. CLASS holds the district code, ZONING the broad category. Unincorporated county zoning per Hardy County Zoning Ordinance; no jurisdiction field.",
+  "verification": {
+    "verified_at": 1792136032343,
+    "counties": [
+      "54031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

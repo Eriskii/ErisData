@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-clinton-county",
+  "publisher": "Clinton County GIS (Sidwell)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/gnvxvf9aoRBjW15Q/arcgis/rest/services/County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Clinton County IL zoning districts, unincorporated county per county zoning ordinance; hosted by Sidwell for Clinton County GIS. No jurisdiction field; cities (Breese, Carlyle, Trenton, Aviston, Centralia) zone separately.",
+  "verification": {
+    "verified_at": 1792134051469,
+    "counties": [
+      "17027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

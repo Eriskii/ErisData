@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "id-fremont-island-park",
+  "publisher": "Fremont County GIS (Island Park zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tNgqqEFlzKrVeDPz/arcgis/rest/services/Island_Park_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16043"
+    ]
+  },
+  "fields": {
+    "zone": "LAND_USE"
+  },
+  "notes": "City of Island Park zoning in county ArcGIS Online org.",
+  "verification": {
+    "verified_at": 1792133952762,
+    "counties": [
+      "16043"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

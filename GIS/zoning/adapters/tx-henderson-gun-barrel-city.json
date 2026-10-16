@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-henderson-gun-barrel-city",
+  "publisher": "City of Gun Barrel City, Texas (zoning layer hosted by ETCOG)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.etcog.org/arcgis/rest/services/GUNBARRELCITY/GBC_ZONING_public/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48213"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Gun Barrel City zoning only (Henderson County, TX); 86 districts. Henderson County itself publishes no zoning layer; Athens, Malakoff and other cities not covered. Layer from ETCOG GIS public service; last updated per web map 2022.",
+  "verification": {
+    "verified_at": 1792135692329,
+    "counties": [
+      "48213"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

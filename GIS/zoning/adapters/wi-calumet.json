@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-calumet",
+  "publisher": "Calumet County Land Information Office",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://calmaps.co.calumet.wi.us/server/rest/services/ZoningService/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "Zoning"
+  },
+  "notes": "Calumet County zoning districts layer (county zoning, town-level codes in MUNI such as TWOD, TNWH). zone_name not populated in source. Incorporated cities may zone separately and are not in this layer.",
+  "verification": {
+    "verified_at": 1792136031816,
+    "counties": [
+      "55015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

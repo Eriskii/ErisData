@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "19027",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.carrollcountyiowa.gov/pview.aspx?id=20973&catid=563",
+    "http://maps.camavision.com/map/carrollia",
+    "https://www.arcgis.com/home/item.html?id=a0701ff5ca7247b9bc529b7204c6e798"
+  ],
+  "note": "Carroll County, IA publishes zoning districts only inside the CAMAVision property viewer (maps.camavision.com/carrollia), which exposes no public ArcGIS REST or download endpoint (maps.camavision.com ArcGIS REST root returns 404). The only ArcGIS Online zoning items are unofficial 2013-era web maps by an individual (Sarah_CarrollCountyGIS) with embedded feature collections and no service URL. City of Carroll zoning is kept as an ordinance map at the City Clerk's office (code 170.06), with no GIS layer.",
+  "recorded_at": 1792133691570,
+  "recheck_after": 1807685691570,
+  "model": "claude-haiku-5-5"
+}

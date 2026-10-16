@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-yancey",
+  "publisher": "Yancey County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yanceycountync.org/server/rest/services/Reference/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37199"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "County GIS Reference service layer Zoning; 10 polygons carrying district codes matching the Town of Burnsville ordinance (R-10, C-1, C-2, C-3, I-1). No jurisdiction or zone_name field. County states zoning applies only inside city limits; treat as Burnsville-area zoning.",
+  "verification": {
+    "verified_at": 1792135131413,
+    "counties": [
+      "37199"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

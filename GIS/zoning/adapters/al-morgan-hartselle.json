@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "al-morgan-hartselle",
+  "publisher": "City of Hartselle, AL (Zoning layer, ArcGIS Online org of jgriffith_hartselle)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/7DAacCEr8wgjZCMv/arcgis/rest/services/Basemap_Public/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01103"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "City of Hartselle zoning districts only (city limits, Morgan County). Source has only the zone code; no jurisdiction or ordinance link. Unincorporated county not zoned.",
+  "verification": {
+    "verified_at": 1792133753311,
+    "counties": [
+      "01103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

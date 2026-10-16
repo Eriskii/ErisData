@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-glades",
+  "publisher": "Glades County (Zoning Atlas, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/90Aakxb3SLGcQGor/arcgis/rest/services/ZoningAtlas/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12043"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZonDistNam"
+  },
+  "notes": "Glades County Zoning Atlas published via the county land use map (Esri experience); zoning atlas as of 2021 per hub description. Hosted in ArcGIS Online by sbcall; treat as county-published. Zone codes from Zoning field.",
+  "verification": {
+    "verified_at": 1792133843248,
+    "counties": [
+      "12043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

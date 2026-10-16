@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mt-ravalli-hamilton",
+  "publisher": "City of Hamilton, MT (Hamilton Planning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/M9lBa5KYtuKzdhNy/arcgis/rest/services/Current_Zoning/FeatureServer/39",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30081"
+    ]
+  },
+  "fields": {
+    "zone": "CurrentZoning",
+    "zone_name": "Zoning_D1"
+  },
+  "notes": "City of Hamilton current zoning, published per parcel (parcel layer carrying each parcel zoning); covers the City of Hamilton only. Used because the district polygon layer (Hamilton_Zoning/43) has invalid geometries. Source: hamiltonplanner ArcGIS Online org.",
+  "verification": {
+    "verified_at": 1792134896576,
+    "counties": [
+      "30081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-kane-aurora",
+  "publisher": "City of Aurora, IL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.aurora.il.us/arcgis/rest/services/ReferenceBoundaries/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17089"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Aurora zoning polygons only (Aurora spans Kane, Kendall and DuPage counties); no zone name field published.",
+  "verification": {
+    "verified_at": 1792134041933,
+    "counties": [
+      "17089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

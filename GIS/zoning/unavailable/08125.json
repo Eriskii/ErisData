@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "08125",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://cityofyuma.colorado.gov/sites/cityofyuma/files/documents/zoning-map_r.pdf",
+    "https://yumacounty.net/departments/geographic-information-system/",
+    "https://yumacounty.net/departments/land-use/",
+    "https://library.municode.com/co/wray/codes/code_of_ordinances?nodeId=TIT18ZO_DIVICO_CH18.42AM"
+  ],
+  "note": "Yuma County CO publishes no zoning layer: its GIS shapefile list (parcels, PLSS, boundaries, etc.) has no zoning, and its land use page has none. City of Yuma's zoning map is only a PDF (zoning-map_r.pdf), not queryable. Wray's zoning is a 1960 paper Zoning District Map per Municode with no digital layer. No ArcGIS Online or Hub zoning service found for Yuma County or its towns.",
+  "recorded_at": 1792133860552,
+  "recheck_after": 1807685860552,
+  "model": "claude-haiku-5-5"
+}

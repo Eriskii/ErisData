@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-waushara",
+  "publisher": "Waushara County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.waushara.wi.us/arcgis/rest/services/Zoning_Map/MapServer/16",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55137"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "County general zoning districts (ZONE codes such as RS-20, R-M). No zone name or jurisdiction field in source. Layer 16 of Zoning_Map MapServer.",
+  "verification": {
+    "verified_at": 1792136088377,
+    "counties": [
+      "55137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-orlando",
+  "publisher": "City of Orlando (Planning) via OpenData_Orlando",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/mMuoPCaIYD4wEgDl/arcgis/rest/services/OrlandoLUZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12095"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Orlando zoning districts (2,095 features), city-wide; covers the City of Orlando only, not unincorporated county land. No district description field is populated (PD_NAME is filled only for planned developments), so only the zone code is mapped. Source CRS wkid 102658.",
+  "verification": {
+    "verified_at": 1792133879035,
+    "counties": [
+      "12095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "la-st-mary-berwick",
+  "publisher": "City of Berwick (legacy copy hosted by J-Mann)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/NaE1rjvJf3JdTAkI/arcgis/rest/services/Berwick_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Unofficial copy: an ArcView-era conversion of the City of Berwick zoning file, uploaded to ArcGIS Online by a personal account (J-Mann); not updated in years and not verified. Covers the City of Berwick only, not the rest of the parish (Morgan City, Franklin, Patterson, unincorporated areas). No official queryable parish or city zoning service was found: the parish ViewPro viewer (map.viewprogis.com) shows a zoning layer but exposes no REST endpoint.",
+  "verification": {
+    "verified_at": 1792134513896,
+    "counties": [
+      "22101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

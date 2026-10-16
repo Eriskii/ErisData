@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13145",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.harriscountyga.gov/wp-content/uploads/2022/07/Map-Series-Combined_compressed.pdf",
+    "https://www.harriscountyga.gov/community-development-2/",
+    "https://harris-county-data-hub-garc.hub.arcgis.com/"
+  ],
+  "note": "Harris County GA adopted a Unified Development Code (eff. 4/1/2023) and keeps the official zoning map with Community Development, but the only published zoning map is a preliminary draft PDF built from 2009 data. The county's ArcGIS Hub (harris-county-data-hub-garc.hub.arcgis.com) returns no zoning items via its search API, and no zoning FeatureServer/MapServer was found in ArcGIS Hub or Online searches. The county's qPublic parcel viewer is a property search, not a zoning district layer. No city in the county (Hamilton, Pine Mountain, Waverly Hall, Shiloh) publishes a queryable zoning layer that was found. The River Valley RC site links no services.",
+  "recorded_at": 1792134014357,
+  "recheck_after": 1807686014357,
+  "model": "claude-haiku-5-5"
+}

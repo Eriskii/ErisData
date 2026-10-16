@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13213",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.murraycountyga.org/141/Land-Use-Zoning",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=756&LayerID=11792&PageTypeID=1",
+    "https://www.chatsworthga.gov/departments/building___zoning.php",
+    "https://cms9files.revize.com/murraycounty/Government/Ordinances/Zoning/Zoning%20Ordinance.pdf"
+  ],
+  "note": "Murray County GA has a zoning ordinance and districts, but the only zoning layer found is a toggle in the Schneider qPublic parcel viewer (behind a Cloudflare check; no public REST endpoint found). County Land Use/Zoning pages and the City of Chatsworth zoning map link point to no queryable service. ArcGIS searches returned no Murray service; the Zoning_Districts layers found (services.arcgis.com/f4rR7WnIfGBdVYFd and services7.arcgis.com/R9CVCgaSS8Zy2txP) cover other jurisdictions and have zero features in the county bounding box.",
+  "recorded_at": 1792134044269,
+  "recheck_after": 1807686044269,
+  "model": "claude-haiku-5-5"
+}

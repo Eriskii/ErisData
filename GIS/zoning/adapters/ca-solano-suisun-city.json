@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-solano-suisun-city",
+  "publisher": "City of Suisun City (via Solano County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://solanocountygis.com/server/rest/services/Aumentum/AumentumInternal/MapServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06095"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "zoningdesc"
+  },
+  "notes": "Suisun City zoning districts, hosted on the county GIS server. Covers only the City of Suisun City.",
+  "verification": {
+    "verified_at": 1792134077326,
+    "counties": [
+      "06095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

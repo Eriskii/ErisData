@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-hidalgo-pharr",
+  "publisher": "City of Pharr GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Uj8MycSVzMEzm7ey/arcgis/rest/services/Pharr_Published/FeatureServer/37",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48215"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "LandUse"
+  },
+  "notes": "City of Pharr zoning published via COP Published Map. City limits only. LandUse field may hold the description; verify.",
+  "verification": {
+    "verified_at": 1792135668745,
+    "counties": [
+      "48215"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

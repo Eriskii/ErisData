@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-hamlin-hayti",
+  "publisher": "Hamlin County GIS (1st District MapNet)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Hamlin/hamlinmapnetpro/MapServer/36",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46057"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONINGDESCRIPTION"
+  },
+  "notes": "City of Hayti zoning; hosted by 1st District Association of Local Governments",
+  "verification": {
+    "verified_at": 1792135661777,
+    "counties": [
+      "46057"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

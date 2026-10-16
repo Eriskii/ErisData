@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-irvine",
+  "publisher": "City of Irvine GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofirvine.org/arcgis/rest/services/OnlineParcel/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "ZONING",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "City of Irvine base zoning districts; ZONING holds the district code, DESCRIPTION its name.",
+  "verification": {
+    "verified_at": 1792134074569,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

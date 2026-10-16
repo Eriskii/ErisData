@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13091",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis-dodgecounty.opendata.arcgis.com",
+    "https://www.cityofeastman.com/FormsandDocuments.aspx",
+    "https://eastmanga.gov/planning-and-zoning/",
+    "https://www.dynamospatial.com/c/dodge-county-ga/parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub/Online (arcgis search zoning, Dodge County, Georgia zoning districts) and the Dodge County GIS open data portal (its hub API returned no Dodge County zoning dataset; only parcels and unrelated layers). The County's zoning is fragmented; Eastman (county seat) posts its zoning map as a document, not a queryable service, and Milan's zoning was not found. Only a commercial parcel download carries a zoning field. No public ArcGIS zoning service was found for Dodge County or its cities.",
+  "recorded_at": 1792133965883,
+  "recheck_after": 1807685965883,
+  "model": "claude-haiku-5-5"
+}

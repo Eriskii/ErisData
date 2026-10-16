@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-woodford",
+  "publisher": "Woodford County GIS (Versailles-Midway-Woodford County)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/eE18Y8QhAVKzp7mP/arcgis/rest/services/Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21239"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONETYPE"
+  },
+  "notes": "Layer from the county GIS hub owner kjohns1540 (Woodford County Versailles Midway GIS); feeds the public zoning map. No jurisdiction field checked yet.",
+  "verification": {
+    "verified_at": 1792134491183,
+    "counties": [
+      "21239"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

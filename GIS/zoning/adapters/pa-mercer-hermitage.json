@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-mercer-hermitage",
+  "publisher": "City of Hermitage, PA (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/A6ul5knlnkV7tMmL/arcgis/rest/services/Zoning_Districts/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42085"
+    ]
+  },
+  "fields": {
+    "link": "ZoningOrdinanceLink",
+    "zone": "ZoningDist",
+    "zone_name": "ZoneFullName"
+  },
+  "notes": "City of Hermitage only (not the county or other Mercer County municipalities). Hosted by the city GIS account; 68 district polygons. Zoning description and use table links available in ZoningUseTableLink.",
+  "verification": {
+    "verified_at": 1792135965047,
+    "counties": [
+      "42085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

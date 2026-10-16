@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-panola-carthage",
+  "publisher": "City of Carthage, TX (via East Texas Council of Governments)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.etcog.org/arcgis/rest/services/CARTHAGE/CARTHAGEZoning_Public/MapServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48365"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "FULL_ZONIN"
+  },
+  "notes": "City of Carthage zoning districts only (city limits; Panola County itself publishes no zoning layer). Hosted by ETCOG for the city.",
+  "verification": {
+    "verified_at": 1792135738536,
+    "counties": [
+      "48365"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

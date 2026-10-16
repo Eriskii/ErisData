@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-lake",
+  "publisher": "Lake County GIS (Parcels layer, zoning attributes)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lakecountyca.gov/server/rest/services/Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06033"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTI",
+    "zone": "BASE_ZONE",
+    "zone_name": "ZONING1"
+  },
+  "notes": "Last resort: county district layer CDD/zoning/MapServer/0 (Base Zoning Districts) fails the valid-polygons check (2 of 5 valid). This parcel layer carries each parcel BASE_ZONE and ZONING1 plus JURISDICTI (city or county). One feature per parcel, so it is large; zone_name is the zoning field ZONING1, which may be a code not a description.",
+  "verification": {
+    "verified_at": 1792134363284,
+    "counties": [
+      "06033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

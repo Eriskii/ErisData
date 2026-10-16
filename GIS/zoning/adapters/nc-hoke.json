@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-hoke",
+  "publisher": "Hoke County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.hokecounty.org/server/rest/services/Overlays/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37093"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Hoke County GIS Overlays service, Zoning layer (county zoning districts, unincorporated and possibly municipal). Only ZONE attribute published.",
+  "verification": {
+    "verified_at": 1792135119625,
+    "counties": [
+      "37093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-putnam-cookeville",
+  "publisher": "City of Cookeville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cookeville-tn.org/arcgis/rest/services/Planning/Zoning/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47141"
+    ]
+  },
+  "fields": {
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "City of Cookeville zoning only (Putnam County has no county-wide zoning; unincorporated land is not zoned). Layer covers city limits. Fields from City of Cookeville Planning Zoning MapServer layer 4.",
+  "verification": {
+    "verified_at": 1792135517899,
+    "counties": [
+      "47141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

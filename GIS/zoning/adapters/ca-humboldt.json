@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-humboldt",
+  "publisher": "Humboldt County Planning and Building Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cty-gis-web.co.humboldt.ca.us/server/rest/services/Parcels/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06023"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURIS",
+    "zone": "ZONING"
+  },
+  "notes": "Last resort: the county district layer (Web/Jurisdiction_Boundaries_Public layer 1) failed polygon validity. This is the county parcel layer; each parcel carries its zoning code in ZONING and its jurisdiction in JURIS, covering unincorporated and city parcels. Not a district polygon layer; dissolve parcels by ZONING for districts. Parcel-level data, county says not to use for exact zoning boundaries.",
+  "verification": {
+    "verified_at": 1792134063298,
+    "counties": [
+      "06023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

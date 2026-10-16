@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-lafayette-benton",
+  "publisher": "SW Wisconsin Regional Planning Commission (ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/OwVO8oKCUjTngz5f/ArcGIS/rest/services/Benton_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55065"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Full"
+  },
+  "notes": "City of Benton zoning joined to parcels (parcel-based; one polygon per parcel), hosted by SWWRPC",
+  "verification": {
+    "verified_at": 1792136801602,
+    "counties": [
+      "55065"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

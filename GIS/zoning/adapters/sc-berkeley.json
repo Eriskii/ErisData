@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-berkeley",
+  "publisher": "Berkeley County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.berkeleycountysc.gov/arcgis/rest/services/desktop/internet_map/MapServer/33",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Berkeley County GIS zoning layer (county unincorporated zoning districts as published by the county; ZONE holds district code such as GC, R5, Flex1). No jurisdiction field in this layer.",
+  "verification": {
+    "verified_at": 1792135332864,
+    "counties": [
+      "45015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

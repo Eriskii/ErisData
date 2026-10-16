@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ky-oldham",
+  "publisher": "Oldham County Planning & Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/4eBIYcSR3sVL9y0D/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "21185"
+    ]
+  },
+  "fields": {
+    "link": "ZoneReg",
+    "zone": "ZONE_",
+    "zone_name": "ZONE_CLAS"
+  },
+  "filter": "ZONE_ <> 'CO-1'",
+  "notes": "Oldham County PDS ArcGIS Online org",
+  "verification": {
+    "verified_at": 1792134501888,
+    "counties": [
+      "21185"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

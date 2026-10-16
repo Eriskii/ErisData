@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-caguas",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/Analisis_cali_MIL1/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72025"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "municipio = 'Caguas'",
+  "notes": "JP calificacion (zoning) polygons, parcel-level, from JP Analisis_cali_MIL1 service (same data as calificacion/cali_vige, whose MapServer times out). Filtered to municipio Caguas.",
+  "verification": {
+    "verified_at": 1792139398015,
+    "counties": [
+      "72025"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

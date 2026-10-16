@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-jasper-carthage",
+  "publisher": "City of Carthage (via Jasper County GIS hub, JascoGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/f6278XvXrNz6PmsX/arcgis/rest/services/Carthage_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29097"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_A",
+    "zone_name": "Descript"
+  },
+  "notes": "City of Carthage zoning only (city limits), from the county GIS hub.",
+  "verification": {
+    "verified_at": 1792134820703,
+    "counties": [
+      "29097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

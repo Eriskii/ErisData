@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-clarke",
+  "publisher": "Athens-Clarke County Planning and Zoning (via enigma.accgov.com PlanningViewer2025)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://enigma.accgov.com/server/rest/services/PlanningViewer2025/MapServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13059"
+    ]
+  },
+  "fields": {
+    "zone": "CurrentZn",
+    "zone_name": "CombinedZn"
+  },
+  "notes": "Athens-Clarke County (consolidated with Clarke County GA). Parcel-level zoning: each feature is a parcel carrying its current zoning district code (CurrentZn); no district-name or ordinance-link field. Bogart and Winterville are separate jurisdictions not covered by this layer.",
+  "verification": {
+    "verified_at": 1792133886161,
+    "counties": [
+      "13059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

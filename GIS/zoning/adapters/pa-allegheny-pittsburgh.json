@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-allegheny-pittsburgh",
+  "publisher": "City of Pittsburgh (via PASDA)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/PittsburghCity/MapServer/39",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42003"
+    ]
+  },
+  "fields": {
+    "zone": "zon_new",
+    "zone_name": "full_zonin"
+  },
+  "notes": "City of Pittsburgh zoning districts only, not the other municipalities of the county. Served by PASDA for the City of Pittsburgh. Overlays are separate layers and not included.",
+  "verification": {
+    "verified_at": 1792131943082,
+    "counties": [
+      "42003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

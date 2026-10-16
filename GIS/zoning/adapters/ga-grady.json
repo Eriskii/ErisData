@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-grady",
+  "publisher": "Grady County GIS (Zoning Map for Public, hosted by bharrison_ce on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Pf7RRv4QttHB3VbR/arcgis/rest/services/Zoning_Map_for_Public/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13131"
+    ]
+  },
+  "fields": {
+    "zone": "ZONENAME"
+  },
+  "notes": "Personal ArcGIS Online item by bharrison_ce (2021), a copy not published by Grady County; no official Grady County zoning service was found. Zone codes AG, R1, R2, R3, C1, I. Some features have null ZONENAME. No jurisdiction field.",
+  "verification": {
+    "verified_at": 1792133917268,
+    "counties": [
+      "13131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

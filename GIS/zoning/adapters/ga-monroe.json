@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-monroe",
+  "publisher": "Monroe County GA (parcel layer carrying county zoning, hosted on Monroe County ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services/MonroeCountyParcels_Jan2026/FeatureServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13207"
+    ]
+  },
+  "fields": {
+    "zone": "COUNTYZONING"
+  },
+  "filter": "COUNTYZONING IS NOT NULL AND COUNTYZONING <> 'City'",
+  "notes": "Last resort: no district layer found; this is the county parcel layer whose attributes carry each parcel zoning (COUNTYZONING, unincorporated parcels only; City of Forsyth parcels excluded). Zone is the district code. Parcel-level, so one feature per parcel, not dissolved districts. No zone name or ordinance link field.",
+  "verification": {
+    "verified_at": 1792133944797,
+    "counties": [
+      "13207"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

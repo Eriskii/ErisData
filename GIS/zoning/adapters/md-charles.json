@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "md-charles",
+  "publisher": "Maryland Department of Planning (state generalized zoning, Charles County jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdpgis.mdp.state.md.us/arcgis/rest/services/PlanningCadastre/Generalized_Zoning_2025/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURSCODE",
+    "zone": "GENZONE",
+    "zone_name": "GENZONE_CAT"
+  },
+  "filter": "JURSCODE = 'CHAR'",
+  "notes": "Maryland Department of Planning statewide Generalized Zoning 2025 layer, filtered to Charles County jurisdiction code CHAR. Generalized districts (11 categories), not county ordinance codes. jurisdiction holds the jurisdiction code (CHAR); MUNICIPALITY_NAME is filled only for towns such as La Plata.",
+  "verification": {
+    "verified_at": 1792134509502,
+    "counties": [
+      "24017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

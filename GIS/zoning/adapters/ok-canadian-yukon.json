@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ok-canadian-yukon",
+  "publisher": "City of Yukon, OK",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/NCwl4fQ6WBkUVdM1/arcgis/rest/services/Yukon_Interactive_Map_WFL1/FeatureServer/41",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "link": "ORDLINK",
+    "zone": "NEW_ZONES",
+    "zone_name": "ZN_NAMES"
+  },
+  "notes": "City of Yukon UDC zoning (ORD 1438, eff. 2023) from the city interactive map; 671 features. Covers Yukon city limits only.",
+  "verification": {
+    "verified_at": 1792135286658,
+    "counties": [
+      "40017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

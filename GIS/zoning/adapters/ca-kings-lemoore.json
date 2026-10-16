@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-kings-lemoore",
+  "publisher": "City of Lemoore",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/IX3Ksbq0XGWYwFfK/arcgis/rest/services/GPLU_Zoning/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Lemoore General Plan Land Use and Zoning layer; parcel-level polygons each carrying its zoning; city limits only. Rows marked County are unincorporated parcels inside the sphere.",
+  "verification": {
+    "verified_at": 1792134029418,
+    "counties": [
+      "06031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

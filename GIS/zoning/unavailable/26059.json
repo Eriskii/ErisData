@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "26059",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://hillsdalecounty.gov/index.php/tm-gov/tsm-gov-eq-land/gis-online-maps",
+    "https://app.fetchgis.com/?currentMap=hillsdale",
+    "https://www.region2planning.com/hillsdale-county/zoning-maps-for-hillsdale-county-including-cities-townships-and-villages/"
+  ],
+  "note": "Hillsdale County zoning districts appear only inside the FetchGIS web viewer (app.fetchgis.com, gis.hillsdale.us), which is not a public ArcGIS REST service; no FeatureServer/MapServer for zoning was found in ArcGIS search, the county GIS page lists no zoning data source, and city/regional zoning is published as static PDF maps (City of Hillsdale, Jonesville, Litchfield Twp, Somerset Twp via Region 2 Planning). The county's GIS web terms PDF could not be read for automated-access permission.",
+  "recorded_at": 1792132325193,
+  "recheck_after": 1807684325193,
+  "model": "claude-haiku-5-5"
+}

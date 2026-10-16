@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-tate-senatobia",
+  "publisher": "CMPDD (Central Mississippi Planning & Development District) for City of Senatobia",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Senatobia_Feature_Layer/FeatureServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28137"
+    ]
+  },
+  "fields": {
+    "zone": "zoning_2023"
+  },
+  "notes": "Parcel-based Senatobia adopted zoning 2024 (attribute Zoning 2023); published by CMPDD. Server reachable over http only.",
+  "verification": {
+    "verified_at": 1792134883297,
+    "counties": [
+      "28137"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

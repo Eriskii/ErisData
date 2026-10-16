@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mt-powell-county",
+  "publisher": "Powell County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/mBg9n9aKqrhON2E8/arcgis/rest/services/Powell_Co_Zoning_WFL1/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30077"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "NAME",
+    "zone": "DistName",
+    "zone_name": "Descriptio"
+  },
+  "filter": "ACRES < 1000000",
+  "notes": "Powell County zoning districts (density districts by minimum acreage); Descriptio names community for Rural districts. Filter excludes the single county-wide 160-acre district polygon whose source geometry is invalid (self-intersecting).",
+  "verification": {
+    "verified_at": 1792134936379,
+    "counties": [
+      "30077"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

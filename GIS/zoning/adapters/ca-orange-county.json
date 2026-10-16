@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-orange-county",
+  "publisher": "County of Orange, OC Public Works / OC Survey (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ocgis.com/arcpub/rest/services/Map_Layers/Zoning_Boundaries/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "Unincorporated Orange County base zoning only (cities zone their own land). Layer from OC Public Works Unincorporated Orange County Zoning dataset.",
+  "verification": {
+    "verified_at": 1792134063247,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

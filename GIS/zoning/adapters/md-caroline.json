@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "md-caroline",
+  "publisher": "Maryland Department of Planning (Generalized Zoning 2025, Caroline County jurisdictions)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdpgis.mdp.state.md.us/arcgis/rest/services/PlanningCadastre/Generalized_Zoning_2025/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24011"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "GENZONE",
+    "zone_name": "GENZONE_CAT"
+  },
+  "filter": "JURSCODE = 'CARO'",
+  "notes": "Maryland Department of Planning statewide Generalized Zoning 2025 layer; generalized categories (e.g. LOW DENSITY RESIDENTIAL), not local district codes. JURSCODE CARO = Caroline County (unincorporated and towns); MUNICIPALITY_NAME null for unincorporated county land. zone_name holds a documentation URL, not a name.",
+  "verification": {
+    "verified_at": 1792134475677,
+    "counties": [
+      "24011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

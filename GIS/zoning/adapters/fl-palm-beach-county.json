@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-palm-beach-county",
+  "publisher": "Palm Beach County PZB (copy hosted on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/B7X7NCOKKXditlwZ/arcgis/rest/services/Palm_Beach_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12099"
+    ]
+  },
+  "fields": {
+    "zone": "FCODE",
+    "zone_name": "FNAME"
+  },
+  "notes": "Copy of the Palm Beach County zoning districts uploaded by an individual ArcGIS Online account (pat10263); the county official service maps.co.palm-beach.fl.us OpenData Planning_Open_Data/MapServer/9 has the same data but its server ignores resultOffset, so paging fails there. Use only because no official pageable service was found.",
+  "verification": {
+    "verified_at": 1792133861606,
+    "counties": [
+      "12099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

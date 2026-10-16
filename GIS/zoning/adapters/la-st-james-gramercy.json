@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "la-st-james-gramercy",
+  "publisher": "Town of Gramercy (St. James Parish GIS source)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/NaE1rjvJf3JdTAkI/arcgis/rest/services/Gramercy_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22093"
+    ]
+  },
+  "fields": {
+    "zone": "Type"
+  },
+  "notes": "Town of Gramercy zoning districts only (not unincorporated parish or other towns). Read-only view maintained by J-Mann; data sourced from St. James Parish GIS. Zone code is in Type; Zone field is empty.",
+  "verification": {
+    "verified_at": 1792134451609,
+    "counties": [
+      "22093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

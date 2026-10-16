@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "02068",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.denaliborough.org/landmanagement",
+    "https://www.denaliborough.org/vertical/sites/%7B63112C6F-13FC-4147-831D-8F3F0E33EC53%7D/uploads/%7BDC94210B-3889-46BB-95FD-5E7A46F3D70C%7D.PDF",
+    "https://arcgis.dnr.alaska.gov/arcgis/rest/services/OpenData/Administrative_BoroughParcels/FeatureServer/layers"
+  ],
+  "note": "Denali Borough zoning (Title 9.15, Ord. 06-14: R-1, R-R, R-C, M-U, I) is defined only in ordinance text and PDFs; the borough says land is general use by default. No zoning district polygon layer is published as a service. The borough's dbgis web apps (commercial land use permit map) expose no REST services. The state DNR Denali Borough Parcels layer (FeatureServer/1) has no zoning attributes, so it is not usable as a fallback. Borough has no incorporated cities that zone separately.",
+  "recorded_at": 1792133663342,
+  "recheck_after": 1807685663342,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "35039",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.rio-arriba.org/Departments/Departments-Divisions/Planning-and-Zoning",
+    "https://www.rio-arriba.org/Departments/Departments-Divisions/Assessor/GIS-Mapping",
+    "https://www.espanolanmusa.org/168/Planning-Land-Use",
+    "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/21"
+  ],
+  "note": "Rio Arriba County (35039) publishes zoning only as ordinance text (Yellow Book PDF) and the county GIS page links only a parcel web viewer (raassessorco.maps.arcgis.com). No public queryable zoning district layer found for the county or its city Espanola. The county's ArcGIS Online items (services2.arcgis.com/WexOnM0vIyrVcdaI) cover flood zones, addresses and city boundaries, not zoning. The state OSE parcel layer (County_Parcels_2025 MapServer/21) carries ZoningCode fields but its service returns 'not started', and it is a parcel layer, not districts. Espanola's zoning map is referenced by the city but no service URL was found. Regrid and zoneomics are commercial/third-party and not usable.",
+  "recorded_at": 1792135118157,
+  "recheck_after": 1807687118157,
+  "model": "claude-haiku-5-5"
+}

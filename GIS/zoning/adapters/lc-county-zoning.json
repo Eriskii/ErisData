@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "lc-county-zoning",
+  "publisher": "Lewis and Clark County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://helenamontanamaps.org/arcgisadp/rest/services/LCSimple/MapServer/28",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "30049"
+    ]
+  },
+  "fields": {
+    "link": "Zone",
+    "zone": "ZONENAME",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "County unincorporated zoning (Part 1 districts with codes in ZoneCode, where filled, and Part 2 areas such as Fort Harrison Rural Growth Area; zone uses the district name because ZoneCode is blank for Part 2 areas). Cities of Helena and East Helena are separate layers.",
+  "verification": {
+    "verified_at": 1792134865695,
+    "counties": [
+      "30049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

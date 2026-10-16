@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-crawford-pittsburg",
+  "publisher": "City of Pittsburg, KS (hosted by chrisyetzbacher ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/VREAsY4zDYPtip5n/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "City of Pittsburg zoning only; unincorporated county zoning not in this layer. Hosted in an ArcGIS Online org that publishes the city data.",
+  "verification": {
+    "verified_at": 1792134245193,
+    "counties": [
+      "20037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

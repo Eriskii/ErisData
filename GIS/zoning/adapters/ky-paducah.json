@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ky-paducah",
+  "publisher": "City of Paducah Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/xkOPDyh2DVxtFEGe/arcgis/rest/services/AGOL_City_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21145"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_"
+  },
+  "notes": "City of Paducah zoning layer (MAP-GIS, city planning dept), covers City of Paducah only; Sub_Zone (PUD etc.) is a sub-designation and is not mapped; the county layer ky-mccracken covers the rest of the county.",
+  "verification": {
+    "verified_at": 1792134371691,
+    "counties": [
+      "21145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

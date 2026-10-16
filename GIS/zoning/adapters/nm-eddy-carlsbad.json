@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-eddy-carlsbad",
+  "publisher": "City of Carlsbad, NM (Energov map layers, via cocarlsbad ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/4ii5mmz1d3LIlzwY/arcgis/rest/services/Energov/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35015"
+    ]
+  },
+  "fields": {
+    "zone": "NEWZONE",
+    "zone_name": "ORD"
+  },
+  "notes": "City of Carlsbad zoning only (not unincorporated Eddy County). ORD holds a long text description of the district rather than a short name. No ordinance link field.",
+  "verification": {
+    "verified_at": 1792135014323,
+    "counties": [
+      "35015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

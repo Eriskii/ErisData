@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-ashe-wjefferson-etj",
+  "publisher": "Town of West Jefferson via HCCOG GIS (AsheED_Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/vj28eVZMB2OMIUh5/arcgis/rest/services/AsheED_Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37009"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "Zone"
+  },
+  "notes": "West Jefferson extraterritorial jurisdiction zoning; unincorporated land outside ETJ not covered. Hosted by HCCOG GIS.",
+  "verification": {
+    "verified_at": 1792135069987,
+    "counties": [
+      "37009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

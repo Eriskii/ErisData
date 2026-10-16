@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nd-richland-wahpeton",
+  "publisher": "City of Wahpeton (hosted by Richland County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.richland.nd.us/arcgis/rest/services/Wahpeton/City_of_Wahpeton/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38077"
+    ]
+  },
+  "fields": {
+    "zone": "district"
+  },
+  "notes": "City of Wahpeton base zoning districts only; county unincorporated zoning and other cities not published as a service found. ETZ layer (MapServer/2) not included.",
+  "verification": {
+    "verified_at": 1792135179069,
+    "counties": [
+      "38077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

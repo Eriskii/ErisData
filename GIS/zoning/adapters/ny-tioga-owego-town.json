@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-tioga-owego-town",
+  "publisher": "Tioga County GIS Office (Town of Owego zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/PvkAiSMFS7cpxnJP/arcgis/rest/services/Current_ToOwego_ONLINE_Zoning/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36107"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONINGDIST"
+  },
+  "notes": "Town of Owego zoning districts (online copy, 12/2023) maintained by Tioga County GIS; covers the Town of Owego only.",
+  "verification": {
+    "verified_at": 1792135106418,
+    "counties": [
+      "36107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

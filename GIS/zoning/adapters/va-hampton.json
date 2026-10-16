@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-hampton",
+  "publisher": "Hampton Roads GIS (Hampton Zoning layer, hosted by dewberry_user on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/ex1Az95h0eiponPK/arcgis/rest/services/Hampton_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51650"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_"
+  },
+  "notes": "Copy of the City of Hampton zoning layer on ArcGIS Online (uploaded by dewberry_user, used by HRA Regional Asset Explorer); official city host webgis2.hampton.gov did not respond. No zone name field. Verify currency against hampton.gov zoning map.",
+  "verification": {
+    "verified_at": 1792135970206,
+    "counties": [
+      "51650"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

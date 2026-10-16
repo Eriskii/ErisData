@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wa-stevens",
+  "publisher": "Stevens County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stevenscountywa.gov/server/rest/services/Stevens_County_Zoning_Data/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53065"
+    ]
+  },
+  "fields": {
+    "zone": "zoningtext",
+    "zone_name": "zoning_nam"
+  },
+  "filter": "OBJECTID <> 58",
+  "notes": "Stevens County unincorporated zoning districts (layer 1 of county zoning data service). City zoning is in separate layers 2-7 of the same service. Excludes OBJECTID 58 (NR Forest polygon) whose geometry fails validity checks.",
+  "verification": {
+    "verified_at": 1792135998566,
+    "counties": [
+      "53065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

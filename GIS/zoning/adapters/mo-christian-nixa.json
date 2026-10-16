@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-christian-nixa",
+  "publisher": "City of Nixa, MO (Planning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.nixa.com:6443/arcgis/rest/services/Planning/Zoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29043"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Nixa zoning layer (Planning/Zoning MapServer layer 2); covers the City of Nixa only, not unincorporated county. Zone field ZONING holds district code. Feature is per-lot with SUBDIVISION and LOT_NUMBER; NOTES is sparse free text, so no zone_name.",
+  "verification": {
+    "verified_at": 1792134828243,
+    "counties": [
+      "29043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

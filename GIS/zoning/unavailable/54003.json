@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "54003",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.berkeleywv.org/FAQ.aspx?QID=88",
+    "https://www.berkeleywv.org/557/Planning-Zoning-Regulations",
+    "https://services6.arcgis.com/deAS8KeQ1ASFd1S2/arcgis/rest/services/PlanningDeptData_Zones/FeatureServer/0"
+  ],
+  "note": "Berkeley County's own zoning covers only the Tuscarora and Windewald districts, published as PDF ordinances and district maps; most of the county is unzoned (county FAQ). The only queryable zoning polygons found are City of Martinsburg layers on ArcGIS Online (PlanningDeptData_Zones, PlanningDeptData_Transects, owner adotson): 6 and 5 features, last edited 2020, and 1 of 3 sampled polygons invalid in each, so both fail the valid-polygons check (90% needed). No official county zoning service was found.",
+  "recorded_at": 1792136057741,
+  "recheck_after": 1807688057741,
+  "model": "claude-haiku-5-5"
+}

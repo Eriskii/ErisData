@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-haywood",
+  "publisher": "Haywood County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.haywoodcountync.gov/arcgis/rest/services/Land_Records/Open_Data/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37087"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MAPNAME",
+    "zone": "ZONING",
+    "zone_name": "ZONING_DEF"
+  },
+  "notes": "Haywood County open data Zoning layer; 140 features. MAPNAME may name the jurisdiction.",
+  "verification": {
+    "verified_at": 1792135064053,
+    "counties": [
+      "37087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

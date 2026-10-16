@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-contra-costa-county",
+  "publisher": "Contra Costa County DCD / DoIT GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cccounty.us/arcgis/rest/services/_Authoritative/Zoning/FeatureServer/39",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06013"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "ZONING",
+    "zone_name": "Zoning_Text"
+  },
+  "notes": "Unincorporated Contra Costa County only; incorporated cities zone their own land. Layer PLA_DCD_Zoning, 1978 zoning map digitized and amended.",
+  "verification": {
+    "verified_at": 1792134003427,
+    "counties": [
+      "06013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

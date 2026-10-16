@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-buena-vista-storm-lake",
+  "publisher": "City of Storm Lake, IA",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/8xg0ntvPHd0DEjki/arcgis/rest/services/Planning_and_Zoning_view/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19021"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWN_NAME",
+    "zone": "ZONING_DES",
+    "zone_name": "ZONING_DEF"
+  },
+  "notes": "City of Storm Lake zoning only (county unincorporated zoning not found as a queryable service). Layer 3 of Planning_and_Zoning_view.",
+  "verification": {
+    "verified_at": 1792133659250,
+    "counties": [
+      "19021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

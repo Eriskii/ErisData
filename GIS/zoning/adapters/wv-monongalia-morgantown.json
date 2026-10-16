@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wv-monongalia-morgantown",
+  "publisher": "City of Morgantown / Monongalia County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/MGBEQZtkTlJin8UB/arcgis/rest/services/Monongalia_AGOL/FeatureServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54061"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TaxDistrict",
+    "link": "UseURL",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Morgantown zoning districts, hosted in the county GIS AGOL org.",
+  "verification": {
+    "verified_at": 1792136017796,
+    "counties": [
+      "54061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

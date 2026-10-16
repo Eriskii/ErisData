@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-miami-dade-municipal",
+  "publisher": "Miami-Dade County GIS (municipal zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12086"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICNAME",
+    "zone": "ZONE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Municipal zoning districts for the cities and towns in Miami-Dade County; unincorporated land is in the separate county layer fl-miami-dade-unincorporated. Official county GIS service.",
+  "verification": {
+    "verified_at": 1792131924066,
+    "counties": [
+      "12086"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "hi-kauai",
+  "publisher": "County of Kauai GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/0DaVqrPt2eyXUS9g/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "15007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "County of Kauai regulatory zoning designations, published by the county GIS office (kauai.gov ArcGIS Online organization). Single county-wide layer covering all land in the county. Link field CZO_LINK is empty in the source.",
+  "verification": {
+    "verified_at": 1792133647585,
+    "counties": [
+      "15007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

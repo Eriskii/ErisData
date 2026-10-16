@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "31049",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://deuelcountyne.gov/planning-and-zoning/forms-permits-and-regulations/",
+    "https://deuelcountyne.gov/wp-content/uploads/sites/39/2025/11/Zoning-District-Map.pdf",
+    "https://services.arcgis.com/mq0BGE5kHpm8mHFz/arcgis/rest/services/Deuel_County_Parcels/FeatureServer"
+  ],
+  "note": "Deuel County publishes its zoning district map only as a PDF (Zoning-District-Map.pdf). No ArcGIS REST, WFS or bulk zoning polygon layer was found for the county. The county parcel FeatureServer (Deuel_County_Parcels, layer 2) has no zoning field. Chappell, the only incorporated place with a city zoning ordinance, publishes no zoning map or service; its site lists only regulations and a comprehensive plan.",
+  "recorded_at": 1792134921712,
+  "recheck_after": 1807686921712,
+  "model": "claude-haiku-5-5"
+}

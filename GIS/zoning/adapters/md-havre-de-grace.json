@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-havre-de-grace",
+  "publisher": "City of Havre de Grace, MD",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/xBaYvpTc0JtqK5u2/arcgis/rest/services/Current_HdG_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24025"
+    ]
+  },
+  "fields": {
+    "link": "Zoning_Code",
+    "zone": "ZONE"
+  },
+  "notes": "City of Havre de Grace current zoning districts (April 2025). ZONE holds the district code (RB, R2); Zoning_Code links to the Town ordinance text on ecode360. Bulk_Regulations not mapped.",
+  "verification": {
+    "verified_at": 1792134816976,
+    "counties": [
+      "24025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

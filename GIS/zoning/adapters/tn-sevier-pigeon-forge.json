@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-sevier-pigeon-forge",
+  "publisher": "Pigeon Forge, TN (copy hosted by djoedunn)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/cYPAijXv24o8BjFq/arcgis/rest/services/PF_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47155"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_"
+  },
+  "notes": "Unofficial: a personal ArcGIS Online copy of Pigeon Forge zoning by user djoedunn; no official Pigeon Forge zoning service was found. Covers Pigeon Forge city only. zone from Zone_; no zone_name or link field.",
+  "verification": {
+    "verified_at": 1792135581081,
+    "counties": [
+      "47155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

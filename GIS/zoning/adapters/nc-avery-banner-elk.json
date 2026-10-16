@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-avery-banner-elk",
+  "publisher": "Town of Banner Elk (hosted by High Country COG GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/vj28eVZMB2OMIUh5/arcgis/rest/services/Town_of_Banner_Elk_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_code",
+    "zone_name": "Zone_descr"
+  },
+  "notes": "Town of Banner Elk zoning only (town limits and planning jurisdiction); updated 4/2/2026. Avery County itself publishes no zoning layer found; other towns (Beech Mountain, Seven Devils, Newland) publish no queryable zoning service found. Notes field carries remarks.",
+  "verification": {
+    "verified_at": 1792135075364,
+    "counties": [
+      "37011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

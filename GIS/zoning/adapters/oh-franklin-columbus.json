@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-franklin-columbus",
+  "publisher": "City of Columbus Building and Zoning Services",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps2.columbus.gov/arcgis/rest/services/Schemas/BuildingZoning/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39049"
+    ]
+  },
+  "fields": {
+    "zone": "CLASSIFICATION",
+    "zone_name": "GENERAL_ZONING_CATEGORY"
+  },
+  "notes": "City of Columbus base zoning districts only (suburbs and unincorporated land not included). Source: opendata.columbus.gov.",
+  "verification": {
+    "verified_at": 1792135176119,
+    "counties": [
+      "39049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

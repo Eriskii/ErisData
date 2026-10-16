@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sc-dorchester",
+  "publisher": "Dorchester County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.dorchestercounty.net/hosting/rest/services/General_Data/Zoning_PUBLIC/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45035"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "zone": "ZONECLASS"
+  },
+  "filter": "ZONECLASS <> 'MUNI'",
+  "notes": "Dorchester County Zoning_PUBLIC service. ZONECLASS holds district codes (e.g. AR, EE); rows with ZONECLASS MUNI are municipal placeholder polygons and are excluded. ZONEDESC is nearly empty so zone_name is not mapped. Covers unincorporated county per county GIS page; MUNICIPALITY names the jurisdiction. Updated as needed.",
+  "verification": {
+    "verified_at": 1792135368779,
+    "counties": [
+      "45035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-brooks-quitman",
+  "publisher": "City of Quitman GA (zoning layer hosted by SGRC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HA2thkMWRBDb77XN/arcgis/rest/services/QuitmanZoningUpdates/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "TYPE"
+  },
+  "notes": "City of Quitman zoning districts, parcel-level review layer maintained by SGRC for the city. ZONING holds the district code; TYPE holds the district type/name as recorded. Not in the county layer, which excludes Quitman.",
+  "verification": {
+    "verified_at": 1792133906021,
+    "counties": [
+      "13027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

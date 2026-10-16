@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nd-stutsman",
+  "publisher": "Stutsman County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/XN7uCzq5lFAZKAeR/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38093"
+    ]
+  },
+  "fields": {
+    "zone": "BOUND_DESC",
+    "zone_name": "NAME"
+  },
+  "notes": "Stutsman County zoning districts as published in the county GIS viewer (web map 79f9666c). BOUND_DESC holds the use category (Agricultural, Commercial, Industrial, Township Zoned); NAME says County Zoned or Township Zoned. Coarse categories, not ordinance district codes. Layer has 38 polygons.",
+  "verification": {
+    "verified_at": 1792135134416,
+    "counties": [
+      "38093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

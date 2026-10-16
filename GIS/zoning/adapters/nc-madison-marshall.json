@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-madison-marshall",
+  "publisher": "Town of Marshall (via Madison County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/NwIC4HArqo0JlKGT/arcgis/rest/services/Marshall_Zoning2023v2/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37115"
+    ]
+  },
+  "fields": {
+    "zone": "CLASSIFICA"
+  },
+  "notes": "Town of Marshall zoning (2023), hosted on the Madison County GIS ArcGIS Online organization. Polygons are parcel-based; district code in CLASSIFICA (Zoning field mostly blank).",
+  "verification": {
+    "verified_at": 1792135117637,
+    "counties": [
+      "37115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

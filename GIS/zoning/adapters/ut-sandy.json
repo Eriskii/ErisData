@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-sandy",
+  "publisher": "Sandy City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/w3P61ZsUVtl411Ls/arcgis/rest/services/Sandy/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49035"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "Definition"
+  },
+  "notes": "City of Sandy zoning districts, from a copy hosted by the city-linked ArcGIS account (zachleavitt_utcdo); accurate display of city-adopted zoning.",
+  "verification": {
+    "verified_at": 1792131974370,
+    "counties": [
+      "49035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

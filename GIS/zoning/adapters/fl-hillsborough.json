@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-hillsborough",
+  "publisher": "Hillsborough County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.hillsboroughcounty.org/arcgis/rest/services/CORPORATE/DisplayLayersCorporate/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12057"
+    ]
+  },
+  "fields": {
+    "zone": "NZONE",
+    "zone_name": "NZONE_DESC"
+  },
+  "notes": "Official Hillsborough County zoning atlas (current adopted districts), covering unincorporated county land. Incorporated cities such as Tampa, Temple Terrace and Plant City zone their own land and are not in this layer.",
+  "verification": {
+    "verified_at": 1792133831966,
+    "counties": [
+      "12057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

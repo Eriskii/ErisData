@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "oh-greene",
+  "publisher": "Greene County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.greenecountyohio.gov/webgis2/rest/services/OpenData/OpenData/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39057"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Zoning",
+    "zone_name": "Description"
+  },
+  "filter": "OBJECTID <> 935",
+  "notes": "Greene County Regional Planning Commission member jurisdictions",
+  "verification": {
+    "verified_at": 1792135255283,
+    "counties": [
+      "39057"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

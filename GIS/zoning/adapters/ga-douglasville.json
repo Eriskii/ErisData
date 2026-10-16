@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-douglasville",
+  "publisher": "City of Douglasville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/MvLJ3KHgohvvDRhi/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "13097"
+    ]
+  },
+  "fields": {
+    "link": "Zoning_URL",
+    "zone": "DV_ZONING_CODE",
+    "zone_name": "DV_ZONING_DESC"
+  },
+  "notes": "City of Douglasville zoning only (inside city limits, Douglas County GA). Dissolved by zoning code from city parcels.",
+  "verification": {
+    "verified_at": 1792133933677,
+    "counties": [
+      "13097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

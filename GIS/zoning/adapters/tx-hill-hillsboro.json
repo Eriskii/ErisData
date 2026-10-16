@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-hill-hillsboro",
+  "publisher": "City of Hillsboro, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/KUiJZDkKLKsfueeC/arcgis/rest/services/HillsboroTX 202601_8d90e194/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48217"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE"
+  },
+  "notes": "City of Hillsboro zoning districts only (city limits, not county unincorporated land). Layer from the city ArcGIS Online web map hillsb.maps.arcgis.com. Zone name not provided in source; ZONE_CODE is the district code.",
+  "verification": {
+    "verified_at": 1792135895781,
+    "counties": [
+      "48217"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mt-park-county",
+  "publisher": "Park County GIS (Montana)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/De8iY1SoM3l4PKku/arcgis/rest/services/ParkCountyZoning_2025/FeatureServer/34",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30067"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "ZONENAME",
+    "zone_name": "Description"
+  },
+  "notes": "Park County unincorporated zoning districts (2025 layer on the county GIS org). Livingston city zoning is a separate layer.",
+  "verification": {
+    "verified_at": 1792134928883,
+    "counties": [
+      "30067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

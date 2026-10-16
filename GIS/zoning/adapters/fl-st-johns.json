@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-st-johns",
+  "publisher": "St. Johns County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/t2yugAJW83eUIFui/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12109"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "St. Johns County GIS hosted zoning layer (unincorporated county zoning). Cities such as St. Augustine zone their own land and are not in this layer. No zone-name or ordinance-link field.",
+  "verification": {
+    "verified_at": 1792133853476,
+    "counties": [
+      "12109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

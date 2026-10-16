@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ky-shelby",
+  "publisher": "Shelby County KY / Triple S Planning Commission (GDIT-hosted)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/VqPd1Ybcc46AvijK/arcgis/rest/services/ShelbyCountyZoning/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21211"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdicti",
+    "link": "Zone_Link",
+    "zone": "Zone_ID",
+    "zone_name": "Zone_Label"
+  },
+  "notes": "Zoning layer from the county zoning map service used by the Triple S zoning map; Jurisdicti names each jurisdiction.",
+  "verification": {
+    "verified_at": 1792134384789,
+    "counties": [
+      "21211"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

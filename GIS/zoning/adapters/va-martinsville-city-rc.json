@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-martinsville-city-rc",
+  "publisher": "City of Martinsville VA GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/qPXJKRcCVGurCShX/arcgis/rest/services/R_C/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51690"
+    ]
+  },
+  "fields": {
+    "zone": "ZONETYPE"
+  },
+  "notes": "Parcel layer from city GIS; each parcel carries its zoning district in ZONETYPE (R-C only). Parcel-based, not a district polygon layer: a last resort. Other districts are in sibling layers (R_E, R_N, R_T, C_C, C_N, C_UB, ED_G, ED_I, ED_MA).",
+  "verification": {
+    "verified_at": 1792135996952,
+    "counties": [
+      "51690"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

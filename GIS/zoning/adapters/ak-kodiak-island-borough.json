@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ak-kodiak-island-borough",
+  "publisher": "Kodiak Island Borough GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/R5BNizttyFKxRSMm/arcgis/rest/services/KodiakIslandBoroughZoningDistricts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02150"
+    ]
+  },
+  "fields": {
+    "link": "SOURCE_URL",
+    "zone": "SYMBOL",
+    "zone_name": "NAME"
+  },
+  "filter": "OBJECTID <> 2581",
+  "notes": "Borough zoning districts layer; one very large Conservation District polygon (OBJECTID 2581) has self-intersecting geometry and is excluded",
+  "verification": {
+    "verified_at": 1792133808429,
+    "counties": [
+      "02150"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

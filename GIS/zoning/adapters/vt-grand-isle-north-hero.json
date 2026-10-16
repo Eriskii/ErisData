@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "vt-grand-isle-north-hero",
+  "publisher": "North Country Regional Planning Commission (NRPC) for the Town of North Hero",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/CIdxNzJmLZGoegAM/arcgis/rest/services/VT_Data_North_Hero_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "50013"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "North Hero town only (Grand Isle County), adopted 12/1/2023; NRPC-published copy. Town says contact it for current zoning.",
+  "verification": {
+    "verified_at": 1792135967371,
+    "counties": [
+      "50013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

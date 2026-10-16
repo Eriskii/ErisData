@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-tioga-twp",
+  "publisher": "Tioga County GIS (Tioga Township zoning, circa 2017 layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://tiogagis.tiogacountypa.us/arcgis2017/rest/services/Individual_Services/Tioga_Twp_Zoning_Layer/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42117"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Abb",
+    "zone_name": "Land_Use"
+  },
+  "notes": "Tioga Township zoning districts served by Tioga County GIS; only the township layer in this service (layer 1). Zone holds the district abbreviation as published (Ag, Res, C, Ind), not the ordinance code.",
+  "verification": {
+    "verified_at": 1792135375172,
+    "counties": [
+      "42117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

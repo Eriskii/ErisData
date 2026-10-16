@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-mcdowell-marion",
+  "publisher": "City of Marion, NC Planning & Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/q5DjgI77eZ9vJ4mD/arcgis/rest/services/OfficialZoningDistricts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37111"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "ZONE_ID",
+    "zone_name": "District_N"
+  },
+  "notes": "City of Marion official zoning district layer (city limits only; county unincorporated zoning not published on a queryable service found). Source: Marion Zoning Map viewer.",
+  "verification": {
+    "verified_at": 1792135119869,
+    "counties": [
+      "37111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

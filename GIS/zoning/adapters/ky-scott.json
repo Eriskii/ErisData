@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ky-scott",
+  "publisher": "Georgetown-Scott County Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gscplanning.com/arcgis/rest/services/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21209"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE"
+  },
+  "filter": "OBJECTID_1 <> 530",
+  "notes": "Official GSC Planning Commission zoning layer",
+  "verification": {
+    "verified_at": 1792134469266,
+    "counties": [
+      "21209"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

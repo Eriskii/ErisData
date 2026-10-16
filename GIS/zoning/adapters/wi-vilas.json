@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-vilas",
+  "publisher": "Vilas County Land Information Office",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.vilascountywi.gov/vilasgis/rest/services/V4/ZoningGeneral/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55125"
+    ]
+  },
+  "fields": {
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "County general zoning districts (base zoning, excludes shoreland/airport overlays which are separate layers). Updated January 2025.",
+  "verification": {
+    "verified_at": 1792136067109,
+    "counties": [
+      "55125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

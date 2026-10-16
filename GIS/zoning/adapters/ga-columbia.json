@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-columbia",
+  "publisher": "Columbia County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.columbiacountyga.gov/host/rest/services/MapsOnline/PlanningAndZoning/MapServer/79",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13073"
+    ]
+  },
+  "fields": {
+    "link": "ZONE_FILE",
+    "zone": "ZONE"
+  },
+  "notes": "County Maps Online zoning layer; unincorporated county districts. Grovetown and Harlem have separate layers in the same service.",
+  "verification": {
+    "verified_at": 1792133879430,
+    "counties": [
+      "13073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

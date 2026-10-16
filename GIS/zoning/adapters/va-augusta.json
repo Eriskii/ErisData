@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-augusta",
+  "publisher": "Augusta County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.augusta.va.us/arcgis/rest/services/Zoning_with_Overlays/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Augusta County unincorporated zoning districts; cities of Staunton and Waynesboro zone separately and are not included. ZONING holds the district code (blank or GA for agricultural-general in some polygons). Proffer/condition fields are sparse and not mapped.",
+  "verification": {
+    "verified_at": 1792135846885,
+    "counties": [
+      "51015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

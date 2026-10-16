@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "de-kent-dover",
+  "publisher": "City of Dover GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/EFYIRUToGCsM2IHN/arcgis/rest/services/city_of_dover_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "10001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONES"
+  },
+  "notes": "City of Dover zoning districts (Kent County portion of Dover, the city zones its own land). ZONING holds the district code; ZONES holds the district name or description.",
+  "verification": {
+    "verified_at": 1792133843351,
+    "counties": [
+      "10001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

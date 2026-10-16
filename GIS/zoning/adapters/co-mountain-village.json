@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-mountain-village",
+  "publisher": "Town of Mountain Village",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Nefdxa42x2DnAd5Z/arcgis/rest/services/Parcels_and_Zoning/FeatureServer/48",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08113"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MountainVillageParcels_CITY",
+    "zone": "MountainVillageParcels_ZONING"
+  },
+  "notes": "Town of Mountain Village zoning, one record per parcel (parcel-level zoning from the town parcel layer, not dissolved districts). Jurisdiction is the town throughout.",
+  "verification": {
+    "verified_at": 1792133863439,
+    "counties": [
+      "08113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

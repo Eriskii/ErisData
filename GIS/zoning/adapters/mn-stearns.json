@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-stearns",
+  "publisher": "Stearns County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stearnscountymn.gov/arcgis/rest/services/DataFi/DataFi_Land_Use_Layers_Public/MapServer/37",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27145"
+    ]
+  },
+  "fields": {
+    "zone": "DIST_LABEL",
+    "zone_name": "DIST_NAME"
+  },
+  "filter": "DIST_NAME NOT IN ('Municipality','Protected Lake') AND OBJECTID <> 682",
+  "notes": "Stearns County DataFi public zoning districts (township zoning administered by the county). Municipality and Protected Lake polygons excluded; OBJECTID 682 excluded because its geometry is invalid.",
+  "verification": {
+    "verified_at": 1792135050395,
+    "counties": [
+      "27145"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

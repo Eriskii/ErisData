@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wv-brooke-weirton",
+  "publisher": "City of Weirton (parcel layer with zoning codes)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/sLyouDCFpgoKjNPa/arcgis/rest/services/WeirtonParcelswithLanduse/FeatureServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54009"
+    ]
+  },
+  "fields": {
+    "zone": "Combined_Zoning"
+  },
+  "filter": "CountyName = 'Brooke'",
+  "notes": "Brooke County has no county-wide zoning layer. City of Weirton parcel layer (built for the city Zoning Web Map) carrying each parcel zoning district in Combined_Zoning. Parcel polygons used as last resort; not a dedicated district layer. Covers only the Weirton part of Brooke County, not other Brooke municipalities.",
+  "verification": {
+    "verified_at": 1792136027835,
+    "counties": [
+      "54009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

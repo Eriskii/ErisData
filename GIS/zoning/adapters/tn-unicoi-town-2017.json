@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-unicoi-town-2017",
+  "publisher": "Town of Unicoi (copy hosted by markstevans, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/duOXQT76rrwCBokY/arcgis/rest/services/July_2017_Unicoi_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47171"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "Unofficial personal ArcGIS Online copy of Town of Unicoi zoning, July 2017 (uploaded by markstevans); no official queryable county or town zoning service was found. Only zone code is available; no zone name or ordinance link.",
+  "verification": {
+    "verified_at": 1792135561344,
+    "counties": [
+      "47171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

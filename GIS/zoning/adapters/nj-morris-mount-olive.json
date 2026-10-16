@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nj-morris-mount-olive",
+  "publisher": "Township of Mount Olive (via Mount Olive Geodatabase, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/4xHlAF85LdkWPmw2/arcgis/rest/services/Mount_Olive_Geodatabase_WFL1/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34027"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "Mount Olive Township zoning only (not countywide); from the township geodatabase published by its consultant on ArcGIS Online. Zone_Desc is the district description.",
+  "verification": {
+    "verified_at": 1792135020276,
+    "counties": [
+      "34027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

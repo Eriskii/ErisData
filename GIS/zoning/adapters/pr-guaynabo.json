@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-guaynabo",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/Analisis_cali_MIL1/MapServer/7",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72061"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "link": "resolucion",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "notes": "Official JP statewide zoning (calificacion) layer, alternate service",
+  "verification": {
+    "verified_at": 1792139644191,
+    "counties": [
+      "72061"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

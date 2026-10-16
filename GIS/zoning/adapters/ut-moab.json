@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-moab",
+  "publisher": "City of Moab GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ISzBYs4kLsuCgjOn/arcgis/rest/services/City_Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_CODE"
+  },
+  "notes": "City of Moab zoning (City_Zoning layer, 90 polygons). ZONE_CODE holds the district code. Covers incorporated Moab only.",
+  "verification": {
+    "verified_at": 1792135937109,
+    "counties": [
+      "49019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

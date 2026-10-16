@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-chaffee-buena-vista",
+  "publisher": "Town of Buena Vista (TOBVAM)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/JCI9RmcEKdXcjJKx/arcgis/rest/services/Town_of_Buena_Vista_Official_Zoning_Map_20250220/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "TYPE"
+  },
+  "notes": "Town of Buena Vista official zoning map layer (Zone Districts, 2025-02-20). Covers Town of Buena Vista only; ZONE_ holds the district code and TYPE the district type/name. Overlay districts are in a separate layer and not included.",
+  "verification": {
+    "verified_at": 1792133786366,
+    "counties": [
+      "08015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

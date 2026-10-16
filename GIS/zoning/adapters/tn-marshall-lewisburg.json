@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-marshall-lewisburg",
+  "publisher": "City of Lewisburg, TN (layer published by city account on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/E68Q0SbRw4wetYwA/arcgis/rest/services/ZONING_2021_LB_Reverted_to_Regular_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47117"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "City of Lewisburg zoning districts, Marshall County, TN. Edited by St John Engineering per Lewisburg Planning. Zone_Curre holds district code.",
+  "verification": {
+    "verified_at": 1792135913106,
+    "counties": [
+      "47117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

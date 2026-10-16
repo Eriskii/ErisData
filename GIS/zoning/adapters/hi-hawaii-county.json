@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "hi-hawaii-county",
+  "publisher": "Hawaii State Office of Planning (County of Hawaii zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geodata.hawaii.gov/arcgis/rest/services/ParcelsZoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "15001"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "district"
+  },
+  "notes": "County of Hawaii zoning (all jurisdictions in county, incl. unincorporated), served by State OP ParcelsZoning service; November 2023 file. zone_name holds the district/region name (e.g. N. Hilo) per source. No ordinance links in source.",
+  "verification": {
+    "verified_at": 1792133625896,
+    "counties": [
+      "15001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

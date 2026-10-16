@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-grand-traverse-tc",
+  "publisher": "City of Traverse City GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://tcgis.traversecitymi.gov/arcgis/rest/services/Planning/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26055"
+    ]
+  },
+  "fields": {
+    "link": "HYPERLINK",
+    "zone": "BACKUP_",
+    "zone_name": "ZONING_DESCRIPTION"
+  },
+  "notes": "City of Traverse City zoning districts only (not county unincorporated land). zone holds the district code (R-1a, C-4a, D-3); zone_name is the district description. Layer also has FUTURE_CLA, a future land use field, which is not mapped.",
+  "verification": {
+    "verified_at": 1792132333300,
+    "counties": [
+      "26055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

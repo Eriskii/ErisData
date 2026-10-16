@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-hays-san-marcos",
+  "publisher": "City of San Marcos GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://smgis.sanmarcostx.gov/arcgis/rest/services/Planning/PlanningFeatures/MapServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48209"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE",
+    "zone": "ZONECODE",
+    "zone_name": "ZONINGDISTRICT"
+  },
+  "notes": "City of San Marcos zoning districts under the Land Development Code; covers city limits (Hays County portion). Hays County itself does not publish a county zoning layer.",
+  "verification": {
+    "verified_at": 1792135660406,
+    "counties": [
+      "48209"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

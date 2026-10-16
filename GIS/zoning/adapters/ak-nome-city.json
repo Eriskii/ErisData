@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ak-nome-city",
+  "publisher": "City of Nome GIS (Nome_GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Oi9vFzXc8ZcONgM6/arcgis/rest/services/NOME_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02180"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Nome zoning districts only (unincorporated Nome Census Area does not publish zoning). Zone codes are category names such as INDUSTRIAL, COMMERCIAL. Land use zoning districts updated Sept 29 2025.",
+  "verification": {
+    "verified_at": 1792133714819,
+    "counties": [
+      "02180"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

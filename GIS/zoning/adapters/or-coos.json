@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-coos",
+  "publisher": "Oregon DLCD statewide zoning compilation (Coos County and city zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41011"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerType IN ('County','City') AND Shape__Area < 1000000000",
+  "notes": "Statewide DLCD zoning compilation (state-standard codes orZCode/orZDesc). Filtered to county and city owners inside Coos County; very large polygons excluded because they fail geometry validity. Effective dates vary (effDate).",
+  "verification": {
+    "verified_at": 1792135952085,
+    "counties": [
+      "41011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

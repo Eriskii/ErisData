@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-douglas",
+  "publisher": "Douglas County GIS (hosted by District III)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/DOUGLAS_COUNTY_WEB_LAYERS/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46043"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "LOCATION",
+    "zone": "ZONING"
+  },
+  "notes": "Douglas County SD zoning, unincorporated county only (cities Armour, Corsica, Delmont zone separately). 567 features; zone code in ZONING. LOCATION field used for jurisdiction context; verify.",
+  "verification": {
+    "verified_at": 1792135449081,
+    "counties": [
+      "46043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ar-lawrence-walnut-ridge",
+  "publisher": "City of Walnut Ridge (Garver, city zoning map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/eNPJk90aMrXNOKF8/arcgis/rest/services/Walnut_Ridge_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05075"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Walnut Ridge zoning districts only; Lawrence County AR publishes no county zoning layer and the county has no zoning office. Layer hosted by Garver for the city. Ordinance link field mostly empty, so not mapped.",
+  "verification": {
+    "verified_at": 1792133775342,
+    "counties": [
+      "05075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

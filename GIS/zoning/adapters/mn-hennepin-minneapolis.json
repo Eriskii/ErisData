@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-hennepin-minneapolis",
+  "publisher": "City of Minneapolis CPED",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Planning_Primary_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27053"
+    ]
+  },
+  "fields": {
+    "zone": "Land_Use_Code",
+    "zone_name": "Land_Use"
+  },
+  "notes": "City of Minneapolis primary zoning districts only (1,308 features); covers Minneapolis, not other Hennepin cities. Open data, CC0.",
+  "verification": {
+    "verified_at": 1792130905611,
+    "counties": [
+      "27053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

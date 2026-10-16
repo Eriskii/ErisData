@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-bourbon-paris",
+  "publisher": "City of Paris / Bourbon County Joint Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/173258ffd7854eb392185beb618596a6/data",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "21017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "ZONE_"
+  },
+  "notes": "Paris Zoning 2026 GeoJSON published by bourboncountyplanning on ArcGIS Online; City of Paris zoning districts. ZONE_ holds district codes (NOZONE where none).",
+  "verification": {
+    "verified_at": 1792134371492,
+    "counties": [
+      "21017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

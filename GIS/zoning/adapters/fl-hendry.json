@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-hendry",
+  "publisher": "Hendry County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/8l7Qq5t0CPLAJwJK/arcgis/rest/services/Hendry_County_Property_23/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12051"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZONE"
+  },
+  "notes": "No county zoning-district polygon layer found; this is the county parcel layer (April 2026) whose ZONE attribute carries each parcel zoning code. Used as last resort; CITY holds the place name (e.g. LABELLE), not a zoning jurisdiction. Zone names not provided.",
+  "verification": {
+    "verified_at": 1792133861814,
+    "counties": [
+      "12051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

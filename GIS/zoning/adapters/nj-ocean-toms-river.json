@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nj-ocean-toms-river",
+  "publisher": "Toms River Township (hosted zoning service, brendanweiner)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/7a7OULZOTqe87h9O/arcgis/rest/services/Zoning_Service1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34029"
+    ]
+  },
+  "fields": {
+    "link": "ZONING_CODE",
+    "zone": "ZONING",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "Toms River Township only (largest municipality in Ocean County); Ocean County publishes no countywide zoning layer found as a service. zone is the district code in ZONING; ZONING_CODE holds a link to the ordinance/zoning map.",
+  "verification": {
+    "verified_at": 1792134986547,
+    "counties": [
+      "34029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

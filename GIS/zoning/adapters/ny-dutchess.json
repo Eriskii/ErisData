@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ny-dutchess",
+  "publisher": "Dutchess County NY (copy hosted on ArcGIS Online by Moore_fall24)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/bArMqVntXvGojzII/arcgis/rest/services/Dutchess_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "36027"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipali",
+    "zone": "Zone_Label",
+    "zone_name": "Zone_Descr"
+  },
+  "notes": "Unofficial: a copy uploaded to ArcGIS Online by an individual account (Moore_fall24), not the county GIS office; used because no official county zoning service was found. Countywide polygons with municipality names in Municipali; Zone_Type/Type_Descr hold type. Verify currency against county zoning map.",
+  "verification": {
+    "verified_at": 1792135043065,
+    "counties": [
+      "36027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

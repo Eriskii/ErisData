@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-emery",
+  "publisher": "Emery County (copy hosted by adam_perschon_coalition on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Mc2lczOZGUNC7Ov5/arcgis/rest/services/LAND_USE_Zoning/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "Field_Desc"
+  },
+  "notes": "Copy of Emery County zoning uploaded to ArcGIS Online by a third party (not the county); county publishes zoning only as PDF maps. Covers 19 district polygons, unincorporated county. Cities not included.",
+  "verification": {
+    "verified_at": 1792135795090,
+    "counties": [
+      "49015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

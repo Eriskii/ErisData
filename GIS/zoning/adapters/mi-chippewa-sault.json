@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-chippewa-sault",
+  "publisher": "City of Sault Ste. Marie GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/IjGOQocTRPiKhCCK/arcgis/rest/services/Zoning_view/FeatureServer/10",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26033"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Cla"
+  },
+  "notes": "City of Sault Ste. Marie zoning districts only (city limits, within Chippewa County); county-wide layer is not queryable with valid polygons. Jurisdiction is the city; no jurisdiction field.",
+  "verification": {
+    "verified_at": 1792132319166,
+    "counties": [
+      "26033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

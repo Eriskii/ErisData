@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-st-charles-wentzville",
+  "publisher": "City of Wentzville, MO",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/PhrOBa64VhLxWQwF/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29183"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Wentzville zoning layer (863 features); carries district code only, no description field.",
+  "verification": {
+    "verified_at": 1792134837855,
+    "counties": [
+      "29183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-kankakee-city",
+  "publisher": "City of Kankakee",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/wy9XuByAzgoxTXZK/arcgis/rest/services/ZONING/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17091"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Kankakee zoning, hosted in the city ArcGIS Online org.",
+  "verification": {
+    "verified_at": 1792134082124,
+    "counties": [
+      "17091"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

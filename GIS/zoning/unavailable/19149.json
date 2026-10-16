@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "19149",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://plymouthcountyiowa.gov/wp-content/uploads/2024/08/Zoning-Map.pdf",
+    "https://plymouthcountyiowa.gov/departments/planning-zoning/",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=1012&LayerID=20762&PageTypeID=1&PageID=8982"
+  ],
+  "note": "Plymouth County (IA) publishes its zoning districts only as PDF maps (2024 Zoning Map) and ordinance; no county zoning ArcGIS service found. The county's zoning viewer is a Schneider Beacon parcel viewer (blocked to automated access). The only queryable district polygons, an unofficial ISU compilation covering Le Mars and Akron (services.arcgis.com/XORNS2fPFySPlBgy/.../zoning_districts_all_data_v2/FeatureServer/217), failed validation: 2 of 3 sampled polygons invalid, and no official city zoning service was found for Le Mars, Akron, Hinton, Kingsley, Merrill or Remsen.",
+  "recorded_at": 1792134387171,
+  "recheck_after": 1807686387171,
+  "model": "claude-haiku-5-5"
+}

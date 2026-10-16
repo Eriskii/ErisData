@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-anderson-city",
+  "publisher": "City of Anderson GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/tpRRKuX1RnBlIwUz/arcgis/rest/services/City_of_Anderson_Zoning_(View)/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CLASSIFICATION",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "City of Anderson zoning (City GIS staff, ArcGIS Online org). City limits only; unincorporated county not covered by this layer. Overlay attributes in OVERLAY/OVERLAYDES.",
+  "verification": {
+    "verified_at": 1792135684215,
+    "counties": [
+      "45007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

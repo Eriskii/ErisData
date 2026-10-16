@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-union-creston",
+  "publisher": "City of Creston (zoning compiled by Iowa State University Extension, Online Guide to Iowa Zoning)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "19175"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Creston' AND fips7 = '1917265' AND zoning NOT IN ('F', 'C-1', 'I-1')",
+  "notes": "Copy of Creston zoning districts from the ISU Extension Online Guide to Iowa Zoning statewide dataset (Iowa State GIS ArcGIS Online item, amylogan@iastate.edu), not hosted by the city. Covers Creston city only; unincorporated county not covered. Commercial C-1, Light Industrial I-1 and flood plain F polygons are left out because their source geometry fails validity checks; the city zoning map is only a PDF.",
+  "verification": {
+    "verified_at": 1792134272429,
+    "counties": [
+      "19175"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

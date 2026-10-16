@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "38001",
+  "reason": "login-required",
+  "evidence": [
+    "https://gis.adamscounty.org/arcgis/rest/services/city/Zoning/MapServer/6?f=pjson",
+    "https://gis.adamscounty.org/arcgis/rest/services/quickmaps/Zoning/MapServer/layers",
+    "https://www.adamscountynd.com/departments/tax_equalization/index.php",
+    "https://webgen1files1.revize.com/adamscountynd/ADAMS%20COUNTY.pdf"
+  ],
+  "note": "Adams County ND (FIPS 38001) publishes zoning only as a PDF ordinance and map. The county host gis.adamscounty.org has zoning services (city/Zoning MapServer, quickmaps/Zoning) that answer 'Token Required' or 'not started' to anonymous requests, and its only reachable zoning-district layer (city/Zoning_FLU_CRA layer 8) lies outside North Dakota, so it is not this county's. No city zoning service for Hettinger, Reeder or Scranton was found. The county's zoning district service exists but requires a login.",
+  "recorded_at": 1792135180780,
+  "recheck_after": 1807687180780,
+  "model": "claude-haiku-5-5"
+}

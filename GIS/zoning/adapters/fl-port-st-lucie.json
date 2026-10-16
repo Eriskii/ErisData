@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-port-st-lucie",
+  "publisher": "City of Port St. Lucie GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YdUP5V6WwzeG8T8r/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12111"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZOLEGEND"
+  },
+  "notes": "City of Port St. Lucie zoning districts. ZOLEGEND holds the district legend code and ZONING the district name.",
+  "verification": {
+    "verified_at": 1792133866270,
+    "counties": [
+      "12111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

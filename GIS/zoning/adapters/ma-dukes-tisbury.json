@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ma-dukes-tisbury",
+  "publisher": "Dukes County GIS (mvdukes) - Tisbury zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/FNsEJ848HT5uDOHD/arcgis/rest/services/duk_zoning/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "PRIM_USE"
+  },
+  "notes": "Town of Tisbury (Vineyard Haven) zoning district layer, hosted by Dukes County GIS (layer 5 of duk_zoning service).",
+  "verification": {
+    "verified_at": 1792134452791,
+    "counties": [
+      "25007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

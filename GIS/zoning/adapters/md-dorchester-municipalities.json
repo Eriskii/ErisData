@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "md-dorchester-municipalities",
+  "publisher": "Maryland Department of Planning (Generalized Zoning 2025, Dorchester County municipalities)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdpgis.mdp.state.md.us/arcgis/rest/services/PlanningCadastre/Generalized_Zoning_2025/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24019"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "GENZONE"
+  },
+  "filter": "JURSCODE = 'DORC' AND MUNICIPALITY_NAME IN ('CAMBRIDGE','CHURCH CREEK','EAST NEW MARKET','ELDORADO','SECRETARY','VIENNA')",
+  "notes": "Maryland Dept of Planning generalized zoning categories for the incorporated towns; local district codes are not in this layer.",
+  "verification": {
+    "verified_at": 1792136071721,
+    "counties": [
+      "24019"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

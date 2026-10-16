@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "az-navajo-showlow",
+  "publisher": "City of Show Low",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://showlowmaps.com/arcgis/rest/services/webzoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "lanuse"
+  },
+  "notes": "City of Show Low zoning districts from the city webzoning MapServer (layer 0 Zone). Covers city limits only; unincorporated county land is in az-navajo.",
+  "verification": {
+    "verified_at": 1792133697331,
+    "counties": [
+      "04017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-st-marys",
+  "publisher": "City of St. Marys GA (copy hosted in ArcGIS Online by tgiarrusso, CoastalZoning 2024)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/I9cUOJUZvdGAJncI/arcgis/rest/services/CoastalZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13039"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "notes": "Copy of City of St. Marys zoning uploaded to ArcGIS Online by an individual account (tgiarrusso, 2024 coastal zoning compilation); not official. Zoning holds district codes; zone_name repeats the code because no description field exists.",
+  "verification": {
+    "verified_at": 1792133916000,
+    "counties": [
+      "13039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

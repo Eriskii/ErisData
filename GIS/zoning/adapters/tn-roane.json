@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-roane",
+  "publisher": "Roane County, TN (layer published by ArcGIS Online user jwander2022)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/SvCBjkEAPoQudsgp/arcgis/rest/services/Roane_County_Zoning_v1_01_WFL1/FeatureServer/0",
+    "page_size": 100,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47145"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JUR",
+    "zone": "ZONING"
+  },
+  "notes": "Unofficial copy: hosted on ArcGIS Online by user jwander2022, not a county-owned service; no official queryable Roane County zoning service was found (county app experience 3c4eaf58... is viewer-only). Multi-jurisdiction layer; JUR is jurisdiction (RURAL for unincorporated county land, city names otherwise). ZONING holds the district code; Zoning_TEMP is a placeholder and is not used. Non-district polygons (RAILROAD, ROW, WATER) are present. Service is slow with large page sizes; page_size 100 required.",
+  "verification": {
+    "verified_at": 1792137208434,
+    "counties": [
+      "47145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

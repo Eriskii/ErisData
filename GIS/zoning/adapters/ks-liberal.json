@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-liberal",
+  "publisher": "City of Liberal, Kansas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/nRkmtZHjCBp13izw/arcgis/rest/services/Zones/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20175"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "City of Liberal zoning districts only (city limits, not the unincorporated county). Served from the city GIS organization (Liberalwater), linked from the city EcoDevo zoning map. Document link field mostly empty.",
+  "verification": {
+    "verified_at": 1792134467757,
+    "counties": [
+      "20175"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

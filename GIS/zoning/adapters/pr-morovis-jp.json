@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-morovis-jp",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/Analisis_cali_MIL1/MapServer/7",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72101"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "municipio = 'Morovis'",
+  "notes": "JP calificación layer (Calificación PR) in the Analisis_cali_MIL1 service; parcel-level polygons filtered to Morovis. Same attributes as calificacion/cali_vige, which times out on spatial queries.",
+  "verification": {
+    "verified_at": 1792139636108,
+    "counties": [
+      "72101"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

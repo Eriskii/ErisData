@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nv-storey",
+  "publisher": "Storey County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/uqDdpZNvJheIun5o/arcgis/rest/services/Landbase_View/FeatureServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32029"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "filter": "ZONE IS NOT NULL AND OBJECTID NOT IN (1896,1893)",
+  "notes": "Storey County landbase zoning (Pictometry map), hosted by county contractor DOWL; some invalid polygons excluded",
+  "verification": {
+    "verified_at": 1792135018801,
+    "counties": [
+      "32029"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

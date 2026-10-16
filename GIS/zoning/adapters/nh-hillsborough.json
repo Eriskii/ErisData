@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nh-hillsborough",
+  "publisher": "Nashua Regional Planning Commission GIS Group",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/2ZriDy2NFXltCIFR/arcgis/rest/services/NRPCOpenData/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33011"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUN",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Multi-town zoning layer from NRPC Open Data (Nashua Regional Planning Commission), covering 13 Hillsborough County towns: Amherst, Brookline, Hollis, Hudson, Litchfield, Lyndeborough, Mason, Merrimack, Milford, Mont Vernon, Nashua, Pelham, Wilton. Other Hillsborough towns (e.g. Manchester, Goffstown, Bedford) are not included; NH counties do not zone. Updated weekly.",
+  "verification": {
+    "verified_at": 1792134965973,
+    "counties": [
+      "33011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

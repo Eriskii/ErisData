@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ma-essex-lynn",
+  "publisher": "City of Lynn, MA (LSDrago ArcGIS Online, Lynn Zoning Map as amended Dec 9, 2025)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/vFKGBS59j3zLGs8e/arcgis/rest/services/Lynn_Zoning_Map/FeatureServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Lynn interactive zoning map as amended 12/9/2025; the PDF zoning map is official. Layer holds one polygon per parcel carrying its district code in ZONE, with no district name field.",
+  "verification": {
+    "verified_at": 1792134490002,
+    "counties": [
+      "25009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

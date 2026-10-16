@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-wheeler-all",
+  "publisher": "Oregon DLCD (statewide zoning compilation, Wheeler County and its cities)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41069"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName IN ('Wheeler County', 'Fossil', 'Mitchell', 'Spray')",
+  "notes": "Oregon DLCD statewide zoning compilation hosted by OR_FRAMEWORK. ownerName gives the jurisdiction: Wheeler County (unincorporated) and the cities Fossil, Mitchell and Spray. Local codes in localZCode/localZDesc not used.",
+  "verification": {
+    "verified_at": 1792135311131,
+    "counties": [
+      "41069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

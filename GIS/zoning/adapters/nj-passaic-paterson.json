@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nj-passaic-paterson",
+  "publisher": "City of Paterson (layer by jkennedy_SpatialDataLogic, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/DvTqoyLKkslnGFR5/arcgis/rest/services/PatersonZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34031"
+    ]
+  },
+  "fields": {
+    "zone": "District",
+    "zone_name": "Descriptio"
+  },
+  "notes": "City of Paterson zoning districts, copied on ArcGIS Online by a consultant account (not the city); only Paterson land. Attribute ProposedZo holds proposed zoning and is not used.",
+  "verification": {
+    "verified_at": 1792135029532,
+    "counties": [
+      "34031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "id-teton-tetonia",
+  "publisher": "Teton County GIS (City of Tetonia zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/as6biEYkl7PaUM4Y/arcgis/rest/services/ZONING_CURRENT/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16081"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdicti",
+    "zone": "Zone",
+    "zone_name": "Name"
+  },
+  "notes": "City of Tetonia zoning, from Teton County GIS ZONING_CURRENT service.",
+  "verification": {
+    "verified_at": 1792133742687,
+    "counties": [
+      "16081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

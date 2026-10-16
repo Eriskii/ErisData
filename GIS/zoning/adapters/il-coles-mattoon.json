@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-coles-mattoon",
+  "publisher": "City of Mattoon (hosted by Coles County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.colesco.illinois.gov/arcgis/rest/services/City_of_Mattoon_Zoning_Map/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17029"
+    ]
+  },
+  "fields": {
+    "zone": "Current_Zone"
+  },
+  "notes": "City of Mattoon zoning only (county does not zone unincorporated land). Layer dated March 31, 2024; Proposed_Zoning field ignored. No zone name or ordinance link in source.",
+  "verification": {
+    "verified_at": 1792133991739,
+    "counties": [
+      "17029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

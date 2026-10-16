@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-bourbon",
+  "publisher": "Bourbon County Joint Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/cf72f7f93e174e94bc4ca9c5a6b7ee7d/data",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "21017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE"
+  },
+  "notes": "County Zoning 2026 GeoJSON published by bourboncountyplanning on ArcGIS Online; covers county and city zoning per the county planning map",
+  "verification": {
+    "verified_at": 1792134338475,
+    "counties": [
+      "21017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

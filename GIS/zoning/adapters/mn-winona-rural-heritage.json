@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-winona-rural-heritage",
+  "publisher": "Winona County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services4.arcgis.com/JRjQuFG9VKLnZxt7/arcgis/rest/services/Winona_Zoning_Project_gdb/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27169"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_ID",
+    "zone_name": "ZONING"
+  },
+  "notes": "Rural Heritage zoning from the county zoning project layer; may be a district layer for the Rural Heritage area.",
+  "verification": {
+    "verified_at": 1792134697813,
+    "counties": [
+      "27169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

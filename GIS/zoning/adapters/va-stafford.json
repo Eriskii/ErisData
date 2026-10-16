@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-stafford",
+  "publisher": "Stafford County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/qKiA6JuCrE2l72iL/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51179"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE1"
+  },
+  "notes": "Stafford County zoning layer from the county ArcGIS open data (gis_stafford_va). Parcel-keyed (PRCLID, about 63k records); ZONE1 holds the district code. No district-name field published.",
+  "verification": {
+    "verified_at": 1792135943969,
+    "counties": [
+      "51179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

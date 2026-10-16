@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-lorain-city",
+  "publisher": "City of Lorain, Ohio",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityoflorain.org/server/rest/services/Public_Services/Zoning_Map_Public_View/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39093"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Code",
+    "zone_name": "Notes"
+  },
+  "notes": "City of Lorain own zoning districts, published by the City of Lorain. Covers only the city of Lorain; the county layer oh-lorain codes Lorain City as undetermined. Generalization field holds RES/COM/IND category codes.",
+  "verification": {
+    "verified_at": 1792135199970,
+    "counties": [
+      "39093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

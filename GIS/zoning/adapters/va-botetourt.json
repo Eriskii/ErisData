@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-botetourt",
+  "publisher": "Botetourt County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/6h5xc2eGkGuRiFia/arcgis/rest/services/Zoning_/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51023"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Botetourt County official zoning layer from the county webgis ArcGIS org. Zone field holds district code; no name or ordinance link field published.",
+  "verification": {
+    "verified_at": 1792135871524,
+    "counties": [
+      "51023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

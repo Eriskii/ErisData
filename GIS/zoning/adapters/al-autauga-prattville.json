@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-autauga-prattville",
+  "publisher": "City of Prattville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/fWUhmUATXl9W5CJW/arcgis/rest/services/ZONING_JULY_2017/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "01001"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE",
+    "zone": "ZONING_07"
+  },
+  "notes": "City of Prattville zoning only (city limits), not unincorporated county. Layer displays as Zoning_2022; 462 polygons.",
+  "verification": {
+    "verified_at": 1792133647927,
+    "counties": [
+      "01001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

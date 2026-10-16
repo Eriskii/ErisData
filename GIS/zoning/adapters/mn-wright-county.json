@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-wright-county",
+  "publisher": "Wright County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/CiQCvRGImIxsaFnM/arcgis/rest/services/Zoning_Wright_County/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27171"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "Wright County zoning districts published by the county GIS office on its ArcGIS Online organization. Layer is in a Lambert projection; the service reports geometry in its own coordinate system and the runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792134632126,
+    "counties": [
+      "27171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

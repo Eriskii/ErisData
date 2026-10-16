@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ms-simpson-magee",
+  "publisher": "Central Mississippi Planning and Development District (for City of Magee)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Simpson_County_Feature_Layer/FeatureServer/20",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28127"
+    ]
+  },
+  "fields": {
+    "link": "zone_link",
+    "zone": "zone"
+  },
+  "notes": "Magee zoning map dated Oct 2009; may be outdated.",
+  "verification": {
+    "verified_at": 1792134882521,
+    "counties": [
+      "28127"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

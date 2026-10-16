@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-columbia",
+  "publisher": "City of Columbia GIS Office",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gocolumbiamo.com/arcgis/rest/services/Open_Data/City_Zoning/MapServer/0",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29019"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT"
+  },
+  "notes": "City of Columbia open-data zoning polygons (city land only, Boone County portion of Columbia). DISTRICT_TYPE is almost always empty and not mapped. Slow server; small page size needed.",
+  "verification": {
+    "verified_at": 1792135251291,
+    "counties": [
+      "29019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

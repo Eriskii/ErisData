@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "55041",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=1198&LayerID=36063&PageTypeID=1&PageID=13677",
+    "https://geodata.wisc.edu/catalog/D75B0372-03A1-4263-9CEE-BFCCA870330B",
+    "https://co.forest.wi.gov/zoning-land-use-1"
+  ],
+  "note": "Forest County publishes zoning only through a Schneider Beacon viewer (no REST service) and a 2017 file-geodatabase download (Forest_Zoning_2017.zip, not readable as shapefile). The statewide V3 GENERAL shapefile returned no Forest County features. No ArcGIS service found from the county, NCWRPC, the state, or any city/town.",
+  "recorded_at": 1792136703117,
+  "recheck_after": 1807688703117,
+  "model": "claude-sonnet-5-5"
+}

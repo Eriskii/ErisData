@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-uvalde-city",
+  "publisher": "City of Uvalde (planning, ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/rYuBOBpgZpvgUVEM/arcgis/rest/services/Zoning__Boundary_and_ETJ_Map_10_8_2024_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48463"
+    ]
+  },
+  "fields": {
+    "link": "Notes",
+    "zone": "Zone"
+  },
+  "notes": "City of Uvalde zoning districts (city limits only; unincorporated county not covered). Map as of 10-8-2024 from the city map viewer. Zone holds district code; Notes holds free text. Layer hosted by AndersonSusan in ArcGIS Online and used by the city viewer.",
+  "verification": {
+    "verified_at": 1792135773069,
+    "counties": [
+      "48463"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

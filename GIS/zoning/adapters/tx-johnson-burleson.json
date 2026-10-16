@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-johnson-burleson",
+  "publisher": "City of Burleson GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.burlesontx.com/server/rest/services/Open_GIS_Data/OpenData/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48251"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CLASS"
+  },
+  "notes": "City of Burleson zoning only (covers the city part of Johnson County). ZONE_CLASS is the district code; no district name published. SOURCE holds the zoning case or ordinance number.",
+  "verification": {
+    "verified_at": 1792135687268,
+    "counties": [
+      "48251"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

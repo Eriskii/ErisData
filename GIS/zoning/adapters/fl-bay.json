@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-bay",
+  "publisher": "Bay County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.baycountyfl.gov/arcgis/rest/services/LandUsePlanning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Bay County FL zoning districts layer (MapServer layer 1, about 8555 polygons). ZONING holds the district code. SUB_ZONING and Label carry sub-district variants. No ordinance URL field is filled. City zoning may not be included.",
+  "verification": {
+    "verified_at": 1792133635078,
+    "counties": [
+      "12005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tn-washington-johnsoncity",
+  "publisher": "City of Johnson City GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.johnsoncitytn.org/arcgis/rest/services/LandUsePlanning/Zoning_and_Overlays/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47179"
+    ]
+  },
+  "fields": {
+    "link": "HYPERLINK",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Johnson City zoning polygons; the city extends into Washington County (mainly Boones Creek area). Covers city land only.",
+  "verification": {
+    "verified_at": 1792135723869,
+    "counties": [
+      "47179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

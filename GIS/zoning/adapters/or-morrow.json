@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "or-morrow",
+  "publisher": "Morrow County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/MQGnkVpUbcAxMorv/arcgis/rest/services/morrow_zoning_06JUNE2023/FeatureServer/558",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41049"
+    ]
+  },
+  "fields": {
+    "zone": "ZID",
+    "zone_name": "FullName"
+  },
+  "notes": "Morrow County zoning layer (morrow_zoning_AUG2025) on the county ArcGIS organization. Covers county zoning districts; a few features carry a city name in CITY (e.g. LEXINGTON) and are not mapped to jurisdiction since it is blank for most. link field URL holds only an ordinance code, so not mapped.",
+  "verification": {
+    "verified_at": 1792135333814,
+    "counties": [
+      "41049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

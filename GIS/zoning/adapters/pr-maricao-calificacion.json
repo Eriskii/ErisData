@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-maricao-calificacion",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/MapServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72093"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "municipio = 'Maricao'",
+  "notes": "JP statewide calificacion vigente; parcel-level polygons",
+  "verification": {
+    "verified_at": 1792139651935,
+    "counties": [
+      "72093"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

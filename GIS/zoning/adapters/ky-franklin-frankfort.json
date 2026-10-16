@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ky-franklin-frankfort",
+  "publisher": "City of Frankfort, KY (GDITAdmin)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/1Mn98EWnWi3Ezwj3/ArcGIS/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21073"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Frankfort parcel zoning: parcel polygons carrying the zoning code in ZONE. Covers only the City of Frankfort, not the unincorporated county, which the county planning GIS (FranklinCountyZoning_WFL1 Zoning layer) publishes but its Zoning field refuses queries.",
+  "verification": {
+    "verified_at": 1792134370629,
+    "counties": [
+      "21073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

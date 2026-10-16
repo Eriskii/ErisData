@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "me-washington-lupc",
+  "publisher": "Maine Land Use Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/LUPC_TEST/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "23029"
+    ]
+  },
+  "fields": {
+    "link": "COMMENT",
+    "zone": "ZONE"
+  },
+  "notes": "Maine LUPC zoning for the unorganized territories only; towns zone themselves and are not in this layer. Hosted by the state LUPC (service named TEST; the state GIS server gis.maine.gov was unreachable during validation). Zone codes as published by LUPC.",
+  "verification": {
+    "verified_at": 1792134825041,
+    "counties": [
+      "23029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

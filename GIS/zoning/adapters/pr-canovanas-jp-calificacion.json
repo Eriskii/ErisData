@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pr-canovanas-jp-calificacion",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/MapServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72029"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali_2021",
+    "zone_name": "cali_2021_desc"
+  },
+  "notes": "JP official calificacion layer; statewide parcel-level polygons, rows carry municipio",
+  "verification": {
+    "verified_at": 1792139007285,
+    "counties": [
+      "72029"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

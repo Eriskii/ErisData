@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-kerr-kerrville",
+  "publisher": "City of Kerrville, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ijqs2ihddUy84otW/arcgis/rest/services/ZoningDistrict_Current/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48265"
+    ]
+  },
+  "fields": {
+    "link": "documentlink",
+    "zone": "maplabel",
+    "zone_name": "currentzoning"
+  },
+  "notes": "City of Kerrville zoning only (city limits, not unincorporated Kerr County). Hosted by the City of Kerrville organization. Zoning code adopted by Ordinance #2019-17.",
+  "verification": {
+    "verified_at": 1792135690995,
+    "counties": [
+      "48265"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

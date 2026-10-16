@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-hennepin-edenprairie",
+  "publisher": "City of Eden Prairie GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.edenprairie.org/maps/rest/services/Public/PublicCityMap/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27053"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Eden Prairie public city map Zoning layer (19,824 features, parcel-level polygons carrying each parcel zoning code, with PID and ADDRESS). Covers Eden Prairie only. No zone name field.",
+  "verification": {
+    "verified_at": 1792130957457,
+    "counties": [
+      "27053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

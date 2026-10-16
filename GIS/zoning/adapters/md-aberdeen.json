@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-aberdeen",
+  "publisher": "City of Aberdeen, MD",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/8aEFDpXlNyQgcMtl/arcgis/rest/services/Zones/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24025"
+    ]
+  },
+  "fields": {
+    "zone": "Type_",
+    "zone_name": "Desc_"
+  },
+  "notes": "City of Aberdeen zoning districts from the City zoning/land use web map (layer Zones). Type_ is the district code (M-1, B-3); Desc_ is code plus name.",
+  "verification": {
+    "verified_at": 1792134858089,
+    "counties": [
+      "24025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

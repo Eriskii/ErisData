@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-brule-pukwana",
+  "publisher": "Brule County GIS (via District III GIS), City of Pukwana zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/BRULE_COUNTY_WEB_LAYERS/MapServer/42",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "LOCATION"
+  },
+  "notes": "City of Pukwana zoning districts from the county web layers service hosted by District III GIS. LOCATION field holds the location description; ZONING holds the district code.",
+  "verification": {
+    "verified_at": 1792135425674,
+    "counties": [
+      "46015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

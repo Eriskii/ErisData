@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-riverside-city",
+  "publisher": "City of Riverside Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapriverside.riversideca.gov/server/rest/services/Planning/Zoning_Official/MapServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneAbbreviation",
+    "zone_name": "ZoneDescription"
+  },
+  "notes": "City of Riverside base zoning only (overlay zones in separate layers, not included). Covers the City of Riverside, not the rest of the county.",
+  "verification": {
+    "verified_at": 1792134040268,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

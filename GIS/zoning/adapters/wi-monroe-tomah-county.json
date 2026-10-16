@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wi-monroe-tomah-county",
+  "publisher": "City of Tomah, WI (County Zoning layer in its ArcGIS Online base data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Vf2lYNnxN2JD6hEv/arcgis/rest/services/TomahBaseDataMisc/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55081"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "link": "LINK",
+    "zone": "Zoning_Code",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "County Zoning layer from the City of Tomah ArcGIS Online organization; jurisdiction field names the municipality.",
+  "verification": {
+    "verified_at": 1792136272160,
+    "counties": [
+      "55081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

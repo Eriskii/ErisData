@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-muscatine",
+  "publisher": "Muscatine County GIS (MAGIC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/YKu9KTHe0ln1JUmf/arcgis/rest/services/Muscatine_County_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19139"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "ZONECLASS <> 'CO-A1'",
+  "notes": "Countywide zoning layer hosted by MAGIC county GIS partnership; no jurisdiction field. CO-A1 (agricultural) polygons excluded because one oversized CO-A1 geometry is invalid and fails validation; agricultural land is therefore not mapped. No city zoning included.",
+  "verification": {
+    "verified_at": 1792134212730,
+    "counties": [
+      "19139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

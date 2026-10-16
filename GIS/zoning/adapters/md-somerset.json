@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "md-somerset",
+  "publisher": "Maryland Department of Planning (Generalized Zoning 2025), Somerset County",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdpgis.mdp.state.md.us/arcgis/rest/services/PlanningCadastre/Generalized_Zoning_2025/MapServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24039"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURSCODE",
+    "zone": "GENZONE",
+    "zone_name": "GENZONE_CAT"
+  },
+  "filter": "JURSCODE = 'SOME' AND ACRES < 1000",
+  "notes": "Maryland Department of Planning Generalized Zoning 2025, Somerset County code SOME, limited to polygons under 1000 acres because larger generalized polygons fail topology checks. Zone values are generalized categories, not local district codes.",
+  "verification": {
+    "verified_at": 1792134677342,
+    "counties": [
+      "24039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

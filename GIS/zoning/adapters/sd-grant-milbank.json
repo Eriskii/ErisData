@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-grant-milbank",
+  "publisher": "First District GIS for Grant County / City of Milbank",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Grant/grantmapnetpro/MapServer/97",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46051"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "LABEL",
+    "zone_name": "Zon2021"
+  },
+  "notes": "City of Milbank zoning only (layer 97 of Grant grantmapnetpro MapServer, hosted by First District GIS, Watertown SD). Zon2021 is the current district name; Zon2001 is the prior one. ZonChange holds pending rezonings. County unincorporated zoning in this service is parcel-based with no district code, so it is not included.",
+  "verification": {
+    "verified_at": 1792135457133,
+    "counties": [
+      "46051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

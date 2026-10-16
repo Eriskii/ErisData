@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-tuolumne",
+  "publisher": "Tuolumne County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/afQpMaliVrwHS7Ud/arcgis/rest/services/Parcels_WithSiteAddress_view/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06109"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Parcel layer (not a district layer) carrying each parcel zoning as the ZONING attribute, e.g. P, O, AE-160, R-1; no standalone district polygon layer found on the county ArcGIS server. Polygons are parcels; many parcels share a zone. Ordinance links are HTML anchors in OrdinanceLinkPro and are not mapped.",
+  "verification": {
+    "verified_at": 1792134247018,
+    "counties": [
+      "06109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

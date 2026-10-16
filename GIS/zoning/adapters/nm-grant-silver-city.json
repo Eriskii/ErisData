@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nm-grant-silver-city",
+  "publisher": "Town of Silver City, NM (MapTech)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/pUb94Lm6bV5PxFu8/arcgis/rest/services/ZONING_SEPT23/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Silver City zoning only (town limits); Grant County unincorporated land has no county zoning per 2017 comprehensive plan. Single zone field; no jurisdiction or link fields.",
+  "verification": {
+    "verified_at": 1792134993866,
+    "counties": [
+      "35017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

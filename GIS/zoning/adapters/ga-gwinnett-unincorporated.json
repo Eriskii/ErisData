@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-gwinnett-unincorporated",
+  "publisher": "Gwinnett County Planning & Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis3.gwinnettcounty.com/mapvis/rest/services/GISDataBrowser/GC_Planning/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13135"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "TYPE"
+  },
+  "notes": "Unincorporated Gwinnett zoning districts from the county GC_Planning GIS data browser service. Municipal zoning is a separate layer (MapServer/12).",
+  "verification": {
+    "verified_at": 1792133906200,
+    "counties": [
+      "13135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

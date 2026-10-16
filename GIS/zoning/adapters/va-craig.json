@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-craig",
+  "publisher": "Craig County GIS (DPMC_GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/cGI8zn9Oo7U9dF6z/arcgis/rest/services/CraigCounty_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51045"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "filter": "zoning <> 'N/A' AND GIS_Acres < 300",
+  "notes": "Craig County zoning hosted by DPMC_GIS. PARTIAL: filter excludes N/A (unzoned) polygons and districts >=300 acres, because the source layer stores invalid (self-intersecting) geometry for many large districts and fails polygon validity. Source layer needs geometry repair for full coverage.",
+  "verification": {
+    "verified_at": 1792135966589,
+    "counties": [
+      "51045"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

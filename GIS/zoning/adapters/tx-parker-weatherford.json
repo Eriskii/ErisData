@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-parker-weatherford",
+  "publisher": "City of Weatherford GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.weatherfordtx.gov/arcgis/rest/services/Public_Planning_Development/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48367"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance_Number",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "City of Weatherford zoning districts only (county seat, not unincorporated county). Parker County itself publishes no zoning layer found in search. Source CRS is state plane; runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792135728506,
+    "counties": [
+      "48367"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-mclean-unincorporated",
+  "publisher": "McLean County GIS (McGIS Consortium)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.mcgisweb.org/mcgc/rest/services/OpenData/OpenData/MapServer/18",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17113"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_"
+  },
+  "notes": "County zoning for unincorporated McLean County only; incorporated areas are in separate city layers. Zone description not in this layer.",
+  "verification": {
+    "verified_at": 1792134050209,
+    "counties": [
+      "17113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-greene-fairborn",
+  "publisher": "City of Fairborn",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/oIU12Wxnra58ujku/arcgis/rest/services/Fairborn_Feature_Service_Layers_Map/FeatureServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39057"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "DISTRICT",
+    "zone": "ZONE_ABBR",
+    "zone_name": "Pr_Zone_17"
+  },
+  "notes": "City of Fairborn hosted layer Zoning_Fairborn1; parcel-based polygons carrying each parcel's zoning district (no dissolved district layer published); Fairborn is not in the county zoning layer",
+  "verification": {
+    "verified_at": 1792135308696,
+    "counties": [
+      "39057"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

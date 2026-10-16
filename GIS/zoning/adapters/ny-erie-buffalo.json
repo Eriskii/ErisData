@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-erie-buffalo",
+  "publisher": "City of Buffalo GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.buffalony.gov/server/rest/services/BaseFiles/Zoning_GreenCode/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36029"
+    ]
+  },
+  "fields": {
+    "zone": "GCode",
+    "zone_name": "ExstngZone"
+  },
+  "notes": "City of Buffalo only (not the whole county). Buffalo Green Code UDO zoning districts; zone = GCode (Green Code district, e.g. D-C, D-OG); ExstngZone is the prior existing zone code. Parcel-scale polygons.",
+  "verification": {
+    "verified_at": 1792135048282,
+    "counties": [
+      "36029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

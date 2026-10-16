@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-wauwatosa",
+  "publisher": "City of Wauwatosa",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wauwatosa.net/geo/rest/services/Planning/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55079"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Cod",
+    "zone_name": "Zoning_Des"
+  },
+  "notes": "City of Wauwatosa base zoning districts (Planning/Zoning MapServer layer 0)",
+  "verification": {
+    "verified_at": 1792136116346,
+    "counties": [
+      "55079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

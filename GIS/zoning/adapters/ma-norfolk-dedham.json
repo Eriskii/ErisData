@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ma-norfolk-dedham",
+  "publisher": "Town of Dedham GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.dedhamma.gov/arcgis/rest/services/public/PropertyOverlay/MapServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25021"
+    ]
+  },
+  "fields": {
+    "link": "articles",
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "Town of Dedham only (single-town layer). Official Dedham GIS overlay service.",
+  "verification": {
+    "verified_at": 1792134506457,
+    "counties": [
+      "25021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

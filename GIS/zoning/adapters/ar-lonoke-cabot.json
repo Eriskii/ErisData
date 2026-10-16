@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ar-lonoke-cabot",
+  "publisher": "City of Cabot, AR (via Garver GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/eNPJk90aMrXNOKF8/arcgis/rest/services/CABOT_ZONING_MAP_UPDATES_JAN_2022/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05085"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_"
+  },
+  "notes": "City of Cabot zoning districts only (Cabot lies mostly in Lonoke County, partly Pulaski). Source is the city-branded Garver GIS service; ORD holds ordinance number. No county-wide zoning layer found.",
+  "verification": {
+    "verified_at": 1792133774694,
+    "counties": [
+      "05085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

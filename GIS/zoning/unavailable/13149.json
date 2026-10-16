@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13149",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.heardcountyga.com/Heard%20County%20Zoning%20Map.pdf",
+    "https://www.heardcountyga.com/bzHome.html",
+    "https://assessorsearch.com/property-records/georgia/heard-county"
+  ],
+  "note": "Heard County (GA) publishes its zoning districts only as a static PDF map (Heard County Zoning Map.pdf, plotted 9/16/2020, compiled by Middle Georgia Mapping). The county's building and zoning page links no ArcGIS or REST zoning service. The county parcel layer HeardCountyParcels on ArcGIS Online (services7.arcgis.com/shlUlNKW81IHLNtJ) requires a token, so it cannot be queried. The qPublic (Schneider) parcel viewer offers no REST endpoint. No zoning layer for the City of Franklin or the other Heard municipalities turned up in ArcGIS search. The only ArcGIS zoning item found for Franklin is Franklin, Tennessee, which is a different city.",
+  "recorded_at": 1792133961871,
+  "recheck_after": 1807685961871,
+  "model": "claude-haiku-5-5"
+}

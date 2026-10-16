@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-ste-genevieve-city",
+  "publisher": "City of Ste. Genevieve (via SEMO RPC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Y3DdIJsZJB2lTzhW/arcgis/rest/services/Ste_Gen_Web_Zoning_ReadOnly/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29186"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneClass"
+  },
+  "notes": "City of Ste. Genevieve zoning districts only (not unincorporated county land), published by SEMO RPC for the city. zone_name (ZoneDesc) is empty in the source.",
+  "verification": {
+    "verified_at": 1792134828149,
+    "counties": [
+      "29186"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

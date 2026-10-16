@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ar-greene-paragould",
+  "publisher": "Paragould (draft zoning copy on ArcGIS Online, user Bobbarber)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/zxqi28jLbBeyF8Y2/arcgis/rest/services/Draft_Paragould_Zoning_Map_WFL1/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05055"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Placetype"
+  },
+  "notes": "Unofficial copy: a draft Paragould Zoning Map uploaded to ArcGIS Online by user Bobbarber, not the city service. The official City of Paragould layer maps.paragould.com/arcgis/rest/services/Zoning/MapServer/0 returns HTTP 500 to every query. City of Paragould city limits only; unincorporated Greene County not covered. zone_name is the planning placetype, not the zone description.",
+  "verification": {
+    "verified_at": 1792133810702,
+    "counties": [
+      "05055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

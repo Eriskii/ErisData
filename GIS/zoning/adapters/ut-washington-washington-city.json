@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-washington-washington-city",
+  "publisher": "Washington County GIS (City of Washington zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://agisprodvm.washco.utah.gov/arcgis/rest/services/Zoning/MapServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49053"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "SOURCE",
+    "zone": "ZONINGCODE"
+  },
+  "notes": "City of Washington zoning districts, hosted by Washington County GIS. zone_name is null in source.",
+  "verification": {
+    "verified_at": 1792135872048,
+    "counties": [
+      "49053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

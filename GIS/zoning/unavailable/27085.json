@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "27085",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.mcleodcountymn.gov/departments/environmental_services/planning___zoning/zoning_map.php",
+    "https://cms5.revize.com/revize/mcleod/McLeod%20County%20Zoning%20Map_3-13-17.pdf",
+    "https://gis.mcleodcountymn.gov/",
+    "https://hutchinsonmn.gov/wp-content/uploads/2024/02/2024-Zoning.pdf"
+  ],
+  "note": "McLeod County publishes its zoning districts only as a static 2017 PDF map (prepared by County GIS). Its GeoMoose interactive viewer (gis.mcleodcountymn.gov, HeiGeo) exposes parcel mapping and no queryable zoning service was found; no ArcGIS REST zoning layer exists on the county's hub, MnGeo, or ArcGIS Online. Cities checked: Hutchinson publishes a 2024 zoning PDF, Glencoe a code PDF and map on its site, Winsted a 2017 zoning map (PDF). A generic 'Zoning_Districts' FeatureServer found on ArcGIS Online (services.arcgis.com/f4rR7WnIfGBdVYFd) is not McLeod (no features in the county bounding box; its codes are a different city's chapter scheme).",
+  "recorded_at": 1792134624202,
+  "recheck_after": 1807686624202,
+  "model": "claude-haiku-5-5"
+}

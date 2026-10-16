@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-sevier-richfield",
+  "publisher": "Richfield City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/PmhEdhGbiU6Fds6f/arcgis/rest/services/ZoningData/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49041"
+    ]
+  },
+  "fields": {
+    "zone": "ZONES",
+    "zone_name": "ZONING_DESCR"
+  },
+  "notes": "Richfield City zoning district map (from city ArcGIS Online Zoning Map web map)",
+  "verification": {
+    "verified_at": 1792135951389,
+    "counties": [
+      "49041"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

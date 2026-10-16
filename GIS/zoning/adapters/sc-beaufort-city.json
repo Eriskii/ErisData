@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sc-beaufort-city",
+  "publisher": "City of Beaufort GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/NpTdr5u1ft9aY31O/arcgis/rest/services/City_of_Beaufort_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45013"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "ZONING_ABB",
+    "zone_name": "Zoning_Name"
+  },
+  "notes": "City of Beaufort zoning classifications and surrounds (official city layer). Covers City of Beaufort only, not the rest of the county.",
+  "verification": {
+    "verified_at": 1792135356339,
+    "counties": [
+      "45013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

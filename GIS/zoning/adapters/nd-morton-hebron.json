@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nd-morton-hebron",
+  "publisher": "Morton County Planning & Zoning (Hebron zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/KK9EVAUoqJyQSD0q/arcgis/rest/services/ZoningSmallCities/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38059"
+    ]
+  },
+  "fields": {
+    "zone": "PZONING"
+  },
+  "notes": "City of Hebron zoning districts only (every feature is Hebron), prepared by Morton County Zoning and Planning; from the county ArcGIS Online org. Some parcels have no zone code.",
+  "verification": {
+    "verified_at": 1792135145932,
+    "counties": [
+      "38059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

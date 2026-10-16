@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nd-mercer-beulah",
+  "publisher": "City of Beulah, ND",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/bd4qX9P8cYmDeN2V/arcgis/rest/services/aZoning_view/FeatureServer/33",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38057"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneLabel",
+    "zone_name": "ZoneName"
+  },
+  "notes": "City of Beulah zoning districts only (layer from the city of Beulah public GIS app, aZoning_view); not county-wide. Covers city limits only, not unincorporated county land.",
+  "verification": {
+    "verified_at": 1792135166555,
+    "counties": [
+      "38057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

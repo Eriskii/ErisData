@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-tompkins-danby",
+  "publisher": "Tompkins County GIS (Town of Danby zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/oJbAAWNInLrxvF0A/arcgis/rest/services/DanbyZoning24M/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36109"
+    ]
+  },
+  "fields": {
+    "zone": "NEWZONING"
+  },
+  "notes": "Town of Danby zoning districts (2022 adopted zoning law), dissolved by district, hosted by Tompkins County GIS; not the authoritative source per the publisher",
+  "verification": {
+    "verified_at": 1792135053155,
+    "counties": [
+      "36109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

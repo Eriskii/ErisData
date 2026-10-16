@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-wadena",
+  "publisher": "Wadena County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.wadena.mn.us/arcgis/rest/services/LinkPublic/MapServer/27",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27159"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE"
+  },
+  "notes": "Wadena County is county-wide zoned (no city zoning layer found); unincorporated county zoning districts. Shoreland overlay is a separate layer (26) and not used.",
+  "verification": {
+    "verified_at": 1792134529617,
+    "counties": [
+      "27159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

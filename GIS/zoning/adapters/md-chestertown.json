@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "md-chestertown",
+  "publisher": "Town of Chestertown (hosted by Washington College GIS)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/utBig56dGaw25bwu/arcgis/rest/services/Chestertown_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24029"
+    ]
+  },
+  "fields": {
+    "zone": "LAYER"
+  },
+  "notes": "Chestertown zoning map (Sept 2024) hosted by Washington College GIS on ArcGIS Online, linked from the town zoning-update hub; not the town's own org. District code in LAYER; layer has parcel attributes joined.",
+  "verification": {
+    "verified_at": 1792134933221,
+    "counties": [
+      "24029"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

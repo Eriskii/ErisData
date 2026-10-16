@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-oconto",
+  "publisher": "Oconto County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://oc17maps.co.oconto.wi.us/arcgis/rest/services/SOLO/OcontoCo_Overlays/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55083"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "link": "LINK",
+    "zone": "Zoning"
+  },
+  "notes": "County zoning districts layer (Oconto County GIS, SOLO OcontoCo_Overlays); JURISDICTION names the town or city whose zoning it is; zone_name not populated in source.",
+  "verification": {
+    "verified_at": 1792136061779,
+    "counties": [
+      "55083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

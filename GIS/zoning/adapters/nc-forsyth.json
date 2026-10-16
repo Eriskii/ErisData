@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-forsyth",
+  "publisher": "Forsyth County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.forsyth.nc.us/arcgis/rest/services/MapMetrics/terra/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37067"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONING_JURISDICTION",
+    "zone": "ZONING_DISTRICT"
+  },
+  "notes": "Countywide zoning for Forsyth County incl. Winston-Salem and municipalities, one layer with jurisdiction field",
+  "verification": {
+    "verified_at": 1792135061684,
+    "counties": [
+      "37067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

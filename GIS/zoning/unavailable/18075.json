@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "18075",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://jaycounty.net/plugins/content/content.php?content.22",
+    "https://www.in.gov/counties/jay/departments/building-and-planning/",
+    "https://beacon.schneidercorp.com/Application.aspx?App=JayCountyIN&PageType=Map",
+    "https://thecityofportland.net/e107_images/file/portlandzoningordinance.pdf"
+  ],
+  "note": "Jay County zoning is published only as PDF ordinance/maps and through the Schneider Beacon eGIS viewer (APP JayCountyIN), which serves an anti-bot challenge (HTTP 403) and has no public ArcGIS REST zoning layer. No queryable zoning district service found for the county or for Portland or Dunkirk (Portland's map is in a PDF ordinance; Dunkirk has no zoning map online).",
+  "recorded_at": 1792134160797,
+  "recheck_after": 1807686160797,
+  "model": "claude-haiku-5-5"
+}

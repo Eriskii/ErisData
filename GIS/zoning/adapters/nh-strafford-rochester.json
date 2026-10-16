@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nh-strafford-rochester",
+  "publisher": "NH Zoning Atlas (Rochester)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Atlas_Zoning_Districts_Buildable/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "33017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "AbbreviatedDistrict",
+    "zone_name": "Full_District_Name"
+  },
+  "filter": "County = 'Strafford' AND Jurisdiction = 'Rochester'",
+  "notes": "NH Zoning Atlas copy (not the city official); Rochester only; geojson=false needed for valid geometry",
+  "verification": {
+    "verified_at": 1792135164207,
+    "counties": [
+      "33017"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

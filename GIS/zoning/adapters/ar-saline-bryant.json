@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ar-saline-bryant",
+  "publisher": "City of Bryant, Arkansas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/i5NejKibaScmWjOr/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05125"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Bryant zoning districts only, not county-wide; Saline County unincorporated land and other cities (Benton, Shannon Hills, Haskell) are not covered by this layer. TND Overlay layer 0 excluded. zone_name left unmapped: OLDZONE holds legacy codes.",
+  "verification": {
+    "verified_at": 1792133775624,
+    "counties": [
+      "05125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

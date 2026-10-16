@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-jefferson-wheatridge",
+  "publisher": "City of Wheat Ridge Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aZEZgA7GEh819dvL/arcgis/rest/services/Wheat_Ridge_Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08059"
+    ]
+  },
+  "fields": {
+    "link": "ZoningCode",
+    "zone": "ZONINGDIST",
+    "zone_name": "Class"
+  },
+  "notes": "City of Wheat Ridge zoning districts only (city limits, within Jefferson County). Published by the city.",
+  "verification": {
+    "verified_at": 1792133822863,
+    "counties": [
+      "08059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

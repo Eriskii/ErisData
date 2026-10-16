@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-wood-marshfield",
+  "publisher": "City of Marshfield GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/SZYqn7iYnvAZ1Q4U/arcgis/rest/services/Zoning_Online/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55141"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "City of Marshfield zoning (city lies mostly in Wood County, partly Marathon)",
+  "verification": {
+    "verified_at": 1792136211423,
+    "counties": [
+      "55141"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

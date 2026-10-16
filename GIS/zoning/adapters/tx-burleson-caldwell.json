@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-burleson-caldwell",
+  "publisher": "City of Caldwell, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/LZh7qcfdxIug649j/arcgis/rest/services/Zoning_layers_2/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48051"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDist",
+    "zone_name": "Land_Use"
+  },
+  "notes": "City of Caldwell (county seat) zoning districts from the city viewer Zoning Districts layer; covers only the city, not unincorporated Burleson County, which Texas counties do not zone. Layer appears parcel-based (PropID, SiteAddres), so each feature may be a parcel carrying its district.",
+  "verification": {
+    "verified_at": 1792135629337,
+    "counties": [
+      "48051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

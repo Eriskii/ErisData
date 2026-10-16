@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-sumter-americus",
+  "publisher": "City of Americus GIS (joint Americus and Sumter County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ga31portal.kcsgis.com/ga31server/rest/services/Public/Public/MapServer/25",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13261"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Americus zoning district layer from the joint Americus and Sumter County GIS public viewer (kcsgis).",
+  "verification": {
+    "verified_at": 1792133949642,
+    "counties": [
+      "13261"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-camden",
+  "publisher": "Camden County GA (copy hosted in ArcGIS Online by tgiarrusso, CoastalZoning 2024)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/I9cUOJUZvdGAJncI/arcgis/rest/services/CoastalZoning/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13039"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "landusedesc"
+  },
+  "notes": "Copy of Camden County zoning uploaded to ArcGIS Online by an individual account (tgiarrusso, 2024 coastal zoning compilation); no official county zoning service was found. ZONE holds district codes such as R-1, A-F, C-G, PD; value City marks city land. Not official.",
+  "verification": {
+    "verified_at": 1792133909293,
+    "counties": [
+      "13039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

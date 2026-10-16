@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-marion",
+  "publisher": "Marion County GIS (Growth Services)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.marionfl.org/public/rest/services/General/PlanningZoning/MapServer/20",
+    "page_size": 5000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Marion County zoning classification polygons, parcel-level zoning managed in larger units; county-maintained.",
+  "verification": {
+    "verified_at": 1792133837359,
+    "counties": [
+      "12083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

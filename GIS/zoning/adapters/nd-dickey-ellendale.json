@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nd-dickey-ellendale",
+  "publisher": "City of Ellendale (hosted by Interstate Engineering)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/1b6yGJdGpf0VHSAZ/arcgis/rest/services/Ellendale_Current_Zoning_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38021"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Ellendale current zoning only (24 polygons); covers the city, not unincorporated county townships. County zoning (dickeynd.com) is published only as static township map images and PDF ordinance.",
+  "verification": {
+    "verified_at": 1792135148506,
+    "counties": [
+      "38021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

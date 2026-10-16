@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-delta-city",
+  "publisher": "City of Delta",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/iISaUisYi4rM2M0D/arcgis/rest/services/Updated_Zoning_May_2026_WFL1_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08029"
+    ]
+  },
+  "fields": {
+    "zone": "CityCodes",
+    "zone_name": "CityZoning"
+  },
+  "notes": "City of Delta (org ArcGIS Online); parcel-based zoning polygons, May 2026 update, current codes. Covers City of Delta only.",
+  "verification": {
+    "verified_at": 1792133966120,
+    "counties": [
+      "08029"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-wicomico",
+  "publisher": "Wicomico County Government (Planning & Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisapps.wicomicocounty.org/server/rest/services/WicomicoZoningMar1/MapServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24045"
+    ]
+  },
+  "fields": {
+    "zone": "COUNTY_ZON",
+    "zone_name": "Zone_Long"
+  },
+  "notes": "County zoning layer covering unincorporated Wicomico County; EPSG 26985 source projection. Cities such as Salisbury zone their own land and are not in this layer.",
+  "verification": {
+    "verified_at": 1792134442834,
+    "counties": [
+      "24045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wv-kanawha-charleston",
+  "publisher": "Regional Intergovernmental Council (RIC), Charleston WV metro",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/fVcw4GvGXZ2a5g3r/arcgis/rest/services/RIC_Zoning_General_Map_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54039"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Charleston zoning as compiled by the Regional Intergovernmental Council (RIC) in its public ArcGIS service. Covers the city only, not unincorporated county land.",
+  "verification": {
+    "verified_at": 1792136093894,
+    "counties": [
+      "54039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

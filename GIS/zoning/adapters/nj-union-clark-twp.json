@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nj-union-clark-twp",
+  "publisher": "Clark Township (Union County, NJ) via topologygis",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/HVAUPEhgOEfMS4MH/arcgis/rest/services/Clark_Township_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34039"
+    ]
+  },
+  "fields": {
+    "link": "CODE_URL",
+    "zone": "ZONE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Clark Township zoning only, hosted by a vendor for the township; not countywide",
+  "verification": {
+    "verified_at": 1792135014545,
+    "counties": [
+      "34039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

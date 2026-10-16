@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pr-isabela",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/Planes_territoriales/isabela_pt/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72071"
+    ]
+  },
+  "fields": {
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "notes": "JP Isabela territorial plan service; current calificación (cali vigente), parcel-level polygons.",
+  "verification": {
+    "verified_at": 1792138937344,
+    "counties": [
+      "72071"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-barranquitas-jp",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72019"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "municipio = 'Barranquitas'",
+  "notes": "JP statewide calificacion layer (vigente) filtered to Barranquitas; server is intermittently slow (503 wait timeouts), FeatureServer endpoint works best",
+  "verification": {
+    "verified_at": 1792139629387,
+    "counties": [
+      "72019"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

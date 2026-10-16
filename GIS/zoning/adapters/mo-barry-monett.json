@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-barry-monett",
+  "publisher": "City of Monett, Missouri",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/JlLHmG5HZMZKIiLr/arcgis/rest/services/Monett_Web_Map/FeatureServer/26",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "29009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Monett zoning layer from the city public web map (published 2021); covers Monett city limits only, not unincorporated Barry County",
+  "verification": {
+    "verified_at": 1792134813574,
+    "counties": [
+      "29009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

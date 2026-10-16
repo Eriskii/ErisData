@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-johnston",
+  "publisher": "Johnston County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/GuzKGtwBFbX83DiX/arcgis/rest/services/Johnston_County_NC_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37101"
+    ]
+  },
+  "fields": {
+    "link": "CASE_NO",
+    "zone": "ZONING"
+  },
+  "notes": "Johnston County unincorporated zoning (county-zoned land only); towns are in separate layer nc-johnston-towns. Hosted by NLRGIS on ArcGIS Online, from county GIS data.",
+  "verification": {
+    "verified_at": 1792135088006,
+    "counties": [
+      "37101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

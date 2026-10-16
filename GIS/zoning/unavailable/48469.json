@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "48469",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.victoriatx.gov/287/Adopted-Codes-Ordinances",
+    "https://maps.victoriatx.gov/arcgis/rest/services",
+    "https://maps.victoriatx.gov/MapViewer/PublicMap.html",
+    "https://www.victoriatx.gov/232/Geographic-Information-Systems-GIS"
+  ],
+  "note": "Searched Victoria County TX. The City of Victoria adopts a Unified Development Ordinance, but its public ArcGIS server (maps.victoriatx.gov: PublishedServices, Districts, Tyler, Cityworks folders) exposes no base zoning district layer; its GIS viewer lists county boundary, city limit, ETJ, roads, but no zoning. ArcGIS Online and Hub searches found no official zoning district service for Victoria County or the City of Victoria. The Zoning_Districts FeatureServer at services.arcgis.com/f4rR7WnIfGBdVYFd is not Texas (features in Alaska), and data-carver 'Victoria Zoning' is a different jurisdiction. Zoning is not published as a queryable service.",
+  "recorded_at": 1792135928340,
+  "recheck_after": 1807687928340,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-union-monroe",
+  "publisher": "City of Monroe NC GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Npa1QfZrf1QnC64L/arcgis/rest/services/ZoningDistricts/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "37179"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "USEDESC"
+  },
+  "notes": "City of Monroe current zoning districts (city limits only; not the county unincorporated areas). Each record is a district polygon with CODE as the district code.",
+  "verification": {
+    "verified_at": 1792135138519,
+    "counties": [
+      "37179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

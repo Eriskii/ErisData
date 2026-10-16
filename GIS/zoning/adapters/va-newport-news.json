@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-newport-news",
+  "publisher": "City of Newport News (copy hosted by dewberry_user on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/ex1Az95h0eiponPK/arcgis/rest/services/Locality_Zones/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51700"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Unofficial copy: a Dewberry-hosted ArcGIS Online regional Locality_Zones layer, Newport News layer (549 features). The city own server maps.nnva.gov Zoning/MapServer/0 was unreachable during this search; the city GeoHub lists it as authoritative. Coordinates reprojected by the service.",
+  "verification": {
+    "verified_at": 1792135969228,
+    "counties": [
+      "51700"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

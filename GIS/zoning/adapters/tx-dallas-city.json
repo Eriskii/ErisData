@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-dallas-city",
+  "publisher": "City of Dallas GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/Dallas_Zoning/FeatureServer/15",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "48113"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_DIST",
+    "zone_name": "LONG_ZONE_DIST"
+  },
+  "notes": "City of Dallas base zoning districts only (overlays and PD subdistricts are separate layers in the same service). Covers the City of Dallas portion of Dallas County.",
+  "verification": {
+    "verified_at": 1792135618659,
+    "counties": [
+      "48113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

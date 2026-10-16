@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-fulton",
+  "publisher": "Fulton County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/AQDHTHDrZzfsFsB5/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13121"
+    ]
+  },
+  "fields": {
+    "zone": "ZClass",
+    "zone_name": "ZClassDesc"
+  },
+  "notes": "Fulton County unincorporated zoning only; cities such as Atlanta, Roswell, Alpharetta, Johns Creek, Sandy Springs zone their own land and are not in this layer. Current zoning classifications.",
+  "verification": {
+    "verified_at": 1792130869938,
+    "counties": [
+      "13121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

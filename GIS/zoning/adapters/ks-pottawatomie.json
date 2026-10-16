@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-pottawatomie",
+  "publisher": "Pottawatomie County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/PottawatomieZoningAtlas/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20149"
+    ]
+  },
+  "fields": {
+    "zone": "DIST",
+    "zone_name": "NAME"
+  },
+  "notes": "Zoning Atlas hosted on ArcGIS Online by the county (Pottawatomie county KS). CUP fields are conditional use permit notes.",
+  "verification": {
+    "verified_at": 1792134278724,
+    "counties": [
+      "20149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-bingham",
+  "publisher": "Bingham County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://web.binghamid.gov/arcgis/rest/services/General_Maps/Planning_Zoning_Map/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Descrip"
+  },
+  "notes": "Bingham County Planning & Zoning Map service, Zoning layer. Covers the county zoning districts; city jurisdictions may be absent. No jurisdiction field.",
+  "verification": {
+    "verified_at": 1792133680240,
+    "counties": [
+      "16011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

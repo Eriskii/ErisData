@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-cape-coral",
+  "publisher": "City of Cape Coral (hosted by Lee County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismapserver.leegov.com/gisserver910/rest/services/Layers/DCD_Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12071"
+    ]
+  },
+  "fields": {
+    "link": "LDR_Hyperlink",
+    "zone": "LMLUZN",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "City of Cape Coral zoning districts from Lee County DCD_Zoning service; publisher describes municipal zoning layers as historic.",
+  "verification": {
+    "verified_at": 1792133939519,
+    "counties": [
+      "12071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

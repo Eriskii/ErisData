@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-collier-marco-island",
+  "publisher": "City of Marco Island GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofmarcoisland.com/arcgis/rest/services/General/Zoning/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "12021"
+    ]
+  },
+  "fields": {
+    "link": "MUNICODE_LINK",
+    "zone": "ZONING",
+    "zone_name": "DESCRIP"
+  },
+  "notes": "City of Marco Island zoning districts only (city limits of Marco Island, within Collier County).",
+  "verification": {
+    "verified_at": 1792133861586,
+    "counties": [
+      "12021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

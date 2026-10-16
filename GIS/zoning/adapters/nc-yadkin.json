@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-yadkin",
+  "publisher": "Yadkin County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yadkincountync.gov/arcgis/rest/services/CountyGISmap/MapServer/40",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37197"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "County zoning for unincorporated Yadkin County; town zoning (Boonville, East Bend, Jonesville, Yadkinville) published as separate layers",
+  "verification": {
+    "verified_at": 1792135101795,
+    "counties": [
+      "37197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-cleveland-kings-mountain",
+  "publisher": "City of Kings Mountain (via Cleveland County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.clevelandcounty.com/arcgis/rest/services/Planning/Zoning/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37045"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "zone": "ZoneType",
+    "zone_name": "ZoneType_Desc"
+  },
+  "notes": "City of Kings Mountain zoning from the county Planning/Zoning MapServer layer 5.",
+  "verification": {
+    "verified_at": 1792135089075,
+    "counties": [
+      "37045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

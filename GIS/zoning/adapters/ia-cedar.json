@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ia-cedar",
+  "publisher": "Cedar County GIS (ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/3IzPAM9R34OL8zbb/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19031"
+    ]
+  },
+  "fields": {
+    "zone": "class"
+  },
+  "filter": "Acres > 5",
+  "verification": {
+    "verified_at": 1792134139592,
+    "counties": [
+      "19031"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "28051",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://holmes.tscmaps.com/ms/holmes",
+    "https://services3.arcgis.com/nJbIFHiSnaX0z0hS/arcgis/rest/services/Holmes_Service/FeatureServer",
+    "https://holmescountyms.org/how-do-i/permits-and-zoning"
+  ],
+  "note": "Holmes County MS has zoning authority over unincorporated land (per mississippistateauthority.com), but no zoning district layer is published. The county's public GIS (agdonline Holmes_Service FeatureServer, used by the tscmaps parcel viewer) has parcels and legislative districts only, with no zoning field. Searches of ArcGIS Hub/Online and the county, Durant and Lexington web presence found no queryable zoning districts service. Commercial parcel vendors mention zoning codes but are not official or queryable.",
+  "recorded_at": 1792134659572,
+  "recheck_after": 1807686659572,
+  "model": "claude-haiku-5-5"
+}

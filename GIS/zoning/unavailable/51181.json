@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "51181",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://surrycountyva.gov/DocumentCenter/View/1528/Surry-ETD-Zoning-District-010424",
+    "https://www.surrycountyva.gov/DocumentCenter/View/134/Zoning-Application-PDF",
+    "https://www.surrycountyva.gov/203/Planning-Community-Development-Documents"
+  ],
+  "note": "Surry County VA zones its land (districts A-L, A-R, RVC, R-1, R-2, B-1, ETD per county ordinance and zoning application), but no queryable zoning polygon service was found. gis.surryinfo.net is Surry County, North Carolina (its COUNTY ZONING layer is at -80.56, 36.49), not Virginia. Hampton Roads regional parcels (geo.hrsd.com HRGeo_Parcels_Public) have no Surry (FIPS 51181) records. Surry County VA's own GIS hosts (gis.surrycountyva.gov, surrycountyva.gov pages) were unreachable or 404. Only commercial or third-party zoning sources (Zoneomics, Regrid, Dynamo) exist.",
+  "recorded_at": 1792136098784,
+  "recheck_after": 1807688098784,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-plaquemines",
+  "publisher": "Plaquemines Parish",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/cgb6W3Qqyxf54QST/arcgis/rest/services/Plaquemines_Parish_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22075"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Description"
+  },
+  "notes": "Copy hosted under ArcGIS Online account josh_lld (Plaquemines Parish Zoning, 232 polygons); no official parish zoning service found in parish GIS or map viewer searches. Verify provenance.",
+  "verification": {
+    "verified_at": 1792134407591,
+    "counties": [
+      "22075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

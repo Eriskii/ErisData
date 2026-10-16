@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ut-san-juan-blanding",
+  "publisher": "City of Blanding, Utah (layer on San Juan County ArcGIS Online account, JD_Admin)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/nSnGtAgSmNZcvEzK/arcgis/rest/services/Blanding_City_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONES"
+  },
+  "notes": "City of Blanding zoning only; unincorporated county land is not in this layer. Zone field holds the district code; no description field.",
+  "verification": {
+    "verified_at": 1792135929752,
+    "counties": [
+      "49037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

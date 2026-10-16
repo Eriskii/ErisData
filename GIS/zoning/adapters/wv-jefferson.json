@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wv-jefferson",
+  "publisher": "Jefferson County, WV (copy hosted on ArcGIS Online by Thrasher_User01)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/6Ryg1DYnVze4GYYo/arcgis/rest/services/Jefferson_County_WV___Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54037"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "notes": "Unofficial copy: an individual ArcGIS Online account (Thrasher_User01) hosts this Jefferson County WV zoning layer; the county gisarcweb zoning services were unreachable from here. District holds the zoning category (e.g. Rural, Residential-Growth); NAME is blank. No jurisdiction field.",
+  "verification": {
+    "verified_at": 1792136053279,
+    "counties": [
+      "54037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

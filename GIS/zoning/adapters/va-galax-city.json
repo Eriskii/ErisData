@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-galax-city",
+  "publisher": "City of Galax, VA (WebGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.webgis.net/arcgis/rest/services/VA/Galax_WebGIS/MapServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51640"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Galax WebGIS zoning layer (hosted by WebGIS.net for the city). Single-jurisdiction city layer; zone code only, no name or ordinance link fields.",
+  "verification": {
+    "verified_at": 1792136003334,
+    "counties": [
+      "51640"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

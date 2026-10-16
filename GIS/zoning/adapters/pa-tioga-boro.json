@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-tioga-boro",
+  "publisher": "Tioga County GIS (Tioga Borough zoning, circa 2017 layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://tiogagis.tiogacountypa.us/arcgis2017/rest/services/Individual_Services/Tioga_Twp_Zoning_Layer/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42117"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Abb"
+  },
+  "notes": "Tioga Borough zoning districts served by Tioga County GIS (layer 0 of the Tioga_Twp_Zoning_Layer service). Zone is the district code as published (C-1, R-1, R-2, R-3, I, MHP, O-S, FP); zone_name holds the short use label.",
+  "verification": {
+    "verified_at": 1792135377254,
+    "counties": [
+      "42117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wv-jackson-ravenswood",
+  "publisher": "City of Ravenswood, WV",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/njSwMJQd8WiRPwIk/arcgis/rest/services/City_of_Ravenswood_view/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54035"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Ravenswood zoning only (ArcGIS Online item by bwilliams_DSS, Current zoning for Ravenswood). Polygons appear parcel-sized.",
+  "verification": {
+    "verified_at": 1792136205897,
+    "counties": [
+      "54035"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

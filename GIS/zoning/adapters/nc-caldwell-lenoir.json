@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-caldwell-lenoir",
+  "publisher": "Caldwell County GIS (City of Lenoir zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.caldwellcountync.org/arcgis/rest/services/WarehouseServices/Zoning/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37027"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY_NAME",
+    "zone": "ZONE_ID"
+  },
+  "notes": "City of Lenoir zoning from the Caldwell County GIS server (WarehouseServices/Zoning layer 8, Lenoir Zoning). Complements the county layer, which lacks Lenoir. Lenoir North Main Zoning (layer 7) is a sub-area layer and is not included.",
+  "verification": {
+    "verified_at": 1792135068725,
+    "counties": [
+      "37027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

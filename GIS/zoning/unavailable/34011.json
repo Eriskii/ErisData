@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "34011",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.cumberlandcountynj.gov/GIS",
+    "https://www.cumberlandcountynj.gov/filestorage/22641/22643/22956/23070/23072/Map_8_-_Zoning_-_General.pdf",
+    "https://njogis-newjersey.opendata.arcgis.com/datasets/njdca::municipal-zoning"
+  ],
+  "note": "Cumberland County GIS lists municipal zoning but publishes no queryable county zoning service (only a data request form and static PDF maps). No Vineland, Millville or Bridgeton zoning service found. The only queryable district layer is NJ Pinelands Commission's Pinelands_Municipal_Zoning (services1.arcgis.com/nCm6SZaiGMuGX35l), covering only certified Pinelands municipalities in the county; it has no districts at the county's interior point, so it fails validation.",
+  "recorded_at": 1792135104502,
+  "recheck_after": 1807687104502,
+  "model": "claude-haiku-5-5"
+}

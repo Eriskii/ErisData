@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ak-juneau",
+  "publisher": "City and Borough of Juneau (parcel copy on State of Alaska DNR open data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.dnr.alaska.gov/arcgis/rest/services/OpenData/Administrative_BoroughParcels/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02110"
+    ]
+  },
+  "fields": {
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Last resort: parcel polygons carrying each parcel zoning in ZONE_DESC, no separate district layer found. District code not provided separately; zone_name holds the zoning description. Parcels, not dissolved district polygons.",
+  "verification": {
+    "verified_at": 1792133758063,
+    "counties": [
+      "02110"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

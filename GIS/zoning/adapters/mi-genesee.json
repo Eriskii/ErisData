@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-genesee",
+  "publisher": "Genesee County GIS / GCMPC",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/5ckbIY7K9TUKoseK/arcgis/rest/services/Zoning_Layer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26049"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CVT",
+    "link": "CommURL",
+    "zone": "Zoning",
+    "zone_name": "ZoneDescr"
+  },
+  "notes": "County-wide compilation of local units of government zoning, generalized into 8 categories (ZoningCat); Zoning holds local district code. Published by Genesee County GIS (ArcGIS Online org 5ckbIY7K9TUKoseK).",
+  "verification": {
+    "verified_at": 1792132287144,
+    "counties": [
+      "26049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

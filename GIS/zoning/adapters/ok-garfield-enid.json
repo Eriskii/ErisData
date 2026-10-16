@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ok-garfield-enid",
+  "publisher": "City of Enid GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.enid.org/server/rest/services/Enid_Zoning/MapServer/29",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40047"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE"
+  },
+  "notes": "City of Enid zoning districts only (Enid is the largest city in Garfield County; unincorporated county land is not in this layer). Layer 29 of Enid_Zoning service; overlay districts are layer 30 and excluded. zone_name and link fields are mostly empty in the source.",
+  "verification": {
+    "verified_at": 1792135247443,
+    "counties": [
+      "40047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

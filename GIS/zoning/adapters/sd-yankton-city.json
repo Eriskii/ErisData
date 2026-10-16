@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sd-yankton-city",
+  "publisher": "City of Yankton, SD (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/aVepqWph7Jkj1aWl/arcgis/rest/services/2016Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46135"
+    ]
+  },
+  "fields": {
+    "zone": "SOURCE"
+  },
+  "notes": "City of Yankton zoning (2025 categories) only; county unincorporated land is in sd-yankton-county.",
+  "verification": {
+    "verified_at": 1792135446651,
+    "counties": [
+      "46135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

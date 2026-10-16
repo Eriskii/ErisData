@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-barrow-winder",
+  "publisher": "City of Winder GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofwinder.com/arcgis/rest/services/Jason/Winder_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Winder zoning districts from the city GIS server; covers the city of Winder only, the largest city in Barrow County.",
+  "verification": {
+    "verified_at": 1792133916664,
+    "counties": [
+      "13013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

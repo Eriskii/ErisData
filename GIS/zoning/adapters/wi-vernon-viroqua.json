@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-vernon-viroqua",
+  "publisher": "City of Viroqua (copy hosted by dcarpiaux, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Cv1S0PETBd8K6xq7/arcgis/rest/services/Viroqua_Zoning_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55123"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Personal ArcGIS Online copy of City of Viroqua zoning (owner dcarpiaux), not hosted by the city or county; used because no official queryable zoning layer exists for Vernon County or Viroqua. Covers City of Viroqua only; zone_name (Zone_Description) is empty in the source. Vernon County unincorporated zoning is not published as a service; the county GIS portal has only floodplain/shoreland overlays.",
+  "verification": {
+    "verified_at": 1792136123796,
+    "counties": [
+      "55123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

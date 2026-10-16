@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-king-william",
+  "publisher": "King William County GIS (CivQuest)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/CAnTNehFM9ZfvDpg/arcgis/rest/services/CivQuestGIS/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "King William County core GIS (CivQuestGIS service, hosted by bbrooks04 on ArcGIS Online; county data per its title). Zoning polygons carry only a zone code, no name or ordinance link. Town of West Point may or may not be included.",
+  "verification": {
+    "verified_at": 1792135959439,
+    "counties": [
+      "51101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

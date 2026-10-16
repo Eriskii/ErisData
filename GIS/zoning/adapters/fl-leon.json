@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-leon",
+  "publisher": "Tallahassee-Leon County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://intervector.leoncountyfl.gov/intervector/rest/services/MapServices/TLC_OverlayZoning_D_WM/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12073"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONING",
+    "zone_name": "ZONED"
+  },
+  "notes": "Joint City of Tallahassee and Leon County official zoning layer; JURISDICTION names the city or county",
+  "verification": {
+    "verified_at": 1792133831781,
+    "counties": [
+      "12073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-mower-austin",
+  "publisher": "City of Austin, MN",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ci.austin.mn.us/server/rest/services/Planning/Planning_and_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27099"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ClassCodeD"
+  },
+  "notes": "City of Austin only (not county-wide). Layer is a parcel-based polygon layer carrying each parcel zoning in the Zoning field; used as last resort. Zone name from ClassCodeD may be a property class, check report.",
+  "verification": {
+    "verified_at": 1792134523992,
+    "counties": [
+      "27099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

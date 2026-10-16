@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "wi-langlade",
+  "publisher": "Langlade County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/XZITcenZeXZ3Y5EZ/arcgis/rest/services/Langlade_County_Zoning_Map__AI_Data_Centers_WFL1/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55067"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWN_NAME",
+    "link": "LINK",
+    "zone": "ZONE_CODE",
+    "zone_name": "LABEL"
+  },
+  "filter": "OBJECTID_12 NOT IN (647,719)",
+  "notes": "County-branded AGOL layer (Langlade_GIS_Tech). Source has invalid (self-intersecting) polygons; the two found in testing, OBJECTID_12 647 and 719 (Town of Neva F and A-1), are excluded, so Neva zoning is incomplete. Other invalid polygons elsewhere in the layer may exist. Some features have blank ZONE_CODE/TOWN_NAME (unzoned areas).",
+  "verification": {
+    "verified_at": 1792136448381,
+    "counties": [
+      "55067"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

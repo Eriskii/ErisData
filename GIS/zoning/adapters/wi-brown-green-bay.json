@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-brown-green-bay",
+  "publisher": "City of Green Bay GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map.greenbaywi.gov/server/rest/services/zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Green Bay zoning districts only (city layer; other Brown County municipalities are not in this layer). Layer 3 of the city zoning MapServer.",
+  "verification": {
+    "verified_at": 1792136063473,
+    "counties": [
+      "55009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

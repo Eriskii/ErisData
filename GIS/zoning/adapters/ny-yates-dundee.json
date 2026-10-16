@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-yates-dundee",
+  "publisher": "Yates County GIS (Village of Dundee base zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.yatescounty.org/server/rest/services/Hosted/Dundee_Base_Zoning_3/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36123"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "legend"
+  },
+  "notes": "Village of Dundee base zoning served by Yates County GIS portal.",
+  "verification": {
+    "verified_at": 1792135062828,
+    "counties": [
+      "36123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ok-tulsa-county",
+  "publisher": "INCOG (Tulsa County zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map11.incog.org/arcgis11wa/rest/services/Zoning_TulsaCo/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40143"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE",
+    "zone_name": "LEGEND"
+  },
+  "notes": "INCOG-hosted Tulsa County zoning layer (unincorporated county and some cities; JURISDICTION attribute is mostly blank, so not mapped). Includes overlay-type rows such as Flood District (FD). INCOG notes paper TMAPC maps remain the official reference.",
+  "verification": {
+    "verified_at": 1792135251325,
+    "counties": [
+      "40143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

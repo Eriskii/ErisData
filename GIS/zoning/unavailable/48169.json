@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48169",
+  "reason": "login-required",
+  "evidence": [
+    "https://map.3cgeo.com/fist/fistSiteLoginForm.php?page=/fist/fistMain.php&site=poststaff",
+    "https://www.cityofposttexas.com/",
+    "https://ecode360.com/39339316"
+  ],
+  "note": "Garza County (TX) does not zone at county level (Texas counties lack general zoning authority). The only municipality found with zoning is City of Post, whose zoning ordinance (Chapter 14, ecode360) lists districts R-1, R-2, R-3, C-1, C-2, I, but no public zoning GIS layer was found. The city's City Mapping site (3cgeo FIST) is a login-gated map, and no ArcGIS REST zoning service exists for Garza County or Post in ArcGIS Hub/Online searches. Parcel datasets (Regrid, landrecords) show zoning fields 0% populated.",
+  "recorded_at": 1792135650020,
+  "recheck_after": 1807687650020,
+  "model": "claude-haiku-5-5"
+}

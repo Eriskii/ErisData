@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "46129",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://walworthco.org/county-ordinances/zoning-map-walworth/",
+    "https://walworthco.org/wp-content/uploads/2010/07/ZONING-MAP-WALWORTH.pdf",
+    "https://mobridge.org/planning-zoning",
+    "https://open-walco.opendata.arcgis.com/"
+  ],
+  "note": "Walworth County SD publishes its zoning map only as a static PDF (ZONING-MAP-WALWORTH.pdf). Its open data portal lists no zoning layer, and the Beacon viewer (Schneider, WalworthCountySD) is blocked by a Cloudflare challenge, so no queryable zoning service was found. Mobridge publishes its zoning district map only as a PDF; no ArcGIS zoning layer found for Selby or Mobridge. Neighbouring Edmunds vendor host has no Walworth layer.",
+  "recorded_at": 1792135468531,
+  "recheck_after": 1807687468531,
+  "model": "claude-haiku-5-5"
+}

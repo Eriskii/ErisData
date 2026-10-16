@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "us-ak-fnsb",
+  "publisher": "Fairbanks North Star Borough",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/f4rR7WnIfGBdVYFd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02090"
+    ]
+  },
+  "fields": {
+    "link": "HOTLINK",
+    "zone": "ZONE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "FNSB Zoning Districts polygons (primary zones combined with overlays per FNSB); borough-wide including city of Fairbanks? Check coverage in report. Source CRS 102633 (feet).",
+  "verification": {
+    "verified_at": 1792133734820,
+    "counties": [
+      "02090"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

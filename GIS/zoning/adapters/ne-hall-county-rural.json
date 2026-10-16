@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-hall-county-rural",
+  "publisher": "City of Grand Island GIS (Hall County Zoning service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.grand-island.com/arcgis/rest/services/Planning/Hall_County_Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31079"
+    ]
+  },
+  "fields": {
+    "zone": "zone_",
+    "zone_name": "zonedesc"
+  },
+  "notes": "Hall County unincorporated (rural) zoning districts, served by City of Grand Island GIS.",
+  "verification": {
+    "verified_at": 1792134998654,
+    "counties": [
+      "31079"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

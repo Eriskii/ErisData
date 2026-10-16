@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-johnson-warrensburg",
+  "publisher": "City of Warrensburg GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.warrensburg-mo.com/arcgis/rest/services/EnerGov_Service/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29101"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "City of Warrensburg zoning districts only (not county unincorporated land, which largely has no zoning per Johnson County). Layer has zoning code only; no name or ordinance link field.",
+  "verification": {
+    "verified_at": 1792134673719,
+    "counties": [
+      "29101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

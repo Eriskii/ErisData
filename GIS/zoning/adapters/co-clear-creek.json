@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "co-clear-creek",
+  "publisher": "Clear Creek County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/faTiISwEuJk1lvB1/arcgis/rest/services/Property/FeatureServer/16",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08019"
+    ]
+  },
+  "fields": {
+    "zone": "CURR_ZONE"
+  },
+  "notes": "County Zoning layer from the county Property service; parcel-level current zone (CURR_ZONE). Covers unincorporated county zoning; municipal zoning is not in this layer. No zone name or ordinance link field is published.",
+  "verification": {
+    "verified_at": 1792133784237,
+    "counties": [
+      "08019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

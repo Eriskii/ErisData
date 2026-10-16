@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-sheboygan-county",
+  "publisher": "Sheboygan County GIS (GIS_Shebco)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/lZtNcxj8HI3jnkkl/arcgis/rest/services/TownZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55117"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MuniLabel",
+    "zone": "ZoneClass",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "County-maintained town and village zoning districts (Local Zoning Districts). Covers the towns and several villages; City of Sheboygan, Sheboygan Falls and Oostburg are separate layers and not included.",
+  "verification": {
+    "verified_at": 1792136065487,
+    "counties": [
+      "55117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

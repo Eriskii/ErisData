@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-macon-decatur",
+  "publisher": "City of Decatur GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.decaturil.gov/arcgis/rest/services/Public/zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17115"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Decatur zoning only (city limits, not county unincorporated land). Data last updated 2021. Zone codes such as M1, B3.",
+  "verification": {
+    "verified_at": 1792134026562,
+    "counties": [
+      "17115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

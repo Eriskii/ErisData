@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-martin-fairmont",
+  "publisher": "City of Fairmont, MN (zoning layer hosted by its planning consultant MSA)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/F0eFMri3OWS05kGc/arcgis/rest/services/City_of_Fairmont_Zoning_Map/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27091"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Fairmont zoning districts only (city, not the whole county); layer is from the city zoning map on the city of Fairmont maps page. Unincorporated county zoning is in Beacon, not queryable. No zone name field.",
+  "verification": {
+    "verified_at": 1792134511881,
+    "counties": [
+      "27091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

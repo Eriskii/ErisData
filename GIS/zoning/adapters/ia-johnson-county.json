@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-johnson-county",
+  "publisher": "Johnson County GIS (Iowa)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.johnsoncountyiowa.gov/arcgis/rest/services/Zoning/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ENTITY2",
+    "zone": "CLASS"
+  },
+  "notes": "Unincorporated county zoning districts (base zoning layer 3 of Zoning MapServer). Cities publish their own zoning separately.",
+  "verification": {
+    "verified_at": 1792134160755,
+    "counties": [
+      "19103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

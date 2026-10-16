@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-tehama",
+  "publisher": "Tehama County (uploaded zoning layer)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/3iNbxbY9zhyxPvde/arcgis/rest/services/Tehama_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06103"
+    ]
+  },
+  "fields": {
+    "zone": "zone_code"
+  },
+  "notes": "Copy of Tehama County zoning uploaded to ArcGIS Online by a user (jriskegomez); no jurisdiction field; 1271 polygons; county GIS office original not confirmed.",
+  "verification": {
+    "verified_at": 1792134033998,
+    "counties": [
+      "06103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

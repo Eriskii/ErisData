@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "28039",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://cityoflucedale.com/departments/zoning-planning/",
+    "https://services8.arcgis.com/zxqi28jLbBeyF8Y2/arcgis/rest/services/Lucedale_Zoning_Map_2025_Update_WFL1/FeatureServer/10",
+    "https://services8.arcgis.com/zxqi28jLbBeyF8Y2/arcgis/rest/services/Lucedale__Mississippi_Zoning_Map_3_WFL1/FeatureServer/10"
+  ],
+  "note": "George County has no county zoning layer found. The only city zoning published is Lucedale's: an official interactive map (arcg.is/uCaWK) and ArcGIS Online copies (Bobbarber) whose ZONING CLASSIFICATIONS layer is CAD-converted linework (layers PROPLINE, SUB_REF, map_blk, WATER) with blank Zone and ELU fields, so no district codes are queryable. Benndale and Agricola are unincorporated and not known to zone. Spec ms-george-lucedale failed field-fill (zone 0 of 13 filled).",
+  "recorded_at": 1792134603103,
+  "recheck_after": 1807686603103,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-clay-moorhead",
+  "publisher": "City of Moorhead",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/t2tplTEKxuL7eSvF/arcgis/rest/services/Planning_AGOL/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27027"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Code",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Moorhead zoning fills (base districts)",
+  "verification": {
+    "verified_at": 1792134940610,
+    "counties": [
+      "27027"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wi-fond-du-lac-county",
+  "publisher": "Fond du Lac County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/7YXkvZxnb69oxbTb/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55039"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTI",
+    "zone": "ZONING_COD",
+    "zone_name": "ZONING"
+  },
+  "filter": "ZONING NOT IN ('Dedicated ROW', 'ROW')",
+  "notes": "County-hosted layer of base zoning for unincorporated towns plus incorporated cities and villages; one row per district polygon. Right-of-way polygons (ZONING Dedicated ROW / ROW, no district code) are excluded by filter. Jurisdiction values like Town of X, Village of X, City of X.",
+  "verification": {
+    "verified_at": 1792136043638,
+    "counties": [
+      "55039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

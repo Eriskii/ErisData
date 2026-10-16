@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-front-royal",
+  "publisher": "Town of Front Royal GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/omafPaVdnFtLNdHR/arcgis/rest/services/TOFR_Zoning/FeatureServer/26",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51187"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Front Royal zoning (town-only, within Warren County). Source CRS 2924; service converts to lat/lon.",
+  "verification": {
+    "verified_at": 1792136023171,
+    "counties": [
+      "51187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

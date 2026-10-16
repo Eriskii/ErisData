@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-napa-county",
+  "publisher": "Napa County Planning, Building and Environmental Services",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ko5rxt00spOfjMqj/arcgis/rest/services/Zoning_NapaCo_PUBLIC/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06055"
+    ]
+  },
+  "fields": {
+    "link": "Zoning_Link",
+    "zone": "Zoning_Des",
+    "zone_name": "Zoning_Des_Descr"
+  },
+  "notes": "Unincorporated Napa County only; cities zone their own land. Zone = abbreviation; combination (overlay) zones in Zoning_Ovr_Des are not mapped. Link points to Municode.",
+  "verification": {
+    "verified_at": 1792134008338,
+    "counties": [
+      "06055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

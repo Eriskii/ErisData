@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-bronx",
+  "publisher": "NYC Department of City Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/nyzd/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "36005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDIST"
+  },
+  "notes": "NYC DCP Zoning Districts (NYZD), citywide layer covering the Bronx (county 36005). Only ZONEDIST is in the source. Overlays are separate layers, not included.",
+  "verification": {
+    "verified_at": 1792134994485,
+    "counties": [
+      "36005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

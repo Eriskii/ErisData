@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ma-dukes-edgartown",
+  "publisher": "Dukes County GIS (mvdukes) - Edgartown zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/FNsEJ848HT5uDOHD/arcgis/rest/services/duk_zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "PRIM_USE"
+  },
+  "notes": "Town of Edgartown zoning district layer, hosted by Dukes County GIS. Layer 2 of duk_zoning service; one layer per town (Aquinnah 0, Chilmark 1, Edgartown 2, Gosnold 3, Oak Bluffs 4, Tisbury 5, West Tisbury 6).",
+  "verification": {
+    "verified_at": 1792134447967,
+    "counties": [
+      "25007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

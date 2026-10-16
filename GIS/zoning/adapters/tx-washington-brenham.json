@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-washington-brenham",
+  "publisher": "City of Brenham",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map.cityofbrenham.org/server/rest/services/Hosted/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48477"
+    ]
+  },
+  "fields": {
+    "link": "ordinance",
+    "zone": "type",
+    "zone_name": "description"
+  },
+  "filter": "type <> 'R1'",
+  "notes": "City of Brenham hosted Zoning layer (11 polygons). The R1 polygon (single-family residential) is excluded by the filter because its geometry is invalid at the source (fails polygon validity) - R1 zoning is therefore NOT covered by this spec; remove the filter once the city repairs the geometry.",
+  "verification": {
+    "verified_at": 1792136058858,
+    "counties": [
+      "48477"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

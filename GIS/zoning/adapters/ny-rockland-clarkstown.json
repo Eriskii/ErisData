@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ny-rockland-clarkstown",
+  "publisher": "Town of Clarkstown (GIS, via Clarkstown ArcGIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://tocgissql.clarkstown.org/arcgis/rest/services/zoningMap/ZoningMap/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36087"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUN_NAME",
+    "zone": "ZONE_",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Town of Clarkstown zoning districts only (layer also carries MUN_NAME; Clarkstown is the sole town value seen). Data from the town GIS; no license stated.",
+  "verification": {
+    "verified_at": 1792135132577,
+    "counties": [
+      "36087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

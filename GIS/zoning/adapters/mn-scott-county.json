@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-scott-county",
+  "publisher": "Scott County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/DqIh9WAsIZcPlBEF/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "AUTHORITY",
+    "zone": "ZONING"
+  },
+  "notes": "Scott County zoning (Ordinance No. 3) for unincorporated land; cities such as Shakopee, Prior Lake and Savage zone their own land and are not in this layer.",
+  "verification": {
+    "verified_at": 1792134503456,
+    "counties": [
+      "27139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

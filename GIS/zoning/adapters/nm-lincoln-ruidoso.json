@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nm-lincoln-ruidoso",
+  "publisher": "Village of Ruidoso",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/Rj8QhN9Wb2hxHgpN/arcgis/rest/services/Zoning_Districts/FeatureServer/33",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Village of Ruidoso zoning districts, within the Village municipal boundary only (the county webmap Lincoln County Zoning Map draws this layer). Unincorporated county zoning is not published as a queryable service. Descriptive name and ordinance link fields are mostly empty in the source.",
+  "verification": {
+    "verified_at": 1792135011588,
+    "counties": [
+      "35027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

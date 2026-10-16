@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "al-elmore-millbrook",
+  "publisher": "City of Millbrook GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/ta6tVbcGxSaoQQNU/arcgis/rest/services/Millbrook_GIS_View/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01051"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_"
+  },
+  "notes": "City of Millbrook zoning districts (city limits only; Millbrook spans Elmore and Autauga counties). Zone descriptions are not filled in the source, so only the district code is mapped. Published on the city GIS view by lori.davis.",
+  "verification": {
+    "verified_at": 1792133732526,
+    "counties": [
+      "01051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

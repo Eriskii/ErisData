@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-bucks",
+  "publisher": "Bucks County Planning Commission (via PASDA)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/BucksCounty/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipali",
+    "link": "Website",
+    "zone": "ZoningAbbr",
+    "zone_name": "Zoning"
+  },
+  "notes": "Bucks County Municipal Zoning layer (PASDA, 202511) covering all municipalities in the county; base zoning districts compiled from municipal ordinances.",
+  "verification": {
+    "verified_at": 1792135276391,
+    "counties": [
+      "42017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

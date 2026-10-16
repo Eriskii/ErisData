@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-lewisville",
+  "publisher": "City of Lewisville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/kXGqZY4GIOcEYxoF/arcgis/rest/services/Zoning_Feature_view/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48121"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CLASS",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "City of Lewisville zoning districts (city limits only; Denton County and other cities are not included).",
+  "verification": {
+    "verified_at": 1792135882860,
+    "counties": [
+      "48121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

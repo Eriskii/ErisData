@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "18175",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://washingtoncounty.in.gov/government/land_and_property/washington_county_planning_commission.php",
+    "https://washingtonin.wthgis.com/",
+    "https://www.washingtonin.us/topic/index.php?topicid=12&structureid=14"
+  ],
+  "note": "Washington County IN publishes its zoning only as a PDF ordinance/zoning map on the county Planning Commission page. The county GIS (washingtonin.wthgis.com) is a parcel viewer with no ArcGIS REST zoning service found (/arcgis/rest/services returns 404). City of Washington's zoning page links only a PDF ordinance. ArcGIS searches found no official zoning district service for the county or its cities; only third-party copies (Zoneomics, Regrid) exist.",
+  "recorded_at": 1792134209408,
+  "recheck_after": 1807686209408,
+  "model": "claude-haiku-5-5"
+}

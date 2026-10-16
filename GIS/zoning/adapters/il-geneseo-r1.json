@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-geneseo-r1",
+  "publisher": "City of Geneseo, IL (Bi-State Regional Commission ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/nNJLeOqxAgP4H4UY/arcgis/rest/services/Geneseo_Zoning_Map_WFL1/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17073"
+    ]
+  },
+  "fields": {
+    "link": "ZoningOrdinanceLink",
+    "zone": "Zoning"
+  },
+  "notes": "Geneseo publishes one layer per district; this is R-1 Residential only (parcel-based polygons). Other districts are sibling layers 7-16.",
+  "verification": {
+    "verified_at": 1792134266541,
+    "counties": [
+      "17073"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

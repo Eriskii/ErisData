@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-fulton-county",
+  "publisher": "Fulton County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.fultoncountyil.gov/arcgis/rest/services/Hosted/FultonCountyZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17057"
+    ]
+  },
+  "fields": {
+    "zone": "zoning_cla",
+    "zone_name": "zoning_cla"
+  },
+  "notes": "Fulton County IL county-hosted zoning districts layer, published by Fulton County GIS. Covers the county's zoned (unincorporated) land; zone holds the district class name (e.g. Agricultural Conservation), no separate code. Jurisdiction field is blank in the source. Incorporated cities zone their own land separately (e.g. Canton publishes only a PDF map and an address lookup).",
+  "verification": {
+    "verified_at": 1792134036810,
+    "counties": [
+      "17057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

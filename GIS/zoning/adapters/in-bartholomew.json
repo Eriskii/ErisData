@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-bartholomew",
+  "publisher": "Bartholomew County GIS (Elevate eGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://elb.elevatemaps.io/arcgis/rest/services/eGISDynamicServices/BartholomewINDynamic/MapServer/80",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18005"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "Columbus/County base zoning districts from the Bartholomew County eGIS; single layer, no jurisdiction field",
+  "verification": {
+    "verified_at": 1792134092663,
+    "counties": [
+      "18005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

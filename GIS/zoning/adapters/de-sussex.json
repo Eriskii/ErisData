@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "de-sussex",
+  "publisher": "Sussex County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map.sussexcountyde.gov/server/rest/services/Hosted/Zoning_View/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "10005"
+    ]
+  },
+  "fields": {
+    "zone": "type_",
+    "zone_name": "new_class"
+  },
+  "notes": "Sussex County DE unincorporated zoning from county GIS Zoning_View layer (EPSG 26957). No ordinance link field available. Cities such as Rehoboth, Lewes, Millsboro zone separately and are not in this layer.",
+  "verification": {
+    "verified_at": 1792133809514,
+    "counties": [
+      "10005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-washington-jonesborough",
+  "publisher": "Town of Jonesborough (via Washington County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/nLnrKGwI08veJ5uu/arcgis/rest/services/Jonesborough_Zoning/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47179"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Jonesborough zoning as adopted and uploaded 9-11-25; covers the Town only. Unincorporated county zoning is a separate layer.",
+  "verification": {
+    "verified_at": 1792135699352,
+    "counties": [
+      "47179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-wasco",
+  "publisher": "Oregon DLCD (statewide zoning, Wasco County and cities)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/CD5mKowwN6nIaqd8/arcgis/rest/services/library_bnd_or_zoning_2023/FeatureServer/56",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "41065"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName IN ('Wasco County','The Dalles','Dufur','Antelope','Maupin','Mosier','Shaniko','Grass Valley','Rufus')",
+  "notes": "Oregon DLCD statewide compiled zoning (2023); Wasco County and city rows selected by ownerName. Zone codes are the state-standard codes (orZCode).",
+  "verification": {
+    "verified_at": 1792135324419,
+    "counties": [
+      "41065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

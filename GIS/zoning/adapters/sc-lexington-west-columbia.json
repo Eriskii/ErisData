@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sc-lexington-west-columbia",
+  "publisher": "City of West Columbia GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/A56vsmaRYeXpHm01/arcgis/rest/services/WestColumbia_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45063"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdicti",
+    "zone": "Zoning",
+    "zone_name": "Descriptio"
+  },
+  "notes": "City of West Columbia official zoning layer (545 districts), part of Lexington County. Covers city land only; the county layer sc-lexington covers unincorporated areas.",
+  "verification": {
+    "verified_at": 1792135399644,
+    "counties": [
+      "45063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

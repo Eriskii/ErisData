@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-lancaster",
+  "publisher": "Lancaster County GIS (Virginia)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/KkRK506Qqqjr4C5C/arcgis/rest/services/parcels_zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DIST_NAME"
+  },
+  "notes": "County GIS parcel-based zoning layer, parcels dissolved by zoning district (ACCOUNT says MERGED ALL ... PARCELS). ZONING holds the district code; a TOWN value covers the town of Kilmarnock (merged town parcels, not a district code). 620 features.",
+  "verification": {
+    "verified_at": 1792135946443,
+    "counties": [
+      "51103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

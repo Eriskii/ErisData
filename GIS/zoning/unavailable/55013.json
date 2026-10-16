@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "55013",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://geodata.wisc.edu/catalog/440FA5CA-FC29-47FA-885E-EE2C42E5DFB5",
+    "https://geodata.wisc.edu/catalog/590499D2-2C49-44E4-A99D-DF8F8AAE0EC1",
+    "https://geodata.wisc.edu/catalog/D3F60F18-8C54-44CA-A80F-C15CCF876B44",
+    "https://www.burnettcountywi.gov/1110/GISMapping",
+    "https://beacon.schneidercorp.com/Application.aspx?App=BurnettCountyWI&PageType=Map"
+  ],
+  "note": "Burnett County zoning (2016, 2017, 2020, 2021) is published only as Esri geodatabase zip downloads on GeoData@Wisconsin, with no shapefile or GeoJSON; the 2021 zip has no .shp, so validation failed. No county ArcGIS REST zoning service was found; the county's public map is a Schneider Beacon viewer, not an ArcGIS service. No city zoning service found for Grantsburg or Siren.",
+  "recorded_at": 1792136115075,
+  "recheck_after": 1807688115075,
+  "model": "claude-haiku-5-5"
+}

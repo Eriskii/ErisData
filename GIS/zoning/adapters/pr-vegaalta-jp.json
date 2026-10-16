@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-vegaalta-jp",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/FeatureServer/0",
+    "page_size": 250,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "72143"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "OBJECTID >= 2335980 AND OBJECTID <= 2352355",
+  "notes": "Statewide JP zoning (calificacion vigente) via FeatureServer; OBJECTID range 2335980-2352355 is exactly the Vega Alta features (16376).",
+  "verification": {
+    "verified_at": 1792139662384,
+    "counties": [
+      "72143"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-delaware",
+  "publisher": "Delaware-Muncie Metropolitan Plan Commission (zoning copy hosted by Delaware County GIS user kyleajohnson)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/VyRjdyMziYNF5Bwe/arcgis/rest/services/zoning_hosted/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18035"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_"
+  },
+  "notes": "Hosted copy of the Delaware-Muncie zoning districts (item description links DMMPC Planning & Zoning and the Delaware-Muncie Comprehensive Zoning Ordinance). Published in a personal ArcGIS Online account, not the county GIS server; no official queryable county service was found. Only the district code is provided; no jurisdiction or description field. Source is in EPSG:2965 (Indiana East ftUS).",
+  "verification": {
+    "verified_at": 1792134112091,
+    "counties": [
+      "18035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

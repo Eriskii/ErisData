@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "23015",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.wiscasset.gov/DocumentCenter/View/408/Zoning-Map-PDF",
+    "https://www.damariscotta.maine.gov/222/Zoning-Maps",
+    "https://www.townofboothbay.org/code-enforcement-zoning-office/pages/maps",
+    "https://www.lcrpcmaine.gov/land-use-zoning",
+    "https://gis.maine.gov/arcgis/rest/services/lupc/LUPC_Zoning_Data_Offline/MapServer"
+  ],
+  "note": "Lincoln County is unzoned at county level (Maine counties do not zone). Its towns (Wiscasset, Damariscotta, Boothbay, Waldoboro, Newcastle, Edgecomb) publish zoning only as PDF maps or images and ordinance text; no ArcGIS REST zoning districts layer found in the LCRPC hub, Maine GIS or ArcGIS Online searches. The state LUPC zoning MapServer covers only unorganized territory and returns 'Token Required'.",
+  "recorded_at": 1792134514164,
+  "recheck_after": 1807686514164,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-will-county",
+  "publisher": "Will County GIS (hosted copy, WillCounty_Zoning_04_2024)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/1CRXHFTS6IXyoxl5/arcgis/rest/services/WillCounty_Zoning_04_2024/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17197"
+    ]
+  },
+  "fields": {
+    "zone": "LAST_APPRO",
+    "zone_name": "LandUse"
+  },
+  "notes": "Copy of Will County zoning layer (the county zoning layer named zoning in the ordinance) on ArcGIS Online by dgwartney_alfredbenesch; the county host gis.willcountyillinois.com was unreachable during the search. zone = LAST_APPRO district code; zone_name = LandUse category.",
+  "verification": {
+    "verified_at": 1792134094566,
+    "counties": [
+      "17197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

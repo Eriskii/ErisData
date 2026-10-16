@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-utah-county",
+  "publisher": "Utah County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/65",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Unincorporated Utah County zoning districts from the county GIS server (County Zoning layer). Cities are separate specs.",
+  "verification": {
+    "verified_at": 1792135938674,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

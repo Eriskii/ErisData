@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "36101",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.steubencountyny.gov/220/Planning",
+    "https://steubencounty-scnygis.opendata.arcgis.com/",
+    "https://services2.arcgis.com/NZkLeERo9XICXiuy/arcgis/rest/services/LocalPlanning/FeatureServer/0",
+    "https://www.steubencountyny.gov/277/Planning-Zoning-Assistance",
+    "https://ecode360.com/8763509",
+    "https://ecode360.com/9938422"
+  ],
+  "note": "Searched the Steuben County GIS hub and its ArcGIS services directory (about 60 services) and ArcGIS Online: no zoning district polygon layer. The county's LocalPlanning layer has only a per-town zoning status text field, not districts. Zoning is set by towns and cities (Corning, Hornell) whose ordinances and maps are published as eCode text and PDF maps, with no queryable district service found.",
+  "recorded_at": 1792135071371,
+  "recheck_after": 1807687071371,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-boulder-longmont",
+  "publisher": "City of Longmont Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.ci.longmont.co.us/arcgis_public/rest/services/Planning/Zoning_June_2022/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08013"
+    ]
+  },
+  "fields": {
+    "zone": "new_zone",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "City of Longmont zoning districts (city limits, which extend into Weld County; only Boulder County portion is relevant). Service description says December 2016 official zoning map.",
+  "verification": {
+    "verified_at": 1792133795893,
+    "counties": [
+      "08013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

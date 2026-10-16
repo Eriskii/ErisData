@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-hertford-ahoskie",
+  "publisher": "Town of Ahoskie (via Hertford County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.hertfordcounty.org/server/rest/services/Zoning/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37091"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_COD",
+    "zone_name": "ZONING"
+  },
+  "filter": "STATUS = 'Active'",
+  "notes": "Town of Ahoskie base zoning, served by Hertford County GIS. Retired districts excluded by STATUS filter. ZONING_COD may be blank; ZONING holds the label.",
+  "verification": {
+    "verified_at": 1792135068921,
+    "counties": [
+      "37091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

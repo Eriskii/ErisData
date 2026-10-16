@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nj-middlesex",
+  "publisher": "NJTPA copy of Middlesex County base zoning (2017), hosted by gfausel",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.njtpa.org/server/rest/services/LandUse/NJTPA_Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34023"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "Zone_code",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "Unofficial copy: the NJTPA-hosted ArcGIS Online item by gfausel of the Middlesex County base zoning dataset (2017 vintage). Used because the county server mcgisweb.co.middlesex.nj.us returned Application Error at validation time. Municipal zoning maps vary in accuracy.",
+  "verification": {
+    "verified_at": 1792135193381,
+    "counties": [
+      "34023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

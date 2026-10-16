@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-pulaski-town",
+  "publisher": "Town of Pulaski (copy hosted by esharp, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/kDpbmuH4CGPPO6ob/arcgis/rest/services/Town_of_Pulaski_Zoning2/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51155"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Not an official Town of Pulaski service: a copy of Town of Pulaski zoning from 2016 uploaded to ArcGIS Online by user esharp. The Town publishes its zoning only as a PDF map and the county viewer does not include Town land. Use only because no official queryable Town layer exists; may be out of date.",
+  "verification": {
+    "verified_at": 1792135974811,
+    "counties": [
+      "51155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

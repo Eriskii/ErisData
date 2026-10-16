@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-gray-pampa",
+  "publisher": "City of Pampa GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/ltQ4MkbGBKFcuyc0/arcgis/rest/services/Pampa_Map_2021/FeatureServer/21",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48179"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Label"
+  },
+  "notes": "City of Pampa zoning only (incorporated city; not unincorporated Gray County, which does not zone). Layer is in the city-hosted Pampa_Map_2021 service, 186 polygons. Code is blank for some features (e.g. Park).",
+  "verification": {
+    "verified_at": 1792135927369,
+    "counties": [
+      "48179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

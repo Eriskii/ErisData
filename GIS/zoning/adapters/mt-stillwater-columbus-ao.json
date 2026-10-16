@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mt-stillwater-columbus-ao",
+  "publisher": "Stillwater County GIS (Town of Columbus zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Rf1RTtpioLAV4006/arcgis/rest/services/AO__Agricultural_Open_Space/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30095"
+    ]
+  },
+  "fields": {
+    "zone": "Name"
+  },
+  "notes": "Town of Columbus zoning is published by the county as one layer per district; this layer is the AO (Agricultural Open Space) district only.",
+  "verification": {
+    "verified_at": 1792134979054,
+    "counties": [
+      "30095"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-cass",
+  "publisher": "Cass County GIS (CassNEGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/oIhWXTph9P1clNT3/arcgis/rest/services/ZoningDistricts/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31025"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Base zoning districts for Cass County NE (63 features) from the county ArcGIS host. Covers unincorporated county and the cities and villages (Louisville, Plattsmouth, Weeping Water, and villages). Jurisdiction attribute is blank for unincorporated-county districts and names the city/village elsewhere, so it is not mapped.",
+  "verification": {
+    "verified_at": 1792134890273,
+    "counties": [
+      "31025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

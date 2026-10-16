@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "co-elbert",
+  "publisher": "Elbert County GIS",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://maps.elbertcounty-co.gov/data/rest/services/Zoning_of_Elbert_County_Colorado/MapServer/5/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&maxAllowableOffset=0.00003&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "08039"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "County unincorporated zoning district polygons, one GeoJSON response; zone codes as published. Incorporated towns zone their own land and are not in this layer.",
+  "verification": {
+    "verified_at": 1792133813591,
+    "counties": [
+      "08039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-indiana-borough",
+  "publisher": "Indiana Borough (PA) Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/V5bDVtdjP6dHB5sm/arcgis/rest/services/Indiana_Borough_Zoning_Map_and_Right_of_Way_Map/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42063"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Indiana Borough zoning map; parcel polygons from the borough zoning map service, each parcel carrying its zoning district code in Zoning (parcel-level layer; districts are the distinct Zoning values). Covers Indiana Borough only. No zone name field.",
+  "verification": {
+    "verified_at": 1792135332860,
+    "counties": [
+      "42063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

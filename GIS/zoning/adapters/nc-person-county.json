@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-person-county",
+  "publisher": "Person County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.personcountync.gov/arcgis/rest/services/PlanZone/Zoning/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37145"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Person County NC current county zoning districts (unincorporated land), hosted by Person County GIS. Updated by county staff.",
+  "verification": {
+    "verified_at": 1792135112074,
+    "counties": [
+      "37145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "49055",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://waynecountyutah.gov/pages/planning-and-zoning",
+    "https://waynecountyutah.gov/uploads/wayne-county-zoning-ordinance-final-as-adopted-1-1-2011.pdf",
+    "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Wayne_LIR/FeatureServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online, county Planning and Zoning page, county open data portal, UGRC/SGID, and Torrey/Bicknell town sites. Wayne County publishes its zoning only as a PDF ordinance (adopted 2011); no queryable zoning district polygon layer found. The only parcel layer (AGRC Parcels_Wayne_LIR) carries no zoning field. Torrey adopts its zoning map as an code appendix with no GIS; Bicknell has no zoning layer. A third-party Regrid zoning dataset is commercial, not official, and was not used.",
+  "recorded_at": 1792135960589,
+  "recheck_after": 1807687960589,
+  "model": "claude-haiku-5-5"
+}

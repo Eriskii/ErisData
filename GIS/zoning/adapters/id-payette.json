@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-payette",
+  "publisher": "Payette County GIS (via Idaho State Tax Commission ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/91hXl6NfvLGEi8x5/ArcGIS/rest/services/Payette_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16075"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZoningSimbol"
+  },
+  "notes": "Payette County zoning districts layer (141 polygons), hosted in the Idaho State Tax Commission ArcGIS organization. Covers unincorporated county zoning; city zoning is not in this layer.",
+  "verification": {
+    "verified_at": 1792133679497,
+    "counties": [
+      "16075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

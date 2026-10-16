@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-calaveras",
+  "publisher": "State OPR (California Statewide Zoning North) - Calaveras County and Angels Camp",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06009"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'CAL'",
+  "notes": "Zoning compiled in California Statewide Zoning dataset (State OPR); county-hosted layers failed polygon validity.",
+  "verification": {
+    "verified_at": 1792134133035,
+    "counties": [
+      "06009"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

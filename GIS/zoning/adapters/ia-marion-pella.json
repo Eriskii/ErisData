@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-marion-pella",
+  "publisher": "City of Pella, Iowa",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/gw2LC2HdjEQbBIyL/arcgis/rest/services/Pella_Land_Use_Planning_Public/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19125"
+    ]
+  },
+  "fields": {
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "City of Pella zoning districts (Pella is partly in Marion County), from the city land use planning ArcGIS service. Covers the city of Pella only, not unincorporated county land or Knoxville.",
+  "verification": {
+    "verified_at": 1792134282876,
+    "counties": [
+      "19125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

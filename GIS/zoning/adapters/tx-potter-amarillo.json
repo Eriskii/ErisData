@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-potter-amarillo",
+  "publisher": "City of Amarillo GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismaps.amarillo.gov/services/rest/services/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48375"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Designation",
+    "zone_name": "Zone_Text"
+  },
+  "notes": "City of Amarillo base zoning districts (city limits only; unincorporated Potter County and other cities are not in this layer). Public city GIS server, no login. Zoning_Hyperlink is empty in the source.",
+  "verification": {
+    "verified_at": 1792135756135,
+    "counties": [
+      "48375"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

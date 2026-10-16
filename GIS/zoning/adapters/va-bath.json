@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-bath",
+  "publisher": "Central Shenandoah Planning District Commission / Bath County GIS (DPMC_GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/VkOe3q7u7LGe1XcE/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51017"
+    ]
+  },
+  "fields": {
+    "zone": "LAYER",
+    "zone_name": "DESC_"
+  },
+  "filter": "LAYER <> 'A2'",
+  "notes": "Referenced from the Central Shenandoah PDC Bath County Planning and Zoning map; 2022 data. Source has self-intersecting polygons in A2 (General Agricultural) districts, so A2 is excluded to pass geometry validation; A2 districts are not shown.",
+  "verification": {
+    "verified_at": 1792135904450,
+    "counties": [
+      "51017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-boulder-county",
+  "publisher": "Boulder County Community Planning & Permitting",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.bouldercounty.org/arcgis/rest/services/PLANNING/LUC_ZoningDistricts/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08013"
+    ]
+  },
+  "fields": {
+    "link": "REG_PDF_URL",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Base zoning districts for unincorporated Boulder County only; incorporated cities (Boulder, Longmont, Louisville, etc.) zone their own land and are not in this layer. Source is the county Zoning Districts dataset defined by Article 4 of the Land Use Code.",
+  "verification": {
+    "verified_at": 1792133768934,
+    "counties": [
+      "08013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

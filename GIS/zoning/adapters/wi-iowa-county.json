@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-iowa-county",
+  "publisher": "Iowa County, WI (hosted by SWWisRegPlanning on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/OwVO8oKCUjTngz5f/arcgis/rest/services/Iowa_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55049"
+    ]
+  },
+  "fields": {
+    "link": "Comments",
+    "zone": "Zoning_Cla"
+  },
+  "notes": "Iowa County zoning districts (Source = Iowa County); zone codes such as AR-1, A-1; OriginalZo holds the prior code. zone_name not populated in source. Unincorporated county zoning; cities zone their own land.",
+  "verification": {
+    "verified_at": 1792136046021,
+    "counties": [
+      "55049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

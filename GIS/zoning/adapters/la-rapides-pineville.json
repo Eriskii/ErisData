@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "la-rapides-pineville",
+  "publisher": "Rapides Area Planning Commission (City of Pineville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/qJODk8U9fdLwZBY2/arcgis/rest/services/Pineville_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22079"
+    ]
+  },
+  "fields": {
+    "zone": "Zoned"
+  },
+  "notes": "City of Pineville zoning only (not parish-wide); hosted on RAPC ArcGIS org. Zoned holds district code. Parish unincorporated and Alexandria zoning not found as queryable services.",
+  "verification": {
+    "verified_at": 1792134447959,
+    "counties": [
+      "22079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

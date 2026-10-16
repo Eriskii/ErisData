@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-queens",
+  "publisher": "NYC Department of City Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/nyzd/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36081"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDIST"
+  },
+  "notes": "NYC City Planning citywide zoning districts layer nyzd, no borough field",
+  "verification": {
+    "verified_at": 1792135019285,
+    "counties": [
+      "36081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

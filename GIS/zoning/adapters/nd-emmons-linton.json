@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nd-emmons-linton",
+  "publisher": "Emmons County GIS (City of Linton zones)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/zDNWy26tIMyYaGcC/arcgis/rest/services/LintonZones/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38029"
+    ]
+  },
+  "fields": {
+    "zone": "MapName",
+    "zone_name": "Descript"
+  },
+  "notes": "Parcel-based layer (812 features, Pin/Owner fields) from the county GIS; MapName holds Linton city zone codes (LINTON CITY RES ZONE 1, COM ZONE 2, AG) and blank for non-zoned parcels; Descript is the land-use class (Residential, Commercial, Ag Land, Exempt, Other). Last resort for Linton zoning; a parcel layer, not a district layer.",
+  "verification": {
+    "verified_at": 1792135155247,
+    "counties": [
+      "38029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

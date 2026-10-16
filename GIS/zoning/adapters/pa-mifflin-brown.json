@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-mifflin-brown",
+  "publisher": "Mifflin County GIS (Brown Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mifflincountypa.gov/arcgis/rest/services/Hosted/brown_zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42087"
+    ]
+  },
+  "fields": {
+    "zone": "zcode",
+    "zone_name": "zone"
+  },
+  "notes": "Brown Township zoning districts from the county GIS hosted service.",
+  "verification": {
+    "verified_at": 1792135342563,
+    "counties": [
+      "42087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-pulaski",
+  "publisher": "Pulaski County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/cnJiyVVCFyUslPPa/arcgis/rest/services/County_Zoning_web/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51155"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Pulaski County unincorporated zoning districts from the county GIS zoning viewer (County_Zoning_web, layer Zoning). Towns of Pulaski and Dublin zone their own land and are not in this layer. No zone-name or ordinance link field is published.",
+  "verification": {
+    "verified_at": 1792135945347,
+    "counties": [
+      "51155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

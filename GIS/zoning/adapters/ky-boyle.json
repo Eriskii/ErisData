@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-boyle",
+  "publisher": "Danville-Boyle County Planning & Zoning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/YNGbWQGxX08glHX9/arcgis/rest/services/2020_Zoning_Test/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONE_DESCRIPTION"
+  },
+  "notes": "Layer used in the planning commission (boyleplanning.maps.arcgis.com) land use web app; covers county plus cities (joint zoning ordinance). COMMUNITY field mostly blank so not mapped.",
+  "verification": {
+    "verified_at": 1792134440497,
+    "counties": [
+      "21021"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

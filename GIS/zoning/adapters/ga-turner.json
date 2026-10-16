@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-turner",
+  "publisher": "Turner County GA (parcel GIS, hosted by South Georgia Regional Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.sgrcmaps.com/alma/rest/services/Turner/TurnerParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13287"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "zoning"
+  },
+  "notes": "No standalone zoning district layer published; zone taken from the parcel layer zoning attribute (parcel-level zoning, last resort). Parcels in cities may carry city codes, not jurisdiction-specific.",
+  "verification": {
+    "verified_at": 1792133959109,
+    "counties": [
+      "13287"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

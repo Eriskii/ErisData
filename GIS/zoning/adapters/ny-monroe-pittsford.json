@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-monroe-pittsford",
+  "publisher": "Town of Pittsford, NY (via PlanningDesign)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/yisUfwZZ4fyubK3R/arcgis/rest/services/Pittsford_Zoning_Acreage/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36055"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "Zoning"
+  },
+  "notes": "Town of Pittsford only. Parcel-level layer (Acreage_V2) whose attributes carry each parcel zoning code, not a district polygon layer; the town zoning map is a PDF.",
+  "verification": {
+    "verified_at": 1792135037764,
+    "counties": [
+      "36055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

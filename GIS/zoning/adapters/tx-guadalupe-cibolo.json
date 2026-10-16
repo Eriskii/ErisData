@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-guadalupe-cibolo",
+  "publisher": "City of Cibolo, Texas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/D32JCd9p0r1BYMwd/arcgis/rest/services/City_of_Cibolo__Zoning_%28view%29/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48187"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "ZONING",
+    "zone_name": "Zoning_des"
+  },
+  "notes": "City of Cibolo base zoning, updated within 3 business days of council approval. Cibolo spans Guadalupe, Bexar and Comal counties; features outside Guadalupe are not this county record.",
+  "verification": {
+    "verified_at": 1792135657964,
+    "counties": [
+      "48187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

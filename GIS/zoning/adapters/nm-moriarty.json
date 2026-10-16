@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-moriarty",
+  "publisher": "City of Moriarty (zoning map layer hosted by MRCOG Regional Planning, linked from the city planning page)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Moriarty_Zone_Map_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35057"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Moriarty zoning from the Moriarty_Zone_Map_WFL1 layer of the MRCOG services; parcel-based polygons with zoning code and description. Linked from the city planning page as its Comprehensive Zoning Map. Some entries are non-zoning (e.g., MPD, S-U special use).",
+  "verification": {
+    "verified_at": 1792135104592,
+    "counties": [
+      "35057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

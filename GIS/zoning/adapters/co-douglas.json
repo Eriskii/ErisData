@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-douglas",
+  "publisher": "Douglas County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/seTexOicoRXDvRsJ/arcgis/rest/services/Zoning_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "08035"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE",
+    "zone_name": "FIRST_DESC"
+  },
+  "notes": "Douglas County GIS zoning districts layer (Zoning_View), county-published; no jurisdiction field populated.",
+  "verification": {
+    "verified_at": 1792133787674,
+    "counties": [
+      "08035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

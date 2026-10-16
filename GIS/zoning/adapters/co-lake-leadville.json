@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "co-lake-leadville",
+  "publisher": "Lake County Colorado (Appraiser/GIS, City of Leadville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/38PTfoP8IjlBsxZN/arcgis/rest/services/CityZoning2023/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08065"
+    ]
+  },
+  "fields": {
+    "zone": "LAYER"
+  },
+  "notes": "Leadville, CO city zoning districts as of 2023, hosted under the Lake County appraiser ArcGIS account. Covers the City of Leadville only. LAYER holds the district code and description.",
+  "verification": {
+    "verified_at": 1792133809892,
+    "counties": [
+      "08065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

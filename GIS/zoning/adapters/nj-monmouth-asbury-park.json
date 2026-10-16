@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nj-monmouth-asbury-park",
+  "publisher": "City of Asbury Park",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/3Q4WaS8AN9HZNxlw/arcgis/rest/services/ZONING_DISTRICTS_AND_REDEVELOPMENT_AREAS_WGS1984_021322/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34025"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_1",
+    "zone_name": "Zone_NAME"
+  },
+  "notes": "Asbury Park zoning districts and redevelopment areas, from the city interactive zoning map",
+  "verification": {
+    "verified_at": 1792135196307,
+    "counties": [
+      "34025"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

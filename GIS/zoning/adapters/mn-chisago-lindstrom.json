@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-chisago-lindstrom",
+  "publisher": "Chisago County GIS (City of Lindstrom zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.chisagocountymn.gov/arcgis/rest/services/DynamicData/MapServer/110",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27025"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "City",
+    "zone": "ZONE_CODE",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "City of Lindstrom zoning from Chisago County GIS DynamicData service.",
+  "verification": {
+    "verified_at": 1792134500084,
+    "counties": [
+      "27025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

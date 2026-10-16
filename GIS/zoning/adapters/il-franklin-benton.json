@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-franklin-benton",
+  "publisher": "City of Benton, IL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/4WLaseAJEud7jfEm/arcgis/rest/services/Zoning_View/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17055"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Type",
+    "zone": "Code",
+    "zone_name": "Name"
+  },
+  "notes": "City of Benton zoning, one layer per district class in Zoning_View; this layer is R-1 only.",
+  "verification": {
+    "verified_at": 1792134118272,
+    "counties": [
+      "17055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

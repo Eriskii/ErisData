@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-sarasota",
+  "publisher": "Sarasota County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ags3.scgov.net/server/rest/services/Hosted/CountyZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12115"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipality",
+    "zone": "zoningcode",
+    "zone_name": "zoningdesignation"
+  },
+  "notes": "County zoning layer holding unincorporated county plus city zoning (municipality codes e.g. SC, CV, CNP, CS). Ordinance number in ordinancenumber.",
+  "verification": {
+    "verified_at": 1792133839304,
+    "counties": [
+      "12115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

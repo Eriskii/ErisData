@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-gaston-kings-mountain",
+  "publisher": "Gaston County GIS (City of Kings Mountain zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gastoncountync.gov/publicgis/rest/services/PublicGIS/Zoning/MapServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "TYPE",
+    "zone_name": "NAME"
+  },
+  "notes": "Kings Mountain city and ETJ zoning districts (JURISDICTION names the city), served by the Gaston County PublicGIS zoning service",
+  "verification": {
+    "verified_at": 1792135077996,
+    "counties": [
+      "37071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

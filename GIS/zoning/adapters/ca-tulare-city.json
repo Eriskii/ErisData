@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-tulare-city",
+  "publisher": "City of Tulare",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.tulare.ca.gov/server/rest/services/Planning/Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MuniCode",
+    "zone": "ZONING"
+  },
+  "filter": "ZONING <> 'county' AND ZONING <> ' '",
+  "notes": "City of Tulare zoning districts only; parcel-aligned layer from the city GIS. Rows marked county or blank are excluded. Unincorporated land is in ca-tulare.",
+  "verification": {
+    "verified_at": 1792134098060,
+    "counties": [
+      "06107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

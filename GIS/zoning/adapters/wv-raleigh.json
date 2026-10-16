@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wv-raleigh",
+  "publisher": "City of Beckley (provisional copy by BFD_joe, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/7qDWTH3pTiLOFaZS/arcgis/rest/services/Zoning_3_5_26/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54081"
+    ]
+  },
+  "fields": {
+    "zone": "Class"
+  },
+  "notes": "Only zoning polygons found for Raleigh County: a provisional City of Beckley zoning copy uploaded to ArcGIS Online by a personal account (BFD_joe), labelled subject to verification by the Beckley Code Office. Covers the City of Beckley only, not unincorporated county land. No official county zoning service was found; the county lists zoning only by phone.",
+  "verification": {
+    "verified_at": 1792136067394,
+    "counties": [
+      "54081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

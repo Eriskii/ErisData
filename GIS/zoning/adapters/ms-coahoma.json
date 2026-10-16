@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-coahoma",
+  "publisher": "City of Clarksdale (zoning layer hosted by Tab Sanford, SW Planners)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/760VFDxglM8qvZC5/arcgis/rest/services/Clarksdale_Zoning_Online_2025/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28027"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Clarksdale zoning districts only (68 polygons); no county or Lyon zoning layer found. Layer 5 is the April 2025 zoning update, from the city's zoning map service.",
+  "verification": {
+    "verified_at": 1792134583290,
+    "counties": [
+      "28027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

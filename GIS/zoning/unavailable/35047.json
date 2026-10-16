@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "35047",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://co.sanmiguel.nm.us/departments/document_center.php",
+    "https://www.zoningatlas.org/snapshots-methods",
+    "https://experience.arcgis.com/experience/f19097b2870d45dc8602afb48b2d6f7e"
+  ],
+  "note": "San Miguel County publishes its zoning only as a PDF map (Zoning_Map.pdf) on its document center; its ArcGIS assessor map is parcel-focused. The county's public parcel layer (FeatureServer/217) has ZoningCode and ZoningDesc fields but they are blank for all parcels (count of non-blank = 0), so it carries no zoning. City of Las Vegas and Pecos zoning maps were not found as queryable services; Las Vegas code says the official map is kept on file with the City Clerk.",
+  "recorded_at": 1792135083169,
+  "recheck_after": 1807687083169,
+  "model": "claude-haiku-5-5"
+}

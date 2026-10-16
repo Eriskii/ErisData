@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-beaver-dam",
+  "publisher": "City of Beaver Dam",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/QptWni3rDZcCTW5i/arcgis/rest/services/Zoning_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55027"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUN",
+    "zone": "Zoning"
+  },
+  "notes": "City of Beaver Dam Zoning_View layer: a parcel layer whose Zoning attribute carries each parcel's zoning district (no separate district polygons found). Last resort; parcels, so features may repeat per district.",
+  "verification": {
+    "verified_at": 1792136081578,
+    "counties": [
+      "55027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wy-hot-springs-thermopolis",
+  "publisher": "Town of Thermopolis (via Hot Springs County Beacon GIS service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/pEpADGtGAxLth6gk/arcgis/rest/services/HotSpringsCountyWY_BeaconUpdated/FeatureServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56017"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Town of Thermopolis zoning only (27 features) from the Hot Springs County Beacon-hosted GIS service; no zoning for county-unincorporated land is published as a queryable service. Layer has no jurisdiction or description field.",
+  "verification": {
+    "verified_at": 1792136126337,
+    "counties": [
+      "56017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

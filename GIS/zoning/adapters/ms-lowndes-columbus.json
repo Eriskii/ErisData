@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-lowndes-columbus",
+  "publisher": "City of Columbus, MS (via Lowndes County GIS web services)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/kQPfxbSKhIDcSFXL/arcgis/rest/services/Lowndes_Website/FeatureServer/24",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28087"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Columbus zoning, carried as the ZONING attribute on a parcel-level layer (ColumbusZoning, about 11,859 features; one feature per parcel, not dissolved districts). Covers city limits only; unincorporated county zoning is not published as a queryable district layer. Source is the Lowndes County/City web GIS (owner kQPfxbSKhIDcSFXL), linked from the City of Columbus Zoning Map web map by gdrake@columbusms.org.",
+  "verification": {
+    "verified_at": 1792134833937,
+    "counties": [
+      "28087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

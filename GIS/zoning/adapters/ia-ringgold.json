@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-ringgold",
+  "publisher": "Iowa State University GIS (zoning districts compiled from SICOG GIS), Mount Ayr",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19159"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Mount Ayr'",
+  "notes": "Statewide ISU compilation of Iowa city zoning; Ringgold County rows are Mount Ayr only (source SICOG GIS). No county unincorporated zoning layer found in the county or ArcGIS search; county site and Beacon viewer publish no queryable zoning service.",
+  "verification": {
+    "verified_at": 1792134237126,
+    "counties": [
+      "19159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

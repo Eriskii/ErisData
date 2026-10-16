@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-upson",
+  "publisher": "Upson County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Mm1BAVEiAXrYE9vn/arcgis/rest/services/Upson_County_Zoning_Map_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13293"
+    ]
+  },
+  "fields": {
+    "link": "Zoning_URL",
+    "zone": "Zoning_Abb",
+    "zone_name": "Zoning_1"
+  },
+  "notes": "Layer is a parcel-level feature class carrying each parcel zoning (16,209 features), published by Upson County for its zoning map application; jurisdiction not separated",
+  "verification": {
+    "verified_at": 1792133948958,
+    "counties": [
+      "13293"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

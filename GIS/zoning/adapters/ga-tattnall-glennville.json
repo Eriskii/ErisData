@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-tattnall-glennville",
+  "publisher": "City of Glennville (hosted via Tattnall County GeoData View, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/City_of_Glennville_GeoData_View/FeatureServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13267"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Glennville zoning districts only; no zone name or ordinance link in the source.",
+  "verification": {
+    "verified_at": 1792134019690,
+    "counties": [
+      "13267"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

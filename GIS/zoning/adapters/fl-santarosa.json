@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-santarosa",
+  "publisher": "Santa Rosa County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12113"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT",
+    "zone_name": "Descriptio"
+  },
+  "notes": "County zoning districts layer hosted on the county ArcGIS Online organization; updated 09/28/2026. No jurisdiction field.",
+  "verification": {
+    "verified_at": 1792133844152,
+    "counties": [
+      "12113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

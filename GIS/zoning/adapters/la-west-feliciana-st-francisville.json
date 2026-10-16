@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-west-feliciana-st-francisville",
+  "publisher": "Town of St. Francisville",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/GBcYJkgRvngf7ejN/arcgis/rest/services/Zoning_Classification_(Adopted_January_2025)/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22125"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningLabel",
+    "zone_name": "ZoningClass"
+  },
+  "notes": "Town of St. Francisville only (not the unincorporated parish); adopted January 2025 zoning classification layer published by the town. Parish-wide zoning layer not found; parish zoning map is not queryable.",
+  "verification": {
+    "verified_at": 1792134500291,
+    "counties": [
+      "22125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

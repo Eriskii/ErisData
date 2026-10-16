@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ar-searcy",
+  "publisher": "City of Searcy (Garver, for City of Searcy)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/eNPJk90aMrXNOKF8/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05145"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Searcy zoning districts only (not county unincorporated land; White County itself publishes no zoning layer). Layer hosted by consultant Garver for the city. Zone holds the district code; Old_Zone holds the prior code.",
+  "verification": {
+    "verified_at": 1792133794109,
+    "counties": [
+      "05145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

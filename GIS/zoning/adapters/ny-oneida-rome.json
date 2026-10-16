@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-oneida-rome",
+  "publisher": "City of Rome, NY",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/IxPw3aIgkKzsK9Lc/arcgis/rest/services/Rome_Zoning_2018/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36065"
+    ]
+  },
+  "fields": {
+    "zone": "NEW_ZONE",
+    "zone_name": "Description"
+  },
+  "notes": "City of Rome only. Layer titled Rome NY Zoning Map (Draft) revised December 2018, hosted on ArcGIS Online under the Rome GIS account; may be superseded by a newer adopted map.",
+  "verification": {
+    "verified_at": 1792135104962,
+    "counties": [
+      "36065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-san-diego-city",
+  "publisher": "City of San Diego Development Services Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://webmaps.sandiego.gov/arcgis/rest/services/DSD/Zoning_Base/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06073"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_NAME"
+  },
+  "notes": "City of San Diego base zones (Official Zoning Map).",
+  "verification": {
+    "verified_at": 1792134261266,
+    "counties": [
+      "06073"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

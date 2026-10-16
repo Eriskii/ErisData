@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wy-park-county",
+  "publisher": "Park County, WY (draft zoning layer hosted by consultant Logan Simpson)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/gJAeEJVykiKW6D8d/arcgis/rest/services/Park_Draft_Zoning_Categories_v3/FeatureServer/11",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "56029"
+    ]
+  },
+  "fields": {
+    "zone": "Draft_Zone",
+    "zone_name": "Name"
+  },
+  "notes": "Park County draft zoning categories (proposed new zoning map, not yet adopted at time of publication); the only public queryable county zoning polygons found. Parcel-level polygons with Tax_ID. Cities of Cody and Powell not included.",
+  "verification": {
+    "verified_at": 1792136208528,
+    "counties": [
+      "56029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

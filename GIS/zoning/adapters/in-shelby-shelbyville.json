@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "in-shelby-shelbyville",
+  "publisher": "City of Shelbyville (copy hosted by a third party)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/dip9433X97rf7xgg/arcgis/rest/services/2026.08.03.Shelbyville_Zoning_Export/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18145"
+    ]
+  },
+  "fields": {
+    "zone": "Feature_Na",
+    "zone_name": "Descriptio"
+  },
+  "notes": "Unofficial copy: an ArcGIS Online export of the City of Shelbyville zoning polygons uploaded by a personal account (adam_rude4), dated 2026.08.03. The city says its official zoning map is on the Shelby County GIS Portal and publishes a zoning map at shelbyville.in.gov/295. Used because no official queryable city zoning service was found.",
+  "verification": {
+    "verified_at": 1792134165133,
+    "counties": [
+      "18145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

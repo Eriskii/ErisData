@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-orange",
+  "publisher": "Orange County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.orangecountync.gov/arcgis/rest/services/WebZoningService/MapServer/22",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37135"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jur",
+    "zone": "Zoning",
+    "zone_name": "Zoning_Def"
+  },
+  "notes": "County GIS WebZoningService layer 22. Covers unincorporated county plus municipal jurisdictions listed in Jur; Chapel Hill is separate and not included.",
+  "verification": {
+    "verified_at": 1792135102860,
+    "counties": [
+      "37135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

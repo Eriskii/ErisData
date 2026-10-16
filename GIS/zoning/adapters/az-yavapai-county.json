@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "az-yavapai-county",
+  "publisher": "Yavapai County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/BajuNXbtZNiBKFkx/ArcGIS/rest/services/CountyZoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONE_USE"
+  },
+  "filter": "ZONING <> 'INC'",
+  "notes": "County unincorporated zoning only; ZONING=INC polygons (incorporated areas) excluded. Incorporated cities and towns zone their own land and are not in this layer. Hosted by yavgis_developers on ArcGIS Online, county open data. Not for legal use.",
+  "verification": {
+    "verified_at": 1792133740114,
+    "counties": [
+      "04025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

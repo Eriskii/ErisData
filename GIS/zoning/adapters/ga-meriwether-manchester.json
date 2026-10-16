@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-meriwether-manchester",
+  "publisher": "City of Manchester, GA (Three Rivers Regional Commission, TRRC_ELA)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services/Manchester_Zoning_Map_WFL1/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13199"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Descr"
+  },
+  "notes": "City of Manchester zoning only (not the unincorporated county). Interactive city zoning map hosted by TRRC_ELA; no county-wide district layer found. Zone_Code/Zone_Descr are city district codes.",
+  "verification": {
+    "verified_at": 1792133980269,
+    "counties": [
+      "13199"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

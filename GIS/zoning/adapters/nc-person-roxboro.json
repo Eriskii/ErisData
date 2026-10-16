@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-person-roxboro",
+  "publisher": "Person County GIS (City of Roxboro zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.personcountync.gov/arcgis/rest/services/PlanZone/Zoning/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37145"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Current City of Roxboro zoning districts, hosted by Person County GIS.",
+  "verification": {
+    "verified_at": 1792135115943,
+    "counties": [
+      "37145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

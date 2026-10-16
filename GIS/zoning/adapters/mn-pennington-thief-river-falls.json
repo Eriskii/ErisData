@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-pennington-thief-river-falls",
+  "publisher": "City of Thief River Falls",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/PZH7SMMue6M4l4UQ/arcgis/rest/services/Zoning_Map/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27113"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Description"
+  },
+  "notes": "City of Thief River Falls zoning only (county has no countywide zoning; Hickory and North townships have their own ordinances, not covered). Layer published by the city GIS.",
+  "verification": {
+    "verified_at": 1792134490010,
+    "counties": [
+      "27113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

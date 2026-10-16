@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-schoharie-richmondville-town",
+  "publisher": "Schoharie County GIS (Town of Richmondville Zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://spatialags.vhb.com/arcgis/rest/services/20327_Schoharie/NY_County_Schoharie/MapServer/22",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36095"
+    ]
+  },
+  "fields": {
+    "zone": "Abrev_Zoni",
+    "zone_name": "Zoning"
+  },
+  "notes": "Town of Richmondville zoning district layer from the Schoharie County GIS map service (hosted by VHB for the county). Village of Richmondville is a separate layer; overlays excluded.",
+  "verification": {
+    "verified_at": 1792135033559,
+    "counties": [
+      "36095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

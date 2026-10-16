@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "36039",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://greenecountyny.gov/departments/planning/",
+    "https://townofcairo.com/government-and-services/departments/zoning/",
+    "https://ecode360.com/6950453",
+    "https://gis.gcgovny.com/arcgis/rest/services/2025_WebMap/MapServer"
+  ],
+  "note": "Greene County NY publishes no zoning district layer in its ArcGIS services (web map layers hold parcels, boundaries, flood, soils, districts, but no zoning; parcel layer has no zoning field). Towns zone separately: Cairo publishes its zoning map only as a PDF (2017); Catskill and Athens publish zoning code with map attachments on eCode360. No queryable zoning polygon service found for the county or its towns and villages.",
+  "recorded_at": 1792135070522,
+  "recheck_after": 1807687070522,
+  "model": "claude-haiku-5-5"
+}

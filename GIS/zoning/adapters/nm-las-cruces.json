@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-las-cruces",
+  "publisher": "City of Las Cruces GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.las-cruces.org/gis/rest/services/Zone_Services_gis_App/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Las Cruces zoning districts only; unincorporated county and other towns not included. Link (Document) filled for only about a fifth of districts, so omitted.",
+  "verification": {
+    "verified_at": 1792135006341,
+    "counties": [
+      "35013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

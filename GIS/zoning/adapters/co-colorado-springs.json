@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-colorado-springs",
+  "publisher": "City of Colorado Springs (Planning and Zoning, Base Zone Fill)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.coloradosprings.gov/arcgis/rest/services/GeneralUse/PlanningZoning/MapServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08041"
+    ]
+  },
+  "fields": {
+    "zone": "ECP_Zoning_Code",
+    "zone_name": "ECP_Zone_Description"
+  },
+  "notes": "City of Colorado Springs base zone districts (fill layer, dynamic MapServer, General Use). Covers city limits only; the county layer covers the rest.",
+  "verification": {
+    "verified_at": 1792133841531,
+    "counties": [
+      "08041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

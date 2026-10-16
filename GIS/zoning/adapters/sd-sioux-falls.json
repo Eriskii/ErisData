@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-sioux-falls",
+  "publisher": "City of Sioux Falls GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.siouxfalls.gov/arcgis/rest/services/Data/Property/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46099"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCENUMBER",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESCRIPTION"
+  },
+  "notes": "City of Sioux Falls authoritative zoning polygons. Within Sioux Falls city limits only.",
+  "verification": {
+    "verified_at": 1792135415640,
+    "counties": [
+      "46099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ny-yates-penn-yan",
+  "publisher": "Yates County GIS (Village of Penn Yan base zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.yatescounty.org/server/rest/services/Hosted/Penn_Yan_Base_Zoning_Oct_2023_v2/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36123"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "muni",
+    "zone": "zoningdist",
+    "zone_name": "legend"
+  },
+  "notes": "Village of Penn Yan base zoning only, served by Yates County GIS portal. Town zoning layers are separate specs.",
+  "verification": {
+    "verified_at": 1792135051764,
+    "counties": [
+      "36123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-ozaukee",
+  "publisher": "Ozaukee County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis2.co.ozaukee.wi.us/arcgis/rest/services/Township_Data/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55089"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Class"
+  },
+  "notes": "Ozaukee County zoning districts layer (Township_Data MapServer layer 4, 870 features). Zone codes are county district codes (A-1, R-1, B-1, M-1, etc.). Only zone field mapped; no district name or ordinance link in source. Cities and villages zone their own land and may not be included.",
+  "verification": {
+    "verified_at": 1792136061763,
+    "counties": [
+      "55089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

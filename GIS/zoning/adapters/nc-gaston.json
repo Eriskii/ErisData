@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-gaston",
+  "publisher": "Gaston County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gastoncountync.gov/publicgis/rest/services/PublicGIS/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37071"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE",
+    "zone_name": "NAME"
+  },
+  "notes": "Gaston County UDO zoning districts (unincorporated county layer from the county PublicGIS zoning service)",
+  "verification": {
+    "verified_at": 1792135063499,
+    "counties": [
+      "37071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

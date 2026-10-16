@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wy-laramie-county",
+  "publisher": "Cheyenne/Laramie County GIS Cooperative",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.clcgisc.com/server/rest/services/Common_Features/MapServer/10",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56021"
+    ]
+  },
+  "fields": {
+    "zone": "code",
+    "zone_name": "zone"
+  },
+  "filter": "objectid NOT IN (125563,127063)",
+  "notes": "Zoning District Boundaries (Cheyenne and nearby Laramie County), Cheyenne/Laramie County GIS Cooperative. Filter omits two polygons (objectid 125563, 127063) whose bounding boxes trigger a server offset-paging bug.",
+  "verification": {
+    "verified_at": 1792136798472,
+    "counties": [
+      "56021"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

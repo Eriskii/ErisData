@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-hamilton-aurora",
+  "publisher": "City of Aurora, Nebraska",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/MJAeCQkx1EZOOIUv/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31081"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Dis",
+    "zone_name": "Designation"
+  },
+  "notes": "City of Aurora (Hamilton County, NE) zoning districts, published by the city on its ArcGIS Online organization (aurorane.maps.arcgis.com planning and zoning app). Covers the city only; the county does not publish a queryable zoning layer. Layer has 10 polygons.",
+  "verification": {
+    "verified_at": 1792134935712,
+    "counties": [
+      "31081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

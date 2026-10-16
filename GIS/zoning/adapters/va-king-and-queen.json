@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-king-and-queen",
+  "publisher": "King and Queen County GIS (Timmons-hosted service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/3nxbJkEr3Ec1aN0g/arcgis/rest/services/KingAndQueen_WL_D/FeatureServer/33",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51097"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Zoning layer from the county GIS mapping service (GIS Mapping for King and Queen County, VA, by timmons_kqva). Only the zone code is provided; no zone name or ordinance link fields. Layer has 333 features.",
+  "verification": {
+    "verified_at": 1792135943836,
+    "counties": [
+      "51097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

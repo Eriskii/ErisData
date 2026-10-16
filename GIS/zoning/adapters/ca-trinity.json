@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-trinity",
+  "publisher": "Trinity County Planning Department (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/32siQkg0O6da8zFF/arcgis/rest/services/Proposed_Zoning_Districts_gdb/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06105"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Parcel-level layer (last resort): each parcel polygon carries its current zoning code in ZONING; ZONING_NEW holds the proposed General Plan/Zoning update district and is not mapped. The county adopted district layer Zoning_Districts (same service host) has 44 districts but its polygons fail validity, so this layer is used. Unincorporated county; Trinity County has no incorporated cities.",
+  "verification": {
+    "verified_at": 1792134121673,
+    "counties": [
+      "06105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40151",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://codelibrary.amlegal.com/codes/alvaok/latest/alva_ok/0-0-0-11843",
+    "https://woodscountyok.com/interactive-map/local",
+    "https://services.arcgis.com/3xOwF6p0r7IHIjfn/arcgis/rest/services/Woods_County_Data/FeatureServer",
+    "https://services5.arcgis.com/Pi0Covza1NYutPbZ/arcgis/rest/services/service_aee44bfd41ce413e894075f46476871d/FeatureServer"
+  ],
+  "note": "Woods County OK (FIPS 40151) publishes no queryable zoning district layer. Searched ArcGIS Hub/Online and web. Woods County's ArcGIS layers (Woods_County_Data by twoody_uok) cover boundaries, districts and roads only; the county mapping service (mapping@woodscountyok.gov) holds 911 address data only. The county seat Alva's code (§10.20) says its zoning map is kept on file with the City Clerk, not published as a service. Parcel sources show zoning fields almost entirely unpopulated.",
+  "recorded_at": 1792135293612,
+  "recheck_after": 1807687293612,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-york-rock-hill",
+  "publisher": "City of Rock Hill (York County GIS hosted)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/2AGLxyiJoNiVHKwq/arcgis/rest/services/Rock%20Hill%20Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45091"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Rock Hill base zoning districts, hosted on the county ArcGIS organization. Zone code only; no name or ordinance link published.",
+  "verification": {
+    "verified_at": 1792135588981,
+    "counties": [
+      "45091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

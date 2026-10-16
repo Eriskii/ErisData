@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-ashland-city",
+  "publisher": "City of Ashland, OH (copy hosted by carr.logan on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/5NCvmz1mrqKufinC/arcgis/rest/services/ASHLAND_ZONING/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39005"
+    ]
+  },
+  "fields": {
+    "link": "Zoning_Description",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Ashland only (townships not included; they zone via their own resolutions, mostly PDF). Unofficial: personal ArcGIS Online copy by carr.logan of the city zoning layer; the city GIS server requires a token. Table also contains overlay rows.",
+  "verification": {
+    "verified_at": 1792135162021,
+    "counties": [
+      "39005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

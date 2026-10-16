@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-forsyth",
+  "publisher": "Forsyth County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geo.forsythco.com/gisworkflow/rest/services/Public/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13117"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Forsyth County GA open-data zoning districts layer (county unincorporated plus city zoning as published by county GIS; 4,612 features).",
+  "verification": {
+    "verified_at": 1792133884584,
+    "counties": [
+      "13117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

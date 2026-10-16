@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "17053",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://fordcounty.illinois.gov/wp-content/uploads/2017/10/ZoningOrdinance.pdf",
+    "https://ford-il.bhamaps.com/",
+    "https://portico.mygisonline.com/html5/",
+    "https://www.cityofpaxton.com/165/Forms-Maps",
+    "https://gibsoncityillinois.com/wp-content/uploads/2021/08/gibsonzoningmap.pdf"
+  ],
+  "note": "Ford County, IL publishes its zoning district map only as PDF (county ordinance refers to an official district map; Gibson City's zoning map and Paxton's zoning map are PDFs). The county's GIS is an assessor viewer (ford-il.bhamaps.com, which returns AccessDenied on its REST directory) and a Sidwell Portico viewer; neither exposes a public zoning district service. No official zoning FeatureServer/MapServer was found for the county or for Paxton or Gibson City. Only third-party parcel/zoning products (Regrid, Rockford Map Publishers) carry zoning, and they are not official.",
+  "recorded_at": 1792134013121,
+  "recheck_after": 1807686013121,
+  "model": "claude-haiku-5-5"
+}

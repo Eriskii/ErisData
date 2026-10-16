@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-garfield",
+  "publisher": "Garfield County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.garfield-county.com/arcgis/rest/services/webmaps/zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08045"
+    ]
+  },
+  "fields": {
+    "zone": "ZONETYPE",
+    "zone_name": "DESCRIPTION"
+  },
+  "filter": "ZONETYPE <> 'CITY' AND OBJECTID NOT IN (5987,6481,6126)",
+  "notes": "Garfield County unincorporated zoning; ZONETYPE holds the zone code. CITY polygons (incorporated areas, not zoning) excluded. OBJECTIDs 5987, 6481, 6126 excluded because their geometry is invalid (large self-intersecting polygons in the source), so those three large Rural/Public Lands districts are missing.",
+  "verification": {
+    "verified_at": 1792133848083,
+    "counties": [
+      "08045"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-rutherford",
+  "publisher": "Rutherford County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rutherfordcountync.gov/server/rest/services/MapMetricsServiceRutherford/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37161"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZONE_CODE"
+  },
+  "notes": "County GIS municipal zoning layer covering towns and ETJs in Rutherford County. CITY names the jurisdiction (FOREST CITY, SPINDALE, RUTHERFORDTON, LAKE LURE, ETJ-FORESTCITY). Zone codes from ZONE_CODE; LR_ZONING is an abbreviated code; LR_ETJ flags extraterritorial areas. Same 462 features as NewLayers MapServer layer 22.",
+  "verification": {
+    "verified_at": 1792135129021,
+    "counties": [
+      "37161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

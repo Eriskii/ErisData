@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-mifflin-union",
+  "publisher": "Mifflin County GIS (Union Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mifflincountypa.gov/arcgis/rest/services/Hosted/Union_zoning_101326/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42087"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "Union Township zoning districts from the county GIS hosted service.",
+  "verification": {
+    "verified_at": 1792135345715,
+    "counties": [
+      "42087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

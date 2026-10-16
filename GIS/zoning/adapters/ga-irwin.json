@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-irwin",
+  "publisher": "Irwin County GA (parcel GIS, hosted by South Georgia Regional Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.sgrcmaps.com/alma/rest/services/Irwin/ParcelInformation/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13155"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE"
+  },
+  "notes": "No district-polygon zoning layer found for Irwin County or Ocilla. Last resort: the county tax parcel layer carries each parcel zoning in ZONINGCODE (e.g. R8, AU, GB, R1A, RR; some values are combined like R8/GB or AU/R20). Parcel-level, not dissolved districts; ZONING holds a numeric code, not used. Ocilla zoning is joint city-county, so the layer covers both.",
+  "verification": {
+    "verified_at": 1792133925000,
+    "counties": [
+      "13155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

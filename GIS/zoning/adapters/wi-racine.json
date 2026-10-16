@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-racine",
+  "publisher": "Racine County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.racinecounty.com/arcgis/rest/services/DataPortal/ZONING/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Racine County zoning district polygons (county-administered zoning for unincorporated towns); from the county DataPortal ZONING MapServer.",
+  "verification": {
+    "verified_at": 1792136049380,
+    "counties": [
+      "55101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

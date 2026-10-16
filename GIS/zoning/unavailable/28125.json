@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "28125",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sharkeyms.maps.arcgis.com/sharing/rest/content/items/c957b2d1af3b49b09fe84a44b3ae9fdd/data?f=json",
+    "https://services5.arcgis.com/D4rm687CfEvaamk9/arcgis/rest/services/SHARKEY_service/FeatureServer",
+    "https://landrecords.us/documentation/coverage/counties/28-125-sharkey",
+    "https://www.rollingfork.ms.gov/ordinances"
+  ],
+  "note": "Sharkey County's ArcGIS organization (parcel viewer) serves parcels and boundary/district layers but no zoning districts layer; its parcel layer has no zoning field (landrecords reports zoning fields 0% populated). Rolling Fork, the county seat, lists a zoning ordinance (Sec. 142) but publishes no zoning district polygons or GIS service.",
+  "recorded_at": 1792134640069,
+  "recheck_after": 1807686640069,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "in-tippecanoe-com",
+  "publisher": "Tippecanoe County GIS / Area Plan Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.tippecanoe.in.gov/server/rest/services/ZoningOnly/FeatureServer/2",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18157"
+    ]
+  },
+  "fields": {
+    "zone": "RefName"
+  },
+  "filter": "RefName IN ('CB','CBW','GB','HB','NB','NBU','OR','I1','I2','I3')",
+  "notes": "Zoning layer is very large; split by RefName into several specs so each reads in time. This one: commercial, office and industrial districts.",
+  "verification": {
+    "verified_at": 1792136479653,
+    "counties": [
+      "18157"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

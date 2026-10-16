@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-fluvanna",
+  "publisher": "Fluvanna County GIS (WebGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.webgis.net/arcgis/rest/services/VA/Fluvanna_WebGIS/MapServer/38",
+    "page_size": 200,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "51065"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "filter": "OBJECTID <> 3541",
+  "notes": "County WebGIS zoning layer; ZONEDESC empty",
+  "verification": {
+    "verified_at": 1792135978947,
+    "counties": [
+      "51065"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

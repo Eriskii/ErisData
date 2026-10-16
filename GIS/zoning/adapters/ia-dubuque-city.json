@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-dubuque-city",
+  "publisher": "City of Dubuque GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.cityofdubuque.org/arcgisweb2/rest/services/Planning/Zoning/MapServer/9",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "19061"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClass",
+    "zone_name": "Notes"
+  },
+  "notes": "City of Dubuque zoning districts only (city limits; no unincorporated county zoning found in county GIS). Layer 9 of the city Planning/Zoning MapServer. Hotlink holds local file paths, not URLs, so no link field. zone_name is the Notes attribute, filled for about half the districts.",
+  "verification": {
+    "verified_at": 1792133842195,
+    "counties": [
+      "19061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

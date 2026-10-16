@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "27163",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.washingtoncountymn.gov/2893/Zoning-Maps",
+    "https://www.washingtoncountymn.gov/2883/Zoning-and-Land-Use",
+    "https://www.woodburymn.gov/550/Zoning-Land-Use",
+    "https://www.cottagegrovemn.gov/DocumentCenter/View/976/Zoning-Map",
+    "https://www.lakeelmo.gov/DocumentCenter/View/1260",
+    "https://www.ci.forest-lake.mn.us/171/Zoning-Maps-Plans-Resources"
+  ],
+  "note": "Washington County (MN) zones only six townships under county jurisdiction, and publishes their zoning maps as PDFs. The county ArcGIS server (maps.co.washington.mn.us) has Parcels, Boundaries, Cadastral and other services but no zoning layer; its parcel layer carries no zoning field. Cities checked: Oakdale (its zoning FeatureServer requires a token), Cottage Grove (EnerGov and city services have no zoning layer), Woodbury, Stillwater, Hugo, Lake Elmo and Forest Lake publish zoning as PDF maps or interactive apps with no queryable district layer found. A services.arcgis.com 'Zoning_Districts' layer I found belongs to a jurisdiction outside the county, so I did not use it.,",
+  "recorded_at": 1792134825248,
+  "recheck_after": 1807686825248,
+  "model": "claude-haiku-5-5"
+}

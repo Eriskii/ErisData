@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-wythe-rural-retreat",
+  "publisher": "Town of Rural Retreat (hosted via webgis.net)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.webgis.net/arcgis/rest/services/VA/RuralRetreat_WebGIS/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51197"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "ZONING"
+  },
+  "notes": "Town of Rural Retreat zoning districts only (town limits; unincorporated county has no zoning yet). Served by webgis.net for the Town. All features are Rural Retreat.",
+  "verification": {
+    "verified_at": 1792136013179,
+    "counties": [
+      "51197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

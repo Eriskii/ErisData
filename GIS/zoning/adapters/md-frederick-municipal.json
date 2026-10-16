@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "md-frederick-municipal",
+  "publisher": "Frederick County (MD) Division of Planning and Permitting, municipal zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://fcgis.frederickcountymd.gov/server_pub/rest/services/PlanningAndPermitting/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24021"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "link": "LINK",
+    "zone": "Code",
+    "zone_name": "District"
+  },
+  "notes": "Zoning districts of the towns and cities in Frederick County (for example City of Brunswick), compiled by the county planning office from municipal zoning maps. Zone codes as recorded by the county.",
+  "verification": {
+    "verified_at": 1792134491607,
+    "counties": [
+      "24021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

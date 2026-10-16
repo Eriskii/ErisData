@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-sheboygan-falls",
+  "publisher": "City of Sheboygan Falls (provided to Sheboygan County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/lZtNcxj8HI3jnkkl/arcgis/rest/services/ShebFallsZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "55117"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MuniLabel",
+    "zone": "ZoneClass",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "City of Sheboygan Falls zoning, converted from a DWG file supplied July 2025 using current parcels.",
+  "verification": {
+    "verified_at": 1792136089047,
+    "counties": [
+      "55117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

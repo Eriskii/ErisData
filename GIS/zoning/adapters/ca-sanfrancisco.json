@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-sanfrancisco",
+  "publisher": "San Francisco Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://sfplanninggis.org/arcgiswa/rest/services/PlanningData/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06075"
+    ]
+  },
+  "fields": {
+    "link": "url",
+    "zone": "zoning",
+    "zone_name": "districtname"
+  },
+  "notes": "SF Planning Zoning Map - Zoning Districts; city-county, so jurisdiction is San Francisco itself. Updated nightly.",
+  "verification": {
+    "verified_at": 1792130869303,
+    "counties": [
+      "06075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ct-capitol-hartford",
+  "publisher": "City of Hartford GIS (HartfordData)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/0b899d5a56bc4791a66688a366ce9ea6/rest/services/OpenData_Housing_Development/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09110"
+    ]
+  },
+  "fields": {
+    "zone": "LABEL",
+    "zone_name": "LABEL"
+  },
+  "notes": "City of Hartford zoning districts only (municipal zoning, not county). Coverage is the city of Hartford within the Capitol Planning Region.",
+  "verification": {
+    "verified_at": 1792133807629,
+    "counties": [
+      "09110"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

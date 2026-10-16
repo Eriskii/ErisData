@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-cerro-gordo",
+  "publisher": "Cerro Gordo County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/qyyoWTywHfayX67L/arcgis/rest/services/Zoning_gdb/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19033"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "NAME"
+  },
+  "notes": "Rural (unincorporated) zoning only; city zoning not included. Hosted by county GIS org on ArcGIS Online.",
+  "verification": {
+    "verified_at": 1792133639891,
+    "counties": [
+      "19033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

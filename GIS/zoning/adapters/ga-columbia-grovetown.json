@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-columbia-grovetown",
+  "publisher": "City of Grovetown GIS (hosted by Columbia County)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.columbiacountyga.gov/host/rest/services/MapsOnline/PlanningAndZoning/MapServer/81",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13073"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Grovetown zoning districts, served by Columbia County Maps Online.",
+  "verification": {
+    "verified_at": 1792133885077,
+    "counties": [
+      "13073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ms-madison-canton",
+  "publisher": "Canton, MS (via Canton_Zoning layer, GIS_Waggoner ArcGIS Online item)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/TQnmvJ4NICOaocHd/arcgis/rest/services/Canton_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28089"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "zoning_name"
+  },
+  "notes": "Parcel-based layer carrying each parcel zoning code; not a district layer. Hosted by an individual ArcGIS Online account, so official is false. Coverage is limited to the area it covers.",
+  "verification": {
+    "verified_at": 1792134599771,
+    "counties": [
+      "28089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

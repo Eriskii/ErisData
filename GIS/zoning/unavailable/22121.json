@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "22121",
+  "reason": "login-required",
+  "evidence": [
+    "https://wbrgis.com/server/rest/services/OfficeCommunityPlanning/MapServer",
+    "https://wbrgis.com/server/rest/services/OfficeCommunityPlanning/FeatureServer",
+    "https://wbrgis.com/server/rest/services/OpenData/MapServer",
+    "https://data-wbrgis.opendata.arcgis.com/",
+    "https://wbrcouncil.org/1049/GIS"
+  ],
+  "note": "West Baton Rouge Parish publishes zoning through its parish GIS server (wbrgis.com). The planning folder (OfficeCommunityPlanning) and OpenData folder return 'Token Required'. The only public services there are roads and boundaries. The open data portal lists no zoning dataset. The parish's zoning map is a PDF, and the assessor's digital map is a MapAnalyst viewer with no public zoning service found. Searches of ArcGIS Online and Hub found no official zoning districts layer for the parish or Port Allen, Addis or Brusly.",
+  "recorded_at": 1792134618957,
+  "recheck_after": 1807686618957,
+  "model": "claude-haiku-5-5"
+}

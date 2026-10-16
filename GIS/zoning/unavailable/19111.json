@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "19111",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.leecounty.iowa.gov/pview.aspx?id=21065&catid=0",
+    "https://www.leecounty.iowa.gov/pview.aspx?id=21049&catid=70",
+    "https://fortmadison-ia.com/218/Zoning",
+    "https://cityofkeokuk.org/government/development/",
+    "https://services7.arcgis.com/zeL4k07rMtB4v9Yi/arcgis/rest/services/Auditor_Data_Public_View/FeatureServer"
+  ],
+  "note": "No public county or Fort Madison zoning district service found. Lee County GIS pages link only Beacon parcel search; county auditor ArcGIS layers (sections, parcels, school/supervisor districts) have no zoning field. Fort Madison zoning page lists districts but no map service; Keokuk's city site links only the municode code. The only zoning polygon layer found is an unofficial ArcGIS Online copy of Keokuk zoning (services1.arcgis.com/DI59pGRbGVB0nAAA/.../ZONING_view/FeatureServer/0, uploaded by PBroomhall), covering Keokuk only; it fails validation with 5 of 6 polygons valid (90% needed).",
+  "recorded_at": 1792134295216,
+  "recheck_after": 1807686295216,
+  "model": "claude-haiku-5-5"
+}

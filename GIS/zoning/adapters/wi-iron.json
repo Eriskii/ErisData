@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-iron",
+  "publisher": "Iron County, WI (2020 county zoning, served via Wisconsin PSC server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.psc.wi.gov/server/rest/services/Electric/AshlandIronwood_4220CE183/MapServer/24",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55051"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "ZONING"
+  },
+  "notes": "2020 Iron County zoning polygons with parcel ID; hosted on the Wisconsin PSC server (Ashland-Ironwood electric case exhibit). Layer is the county zoning dataset, unincorporated land; no jurisdiction field. Newer 2025 county zoning is only a zip download (geodata.wisc.edu).",
+  "verification": {
+    "verified_at": 1792136043448,
+    "counties": [
+      "55051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ok-noble-perry",
+  "publisher": "City of Perry GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/LEvL9BICBy0rnAGt/arcgis/rest/services/City_of_Perry_GIS_WFL1/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40103"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Perry zoning only (city limits, Noble County seat); no county-wide or unincorporated zoning layer found. Layer has zone code only; no name or ordinance link field. Source: perrygis viewer item e43625af565e484b88bb35bca4be7256.",
+  "verification": {
+    "verified_at": 1792135294684,
+    "counties": [
+      "40103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

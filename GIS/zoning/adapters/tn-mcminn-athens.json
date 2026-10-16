@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-mcminn-athens",
+  "publisher": "City of Athens, Tennessee (AthensGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/ib7vXt8QkoYaULYB/arcgis/rest/services/Zoning_Labels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47107"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Athens zoning districts only (not county unincorporated land), from the city zoning map viewer at coatn.maps.arcgis.com; layer holds district polygons with district code in Zoning. Public, no login.",
+  "verification": {
+    "verified_at": 1792135548271,
+    "counties": [
+      "47107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

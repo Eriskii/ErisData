@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-carbon-helper",
+  "publisher": "Helper City (via Carbon County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.carbon.utah.gov/arcgis/rest/services/CountyGeneralMap/Planning___Zoning/MapServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49007"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "City of Helper zoning layer hosted by Carbon County GIS; covers the City of Helper only.",
+  "verification": {
+    "verified_at": 1792135787394,
+    "counties": [
+      "49007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

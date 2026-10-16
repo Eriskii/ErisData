@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-washburn-spooner",
+  "publisher": "City of Spooner, WI (SpoonerDPW)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Xnd2fKNA0yBORhwl/arcgis/rest/services/ZoningService/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55129"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code"
+  },
+  "notes": "City of Spooner zoning only (not county-wide). Layer holds the city zoning districts; no name field published.",
+  "verification": {
+    "verified_at": 1792136139440,
+    "counties": [
+      "55129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

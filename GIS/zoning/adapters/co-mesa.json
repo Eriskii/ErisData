@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "co-mesa",
+  "publisher": "Mesa County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mcgis.mesacounty.us/arcgis/rest/services/maps/Open_Data/MapServer/48",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08077"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CLASS"
+  },
+  "notes": "Mesa County Consolidated Zoning Districts (county open data layer 48). Zone codes are county district codes (RSF-R, RMF-8, B-1, PUD, etc.); some overlay districts appear as zone classes. No jurisdiction field.",
+  "verification": {
+    "verified_at": 1792133813417,
+    "counties": [
+      "08077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

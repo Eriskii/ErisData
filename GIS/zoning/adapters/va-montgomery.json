@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-montgomery",
+  "publisher": "Montgomery County GIS (VA)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.montva.com/server/rest/services/Land/Zoning/MapServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51121"
+    ]
+  },
+  "fields": {
+    "zone": "NAME",
+    "zone_name": "NAME"
+  },
+  "notes": "County zoning for unincorporated Montgomery County. NAME combines district code and name (e.g. A1 - Agriculture). Towns of Blacksburg and Christiansburg zone their own land and are not in this layer. Includes rezoning-case polygons with PROFFERS/CASENUM fields.",
+  "verification": {
+    "verified_at": 1792135926001,
+    "counties": [
+      "51121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

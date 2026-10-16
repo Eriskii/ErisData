@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-larimer-foco-copy",
+  "publisher": "finch718_CSUesri (copy on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/KNdRU5cN6ENqCTjk/arcgis/rest/services/Foco_Larimer_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08069"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Unofficial copy (CSU ArcGIS Online account finch718_CSUesri) of City of Fort Collins zoning, clipped; 239 districts. DIVISION holds Land Use Code section, not jurisdiction. Used because the official Fort Collins layer (services1.arcgis.com/dLpFH5mwVvxSN4OE/.../Zoning/FeatureServer/0) fails valid-polygons by one polygon and the county LC_Zoning layer fails paging/validity checks.",
+  "verification": {
+    "verified_at": 1792134025953,
+    "counties": [
+      "08069"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

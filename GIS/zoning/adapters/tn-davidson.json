@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-davidson",
+  "publisher": "Metro Nashville Planning Department (Davidson County)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/HdTo6HJqh92wn4D8/arcgis/rest/services/Zoning_Vw/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47037"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE",
+    "zone": "ZONE_DESC"
+  },
+  "notes": "Metro Nashville-Davidson County base zoning (Open Data, ArcGIS Online org of NashvilleOpenData). Covers Nashville/Davidson County; satellite cities (Belle Meade, Berry Hill, Goodlettsville, etc.) excluded. ZONE_DESC holds the district code (RS10, CL, MUG-A...). ORDINANCE is an ordinance number, not a URL. Overlay districts are a separate layer and are not included.",
+  "verification": {
+    "verified_at": 1792135530567,
+    "counties": [
+      "47037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

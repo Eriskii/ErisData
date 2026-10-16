@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ks-holcomb",
+  "publisher": "Finney County GIS (Holcomb zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/6814cdc6391848249dd1f399554619f4/rest/services/Planning/Zoning/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20055"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "link": "RegsWeb",
+    "zone": "Zone",
+    "zone_name": "District"
+  },
+  "notes": "Holcomb zoning from the Finney County GIS zoning map service. Jurisdiction is a FIPS-style code.",
+  "verification": {
+    "verified_at": 1792134240663,
+    "counties": [
+      "20055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

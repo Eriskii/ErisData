@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-copiah-crystal-springs",
+  "publisher": "Central Mississippi Planning and Development District (for City of Crystal Springs)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Crystal_Springs_Feature_Layer/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28029"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_2024"
+  },
+  "notes": "CMPDD Proposed Zoning layer (2024 comprehensive plan update) for Crystal Springs; parcel-based polygons, zoning_2024 attribute. Proposed, not yet adopted zoning. Served over http.",
+  "verification": {
+    "verified_at": 1792134821975,
+    "counties": [
+      "28029"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

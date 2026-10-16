@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-davie",
+  "publisher": "Davie County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.daviecountync.gov/server/rest/services/Zoning_and_Development/FeatureServer/0",
+    "page_size": 17,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37059"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONING"
+  },
+  "notes": "County zoning boundaries for unincorporated Davie plus Bermuda Run, Cooleemee and Mocksville, from the county GIS office. JURISDICTION names each area.",
+  "verification": {
+    "verified_at": 1792135106633,
+    "counties": [
+      "37059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

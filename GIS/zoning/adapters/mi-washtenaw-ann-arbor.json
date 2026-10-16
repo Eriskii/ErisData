@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mi-washtenaw-ann-arbor",
+  "publisher": "City of Ann Arbor",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://ckan.a2gov.org/dataset/970c31c9-c9c4-4082-a173-a97addf91642/resource/200ac6aa-7627-438b-bb06-b98be272b918/download/aa_zoning_districts.geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "26161"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCLASS"
+  },
+  "notes": "City of Ann Arbor only (not the whole county); no county-wide zoning layer was found. Source: City of Ann Arbor Open Data Portal Zoning Districts dataset (GeoJSON download).",
+  "verification": {
+    "verified_at": 1792132428252,
+    "counties": [
+      "26161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

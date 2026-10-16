@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-hamilton",
+  "publisher": "Hamilton County Ohio (CAGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/JyZag7oO4NteHGiq/arcgis/rest/services/Open_Data_Feature_Collection/FeatureServer/59",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39061"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE",
+    "zone": "ZONING"
+  },
+  "notes": "CAGIS Open Data Countywide_Zoning layer (4,054 districts, all jurisdictions in Hamilton County). Zone codes are filled for all districts; the JURISDICTION and ZONE_DESCRIPTION attributes are blank for about half the districts, so they are not mapped. Overlays in ZONEOVERLAY.",
+  "verification": {
+    "verified_at": 1792135194035,
+    "counties": [
+      "39061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

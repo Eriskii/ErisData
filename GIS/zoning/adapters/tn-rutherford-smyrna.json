@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-rutherford-smyrna",
+  "publisher": "City of Smyrna (hosted on Rutherford County ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/36I6IHIdr660pAyH/arcgis/rest/services/Smyrna_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47149"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_DIST"
+  },
+  "notes": "City of Smyrna zoning districts, last updated 3/6/24. Zone field is a numeric district code.",
+  "verification": {
+    "verified_at": 1792135550468,
+    "counties": [
+      "47149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

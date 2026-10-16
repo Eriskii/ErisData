@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-schuyler-watkins-glen",
+  "publisher": "Village of Watkins Glen",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/wGGTeQ7ADSSKDWnb/arcgis/rest/services/Village_of_Watkins_Glen_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36097"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Name"
+  },
+  "notes": "Village of Watkins Glen zoning, hosted on the Schuyler County ArcGIS services account. Layer is in NY State Plane (wkid 102716); service reprojects to WGS84. Name field carries the district description as published.",
+  "verification": {
+    "verified_at": 1792135040978,
+    "counties": [
+      "36097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

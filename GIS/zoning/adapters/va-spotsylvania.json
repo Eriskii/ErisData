@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-spotsylvania",
+  "publisher": "Spotsylvania County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.spotsylvania.va.us/arcgis/rest/services/WebLogistics/Public_LGIM/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51177"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Parcel View layer whose ZONING attribute carries each parcel's zoning class; used because the county Zoning district polygon layer (Public_LGIM MapServer/28) has invalid geometry and fails polygon validation. Last-resort parcel-based zoning.",
+  "verification": {
+    "verified_at": 1792136127147,
+    "counties": [
+      "51177"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

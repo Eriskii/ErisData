@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-rock-towns",
+  "publisher": "Rock County Planning & Development (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://rockgis.co.rock.wi.us/rockpub/rest/services/Zoning/Town_Zoning/MapServer/50",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55105"
+    ]
+  },
+  "fields": {
+    "zone": "Name",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Town zoning districts as assigned by the towns and disseminated to the county; Rock County does not zone incorporated cities, so city land is not covered. Name holds the district code (e.g. 002_A, 018_A1); the leading three digits identify the town. Layer includes retired history rows (RetiredByRecord not null) that may duplicate geometry.",
+  "verification": {
+    "verified_at": 1792136062653,
+    "counties": [
+      "55105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

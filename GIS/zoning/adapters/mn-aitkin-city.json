@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-aitkin-city",
+  "publisher": "Aitkin County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.co.aitkin.mn.us/arcgis/rest/services/MapLayers/MapServer/82",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27001"
+    ]
+  },
+  "fields": {
+    "zone": "NewZoning",
+    "zone_name": "NewZoning"
+  },
+  "notes": "Zoning for the City of Aitkin from the county LINK MapLayers service, layer 82 Zoning-Aitkin City. Zone code and name share one field; districts named by description only.",
+  "verification": {
+    "verified_at": 1792134462029,
+    "counties": [
+      "27001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

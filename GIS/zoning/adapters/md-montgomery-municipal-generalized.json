@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "md-montgomery-municipal-generalized",
+  "publisher": "Maryland Department of Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/njFNhDsUCentVYJW/arcgis/rest/services/Generalized_Zoning_2025_Draft/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24031"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "ZONING",
+    "zone_name": "GENZONE"
+  },
+  "filter": "JURSCODE = 'MONT' AND MUNICIPALITY_NAME IS NOT NULL",
+  "notes": "MDP generalized zoning 2025 (state-hosted AGOL), municipal parts of Montgomery County only; local zoning code in ZONING, generalized category in GENZONE.",
+  "verification": {
+    "verified_at": 1792134828323,
+    "counties": [
+      "24031"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

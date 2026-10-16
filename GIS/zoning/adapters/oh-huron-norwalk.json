@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-huron-norwalk",
+  "publisher": "City of Norwalk, Ohio (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/9CR0ctXbg0KoLtdo/arcgis/rest/services/MyMapService91/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39077"
+    ]
+  },
+  "fields": {
+    "zone": "District",
+    "zone_name": "Type"
+  },
+  "notes": "City of Norwalk zoning districts only (not county or township zoning). Layer hosted on the city's ArcGIS Online organization; 125 features.",
+  "verification": {
+    "verified_at": 1792135193054,
+    "counties": [
+      "39077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ne-madison-norfolk-c1",
+  "publisher": "City of Norfolk, Nebraska",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Gbmp5qaBUbr846rq/arcgis/rest/services/City_of_Norfolk_Nebraska_Zoning__view/FeatureServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31119"
+    ]
+  },
+  "fields": {
+    "link": "MunicipalCodeLink",
+    "zone": "ZoningClassification",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Norfolk zoning is split into one layer per district; this is the C-1 layer. Attribute values are coded-value domain codes.",
+  "verification": {
+    "verified_at": 1792135094684,
+    "counties": [
+      "31119"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

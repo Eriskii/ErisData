@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-shelby",
+  "publisher": "Shelby County GIS (Alabama)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.shelbyal.com/gisserver/rest/services/LegacyServices/ShelbyALWebIdentify/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01117"
+    ]
+  },
+  "fields": {
+    "zone": "idText",
+    "zone_name": "idText"
+  },
+  "notes": "County ID-tool layer ZoneAll; zoning district is the Zoned: field inside the idText blob (e.g. A-1 Agricultural District, RR Rural Residential District). Covers unincorporated county areas only where zoning was adopted. Blank Zoned: means no zoning.",
+  "verification": {
+    "verified_at": 1792133757482,
+    "counties": [
+      "01117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

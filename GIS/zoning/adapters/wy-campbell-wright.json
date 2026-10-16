@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wy-campbell-wright",
+  "publisher": "Town of Wright via Campbell County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.campbellcountywy.gov/arcgis/rest/services/Campbell_Public/Zoning_TownOfWright/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Wright zoning districts, hosted by Campbell County GIS. Includes the town only; the county layer covers unincorporated land.",
+  "verification": {
+    "verified_at": 1792136108863,
+    "counties": [
+      "56005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

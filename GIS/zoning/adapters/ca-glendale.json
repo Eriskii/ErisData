@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-glendale",
+  "publisher": "City of Glendale",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismap.glendaleca.gov/arcgis/rest/services/Common/Zoning/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_DISTR",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "City of Glendale zoning districts.",
+  "verification": {
+    "verified_at": 1792132108824,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

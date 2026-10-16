@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ky-butler",
+  "publisher": "BRADD (Barren River Area Development District) for City of Morgantown",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/LledJs8ADlUCS7Cz/arcgis/rest/services/Zoning_Morgantown/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21031"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode"
+  },
+  "notes": "Only queryable zoning layer found for Butler County KY: City of Morgantown (county seat) only, parcel-based polygons (one per parcel, carrying ZoningCode), dated May 2019. County unincorporated land not covered; no county zoning service found.",
+  "verification": {
+    "verified_at": 1792134351031,
+    "counties": [
+      "21031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

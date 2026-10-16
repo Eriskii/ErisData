@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-grant-county",
+  "publisher": "Grant County GIS (CSZD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.grant.wi.gov/server/rest/services/Zone_Classification/FeatureServer/24",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55043"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE",
+    "zone": "CURZONE"
+  },
+  "notes": "Parcel-level layer (about 48,600 parcels) carrying each parcel current zoning in CURZONE; no separate district polygon layer is public (CSZD folder requires a token). Used as last resort. Covers unincorporated county zoning per county ordinance; cities zone their own land.",
+  "verification": {
+    "verified_at": 1792136053619,
+    "counties": [
+      "55043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

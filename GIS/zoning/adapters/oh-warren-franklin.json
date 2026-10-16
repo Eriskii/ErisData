@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-warren-franklin",
+  "publisher": "City of Franklin, OH (via ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/w80AF4RGP2gXMxLM/arcgis/rest/services/Franklin_Zoning_Polygons/FeatureServer/31",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39165"
+    ]
+  },
+  "fields": {
+    "zone": "District_Abbv",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Franklin zoning designations, hosted on ArcGIS Online by the city consultant account (not the county server); covers the City of Franklin only, not unincorporated county land. Use in place of county layer, which is token-protected or unavailable.",
+  "verification": {
+    "verified_at": 1792135230057,
+    "counties": [
+      "39165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

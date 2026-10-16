@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-northampton-bethlehem",
+  "publisher": "City of Bethlehem GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/NlbUAihbvA50xxJw/arcgis/rest/services/COB_Zoning_Official_Public_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "City of Bethlehem official zoning districts only (24 features in layer); county-wide layer not found. Northampton County GIS publishes no zoning district layer.",
+  "verification": {
+    "verified_at": 1792135647647,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

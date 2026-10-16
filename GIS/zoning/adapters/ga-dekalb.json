@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-dekalb",
+  "publisher": "DeKalb County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://dcgis.dekalbcountyga.gov/mapping/rest/services/Zoning_District/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13089"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "DeKalb County GIS Zoning_District layer. ZONEDESC (zone name) is empty in the source, so no zone_name. Covers zoning as published by the county; incorporated cities that zone separately may not be included.",
+  "verification": {
+    "verified_at": 1792133900528,
+    "counties": [
+      "13089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

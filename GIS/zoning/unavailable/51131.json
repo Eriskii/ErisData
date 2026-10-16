@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "51131",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.co.northampton.va.us/government/departments_elected_offices/planning_permiting_enforcement/zoning",
+    "https://northampton.civ.quest/",
+    "https://www.co.northampton.va.us/government/open_government/maps",
+    "https://services2.coastalresilience.org/arcgis/rest/services/Virginia/Virginia/MapServer/8"
+  ],
+  "note": "County zoning (2016 Amended Zoning) is published only as a layer in the county's Civic Vanguard/CivQuest mapping viewer; no ArcGIS REST endpoint for it is linked from county pages and the viewer exposes none I could read. The only REST copy found (Virginia Coastal Resilience MapServer layer 8, 2016 base zoning, unofficial) was unreachable from both my tools and the validator (connection error on every request). Town of Cape Charles has no GIS zoning service (its GIS is planned for 2026); its zoning map is a PDF. Other towns (Exmore, Eastville, Nassawadox, Cheriton, Belle Haven) showed no GIS zoning in search.",
+  "recorded_at": 1792135991242,
+  "recheck_after": 1807687991242,
+  "model": "claude-haiku-5-5"
+}

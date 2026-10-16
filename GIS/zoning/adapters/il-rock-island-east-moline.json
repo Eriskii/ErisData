@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-rock-island-east-moline",
+  "publisher": "City of East Moline (copy on ArcGIS Online by Josephm68)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/AexCN3RZHA62zqjz/arcgis/rest/services/East_Moline_Zoning_Map_WFL1/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17161"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUN_NAME",
+    "zone": "Zoning_Cla",
+    "zone_name": "Zoning_Cla"
+  },
+  "notes": "East Moline zoning map 2025 hosted on ArcGIS Online by an individual editor (Josephm68), not the city server; use because no official queryable service was found.",
+  "verification": {
+    "verified_at": 1792134217335,
+    "counties": [
+      "17161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

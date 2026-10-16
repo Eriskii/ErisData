@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-dodge-county",
+  "publisher": "Dodge County Land Resources & Parks (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geo2.co.dodge.wi.us/server/rest/services/Layers/Code_Admin/MapServer/46",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55027"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "FULL_NAME",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_CLASS"
+  },
+  "notes": "County zoning layer from Code_Admin service; covers towns under county zoning. Cities and villages zone their own land.",
+  "verification": {
+    "verified_at": 1792136053503,
+    "counties": [
+      "55027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

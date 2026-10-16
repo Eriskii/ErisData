@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-macon-franklin",
+  "publisher": "Macon County GIS (Town of Franklin Zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.maconnc.org/arcgis/rest/services/AdditionalLayers/MapServer/24",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37113"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Layer hosted by Macon County GIS covers the Town of Franklin zoning only (not unincorporated county land). Zone codes only; no zone name or ordinance link field published.",
+  "verification": {
+    "verified_at": 1792135095049,
+    "counties": [
+      "37113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

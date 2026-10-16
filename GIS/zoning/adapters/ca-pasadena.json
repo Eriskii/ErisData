@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-pasadena",
+  "publisher": "City of Pasadena",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/zNjnZafDYCAJAbN0/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "CODE_LABEL"
+  },
+  "notes": "City of Pasadena zoning district layer (pasgis ArcGIS Online organization).",
+  "verification": {
+    "verified_at": 1792132112211,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

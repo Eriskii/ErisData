@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29175",
+  "reason": "login-required",
+  "evidence": [
+    "https://sites7.integritygis.com/Geocortex/Essentials/REST/sites/Moberly_MO/map",
+    "https://services2.integritygis.com/arcgis/rest/Services/MO/Moberly_Assessor_Data/MapServer",
+    "https://randolphgis.breezemaps.com/web-gis",
+    "https://randolphcounty.us/services/review-zoning-map"
+  ],
+  "note": "No public queryable zoning district service found for Randolph County, MO. Moberly's zoning layer (Moberly_Assessor_Data MapServer on services2.integritygis.com) refuses requests with 'Token Required'. The county's zoning map is in a gated GIS viewer (randolphgis.breezemaps.com, HTML only, no REST services). Randolph County's own zoning-map page and the county villagis viewer were not reachable from here. Other searches (ArcGIS Hub/Online, Huntsville, Higbee, Clark) found no open zoning service.",
+  "recorded_at": 1792134918138,
+  "recheck_after": 1807686918138,
+  "model": "claude-haiku-5-5"
+}

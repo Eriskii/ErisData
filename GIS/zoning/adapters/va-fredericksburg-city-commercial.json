@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-fredericksburg-city-commercial",
+  "publisher": "City of Fredericksburg GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.fredericksburgva.gov/arcgis/rest/services/WebLoGIStics/Fredericksburg_WL_P/MapServer/197",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51630"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Fredericksburg Base Zoning Districts, commercial and industrial districts layer (86 features). Residential districts are a separate spec (va-fredericksburg-city-residential).",
+  "verification": {
+    "verified_at": 1792135991906,
+    "counties": [
+      "51630"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

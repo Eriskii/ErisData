@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-walker-huntsville",
+  "publisher": "City of Huntsville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.huntsvillegis.com/arcgis/rest/services/ZoningAndProtectionOverlaysForWebMapViewers/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48471"
+    ]
+  },
+  "fields": {
+    "link": "ViewOrdinance",
+    "zone": "Zoning_District",
+    "zone_name": "ZoningDistrictLabel"
+  },
+  "filter": "OBJECTID > 14",
+  "notes": "City of Huntsville zoning districts (city limits only).",
+  "verification": {
+    "verified_at": 1792135900840,
+    "counties": [
+      "48471"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

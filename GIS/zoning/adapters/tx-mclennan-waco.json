@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-mclennan-waco",
+  "publisher": "City of Waco, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wacotx.gov/server/rest/services/PublicMap/PublicMap_Planning_and_Economical_Development/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48309"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Waco zoning only (city limits, not unincorporated county). Zone field ZONING holds the district code.",
+  "verification": {
+    "verified_at": 1792135710267,
+    "counties": [
+      "48309"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

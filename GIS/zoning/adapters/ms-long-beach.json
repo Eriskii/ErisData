@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-long-beach",
+  "publisher": "City of Long Beach, MS (hosted by Harrison County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geo.co.harrison.ms.us/server/rest/services/ALL/longbeachzoning/MapServer/4",
+    "page_size": 16,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Long Beach zoning districts, a city layer within Harrison County; zone holds the district code. Paging capped small to avoid server paging instability.",
+  "verification": {
+    "verified_at": 1792134598489,
+    "counties": [
+      "28047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

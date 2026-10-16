@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-vanzandt-canton",
+  "publisher": "City of Canton, TX (ETCOG-hosted GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.etcog.org/arcgis/rest/services/CANTON/CANTON_Zoning_Public/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48467"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Canton zoning districts only; Van Zandt County itself publishes no zoning. Layer served by East Texas Council of Governments for the City.",
+  "verification": {
+    "verified_at": 1792135851344,
+    "counties": [
+      "48467"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

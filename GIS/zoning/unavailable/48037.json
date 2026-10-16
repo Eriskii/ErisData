@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48037",
+  "reason": "login-required",
+  "evidence": [
+    "https://www.arcgis.com/home/item.html?id=0da4f0019f1a44f7be872a2723e44ca7",
+    "https://www.texarkanatexas.gov/522/Zoning-Map",
+    "https://twugis.newedgeservices.com/arcgis/rest/services/SDEServices/ZoningTxkTX/FeatureServer"
+  ],
+  "note": "Bowie County publishes no county zoning; parcels carry no zoning field. The only zoning polygons found are the City of Texarkana, TX layer (ZoningTxkTX on the TWU server), which returns 'Token Required' to public queries. Texarkana TX's Zoning App and Development Map Viewer show it, but no public copy is queryable. The Zoning_Texarkana layer is Texarkana, Arkansas, not Texas.",
+  "recorded_at": 1792135678532,
+  "recheck_after": 1807687678532,
+  "model": "claude-haiku-5-5"
+}

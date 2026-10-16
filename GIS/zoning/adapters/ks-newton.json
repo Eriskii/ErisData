@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-newton",
+  "publisher": "City of Newton, KS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/IMeyer9qsWLGIlou/arcgis/rest/services/Zoning_Districts/FeatureServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20079"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneName",
+    "zone_name": "ZoneClassification"
+  },
+  "notes": "City of Newton zoning areas from the city GIS (layer of the City of Newton public map on newtonkansas.maps.arcgis.com). ZoneName holds the district code such as C-1 Zone; ZoneClassification the district name. No ordinance link field is filled.",
+  "verification": {
+    "verified_at": 1792134283318,
+    "counties": [
+      "20079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

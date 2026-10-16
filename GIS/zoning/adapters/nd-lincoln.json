@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nd-lincoln",
+  "publisher": "City of Lincoln ND (hosted by Burleigh County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/8r0lsT7QHelkANsD/arcgis/rest/services/Zoning_City_Of_Lincoln_Burleigh_County_ND/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Lincoln zoning within its extraterritorial area, published by Burleigh County. Only zone code is published; no zone name field.",
+  "verification": {
+    "verified_at": 1792135121498,
+    "counties": [
+      "38015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

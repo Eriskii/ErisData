@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-pendleton-falmouth",
+  "publisher": "LINK-GIS (City of Falmouth zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.linkgis.org/server/rest/services/Economic_Development_Theme/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21191"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE"
+  },
+  "notes": "City of Falmouth base zoning districts, hosted by LINK-GIS. Falmouth is the largest city in Pendleton County; the county layer ky-pendleton does not include it.",
+  "verification": {
+    "verified_at": 1792134369944,
+    "counties": [
+      "21191"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

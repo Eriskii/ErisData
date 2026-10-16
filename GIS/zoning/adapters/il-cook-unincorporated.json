@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-cook-unincorporated",
+  "publisher": "Cook County Department of Building and Zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cookcountyil.gov/traditional/rest/services/economicDevelopment/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17031"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "Unincorporated Cook County only; municipalities zone their own land. Aggregate of unincorporated zoning districts maintained by Cook County Zoning.",
+  "verification": {
+    "verified_at": 1792131922149,
+    "counties": [
+      "17031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

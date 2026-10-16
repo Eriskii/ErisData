@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-blacksburg",
+  "publisher": "Town of Blacksburg",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://tobmaps.blacksburg.gov/server/rest/services/Planning/TownZoningLayers/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51121"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "notes": "Town of Blacksburg base zoning districts only (layer 8 of the Town zoning service). Town-limits polygons; the county layer covers unincorporated land.",
+  "verification": {
+    "verified_at": 1792135946013,
+    "counties": [
+      "51121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

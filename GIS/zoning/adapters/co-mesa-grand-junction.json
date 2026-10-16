@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "co-mesa-grand-junction",
+  "publisher": "City of Grand Junction GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://external25-gis.gjcity.org/arcgis/rest/services/Hub/Development_Hub/MapServer/76",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08077"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_PRIM"
+  },
+  "notes": "City of Grand Junction Zoning Districts (parcel-level zoning polygons, one per parcel; ZONE_PRIM is the zoning code). Covers city land only; the county layer co-mesa covers unincorporated Mesa County.",
+  "verification": {
+    "verified_at": 1792133896574,
+    "counties": [
+      "08077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

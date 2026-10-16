@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-fulton",
+  "publisher": "Fulton County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.fultoncountyoh.com/arcgis/rest/services/Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39051"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "COMMUNITY",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Fulton County OH Zoning Districts layer on county ArcGIS server; 438 features; COMMUNITY names the jurisdiction (county unincorporated or city/village).",
+  "verification": {
+    "verified_at": 1792135200316,
+    "counties": [
+      "39051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

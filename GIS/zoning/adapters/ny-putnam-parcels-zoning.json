@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-putnam-parcels-zoning",
+  "publisher": "Putnam County NY GIS (tax parcel zoning attribute)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/dU6jdOIkCUj2UDe9/arcgis/rest/services/Putnam_parcels_2024/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36079"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Town",
+    "zone": "Zoning"
+  },
+  "notes": "Fallback: no county or town zoning district polygon layer is published. This is the county tax parcel layer (2024), whose Zoning attribute carries each parcel's zoning district code (e.g. R, R1, RC, PRD, CR) for the towns of Carmel, Kent, Patterson, Putnam Valley, Philipstown and Southeast. Values are space-padded and trimmed by the consumer; many parcels, notably in Carmel, are blank. Villages are not separately zoned here. Parcel-level, not district polygons.",
+  "verification": {
+    "verified_at": 1792135180651,
+    "counties": [
+      "36079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

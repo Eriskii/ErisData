@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "05113",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.polk-county.net/image/rest/services",
+    "https://cms4files1.revize.com/polk/docs/planning/Zoning_Ordinance_2_3_14_compiled_.pdf",
+    "https://polk-county-geoportal-open-data-polk-bocc-gis.hub.arcgis.com/"
+  ],
+  "note": "Polk County AR has a county zoning ordinance (2014/2021), but its county GIS server (gis.polk-county.net) publishes only aerials, drone imagery, LiDAR, utilities and historic zoning map images (ImageServers, token-protected folder), and the county open data hub lists no zoning district polygon layer (only a Future Land Use 2030 item). No zoning district service found for Mena, Cove, Grannis, Hatfield or Wickes either; their websites link no zoning GIS.",
+  "recorded_at": 1792133850840,
+  "recheck_after": 1807685850840,
+  "model": "claude-haiku-5-5"
+}

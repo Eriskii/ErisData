@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-lubbock-city",
+  "publisher": "City of Lubbock GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/eYXun6c1pgy8Qpta/arcgis/rest/services/NewZoning_UDC/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48303"
+    ]
+  },
+  "fields": {
+    "link": "OrdinanceNumber",
+    "zone": "Notes",
+    "zone_name": "ZoningDist"
+  },
+  "notes": "City of Lubbock zoning polygons (UDC) from the city GIS zoning dataset; includes zoning-case records and deprecated zoning. zone is the current UDC district code in Notes (ZoningActual holds legacy codes such as R-1). Unincorporated Lubbock County is not zoned; the county publishes no zoning layer.",
+  "verification": {
+    "verified_at": 1792135697779,
+    "counties": [
+      "48303"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

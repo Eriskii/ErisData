@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-kenosha-county",
+  "publisher": "Kenosha County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapping.kenoshacountywi.gov/server/rest/services/Interactive_Mapping/Zoning/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55059"
+    ]
+  },
+  "fields": {
+    "link": "ClickLink",
+    "zone": "TAG",
+    "zone_name": "DistDescText"
+  },
+  "notes": "Unincorporated Kenosha County only; the cities of Kenosha, Racine-area and others zone their own land.",
+  "verification": {
+    "verified_at": 1792136045733,
+    "counties": [
+      "55059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

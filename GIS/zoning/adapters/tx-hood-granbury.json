@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-hood-granbury",
+  "publisher": "City of Granbury GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/wHtOhDQeUxQY5fQy/arcgis/rest/services/Zoning/FeatureServer/60",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48221"
+    ]
+  },
+  "fields": {
+    "link": "ZoningPurp",
+    "zone": "Zoning"
+  },
+  "notes": "City of Granbury zoning districts only (city limits); unincorporated Hood County and other cities are not in this layer. link is the eCode360 ordinance section URL.",
+  "verification": {
+    "verified_at": 1792135663047,
+    "counties": [
+      "48221"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

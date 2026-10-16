@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-brainerd",
+  "publisher": "City of Brainerd (layer published under a personal ArcGIS account, connorplagge)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/uqzY8RRiGhwsxu6K/arcgis/rest/services/Brainerd_Zoning_Layers/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27035"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance_Link",
+    "zone": "Zoning_Abb",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "Copy of City of Brainerd Zoning Classifications (2022) hosted under a personal ArcGIS Online account, not an official city or county service; used because no official queryable Brainerd zoning layer was found. Covers the City of Brainerd only.",
+  "verification": {
+    "verified_at": 1792134554369,
+    "counties": [
+      "27035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

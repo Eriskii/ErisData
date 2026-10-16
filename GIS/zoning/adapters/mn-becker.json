@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-becker",
+  "publisher": "Becker County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-server.co.becker.mn.us/arcgis/rest/services/BECKER_INTERNAL_101/MapServer/43",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Township_Name",
+    "zone": "Zoning_District"
+  },
+  "filter": "Zoning_District IS NOT NULL",
+  "notes": "Becker County zoning districts (county-zoned townships; zone holds district names such as Agricultural rather than codes). PIN is the parcel number. Served from the county GIS server.",
+  "verification": {
+    "verified_at": 1792134492175,
+    "counties": [
+      "27005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

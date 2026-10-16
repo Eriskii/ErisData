@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wa-cle-elum",
+  "publisher": "Kittitas County GIS (Cle Elum / South Cle Elum zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.kittitas.wa.us/kcgis/rest/services/COMPAS/zoning/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "zone_name"
+  },
+  "verification": {
+    "verified_at": 1792136449421,
+    "counties": [
+      "53037"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

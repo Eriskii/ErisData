@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ok-payne-stillwater",
+  "publisher": "City of Stillwater, OK",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/RPfJX2yEEVtopacQ/ArcGIS/rest/services/Zoning_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40119"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE",
+    "zone_name": "TYPE_DESC"
+  },
+  "notes": "City of Stillwater zoning districts only (city limits, not unincorporated Payne County). Hosted in City of Stillwater ArcGIS org. DOCUMENT_PATH is empty so no link mapped. OVERLAY and PZ hold overlay/planned-zone info.",
+  "verification": {
+    "verified_at": 1792135292547,
+    "counties": [
+      "40119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

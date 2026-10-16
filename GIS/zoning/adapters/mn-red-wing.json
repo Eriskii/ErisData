@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-red-wing",
+  "publisher": "City of Red Wing / Goodhue County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://publicmaps.co.goodhue.mn.us/arcgis/rest/services/GCUGGIS/RW_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_DOC"
+  },
+  "notes": "City of Red Wing zoning districts, hosted on the county GIS server; ZONE_DOC holds the district code. Covers the city only; county unincorporated zoning is in the mn-goodhue spec.",
+  "verification": {
+    "verified_at": 1792134490671,
+    "counties": [
+      "27049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "31143",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://polkcounty.nebraska.gov/sites/default/files/doc/Official%20Zoning%20Map.pdf",
+    "https://polkcounty.nebraska.gov/county-offices/planning-zoning",
+    "https://polk-county-geoportal-open-data-polk-bocc-gis.hub.arcgis.com/"
+  ],
+  "note": "Polk County NE (FIPS 31143) publishes its Official Zoning Map only as a PDF on polkcounty.nebraska.gov. Searches of ArcGIS Online/Hub (state-wide NE zoning search, county hub API, polk_admin services) found no zoning district FeatureServer; the county hub's only zoning item is Map Land Use and Zoning FLU 2030 (a future land use plan, and it is the Florida Polk County). gWorks parcel portal exposes no zoning REST service. City searches for Osceola, Stromsburg and Shelby found no zoning GIS.",
+  "recorded_at": 1792134987405,
+  "recheck_after": 1807686987405,
+  "model": "claude-haiku-5-5"
+}

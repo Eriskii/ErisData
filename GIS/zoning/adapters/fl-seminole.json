@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-seminole",
+  "publisher": "Seminole County Development Services (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/90f53592ff0e4e72864703c562682c69/rest/services/LandUse/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12117"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Seminole County unincorporated zoning districts only (cities zone their own). Source: county LandUse MapServer, linked from the county GIS Zoning web map. Zone names not published in this layer.",
+  "verification": {
+    "verified_at": 1792133904411,
+    "counties": [
+      "12117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

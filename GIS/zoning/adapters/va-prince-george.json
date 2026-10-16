@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-prince-george",
+  "publisher": "Prince George County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.princegeorgeva.org/server/rest/services/PGGISImport/Mapviewer/MapServer/77",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51149"
+    ]
+  },
+  "fields": {
+    "zone": "MAP_ZONING"
+  },
+  "notes": "County GIS Zoning layer (MapServer 77), base zoning districts for Prince George County VA. Zoning_Old holds prior codes; not mapped.",
+  "verification": {
+    "verified_at": 1792135947889,
+    "counties": [
+      "51149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

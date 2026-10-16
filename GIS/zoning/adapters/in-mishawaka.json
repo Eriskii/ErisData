@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "in-mishawaka",
+  "publisher": "City of Mishawaka GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.mishawaka.in.gov/arcgis/rest/services/Public/Zoning_WBM/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18141"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "City of Mishawaka zoning, city-hosted public MapServer layer; polygons carry parcel IDs and ordinance numbers.",
+  "verification": {
+    "verified_at": 1792134201139,
+    "counties": [
+      "18141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

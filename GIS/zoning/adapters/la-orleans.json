@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-orleans",
+  "publisher": "City of New Orleans City Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.nola.gov/server/rest/services/LandUsePlanning/Land_Use_Planning_Layers/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22071"
+    ]
+  },
+  "fields": {
+    "link": "HYPERLINK",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "New Orleans city-parish zoning districts (Comprehensive Zoning Ordinance); layer covers the whole parish. Updated weekly.",
+  "verification": {
+    "verified_at": 1792131910362,
+    "counties": [
+      "22071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

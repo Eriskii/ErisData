@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "17023",
+  "reason": "login-required",
+  "evidence": [
+    "https://services3.integritygis.com/arcgis/rest/services/IL/Marshall_Utility/MapServer",
+    "https://www.ccgisonline.com/ccgis-map-downloads",
+    "https://marshall-il.com/planning-and-zoning/"
+  ],
+  "note": "Clark County IL publishes no queryable zoning polygons. County zoning (Winchester-Clark County Zoning District Atlas) is PDF map sheets only (ccgisonline.com). City of Marshall's zoning sits in an IntegrityGIS Marshall_Utility MapServer (layer Zoning 75), which returns 'Token Required'; the public viewer marshallgis.integritygis.com is linked from the city site. No open zoning service found for Casey, Martinsville, Westfield or West Union. The only public Clark County zoning layers in ArcGIS search belong to Clark County, Nevada.",
+  "recorded_at": 1792134052371,
+  "recheck_after": 1807686052371,
+  "model": "claude-haiku-5-5"
+}

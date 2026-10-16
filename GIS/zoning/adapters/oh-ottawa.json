@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-ottawa",
+  "publisher": "Ottawa County Regional Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.ottawa.oh.us/arcgis/rest/services/AGS_ottawa_co_oh_RegionalPlanning_Public/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39123"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWNSHIP",
+    "zone": "ZONINGDIST"
+  },
+  "notes": "County-wide zoning layer from Ottawa County Regional Planning Commission. Two jurisdiction attributes: TOWNSHIP names the township for unincorporated land (blank inside cities); CORP names the city or village (blank for unincorporated). Mapped TOWNSHIP here; CORP holds city names. Includes NOT ZONED polygons.",
+  "verification": {
+    "verified_at": 1792135190573,
+    "counties": [
+      "39123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

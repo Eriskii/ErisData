@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-cobb-marietta",
+  "publisher": "City of Marietta GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/OKqf9cl3ItPM5Rid/arcgis/rest/services/vZoning/FeatureServer/31",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13067"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Last resort: City of Marietta parcel layer (vZoning FeatureServer layer 31, about 21,800 parcels) whose ZONING attribute carries each parcel zoning; no city zoning district polygon layer was found. Covers Marietta only. Parcel polygons, so one district spans many features.",
+  "verification": {
+    "verified_at": 1792133932282,
+    "counties": [
+      "13067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

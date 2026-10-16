@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-cabarrus",
+  "publisher": "Cabarrus County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://location.cabarruscounty.us/arcgisservices/rest/services/opendata/MapServer/35",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE",
+    "zone_name": "ZONING_GEN"
+  },
+  "notes": "Unincorporated county zoning from Cabarrus County open data MapServer layer 35. Cities are separate layers.",
+  "verification": {
+    "verified_at": 1792135042592,
+    "counties": [
+      "37025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

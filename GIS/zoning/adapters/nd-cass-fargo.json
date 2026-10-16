@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nd-cass-fargo",
+  "publisher": "City of Fargo GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityoffargo.com/arcgis/rest/services/General/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38017"
+    ]
+  },
+  "fields": {
+    "zone": "Zone1"
+  },
+  "notes": "City of Fargo zoning layer; one feature per parcel carrying its zoning code in Zone1 (parcel attributes included, so it is a parcel-level zoning layer). Zone name not published in this layer.",
+  "verification": {
+    "verified_at": 1792135126520,
+    "counties": [
+      "38017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

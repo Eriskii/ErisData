@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-cherokee-gaffney",
+  "publisher": "City of Gaffney (via ArcGIS Online, canoewood)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/5WiV1cFjOcoTFxQs/arcgis/rest/services/SC_GaffneyCity_01/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Gaffney zoning districts only; unincorporated Cherokee County and other towns are not covered. Hosted on the city-branded ArcGIS Online account; county-wide zoning is published only as PDF.",
+  "verification": {
+    "verified_at": 1792135375062,
+    "counties": [
+      "45021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

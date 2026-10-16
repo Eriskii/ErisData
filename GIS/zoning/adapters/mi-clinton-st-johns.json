@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mi-clinton-st-johns",
+  "publisher": "City of St. Johns",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/DAi79NctcAvQq1Gd/arcgis/rest/services/StJohnsZoningEffective071626/FeatureServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26037"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of St. Johns virtual zoning map layer (parcel-based polygons); Zoning is a subtype integer code 1-11 (1=R1,2=R2,3=R3,4=MC,5=O,6=GC,7=CBD,8=I1,9=I2,10=MU,11=R-MH)",
+  "verification": {
+    "verified_at": 1792132533786,
+    "counties": [
+      "26037"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

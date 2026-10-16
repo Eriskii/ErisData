@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-sullivan-kingsport",
+  "publisher": "City of Kingsport GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/zH77CQArAPDz2Bv4/arcgis/rest/services/ArcGISProPublicData/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47163"
+    ]
+  },
+  "fields": {
+    "zone": "DIST"
+  },
+  "notes": "City of Kingsport Zoning layer in the city public data service (961 districts). Covers city limits only; zone_name and link are mostly blank in the source, so not mapped. Kingsport also extends into Hawkins County.",
+  "verification": {
+    "verified_at": 1792135617319,
+    "counties": [
+      "47163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

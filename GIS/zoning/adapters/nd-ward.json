@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nd-ward",
+  "publisher": "Ward County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/tvgNL3LD8EYwagwG/arcgis/rest/services/WC_Zoning_Aug2025/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "38101"
+    ]
+  },
+  "fields": {
+    "link": "Doc_Link",
+    "zone": "Zoning",
+    "zone_name": "New_ZD"
+  },
+  "notes": "Ward County zoning districts, updated Aug 2025 (layer named WC_Zoning_Dec2025), outside cities. Source polygons: a few are self-intersecting.",
+  "verification": {
+    "verified_at": 1792135164218,
+    "counties": [
+      "38101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

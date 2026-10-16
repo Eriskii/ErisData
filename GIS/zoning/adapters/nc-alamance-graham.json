@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-alamance-graham",
+  "publisher": "City of Graham / Burlington-Alamance ReGIS Partnership",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.regisnc.org/arcgis/rest/services/GrahZoningCounty/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEID",
+    "zone_name": "DIST_DESC"
+  },
+  "notes": "City of Graham zoning districts, hosted by Burlington-Alamance ReGIS on maps.regisnc.org. Covers Graham city limits only.",
+  "verification": {
+    "verified_at": 1792135136725,
+    "counties": [
+      "37001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

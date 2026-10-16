@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-putnam-interlachen",
+  "publisher": "Putnam County GIS (Town of Interlachen zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YZc1OyqL6jbIOeOv/arcgis/rest/services/MunicipalZoning_TownOfInterlachen_hub/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "12107"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Interlachen zoning, hosted by Putnam County GIS",
+  "verification": {
+    "verified_at": 1792134056295,
+    "counties": [
+      "12107"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-white-sparta",
+  "publisher": "City of Sparta, TN",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/BCClpxLWXot5hNxn/arcgis/rest/services/Official_Zoning/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47185"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Current"
+  },
+  "notes": "City of Sparta official zoning layer (White County seat); city limits only, not unincorporated county land.",
+  "verification": {
+    "verified_at": 1792135618935,
+    "counties": [
+      "47185"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

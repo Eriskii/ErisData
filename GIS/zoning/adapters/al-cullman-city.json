@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-cullman-city",
+  "publisher": "City of Cullman via Cullman County GIS (KCS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://al25portal.kcsgis.com/al25server/rest/services/Cullman_Public_ISV/MapServer/116",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01043"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Cullman zoning only (not unincorporated county). Served by county KCS ISV public MapServer.",
+  "verification": {
+    "verified_at": 1792133707621,
+    "counties": [
+      "01043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

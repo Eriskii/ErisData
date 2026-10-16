@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-st-charles",
+  "publisher": "St. Charles County Community Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.sccmo.org/scc_gis/rest/services/appservices/communitydevelopment/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29183"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALI",
+    "zone": "ZONING",
+    "zone_name": "ZONING_DEF"
+  },
+  "notes": "County zoning districts layer covering unincorporated county and incorporated municipalities via MUNICIPALI field; no per-district ordinance link field.",
+  "verification": {
+    "verified_at": 1792134696887,
+    "counties": [
+      "29183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-el-centro",
+  "publisher": "City of El Centro Community Development Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/6IWYecSqhXLE12DA/arcgis/rest/services/Zoning_Map_WFL1/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06025"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "ZoningCode"
+  },
+  "notes": "City of El Centro zoning districts, from the city zoning map web app. Covers El Centro city limits only. Overlay districts are in a separate layer (FeatureServer/0) and are not used.",
+  "verification": {
+    "verified_at": 1792134143478,
+    "counties": [
+      "06025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

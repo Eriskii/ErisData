@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-erie",
+  "publisher": "Erie County GIS (ECGISAB)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/r00vmm8eIzAwdHlO/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39043"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICT",
+    "zone": "ZONINGCODE",
+    "zone_name": "ZoneClass"
+  },
+  "notes": "Erie County, Ohio zoning layer covering all jurisdictions (townships and cities) in one layer; zone holds the district code plus its description. Records are parcel-level with zoning attributes carried on each parcel (tax-parcel fields present), so duplicates per district are expected. Snapshot dated 2021 (Zoning_08_19_21).",
+  "verification": {
+    "verified_at": 1792135150504,
+    "counties": [
+      "39043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

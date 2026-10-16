@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-normal-zoning",
+  "publisher": "Town of Normal (via McLean County GIS Consortium)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.mcgisweb.org/mcgc/rest/services/OpenData/OpenData/MapServer/20",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17113"
+    ]
+  },
+  "fields": {
+    "zone": "TON_ZONING"
+  },
+  "notes": "Town of Normal zoning, published by McGIS. Zone description not in this layer.",
+  "verification": {
+    "verified_at": 1792134056031,
+    "counties": [
+      "17113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

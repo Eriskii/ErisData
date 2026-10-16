@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-cedar-rapids",
+  "publisher": "City of Cedar Rapids GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://crgis.cedar-rapids.org/arcgis/rest/services/Maps/Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19113"
+    ]
+  },
+  "fields": {
+    "link": "ORD_LINK",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Cedar Rapids zoning districts (city limits only), from the city GIS Maps/Zoning MapServer used by EnerGov. Overlay districts are in a separate layer (MapServer/6) and are not used.",
+  "verification": {
+    "verified_at": 1792134187961,
+    "counties": [
+      "19113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

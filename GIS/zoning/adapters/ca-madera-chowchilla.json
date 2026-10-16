@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-madera-chowchilla",
+  "publisher": "City of Chowchilla (layer published by QK Inc. for the city)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/DBTMLM7aNO6MIQcc/arcgis/rest/services/Chowchilla_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06039"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Chowchilla base zoning districts (Chowchilla is partly in Madera County; this covers the city only, not unincorporated county land). Source attributes: ZONECLASS code, ZONEDESC description, NewZone, GP general plan fields not mapped.",
+  "verification": {
+    "verified_at": 1792134073498,
+    "counties": [
+      "06039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

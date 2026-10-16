@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nd-minot",
+  "publisher": "City of Minot GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.minotnd.org/server/rest/services/Parcels_By_Zoning/FeatureServer/0",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "38101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDESC",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Minot parcel layer carrying each parcel zoning description (ZONEDESC); no separate district polygons published. Last resort: one feature per parcel, so districts repeat across parcels; zone code and name are the same description field.",
+  "verification": {
+    "verified_at": 1792135204860,
+    "counties": [
+      "38101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

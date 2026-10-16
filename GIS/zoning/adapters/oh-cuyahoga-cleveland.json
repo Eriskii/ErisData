@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-cuyahoga-cleveland",
+  "publisher": "City of Cleveland (City Planning Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/dty2kHktVXHrqO8i/arcgis/rest/services/Zoning_Authoritative/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39035"
+    ]
+  },
+  "fields": {
+    "link": "SECTION_LINK",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DIST"
+  },
+  "notes": "City of Cleveland authoritative zoning districts only (City of Cleveland layer, covers the city, not other Cuyahoga jurisdictions). ZONE_HGT and ZONE_USE hold height and use districts.",
+  "verification": {
+    "verified_at": 1792135188260,
+    "counties": [
+      "39035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

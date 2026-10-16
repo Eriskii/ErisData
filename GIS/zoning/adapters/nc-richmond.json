@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-richmond",
+  "publisher": "Richmond County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.richmondnc.com/server/rest/services/ParcelviewerShield/MapServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37153"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "DistrictCode",
+    "zone_name": "DistrictName"
+  },
+  "filter": "OBJECTID <> 77",
+  "notes": "County Zoning Districts layer in the county parcel viewer service. Filter excludes OBJECTID 77, whose source geometry is invalid.",
+  "verification": {
+    "verified_at": 1792135651719,
+    "counties": [
+      "37153"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

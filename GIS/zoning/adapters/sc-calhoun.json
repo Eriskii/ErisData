@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sc-calhoun",
+  "publisher": "Calhoun County, SC Building and Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/B3Zo1xqTw8CidOoF/arcgis/rest/services/Zoning_2026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Town",
+    "link": "Zoning_URL",
+    "zone": "ZONING_1",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "County GIS (Calhoun County, SC) zoning layer, county-wide with Town field naming jurisdiction (COUNTY for unincorporated). Town_Zoning field gives town zoning status. Layer approved July 2026. Source CRS 2273.",
+  "verification": {
+    "verified_at": 1792135590866,
+    "counties": [
+      "45017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pr-aguadilla-jp-mil",
+  "publisher": "Junta de Planificación de Puerto Rico",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/Analisis_cali_MIL1/MapServer/7",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "notes": "JP official calificación layer (Calificación PR) from the Analisis_cali_MIL1 service; island-wide parcel-level polygons. Faster than cali_vige.",
+  "verification": {
+    "verified_at": 1792139695090,
+    "counties": [
+      "72005"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

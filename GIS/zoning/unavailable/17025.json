@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "17025",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://florail.govoffice2.com/?SEC=6A5D77E1-4722-48B1-88D8-2FB1B79C1277",
+    "https://portico.mygisonline.com/html5/?viewer=clayil",
+    "https://storymaps.arcgis.com/stories/fab2861d20854c0fba2612e1fd9038dc"
+  ],
+  "note": "No queryable zoning polygon service found for Clay County IL. County GIS viewer (portico.mygisonline.com, Geocortex) exposes no REST endpoint; the Flora zoning map is a PDF (FLORA_Zoning_4-5-2024.pdf); the county planning storymap points to a county zoning map but no service link was readable. Parcel-only ArcGIS Online item (ClayILFeatures, GDITAdmin) was not queryable.",
+  "recorded_at": 1792134096360,
+  "recheck_after": 1807686096360,
+  "model": "claude-haiku-5-5"
+}

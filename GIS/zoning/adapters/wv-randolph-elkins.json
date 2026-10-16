@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wv-randolph-elkins",
+  "publisher": "City of Elkins GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/AaprnzpnpKneNjQE/arcgis/rest/services/City__of_Elkins_Zoning_Map_2022_WFL1/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54083"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Elkins only; county unincorporated land has no zoning per county economic development page. Parcel-based zoning map from the City Planning Commission (2022); zone is the district on each parcel. Other Randolph municipalities not covered.",
+  "verification": {
+    "verified_at": 1792136030956,
+    "counties": [
+      "54083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

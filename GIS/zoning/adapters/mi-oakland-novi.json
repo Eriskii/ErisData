@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-oakland-novi",
+  "publisher": "City of Novi",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/jwbgoAzqzCbiJmg4/arcgis/rest/services/Zoning_Districts/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26125"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Novi zoning districts (city-published layer); covers Novi only, not the whole county",
+  "verification": {
+    "verified_at": 1792132374490,
+    "counties": [
+      "26125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

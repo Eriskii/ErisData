@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-pitkin-aspen",
+  "publisher": "City of Aspen GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.cityofaspen.com/server/rest/services/ComDev/ComDev/FeatureServer/24",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08097"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CLASS",
+    "zone": "DISTRICT",
+    "zone_name": "DESC_"
+  },
+  "notes": "City of Aspen zoning districts (city layer; Aspen only, not county unincorporated land). ORD holds the adopting ordinance number.",
+  "verification": {
+    "verified_at": 1792133825556,
+    "counties": [
+      "08097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

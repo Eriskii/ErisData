@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-hidalgo-edinburg",
+  "publisher": "City of Edinburg GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/z3I4HxFCWafiHSiG/arcgis/rest/services/ZoningMapService/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48215"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DIST"
+  },
+  "notes": "City of Edinburg only (city limits). Layer is parcel-level: each feature is a parcel carrying its zoning (PARCEL_ID, STREETADDR), not a dissolved district layer. Used because the district layer COE_ZONING_DISTRICTS timed out in validation.",
+  "verification": {
+    "verified_at": 1792136011587,
+    "counties": [
+      "48215"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

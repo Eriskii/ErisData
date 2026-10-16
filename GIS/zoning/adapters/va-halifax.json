@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-halifax",
+  "publisher": "Southside Planning District Commission (compiled zoning layer, hosted by andykwells)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/O8ZpeBC0xLM5nL34/arcgis/rest/services/GIS_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51083"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Locality",
+    "zone": "ZoneCode"
+  },
+  "filter": "COUNTYFIPS = '51083'",
+  "notes": "Regional zoning layer of the Southside PDC area, uploaded to ArcGIS Online by andykwells; not hosted by the county. Filtered to COUNTYFIPS 51083 (Halifax County unincorporated plus town entries). ZoneName is empty, so only the code is mapped. Halifax County WebGIS (arcims.webgis.net) is legacy ArcIMS with no REST endpoint. Copy; currency unverified.",
+  "verification": {
+    "verified_at": 1792135960560,
+    "counties": [
+      "51083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

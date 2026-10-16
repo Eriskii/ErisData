@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-portage-plover",
+  "publisher": "Village of Plover GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/EzLR0vC4DOzvTZYk/arcgis/rest/services/Plover_Parcel_Data/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55097"
+    ]
+  },
+  "fields": {
+    "zone": "ZONED"
+  },
+  "filter": "ZONED IS NOT NULL AND ZONED <> ' '",
+  "notes": "Village of Plover (ArcGIS Online org plovergis). No standalone zoning-district layer is published; this is the village parcel layer whose ZONED attribute carries each parcel's zoning (last resort). Covers Village of Plover only.",
+  "verification": {
+    "verified_at": 1792136675508,
+    "counties": [
+      "55097"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

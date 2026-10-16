@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ne-saunders-colon",
+  "publisher": "Village of Colon (gWorks-hosted Saunders County PZ service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Saunders_County_NE_PZ/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31155"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Town",
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Zoning districts for the Village of Colon, from the county planning and zoning MapServer hosted by gWorks.",
+  "verification": {
+    "verified_at": 1792134967972,
+    "counties": [
+      "31155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

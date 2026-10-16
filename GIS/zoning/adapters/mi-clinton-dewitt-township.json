@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mi-clinton-dewitt-township",
+  "publisher": "DeWitt Charter Township",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/6xGj23uxj0CdZ3fo/arcgis/rest/services/Zoning_2026/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26037"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "DeWitt Charter Township zoning districts (2026), township ArcGIS Online org",
+  "verification": {
+    "verified_at": 1792132493155,
+    "counties": [
+      "26037"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

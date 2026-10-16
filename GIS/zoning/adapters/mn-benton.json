@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-benton",
+  "publisher": "Benton County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.benton.mn.us/arcgis/rest/services/BentonBaseMapV2/BentonBaseMapV2/MapServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27009"
+    ]
+  },
+  "fields": {
+    "link": "OrdinanceNumber",
+    "zone": "Zone",
+    "zone_name": "ZoneDescription"
+  },
+  "notes": "Benton County MN zoning districts from county BentonBaseMapV2 MapServer layer 8; 303 features; county-zoned (unincorporated) land. Official Zoning Map filed with County Recorder.",
+  "verification": {
+    "verified_at": 1792134482274,
+    "counties": [
+      "27009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

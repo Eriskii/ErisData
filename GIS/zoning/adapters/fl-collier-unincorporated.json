@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-collier-unincorporated",
+  "publisher": "Collier County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/SlIq32SqARUHIhSx/arcgis/rest/services/Zoning_General_(Editable)_view/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "12021"
+    ]
+  },
+  "fields": {
+    "link": "MUNICODE",
+    "zone": "ZONING",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "Unincorporated Collier County base zoning districts; cities (Naples, Marco Island, Everglades City) zone their own land separately. Source polygons are as published by the county.",
+  "verification": {
+    "verified_at": 1792133836579,
+    "counties": [
+      "12021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

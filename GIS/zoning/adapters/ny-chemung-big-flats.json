@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-chemung-big-flats",
+  "publisher": "Town of Big Flats / Southern Tier Central Regional Planning (STC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/qO6xd1V1VbSyViir/arcgis/rest/services/Big_Flats_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "Descriptio"
+  },
+  "notes": "Town of Big Flats zoning districts hosted by STC regional planning GIS (county-area planning office). Single-town layer.",
+  "verification": {
+    "verified_at": 1792135024101,
+    "counties": [
+      "36015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pr-guayama",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/FeatureServer/0",
+    "page_size": 25,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72057"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "notes": "JP statewide vigente calificación layer (FeatureServer); server is slow",
+  "verification": {
+    "verified_at": 1792138939116,
+    "counties": [
+      "72057"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

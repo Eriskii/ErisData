@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-kenosha-city",
+  "publisher": "City of Kenosha Department of City Development (via Kenosha County mapping)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapping.kenoshacountywi.gov/server/rest/services/Interactive_Mapping/CityZoning/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55059"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict",
+    "zone_name": "Description"
+  },
+  "notes": "City of Kenosha zoning districts as published on the county mapping server. Unincorporated land is in the county spec.",
+  "verification": {
+    "verified_at": 1792136203385,
+    "counties": [
+      "55059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-mitchell",
+  "publisher": "Town of Spruce Pine / HCCOGGIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/vj28eVZMB2OMIUh5/arcgis/rest/services/Spruce_Pine_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37121"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "Town of Spruce Pine zoning only; Mitchell County itself does not zone outside town limits. Published by HCCOGGIS for the Town of Spruce Pine. 244 features.",
+  "verification": {
+    "verified_at": 1792135078771,
+    "counties": [
+      "37121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

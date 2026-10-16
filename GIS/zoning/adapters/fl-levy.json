@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-levy",
+  "publisher": "Levy County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Y6ubaOgtVe9iI9sU/arcgis/rest/services/Levy_County_Zoning_Atlas_Last_Updated_05_29_2026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12075"
+    ]
+  },
+  "fields": {
+    "zone": "LEZN2d",
+    "zone_name": "Descr"
+  },
+  "notes": "Levy County zoning atlas (parcel-level polygons with zoning attribute).",
+  "verification": {
+    "verified_at": 1792133882505,
+    "counties": [
+      "12075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

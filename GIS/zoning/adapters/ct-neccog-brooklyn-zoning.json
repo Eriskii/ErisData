@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ct-neccog-brooklyn-zoning",
+  "publisher": "NECCOG (Northeastern Connecticut Council of Governments)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/oT3yVWpbYAcq647w/arcgis/rest/services/Brooklyn_Zoning_2019/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "09150"
+    ]
+  },
+  "fields": {
+    "zone": "CurrentZon",
+    "zone_name": "Name"
+  },
+  "notes": "Town of Brooklyn 2019 zoning, hosted in NECCOG ArcGIS Online org. Other NECCOG towns are on gis.neccog.org which is unreachable.",
+  "verification": {
+    "verified_at": 1792133928487,
+    "counties": [
+      "09150"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

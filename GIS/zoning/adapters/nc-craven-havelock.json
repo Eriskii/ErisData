@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-craven-havelock",
+  "publisher": "Craven County GIS (City of Havelock zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cravencountync.gov/arcgis/rest/services/map3/MapServer/85",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Havelock zoning districts, served from Craven County GIS map service layer. DETAILS field is empty so zone_name is not mapped.",
+  "verification": {
+    "verified_at": 1792135099824,
+    "counties": [
+      "37049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

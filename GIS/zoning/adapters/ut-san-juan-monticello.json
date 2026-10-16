@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-san-juan-monticello",
+  "publisher": "City of Monticello, Utah (layer hosted on San Juan County ArcGIS Online account, linked from the city zoning web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/nSnGtAgSmNZcvEzK/arcgis/rest/services/City_of_Monticello_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49037"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "City of Monticello zoning only (not unincorporated county land, which is zoned by the county in PDF maps). Layer linked from the city website zoning map.",
+  "verification": {
+    "verified_at": 1792135922215,
+    "counties": [
+      "49037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ks-mcpherson",
+  "publisher": "City of McPherson (copy by Dargiewicz, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/UqSQsyPqTkHdPRqs/arcgis/rest/services/McPherson_Zoning_Map_1/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20113"
+    ]
+  },
+  "fields": {
+    "zone": "Zoned"
+  },
+  "notes": "Unofficial personal ArcGIS Online copy of City of McPherson zoning districts (City of McPherson only; no county-wide zoning layer found). Official county zoning at pze.mcpcoks.us is not queryable. Overlay field is protective overlay district.",
+  "verification": {
+    "verified_at": 1792134344971,
+    "counties": [
+      "20113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

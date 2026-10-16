@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-rutherford-lavergne",
+  "publisher": "City of La Vergne (hosted on Rutherford County ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/36I6IHIdr660pAyH/arcgis/rest/services/LaVergne_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47149"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Typ"
+  },
+  "notes": "City of La Vergne zoning districts, last updated 3/6/24.",
+  "verification": {
+    "verified_at": 1792135546915,
+    "counties": [
+      "47149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

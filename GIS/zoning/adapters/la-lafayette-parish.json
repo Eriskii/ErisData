@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-lafayette-parish",
+  "publisher": "Lafayette Consolidated Government (Planning, Zoning and Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/fOr4AY8t0ujnJsua/arcgis/rest/services/LCG_LDC_ZONING_DL/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22055"
+    ]
+  },
+  "fields": {
+    "zone": "UDC_ZONING",
+    "zone_name": "UDC_DESCRIPTION"
+  },
+  "notes": "Lafayette Consolidated Government Unified Development Code zoning districts (city-parish). 724 polygons.",
+  "verification": {
+    "verified_at": 1792134403400,
+    "counties": [
+      "22055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

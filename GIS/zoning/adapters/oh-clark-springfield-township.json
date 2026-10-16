@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-clark-springfield-township",
+  "publisher": "Clark County, Ohio (county zoning for Springfield Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ago.clarkcountyohio.gov/ccoarcgis/rest/services/BHA/AGS_Clark_Zones/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39023"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWNSHIP",
+    "zone": "ZONING",
+    "zone_name": "ZONINGDESC"
+  },
+  "notes": "Unincorporated Springfield Township zoning districts, county-administered. Other unincorporated townships are in sibling layers 6-14 of the same service.",
+  "verification": {
+    "verified_at": 1792135191378,
+    "counties": [
+      "39023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

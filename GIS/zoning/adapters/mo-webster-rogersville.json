@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-webster-rogersville",
+  "publisher": "City of Rogersville, MO (Rogersville Zoning Viewer, hosted via cbmaps ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Vn2AABxp7qIdWLwq/arcgis/rest/services/PlanningDevelopmentData_gdb_ViewOnly/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29225"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneName",
+    "zone_name": "ZoneDescri"
+  },
+  "notes": "City of Rogersville zoning districts (city limits only, not Marshfield or unincorporated county land); layer from the Rogersville Zoning Viewer web app on cbmaps.maps.arcgis.com. Layer name says ViewOnly; no jurisdiction field.",
+  "verification": {
+    "verified_at": 1792134951473,
+    "counties": [
+      "29225"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "31017",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://brown-county-auditor.org/gis-map/",
+    "https://realestate.browncountyauditor.org/RealEstate/Map",
+    "https://brown.gisworkshop.com",
+    "https://browncountyne.gov/planning-and-zoning/",
+    "https://browncountyne.gov/wp-content/uploads/2024/09/Zoning-Regulations.pdf"
+  ],
+  "note": "Brown County NE publishes zoning only inside its GIS map viewers (auditor's map lists a zoning layer; the viewer returns a WAF block and the gisworkshop viewer was unreachable). No zoning FeatureServer/MapServer found in ArcGIS search or on the county, auditor, or state (NebraskaMap) hubs. Zoning Regulations are PDF; the Official Zoning Map is kept by the County Clerk as a map image.",
+  "recorded_at": 1792134967826,
+  "recheck_after": 1807686967826,
+  "model": "claude-haiku-5-5"
+}

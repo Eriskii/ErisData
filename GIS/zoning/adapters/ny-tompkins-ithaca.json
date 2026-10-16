@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-tompkins-ithaca",
+  "publisher": "City of Ithaca",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/R1JbITZvSQHJsl5r/arcgis/rest/services/City_of_Ithaca_OG_Map_Service/FeatureServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36109"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Ithaca zoning districts from the city OG map service; only the district code is provided",
+  "verification": {
+    "verified_at": 1792135036993,
+    "counties": [
+      "36109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

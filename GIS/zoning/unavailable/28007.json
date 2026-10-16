@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "28007",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.kosciusko.ms/building-zoning/",
+    "https://www.kosciusko.ms/wp-content/uploads/2021/11/Official_Zoning_Map_Kosciusko.pdf",
+    "https://services3.arcgis.com/fVxu5uTGCZonSxhL/arcgis/rest/services/Attala_Service_new/FeatureServer"
+  ],
+  "note": "Attala County's ArcGIS service (attalams) has parcels, school, tax and city boundary layers but no zoning districts layer; parcel attributes carry no zoning field. The City of Kosciusko, the only city with a zoning ordinance found, publishes its official zoning map only as a PDF (2017, districts A-1 to I-2), with no queryable service. No county zoning districts were found; a statewide MARIS search found none.",
+  "recorded_at": 1792134615040,
+  "recheck_after": 1807686615040,
+  "model": "claude-haiku-5-5"
+}

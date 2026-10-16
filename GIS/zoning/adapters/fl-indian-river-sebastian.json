@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-indian-river-sebastian",
+  "publisher": "City of Sebastian GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/NkT47EHQsmn9GxB3/arcgis/rest/services/City_of_Sebastian_Zoning_Web_Map_WFL1/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12061"
+    ]
+  },
+  "fields": {
+    "link": "Municode_Link",
+    "zone": "ZONING",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "City of Sebastian zoning districts (city only, not unincorporated county).",
+  "verification": {
+    "verified_at": 1792133898991,
+    "counties": [
+      "12061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

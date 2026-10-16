@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ct-groton-city",
+  "publisher": "City of Groton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.groton-ct.gov/arcgis/rest/services/Districts2020/MapServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09180"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDIST"
+  },
+  "notes": "City of Groton zoning from the Town of Groton 2020 districts service; sublayer 17. Descriptions not published in the service.",
+  "verification": {
+    "verified_at": 1792133879154,
+    "counties": [
+      "09180"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

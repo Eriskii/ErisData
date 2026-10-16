@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "az-yuma-county",
+  "publisher": "Yuma County GIS (ITS Geographic Information Systems)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.yumacountyaz.gov/webgis/rest/services/YC_Planning_Zoning_Landuse/MapServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Yuma County master zoning layer, county unincorporated land. Zone code only; no jurisdiction or name field published.",
+  "verification": {
+    "verified_at": 1792133792604,
+    "counties": [
+      "04027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

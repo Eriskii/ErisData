@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-limestone-athens",
+  "publisher": "City of Athens, AL (AthensZoning layer, hosted by TPUDCAdmin on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/S6I1pz0o9EpynA1a/arcgis/rest/services/Athens_AL_Map_Sunday_WFL1/FeatureServer/40",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Athens zoning only (not unincorporated county land; Limestone County does not publish a zoning layer). Layer served from the city interactive map service. 250 features.",
+  "verification": {
+    "verified_at": 1792133750807,
+    "counties": [
+      "01083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

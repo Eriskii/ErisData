@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-raleigh",
+  "publisher": "City of Raleigh",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.raleighnc.gov/arcgis/rest/services/Planning/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37183"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONE_TYPE_DECODE"
+  },
+  "notes": "City of Raleigh zoning districts (inside Raleigh city limits; Raleigh spans Wake and Durham counties). ZONING holds the district code; CONDITIONAL marks conditional districts.",
+  "verification": {
+    "verified_at": 1792130903604,
+    "counties": [
+      "37183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "16001-meridian",
+  "publisher": "City of Meridian (layer hosted by consultant Logan Simpson)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/gJAeEJVykiKW6D8d/arcgis/rest/services/MeridianZoning/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "BASEZONE",
+    "zone_name": "ZONING"
+  },
+  "notes": "Meridian zoning copy on ArcGIS Online under btaylor_LoganSimpson, a consultant account; not confirmed as the city own service. Used because no city-hosted zoning service was found.",
+  "verification": {
+    "verified_at": 1792133721953,
+    "counties": [
+      "16001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

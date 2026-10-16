@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-coleman-county",
+  "publisher": "City of Coleman (via Coleman Public GIS Viewer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/e0naliYWQ9RTVlaB/arcgis/rest/services/ColemanFeatureLayers_view/FeatureServer/25",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48083"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningID",
+    "zone_name": "zone"
+  },
+  "notes": "City of Coleman zoning layer from the Coleman Public GIS Viewer (cityofcoleman ArcGIS Online org). Covers city zoning; ZoningID holds district labels such as Agriculture District, Public.",
+  "verification": {
+    "verified_at": 1792135609327,
+    "counties": [
+      "48083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

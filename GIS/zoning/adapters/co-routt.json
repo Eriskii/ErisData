@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-routt",
+  "publisher": "Routt County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VxFGFP4XeHMTNgVs/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08107"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Routt County zoning districts (unincorporated county); layer has no jurisdiction field. Cities such as Steamboat Springs zone their own land and are not in this layer. Overlay PUD field PUDOVERLAY not mapped.",
+  "verification": {
+    "verified_at": 1792133805108,
+    "counties": [
+      "08107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

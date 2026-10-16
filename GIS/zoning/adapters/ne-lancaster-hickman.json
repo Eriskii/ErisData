@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-lancaster-hickman",
+  "publisher": "City of Hickman / Lincoln-Lancaster Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lincoln.ne.gov/public/rest/services/Planning/DevRevZoningandRegulations/MapServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONE"
+  },
+  "notes": "Hickman zoning districts from the Lincoln-Lancaster Planning Dept public GIS service; OVERLAY field marks overlay districts; zone_name not filled by the source.",
+  "verification": {
+    "verified_at": 1792134930450,
+    "counties": [
+      "31109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

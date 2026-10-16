@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-marion",
+  "publisher": "Marion County Regional Planning / MCO GIS",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://mcogis.co.marion.oh.us/arcgis/rest/services/Add_Layers/MapServer/3/query?where=SHAPE_STAr%3E0&outFields=*&outSR=4326&returnGeometry=true&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "39101"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TWPNAME",
+    "zone": "ZONING",
+    "zone_name": "REGULATION"
+  },
+  "notes": "County GIS zoning layer covering unincorporated townships and villages/cities. Read as one GeoJSON query of the whole layer because the ArcGIS layer does not support paging; features with zero area (empty geometry) are excluded. Jurisdiction is township name; CORP_NAME gives village. Some features Not Zoned.",
+  "verification": {
+    "verified_at": 1792135220596,
+    "counties": [
+      "39101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-fairfax",
+  "publisher": "Fairfax County Department of Planning and Development (with Towns of Herndon and Vienna)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51059"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONECODE"
+  },
+  "notes": "Approved zoning districts for Fairfax County, Town of Herndon and Town of Vienna; ZONETYPE, PROFFER flag also available. No zone_name field in source.",
+  "verification": {
+    "verified_at": 1792135919939,
+    "counties": [
+      "51059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

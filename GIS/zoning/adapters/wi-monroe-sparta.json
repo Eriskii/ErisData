@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-monroe-sparta",
+  "publisher": "City of Sparta, WI (via spartawigis ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/ob3iBq0CA0JS6eE3/arcgis/rest/services/Zoning_View_Layer_2019/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55081"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "City of Sparta zoning districts, 2019 view layer; covers the city only, not the county unincorporated area. Hosted by the City of Sparta organization.",
+  "verification": {
+    "verified_at": 1792136265394,
+    "counties": [
+      "55081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

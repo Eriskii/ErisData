@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "45033",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://dillonsc.wthgis.com/",
+    "https://dilloncountysc.org/departments/gis.php",
+    "https://dilloncountysc.org/departments/building_code_enforcement_planning_zoning.php"
+  ],
+  "note": "Dillon County GIS points to a hosted web map (dillonsc.wthgis.com) that says it shows the GIS zoning map, but its ArcGIS REST endpoints (/arcgis/rest/services, /rest/services, /server/rest/services, /gis/rest/services) return 404 and no service URL is published in the page text. No county or City of Dillon zoning FeatureServer/MapServer was found in ArcGIS Online or the web search; the county's and city's zoning appear only in viewer or PDF/code-library form.",
+  "recorded_at": 1792135746642,
+  "recheck_after": 1807687746642,
+  "model": "claude-haiku-5-5"
+}

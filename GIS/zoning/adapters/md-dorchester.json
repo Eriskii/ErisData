@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "md-dorchester",
+  "publisher": "Dorchester County Planning & Zoning (ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/yqhlYKSnzjiOzQig/arcgis/rest/services/Zoning_Layer2021/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24019"
+    ]
+  },
+  "fields": {
+    "link": "PermittedUse",
+    "zone": "CLASS_1"
+  },
+  "filter": "OBJECTID <> 188",
+  "notes": "County zoning layer from Dorchester County MD AGOL org (DoCoGo_PZ_1); CLASS_1 holds district code (coded-value domain gives names, e.g. RC=Resource Conservation); MUNI polygons mark incorporated towns. Filter omits OBJECTID 188, a ~119,000-acre RC polygon whose geometry is invalid (self-intersecting) in the source.",
+  "verification": {
+    "verified_at": 1792135972850,
+    "counties": [
+      "24019"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

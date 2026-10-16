@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-cecil-county",
+  "publisher": "Cecil County GIS (CecilMaps)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cecilmaps.org/arcgis/rest/services/ConsolidatedWebService/MapServer/33",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCLU"
+  },
+  "notes": "Cecil County CecilMaps layer Zoning Districts; polygons are parcel-based with a ZONING attribute per parcel (no dissolved district layer published). Last-resort parcel layer. DESCLU is land-use description.",
+  "verification": {
+    "verified_at": 1792134832039,
+    "counties": [
+      "24015"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

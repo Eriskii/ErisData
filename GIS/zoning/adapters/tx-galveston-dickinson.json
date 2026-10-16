@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-galveston-dickinson",
+  "publisher": "City of Dickinson GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/B9RpfHT8Gso9BEJP/arcgis/rest/services/Official_Zoning_Map/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48167"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CLASS",
+    "zone_name": "ZONING_CLASS"
+  },
+  "notes": "City of Dickinson official zoning map layer (city limits zoning only); 361 polygons.",
+  "verification": {
+    "verified_at": 1792135647940,
+    "counties": [
+      "48167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

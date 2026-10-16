@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-lumpkin-dahlonega",
+  "publisher": "City of Dahlonega",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/BAJNi3EgCdtQ1BCG/arcgis/rest/services/Dahlonega_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13187"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE",
+    "zone_name": "CurrentZon"
+  },
+  "notes": "City of Dahlonega zoning only (not unincorporated county, which has no traditional zoning per county FAQ). Parcel-level layer carrying each parcel zoning code; source of the layer is an ArcGIS Online account, DahlonegaZoning03032025.",
+  "verification": {
+    "verified_at": 1792133957228,
+    "counties": [
+      "13187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

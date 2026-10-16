@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-emmet",
+  "publisher": "Emmet County Equalization/GIS Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.emmetcounty.org/arcgis/rest/services/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26047"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDIC",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "County GIS zoning layer covering unincorporated townships and cities; JURISDIC names the jurisdiction. Public ArcGIS REST service.",
+  "verification": {
+    "verified_at": 1792132282353,
+    "counties": [
+      "26047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

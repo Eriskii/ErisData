@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-waller-hempstead",
+  "publisher": "City of Hempstead",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/CpGrZZm3P1y5qJHh/arcgis/rest/services/Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48473"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "Zoning_Des"
+  },
+  "notes": "City of Hempstead zoning districts only (city limits, county seat of Waller County); served from the city web map hempsteadtx.maps.arcgis.com. Waller County itself publishes no zoning layer.",
+  "verification": {
+    "verified_at": 1792135844101,
+    "counties": [
+      "48473"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

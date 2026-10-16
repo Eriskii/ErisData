@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "28031",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.covingtoncountyms.gov/county-mapping",
+    "https://maps.agdmaps.com/ms/covington/",
+    "https://townofmtolivems.com/planning-and-zoning",
+    "https://cityofcollins.com/"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Covington County MS zoning districts. The county's GIS page links only to an AGD Maps viewer (maps.agdmaps.com/ms/covington), which did not expose a queryable REST service and was unreachable from my tools; no zoning district FeatureServer/MapServer was found for the county, Collins or Mount Olive. Mount Olive's planning page says zoning content is 'Check back soon'; Collins' site lists no zoning map. Only third-party copies (zoneomics, Rockford Map, ACRES) were found, which are not official.",
+  "recorded_at": 1792134644373,
+  "recheck_after": 1807686644373,
+  "model": "claude-haiku-5-5"
+}

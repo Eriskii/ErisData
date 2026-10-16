@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "36115",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.washingtoncountyny.gov/270/GIS-Web-Map",
+    "https://gis.washingtoncountyny.gov/arcgis/rest/services",
+    "https://www.greenwichny.gov/app/download/768147553/Zoning+Map.pdf",
+    "https://www.villageofhudsonfalls.com/wp-content/uploads/2015/10/90458_ZoningOverlayDistricts_Revised-06-06-2005_36x48.pdf"
+  ],
+  "note": "Washington County NY publishes no queryable zoning district layer. Its ArcGIS services (gis.washingtoncountyny.gov) hold parcels, contours, wetlands, APA land classification (state land use, not zoning) and town boundary tables, but no zoning. Towns and villages (Greenwich, Hudson Falls, Fort Edward, Salem) publish zoning only as PDF maps or eCode360 text; no GIS service found.",
+  "recorded_at": 1792135088844,
+  "recheck_after": 1807687088844,
+  "model": "claude-haiku-5-5"
+}

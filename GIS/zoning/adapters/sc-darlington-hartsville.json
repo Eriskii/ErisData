@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sc-darlington-hartsville",
+  "publisher": "City of Hartsville / Darlington County GIS (gistech_darco)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/8FJikaProY6O3ncx/arcgis/rest/services/HARTSVILLE_ZONING/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45031"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "link": "URL",
+    "zone": "ZONE",
+    "zone_name": "CITY_ZONE"
+  },
+  "notes": "City of Hartsville base zoning only (11 districts); unincorporated county and other towns not covered. Layer hosted on the county GIS ArcGIS org.",
+  "verification": {
+    "verified_at": 1792135359769,
+    "counties": [
+      "45031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

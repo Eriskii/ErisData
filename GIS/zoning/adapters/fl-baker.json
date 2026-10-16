@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-baker",
+  "publisher": "Baker County Community Development (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/HSWu3dhzHf7nZfIa/arcgis/rest/services/Community_Development_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE"
+  },
+  "notes": "County-hosted layer from Baker County Community Development. Unincorporated zoning codes (AG 5, RC .25, CG, LI, PUD etc.). Incorporated areas appear as ZONE_CODE values such as CITY or TOWNofGLEN rather than city zoning. Descriptive names (Descriptio) are mostly blank, so zone_name is not mapped.",
+  "verification": {
+    "verified_at": 1792133715363,
+    "counties": [
+      "12003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

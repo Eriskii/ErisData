@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-alamance-elon",
+  "publisher": "Town of Elon / Burlington-Alamance ReGIS Partnership",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.regisnc.org/arcgis/rest/services/ElonZoningCounty/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Town of Elon zoning districts, hosted by Burlington-Alamance ReGIS on maps.regisnc.org. Covers Elon town limits only.",
+  "verification": {
+    "verified_at": 1792135117361,
+    "counties": [
+      "37001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

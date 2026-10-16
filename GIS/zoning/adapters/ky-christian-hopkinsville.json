@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-christian-hopkinsville",
+  "publisher": "City of Hopkinsville (layer published under Dave Herndon, Hopkinsville, ArcGIS account)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/IQlUcmqslgffs5GD/arcgis/rest/services/hopkinsville_zoning/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONING"
+  },
+  "notes": "Copy of City of Hopkinsville zoning districts hosted on an individual Hopkinsville staff ArcGIS account, not the city organization; the city publishes its official zoning only as PDF maps (comdev-services.com 2025). City limits only; unincorporated Christian County zoning not found in any queryable service.",
+  "verification": {
+    "verified_at": 1792134317802,
+    "counties": [
+      "21047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

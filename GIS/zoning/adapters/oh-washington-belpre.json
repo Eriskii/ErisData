@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-washington-belpre",
+  "publisher": "City of Belpre, Ohio",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/MUkflNLFq6kzhrRT/arcgis/rest/services/BelpreZoningOct2017/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39167"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TaxDistric",
+    "link": "URL",
+    "zone": "zoning"
+  },
+  "notes": "City of Belpre zoning (Oct 2017 copy in ArcGIS Online, item 7dfba39482384d00934c5fa1f78e7e97, titled Belpre Zoning); parcel-based with zoning attribute; county has no published countywide zoning layer found",
+  "verification": {
+    "verified_at": 1792135258349,
+    "counties": [
+      "39167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

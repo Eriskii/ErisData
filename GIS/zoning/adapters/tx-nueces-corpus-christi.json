@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-nueces-corpus-christi",
+  "publisher": "City of Corpus Christi (via TAMUCC-hosted copy of city zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/BSnEnFfEn54YLVeq/arcgis/rest/services/Corpus_Christi_Zoning/FeatureServer/46",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48355"
+    ]
+  },
+  "fields": {
+    "zone": "TAG"
+  },
+  "notes": "City of Corpus Christi zoning only (unincorporated Nueces County is not zoned by the county). Layer last updated Sep 2023 per its metadata; overlay rows carried in OVERLAY field. Hosted on a TAMUCC ArcGIS Online organization; city-branded data.",
+  "verification": {
+    "verified_at": 1792135728050,
+    "counties": [
+      "48355"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

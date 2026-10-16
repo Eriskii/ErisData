@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "21053",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://app.fetchgis.com/?currentMap=clinton",
+    "https://portal.fetchgis.com/",
+    "https://www.gismaps.org/ky-clinton-county/"
+  ],
+  "note": "Clinton County KY zoning districts (A-1, C-1, R-1 etc.) appear only inside the FetchGIS web viewer (app.fetchgis.com, ?currentMap=clinton); its portal is login-gated and the viewer exposes no ArcGIS REST, WMS or WFS endpoint. ArcGIS Hub and Online searches for Clinton County or Albany zoning returned nothing queryable; no city zoning service for Albany found; county planning page lists no zoning.",
+  "recorded_at": 1792134371770,
+  "recheck_after": 1807686371770,
+  "model": "claude-haiku-5-5"
+}

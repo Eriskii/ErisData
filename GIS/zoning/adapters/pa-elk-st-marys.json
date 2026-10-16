@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-elk-st-marys",
+  "publisher": "City of St. Marys (copy hosted by Traviup on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/s0MwppvGT3g8a79x/arcgis/rest/services/Zoning_Offical_WFL1/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Unofficial copy of City of St. Marys zoning (Residential_Suburban district layer only) uploaded to ArcGIS Online by a personal account; city publishes only PDF/image zoning maps. Covers St. Marys city only, not the county area around the validation point.",
+  "verification": {
+    "verified_at": 1792135346317,
+    "counties": [
+      "42047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

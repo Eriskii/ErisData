@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-nampa",
+  "publisher": "City of Nampa (copy hosted by Logan Simpson consultant, Zoning_WFL1)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/gJAeEJVykiKW6D8d/arcgis/rest/services/Zoning_WFL1/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16027"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "category"
+  },
+  "notes": "Nampa city zoning districts, layer 1 of a consultant-hosted Zoning_WFL1 service (Logan Simpson account), not the city own server; the city official OD_NampaPlanningZoning service would not open. Covers Nampa city zoning only. zone = zoning code, zone_name = category.",
+  "verification": {
+    "verified_at": 1792133691874,
+    "counties": [
+      "16027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

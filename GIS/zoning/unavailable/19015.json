@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "19015",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://boonecounty.iowa.gov/planning_development/zoning_county_ordinance/",
+    "https://boonecounty.iowa.gov/gis/data_distribution/",
+    "https://boonecounty.iowa.gov/gis/maps_and_apps/",
+    "https://www.boonegov.com/egov/apps/document/center.egov?view=detail&id=2347"
+  ],
+  "note": "Boone County, Iowa publishes no queryable zoning district layer. County GIS pages link only to a PDF district map, Beacon (Schneider viewer, no public REST service) and the Iowa GIS Data Repository (login required). The City of Boone, the largest city, publishes its zoning map only as a PDF. The only queryable zoning for Boone city is an unofficial ISU compilation copy (services.arcgis.com/XORNS2fPFySPlBgy/.../zoning_districts_all_data_v2/FeatureServer/217, city fips7 1907480, digitized by an individual), which fails validation (7 of 8 sampled polygons valid, 90% required), so it was not submitted.",
+  "recorded_at": 1792133703701,
+  "recheck_after": 1807685703701,
+  "model": "claude-haiku-5-5"
+}

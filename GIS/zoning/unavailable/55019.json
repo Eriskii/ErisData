@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "55019",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.clarkcountywi.gov/pz-land-information",
+    "https://www.clarkcountywi.gov/planning-zoning-land-information",
+    "https://beacon.schneidercorp.com/Application.aspx?App=ClarkCountyWI&PageType=Map",
+    "https://www.sco.wisc.edu/parcels/data/"
+  ],
+  "note": "Clark County WI's only public map is the Schneider Beacon viewer (not a queryable ArcGIS service). No ArcGIS REST zoning layer found for the county or its cities (Neillsville uses Diamond Maps viewer; Abbotsford's zoning hub dataset is Abbotsford BC). The statewide SCO zoning bulk files (2016/2017) failed validation (0 features, no attributes readable) and are a dated snapshot.",
+  "recorded_at": 1792136264689,
+  "recheck_after": 1807688264689,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "co-lake-county",
+  "publisher": "Lake County Colorado (Appraiser/GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/38PTfoP8IjlBsxZN/arcgis/rest/services/CountyZoning2024/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "08065"
+    ]
+  },
+  "fields": {
+    "zone": "LAYER"
+  },
+  "notes": "Lake County CO zoning districts, Reception No. 389118 / Resolution 2024-17, unincorporated county land. Hosted under the county appraiser ArcGIS account. LAYER holds code and description together.",
+  "verification": {
+    "verified_at": 1792133827016,
+    "counties": [
+      "08065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

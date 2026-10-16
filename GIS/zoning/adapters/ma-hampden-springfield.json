@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ma-hampden-springfield",
+  "publisher": "City of Springfield GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.springfield-ma.gov/arcgis/rest/services/WebGIS/WebGISDynamicMap/MapServer/31",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "City of Springfield WebGIS Zoning layer; covers Springfield only, not all of Hampden County. Polygons with zone code and name.",
+  "verification": {
+    "verified_at": 1792134477158,
+    "counties": [
+      "25013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

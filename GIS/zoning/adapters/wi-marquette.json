@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-marquette",
+  "publisher": "Marquette County Land Information / Zoning (MarquetteGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://webportal.co.marquette.wi.us/publicags/rest/services/Zoning/Zoning/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55077"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Ab",
+    "zone_name": "Zoning_Cla"
+  },
+  "filter": "OBJECTID_1 > 26300",
+  "verification": {
+    "verified_at": 1792136615808,
+    "counties": [
+      "55077"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

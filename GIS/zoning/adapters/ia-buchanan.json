@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-buchanan",
+  "publisher": "Buchanan County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/tYzMC5F5v21mpREX/arcgis/rest/services/zoning_Boundaries/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19019"
+    ]
+  },
+  "fields": {
+    "link": "Zoning_URL",
+    "zone": "Zoning_Class"
+  },
+  "notes": "Merged zoning layer hosted on the county GIS ArcGIS organization (services2 tYzMC5F5v21mpREX). No zone name field.",
+  "verification": {
+    "verified_at": 1792133706714,
+    "counties": [
+      "19019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

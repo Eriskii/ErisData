@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-stoughton",
+  "publisher": "City of Stoughton",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://dcimapapps.countyofdane.com/arcgissrv/rest/services/Zoning/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_DISTRICT"
+  },
+  "notes": "City of Stoughton zoning districts, hosted by Dane County.",
+  "verification": {
+    "verified_at": 1792130907378,
+    "counties": [
+      "55025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

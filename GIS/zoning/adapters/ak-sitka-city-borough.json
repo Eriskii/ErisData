@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ak-sitka-city-borough",
+  "publisher": "City and Borough of Sitka GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/EozEvrS4g3SEhtG3/arcgis/rest/services/Zoning_Districts/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02220"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "DESCRIPT"
+  },
+  "notes": "City and Borough of Sitka zoning districts (Title 22), from the city ArcGIS host. Borough-wide layer; ZONING field also present.",
+  "verification": {
+    "verified_at": 1792133729685,
+    "counties": [
+      "02220"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "or-douglas",
+  "publisher": "Douglas County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.douglas.or.us/server/rest/services/Planning/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41019"
+    ]
+  },
+  "fields": {
+    "zone": "DC_ZONE"
+  },
+  "filter": "OBJECTID <> 4918",
+  "notes": "Douglas County Planning zoning (unincorporated). Filter omits OBJECTID 4918, one very large TR polygon whose source geometry is invalid (self-intersecting); all other 2,304 polygons included.",
+  "verification": {
+    "verified_at": 1792135605195,
+    "counties": [
+      "41019"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

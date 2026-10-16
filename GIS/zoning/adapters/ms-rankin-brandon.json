@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ms-rankin-brandon",
+  "publisher": "City of Brandon (via CMPDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Brandon_Zoning_and_Land_Use_2025/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28121"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning2025",
+    "zone_name": "ZoningOct2025"
+  },
+  "notes": "City of Brandon zoning 2025, parcel-based polygons, CMPDD-hosted (HTTP only). Layer covers Brandon only; ZoningOct2025 holds code plus district name.",
+  "verification": {
+    "verified_at": 1792134894574,
+    "counties": [
+      "28121"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

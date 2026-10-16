@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "md-garrett",
+  "publisher": "Garrett County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.garrettcounty.org/server/rest/services/Zoning/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24023"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "db_8hla5_1",
+    "link": "setbacks",
+    "zone": "flu",
+    "zone_name": "genzone"
+  },
+  "notes": "County zoning layer covering Deep Creek Lake Watershed and towns of Accident, Friendsville, Grantsville, Loch Lynn Heights, Mountain Lake Park, Oakland; jurisdiction field db_8hla5_1 holds the community name; zone holds the district code in flu (e.g. LR1, LR2, TR, SR, TC, EC); genzone holds a descriptive name only for some features and is blank for many; setbacks links to the 2010 zoning ordinance",
+  "verification": {
+    "verified_at": 1792134442944,
+    "counties": [
+      "24023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

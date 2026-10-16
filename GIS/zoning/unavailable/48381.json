@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48381",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.canyontx.gov/82/Zoning",
+    "https://www.canyontx.gov/1761/Zoning-Map",
+    "https://www.canyontx.gov/385/Interactive-Mapping"
+  ],
+  "note": "Randall County does not zone its unincorporated land (Texas counties generally do not). The county seat, Canyon, publishes its zoning only as a PDF map attached to Ordinance 1194 and through the MapLink interactive zoning viewer, which has no public queryable service that I could find. Canyon's page links returned 404 from my tools. The ArcGIS layer 'Zoning_Districts' (services.arcgis.com/f4rR7WnIfGBdVYFd) has 1129 districts but none within 0.25 degrees of the county's interior point, so it is not Canyon's. Amarillo's ZoningArcGISOnline layer has only one district in Randall County and does not cover the county's interior.",
+  "recorded_at": 1792135927628,
+  "recheck_after": 1807687927628,
+  "model": "claude-haiku-5-5"
+}

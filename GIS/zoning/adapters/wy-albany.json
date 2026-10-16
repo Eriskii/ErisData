@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wy-albany",
+  "publisher": "Albany County GIS / Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/EmwrhKkmuQhTATzU/ArcGIS/rest/services/Zoning_11_4_25/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56001"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "Shape__Area < 40000000",
+  "notes": "Albany County Planning zoning polygons (parcel-keyed; pidn/accountno). Very large polygons (>40 sq km) excluded because their geometry fails validity checks. No zone-name or ordinance link field.",
+  "verification": {
+    "verified_at": 1792136120935,
+    "counties": [
+      "56001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-asheboro",
+  "publisher": "City of Asheboro Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/9QE58QTmzLaWSc9H/arcgis/rest/services/Asheboro_AGOL_Planning/FeatureServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37151"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "BASECODE",
+    "zone": "ZONE_CODE",
+    "zone_name": "For_Legend"
+  },
+  "notes": "City of Asheboro zoning only (city limits), hosted by City of Asheboro on ArcGIS Online. Randolph County own zoning layer (PW_ParcelMap/FeatureServer/31) was unreachable during search.",
+  "verification": {
+    "verified_at": 1792135150635,
+    "counties": [
+      "37151"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

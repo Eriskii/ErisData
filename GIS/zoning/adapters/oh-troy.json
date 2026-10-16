@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-troy",
+  "publisher": "City of Troy, Ohio GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.troyohio.gov/arcgis/rest/services/Zoning/Zoning/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39109"
+    ]
+  },
+  "fields": {
+    "link": "ZoningCode",
+    "zone": "Zoning"
+  },
+  "notes": "City of Troy zoning districts (city-published). zone holds district codes; link holds the official zoning code URL. Only the Miami County part of Troy.",
+  "verification": {
+    "verified_at": 1792135204111,
+    "counties": [
+      "39109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

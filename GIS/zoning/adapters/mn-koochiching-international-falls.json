@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-koochiching-international-falls",
+  "publisher": "City of International Falls (via BMI_IFalls_Admin ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/9sLp2b6katUCA3A3/arcgis/rest/services/Zoning_Layer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "MajorZone",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "International Falls 2022 zoning, a parcel-based layer carrying each parcel zoning in MajorZone (majority zone) and ZoningDesc; parcel polygons with zoning attributes, city only. Hosted on the city-branded ArcGIS Online org (ifalls.maps.arcgis.com interactive zoning map).",
+  "verification": {
+    "verified_at": 1792134504201,
+    "counties": [
+      "27071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wi-lincoln",
+  "publisher": "Lincoln County WI Land Services / GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.lincoln.wi.us/arcgis/rest/services/WebMerc_Zoning_JS/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55069"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "link": "LINK",
+    "zone": "ZONING",
+    "zone_name": "LABEL"
+  },
+  "notes": "County zoning base layer; holds several municipalities in the county via MUNICIPALITY field. Served by county GIS host.",
+  "verification": {
+    "verified_at": 1792136053168,
+    "counties": [
+      "55069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

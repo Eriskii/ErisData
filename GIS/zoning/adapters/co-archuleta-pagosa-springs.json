@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-archuleta-pagosa-springs",
+  "publisher": "Town of Pagosa Springs",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/tijQMYH63eL6XvJZ/arcgis/rest/services/Town_of_Pagosa_Springs__Zoning__Districts__and_Wayfinding_WFL1/FeatureServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08007"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "Town of Pagosa Springs zoning districts only (town limits, not unincorporated county). Published by the Town planning department in its ArcGIS service.",
+  "verification": {
+    "verified_at": 1792133817637,
+    "counties": [
+      "08007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

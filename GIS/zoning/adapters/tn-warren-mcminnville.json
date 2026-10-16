@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-warren-mcminnville",
+  "publisher": "City of McMinnville, Tennessee (Planning and Community Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/u2GVj9XBeyjTKkMn/arcgis/rest/services/2026_Update_McMinnville_TN_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47177"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JUR",
+    "zone": "ZONING"
+  },
+  "notes": "Only queryable zoning found for Warren County TN. Source is the City of McMinnville 2026 zoning update: a parcel layer (Parcels_CAMA_A) whose ZONING attribute carries each parcel's zoning district; not a dissolved district polygon layer. JUR 089 = City of McMinnville; unincorporated county land is not zoned here. Multi-code values such as C-2, R-1 occur on some parcels. Official city service on the city ArcGIS Online organization.",
+  "verification": {
+    "verified_at": 1792135627675,
+    "counties": [
+      "47177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-butts",
+  "publisher": "VerticalAccuracy (ArcGIS Online copy of Butts County parcels carrying zoning)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/NJH5XZkcw7MLsnAI/arcgis/rest/services/Parcels_Butts_County_GA/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13035"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_01"
+  },
+  "notes": "Last resort: no official Butts County zoning district layer is queryable. This is a parcel layer hosted by VerticalAccuracy on ArcGIS Online; each parcel carries its zoning code in Zoning_01 (Zoning_02-04 extra). Not an official county service. Zoning covers parcels, so polygons are parcels rather than districts.",
+  "verification": {
+    "verified_at": 1792133940194,
+    "counties": [
+      "13035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

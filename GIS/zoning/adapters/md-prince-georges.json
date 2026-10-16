@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-prince-georges",
+  "publisher": "Prince George's County Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.princegeorgescountymd.gov/arcgis/rest/services/DPIE/PermitSystem/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24033"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS",
+    "zone_name": "ZONE_TYPE"
+  },
+  "notes": "DPIE permit system zoning layer, 2019 countywide map amendment; ZONE_TYPE is a numeric type code",
+  "verification": {
+    "verified_at": 1792134453918,
+    "counties": [
+      "24033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

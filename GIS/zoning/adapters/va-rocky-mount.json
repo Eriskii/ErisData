@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-rocky-mount",
+  "publisher": "Franklin County GIS (for Town of Rocky Mount), Virginia",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/AzdpqVmJ5GjGWCoI/arcgis/rest/services/Rocky_Mount_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51067"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "notes": "Town of Rocky Mount zoning districts, hosted by Franklin County GIS in its ArcGIS Online organization. Covers the town only; county unincorporated zoning is in va-franklin. zone_name duplicates the zone code because no description field is published.",
+  "verification": {
+    "verified_at": 1792135912656,
+    "counties": [
+      "51067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

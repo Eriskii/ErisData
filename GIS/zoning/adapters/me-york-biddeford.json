@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "me-york-biddeford",
+  "publisher": "City of Biddeford, Maine GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/QWn8PC1cSwbsBBh6/arcgis/rest/services/Biddeford_Zoning_Approved_August_20_2024/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23031"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Desig",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Biddeford General Zoning layer, approved 08/20/2024 (48 districts). Single-jurisdiction city layer; county itself does not zone. Minimum lot size and dimensional fields also exist but are not mapped.",
+  "verification": {
+    "verified_at": 1792134454443,
+    "counties": [
+      "23031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

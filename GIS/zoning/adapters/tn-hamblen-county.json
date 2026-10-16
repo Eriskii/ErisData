@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tn-hamblen-county",
+  "publisher": "Morristown-Hamblen GIS (MHGIS) for Hamblen County",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.mh-gis.com/server/rest/services/LandUsePlanning/ZoningDistricts/FeatureServer/1",
+    "page_size": 45,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47063"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "LG_Base.DBO.Zoning_all.Entity",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Unincorporated Hamblen County zoning districts, from the MHGIS ZoningDistricts service (layer 1). Jurisdiction field reads Hamblen County.",
+  "verification": {
+    "verified_at": 1792135499068,
+    "counties": [
+      "47063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

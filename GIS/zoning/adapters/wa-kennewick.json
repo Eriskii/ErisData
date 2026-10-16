@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wa-kennewick",
+  "publisher": "City of Kennewick GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.ci.kennewick.wa.us/server/rest/services/Public/AllGISLayers/FeatureServer/59",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53005"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Kennewick Parcel Zoning layer: each parcel carries its zoning code (Zoning). Parcel-level layer used because no district layer validated; 28,637 parcels. Covers Kennewick city parcels only.",
+  "verification": {
+    "verified_at": 1792136108892,
+    "counties": [
+      "53005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

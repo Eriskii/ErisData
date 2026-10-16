@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "de-sussex-lewes",
+  "publisher": "City of Lewes",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://enterprise.firstmap.delaware.gov/arcgis/rest/services/PlanningCadastre/DE_Municipal_Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "10005"
+    ]
+  },
+  "fields": {
+    "zone": "ZCODE20",
+    "zone_name": "ZONING2020"
+  },
+  "notes": "City of Lewes zoning (2020) from Delaware FirstMap state municipal zoning service, EPSG 3857. Covers the city of Lewes only, not the unincorporated county.",
+  "verification": {
+    "verified_at": 1792133832826,
+    "counties": [
+      "10005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

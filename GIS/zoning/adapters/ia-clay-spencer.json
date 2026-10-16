@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-clay-spencer",
+  "publisher": "City of Spencer, Iowa (hosted on Clay County ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/J4wvVwwSPAmegLjx/arcgis/rest/services/Spencer_City_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "link": "CodeRef",
+    "zone": "District",
+    "zone_name": "District"
+  },
+  "notes": "City of Spencer zoning only (layer CITYZONING_Merge, Jurisdiction=CITY). Unincorporated county zoning not found as a queryable service. Source: county ArcGIS Online org, linked from spenceriowacity.com maps page.",
+  "verification": {
+    "verified_at": 1792133711617,
+    "counties": [
+      "19041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

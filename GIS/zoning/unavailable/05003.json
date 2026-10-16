@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "05003",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer",
+    "https://gis.equatorstudios.com/arkansas_ashley/",
+    "https://www.pagis.org/index.php/online-mapping/",
+    "https://cityofcrossettar.gov/"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Ashley County AR zoning. No county zoning layer found; Arkansas counties generally do not zone. Crossett (largest city) has a Planning and Zoning Department but no public zoning GIS service found on its website. Hamburg and Portland: no zoning service found. State GIS Planning_Cadastre services contain parcels and PLSS only, no zoning. County assessor portal zoning info is behind a vendor viewer with no public REST service.",
+  "recorded_at": 1792133842945,
+  "recheck_after": 1807685842945,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-laurens-city",
+  "publisher": "Laurens County SC zoning copy (ArcGIS Online item by mwassonfigis)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/YQLyddqtM8cTAr6Y/arcgis/rest/services/ZoningFireSewer/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45059"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Not an official county service: Laurens County SC has no zoning ordinance per its planning page. This is layer 4 (Laurens Zoning - 10/21/2023) of a personal ArcGIS Online item by mwassonfigis (Greenville and Laurens County zoning data), 87 polygons. The district codes (C-2, I-1, R-10, R-12, R-7.5, R-M, O/S) resemble City of Laurens zoning, but the layer has no jurisdiction field, so which jurisdictions it covers is unverified. Official city zoning map is a PDF only (cityoflaurenssc.com/zoningmap).",
+  "verification": {
+    "verified_at": 1792135374324,
+    "counties": [
+      "45059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "id-idaho-falls",
+  "publisher": "City of Idaho Falls GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cifgis.idahofalls.gov/arcgis/rest/services/UtilityDevelopment/MapServer/630",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16019"
+    ]
+  },
+  "fields": {
+    "zone": "Name"
+  },
+  "notes": "City of Idaho Falls zoning districts (UtilityDevelopment service, layer 630 Zoning). Only the district code is published in this layer; Idaho Falls portions of the county zoning layer are placeholders.",
+  "verification": {
+    "verified_at": 1792133693575,
+    "counties": [
+      "16019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-jacksonville",
+  "publisher": "City of Jacksonville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cjaxgisweb.jacksonvillenc.gov/arcgis/rest/services/PlanningAndPermitting/UDO_Zones/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37133"
+    ]
+  },
+  "fields": {
+    "zone": "UDO_Zone"
+  },
+  "notes": "City of Jacksonville UDO zoning districts, city limits only. Jurisdiction implicitly Jacksonville. No usable link field (ORDINANCE is almost always empty).",
+  "verification": {
+    "verified_at": 1792135107596,
+    "counties": [
+      "37133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

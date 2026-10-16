@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48445",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.ci.brownfield.tx.us/249/Official-Maps",
+    "https://ecode360.com/39530473",
+    "https://texascountygisdata.com/product/terry-county-gis-shapefile-and-property-data/"
+  ],
+  "note": "Terry County (TX) does not zone unincorporated land and publishes no county zoning layer. City of Brownfield (county seat) lists an official zoning map on its website and its eCode360 ordinance refers to an Official Zoning Map, but no queryable zoning district service was found; the county's GIS data (TerryCAD web service) has parcels, city limits and subdivisions but no zoning layer. A generic Zoning FeatureServer found in search has no features in Terry County.",
+  "recorded_at": 1792135914023,
+  "recheck_after": 1807687914023,
+  "model": "claude-haiku-5-5"
+}

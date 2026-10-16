@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-lancaster-city",
+  "publisher": "City of Lancaster, SC GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/TL5Ii4EYksDBPH1o/arcgis/rest/services/Zoning_City/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45057"
+    ]
+  },
+  "fields": {
+    "zone": "NEWZONE",
+    "zone_name": "LABEL"
+  },
+  "notes": "City of Lancaster zoning districts published by the city (gis_lancsc). Layer holds city-limit zoning only; CITY field is an internal code. Parcel-level PINs, so features can repeat per parcel.",
+  "verification": {
+    "verified_at": 1792135381824,
+    "counties": [
+      "45057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

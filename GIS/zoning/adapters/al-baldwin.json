@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "al-baldwin",
+  "publisher": "Baldwin County Commission (KCS ISV)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://web6.kcsgis.com/kcsgis/rest/services/Baldwin/Baldwin_Public_ISV/MapServer/42",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_1"
+  },
+  "notes": "Baldwin County Alabama County Zoning layer (county zoning for unincorporated land). Layer also carries PLAN_DEV_1 and CASE_NO1; zone is the base district code such as RR, RA, RSF.",
+  "verification": {
+    "verified_at": 1792133663302,
+    "counties": [
+      "01003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

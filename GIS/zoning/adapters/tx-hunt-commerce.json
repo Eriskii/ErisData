@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-hunt-commerce",
+  "publisher": "City of Commerce, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/88hQGNlkXNQ4uvEZ/arcgis/rest/services/Commerce_Zoning_Final_WFL1/FeatureServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48231"
+    ]
+  },
+  "fields": {
+    "zone": "LandUseType"
+  },
+  "notes": "City of Commerce residential zoning districts (one of several per-category layers in the city ArcGIS Online zoning service); covers Commerce city only, not unincorporated Hunt County.",
+  "verification": {
+    "verified_at": 1792135839689,
+    "counties": [
+      "48231"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

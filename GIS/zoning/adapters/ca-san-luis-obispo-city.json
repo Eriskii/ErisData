@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-san-luis-obispo-city",
+  "publisher": "City of San Luis Obispo",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/yygmGNIVQrHqSELP/arcgis/rest/services/SLOzoning/FeatureServer/114",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06079"
+    ]
+  },
+  "fields": {
+    "zone": "specificZone",
+    "zone_name": "description"
+  },
+  "notes": "City of San Luis Obispo zoning only (city limits; unincorporated county zoning is not published as a districts layer by the county). Hosted in the City of SLO ArcGIS organization. zone is the specific district code (e.g. R-1).",
+  "verification": {
+    "verified_at": 1792134122659,
+    "counties": [
+      "06079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

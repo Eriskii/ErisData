@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-vermilion-danville",
+  "publisher": "City of Danville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofdanville.org/arcgis/rest/services/Hosted/Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17183"
+    ]
+  },
+  "fields": {
+    "zone": "current_zoning_code",
+    "zone_name": "current_zoning_name"
+  },
+  "notes": "City of Danville zoning districts only (city limits, not unincorporated county). Layer is Danville IL city GIS Hosted/Zoning. Purpose field: zoning_district_purpose.",
+  "verification": {
+    "verified_at": 1792134078688,
+    "counties": [
+      "17183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

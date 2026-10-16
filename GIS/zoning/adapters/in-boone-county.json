@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-boone-county",
+  "publisher": "Boone County Area Plan Commission (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/KJPL6pyHyEhFAxWN/arcgis/rest/services/VECTOR1022/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18011"
+    ]
+  },
+  "fields": {
+    "zone": "TAG"
+  },
+  "notes": "Unincorporated Boone County zoning districts, from the county GIS VECTOR1022 service. Zone codes in TAG (e.g. R-1, R-2, LB, GB, AG). Towns of Advance, Jamestown and others are separate layers or not in this one.",
+  "verification": {
+    "verified_at": 1792134119786,
+    "counties": [
+      "18011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

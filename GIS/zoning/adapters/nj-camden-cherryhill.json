@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nj-camden-cherryhill",
+  "publisher": "Township of Cherry Hill, NJ",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.chtownship.com/arcgis/rest/services/CherryHill_Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CURR"
+  },
+  "notes": "Cherry Hill Township zoning districts (block-level polygons), ZONE_CURR holds the current zone code. zone_name not published in this layer (Zoning2018 is empty).",
+  "verification": {
+    "verified_at": 1792135001092,
+    "counties": [
+      "34007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

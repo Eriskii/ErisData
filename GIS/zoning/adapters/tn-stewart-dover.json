@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-stewart-dover",
+  "publisher": "City of Dover, TN (data hosted by data_GNRC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/pXGyp7DHTIE4RXOJ/arcgis/rest/services/Dover_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47161"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "City of Dover only; Stewart County does not zone unincorporated land per county profile (MTIDA). Current Dover zoning, 45 features. zone_name not published in this layer.",
+  "verification": {
+    "verified_at": 1792135563268,
+    "counties": [
+      "47161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

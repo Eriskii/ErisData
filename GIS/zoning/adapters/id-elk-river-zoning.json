@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-elk-river-zoning",
+  "publisher": "Clearwater County GIS (City of Elk River zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/bkAz0G7Qq4dmkYCg/arcgis/rest/services/ElkRiverZoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16035"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "LABEL_NAME"
+  },
+  "notes": "City of Elk River zoning districts, published by the county GIS repository; 3 polygons. Covers the city only.",
+  "verification": {
+    "verified_at": 1792133654674,
+    "counties": [
+      "16035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

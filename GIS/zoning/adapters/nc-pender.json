@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-pender",
+  "publisher": "Pender County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pendercountync.gov/arcgis/rest/services/LayersPro/MapServer/36",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37141"
+    ]
+  },
+  "fields": {
+    "zone": "UDO_ZONING",
+    "zone_name": "DESC_"
+  },
+  "notes": "Pender County unified development ordinance zoning districts (unincorporated county). Municipal zoning (Burgaw, Surf City, St Helena, Topsail Beach, Watha) is in separate layers of the same service.",
+  "verification": {
+    "verified_at": 1792135094383,
+    "counties": [
+      "37141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

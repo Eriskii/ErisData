@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-new-kent",
+  "publisher": "New Kent County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/wRTEaR3VIVeAhJdr/arcgis/rest/services/CivQuest/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51127"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "New Kent County GIS CivQuest service, Zoning layer (786 districts, unincorporated county).",
+  "verification": {
+    "verified_at": 1792135993599,
+    "counties": [
+      "51127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "in-michigan-city",
+  "publisher": "City of Michigan City, Indiana (ArcGIS Online account MichiganCityIN)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/01oq2N3cUfdKDUBU/arcgis/rest/services/PublishZoningParcels25/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18091"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "NEW_ZONE"
+  },
+  "notes": "Last resort: a parcel layer (Michigan City parcels with zoning designations, 2025), not a district polygon layer. Each parcel carries its zoning district code in ZONE (NEW_ZONE holds the consolidated district where set); features are parcels, so districts repeat across many polygons. Covers Michigan City only.",
+  "verification": {
+    "verified_at": 1792134255103,
+    "counties": [
+      "18091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

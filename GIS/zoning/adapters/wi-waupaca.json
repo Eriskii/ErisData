@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-waupaca",
+  "publisher": "Waupaca County Planning & Zoning (LIO)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://public1.co.waupaca.wi.us/arcgis/rest/services/Public/OpenData/MapServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55135"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "muni_code",
+    "zone": "zoning_code"
+  },
+  "notes": "Rural zoning districts for townships under county zoning; parcel-based polygons (pin = parcel ID). muni_code is a numeric municipality code, not a name.",
+  "verification": {
+    "verified_at": 1792136067443,
+    "counties": [
+      "55135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

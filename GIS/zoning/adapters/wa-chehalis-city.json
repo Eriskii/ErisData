@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wa-chehalis-city",
+  "publisher": "City of Chehalis",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/XxKAEfP5vGVXg6yk/arcgis/rest/services/Zoning_Map_11_14_24_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53041"
+    ]
+  },
+  "fields": {
+    "zone": "Land_Use"
+  },
+  "notes": "City of Chehalis zoning map (11/14/24), hosted in the city AGOL org (jjoyner_chehalis). Land_Use holds code and name, e.g. \"CG - Commercial General\".",
+  "verification": {
+    "verified_at": 1792136110534,
+    "counties": [
+      "53041"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

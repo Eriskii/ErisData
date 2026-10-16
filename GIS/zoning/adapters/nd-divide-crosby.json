@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nd-divide-crosby",
+  "publisher": "City of Crosby",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/nqwXN8dDsYvkimT2/arcgis/rest/services/Zoning_view/FeatureServer/108",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38023"
+    ]
+  },
+  "fields": {
+    "zone": "ZnLbl",
+    "zone_name": "ZnDstrct"
+  },
+  "filter": "OBJECTID <> 2",
+  "notes": "City of Crosby zoning districts (city only). Filter excludes one district with self-touching invalid geometry.",
+  "verification": {
+    "verified_at": 1792135203898,
+    "counties": [
+      "38023"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

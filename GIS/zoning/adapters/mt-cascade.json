@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mt-cascade",
+  "publisher": "Cascade County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/JtiGtls94CNeeD7u/arcgis/rest/services/Cascade_County_GIS_Interactive_Mapping/FeatureServer/30",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONECODE"
+  },
+  "notes": "No standalone county zoning-district layer found; this is the county GIS Zoning Visual Parcels 2024 layer (parcel polygons carrying ZONECODE zoning class, e.g. Agriculture, Roadway). Last-resort parcel-based zoning; zone values are descriptive class names, not ordinance codes. Source: Cascade County GIS Interactive Mapping FeatureServer.",
+  "verification": {
+    "verified_at": 1792134908387,
+    "counties": [
+      "30013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

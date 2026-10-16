@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "36035",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.fultoncountyny.gov/planning-department",
+    "https://cityofgloversvilleny.gov/wp-content/uploads/2023/12/2023-ZONING-MAP.pdf",
+    "https://cityofjohnstown.ny.gov/city-maps.html"
+  ],
+  "note": "Fulton County NY has no queryable zoning district service found. The county planning dept says it uses ESRI GIS and lists the cities of Gloversville and Johnstown and the towns/villages that have zoning, but links no zoning layer. The county GIS server (gis.fultoncountyny.gov, sdg.fultoncountyny.gov) is unreachable and no ArcGIS REST zoning layer turned up in ArcGIS Hub/Online searches. Gloversville publishes its zoning map only as PDF (2013 and 2023). Johnstown city publishes its zoning map only as a JPG (2010). The Fulton County parcel layer on ArcGIS Online (services7 OcWNNBkD375O6ROp GloversvilleParcels) carries property class only, no zoning field. The Town of Johnstown GIS hub found is in Colorado, not Fulton County NY.",
+  "recorded_at": 1792135182120,
+  "recheck_after": 1807687182120,
+  "model": "claude-haiku-5-5"
+}

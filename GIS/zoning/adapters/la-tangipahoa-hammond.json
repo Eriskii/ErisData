@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-tangipahoa-hammond",
+  "publisher": "City of Hammond GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Yai1e4WSf7DPtolL/arcgis/rest/services/Zoning_Classification_map_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22105"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Hammond zoning classification layer (city limits only, not unincorporated parish). Overlay districts are separate layers and are not included.",
+  "verification": {
+    "verified_at": 1792134451456,
+    "counties": [
+      "22105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

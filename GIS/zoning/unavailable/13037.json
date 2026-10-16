@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13037",
+  "reason": "none-exists",
+  "evidence": [
+    "https://gis.calhouncounty.org/arcgis/rest/services",
+    "https://gis.calhouncounty.org/arcgis/rest/services/Parcel_Viewer_IPV/MapServer",
+    "https://dca.georgia.gov/calhoun-county-w-cities-morgan-arlington-edison-leary-comprehensive-plan",
+    "https://www.cityofcalhoun-ga.com/utilities/geographic-information-system-gis/"
+  ],
+  "note": "Searched ArcGIS Online/Hub and web for Calhoun County GA zoning. The county GIS server (gis.calhouncounty.org) publishes parcels, city limits, flood zones, and utilities but no zoning district layer. The county's joint comprehensive plan lists Morgan, Arlington, Edison and Leary; no queryable zoning service was found for them. Only a PDF zoning map exists for the City of Calhoun (Gordon County), which is not in this county.",
+  "recorded_at": 1792133909652,
+  "recheck_after": 1807685909652,
+  "model": "claude-haiku-5-5"
+}

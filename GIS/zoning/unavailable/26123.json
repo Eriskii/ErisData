@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "26123",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.newaygocountymi.gov/gis/gis/",
+    "https://arcgisweb.countyofnewaygo.com/hosting/rest/services/WebMaps/PublicCountyViewerProV3/MapServer",
+    "https://www.newaygocountymi.gov/download-category/zoning-information/",
+    "https://www.cityofwhitecloud.org/wp-content/uploads/2021/11/Zoning-2021.pdf",
+    "https://fremontmi.gov/396/Zoning-Maps"
+  ],
+  "note": "Newaygo County's public ArcGIS server (PublicCountyViewerProV3, 30+ layers) has no zoning district layer; the parcel layer has no zoning field and the Jurisdiction layer is only boundaries. The county zoning page lists only township and city zoning administrators. Township and city zoning (White Cloud, Newaygo city, Fremont) is published only as PDF maps; no queryable city zoning service was found.",
+  "recorded_at": 1792132399059,
+  "recheck_after": 1807684399059,
+  "model": "claude-haiku-5-5"
+}

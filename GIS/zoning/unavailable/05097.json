@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "05097",
+  "reason": "none-exists",
+  "evidence": [
+    "https://www.cmcrpc.com/wp-content/uploads/2024/01/County-Zoning-Resolution-February-2024.pdf",
+    "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "https://services9.arcgis.com/KAS2Ol4X7Ca0Dta5/arcgis/rest/services/Arkansas_Cities_General_Zoning/FeatureServer/0"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Montgomery County, AR zoning districts and for Mount Ida and Glenwood city zoning. No county or city zoning district polygon layer was found. The statewide Arkansas Cities General Zoning layer returns no features over Mount Ida; the statewide CAMP parcel layer carries no zoning field. Arkansas county zoning is permissive (A.C.A. 14-17-209) and no Montgomery County zoning ordinance map was found online.",
+  "recorded_at": 1792133791449,
+  "recheck_after": 1807685791449,
+  "model": "claude-haiku-5-5"
+}

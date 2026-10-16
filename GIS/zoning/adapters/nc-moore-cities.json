@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-moore-cities",
+  "publisher": "Moore County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/qTcTE4YvZO9zWz6t/arcgis/rest/services/MoorePublic_AGO/FeatureServer/16",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37125"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JR",
+    "zone": "ZONE"
+  },
+  "notes": "Municipal zoning districts of towns in Moore County, published by Moore County GIS on its public ArcGIS Online organization (MoorePublic_AGO, layer City Zoning). jurisdiction holds coded town abbreviations (AB, CA, CG, FF, PB, PH, RB, SP, TT, VA, WP, CN) as the layer gives them; LABEL combines code and district. Unincorporated county zoning is in a separate layer (MoorePublic_AGO layer Zoning, ZCODE), which fails the polygon-validity check.",
+  "verification": {
+    "verified_at": 1792135154530,
+    "counties": [
+      "37125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

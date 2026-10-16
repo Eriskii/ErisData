@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nj-bergen-hackensack",
+  "publisher": "City of Hackensack (zoning map layer, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/HVAUPEhgOEfMS4MH/arcgis/rest/services/Zoning_Redevelopment_Parcels_Updated_2026/FeatureServer/29",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34003"
+    ]
+  },
+  "fields": {
+    "link": "Zone_Code",
+    "zone": "Zone",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "Layer behind the City of Hackensack zoning map app linked from hackensack.org/zoning (hosted on a planning consultant's ArcGIS Online org); Zone_Code holds the ecode360 link. Includes overlay combos in Zone (e.g. B-3/CROZ).",
+  "verification": {
+    "verified_at": 1792135900584,
+    "counties": [
+      "34003"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

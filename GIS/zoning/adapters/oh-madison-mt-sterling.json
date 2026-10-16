@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "oh-madison-mt-sterling",
+  "publisher": "Madison County GIS Auditor (City of Mt. Sterling zoning, MORPC 2021)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/HCOT30BFUWvevW8A/arcgis/rest/services/MSZon/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39097"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Zoning districts for the City of Mt. Sterling only (10 polygons), published by the Madison County GIS data hub. Zone codes such as R1, R2, B1, PUD.",
+  "verification": {
+    "verified_at": 1792135292890,
+    "counties": [
+      "39097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

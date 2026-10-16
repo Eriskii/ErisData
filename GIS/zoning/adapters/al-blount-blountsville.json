@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-blount-blountsville",
+  "publisher": "Town of Blountsville, AL (via Regional Planning Commission of Greater Birmingham)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/WUxqOZ70v5sx9tgs/arcgis/rest/services/BlountsvilleZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "filter": "ZONING <> ''",
+  "notes": "Blountsville town zoning layer; ZONING holds the district code, OVERLAY holds overlay codes (not mapped). Layer also carries parcel attributes. Covers the Town of Blountsville only.",
+  "verification": {
+    "verified_at": 1792133719818,
+    "counties": [
+      "01009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

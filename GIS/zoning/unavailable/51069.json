@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "51069",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.fcva.us/departments/geographic-information-systems/GIS-Data/Frederick-County-GIS-Data",
+    "https://www.fcva.us/departments/geographic-information-systems/products-and-services/digital-planimetric-data",
+    "https://dateno.io/registry/catalog/cdi00012563/",
+    "https://fredcogis.fcva.us/FrederickCountyGIS/"
+  ],
+  "note": "Frederick County VA publishes its zoning layer (current, proposed and agricultural districts) only as shapefile/geodatabase files under a copyright agreement via its digital planimetric data order. Its ArcGIS server (fredcogis.fcva.us) has no public REST services directory (404 at /arcgis/rest/services and /maps/arcgis/rest/services), and its viewer is a web app with no service URL exposed. The gis.frederickco.gov Zoning layer found in search is Frederick County, Colorado, not Virginia. Winchester (independent city, not in the county) and Middletown/Stephens City zoning are not queryable services.",
+  "recorded_at": 1792136028050,
+  "recheck_after": 1807688028050,
+  "model": "claude-haiku-5-5"
+}

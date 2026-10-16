@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-sumter-bushnell",
+  "publisher": "Sumter County GIS (City of Bushnell Zoning, via ArcGIS Hub export)",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://hub.arcgis.com/api/v3/datasets/1f98bde77bd146e088312dad5317321f_6/downloads/data?format=geojson&spatialRefId=4326&where=1%3D1",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "12119"
+    ]
+  },
+  "fields": {
+    "zone": "CITY_ZONIN"
+  },
+  "notes": "City of Bushnell zoning, county-published layer (FLU_Zoning MapServer/6) via Hub export",
+  "verification": {
+    "verified_at": 1792134171120,
+    "counties": [
+      "12119"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

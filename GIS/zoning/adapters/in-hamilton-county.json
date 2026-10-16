@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "in-hamilton-county",
+  "publisher": "Hamilton County Indiana GIS (Planning & Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis1.hamiltoncounty.in.gov/arcgis/rest/services/HamCoPlanning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18057"
+    ]
+  },
+  "fields": {
+    "zone": "LAYER",
+    "zone_name": "LAYER_DESCRIPTION"
+  },
+  "notes": "County zoning for unincorporated Hamilton County (county-administered districts, e.g. A-2, A-3, R-1). Incorporated cities such as Carmel, Noblesville and Fishers zone their own land and are not in this layer. No ordinance link is published in this layer.",
+  "verification": {
+    "verified_at": 1792134098765,
+    "counties": [
+      "18057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

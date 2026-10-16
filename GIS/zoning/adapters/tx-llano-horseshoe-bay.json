@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-llano-horseshoe-bay",
+  "publisher": "City of Horseshoe Bay, TX (copy hosted on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/PGv0SS9sE3M9RybT/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48299"
+    ]
+  },
+  "fields": {
+    "zone": "DS_ZONE",
+    "zone_name": "GENERAL_ZO"
+  },
+  "notes": "Zoning classifications for City of Horseshoe Bay only (partly in Llano County), not county-wide. Hosted on a personal ArcGIS Online account (JimboWilliams2), a copy of the city zoning; the city MapServer maps.horseshoe-bay-tx.gov was unreachable. No county-wide or City of Llano zoning layer found; Llano County appears to publish no zoning service.",
+  "verification": {
+    "verified_at": 1792135756768,
+    "counties": [
+      "48299"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

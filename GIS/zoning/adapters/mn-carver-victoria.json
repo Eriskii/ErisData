@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-carver-victoria",
+  "publisher": "City of Victoria (Carver County GIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.carver.mn.us/arcgis_ca/rest/services/Victoria/Victoria_CityGIS_LandUsePlanning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGDIST"
+  },
+  "notes": "City of Victoria zoning districts only; city limits, not unincorporated county land.",
+  "verification": {
+    "verified_at": 1792134528841,
+    "counties": [
+      "27019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

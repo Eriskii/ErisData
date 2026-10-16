@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-marin-novato",
+  "publisher": "City of Novato (via Marin County GIS MarinMap)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.marinpublic.com/arcgis/rest/services/MarinMap2/Open_Data_Download/MapServer/119",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06041"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Novato city zoning districts, served by Marin County GIS.",
+  "verification": {
+    "verified_at": 1792134121556,
+    "counties": [
+      "06041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

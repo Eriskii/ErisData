@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-elmore-town-of-elmore",
+  "publisher": "Town of Elmore GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Jh9PzFJ7pFnRfRB4/arcgis/rest/services/Elmore_GIS_view/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01051"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "Town of Elmore zoning districts (town limits only) on the town GIS view.",
+  "verification": {
+    "verified_at": 1792133730273,
+    "counties": [
+      "01051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

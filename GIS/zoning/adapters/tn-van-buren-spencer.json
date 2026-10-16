@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-van-buren-spencer",
+  "publisher": "City of Spencer (zoning layer by UCDD GIS, Upper Cumberland)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/EMZFDxQzNQloLbAf/arcgis/rest/services/Spencer_Zoning_260205/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47175"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Spencer (county seat) only; no county-wide or other-town zoning layer found. Zone codes such as R-1, C-2 from the city zoning map (Ordinance 2023-7). No zone name or ordinance link fields in source. Layer owned by a regional planning staff account.",
+  "verification": {
+    "verified_at": 1792135605348,
+    "counties": [
+      "47175"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

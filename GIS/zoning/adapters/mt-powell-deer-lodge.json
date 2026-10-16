@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mt-powell-deer-lodge",
+  "publisher": "City of Deer Lodge (zoning map hosted by its planning consultant, spplanning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/xXX4ENZCCWYAP7wG/arcgis/rest/services/Deer_Lodge_Zoning_Map_update_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30077"
+    ]
+  },
+  "fields": {
+    "link": "ZoningDesc",
+    "zone": "ZoningCode"
+  },
+  "notes": "City of Deer Lodge zoning; parcel-based layer whose attributes carry each parcel zoning (no separate district polygons published). Powers the city interactive zoning map. ZoningCode holds code and name; ZoningDesc holds the ordinance URL.",
+  "verification": {
+    "verified_at": 1792134970798,
+    "counties": [
+      "30077"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

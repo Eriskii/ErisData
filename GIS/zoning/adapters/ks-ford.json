@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-ford",
+  "publisher": "Ford County GIS (hosted on ArcGIS Online by county staff)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/QfD34vvHtHcH5kGh/arcgis/rest/services/Map_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20057"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDistrict"
+  },
+  "notes": "Parcel-level polygons carrying each parcel zoning district (no separate district layer found). Copy in a personal ArcGIS Online account (jesicoghill) titled Zoning Map; used because no county-hosted district layer is queryable. Covers unincorporated county districts (AG, RR, SR, R-1, V-1).",
+  "verification": {
+    "verified_at": 1792134245183,
+    "counties": [
+      "20057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

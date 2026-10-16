@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29221",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://maps.semogis.com/server/rest/services/Washington_CO/WashingtonCo_Districts/MapServer",
+    "https://semogis.com/maps/washington-county-missouri/",
+    "https://potosicity.com/government/",
+    "https://assessorsearch.com/property-records/missouri/washington-county"
+  ],
+  "note": "Washington County MO publishes no queryable zoning-district polygon layer. SEMO host Washington_CO folder has voting, political, fire, school and parcel layers only; no zoning. CAMA Vision parcel viewer is inactive and shows no zoning. Potosi (largest city) publishes zoning as text ordinance (Chapter 26) with no GIS layer. Missouri counties have limited zoning authority and the county does not appear to zone.",
+  "recorded_at": 1792134882264,
+  "recheck_after": 1807686882264,
+  "model": "claude-haiku-5-5"
+}

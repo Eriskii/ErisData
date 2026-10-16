@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-larimer-fort-collins",
+  "publisher": "City of Fort Collins GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/dLpFH5mwVvxSN4OE/ArcGIS/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08069"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE_NAME"
+  },
+  "filter": "OBJECTID > 1",
+  "notes": "City of Fort Collins zoning districts (fcgov ArcGIS Online org). Filter OBJECTID > 1 omits one polygon (OBJECTID 1) because the validator finds geometry problems in the area around it. DIVISION holds Land Use Code section.",
+  "verification": {
+    "verified_at": 1792134046966,
+    "counties": [
+      "08069"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

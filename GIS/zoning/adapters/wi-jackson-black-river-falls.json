@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-jackson-black-river-falls",
+  "publisher": "City of Black River Falls",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/G9tkBzRKbAqaotWr/arcgis/rest/services/Zoning_CityofBlackRiverFalls_public/FeatureServer/40",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55053"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "AUTHORITY",
+    "link": "HYPERLINK",
+    "zone": "MAJORITYZONED"
+  },
+  "notes": "Parcel-level city zoning layer: each feature is a tax parcel whose MAJORITYZONED holds its base district code (R1, B1, ...). Zoning code chapter 17 linked per feature. No zone_name field.",
+  "verification": {
+    "verified_at": 1792136059761,
+    "counties": [
+      "55053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

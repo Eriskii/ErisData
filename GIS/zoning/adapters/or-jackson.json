@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-jackson",
+  "publisher": "Oregon DLCD statewide zoning compilation (Jackson County and its cities)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41029"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName IN ('Jackson County','Central Point','Jacksonville','Medford','Ashland','Butte Falls','Talent','Shady Cove','Eagle Point','Phoenix','Rogue River','Gold Hill')",
+  "notes": "Statewide DLCD compilation, standardized Oregon zone codes (orZCode). Covers Jackson County unincorporated land plus the 11 incorporated cities in the county; jurisdiction = ownerName. Local codes are in localZCode/localZDesc where present.",
+  "verification": {
+    "verified_at": 1792135290243,
+    "counties": [
+      "41029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-buchanan-stjoseph",
+  "publisher": "City of St. Joseph (copy hosted by thatchmoyle76 on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/mnor7LfdhlmgRtHt/arcgis/rest/services/St_Joseph_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29021"
+    ]
+  },
+  "fields": {
+    "zone": "STJOSEPH_Z",
+    "zone_name": "ZONING_DES"
+  },
+  "notes": "Unofficial: a personal ArcGIS Online copy of the City of St. Joseph zoning layer (no official county or city service found). Covers the City of St. Joseph only, not unincorporated county land. Titled St Joseph Zoning, 4577 features.",
+  "verification": {
+    "verified_at": 1792134673282,
+    "counties": [
+      "29021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

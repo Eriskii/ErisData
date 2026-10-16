@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-appomattox-town",
+  "publisher": "Appomattox County GIS (Town of Appomattox zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/wnL4os9xzGCi48td/arcgis/rest/services/Appomattox_WL_P/FeatureServer/28",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Appomattox zoning districts from the county GIS mapping service. Only a zone code is published; no description or ordinance link.",
+  "verification": {
+    "verified_at": 1792135867832,
+    "counties": [
+      "51011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

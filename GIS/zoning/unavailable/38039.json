@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "38039",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.cooperstownnd.com/city-maps",
+    "https://www.griggscountynd.gov/about-griggs-county",
+    "https://zoningpoint.com/north-dakota/griggs-county/cooperstown-nd/"
+  ],
+  "note": "Griggs County (ND) publishes no queryable zoning district layer. The county site lists planning/zoning services but links no zoning map or GIS service. The city of Cooperstown, the county seat, publishes its City Zoning Map only as a PDF (City_Map.pdf) on cooperstownnd.com. ArcGIS searches for zoning in Griggs County and across ND found nothing covering the county; the one zoning FeatureServer that surfaced (services.arcgis.com/f4rR7WnIfGBdVYFd) returns zero features inside the county box, so it is not Griggs zoning. Binford and Hannaford publish no zoning service found.",
+  "recorded_at": 1792135170314,
+  "recheck_after": 1807687170314,
+  "model": "claude-haiku-5-5"
+}

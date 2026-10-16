@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nd-stark-dickinson",
+  "publisher": "City of Dickinson GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.dickinsongov.com/server/rest/services/PublicAccess/MapService_Land_Information/MapServer/21",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38089"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "PLANNAME",
+    "zone": "ZONECLASS",
+    "zone_name": "Name"
+  },
+  "filter": "ACTIVEFLAG = 1",
+  "notes": "City of Dickinson zoning only (incorporated city); unincorporated county land not covered by this layer. Filter excludes inactive records.",
+  "verification": {
+    "verified_at": 1792135164882,
+    "counties": [
+      "38089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-perquimans",
+  "publisher": "Perquimans County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/nJbIFHiSnaX0z0hS/arcgis/rest/services/Perquimans_Service/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37143"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "zone_des"
+  },
+  "notes": "Perquimans County zoning districts from the county-hosted Perquimans_Service (layer PERQ_ZONING, 108 features). Unincorporated county zoning; municipal zoning not in this layer.",
+  "verification": {
+    "verified_at": 1792135118974,
+    "counties": [
+      "37143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-montrose-city",
+  "publisher": "City of Montrose",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mcmap.montrosecounty.net/server/rest/services/MontroseCounty/MapServer/62",
+    "page_size": 20,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08085"
+    ]
+  },
+  "fields": {
+    "link": "ORDNUM",
+    "zone": "ZONETYPE"
+  },
+  "notes": "City of Montrose zoning districts, on the Montrose County MapServer (layer 62). ZONETYPE is the district code. ORDNUM is the ordinance number, not a URL.",
+  "verification": {
+    "verified_at": 1792133817060,
+    "counties": [
+      "08085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

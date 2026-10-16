@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-st-louis-city",
+  "publisher": "City of St. Louis, Missouri (Planning & Urban Design Agency)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps9.stlouis-mo.gov/arcgis/rest/services/PDA/Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29510"
+    ]
+  },
+  "fields": {
+    "zone": "LAYER"
+  },
+  "notes": "City of St. Louis base zoning polygons from the city PDA Zoning MapServer (layer 3, field LAYER holds the district code). Zoning district names not in this layer. Source of the city web map; the primary STL_PUBLICMAP service was down for maintenance.",
+  "verification": {
+    "verified_at": 1792134863131,
+    "counties": [
+      "29510"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

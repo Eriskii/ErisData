@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "08063",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://kitcarsoncounty.colorado.gov/sites/kitcarsoncounty/files/documents/Kit%20Carson%20County%20Land%20Use%20Code%20-%20March%2022%202023.pdf",
+    "https://www.gismaps.org/co-kit-carson-county/",
+    "https://kitcarsoncountyco-assessor.tylerhost.net/assessor/web/",
+    "https://flagler.colorado.gov/government/town-code"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web. Kit Carson County's land use code zones unincorporated land, but no county or town zoning district polygon layer is found as an ArcGIS service or file. The county GIS page mentions zoning boundaries only in a viewer; the EagleWeb assessor portal is a property search. Town of Flagler lists a zoning map and shapefile on its town code page, but that is not a queryable service. The county and town sites returned 403 errors to automated reads. Only commercial or third-party zoning copies (zoneomics, Acres, Dynamo) were found.",
+  "recorded_at": 1792133863531,
+  "recheck_after": 1807685863531,
+  "model": "claude-haiku-5-5"
+}

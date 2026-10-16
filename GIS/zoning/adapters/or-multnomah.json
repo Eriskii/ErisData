@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-multnomah",
+  "publisher": "Metro RLIS (regional zoning, Multnomah County jurisdictions)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/McQ0OlIABe29rJJy/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41051"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZONE",
+    "zone_name": "ZONE_CLASS"
+  },
+  "filter": "CITY IN ('Multnomah Co.','Portland','Gresham','Troutdale','Fairview','Wood Village','Maywood Park')",
+  "notes": "Metro RLIS regional zoning layer; filtered to Multnomah County jurisdictions by CITY field (Multnomah Co. = unincorporated county).",
+  "verification": {
+    "verified_at": 1792131917441,
+    "counties": [
+      "41051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

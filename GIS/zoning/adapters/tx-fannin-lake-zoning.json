@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-fannin-lake-zoning",
+  "publisher": "Fannin County / Bois d Arc Lake Zoning Commission (hosted by City of Bonham ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/wCqQSYzCSB2pQ16E/arcgis/rest/services/Lake_Bois_d_Arc_Zoning/FeatureServer/37",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48147"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "notes": "Bois d Arc Lake zoning districts adopted under Fannin County Lake Zoning Regulations (county authority, Tex. Loc. Gov. Code ch. 231 subch. G); covers only lake-area unincorporated land, not the whole county. Layer hosted in the city of Bonham ArcGIS organization. Zone field holds the district code.",
+  "verification": {
+    "verified_at": 1792135912505,
+    "counties": [
+      "48147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

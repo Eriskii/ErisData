@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nm-los-alamos",
+  "publisher": "Los Alamos County DPS Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/h2T8KwQEZGypOW4c/arcgis/rest/services/Los_Alamos_County_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35028"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ABBREV"
+  },
+  "filter": "ZONE <> ' '",
+  "notes": "County-published layer; polygons are parcels carrying each parcel zoning in ZONE (parcel-level, not dissolved districts). Blank ZONE for parcels without zoning; ABBREV is a short subdivision-community code, not a full district name.",
+  "verification": {
+    "verified_at": 1792135003002,
+    "counties": [
+      "35028"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nv-carson-city",
+  "publisher": "Carson City GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/C0ejqMIMxJZHALms/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32510"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "LABEL"
+  },
+  "notes": "Carson City is a consolidated city-county; one layer covers all zoning (429 polygons, current zoning). Source is Carson City GIS via its ArcGIS Online organization. Ordinance links are sparsely filled, so no link field is mapped.",
+  "verification": {
+    "verified_at": 1792134953628,
+    "counties": [
+      "32510"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

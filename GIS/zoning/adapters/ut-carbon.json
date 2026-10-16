@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-carbon",
+  "publisher": "Carbon County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.carbon.utah.gov/arcgis/rest/services/CountyGeneralMap/Planning___Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49007"
+    ]
+  },
+  "fields": {
+    "link": "Description",
+    "zone": "ZONING"
+  },
+  "notes": "Carbon County unincorporated zoning (CC_Zoning_County); not survey quality. Description holds link to the county development code; zone is the district code.",
+  "verification": {
+    "verified_at": 1792135779025,
+    "counties": [
+      "49007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-baltimore-city",
+  "publisher": "Baltimore City zoning districts (copy hosted by rbankard)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/q8sarOko6mCDwiGm/arcgis/rest/services/Zoning_Baltimore_City/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24510"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "label"
+  },
+  "notes": "Not the city's own service: a copy of Baltimore City zoning districts uploaded to ArcGIS Online by rbankard. Used because the city CityView Zoning_New service (geodata.baltimorecity.gov, official) returns unstable paging. Overlay field separate; no district ordinance links in this copy.",
+  "verification": {
+    "verified_at": 1792134547606,
+    "counties": [
+      "24510"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

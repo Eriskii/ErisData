@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nd-morton",
+  "publisher": "Morton County Planning & Zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/KK9EVAUoqJyQSD0q/arcgis/rest/services/MortonCountyPlanningandZoningMap/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38059"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE1"
+  },
+  "notes": "County planning zoning layer (unincorporated county districts; city zoning is in separate layers). Parcel-level ZONE1 district codes. Source: mortongisonline ArcGIS Online org, linked from county Planning and Zoning Map.",
+  "verification": {
+    "verified_at": 1792135140020,
+    "counties": [
+      "38059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

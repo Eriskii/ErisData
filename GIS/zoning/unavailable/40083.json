@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40083",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.logancountyok.com/FAQ.aspx?QID=64",
+    "https://www.cityofguthrie.com/planningdepartment",
+    "https://maps2.roktech.net/Guthrie_ROKMAPS/",
+    "https://gis.edmondok.gov/arcgis/rest/services/Planning/Zoning/MapServer/4"
+  ],
+  "note": "Logan County says unincorporated land has no zoning. Guthrie, the county seat, zones its parcels but its zoning districts are not published as a queryable ArcGIS service (only the ROKMAPS viewer and a PDF-based code were found). Edmond's zoning service is queryable but its Logan County part (13 districts) does not reach the Guthrie-area sample point; validation found 0 districts there.",
+  "recorded_at": 1792135754816,
+  "recheck_after": 1807687754816,
+  "model": "claude-haiku-5-5"
+}

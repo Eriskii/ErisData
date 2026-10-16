@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "me-aroostook-lupc",
+  "publisher": "Maine Land Use Planning Commission (unorganized territories of Aroostook County)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/LUPC_TEST/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "23003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "filter": "PUBLISH = 'Yes' AND END_DATE IS NULL",
+  "notes": "State LUPC zoning for unorganized territories only; cities and towns (e.g. Presque Isle, Caribou, Houlton) zone their own land and are not in this layer. Layer name is LUPC_TEST on a Maine state ArcGIS Online org. Zone codes are LUPC subdistrict codes (e.g. P-WL3: Forested Wetlands).",
+  "verification": {
+    "verified_at": 1792134484518,
+    "counties": [
+      "23003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

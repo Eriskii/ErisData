@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ok-craig-vinita",
+  "publisher": "City of Vinita (copy hosted by aeincmo)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Ch1uR5ouFf8JDpk6/arcgis/rest/services/Vinita_Progress/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40035"
+    ]
+  },
+  "fields": {
+    "link": "ZoningCodeOnline",
+    "zone": "Zoning",
+    "zone_name": "Zoning_District"
+  },
+  "notes": "Vinita city zoning only (not unincorporated county). Copy hosted on ArcGIS Online by aeincmo, not the city; used because no official queryable county/city zoning layer was found.",
+  "verification": {
+    "verified_at": 1792135253736,
+    "counties": [
+      "40035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

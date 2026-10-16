@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-mcduffie-thomson",
+  "publisher": "City of Thomson GIS (Thomson-McDuffie GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.thomson-mcduffie.net/arcgis/rest/services/CloudPermit/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13189"
+    ]
+  },
+  "fields": {
+    "zone": "CITY_ZON"
+  },
+  "notes": "City of Thomson zoning districts; layer CloudPermit MapServer 1, Thomson Zoning. Only a zone code field is published; no description or ordinance link.",
+  "verification": {
+    "verified_at": 1792133957483,
+    "counties": [
+      "13189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

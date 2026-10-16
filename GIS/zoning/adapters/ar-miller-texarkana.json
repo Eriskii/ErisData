@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ar-miller-texarkana",
+  "publisher": "City of Texarkana, Arkansas (hosted by Garver)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/eNPJk90aMrXNOKF8/arcgis/rest/services/Zoning_Texarkana/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05091"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Texarkana, Arkansas base zoning districts only, not unincorporated county land. Hosted on the Garver ArcGIS Online org for the city. Ordinance field is mostly blank, so no link mapped.",
+  "verification": {
+    "verified_at": 1792133785413,
+    "counties": [
+      "05091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

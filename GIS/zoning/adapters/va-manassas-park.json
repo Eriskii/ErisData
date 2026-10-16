@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-manassas-park",
+  "publisher": "City of Manassas Park (parcel tax assessment layer hosted by TritenRE; zoning attribute)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/ma9pWVMuT9vmGH9G/arcgis/rest/services/Parcels_2021TaxAssessment/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51685"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "Last resort: no official Manassas Park zoning district layer found. This is a 2021 parcel tax-assessment layer by TritenRE (personal ArcGIS Online copy, not official); zone holds each parcel zoning code (R-1, R-2, B-1, B-2, I-1, A-1, MU-D, PF, PUD). No zone_name attribute exists. Parcels with null zoning exist. Verify against city Zoning Map/Ordinance (Chapter 31 Zoning Ordinance).",
+  "verification": {
+    "verified_at": 1792136011476,
+    "counties": [
+      "51685"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-montgomery-red-oak-city",
+  "publisher": "City of Red Oak, Iowa",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/dVIGQmhS5KR6PBiz/arcgis/rest/services/Red_Oak_Zoning_View/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19137"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "City of Red Oak zoning layer from the city GIS organization (redoak.gis.admin), within Red Oak city limits. Supersedes the ISU compiled copy for Red Oak.",
+  "verification": {
+    "verified_at": 1792134246902,
+    "counties": [
+      "19137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

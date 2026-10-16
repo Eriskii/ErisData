@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-stark-county",
+  "publisher": "Stark County, IL (GIS / Building & Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/IMZwRRU1qL5MDxBH/arcgis/rest/services/Zoning_Parcels/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17175"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Last-resort parcel layer: each parcel polygon carries its zoning class; republished 12/3/2025. No standalone county zoning-district layer was found in the county GIS viewer or its ArcGIS org. Zone codes come from parcel attributes, so districts appear as parcel-level polygons.",
+  "verification": {
+    "verified_at": 1792134099788,
+    "counties": [
+      "17175"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-olmsted-oronoco",
+  "publisher": "City of Oronoco / Olmsted County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gweb01.co.olmsted.mn.us/arcgis/rest/services/Zoning_and_Future_Land_Use/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27109"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Oronoco zoning districts, from the Olmsted County zoning MapServer.",
+  "verification": {
+    "verified_at": 1792134533171,
+    "counties": [
+      "27109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

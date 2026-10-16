@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-stlawrence-ogdensburg-city",
+  "publisher": "City of Ogdensburg / DANC GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/64",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36089"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "City of Ogdensburg zoning layer from DANC regional zoning service (one layer per municipality). Ordinance links not populated.",
+  "verification": {
+    "verified_at": 1792135115662,
+    "counties": [
+      "36089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

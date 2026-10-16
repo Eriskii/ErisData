@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ms-lee-tupelo",
+  "publisher": "City of Tupelo (ZONING layer, City of Tupelo ArcGIS Online feature service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/K2lG4DOeDaa3nZkf/arcgis/rest/services/City_of_Tupelo/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28081"
+    ]
+  },
+  "fields": {
+    "zone": "Z_CODE",
+    "zone_name": "Z_DSCRPTN"
+  },
+  "notes": "City of Tupelo zoning only (city limits, not county unincorporated land). Layer also carries OVERLAY and FLU fields; overlay rows may need excluding. Source: City of Tupelo GIS feature service.",
+  "verification": {
+    "verified_at": 1792134582830,
+    "counties": [
+      "28081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

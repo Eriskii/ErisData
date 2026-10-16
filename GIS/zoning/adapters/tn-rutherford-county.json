@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-rutherford-county",
+  "publisher": "Rutherford County Planning and Engineering (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.rutherfordcountytn.gov/server/rest/services/Planning/Planning_Zoning_Subdivisions/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47149"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEABBRV",
+    "zone_name": "ZONE_DIST"
+  },
+  "notes": "County zoning layer; unincorporated county zoning districts. Cities zone their own land. ZONING field holds broad category (RESIDENTIAL etc.).",
+  "verification": {
+    "verified_at": 1792135535692,
+    "counties": [
+      "47149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-maury-columbia",
+  "publisher": "City of Columbia, TN",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/ubRvNDgGwwJuZMcL/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47119"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Columbia zoning districts, published by the city (ArcGIS account dtoney_ColumbiaTN). Covers only the City of Columbia; unincorporated county land is in tn-maury.",
+  "verification": {
+    "verified_at": 1792135911562,
+    "counties": [
+      "47119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

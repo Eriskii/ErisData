@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mi-stjoseph-sturgis",
+  "publisher": "City of Sturgis, MI",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/jvZ2ldpSLd1kK0tx/arcgis/rest/services/ZoningAGOWM/FeatureServer/0",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26149"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE"
+  },
+  "notes": "City of Sturgis zoning districts only (not county-wide); unincorporated county and other cities not covered.",
+  "verification": {
+    "verified_at": 1792132369510,
+    "counties": [
+      "26149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

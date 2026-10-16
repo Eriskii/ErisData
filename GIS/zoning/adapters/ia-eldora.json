@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-eldora",
+  "publisher": "City of Eldora (via Schneider Geospatial)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/09JsFDXeRqZYiaZt/arcgis/rest/services/EldoraZoningDistricts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19083"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "City of Eldora zoning districts, hosted by Schneider Geospatial; 83 polygons.",
+  "verification": {
+    "verified_at": 1792134183311,
+    "counties": [
+      "19083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

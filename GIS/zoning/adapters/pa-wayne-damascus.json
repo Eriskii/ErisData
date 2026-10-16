@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-wayne-damascus",
+  "publisher": "Shippensburg University Center for Land Use and Sustainability / NPS Upper Delaware (copy of Damascus Township zoning, 2007)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/UPDE_BND_TownZoning_ply/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42127"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "link": "Link",
+    "zone": "ZONE_ID",
+    "zone_name": "ZONE_DIST"
+  },
+  "notes": "Only queryable district polygons found for Wayne County PA. Covers Damascus Township only (2007 snapshot, 9 features), from the UPDE municipal zoning compilation hosted by NPS/Shippensburg University; the county itself publishes zoning only as PDF maps for 14 of 28 municipalities. Not an official county service.",
+  "verification": {
+    "verified_at": 1792135581678,
+    "counties": [
+      "42127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

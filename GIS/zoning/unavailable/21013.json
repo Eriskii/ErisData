@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21013",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://bellpva.com/",
+    "https://www.gismaps.org/ky-bell-county/",
+    "https://thecityofpineville.com/wp-content/uploads/2024/08/PDF-Zoning-Ordinance-2024.pdf",
+    "https://codelibrary.amlegal.com/codes/middlesboroky/latest/middlesboro_ky/0-0-0-7408"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Bell County KY zoning. No county or city (Pineville, Middlesboro) zoning district layer found as a queryable service. Pineville's zoning ordinance refers to a zoning map but no GIS service is published; Middlesboro's official zoning map is described in code with no downloadable file. Bell County's official GIS viewer is a Schneider Beacon app (not a public REST service). The one generic 'Zoning Districts' FeatureServer found (services.arcgis.com/f4rR7WnIfGBdVYFd) has 1,129 features with no jurisdiction field and returns no features in Bell County's bounding box, so it is not Bell County's layer.",
+  "recorded_at": 1792134354469,
+  "recheck_after": 1807686354469,
+  "model": "claude-haiku-5-5"
+}

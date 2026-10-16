@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "36011",
+  "reason": "login-required",
+  "evidence": [
+    "https://ccgis.cayugacounty.us/arcgis/rest/services/TMO/MUNICIPALITY/MapServer",
+    "https://ccgis.cayugacounty.us/arcgis/rest/services/TMO/MUNICIPALITY/MapServer/10590",
+    "https://ccgis.cayugacounty.us/arcgis/rest/services/District/ElectionDistrict/MapServer"
+  ],
+  "note": "Cayuga County's ArcGIS server (ccgis.cayugacounty.us) holds per-town zoning layers (e.g. Town of Fleming Zoning, MapServer/10590) but every service and layer returns 'Token Required'; the folder listings fail against an unreachable RPSPORTAL host. No public zoning districts service found. Auburn city zoning is only a 1993-based PDF map; no ArcGIS layer found for Auburn NY or other Cayuga towns.",
+  "recorded_at": 1792135136518,
+  "recheck_after": 1807687136518,
+  "model": "claude-haiku-5-5"
+}

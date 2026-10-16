@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nd-stark-county",
+  "publisher": "Stark County GIS (zoning parcels, via county hub)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/BxhhNw1m7gGPYn2v/arcgis/rest/services/Zoning_Parcels/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38089"
+    ]
+  },
+  "fields": {
+    "zone": "NewZoning",
+    "zone_name": "NZ_Label"
+  },
+  "filter": "NewZoning <> ' '",
+  "notes": "Parcel layer carrying each parcel zoning (not a district polygon layer): last resort for the county own unincorporated zoning. Zones taken from NewZoning/NZ_Label; blank values excluded. Covers county parcels; Dickinson city zoning is in nd-stark-dickinson.",
+  "verification": {
+    "verified_at": 1792135200976,
+    "counties": [
+      "38089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

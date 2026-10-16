@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-milam-rockdale",
+  "publisher": "City of Rockdale, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/WZmLIEWWo5y2UnpH/arcgis/rest/services/RD_Boundary_Map/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48331"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneDesc",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "City of Rockdale zoning districts (layer Zone2009) in the RD_Boundary_Map service; covers only the city of Rockdale, not the whole county. ZoneCode is empty; zone code taken from ZoneDesc (e.g. ZONING R1).",
+  "verification": {
+    "verified_at": 1792135748981,
+    "counties": [
+      "48331"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ne-lancaster-lincoln",
+  "publisher": "City of Lincoln Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lincoln.ne.gov/public/rest/services/Planning/DevRevZoningandRegulations/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONE",
+    "zone_name": "MAJCAT"
+  },
+  "notes": "Lincoln zoning districts per Lincoln Municipal Code, served by the City of Lincoln Planning Dept public GIS; OVERLAY field marks overlay districts; ZONE is base district code; MAJCAT is major category (R, B, I, etc.).",
+  "verification": {
+    "verified_at": 1792134923601,
+    "counties": [
+      "31109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-franklin-county",
+  "publisher": "Franklin County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.franklincountymaps.net/arcgis/rest/services/Planning_MIL1/MapServer/16",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37069"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Franklin County GIS (franklincountymaps.net) Planning_MIL1 Zoning layer; only ZONING attribute, no jurisdiction field, so municipal zoning coverage depends on what the layer holds.",
+  "verification": {
+    "verified_at": 1792135081856,
+    "counties": [
+      "37069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

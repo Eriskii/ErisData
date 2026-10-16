@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-pike-westfall",
+  "publisher": "Upper Delaware SRR municipal zoning (Westfall Township, compiled by Shippensburg Univ. CLUS / NPS)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/UPDE_BND_TownZoning_ply/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42103"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "ZONE_ABBR",
+    "zone_name": "ZONING"
+  },
+  "notes": "Unofficial copy: NPS-hosted layer of Westfall Township zoning (2011) acquired from the township by Shippensburg University; not the township's own service. Covers only Westfall Twp, not the whole county. No jurisdiction attribute; every district is Westfall Twp.",
+  "verification": {
+    "verified_at": 1792135610757,
+    "counties": [
+      "42103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

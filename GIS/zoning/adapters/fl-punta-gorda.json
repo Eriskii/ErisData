@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-punta-gorda",
+  "publisher": "City of Punta Gorda (GISMFM copy)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/7tOcoRLUBt73R0wV/arcgis/rest/services/BO_Charlotte_County_City_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Type",
+    "zone": "Zoning_Cla",
+    "zone_name": "ZoningName"
+  },
+  "notes": "City of Punta Gorda zoning only (not unincorporated county); hosted by GISMFM; county zoning.zip download could not be read",
+  "verification": {
+    "verified_at": 1792133860212,
+    "counties": [
+      "12015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wi-sauk-baraboo",
+  "publisher": "City of Baraboo via Sauk County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.sauk.wi.us/arcgis/rest/services/Sauk/ZoningDistricts_CityOfBaraboo/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55111"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "link": "ZONING_REG_PATH",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Baraboo zoning districts, served by Sauk County GIS. Not included in the county ZoningDistricts layer.",
+  "verification": {
+    "verified_at": 1792136099689,
+    "counties": [
+      "55111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

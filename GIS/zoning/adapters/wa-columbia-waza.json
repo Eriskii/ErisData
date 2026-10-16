@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wa-columbia-waza",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '013' AND OBJECTID NOT IN (338854, 338840)",
+  "notes": "Washington State Zoning Atlas prototype (Commerce), covers Dayton, Starbuck and unincorporated Columbia County. Filter excludes OBJECTIDs 338854 (Dayton) and 338840 (unincorporated), whose source polygons fail geometry validity; other invalid polygons elsewhere in the county may remain. Those two districts are therefore missing; Commerce should repair them.",
+  "verification": {
+    "verified_at": 1792136465574,
+    "counties": [
+      "53013"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

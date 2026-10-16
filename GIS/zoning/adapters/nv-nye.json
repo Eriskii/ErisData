@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nv-nye",
+  "publisher": "Nye County Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/AvZJsNr6HZ4v00zd/arcgis/rest/services/Nye_County_Planning_Department_WFL1/FeatureServer/41",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32023"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "OBJECTID > 30 AND Shape__Area < 30000000",
+  "notes": "Pahrump valley zoning (All Zoning layer); excludes summary shapes and very large polygons with invalid geometry",
+  "verification": {
+    "verified_at": 1792135067715,
+    "counties": [
+      "32023"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

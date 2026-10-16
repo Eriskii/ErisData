@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-simpson",
+  "publisher": "City of Franklin, KY (Franklin-Simpson zoning map, GIS view)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/D3RgmiBYTvYcNK2j/arcgis/rest/services/ZONING_2020_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21213"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_ID",
+    "zone_name": "Zone"
+  },
+  "notes": "Zoning layer from the City of Franklin KY ArcGIS org (ZONING_2020_view), the Franklin-Simpson joint zoning map; 434 district polygons. No jurisdiction field. Source attribute Zone_ID holds the code, Zone the district name.",
+  "verification": {
+    "verified_at": 1792134421346,
+    "counties": [
+      "21213"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

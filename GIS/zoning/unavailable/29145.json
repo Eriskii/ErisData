@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29145",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.countyzoning.org/mo-newton-county/",
+    "https://www.neoshomo.gov/184/Development-Services-Planning",
+    "https://newton.integritygis.com",
+    "https://services1.arcgis.com/5olyYd7fCfTTiVp8/arcgis/rest/services/Zoning/FeatureServer/0"
+  ],
+  "note": "No queryable zoning district layer found for Newton County. Newton County Clerk holds zoning maps only as documents; Neosho says zoning is viewable on its GIS Map viewer, which is not reachable as a service; Joplin's city zoning layer is queryable but covers only Joplin, and validation found 0 districts near the county sample point (fails).",
+  "recorded_at": 1792134889522,
+  "recheck_after": 1807686889522,
+  "model": "claude-haiku-5-5"
+}

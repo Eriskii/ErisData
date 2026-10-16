@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-mountain-home",
+  "publisher": "City of Mountain Home",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/zuVYcGbo1L9xuj72/arcgis/rest/services/City_Zoning__07_2022_ONLINE/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16039"
+    ]
+  },
+  "fields": {
+    "zone": "layer",
+    "zone_name": "descriptio"
+  },
+  "notes": "City of Mountain Home zoning, July 2022 release. zone is the layer code (C1, C2...); zone_type holds a parallel short code.",
+  "verification": {
+    "verified_at": 1792133673512,
+    "counties": [
+      "16039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

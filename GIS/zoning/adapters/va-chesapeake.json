@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-chesapeake",
+  "publisher": "City of Chesapeake GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofchesapeake.net/mapping/rest/services/OpenData/OpenData/MapServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51550"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS"
+  },
+  "notes": "City of Chesapeake zoning layer (OpenData MapServer layer 26). Single city-wide layer; GIS zoning is not council-adopted, paper map books are official. No zone name field in source.",
+  "verification": {
+    "verified_at": 1792135948432,
+    "counties": [
+      "51550"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

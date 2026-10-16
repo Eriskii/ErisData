@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-north-charleston",
+  "publisher": "City of North Charleston",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arc.northcharleston.org/arcgis/rest/services/DYlayers/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONETYPE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of North Charleston zoning districts. ZONETYPE holds the district code; ZONECODE is an integer code.",
+  "verification": {
+    "verified_at": 1792135347915,
+    "counties": [
+      "45019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

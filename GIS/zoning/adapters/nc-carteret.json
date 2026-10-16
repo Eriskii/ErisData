@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-carteret",
+  "publisher": "Carteret County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgisweb.carteretcountync.gov/arcgis/rest/services/Layers/Zoning/FeatureServer/0",
+    "page_size": 39,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37031"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "Carteret County zoning districts (county jurisdiction; incorporated towns zone their own land)",
+  "verification": {
+    "verified_at": 1792135063710,
+    "counties": [
+      "37031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

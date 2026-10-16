@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-goshen-zoning",
+  "publisher": "City of Goshen (hosted by Abonmarche)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/o5a9nldztUcivksS/arcgis/rest/services/Goshen_Zoning/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18039"
+    ]
+  },
+  "fields": {
+    "zone": "Zones"
+  },
+  "notes": "City of Goshen zoning districts; hosted on consultant Abonmarche ArcGIS Online org, not a city-owned org.",
+  "verification": {
+    "verified_at": 1792134214519,
+    "counties": [
+      "18039"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

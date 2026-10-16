@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-broward-county-bmsd",
+  "publisher": "Broward County Urban Planning Division (BCGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/JMAJrTsHNLrSsWf5/arcgis/rest/services/Broward_Municipal_Service_District_Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "AREANAME",
+    "zone": "ZONING",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Covers the unincorporated Broward Municipal Service District only (county zoning per Ch. 39); cities zone their own land. Parcel-based layer with zoning per parcel.",
+  "verification": {
+    "verified_at": 1792133821841,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "id-troy",
+  "publisher": "City of Troy via Latah County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.latah.id.us/arcgis/rest/services/PlanningCombined/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16057"
+    ]
+  },
+  "fields": {
+    "zone": "Label"
+  },
+  "notes": "City of Troy zoning layer hosted on the Latah County PlanningCombined service. Zone code in Label; many features blank in Label (about 4%).",
+  "verification": {
+    "verified_at": 1792133645923,
+    "counties": [
+      "16057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

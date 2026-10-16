@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-saline-crete",
+  "publisher": "City of Crete, Nebraska (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/R1bTrtUP3FpWpuez/arcgis/rest/services/Zoning_Boundaries/FeatureServer/74",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31151"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Crete zoning districts within the Crete zoning jurisdiction and ETJ, published by the City of Crete GIS office (contact Emerson Aschoff). Covers Crete only; no county unincorporated zoning found published. zone_name mapped to same code field since no description field exists. FLU is future land use, not used.",
+  "verification": {
+    "verified_at": 1792135031112,
+    "counties": [
+      "31151"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

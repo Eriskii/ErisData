@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-polk-ankeny",
+  "publisher": "City of Ankeny Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/FBY1II2pVEEdtz3Q/arcgis/rest/services/Ankeny_Zoning/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19153"
+    ]
+  },
+  "fields": {
+    "zone": "abbreviated",
+    "zone_name": "description"
+  },
+  "notes": "City of Ankeny current zoning districts, published from the city planning source (hosted on ArcGIS Online by a city staff account). Covers Ankeny city limits.",
+  "verification": {
+    "verified_at": 1792134249782,
+    "counties": [
+      "19153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

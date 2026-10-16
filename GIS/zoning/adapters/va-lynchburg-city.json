@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-lynchburg-city",
+  "publisher": "City of Lynchburg GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapviewer.lynchburgva.gov/ArcGIS/rest/services/OpenData/ODPDynamic/MapServer/32",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51680"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "DesignationDetails"
+  },
+  "notes": "City of Lynchburg open data Zoning layer covering the whole city. Zone holds the district code.",
+  "verification": {
+    "verified_at": 1792135960736,
+    "counties": [
+      "51680"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

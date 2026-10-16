@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-oconee",
+  "publisher": "Oconee County GIS (SC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcserver2.oconeesc.com/arcgis/rest/services/Zoning_Map/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45073"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Oconee County SC zoning, split by parcel (Split Zoning layer: one polygon per parcel piece with its ZONING district code). Unincorporated county zoning; municipal zoning not included.",
+  "verification": {
+    "verified_at": 1792135377771,
+    "counties": [
+      "45073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

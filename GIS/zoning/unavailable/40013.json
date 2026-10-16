@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40013",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.durant.org/371/Mapping",
+    "https://codelibrary.amlegal.com/codes/durant/latest/durant_ok/0-0-0-9492",
+    "https://edit.zoningatlas.org/statsrollup/county/5631/",
+    "https://services.arcgis.com/3xOwF6p0r7IHIjfn/arcgis/rest/services/Bryan_Data_Layers/FeatureServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Bryan County OK zoning. Bryan County's Bryan_Data_Layers service has no zoning layer (only county, municipal, legislative, hydro, roads). City of Durant publishes a Durant Zoning Map (joint with County Clerk) but no queryable zoning district service was found; Zoning Atlas lists Bennington, Hendrix and Kemp with no zoning mapped. Only third-party zoning viewers (Zoneomics, Dynamo parcel data) found.",
+  "recorded_at": 1792135266623,
+  "recheck_after": 1807687266623,
+  "model": "claude-haiku-5-5"
+}

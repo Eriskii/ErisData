@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-berrien-benton-harbor",
+  "publisher": "City of Benton Harbor (via bhmi ArcGIS Online, Zoning Viewer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/X0xdaFqVSAx896l1/arcgis/rest/services/Zoning_Viewing_(Public_Facing)/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26021"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "zoning_des"
+  },
+  "notes": "Last resort: no district polygon layer found. This is the City of Benton Harbor parcel layer (BentonHarborParcel) whose attributes carry each parcel zoning code and description, so features are parcels, not district polygons; covers Benton Harbor city only. Source: City of Benton Harbor Zoning Viewer web map.",
+  "verification": {
+    "verified_at": 1792132346276,
+    "counties": [
+      "26021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

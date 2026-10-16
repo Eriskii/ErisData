@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-colfax-county",
+  "publisher": "Colfax County GIS (gworks host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis3.gworks.com/arcgis/rest/services/Colfax_County_NE_PZ/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31037"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zone"
+  },
+  "notes": "Layer from the county planning and zoning MapServer; zone holds the district code (Zoning, e.g. R-1, C-1, TA-1), zone_name the short source code (e.g. RR, TA, PRC). Covers the county zoning districts; municipal zoning is a separate layer.",
+  "verification": {
+    "verified_at": 1792134972709,
+    "counties": [
+      "31037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

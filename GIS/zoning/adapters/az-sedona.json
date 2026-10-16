@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "az-sedona",
+  "publisher": "Yavapai County GIS (City of Sedona zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yavapaiaz.gov/ArcGIS/rest/services/Zoning/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Sedona zoning districts, served by Yavapai County GIS.",
+  "verification": {
+    "verified_at": 1792133780840,
+    "counties": [
+      "04025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

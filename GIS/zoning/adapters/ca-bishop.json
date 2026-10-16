@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-bishop",
+  "publisher": "City of Bishop Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.inyo.gov/server/rest/services/CityOfBishop/Bishop_Zoning/FeatureServer/70",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06027"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Bishop zoning districts (layer Zoning), hosted by Inyo County GIS. Covers incorporated Bishop only.",
+  "verification": {
+    "verified_at": 1792134131313,
+    "counties": [
+      "06027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

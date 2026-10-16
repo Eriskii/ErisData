@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sd-moody",
+  "publisher": "Moody County GIS (1stDistrict host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Moody/moodymapnet/MapServer/33",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Moody County commercial zoning layer (20 features) from the 1stDistrict-hosted county MapServer. Only commercial/industrial districts; the county base-district layer (MapServer/32, AG/CI etc.) fails polygon validity. zone_name not mapped: LEGAL1 is a legal land description.",
+  "verification": {
+    "verified_at": 1792135478533,
+    "counties": [
+      "46101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

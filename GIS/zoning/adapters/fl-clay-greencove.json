@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-clay-greencove",
+  "publisher": "City of Green Cove Springs",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/R0MaBWycrb80Pvlu/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "USEDESC"
+  },
+  "notes": "City of Green Cove Springs zoning only; covers the city, not unincorporated Clay County (county GIS zoning layers were not reachable: maps.claycountygov.com and claycountygov.com blocked)",
+  "verification": {
+    "verified_at": 1792133860244,
+    "counties": [
+      "12019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

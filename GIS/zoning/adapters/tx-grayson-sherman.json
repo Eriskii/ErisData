@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-grayson-sherman",
+  "publisher": "City of Sherman GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.cityofsherman.com/arcgis/rest/services/BaseLayers/MapServer/70",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48181"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE_LINK",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Sherman zoning districts only (Grayson County unincorporated areas not covered by this layer). Layer published by City of Sherman; 1107 features.",
+  "verification": {
+    "verified_at": 1792135635339,
+    "counties": [
+      "48181"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

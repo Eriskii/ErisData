@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ok-edmond",
+  "publisher": "City of Edmond GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.edmondok.gov/arcgis/rest/services/Planning/Zoning/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40109"
+    ]
+  },
+  "fields": {
+    "link": "HYPERLINK",
+    "zone": "ZONE_",
+    "zone_name": "ZONING_DESCRIPTION"
+  },
+  "notes": "City of Edmond zoning districts (Edmond lies mostly in Oklahoma County). Base zoning layer 4; PUD polygons are separate layers and not included.",
+  "verification": {
+    "verified_at": 1792135302690,
+    "counties": [
+      "40109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

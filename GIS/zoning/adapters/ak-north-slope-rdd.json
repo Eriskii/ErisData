@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ak-north-slope-rdd",
+  "publisher": "North Slope Borough GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Y7pceKxvo6htl90x/arcgis/rest/services/OpenGov_NSB02_feature01/FeatureServer/298",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02185"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "notes": "NSB Resource Development District master zoning map (Title 19), named districts (e.g. Nuna, Kuparuk River); hosted in borough ArcGIS Online org (dh.nsbgis). SourcePDF holds ordinance numbers, not URLs.",
+  "verification": {
+    "verified_at": 1792133822291,
+    "counties": [
+      "02185"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

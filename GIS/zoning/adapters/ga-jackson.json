@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-jackson",
+  "publisher": "Jackson County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/bcbi4lYRFOsss0F5/arcgis/rest/services/jackson_baselayers/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13157"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "filter": "ZONING IS NOT NULL AND ZONING NOT IN ('Jefferson','Pendergrass','Arcade','Commerce','Hoschton','Maysville','Nicholson','Talmo','Braselton')",
+  "notes": "Unincorporated Jackson County zoning from the county GIS base layers service. Parcel-level polygons (TAX_ID) carrying ZONING codes; city parcels are excluded here and published by the city specs (ga-jefferson, ga-commerce, ga-hoschton, ga-braselton).",
+  "verification": {
+    "verified_at": 1792133921894,
+    "counties": [
+      "13157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

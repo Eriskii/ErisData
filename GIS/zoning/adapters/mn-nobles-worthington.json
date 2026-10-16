@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-nobles-worthington",
+  "publisher": "City of Worthington, MN",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/3Ww0xxsxao12Dntv/arcgis/rest/services/Zoning_PublicView/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27105"
+    ]
+  },
+  "fields": {
+    "zone": "District",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "City of Worthington zoning districts only (city limits), not county unincorporated land. Published by the city on its own ArcGIS org.",
+  "verification": {
+    "verified_at": 1792134493538,
+    "counties": [
+      "27105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

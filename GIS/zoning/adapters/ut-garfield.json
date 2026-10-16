@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ut-garfield",
+  "publisher": "Garfield County, Utah (zoning map service hosted by kadenfiggins)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/6hOf02oJVANYf9op/arcgis/rest/services/Garfield_County_Zoning_Map/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Copy in ArcGIS Online by kadenfiggins, titled The official Zoning Map of Garfield County, Utah (2023); no county-hosted zoning service found. Layer 2 Garfield County Zones; ZONE holds district names (e.g. Agricultural, Residential, Multiple Use), parcel-based polygons. Some ZONE values are blank or a space.",
+  "verification": {
+    "verified_at": 1792135922971,
+    "counties": [
+      "49017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

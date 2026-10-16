@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "vt-lamoille",
+  "publisher": "Vermont Agency of Commerce and Community Development (VCGI / Vermont Zoning Atlas)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/rnCtPMpypTkqwvYT/arcgis/rest/services/Vermont_Zoning_Public_View/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "50015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JXTN",
+    "zone": "ABB_DIST_NAME",
+    "zone_name": "DIST_NAME"
+  },
+  "filter": "COUNTY = 'Lamoille' AND OVER_ = 'No'",
+  "notes": "Statewide Vermont Zoning Atlas layer (VCGI/ACCD) filtered to COUNTY = Lamoille and base districts (OVER_ = No); overlay districts excluded.",
+  "verification": {
+    "verified_at": 1792135921861,
+    "counties": [
+      "50015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

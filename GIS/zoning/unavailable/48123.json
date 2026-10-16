@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48123",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.cityofcuero.com/sitemap",
+    "https://www.cityofcuero.com/143/Building-Department",
+    "https://cuerodc.com/mapping-gis-data/"
+  ],
+  "note": "DeWitt County (TX) publishes no queryable zoning districts service found. The county does not appear to zone; the City of Cuero's official zoning map is a PDF District Map (CivicPlus site map, Building Department page). Cuero Development Corporation's interactive map shows zoning, but its embedded viewer exposes no service URL. A FeatureServer named Zoning_Districts (services.arcgis.com/f4rR7WnIfGBdVYFd) was checked and holds 1,129 polygons not located in DeWitt County (0 features near Cuero). Yorktown, Nordheim, Westhoff and Yoakum showed no zoning service.",
+  "recorded_at": 1792135723457,
+  "recheck_after": 1807687723457,
+  "model": "claude-haiku-5-5"
+}

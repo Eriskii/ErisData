@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "18043",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.in.gov/counties/floyd/department/gis-office-information/",
+    "https://www.in.gov/counties/floyd/files/Floyd-County-Zoning-Ordinance-Updated-11.21.23.pdf",
+    "https://cityofnewalbany.com/planning-and-zoning/",
+    "https://gis.floydcounty.in.gov/server/rest/services?f=json"
+  ],
+  "note": "No queryable zoning district layer found for Floyd County or New Albany. The county GIS ArcGIS server (gis.floydcounty.in.gov) returns Cloudflare 521 (origin down); the county hub, Beacon, and the county/city sites link only PDF ordinances, with no zoning service. Third-party copies (Zoneomics, Regrid) are not official.",
+  "recorded_at": 1792134179846,
+  "recheck_after": 1807686179846,
+  "model": "claude-haiku-5-5"
+}

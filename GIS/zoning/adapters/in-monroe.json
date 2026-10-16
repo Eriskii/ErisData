@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "in-monroe",
+  "publisher": "Monroe County GIS (Indiana)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.monroe.in.us/server/rest/services/CountyZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18105"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Political_",
+    "zone": "Tag",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Unincorporated Monroe County zoning, parcel-level polygons carrying each parcel zone (Tag = zone code, ZoneName = district name); Political_ holds township name. Rows with ZoneName Not in Jurisdiction are city land.",
+  "verification": {
+    "verified_at": 1792134145957,
+    "counties": [
+      "18105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

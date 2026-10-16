@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "45067",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://marionsc.wthgis.com/",
+    "https://www.sciway.net/maps/cnty/marion.html",
+    "https://www.mullinssc.us/sites/default/files/uploads/Building%20Official/mullins-zoning-map-large.pdf",
+    "https://marionsc.gov/wp-content/uploads/2020/01/City-of-Marion-Zoning-Ordinance.pdf"
+  ],
+  "note": "Marion County SC publishes zoning only through its WTH Think GIS web viewer (marionsc.wthgis.com), which exposes no ArcGIS REST endpoint I could find (/rest/services returns 404). The county zoning ordinance refers to an Official Zoning Map but no queryable service of it was found. City of Mullins publishes its zoning map only as a PDF; City of Marion publishes only its ordinance PDF (its ArcGIS 'OfficialZoningDistricts' item is City of Marion, North Carolina, not SC). ArcGIS Hub/Online searches for Marion County SC zoning returned no matching service.",
+  "recorded_at": 1792135480309,
+  "recheck_after": 1807687480309,
+  "model": "claude-haiku-5-5"
+}

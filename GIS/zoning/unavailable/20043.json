@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20043",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://dpcountyks.com/dept/planning-zoning/",
+    "https://dpcountyks.com/dept/county-appraiser/gis-mapping/",
+    "https://doniphangis.integritygis.com/H5/Index.html?viewer=doniphan",
+    "https://dpcountyks.com/document/appendix-a-land-use-by-zoning-district/",
+    "https://services9.arcgis.com/mnor7LfdhlmgRtHt/arcgis/rest/services/Wathena_Zoning/FeatureServer"
+  ],
+  "note": "Doniphan County zones its unincorporated land (A-1 and other districts; 2025 zoning regulations and Appendix A land-use-by-district are published as documents), and the official zoning map is referenced but not published as a queryable service. The county GIS viewer (doniphangis.integritygis.com) only offers the parcel search and its ArcGIS REST endpoint was unreachable. The only city zoning service found, Wathena Zoning (HDR, ArcGIS Online), is listed in search but returns 'Item does not exist or is inaccessible'. Elwood and Troy: no zoning service found. Regrid parcel data carries zoning for only ~11% of parcels, so it is not usable as a district layer.",
+  "recorded_at": 1792134304907,
+  "recheck_after": 1807686304907,
+  "model": "claude-haiku-5-5"
+}

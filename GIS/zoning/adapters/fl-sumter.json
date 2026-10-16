@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-sumter",
+  "publisher": "Sumter County GIS (via ArcGIS Hub export)",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://hub.arcgis.com/api/v3/datasets/3dd25800c87143c08f8915167417b366_11/downloads/data?format=geojson&spatialRefId=4326&where=1%3D1",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "12119"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Type"
+  },
+  "notes": "Unincorporated Sumter County zoning (parcel-level polygons); Hub export of the county Unincorporated Zoning layer (gis.sumtercountyfl.gov FLU_Zoning MapServer/11), which is not directly reachable",
+  "verification": {
+    "verified_at": 1792134143679,
+    "counties": [
+      "12119"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

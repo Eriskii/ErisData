@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-sonoma-santa-rosa",
+  "publisher": "City of Santa Rosa Planning and Economic Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/BhTdzxiJkq4oXsPh/arcgis/rest/services/SantaRosaZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06097"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneSymbol",
+    "zone_name": "ZoneRoot"
+  },
+  "notes": "City of Santa Rosa base zoning (city limits only). zone is the district symbol; zone_name is the zoning category root (ZoneRoot). COMBNG_DST holds combining districts; LABEL is a combined label.",
+  "verification": {
+    "verified_at": 1792134064254,
+    "counties": [
+      "06097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

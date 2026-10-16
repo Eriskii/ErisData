@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-juneau-mauston-et",
+  "publisher": "Juneau County GIS (City of Mauston extraterritorial zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismap.co.juneau.wi.us/server/rest/services/JuneauCo_PublicGIS/MapServer/67",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55057"
+    ]
+  },
+  "fields": {
+    "zone": "ETZONEABB",
+    "zone_name": "ETZONECLAS"
+  },
+  "notes": "Mauston extraterritorial (extra-jurisdictional) zoning around Mauston city, published on Juneau County public GIS. Not county-wide zoning.",
+  "verification": {
+    "verified_at": 1792136060284,
+    "counties": [
+      "55057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

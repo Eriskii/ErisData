@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-ottawa",
+  "publisher": "Ottawa County GIS (Ottawa County, MI)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.miottawa.org/arcgis/rest/services/HostedServices/MasterPlanZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "26139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Gov_Unit_Name",
+    "zone": "Zon_Code",
+    "zone_name": "Zon_Class"
+  },
+  "notes": "Countywide layer of local unit zoning districts; jurisdiction holds the local unit code; zone_name is the local unit class; county standardized code is in Stan_Code/StanClass.",
+  "verification": {
+    "verified_at": 1792132351106,
+    "counties": [
+      "26139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-natchitoches-city",
+  "publisher": "City of Natchitoches GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://citymaps.natchitochesla.gov/server/rest/services/CityGIS/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22069"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "filter": "ZONING IS NOT NULL",
+  "notes": "City of Natchitoches tax parcel layer (Tax_Zoning) carrying each parcel zoning in the ZONING attribute (6,903 of 7,071 parcels populated). It is parcel-level, the only zoning polygon service the city publishes, so it is a last resort; parcels outside city limits (Ward W01_OUT) are blank. Covers the City of Natchitoches only. Verify currency with City Planning.",
+  "verification": {
+    "verified_at": 1792134453857,
+    "counties": [
+      "22069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

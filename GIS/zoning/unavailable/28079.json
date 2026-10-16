@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "28079",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://leakecountyms.org/community-links/",
+    "https://gis.mississippi.edu/server/rest/services/Cadastral/MS_Parcels_Aprl2024/MapServer?f=json",
+    "https://www.cityofcarthage.org/form-file/zoning-map/",
+    "https://cmpdd.org/images/publications/directory/2025-Directory.pdf"
+  ],
+  "note": "Searched county GIS links, the Mississippi state parcel service, ArcGIS Online and Carthage's city site. No queryable zoning district polygon layer found for Leake County or its towns; the county and towns have zoning ordinances, but the maps appear only as PDFs or images. The only parcel layer found (LEAKE_PARCELS) is not in the state service, and Regrid is commercial.",
+  "recorded_at": 1792134646750,
+  "recheck_after": 1807686646750,
+  "model": "claude-haiku-5-5"
+}

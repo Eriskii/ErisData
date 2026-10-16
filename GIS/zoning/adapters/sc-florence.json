@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-florence",
+  "publisher": "Florence County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://arc2000.florenceco.org/arcgis/rest/services/ZoningMap/MapServer/0",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONECODE"
+  },
+  "notes": "Florence County zoning districts from the county GIS ZoningMap service (layer ZoningDistrict, about 65,000 polygons countywide). CUSTODIAN and LASTUPDATE also present. UNZONED marks land without a district.",
+  "verification": {
+    "verified_at": 1792135592802,
+    "counties": [
+      "45041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

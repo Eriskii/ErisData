@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-cattaraugus",
+  "publisher": "Cattaraugus County GIS (NYSGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/EbVsqZ18sv1kVJ3k/arcgis/rest/services/Cattaraugus_County/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "36009"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZONING"
+  },
+  "notes": "Countywide zoning layer covering all towns and villages in the county, with MUNI naming each municipality. Zone codes only; the DESCRIPT description field is mostly blank so it is not mapped. Hosted by NYSGIS_GPO on the county ArcGIS Online organization.",
+  "verification": {
+    "verified_at": 1792134998898,
+    "counties": [
+      "36009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

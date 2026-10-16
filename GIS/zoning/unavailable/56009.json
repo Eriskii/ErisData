@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "56009",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://maps.terragis.net/converse/",
+    "https://maps.terragis.net/cgi-bin/mapserv76.fcgi?map=MAP13&SERVICE=WFS&REQUEST=GetCapabilities",
+    "https://www.cityofdouglas.org/283/Maps"
+  ],
+  "note": "Converse County has no county zoning (unincorporated land unzoned per 2024 Douglas planning agenda). Douglas zoning exists as layer ms:douglas_zoning on the county MapServer (MAP13), but that WFS answers only GML: GeoJSON, JSON and other formats are rejected (wfs_getfeature_formatlist), so it is viewer-grade and not readable as GeoJSON. Other candidates checked: Zoning_Districts FeatureServer f4rR7WnIfGBdVYFd is not Douglas WY; WyGISC PathfinderSupport has no zoning layer; Greenwood viewer unreachable.",
+  "recorded_at": 1792136273240,
+  "recheck_after": 1807688273240,
+  "model": "claude-haiku-5-5"
+}

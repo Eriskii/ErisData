@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ms-tunica",
+  "publisher": "Tunica County, MS (TunicaMS ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/wguoQdz8iT1XLFCC/arcgis/rest/services/Tunica_County_Zoning_Map_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28143"
+    ]
+  },
+  "fields": {
+    "zone": "Layer",
+    "zone_name": "Layer"
+  },
+  "notes": "Converted CAD layer: each feature's Layer attribute is the district as Zone - CODE (e.g. Zone - R1, Zone - RA-RMD); Limits - City lines are city boundaries. 85 features. No jurisdiction field; no ordinance link.",
+  "verification": {
+    "verified_at": 1792134666283,
+    "counties": [
+      "28143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-yadkin-boonville",
+  "publisher": "Town of Boonville (via Yadkin County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yadkincountync.gov/arcgis/rest/services/CountyGISmap/MapServer/41",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37197"
+    ]
+  },
+  "fields": {
+    "zone": "BOONVILLE_",
+    "zone_name": "BOONVILLE1"
+  },
+  "notes": "Boonville town zoning from county GIS map service",
+  "verification": {
+    "verified_at": 1792135125263,
+    "counties": [
+      "37197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

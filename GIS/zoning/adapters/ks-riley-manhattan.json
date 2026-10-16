@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ks-riley-manhattan",
+  "publisher": "City of Manhattan, Kansas (hosted by martinson.manhattan, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rFQQFFw3jz8ox3VY/arcgis/rest/services/Curren_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20161"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Current zoning districts of the City of Manhattan, KS, published from a Manhattan staff ArcGIS Online account. Covers the city only, not unincorporated Riley County (see ks-riley). Zone names are mostly blank in source (COMMON filled for 6 of 25), so zone_name is not mapped; ZONING holds the district code.",
+  "verification": {
+    "verified_at": 1792134308421,
+    "counties": [
+      "20161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-merced",
+  "publisher": "Merced County (Community and Economic Development zoning designations, hosted by county ArcGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/rX5atNlsxFq7LIpv/arcgis/rest/services/County_of_Merced_Jurisdictional_Zoning_Designations/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "County zoning polygons for unincorporated Merced County; COMMUNITY (unincorporated community name) is not mapped because it is blank for most features. Incorporated cities are not in this layer.",
+  "verification": {
+    "verified_at": 1792134035606,
+    "counties": [
+      "06047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

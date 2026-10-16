@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-reno-hutchinson",
+  "publisher": "City of Hutchinson, KS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/H9W1xrHipXQYSaRp/arcgis/rest/services/Hutchinson_Zones/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20155"
+    ]
+  },
+  "fields": {
+    "zone": "Zonenumber",
+    "zone_name": "TypeofZone"
+  },
+  "notes": "City of Hutchinson zoning districts (city limits only; the county unincorporated zoning is not published as a queryable service). Source: City of Hutchinson 2024 Zoning Map web app layer.",
+  "verification": {
+    "verified_at": 1792134309765,
+    "counties": [
+      "20155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

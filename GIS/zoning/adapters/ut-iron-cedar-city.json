@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ut-iron-cedar-city",
+  "publisher": "Cedar City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/VNuhornHiZVI8AVM/arcgis/rest/services/Cedar_City_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49021"
+    ]
+  },
+  "fields": {
+    "link": "Ord_Book",
+    "zone": "ZONEABB",
+    "zone_name": "ZONES"
+  },
+  "notes": "Cedar City zoning districts, city limits only. ZONEABB is the district code, ZONES the description; Ord_Book links the zoning ordinance book.",
+  "verification": {
+    "verified_at": 1792135874143,
+    "counties": [
+      "49021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

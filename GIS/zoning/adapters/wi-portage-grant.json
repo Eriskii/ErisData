@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-portage-grant",
+  "publisher": "Portage County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisinfo.co.portage.wi.gov/server/rest/services/webGIS/Regulatory/MapServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55097"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "filter": "Shape_Area < 300000000",
+  "notes": "Town of Grant zoning, hosted on Portage County GIS server; Town of Grant only. Filter drops the single largest polygon, which fails geometry validity.",
+  "verification": {
+    "verified_at": 1792136690442,
+    "counties": [
+      "55097"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

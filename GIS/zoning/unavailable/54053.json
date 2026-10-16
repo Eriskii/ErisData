@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "54053",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://masoncoassessor.maps.arcgis.com/apps/webappviewer/index.html?id=201377111deb4b7f869c208906842558",
+    "https://services3.arcgis.com/HTOTHq4arEZDrco0/arcgis/rest/services/MasonAGOL/FeatureServer",
+    "https://codelibrary.amlegal.com/codes/pointpleasantwv/latest/PointPleasant/0-0-0-15450"
+  ],
+  "note": "Mason County's ArcGIS services (assessor parcel viewer, MasonAGOL FeatureServer with 14 layers) include parcels and tax districts but no zoning layer; PARCELS has no zoning field. Point Pleasant's zoning map (sec. 1313.06) is kept on file by the Zoning Officer and City Clerk with no download or service. No other county or city zoning GIS service was found.",
+  "recorded_at": 1792136064612,
+  "recheck_after": 1807688064612,
+  "model": "claude-haiku-5-5"
+}

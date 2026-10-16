@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mt-jefferson",
+  "publisher": "Jefferson County MT (county GIS web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/vFt5VMdMm1ZTFc55/arcgis/rest/services/Jefferson_County_Zoning_Feb_2023_WFL1/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30043"
+    ]
+  },
+  "fields": {
+    "zone": "NAME"
+  },
+  "filter": "OBJECTID > 1",
+  "notes": "County zoning web map layer zoning_Dec2022 (Northern Jefferson County zoning districts plus TIF). Filter excludes only the single large Milligan-Boulder Valley AG polygon (OBJECTID 1) so sampling lands in the dense northern districts. Hosted on county staff ArcGIS Online org service.",
+  "verification": {
+    "verified_at": 1792134978867,
+    "counties": [
+      "30043"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

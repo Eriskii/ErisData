@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-screven",
+  "publisher": "Screven County GIS (SEGRASS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://portal.segrass.org/crcarcgis/rest/services/Screven/Landuse_Planning/MapServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13251"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CODE"
+  },
+  "notes": "Unincorporated Screven County zoning districts, from the SEGRASS regional GIS server. Cities are separate layers.",
+  "verification": {
+    "verified_at": 1792133959989,
+    "counties": [
+      "13251"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

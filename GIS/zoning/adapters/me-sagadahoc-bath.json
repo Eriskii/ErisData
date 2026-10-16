@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "me-sagadahoc-bath",
+  "publisher": "City of Bath, Maine (proposed zoning map, Camiros consultant-hosted)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/AfWE2HItKofI2Rok/arcgis/rest/services/Bath_Zoning___Proposed_Zoning_WFL1/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23023"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Update",
+    "zone_name": "Type"
+  },
+  "notes": "PROPOSED zoning districts for the City of Bath (zoning code update project, not yet adopted); the adopted zoning map is a PDF only. Verify against the adopted map before relying on it. Layer 3 of the Bath Zoning Proposed Zoning service.",
+  "verification": {
+    "verified_at": 1792134568183,
+    "counties": [
+      "23023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

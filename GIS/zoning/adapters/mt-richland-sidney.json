@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mt-richland-sidney",
+  "publisher": "Richland County (Sidney Zoning, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/7bz8iRhh1FFMhdJW/arcgis/rest/services/Sidney_Zoning/FeatureServer/50",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30083"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneLabel",
+    "zone_name": "ZoneName"
+  },
+  "notes": "City of Sidney zoning polygons, published by a Richland County account on ArcGIS Online. Covers Sidney only; Fairview and unincorporated county zoning are not in this layer. CodeLink field is empty.",
+  "verification": {
+    "verified_at": 1792134945194,
+    "counties": [
+      "30083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

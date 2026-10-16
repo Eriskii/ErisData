@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-brown",
+  "publisher": "Brown County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/H3Xuuu0h4PaTeWwU/arcgis/rest/services/County_Zoning_2025/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "cTownCity",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Brown County SD 2025 zoning layer; parcel-level polygons carrying each parcel zoning (FEAT_TYPE distinguishes county vs city parcels; NC = non-county jurisdiction).",
+  "verification": {
+    "verified_at": 1792135379709,
+    "counties": [
+      "46013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

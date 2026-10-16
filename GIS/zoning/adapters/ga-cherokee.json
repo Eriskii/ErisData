@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-cherokee",
+  "publisher": "Cherokee County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/ZoningOnline/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13057"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "County zoning layer (ZoningOnline MapServer layer 3), parcel-based: each feature is a parcel carrying its zoning code. Only the zone code is mapped; no description or ordinance link field exists.",
+  "verification": {
+    "verified_at": 1792133897591,
+    "counties": [
+      "13057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-door",
+  "publisher": "Door County Land Information Office",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.door.wi.us/arcgis/rest/services/Zoning_Map_Image/MapServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55029"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "mun_code",
+    "zone": "zone_code",
+    "zone_name": "zone_name"
+  },
+  "notes": "Door County Comprehensive Zoning layer from the county map service; jurisdiction is MUN_CODE of the town whose zoning it is.",
+  "verification": {
+    "verified_at": 1792136063430,
+    "counties": [
+      "55029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

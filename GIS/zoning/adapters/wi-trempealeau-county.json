@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wi-trempealeau-county",
+  "publisher": "Trempealeau County Land Records",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/cqHJZMbXoaOT0XrP/arcgis/rest/services/Portal_09302026_WFL1/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55121"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "PlanningTown",
+    "zone": "District",
+    "zone_name": "Description"
+  },
+  "filter": "Shape__Area < 20000000",
+  "notes": "County Land Records zoning districts (county-zoned towns). District and PlanningTown are coded-domain integers. Filter Shape__Area < 20000000 (web-mercator m2) excludes a few very large polygons whose source geometry is invalid (self-intersecting); those districts are missing from this spec until the county repairs them.",
+  "verification": {
+    "verified_at": 1792136664952,
+    "counties": [
+      "55121"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-amador-ione",
+  "publisher": "City of Ione (zoning as compiled in the California Statewide Zoning North dataset, State OPR)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'AMA' AND Jurisdiction = 'Ione'",
+  "notes": "City of Ione zoning districts from the statewide zoning compilation (California Office of Land Use and Climate Innovation, version 1.2, 2018 source). Rows filtered to County AMA and Jurisdiction Ione. Source is a state compilation of the city ordinance map, not a city-hosted service.",
+  "verification": {
+    "verified_at": 1792134066862,
+    "counties": [
+      "06005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-montgomery-magnolia",
+  "publisher": "City of Magnolia",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/8BGCtpzXj7oGtc44/arcgis/rest/services/Magnolia_Zoning_PublicView/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48339"
+    ]
+  },
+  "fields": {
+    "link": "Zone_Link",
+    "zone": "Zoning",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "City of Magnolia Planning zoning districts (residential layer of the city public view service); Magnolia city limits only",
+  "verification": {
+    "verified_at": 1792135858594,
+    "counties": [
+      "48339"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

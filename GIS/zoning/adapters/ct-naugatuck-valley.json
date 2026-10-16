@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ct-naugatuck-valley",
+  "publisher": "Naugatuck Valley Council of Governments (NVCOG)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/LD8LGc05Tkd3FQoz/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09140"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWN",
+    "zone": "Local_Zo_1",
+    "zone_name": "General_Zo"
+  },
+  "notes": "NVCOG regional general zoning layer covering the region's towns; zone is the local zoning code, zone_name the generalized category.",
+  "verification": {
+    "verified_at": 1792133854328,
+    "counties": [
+      "09140"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

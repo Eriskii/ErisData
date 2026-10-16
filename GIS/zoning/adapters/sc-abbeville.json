@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-abbeville",
+  "publisher": "Abbeville County Zoning Office",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://wfs.schneidercorp.com/arcgis/rest/services/AbbevilleCountySC_WFS/MapServer/30",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45001"
+    ]
+  },
+  "fields": {
+    "zone": "NAME"
+  },
+  "notes": "Abbeville County Zoning Office zoning layer (ZONING, layer 30) via Schneider AbbevilleCountySC_WFS MapServer. zone = district code (e.g. R8, FA). ZONECLASSES is a numeric class code and is not mapped; ORDINANCE is mostly empty.",
+  "verification": {
+    "verified_at": 1792135396820,
+    "counties": [
+      "45001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

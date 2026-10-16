@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-beaufort",
+  "publisher": "Beaufort County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.beaufortcountysc.gov/server/rest/services/Zoning/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45013"
+    ]
+  },
+  "fields": {
+    "zone": "FBCode",
+    "zone_name": "CodeName"
+  },
+  "notes": "Beaufort County Zoning Classification layer (county-wide polygons, EPSG 2273). Overlay districts are separate layers 0-8 and are not included.",
+  "verification": {
+    "verified_at": 1792135336602,
+    "counties": [
+      "45013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

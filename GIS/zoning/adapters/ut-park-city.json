@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ut-park-city",
+  "publisher": "Park City Municipal Corp.",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/wmY050uFnMPcgSCc/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49043"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "ZoneType",
+    "zone_name": "Name"
+  },
+  "notes": "Park City Municipal Corp. zoning (Park City Zoning 2022, boundary corrected), from the city-hosted Zoning service. Covers Park City only; the county layers cover unincorporated land.",
+  "verification": {
+    "verified_at": 1792135923418,
+    "counties": [
+      "49043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

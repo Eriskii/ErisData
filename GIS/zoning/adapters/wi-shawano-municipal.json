@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-shawano-municipal",
+  "publisher": "Shawano County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.shawano.wi.us/server/rest/services/zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55115"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONINGCLASS",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "Municipal zoning layer from the county zoning MapServer (cities and villages that zone themselves; towns marked Not Under County Zoning are placeholders); complements wi-shawano. No link field populated.",
+  "verification": {
+    "verified_at": 1792136092835,
+    "counties": [
+      "55115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

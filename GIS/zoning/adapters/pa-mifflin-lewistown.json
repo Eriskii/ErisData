@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-mifflin-lewistown",
+  "publisher": "Mifflin County GIS (Lewistown Borough zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mifflincountypa.gov/arcgis/rest/services/Hosted/zvLewistown_viewOnly/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42087"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE",
+    "zone_name": "TYPE"
+  },
+  "notes": "Lewistown Borough zoning districts from the county GIS hosted service. Layer ZONE is numeric; TYPE holds the district description. Layer is named viewOnly by the county.",
+  "verification": {
+    "verified_at": 1792135336840,
+    "counties": [
+      "42087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

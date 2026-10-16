@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sd-codington",
+  "publisher": "Codington County GIS (1st District MapNet)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Codington/codingtonmapnetpro/MapServer/43",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46029"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Codington County Non-Ag Zoning layer from the county MapNet service (parcel-based polygons with a Zoning attribute holding category names such as Commercial, Industrial, Town, Planned Residential District, Lake Park). Covers county non-agricultural zoned land; Watertown city zoning is a separate layer.",
+  "verification": {
+    "verified_at": 1792135395730,
+    "counties": [
+      "46029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

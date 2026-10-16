@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ny-oswego",
+  "publisher": "Oswego County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/0dC3T96jvK0z64NH/arcgis/rest/services/Oswego_County_Local_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36075"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZONING_CODE",
+    "zone_name": "ZONING_DESC"
+  },
+  "notes": "County-published digitized local zoning layer, flagged work in progress; covers municipalities that have been digitized so far.",
+  "verification": {
+    "verified_at": 1792135030612,
+    "counties": [
+      "36075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-grant-county-shoreland",
+  "publisher": "Grant County, MN (Land Management / GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.grant.mn.us/arcgis/rest/services/EnvironmentalServices/EnvironmentalServicesMaps_public/MapServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27051"
+    ]
+  },
+  "fields": {
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "County shoreland zoning classification polygons only (Natural Environment class); not countywide base zoning. Grant County publishes no countywide base zoning district layer as a queryable service.",
+  "verification": {
+    "verified_at": 1792134525272,
+    "counties": [
+      "27051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-flagler-unincorporated",
+  "publisher": "Flagler County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/hSKL9bYjhP4rHxSD/arcgis/rest/services/Unincorporated_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12035"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITYNAME",
+    "zone": "ZONECODE",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "Unincorporated Flagler County zoning districts; county GIS open data, updated 10/2026",
+  "verification": {
+    "verified_at": 1792133835106,
+    "counties": [
+      "12035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

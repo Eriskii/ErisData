@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-lincoln",
+  "publisher": "Oregon DLCD (statewide zoning compilation, Lincoln County jurisdictions)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "41041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "unitOwner IN ('1135856','1119868','1158323','1124669','1151301')",
+  "notes": "State DLCD compilation; local codes blank so statewide orZCode used.",
+  "verification": {
+    "verified_at": 1792136446576,
+    "counties": [
+      "41041"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

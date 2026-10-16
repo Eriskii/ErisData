@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "oh-mahoning-youngstown",
+  "publisher": "City of Youngstown (Redevelopment Code Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/BdxVWim3RqQp6zGH/arcgis/rest/services/Redevelopment_Code_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39099"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClassification"
+  },
+  "notes": "City of Youngstown only (not county-wide). Redevelopment Code adopted 2013. Hosted on the city GIS org. County GIS MapServer PUBLIC_WEBSITE_ZONING was unreachable during this session.",
+  "verification": {
+    "verified_at": 1792135204996,
+    "counties": [
+      "39099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

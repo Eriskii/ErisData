@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-yuba",
+  "publisher": "Yuba County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yuba.org/arcgis/rest/services/GridicsMap/MapServer/20",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06115"
+    ]
+  },
+  "fields": {
+    "zone": "Name",
+    "zone_name": "DESCP_DB"
+  },
+  "notes": "Yuba County own GIS server (GridicsMap service, Zoning Districts layer), unincorporated county zoning; cities of Marysville and Wheatland not included.",
+  "verification": {
+    "verified_at": 1792134078373,
+    "counties": [
+      "06115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

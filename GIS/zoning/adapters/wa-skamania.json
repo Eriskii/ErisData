@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wa-skamania",
+  "publisher": "Skamania County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/uKh72TYBlxpm42Cm/arcgis/rest/services/Zoning_Designation/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "53059"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Agency",
+    "link": "Zoning_URL",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "Skamania County GIS seamless zoning and comprehensive plan designation compilation covering county, City of Stevenson, City of North Bonneville and National Scenic Area designations. Zoning field holds district name; CompPlan (plan category) not used. Includes UNMAPPED areas with ZoneCode UNMAPPED.",
+  "verification": {
+    "verified_at": 1792136014283,
+    "counties": [
+      "53059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

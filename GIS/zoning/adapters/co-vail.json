@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-vail",
+  "publisher": "Town of Vail GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.vailgov.com/arcgis/rest/services/OpenDataHub/TOV_Zoning_OpenData/FeatureServer/35",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08037"
+    ]
+  },
+  "fields": {
+    "zone": "DESCRIPTIO",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "Town of Vail zoning districts (town limits, within Eagle County). Zone name and code both in DESCRIPTIO. Covers Vail only, not the unincorporated county.",
+  "verification": {
+    "verified_at": 1792133797097,
+    "counties": [
+      "08037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

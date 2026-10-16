@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-effingham",
+  "publisher": "Effingham County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/9scQWTgPOi3GxJRr/ArcGIS/rest/services/EffinghamCountyZoneClass/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13103"
+    ]
+  },
+  "fields": {
+    "zone": "ZCODE"
+  },
+  "notes": "County GIS (GDITAdmin/Effingham_GIS org) zoning class layer; ZCODE is district code, CODETYPE all CC; no district name or ordinance link field; parcel-keyed (NEWMAP_PAR).",
+  "verification": {
+    "verified_at": 1792133901262,
+    "counties": [
+      "13103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

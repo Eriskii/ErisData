@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40139",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://library.municode.com/ok/guymon",
+    "https://www.guymonok.org/page/city-manager",
+    "https://www.zoningatlas.org/oklahoma",
+    "https://www.dynamospatial.com/t/texas-county-ok/hooker/parcel-data",
+    "https://codelibrary.amlegal.com/codes/hookerok/latest/hooker_ok/0-0-0-3923"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Texas County, OK and its cities (Guymon, Hooker, Optima, Baker). No queryable zoning district service found. Guymon's zoning ordinance (Municode ch. 48) and Hooker's ch. 153 are text only; the only commercial Hooker zoning data is paid (Dynamo). The Guymon EnerGov service has parcels but no zoning field. The Zoning_Districts service at services.arcgis.com/f4rR7WnIfGBdVYFd returns 1,129 features but none within the county (zero hits around the county point), so it is not Texas County's.",
+  "recorded_at": 1792135317531,
+  "recheck_after": 1807687317531,
+  "model": "claude-haiku-5-5"
+}

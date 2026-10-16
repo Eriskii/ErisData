@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-overton-livingston",
+  "publisher": "City of Livingston, TN (zoning hosted by Upper Cumberland Development District)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/EMZFDxQzNQloLbAf/arcgis/rest/services/Livingston_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47133"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Livingston city zoning only; Overton County states it has no zoning outside Livingston city limits. Layer hosted in UCDD ArcGIS org; no zone_name or link field in source.",
+  "verification": {
+    "verified_at": 1792135661880,
+    "counties": [
+      "47133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

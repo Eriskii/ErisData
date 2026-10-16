@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "05093",
+  "reason": "login-required",
+  "evidence": [
+    "https://efsedge.com/blytheville/",
+    "https://efsedge.com/arcgis/rest/",
+    "https://cityofblytheville.gov/government/planning-commission",
+    "https://www.cityofblytheville.com/DocumentCenter/View/129",
+    "https://osceolaarkansas.com/images/Public_Documents/PublicDocuments/Documents/Zoning%20Map.pdf"
+  ],
+  "note": "Mississippi County AR publishes no zoning districts layer; county GIS is parcel-only via commercial vendors. Blytheville (largest city) zones via an EFS Edge viewer at efsedge.com/blytheville whose ArcGIS REST folder (efsedge.com/arcgis/rest/services/City_of_Blytheville) redirects to a login page. Osceola's official zoning map is a PDF only (viewer-only). No open queryable zoning service found for Mississippi County or its cities.",
+  "recorded_at": 1792133831878,
+  "recheck_after": 1807685831878,
+  "model": "claude-haiku-5-5"
+}

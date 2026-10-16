@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ms-jones-laurel",
+  "publisher": "City of Laurel, MS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/XLuEJ91DvyKhOASj/arcgis/rest/services/ZoningDistricts/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28067"
+    ]
+  },
+  "fields": {
+    "zone": "Name",
+    "zone_name": "FeatureName"
+  },
+  "notes": "City of Laurel, MS zoning districts layer (services8 host behind the city zoning viewer). Only 5 district polygons published (Tri-Park, CBD, Jefferson, Leisure and Recreational, Historic); no base zoning codes. Laurel city limits only.",
+  "verification": {
+    "verified_at": 1792134885207,
+    "counties": [
+      "28067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

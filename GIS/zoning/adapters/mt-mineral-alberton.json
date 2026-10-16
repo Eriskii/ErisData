@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mt-mineral-alberton",
+  "publisher": "Mineral County GIS (Town of Alberton zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/a0HR33xuh1KoWKl7/arcgis/rest/services/ALBERTON_ZONING/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30061"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Only zoning layer found in Mineral County: covers the Town of Alberton only (5 districts, updated 1/20/2025). County unincorporated land and Superior have no published zoning layer.",
+  "verification": {
+    "verified_at": 1792134881957,
+    "counties": [
+      "30061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

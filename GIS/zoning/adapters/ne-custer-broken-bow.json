@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-custer-broken-bow",
+  "publisher": "City of Broken Bow (via Custer County GIS host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Custer_County_NE_PZ/MapServer/33",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31041"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Broken Bow zoning districts from the Custer County PZ service; zone codes in Zoning (R-1, R-2, R-3, C-1, C-2, I-1, A-1)",
+  "verification": {
+    "verified_at": 1792134934811,
+    "counties": [
+      "31041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-currituck",
+  "publisher": "Currituck County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.currituckcountync.gov/arcgis/rest/services/GISWebsite/OperationalLayers/MapServer/30",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37053"
+    ]
+  },
+  "fields": {
+    "link": "UDO_DOC",
+    "zone": "Zone",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Official Zoning Base Districts layer from county MapServer. Unincorporated county zoning; towns zone separately.",
+  "verification": {
+    "verified_at": 1792135053960,
+    "counties": [
+      "37053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

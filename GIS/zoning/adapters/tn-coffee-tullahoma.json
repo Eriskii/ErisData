@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-coffee-tullahoma",
+  "publisher": "City of Tullahoma Planning and Codes",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/CCsXJ8hDZ7P0xrDc/arcgis/rest/services/Tullahoma_Interactive_Zoning_Map_12_2025_WFL1/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47031"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURIS",
+    "zone": "ZONE_"
+  },
+  "notes": "City of Tullahoma interactive zoning map layer (Tullahoma city zoning only; 964 polygons). Unincorporated county and Manchester zoning not in this layer. Zone name field not present.",
+  "verification": {
+    "verified_at": 1792135481737,
+    "counties": [
+      "47031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-watauga-boone",
+  "publisher": "Town of Boone GIS (planning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisviewer.boonenc.gov/arcgis/rest/services/planning/Zoning_Mobile/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37189"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "DISTRICT",
+    "zone": "ALPHA",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Town of Boone zoning districts (town limits only), from the Town of Boone planning MapServer; updated quarterly. Watauga County has no county-wide zoning layer found.",
+  "verification": {
+    "verified_at": 1792135140068,
+    "counties": [
+      "37189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

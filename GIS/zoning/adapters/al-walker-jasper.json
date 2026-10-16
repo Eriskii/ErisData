@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-walker-jasper",
+  "publisher": "City of Jasper, AL (Jasper Zoning Map, via OnlineZoning_view)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/AlyKLdp5jlmVkpxP/arcgis/rest/services/OnlineZoning_view/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01127"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZoningCode"
+  },
+  "notes": "City of Jasper zoning layer from the city web map ZoningWebMap; the county itself has no zoning outside the airport area. Covers city of Jasper only.",
+  "verification": {
+    "verified_at": 1792133750847,
+    "counties": [
+      "01127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

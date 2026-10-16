@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "la-slidell",
+  "publisher": "City of Slidell GIS Department (via DesireLine LLC hosted service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/LJwIycC0yIuqCBxq/arcgis/rest/services/Slidell_Existing_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22103"
+    ]
+  },
+  "fields": {
+    "zone": "CURRENT_ZONE"
+  },
+  "notes": "Last resort: a parcel layer (one feature per parcel) carrying each parcel's current city zone in CURRENT_ZONE; no separate Slidell district layer is queryable. Covers City of Slidell only; the parish layer covers unincorporated land.",
+  "verification": {
+    "verified_at": 1792134450977,
+    "counties": [
+      "22103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

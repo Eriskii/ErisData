@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ok-osage",
+  "publisher": "INCOG (Indian Nations Council of Governments) for Osage County",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map11.incog.org/arcgis11wa/rest/services/Zoning_OsageCo/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40113"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE",
+    "zone_name": "Legend"
+  },
+  "notes": "INCOG regional zoning layer for Osage County, OK (146 polygons), hosted by INCOG on map11.incog.org; verify currency with the local planning office. Ordinance links are mostly blank, so no link is mapped.",
+  "verification": {
+    "verified_at": 1792135267948,
+    "counties": [
+      "40113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

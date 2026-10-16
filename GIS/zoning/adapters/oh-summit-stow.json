@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-summit-stow",
+  "publisher": "Summit County GIS (Stow zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "City of Stow layer from Summit County GIS ZoningNov2025 service.",
+  "verification": {
+    "verified_at": 1792135227311,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

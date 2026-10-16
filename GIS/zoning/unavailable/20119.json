@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20119",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.meadecounty.org/gis",
+    "https://www.meadecounty.org/gis-forms",
+    "https://www.meadecounty.org/equalizationplanning",
+    "https://www.meadecounty.org/ordinances",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=53&LayerID=17891&PageTypeID=2&PageID=7965"
+  ],
+  "note": "Meade County KS: county GIS is a Schneider Beacon viewer (blocked by a Cloudflare challenge, HTTP 403, so no zoning layer could be inspected). No public ArcGIS REST or downloadable zoning-district layer found for the county, and none for the cities of Meade, Plains or Fowler. County and city zoning maps appear only as static PDFs. ArcGIS search for Meade County zoning returned nothing relevant.",
+  "recorded_at": 1792134316796,
+  "recheck_after": 1807686316796,
+  "model": "claude-haiku-5-5"
+}

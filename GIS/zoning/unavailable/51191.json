@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "51191",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.washcova.com/zoning/",
+    "https://www.washcova.com/geographic-information-systems/",
+    "https://washcova.interactivegis.com/",
+    "https://cloud.washcova.com/index.php/s/5XOiySGzaQZrgjx",
+    "https://services9.arcgis.com/GzWzm5v1KJ1d6SLb/arcgis/rest/services/ZoningDistricts/FeatureServer",
+    "https://www.damascus.org/maps-plans--reports.html"
+  ],
+  "note": "Washington County VA publishes its official zoning map only in its netGIS/Interactive GIS viewer and as a zipped File Geodatabase download (WashcovaGIS.gdb.zip), which is not a queryable service and not a supported format. No county-hosted zoning REST layer found. Abingdon's ZoningDistricts ArcGIS layer requires a token; Damascus publishes its zoning map only as PDF; Glade Spring has no zoning layer found. The county's ArcGIS Online data (Washington_County_Supporting_Data) has parcels and forest layers, no zoning.",
+  "recorded_at": 1792136071596,
+  "recheck_after": 1807688071596,
+  "model": "claude-haiku-5-5"
+}

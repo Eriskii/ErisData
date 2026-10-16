@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "29177",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://raygis.integritygis.com/H5/Index.html",
+    "https://services2.integritygis.com/arcgis/rest/Services/MO/Ray_Assessor_Data/MapServer",
+    "https://ecode360.com/28991591",
+    "https://raycountymo.com/index.php/county-planning-zoning/",
+    "https://www.zoneomics.com/zoning-maps/missouri/ray-county-unincorporated"
+  ],
+  "note": "Ray County (MO) zones unincorporated land and Richmond/Lawson zone their cities, but no public queryable zoning district layer was found. The county GIS portal (integritygis) is unreachable from here; its assessor ArcGIS service returns 'Token Required'; the Geocortex directory is not reachable. Richmond and Lawson publish zoning maps only as eCode360 text (official map kept in the office, no download). County Planning & Zoning publishes a use table PDF, not a map. Only third-party copies (Zoneomics, Regrid, uslandgrid) exist, none official.",
+  "recorded_at": 1792134864763,
+  "recheck_after": 1807686864763,
+  "model": "claude-haiku-5-5"
+}

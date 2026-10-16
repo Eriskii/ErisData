@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-tarrant-arlington",
+  "publisher": "City of Arlington GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis2.arlingtontx.gov/agsext2/rest/services/OpenData/OD_Property/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48439"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE",
+    "zone": "DISTRICT"
+  },
+  "notes": "City of Arlington zoning districts (city limits only). DISTRICT is the base zoning code (PD for planned developments; ZONINGDETAIL carries detail). CC BY 4.0 open data.",
+  "verification": {
+    "verified_at": 1792135784357,
+    "counties": [
+      "48439"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

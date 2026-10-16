@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-angelina-lufkin",
+  "publisher": "City of Lufkin",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Cj2HGLAAprJTsy8b/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_"
+  },
+  "notes": "Copy of City of Lufkin zoning uploaded to ArcGIS Online by jjcollins, not the city own service (city GIS lists its zoning maps on lufkingis.maps.arcgis.com); covers the city of Lufkin only. zone_name not populated in source.",
+  "verification": {
+    "verified_at": 1792135580204,
+    "counties": [
+      "48005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-oakland-pontiac",
+  "publisher": "City of Pontiac",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/HNZrF1X1u5kCU7sL/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26125"
+    ]
+  },
+  "fields": {
+    "link": "ZoningCLin",
+    "zone": "Zoning"
+  },
+  "notes": "City of Pontiac zoning layer; polygons carry parcel attributes with the zoning code in Zoning. Covers Pontiac only.",
+  "verification": {
+    "verified_at": 1792132413911,
+    "counties": [
+      "26125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

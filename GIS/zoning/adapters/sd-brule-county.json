@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sd-brule-county",
+  "publisher": "Brule County GIS (via District III GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/BRULE_COUNTY_WEB_LAYERS/MapServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Brule County unincorporated zoning districts from the county web layers service hosted by District III GIS. Only the ZONING code is published; no district name or ordinance link fields.",
+  "verification": {
+    "verified_at": 1792135423369,
+    "counties": [
+      "46015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

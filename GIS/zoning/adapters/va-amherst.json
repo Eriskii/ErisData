@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-amherst",
+  "publisher": "Amherst County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/TvqqWejphpVuqRec/arcgis/rest/services/Amherst_WL_P/FeatureServer/65",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51009"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "notes": "County GIS layer 65 (Zoning) in the Amherst_WL_P service. Zoning field holds combined district code and name, e.g. A-1 Agricultural Residential District. Covers unincorporated county; Town of Amherst zoning is not in this layer. Some features have null zoning.",
+  "verification": {
+    "verified_at": 1792135922194,
+    "counties": [
+      "51009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

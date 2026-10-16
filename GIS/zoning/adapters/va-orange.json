@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-orange",
+  "publisher": "Orange County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.orangecountyva.gov/arcgis/rest/services/OpenData/PlanningAndZoning/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51137"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "County zoning layer (unincorporated county); towns are in a separate layer",
+  "verification": {
+    "verified_at": 1792135934132,
+    "counties": [
+      "51137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-tooele-city",
+  "publisher": "Tooele City (via TooeleCityZoneLandUse_WFL1 ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/3PP5uLqByhZNekjG/arcgis/rest/services/TooeleCityZoneLandUse_WFL1/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49045"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneClassi",
+    "zone_name": "ZoneDescri"
+  },
+  "notes": "City of Tooele zoning districts only (not county unincorporated land). Hosted by the city account Tooele_City on ArcGIS Online. PUD and Overlay are separate fields/layers.",
+  "verification": {
+    "verified_at": 1792135876450,
+    "counties": [
+      "49045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "oh-ashtabula-jefferson-village",
+  "publisher": "Village of Jefferson (Ashtabula County GIS, gis_admin_atb ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/LbREO35fKGJZptlq/arcgis/rest/services/Jefferson_Zoning_2022/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39007"
+    ]
+  },
+  "fields": {
+    "zone": "zoning_code"
+  },
+  "notes": "Village of Jefferson zoning only (single-jurisdiction layer, 2022, 137 districts). zone_name is almost empty in source (zoning_desc). Layer maintained in Survey123; no ordinance link field.",
+  "verification": {
+    "verified_at": 1792135158110,
+    "counties": [
+      "39007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

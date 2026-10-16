@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ok-beckham-elk-city",
+  "publisher": "Beckham County Assessor / City of Elk City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/2uPhy8KfHlaAyk3B/arcgis/rest/services/Elk_City_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40009"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "cityname",
+    "zone": "zoning"
+  },
+  "notes": "Elk City zoning layer published by Beckham County Assessor on ArcGIS Online; covers the City of Elk City only (cityname field).",
+  "verification": {
+    "verified_at": 1792135203635,
+    "counties": [
+      "40009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

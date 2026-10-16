@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "20121",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=229&LayerID=3117&PageTypeID=2&PageID=1686",
+    "https://www.springhillks.gov/584/Maps-Property-Info",
+    "https://www.codepublishing.com/KS/MiamiCounty/html/MiamiCountyZR/MiamiCountyZR03.html"
+  ],
+  "note": "Miami County, KS zoning districts are shown only in the Schneider Beacon GIS viewer (county unincorporated zoning and Spring Hill data per the city's page). No public ArcGIS REST, WFS or file download of zoning polygons was found: KGIS Zoning MapServer returns 401, and ArcGIS search for Miami County zoning returned nothing. Louisburg, Paola and Osawatomie publish zoning as PDF maps or code text, not queryable services. Regrid zoning is a paid store.",
+  "recorded_at": 1792134380047,
+  "recheck_after": 1807686380047,
+  "model": "claude-haiku-5-5"
+}

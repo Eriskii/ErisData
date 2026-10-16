@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "38051",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.mcintoshnd.com/county-offices/zoning/",
+    "https://services6.arcgis.com/Z09ape5S1CSNUwRl/arcgis/rest/services/McIntosh_County_Feature_Layers/FeatureServer",
+    "https://wishek-nd.com/ordinances"
+  ],
+  "note": "McIntosh County's zoning is published only as a 2025 ordinance PDF on its zoning page (Google Drive link). Its ArcGIS feature layers (Townships, Sections, Parcels, Soils, Land_Use, Counties) include no zoning district layer; Parcels has no zoning field and Land_Use is land use, not zoning. Wishek's zoning is a Chapter 6 PDF ordinance with no GIS layer found. No queryable zoning district polygons were found for the county or its cities.",
+  "recorded_at": 1792135147673,
+  "recheck_after": 1807687147673,
+  "model": "claude-haiku-5-5"
+}

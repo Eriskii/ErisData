@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-cortez",
+  "publisher": "City of Cortez GIS (hosted on Montezuma County GIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-server.co.montezuma.co.us/arcgis/rest/services/CityOfCortez/CityOfCortez_PlanningMap/MapServer/17",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "08083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_Cortez"
+  },
+  "filter": "ZONE_Cortez IS NOT NULL",
+  "notes": "City of Cortez zoning districts, stored on the city parcel layer as ZONE_Cortez (codes such as R1, R2, R3, CBD, NB, C, I, PUD, RE, O). Filtered to parcels with a city zone code. Parcel-based polygons; the city zone code is the district. The county layer MontezumaPlanningMap/72 carries the same values in ZONE_Cortez but its ZONE_ field reads City for them.",
+  "verification": {
+    "verified_at": 1792133841119,
+    "counties": [
+      "08083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

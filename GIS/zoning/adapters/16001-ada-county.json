@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "16001-ada-county",
+  "publisher": "Ada County Assessor / StarIdaho",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/nJNGTYLxhu0Jzq0W/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16001"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Zoning layer hosted by StarIdaho; carries zone code only, no jurisdiction field.",
+  "verification": {
+    "verified_at": 1792133680945,
+    "counties": [
+      "16001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

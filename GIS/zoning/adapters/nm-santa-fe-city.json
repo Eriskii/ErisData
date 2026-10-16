@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-santa-fe-city",
+  "publisher": "City of Santa Fe",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/p0Gk2nDbPs7KEqSZ/arcgis/rest/services/ZoningDistricts_1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35049"
+    ]
+  },
+  "fields": {
+    "zone": "ZDESC",
+    "zone_name": "DESC_"
+  },
+  "notes": "City of Santa Fe official zoning districts layer (ZoningDistricts_1, City Smart hub). Covers the city only, not unincorporated county land. zone holds the district code (ZDESC); zone_name the district description (DESC_). The county SLDC_Zoning service (sfcomaps.santafecountynm.gov) refuses queries, so it could not be used.",
+  "verification": {
+    "verified_at": 1792135040728,
+    "counties": [
+      "35049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

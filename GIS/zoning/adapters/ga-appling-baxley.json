@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-appling-baxley",
+  "publisher": "City of Baxley (hosted via City of Baxley View, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/City_of_Baxley_View/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13001"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "Code IS NOT NULL",
+  "notes": "City of Baxley zoning only (not unincorporated county). Layer BaxleyZoning from the City of Baxley View service; PIN is parcel-keyed. Features with null Code are excluded by the filter.",
+  "verification": {
+    "verified_at": 1792133879955,
+    "counties": [
+      "13001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

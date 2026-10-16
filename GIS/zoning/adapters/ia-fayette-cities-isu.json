@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-fayette-cities-isu",
+  "publisher": "Iowa State University Iowa Zoning Guide (Oelwein, West Union)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "19065"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "fips7 IN ('1958620','1984765') AND OBJECTID <> 2664",
+  "notes": "Unofficial ISU Iowa Zoning Guide digitization of Oelwein and West Union zoning districts; not the cities own GIS. One West Union district (C-1 Highway Commercial) is excluded because its geometry is invalid upstream.",
+  "verification": {
+    "verified_at": 1792134220262,
+    "counties": [
+      "19065"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

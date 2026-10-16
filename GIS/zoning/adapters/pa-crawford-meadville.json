@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-crawford-meadville",
+  "publisher": "City of Meadville, PA",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/JYI5bRktyankquaD/arcgis/rest/services/Meadville_Zoning_2024/FeatureServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42039"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Dis",
+    "zone_name": "Zoning_D_1"
+  },
+  "notes": "City of Meadville zoning districts, 2024 (39 polygons), served by the city administration. Only covers the City of Meadville; other municipalities in the county are not in this layer. Source CRS 102728 (PA North ftUS).",
+  "verification": {
+    "verified_at": 1792135337829,
+    "counties": [
+      "42039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

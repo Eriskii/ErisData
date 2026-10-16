@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nd-williams",
+  "publisher": "Williams County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/D85sDZoJyameepNh/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38105"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZoningEntity",
+    "zone": "ZONING_CODE",
+    "zone_name": "ZONING_DES"
+  },
+  "notes": "Williams County, ND zoning layer (county GIS). ZONING_TYP holds the long type name; NoJuris marks land outside zoning jurisdiction.",
+  "verification": {
+    "verified_at": 1792135133406,
+    "counties": [
+      "38105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

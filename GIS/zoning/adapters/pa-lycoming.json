@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-lycoming",
+  "publisher": "Lycoming County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Q7XcgLda0NfPhQdI/arcgis/rest/services/All_Municipal_Zoning/FeatureServer/60",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42081"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNIC",
+    "zone": "ZONE",
+    "zone_name": "ZONE_FULL"
+  },
+  "notes": "Countywide layer of municipal zoning districts, hosted by the county on ArcGIS Online (AmyFry); covers municipalities with their own zoning plus county-administered areas.",
+  "verification": {
+    "verified_at": 1792135311675,
+    "counties": [
+      "42081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "19197",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=399&LayerID=5930&Page=",
+    "https://www.wrightcounty.iowa.gov/departments/auditor/maps.php",
+    "https://www.wrightcounty.iowa.gov/departments/residents/planning_and_zoning/index.php",
+    "https://eaglegrove.gov/vertical/sites/%7B64A1095B-8B03-4661-9B9F-ADD124E544DC%7D/uploads/Zoning-Map-2019.pdf"
+  ],
+  "note": "Wright County, IA publishes zoning districts only inside the Schneider Beacon viewer (a 'Zoning Districts' layer under Districts), which is bot-gated and offers no public ArcGIS REST service or download. The county's zoning ordinance refers to a paper/PDF Official Zoning Map (1990/1991). Cities Belmond, Clarion and Eagle Grove publish zoning only as PDF maps (Eagle Grove 2019) or in code text; no queryable ArcGIS zoning layer was found on the county hub, county site, Iowa Geodata or ISU servers. The Wright County GIS hub's 'Zoning Wright County' service is Minnesota's Wright County (MN Lambert projection), not Iowa's.",
+  "recorded_at": 1792134291032,
+  "recheck_after": 1807686291032,
+  "model": "claude-haiku-5-5"
+}

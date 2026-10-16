@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "39171",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.williamscountyoh.gov/552/Zoning",
+    "https://www.cityofbryan.com/wp-content/uploads/2020/05/ZONING-Model.pdf",
+    "https://montpelieroh.net/wp-content/uploads/2020/06/Montpelier-Zoning-map-Model.pdf",
+    "https://williamscountygis-williamscty.opendata.arcgis.com/api/feed/dcat-us/1.1.json"
+  ],
+  "note": "Williams County, OH has no county zoning; its page says townships and municipalities zone their own land. The county GIS hub (DCAT feed) lists no Ohio zoning-district layer (its 'Zoning OD' layer is a different Williams County, ND service that returns nothing at Ohio coordinates). Bryan and Montpelier publish their zoning districts only as PDF maps, and no queryable ArcGIS layer for Bryan, Montpelier, Edgerton, Stryker or Pioneer was found.",
+  "recorded_at": 1792135339891,
+  "recheck_after": 1807687339891,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-santa-maria",
+  "publisher": "City of Santa Maria",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/aJWfVFc3hKf5GLo2/arcgis/rest/services/GPU_Zoning2025/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Descrip"
+  },
+  "notes": "City of Santa Maria zoning; the city zones its own land. Fire_Categ is a fire-hazard category, not a zone.",
+  "verification": {
+    "verified_at": 1792134044414,
+    "counties": [
+      "06083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

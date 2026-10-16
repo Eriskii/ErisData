@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-mckean",
+  "publisher": "McKean County GIS Office",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mckeancountypa.gov/server/rest/services/ParcelViewer/BPV3_KnownZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42083"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipality",
+    "link": "zoningordurl",
+    "zone": "zone_code",
+    "zone_name": "zone_description"
+  },
+  "notes": "County-hosted layer of current zoning for McKean County municipalities (10 zoned municipalities; 180 districts). Zone_Type and Zone_Uses also available.",
+  "verification": {
+    "verified_at": 1792135338856,
+    "counties": [
+      "42083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

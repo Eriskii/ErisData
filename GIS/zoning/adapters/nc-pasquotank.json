@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-pasquotank",
+  "publisher": "Pasquotank County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/0sC2n3LxYOcxBOg0/arcgis/rest/services/County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "NAME",
+    "zone": "ZONING"
+  },
+  "filter": "ZONING <> ' '",
+  "notes": "County zoning layer (unincorporated areas). Blank-zone records excluded. Layer has no zone-description or ordinance-link field. NAME is the township/area name.",
+  "verification": {
+    "verified_at": 1792135086084,
+    "counties": [
+      "37139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

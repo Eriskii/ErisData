@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-shawnee-county",
+  "publisher": "Shawnee County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.sncoapps.us/arcgis2/rest/services/ZoningWM/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20177"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_COV",
+    "zone_name": "ZON_DESCR"
+  },
+  "notes": "Unincorporated Shawnee County zoning only (cities such as Topeka zone their own land). Zone code in ZONE_COV; ZON_DESCR is the district name. Layer is labelled Contact City or County for Official Zoning.",
+  "verification": {
+    "verified_at": 1792134326977,
+    "counties": [
+      "20177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

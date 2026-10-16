@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-washington-west-bend",
+  "publisher": "City of West Bend GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.ci.west-bend.wi.us/arcgis/rest/services/LandUse/ZoningNLandUse/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55131"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE"
+  },
+  "notes": "City of West Bend zoning districts only (city layer, not county-wide). PUD and floodway overlays are flags in FFOVERLAY and PUDOVERLAY.",
+  "verification": {
+    "verified_at": 1792136228387,
+    "counties": [
+      "55131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

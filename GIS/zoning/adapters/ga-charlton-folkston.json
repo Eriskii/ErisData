@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-charlton-folkston",
+  "publisher": "City of Folkston (Folkston Zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/fYt1jp3hqamxgSvI/arcgis/rest/services/FolkstonZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "13049"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Folkston zoning only (7 districts); Charlton County reports no countywide zoning. Layer hosted under an ArcGIS org account (sgrcgis_valor1).",
+  "verification": {
+    "verified_at": 1792133880338,
+    "counties": [
+      "13049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

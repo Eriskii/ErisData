@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-richmond-city",
+  "publisher": "City of Richmond Planning and Development Review",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/k3vhq11XkBNeeOfM/arcgis/rest/services/ZoningDistricts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51760"
+    ]
+  },
+  "fields": {
+    "link": "OrdinancePath",
+    "zone": "Name"
+  },
+  "notes": "City of Richmond Zoning Districts layer (679 features), from the city GIS Hub. Single jurisdiction (city zones all land).",
+  "verification": {
+    "verified_at": 1792135965225,
+    "counties": [
+      "51760"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "17125",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://masoncountyil.gov/zoning/",
+    "https://masoncountyil.gov/wp-content/uploads/2024/04/Zoning-OrdinanceZoning2008.pdf",
+    "https://www.havanail.gov/wp-content/uploads/Havana_Zoning-GIS-Map.pdf",
+    "http://masonil.wthgis.com/"
+  ],
+  "note": "Mason County IL publishes no queryable zoning district service that I could find. The county zoning page links only to a GIS Search viewer (masonil.wthgis.com), which exposes no ArcGIS REST endpoint and whose zoning content could not be confirmed. The county zoning map is kept electronically at the County Clerk's office, and the county ordinance (2008) and City of Havana zoning map are PDFs. Searches of ArcGIS Online/Hub and the county, Havana, Mason City, Manito and Topeka sites found no zoning FeatureServer or MapServer for Mason County. The only zoning FeatureServer I found (zoning_districts, services.arcgis.com/lQySeXwbBg53XWDi) is for a different jurisdiction (codes such as CSS, PCC-1, Guadalupe) and returns no features at the Mason County sample point.)",
+  "recorded_at": 1792134138246,
+  "recheck_after": 1807686138246,
+  "model": "claude-haiku-5-5"
+}

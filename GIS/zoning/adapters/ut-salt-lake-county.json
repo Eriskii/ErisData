@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ut-salt-lake-county",
+  "publisher": "Metro Township Services District (Salt Lake County, Utah) PDS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.msd.utah.gov/server/rest/services/Planning/PDS/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49035"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipality",
+    "link": "zoneurl",
+    "zone": "zone",
+    "zone_name": "zonedescription"
+  },
+  "notes": "Metro Township Services District PDS zoning map; covers unincorporated county and member communities; jurisdiction field names each municipality.",
+  "verification": {
+    "verified_at": 1792131951965,
+    "counties": [
+      "49035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

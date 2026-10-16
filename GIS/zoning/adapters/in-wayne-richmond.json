@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "in-wayne-richmond",
+  "publisher": "City of Richmond, Indiana (hosted by Wayne County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb3.co.wayne.in.us/arcgis/rest/services/Richmond_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18177"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "Unif_Dev_C"
+  },
+  "notes": "Only zoning layer found on the Wayne County GIS server; covers the City of Richmond only, not unincorporated county or other towns. Zone code from Unif_Dev_C; zone_name is largely blank in source. Link points to Laserfiche ordinance records.",
+  "verification": {
+    "verified_at": 1792134155729,
+    "counties": [
+      "18177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "28025",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.claycountyms.com/online-services/",
+    "https://services2.arcgis.com/kQPfxbSKhIDcSFXL/arcgis/rest/services/ClayCountyParcel/FeatureServer",
+    "https://services2.arcgis.com/kQPfxbSKhIDcSFXL/arcgis/rest/services/ClayCoMS/FeatureServer",
+    "https://landrecords.us/documentation/coverage/counties/28-025-clay"
+  ],
+  "note": "No queryable zoning district layer found for Clay County MS. The zoning map linked by assessorsearch.com and the storymap are Clay County, Minnesota (claycountyms vs claycountymn). The GTPDD county parcel layer and ClayCoMS data service carry no zoning field; the county parcel viewer shows ownership only. West Point city zoning is only in scanned PDFs.",
+  "recorded_at": 1792134678722,
+  "recheck_after": 1807686678722,
+  "model": "claude-haiku-5-5"
+}

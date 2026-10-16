@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-fresno",
+  "publisher": "Fresno County (regional zoning view, COF_ISD_PROD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/ibgDyuD2DLBge82s/arcgis/rest/services/REGIONAL_ZONING_VW/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06019"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "AGENCY_CODE",
+    "zone": "ZONE_BASE"
+  },
+  "notes": "Regional zoning layer for Fresno County; AGENCY_CODE identifies the jurisdiction (FR, CL, CY = county unincorporated). ZONE_CONDITION holds overlay/condition codes where present.",
+  "verification": {
+    "verified_at": 1792134048047,
+    "counties": [
+      "06019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

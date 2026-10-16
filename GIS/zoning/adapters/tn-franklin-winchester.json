@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-franklin-winchester",
+  "publisher": "City of Winchester, TN (via interactive zoning map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdfTR9YtFQnql9l3/arcgis/rest/services/Winchester_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47051"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "City of Winchester zoning only (not unincorporated county land; the county publishes no zoning GIS found). Source is the public layer behind the City of Winchester interactive zoning map.",
+  "verification": {
+    "verified_at": 1792135506374,
+    "counties": [
+      "47051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

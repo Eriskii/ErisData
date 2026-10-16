@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "or-marion-salem",
+  "publisher": "City of Salem Community Development (SalemGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/kIA6yS9KDGqZL7U3/arcgis/rest/services/Zoning_Designation/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "zone": "ZNP",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Salem zoning within Salem city limits (the part in Marion County). Hosted by the City of Salem on ArcGIS Online.",
+  "verification": {
+    "verified_at": 1792135305550,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

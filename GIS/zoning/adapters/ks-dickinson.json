@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-dickinson",
+  "publisher": "Dickinson County GIS (DKCOKS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/XBUaJ9z59sKeDhyY/arcgis/rest/services/Data_Dictionary/FeatureServer/20",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "zone": "Zone_ID"
+  },
+  "notes": "Merged zoning layer for county unincorporated (DKCO) and cities (Abilene, Solomon, Hope, Herington, Chapman, Enterprise, Carlton, Manchester, Woodbine). No zone name or ordinance link field. CUP field is conditional use permit flag.",
+  "verification": {
+    "verified_at": 1792134232426,
+    "counties": [
+      "20041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

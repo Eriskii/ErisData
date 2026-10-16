@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "co-elbert-elizabeth",
+  "publisher": "Elbert County GIS (Town of Elizabeth zoning)",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://maps.elbertcounty-co.gov/data/rest/services/Zoning_of_Elizabeth_Colorado/FeatureServer/6/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&maxAllowableOffset=0.00003&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "08039"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "Town of Elizabeth zoning districts as hosted by Elbert County GIS (the layer metadata marks it not authoritative; it is the county-hosted copy of the town layer). 12 districts in one GeoJSON response.",
+  "verification": {
+    "verified_at": 1792133822262,
+    "counties": [
+      "08039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

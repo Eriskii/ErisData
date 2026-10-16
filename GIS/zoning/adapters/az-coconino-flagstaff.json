@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "az-coconino-flagstaff",
+  "publisher": "City of Flagstaff GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/CNNo1rxoi1NqCYkY/arcgis/rest/services/ZoningRegulatedUse_20260923/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04005"
+    ]
+  },
+  "fields": {
+    "link": "Reference",
+    "zone": "REGULATIONCLASSIFICATION",
+    "zone_name": "REGULATIONDESCRIPTION"
+  },
+  "notes": "City of Flagstaff zoning only (incorporated Flagstaff, not unincorporated county land). Official city service; county layer on webmaps.coconino.az.gov was unreachable from here.",
+  "verification": {
+    "verified_at": 1792133773386,
+    "counties": [
+      "04005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

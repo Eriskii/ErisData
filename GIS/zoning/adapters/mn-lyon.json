@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-lyon",
+  "publisher": "Lyon County GIS (LyonMNGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/WSCKzjfnubMgUOk8/arcgis/rest/services/Lyon_County_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27083"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TWP_LABEL",
+    "zone": "LANDUSE",
+    "zone_name": "LANDUSE"
+  },
+  "filter": "LANDUSE NOT LIKE 'City of%' AND FID <> 84",
+  "notes": "County zoning for unincorporated land; city-limit polygons (LANDUSE = City of X) excluded as they carry no district. FID 84 (large Agriculture polygon with invalid geometry in the source) excluded.",
+  "verification": {
+    "verified_at": 1792134614145,
+    "counties": [
+      "27083"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

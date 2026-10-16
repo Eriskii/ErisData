@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-brooks",
+  "publisher": "Brooks County GA (SGRC-hosted zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HA2thkMWRBDb77XN/arcgis/rest/services/BrooksZoning_(View_Only)/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13027"
+    ]
+  },
+  "fields": {
+    "link": "HTML",
+    "zone": "TYPE"
+  },
+  "notes": "County zoning layer (view-only service hosted by Southern Georgia Regional Commission for Brooks County). Per the source, the city of Quitman is not included (it zones on its own code). TYPE holds the zoning district code; HTML is a qPublic parcel tax link, not ordinance text.",
+  "verification": {
+    "verified_at": 1792133879410,
+    "counties": [
+      "13027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

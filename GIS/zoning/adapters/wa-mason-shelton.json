@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wa-mason-shelton",
+  "publisher": "Mason County GIS (MasonGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/jJDDJN0XbP5tQU8H/arcgis/rest/services/Public_Map_Viewer/FeatureServer/28",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53045"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCRIP"
+  },
+  "notes": "Shelton urban growth area zoning from MasonGIS Public Map Viewer; covers the Shelton UGA only.",
+  "verification": {
+    "verified_at": 1792136016404,
+    "counties": [
+      "53045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

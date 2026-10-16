@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-cass-harrisonville",
+  "publisher": "City of Harrisonville, MO",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/nqa85ZDSsMNrKusD/arcgis/rest/services/ZoningDistricts/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29037"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Label",
+    "zone_name": "Zoning_District"
+  },
+  "notes": "City of Harrisonville zoning districts; covers the city only.",
+  "verification": {
+    "verified_at": 1792134817455,
+    "counties": [
+      "29037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wa-west-richland",
+  "publisher": "City of West Richland",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/iBRHKRPMgv82EjLQ/arcgis/rest/services/Zoning_ORD_09_20/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53005"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of West Richland official zoning districts (city limits only, Benton County). Zone holds the district code; no separate name field.",
+  "verification": {
+    "verified_at": 1792136050844,
+    "counties": [
+      "53005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

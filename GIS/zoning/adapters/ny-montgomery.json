@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-montgomery",
+  "publisher": "Montgomery County GIS (NYS GIS Clearinghouse parcel layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/EbVsqZ18sv1kVJ3k/arcgis/rest/services/Montgomery_County_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36057"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZONING"
+  },
+  "notes": "No county or city zoning district polygon layer was found. Fallback: county tax parcel layer; ZONING attribute on each parcel carries the zoning code as recorded in the parcel data (numeric codes like 01, 02 in many towns), not a district polygon. Blank values for some parcels. Parcels only, so zone polygons are parcel footprints.",
+  "verification": {
+    "verified_at": 1792135103287,
+    "counties": [
+      "36057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nv-reno",
+  "publisher": "City of Reno Community Development (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/RjM4BJrv5ZkqP4XC/arcgis/rest/services/Zoning_Designations_Hub/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32031"
+    ]
+  },
+  "fields": {
+    "zone": "NEW_Z_ABBR",
+    "zone_name": "NEW_Zoning"
+  },
+  "notes": "City of Reno current base zoning designations, from the City of Reno open data hub. Covers only land inside Reno city limits; Washoe County and Sparks zoning are separate layers.",
+  "verification": {
+    "verified_at": 1792134989909,
+    "counties": [
+      "32031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

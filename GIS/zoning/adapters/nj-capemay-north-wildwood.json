@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nj-capemay-north-wildwood",
+  "publisher": "City of North Wildwood (via ArcGIS Online, northwildwood_admin)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/tewrQkeS95aBY5nU/arcgis/rest/services/Zoning/FeatureServer/50",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34009"
+    ]
+  },
+  "fields": {
+    "zone": "Label",
+    "zone_name": "ZoneName"
+  },
+  "notes": "North Wildwood only (merged municipal zoning map, April 2024 source). Type field holds district type. Only municipal zoning polygon layer found in Cape May County; the county itself does not publish zoning.",
+  "verification": {
+    "verified_at": 1792135015390,
+    "counties": [
+      "34009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

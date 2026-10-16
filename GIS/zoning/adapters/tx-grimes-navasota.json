@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-grimes-navasota",
+  "publisher": "City of Navasota (copy hosted by Adicollc123 on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/13t60HYU18XGRt6t/arcgis/rest/services/Zoning_by_Type/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48185"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "Unofficial copy: City of Navasota zoning uploaded to ArcGIS Online by a private account (Adicollc123), not the city. The city publishes its zoning only in a GIS web map (navasota.maps.arcgis.com) with no REST endpoint found. Grimes County publishes no zoning layer; Texas counties generally do not zone. Covers the City of Navasota only.",
+  "verification": {
+    "verified_at": 1792135659802,
+    "counties": [
+      "48185"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

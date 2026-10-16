@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-racine-city",
+  "publisher": "City of Racine (via Racine County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.racinecounty.com/arcgis/rest/services/Zoning/RacineCityZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "City of Racine zoning, nightly update from the City via Racine County server. Covers City of Racine only; the county layer wi-racine excludes it.",
+  "verification": {
+    "verified_at": 1792136083589,
+    "counties": [
+      "55101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

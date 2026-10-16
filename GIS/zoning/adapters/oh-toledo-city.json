@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-toledo-city",
+  "publisher": "City of Toledo / Toledo-Lucas County Plan Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.toledo.oh.gov/arcgis/rest/services/Public/ZoningArcMapServiceHub/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39095"
+    ]
+  },
+  "fields": {
+    "link": "Uses",
+    "zone": "Zoning",
+    "zone_name": "Description"
+  },
+  "notes": "City of Toledo base zoning districts (layer 1 Zoning; layer 0 is overlays and is excluded). Toledo only; townships and other cities not included.",
+  "verification": {
+    "verified_at": 1792135197786,
+    "counties": [
+      "39095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

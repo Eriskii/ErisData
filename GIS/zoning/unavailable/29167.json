@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29167",
+  "reason": "login-required",
+  "evidence": [
+    "https://services3.integritygis.com/arcgis/rest/services/MO/Polk_Assessor_Data_Integrity/MapServer",
+    "https://services3.integritygis.com/arcgis/rest/services/MO/Bolivar_City_Data/MapServer/7",
+    "https://www.bolivar.mo.us/community-development"
+  ],
+  "note": "Polk County MO has no public county zoning layer; zoning for Bolivar (largest city) is published via the City's Zoning Layer Map on the integritygis host (services3.integritygis.com, Polk_Assessor_Data_Integrity 'Bolivar Zoning' layer 50 and Bolivar_City_Data layer 7). Every such MapServer returns 'Token Required', so the zoning districts are not publicly queryable. No other Polk County city zoning service was found in ArcGIS Hub/Online or web search.",
+  "recorded_at": 1792134853508,
+  "recheck_after": 1807686853508,
+  "model": "claude-haiku-5-5"
+}

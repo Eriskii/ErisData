@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-calvert",
+  "publisher": "Calvert County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/OcWNNBkD375O6ROp/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_DES"
+  },
+  "notes": "Calvert County zoning districts effective March 1, 2025, unincorporated county only; Chesapeake Beach and North Beach are not included. Hosted by county contractor account (JMOGAVERO75).",
+  "verification": {
+    "verified_at": 1792134439253,
+    "counties": [
+      "24009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

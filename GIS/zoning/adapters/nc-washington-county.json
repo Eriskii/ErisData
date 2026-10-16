@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-washington-county",
+  "publisher": "Washington County, NC GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/hBMRLv0wWV0IhJ8I/arcgis/rest/services/Washington_Service/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37187"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Layer Zoning of the county GIS Washington_Service on the washconc.maps.arcgis.com portal; 24 zoning polygons. No zone name field published.",
+  "verification": {
+    "verified_at": 1792135135265,
+    "counties": [
+      "37187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

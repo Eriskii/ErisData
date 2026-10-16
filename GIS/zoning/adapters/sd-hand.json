@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sd-hand",
+  "publisher": "Hand County GIS (First District, hosted MapNet)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Hand/handmapnet/MapServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46059"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Hand County, SD official zoning layer from the county MapNet service. Only 3 polygons: AGRICULTURAL, CITY, COMMERCIAL/INDUSTRIAL; coarse, no finer district codes published in this layer. Zoning ordinance is a draft (Ordinance 2026-1).",
+  "verification": {
+    "verified_at": 1792135413070,
+    "counties": [
+      "46059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

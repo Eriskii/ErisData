@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-accomack",
+  "publisher": "Accomack County, Virginia",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/6127a53e31564567a0949cbd0e359c89/data",
+    "format": "shapefile-zip",
+    "epsg": 3857
+  },
+  "coverage": {
+    "counties": [
+      "51001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Entity",
+    "zone": "CODE",
+    "zone_name": "DESC_"
+  },
+  "notes": "Accomack County Base Zoning shapefile (ArcGIS Online item 6127a53e31564567a0949cbd0e359c89, Accomack County Open Data Portal). Zone code is a numeric CODE; DESC_ gives the land-use description. Layer covers the unincorporated county, with incorporated towns in Entity. Public-domain county data with disclaimer that it is not for legal determinations.",
+  "verification": {
+    "verified_at": 1792136050690,
+    "counties": [
+      "51001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

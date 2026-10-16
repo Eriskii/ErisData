@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-randolph",
+  "publisher": "Randolph County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/pweYHqdOby1TE9DD/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17157"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "Randolph County IL zoning districts layer published by county (phubbard@randolphco.org). ZONEDESC is empty in the source, so zone_name is not mapped. No jurisdiction field.",
+  "verification": {
+    "verified_at": 1792134061380,
+    "counties": [
+      "17157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

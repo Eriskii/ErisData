@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-colusa",
+  "publisher": "Colusa County Department of Planning and Building (CountyofColusaDPW)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/RHVBVx0fVmUtvfJV/arcgis/rest/services/Colusa_County_Zoning_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_COD",
+    "zone_name": "ZONING_DES"
+  },
+  "notes": "County zoning layer built from zoned parcels (polygons per parcel carrying district code and description); current per county DPW.",
+  "verification": {
+    "verified_at": 1792133987931,
+    "counties": [
+      "06011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

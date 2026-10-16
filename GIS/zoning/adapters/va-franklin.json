@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-franklin",
+  "publisher": "Franklin County GIS, Virginia",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/AzdpqVmJ5GjGWCoI/arcgis/rest/services/FranklinCoVA_ZoningClassifications/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51067"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClas",
+    "zone_name": "ZoningClas"
+  },
+  "notes": "Franklin County VA zoning classifications, county GIS hosted ArcGIS Online copy of the zoning classification layer. Towns are not separately zoned here.",
+  "verification": {
+    "verified_at": 1792135896222,
+    "counties": [
+      "51067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

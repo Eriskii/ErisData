@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-buncombe-asheville",
+  "publisher": "City of Asheville Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ashevillenc.gov/server/rest/services/Districts/ZoningDistricts/FeatureServer/11",
+    "page_size": 5,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37021"
+    ]
+  },
+  "fields": {
+    "link": "hyperlink",
+    "zone": "districts"
+  },
+  "notes": "City of Asheville zoning districts (incorporated city only). Layer also carries overlay_type values for overlay districts.",
+  "verification": {
+    "verified_at": 1792135065623,
+    "counties": [
+      "37021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

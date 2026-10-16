@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-kane-st-charles",
+  "publisher": "City of St. Charles",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/K7950S4bDbtsSspe/arcgis/rest/services/St_Charles_Zoning_Boundaries/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17089"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "CODE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "City of St. Charles zoning districts only; covers the city, not unincorporated Kane County. Published by the city on its ArcGIS Online organization.",
+  "verification": {
+    "verified_at": 1792134011171,
+    "counties": [
+      "17089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

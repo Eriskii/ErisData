@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-orleans-ridgeway",
+  "publisher": "Town of Ridgeway (Orleans County GIS host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/AGRzZ0TKgr5syAM6/arcgis/rest/services/Ridgeway_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36073"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Ridgeway zoning districts (codes AgRes, GenBus, Hamlet, Industrial, LightIndustrial, RuralResidential, WaterfrontOverlayZone). Single-town layer from Orleans County ArcGIS host.",
+  "verification": {
+    "verified_at": 1792135085966,
+    "counties": [
+      "36073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

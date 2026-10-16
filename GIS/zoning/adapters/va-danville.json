@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-danville",
+  "publisher": "City of Danville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.danvilleva.gov/server/rest/services/WebLoGIStics/Main_WL/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51590"
+    ]
+  },
+  "fields": {
+    "zone": "zone"
+  },
+  "notes": "Last resort: the city base-zoning polygon layers (CityWorks_PLL/MapServer/2 and WebLoGIStics/Main_WL/MapServer/7) have invalid or empty geometry, so the district code is taken from each City of Danville tax parcel. zone holds the district code followed by its name (e.g. UR URBAN RESIDENTIAL). Parcel polygons are a proxy for district polygons; blank zone means unzoned or unknown.",
+  "verification": {
+    "verified_at": 1792136463934,
+    "counties": [
+      "51590"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

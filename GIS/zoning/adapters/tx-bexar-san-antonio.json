@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-bexar-san-antonio",
+  "publisher": "City of San Antonio (Open Data SA)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/COSA_Zoning/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48029"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "BaseDescription"
+  },
+  "notes": "City of San Antonio zoning only (city limits; unincorporated Bexar County and other cities are not in this layer). Zoning = district code (includes overlay/special district codes such as IDZ-1). Source: Open Data SA COSA Zoning.",
+  "verification": {
+    "verified_at": 1792135570352,
+    "counties": [
+      "48029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

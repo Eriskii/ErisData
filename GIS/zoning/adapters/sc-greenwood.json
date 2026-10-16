@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sc-greenwood",
+  "publisher": "Greenwood County GIS (Greenwood County / City of Greenwood joint planning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.greenwoodsc.gov/arcgis/rest/services/Operational_Layers/Search_and_Select_Query/MapServer/7",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45047"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "link": "ORDINANCENUM",
+    "zone": "IMS_LABEL"
+  },
+  "filter": "OBJECTID <> 30763",
+  "notes": "County-run ArcGIS server; joint county and municipal zoning. Excludes OBJECTID 30763 whose geometry fails polygon validity.",
+  "verification": {
+    "verified_at": 1792135848439,
+    "counties": [
+      "45047"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

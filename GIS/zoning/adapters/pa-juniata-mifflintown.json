@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-juniata-mifflintown",
+  "publisher": "Juniata County / Borough of Mifflintown (hosted by county GIS consultant)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ue5fMdTkPeHLCobS/arcgis/rest/services/Juniata_Base_Layers/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42067"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Dis"
+  },
+  "notes": "Mifflintown Borough zoning districts only, from the Juniata_Base_Layers service. Layer has only 3 districts.",
+  "verification": {
+    "verified_at": 1792135329120,
+    "counties": [
+      "42067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

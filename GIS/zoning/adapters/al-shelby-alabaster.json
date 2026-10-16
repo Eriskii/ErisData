@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-shelby-alabaster",
+  "publisher": "City of Alabaster, AL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Z1v85DZS9DpIp2Y6/arcgis/rest/services/Zoning_Current_VIEWONLY/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01117"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDescription"
+  },
+  "notes": "City of Alabaster base zoning districts (Zoning_Current_VIEWONLY, layer 6), city-hosted ArcGIS org. Covers Alabaster city limits only. Some ZoneCode values are BLANK.",
+  "verification": {
+    "verified_at": 1792133796246,
+    "counties": [
+      "01117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

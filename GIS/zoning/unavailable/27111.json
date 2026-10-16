@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "27111",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://ottertailcounty.gov/property-home/maps-data/",
+    "https://ottertailcounty.gov/board/planning-commission/",
+    "https://web2.co.ottertail.mn.us/arcgis/rest/services",
+    "https://opendata-otcgis.hub.arcgis.com/",
+    "https://www.ci.fergus-falls.mn.us/departments/planning-zoning-and-gis",
+    "https://cityofdetroitlakes.com/planzone"
+  ],
+  "note": "Otter Tail County has a planning and zoning office for unincorporated land, but no county zoning-district layer is in its ArcGIS services (web2 and services3 directories, open data hub) or in its web apps. Fergus Falls and Detroit Lakes publish zoning maps only through a city server and an Integrity GIS viewer, neither reachable from here, and no queryable zoning service was found.",
+  "recorded_at": 1792134667228,
+  "recheck_after": 1807686667228,
+  "model": "claude-haiku-5-5"
+}

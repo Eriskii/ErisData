@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-bayfield-county",
+  "publisher": "Bayfield County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.bayfieldcounty.wi.gov/arcgis/rest/services/BFZoning_updated/MapServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55007"
+    ]
+  },
+  "fields": {
+    "zone": "NEW_ZONE",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "Bayfield County Zoning Districts layer from the county map server. Unincorporated towns only per county zoning; attribute District also present.",
+  "verification": {
+    "verified_at": 1792136043197,
+    "counties": [
+      "55007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

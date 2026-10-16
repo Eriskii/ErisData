@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "id-rupert",
+  "publisher": "City of Rupert",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/0PbkQ9BQ4T40skX2/arcgis/rest/services/Rupert_Zoning_Map/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16067"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Class"
+  },
+  "notes": "City of Rupert zoning districts, published by the city planning department (ArcGIS org bstephensPZ). 31 polygons.",
+  "verification": {
+    "verified_at": 1792133679452,
+    "counties": [
+      "16067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

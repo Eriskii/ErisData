@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "29107",
+  "reason": "login-required",
+  "evidence": [
+    "https://services4.integritygis.com/arcgis/rest/services/MO/Lafayette_Assessor_Data/MapServer",
+    "https://sites8.integritygis.com/geocortex/essentials/rest/sites/Lafayette_County_MO/overviewmap/mapservices"
+  ],
+  "note": "Lafayette County's zoning layer (ID 61) is in the Lafayette_Assessor_Data service on services4.integritygis.com, which the county's Geocortex site lists. Every request to that service and its layers returns 'Token Required', so the zoning districts are not publicly queryable. Searches found no open zoning feature service for the county or its cities (Higginsville, Odessa, Concordia, Lexington); the county site links only a Geocortex viewer and PDF maps.",
+  "recorded_at": 1792134843714,
+  "recheck_after": 1807686843714,
+  "model": "claude-haiku-5-5"
+}

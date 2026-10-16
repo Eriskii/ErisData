@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-la-crosse-county",
+  "publisher": "La Crosse County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lacrossecounty.org/gisserver/rest/services/AGOL/ZoningPlanningUpdate/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55063"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE"
+  },
+  "notes": "County zoning districts for unincorporated towns only (cities and villages such as La Crosse, Onalaska, Holmen, Bangor, Rockland and towns Campbell and Burns are not county-zoned). Layer from La Crosse County Zoning and Planning Map Viewer. PENDINGZONING and CONDITIONS fields also present; no zone name field published.",
+  "verification": {
+    "verified_at": 1792136107426,
+    "counties": [
+      "55063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

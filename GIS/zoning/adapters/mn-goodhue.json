@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-goodhue",
+  "publisher": "Goodhue County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://publicmaps.co.goodhue.mn.us/arcgis/rest/services/GoodhueCounty/CountyLayers/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CALC"
+  },
+  "notes": "County zoning layer for unincorporated townships; PIN-keyed parcel polygons. Some ZONE_CALC values are null or city placeholders (City, city, CIty) where a city zones the land; cities such as Red Wing publish their own layers separately. No ordinance link field available.",
+  "verification": {
+    "verified_at": 1792134486496,
+    "counties": [
+      "27049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

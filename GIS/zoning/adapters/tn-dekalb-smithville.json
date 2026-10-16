@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-dekalb-smithville",
+  "publisher": "City of Smithville, TN (via UCDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/EMZFDxQzNQloLbAf/arcgis/rest/services/Smithville_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47041"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Smithville zoning only; DeKalb County has no county-wide zoning and Alexandria publishes only a PDF map. Service hosted by Upper Cumberland Development District (UCDD) for the city; linked from the city zoning page webmap. Zone holds district code only.",
+  "verification": {
+    "verified_at": 1792135547254,
+    "counties": [
+      "47041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

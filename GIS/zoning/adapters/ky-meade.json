@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-meade",
+  "publisher": "Meade County Kentucky GIS (Planning and Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ufOeQWjwz5JyJXKQ/arcgis/rest/services/Meade_Co_KY_Planning_and_Zoning_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21163"
+    ]
+  },
+  "fields": {
+    "zone": "Current_Zoning",
+    "zone_name": "Definition"
+  },
+  "notes": "Meade County Zoning Classification layer on the county ArcGIS Online organization. Zone code in Current_Zoning; Definition gives the district name. Structures_Permitted and setbacks are also in the layer but not mapped.",
+  "verification": {
+    "verified_at": 1792134360332,
+    "counties": [
+      "21163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

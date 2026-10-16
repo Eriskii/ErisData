@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "42123",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.warrencountypa.gov/1197/Planning-Zoning",
+    "https://www.warrencountypa.gov/DocumentCenter/View/3455/Zoning-Ordinance---amended-February-18-2026",
+    "https://www.cityofwarrenpa.gov/zoning",
+    "https://www.gisfinder.com/pa/county/warren/",
+    "https://mapservices.pasda.psu.edu/server/rest/services/pasda/WarrenCounty/MapServer/0"
+  ],
+  "note": "Warren County PA (42123) publishes no queryable zoning-district polygon layer. The county zoning ordinance covers 12 of 27 municipalities and the official county zoning map is kept at the planning office (PDF/paper). City of Warren publishes its zoning map only as a PDF (adopted 11-17-2025). No county GIS portal publishes zoning. The only queryable layer found is the PASDA county tax parcel layer (mapservices.pasda.psu.edu WarrenCounty/MapServer/0) with a ZONING attribute, but it is filled for only 109 of 262 sampled parcels (about 42 percent), which fails validation (zone fill check); it is not a district layer.",
+  "recorded_at": 1792135454017,
+  "recheck_after": 1807687454017,
+  "model": "claude-haiku-5-5"
+}

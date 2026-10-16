@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nd-walsh-grafton",
+  "publisher": "City of Grafton, ND (parcel layer hosted by North Dakota GIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/qz25vLPtpIdijprk/arcgis/rest/services/GraftonLandownerOnlineMap2018021/FeatureServer/130",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38099"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "notes": "Last resort: parcel layer (GraftonParcelData) whose Zoning attribute carries each Grafton parcel zoning district; covers the City of Grafton only, not the rest of Walsh County. No county or other city zoning district polygon layer found; Park River and Drayton publish only PDF zoning ordinances/maps. zone_name duplicates the code text (no separate description field).",
+  "verification": {
+    "verified_at": 1792135189893,
+    "counties": [
+      "38099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

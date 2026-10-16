@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-allegan",
+  "publisher": "Allegan County Land Information Services",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.allegancounty.org/server/rest/services/Allegan_County_Visual_Geographic_Library_MIL1/MapServer/52",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Unit",
+    "link": "hyperlink",
+    "zone": "LABEL",
+    "zone_name": "ZONING"
+  },
+  "notes": "County Visual Geographic Library Zoning layer; Unit holds the numeric township/city code (jurisdiction), LABEL the district code, ZONING the district description. Some features have WATER/AGRICULTURAL classes with no district code.",
+  "verification": {
+    "verified_at": 1792132278850,
+    "counties": [
+      "26005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

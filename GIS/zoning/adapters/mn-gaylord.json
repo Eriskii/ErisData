@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-gaylord",
+  "publisher": "City of Gaylord (via Sibley County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ca9pZxSKQMiPIqAL/arcgis/rest/services/Gaylord_Zone_Layer_Package/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27143"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Label"
+  },
+  "filter": "1=1",
+  "notes": "City of Gaylord zoning polygons, hosted by Sibley County GIS (SibleyGIS org). Only a short zoning label is provided; no zone name field.",
+  "verification": {
+    "verified_at": 1792134558101,
+    "counties": [
+      "27143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

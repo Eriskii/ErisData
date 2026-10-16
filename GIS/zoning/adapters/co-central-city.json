@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-central-city",
+  "publisher": "City of Central City, Colorado",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/2gyHpxfVxcRlN55c/arcgis/rest/services/Zoning_Districts_(HFL)_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08047"
+    ]
+  },
+  "fields": {
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "City of Central City municipal zoning districts, published by the city. Covers city limits only.",
+  "verification": {
+    "verified_at": 1792133819211,
+    "counties": [
+      "08047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

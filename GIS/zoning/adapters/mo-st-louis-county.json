@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-st-louis-county",
+  "publisher": "St. Louis County GIS (county ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/w657bnjzrjguNyOy/arcgis/rest/services/Zoning___Jurisdictions_Update_Prototype_v3_WFL1/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29189"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Base zoning districts for unincorporated St. Louis County (layer 8 of the county zoning and jurisdictions service). The county maps service AGS_Zoning/MapServer/3 carries the same data but its stored spatial reference (102696) does not match its coordinates, so it cannot be queried in WGS84. Incorporated cities zone their own land and are not in this layer. Zone name not published.",
+  "verification": {
+    "verified_at": 1792134832972,
+    "counties": [
+      "29189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

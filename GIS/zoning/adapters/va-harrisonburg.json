@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-harrisonburg",
+  "publisher": "City of Harrisonburg GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.harrisonburgva.gov/arcgis/rest/services/CommunityDevelopment/ZoningDesignations/MapServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51660"
+    ]
+  },
+  "fields": {
+    "zone": "MAP_ZONING"
+  },
+  "notes": "No city district-polygon layer is queryable; this is the city parcel layer (15,488 parcels) whose MAP_ZONING attribute carries each parcel zoning designation, so it is a last-resort parcel-based source. Values include overlay names (e.g. R-3 INSTITUTIONAL OVERLAY). Official city server.",
+  "verification": {
+    "verified_at": 1792135987945,
+    "counties": [
+      "51660"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

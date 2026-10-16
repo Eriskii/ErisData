@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nd-pierce-rugby",
+  "publisher": "City of Rugby, ND (Rugby GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/bMjZIPdAwmyiLztW/arcgis/rest/services/Base_Map/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38069"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningName"
+  },
+  "notes": "City of Rugby zoning layer (city limits only, county seat of Pierce County); 33 features. Hosted in the city's public ArcGIS Online org (rugby.maps.arcgis.com). No jurisdiction field needed; all features are Rugby.",
+  "verification": {
+    "verified_at": 1792135189722,
+    "counties": [
+      "38069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

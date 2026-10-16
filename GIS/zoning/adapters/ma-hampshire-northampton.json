@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ma-hampshire-northampton",
+  "publisher": "City of Northampton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/rXBMAZhnkewHZIaE/arcgis/rest/services/Northampton_Zoning_and_Overlays_WFL2/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25015"
+    ]
+  },
+  "fields": {
+    "zone": "NAME",
+    "zone_name": "NAME"
+  },
+  "notes": "City of Northampton base zoning districts layer (overlays are in a separate layer). NAME holds the district code.",
+  "verification": {
+    "verified_at": 1792134484044,
+    "counties": [
+      "25015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

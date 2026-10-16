@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wa-clark",
+  "publisher": "Clark County GIS (ClarkView_Public Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.clark.wa.gov/arcgisfed/rest/services/ClarkView_Public/Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53011"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "ABBREV",
+    "zone_name": "DESCRIPTION"
+  },
+  "filter": "OBJECTID <> 940",
+  "notes": "Adopted county zoning layer covering unincorporated Clark County and incorporated cities (Vancouver, Camas, Washougal, Battle Ground, Ridgefield, La Center, Yacolt), distinguished by Jurisdiction. Feature OBJECTID 940 (R-5, a county-scale polygon with invalid geometry) is excluded. JurAbbrev carries code plus jurisdiction suffix.",
+  "verification": {
+    "verified_at": 1792136061911,
+    "counties": [
+      "53011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

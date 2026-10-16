@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-oxnard",
+  "publisher": "City of Oxnard Planning Division",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.oxnard.org/arcgis/rest/services/PlanningLayers/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06111"
+    ]
+  },
+  "fields": {
+    "zone": "Zone2030",
+    "zone_name": "ZoneDescription2030"
+  },
+  "notes": "City of Oxnard zoning (2030 zone fields).",
+  "verification": {
+    "verified_at": 1792134062051,
+    "counties": [
+      "06111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

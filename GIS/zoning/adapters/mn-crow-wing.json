@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-crow-wing",
+  "publisher": "Crow Wing County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.crowwing.us/cwc_external_main/rest/services/Link_Public/MapServer/91",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27035"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Township",
+    "zone": "Land_Use_C",
+    "zone_name": "Land_Use_C"
+  },
+  "notes": "County Land Use Map (zoning districts per county land use ordinance: Rural Residential, Commercial, Shoreland etc.) for unincorporated townships; cities not included. zone and zone_name both carry the district label from Land_Use_C.",
+  "verification": {
+    "verified_at": 1792134529097,
+    "counties": [
+      "27035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

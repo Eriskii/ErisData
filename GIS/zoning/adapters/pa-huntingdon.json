@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-huntingdon",
+  "publisher": "Huntingdon County Mapping Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/liWtJPxLI3mlx8pH/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42061"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Muni",
+    "zone": "ZONING_DIS"
+  },
+  "notes": "County-published zoning layer covering municipalities in Huntingdon County; jurisdiction from Muni field. Subdistrict field sparsely filled, not mapped.",
+  "verification": {
+    "verified_at": 1792135308495,
+    "counties": [
+      "42061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

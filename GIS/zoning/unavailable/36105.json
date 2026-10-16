@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "36105",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.sullivanny.gov/sites/default/files/departments/DPEM/PublicMeetings/TownofLibertyExistingZoning.pdf",
+    "https://thompsonny.gov/wp-content/uploads/2026/01/Final-TH-Zoning-Adopted-11_2025.pdf",
+    "https://gis.sullivanny.us/arcgis/rest/services/Parcels/FeatureServer/1",
+    "https://ecode360.com/9439255"
+  ],
+  "note": "Sullivan County NY has no county zoning layer on its ArcGIS server (gis.sullivanny.us services list has parcels, tax-map districts, municipalities, none zoning). Its towns publish zoning only as PDF maps: Liberty (county planning PDF, 2016 proposed inset PDFs), Thompson (adopted zoning PDF Nov 2025), Bethel (ecode360 text, map kept at town office). The only queryable zoning polygons found are the NPS/Shippensburg UPDE compilation (2007-2016), covering only Upper Delaware corridor towns and not the county interior; validation of it failed (no districts near the interior point, field names absent).",
+  "recorded_at": 1792135107229,
+  "recheck_after": 1807687107229,
+  "model": "claude-haiku-5-5"
+}

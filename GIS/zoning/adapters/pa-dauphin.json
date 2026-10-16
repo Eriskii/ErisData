@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-dauphin",
+  "publisher": "Tri-County Regional Planning Commission / Dauphin County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/EEtiX55QzkHKYQKY/arcgis/rest/services/TCRP_CountyZoning_Dauphin/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42043"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALI",
+    "zone": "MAP_ACRONY",
+    "zone_name": "MUNICIPAL_"
+  },
+  "notes": "Generalized county zoning compiled from municipal zoning maps by TCRPC; one layer covering multiple municipalities. MAP_ACRONY is the district code; MUNICIPAL_ holds the district name; MUNICIPALI the municipality.",
+  "verification": {
+    "verified_at": 1792135293584,
+    "counties": [
+      "42043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

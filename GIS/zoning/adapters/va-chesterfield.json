@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-chesterfield",
+  "publisher": "Chesterfield County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/TsynfzBSE6sXfoLq/ArcGIS/rest/services/Cadastral/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51041"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Chesterfield County unincorporated zoning districts; county layer covers county-zoned land only",
+  "verification": {
+    "verified_at": 1792135859038,
+    "counties": [
+      "51041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

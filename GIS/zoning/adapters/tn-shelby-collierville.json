@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tn-shelby-collierville",
+  "publisher": "Town of Collierville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/sRmcNvrTVX9Y0AgX/arcgis/rest/services/Zoning_Features/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47157"
+    ]
+  },
+  "fields": {
+    "link": "ORDNUM",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Collierville official zoning (parcel-based zoning polygons). Only official district layer found for Shelby County TN; county and Memphis zoning services were not reachable. Covers Collierville only. ORDNUM is an ordinance number, not a URL.",
+  "verification": {
+    "verified_at": 1792135590493,
+    "counties": [
+      "47157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

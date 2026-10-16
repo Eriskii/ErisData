@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-crawford",
+  "publisher": "Crawford County GA (parcel layer carrying zoning, via county web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services/CrawfordCountyParcels_Jan2026/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13079"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode"
+  },
+  "notes": "Last resort: no county zoning-district polygon layer found. This is the parcel layer behind the Crawford County Zoning Web Map (MGRC); each parcel carries its ZoningCode. Zoning districts are the parcel attribute, not separate polygons. Source hosted by Middle Georgia Regional Commission account.",
+  "verification": {
+    "verified_at": 1792133955839,
+    "counties": [
+      "13079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

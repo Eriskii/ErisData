@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-omaha",
+  "publisher": "City of Omaha Planning Department (via DCGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://dcgis.org/server/rest/services/Hosted/Zoning_Omaha_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31055"
+    ]
+  },
+  "fields": {
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "City of Omaha zoning districts, hosted by DCGIS. Covers Omaha city limits only; the county layer ne-douglas covers unincorporated land.",
+  "verification": {
+    "verified_at": 1792134925827,
+    "counties": [
+      "31055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

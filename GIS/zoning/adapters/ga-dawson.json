@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-dawson",
+  "publisher": "Dawson County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Ptz860OPLeIY55cX/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13085"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CLA"
+  },
+  "notes": "County GIS Hub zoning layer; district names not in layer; zone holds the class code. Source is in web Mercator (wkid 102100).",
+  "verification": {
+    "verified_at": 1792133886529,
+    "counties": [
+      "13085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

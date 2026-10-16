@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-decatur-bainbridge",
+  "publisher": "City of Bainbridge, GA",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/TIhHfn6hMXyrVHu4/arcgis/rest/services/Zoning_Map/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13087"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "filter": "ZONING <> '  '",
+  "notes": "Decatur County has no county zoning ordinance; this is the City of Bainbridge zoning layer (Zoning_2022), covering the city only. Code values such as SR-3 in ZONING; blank ZONING rows are parcels without a district and are filtered out.",
+  "verification": {
+    "verified_at": 1792133906618,
+    "counties": [
+      "13087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

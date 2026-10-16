@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "28043",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://grenadams.maps.arcgis.com/apps/webappviewer/index.html?id=b3596836c28741e88e8d1f54ce8f268f",
+    "https://services3.arcgis.com/YHsqEaxGSqCBZLEH/arcgis/rest/services/Grenada_Service/FeatureServer",
+    "https://www.cityofgrenada.net/government/departments/planning-zoning",
+    "https://library.municode.com/ms/grenada/codes/code_of_ordinances?nodeId=CO_APXAZO"
+  ],
+  "note": "Grenada County's public GIS (Grenada_Service FeatureServer, parcel viewer) has parcels, road, section and district layers but no zoning district layer. The City of Grenada's zoning ordinance says the official zoning map is kept on file with the city clerk; no queryable zoning service was found. Only commercial copies (Regrid zoning attributes, paid) exist.",
+  "recorded_at": 1792134622619,
+  "recheck_after": 1807686622619,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-morehead-city",
+  "publisher": "City of Morehead City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/S43FtmdNwd7ad0P0/arcgis/rest/services/Morehead_City_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONE_NAME_"
+  },
+  "notes": "Morehead City corporate zoning districts, hosted on the city ArcGIS Online organization; city jurisdiction only",
+  "verification": {
+    "verified_at": 1792135074645,
+    "counties": [
+      "37031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

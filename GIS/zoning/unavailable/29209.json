@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "29209",
+  "reason": "login-required",
+  "evidence": [
+    "https://stonecountymo.gov/Regs.htm",
+    "https://sites7.integritygis.com/geocortex/essentials/rest/sites/Stone_County_MO/map/mapservices",
+    "https://services8.integritygis.com/arcgis/rest/services/MO/Stone_Assessor_Data/MapServer",
+    "https://stonegis.integritygis.com/Geocortex/Essentials/REST/sites/Stone_County_MO/map/mapservices/1",
+    "https://5il.co/1uaq8"
+  ],
+  "note": "Stone County has base zoning districts (A-1, RR-1, C-1, etc. per its 2014 regulations). Its GIS zoning theme sits in the county's Stone_Assessor_Data service, which answers 'Token Required' (login-protected), so it cannot be queried. Kimberling City's zoning map is an image-only PDF (viewer-only). Branson's ZoningMap_Nov2022 layer is queryable but covers only Branson city limits and returns 1 feature around the county sample point, so it fails validation.",
+  "recorded_at": 1792134959012,
+  "recheck_after": 1807686959012,
+  "model": "claude-haiku-5-5"
+}

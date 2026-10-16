@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "me-androscoggin-auburn",
+  "publisher": "City of Auburn, Maine (AccessAuburn)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/4nU7cbKqLfftauX2/arcgis/rest/services/AuburnZoning/FeatureServer/49",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23001"
+    ]
+  },
+  "fields": {
+    "link": "DocumentLi",
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "City of Auburn zoning districts only. Source layer zoning_update_012624 on AccessAuburn hosted service.",
+  "verification": {
+    "verified_at": 1792134448243,
+    "counties": [
+      "23001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

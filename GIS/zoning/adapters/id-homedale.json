@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-homedale",
+  "publisher": "City of Homedale, Idaho",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/fhV7YmN3ZH8F4stQ/arcgis/rest/services/Homedale_GIS_Base_Layers/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16073"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "filter": "FID NOT IN (6, 12)",
+  "notes": "City of Homedale base zoning polygons (Homedale_Zoning_AGOL) published by the city GIS base-layer service. Covers the city only; polygons whose geometry fails validation are excluded. Unincorporated county land is not in this layer.",
+  "verification": {
+    "verified_at": 1792133746779,
+    "counties": [
+      "16073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

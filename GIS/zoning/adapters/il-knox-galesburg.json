@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-knox-galesburg",
+  "publisher": "City of Galesburg GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/T5ar9pn3YeFZ47Wh/arcgis/rest/services/City_Zoning_Districts_with_Links/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17095"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "DESC_",
+    "zone_name": "DISTRICT_1784336111831"
+  },
+  "notes": "City of Galesburg zoning districts within city limits. Zone code from DESC_ field.",
+  "verification": {
+    "verified_at": 1792133992028,
+    "counties": [
+      "17095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

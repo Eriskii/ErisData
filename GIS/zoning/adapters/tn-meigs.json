@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-meigs",
+  "publisher": "Southeast Tennessee Development District (SETDD) for Meigs County",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Meigs_Zoning_982026/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47121"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "filter": "OBJECTID <> 0",
+  "notes": "Published by SETDD planning staff on ArcGIS Online for Meigs County unincorporated zoning. Filter drops one I-1 polygon with a degenerate zero-length geometry record.",
+  "verification": {
+    "verified_at": 1792135961478,
+    "counties": [
+      "47121"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

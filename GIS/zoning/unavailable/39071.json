@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "39071",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gis.hillsboroohio.net/",
+    "https://www.hillsboroohio.net/department/index.php?structureid=43",
+    "https://www.co.highland.oh.us/offices/gis.html"
+  ],
+  "note": "Highland County OH: no county zoning layer found; county GIS (hcgisweb MapGuide viewer) and ArcGIS Online show parcels/boundaries only. City of Hillsboro (county seat) zones its land, but its zoning is only in the MapGuide 'Hillsboro GIS' viewer (gis.hillsboroohio.net/mapguide/viewer), with no ArcGIS REST service (/arcgis/rest/services returns 404) and no downloadable zoning map; the official zoning map is kept on file at the city. HIghlandOH_Corp (HiCoAuditor) is corporate boundaries only.",
+  "recorded_at": 1792135218644,
+  "recheck_after": 1807687218644,
+  "model": "claude-haiku-5-5"
+}

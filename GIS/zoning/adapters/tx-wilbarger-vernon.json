@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-wilbarger-vernon",
+  "publisher": "City of Vernon GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/YEy3wCyCT9X7HFbt/arcgis/rest/services/City_of_Vernon_Web_Service/FeatureServer/11",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "48487"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "ZoneID"
+  },
+  "notes": "City of Vernon zoning districts only (unincorporated county and other towns not covered). Published by City of Vernon via its ArcGIS Online organization. zone_name holds the ZoneID code, not a description.",
+  "verification": {
+    "verified_at": 1792135791221,
+    "counties": [
+      "48487"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-erie-tonawanda-town",
+  "publisher": "Town of Tonawanda GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis1.tonawanda.ny.us/arcgis/rest/services/public/TownReference/MapServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36029"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Tonawanda only (not the whole county, and not the City of Tonawanda). Town zoning districts per Town Code Ch. 215; ZoningSubArea layer and overlays are separate.",
+  "verification": {
+    "verified_at": 1792135066310,
+    "counties": [
+      "36029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

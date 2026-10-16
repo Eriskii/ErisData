@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ok-seminole-city",
+  "publisher": "City of Seminole GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/X6JRTNRk0ApS8Ldv/arcgis/rest/services/Zoning_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40133"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID",
+    "zone_name": "ZoneType"
+  },
+  "notes": "City of Seminole zoning (layer titled Zoning_2016), published by the city via its public zoning lookup app. Covers the city of Seminole only, not unincorporated county land. Zone name field holds the zone type description.",
+  "verification": {
+    "verified_at": 1792135261944,
+    "counties": [
+      "40133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

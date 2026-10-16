@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-wyandotte",
+  "publisher": "Unified Government of Wyandotte County/Kansas City, KS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Qo2HHQp8vgPs2wg3/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20209"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDIST",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "Kansas City, Kansas zoning districts (city layer, 1769 features) from the Unified Government E-GIS org. Covers KCK only; Bonner Springs and Edwardsville not included. Contains ORD_NO fields for ordinance numbers.",
+  "verification": {
+    "verified_at": 1792134306410,
+    "counties": [
+      "20209"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

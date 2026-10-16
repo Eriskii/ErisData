@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "46041",
+  "reason": "none-exists",
+  "evidence": [
+    "https://services3.arcgis.com/VaWuldDb7HYFU2ja/arcgis/rest/services/DEWEY_COUNTY_LAYERS/FeatureServer",
+    "https://landrecords.us/documentation/coverage/counties/46-041-dewey",
+    "https://www.gis-portal.org/sd-dewey-county/",
+    "https://southdakota.propertychecker.com/dewey-county"
+  ],
+  "note": "Dewey County SD's own ArcGIS service (DEWEY_COUNTY_LAYERS, DEWEY_COUNTY_LAYERS2) publishes townships, sections, parcels, tribal, plat, school, precinct and ward layers but no zoning districts; the PARCELS layer has no zoning field. Landrecords reports zoning fields unpopulated. Searches for Eagle Butte and Timber Lake city zoning found no zoning ordinance, map or GIS layer; most of the county is Cheyenne River reservation land.",
+  "recorded_at": 1792135415809,
+  "recheck_after": 1807687415809,
+  "model": "claude-haiku-5-5"
+}

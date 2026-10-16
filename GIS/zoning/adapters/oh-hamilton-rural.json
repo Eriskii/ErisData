@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-hamilton-rural",
+  "publisher": "Hamilton County Ohio (CAGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/JyZag7oO4NteHGiq/arcgis/rest/services/Open_Data_Feature_Collection/FeatureServer/44",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39061"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWNSHIP",
+    "zone": "ZONING",
+    "zone_name": "DISTZONE"
+  },
+  "notes": "CAGIS Open Data Hamilton_County_Rural_Zoning layer: zoning of unincorporated townships in Hamilton County (459 districts). TOWNSHIP names the township.",
+  "verification": {
+    "verified_at": 1792135213926,
+    "counties": [
+      "39061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

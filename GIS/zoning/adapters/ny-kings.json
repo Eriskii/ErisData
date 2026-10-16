@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-kings",
+  "publisher": "NYC Department of City Planning (DCP_GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/nyzd/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDIST"
+  },
+  "notes": "NYC DCP Zoning Districts (NYZD), citywide for all five boroughs including Kings County (Brooklyn); no borough attribute, so the layer is not filtered. Polygons continuous over the city; zone is the district code (e.g. R6, C4-2, M1-1). No zone name or ordinance link field published.",
+  "verification": {
+    "verified_at": 1792135019008,
+    "counties": [
+      "36047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

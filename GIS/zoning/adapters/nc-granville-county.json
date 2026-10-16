@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-granville-county",
+  "publisher": "Granville County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/dT3Tew5pivPd2bWH/arcgis/rest/services/Granville_Static/FeatureServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37077"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE"
+  },
+  "notes": "County zoning districts (GC_ZONING, 177 polygons) hosted in the Granville_Static service of the county GIS (ArcGIS Online org dT3Tew5pivPd2bWH). Covers the county zoning districts; city zoning (Creedmoor, Oxford, Butner, Stovall) is in separate layers of the same service and is not included here. Only zone code is published; no zone name or ordinance link.",
+  "verification": {
+    "verified_at": 1792135073842,
+    "counties": [
+      "37077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

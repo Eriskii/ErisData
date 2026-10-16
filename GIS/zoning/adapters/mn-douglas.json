@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-douglas",
+  "publisher": "Douglas County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://dc-web-2.co.douglas.mn.us/server/rest/services/PublicMaps/Public_GIS_Map/MapServer/41",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27041"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE"
+  },
+  "notes": "Douglas County MN Public GIS Map zoning layer; 14 features; county zoning, city zoning may be absent",
+  "verification": {
+    "verified_at": 1792134504066,
+    "counties": [
+      "27041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

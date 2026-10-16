@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wa-lewis",
+  "publisher": "Lewis County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.lewiscountywa.gov/arcgispublic/rest/services/CommunityDevelopment/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53041"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "filter": "OBJECTID <> 25",
+  "notes": "Excludes OBJECTID 25, the 747,600-acre Forest polygon whose geometry is invalid at the source; its area is not covered. Zone names are not populated (NAME blank).",
+  "verification": {
+    "verified_at": 1792136059040,
+    "counties": [
+      "53041"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29129",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.gis-portal.org/mo-mercer-county/",
+    "https://www.gismaps.org/mo-mercer-county/",
+    "https://cityofprincetonmo.com/planning-and-zoning",
+    "https://www.zookcabins.com/regulations/adu-regulations-in-missouri"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web. No queryable zoning district service for Mercer County MO. County unincorporated land has no county zoning per secondary sources (RSMo 64.850 requires a vote). City of Princeton has zoning districts but its planning-and-zoning page says 'Check back soon' and publishes no GIS layer or map. The county GIS portals (gis-portal.org, gismaps.org) mention zoning boundaries but expose no viewer or service links. The services6 'princeton_zoning_districts' layer is Princeton, WV (no features in Mercer MO's bbox).",
+  "recorded_at": 1792134867506,
+  "recheck_after": 1807686867506,
+  "model": "claude-haiku-5-5"
+}

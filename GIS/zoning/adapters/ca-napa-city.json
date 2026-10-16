@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-napa-city",
+  "publisher": "City of Napa",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofnapa.org/arcgis/rest/services/External/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06055"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneClass",
+    "zone_name": "ZoneDesc"
+  },
+  "filter": "Jurisdiction = 'Napa'",
+  "notes": "City of Napa zoning from the city GIS External Zoning_Districts layer. Parcel-level polygons: one feature per assessor parcel carrying its zoning, so districts repeat across parcels. Filtered to Jurisdiction = Napa (city only); unincorporated parcels in the same layer are covered by ca-napa-county.",
+  "verification": {
+    "verified_at": 1792134131898,
+    "counties": [
+      "06055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

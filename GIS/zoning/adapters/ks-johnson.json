@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ks-johnson",
+  "publisher": "Johnson County AIMS (zoning copy hosted on ArcGIS Online by KU account)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Johnson_County_AllZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20091"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Provider",
+    "link": "Website",
+    "zone": "ZoningCode",
+    "zone_name": "Descriptio"
+  },
+  "notes": "Countywide zoning compiled from Johnson County AIMS; one layer with all jurisdictions (Provider = county or city name; blank values exist). Hosted on a personal KU ArcGIS Online account, not the county server; no official county REST zoning service was found on maps.jocogov.org. Zoning and GroupDesc also available.",
+  "verification": {
+    "verified_at": 1792134286801,
+    "counties": [
+      "20091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

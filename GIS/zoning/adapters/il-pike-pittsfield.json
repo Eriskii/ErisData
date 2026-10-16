@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-pike-pittsfield",
+  "publisher": "City of Pittsfield, IL (hosted by Hometown Consulting)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/vkxUMlLZxOyS1ilH/arcgis/rest/services/Zoning_(Pittsfield)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17149"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "City",
+    "zone": "Zoning"
+  },
+  "notes": "City of Pittsfield zoning districts only (81 features), served by the city consultant Hometown_Consulting. No county-wide Pike County zoning layer is published; county unincorporated land is not covered. The Zoning field holds the district code; no district name or ordinance link in the source.",
+  "verification": {
+    "verified_at": 1792134104584,
+    "counties": [
+      "17149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

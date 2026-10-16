@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-osceola",
+  "publisher": "Osceola County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/9zKHLCgIwu2HFA5O/arcgis/rest/services/Zoning/FeatureServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12097"
+    ]
+  },
+  "fields": {
+    "zone": "PRIM_ZON",
+    "zone_name": "Zoning_Dis"
+  },
+  "notes": "Osceola County zoning districts (county layer; PRIM_ZON primary zone code, SEC_ZON secondary). Cities may zone their own land.",
+  "verification": {
+    "verified_at": 1792133850501,
+    "counties": [
+      "12097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

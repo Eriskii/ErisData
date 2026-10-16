@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-harrison-marshall",
+  "publisher": "City of Marshall, TX Planning and Development Services",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/deHuGpt8nOXApIC6/arcgis/rest/services/City_of_Marshall_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48203"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Marshall city-limits zoning only (not county unincorporated land or other cities). Hosted on ArcGIS Online by the city vendor account lafitte.page_marshtxgis; layer described as the official zoning districts. 384 features. No ordinance link field populated.",
+  "verification": {
+    "verified_at": 1792135651646,
+    "counties": [
+      "48203"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "31183",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://wheelercounty.ne.gov/planning-and-zoning/",
+    "https://wheeler.gworks.com/",
+    "https://www.gismaps.org/ne-wheeler-county/",
+    "https://revenue.nebraska.gov/sites/default/files/doc/pad/research/statewide_equalization/counties/2025/92Wheeler.pdf"
+  ],
+  "note": "Wheeler County NE has countywide zoning since 1998 (state 2025 property tax report) and the county planning and zoning office publishes pages, but no public ArcGIS REST or downloadable zoning district layer was found. The only GIS viewer found (wheeler.gworks.com) is a parcel viewer with no REST endpoint reachable (gworks ArcGIS path returns 404), and the county site returned rate-limit blocks (HTTP 503). ArcGIS search for Wheeler County NE zoning returned nothing relevant; commercial parcel products (Regrid, Rockford, Mapping Solutions) are not county sources.",
+  "recorded_at": 1792134973626,
+  "recheck_after": 1807686973626,
+  "model": "claude-haiku-5-5"
+}

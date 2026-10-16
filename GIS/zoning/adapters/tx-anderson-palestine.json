@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-anderson-palestine",
+  "publisher": "City of Palestine, Texas (hosted by MHS Planning ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aThczr7xl4XYBVaC/arcgis/rest/services/City_of_Palestine_WFL1/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "FULL_ZONIN"
+  },
+  "notes": "City of Palestine zoning districts only (city limits; not unincorporated county or other cities). Anderson County itself does not publish a zoning layer. Source layer is the city zoning boundaries feature service.",
+  "verification": {
+    "verified_at": 1792135584365,
+    "counties": [
+      "48001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

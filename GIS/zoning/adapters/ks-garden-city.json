@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ks-garden-city",
+  "publisher": "Finney County GIS (Garden City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/6814cdc6391848249dd1f399554619f4/rest/services/Planning/Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20055"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "link": "RegsWeb",
+    "zone": "Zone",
+    "zone_name": "District"
+  },
+  "notes": "Garden City zoning from the Finney County GIS zoning map service. Jurisdiction is a FIPS-style code.",
+  "verification": {
+    "verified_at": 1792134238442,
+    "counties": [
+      "20055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

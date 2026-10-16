@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-lowndes",
+  "publisher": "Lowndes County GA (copy hosted by mbreeden7_gtmaps on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/I9cUOJUZvdGAJncI/arcgis/rest/services/Lowndes_County_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13185"
+    ]
+  },
+  "fields": {
+    "zone": "ZOTXT",
+    "zone_name": "ULDC"
+  },
+  "notes": "Personal ArcGIS Online item (owner mbreeden7_gtmaps), not an official county service; used because no official queryable county/VALOR zoning service was found. Titled Lowndes County Zoning, zoning categories for Lowndes County GA. Covers county and city jurisdictions as drawn in the copy; zone code in ZOTXT.",
+  "verification": {
+    "verified_at": 1792133934840,
+    "counties": [
+      "13185"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

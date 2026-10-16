@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-chatham-goldston",
+  "publisher": "Town of Goldston (via Chatham County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.chathamcountync.gov/webapps/rest/services/DedicatedDatasets/LandUsePlanning/MapServer/24",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37037"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClassification",
+    "zone_name": "Comments"
+  },
+  "notes": "Goldston town zoning districts, hosted by Chatham County GIS.",
+  "verification": {
+    "verified_at": 1792135091970,
+    "counties": [
+      "37037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

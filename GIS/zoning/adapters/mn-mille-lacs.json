@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-mille-lacs",
+  "publisher": "Mille Lacs County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.mille-lacs.mn.us/arcgis/rest/services/MilleLacs_Public_101/MapServer/97",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27095"
+    ]
+  },
+  "fields": {
+    "zone": "Description",
+    "zone_name": "Description"
+  },
+  "filter": "OBJECTID NOT IN (20045,20609)",
+  "notes": "Mille Lacs County zoning districts (Agricultural, Rural Residential, Commercial, Industrial, Wild and Scenic River, etc.), public county MapServer. Excludes OBJECTIDs 20045 (the very large Agricultural polygon) and 20609, whose geometry in the county data fails validity checks; all other polygons kept. Zone is a description, not a code.",
+  "verification": {
+    "verified_at": 1792134661699,
+    "counties": [
+      "27095"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

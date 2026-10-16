@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-scotland",
+  "publisher": "Scotland County GIS (Laurinburg-Scotland County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/bgKigTDifCMNj8OU/arcgis/rest/services/Zoning_Scotland_County_view/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37165"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "County zoning for unincorporated Scotland County outside cities and ETJs, per layer description. Source hosted by Laurinburg-Scotland County GIS.",
+  "verification": {
+    "verified_at": 1792135090445,
+    "counties": [
+      "37165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

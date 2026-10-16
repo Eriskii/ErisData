@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-cook-chicago",
+  "publisher": "City of Chicago Department of Planning and Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisapps.cityofchicago.org/arcgis/rest/services/ExternalApps/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CLASS"
+  },
+  "notes": "City of Chicago zoning boundaries (ExternalApps/Zoning service). Covers Chicago only; ZONE_CLASS holds the district code such as RS-3. Ordinance number in ORDINANCE_NUM where recorded.",
+  "verification": {
+    "verified_at": 1792131932155,
+    "counties": [
+      "17031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

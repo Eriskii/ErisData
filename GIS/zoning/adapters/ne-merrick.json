@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-merrick",
+  "publisher": "SCEDD (South Central Economic Development District) via ArcGIS Online",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/RN7qZgb70CZgBPCl/arcgis/rest/services/SCEDD_Parcel_Data/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31121"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "City",
+    "zone": "Parcel_Zoning"
+  },
+  "notes": "Parcel layer, not a district layer: no county or city zoning district layer was found. Zoning comes from the Parcel_Zoning attribute on SCEDD parcels covering Central City, Merrick County. Copy published by SCEDD on ArcGIS Online, not the county itself; the county planning page was unreachable (HTTP 503). Last resort.",
+  "verification": {
+    "verified_at": 1792134946835,
+    "counties": [
+      "31121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

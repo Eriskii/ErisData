@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-polk-lakeland",
+  "publisher": "City of Lakeland GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/mcbQY5xNGGGM1vBX/arcgis/rest/services/Lakeland10_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12105"
+    ]
+  },
+  "fields": {
+    "zone": "LABEL",
+    "zone_name": "DESIGNATIO"
+  },
+  "notes": "City of Lakeland zoning districts only (city limits, not unincorporated Polk County). Zone code from LABEL; zone_name from DESIGNATIO. ORD field is an ordinance number, not a link.",
+  "verification": {
+    "verified_at": 1792133920112,
+    "counties": [
+      "12105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

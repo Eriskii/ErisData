@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "31135",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://perkins.gworks.com/?t=planningzoning/",
+    "https://mapserver01.gworks.com/arcgis/rest/services/Perkins_County_NE_PZ_Sub/MapServer/6",
+    "https://perkinscounty.ne.gov/planning-and-zoning/"
+  ],
+  "note": "Perkins County zoning is only in the gWorks viewer. Its backing service, Perkins_County_NE_PZ_Sub/MapServer on mapserver01.gworks.com, returns 'Service not started' (HTTP 500) and is absent from the server's service directory. No city zoning layers or ArcGIS Online copies were found.",
+  "recorded_at": 1792135054016,
+  "recheck_after": 1807687054016,
+  "model": "claude-sonnet-5-5"
+}

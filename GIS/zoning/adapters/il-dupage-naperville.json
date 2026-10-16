@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-dupage-naperville",
+  "publisher": "City of Naperville GIS (YourPlace parcels)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/rXJ6QApc2sOtl1Pd/arcgis/rest/services/YourPlace_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17043"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CODE"
+  },
+  "filter": "INCORPORATED = 'Y' AND ZONING_CODE <> 'N/A'",
+  "notes": "Last resort: no city district layer found. Parcel layer maintained by City of Naperville GIS; each parcel carries its zoning code, not district polygons. Filtered to incorporated Naperville parcels with a zoning code.",
+  "verification": {
+    "verified_at": 1792134007851,
+    "counties": [
+      "17043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

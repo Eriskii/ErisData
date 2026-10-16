@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "id-pocatello",
+  "publisher": "City of Pocatello GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map.pocatello.us/arcgis/rest/services/Planning/Planning_Layers/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Pocatello zoning districts only.",
+  "verification": {
+    "verified_at": 1792133638045,
+    "counties": [
+      "16005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

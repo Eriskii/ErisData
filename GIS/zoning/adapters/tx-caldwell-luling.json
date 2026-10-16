@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-caldwell-luling",
+  "publisher": "City of Luling via Caldwell CAD ArcGIS Online",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rVxY74DxxIDrDbc0/arcgis/rest/services/Caldwell_CAD_Parcel_Map/FeatureServer/50",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48055"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Luling zoning districts (city limits only). Served from the Caldwell Central Appraisal District public parcel map service.",
+  "verification": {
+    "verified_at": 1792135605414,
+    "counties": [
+      "48055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

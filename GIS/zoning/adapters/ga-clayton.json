@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-clayton",
+  "publisher": "Clayton County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.claytoncountyga.gov/server/rest/services/PlanningZoning/ZoningData/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13063"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Last resort: no county zoning-district polygon layer found; this is the county tax parcel layer whose ZONE attribute carries each parcel zoning code (e.g. RS180). Parcel polygons, not district polygons; one feature per parcel. No ordinance link field populated.",
+  "verification": {
+    "verified_at": 1792133904955,
+    "counties": [
+      "13063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

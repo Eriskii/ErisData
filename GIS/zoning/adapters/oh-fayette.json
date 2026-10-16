@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-fayette",
+  "publisher": "Fayette County GIS (Ohio)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/CJpiu5T88EYxY793/arcgis/rest/services/Fayette_County_Ohio_GIS_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39047"
+    ]
+  },
+  "fields": {
+    "link": "Contact",
+    "zone": "ZD_Txt",
+    "zone_name": "FullName"
+  },
+  "notes": "County GIS zoning layer published by Fayette County GIS (scormany). Covers county zoning districts plus city zoning (e.g. Washington Court House, identified by the link in Contact); no jurisdiction field. Comment mostly blank.",
+  "verification": {
+    "verified_at": 1792135155657,
+    "counties": [
+      "39047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20153",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.rawlinscounty.org/departments/appraiser/index.php",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Rawlins",
+    "https://www.cityofatwoodks.com/visitors/city_maps.php",
+    "https://www.zoneomics.com/code/atwood-KS/chapter_3"
+  ],
+  "note": "Searched ArcGIS Online/Hub and the web for Rawlins County KS zoning. The county's GIS is the state ORKA viewer with parcels only; RawlinsCountyGIS (ATCiMaps 911 service) has no zoning layer. Atwood cites an official zoning map but its city site links no queryable service; Regrid's zoning subset is a vendor product with no REST endpoint. The Zoning_Districts service found belongs to another jurisdiction (1,129 features, Municode chapters) and does not cover Rawlins.",
+  "recorded_at": 1792134346053,
+  "recheck_after": 1807686346053,
+  "model": "claude-haiku-5-5"
+}

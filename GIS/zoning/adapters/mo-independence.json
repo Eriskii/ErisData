@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-independence",
+  "publisher": "City of Independence, Missouri GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.indepmo.org/giscoi/rest/services/Cadastral/Zoning___Ordinances__Public_/MapServer/30",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29095"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Independence zoning districts (public layer). Covers only the part of Independence in Jackson County; no jurisdiction field needed.",
+  "verification": {
+    "verified_at": 1792134819472,
+    "counties": [
+      "29095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

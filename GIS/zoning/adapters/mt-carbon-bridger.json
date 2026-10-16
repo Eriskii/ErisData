@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mt-carbon-bridger",
+  "publisher": "Carbon County GIS (CarbonFire) for Town of Bridger",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/lo6DwqkHoBfbpsNX/arcgis/rest/services/Bridger_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30009"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Bridger draft zoning published as parcels carrying the zoning code (parcel polygons; draft zoning per service name). No zone name field.",
+  "verification": {
+    "verified_at": 1792134908292,
+    "counties": [
+      "30009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

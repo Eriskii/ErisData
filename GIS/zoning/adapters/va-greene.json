@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-greene",
+  "publisher": "Piedmont Environmental Council (Piedmont Data Viewer, Greene County zoning)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/mTaShYKffyWc5uRb/arcgis/rest/services/Layers_WFL1/FeatureServer/45",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51079"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDESC",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Copy hosted in the Piedmont Environmental Council Piedmont Data Viewer, not the county; county publishes no queryable zoning service found. Zone code only as description text in ZONEDESC.",
+  "verification": {
+    "verified_at": 1792136011483,
+    "counties": [
+      "51079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

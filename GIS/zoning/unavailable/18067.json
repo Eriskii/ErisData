@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "18067",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=94",
+    "https://www.in.gov/counties/howard/departments/howard-county-plan-commission/ordinance-document-center/"
+  ],
+  "note": "Howard County's zoning districts (Kokomo Zoning, County Zoning, Greentown Zoning layers) are published only in the Schneider Beacon viewer, which is behind Cloudflare bot protection and exposes no public ArcGIS REST or downloadable zoning polygons. The county's ordinance page links only the Beacon viewer and PDF ordinances. Searches of ArcGIS Online/Hub and the county, city and state sites found no official queryable zoning layer; the Kokomo ProposedZoning layer is a proposed-zone project copy, and Zoning_Districts is for another county.",
+  "recorded_at": 1792134223810,
+  "recheck_after": 1807686223810,
+  "model": "claude-haiku-5-5"
+}

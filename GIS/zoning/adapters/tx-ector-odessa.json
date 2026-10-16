@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-ector-odessa",
+  "publisher": "City of Odessa Geointelligence",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/96XBo0KviQ3nV6zg/ArcGIS/rest/services/ZoningDistrict_v2_public_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "48135"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Odessa zoning districts only (city limits; not county unincorporated land, which this layer does not cover). Served from the City of Odessa ArcGIS org. ZONECLASS = district code, ZONEDESC = description.",
+  "verification": {
+    "verified_at": 1792135699257,
+    "counties": [
+      "48135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

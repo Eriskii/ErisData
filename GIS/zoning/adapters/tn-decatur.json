@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-decatur",
+  "publisher": "Southeast Tennessee Development District (SETDD) for City of Decatur",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Decatur_Zoning_07082026/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47121"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "filter": "Zone_Curre NOT IN ('UNINC.','R-2','R-1')",
+  "notes": "City of Decatur zoning published by SETDD planning staff on ArcGIS Online. Filter drops the UNINC. area and polygons with invalid geometry in the source.",
+  "verification": {
+    "verified_at": 1792135996149,
+    "counties": [
+      "47121"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

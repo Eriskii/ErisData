@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-lexington-city",
+  "publisher": "City of Lexington, VA (Timmons-hosted City Zoning Map layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/yfkLAAFHvfaQckH1/arcgis/rest/services/Zoning/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51678"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning2010",
+    "zone_name": "Zoning2005"
+  },
+  "notes": "City of Lexington VA zoning map layer (hosted by Timmons Group for the city). Zone codes from Zoning2010 field (current map); zone_name from Zoning2005 descriptions. Overlay and historic layers 0-4 in the same service are not used.",
+  "verification": {
+    "verified_at": 1792135994255,
+    "counties": [
+      "51678"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

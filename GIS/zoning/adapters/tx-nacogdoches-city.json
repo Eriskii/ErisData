@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-nacogdoches-city",
+  "publisher": "City of Nacogdoches",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/yA8uipuHzEEjGgU1/arcgis/rest/services/Planning_Sync/FeatureServer/34",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48347"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "City of Nacogdoches zoning districts only (city limits; unincorporated county not covered by this layer). Published by city via Planning_Sync service. No zone name or jurisdiction field in source.",
+  "verification": {
+    "verified_at": 1792135708821,
+    "counties": [
+      "48347"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

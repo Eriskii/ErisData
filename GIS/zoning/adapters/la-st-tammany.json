@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-st-tammany",
+  "publisher": "St. Tammany Parish Planning & Development (via DesireLine LLC hosted service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/LJwIycC0yIuqCBxq/arcgis/rest/services/St_Tammany_Current_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID",
+    "zone_name": "ZONE_CLASS"
+  },
+  "notes": "Current parish zoning, updated monthly by Parish Planning & Development staff; hosted in a vendor org. ZONE_CLASS holds the district name (e.g. A-4 Single Family Residential). Layer is parish zoning; Slidell and other cities are not in it.",
+  "verification": {
+    "verified_at": 1792134416393,
+    "counties": [
+      "22103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

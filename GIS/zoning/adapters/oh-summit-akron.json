@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-summit-akron",
+  "publisher": "Summit County GIS (Akron zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/30",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "GOVERNMENT"
+  },
+  "notes": "City of Akron layer from Summit County GIS ZoningNov2025 service. Zone code in ZONE_; GOVERNMENT and HEIGHT also present.",
+  "verification": {
+    "verified_at": 1792135217909,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

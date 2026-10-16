@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "co-chaffee-salida",
+  "publisher": "City of Salida (CD_AGOL_MASTER_gdb, SalidaGISAdministrator)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/fRzYA77NIM7odeAM/arcgis/rest/services/CD_AGOL_MASTER_gdb/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Salida Community Development GIS repository, layer ZonesClip (zoning districts clipped to Salida city). Covers City of Salida only. Type field is not a district name (reads Parcel), so only the zone code is mapped.",
+  "verification": {
+    "verified_at": 1792133807296,
+    "counties": [
+      "08015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

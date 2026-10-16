@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ok-pontotoc-ada",
+  "publisher": "City of Ada GIS",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://maps.adaok.com:6443/arcgis/rest/services/Community_Devleopment/Zoning/MapServer/1/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "40123"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT_S"
+  },
+  "notes": "City of Ada zoning; static query export of the layer because spatial paging on server is unstable",
+  "verification": {
+    "verified_at": 1792135387214,
+    "counties": [
+      "40123"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

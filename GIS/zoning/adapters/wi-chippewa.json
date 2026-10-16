@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wi-chippewa",
+  "publisher": "Chippewa County (Zoning - Chippewa layer, hosted by Wisconsin PSC)",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://maps.psc.wi.gov/server/rest/services/Electric/WesternWisconsin_5CE158/MapServer/21/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "55017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTI",
+    "link": "LINK",
+    "zone": "ZONINGCLAS",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "Chippewa County general zoning, 2023 version, on Wisconsin PSC server; the ArcGIS query is read as one whole-layer GeoJSON download because the server refuses paging.",
+  "verification": {
+    "verified_at": 1792136083723,
+    "counties": [
+      "55017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

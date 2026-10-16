@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-logan-lincoln",
+  "publisher": "Logan County GIS (Illinois) - City of Lincoln zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/pPTAs43AFhhk0pXQ/arcgis/rest/services/Logan_County_Districts_and_Zoning/FeatureServer/49",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17107"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_ID"
+  },
+  "notes": "City of Lincoln zoning districts, as published in the Logan County GIS zoning layers.",
+  "verification": {
+    "verified_at": 1792134021706,
+    "counties": [
+      "17107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

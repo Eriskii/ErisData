@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ky-todd-county",
+  "publisher": "Todd County, KY (layer published by ArcGIS account julie.florez)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/jwzrOe0KKkRVU6Ib/arcgis/rest/services/Todd_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21219"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Copy of Todd County zoning hosted on ArcGIS Online by a personal account (julie.florez), not confirmed as the county own service; only zone code mapped. Unincorporated county districts.",
+  "verification": {
+    "verified_at": 1792134430321,
+    "counties": [
+      "21219"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

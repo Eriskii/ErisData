@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "37123",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.montgomerycountync.gov/departments/planning",
+    "https://www.webgis.net/nc/montgomery/",
+    "https://montnc-gis-montnc.hub.arcgis.com/",
+    "https://services6.arcgis.com/eNPJk90aMrXNOKF8/arcgis/rest/services/Montgomery_County_NC_Parcels/FeatureServer"
+  ],
+  "note": "Montgomery County NC zones its unincorporated land and Star, Biscoe, Candor, Troy and Mt. Gilead run their own zoning. Searched ArcGIS Hub/Online, the county hub, the county planning page and the WebGIS viewer, and the Town of Troy and Mt. Gilead sites. No queryable zoning-district service was found. The only county parcel service found (Garver) has no zoning attribute. Zoning appears only as ordinance text and PDF maps.",
+  "recorded_at": 1792135161809,
+  "recheck_after": 1807687161809,
+  "model": "claude-haiku-5-5"
+}

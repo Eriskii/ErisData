@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "me-piscataquis-lupc",
+  "publisher": "Maine Land Use Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/LUPC_TEST/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "filter": "END_DATE IS NULL AND PUBLISH = 'Yes' AND ZONE NOT LIKE 'P-WL%'",
+  "notes": "State LUPC zoning (layer LUPC_TEST on the Maine state ArcGIS Online organization) for the unorganized territories only; towns zone themselves. Current published districts; wetland overlay subdistricts (P-WL) excluded. Zone values carry a description after the colon.",
+  "verification": {
+    "verified_at": 1792134818114,
+    "counties": [
+      "23021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

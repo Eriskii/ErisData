@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-williamsburg-kingstree",
+  "publisher": "Town of Kingstree (via sroach_wrcog ArcGIS layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/GE9ucOFrMIud01KI/arcgis/rest/services/Kingstree_Zoning_Districts_2024_view/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45089"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Covers the Town of Kingstree only (county seat); no county-wide or unincorporated zoning layer found. Layer has zone code only, no district name or ordinance link. Source 2023 zoning districts, 34 features.",
+  "verification": {
+    "verified_at": 1792135382108,
+    "counties": [
+      "45089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

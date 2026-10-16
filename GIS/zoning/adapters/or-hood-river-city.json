@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "or-hood-river-city",
+  "publisher": "City of Hood River (GIS, Hood River County GIS hub)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/xtfQPw7zwSRPkcfN/arcgis/rest/services/Zoning_City_of_Hood_River/FeatureServer/80",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41027"
+    ]
+  },
+  "fields": {
+    "link": "Zoning_Website",
+    "zone": "Secondary",
+    "zone_name": "Description"
+  },
+  "notes": "City of Hood River zoning districts (city limits and Urban Growth Area) from the city layer on the county GIS hub. Secondary holds the district code (R-3); Code holds the municipal code section. Single-city layer, no jurisdiction field.",
+  "verification": {
+    "verified_at": 1792135917184,
+    "counties": [
+      "41027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

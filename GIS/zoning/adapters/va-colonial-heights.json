@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-colonial-heights",
+  "publisher": "City of Colonial Heights GIS (ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/xg1QZ4hgUiwl9v6R/arcgis/rest/services/City%20of%20Colonial%20Heights%20Zoning%20Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51570"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE"
+  },
+  "notes": "Last resort: parcel layer (7,675 parcels, March 2019) whose ZONINGCODE attribute carries each parcel zoning; no standalone district layer was found. Some codes contain embedded line breaks (e.g. R\\r\\nRL) and blanks. Published in the city ArcGIS Online organization.",
+  "verification": {
+    "verified_at": 1792135967427,
+    "counties": [
+      "51570"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

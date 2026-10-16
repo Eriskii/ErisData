@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-collin-frisco",
+  "publisher": "City of Frisco GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.friscotexas.gov/gis/rest/services/Public/External_Planning_and_Zoning/MapServer/32",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48085"
+    ]
+  },
+  "fields": {
+    "link": "ORD1Hyperlink",
+    "zone": "ZONE_"
+  },
+  "notes": "City of Frisco zoning districts (city limits; Frisco spans Collin and Denton counties). ZONE_ holds district code; PD and SUP are planned development and specific use permit overlays.",
+  "verification": {
+    "verified_at": 1792135687631,
+    "counties": [
+      "48085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

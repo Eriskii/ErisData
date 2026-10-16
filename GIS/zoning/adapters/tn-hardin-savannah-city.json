@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-hardin-savannah-city",
+  "publisher": "City of Savannah, TN (city ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/QuuhNNKD3xQ6RqEv/arcgis/rest/services/Savannah_Zoning_2021A_(Public)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47071"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "ZoneName"
+  },
+  "notes": "City of Savannah TN public zoning layer (Zoning2021A, 42 districts) hosted in the city ArcGIS Online organization. City limits only; unincorporated county land not included.",
+  "verification": {
+    "verified_at": 1792135954411,
+    "counties": [
+      "47071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

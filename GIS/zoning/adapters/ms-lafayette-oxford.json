@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ms-lafayette-oxford",
+  "publisher": "City of Oxford, MS (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/HJKXwJwr6cXL7ioD/arcgis/rest/services/EnerGov_Feature_Set_V2_View/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28071"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDist",
+    "zone_name": "Label"
+  },
+  "notes": "City of Oxford zoning districts (EnerGov feature set view). Covers city land only, not unincorporated county land.",
+  "verification": {
+    "verified_at": 1792134585699,
+    "counties": [
+      "28071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-madison-oneida",
+  "publisher": "Madison County Planning (for City of Oneida)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/yg1rUzGjBdSxKz2Z/arcgis/rest/services/Oneida__NY_Zoning_Map_WFL1/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36053"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Oneida inside corporation district zoning, prepared by Madison County Planning for the city planner. Outside-district layer is FeatureServer/2 (separate spec).",
+  "verification": {
+    "verified_at": 1792135048278,
+    "counties": [
+      "36053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-venango",
+  "publisher": "Venango County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Ih2bYtLfRTeIFJsS/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42121"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "CODE",
+    "zone_name": "Name"
+  },
+  "notes": "County-hosted reference map of zoning in the municipalities of Venango County (ArcGIS Online org of Venango County). Municipal zoning compiled from local ordinances; not every municipality may be included.",
+  "verification": {
+    "verified_at": 1792135321748,
+    "counties": [
+      "42121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

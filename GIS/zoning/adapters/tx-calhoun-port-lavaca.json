@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-calhoun-port-lavaca",
+  "publisher": "City of Port Lavaca (hosted by NLRGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/GuzKGtwBFbX83DiX/arcgis/rest/services/Port_Lavaca_Zoning/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48057"
+    ]
+  },
+  "fields": {
+    "zone": "DESC_"
+  },
+  "notes": "City of Port Lavaca zoning only (not county-wide). DESC_ holds the zoning code (LR, MR, HR, MF, MHP, MU, C, LI, I, OP, P, UNK); no separate name or ordinance link field.",
+  "verification": {
+    "verified_at": 1792135611758,
+    "counties": [
+      "48057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

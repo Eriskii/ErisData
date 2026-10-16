@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-steubenville-zoning",
+  "publisher": "City of Steubenville (hosted via ArcGIS public web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HKSS1oFEvjUe97xf/arcgis/rest/services/SteubenvilleWebMapPublicUpdate/FeatureServer/24",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39081"
+    ]
+  },
+  "fields": {
+    "zone": "LANDUSE",
+    "zone_name": "LANDUSE_DESCRIPTION"
+  },
+  "notes": "City of Steubenville zoning districts, carried as parcel polygons with the zoning code in LANDUSE (e.g. B-1, R1A, I2). Covers the city only; no county-wide or other-municipality zoning layer found in Jefferson County OH.",
+  "verification": {
+    "verified_at": 1792135230815,
+    "counties": [
+      "39081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

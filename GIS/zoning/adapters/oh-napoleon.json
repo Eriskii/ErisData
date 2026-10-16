@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-napoleon",
+  "publisher": "City of Napoleon, Ohio",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/H9Xtl4fSsD8t8NkV/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39069"
+    ]
+  },
+  "fields": {
+    "zone": "District",
+    "zone_name": "Description"
+  },
+  "notes": "City of Napoleon, OH zoning districts (city land only; Henry County layer covers unincorporated land, and is not queryable with valid polygons). Hosted by jmoll_napoleon on ArcGIS Online under the city name; the city is the publisher.",
+  "verification": {
+    "verified_at": 1792135276702,
+    "counties": [
+      "39069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

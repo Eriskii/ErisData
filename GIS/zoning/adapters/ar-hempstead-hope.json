@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ar-hempstead-hope",
+  "publisher": "City of Hope GIS (hopegis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/RVMSajYQji1bjmZ4/arcgis/rest/services/Current_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05057"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "TYPE"
+  },
+  "notes": "City of Hope zoning only (not county unincorporated land). Zone Type field is TYPE.",
+  "verification": {
+    "verified_at": 1792133752831,
+    "counties": [
+      "05057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

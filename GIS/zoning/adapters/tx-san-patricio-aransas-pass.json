@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-san-patricio-aransas-pass",
+  "publisher": "City of Aransas Pass, Texas (via Brodsgaard GCGS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/qKgjX3BrpaytwsgX/arcgis/rest/services/Aransas_Pass_Publication_Source_Map_2026_Q2_WFL1/FeatureServer/39",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48409"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "ZoneDescn"
+  },
+  "notes": "City of Aransas Pass zoning district classifications from the city publication source map (2026 Q2 draft, consultant-hosted for the city). Covers the city only; the city extends into San Patricio and Aransas counties.",
+  "verification": {
+    "verified_at": 1792135905831,
+    "counties": [
+      "48409"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

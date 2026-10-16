@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29071",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://services7.arcgis.com/HM4C7tGF5KT34U6h/arcgis/rest/services/Franklin_County_Data/FeatureServer/43",
+    "https://www.franklinmo.gov/201/Planning-Zoning-Department",
+    "https://www.washmo.gov/o/cw/page/mapping-portal"
+  ],
+  "note": "Only queryable zoning polygon layer (Franklin_County_Data/FeatureServer/43: 11 polygons, broad codes A/B/G/R/W/Y/CITY, no names) fails geometry validity in both GeoJSON and JSON (1-4 of 6-7 polygons valid). District-level zoning and the official zoning map are PDFs; county parcel MapServer on franklinmo.net unreachable; Washington, Union, Pacific, Sullivan, New Haven publish no zoning service.",
+  "recorded_at": 1792135090569,
+  "recheck_after": 1807687090569,
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ct-bridgeport",
+  "publisher": "City of Bridgeport GIS (BEGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/OW4xtrE9QlSWSIuq/arcgis/rest/services/Zoning_and_Land_Use/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09120"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_2021",
+    "zone_name": "Name"
+  },
+  "notes": "City of Bridgeport 2021 zoning, parcel-level polygons carrying each parcel zone (about 28,000 features); used because the district dissolve layers have invalid geometry. Name is the parcel ID, not a district description.",
+  "verification": {
+    "verified_at": 1792133845215,
+    "counties": [
+      "09120"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-washington",
+  "publisher": "Metro RLIS (regional zoning, Washington County jurisdictions)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/McQ0OlIABe29rJJy/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41067"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZONE",
+    "zone_name": "ZONE_CLASS"
+  },
+  "filter": "CITY IN ('Washington Co.','Beaverton','Hillsboro','Tigard','Tualatin','Sherwood','Forest Grove','Cornelius','North Plains','Banks','Durham','Rivergrove','King City','Gaston')",
+  "notes": "Metro RLIS regional zoning compilation; CITY names the jurisdiction. Washington County jurisdictions selected by CITY. zone_name holds ZONE_CLASS (class code), not the full district name.",
+  "verification": {
+    "verified_at": 1792135308759,
+    "counties": [
+      "41067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

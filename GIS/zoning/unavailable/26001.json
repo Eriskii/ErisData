@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "26001",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://alconacountymi.com/wp-content/uploads/2018/01/Zoning.pdf",
+    "https://harrisvillemi.org/zoning/",
+    "https://alconatownship.com/ordinances/",
+    "https://portal1-geo.sabu.mtu.edu/server/rest/services/MICARES/Township_Zoning/FeatureServer"
+  ],
+  "note": "Alcona County does not zone; zoning is handled township by township under Michigan law. The county's zoning-administrator list is a PDF. The City of Harrisville publishes its zoning map only as a static PDF (ZONING ORDINANCES MAP) and no GIS layer. Alcona Township and other townships publish ordinances and district maps as PDF/static images. A Michigan Tech hosted Township_Zoning FeatureServer appeared in search but returns HTTP 500 'GISService not instantiated' on every request, so it is not queryable. No ArcGIS REST zoning district layer for Alcona County or its cities was found in ArcGIS Hub/Online searches.",
+  "recorded_at": 1792132424681,
+  "recheck_after": 1807684424681,
+  "model": "claude-haiku-5-5"
+}

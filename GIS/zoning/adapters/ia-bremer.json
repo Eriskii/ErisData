@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ia-bremer",
+  "publisher": "Bremer County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/5fdnasK4g70Ve01j/arcgis/rest/services/Bremer_County_Reference_Map/FeatureServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19017"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Bremer County Reference Map service, Zoning layer (county-published). Covers unincorporated county land; Waverly zones separately in layer 24.",
+  "verification": {
+    "verified_at": 1792133712163,
+    "counties": [
+      "19017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

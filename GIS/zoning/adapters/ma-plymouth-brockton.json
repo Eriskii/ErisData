@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ma-plymouth-brockton",
+  "publisher": "City of Brockton (copy hosted by KEA, Zoning_AGOL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/3RiQsDoOeneF0Q0P/arcgis/rest/services/Zoning_AGOL/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25023"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "ZONE_"
+  },
+  "notes": "City of Brockton zoning districts (135 polygons) as published in a consultant zoning-comparison service (KEA, ArcGIS Online item Zoning_AGOL); not the city own service. City zoning map otherwise only PDF. Brockton only; no county zoning in Massachusetts counties.",
+  "verification": {
+    "verified_at": 1792134569862,
+    "counties": [
+      "25023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

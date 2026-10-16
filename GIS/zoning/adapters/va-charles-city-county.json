@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-charles-city-county",
+  "publisher": "Charles City County GIS (parcel layer carrying zoning attribute)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/7ELQsoO4nWXrJNri/arcgis/rest/services/Parcels_Clean/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51036"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Dist",
+    "zone": "Zoning"
+  },
+  "notes": "No dedicated county zoning district layer found on the county ArcGIS server; this is the parcel layer whose Zoning attribute carries each parcel's district code (e.g. A-1, B-1). Parcel polygons dissolve to zoning areas. Dist is the election/tax district, not a jurisdiction; county zones unincorporated land only.",
+  "verification": {
+    "verified_at": 1792135913504,
+    "counties": [
+      "51036"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

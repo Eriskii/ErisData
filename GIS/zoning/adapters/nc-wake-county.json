@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-wake-county",
+  "publisher": "Wake County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.wake.gov/arcgis/rest/services/Planning/Zoning/MapServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37183"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS"
+  },
+  "notes": "Unincorporated Wake County zoning districts only; municipalities zone their own. CLASS holds district code e.g. R-30, CU-HC.",
+  "verification": {
+    "verified_at": 1792130872038,
+    "counties": [
+      "37183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

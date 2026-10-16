@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mt-carbon-red-lodge",
+  "publisher": "Carbon County GIS (CarbonFire) for City of Red Lodge",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/lo6DwqkHoBfbpsNX/arcgis/rest/services/Red_Lodge_Zoning_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30009"
+    ]
+  },
+  "fields": {
+    "zone": "LANDUSECOD",
+    "zone_name": "LANDUSEDES"
+  },
+  "notes": "City of Red Lodge zoning published as parcels carrying the current zoning district (parcel polygons, not district outlines; last-resort parcel layer). Zone codes from LANDUSECOD.",
+  "verification": {
+    "verified_at": 1792134905845,
+    "counties": [
+      "30009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

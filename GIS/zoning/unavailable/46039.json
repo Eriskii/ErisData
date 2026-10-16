@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "46039",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.1stdistrict.org/arcgis/rest/services/Deuel/deuelmapnet/FeatureServer/29",
+    "https://www.1stdistrict.org/deuelts/",
+    "https://www.deuelcountysd.com/planning-and-zoning",
+    "https://clearlakesd.com/zoning/"
+  ],
+  "note": "Deuel County MapNet (1stdistrict.org) lists a County Zoning layer (FeatureServer ID 29), but the service returns 'Service not started' / 'Error performing query operation' (HTTP 500) and the services directory is disabled (403), so no zoning polygons can be queried. County zoning map is only in the 2004 ordinance PDFs; Clear Lake publishes its Official Zoning Map only as a static PDF. No other public zoning service found for Deuel County or Clear Lake.",
+  "recorded_at": 1792135434874,
+  "recheck_after": 1807687434874,
+  "model": "claude-haiku-5-5"
+}

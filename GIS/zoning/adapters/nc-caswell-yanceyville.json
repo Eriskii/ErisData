@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-caswell-yanceyville",
+  "publisher": "Caswell County GIS (City Zoning layer, Town of Yanceyville area)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/qIxONdgChJ7eng3H/arcgis/rest/services/City_Zoning/FeatureServer/20",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37033"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "Hosted on an ArcGIS Online item by user MickiJ, described as authoritative for Caswell County; appears to cover the Town of Yanceyville (125 features, CENTRAL BUSINESS etc.). No official county/town ArcGIS zoning service found; county planning page says Yanceyville is zoned. No jurisdiction field.",
+  "verification": {
+    "verified_at": 1792135073359,
+    "counties": [
+      "37033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

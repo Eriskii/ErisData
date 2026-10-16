@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-okeechobee",
+  "publisher": "Okeechobee County Planning and Zoning (OkeechobeePlanning ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/jE4lvuOFtdtz6Lbl/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12093"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "County-published zoning layer hosted on the county's ArcGIS Online organization. No jurisdiction field; city-zoned land may be absent.",
+  "verification": {
+    "verified_at": 1792133841068,
+    "counties": [
+      "12093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

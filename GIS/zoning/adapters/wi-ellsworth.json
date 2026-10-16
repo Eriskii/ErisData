@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-ellsworth",
+  "publisher": "Village of Ellsworth",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/d9NFC3dGGyubGt2C/arcgis/rest/services/Zoning_Layers_view/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55093"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Ellsworth zoning (parcel-level polygons), hosted in village ArcGIS Online org",
+  "verification": {
+    "verified_at": 1792136462790,
+    "counties": [
+      "55093"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

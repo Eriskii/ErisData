@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "28017",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.houston.ms.gov/index.php/zoning-maps",
+    "https://okolona.squarespace.com/s/Okolona-Zoning-Ordinance.pdf",
+    "https://chickasawms.maps.arcgis.com/apps/webappviewer/index.html"
+  ],
+  "note": "Chickasaw County (MS) does not publish a queryable zoning district layer. County GIS is a parcel viewer (chickasawms.maps.arcgis.com) with no zoning service; its org search returns no public items. The county does not zone; the city of Okolona publishes its zoning ordinance only as a PDF, and the City of Houston publishes its zoning map only as a PDF (houston.ms.gov). No ArcGIS REST zoning district layer was found for Okolona, Houston, Van Vleet or Egypt in ArcGIS Hub/Online searches. Only a non-official demo parcel service (Esri Demo_Parcels) carries zoning attributes, and it is not an official source.",
+  "recorded_at": 1792134604770,
+  "recheck_after": 1807686604770,
+  "model": "claude-haiku-5-5"
+}

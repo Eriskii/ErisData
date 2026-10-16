@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nh-cheshire-keene",
+  "publisher": "City of Keene, NH (KGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/QKs1u1Zs6RQO4G4r/arcgis/rest/services/revisedexistingzoning102020_(2)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33005"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_ABRV",
+    "zone_name": "ZONE_TEXT"
+  },
+  "notes": "City of Keene existing zoning districts (2020 revision); covers Keene only. Other Cheshire County towns zone separately and are not in this layer.",
+  "verification": {
+    "verified_at": 1792134964430,
+    "counties": [
+      "33005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

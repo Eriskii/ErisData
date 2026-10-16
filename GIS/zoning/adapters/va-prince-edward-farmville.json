@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-prince-edward-farmville",
+  "publisher": "Town of Farmville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/LZZ0hmp6l8xd5CDg/arcgis/rest/services/Farmville_WL_D/FeatureServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51147"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Town of Farmville zoning districts from the town GIS service (GIS Mapping Farmville, hosted by the town). Covers only the town of Farmville, not the county.",
+  "verification": {
+    "verified_at": 1792135967010,
+    "counties": [
+      "51147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

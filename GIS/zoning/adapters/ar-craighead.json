@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ar-craighead",
+  "publisher": "Jonesboro Zoning (ArcGIS Online copy by PDyment)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/KAS2Ol4X7Ca0Dta5/arcgis/rest/services/Jonesboro_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Personal ArcGIS Online copy of Jonesboro zoning uploaded by PDyment, not an official city layer; used because no official queryable layer was found. Covers Jonesboro city land only; no zone name field.",
+  "verification": {
+    "verified_at": 1792133779793,
+    "counties": [
+      "05031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

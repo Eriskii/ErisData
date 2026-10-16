@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-cabarrus-harrisburg",
+  "publisher": "Town of Harrisburg GIS (via Cabarrus County open data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://location.cabarruscounty.us/arcgisservices/rest/services/opendata/MapServer/37",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE",
+    "zone_name": "ZONING_GEN"
+  },
+  "notes": "Town of Harrisburg zoning districts from Cabarrus County open data layer 37.",
+  "verification": {
+    "verified_at": 1792135112395,
+    "counties": [
+      "37025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

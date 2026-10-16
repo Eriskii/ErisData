@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-wharton-el-campo",
+  "publisher": "City of El Campo GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/HNMIfnmUIg26wHJa/arcgis/rest/services/Zoning_7_1_2024/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48481"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "landuse"
+  },
+  "notes": "City of El Campo zoning districts only (city limits, not unincorporated Wharton County). Layer updated 7/1/2024. Covers El Campo only; no county-wide or Wharton City zoning service found.",
+  "verification": {
+    "verified_at": 1792135846036,
+    "counties": [
+      "48481"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

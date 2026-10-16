@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-lassen-susanville",
+  "publisher": "City of Susanville (layer published by city planning account pcombs1 on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/J1Locv0GPOt6yBRR/arcgis/rest/services/zoning_susanville/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06035"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Susanville city zoning districts (2025 web map Susanville_Zoning), 532 polygons, uploaded to ArcGIS Online by an individual account (pcombs1), not a county service. Only zoning-district polygon layer found queryable for Lassen County; county zoning (Lassen Planning Dept GIS dataset per County Code 18.10.020) is not publicly served (the county Planning_General_Features service requires a token). No zone_name or jurisdiction field in source. Unincorporated county zoning not covered.",
+  "verification": {
+    "verified_at": 1792134208053,
+    "counties": [
+      "06035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

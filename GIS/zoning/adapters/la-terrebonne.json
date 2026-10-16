@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "la-terrebonne",
+  "publisher": "Terrebonne Parish Consolidated Government",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.tpcg.org/server/rest/services/General/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22109"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_class"
+  },
+  "notes": "Parcel-level zoning polygons from the parish GIS (sde Zoning), sourced from Assessor; Account_Nu is the parcel account. No zone name or ordinance link field published. Covers unincorporated and municipal land in the parish.",
+  "verification": {
+    "verified_at": 1792134423026,
+    "counties": [
+      "22109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

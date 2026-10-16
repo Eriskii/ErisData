@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "26129",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://app.fetchgis.com/?currentMap=ogemaw",
+    "https://www.ocmi.us/zoning/",
+    "https://www.westbranch.com/zoning/"
+  ],
+  "note": "Ogemaw County's GIS is a FetchGIS web viewer (app.fetchgis.com, currentMap=ogemaw) with a Zoning field in its parcel panel; no ArcGIS REST service, download, or open-data zoning district layer found for the county. ocmi.us publishes zoning only as PDF (1997 ordinance, 2016 master plan maps). West Branch city points to the same FetchGIS viewer. ArcGIS searches for Ogemaw zoning returned no district layer.",
+  "recorded_at": 1792132441451,
+  "recheck_after": 1807684441451,
+  "model": "claude-haiku-5-5"
+}

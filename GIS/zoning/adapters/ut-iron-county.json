@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ut-iron-county",
+  "publisher": "Iron County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ironcounty.net/server/rest/services/Iron_County_Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49021"
+    ]
+  },
+  "fields": {
+    "zone": "Name"
+  },
+  "notes": "Iron County Zoning 2023 layer (county zoning districts; unincorporated county). Name holds district code such as R-5, C, A-20. No description field.",
+  "verification": {
+    "verified_at": 1792135868919,
+    "counties": [
+      "49021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

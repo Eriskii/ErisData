@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "04001",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.apachecountyaz.gov/GIS",
+    "https://www.apachecountyaz.gov/gis-mapping",
+    "https://maps.apachecountyaz.gov/arcgis/rest/services",
+    "https://maps.apachecountyaz.gov/arcgis/rest/services/Hosted",
+    "https://maps.apachecountyaz.gov/arcgis/rest/services/Hosted/Parcel_Main/FeatureServer/0",
+    "https://www.apachecountyaz.gov/community-development"
+  ],
+  "note": "Apache County GIS server (maps.apachecountyaz.gov) publishes parcels, roads, districts, city boundaries, but no zoning district layer; its Hosted folder has no zoning service and Parcel_Main has no zoning field; the Utilities folder requires a token. The county zoning ordinance is a PDF only (community-development page). Eagar and St. Johns zoning is only a PDF map (eagaraz.gov) or unreadable storymap; Springerville GIS Map link has no URL. Parcel viewer jt.co.apache.az.us exposes no ArcGIS REST service.",
+  "recorded_at": 1792133727884,
+  "recheck_after": 1807685727884,
+  "model": "claude-haiku-5-5"
+}

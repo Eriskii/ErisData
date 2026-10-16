@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-dodge",
+  "publisher": "Dodge County GIS (hosted by Goodhue County)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://publicmaps.co.goodhue.mn.us/arcgis/rest/services/DodgeCounty/County_Layers/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27039"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALI",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "One county layer of unincorporated zoning plus city land. ZONECODE holds district codes (A, R, X, H, I, C, S, XR, CLR) only for unincorporated land; city features carry ZONEDESC City with blank ZONECODE, so zone code is not mapped for them. OVERLAY 0 = base districts. Served from Goodhue County ArcGIS host.",
+  "verification": {
+    "verified_at": 1792134483927,
+    "counties": [
+      "27039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

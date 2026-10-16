@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nj-passaic-west-milford",
+  "publisher": "Township of West Milford (layer by jkennedy_SpatialDataLogic, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/DvTqoyLKkslnGFR5/arcgis/rest/services/West_Milford_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "West Milford Township zoning districts, copied on ArcGIS Online by a consultant account (not the township); only West Milford land. No zone_name field in the source.",
+  "verification": {
+    "verified_at": 1792135032454,
+    "counties": [
+      "34031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

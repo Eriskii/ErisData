@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-manassas-city",
+  "publisher": "City of Manassas GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/3wpOgOChiWXPeFWB/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51683"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Code",
+    "zone_name": "ZONING_DESC"
+  },
+  "notes": "City of Manassas own zoning layer; independent city so no county zoning. About 13660 district polygons, parcel-scale, each carrying its district code.",
+  "verification": {
+    "verified_at": 1792135966889,
+    "counties": [
+      "51683"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

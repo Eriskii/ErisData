@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-brown",
+  "publisher": "Brown County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.browncountymn.gov/server/rest/services/Hosted/Zoning_Districts/FeatureServer/74",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWNSHIP",
+    "zone": "ZONE"
+  },
+  "notes": "Brown County GIS zoning districts layer (186 polygons, county-hosted). ZONE holds the district code; TOWNSHIP names the township whose zoning it is. zone_name not published (ZONE2 is blank). Cities such as New Ulm, Sleepy Eye and Springfield zone themselves and are not in this layer.",
+  "verification": {
+    "verified_at": 1792134872990,
+    "counties": [
+      "27015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

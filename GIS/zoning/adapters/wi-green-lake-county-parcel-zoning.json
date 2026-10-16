@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-green-lake-county-parcel-zoning",
+  "publisher": "Green Lake County (greenlakedpw ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/rOcU2BSg8NccU249/arcgis/rest/services/TaxParcel/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55047"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI_DIST_NM",
+    "link": "ZoningLandUseURL",
+    "zone": "Zoning"
+  },
+  "notes": "Fallback: county tax parcel layer carrying each parcel zoning attribute, used because the county ZoningDistrict layer (gis.co.green-lake.wi.us PARCEL MapServer/58) is unreachable. Parcel polygons, not district polygons.",
+  "verification": {
+    "verified_at": 1792136480868,
+    "counties": [
+      "55047"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

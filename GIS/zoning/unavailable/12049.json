@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "12049",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.hardeecountyfl.gov/departments-services/community-development/geographic-information-systems/",
+    "https://gis.hardeecounty.net/arcgis/rest/services/LandUseZoning/MapServer",
+    "https://gis.hardeecounty.net/arcgis/rest/services/InfoMap/MapServer/14",
+    "https://www25.swfwmd.state.fl.us/arcgis12/rest/services/BaseVector/parcel_search/MapServer/4",
+    "http://www25.swfwmd.state.fl.us/arcgiswmis/rest/services/r27/LocationInfo/MapServer/68"
+  ],
+  "note": "Hardee County's own zoning service (gis.hardeecounty.net LandUseZoning and InfoMap layer 14) was listed but unreachable from our tools and the validator at every URL tried. The only queryable county layers are SWFWMD parcel layers whose ZONING field is empty (0 of 145 parcels). The county zoning code is only in the adopted Land Development Code PDF. Cities (Wauchula, Zolfo Springs, Bowling Green) have no queryable zoning layer found.",
+  "recorded_at": 1792133917533,
+  "recheck_after": 1807685917533,
+  "model": "claude-haiku-5-5"
+}

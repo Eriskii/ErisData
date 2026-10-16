@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-mecklenburg-charlotte",
+  "publisher": "Mecklenburg County GIS / City of Charlotte",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://meckgis.mecklenburgcountync.gov/server/rest/services/CityofCharlotteZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37119"
+    ]
+  },
+  "fields": {
+    "zone": "zonedes",
+    "zone_name": "zoneclass"
+  },
+  "notes": "City of Charlotte and planning area zoning districts, published by Mecklenburg County GIS. zonedes holds the district code; zoneclass the class name. Towns and unincorporated areas are not in this layer.",
+  "verification": {
+    "verified_at": 1792135096025,
+    "counties": [
+      "37119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

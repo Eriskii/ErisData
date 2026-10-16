@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "35037",
+  "reason": "login-required",
+  "evidence": [
+    "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/20",
+    "https://gis.ose.nm.gov/server_s/rest/services/Hosted/County_Parcels_2024/FeatureServer",
+    "https://www.quaycounty-nm.gov/gis-mapping/"
+  ],
+  "note": "Quay County (NM) publishes no queryable zoning district layer. Its only zoning attributes are in the statewide parcel layers (Quay = layer 20, fields ZoningCode/ZoningDescription), but the state MapServer answers 'not started' / 'not found' and the hosted FeatureServer requires a token. The county GIS page links only to an Experience Builder assessor viewer. Tucumcari, Logan and House publish no zoning GIS layer found in search; Tucumcari's zone map is a document only.",
+  "recorded_at": 1792135055250,
+  "recheck_after": 1807687055250,
+  "model": "claude-haiku-5-5"
+}

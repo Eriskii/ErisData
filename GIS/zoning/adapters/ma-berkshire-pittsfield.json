@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ma-berkshire-pittsfield",
+  "publisher": "MassGIS (Massachusetts Property Tax Parcels, Level 3 assessor data) for the City of Pittsfield",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/hGdibHYSPO59RG1h/arcgis/rest/services/Massachusetts_Property_Tax_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "USE_DESC"
+  },
+  "filter": "TOWN_ID = 236",
+  "notes": "Fallback: no district layer found for Pittsfield. This is a PARCEL layer; each parcel carries its assessor zoning code in ZONING (e.g. R12, IL), not district polygons. Pittsfield zoning districts are not published as a queryable service (the city links only a PDF map and GIS Parcel Viewer). Source is MassGIS statewide parcels filtered to TOWN_ID 236 (Pittsfield). Dissolving parcels by ZONING would give districts.",
+  "verification": {
+    "verified_at": 1792134675176,
+    "counties": [
+      "25003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

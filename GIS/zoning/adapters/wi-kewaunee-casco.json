@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-kewaunee-casco",
+  "publisher": "Kewaunee County (Town of Casco zoning, county public view)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/OVykjebCTL9ZTdn8/arcgis/rest/services/Kewaunee_County_Zoning_public_view/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55061"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Kewaunee County Zoning public view, layer 7 = Town of Casco only. Only zone code field is published; no name or ordinance link.",
+  "verification": {
+    "verified_at": 1792136050647,
+    "counties": [
+      "55061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

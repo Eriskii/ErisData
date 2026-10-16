@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29173",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://rallsgis.integritygis.com/H5/Index.html",
+    "https://rallscountymo.gov/forms/planningzoning.pdf",
+    "https://rallsgis.integritygis.com/Geocortex/Essentials/REST/sites/Ralls_County_MO/map"
+  ],
+  "note": "County zoning exists only as a PDF order/map. Only the City of Perry zoning layer (Integrity GIS Geocortex viewer, layer 53 of Ralls_Assessor_Data) exists, and its host services.integritygis.com is unreachable (all requests fail, including from the validator). No other city (New London, Center) publishes a GIS layer. Not on services2-5 hosts.",
+  "recorded_at": 1792134995536,
+  "recheck_after": 1807686995536,
+  "model": "claude-sonnet-5-5"
+}

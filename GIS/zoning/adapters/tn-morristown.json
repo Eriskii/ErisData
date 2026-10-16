@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tn-morristown",
+  "publisher": "Morristown-Hamblen GIS (MHGIS) for City of Morristown",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.mh-gis.com/server/rest/services/LandUsePlanning/ZoningDistricts/FeatureServer/3",
+    "page_size": 17,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47063"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "LG_Base.DBO.Zoning_all.Entity",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Morristown zoning districts, from the MHGIS ZoningDistricts service (layer 3). Page size 17 because the server returns 17 records per page.",
+  "verification": {
+    "verified_at": 1792135503358,
+    "counties": [
+      "47063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

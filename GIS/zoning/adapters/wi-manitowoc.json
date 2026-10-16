@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-manitowoc",
+  "publisher": "Manitowoc County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/ceC3pbsIeU7iCdFg/arcgis/rest/services/County_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZONING"
+  },
+  "notes": "County GIS zoning layer (county-hosted). Holds county zoning plus municipal zoning where adopted; MUNI names the jurisdiction. Check whether City of Manitowoc is included.",
+  "verification": {
+    "verified_at": 1792136044229,
+    "counties": [
+      "55071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

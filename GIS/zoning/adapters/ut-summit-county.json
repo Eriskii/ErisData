@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ut-summit-county",
+  "publisher": "Summit County, Utah (Snyderville Basin Planning District)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/gyfpgFh2Wj2gglYD/arcgis/rest/services/Zoning_Service/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49043"
+    ]
+  },
+  "fields": {
+    "link": "DescLink",
+    "zone": "Zone_",
+    "zone_name": "Description"
+  },
+  "notes": "Snyderville Basin planning district base zoning (unincorporated west county); hosted by the county GIS owner jmward. Eastern district is a separate layer (ut-summit-county-east).",
+  "verification": {
+    "verified_at": 1792135841433,
+    "counties": [
+      "49043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

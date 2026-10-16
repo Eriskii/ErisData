@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-norfolk",
+  "publisher": "City of Norfolk GIS / Department of Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisshare.norfolk.gov/pubserver/rest/services/OpenData/Planning/FeatureServer/1",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51710"
+    ]
+  },
+  "fields": {
+    "link": "url",
+    "zone": "ZONE",
+    "zone_name": "TYPE"
+  },
+  "notes": "City of Norfolk base zoning districts, official city layer. zone_name field TYPE holds district type/description as published.",
+  "verification": {
+    "verified_at": 1792135975604,
+    "counties": [
+      "51710"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

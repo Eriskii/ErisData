@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-isle-of-wight",
+  "publisher": "Isle of Wight County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Dc6hhMQCpvLlOmSY/arcgis/rest/services/IOW_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51093"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "No county district layer is published; this is the county parcel layer whose ZONING attribute carries each parcel zoning code (parcel-based fallback). Unincorporated county only; towns such as Smithfield and Windsor zone their own land. Zoning names not provided in source.",
+  "verification": {
+    "verified_at": 1792135938573,
+    "counties": [
+      "51093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

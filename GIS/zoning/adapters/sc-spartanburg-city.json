@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-spartanburg-city",
+  "publisher": "City of Spartanburg GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/HoRra3ATPLGmyjn6/arcgis/rest/services/City_of_Spartanburg_Zoning_Layer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_1"
+  },
+  "notes": "City of Spartanburg zoning districts layer (1154 polygons), city-published. Only the zone code is provided; no name or ordinance link fields. County unincorporated zoning (PZO/ULMO) not found as a queryable district layer; IZM_Districts holds only the ordinance-area boundaries.",
+  "verification": {
+    "verified_at": 1792135397682,
+    "counties": [
+      "45083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

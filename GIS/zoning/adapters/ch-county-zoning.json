@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ch-county-zoning",
+  "publisher": "Charles County Government (Department of Planning and Growth Management)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/3BMWkdyrt45RNCrq/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24017"
+    ]
+  },
+  "fields": {
+    "link": "Zone_Reg",
+    "zone": "ZONING",
+    "zone_name": "ZONE"
+  },
+  "notes": "Charles County official zoning districts per the Charles County Zoning Ordinance maps, county ordinance codes (e.g. CN, CV, RL, IG). Covers the county zoning; the state Generalized Zoning layer is a separate, generalized product.",
+  "verification": {
+    "verified_at": 1792134828383,
+    "counties": [
+      "24017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

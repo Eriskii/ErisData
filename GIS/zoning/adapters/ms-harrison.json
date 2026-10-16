@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-harrison",
+  "publisher": "Harrison County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geo.co.harrison.ms.us/server/rest/services/District/Zoning/MapServer/1",
+    "page_size": 16,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Harrison County MS zoning districts from county GIS Zoning Districts layer; not the official zoning map; amendments through approx 2015. zone_name and link are mostly blank in source.",
+  "verification": {
+    "verified_at": 1792134568148,
+    "counties": [
+      "28047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

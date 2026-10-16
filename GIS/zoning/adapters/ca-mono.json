@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-mono",
+  "publisher": "Mono County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mono.ca.gov/webgis/rest/services/OpenData/Planning/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06051"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Mono County unincorporated base zoning districts (Zoning Blocks layer, 19 district codes such as R, RR, RMF-1, OS). Incorporated Mammoth Lakes zones itself and is not in this layer. No zone_name or ordinance link fields in source.",
+  "verification": {
+    "verified_at": 1792134063062,
+    "counties": [
+      "06051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

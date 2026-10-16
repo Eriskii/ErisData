@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29105",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services5.integritygis.com/arcgis/rest/services/MO/Laclede_Assessor_Data/MapServer",
+    "https://www.gis-portal.org/mo-laclede-county/",
+    "https://assessorsearch.com/property-records/missouri/laclede-county",
+    "https://www.lebanonmissouri.org/366/Maps"
+  ],
+  "note": "Laclede County's GIS services sit behind a token (assessor MapServer returns Token Required) and list no zoning layer; the county has no county-wide zoning portal. City of Lebanon links a zoning map page, but no queryable zoning district service was found there or in ArcGIS Online.",
+  "recorded_at": 1792134835978,
+  "recheck_after": 1807686835978,
+  "model": "claude-haiku-5-5"
+}

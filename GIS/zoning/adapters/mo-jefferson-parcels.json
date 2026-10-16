@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-jefferson-parcels",
+  "publisher": "Jefferson County, MO (UDO GIS / Assessor)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ur3TPhgM56qvxaar/arcgis/rest/services/UDO_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29099"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "Parcel-level layer of the county UDO_Zoning service: each parcel carries its zoning district code in Zoning and description in Zone_Description. Used because it is the complete zoning layer; the Split Zoning layer (FeatureServer/0) holds only 1,991 split parcels. Polygons are parcels, not dissolved districts. Municipality mostly empty; cities may not be fully covered.",
+  "verification": {
+    "verified_at": 1792134678391,
+    "counties": [
+      "29099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

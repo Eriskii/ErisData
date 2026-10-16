@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13221",
+  "reason": "login-required",
+  "evidence": [
+    "https://services1.arcgis.com/IX9GvidKl201KteW/arcgis/rest/services/Zoning_Districts/FeatureServer",
+    "https://services1.arcgis.com/IX9GvidKl201KteW/arcgis/rest/services/The_Official_Zoning_Map_of_Oglethorpe_County__Georgia_WFL1/FeatureServer",
+    "https://www.oglethorpecountyga.gov/planning"
+  ],
+  "note": "Oglethorpe County's official zoning districts are published by the county (mspoonerOCBOC ArcGIS Online org) as 'Zoning_Districts' and 'The Official Zoning Map of Oglethorpe County_ Georgia_WFL1' feature services, but both return 'Token Required' (code 499) on every query, and the item data download returns 403 'Subscription is disabled'. The county's zoning map viewer is a qPublic (Schneider) app that is behind a Cloudflare check and draws from no public service. No public, unauthenticated zoning district service was found, so the county is recorded as login-required.",
+  "recorded_at": 1792133950666,
+  "recheck_after": 1807685950666,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-castle-rock",
+  "publisher": "Town of Castle Rock GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.crgov.com/web/rest/services/DataCatalog/CR_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "08035"
+    ]
+  },
+  "fields": {
+    "link": "ZONING_URL",
+    "zone": "ZONING_CODE",
+    "zone_name": "TYPE"
+  },
+  "notes": "Town of Castle Rock zoning districts (publish.GISADMIN.ZONING) within Castle Rock; the Douglas County layer does not cover town land.",
+  "verification": {
+    "verified_at": 1792133808198,
+    "counties": [
+      "08035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

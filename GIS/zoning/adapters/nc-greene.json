@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-greene",
+  "publisher": "Greene County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/nJbIFHiSnaX0z0hS/arcgis/rest/services/Greene_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37079"
+    ]
+  },
+  "fields": {
+    "zone": "NAME"
+  },
+  "notes": "County_Zoning layer (485 features) in a county-GIS-hosted services org; NAME carries district code and description, e.g. (AR) AG/RURAL. Covers county zoning; municipal zoning not included. Provenance of hosting org to confirm.",
+  "verification": {
+    "verified_at": 1792135088164,
+    "counties": [
+      "37079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

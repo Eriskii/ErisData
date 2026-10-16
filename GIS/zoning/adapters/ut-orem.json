@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-orem",
+  "publisher": "Orem City (Utah County GIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/53",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_OR_LABEL",
+    "zone_name": "ZONE_OR_DESC"
+  },
+  "notes": "Orem City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer.",
+  "verification": {
+    "verified_at": 1792135946477,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

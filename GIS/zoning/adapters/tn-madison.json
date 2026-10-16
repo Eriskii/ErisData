@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-madison",
+  "publisher": "Madison County TN (copy hosted by pwpacker66 on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/k6aQP9AQncZQEtBv/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47113"
+    ]
+  },
+  "fields": {
+    "zone": "Type_"
+  },
+  "notes": "Personal ArcGIS Online copy titled Zoning, described as zoning classifications for Madison County, TN; no official county service found. 728 polygons; zone from Type_. Official county zoning is PDF-only (Outer Region resolution). Single-jurisdiction labels not provided.",
+  "verification": {
+    "verified_at": 1792135559658,
+    "counties": [
+      "47113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

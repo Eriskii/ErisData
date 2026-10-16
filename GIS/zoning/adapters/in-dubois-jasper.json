@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-dubois-jasper",
+  "publisher": "City of Jasper, Indiana",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.jasperindiana.gov/server/rest/services/CommDevPlanningDept/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18037"
+    ]
+  },
+  "fields": {
+    "zone": "district"
+  },
+  "notes": "City of Jasper zoning districts only (not the whole county); no ordinance link field in source.",
+  "verification": {
+    "verified_at": 1792134112283,
+    "counties": [
+      "18037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

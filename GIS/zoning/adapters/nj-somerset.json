@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nj-somerset",
+  "publisher": "Somerset County GIS (NJOGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/2g2XvfUywwLJoF2c/arcgis/rest/services/Somerset_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34035"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUN",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESCRIPTION"
+  },
+  "notes": "County-wide parcel-referenced zoning layer covering all municipalities, keyed by MUN/MUN_CODE. Hosted by the county GIS office (SomersetAdmin); service text says it is not an official zoning dataset.",
+  "verification": {
+    "verified_at": 1792134968247,
+    "counties": [
+      "34035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

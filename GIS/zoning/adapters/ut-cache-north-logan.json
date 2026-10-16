@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ut-cache-north-logan",
+  "publisher": "North Logan City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/w3P61ZsUVtl411Ls/arcgis/rest/services/North_Logan_/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city_name",
+    "zone": "zone_code",
+    "zone_name": "zone_type"
+  },
+  "notes": "North Logan city zoning districts, published via ArcGIS Online by the city (zachleavitt_utcdo). Covers North Logan only. Density in field density.",
+  "verification": {
+    "verified_at": 1792135961626,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

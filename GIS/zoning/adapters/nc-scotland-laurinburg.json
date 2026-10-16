@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-scotland-laurinburg",
+  "publisher": "City of Laurinburg / Scotland County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/bgKigTDifCMNj8OU/arcgis/rest/services/Zoning_Laurinburg_-_Public_View/FeatureServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37165"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Laurinburg zoning parcels (layer holds parcel-level zoning for the City of Laurinburg and its ETJ). Zone code only; no district name field. Hosted by Laurinburg-Scotland County GIS.",
+  "verification": {
+    "verified_at": 1792135101284,
+    "counties": [
+      "37165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

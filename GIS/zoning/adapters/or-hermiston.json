@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "or-hermiston",
+  "publisher": "City of Hermiston",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/tNPgIZWOB0Efvm0g/arcgis/rest/services/Hermiston_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "41059"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MERGE_SRC",
+    "zone": "MERGE_SRC",
+    "zone_name": "MERGE_SRC"
+  },
+  "notes": "City of Hermiston zoning layer hosted on Umatilla County ArcGIS organization. Zone code and name are combined in MERGE_SRC (e.g. City of Hermiston \\C-2, Outlying Commercial); Zone and Zone_Code are mostly blank.",
+  "verification": {
+    "verified_at": 1792135338648,
+    "counties": [
+      "41059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

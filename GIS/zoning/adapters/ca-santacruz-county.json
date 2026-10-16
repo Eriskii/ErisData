@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-santacruz-county",
+  "publisher": "Santa Cruz County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/jJfZghspGKh8J9Jm/arcgis/rest/services/Zoning/FeatureServer/25",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06087"
+    ]
+  },
+  "fields": {
+    "zone": "BASEZN",
+    "zone_name": "BASENM"
+  },
+  "notes": "Unincorporated county only; cities zone their own land. Polygon extents of base zoning; COMBZN holds combining zones.",
+  "verification": {
+    "verified_at": 1792134025437,
+    "counties": [
+      "06087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

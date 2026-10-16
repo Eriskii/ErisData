@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-clarke",
+  "publisher": "Clarke County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/1uNEgmtBVWGKSY5Q/arcgis/rest/services/County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51043"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "CLASS",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "Clarke County VA zoning districts (unincorporated county, CORPORATED=NO). Hosted by county GIS coordinator org. Town of Berryville zoning is not in this layer. OVERLAY field present but not mapped.",
+  "verification": {
+    "verified_at": 1792135888855,
+    "counties": [
+      "51043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

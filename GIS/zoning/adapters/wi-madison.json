@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-madison",
+  "publisher": "City of Madison",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.cityofmadison.com/arcgis/rest/services/Public/OPEN_DATA/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CODE"
+  },
+  "notes": "City of Madison current zoning districts (part of Dane County).",
+  "verification": {
+    "verified_at": 1792130903730,
+    "counties": [
+      "55025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

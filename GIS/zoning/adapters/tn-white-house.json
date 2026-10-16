@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-white-house",
+  "publisher": "City of White House, TN (ArcGIS Online organization WhiteHouse_TN)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/pFngyvIqq2CUcLpI/arcgis/rest/services/WhiteHouseTN_EnergovAGOL/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47147"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of White House zoning districts only (no county-wide Robertson County zoning layer found; county zoning is not published as a queryable service). Layer has no jurisdiction field; covers the city, not unincorporated county land.",
+  "verification": {
+    "verified_at": 1792135560679,
+    "counties": [
+      "47147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

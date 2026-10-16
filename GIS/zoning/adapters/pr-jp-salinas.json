@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-jp-salinas",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/FeatureServer/0",
+    "page_size": 200,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "72123"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "municipio = 'SALINAS'",
+  "notes": "JP statewide zoning layer (cali_vige), filtered to municipio SALINAS. zone = cali code, zone_name = descrip.",
+  "verification": {
+    "verified_at": 1792138223633,
+    "counties": [
+      "72123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

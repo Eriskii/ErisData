@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "08009",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.bacacountyco.gov/government/county-commissioners/zoning-permits-and-land-use/",
+    "https://www.bacacountyco.gov/towns/",
+    "https://www.springfieldco.gov/",
+    "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0"
+  ],
+  "note": "Searched ArcGIS Online/Hub for Baca County zoning: none found. Baca County's site publishes only a zoning/land-use letter summary, no district map or GIS layer. Springfield and Walsh sites show no zoning GIS. The state composite parcel service (FeatureServer/0) has no Baca County (FIPS 009) parcels, so no zoning attributes are available there. Only commercial vendors (Regrid, Dynamo, Equator) sell Baca zoning data; no official queryable service exists.",
+  "recorded_at": 1792133834261,
+  "recheck_after": 1807685834261,
+  "model": "claude-haiku-5-5"
+}

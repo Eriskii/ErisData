@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-jasper-hardeeville",
+  "publisher": "City of Hardeeville (via ZoningHub / Latapult)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/UXJOITFCLbn0Ibm0/arcgis/rest/services/Hardeeville_Zoning_ZH/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45053"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "pdd"
+  },
+  "notes": "City of Hardeeville zoning districts (city limits only, not unincorporated Jasper County). Published by the city for its ZoningHub site. zone = zoning code; pdd field is a planned-development tag.",
+  "verification": {
+    "verified_at": 1792135392148,
+    "counties": [
+      "45053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

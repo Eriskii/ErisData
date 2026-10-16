@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sd-beadle",
+  "publisher": "Beadle County GIS (MapNet)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Beadle/beadlemapnet/FeatureServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "County Zoning layer from the county MapNet service; covers unincorporated county land per county ordinance. Cities such as Huron zone their own land and are not included.",
+  "verification": {
+    "verified_at": 1792135386935,
+    "counties": [
+      "46005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

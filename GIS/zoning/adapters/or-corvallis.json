@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "or-corvallis",
+  "publisher": "City of Corvallis GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/NNPaUnXVoJt8FVVE/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Corvallis zoning districts, registered to Benton County taxlots; covers the city only. County zoning service gis.co.benton.or.us was unreachable.",
+  "verification": {
+    "verified_at": 1792135277337,
+    "counties": [
+      "41003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

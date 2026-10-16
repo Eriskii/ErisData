@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-nevada-county",
+  "publisher": "Nevada County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.nevadacountyca.gov/arcgis/rest/services/web_public/Open_Data_Layers_Nevada_County/MapServer/1600",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06057"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONETYPE",
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDETAIL"
+  },
+  "notes": "Unincorporated Nevada County zoning districts; Truckee excluded per dataset page. ZONETYPE used as zone type, not jurisdiction.",
+  "verification": {
+    "verified_at": 1792134069669,
+    "counties": [
+      "06057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

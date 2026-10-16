@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-calhoun-stmatthews",
+  "publisher": "Town of St. Matthews, SC (layer hosted by Calhoun County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/B3Zo1xqTw8CidOoF/arcgis/rest/services/St_Matthews_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45017"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Class"
+  },
+  "notes": "Town of St. Matthews zoning districts, the largest town in the county; zone codes only, no description or ordinance link field in the source. Covers only St. Matthews city limits. Source CRS 3857.",
+  "verification": {
+    "verified_at": 1792135714719,
+    "counties": [
+      "45017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

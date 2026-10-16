@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13301",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.warrencountyga.com/planning--zoning.html",
+    "https://www.warrentonga.gov/planning--zoning.html",
+    "https://experience.arcgis.com/experience/46b042f8cf2b4185a193ebc44ee4e4dc"
+  ],
+  "note": "Warren County GA publishes no queryable zoning district layer. County planning page has no GIS links; the County OneView viewer shows parcels only. The only parcel layer found (services8 GA_Warren_County_13301, ArcGIS Online copy by JeffreyF96) has a ZONING field that is empty for every sampled parcel. Warrenton's zoning exists as Municode text and an ArcGIS web map (City of Warrenton Zoning, item 752c229b...) that only draws that same parcel layer. Warren_GA service under admincloudpermit requires a token. No district polygons are published as a service or file.",
+  "recorded_at": 1792134038477,
+  "recheck_after": 1807686038477,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-orange-chapel-hill",
+  "publisher": "Town of Chapel Hill",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-portal.townofchapelhill.org/server/rest/services/OpenData/Zoning_Districts/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37135"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE",
+    "zone": "ZONING",
+    "zone_name": "NAME"
+  },
+  "notes": "Town of Chapel Hill open data zoning districts; town limits within Orange County. Overlay districts are in a separate layer and not included.",
+  "verification": {
+    "verified_at": 1792135105398,
+    "counties": [
+      "37135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ia-marshall",
+  "publisher": "Marshall County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.marshallcountyia.gov/arcgis/rest/services/Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19127"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClas"
+  },
+  "notes": "County-published Zoning layer; polygons carry ZoningClas per parcel (parcel-based zoning, no zone-name or jurisdiction field). Source does not label jurisdiction; City of Marshalltown zoning is a PDF map only in this source. CC-BY not stated.",
+  "verification": {
+    "verified_at": 1792134229787,
+    "counties": [
+      "19127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "19085",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://harrisoncounty.iowa.gov/gis/",
+    "https://harrisoncounty.iowa.gov/zoning/",
+    "https://cityofmissourivalley.com/departments/building-division/resources/"
+  ],
+  "note": "Harrison County IA (19085) publishes zoning only as ordinance text and PDF maps. Its GIS page lists zoning but links no queryable zoning service; the county's ArcGIS Online org (HarrCo, services1.arcgis.com/fr2AOkFeMwixG9dx) holds parcel, park and Applefest layers, no zoning. Missouri Valley's zoning is a PDF map. The only queryable district layer is an ISU compiled copy (services.arcgis.com/XORNS2fPFySPlBgy, zoning_districts_all_data_v2) covering only Logan and Missouri Valley; it fails validation with 6 to 12 of 9 to 15 polygons invalid, so it was not submitted.",
+  "recorded_at": 1792134220750,
+  "recheck_after": 1807686220750,
+  "model": "claude-haiku-5-5"
+}

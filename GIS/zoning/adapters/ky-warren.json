@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ky-warren",
+  "publisher": "City-County Planning Commission of Warren County (Bowling Green-Warren County KY)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://webgis.bgky.org/server/rest/services/CCPC/CCPC_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21227"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Joint zoning for Warren County and its cities as of November 2024; zone codes only, no zone name or ordinance link field. Layer is the CCPC zoning polygon set.",
+  "verification": {
+    "verified_at": 1792134393485,
+    "counties": [
+      "21227"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

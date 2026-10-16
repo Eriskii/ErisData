@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ak-aleutians-west-unalaska",
+  "publisher": "City of Unalaska",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/XYRnCwZ037YZHYH0/arcgis/rest/services/Zoning/FeatureServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02016"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Covers only the City of Unalaska (the county is otherwise unorganized borough with no county zoning). Zone field ZONECLASS; ZoningCode is an alternate code field.",
+  "verification": {
+    "verified_at": 1792133630872,
+    "counties": [
+      "02016"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

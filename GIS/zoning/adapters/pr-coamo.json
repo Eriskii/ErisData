@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-coamo",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72043"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "municipio = 'Coamo'",
+  "notes": "Statewide JP calificacion layer (RC-2023-E districts); filtered to municipio Coamo.",
+  "verification": {
+    "verified_at": 1792137648247,
+    "counties": [
+      "72043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-dooly-unadilla",
+  "publisher": "City of Unadilla (ArcGIS Online copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/PYn6bWCjT6bhw1z3/arcgis/rest/services/Dooly_WFL1/FeatureServer/17",
+    "page_size": 50,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "13093"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneName"
+  },
+  "notes": "Unofficial ArcGIS Online copy of Unadilla GA zoning (personal owner; no official queryable layer found).",
+  "verification": {
+    "verified_at": 1792134027343,
+    "counties": [
+      "13093"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

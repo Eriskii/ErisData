@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-comal-new-braunfels",
+  "publisher": "City of New Braunfels GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismaps.newbraunfels.gov/arcserverwa22/rest/services/OpenData/PlanningZoning/MapServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48091"
+    ]
+  },
+  "fields": {
+    "link": "OrdinanceLink",
+    "zone": "DISTRICT",
+    "zone_name": "NAME"
+  },
+  "notes": "City of New Braunfels base zoning districts only (Comal County has no countywide zoning; unincorporated county land is not covered). Layer is the city-wide Zoning polygon layer from the city open data MapServer. Other Comal cities (Bulverde, Garden Ridge, etc.) publish only PDF maps or are not queryable.",
+  "verification": {
+    "verified_at": 1792135618669,
+    "counties": [
+      "48091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

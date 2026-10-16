@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-horizon-city",
+  "publisher": "Town of Horizon City (ArcGIS Online item by arubio_HCTX)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/4eeAzcBEiDM1HqiN/arcgis/rest/services/ZONING_AND_LAND_USE/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48141"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPAL",
+    "zone": "ZONING"
+  },
+  "notes": "Parcel layer with per-parcel ZONING attribute; uploader unverified, not confirmed as official Horizon City layer.",
+  "verification": {
+    "verified_at": 1792135886967,
+    "counties": [
+      "48141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

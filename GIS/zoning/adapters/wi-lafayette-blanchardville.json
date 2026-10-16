@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-lafayette-blanchardville",
+  "publisher": "SW Wisconsin Regional Planning Commission (ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/OwVO8oKCUjTngz5f/ArcGIS/rest/services/Blanchardville_Zoning/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55065"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Districts"
+  },
+  "notes": "Village of Blanchardville zoning joined to parcels (parcel-based), hosted by SWWRPC; village straddles Lafayette/Iowa/Green counties",
+  "verification": {
+    "verified_at": 1792136804968,
+    "counties": [
+      "55065"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

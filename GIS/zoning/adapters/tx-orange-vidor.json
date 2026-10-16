@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-orange-vidor",
+  "publisher": "City of Vidor (ArcGIS Online item by chepburn222)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/DTccFR0HgNCXG62z/arcgis/rest/services/City_of_Vidor_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48361"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Vidor zoning layer (Vidor_Zoning_07_07_23) hosted under ArcGIS Online account chepburn222, linked from the city zoning map; covers Vidor city only, not unincorporated county. Only zone code available; no name or ordinance link.",
+  "verification": {
+    "verified_at": 1792135773279,
+    "counties": [
+      "48361"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

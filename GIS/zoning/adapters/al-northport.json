@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-northport",
+  "publisher": "City of Northport Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/3u10F1chkeawsUZY/arcgis/rest/services/NorthportZoning_Dec2024/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01125"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCodeRev",
+    "zone_name": "ZoningTypeRev"
+  },
+  "notes": "City of Northport zoning adopted December 2024, as published by the city GIS. Covers Northport city limits only.",
+  "verification": {
+    "verified_at": 1792133731389,
+    "counties": [
+      "01125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-collin-allen",
+  "publisher": "City of Allen Community Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismaps.cityofallen.org/arcgis/rest/services/Current_Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48085"
+    ]
+  },
+  "fields": {
+    "link": "OrdURL",
+    "zone": "Zoning",
+    "zone_name": "DescLandUse"
+  },
+  "notes": "City of Allen zoning districts (city limits; Allen spans Collin and Denton counties). Zoning holds district code; DescLandUse is the land use description.",
+  "verification": {
+    "verified_at": 1792135673584,
+    "counties": [
+      "48085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nj-hunterdon",
+  "publisher": "NJTPA (Hunterdon County zoning, 2003 compilation)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.njtpa.org/server/rest/services/LandUse/NJTPA_Zoning/FeatureServer/1",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34019"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI_NAME",
+    "zone": "MUN_SYMBOL",
+    "zone_name": "MUN_ZONE"
+  },
+  "notes": "Regional NJTPA compilation of Hunterdon County municipal zoning, dated 2003 (currency unverified). Covers all Hunterdon municipalities in one layer. zone_name is the municipal district name; GEN_ZONE holds a generalized category. The server returns empty pages for small spatial queries; page_size kept large.",
+  "verification": {
+    "verified_at": 1792134988414,
+    "counties": [
+      "34019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

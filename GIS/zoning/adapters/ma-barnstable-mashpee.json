@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ma-barnstable-mashpee",
+  "publisher": "Town of Mashpee GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/i6sQi3PaY7S1nPsB/arcgis/rest/services/MashpeeZoning_2015/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "Town of Mashpee zoning districts (2015 vintage), town-only, not county-wide.",
+  "verification": {
+    "verified_at": 1792134493842,
+    "counties": [
+      "25001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

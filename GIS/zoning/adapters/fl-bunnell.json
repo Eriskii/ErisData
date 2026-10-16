@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-bunnell",
+  "publisher": "City of Bunnell GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/hSKL9bYjhP4rHxSD/arcgis/rest/services/Bunnell_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12035"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "City of Bunnell zoning districts, published by Flagler County GIS (FCMAPS); updated 10/2026",
+  "verification": {
+    "verified_at": 1792133840458,
+    "counties": [
+      "12035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

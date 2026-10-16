@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "20193",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.thomascountymaps.org/arcgis/rest/services/zoning_landuse/MapServer/3",
+    "https://www.cityofcolbyks.gov/DocumentCenter/View/758/City-of-Colby-Zoning-Regs",
+    "https://thomascountyboc.org/gis-mapping"
+  ],
+  "note": "Thomas County KS (20193): the only zoning layer on the county's CMAP ArcGIS host (zoning_landuse/MapServer/3) holds Georgia's Thomas County data (Municode GA links, Thomasville historic districts) and returns 0 features in the Kansas box. The county GIS page says official zoning is kept by the county but links no service. Colby's zoning map is only a PDF kept by the City Clerk, and the joint Colby-Thomas County planning commission's district map is not published as a queryable service. No Kansas zoning polygon service found after searching the county host, Colby city site, ORKA, and state portals.",
+  "recorded_at": 1792134384649,
+  "recheck_after": 1807686384649,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-westmoreland-greensburg",
+  "publisher": "City of Greensburg GIS (Westmoreland County GIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/ovPvGwAAJ4YassIM/arcgis/rest/services/Zoning_Districts_Draft_7/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42129"
+    ]
+  },
+  "fields": {
+    "zone": "Zones_1"
+  },
+  "notes": "City of Greensburg only; Westmoreland County has no countywide zoning. Official Greensburg Base Zoning layer; zone codes in Zones_1 (e.g. R2, C1). ZONEDESC and ZONINGCODE are blank, so no zone_name. Layer also carries parcel attributes.",
+  "verification": {
+    "verified_at": 1792135391410,
+    "counties": [
+      "42129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

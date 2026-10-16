@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wa-yakima-city-urban",
+  "publisher": "City of Yakima Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yakimawa.gov/arcgis/rest/services/OpenData/Planning_Department_OpenData/MapServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53077"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE"
+  },
+  "notes": "City of Yakima Urban Area Zoning (city and urban growth area zoning) from the city planning department open data service. Jurisdiction is the City of Yakima for the whole layer.",
+  "verification": {
+    "verified_at": 1792136001496,
+    "counties": [
+      "53077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

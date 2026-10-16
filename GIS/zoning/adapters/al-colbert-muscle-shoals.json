@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "al-colbert-muscle-shoals",
+  "publisher": "City of Muscle Shoals (via Capstone Geo, LLC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/y6YW10u0XkJDr4YY/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01033"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Muscle Shoals zoning layer, linked from the city Planning & Zoning page via the city ArcGIS web map (civilgroupllc.maps.arcgis.com, Capstone Geo). Records are parcel-based (each feature carries parcel attributes and the parcel zoning in ZONE); ORDINANCE holds an ordinance number for only some records. Covers city of Muscle Shoals only.",
+  "verification": {
+    "verified_at": 1792133764962,
+    "counties": [
+      "01033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

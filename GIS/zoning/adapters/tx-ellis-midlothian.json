@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-ellis-midlothian",
+  "publisher": "City of Midlothian GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.midlothian.tx.us/server/rest/services/Zoning20220803/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48139"
+    ]
+  },
+  "fields": {
+    "link": "Ecode360",
+    "zone": "Zoning",
+    "zone_name": "Full_Zone_Name"
+  },
+  "notes": "City of Midlothian zoning districts only (city limits, not county-wide). Layer 1 Zoning; SUP overlay layer 0 not used.",
+  "verification": {
+    "verified_at": 1792135940101,
+    "counties": [
+      "48139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

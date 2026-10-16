@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "05017",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "https://www.zoningatlas.org/arkansas",
+    "https://lakevillagear.gov",
+    "https://www.regrid.com"
+  ],
+  "note": "Searched ArcGIS Hub/Online for Chicot County and Lake Village/Dermott zoning, state GIS office services, and city sites. No county or city zoning district layer is published as a public ArcGIS service. Only the state parcel layer (no zoning field) and commercial aggregators (Regrid, Zoneomics) carry zoning, which are not official or queryable. Arkansas counties have limited zoning authority.",
+  "recorded_at": 1792133777648,
+  "recheck_after": 1807685777648,
+  "model": "claude-haiku-5-5"
+}

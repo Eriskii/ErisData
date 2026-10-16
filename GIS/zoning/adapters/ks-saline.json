@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-saline",
+  "publisher": "Saline County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/cuBVqVP04yYSBGZ9/arcgis/rest/services/new_fullzoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20169"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCR"
+  },
+  "notes": "Saline County KS zoning layer from the county Zoning Map web app (experience 5499c969). Zone code in ZONING, description in DESCR.",
+  "verification": {
+    "verified_at": 1792134308241,
+    "counties": [
+      "20169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

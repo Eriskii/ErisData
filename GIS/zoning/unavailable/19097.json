@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "19097",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://jacksoncounty.iowa.gov/gis/data/",
+    "https://jacksoncounty.iowa.gov/gis/maps/",
+    "https://jacksoncounty.iowa.gov/zoning/",
+    "https://www.maquoketaia.com/1278/Current-Zoning-Map"
+  ],
+  "note": "Jackson County, Iowa publishes no queryable zoning district service: its GIS data page offers only Beacon viewer access and data requests, and its zoning pages link to ordinance PDFs. Maquoketa publishes its zoning map as a dated PDF. The only queryable layer covering Maquoketa and Bellevue is an unofficial Iowa State University copy (zoning_districts_all_data_v2, layer 217) with 16 districts for the county; it fails validation (5 of 6 sampled polygons valid, 90% needed) and has no unincorporated county zoning, so it was not submitted.",
+  "recorded_at": 1792134312758,
+  "recheck_after": 1807686312758,
+  "model": "claude-haiku-5-5"
+}

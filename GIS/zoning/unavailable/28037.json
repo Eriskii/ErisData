@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "28037",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.franklinmo.org/planning-zoning",
+    "https://experience.arcgis.com/experience/f5a41946e42c4f6a9a8ea2f3568b6678",
+    "https://services3.arcgis.com/0q50MOvOK8GuAaQZ/arcgis/rest/services/Franklinms_Service/FeatureServer"
+  ],
+  "note": "Franklin County MS planning page says it covers unincorporated-area zoning districts and links only to a County GIS Maps viewer (experience.arcgis.com). The viewer exposes no REST service URL. The county's public FeatureServer (Franklinms_Service) has parcels, voting precincts, districts and city limits but no zoning layer. Searches of ArcGIS Hub/Online and the web for Franklin County MS or Meadville/Bude zoning found no queryable district layer; no city zoning service was found either.",
+  "recorded_at": 1792134594337,
+  "recheck_after": 1807686594337,
+  "model": "claude-haiku-5-5"
+}

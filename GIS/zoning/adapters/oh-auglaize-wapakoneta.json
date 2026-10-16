@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-auglaize-wapakoneta",
+  "publisher": "City of Wapakoneta",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.auglaizecounty.org/arcgis/rest/services/Wapakoneta/WapakonetaZoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Wapakoneta zoning districts, hosted by Auglaize County GIS.",
+  "verification": {
+    "verified_at": 1792135208945,
+    "counties": [
+      "39011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

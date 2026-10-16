@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-dekalb-county",
+  "publisher": "DeKalb County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/hEXJrPwm89CLXBYe/arcgis/rest/services/Zone_Area/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17037"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Township",
+    "zone": "Zone_Code"
+  },
+  "notes": "County zoning districts by township (unincorporated land). Rows with Zone_Code Non-County Jurisdiction mark incorporated areas zoned by cities; no district there.",
+  "verification": {
+    "verified_at": 1792133973054,
+    "counties": [
+      "17037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

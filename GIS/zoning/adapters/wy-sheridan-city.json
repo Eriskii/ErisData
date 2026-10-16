@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wy-sheridan-city",
+  "publisher": "City of Sheridan GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismaps.sheridanwy.net/arcgis/rest/services/UtilityViewer/CityZoning/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56033"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE"
+  },
+  "notes": "City of Sheridan zoning (Zoning District layer of CityZoning map service; parcel-level polygons keyed by PIN)",
+  "verification": {
+    "verified_at": 1792136601050,
+    "counties": [
+      "56033"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

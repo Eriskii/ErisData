@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "az-gila",
+  "publisher": "Gila County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/PEZ16KoOWXoETFQ5/arcgis/rest/services/GilaCountyZoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04007"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Hosted in Gila County own ArcGIS Online organization (PEZ16KoOWXoETFQ5), a Gila County zoning layer. Jurisdiction and ZoningLabel are mostly empty in the source, so only the zoning code is mapped; unincorporated and incorporated districts both carry codes such as GU, R1L.",
+  "verification": {
+    "verified_at": 1792133708762,
+    "counties": [
+      "04007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

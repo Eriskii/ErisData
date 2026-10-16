@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-toombs-vidalia",
+  "publisher": "City of Vidalia (hosted via City of Vidalia View, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/City_of_Vidalia_View/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13279"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Vidalia zoning districts only (Vidalia city limits); county unincorporated land is not covered by this layer.",
+  "verification": {
+    "verified_at": 1792133967329,
+    "counties": [
+      "13279"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

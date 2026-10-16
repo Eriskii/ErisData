@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-cole-jefferson-city",
+  "publisher": "City of Jefferson / MidMO GIS (Cole County)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.midmogis.org/server/rest/services/PPS/PPS/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29051"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Jefferson base zoning districts only (not unincorporated county land), MidMO GIS PPS MapServer layer 7. Zone holds the district code. HYPERLINK field omitted: it holds local C:\\ paths.",
+  "verification": {
+    "verified_at": 1792134691417,
+    "counties": [
+      "29051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

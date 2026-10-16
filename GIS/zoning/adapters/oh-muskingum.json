@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-muskingum",
+  "publisher": "Muskingum County, Ohio (county GIS, Village/Township Zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/N1ybEAKiuuUIL8Mz/arcgis/rest/services/VillageTownshipZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39119"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "AdminEnt",
+    "zone": "Zone_",
+    "zone_name": "TYPE_"
+  },
+  "notes": "County-hosted layer of village and township zoning districts with AdminEnt naming the jurisdiction (township, village or city name). Zone_ holds district code; TYPE_ is a broad category (AGR, RES, COMM). Parcel-based polygons; some features may be unzoned or duplicated per parcel.",
+  "verification": {
+    "verified_at": 1792135179021,
+    "counties": [
+      "39119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

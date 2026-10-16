@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ne-hall-grand-island",
+  "publisher": "City of Grand Island GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/H1fomogcAqX4720J/ArcGIS/rest/services/PV1_DistrictManagement/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31079"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "COMMUNITY",
+    "link": "HYPERLINK",
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "COMMUNITY = 'Grand Island'",
+  "notes": "Official City of Grand Island layer Hall County Zoning; Grand Island district only",
+  "verification": {
+    "verified_at": 1792134962431,
+    "counties": [
+      "31079"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

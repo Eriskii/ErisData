@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ks-harvey",
+  "publisher": "Harvey County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/NYSVwQ7Ci1T1U8La/arcgis/rest/services/Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20079"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWNSHIP",
+    "zone": "Zone",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Rural (unincorporated) Harvey County zoning districts from the county GIS office; cities such as Newton zone their own land and are not in this layer.",
+  "verification": {
+    "verified_at": 1792134245106,
+    "counties": [
+      "20079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

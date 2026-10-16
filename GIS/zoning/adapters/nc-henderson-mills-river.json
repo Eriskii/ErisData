@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-henderson-mills-river",
+  "publisher": "Town of Mills River (via Henderson County GISWeb)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.hendersoncountync.gov/arcgis/rest/services/GISWeb/Primary_GISWeb_Layers/MapServer/81",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37089"
+    ]
+  },
+  "fields": {
+    "zone": "CLASSIFICA"
+  },
+  "notes": "Town of Mills River zoning districts, hosted on Henderson County GISWeb. CLASSIFICA holds the district classification; AMEND holds amendment references.",
+  "verification": {
+    "verified_at": 1792135092486,
+    "counties": [
+      "37089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

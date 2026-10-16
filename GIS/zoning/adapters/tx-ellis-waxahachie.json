@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-ellis-waxahachie",
+  "publisher": "City of Waxahachie GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.waxahachie.com/arcgis/rest/services/Zoning_8262020/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48139"
+    ]
+  },
+  "fields": {
+    "zone": "CoreZone"
+  },
+  "filter": "ARCHIVE = 'N'",
+  "notes": "City of Waxahachie zoning districts only (not county-wide; no Midlothian, Ennis or unincorporated coverage). Layer 1 Zoning; excludes SUP overlay layer 0 and archived zoning. zone_name omitted: Z_DESC is filled for only some districts.",
+  "verification": {
+    "verified_at": 1792135930017,
+    "counties": [
+      "48139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

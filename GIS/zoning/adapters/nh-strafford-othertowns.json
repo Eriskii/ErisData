@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nh-strafford-othertowns",
+  "publisher": "NH Zoning Atlas (Strafford County towns)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Atlas_Zoning_Districts_Buildable/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "33017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "AbbreviatedDistrict"
+  },
+  "filter": "County = 'Strafford' AND Overlay = 'No' AND Jurisdiction IN ('Strafford','Dover','Somersworth','Durham','Madbury','Lee','Milton','New Durham','Middleton')",
+  "notes": "NH Zoning Atlas copy (not the town official); Strafford County towns except Rochester, Barrington, Farmington; geojson=false needed; Full_District_Name is sparse so unmapped",
+  "verification": {
+    "verified_at": 1792135210038,
+    "counties": [
+      "33017"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-warren-monmouth",
+  "publisher": "City of Monmouth / WIU GIS Center",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wiu.edu/arcgis/rest/services/monmouth/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17187"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "District"
+  },
+  "notes": "City of Monmouth zoning only (GIS Center 2011 layer hosted by WIU GIS Center for the city). Unincorporated county and other cities not covered by this layer.",
+  "verification": {
+    "verified_at": 1792134084810,
+    "counties": [
+      "17187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "22001",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://crowley-la.com/wp-content/uploads/2017/02/Composite-Map-February-2012.pdf",
+    "https://library.municode.com/la/acadia_parish_police_jury/codes/code_of_ordinances?nodeId=COOR_CH15PLDE",
+    "https://www.acadiaassessor.org/maps/"
+  ],
+  "note": "Acadia Parish has no queryable zoning district layer. The Police Jury adopts zoning (Municode Ch. 15) and Crowley publishes a zoning composite map only as a PDF (Feb 2012). ArcGIS searches for Acadia Parish found only parcel, boundary, and city-limit layers; the parcel layers (Tax_Parcel_CAMA_Joined_View, MobileMXD/0) carry no zoning field. Regrid's zoning is commercial, not official.",
+  "recorded_at": 1792134449896,
+  "recheck_after": 1807686449896,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tn-bradley-cleveland",
+  "publisher": "City of Cleveland, TN (GIS, via gis.clevelandtn.gov)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.clevelandtn.gov/arcgis/rest/services/Permits/PermitInformation/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "UPPER(ZONEAUTH) LIKE '%CLEVELAND%'",
+  "notes": "City of Cleveland zoning districts only (Bradley County unincorporated land and Charleston are not in this layer; county zoning is published only as a PDF map). Layer holds some inconsistent/duplicate attribute spellings from the city; ZONEAUTH used as the filter.",
+  "verification": {
+    "verified_at": 1792135525015,
+    "counties": [
+      "47011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

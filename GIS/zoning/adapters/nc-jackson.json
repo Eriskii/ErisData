@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-jackson",
+  "publisher": "Jackson County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/JvqluhO0W86g4m6C/arcgis/rest/services/Operational_Layers/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37099"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Name"
+  },
+  "notes": "County GIS ArcGIS Online organization layer (jackson_admin); zoning polygons for county and municipalities, Jurisdiction names each. zone is the Name field, blank for some polygons; ZoningArea holds the district or planning area name and is not mapped.",
+  "verification": {
+    "verified_at": 1792135599237,
+    "counties": [
+      "37099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "39001",
+  "reason": "login-required",
+  "evidence": [
+    "https://gis.adamscounty.org/arcgis/rest/services/quickmaps/Zoning/MapServer/layers",
+    "https://gis.adamscounty.org/arcgis/rest/services/quickmaps/Zoning/MapServer"
+  ],
+  "note": "Adams County OH publishes a Zoning MapServer (quickmaps/Zoning) on gis.adamscounty.org, but every request returns 'Token Required', so it is not publicly queryable. No other public zoning district layer was found for Adams County or its cities (West Union's zoning ordinance refers to a map that is not published as a service). Statewide Ohio zoning search returned only non-Ohio services.",
+  "recorded_at": 1792135172465,
+  "recheck_after": 1807687172465,
+  "model": "claude-haiku-5-5"
+}

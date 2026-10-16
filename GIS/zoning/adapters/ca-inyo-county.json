@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-inyo-county",
+  "publisher": "Inyo County Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.inyo.gov/server/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06027"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Community",
+    "zone": "ZN_ABBREV",
+    "zone_name": "Zoning"
+  },
+  "notes": "Inyo County Planning Department zoning for unincorporated Inyo County only; incorporated cities zone their own land and are not included.",
+  "verification": {
+    "verified_at": 1792134082603,
+    "counties": [
+      "06027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

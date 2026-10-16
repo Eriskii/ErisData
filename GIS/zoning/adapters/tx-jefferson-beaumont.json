@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-jefferson-beaumont",
+  "publisher": "City of Beaumont GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.beaumonttexas.gov/arcgis/rest/services/AGOL/Default_Public_Map/MapServer/23",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48245"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE_NAMES"
+  },
+  "notes": "City of Beaumont zoning only (city limits), not unincorporated county. Layer updated periodically; source is City of Beaumont public map service.",
+  "verification": {
+    "verified_at": 1792135660046,
+    "counties": [
+      "48245"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

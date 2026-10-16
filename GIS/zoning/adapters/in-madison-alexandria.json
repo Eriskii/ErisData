@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-madison-alexandria",
+  "publisher": "City of Alexandria (hosted by an ArcGIS Online account, rmlawson2; MCCOG-produced zoning)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/WO41K9zxsNclVVfS/arcgis/rest/services/Alexandria_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18095"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Alexandria zoning only, from an ArcGIS Online account (rmlawson2) rather than an official city server; no county-wide Madison County zoning service was found, so official=false.",
+  "verification": {
+    "verified_at": 1792134160553,
+    "counties": [
+      "18095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

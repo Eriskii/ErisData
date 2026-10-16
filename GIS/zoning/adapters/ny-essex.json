@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-essex",
+  "publisher": "Essex County NY (compiled town zoning, hosted by achatterton18 on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/YMCiEBhA0TNgGZ2c/arcgis/rest/services/Essex_County_Zoning_Districts_WFL1/FeatureServer/21",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36031"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Town",
+    "zone": "ZoningCode"
+  },
+  "notes": "Personal ArcGIS Online copy of county-wide town zoning districts (no official county zoning service found; county GIS viewer has no zoning layer). One layer, all towns in Essex County; Town holds the town name, ZoningCode the district code. No zone_name field.",
+  "verification": {
+    "verified_at": 1792135058576,
+    "counties": [
+      "36031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

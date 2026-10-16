@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-dekalb-city",
+  "publisher": "City of DeKalb GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/EkoWS5fMyN7E9uAW/arcgis/rest/services/CoD_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17037"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code"
+  },
+  "notes": "City of DeKalb zoning districts (city limits only), published by the city planning department. Zone_Notes is mostly blank, so no zone_name.",
+  "verification": {
+    "verified_at": 1792133978166,
+    "counties": [
+      "17037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

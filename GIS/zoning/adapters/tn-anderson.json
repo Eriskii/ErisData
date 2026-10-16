@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-anderson",
+  "publisher": "Anderson County GIS (Property Assessor PSA layers)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/vL7QLF4BNi1wukPE/arcgis/rest/services/AndersonTN_PSALayers/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_1"
+  },
+  "notes": "Layer named Zoning in the county assessor PSA service; polygons are parcels (about 35,400 features) carrying each parcel zoning code in ZONING_1; no separate district layer found. Values such as CITY, GOVST or blank are not district codes.",
+  "verification": {
+    "verified_at": 1792135502682,
+    "counties": [
+      "47001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

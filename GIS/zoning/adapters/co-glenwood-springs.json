@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-glenwood-springs",
+  "publisher": "City of Glenwood Springs GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/eFBE37QrqmVL9982/arcgis/rest/services/ZoningDataLayer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08045"
+    ]
+  },
+  "fields": {
+    "zone": "ConcatenantedZoning",
+    "zone_name": "ConcatenantedZoning"
+  },
+  "notes": "City of Glenwood Springs official zone districts (city ArcGIS Online org cogsesri). ConcatenantedZoning holds code plus district name, e.g. RL Rural Residential.",
+  "verification": {
+    "verified_at": 1792133923973,
+    "counties": [
+      "08045"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

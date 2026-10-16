@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-bonner-county",
+  "publisher": "Bonner County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cloudgis.bonnercountyid.gov/server/rest/services/Map_Services/ZoningLanduse_Public/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16017"
+    ]
+  },
+  "fields": {
+    "link": "ord_num",
+    "zone": "zonedesc"
+  },
+  "notes": "Bonner County Current Zoning layer from the county public ZoningLanduse_Public map service (county-run, 3126 features). zonedesc holds the district description; ord_num the ordinance number. Covers the county zoning; city zoning is in separate Sandpoint layer.",
+  "verification": {
+    "verified_at": 1792133700413,
+    "counties": [
+      "16017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

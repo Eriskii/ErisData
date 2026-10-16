@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "co-pueblo-county",
+  "publisher": "Pueblo County Planning and Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.pueblo.co.us/outside/rest/services/Landbase/PuebloCounty_ZoningCountyCity/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08101"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneDist"
+  },
+  "notes": "Pueblo County unincorporated zoning from the county combined zoning service; ZoneDist holds current district codes (SR2, A1 etc.), LegacyZone the old codes. City of Pueblo zoning is a separate spec (co-pueblo-city).",
+  "verification": {
+    "verified_at": 1792133809775,
+    "counties": [
+      "08101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ny-warren-glens-falls",
+  "publisher": "Warren County GIS (City of Glens Falls zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Fg3XpDIUTR3JZZES/arcgis/rest/services/WCNY_GlensFallsZoning_MASTER_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36113"
+    ]
+  },
+  "fields": {
+    "link": "ZONE_URL",
+    "zone": "ZONE",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "City of Glens Falls zoning maintained by Warren County GIS.",
+  "verification": {
+    "verified_at": 1792135052663,
+    "counties": [
+      "36113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

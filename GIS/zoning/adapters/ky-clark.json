@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ky-clark",
+  "publisher": "Clark County GIS (CCGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisserver2.ccgisonline.com/server/rest/services/BASELAYERS/ZONINGDISTRICTS/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Clark County KY county GIS zoning district layer (ZONE_MASTER); no jurisdiction field, so it may cover unincorporated county plus Winchester district atlas; check.",
+  "verification": {
+    "verified_at": 1792134339027,
+    "counties": [
+      "21049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

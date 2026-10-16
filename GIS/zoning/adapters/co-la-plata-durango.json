@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-la-plata-durango",
+  "publisher": "City of Durango (served by La Plata County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lpcgov.org/arcgis/rest/services/JS_website/Map_Pro/MapServer/74",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08067"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "ZONING"
+  },
+  "filter": "ZONE_ IS NOT NULL",
+  "notes": "City of Durango zoning districts only (not unincorporated county), from the county GIS DurangoZoning layer. Parcel-based polygons; OVERLAY_Z holds overlay districts (not mapped). No jurisdiction or ordinance link fields populated.",
+  "verification": {
+    "verified_at": 1792133829098,
+    "counties": [
+      "08067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

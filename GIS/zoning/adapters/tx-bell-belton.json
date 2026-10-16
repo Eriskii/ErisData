@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-bell-belton",
+  "publisher": "City of Belton, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/FkDUU6xkZJTbBa9X/arcgis/rest/services/Planning/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48027"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Abbr",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Belton Current_Zoning layer (city limits only, not county-wide); Hyperlink field is empty so no link mapped",
+  "verification": {
+    "verified_at": 1792135649081,
+    "counties": [
+      "48027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

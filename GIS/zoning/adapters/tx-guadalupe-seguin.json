@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-guadalupe-seguin",
+  "publisher": "City of Seguin, Texas GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.seguintexas.gov/arcgis/rest/services/Data_Download/Zoning_Open_Data/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48187"
+    ]
+  },
+  "fields": {
+    "zone": "zone"
+  },
+  "notes": "City of Seguin zoning only (city limits; not unincorporated county land). Open data download service from the City of Seguin GIS office.",
+  "verification": {
+    "verified_at": 1792135644020,
+    "counties": [
+      "48187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

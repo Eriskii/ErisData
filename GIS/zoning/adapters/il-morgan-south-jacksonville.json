@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-morgan-south-jacksonville",
+  "publisher": "Village of South Jacksonville, IL (Morgan County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/95PFahBF8eyGEfuc/arcgis/rest/services/VillageZoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17137"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Village of South Jacksonville base zoning districts, served from the Morgan County GIS org. Zone holds district codes. The sibling layer 0 (SpecialUse) is an overlay and is not used.",
+  "verification": {
+    "verified_at": 1792134096509,
+    "counties": [
+      "17137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

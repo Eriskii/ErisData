@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-sherburne-big-lake",
+  "publisher": "City of Big Lake (hosted by Sherburne County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/A86cpFIY5mfMGCej/arcgis/rest/services/Big_Lake_Zoning_and_Land_Use/FeatureServer/98",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27141"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Big Lake zoning districts, from the Sherburne County ArcGIS Online organization. Zone code only; no name field in source.",
+  "verification": {
+    "verified_at": 1792135000052,
+    "counties": [
+      "27141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-north-port",
+  "publisher": "City of North Port GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ags3.scgov.net/server/rest/services/Hosted/CityNorthPortZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12115"
+    ]
+  },
+  "fields": {
+    "zone": "zoningcode",
+    "zone_name": "zoningdescription"
+  },
+  "notes": "City of North Port zoning districts, 195 polygons, hosted by Sarasota County GIS. Single-jurisdiction layer; no jurisdiction field needed.",
+  "verification": {
+    "verified_at": 1792133857140,
+    "counties": [
+      "12115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

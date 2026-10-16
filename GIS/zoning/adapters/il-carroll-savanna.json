@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-carroll-savanna",
+  "publisher": "City of Savanna, IL (Public Works)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/qv1nlKGEXHyUgE2M/arcgis/rest/services/Savanna_Zoning_VIEW/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "County_Nam",
+    "zone": "Zoning"
+  },
+  "notes": "City of Savanna layer; parcel polygons carrying each parcel zoning in Zoning (parcel-based, a last resort). Covers Savanna only, not the county unincorporated area or other towns.",
+  "verification": {
+    "verified_at": 1792134038759,
+    "counties": [
+      "17015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

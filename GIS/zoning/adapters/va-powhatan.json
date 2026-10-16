@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-powhatan",
+  "publisher": "Powhatan County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/nip9boeHfv9Av5yj/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "51145"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "County-hosted layer named Zoning (titled OLD in the catalog); zone codes use the county coded domain d_Zoning_New (A-10, R-R, CR, VC, etc.). Covers unincorporated county; zone_name not provided by the service.",
+  "verification": {
+    "verified_at": 1792135990338,
+    "counties": [
+      "51145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-stanislaus",
+  "publisher": "Stanislaus County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/EeYBJFxLdUojipYa/arcgis/rest/services/Zoning_AGOL/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06099"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Label",
+    "zone_name": "Zone_Descr"
+  },
+  "notes": "Stanislaus County open-data zoning layer (Zoning AGOL). Covers county zoning; city-limit zoning not in this layer.",
+  "verification": {
+    "verified_at": 1792134026045,
+    "counties": [
+      "06099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

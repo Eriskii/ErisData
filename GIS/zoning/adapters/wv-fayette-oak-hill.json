@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wv-fayette-oak-hill",
+  "publisher": "City of Oak Hill GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/BDFOlyqRRLqzSDEj/arcgis/rest/services/OH_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54019"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Name"
+  },
+  "filter": "OBJECTID <> 10",
+  "notes": "City of Oak Hill zoning only; OBJECTID 10 (R-2, Summerlee Rd/Route 19 to Main St) excluded because its source geometry is invalid",
+  "verification": {
+    "verified_at": 1792136092698,
+    "counties": [
+      "54019"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

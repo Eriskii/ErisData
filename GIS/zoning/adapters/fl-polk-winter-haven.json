@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-polk-winter-haven",
+  "publisher": "City of Winter Haven (zoning layer hosted by city staff on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/hNKc1r3SBL6SVC6I/arcgis/rest/services/Winter_Haven_Zoning_Web_Layer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12105"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "c"
+  },
+  "notes": "City of Winter Haven zoning districts (city limits only). Copy of the city SDE zoning layer published as a web layer by city staff. zone_name from field c (district description). No ordinance link in the source.",
+  "verification": {
+    "verified_at": 1792133934729,
+    "counties": [
+      "12105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

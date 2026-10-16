@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-dinwiddie",
+  "publisher": "Dinwiddie County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/pXJ1hE8HkwpsRwne/arcgis/rest/services/Dinwiddie_Operational_Layers_view/FeatureServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51053"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "Layer covers unincorporated county plus Town of McKenney; the Town attribute reads McKenney for town districts and is null for county districts (not mapped: sparse). Base districts only. Source: county Operational Layers service.",
+  "verification": {
+    "verified_at": 1792135888526,
+    "counties": [
+      "51053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "05143-fayetteville",
+  "publisher": "City of Fayetteville, AR",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.fayetteville-ar.gov/server/rest/services/Zoning/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05143"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "ZD",
+    "zone_name": "DESCRIPTN"
+  },
+  "notes": "City of Fayetteville official zoning districts (city limits only, not county-wide; overlays in separate layers 0-8 not included). Ordinance in ORD field.",
+  "verification": {
+    "verified_at": 1792133845554,
+    "counties": [
+      "05143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nv-henderson",
+  "publisher": "City of Henderson (hosted by Clark County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/PlanningandZoning/MapServer/9",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE"
+  },
+  "notes": "Henderson zoning from Clark County GIS open data service",
+  "verification": {
+    "verified_at": 1792135011609,
+    "counties": [
+      "32003"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

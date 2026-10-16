@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wy-rawlins",
+  "publisher": "City of Rawlins GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/u0sLwuGOYBSz6JIU/arcgis/rest/services/Zoning5112018/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56007"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_typ",
+    "zone_name": "Zoning_Des"
+  },
+  "notes": "City of Rawlins zoning (city-published, Carbon County, WY), 70 polygons, last updated 2020. Covers the city only, not unincorporated county land.",
+  "verification": {
+    "verified_at": 1792136119863,
+    "counties": [
+      "56007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

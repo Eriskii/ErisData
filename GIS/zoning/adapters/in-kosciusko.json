@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-kosciusko",
+  "publisher": "Kosciusko County (ArcGIS Online copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/cgb6W3Qqyxf54QST/arcgis/rest/services/Zoning_Kosciusko_Polygons/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18085"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE"
+  },
+  "notes": "Unofficial copy uploaded to ArcGIS Online by a personal account (josh_lld); no official county zoning service found. Only ZONE_TYPE attribute available.",
+  "verification": {
+    "verified_at": 1792134149780,
+    "counties": [
+      "18085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

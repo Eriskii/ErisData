@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-upshur-gladewater",
+  "publisher": "City of Gladewater GIS (hosted by East Texas Council of Governments)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.etcog.org/arcgis/rest/services/GLADEWATER/GLADEWATER_ZONING_Public/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48459"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Gladewater zoning districts only (not county unincorporated land or other cities). Upshur County publishes no zoning layer found. Source is ETCOG-hosted city service.",
+  "verification": {
+    "verified_at": 1792135842712,
+    "counties": [
+      "48459"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

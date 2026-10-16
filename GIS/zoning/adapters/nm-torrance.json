@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nm-torrance",
+  "publisher": "Torrance County GIS (parcel layer hosted in the county public mapping service)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/NXyIyzYCe9CL2ex9/arcgis/rest/services/Torrance_County_Online_WFL1/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35057"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "filter": "Zoning IS NOT NULL",
+  "notes": "No county zoning district polygon layer was found; this is the ParcelPoly parcel layer whose Zoning attribute carries each parcel zoning designation (AP-5, RCP, D1-D3, City of Moriarty entries, etc.). Parcel polygons, not dissolved districts. Copy hosted under an individual ArcGIS Online account (rgastelum) behind the county public mapping experience; last resort. Zone text is inconsistent (some values are descriptions, some codes with names).",
+  "verification": {
+    "verified_at": 1792135062560,
+    "counties": [
+      "35057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

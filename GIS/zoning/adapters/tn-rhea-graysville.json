@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-rhea-graysville",
+  "publisher": "City of Graysville / Southeast Tennessee Development District",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Graysville_Corporate_Zoning_81524_Dissolve/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47143"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "City of Graysville zoning districts only; Rhea County does not zone unincorporated land. Hosted by SETDD planning staff.",
+  "verification": {
+    "verified_at": 1792135952880,
+    "counties": [
+      "47143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

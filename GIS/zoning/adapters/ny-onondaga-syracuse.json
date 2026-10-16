@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ny-onondaga-syracuse",
+  "publisher": "City of Syracuse (Onondaga County Planning parcel base with ReZone attributes)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/bdPqSfflsdgFRVVM/arcgis/rest/services/Rezone_Syracuse_Parcels2026_2026_09_08_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36067"
+    ]
+  },
+  "fields": {
+    "zone": "REZONE",
+    "zone_name": "ZONE_LABEL"
+  },
+  "filter": "REZONE IS NOT NULL",
+  "notes": "City of Syracuse only; no county-wide or suburban-town zoning layer was found. Source is a parcel layer carrying each parcel's ReZone district (June 2023 Syracuse Official Zoning Map), so it is parcel-based polygons rather than district outlines; dissolve by zone for district shapes. Published by Syracuse/Onondaga County Planning.",
+  "verification": {
+    "verified_at": 1792135029795,
+    "counties": [
+      "36067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

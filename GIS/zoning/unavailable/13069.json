@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13069",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.coffeecounty-ga.gov/community/maps.php",
+    "https://www.coffeecounty-ga.gov/Document%20Center/Department/Zoning_Color_Composite2.pdf",
+    "https://www.cityofdouglasga.gov/234/Planning-and-Zoning-Division",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=737&LayerID=11775&PageTypeID=1"
+  ],
+  "note": "Coffee County and the City of Douglas (seat) publish zoning only as PDF maps (county Zoning_Color_Composite2.pdf; Douglas 2025 ULDC zoning map PDF). The only digital district layer is the Douglas Zoning layer inside the Schneider qPublic viewer, which returns 403 to automated access and exposes no public ArcGIS REST service. ArcGIS searches found no official Coffee County or Douglas zoning FeatureServer/MapServer; the Douglas County GA services found are a different county.",
+  "recorded_at": 1792133921567,
+  "recheck_after": 1807685921567,
+  "model": "claude-haiku-5-5"
+}

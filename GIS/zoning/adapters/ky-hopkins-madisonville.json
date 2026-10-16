@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-hopkins-madisonville",
+  "publisher": "Hopkins County GIS / City of Madisonville",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.hopkinscountygis.com:6443/arcgis/rest/services/MadisonvilleZoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21107"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Madisonville zoning only, served by Hopkins County GIS. Unincorporated county has no zoning layer found.",
+  "verification": {
+    "verified_at": 1792134386953,
+    "counties": [
+      "21107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

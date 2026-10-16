@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-beaufort-washington",
+  "publisher": "City of Washington, NC (via Beaufort County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/oXsk9nimtmSEU8Ko/arcgis/rest/services/Beaufort_Static/FeatureServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Washington zoning districts, 2021, served from the Beaufort County GIS Beaufort_Static service. Covers only the city of Washington, not unincorporated county land. No ordinance link field published.",
+  "verification": {
+    "verified_at": 1792135072417,
+    "counties": [
+      "37013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

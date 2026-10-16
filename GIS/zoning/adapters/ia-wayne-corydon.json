@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-wayne-corydon",
+  "publisher": "Iowa State University Extension, Online Guide to Iowa Zoning (copy of City of Corydon zoning districts)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19185"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Corydon'",
+  "notes": "Copy of Corydon, Iowa zoning districts from the Iowa State University Online Guide to Iowa Zoning (ISU GIS, data as of 2/27/25); not published by the City or County. Only Wayne County city with zoning in this layer; Seymour and Allerton absent. Wayne County unincorporated zoning not found as a queryable service.",
+  "verification": {
+    "verified_at": 1792134253244,
+    "counties": [
+      "19185"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

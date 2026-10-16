@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ut-uintah",
+  "publisher": "Uintah County Community Development (ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/hXpEabPCti3ndOBX/arcgis/rest/services/Uintah_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "NAME"
+  },
+  "filter": "ZONE <> 'CAFO' AND OBJECTID <> 14343",
+  "notes": "County zoning layer in Uintah County Community Development ArcGIS Online org; CAFO overlay and one polygon with invalid geometry excluded",
+  "verification": {
+    "verified_at": 1792136021223,
+    "counties": [
+      "49047"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

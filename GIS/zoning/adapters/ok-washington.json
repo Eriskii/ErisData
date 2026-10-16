@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ok-washington",
+  "publisher": "City of Bartlesville GIS (Bartlesville-Washington County zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgissrv.cityofbartlesville.org/arcgisserver/rest/services/Citymaps/CityMaps_BvilleGIS/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40147"
+    ]
+  },
+  "fields": {
+    "zone": "DIST_CODE",
+    "zone_name": "DIST_NAME"
+  },
+  "notes": "City of Bartlesville CityMaps Zoning view layer; Bartlesville-Washington County joint zoning. Only zoning layer found for the county; coverage may be city-focused.",
+  "verification": {
+    "verified_at": 1792135276677,
+    "counties": [
+      "40147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

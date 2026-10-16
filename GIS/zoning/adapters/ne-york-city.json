@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-york-city",
+  "publisher": "City of York, Nebraska",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/zHG7LVAQev1kH5Fk/arcgis/rest/services/City_Layers_(Public)/FeatureServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31185"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "OBJECTID <> 16",
+  "notes": "City of York zoning districts only (not unincorporated county). Excludes OBJECTID 16, an R polygon with invalid (self-intersecting) geometry in the source; at least one other polygon (id >19) is also invalid but tolerated.",
+  "verification": {
+    "verified_at": 1792135174340,
+    "counties": [
+      "31185"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

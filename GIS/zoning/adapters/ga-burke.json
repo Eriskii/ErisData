@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-burke",
+  "publisher": "Burke County GA (hosted by mbickley, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YwCV9A7cLN6cgxhP/arcgis/rest/services/Burke_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13033"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Parcel layer (not a district layer) carrying each parcel zoning in Zoning; no official county zoning district service was found. Copy is an ArcGIS Online item by mbickley titled Burke County Zoning. Used as last resort.",
+  "verification": {
+    "verified_at": 1792133882789,
+    "counties": [
+      "13033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

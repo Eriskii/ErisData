@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-jackson-county",
+  "publisher": "Jackson County Land Information Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/G9tkBzRKbAqaotWr/arcgis/rest/services/Zoning_County/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55053"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "AUTHORITY",
+    "link": "HYPERLINK",
+    "zone": "MAJORITYZONED"
+  },
+  "notes": "Parcel-level county zoning layer: each feature is a tax parcel whose MAJORITYZONED holds its base district code (A1, A2, ...); MULTIZONING flags parcels split across districts. No zone_name field. Covers county zoning; city zoning is in separate layers.",
+  "verification": {
+    "verified_at": 1792136051076,
+    "counties": [
+      "55053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

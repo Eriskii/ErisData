@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "az-prescott-valley",
+  "publisher": "Yavapai County GIS (Town of Prescott Valley zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yavapaiaz.gov/ArcGIS/rest/services/Zoning/MapServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04025"
+    ]
+  },
+  "fields": {
+    "link": "ORD",
+    "zone": "ZONING",
+    "zone_name": "ZONETYPE"
+  },
+  "notes": "Town of Prescott Valley zoning districts, served by Yavapai County GIS. ORD holds the ordinance reference.",
+  "verification": {
+    "verified_at": 1792133765940,
+    "counties": [
+      "04025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

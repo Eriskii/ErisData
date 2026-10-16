@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-lake",
+  "publisher": "Lake County GIS (MN)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/NlvHF2FHoAfPIDvG/arcgis/rest/services/Zoning_Districts_2/FeatureServer/47",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27075"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONE_AUTH",
+    "zone": "ZONE_DIST"
+  },
+  "notes": "Lake County MN zoning districts published by county (Zoning Districts_2 service). Zone codes from ZONE_DIST; ZONE_AUTH names the zoning authority.",
+  "verification": {
+    "verified_at": 1792134499837,
+    "counties": [
+      "27075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-camden",
+  "publisher": "Camden County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/f8vjF7CsMeTPBIVC/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37029"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONE"
+  },
+  "notes": "Camden County NC county-owned ArcGIS Online org (CamdenCountyNC). Covers unincorporated county zoning districts (Working Lands, Rural Residential, Neighborhood Residential, Marine Commercial, etc.). Some ZONE values are null; ZONING holds the code. Approved dates are mostly blank.",
+  "verification": {
+    "verified_at": 1792135129729,
+    "counties": [
+      "37029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

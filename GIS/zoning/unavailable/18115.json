@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "18115",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://ohiocountyin.gov/assessor/",
+    "https://ohiocountyin.gov/building-inspector/",
+    "https://cityofrisingsun.com/department/planning-zoning/",
+    "https://indianastateauthority.com/counties/ohio-county/",
+    "https://ohioin.wthgis.com/"
+  ],
+  "note": "Ohio County zoning is administered by its Area Plan Commission. Searched ArcGIS Hub/Online and the web for zoning districts for the county and for Rising Sun, the only incorporated city. No public ArcGIS REST or other queryable zoning district service was found. The county GIS viewer (ohioin.wthgis.com) exposes no REST services (/arcgis/rest/services returns 404).",
+  "recorded_at": 1792134164679,
+  "recheck_after": 1807686164679,
+  "model": "claude-haiku-5-5"
+}

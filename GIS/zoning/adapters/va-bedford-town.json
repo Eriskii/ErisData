@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-bedford-town",
+  "publisher": "Town of Bedford (via Bedford County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://webgis.bedfordcountyva.gov/arcgis/rest/services/OpenData/OpenDataTownofBedford/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51019"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Zone_District"
+  },
+  "notes": "Zoning designations within the Town of Bedford only; the county layer va-bedford-county covers unincorporated land. Hosted on Bedford County open data server.",
+  "verification": {
+    "verified_at": 1792135906224,
+    "counties": [
+      "51019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

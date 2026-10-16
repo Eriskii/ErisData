@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-chester",
+  "publisher": "Unknown uploader (ArcGIS Online layer Zoning_chester); Chester County SC zoning districts",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/BAJNi3EgCdtQ1BCG/arcgis/rest/services/Zoning_chester/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45023"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Copy hosted by ArcGIS Online user layermanager, not confirmed as county-published; only queryable zoning districts layer found for Chester County SC after searching county GIS hub, Building+Zoning and Planning pages (they link only PDFs and Beacon). Carries zone codes only (e.g. R-2); no jurisdiction or zone name field. Geometry in EPSG:3857.",
+  "verification": {
+    "verified_at": 1792135353309,
+    "counties": [
+      "45023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

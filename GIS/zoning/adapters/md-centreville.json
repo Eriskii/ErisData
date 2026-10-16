@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-centreville",
+  "publisher": "Town of Centreville (copy hosted by ESRGCoop)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/X3lKekbdaBmNjCHu/arcgis/rest/services/CentrevilleZoning_030424/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24035"
+    ]
+  },
+  "fields": {
+    "zone": "Symbol",
+    "zone_name": "Zone"
+  },
+  "notes": "Unofficial copy: Centreville town zoning (March 2024) on an ArcGIS Online account (ESRGCoop); the town publishes its official zoning map only as a PDF. Used because no official queryable layer exists. Covers the Town of Centreville only.",
+  "verification": {
+    "verified_at": 1792134467582,
+    "counties": [
+      "24035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-san-juan-farmington",
+  "publisher": "City of Farmington (served by San Juan County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Iq7du96UAXAOM1at/arcgis/rest/services/City_of_Farmington_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35045"
+    ]
+  },
+  "fields": {
+    "zone": "Label",
+    "zone_name": "ZONECLASS"
+  },
+  "notes": "City of Farmington zoning only; unincorporated county zoning not found as a queryable service. ZONEDESC is blank so ZONECLASS holds the district name; Label holds the code.",
+  "verification": {
+    "verified_at": 1792135004220,
+    "counties": [
+      "35045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

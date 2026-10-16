@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-bossier-benton",
+  "publisher": "MPC (Benton Zoning layer, Bossier City Engineering account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/jh7pbmmfSzUSNziy/arcgis/rest/services/MPC/FeatureServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "Parcel-level layer: each feature is a parcel carrying its zoning in ZONING (e.g. R-A), not a district polygon; a last resort. Benton Zoning from the MPC map service; the ordinance link field is filled for only about a quarter of features, so it is not mapped.",
+  "verification": {
+    "verified_at": 1792134435185,
+    "counties": [
+      "22015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

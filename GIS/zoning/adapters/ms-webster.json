@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ms-webster",
+  "publisher": "Webster County GIS (Eupora Zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/kQPfxbSKhIDcSFXL/arcgis/rest/services/WebsterCo/FeatureServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28155"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Layer 11 of the county WebsterCo service, named Eupora Zoning: covers the City of Eupora only, not unincorporated county land. Parcel-attributed (carries PARCEL_ID, NAME, ADDRESS), so each polygon is a parcel with its zoning code.",
+  "verification": {
+    "verified_at": 1792134624050,
+    "counties": [
+      "28155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

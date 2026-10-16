@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-andrews-city",
+  "publisher": "City of Andrews, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/92QfOMBKWMM8i1Q5/arcgis/rest/services/AndrewsFeatureLayers_view/FeatureServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48003"
+    ]
+  },
+  "fields": {
+    "zone": "DESC_",
+    "zone_name": "DESC_"
+  },
+  "notes": "City of Andrews zoning layer from the city web map (Zoning and City Limits Map). Covers city limits only; the county does not zone. DESC_ holds the district description (no separate code field); PROP_ID is an id.",
+  "verification": {
+    "verified_at": 1792135947527,
+    "counties": [
+      "48003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

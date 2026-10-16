@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sc-colleton",
+  "publisher": "Colleton County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/m0cnLGKdhwao8WvM/arcgis/rest/services/ColletonZoningDistrictsOrdinances/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45029"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "Zoning",
+    "zone_name": "Long_Desc"
+  },
+  "notes": "Colleton County zoning districts from the county GIS office; ordinance URL in Ordinance field.",
+  "verification": {
+    "verified_at": 1792135550696,
+    "counties": [
+      "45029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-hutchinson-borger",
+  "publisher": "City of Borger, TX (ULDO zoning, hosted by city vendor ViewPro/ENCODE)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/VaGF8YQeOaymNNZ2/arcgis/rest/services/Borger_ULDO_Zoning/FeatureServer/45",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48233"
+    ]
+  },
+  "fields": {
+    "zone": "ULDO_ZD",
+    "zone_name": "ULDO_ZD_NA"
+  },
+  "notes": "City of Borger Unified Land Development Ordinance zoning districts only (city limits; unincorporated county has no zoning). Layer is regularly updated by the city.",
+  "verification": {
+    "verified_at": 1792135926206,
+    "counties": [
+      "48233"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

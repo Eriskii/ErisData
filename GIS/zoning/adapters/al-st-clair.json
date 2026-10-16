@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-st-clair",
+  "publisher": "St. Clair County GIS (Revenue Commissioner parcel viewer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map.stclairco.com/arcgis/rest/services/Owner_Parcel_Zone_View_v3/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01115"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "ZoneCode"
+  },
+  "notes": "Last resort: no county base zoning district layer found. This is the county parcel layer (zoned parcels only) carrying each parcel ZoneCode; zone is a parcel-level zoning attribute, not a district polygon. Overlay zones are in a separate layer (MapServer/1).",
+  "verification": {
+    "verified_at": 1792133738985,
+    "counties": [
+      "01115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-auglaize-stmarys-twp",
+  "publisher": "Auglaize County GIS / Saint Marys Township",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.auglaizecounty.org/arcgis/rest/services/Zoning/StMarysTownship/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Name",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Saint Marys Township (unincorporated) zoning districts; 49 features.",
+  "verification": {
+    "verified_at": 1792135183645,
+    "counties": [
+      "39011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

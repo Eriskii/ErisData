@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-williamsburg-city",
+  "publisher": "City of Williamsburg GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.williamsburgva.gov/server/rest/services/Williamsburg_City_Service_MIL1/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51830"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "B_SubZone",
+    "zone_name": "CommonName"
+  },
+  "notes": "City of Williamsburg official zoning layer (independent city, FIPS 51830). Zone code in B_SubZone; CommonName holds the district type name; Link is the municode district regulations link. Some polygons are conditional/PUD districts.",
+  "verification": {
+    "verified_at": 1792135990207,
+    "counties": [
+      "51830"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

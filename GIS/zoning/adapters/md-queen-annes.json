@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-queen-annes",
+  "publisher": "Queen Anne's County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/C97Ug2An2cCjc1ox/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24035"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "GeneralZon"
+  },
+  "notes": "County zoning map (official zoning map per QAC open data portal, hosted by county org). Towns zone their own land and are not included.",
+  "verification": {
+    "verified_at": 1792134441369,
+    "counties": [
+      "24035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

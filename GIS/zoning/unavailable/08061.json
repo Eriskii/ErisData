@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "08061",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://kiowacounty.colorado.gov/government/departments/land-use",
+    "https://kiowacounty.colorado.gov/government/boards/kiowa-county-planning-and-zoning-commission",
+    "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/MapServer/0"
+  ],
+  "note": "Kiowa County (CO) has a planning and zoning commission but publishes no queryable zoning district layer. Searches of ArcGIS Hub/Online and the web found only Elbert County's zoning service for the Town of Kiowa, which is a different county. The statewide parcel layer has no zoning codes populated for county FIPS 08061. The county website returned 403 to automated reads, so its land-use page could not be checked directly.",
+  "recorded_at": 1792133829927,
+  "recheck_after": 1807685829927,
+  "model": "claude-haiku-5-5"
+}

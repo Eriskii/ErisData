@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "47085",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.citywaverly.com/vnews/display.v/SEC/Building%20&%20Zoning|Resources%20&%20FAQ%3E%3EMaps",
+    "https://www.humphreyscountytn.gov/planning_commission.html",
+    "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/46"
+  ],
+  "note": "No queryable zoning district layer found for Humphreys County or Waverly. Waverly's official zoning map is a PDF (2014 Waverly Official Zoning, revised 2021). The county planning commission page links no zoning map or GIS service. The GNRC open data hub search returned no Humphreys zoning dataset. The state-hosted Humphreys_Parcels layer carries no zoning field (only tax DISTRICT and LANDUSE), so it is not a substitute.",
+  "recorded_at": 1792135547430,
+  "recheck_after": 1807687547430,
+  "model": "claude-haiku-5-5"
+}

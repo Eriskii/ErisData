@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "27161",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gisdata.mn.gov/ru/dataset/us-mn-co-waseca-plan-zoning",
+    "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_co_waseca/plan_zoning/FeatureServer",
+    "https://gis.wasecacounty.gov/arcgis/rest/services/Public/Cadastral/MapServer",
+    "https://www.ci.waseca.mn.us/DocumentCenter/View/1045/Official-Zoning-Map",
+    "https://beacon.schneidercorp.com/?site=WasecaCountyMN"
+  ],
+  "note": "Waseca County zoning is listed only as a legacy Minnesota Geospatial Commons file dataset (shp/gpkg/kmz). The Commons no longer exposes a resolvable download URL, the Hub has no Waseca zoning item, and the enterprise.gisdata.mn.gov us_mn_co_waseca zoning service requires a token. The county ArcGIS server (gis.wasecacounty.gov) and the county ArcGIS Online org have parcels, drainage and municipalities only, with no zoning field or layer. City of Waseca zoning is a PDF map. The Beacon viewer is not a public queryable service.",
+  "recorded_at": 1792135027956,
+  "recheck_after": 1807687027956,
+  "model": "claude-sonnet-5-5"
+}

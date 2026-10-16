@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-dickson-city",
+  "publisher": "City of Dickson, TN (Dickson_Admin ArcGIS organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Gld89lf779txw3q4/arcgis/rest/services/City_of_Dickson_Zoning_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47043"
+    ]
+  },
+  "fields": {
+    "zone": "Current_Zo",
+    "zone_name": "Zoning_Des"
+  },
+  "notes": "City of Dickson zoning from the city ArcGIS organization (public view). Layer named CityDickson_ZoningWORKING in the service; confirm current. Covers city limits only.",
+  "verification": {
+    "verified_at": 1792135923855,
+    "counties": [
+      "47043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-platte-columbus",
+  "publisher": "City of Columbus, NE (via ArcGIS Online org cityofcolumbusgis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/VdGaBUXUfZ3ETyKd/arcgis/rest/services/Future_Land_Use___Zoning_Map_WFL1/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31141"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_"
+  },
+  "notes": "City of Columbus zoning districts (ColumbusZoning layer). Zone_Detai holds district names but is filled for under half of districts, so it is not mapped. County is largely unzoned, so this covers the city.",
+  "verification": {
+    "verified_at": 1792134951430,
+    "counties": [
+      "31141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

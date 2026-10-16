@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-pasco",
+  "publisher": "Pasco County Board of County Commissioners (via Property Appraiser mapping)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapping.pascopa.com/arcgis/rest/services/Land_Use/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12101"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_TYPE",
+    "zone_name": "ZN_STR"
+  },
+  "notes": "BOCC Zoning layer from Pasco Property Appraiser MapServer, 11287 polygons. ZN_TYPE holds the district code (AC, R1, C2, MPUD); ZN_STR is a numeric record code, not a district name. No jurisdiction field; covers Pasco BOCC zoning (unincorporated county).",
+  "verification": {
+    "verified_at": 1792133846035,
+    "counties": [
+      "12101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

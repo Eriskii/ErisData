@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-highland",
+  "publisher": "Highland County, VA (Central Shenandoah Planning District Commission GIS, DPMC_GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/VkOe3q7u7LGe1XcE/arcgis/rest/services/Working_Zoning_20161013/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51091"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_DES"
+  },
+  "notes": "Working zoning layer dated 2016-10-13 from the Central Shenandoah PDC Highland County GIS map; parcel-style attributes (MAP, BLK, LOT) but ZONING carries district codes (A, R-3, etc.). Only queryable zoning districts found; county site links a GIS viewer without a service.",
+  "verification": {
+    "verified_at": 1792135926161,
+    "counties": [
+      "51091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "or-josephine",
+  "publisher": "Oregon DLCD (statewide zoning, Josephine County jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41033"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "link": "codeRef",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Josephine County'",
+  "notes": "Statewide DLCD zoning compiled from local jurisdictions; filtered to Josephine County unincorporated zoning (ownerName). zone is the state-standard code; localZCode/localZDesc hold local codes. Cities not included.",
+  "verification": {
+    "verified_at": 1792135286980,
+    "counties": [
+      "41033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mt-silver-bow",
+  "publisher": "Butte-Silver Bow GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/fx7Bgf8S8sf5BcNs/ArcGIS/rest/services/BSB_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30093"
+    ]
+  },
+  "fields": {
+    "link": "WEBSITE",
+    "zone": "ZONE_",
+    "zone_name": "LABEL"
+  },
+  "notes": "Combined City of Butte and County of Silver Bow zoning layer (214 features). ZONE_ is district code, LABEL the description, WEBSITE the municode ordinance link. INSIDE flags urban-limit area; no explicit jurisdiction field.",
+  "verification": {
+    "verified_at": 1792134874250,
+    "counties": [
+      "30093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

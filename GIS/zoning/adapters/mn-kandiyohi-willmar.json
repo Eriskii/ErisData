@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-kandiyohi-willmar",
+  "publisher": "City of Willmar Planning and Development",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://gis.kcmn.us/arcgis/rest/services/Willmar/PlanningDev/MapServer/1/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "27067"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Willmar zoning layer, served by the city GIS on the county ArcGIS server. Paged queries are refused, so the full layer is read in one GeoJSON request.",
+  "verification": {
+    "verified_at": 1792134528035,
+    "counties": [
+      "27067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

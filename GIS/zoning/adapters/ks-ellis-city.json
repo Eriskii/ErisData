@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-ellis-city",
+  "publisher": "City of Ellis (Hays/Ellis County GSDP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geodataportal.net/arcgis/rest/services/CityCountyData/MapServer/129",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20051"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Descr"
+  },
+  "notes": "City of Ellis zoning districts (33 polygons), from the Hays/Ellis County GSDP. Only the city of Ellis, not the rest of the county.",
+  "verification": {
+    "verified_at": 1792134283196,
+    "counties": [
+      "20051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

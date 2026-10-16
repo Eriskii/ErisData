@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-polk",
+  "publisher": "Polk County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/23uf7jKvz6SRPFWJ/arcgis/rest/services/Zoning1/FeatureServer/53",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37149"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_",
+    "zone_name": "ZONENAM"
+  },
+  "filter": "Zone_ <> 'Unzoned'",
+  "notes": "Zoning layer published by Polk County NC GIS (Zoning1 service, 143 polygons). Zone_ holds broad class (R, M, etc.); Unzoned polygons excluded. MZone holds the more specific district code where populated.",
+  "verification": {
+    "verified_at": 1792135152977,
+    "counties": [
+      "37149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

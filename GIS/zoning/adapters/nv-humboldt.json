@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nv-humboldt",
+  "publisher": "Humboldt County GIS (Sidwell parcels with zoning attribute)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/cbx6hozJyAREK9DB/arcgis/rest/services/SidwellParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "PTOWN",
+    "zone": "PZONE1"
+  },
+  "notes": "No standalone county zoning district layer found; this is the county parcel layer whose PZONE1 attribute carries each parcel zoning code. Last resort; parcel polygons, not district polygons. Served from the county ArcGIS Online organization (humboldtnv).",
+  "verification": {
+    "verified_at": 1792135079335,
+    "counties": [
+      "32013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

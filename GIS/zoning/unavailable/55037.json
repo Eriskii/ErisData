@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "55037",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://geodata.wisc.edu/catalog/814F1551-E3D4-4191-8927-40D4B198AC64",
+    "https://geodata.wisc.edu/catalog/642BE8DE-3BEB-4BAB-9B3B-38229A83A6C7",
+    "https://www.florencecountywi.com/departments/zoning-and-recycling/general-information/gis-land-information/"
+  ],
+  "note": "Florence County, WI publishes no queryable zoning district service. Its GIS is a MapGuide/Colligo web viewer and an ArcGIS Experience parcel viewer, with no REST zoning layer found in ArcGIS search or on county pages. The only zoning files are UW-Madison Robinson Map Library archives (2021 and 2016) as zipped ESRI File Geodatabases at web.s3.wisc.edu/rml-gisdata/, not a service and not in a format the adapter reads (the 2021 zip has no shapefile; validation failed with 'the zip has no .shp'). No city zoning layer found; the city of Florence WI publishes none that I could locate.",
+  "recorded_at": 1792136081611,
+  "recheck_after": 1807688081611,
+  "model": "claude-haiku-5-5"
+}

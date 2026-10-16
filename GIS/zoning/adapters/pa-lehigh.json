@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-lehigh",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning, Lehigh County municipalities)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42077"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "NAME",
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Lehigh'",
+  "notes": "Regional Lehigh Valley zoning layer hosted by LVPC (skharel_lvpc); covers Lehigh County municipalities, 2018 vintage (Zoning_23Mar18). zone is municipal code plus district code (e.g. 46R-3); jurisdiction is the municipality name (NAME). Zoning_District_Code is mostly empty, so ZN_MUNI_CD is used.",
+  "verification": {
+    "verified_at": 1792135317645,
+    "counties": [
+      "42077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-dare-nags-head",
+  "publisher": "Town of Nags Head",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ooP6YxNTswasez32/arcgis/rest/services/NagsHeadZoning/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37055"
+    ]
+  },
+  "fields": {
+    "zone": "ZCODE",
+    "zone_name": "DESCR"
+  },
+  "notes": "Town of Nags Head zoning districts (31 features), served from the town's ArcGIS Online organization. Covers the town only; other Dare jurisdictions not included.",
+  "verification": {
+    "verified_at": 1792135108192,
+    "counties": [
+      "37055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

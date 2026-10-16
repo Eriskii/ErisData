@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-duchesne-city",
+  "publisher": "Duchesne City (zoning layer hosted by Uintah Basin AOG)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/5fDwKG9d6YoFpMDE/arcgis/rest/services/DuchesneCityZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49013"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Covers Duchesne City only (12 districts), not unincorporated county land. County server portal.duchesnecountygis.org zoning layer not reachable (500 errors). Layer published by Uintah Basin AOG for the city.",
+  "verification": {
+    "verified_at": 1792135891699,
+    "counties": [
+      "49013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

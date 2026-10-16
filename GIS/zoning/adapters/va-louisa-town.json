@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-louisa-town",
+  "publisher": "Town of Louisa (layer hosted on ArcGIS Online service Louisa_WL_D)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/JpCRGiMdPvzLX1GI/arcgis/rest/services/Louisa_WL_D/FeatureServer/49",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51109"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Layer 49 Zoning - Town of Louisa, in the Louisa_WL_D service on an individual ArcGIS Online account (owner msmith1914); not a county-branded host. Covers only the Town of Louisa.",
+  "verification": {
+    "verified_at": 1792135989435,
+    "counties": [
+      "51109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

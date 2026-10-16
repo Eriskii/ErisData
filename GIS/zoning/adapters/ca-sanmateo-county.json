@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-sanmateo-county",
+  "publisher": "San Mateo County Planning and Building",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.smcgov.org/maps/rest/services/PLANNING/PLN_LAYERS_DMZ/MapServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06081"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURIS",
+    "zone": "PLN_ZONE"
+  },
+  "notes": "County unincorporated zoning district layer from the Planning GIS MapServer (PLN_LAYERS_DMZ layer 26). JURIS SMC marks unincorporated land; incorporated cities zone their own land and are not in this layer. Zone codes can combine several districts (e.g. R-1, S-11).",
+  "verification": {
+    "verified_at": 1792134127558,
+    "counties": [
+      "06081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-chatham-cary",
+  "publisher": "Chatham County Planning (Town of Cary zoning within county)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.chathamcountync.gov/opendataagol/rest/services/LandUsePlanning/Chatham_CaryZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37037"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClassification"
+  },
+  "notes": "Town of Cary zoning for the portion of Cary within Chatham County.",
+  "verification": {
+    "verified_at": 1792135064239,
+    "counties": [
+      "37037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

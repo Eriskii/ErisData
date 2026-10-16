@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-escambia",
+  "publisher": "Escambia County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismaps.myescambia.com/arcgis/rest/services/Individual_Layers/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12033"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Escambia County Current Zoning layer from county GIS (EPSG 2883). Only zone code is mapped; the layer has no zone_name or jurisdiction field. Coverage of city zoning not verified.",
+  "verification": {
+    "verified_at": 1792133825377,
+    "counties": [
+      "12033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

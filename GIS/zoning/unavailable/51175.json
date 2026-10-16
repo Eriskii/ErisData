@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "51175",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services.arcgis.com/ex1Az95h0eiponPK/arcgis/rest/services/Locality_Zones/FeatureServer/10",
+    "https://southamptoncova.interactivegis.com/login/",
+    "https://library.municode.com/va/southampton_county/codes/code_of_ordinances?nodeId=CO_CH18ZO",
+    "https://edit.zoningatlas.org/statsrollup/county/5978/"
+  ],
+  "note": "Southampton County VA publishes no queryable zoning district polygons. The Hampton Roads Locality_Zones layer has a Zoning_Southampton entry whose only record reads 'Currently unavailable'. The county's zoning is published as Municode text only. The county iGIS portal is a login viewer with no public REST services (probe returned 404). Boykins relies on a 1966 paper zoning map; Capron and Courtland have no published zoning text or maps. The third-party Zoneomics map and parcel vendors are not official or queryable.",
+  "recorded_at": 1792136030955,
+  "recheck_after": 1807688030955,
+  "model": "claude-haiku-5-5"
+}

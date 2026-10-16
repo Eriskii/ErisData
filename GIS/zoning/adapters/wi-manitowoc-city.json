@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wi-manitowoc-city",
+  "publisher": "City of Manitowoc (via Manitowoc County GIS map service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://manitowocmaps.info/arcgis/rest/services/Web_MercZoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55071"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Manitowoc zoning districts from the county base zoning map service; no jurisdiction field needed since the layer is the city only.",
+  "verification": {
+    "verified_at": 1792136047379,
+    "counties": [
+      "55071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

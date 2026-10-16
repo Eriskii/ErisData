@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-morrill-bridgeport",
+  "publisher": "City of Bridgeport, Nebraska (Morrill County)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/ekp6zcmQrlPGio0z/arcgis/rest/services/Bridgeport_Zoning_Districts_(view)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31123"
+    ]
+  },
+  "fields": {
+    "zone": "DescCode",
+    "zone_name": "Name"
+  },
+  "notes": "City of Bridgeport zoning only (73 features); county unincorporated zoning not in this layer. Published by city consultant via ArcGIS Online. OrdNo holds ordinance number.",
+  "verification": {
+    "verified_at": 1792134933191,
+    "counties": [
+      "31123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

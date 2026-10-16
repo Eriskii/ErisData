@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ma-essex-salem",
+  "publisher": "City of Salem, MA (mjosefson_SalemMA ArcGIS Online, Zoning Districts 2024)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/nPsFhwkdebYjxn1R/arcgis/rest/services/Zoning_Districts_2024/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DES"
+  },
+  "notes": "Salem MA zoning districts as described in the Zoning Ordinance, updated July 2024. Polygon layer of base districts.",
+  "verification": {
+    "verified_at": 1792134484293,
+    "counties": [
+      "25009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

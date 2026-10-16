@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-portage",
+  "publisher": "Portage County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisinfo.co.portage.wi.gov/server/rest/services/FinderApps/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55097"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "SHAPE_Area < 100000000",
+  "notes": "County zoning layer",
+  "verification": {
+    "verified_at": 1792136232525,
+    "counties": [
+      "55097"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

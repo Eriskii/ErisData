@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48133",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.eastlandtexas.gov/planning",
+    "https://www.eastlandtexas.gov/maps",
+    "http://map.3cgeo.com/fist/fistMain.php?site=elandzone"
+  ],
+  "note": "Eastland County, TX does not appear to zone unincorporated land. The City of Eastland zones its own land and publishes its zoning map only through a 3CI 'FIST' interactive web viewer (Eastland Zoning Interactive Web Map). The viewer page exposes no ArcGIS REST or other queryable endpoint in any form I could read, and searches of ArcGIS Hub/Online and the web found no county or city zoning FeatureServer/MapServer for Eastland County. The city's maps page launches a mapping application behind a javascript link with no service URL. Zoning is therefore not published as a queryable service for the county or its cities.",
+  "recorded_at": 1792135663847,
+  "recheck_after": 1807687663847,
+  "model": "claude-haiku-5-5"
+}

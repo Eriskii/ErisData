@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-schoharie-cobleskill-town",
+  "publisher": "Schoharie County GIS (Town of Cobleskill Zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://spatialags.vhb.com/arcgis/rest/services/20327_Schoharie/NY_County_Schoharie/MapServer/59",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36095"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Cobleskill zoning district layer from the Schoharie County GIS map service (hosted by VHB for the county). Village of Cobleskill is a separate layer.",
+  "verification": {
+    "verified_at": 1792135030355,
+    "counties": [
+      "36095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

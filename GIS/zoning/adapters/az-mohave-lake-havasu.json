@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "az-mohave-lake-havasu",
+  "publisher": "City of Lake Havasu City (hosted by Mohave County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mcgis.mohave.gov/arcgis/rest/services/LHC_Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "NewZoneDis"
+  },
+  "notes": "Lake Havasu City zoning districts. zone_name taken from NewZoneDis (ZONEDESC is mostly blank).",
+  "verification": {
+    "verified_at": 1792133788586,
+    "counties": [
+      "04015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

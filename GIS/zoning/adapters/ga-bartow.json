@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-bartow",
+  "publisher": "Bartow County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/0tQ9yX5b2VG5RHei/arcgis/rest/services/AcworthZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13015"
+    ]
+  },
+  "fields": {
+    "zone": "STZONECODE"
+  },
+  "notes": "Bartow County GIS ArcGIS Online org (BartowGIS). Titled AcworthZoning but described as Bartow County zoning; 566 polygons. County-hosted full service www.bartowgis.org/.../BartowZoning/FeatureServer/0 was unreachable.",
+  "verification": {
+    "verified_at": 1792133946079,
+    "counties": [
+      "13015"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-volusia",
+  "publisher": "Volusia County GIS (VCGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps1.vcgov.org/arcgis/rest/services/CountywideZoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12127"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISD",
+    "link": "URL",
+    "zone": "GENL_ZCODE",
+    "zone_name": "Z_DESCRIP"
+  },
+  "filter": "Acres < 40000",
+  "notes": "Countywide compilation of all jurisdictional zoning (unincorporated county plus cities) with crosswalk. Districts over 40,000 acres (very large rural county conservation/forestry polygons whose geometry fails validation) are excluded.",
+  "verification": {
+    "verified_at": 1792133883249,
+    "counties": [
+      "12127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

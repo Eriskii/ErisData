@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-chowan-edenton",
+  "publisher": "Chowan County GIS (Town of Edenton zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/nJbIFHiSnaX0z0hS/arcgis/rest/services/Chowan_Feature_Service/FeatureServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37041"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "LABEL"
+  },
+  "notes": "Town of Edenton zoning districts, from the Chowan County GIS feature service (Edenton_Zoning layer).",
+  "verification": {
+    "verified_at": 1792135073187,
+    "counties": [
+      "37041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

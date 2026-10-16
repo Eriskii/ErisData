@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-fannin-bonham",
+  "publisher": "City of Bonham, TX (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/wCqQSYzCSB2pQ16E/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48147"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Bonham zoning districts only; county unincorporated land is not zoned by the county. Hosted in the city ArcGIS Online organization (bonhamtx). 182 features. Link field is empty in the source, so not mapped.",
+  "verification": {
+    "verified_at": 1792135887209,
+    "counties": [
+      "48147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

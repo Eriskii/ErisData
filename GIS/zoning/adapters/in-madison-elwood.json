@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-madison-elwood",
+  "publisher": "City of Elwood (published by Madison County Council of Governments)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/WO41K9zxsNclVVfS/arcgis/rest/services/Elwood_Zoning/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18095"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Elwood zoning only, hosted on an ArcGIS Online account (rmlawson2) whose Hub page says it is published by MCCOG; no county-wide Madison County zoning service was found. Copy status uncertain, so official=false. Ordinance field is almost empty, so no link mapped.",
+  "verification": {
+    "verified_at": 1792134155053,
+    "counties": [
+      "18095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

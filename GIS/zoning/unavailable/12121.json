@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "12121",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://suwanneecountyfl.gov/wp-content/uploads/zoning_map.pdf",
+    "https://www.cityofliveoak.org/wp-content/uploads/Zoning-Atlas-12-05-2023-with-street-names.pdf",
+    "https://services6.arcgis.com/B8iKcMs83hgqommE/arcgis/rest/services/Parcels_Suwannee_2024/FeatureServer/0"
+  ],
+  "note": "Suwannee County publishes its zoning only as a 2008 static PDF atlas; Live Oak publishes its zoning only as a 12-05-2023 PDF atlas. The county GIS parcel layer (Parcels_Suwannee_2024) has a ZONING field but it is empty for all 31,761 parcels, so no queryable zoning polygons exist. Branford: no zoning service found. The county planning page says GIS layers are available only on request, with no public endpoint.",
+  "recorded_at": 1792133913030,
+  "recheck_after": 1807685913030,
+  "model": "claude-haiku-5-5"
+}

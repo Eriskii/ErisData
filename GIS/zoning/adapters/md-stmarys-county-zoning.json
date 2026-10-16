@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-stmarys-county-zoning",
+  "publisher": "St. Mary's County Government GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stmaryscountymd.gov/server/rest/services/Public/General4/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24037"
+    ]
+  },
+  "fields": {
+    "zone": "CATEGORY"
+  },
+  "filter": "OBJECTID <> 297",
+  "notes": "County-published zoning layer (Public/General4 MapServer layer 4); only attribute is CATEGORY. OBJECTID 297 excluded because its source geometry is invalid.",
+  "verification": {
+    "verified_at": 1792134822444,
+    "counties": [
+      "24037"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

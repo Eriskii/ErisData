@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-long",
+  "publisher": "Long County GIS (SEGRASS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://portal.segrass.org/crcarcgis/rest/services/Long/Landuse_Planning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13183"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningName"
+  },
+  "notes": "Long County GIS (SEGRASS regional GIS) zoning layer from the county planning app; parcel-level polygons carrying the district code in Zoning. Includes petition fields for recent rezonings.",
+  "verification": {
+    "verified_at": 1792133936476,
+    "counties": [
+      "13183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

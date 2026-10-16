@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "19069",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.franklincountyia.gov/departments/gis___mapping/index.php",
+    "https://www.franklincountyiowa.com/uploads/Editor/FranklinCountyZoningAtlas.pdf",
+    "https://services7.arcgis.com/vkK9gWXr5NOvX1LA/arcgis/rest/services?f=json"
+  ],
+  "note": "Franklin County IA (FIPS 19069) publishes zoning only as unofficial PDF map atlases (2018). Its GIS office says zoning boundaries exist as an ESRI shapefile, but only through a paid/order request form (Schneider GeoPermits), not a public download or queryable service. The county ArcGIS Online org (services7 vkK9gWXr5NOvX1LA) lists no zoning layer. Hampton (county seat) publishes its zoning districts only as a PDF; no city zoning service found for Hampton, Sheffield or Ackley. A Zoning_Districts FeatureServer found in search (services.arcgis.com/f4rR7WnIfGBdVYFd) has no features in the county and is not this county's data.",
+  "recorded_at": 1792133748746,
+  "recheck_after": 1807685748746,
+  "model": "claude-haiku-5-5"
+}

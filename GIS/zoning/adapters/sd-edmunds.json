@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sd-edmunds",
+  "publisher": "Edmunds County (ArcGIS Online copy EDMUNDS_ZONING_WFL1, by DISTRICTIII)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/9grXbokZ834gPfey/arcgis/rest/services/EDMUNDS_ZONING_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46045"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Unofficial copy: an ArcGIS Online item by DISTRICTIII, not the county's own service; the county MapNet (1stdistrict.org edmundsmapnet) has no zoning layer. Parcel-level polygons with ZONING (e.g. A - Agricultural Land District) for unincorporated townships; no jurisdiction field. zone_name left unmapped because FEATURE_TYPE only says PARCEL.",
+  "verification": {
+    "verified_at": 1792135405378,
+    "counties": [
+      "46045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

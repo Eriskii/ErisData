@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-lexington",
+  "publisher": "City of Lexington, NC (GIS service hosted on Davidson County webGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://webgis.co.davidson.nc.us/arcgis/rest/services/Lexington/LexingtonService/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37057"
+    ]
+  },
+  "fields": {
+    "zone": "LandZoning"
+  },
+  "notes": "Last resort: no Lexington zoning district layer was found; this is the city parcel layer, whose LandZoning attribute carries each parcel zoning code. Parcel polygons, not district polygons, so dissolve by zone for districts.",
+  "verification": {
+    "verified_at": 1792135093860,
+    "counties": [
+      "37057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

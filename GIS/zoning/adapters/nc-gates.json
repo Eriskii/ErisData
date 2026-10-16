@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-gates",
+  "publisher": "Gates County GIS (parcel-based zoning layer served via Gates County parcel viewer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/nJbIFHiSnaX0z0hS/arcgis/rest/services/GatesParcelService/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37073"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "Zoning attribute on a parcel-based polygon layer (8,027 features, one per parcel) used by the Gates County NC Parcel Viewer (agdonline.maps.arcgis.com app 5140b9aee17143cda7e51801b085f10d). No zone name or jurisdiction field. The county publishes its official zoning map only as an image; this is the only queryable zoning polygon found.",
+  "verification": {
+    "verified_at": 1792135116457,
+    "counties": [
+      "37073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

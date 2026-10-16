@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29081",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.cityofbethany.org/government/city_departments/development_services/zoning_map.php",
+    "https://bethany.mapxpress.net/pages/map_gallery.html",
+    "https://harrison.countygis.org"
+  ],
+  "note": "No queryable zoning district service found for Harrison County MO or its cities. Bethany publishes its zoning map as a PDF (last revised 2015) on its city site and map gallery; its MapXpress ArcGIS parcel app (bethany.mapxpress.net/ags_map) was unreachable, so no service could be confirmed. County GIS portal (harrison.countygis.org) exposes no zoning layer in the pages reachable. Searches of ArcGIS Hub/Online returned no Harrison County MO zoning layer. Note the Zoning_Districts FeatureServer under services.arcgis.com/f4rR7WnIfGBdVYFd is not in Harrison County (zero features in its bbox).",
+  "recorded_at": 1792134820246,
+  "recheck_after": 1807686820246,
+  "model": "claude-haiku-5-5"
+}

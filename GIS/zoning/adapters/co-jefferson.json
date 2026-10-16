@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-jefferson",
+  "publisher": "Jefferson County Planning & Zoning (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.jeffco.us/server2/rest/services/Zoning/FeatureServer/36",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08059"
+    ]
+  },
+  "fields": {
+    "link": "ZCASE",
+    "zone": "ZTYPE"
+  },
+  "notes": "Unincorporated Jefferson County zoning only; municipalities are not zoned in this layer. ZTYPE holds the district code (e.g. P-D). ZCASE is the rezoning case number.",
+  "verification": {
+    "verified_at": 1792133815882,
+    "counties": [
+      "08059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

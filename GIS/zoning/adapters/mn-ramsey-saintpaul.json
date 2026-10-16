@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-ramsey-saintpaul",
+  "publisher": "City of Saint Paul PED",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/9meaaHE3uiba0zr8/arcgis/rest/services/PrincipalZoning_TEST/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27123"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Name"
+  },
+  "notes": "City of Saint Paul principal zoning districts (the only Ramsey County city zoning layer found as a queryable service; Saint Paul is the county seat and largest city). Service name contains TEST but the description calls it the official layer in effect. Other Ramsey County cities not covered.",
+  "verification": {
+    "verified_at": 1792134506445,
+    "counties": [
+      "27123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

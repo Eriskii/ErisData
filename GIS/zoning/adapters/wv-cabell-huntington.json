@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wv-cabell-huntington",
+  "publisher": "City of Huntington, WV (Planning & Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/8y9N82F3nS8JSOBl/arcgis/rest/services/Zoning_08162022_Webmap/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54011"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Huntington only (not unincorporated county). Layer is a parcel layer from the city ArcGIS org; each parcel carries its zoning district in Zoning (e.g. R-1 Single-family Residential), so it is used as the district source. Last resort: no county-wide zoning district layer was found for Cabell County.",
+  "verification": {
+    "verified_at": 1792136028714,
+    "counties": [
+      "54011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

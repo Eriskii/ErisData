@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-screven-sylvania",
+  "publisher": "City of Sylvania / SEGRASS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://portal.segrass.org/crcarcgis/rest/services/Screven/Landuse_Planning/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13251"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Sylvania zoning districts from the SEGRASS regional GIS server; layer also holds parcel identifiers and rezone fields. Zoning holds the district code.",
+  "verification": {
+    "verified_at": 1792133964531,
+    "counties": [
+      "13251"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ky-henderson",
+  "publisher": "Henderson County GIS (HCCGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Iwwqwcdc5CWG2jt9/arcgis/rest/services/GISWeb_WFL1/FeatureServer/10",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21101"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONE_LOC",
+    "zone": "ZONE_",
+    "zone_name": "ZONE_DESCR"
+  },
+  "notes": "Single layer of county and city base zoning districts; ZONE_LOC gives jurisdiction (COUNTY, CITY, CORYDON, etc.). Parcel-keyed PIDN not mapped. No ordinance link field.",
+  "verification": {
+    "verified_at": 1792134338903,
+    "counties": [
+      "21101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

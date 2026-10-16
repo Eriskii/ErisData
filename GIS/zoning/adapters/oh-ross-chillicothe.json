@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-ross-chillicothe",
+  "publisher": "Ross County GIS (City of Chillicothe zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/IQSUQhVBDHAkRlWe/arcgis/rest/services/Chillicothe_Zoning/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39141"
+    ]
+  },
+  "fields": {
+    "zone": "NewZoning",
+    "zone_name": "Zoning2022"
+  },
+  "notes": "Chillicothe only (city, not county unincorporated land). Layer is a parcel-level layer carrying each parcel zoning: NewZoning is the updated code, Zoning2022 the prior one; used as a last resort since no county or other city district layer is published. Overlay HDR/LimitedRO fields not mapped.",
+  "verification": {
+    "verified_at": 1792135206557,
+    "counties": [
+      "39141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

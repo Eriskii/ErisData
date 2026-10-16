@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "or-tillamook",
+  "publisher": "Oregon DLCD (statewide zoning compilation)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "41057"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "notes": "Statewide DLCD zoning compilation covering all Oregon jurisdictions; ownerName names the jurisdiction (Tillamook County and its cities). zone is the state generalized code (orZCode); localZCode is blank for most records.",
+  "verification": {
+    "verified_at": 1792135382072,
+    "counties": [
+      "41057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

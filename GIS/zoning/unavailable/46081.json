@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "46081",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.lawrence.sd.us/280/GISMapping",
+    "https://lawrence.sd.us/365/About-the-Data",
+    "https://www.1stdistrict.org/arcgis/rest/services/Lawrence/lawrencemapnet/FeatureServer/20"
+  ],
+  "note": "Lawrence County zoning (county layer, plus Spearfish, Whitewood, Deadwood city layers) is published through the county's Beacon map viewer, which is not a public REST service. The same zoning layers also appear in a public web map (Lawrence County, SD, owner mkane@segroup.com, item 6fa9e416e3f846d5a2c2702cdf473f99) that references 1stdistrict.org lawrencemapnet FeatureServer layers 20 (County Zoning), 21 (Deadwood), 22 (Spearfish), 23 (Whitewood). Those layers return HTTP 500 'Service not started' / 'Error performing query operation' on every query, so no usable zoning polygons could be read. Validation attempt sd-lawrence failed on the query check.",
+  "recorded_at": 1792135499124,
+  "recheck_after": 1807687499124,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nv-white-pine",
+  "publisher": "White Pine County NV (WPASSESSOR ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/ihyPHe2KRRmOsTPa/arcgis/rest/services/Zoning_WhitePineNV/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32033"
+    ]
+  },
+  "fields": {
+    "zone": "Code"
+  },
+  "notes": "White Pine County NV zoning polygons (last automated update 2026) from the county assessor ArcGIS org. Code is an unlabeled numeric district index (0-15); Name is blank throughout, so codes need the county zoning ordinance (Ch. 17.20) to decode. The 2025 companion layer Zoning_2025 has named codes (C-1, R-1-75, M-H-2) but its polygons fail validity.",
+  "verification": {
+    "verified_at": 1792134988007,
+    "counties": [
+      "32033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

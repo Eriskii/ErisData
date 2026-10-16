@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-hamilton",
+  "publisher": "Hamilton County, FL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/wKGu58lMCTiOrVAj/arcgis/rest/services/Zone_Map_2026/FeatureServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12047"
+    ]
+  },
+  "fields": {
+    "zone": "Value",
+    "zone_name": "Zone"
+  },
+  "notes": "County Zone Map 2026 layer behind the county Land Use and Zone Map web app (hamcofl.maps.arcgis.com). Covers unincorporated county zoning districts; zone code from Value, name from Zone.",
+  "verification": {
+    "verified_at": 1792133851710,
+    "counties": [
+      "12047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

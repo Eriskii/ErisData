@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "az-cochise",
+  "publisher": "Cochise County Development Services",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Yxem0VOcqSy8T6TE/arcgis/rest/services/Dev_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04003"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTI",
+    "zone": "ZONING",
+    "zone_name": "TYPE_ZONING"
+  },
+  "notes": "Cochise County Zoning areas (Dev_Zoning), county-hosted ArcGIS Online item; updated infrequently. Jurisdiction field mostly COUNTY (unincorporated). Ordinance links present for only a minority of districts.",
+  "verification": {
+    "verified_at": 1792133659926,
+    "counties": [
+      "04003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

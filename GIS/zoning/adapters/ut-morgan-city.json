@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ut-morgan-city",
+  "publisher": "Morgan City, Utah",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/23UqnR4HgyUvYRWd/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49029"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Morgan City (county seat) zoning districts, city-published layer updated 2026.",
+  "verification": {
+    "verified_at": 1792135792549,
+    "counties": [
+      "49029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

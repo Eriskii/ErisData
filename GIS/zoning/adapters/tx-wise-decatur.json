@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-wise-decatur",
+  "publisher": "City of Decatur, TX (GIS Division)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/PLOR6Lqgjdua9pO5/arcgis/rest/services/DECATURTX_V_GISDATA_VIEWONLY/FeatureServer/41",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "48497"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "City of Decatur base zoning districts (PLN_ZONING, VIEWONLY view of city GIS data). Covers Decatur city only; Wise County unincorporated land is not zoned by the county. Overlay/proposed layers not used.",
+  "verification": {
+    "verified_at": 1792135919089,
+    "counties": [
+      "48497"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

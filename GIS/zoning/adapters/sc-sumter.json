@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-sumter",
+  "publisher": "Sumter City-County Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.sumter-sc.com/server/rest/services/Planning/Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45085"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City and County of Sumter combined zoning layer; no jurisdiction field. Official county/city planning dept.",
+  "verification": {
+    "verified_at": 1792135353196,
+    "counties": [
+      "45085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

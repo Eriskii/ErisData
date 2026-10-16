@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-calhoun-anniston",
+  "publisher": "City of Anniston (adopted 2024 zoning map, hosted by EARPDC staff on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/ffe74c9eba6e4442b39bc1ae9b16929b/data",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "01015"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_2024",
+    "zone_name": "Zone_2024"
+  },
+  "notes": "Anniston city only (not unincorporated county or other cities). Source is the GeoJSON behind the City of Anniston Zoning Map web app (ArcGIS Online item by EARPDC staff, adopted by Ordinance 24-O-5 on June 4, 2024). Zone_2024 holds code and name together as CODE: Name (e.g. IG: Industrial General). Ordinance PDF: https://annistonal.gov/wp-content/uploads/2024/07/2024-Zoning.pdf",
+  "verification": {
+    "verified_at": 1792133719841,
+    "counties": [
+      "01015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

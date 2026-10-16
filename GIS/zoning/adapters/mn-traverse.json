@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-traverse",
+  "publisher": "Traverse County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.co.traverse.mn.us/arcgis/rest/services/GIS_Data_Layers/MapServer/25",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27155"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "Traverse County unincorporated zoning districts (26 features); county GIS host, http. Cities zone their own land and are not in this layer.",
+  "verification": {
+    "verified_at": 1792134513728,
+    "counties": [
+      "27155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

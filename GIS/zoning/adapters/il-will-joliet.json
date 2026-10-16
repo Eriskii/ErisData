@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-will-joliet",
+  "publisher": "City of Joliet GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofjoliet.info/arcgis1/rest/services/Public/Resource_Lookup/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17197"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "filter": "INACT_DATE IS NULL",
+  "notes": "City of Joliet zoning districts (Joliet portion of Will County); only active records (INACT_DATE null). No zone description field published.",
+  "verification": {
+    "verified_at": 1792134111156,
+    "counties": [
+      "17197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

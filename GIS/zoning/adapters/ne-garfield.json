@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-garfield",
+  "publisher": "Garfield County GIS (gWorks)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Garfield_County_NE_PZ/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31071"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Garfield County NE zoning polygons hosted by gWorks for the county; 14 features. Only zone code available; no name field.",
+  "verification": {
+    "verified_at": 1792134934554,
+    "counties": [
+      "31071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

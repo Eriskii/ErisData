@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mt-lake",
+  "publisher": "Lake County GIS (Polson area zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/qQ6tqy9VSUry3ySt/arcgis/rest/services/Polson_Area_Zoning/FeatureServer/919",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30047"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "DISTRICT",
+    "zone": "SUBDISTRIC",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "Polson-area zoning published by Lake County GIS: 41 polygons covering the City of Polson and surrounding area, not the whole county. zone is the district code (SUBDISTRIC); DISTRICT names the jurisdiction (e.g. City of Polson).",
+  "verification": {
+    "verified_at": 1792134884226,
+    "counties": [
+      "30047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

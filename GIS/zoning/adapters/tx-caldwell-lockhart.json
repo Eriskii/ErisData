@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-caldwell-lockhart",
+  "publisher": "City of Lockhart via Caldwell CAD ArcGIS Online",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rVxY74DxxIDrDbc0/arcgis/rest/services/Caldwell_CAD_Parcel_Map/FeatureServer/49",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48055"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Lockhart zoning districts (only the city, not unincorporated county). Served from the Caldwell Central Appraisal District public parcel map service.",
+  "verification": {
+    "verified_at": 1792135603222,
+    "counties": [
+      "48055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "18061",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.in.gov/counties/harrison/departments/plan-commission/zoning-map/",
+    "https://www.in.gov/counties/harrison/files/ZoningMap.pdf",
+    "https://www.in.gov/counties/harrison/departments/plan-commission/building-permits/"
+  ],
+  "note": "Harrison County, IN (FIPS 18061) publishes its zoning map only as a static PDF (ZoningMap.pdf, which the page says is only a representation of the official map). The ordinance refers to a digital district layer, but no public ArcGIS REST or WFS service for it was found on the county site, the open-data searches, or ArcGIS Online. The county's GIS viewer is Beacon (Schneider), which sits behind a bot challenge and offers no public service. No city layer found either (Corydon has only a PDF map via the county).",
+  "recorded_at": 1792134142472,
+  "recheck_after": 1807686142472,
+  "model": "claude-haiku-5-5"
+}

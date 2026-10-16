@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "20031",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://coffeycountyks.org/254/Planning-Zoning",
+    "https://coffeycountyks.org/164/GIS-Mapping",
+    "https://www.coffeycountyks.org/DocumentCenter/View/303/Subdivision-Regulations-PDF"
+  ],
+  "note": "Coffey County (KS) publishes its official zoning map only as a PDF (linked from the county Planning & Zoning page, with printable district maps on the GIS page). No queryable ArcGIS zoning district layer was found in the county's services6 ArcGIS org (roads, parcels, boundaries, sections only), in ArcGIS Hub/Online searches, or in the statewide ORKA KS_ORKA_Extras service (its SU- Zoning sublayer 228 returns errors to queries). Burlington's 2006 zoning regulations say the official map is kept on file by the Zoning Administrator. The only generic Zoning_Districts FeatureServer found (services.arcgis.com/f4rR7WnIfGBdVYFd) returns no features at the county point, so it is not Coffey County's layer.",
+  "recorded_at": 1792134320840,
+  "recheck_after": 1807686320840,
+  "model": "claude-haiku-5-5"
+}

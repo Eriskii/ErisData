@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-fremont-sidney",
+  "publisher": "Iowa State University ISUGIS (compiled copy; Sidney districts digitized from the City of Sidney zoning map)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Sidney'",
+  "notes": "Not an official county layer: a copy in the Iowa State University zoning-districts compilation (source field: Digitized by JM), covering only the City of Sidney in Fremont County. Fremont County publishes no queryable zoning layer; Sidney zoning is only a 2018 PDF map (sidneyiowa.org). Hamburg and Tabor are absent from this layer. Compiled as of 2/27/25.",
+  "verification": {
+    "verified_at": 1792133694366,
+    "counties": [
+      "19071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

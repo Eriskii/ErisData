@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ia-mason-city",
+  "publisher": "City of Mason City GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/84FpxbPitJq31AWu/arcgis/rest/services/ZoningDistricts/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19033"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Mason City zoning districts only (city limits); unincorporated county land is in ia-cerro-gordo.",
+  "verification": {
+    "verified_at": 1792133702284,
+    "counties": [
+      "19033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

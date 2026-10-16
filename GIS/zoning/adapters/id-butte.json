@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "id-butte",
+  "publisher": "Butte County GIS (Idaho)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/xVyQcG5socEBv1Ip/arcgis/rest/services/Butte_Zoning_-_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16023"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Owner",
+    "zone": "Zone",
+    "zone_name": "SpecificZone"
+  },
+  "notes": "County-published zoning view layer. Zone holds district names (e.g. Commercial, Trans Agricultural, Public Land); Owner holds County, FS, or the city name for city-zoned polygons. Layer is a view of the PLSS zoning map; ~462 features.",
+  "verification": {
+    "verified_at": 1792133636004,
+    "counties": [
+      "16023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

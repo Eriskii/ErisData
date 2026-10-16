@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-flagler-beach",
+  "publisher": "City of Flagler Beach GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/hSKL9bYjhP4rHxSD/arcgis/rest/services/Flagler_Beach_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12035"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CO",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Flagler Beach zoning districts, published by Flagler County GIS (FCMAPS); updated 10/2026",
+  "verification": {
+    "verified_at": 1792133844567,
+    "counties": [
+      "12035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

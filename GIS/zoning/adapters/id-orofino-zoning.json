@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "id-orofino-zoning",
+  "publisher": "Clearwater County GIS (City of Orofino zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/bkAz0G7Qq4dmkYCg/arcgis/rest/services/Orofino_Zoning_view/FeatureServer/36",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16035"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Orofino zoning districts, published by the county GIS repository. Covers the city only; zone_name (ZONE_LABEL) is mostly empty so not mapped. The county layer covers unincorporated land.",
+  "verification": {
+    "verified_at": 1792133641715,
+    "counties": [
+      "16035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

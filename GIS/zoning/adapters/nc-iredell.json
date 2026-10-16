@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-iredell",
+  "publisher": "Iredell County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.iredellcountync.gov/server/rest/services/Data/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37097"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDIC",
+    "zone": "ZONING",
+    "zone_name": "ZDISPLAY"
+  },
+  "notes": "Iredell County zoning layer (MapServer layer 0); city layers 1-6 (Statesville, Troutman, Mooresville, Harmony, Love Valley, Davidson) are separate and not included here.",
+  "verification": {
+    "verified_at": 1792135068783,
+    "counties": [
+      "37097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

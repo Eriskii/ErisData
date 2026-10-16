@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ks-el-dorado",
+  "publisher": "City of El Dorado, Kansas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/peHl6Jhp6LT6yLW9/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20015"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Typ"
+  },
+  "notes": "City of El Dorado (county seat) zoning districts, published by the city. Zone code in Zoning_Typ; Notes is mostly blank so no zone name is mapped.",
+  "verification": {
+    "verified_at": 1792134371206,
+    "counties": [
+      "20015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

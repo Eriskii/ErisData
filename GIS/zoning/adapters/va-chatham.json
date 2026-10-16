@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-chatham",
+  "publisher": "Town of Chatham, Virginia",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/BZDbZSCj7a8nkBUe/arcgis/rest/services/Chatham_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51143"
+    ]
+  },
+  "fields": {
+    "zone": "PC_ZONE_CO"
+  },
+  "notes": "Town of Chatham ArcGIS Online item (owner NMorris@Chatham-va.gov) behind the town Zoning & Land Use Map; parcel polygons carrying the zone code, described as Zoning for the Town of Chatham.",
+  "verification": {
+    "verified_at": 1792136088210,
+    "counties": [
+      "51143"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

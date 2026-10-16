@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-richmond",
+  "publisher": "Augusta-Richmond County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/UKYQy2KtG5YhYPTp/arcgis/rest/services/OpenData_Zoning/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13245"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Augusta-Richmond County consolidated government zoning districts (Open Data view). Covers the whole consolidated area including Augusta city limits.",
+  "verification": {
+    "verified_at": 1792133935910,
+    "counties": [
+      "13245"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

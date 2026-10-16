@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ok-wagoner",
+  "publisher": "Wagoner County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/isyssYY3DsxBggm1/arcgis/rest/services/ENERGOV_FS/FeatureServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40145"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code"
+  },
+  "notes": "Wagoner County ENERGOV service zoning layer (districts from Wagoner Metropolitan Area Planning Commission, source attribute Zone_Code_Source=WMAPC). No district name or ordinance link fields populated. Layer may include pending items; Application_Status is Default for sampled features.",
+  "verification": {
+    "verified_at": 1792135249485,
+    "counties": [
+      "40145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

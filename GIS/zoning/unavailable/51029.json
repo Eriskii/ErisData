@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "51029",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://buckingham.interactivegis.com",
+    "https://buckcova.interactivegis.com/login/index.php",
+    "https://www.buckinghamcountyva.org/departments/zoning_planning/index.php"
+  ],
+  "note": "Buckingham County has a county GIS viewer (buckingham.interactivegis.com; public access at buckcova.interactivegis.com after accepting terms) that is said to show zoning, but no queryable ArcGIS REST zoning layer was found: /arcgis/rest/services returns 404 on both hosts, and ArcGIS search finds only parcels (no zoning field), no zoning districts. Zoning ordinance map is a PDF. No town zoning layer found for Dillwyn either.",
+  "recorded_at": 1792135924863,
+  "recheck_after": 1807687924863,
+  "model": "claude-haiku-5-5"
+}

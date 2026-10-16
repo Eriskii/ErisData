@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ny-yates-torrey",
+  "publisher": "Yates County GIS (Town of Torrey base zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.yatescounty.org/server/rest/services/Hosted/Torrey_Base_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36123"
+    ]
+  },
+  "fields": {
+    "zone": "zoning_dis",
+    "zone_name": "zoning_d_1"
+  },
+  "notes": "Town of Torrey base zoning served by Yates County GIS portal.",
+  "verification": {
+    "verified_at": 1792135058452,
+    "counties": [
+      "36123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

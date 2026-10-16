@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "40121",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://mcalesterok.viewpointcloud.com/categories/1084",
+    "https://www.cityofmcalester.com/residents/city_services___departments/planning___zoning.php",
+    "https://services7.arcgis.com/p6OX6CjG8lXHZvik/arcgis/rest/services/McAlester_Zoning/FeatureServer/0"
+  ],
+  "note": "No official queryable zoning district layer found for Pittsburg County or its cities. The City of McAlester publishes its zoning through a Viewpoint Cloud portal and a PDF zoning map (06/2024), neither queryable. The only ArcGIS service found is an unofficial consultant copy (Poe & Associates, marked FOR INTERNAL USE ONLY, NOT AN OFFICIAL DATASET) of parcel-level zoning for McAlester (9,106 parcels). It failed validation: the query timed out after 120 s, and it is parcel-level, not district polygons. County GIS portal (actdatascout.com) returned HTTP 403.",
+  "recorded_at": 1792135501285,
+  "recheck_after": 1807687501285,
+  "model": "claude-haiku-5-5"
+}

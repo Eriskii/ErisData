@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29073",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://ecode360.com/28618970",
+    "https://ecode360.com/28025613",
+    "https://www.meramecregion.org/wp-content/uploads/2021/11/Gasconade-2020-Profile-capabilities-2.pdf",
+    "https://missouri.propertychecker.com/gasconade-county"
+  ],
+  "note": "Gasconade County has no public zoning district service. The county does not zone unincorporated land (2020 hazard profile lists no planning/zoning board; propertychecker says zoning is handled by municipalities). Hermann and Owensville have zoning ordinances (eCode360) but their official district maps are kept on file with the City Clerk, not published as a queryable GIS layer. ArcGIS searches for Gasconade zoning returned only roads, driveways, parcels, and district/fire-service layers (gasconadedistricts_all_2 is emergency service districts, not zoning). No zoning polygon service was found for the county or its cities.",
+  "recorded_at": 1792134675850,
+  "recheck_after": 1807686675850,
+  "model": "claude-haiku-5-5"
+}

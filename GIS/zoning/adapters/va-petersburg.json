@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-petersburg",
+  "publisher": "City of Petersburg (scraped copy hosted by bw6xs_uvalibrary)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/8k2PygHqghVevhzy/arcgis/rest/services/Petersburg_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51730"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZoneLbl"
+  },
+  "notes": "Unofficial copy: ArcGIS Online item by bw6xs_uvalibrary, scraped from the city parcel viewer (parcelviewer.geodecisions.com/Petersburg) on 2023-07-24; the official city Geodecisions MapServer was unreachable when checked. Not verified as current.",
+  "verification": {
+    "verified_at": 1792136030955,
+    "counties": [
+      "51730"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

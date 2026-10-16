@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-fillmore",
+  "publisher": "Fillmore County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.co.fillmore.mn.us/arcgis/rest/services/FillmoreAll/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27045"
+    ]
+  },
+  "fields": {
+    "zone": "AG_DISTRIC"
+  },
+  "notes": "County GIS FillmoreAll service, Zoning Districts layer. AG_DISTRIC holds the district code (fully filled). NAME holds the city name only for some polygons (blank elsewhere), so it is not mapped. Jurisdiction not reliably attributed.",
+  "verification": {
+    "verified_at": 1792134513439,
+    "counties": [
+      "27045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

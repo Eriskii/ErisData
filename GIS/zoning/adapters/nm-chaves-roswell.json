@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-chaves-roswell",
+  "publisher": "City of Roswell GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/I7MpuerrA39ZTFsX/arcgis/rest/services/City_of_Roswell_Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "City of Roswell zoning districts only (not unincorporated county land). Published by City of Roswell GIS (cor2021 org).",
+  "verification": {
+    "verified_at": 1792135005757,
+    "counties": [
+      "35005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

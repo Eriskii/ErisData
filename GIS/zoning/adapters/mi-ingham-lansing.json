@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-ingham-lansing",
+  "publisher": "City of Lansing GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/pNPbgWy7hpfFGWoZ/arcgis/rest/services/LansingZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26065"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "City of Lansing zoning districts (dissolved), 2018/2019 data published by City of Lansing via ArcGIS Online; the city lists this as retired and replaced by a Form Based Code, so currency is limited. Covers Lansing only, not the rest of Ingham County.",
+  "verification": {
+    "verified_at": 1792132299567,
+    "counties": [
+      "26065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

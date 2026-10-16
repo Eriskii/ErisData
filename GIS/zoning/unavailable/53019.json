@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "53019",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.ferry-county.com/departments/planning___building/planning_applications.php",
+    "https://www.ferry-county.com/government/board_of_commissioners/management_information_system_mis_or_it/gis_and_addressing/index.php",
+    "https://fc911gis.maps.arcgis.com/apps/webappviewer/index.html?id=3aa4fa67f0f94894aba3f8ba7ece8320",
+    "https://www.ferry-county.com/departments/planning___building/comprehensive_plan_2037.php"
+  ],
+  "note": "Ferry County (53019) publishes no queryable zoning district layer. County GIS is a parcel/road/precinct web viewer on fc911gis.maps.arcgis.com; the only org-hosted layers with zoning-like names are the 2016 comprehensive plan map (Comm Dev Zones RH/RR/RS and CR/Curlew Lake) which are Census place boundaries (6 and 9 features), not zoning. The draft 2037 plan web map holds land use and overlays only. The county says most of the county uses land use designations rather than zoning. The Washington State Zoning Atlas prototype (WAZA) has zero Ferry County (COUNTYFP 019) and zero Republic features, so it cannot serve this county. Ferry County's zoning is available only as paid parcel data (Regrid, DynamoSpatial) and by data request to ferrygis@co.ferry.wa.us. City of Republic's website shows no zoning GIS. Searched ArcGIS Online and the county GIS org, nothing usable found.",
+  "recorded_at": 1792136111462,
+  "recheck_after": 1807688111462,
+  "model": "claude-haiku-5-5"
+}

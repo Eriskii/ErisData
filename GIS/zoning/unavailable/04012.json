@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "04012",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://lapazedc.org/planning-zoning/",
+    "https://www.lapaz.gov/DocumentCenter/View/6671/Zoning-Regulations?bidId=",
+    "https://gis.lapazcountyaz.org/server/rest/services"
+  ],
+  "note": "La Paz County publishes zoning only as PDF/HTML map images (County.pdf wide zoning map; Quartzsite existing zoning map HTML). The county ArcGIS root (gis.lapazcountyaz.org/server/rest/services) lists only LaPaz_Custom_Printing and SampleWorldCities; no zoning FeatureServer/MapServer found. Parker and Quartzsite publish no queryable zoning service found in search. The county GIS web viewer (gis.lapazcountyaz.org/portal) could not be reached from here, so its underlying services were not inspected.",
+  "recorded_at": 1792133716914,
+  "recheck_after": 1807685716914,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "in-portage",
+  "publisher": "City of Portage, Indiana (ArcGIS Online item by smcdaniel21)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Qp5vz8Fz7vawwcWD/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18127"
+    ]
+  },
+  "fields": {
+    "link": "Desc_Link",
+    "zone": "ZONECLASS",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "Zoning of Portage, Indiana, in an ArcGIS Online item by user smcdaniel21; owner not confirmed as the city (the city's own portage.maps.arcgis.com org is disabled). City limits only.",
+  "verification": {
+    "verified_at": 1792134276744,
+    "counties": [
+      "18127"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

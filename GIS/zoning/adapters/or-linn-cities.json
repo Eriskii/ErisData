@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "or-linn-cities",
+  "publisher": "Linn County cities (compiled ArcGIS Online layer)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/DjfAyvUwdiY6gnFC/arcgis/rest/services/Zoning___Linn_County_Cities/FeatureServer/26",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41043"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZONING",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Copy hosted on ArcGIS Online by flo_publisher, covering Linn County cities; not confirmed as official. Use only as official city zoning mirror.",
+  "verification": {
+    "verified_at": 1792135291757,
+    "counties": [
+      "41043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

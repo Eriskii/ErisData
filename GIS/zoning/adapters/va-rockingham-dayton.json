@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-rockingham-dayton",
+  "publisher": "Town of Dayton (layer hosted by Central Shenandoah Planning District Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/VkOe3q7u7LGe1XcE/arcgis/rest/services/DaytonZoning20220930_draft/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51165"
+    ]
+  },
+  "fields": {
+    "zone": "TownZoning"
+  },
+  "notes": "Town of Dayton zoning, 2022 draft layer; covers only the Town of Dayton. Features are parcel-level, carrying TownZoning district codes (A1, B1, B1 Conditional, ...). Draft status: verify with the town.",
+  "verification": {
+    "verified_at": 1792136102174,
+    "counties": [
+      "51165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

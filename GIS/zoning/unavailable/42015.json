@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "42015",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.bradfordcountypa.gov/299/Community-Planning-Mapping",
+    "https://bcmaps.bradfordco.org/portal/apps/webappviewer/index.html",
+    "https://www.bradfordcountypa.gov/203/Athens-Township",
+    "https://ecode360.com/37473633",
+    "https://www.bradfordcountypa.gov/225/Sayre-Borough"
+  ],
+  "note": "Bradford County (PA) has no county zoning (PA counties do not zone). The county GIS server (bcmaps.bradfordco.org ArcGIS REST: Parcel, Boundaries, Hosted, Utilities folders) publishes no zoning district layer; the parcel layer has no zoning field. The county planning office lists zoning districts only as sold digital data. Municipalities (Athens Township, Athens Borough, Sayre Borough, Towanda and others) publish zoning only as PDF ordinances and map images; no ArcGIS service for zoning was found in ArcGIS Online searches. A generic Zoning_Districts FeatureServer (services.arcgis.com/f4rR7WnIfGBdVYFd) holds a different jurisdiction's ordinance (Chapter-numbered codes, no Bradford match) and was rejected.)",
+  "recorded_at": 1792135322832,
+  "recheck_after": 1807687322832,
+  "model": "claude-haiku-5-5"
+}

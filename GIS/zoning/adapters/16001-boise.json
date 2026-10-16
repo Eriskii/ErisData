@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "16001-boise",
+  "publisher": "City of Boise Planning and Development Services",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/arcgis/rest/services/BoiseZoning/FeatureServer/191",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "BASEZONE",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Boise base zoning districts, published by Boise_GIS. Covers Boise city land in Ada County.",
+  "verification": {
+    "verified_at": 1792133709665,
+    "counties": [
+      "16001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

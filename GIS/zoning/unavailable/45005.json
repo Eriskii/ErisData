@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "45005",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://townofallendale.sc.gov/building-zoning-and-business-license",
+    "https://townofallendale.sc.gov/sites/townofallendale/files/Documents/Allendale_ZO_FINAL(9-10-13).pdf",
+    "https://assessorsearch.com/property-records/south-carolina/allendale-county"
+  ],
+  "note": "Allendale County SC has no queryable zoning district service. County zoning is handled by the Town of Allendale, whose zoning map is a static file (the 2013 ordinance says the official map is kept at the Town Clerk's office). No ArcGIS REST zoning layer for the county or town was found in ArcGIS Online or the web searches; the county's Clemson-hosted Allendale_Features service holds only wetlands, sinks, PRT and county boundary layers. Regrid zoning is a commercial aggregate, not an official source.",
+  "recorded_at": 1792135542766,
+  "recheck_after": 1807687542766,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-cowley-winfield",
+  "publisher": "City of Winfield GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.winfieldks.org/wingis3/rest/services/Public/ZoningCodes/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20035"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE",
+    "zone_name": "ZONINGID"
+  },
+  "notes": "City of Winfield zoning only (city limits, not unincorporated county). 111 districts in layer.",
+  "verification": {
+    "verified_at": 1792134271676,
+    "counties": [
+      "20035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

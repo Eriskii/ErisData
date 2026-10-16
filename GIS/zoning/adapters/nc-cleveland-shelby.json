@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-cleveland-shelby",
+  "publisher": "Cleveland County GIS (City of Shelby zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.clevelandcounty.com/arcgis/rest/services/Planning/Zoning/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37045"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "zone": "ZoneType"
+  },
+  "notes": "City of Shelby zoning from the county Planning/Zoning MapServer layer 6. Zone codes come from ZoneType.",
+  "verification": {
+    "verified_at": 1792135084677,
+    "counties": [
+      "37045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

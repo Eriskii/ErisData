@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "05123",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.cityofforrestcityar.com/",
+    "https://library.municode.com/ar/forrest_city/codes/code_of_ordinances",
+    "https://services9.arcgis.com/KAS2Ol4X7Ca0Dta5/arcgis/rest/services/Arkansas_Cities_General_Zoning/FeatureServer/0"
+  ],
+  "note": "No queryable zoning district layer found for St. Francis County or its cities. Forrest City (largest city) publishes zoning only as ordinance text on Municode and has no GIS zoning service. The only statewide zoning copy (Arkansas_Cities_General_Zoning, unofficial ArcGIS Online upload) returns no features at Forrest City or at unincorporated points in the county, while it does cover Little Rock, so it does not cover St. Francis County. Searches of the county site, Arkansas GIS Office catalog, PAgis and ArcGIS Hub turned up only parcels, boundaries and commercial zoning sites.",
+  "recorded_at": 1792133825168,
+  "recheck_after": 1807685825168,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wi-columbia-county",
+  "publisher": "Columbia County Land Information Office (lrs.co.columbia.wi.us)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://lrs.co.columbia.wi.us/server/rest/services/LandUsePlanning/2025_Base_Zoning_Districts/MapServer/38",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55021"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONE_JURISD",
+    "link": "ORD_NO",
+    "zone": "NewZone_Type",
+    "zone_name": "NewZone_Type"
+  },
+  "notes": "2025 base zoning districts, county-wide, including jurisdiction code ZONE_JURISD (numeric code per town/city). NewZone_Type holds district code and name together, e.g. R-1 Single-Family Residence. ORD_NO is the ordinance number, not a URL. Null-attribute rows exist.",
+  "verification": {
+    "verified_at": 1792136059510,
+    "counties": [
+      "55021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

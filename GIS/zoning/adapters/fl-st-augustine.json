@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-st-augustine",
+  "publisher": "City of St. Augustine",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/2HXAtOKdBRSMj8is/arcgis/rest/services/Zoning_Current_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12109"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of St. Augustine zoning districts only (city limits, not unincorporated St. Johns County). Derived from the city SDE Zoning_Current_edit layer. Ordinance link field is almost always empty, so it is not mapped.",
+  "verification": {
+    "verified_at": 1792133877732,
+    "counties": [
+      "12109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

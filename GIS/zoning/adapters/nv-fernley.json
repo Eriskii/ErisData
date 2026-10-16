@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nv-fernley",
+  "publisher": "City of Fernley GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/WSZL7KCp5ZvBFw3M/arcgis/rest/services/Zoning/FeatureServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32019"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "City of Fernley parcel layer with the zoning code on each parcel (zoning). Parcel-based, not a district layer, so zone is per parcel. Covers Fernley city only.",
+  "verification": {
+    "verified_at": 1792135018453,
+    "counties": [
+      "32019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

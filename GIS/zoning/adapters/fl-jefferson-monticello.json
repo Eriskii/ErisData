@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-jefferson-monticello",
+  "publisher": "City of Monticello / Jefferson County Property Appraiser (bcrouch_JCPA)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/vFMp1Ly1q6rKKp0o/arcgis/rest/services/JC_CITY_ZONING_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12065"
+    ]
+  },
+  "fields": {
+    "zone": "ZONES",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "City of Monticello zoning only (83 polygons); county unincorporated zoning not found as a public service. Hosted on a Jefferson County FL ArcGIS Online account.",
+  "verification": {
+    "verified_at": 1792133859101,
+    "counties": [
+      "12065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mt-deer-lodge",
+  "publisher": "Anaconda-Deer Lodge County (ADLC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/SEqNKnMM4j20uZ5Y/arcgis/rest/services/Public_Webmap/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30023"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_",
+    "zone_name": "Text_"
+  },
+  "notes": "Anaconda-Deer Lodge County public webmap copy of development districts (Dev_Districts, 105 features). Zone_ holds the district code or name; Text_ holds the description.",
+  "verification": {
+    "verified_at": 1792134907178,
+    "counties": [
+      "30023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

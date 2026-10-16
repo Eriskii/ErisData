@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "56035",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://maps.terragis.net/sublette/mapserver/",
+    "https://maps.terragis.net/sublette/mapserver/download/",
+    "https://maps.terragis.net/sublette/mapserver/download/zoning_shp.zip"
+  ],
+  "note": "Sublette County zoning is only in a Terra GIS viewer (no REST/WFS endpoint exposed) and a shapefile zip (county, Pinedale, Big Piney, Marbleton) that yields 0 features when read as EPSG 4326, 4269 or 3857; its projection is apparently a projected CRS the adapter cannot ingest. No ArcGIS service for county or towns found.",
+  "recorded_at": 1792136486054,
+  "recheck_after": 1807688486054,
+  "model": "claude-sonnet-5-5"
+}

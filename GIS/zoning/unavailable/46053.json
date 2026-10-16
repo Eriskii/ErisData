@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "46053",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.cityofgregory.com/index.asp?SEC=%7B28459852-05E5-4BFF-912F-C58FFCF08ED0%7D",
+    "https://www.gregory.sdcounty.gov/ordinances",
+    "https://gis.districtiii.org/gregory/",
+    "https://gis.equatorstudios.com/southdakota_gregory"
+  ],
+  "note": "Gregory County has a zoning ordinance (Sections 1411-1425) but no queryable ArcGIS zoning district layer was found. The county GIS viewer (gis.districtiii.org/gregory and the Equator Studios viewer) exposed no REST service URLs for zoning. The City of Gregory publishes its zoning map only as a PDF (Gregory_Zoning_Map_2-26-2025.pdf). Regrid's parcel dataset carries zoning fields but is a commercial, non-queryable copy.",
+  "recorded_at": 1792135449517,
+  "recheck_after": 1807687449517,
+  "model": "claude-haiku-5-5"
+}

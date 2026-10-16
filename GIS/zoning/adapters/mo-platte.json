@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-platte",
+  "publisher": "Parkville / Platte County GIS (KCI_Parkville ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/KP64F8Xif9MkUwD4/arcgis/rest/services/Parkville_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29165"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "Zoning <> '  ' AND Zoning IS NOT NULL",
+  "notes": "Parcel-level zoning layer (one row per parcel, PLSS parcel numbers) covering Parkville and unincorporated Platte County; no jurisdiction or name field. Blank Zoning values excluded. Zone codes as recorded, e.g. R-2-P.",
+  "verification": {
+    "verified_at": 1792134843113,
+    "counties": [
+      "29165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

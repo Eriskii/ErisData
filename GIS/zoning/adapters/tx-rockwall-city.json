@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-rockwall-city",
+  "publisher": "City of Rockwall GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/8e172fd677c44395bc6be9988b073255/rest/services/Zoning_Group/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48397"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "ZONING_1",
+    "zone_name": "Description"
+  },
+  "notes": "City of Rockwall base zoning polygons from the city Zoning_Group service; city limits only, unincorporated county not covered. Only 300 features.",
+  "verification": {
+    "verified_at": 1792135770189,
+    "counties": [
+      "48397"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

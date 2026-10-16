@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-cannon",
+  "publisher": "Cannon County GIS (Upper Cumberland Development District)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/EMZFDxQzNQloLbAf/arcgis/rest/services/Cannon_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47015"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "County zoning districts (R-1, C-1, I-1, A-1 etc.), county-published via the county ArcGIS online organization; no jurisdiction field. Zone is the only district code attribute; no name or ordinance link available.",
+  "verification": {
+    "verified_at": 1792135563721,
+    "counties": [
+      "47015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

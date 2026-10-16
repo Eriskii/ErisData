@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-polk-ducktown",
+  "publisher": "Southeast Tennessee Development District (for Town of Ducktown, TN)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Ducktown_Zoning_08272021/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47139"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "Town of Ducktown zoning districts, published by SETDD (2021). Only zone code available.",
+  "verification": {
+    "verified_at": 1792135920546,
+    "counties": [
+      "47139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-cameron-brownsville",
+  "publisher": "City of Brownsville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cob.us/arcgis/rest/services/COB/COB_MAP1024/MapServer/53",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48061"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Brownsville base zoning districts. ZONING holds the district name with its code in parentheses (e.g. Dwelling (D), Light Retail (2C)); no separate ordinance link populated. Layer in State Plane feet; runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792135603724,
+    "counties": [
+      "48061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-mount-vernon",
+  "publisher": "City of Mount Vernon / Posey County GIS (via PoseyIN_Adds_Zoning service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/jBeGgtzv02uT84fC/arcgis/rest/services/PoseyIN_Adds_Zoning/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18129"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Typ"
+  },
+  "notes": "City of Mount Vernon zoning districts only; zone is the district code (Zoning_Typ). Feature_Na holds parcel-style IDs, not mapped. Published by evolvesoftware on ArcGIS Online for the county permitting system.",
+  "verification": {
+    "verified_at": 1792134202556,
+    "counties": [
+      "18129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

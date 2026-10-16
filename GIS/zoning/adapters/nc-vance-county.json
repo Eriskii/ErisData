@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-vance-county",
+  "publisher": "Vance County GIS (VCGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/pET3krhY1T0smsXf/arcgis/rest/services/Vance_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37181"
+    ]
+  },
+  "fields": {
+    "zone": "zoning_dis"
+  },
+  "filter": "zoning_dis <> ' '",
+  "notes": "County zoning layer from VCGIS; parcel-based polygons with zoning_dis carrying the district code (AR, GC1, HC, EIA, CZR10). Parcel attributes (owner, pin) are present, so this is a parcel layer with zoning attached, used because no separate district layer is published. Blank zoning rows are excluded.",
+  "verification": {
+    "verified_at": 1792135106364,
+    "counties": [
+      "37181"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

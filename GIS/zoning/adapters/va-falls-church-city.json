@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-falls-church-city",
+  "publisher": "City of Falls Church Community Planning and Economic Development Services",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/2hmXRAz4ofcdQP6p/arcgis/rest/services/Zoning_public/FeatureServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51610"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_CODE",
+    "zone_name": "NAME"
+  },
+  "notes": "City zoning map current as of June 2024; layer is Zoned Parcels (parcel polygons carrying each parcel zoning designation), the city has no separate base-district layer on its ArcGIS service. Parcel-level zoning used as best available.",
+  "verification": {
+    "verified_at": 1792135960315,
+    "counties": [
+      "51610"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

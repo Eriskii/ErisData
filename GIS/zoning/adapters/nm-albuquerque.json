@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nm-albuquerque",
+  "publisher": "City of Albuquerque Planning Department (AGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://coageo.cabq.gov/cabqgeo/rest/services/agis/IDO_Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35001"
+    ]
+  },
+  "fields": {
+    "link": "IDOUseTableURL",
+    "zone": "IDOZoneDistrict",
+    "zone_name": "IDOCategory"
+  },
+  "notes": "City of Albuquerque IDO zone districts only (city land in Bernalillo County). Unincorporated county zoning is a separate layer (nm-bernalillo). zone_name is the IDO category; IDODistrictDefinition holds longer descriptions.",
+  "verification": {
+    "verified_at": 1792135000547,
+    "counties": [
+      "35001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

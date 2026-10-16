@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-new-york",
+  "publisher": "NYC Department of City Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/nyzd/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36061"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDIST"
+  },
+  "notes": "NYC DCP Zoning Districts (NYZD), citywide layer with no borough field; covers all five boroughs, so the county filter is not applied by the server. CC-BY 4.0.",
+  "verification": {
+    "verified_at": 1792135016521,
+    "counties": [
+      "36061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

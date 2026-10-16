@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "de-sussex-seaford",
+  "publisher": "City of Seaford",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/VITqSPhLdd6XSUpi/arcgis/rest/services/City_of_Seaford_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "10005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESIGNATIO"
+  },
+  "notes": "City of Seaford zoning published by the city on ArcGIS Online (EPSG 3857). Covers the city of Seaford only, which lies mostly in Sussex County.",
+  "verification": {
+    "verified_at": 1792133842719,
+    "counties": [
+      "10005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

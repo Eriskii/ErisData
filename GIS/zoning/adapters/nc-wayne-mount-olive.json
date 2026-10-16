@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-wayne-mount-olive",
+  "publisher": "Town of Mount Olive GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/q2nSlChj7QgGTANO/arcgis/rest/services/Mount_Olive_Zoning/FeatureServer/44",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37191"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Town of Mount Olive zoning districts, published by Wayne County GIS. Zone codes only; no name field in source.",
+  "verification": {
+    "verified_at": 1792135166156,
+    "counties": [
+      "37191"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

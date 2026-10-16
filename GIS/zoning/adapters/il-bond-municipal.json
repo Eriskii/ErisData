@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-bond-municipal",
+  "publisher": "Bond County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/VbP0KHITyLTMBTy3/arcgis/rest/services/Municipal_Zones/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "17005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipali",
+    "zone": "zone",
+    "zone_name": "zone_desc"
+  },
+  "notes": "Municipal zoning districts in Bond County, from the Bond County GIS ArcGIS Online organization.",
+  "verification": {
+    "verified_at": 1792134093048,
+    "counties": [
+      "17005"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

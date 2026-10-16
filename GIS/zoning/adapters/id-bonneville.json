@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "id-bonneville",
+  "publisher": "Bonneville County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/Xd5SMhLZ1h9t0F3b/arcgis/rest/services/zoning2022/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16019"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "notes"
+  },
+  "notes": "Bonneville County zoning layer (zoning2022 service on county ArcGIS org). zoning field mixes county district codes (A - 1, R - 1, ...) with city names (Ammon, Idaho Falls, Iona, ...) for city-jurisdiction areas. Check report for zone_name content.",
+  "verification": {
+    "verified_at": 1792133678988,
+    "counties": [
+      "16019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

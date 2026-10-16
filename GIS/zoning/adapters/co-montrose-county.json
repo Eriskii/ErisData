@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-montrose-county",
+  "publisher": "Montrose County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mcmap.montrosecounty.net/server/rest/services/MontroseCounty/MapServer/61",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08085"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "ZONE",
+    "zone_name": "NAME"
+  },
+  "notes": "Montrose County base zoning districts (unincorporated county). Layer 61 of the county MapServer. Fields: ZONE, NAME, Link to ordinance.",
+  "verification": {
+    "verified_at": 1792133811425,
+    "counties": [
+      "08085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

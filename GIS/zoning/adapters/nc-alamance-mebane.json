@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-alamance-mebane",
+  "publisher": "City of Mebane GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/pqfZyBvxpstAt1gO/arcgis/rest/services/Current_Zoning_view_layer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37001"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Mebane current zoning (authoritative active layer, ArcGIS Online org GIS_mebanenc), polygons per parcel with zoning code; zone name not provided. Covers Mebane planning area.",
+  "verification": {
+    "verified_at": 1792135162519,
+    "counties": [
+      "37001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-pike-troy",
+  "publisher": "City of Troy, AL (copy hosted by melissalsanders, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/u0hiOTsMoeYCfvHB/arcgis/rest/services/Online_Zoning_Map___Troy__Alabama__unofficial_map__WFL1/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01109"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "filter": "ZONING IS NOT NULL AND ZONING <> ' '",
+  "notes": "Unofficial copy of City of Troy, AL zoning on a personal ArcGIS Online item (melissalsanders), used by the city unofficial viewer at troyalabama.maps.arcgis.com; the city says it may lag recent changes; official map at Troy City Hall. Layer is parcel-based with a ZONING attribute; covers the city of Troy only. Pike County publishes no zoning layer found; Alabama counties generally do not zone.",
+  "verification": {
+    "verified_at": 1792133740345,
+    "counties": [
+      "01109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

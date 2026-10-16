@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "28117",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services1.arcgis.com/4uIPL2VE7qz2rtjB/arcgis/rest/services",
+    "https://www.prentisscounty.org/sites/default/files/Prentiss%20County%20Hwy%20Map.pdf",
+    "https://www.nempdd.com/",
+    "https://landrecords.us/documentation/coverage/counties/28-117-prentiss"
+  ],
+  "note": "Prentiss County's ArcGIS services (County_Boundary, Municipalities, Parcels, response areas) include no zoning district layer; the Parcels layer has no zoning field and the third-party landrecords page reports zoning codes empty. Booneville and Baldwyn publish no zoning layer found on ArcGIS Hub or Online or the web; the Northeast Mississippi PDD prepares local zoning but posts no GIS. A zoning_districts layer from another county (Gulf/unknown, zero features in Prentiss bbox) was checked and rejected. Zoning exists locally but is not published as a queryable service.",
+  "recorded_at": 1792134667812,
+  "recheck_after": 1807686667812,
+  "model": "claude-haiku-5-5"
+}

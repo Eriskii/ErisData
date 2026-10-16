@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-sussex",
+  "publisher": "Sussex County GIS (Virginia)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/nJbIFHiSnaX0z0hS/arcgis/rest/services/SussexParcels_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "51183"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "Zoning layer of the Sussex County VA parcels and zoning service, linked from the Sussex VA GIS Viewer. Single field holds district code; no jurisdiction or description field.",
+  "verification": {
+    "verified_at": 1792136010909,
+    "counties": [
+      "51183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

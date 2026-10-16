@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-renville",
+  "publisher": "Renville County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.renvillecountymn.gov/arcgis/rest/services/Environmental/ZoningDistricts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27129"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "County primary zoning districts for unincorporated Renville County; ZONEDESC is blank in the source so zone_name is not mapped. Cities zone their own land separately.",
+  "verification": {
+    "verified_at": 1792134493971,
+    "counties": [
+      "27129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

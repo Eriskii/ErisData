@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "01121",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://assets.caboosecms.com/media/12478943_talladega-zoning-map.pdf",
+    "https://www.oxfordal.gov/departments/building-services/zoning",
+    "https://www.cityofsylacauga.net/uploads/1/0/9/7/109776335/2020_zoning_map.pdf",
+    "https://web5.kcsgis.com/kcsgis/rest/services/Talladega911/Public/MapServer/7"
+  ],
+  "note": "Talladega County has no published zoning district polygon service. The county's KCS-hosted OwnerParcel layer (MapServer/7) has ZoningCode and ZoningDesc fields, but they are empty for every sampled parcel (0 of 160 filled), so it cannot supply zoning. The cities publish zoning only as static PDF maps: Talladega (city planner page, PDF zoning map), Sylacauga (2020 zoning map PDF), and Oxford (zoning map PDF on oxfordal.gov). The Oxford MapXpress ArcGIS app was unreachable. No queryable district layer found in ArcGIS Online or Hub searches.",
+  "recorded_at": 1792133781803,
+  "recheck_after": 1807685781803,
+  "model": "claude-haiku-5-5"
+}

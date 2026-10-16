@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-mackinac",
+  "publisher": "Eastern Upper Peninsula Regional Planning and Development Commission (Mackinac County Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/r3fID69a2yHQdVc4/arcgis/rest/services/Mackinac_County_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26097"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Township",
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Class"
+  },
+  "notes": "Layer published by EUPRPDC covering all zoning in Mackinac County; jurisdiction is the township field.",
+  "verification": {
+    "verified_at": 1792132321986,
+    "counties": [
+      "26097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "id-cassia-transitional",
+  "publisher": "University of Idaho (Magic Valley zoning compilation, from Cassia County zoning maps)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/WLhB60Nqwp4NnHz3/arcgis/rest/services/Magic_Valley_Transitional_Agriculture_Zones/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16031"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone"
+  },
+  "filter": "County = 'Cassia'",
+  "notes": "Unofficial copy: ArcGIS Online layer by vinc6478_ui_uidaho compiled from Cassia County zoning maps (county publishes only PDF maps). Covers only the transitional agriculture designation.",
+  "verification": {
+    "verified_at": 1792133681303,
+    "counties": [
+      "16031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

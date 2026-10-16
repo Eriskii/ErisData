@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-mobile-city",
+  "publisher": "City of Mobile GIS (Planning & Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/AcvBA1fcgucsFQvO/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01097"
+    ]
+  },
+  "fields": {
+    "zone": "district_code",
+    "zone_name": "district_name"
+  },
+  "notes": "City of Mobile zoning only; Mobile County states unincorporated land has no zoning. Overlay and sub-district fields kept separate in source.",
+  "verification": {
+    "verified_at": 1792133698859,
+    "counties": [
+      "01097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mt-gallatin",
+  "publisher": "Gallatin County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/yzmEplMftu5fVk5i/arcgis/rest/services/zoningdistricts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONED",
+    "zone_name": "DISTRICT_N"
+  },
+  "notes": "Gallatin County, MT zoning districts layer from the county GIS (services9 zoningdistricts). zone_name is the planning district (e.g. BIG SKY); zone is blank for some features. INNERZONE holds a zone-type code (ROAD, CI), not a jurisdiction, so it is not mapped. Covers the county planning-zoned areas; incorporated cities may zone separately.",
+  "verification": {
+    "verified_at": 1792134853791,
+    "counties": [
+      "30031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

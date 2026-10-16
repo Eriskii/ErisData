@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-lincoln-canton",
+  "publisher": "City of Canton",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lincolncountysd.gov/arcgis/rest/services/Pro29/Zoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46083"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "DSCPTN"
+  },
+  "notes": "City of Canton zoning, published by Lincoln County GIS (Pro29/Zoning service, layer Canton Zoning).",
+  "verification": {
+    "verified_at": 1792135446596,
+    "counties": [
+      "46083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

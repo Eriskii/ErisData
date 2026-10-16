@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "oh-wayne-wooster",
+  "publisher": "City of Wooster (copy hosted by HFITZGIBBON@wooster.edu on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/5G8poDk1YGdPoAmK/arcgis/rest/services/Wooster_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39169"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Unofficial copy of City of Wooster zoning (2025) uploaded by an individual at wooster.edu to ArcGIS Online; covers the City of Wooster only, not the county. No county-wide or other-city zoning layer was found queryable. Zone code only; no zone_name or link fields.",
+  "verification": {
+    "verified_at": 1792135239201,
+    "counties": [
+      "39169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

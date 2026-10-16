@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ri-newport-city",
+  "publisher": "Rhode Island Commerce / URI EDC RIGIS (municipal zoning classifications)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/S8zZg9pg23JUEexQ/arcgis/rest/services/RI_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "44005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI_NAME",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "filter": "MUNI_NAME = 'Newport'",
+  "notes": "Statewide RI municipal zoning classifications from RIGIS, filtered to the City of Newport. ZONE_CODE is the city district code (GB, LB, OS...); ZONE_DESC its description. Newport city zoning is otherwise only on the city MapGeo viewer.",
+  "verification": {
+    "verified_at": 1792135371361,
+    "counties": [
+      "44005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

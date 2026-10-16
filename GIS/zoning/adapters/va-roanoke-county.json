@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-roanoke-county",
+  "publisher": "Roanoke County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/VlZ73DcE2ya6FnSK/arcgis/rest/services/Zoning_Hosted/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51161"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Description"
+  },
+  "notes": "Roanoke County Zoning Open Data, CC BY 4.0. Polygon layer; some parcels carry more than one designation (Split fields). Covers the county zoning; incorporated towns (Vinton, Salem) zone themselves.",
+  "verification": {
+    "verified_at": 1792135966685,
+    "counties": [
+      "51161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

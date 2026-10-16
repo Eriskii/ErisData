@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-broome-vestal",
+  "publisher": "kheard (ArcGIS Online copy of Broome County zoning, layer vest_zoning; Town of Vestal)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/EEOLw7FvbUFCdg7T/arcgis/rest/services/BroomeZoning_gdb/FeatureServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36007"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Personal ArcGIS Online copy of Broome County municipal zoning by user kheard; this layer holds the Town of Vestal only. The county GIS server refuses paged queries, so this copy is used. Shortzone is an abbreviated code. Not verified as official.",
+  "verification": {
+    "verified_at": 1792135048232,
+    "counties": [
+      "36007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

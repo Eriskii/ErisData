@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-brookings",
+  "publisher": "Oregon DLCD (statewide zoning, City of Brookings jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Brookings'",
+  "notes": "State-generalized zoning compiled by Oregon DLCD.",
+  "verification": {
+    "verified_at": 1792135395938,
+    "counties": [
+      "41015"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-washington",
+  "publisher": "Washington County IL (zoning parcels, hosted by EMA189 ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/M1wVer6CIZSGWXQV/arcgis/rest/services/zoning_layer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17189"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TownshipNa",
+    "zone": "Zoning"
+  },
+  "notes": "Parcel-level layer: each polygon is a parcel carrying its zoning code in Zoning; no separate district layer found. Last resort per instructions; covers unincorporated townships by TownshipNa. Cities zone their own land separately.",
+  "verification": {
+    "verified_at": 1792134066178,
+    "counties": [
+      "17189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

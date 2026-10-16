@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-warren-norwalk",
+  "publisher": "City of Norwalk, Iowa (Community Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/lcU85Lh3UvDs5Naw/arcgis/rest/services/Norwalk_Zoning_Districts_06122026/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19181"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS",
+    "zone_name": "CLASS_NAME"
+  },
+  "notes": "City of Norwalk zoning districts only (not unincorporated county or other cities). Hosted on the City of Norwalk ArcGIS Online organization, linked from its public zoning viewer. Overlay and PUD info via city staff.",
+  "verification": {
+    "verified_at": 1792134313163,
+    "counties": [
+      "19181"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

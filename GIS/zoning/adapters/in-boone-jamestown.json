@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-boone-jamestown",
+  "publisher": "Boone County Area Plan Commission (GIS), Town of Jamestown zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/KJPL6pyHyEhFAxWN/arcgis/rest/services/VECTOR1022/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18011"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningType"
+  },
+  "notes": "Town of Jamestown zoning districts, from the county GIS VECTOR1022 service. Zone codes in ZoningType.",
+  "verification": {
+    "verified_at": 1792134115427,
+    "counties": [
+      "18011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

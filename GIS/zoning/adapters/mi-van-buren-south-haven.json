@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-van-buren-south-haven",
+  "publisher": "City of South Haven",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/DrGScZoQYdX6yHyO/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26159"
+    ]
+  },
+  "fields": {
+    "link": "Zoning_Link",
+    "zone": "Zoning_Cod",
+    "zone_name": "Zoning_Full"
+  },
+  "notes": "City of South Haven zoning districts, served through the city ArcGIS Online organization (linked from the city Interactive Zoning Map). Covers the city only; townships zone separately.",
+  "verification": {
+    "verified_at": 1792132425412,
+    "counties": [
+      "26159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-union",
+  "publisher": "Union County GIS (ucnc_gis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/Z7YhSKLuj0a3XHN6/arcgis/rest/services/Union_County_Zoning_Map_WFL1/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "37179"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ADMIN",
+    "zone": "ZONE"
+  },
+  "filter": "ZONE <> 'CITY'",
+  "notes": "Union County zoning classifications layer (hosted on the county ArcGIS Online organization). Municipal polygons are flagged ZONE='CITY' with the town in ADMIN and are excluded; ADMIN=Union County marks unincorporated districts. No district codes for incorporated towns in this layer.",
+  "verification": {
+    "verified_at": 1792135128864,
+    "counties": [
+      "37179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

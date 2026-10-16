@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-boone-belvidere",
+  "publisher": "City of Belvidere GIS (via Boone County GIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.boonecountyil.org/arcgis/rest/services/Belvidere_Zoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17007"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "zone_desc"
+  },
+  "notes": "City of Belvidere zoning districts, 181 polygons, served by Boone County GIS.",
+  "verification": {
+    "verified_at": 1792133988887,
+    "counties": [
+      "17007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

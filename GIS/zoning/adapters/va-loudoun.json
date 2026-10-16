@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-loudoun",
+  "publisher": "Loudoun County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51107"
+    ]
+  },
+  "fields": {
+    "zone": "ZO_ZONE",
+    "zone_name": "ZD_ZONE_DESC"
+  },
+  "notes": "Official Loudoun County zoning map layer (excludes overlay districts). Incorporated towns such as Leesburg zone their own land and are not in this layer.",
+  "verification": {
+    "verified_at": 1792135918448,
+    "counties": [
+      "51107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

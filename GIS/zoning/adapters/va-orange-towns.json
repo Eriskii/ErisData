@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-orange-towns",
+  "publisher": "Orange County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.orangecountyva.gov/arcgis/rest/services/OpenData/PlanningAndZoning/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51137"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZonDesc"
+  },
+  "notes": "Zoning of the towns within Orange County (Town of Orange, Gordonsville); county zoning is a separate layer",
+  "verification": {
+    "verified_at": 1792135936414,
+    "counties": [
+      "51137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

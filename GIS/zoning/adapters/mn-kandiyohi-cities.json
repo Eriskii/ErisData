@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-kandiyohi-cities",
+  "publisher": "Kandiyohi County GIS",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://gis.kcmn.us/arcgis/rest/services/Kandiyohi/Environmental/MapServer/10/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "27067"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "City zoning layer published by the county GIS office, covering the zoning districts of the county cities. No jurisdiction field, so the city of each district is not named. Served by the county ArcGIS server; paged queries are refused, so the full layer is read in one GeoJSON request.",
+  "verification": {
+    "verified_at": 1792134511963,
+    "counties": [
+      "27067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

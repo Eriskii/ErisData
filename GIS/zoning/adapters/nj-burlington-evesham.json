@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nj-burlington-evesham",
+  "publisher": "Evesham Township (hosted by SpatialDataLogic)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/DvTqoyLKkslnGFR5/arcgis/rest/services/EveshamZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_LABEL",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Evesham Township zoning districts layer, one municipality only. DENSITY field also present.",
+  "verification": {
+    "verified_at": 1792135019611,
+    "counties": [
+      "34005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

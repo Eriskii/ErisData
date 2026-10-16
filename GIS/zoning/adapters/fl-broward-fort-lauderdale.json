@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-broward-fort-lauderdale",
+  "publisher": "City of Fort Lauderdale zoning (copy on ArcGIS Online by pggilber_asu)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/FTL_Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Cla",
+    "zone_name": "Zoning_Des"
+  },
+  "notes": "Unofficial copy of Fort Lauderdale zoning districts uploaded to ArcGIS Online by an individual (pggilber_asu). Used because the city MapServer (gis.fortlauderdale.gov .../MapServer/108) refuses paging. City limits only; 739 features.",
+  "verification": {
+    "verified_at": 1792133852095,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

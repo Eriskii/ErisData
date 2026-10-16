@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ny-wyoming-gainesville",
+  "publisher": "Village of Gainesville, Wyoming County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Sq7KUOgahdDkqoAp/arcgis/rest/services/Gainesville_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36121"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "zone": "DistrAbr",
+    "zone_name": "Zoning"
+  },
+  "notes": "Village of Gainesville zoning districts hosted by Wyoming County GIS organization.",
+  "verification": {
+    "verified_at": 1792135138860,
+    "counties": [
+      "36121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

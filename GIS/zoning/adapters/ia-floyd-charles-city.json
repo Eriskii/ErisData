@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-floyd-charles-city",
+  "publisher": "Iowa State University (compiled from City of Charles City zoning ordinance)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19067"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "fips7 = '1912765'",
+  "notes": "Copy of Charles City zoning districts in Iowa State University housing zoning compilation (ISUGISF, Amy Logan), not a city-hosted layer; the city publishes only a PDF zoning map. Covers Charles City only (county seat, Floyd County FIPS 19067 place 1912765). Unincorporated county zoning not available here.",
+  "verification": {
+    "verified_at": 1792133688001,
+    "counties": [
+      "19067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

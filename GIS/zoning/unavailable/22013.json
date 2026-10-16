@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "22013",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.equatorstudios.com/louisiana_bienvilleparish/",
+    "https://www.gismaps.org/la-bienville-parish/",
+    "https://services7.arcgis.com/rxjYSJmWllCcGWDd/arcgis/rest/services/Bienville(Parcels)(2018)/FeatureServer/0"
+  ],
+  "note": "No public zoning district layer found for Bienville Parish or its cities (Arcadia, Ringgold, Gibsland). The only queryable county layer is a 2018 parcel layer (GDITAdmin) with owner and legal fields but no zoning attribute. Vendor pages (Equator, Regrid) mention zoning but link no queryable service; Regrid zoning fields are 0%. ArcGIS search for zoning in the county box returned nothing. The parish website was unreachable during the search.",
+  "recorded_at": 1792134458632,
+  "recheck_after": 1807686458632,
+  "model": "claude-haiku-5-5"
+}

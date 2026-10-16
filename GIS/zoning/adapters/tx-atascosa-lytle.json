@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-atascosa-lytle",
+  "publisher": "City of Lytle, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/FQqRYEf8oZEgwaX9/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48013"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Lytle zoning districts (Lytle city limits, partly in Atascosa County). Zone is the district code. Description and ordinance fields are mostly blank in the source.",
+  "verification": {
+    "verified_at": 1792135952688,
+    "counties": [
+      "48013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

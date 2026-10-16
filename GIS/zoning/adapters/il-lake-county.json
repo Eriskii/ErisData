@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-lake-county",
+  "publisher": "Lake County Illinois GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.lakecountyil.gov/arcgis/rest/services/GISMapping/WABPlanning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17097"
+    ]
+  },
+  "fields": {
+    "zone": "CURZONE"
+  },
+  "notes": "Lake County planning zoning layer.",
+  "verification": {
+    "verified_at": 1792134014340,
+    "counties": [
+      "17097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

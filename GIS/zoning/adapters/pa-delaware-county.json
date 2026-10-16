@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-delaware-county",
+  "publisher": "Delaware County Planning Department GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.delcopa.gov/arcgis/rest/services/SLD_Review/Delaware_County_Zoning/FeatureServer/0",
+    "page_size": 9,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42045"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI_NAME",
+    "zone": "Zoning_Dist",
+    "zone_name": "LABEL"
+  },
+  "notes": "County zoning districts for all municipalities in one layer (MUNI_NAME). Overlay districts are in a separate layer and not included.",
+  "verification": {
+    "verified_at": 1792135372928,
+    "counties": [
+      "42045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

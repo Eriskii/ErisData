@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-jp-calificacion-las-marias",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/MapServer/0",
+    "page_size": 50,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72083"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali_2021",
+    "zone_name": "cali_2021_desc"
+  },
+  "filter": "municipio = 'Las Marías' AND cuerdas >= 10 AND cali_2021 <> 'VIAL'",
+  "notes": "JP official statewide calificación layer, Las Marías only. Filter keeps polygons of 10+ cuerdas and drops road (VIAL) polygons because the full ~6,900-polygon set is too dense for the server to page within time limits; smaller districts are omitted.",
+  "verification": {
+    "verified_at": 1792139705517,
+    "counties": [
+      "72083"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wy-laramie",
+  "publisher": "City of Laramie GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/nuWdH5CU0WK3IL1x/arcgis/rest/services/City_of_Laramie_Zoning/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56001"
+    ]
+  },
+  "fields": {
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "filter": "RetiredByRecord IS NULL AND Shape__Area < 10000000",
+  "notes": "City of Laramie general zoning districts (city limits only); retired records excluded. Districts over 10 sq km excluded because their geometry fails validity checks.",
+  "verification": {
+    "verified_at": 1792136208478,
+    "counties": [
+      "56001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

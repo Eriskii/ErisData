@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "18167",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=99&LayerID=962&PageTypeID=1&PageID=963",
+    "https://www.vigocounty.in.gov/department/index.php?structureid=16",
+    "https://www.vigocounty.in.gov/egov/apps/document/center.egov?view=item&id=47"
+  ],
+  "note": "Vigo County and Terre Haute zoning districts appear only in the Schneider Beacon web viewer ('Current Zoning Classifications' layer, no REST endpoint) and in the Unified Zoning Ordinance text and PDF maps. Searched the Vigo County GIS Hub (hub-vigocountygis.opendata.arcgis.com), the county J.Palmer1 ArcGIS Online org services, the City of Terre Haute data hub and ArcGIS Online. No queryable zoning district polygon layer covering Vigo County was found; the zoning services found (services3 fM4k…, services6 kIJQ…) cover other places and return no features inside the county's bounding box.)",
+  "recorded_at": 1792134339382,
+  "recheck_after": 1807686339382,
+  "model": "claude-haiku-5-5"
+}

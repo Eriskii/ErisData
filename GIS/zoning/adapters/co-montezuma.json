@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "co-montezuma",
+  "publisher": "Montezuma County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-server.co.montezuma.co.us/arcgis/rest/services/MontezumaPlanningMap/MapServer/72",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "08083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_"
+  },
+  "notes": "Montezuma County planning layer 72 (Zoning). ZONE_ holds the district code (AGZ, A/R 10-34, A-80+, AR ES, HISTZ, etc.) for unincorporated county land. No district name field is populated; city zone attributes are empty for sampled features.",
+  "verification": {
+    "verified_at": 1792133807130,
+    "counties": [
+      "08083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

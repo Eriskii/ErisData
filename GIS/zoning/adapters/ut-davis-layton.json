@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-davis-layton",
+  "publisher": "Layton City GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/XDo7qgWGk2R5khJB/arcgis/rest/services/Layton_City_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "GeneralDescription"
+  },
+  "notes": "Layton City zoning districts only (city limits), not the whole county. Davis County unincorporated land and other cities are not in this layer.",
+  "verification": {
+    "verified_at": 1792135922877,
+    "counties": [
+      "49011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

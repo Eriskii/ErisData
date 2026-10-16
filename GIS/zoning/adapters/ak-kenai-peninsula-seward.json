@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ak-kenai-peninsula-seward",
+  "publisher": "City of Seward GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/h4X8jlnwCsd4eCZt/arcgis/rest/services/ZoningOnline/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02122"
+    ]
+  },
+  "fields": {
+    "link": "OrdURL",
+    "zone": "Zoning",
+    "zone_name": "ZoningLabel"
+  },
+  "notes": "City of Seward zoning districts, published by City of Seward via KPB GIS hosting. Only covers the City of Seward.",
+  "verification": {
+    "verified_at": 1792133730909,
+    "counties": [
+      "02122"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

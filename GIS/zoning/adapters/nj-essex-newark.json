@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nj-essex-newark",
+  "publisher": "City of Newark (NewGIN, Office of Planning & Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/WAUuvHqqP3le2PMh/arcgis/rest/services/Newark_Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Newark only (2021-09-01 district polygons, 35 features). Zoning code per district; no zone name field.",
+  "verification": {
+    "verified_at": 1792134978920,
+    "counties": [
+      "34013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

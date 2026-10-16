@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-calumet-chilton",
+  "publisher": "City of Chilton",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://calmaps.co.calumet.wi.us/server/rest/services/ZoningMunicipal/MapServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55015"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "City of Chilton zoning districts from the Calumet County municipal zoning service. Largest city in the county per county seat status; the wi-calumet layer covers the towns.",
+  "verification": {
+    "verified_at": 1792136061076,
+    "counties": [
+      "55015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

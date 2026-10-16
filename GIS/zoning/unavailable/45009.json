@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "45009",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.bambergcounty.sc.gov/building-planning/planning-zoning-functions",
+    "https://www.bambergcounty.sc.gov/tax-services/tax-assessor",
+    "https://www.bambergcounty.sc.gov/sites/default/files/uploads/departments/building-and-planning/zoningord.pdf",
+    "https://services1.arcgis.com/x5wCko8UnSi4h0CB/arcgis/rest/services/Bamberg_Features/FeatureServer"
+  ],
+  "note": "Bamberg County has a zoning ordinance (PDF) and a planning department that administers it, but no zoning district polygon layer is published as a queryable service. The county's GIS offerings are parcel and shapefile downloads for a fee via qPublic and the Tax Assessor. The Bamberg_Features service (Clemson, ArcGIS Online) holds wetlands, sink boundaries, PAD-US and county boundary only. ArcGIS searches for Bamberg zoning returned nothing. The cities of Bamberg and Denmark publish no zoning GIS found on their websites.",
+  "recorded_at": 1792135660145,
+  "recheck_after": 1807687660145,
+  "model": "claude-haiku-5-5"
+}

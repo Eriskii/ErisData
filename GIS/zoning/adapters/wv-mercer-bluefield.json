@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wv-mercer-bluefield",
+  "publisher": "City of Bluefield, WV",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/56UKT5NHVCJyli9q/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54055"
+    ]
+  },
+  "fields": {
+    "link": "MUNICODE_LINK",
+    "zone": "ZONE",
+    "zone_name": "Descriptio"
+  },
+  "notes": "City of Bluefield WV zoning districts (86 polygons), hosted by city ArcGIS account; link is the Municode code of ordinances.",
+  "verification": {
+    "verified_at": 1792136018283,
+    "counties": [
+      "54055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

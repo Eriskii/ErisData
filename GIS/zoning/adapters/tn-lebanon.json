@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-lebanon",
+  "publisher": "City of Lebanon, TN",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.lebanontn.org/arcgis/rest/services/Hosted/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47189"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Lebanon zoning districts (city limits only), hosted on the city ArcGIS server. Zone code in ZONE. Covers Lebanon, the county seat and largest city in Wilson County.",
+  "verification": {
+    "verified_at": 1792135610688,
+    "counties": [
+      "47189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

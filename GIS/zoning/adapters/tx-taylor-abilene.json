@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-taylor-abilene",
+  "publisher": "City of Abilene GIS (Planning Department)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/iBFmWI3dYPQqS1KF/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48441"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneClassification",
+    "zone_name": "ZoneDescription"
+  },
+  "notes": "City of Abilene zoning districts only (city limits; not unincorporated Taylor County). Updated 4/15/25.",
+  "verification": {
+    "verified_at": 1792135758582,
+    "counties": [
+      "48441"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

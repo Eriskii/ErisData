@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "in-noble-kendallville",
+  "publisher": "City of Kendallville, Indiana (hosted by Kendallville GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver.remote.kendallville-in.org/server/rest/services/Hosted/Zoning_public_ed7c7a0de5ac4b678f346205fd99fb61/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18113"
+    ]
+  },
+  "fields": {
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "City of Kendallville zoning only (667 polygons, public query, no token). Kendallville is the largest city in Noble County; the county Plan Commission enforces zoning in unincorporated areas and Cromwell, and Albion, Ligonier, Rome City and Avilla have their own ordinances whose layers are token-protected or not published. Zone codes per city ordinance.",
+  "verification": {
+    "verified_at": 1792134204336,
+    "counties": [
+      "18113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

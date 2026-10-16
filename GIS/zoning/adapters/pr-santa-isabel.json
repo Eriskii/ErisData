@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-santa-isabel",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/FeatureServer/0",
+    "page_size": 50,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72133"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "municipio = 'Santa Isabel'",
+  "notes": "Statewide JP zoning layer (Calificacion), filtered to municipio Santa Isabel. Service is slow for large queries; small page sizes used.",
+  "verification": {
+    "verified_at": 1792137630297,
+    "counties": [
+      "72133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

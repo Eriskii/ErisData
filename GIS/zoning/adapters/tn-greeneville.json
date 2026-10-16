@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tn-greeneville",
+  "publisher": "Town of Greeneville (Building & Planning, via ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/vvyxpgJWEnRl6LgB/arcgis/rest/services/Greeneville_Zoning_Districts/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47059"
+    ]
+  },
+  "fields": {
+    "link": "District_Link",
+    "zone": "NAME",
+    "zone_name": "Classification"
+  },
+  "notes": "Town of Greeneville zoning districts, published by the town. Last rezoning edit 3-25-2025. Shapes are in state plane feet and are reprojected by the service.",
+  "verification": {
+    "verified_at": 1792136018074,
+    "counties": [
+      "47059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

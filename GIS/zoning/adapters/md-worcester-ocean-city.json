@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-worcester-ocean-city",
+  "publisher": "Town of Ocean City, Maryland (GIS via TOCGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/jjVcwHv9AQEq3DH3/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "District"
+  },
+  "notes": "Town of Ocean City established zoning districts, published by TOCGIS for the town. Covers Ocean City only; the county layer md-worcester covers unincorporated land.",
+  "verification": {
+    "verified_at": 1792134575262,
+    "counties": [
+      "24047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

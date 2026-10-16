@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "id-bonners-ferry",
+  "publisher": "City of Bonners Ferry",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/4CllgMSJJaeToEFP/arcgis/rest/services/Admin_Bounds/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16021"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_1"
+  },
+  "notes": "City of Bonners Ferry zoning districts only (city limits, not county unincorporated land), from the city Admin_Bounds ArcGIS Online org; 37 features.",
+  "verification": {
+    "verified_at": 1792133680327,
+    "counties": [
+      "16021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-james-city-county",
+  "publisher": "James City County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://property.jamescitycountyva.gov/arcgis/rest/services/JCC/GIS_Data/MapServer/35",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51095"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "Description"
+  },
+  "notes": "James City County GIS Zoning layer (unincorporated county zoning). 323 features. Cities of Williamsburg and Newport News not included.",
+  "verification": {
+    "verified_at": 1792135917320,
+    "counties": [
+      "51095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

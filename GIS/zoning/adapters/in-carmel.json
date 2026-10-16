@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "in-carmel",
+  "publisher": "City of Carmel GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://carmelgis.carmel.in.gov/arcserver/rest/services/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18057"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID",
+    "zone_name": "ZONE_DES"
+  },
+  "filter": "1=1",
+  "notes": "City of Carmel zoning districts (city-administered; Carmel is in Hamilton County). Layer is in Indiana State Plane feet; service reprojects to WGS84 on request.",
+  "verification": {
+    "verified_at": 1792134117444,
+    "counties": [
+      "18057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

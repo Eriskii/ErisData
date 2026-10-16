@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ny-rensselaer-parcels",
+  "publisher": "Rensselaer County, NY (county tax parcel layer, Rensselaer County Data service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/EbVsqZ18sv1kVJ3k/arcgis/rest/services/Rensselaer_County/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36083"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZONING"
+  },
+  "filter": "ZONING IS NOT NULL AND ZONING <> ' '",
+  "notes": "Fallback, parcel-level: no county or city-wide zoning district layer is published. Each parcel carries its municipality ZONING code (e.g. RR, 1) rather than district polygons; only parcels with a recorded code are included, and codes are the assessor's, with no district names. Towns with no recorded codes are absent. City of Rensselaer district polygons exist separately (services2.arcgis.com/8T9oLChn87ExnqDl, layer 25).",
+  "verification": {
+    "verified_at": 1792135120215,
+    "counties": [
+      "36083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

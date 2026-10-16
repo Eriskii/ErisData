@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-ciales",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/MapServer/0",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72039"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "municipio = 'Ciales'",
+  "notes": "JP statewide zoning layer (calificacion), filtered to municipio Ciales. Zone codes from cali field; jurisdiction is the municipio attribute.",
+  "verification": {
+    "verified_at": 1792137705176,
+    "counties": [
+      "72039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

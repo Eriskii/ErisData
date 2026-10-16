@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sd-campbell",
+  "publisher": "Campbell County GIS (via districtiii.org web layers)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/CAMPBELL_COUNTY_WEB_LAYERS/MapServer/23",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "County GIS Web Parcel Viewer layer ZONING; ZONING holds code and name together, e.g. A - Agricultural, LP - Lake Park. Covers unincorporated county; city zoning not in this layer.",
+  "verification": {
+    "verified_at": 1792135429661,
+    "counties": [
+      "46021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

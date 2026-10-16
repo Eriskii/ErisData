@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29121",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.maconcountymo.com/gis",
+    "https://www.cityofmacon-mo.gov/ce/page/zoning-map",
+    "https://www.cityofmacon-mo.gov/building"
+  ],
+  "note": "Macon County GIS (Integrity GIS viewer, maconcountygis.integritygis.com) lists a 'Zoning - Macon City' layer only in its online viewer; no public REST service URL for it is published, and the integritygis hosts were unreachable from my environment. The City of Macon's zoning map is only a PDF (cityofmacon-mo.gov/media/956). No ArcGIS Hub, Online or state service of Macon County or city zoning districts was found; county zoning outside Macon City is not shown.",
+  "recorded_at": 1792134815579,
+  "recheck_after": 1807686815579,
+  "model": "claude-haiku-5-5"
+}

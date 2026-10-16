@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-adams",
+  "publisher": "Adams County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/4PNQOtAivErR7nbT/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "08001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY_NAME",
+    "link": "LINK",
+    "zone": "ZONE_"
+  },
+  "notes": "Unincorporated Adams County zoning districts only (cities zone their own land).",
+  "verification": {
+    "verified_at": 1792133780878,
+    "counties": [
+      "08001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

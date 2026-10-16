@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-santa-barbara-city",
+  "publisher": "City of Santa Barbara",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/hMpg7vsYb74pEKjX/arcgis/rest/services/ODS_Zones_Webmap/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "Zone_Descr"
+  },
+  "notes": "City of Santa Barbara zoning only, from the city ODS zoning layer; county unincorporated zoning is separate.",
+  "verification": {
+    "verified_at": 1792134056932,
+    "counties": [
+      "06083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

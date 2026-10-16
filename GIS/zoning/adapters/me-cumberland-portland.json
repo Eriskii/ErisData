@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "me-cumberland-portland",
+  "publisher": "City of Portland, Maine (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.portlandmaine.gov/maps/rest/services/Zoning/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23005"
+    ]
+  },
+  "fields": {
+    "zone": "ACAD_TEXT"
+  },
+  "notes": "City of Portland only (Cumberland County towns other than Portland do not zone through the county; Maine counties do not zone). Zone code in ACAD_TEXT; no zone name or ordinance link field published. Source layer is in EPSG:26856; runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792134432162,
+    "counties": [
+      "23005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

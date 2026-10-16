@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "40067",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gisweb.jeffcowa.us/server/rest/services/OpenData/OpenData/MapServer/1",
+    "https://www.dynamospatial.com/c/jefferson-county-ok/parcel-data",
+    "https://services3.arcgis.com/4YDNe1fbBW9TMNTu/arcgis/rest/services/Jefferson_County_OK/FeatureServer"
+  ],
+  "note": "Jefferson County OK publishes no queryable zoning district layer that covers Oklahoma. The county host gisweb.jeffcowa.us serves a 'Zoning Districts' layer (56 features, ZONECLASS/ZONEDESC), but its contents are Jefferson County, Washington (Port Townsend, Point Hudson, Rainer Street), and a query over the Oklahoma sample box returns 0 districts. The county's services3 Jefferson_County_OK FeatureServer has no zoning layer (hazmat, addresses, roads, ESZ, cities, county boundary only). Commercial parcel download with zoning fields (dynamospatial) is paywalled and not an official service. ArcGIS searches for Waurika and Oklahoma zoning turned up nothing for the county or its cities (Waurika, Ryan, Ringling, Terral).",
+  "recorded_at": 1792135279078,
+  "recheck_after": 1807687279078,
+  "model": "claude-haiku-5-5"
+}

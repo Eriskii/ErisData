@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-mower-county",
+  "publisher": "Mower County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.co.mower.mn.us/server/rest/services/PublicServices/Public_Features_Group_1/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27099"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "Mower County zoning designations (county-zoned unincorporated land, per county layer). Layer has 69 features.",
+  "verification": {
+    "verified_at": 1792134545691,
+    "counties": [
+      "27099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

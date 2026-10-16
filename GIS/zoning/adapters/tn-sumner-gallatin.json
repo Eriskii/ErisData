@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-sumner-gallatin",
+  "publisher": "City of Gallatin, TN Planning and Codes",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcweb.gallatin-tn.gov/arcgis/rest/services/Planning/Planning_Codes_Map/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47165"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Gallatin zoning districts only (not unincorporated county); zone filled for about half of districts. Layer 5 of Planning_Codes_Map MapServer.",
+  "verification": {
+    "verified_at": 1792135530140,
+    "counties": [
+      "47165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "19045",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/APPLICATION.ASPX?AppID=375&LayerID=5295",
+    "https://www.clintoncounty-ia.gov/zoning/ordinances/",
+    "https://opportunityiowa.gov/media/83/download?inline=",
+    "https://www.cityofclintoniowa.gov/184/Zoning"
+  ],
+  "note": "Clinton County's zoning districts are published only in the Schneider Beacon viewer (County Zoning Districts and City of Clinton Zoning layers), which returns 403 to automated access, and as static PDF maps. No public ArcGIS REST zoning layer for Clinton County or the City of Clinton was found; the city's ArcGIS Hub 'Zoning Districts' item (services1.arcgis.com/0RjRAvWbkNc5KOKe) is Iowa City's, not Clinton's.",
+  "recorded_at": 1792133734343,
+  "recheck_after": 1807685734343,
+  "model": "claude-haiku-5-5"
+}

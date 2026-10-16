@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-kasson",
+  "publisher": "City of Kasson (hosted by Goodhue County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://publicmaps.co.goodhue.mn.us/arcgis/rest/services/DodgeCounty/Kasson_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27039"
+    ]
+  },
+  "fields": {
+    "zone": "Short_Hand",
+    "zone_name": "Descrip"
+  },
+  "notes": "City of Kasson zoning districts only, 27 features. Commont holds comments. Served from Goodhue County ArcGIS host.",
+  "verification": {
+    "verified_at": 1792134501239,
+    "counties": [
+      "27039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

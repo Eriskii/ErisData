@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-sampson-clinton",
+  "publisher": "Sampson County GIS (City of Clinton zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/fM4kjZmPOS4ay2Ff/arcgis/rest/services/City_of_Clinton_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37163"
+    ]
+  },
+  "fields": {
+    "zone": "LABEL_2",
+    "zone_name": "ZONING_LBL"
+  },
+  "notes": "City of Clinton zoning districts.",
+  "verification": {
+    "verified_at": 1792135110010,
+    "counties": [
+      "37163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

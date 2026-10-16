@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-wilson",
+  "publisher": "Wilson County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/0lW6bjFI0RIjy5uB/arcgis/rest/services/Wilson_Zoning/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47189"
+    ]
+  },
+  "fields": {
+    "zone": "P_Zoning"
+  },
+  "notes": "Wilson County GIS zoning layer; no jurisdiction field. Zone code in P_Zoning; Rezone_Dat holds rezoning date.",
+  "verification": {
+    "verified_at": 1792135574509,
+    "counties": [
+      "47189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

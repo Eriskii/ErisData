@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "42055",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://chambersburgpa.gov/government/maps.html",
+    "https://evogov.s3.amazonaws.com/177/media/149144.pdf",
+    "https://waynesboropa.gov/wpfd_file/zoning-map-february-2020/",
+    "https://borough.shippensburg.pa.us/Government/Codes-Zoning",
+    "https://services9.arcgis.com/6EuFgO4fLTqfNOhu/ArcGIS/rest/services/Chambersburg_Zoning/FeatureServer/0"
+  ],
+  "note": "Franklin County PA publishes no county-wide zoning layer; the county GIS portal (gisportal.franklincountypa.gov, Franklin_County_GIS_Map service) has no zoning layer. Municipal zoning (Chambersburg, Waynesboro, Shippensburg, Greencastle) is published as PDF maps and eCode360 text. The only ArcGIS zoning layer found, a personal Chambersburg copy (services9 .../Chambersburg_Zoning/FeatureServer/0), has 16 commercial-only polygons with the zone field empty for all features, so it fails validation (field-fill 0 of 16).",
+  "recorded_at": 1792135646425,
+  "recheck_after": 1807687646425,
+  "model": "claude-haiku-5-5"
+}

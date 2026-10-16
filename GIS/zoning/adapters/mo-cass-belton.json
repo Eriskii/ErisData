@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-cass-belton",
+  "publisher": "City of Belton, MO (Central Square municipal GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/ZxotJxQo35Sx0jNg/arcgis/rest/services/Central_Square_Map/FeatureServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29037"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Name",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Belton city zoning layer served from Central Square municipal GIS service; layer carries parcel attributes; covers Belton only (City of Belton), not unincorporated county.",
+  "verification": {
+    "verified_at": 1792134647828,
+    "counties": [
+      "29037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

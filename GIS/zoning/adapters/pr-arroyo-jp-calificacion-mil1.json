@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-arroyo-jp-calificacion-mil1",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/Analisis_cali_MIL1/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "municipio = 'Arroyo'",
+  "notes": "JP official calificacion layer (Analisis_cali_MIL1 service), parcel-level polygons.",
+  "verification": {
+    "verified_at": 1792139434230,
+    "counties": [
+      "72015"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

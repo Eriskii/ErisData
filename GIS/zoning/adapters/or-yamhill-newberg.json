@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-yamhill-newberg",
+  "publisher": "City of Newberg (GIS Zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/LJLnwUl0uTPWJE9B/arcgis/rest/services/Newberg_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "zones_",
+    "link": "weblink",
+    "zone": "zoning",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "City of Newberg zoning districts, Yamhill County, Oregon. Layer hosted under the Newberg organization on ArcGIS Online.",
+  "verification": {
+    "verified_at": 1792135341613,
+    "counties": [
+      "41071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

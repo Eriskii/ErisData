@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "in-dillsboro",
+  "publisher": "Town of Dillsboro / Dearborn County Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.dearborncounty.in.gov/arcgis/rest/services/Planning/ZoningMap/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18029"
+    ]
+  },
+  "fields": {
+    "zone": "Zng_Code",
+    "zone_name": "Zoning_Dis"
+  },
+  "notes": "Town of Dillsboro zoning districts from the county-hosted zoning map service (contracted planning).",
+  "verification": {
+    "verified_at": 1792134094628,
+    "counties": [
+      "18029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

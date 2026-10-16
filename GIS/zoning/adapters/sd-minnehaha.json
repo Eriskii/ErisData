@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-minnehaha",
+  "publisher": "Minnehaha County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.minnehahacounty.gov/minnemap/rest/services/Planning/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46099"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "County zoning ordinance map (MinnEmap). Covers unincorporated county; cities zone their own land.",
+  "verification": {
+    "verified_at": 1792135410446,
+    "counties": [
+      "46099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-stevens-morris",
+  "publisher": "Stevens County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.stevens.mn.us/arcgis/rest/services/Zoning/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27149"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Typ"
+  },
+  "notes": "City of Morris zoning layer from Stevens County GIS (47 features).",
+  "verification": {
+    "verified_at": 1792134523097,
+    "counties": [
+      "27149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

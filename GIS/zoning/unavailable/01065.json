@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "01065",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://cityofgreensboroalabama.com/wp-content/uploads/2023/02/Zoning-Map-as-of-November-2022.pdf",
+    "https://www.moundvillealabama.com/government/zoning--maps",
+    "https://services9.arcgis.com/AhiZvN2uMZkZVfSu/arcgis/rest/services/Hale_Web_Service/FeatureServer"
+  ],
+  "note": "Hale County publishes no zoning layer; its ArcGIS service (Hale_Web_Service) has only parcels, city limits and survey lines, with no zoning field. Alabama counties generally do not zone. The cities that zone, Greensboro and Moundville, publish their zoning maps only as PDF images (Greensboro's Nov 2022 map; Moundville's zoning map PDF). No queryable zoning polygon service was found for any Hale County jurisdiction.",
+  "recorded_at": 1792133744103,
+  "recheck_after": 1807685744103,
+  "model": "claude-haiku-5-5"
+}

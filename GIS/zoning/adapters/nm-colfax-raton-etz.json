@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nm-colfax-raton-etz",
+  "publisher": "City of Raton, NM (Extraterritorial Zoning area)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/cP9VnCIadg6Uilbd/arcgis/rest/services/ETZ_Parcel_Data/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35007"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Last resort: a parcel layer whose attributes carry each parcel zoning, for the City of Raton extraterritorial zoning (ETZ) area outside city limits, which is unincorporated county land. Not a district polygon layer; zone is the parcel zoning code. Hosted by city staff account (jwelch_nm911).",
+  "verification": {
+    "verified_at": 1792135013220,
+    "counties": [
+      "35007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "md-salisbury",
+  "publisher": "City of Salisbury, MD (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Hx8jJ6McXQ0jnqLk/arcgis/rest/services/Zoning1/FeatureServer/76",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24045"
+    ]
+  },
+  "fields": {
+    "link": "website",
+    "zone": "city_zon",
+    "zone_name": "zone_long"
+  },
+  "notes": "City of Salisbury zoning districts (city limits only), EPSG 26985 source projection. Unincorporated county land is in md-wicomico.",
+  "verification": {
+    "verified_at": 1792134464508,
+    "counties": [
+      "24045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

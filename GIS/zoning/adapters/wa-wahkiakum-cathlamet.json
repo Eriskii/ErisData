@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wa-wahkiakum-cathlamet",
+  "publisher": "Wahkiakum County GIS (City of Cathlamet zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/SQaKrZ90pTH1GKNW/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53069"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Covers only the City of Cathlamet; unincorporated Wahkiakum County has no zoning per county FAQ. Layer has 7 features and no name or ordinance link field. Hosted by county GIS account Tall_Timber.",
+  "verification": {
+    "verified_at": 1792135994052,
+    "counties": [
+      "53069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

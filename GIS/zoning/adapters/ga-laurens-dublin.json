@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-laurens-dublin",
+  "publisher": "City of Dublin, GA (hosted on Laurens County Wide View ArcGIS service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/City_of_Dublin_new_View_gdb_view/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13175"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Dublin zoning districts from the City of Dublin GIS view. Zone holds district code; includes CO (county) labelled areas. Link field empty in source. Not an official zoning map per city disclaimer.",
+  "verification": {
+    "verified_at": 1792134003142,
+    "counties": [
+      "13175"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

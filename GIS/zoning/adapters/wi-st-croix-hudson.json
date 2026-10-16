@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-st-croix-hudson",
+  "publisher": "City of Hudson, WI",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/BHiA4BaB0lvyaF6R/arcgis/rest/services/City_of_Hudson_Zoning_View_Only/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55109"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Hudson base zoning districts only; covers the city of Hudson, not unincorporated St. Croix County or other cities. St. Croix County own zoning exists only as a geodatabase download (no queryable service found). Overlay layer FeatureServer/2 not used.",
+  "verification": {
+    "verified_at": 1792136219639,
+    "counties": [
+      "55109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

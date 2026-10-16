@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-hidalgo-mcallen",
+  "publisher": "City of McAllen GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismap.mcallen.net/publication/rest/services/DevelopmentZoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48215"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONEDESCRIPTION"
+  },
+  "notes": "City of McAllen zoning only (city jurisdiction, not unincorporated county). Source is a MapServer layer, Web Mercator.",
+  "verification": {
+    "verified_at": 1792135675203,
+    "counties": [
+      "48215"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

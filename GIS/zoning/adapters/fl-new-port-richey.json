@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-new-port-richey",
+  "publisher": "City of New Port Richey",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/5fOG6RMXXiEvqNzn/arcgis/rest/services/NPR_Zoning_2026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12101"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION_NAME_1",
+    "link": "LDC_LINK",
+    "zone": "Zoning2025"
+  },
+  "notes": "City of New Port Richey 2026 zoning layer published by the city on its ArcGIS Hub. Features carry parcel attributes with the zoning code in Zoning2025; treat as parcel-level zoning if polygons repeat per parcel. Covers city of New Port Richey only.",
+  "verification": {
+    "verified_at": 1792133866744,
+    "counties": [
+      "12101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-ascension",
+  "publisher": "Ascension Parish GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ascensionparishla.gov/server/rest/services/Base_Layers/Zoning_Districts/MapServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "22005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Parish zoning districts layer covering unincorporated Ascension Parish. Field names inferred from schema; verify.",
+  "verification": {
+    "verified_at": 1792134828851,
+    "counties": [
+      "22005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

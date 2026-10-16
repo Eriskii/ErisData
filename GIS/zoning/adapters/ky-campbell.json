@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ky-campbell",
+  "publisher": "Campbell County GIS (LINK-GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.linkgis.org/server/rest/services/Economic_Development_Theme/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21037"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY_NAME",
+    "link": "ORDINANCE",
+    "zone": "ZONE"
+  },
+  "notes": "Campbell County KY zoning layer hosted by LINK-GIS, covering unincorporated county (CITY_NAME UCC) and cities in one layer. ZONE_ALIAS is blank in the source, so zone_name is not mapped. 733 features.",
+  "verification": {
+    "verified_at": 1792134312950,
+    "counties": [
+      "21037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

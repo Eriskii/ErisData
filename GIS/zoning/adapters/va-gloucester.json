@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-gloucester",
+  "publisher": "Gloucester County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gloucesterva.info/server/rest/services/GISweb/Hosted_Public_Site_Web_Layer/MapServer/41",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51073"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "County-hosted public GIS server (gis.gloucesterva.info); county has no incorporated towns. Alternate older host maps.gloucesterva.info was unreachable.",
+  "verification": {
+    "verified_at": 1792136251882,
+    "counties": [
+      "51073"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tn-carter-elizabethton",
+  "publisher": "City of Elizabethton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.elizabethton.org/arcserver/rest/services/Planning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE"
+  },
+  "notes": "City of Elizabethton zoning districts only (city limits, not county unincorporated land). From the city Planning MapServer, layer ZONING. Zone_Curre and Ordinance are empty in source, so no ordinance link.",
+  "verification": {
+    "verified_at": 1792135465247,
+    "counties": [
+      "47019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

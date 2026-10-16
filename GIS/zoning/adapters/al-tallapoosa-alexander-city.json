@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-tallapoosa-alexander-city",
+  "publisher": "City of Alexander City GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cityworks.alexandercityal.gov/arcgis/rest/services/ACGOL/ACGOL_Zones/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01123"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID",
+    "zone_name": "Classification"
+  },
+  "notes": "City of Alexander City own zoning layer (Zoning MASTER, ACGOL_Zones), covers city limits only; Tallapoosa County unincorporated land not in this layer. Source is in state plane feet; runtime requests lon/lat. Ordinance section number in OrdRef, not a URL.",
+  "verification": {
+    "verified_at": 1792133740693,
+    "counties": [
+      "01123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

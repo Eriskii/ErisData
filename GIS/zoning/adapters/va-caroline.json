@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-caroline",
+  "publisher": "Caroline County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/javH2x6lNvVqxMm3/arcgis/rest/services/Caroline_County_Zoning_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51033"
+    ]
+  },
+  "fields": {
+    "zone": "Caroline_County_Parcels_MZONE"
+  },
+  "notes": "County GIS zoning districts derived from Commissioner of Revenue tax data (as of 2024-09-24); parcel-level polygons carrying zoning code. Zone only; no zone_name or link published.",
+  "verification": {
+    "verified_at": 1792135923718,
+    "counties": [
+      "51033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

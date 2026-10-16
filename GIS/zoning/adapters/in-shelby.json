@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "in-shelby",
+  "publisher": "Shelby County GIS (Beacon/Schneider)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/dip9433X97rf7xgg/arcgis/rest/services/ShelbyCountyIN_BeaconUpdated/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18145"
+    ]
+  },
+  "fields": {
+    "zone": "Feature_Na"
+  },
+  "notes": "Shelby County (IN) County Zoning layer from the county Beacon/GIS service; unincorporated county zoning. Zone codes only (no name or ordinance link published in layer).",
+  "verification": {
+    "verified_at": 1792134143636,
+    "counties": [
+      "18145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

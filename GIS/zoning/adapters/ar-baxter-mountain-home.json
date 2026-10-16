@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ar-baxter-mountain-home",
+  "publisher": "City of Mountain Home, Arkansas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/JN2P87fjnROMhSfT/arcgis/rest/services/City_Zoning_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05005"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Mountain Home zoning only (city limits; county unincorporated land not included). Layer is the City Zoning layer behind the city zoning web map linked from cityofmountainhome.com ordinances page. Zone values like R 1 are district codes. Ordinance Laserfiche links are sparse so not mapped.",
+  "verification": {
+    "verified_at": 1792133767271,
+    "counties": [
+      "05005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

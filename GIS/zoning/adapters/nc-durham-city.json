@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-durham-city",
+  "publisher": "City of Durham GIS (City and County of Durham UDO base zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/G5vR3cOjh6g2Ed8E/arcgis/rest/services/Planning/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37063"
+    ]
+  },
+  "fields": {
+    "link": "UDO",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_GEN"
+  },
+  "notes": "Official City and County of Durham base zoning districts layer (UDO official zoning map), covering both city and unincorporated county land. zone_name is the general class (ZONE_GEN); UDO_LABEL holds the district label. No jurisdiction field.",
+  "verification": {
+    "verified_at": 1792135097828,
+    "counties": [
+      "37063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

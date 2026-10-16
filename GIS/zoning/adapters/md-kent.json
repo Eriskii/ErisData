@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-kent",
+  "publisher": "Kent County GIS (Kent County Planning, Housing and Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/RWHujKM5TItecIqp/arcgis/rest/services/Parcel_Viewer_experience_builder/FeatureServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24029"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "Zoning_full_name"
+  },
+  "notes": "Kent County unincorporated zoning districts (county ArcGIS Online org); incorporated towns not included.",
+  "verification": {
+    "verified_at": 1792134868688,
+    "counties": [
+      "24029"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

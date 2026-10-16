@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-clinton-county",
+  "publisher": "Clinton County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/tAhcHWpOD9ygNPbJ/arcgis/rest/services/CountyWideZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39027"
+    ]
+  },
+  "fields": {
+    "zone": "F_Distr",
+    "zone_name": "DistName"
+  },
+  "notes": "County-wide zoning districts layer from the Clinton County GIS office (162 district polygons). No jurisdiction field. Zoning resolution: co.clinton.oh.us 2025 resolution.",
+  "verification": {
+    "verified_at": 1792135175948,
+    "counties": [
+      "39027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-oshkosh",
+  "publisher": "City of Oshkosh GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ci.oshkosh.wi.us/server/rest/services/Land_Records_Publication/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55139"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONINGDESP"
+  },
+  "notes": "City of Oshkosh base zoning districts (Multi_Zone layer), city-only; the county layer does not cover the city. Overlay districts are in a separate layer and not included.",
+  "verification": {
+    "verified_at": 1792136327803,
+    "counties": [
+      "55139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

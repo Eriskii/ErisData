@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-madison-berea",
+  "publisher": "City of Berea, KY (GIS, via city Interactive GIS Viewer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/tEF6E6T4L7ipnvIG/arcgis/rest/services/Map/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21151"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "ZoneLabel"
+  },
+  "notes": "City of Berea zoning only (not county unincorporated land). Layer is the Zoning polygon layer of the city Interactive GIS Viewer; Overlay field present, overlay rows may be included. Madison County zoning MapServer (arcserver.madisoncountyky.us) was unreachable during search.",
+  "verification": {
+    "verified_at": 1792134421324,
+    "counties": [
+      "21151"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

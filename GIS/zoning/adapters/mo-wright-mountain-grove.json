@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-wright-mountain-grove",
+  "publisher": "City of Mountain Grove, MO",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/5fBksrmhqE9Y6xQi/arcgis/rest/services/Mountain_Grove_Zoning_Hosted_Map_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29229"
+    ]
+  },
+  "fields": {
+    "zone": "Current_Zoning_Code"
+  },
+  "notes": "City of Mountain Grove zoning districts digitized from 1984-2003 maps; hosted by the city on ArcGIS Online. Covers only the city of Mountain Grove, not unincorporated county land. No zone name field published.",
+  "verification": {
+    "verified_at": 1792134844570,
+    "counties": [
+      "29229"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

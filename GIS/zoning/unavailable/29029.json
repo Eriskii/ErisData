@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "29029",
+  "reason": "login-required",
+  "evidence": [
+    "https://camdengis.integritygis.com/Geocortex/Essentials/REST/sites/Camden_County_MO/map/mapservices",
+    "https://camdengis.integritygis.com/Geocortex/Essentials/REST/sites/Camden_County_MO/map/mapservices/1/layers/36",
+    "https://services8.integritygis.com/arcgis/rest/services/MO/Camden_Assessor_Data/MapServer",
+    "https://services5.integritygis.com/arcgis/rest/services/MO/Four_Seasons_Zoning/MapServer",
+    "https://camdencountymo.gov/wp-content/uploads/PZ_Districts.pdf"
+  ],
+  "note": "Camden County's zoning districts (Zoning layer 36, Camdenton Zoning, Sunrise Beach Zoning, and Four Seasons Zoning) are served from integritygis ArcGIS services (services8 Camden_Assessor_Data and services5 Four_Seasons_Zoning) that return 'Token Required' to anonymous requests. The county's public zoning resource is a static PDF map (PZ_Districts.pdf). No open zoning service was found; Lake Ozark zoning is a map package only. Not worked around the token requirement.",
+  "recorded_at": 1792134799298,
+  "recheck_after": 1807686799298,
+  "model": "claude-haiku-5-5"
+}

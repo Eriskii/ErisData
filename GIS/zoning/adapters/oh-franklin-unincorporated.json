@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-franklin-unincorporated",
+  "publisher": "Franklin County Economic Development & Planning (EDPGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/7r2Wl09a1Apy459r/arcgis/rest/services/Franklin_County_Zoning_Districts_Editing_20221201/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "NOTES"
+  },
+  "filter": "ZONING <> 'NOT IN JURISDICTION'",
+  "notes": "Unincorporated townships administered by Franklin County under the county zoning resolution only; cities such as Columbus zone their own land. Layer last updated 12/1/2022.",
+  "verification": {
+    "verified_at": 1792135180924,
+    "counties": [
+      "39049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-fayetteville",
+  "publisher": "City of Fayetteville GIS (via Cumberland County GIS MapServer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.cumberland.nc.us/server/rest/services/Planning/CCZoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37051"
+    ]
+  },
+  "fields": {
+    "zone": "ZNTYPE"
+  },
+  "notes": "City of Fayetteville zoning districts, served from the county CCZoning MapServer layer 0. ZNTYPE is the district code.",
+  "verification": {
+    "verified_at": 1792135092030,
+    "counties": [
+      "37051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

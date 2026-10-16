@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-st-louis-duluth",
+  "publisher": "City of Duluth, MN (Planning, via utility.arcgis.com)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/745c44b2b04d4809a75c92b9632b5b09/rest/services/Planning/LandUseZoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27137"
+    ]
+  },
+  "fields": {
+    "zone": "UDC_Zoning"
+  },
+  "notes": "City of Duluth Unified Development Code zoning districts (city only, not the county). Zone codes in UDC_Zoning.",
+  "verification": {
+    "verified_at": 1792134561728,
+    "counties": [
+      "27137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-state-college",
+  "publisher": "State College Borough",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/5EsWsFkU1FzqtfTb/arcgis/rest/services/Zoning_Districts/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42027"
+    ]
+  },
+  "fields": {
+    "link": "Code_Link",
+    "zone": "Symbol",
+    "zone_name": "Zoning"
+  },
+  "notes": "State College Borough own zoning districts layer, current as of 6 October 2025; 80 features; borough only, not the townships.",
+  "verification": {
+    "verified_at": 1792135451018,
+    "counties": [
+      "42027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nm-colfax-raton",
+  "publisher": "City of Raton, NM",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/BqqKfe5Sy3Aybg55/arcgis/rest/services/Raton_Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35007"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Raton zoning districts (city limits only; Raton ETZ not included). Hosted by city contractor account.",
+  "verification": {
+    "verified_at": 1792134990958,
+    "counties": [
+      "35007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

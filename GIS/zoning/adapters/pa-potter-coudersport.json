@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-potter-coudersport",
+  "publisher": "Coudersport Borough (Potter County, PA) via Potter_Tech2 ArcGIS Online",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/vqFmmrJngO1NzsuX/arcgis/rest/services/COUDERSPORTZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42105"
+    ]
+  },
+  "fields": {
+    "zone": "Suffix",
+    "zone_name": "Zoning"
+  },
+  "notes": "Coudersport Borough only (8 district polygons); the only zoning district layer found for Potter County. zone is the district code (Suffix); zone_name the district description. Potter County and its townships publish no county-wide zoning layer.",
+  "verification": {
+    "verified_at": 1792135345698,
+    "counties": [
+      "42105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

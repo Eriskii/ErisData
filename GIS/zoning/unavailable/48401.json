@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "48401",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://hendersontx.us/1477/Planning-Zoning",
+    "https://www.hendersontx.us/sitemap",
+    "https://geohub-hendersontexas.hub.arcgis.com/",
+    "https://rusk-county-etcog.hub.arcgis.com/",
+    "https://services1.arcgis.com/m0KwjhIqrCrtPsZV/arcgis/rest/services/RUSKCOUNTY/FeatureServer"
+  ],
+  "note": "Rusk County Texas does not zone unincorporated land. Henderson (county seat) has an official 1984 zoning map, but no queryable zoning district service was found on its ArcGIS Online hub (only a child safety layer) or elsewhere. The county GIS services (RUSKCOUNTY, RUSKCOUNTY_JP_ONLY) have parcels and boundaries but no zoning layer. Kilgore's Zoning layer (cloud.cityofkilgore.com OpenData1_00/15) was tested but fails: it lies mostly in Gregg County and has no districts near the county's interior point. Other small cities (Overton, Tatum, New London) publish only PDF or no zoning maps. The City of Rusk's RUSK_Z_ZONING layer is in Cherokee County, not Rusk County.",
+  "recorded_at": 1792135968810,
+  "recheck_after": 1807687968810,
+  "model": "claude-haiku-5-5"
+}

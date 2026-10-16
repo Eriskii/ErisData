@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-el-dorado-opr",
+  "publisher": "State OPR California Statewide Zoning (El Dorado County)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'ELD'",
+  "notes": "State OPR statewide zoning compilation, covers county, Placerville and South Lake Tahoe",
+  "verification": {
+    "verified_at": 1792134100231,
+    "counties": [
+      "06017"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

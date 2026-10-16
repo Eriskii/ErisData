@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-lake",
+  "publisher": "Lake County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lakecountyfl.gov/lakegis/rest/services/OpenData/OpenData3/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12069"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningNm"
+  },
+  "notes": "Lake County zoning districts from the county OpenData service (updated monthly). Municipal zoning is published separately in the county CityView service.",
+  "verification": {
+    "verified_at": 1792133841504,
+    "counties": [
+      "12069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

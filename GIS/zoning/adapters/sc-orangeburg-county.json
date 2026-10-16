@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-orangeburg-county",
+  "publisher": "Orangeburg County (copy of county and city zoning layers, ArcGIS Online item by county account ynevarez1)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rL78m6Um8Cvlk1Aw/arcgis/rest/services/Orangeburg%20Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45075"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONINGNAME"
+  },
+  "notes": "Unofficial copy: ArcGIS Online item Orangeburg Zoning (2021-08-17 copy of county and city zoning layers), owned by account ynevarez1; county GIS REST root (gis2.orangeburgcounty.org/ocgis) publishes no zoning service. countyzoning layer = unincorporated county districts; MAPBLOCKLOT and COUNTY fields also present. Layer 0 cityzoning holds city districts.",
+  "verification": {
+    "verified_at": 1792135385490,
+    "counties": [
+      "45075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

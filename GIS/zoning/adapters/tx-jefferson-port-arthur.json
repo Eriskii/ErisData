@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-jefferson-port-arthur",
+  "publisher": "City of Port Arthur (via dlholland ArcGIS Online org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/kFBW8xGuknyS8WK0/arcgis/rest/services/PA_Zoning2023_Official/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48245"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneClass",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "City of Port Arthur zoning, official 2023 layer hosted in an ArcGIS Online organization. Zone_Desc holds the district code as well; SUP overlays are separate attributes.",
+  "verification": {
+    "verified_at": 1792135687667,
+    "counties": [
+      "48245"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

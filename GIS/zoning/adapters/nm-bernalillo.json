@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-bernalillo",
+  "publisher": "Bernalillo County Planning & Development Services",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://pdsgismaps.bernco.gov/server/rest/services/BERNCOBASEMAP/BC_Zoning/MapServer/298",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35001"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneDesignation",
+    "zone_name": "ZoneDescription"
+  },
+  "notes": "Unincorporated Bernalillo County zoning only (cities such as Albuquerque zone their own land). SUPermit holds special use permit codes; not mapped. Source CRS is NM State Plane feet; runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792134978720,
+    "counties": [
+      "35001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

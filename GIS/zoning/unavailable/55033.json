@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "55033",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://geodata.wisc.edu/catalog/6F87A5EB-7245-4118-9338-2EA59EC04258",
+    "https://geodata.wisc.edu/catalog/FACF5097-6DC3-49B5-8849-B2CF375B2F61",
+    "https://dunncountywi.gov/zoning",
+    "https://dunncountywi.gov/landinfo"
+  ],
+  "note": "Dunn County (WI) publishes its general zoning polygons (2021, 2023) only as ESRI geodatabase zip downloads via GeoData@Wisconsin (web.s3.wisc.edu/rml-gisdata/DUNN_ZONING_2023.zip), with no ArcGIS REST service; the county zoning page links only a PDF map (Zoning_Districts.pdf). The county's ArcGIS Online org (9QRFLTGaomYPrxH4) has no zoning layer (only Unincorporated boundaries). The Beacon viewer is Schneider-hosted and not queryable. Menomonie city, Elk Mound and Colfax villages zone themselves; their zoning is only PDF maps or code text, no service found. Statewide 2017 SCO shapefile zip did not yield features in validation.",
+  "recorded_at": 1792136210185,
+  "recheck_after": 1807688210185,
+  "model": "claude-haiku-5-5"
+}

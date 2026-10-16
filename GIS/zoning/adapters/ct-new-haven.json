@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ct-new-haven",
+  "publisher": "City of New Haven GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.newhavenct.gov/server/rest/services/Hosted/Zoning_(View)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09170"
+    ]
+  },
+  "fields": {
+    "zone": "zone_code",
+    "zone_name": "districts"
+  },
+  "notes": "City of New Haven zoning only (CP_ZN_Zoning, 214 districts). zone is the district code; zone_name holds the district group (Residence Districts etc.); district_category gives density class. No ordinance link field.",
+  "verification": {
+    "verified_at": 1792133840734,
+    "counties": [
+      "09170"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

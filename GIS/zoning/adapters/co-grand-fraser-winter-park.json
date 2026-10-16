@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-grand-fraser-winter-park",
+  "publisher": "Town of Fraser and Town of Winter Park (frwpGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/rgOADON5HWwafQzd/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08049"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWN",
+    "zone": "ZoneCode",
+    "zone_name": "T_ZONING"
+  },
+  "notes": "Town of Fraser and Winter Park zoning and open space districts, one layer covering both towns; jurisdiction field TOWN names the town.",
+  "verification": {
+    "verified_at": 1792133817109,
+    "counties": [
+      "08049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

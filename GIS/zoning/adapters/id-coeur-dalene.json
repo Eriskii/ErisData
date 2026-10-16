@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "id-coeur-dalene",
+  "publisher": "City of Coeur d'Alene GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cdaid.org/server/rest/services/Share/Planning/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16055"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Coeur d'Alene zoning layer (Share/Planning MapServer layer 8), city limits only. ZONING holds district codes. zone_name omitted: ZoningInfo holds an HTML link to the district PDF, not a name.",
+  "verification": {
+    "verified_at": 1792133694217,
+    "counties": [
+      "16055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ms-tate",
+  "publisher": "CMPDD (Central Mississippi Planning & Development District) for Tate County",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Tate_County_Feature_Layer/FeatureServer/20",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28137"
+    ]
+  },
+  "fields": {
+    "zone": "zoning_2_14_2022"
+  },
+  "notes": "Parcel-based zoning polygons (zoning attribute per parcel) published by CMPDD for Tate County; unincorporated county zoning (Feb 2022). Server reachable over http only.",
+  "verification": {
+    "verified_at": 1792134877971,
+    "counties": [
+      "28137"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

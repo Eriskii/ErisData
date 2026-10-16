@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-sherburne-becker",
+  "publisher": "City of Becker (hosted by Sherburne County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/A86cpFIY5mfMGCej/arcgis/rest/services/Becker_Zoning_and_Land_Use/FeatureServer/114",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27141"
+    ]
+  },
+  "fields": {
+    "zone": "City_Zone"
+  },
+  "notes": "City of Becker zoning districts from the Sherburne County ArcGIS Online organization. Layer 114 is a parcel-level layer carrying City_Zone per parcel, so it may serve as the zoning source.",
+  "verification": {
+    "verified_at": 1792135005672,
+    "counties": [
+      "27141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

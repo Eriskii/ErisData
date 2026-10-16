@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nj-sussex",
+  "publisher": "Sussex County GIS (composite municipal zoning, via ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/opPd2BqYeMe7vELn/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Composite zoning layer for Sussex County NJ, published by dkunz on ArcGIS Online (personal account, not verified as county-official); 2478 polygons covering municipal zone boundaries. No jurisdiction field identified yet; ZONECOMPOSITE may hold municipality.",
+  "verification": {
+    "verified_at": 1792134977227,
+    "counties": [
+      "34037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

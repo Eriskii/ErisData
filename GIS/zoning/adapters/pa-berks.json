@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-berks",
+  "publisher": "Muhlenberg Township GIS (Berks County zoning layer hosted on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Dxqo3tbUvtPyDn4a/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "NEW_ZONI_2"
+  },
+  "notes": "Copy hosted on ArcGIS Online under the muhlenberg account, last updated 2018; only about 29 polygons, no jurisdiction field populated (TWPNAME null). Partial coverage, not a full countywide layer. Used because no other queryable Berks County zoning districts were found.",
+  "verification": {
+    "verified_at": 1792135492989,
+    "counties": [
+      "42011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

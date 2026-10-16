@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-caldwell",
+  "publisher": "Caldwell County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.caldwellcountync.org/arcgis/rest/services/Underlay/MapServer/27",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37027"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY_NAME",
+    "zone": "ZONE_ID"
+  },
+  "notes": "County GIS Underlay service layer County Zoning: one layer covering unincorporated county (CITY_NAME=COUNTY) and municipal zoning (Blowing Rock, Cajahs Mountain, Cedar Rock, Gamewell, Granite Falls, Hickory, Hudson, Sawmills, etc.). Lenoir zoning is in a separate layer. TYPE1-3 are overlay/category codes, not used. Source is ArcGIS REST, public.",
+  "verification": {
+    "verified_at": 1792135067179,
+    "counties": [
+      "37027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

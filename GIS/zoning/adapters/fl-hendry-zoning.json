@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-hendry-zoning",
+  "publisher": "Hendry County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/8l7Qq5t0CPLAJwJK/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12051"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Current_Zo",
+    "zone": "Current_Zo"
+  },
+  "notes": "Hendry County Zoning Map, parcel-level zoning from the county GIS office (service Zoning). Current_Zo holds each parcel district code (A-2, RG-1, RR); some rows carry a place name (LABELLE, CLEWISTON) instead, so jurisdiction is not cleanly separate. Parcel polygons, not dissolved districts. Official county layer for unincorporated land; does not carry zone names.",
+  "verification": {
+    "verified_at": 1792133912825,
+    "counties": [
+      "12051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

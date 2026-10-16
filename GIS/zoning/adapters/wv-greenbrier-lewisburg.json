@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wv-greenbrier-lewisburg",
+  "publisher": "City of Lewisburg, WV",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/UYcc0IFJNfvTpsu0/arcgis/rest/services/LewisburgZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54025"
+    ]
+  },
+  "fields": {
+    "zone": "Zones_Zone",
+    "zone_name": "DESCR_"
+  },
+  "notes": "City of Lewisburg zoning districts (city limits only, not unincorporated county). Layer titled Lewisburg Zoning 2019 changes, 2024 projected passing; from the city zoning map viewer lewisburg-wv.maps.arcgis.com.",
+  "verification": {
+    "verified_at": 1792136030942,
+    "counties": [
+      "54025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

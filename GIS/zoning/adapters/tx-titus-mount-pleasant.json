@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-titus-mount-pleasant",
+  "publisher": "City of Mount Pleasant, TX (ArcGIS Online item by BIS_MtPleasant, the city consultant account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/iY9ocWUy3FUSktfb/arcgis/rest/services/Mount_Pleasant_Zoning_District1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48449"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_",
+    "zone_name": "zONELBL"
+  },
+  "notes": "City of Mount Pleasant, TX zoning districts (downtown at about -94.97,33.19). Item title is prefixed Archived_, so it may be superseded; the city publishes its current 2024 zoning map only as PDF (mpcity.net). Covers the city of Mount Pleasant only; no county-wide zoning layer found.",
+  "verification": {
+    "verified_at": 1792135929415,
+    "counties": [
+      "48449"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "45069",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://marlborosc.wthgis.com/",
+    "https://www.bennettsvillesc.com/sites/default/files/uploads/2022-09-19-updated-zoning-map.pdf",
+    "https://marlborocounty.sc.gov/how_do_i/access.php"
+  ],
+  "note": "Marlboro County SC: the county's GIS is a Think GIS/wthgis web viewer (marlborosc.wthgis.com) with no discoverable ArcGIS REST endpoint; ArcGIS searches for Marlboro zoning found no FeatureServer/MapServer of zoning districts. The county's parcel service on SCDOT (smpesri.scdot.org SC_Parcels/MapServer/33) requires a token. Bennettsville publishes its zoning only as PDF maps (2019 and 2022); no McColl/Clio/Blenheim zoning service was found. Only commercial sources (Regrid, Dynamo) carry zoning attributes.",
+  "recorded_at": 1792135414246,
+  "recheck_after": 1807687414246,
+  "model": "claude-haiku-5-5"
+}

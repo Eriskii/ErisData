@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "19133",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://portico.mygisonline.com/Geocortex/Essentials/Sidwell/REST/sites/MononaIA/map",
+    "https://www.mononacountyiowa.gov/environmental_health_zoning/maps/",
+    "https://portico.mygisonline.com/html5/?viewer=mononaia"
+  ],
+  "note": "Monona County (IA) publishes its zoning map only through a Sidwell Portico viewer (site MononaIA). Its Geocortex site and ArcGIS REST endpoints return HTTP 500 ('failed to initialize', 'Could not create SSL/TLS secure channel'), and the zoning MapServer URL is not readable from the site. No other official county or Onawa zoning service was found: Onawa's ArcGIS webmap holds only a basemap. The only zoning polygons found are Iowa State's non-official compilation (services.arcgis.com/XORNS2fPFySPlBgy, zoning_districts_all_data_v2), which has 10 Onawa districts, 6 of 7 sampled polygons valid (fails 90% check), and no unincorporated coverage. Not a public queryable county zoning service.",
+  "recorded_at": 1792134284937,
+  "recheck_after": 1807686284937,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-pittsylvania",
+  "publisher": "Pittsylvania County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/mTpBDvIjv8OhMDVd/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51143"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "PC_TOWNSHIP",
+    "zone": "PC_ZONE_CODE"
+  },
+  "notes": "County-hosted (ArcGIS Online org of Pittsylvania County GIS, owner barryguidry) layer titled Zoning Districts; polygons are parcel-based with the zone code in PC_ZONE_CODE (parcel layer carrying zoning, no dissolved district layer found). The gis.pittgov.org Zoning MapServer was down.",
+  "verification": {
+    "verified_at": 1792136046284,
+    "counties": [
+      "51143"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

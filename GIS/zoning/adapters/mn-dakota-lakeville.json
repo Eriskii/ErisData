@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-dakota-lakeville",
+  "publisher": "City of Lakeville MN (Zoning Viewer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis2.lakevillemn.gov/server2/rest/services/ZoningViewer/ZoningViewer/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27037"
+    ]
+  },
+  "fields": {
+    "link": "CITY_CODE",
+    "zone": "ZONING",
+    "zone_name": "ZONING_TYPE"
+  },
+  "notes": "City of Lakeville official zoning districts layer (Zoning Viewer). Covers Lakeville only; ZONING_TYPE is the category (Residential, Special, etc.), not the full district name. Secondary zoning in ZONING_2. Dakota County itself publishes no zoning districts layer.",
+  "verification": {
+    "verified_at": 1792134629221,
+    "counties": [
+      "27037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

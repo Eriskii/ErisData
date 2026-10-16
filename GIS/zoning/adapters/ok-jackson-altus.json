@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ok-jackson-altus",
+  "publisher": "City of Altus GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/YCqZ37LEnvwvpiLb/arcgis/rest/services/Zoning_Map_Altus/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40065"
+    ]
+  },
+  "fields": {
+    "zone": "Cur_Zoning"
+  },
+  "notes": "City of Altus zoning only (not unincorporated county). Layer Update_Zoning_2016; zone from Cur_Zoning. Description and ordinance links are mostly empty, so not mapped.",
+  "verification": {
+    "verified_at": 1792135253199,
+    "counties": [
+      "40065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

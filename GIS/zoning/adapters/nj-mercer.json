@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nj-mercer",
+  "publisher": "West Windsor Township (copy hosted by akoomson on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/cgyl8NiLDUTUQs7d/arcgis/rest/services/Zoning_Web_Map_WFL1/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "Personal ArcGIS Online copy, not an official county service; appears to cover West Windsor Township only. No county-wide Mercer zoning layer is queryable: Ewing NJ_Zoning requires a token, Princeton TX metadata, Trenton proposed zoning only 16 features.",
+  "verification": {
+    "verified_at": 1792135063196,
+    "counties": [
+      "34021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

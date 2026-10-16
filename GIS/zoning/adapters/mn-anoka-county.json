@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-anoka-county",
+  "publisher": "Anoka County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.co.anoka.mn.us/anoka_gis/rest/services/City_Zoning_Nearmap/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "County GIS zoning layer (Zoning_Final); zone code only, no jurisdiction or ordinance link published in the layer.",
+  "verification": {
+    "verified_at": 1792134458177,
+    "counties": [
+      "27003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

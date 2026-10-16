@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-hollister",
+  "publisher": "City of Hollister (hosted by San Benito County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/NjMFCzThTMQy3AJa/arcgis/rest/services/Hollister_Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06069"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEAB",
+    "zone_name": "ZONE"
+  },
+  "notes": "City of Hollister zoning, county-hosted. Layer has about 12,800 features keyed by APN, so it may be parcel-level with zoning attributes; ZONEAB is the zone abbreviation and ZONE the zone name.",
+  "verification": {
+    "verified_at": 1792134037990,
+    "counties": [
+      "06069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

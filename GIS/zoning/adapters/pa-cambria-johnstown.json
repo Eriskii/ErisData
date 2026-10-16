@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-cambria-johnstown",
+  "publisher": "City of Johnstown GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/d5OJwLKCMP2qDcfG/arcgis/rest/services/Johnstown_Zoning_(Public_View)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42021"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPAL1",
+    "link": "Ordinance_hyperlink",
+    "zone": "ZONE",
+    "zone_name": "Z_DESC"
+  },
+  "notes": "City of Johnstown only (not county-wide). Layer from city public view; 170 features. Dated 2020 source extract.",
+  "verification": {
+    "verified_at": 1792135304100,
+    "counties": [
+      "42021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

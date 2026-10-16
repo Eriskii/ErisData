@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-lee-county",
+  "publisher": "Lee County GIS (Department of Community Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismapserver.leegov.com/gisserver910/rest/services/Layers/DCD_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12071"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Unincorporated Lee County current zoning districts (conventional codes such as RS-3, CS-1, MH-1, CC, RPD). zone_name not published (ZONE and GeneralZoning are empty). Incorporated cities are in separate layers of the same service (sublayers 1, 2, 5, 6, 7), historic per the publisher. Planned developments are a separate layer (13).",
+  "verification": {
+    "verified_at": 1792133886993,
+    "counties": [
+      "12071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

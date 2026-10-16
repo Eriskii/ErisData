@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "01055",
+  "reason": "login-required",
+  "evidence": [
+    "https://coggis.cityofgadsden.com/arcgis/rest/services/Planning/ZoningDynamic/MapServer",
+    "https://www.cityofgadsden.com/159/Zoning",
+    "https://web2.kcsgis.com/kcsgis/rest/services/Etowah/AL31_GAMAWeb/MapServer"
+  ],
+  "note": "Etowah County publishes no zoning layer (county GIS services at kcsgis.com have parcels, city limits, no zoning). The City of Gadsden's zoning districts service (coggis.cityofgadsden.com Planning/ZoningDynamic MapServer) returns 'Token Required' to every request, so it is not publicly queryable. Rainbow City, Attalla and Glencoe publish only PDF/image maps or ordinances in the search results.",
+  "recorded_at": 1792133726478,
+  "recheck_after": 1807685726478,
+  "model": "claude-haiku-5-5"
+}

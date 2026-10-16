@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-la-crosse-city",
+  "publisher": "City of La Crosse GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis1.cityoflacrosse.org/laxgis1/rest/services/Maps/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55063"
+    ]
+  },
+  "fields": {
+    "link": "ZoningLink",
+    "zone": "ZONING",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "City of La Crosse zoning districts only (city zones its own land; county does not). Layer titled City_of_La_Crosse_Zoning_Sept2025.",
+  "verification": {
+    "verified_at": 1792136111899,
+    "counties": [
+      "55063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

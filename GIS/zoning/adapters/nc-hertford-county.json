@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-hertford-county",
+  "publisher": "Hertford County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.hertfordcounty.org/server/rest/services/Zoning/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37091"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_COD",
+    "zone_name": "ZONING"
+  },
+  "filter": "STATUS = 'Active'",
+  "notes": "Unincorporated Hertford County base zoning (DISTRICT=COUNTY); city layers are separate. Retired districts excluded by STATUS filter. ZONING_COD is blank for some features (e.g. O-I), where ZONING holds the label.",
+  "verification": {
+    "verified_at": 1792135066706,
+    "counties": [
+      "37091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

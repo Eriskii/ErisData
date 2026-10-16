@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-chisago-township",
+  "publisher": "Chisago County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.chisagocountymn.gov/arcgis/rest/services/DynamicData/MapServer/105",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27025"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWNSHIP",
+    "zone": "ZONE_CODE",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "County zoning for unincorporated townships only; cities zone their own land (separate layers). Source: Chisago County GIS DynamicData service.",
+  "verification": {
+    "verified_at": 1792134476568,
+    "counties": [
+      "27025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

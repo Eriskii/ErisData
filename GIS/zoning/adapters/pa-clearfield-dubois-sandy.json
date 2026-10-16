@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-clearfield-dubois-sandy",
+  "publisher": "City of DuBois / Sandy Township (consolidated zoning, prepared by HRG for the DuBois-Sandy Joint Board)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/s6RDzoUMLKSGTxWs/arcgis/rest/services/DuBois_Sandy_Township_Zoning_Consolidation/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42033"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "City of DuBois and Sandy Township consolidated base zoning districts (68 polygons), hosted by the consultant for the DuBois-Sandy Joint Board. Sandy Twp merged into DuBois as a city in Jan 2026. Covers only the DuBois/Sandy area, not the whole county.",
+  "verification": {
+    "verified_at": 1792135582537,
+    "counties": [
+      "42033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}
