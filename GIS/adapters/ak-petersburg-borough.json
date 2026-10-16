@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ak-petersburg-borough",
+  "publisher": "Petersburg Borough GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/RqATEQTpM1W1xU9c/arcgis/rest/services/Lots/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02195"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "Total_Gros",
+    "land_use": "Parcel_Use"
+  },
+  "verification": {
+    "verified_at": 1792048973228,
+    "counties": [
+      "02195"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

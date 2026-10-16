@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "46079",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.1stdistrict.org/arcgis/rest/services/Lake/lakemapnet/MapServer/3",
+    "https://www.1stdistrict.org/arcgis/rest/services/Lake?f=json",
+    "https://www.lake.sd.gov/custom/equalization",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=335&LayerID=4059"
+  ],
+  "note": "Lake County SD (46079) publishes parcels via Beacon (Schneider), a viewer with no public REST service; Beacon returns 403 to automated access. The only ArcGIS parcel layer found, 'Parcels - SD - Lake County' (1stdistrict.org lakemapnet/MapServer/3), is listed but the server returns 'Service Lake/lakemapnet/MapServer not started' on every request (probe, query, retried). The 1stdistrict Lake folder lists only FSALake2025, an aerial raster with no parcel polygons. Regrid's nationwide MapServer is tile-only (query returns 404) and is commercial; dynamospatial, Rockford and Acres are paid downloads. No usable parcel service or file is currently reachable.",
+  "recorded_at": 1792051671778,
+  "recheck_after": 1807603671778,
+  "model": "claude-haiku-5-5"
+}

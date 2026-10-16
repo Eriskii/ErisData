@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-ingham",
+  "publisher": "Ingham County Equalization",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/ySzhFSJfYeginRjx/arcgis/rest/services/Ingham_County_Parcels_2025/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26065"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUM",
+    "owner": "OWNERNAME",
+    "address": "PROPSTREET",
+    "acres": "TOTALACRES",
+    "land_use": "PROPCLASS"
+  },
+  "notes": "Ingham County Equalization 2025 parcels; FullParcelAddress is often null so PROPSTREET (street name) is used for address; source is state plane 2253 served as lon/lat",
+  "verification": {
+    "verified_at": 1792049926027,
+    "counties": [
+      "26065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

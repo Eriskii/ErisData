@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-beaufort",
+  "publisher": "Beaufort County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/oXsk9nimtmSEU8Ko/arcgis/rest/services/Beaufort_Static/FeatureServer/29",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37013"
+    ]
+  },
+  "fields": {
+    "apn": "PIN_1",
+    "owner": "NAME1",
+    "address": "PROP_ADDR",
+    "acres": "CalcAcres",
+    "land_use": "USE_DESC",
+    "assessed_value": "TOT_VAL"
+  },
+  "notes": "Beaufort_Static service on services1.arcgis.com, layer Parcels_QS_2022_2024",
+  "verification": {
+    "verified_at": 1792051355232,
+    "counties": [
+      "37013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-toombs",
+  "publisher": "Toombs County GA GIS (hogagis)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/Toombs_County_Wide_View/FeatureServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13279"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "owner": "lastname",
+    "address": "street_nam",
+    "acres": "totalacres",
+    "land_use": "land_type",
+    "assessed_value": "curr_val"
+  },
+  "notes": "Layer TaxParcels_25 on Toombs County Wide_View service; owner is lastname field only",
+  "verification": {
+    "verified_at": 1792048841936,
+    "counties": [
+      "13279"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

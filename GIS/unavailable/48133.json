@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "48133",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gisdata.pandai.com/pamaps02/rest/services/Eastland/EastlandCADPublic/MapServer/0",
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap19_land_parcels_48/MapServer"
+  ],
+  "note": "Only Eastland CAD Pandai MapServer layer (viewer backend) exists; it rejects resultOffset/resultRecordCount (Pagination not supported) and caps at 2000 features, so it cannot be fully read. StratMap service requires a token; other sources are paid.",
+  "recorded_at": 1792051747318,
+  "recheck_after": 1807603747318,
+  "model": "claude-sonnet-5-5"
+}

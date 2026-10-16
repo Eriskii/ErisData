@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "29179",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://reynoldsgis.breezemaps.com/web-gis",
+    "https://landrecords.us/documentation/coverage/counties/29-179-reynolds",
+    "https://www.dynamospatial.com/c/reynolds-county-mo/parcel-data",
+    "https://www.gis-portal.org/mo-reynolds-county/",
+    "https://maps.semogis.com/server/rest/services",
+    "https://gis.mo.gov/arcgis/rest/services"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Reynolds MO parcel layer), the SEMO GIS host used by Iron County (no Reynolds folder), the MO state GIS server (no county parcel service), and web search. The only official county GIS is a Breeze SPA viewer (reynoldsgis.breezemaps.com) whose backing parcel service could not be identified; no ArcGIS REST endpoint or public file found. Other parcel sources are paid vendors (Regrid, Dynamo, Acres, Rockford Map, Land Records).",
+  "recorded_at": 1792051110967,
+  "recheck_after": 1807603110967,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-wayne",
+  "publisher": "Wayne County GA (GIS, via Wayne_2026_test FeatureServer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/Wayne_2026_test/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13305"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "address": "HouAddress",
+    "acres": "TOTALACRES"
+  },
+  "notes": "Wayne County GA tax parcels, hosted on the county GeoData org (service labelled test publication). No owner or value fields published.",
+  "verification": {
+    "verified_at": 1792048955550,
+    "counties": [
+      "13305"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

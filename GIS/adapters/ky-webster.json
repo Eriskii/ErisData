@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ky-webster",
+  "publisher": "Kentucky PVA / KY DGI (Webster County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services/Ky_PVA_Webster_Parcels_WGS84WM/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21233"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "NAME",
+    "address": "LOCATION",
+    "acres": "ACRES",
+    "land_use": "CLASS"
+  },
+  "notes": "Webster County KY PVA parcel data via KyGeoNet; Web Mercator service, queried in 4326",
+  "verification": {
+    "verified_at": 1792049823715,
+    "counties": [
+      "21233"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

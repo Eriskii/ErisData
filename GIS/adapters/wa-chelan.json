@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wa-chelan",
+  "publisher": "Chelan County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://atlas.co.chelan.wa.us/arcgis/rest/services/GIS/ParcelsOwners/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53007"
+    ]
+  },
+  "fields": {
+    "apn": "sde_CHELAN_Property_Polygons_PA",
+    "owner": "sde_CHELAN_PACS_TABLE_Owner_Nam",
+    "address": "sde_CHELAN_PACS_TABLE_Site_Addr"
+  },
+  "notes": "Chelan County assessor parcels with owner and site address (PACS); served in WKID 2285; no acreage or value fields",
+  "verification": {
+    "verified_at": 1792053101957,
+    "counties": [
+      "53007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

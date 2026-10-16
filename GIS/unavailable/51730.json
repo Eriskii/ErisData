@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "51730",
+  "reason": "login-required",
+  "evidence": [
+    "https://services6.arcgis.com/drkDXByy6E3bYW3a/arcgis/rest/services/petersburg_city_va_parcels/FeatureServer",
+    "https://services6.arcgis.com/drkDXByy6E3bYW3a/arcgis/rest/services/petersburg_city_va_parcels/FeatureServer/0",
+    "https://www.petersburgva.gov/2311/Geographic-Information-Systems-GIS",
+    "https://parcelviewer.geodecisions.com/Petersburg/Account/Logon"
+  ],
+  "note": "Petersburg city's own parcel layer (petersburg_city_va_parcels FeatureServer, ArcGIS Online) refuses all requests with 'Token Required'; the city's Parcel Viewer (GeoDecisions logon, CivQuest Atlas) is login-gated and states its GIS data is proprietary. The statewide VGIN VA_Parcels/FeatureServer/0 layer is public and returns 556 polygons for Petersburg City (FIPS 51730), but PARCELID and PTM_ID are empty for every sampled parcel, so no apn, address or owner can be mapped.",
+  "recorded_at": 1792053233659,
+  "recheck_after": 1807605233659,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-fremont",
+  "publisher": "Iowa DHSEMD (hosted by University of Iowa), Fremont County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19071"
+    ]
+  },
+  "fields": {
+    "apn": "UNPARCELID",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'FREMONT'",
+  "notes": "Fremont County subset of 2017 Iowa statewide parcel layer (DHSEMD via University of Iowa). 2017 vintage.",
+  "verification": {
+    "verified_at": 1792049291962,
+    "counties": [
+      "19071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

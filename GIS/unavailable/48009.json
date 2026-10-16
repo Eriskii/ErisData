@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "48009",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap_land_parcels_48_most_recent/MapServer/0",
+    "https://feature.tnris.org/arcgis/rest/services/Parcels/stratmap25_land_parcels_48/MapServer",
+    "https://feature.tnris.org/arcgis/rest/services/Parcels/stratmap24_land_parcels_48/MapServer",
+    "https://tnris.org/stratmap/land-parcels.html",
+    "https://archercad.org/home/map"
+  ],
+  "note": "Archer County (48009) parcels exist only in the TxGIO StratMap 48 service. The reachable endpoint (feature.geographic.texas.gov .../stratmap_land_parcels_48_most_recent/MapServer/0) advertises Query but refuses every query (where=1=1, returnCountOnly, objectid>0; error 'Requested operation is not supported by this service'). Other paths there return Token Required or Service not found. The queryable feature.tnris.org StratMap 2024/2025 services were unreachable (connection errors) from my tools and from the validator on repeated attempts. Archer CAD publishes no REST service. Validation: 5 failed attempts, all on the query check.",
+  "recorded_at": 1792051780805,
+  "recheck_after": 1807603780805,
+  "model": "claude-haiku-5-5"
+}

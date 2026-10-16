@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-hot-spring",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 5,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05059"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '059'",
+  "notes": "Statewide AR parcel polygons (CAMA-derived, not a legal boundary). Hot Spring County rows have countyfips 059. Updated twice a year.",
+  "verification": {
+    "verified_at": 1792048567660,
+    "counties": [
+      "05059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

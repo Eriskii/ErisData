@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-ben-hill",
+  "publisher": "Ben Hill County GIS (via sgrcmaps)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.sgrcmaps.com/alma/rest/services/BenHill/Property/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13017"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "LASTNAME",
+    "address": "STREET_NAM",
+    "acres": "TOTALACRES",
+    "land_use": "DIGCLASS"
+  },
+  "notes": "Parcel polygons from SGRC ALMA property service; no combined owner field, LASTNAME used",
+  "verification": {
+    "verified_at": 1792048698303,
+    "counties": [
+      "13017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

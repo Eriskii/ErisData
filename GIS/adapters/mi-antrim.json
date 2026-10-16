@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-antrim",
+  "publisher": "Antrim County, MI (Equalization / GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/ZcCP0G3kEnUDVego/arcgis/rest/services/AllParcels_shp/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26009"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELCODE",
+    "owner": "OWNER_NAME",
+    "acres": "SHAPE_ACRE",
+    "land_use": "CLASS",
+    "assessed_value": "TAXVAL"
+  },
+  "notes": "Parcel lines are for reference only, not survey lines. Situs address (P_STREET) is blank for about 45% of parcels (vacant/no-situs), so address is not mapped. Source: Antrim County GIS via ArcGIS Hub.",
+  "verification": {
+    "verified_at": 1792049928118,
+    "counties": [
+      "26009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

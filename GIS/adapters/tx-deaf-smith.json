@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-deaf-smith",
+  "publisher": "Deaf Smith County Appraisal District (CAD) via ArcGIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/PggHKOKuiChUpH94/arcgis/rest/services/DeafSmithCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48117"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Appraisal district parcel layer; public CAD web service",
+  "verification": {
+    "verified_at": 1792051675008,
+    "counties": [
+      "48117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

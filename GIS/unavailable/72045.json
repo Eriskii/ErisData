@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72045",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://www.arcgis.com/home/item.html?id=acf043a178254fcdad6708be3e8ab51c"
+  ],
+  "note": "CRIM publishes the Parcelario polygon layer (crim_parcelas) on sigejp.pr.gov and sige.pr.gov. Both return 'Service crim/crim_parcelas/MapServer not started' (HTTP 500, re-checked later), and sige.pr.gov is unreachable from the validator. crim_feb_2025 is also not started. The CRIM Catastro Digital item says its app and layers are no longer available. No other public parcel service for Comerio turned up in ArcGIS Hub/Online or the gis.pr.gov WFS; only paywalled Regrid data covers it.",
+  "recorded_at": 1792052138648,
+  "recheck_after": 1807604138648,
+  "model": "claude-haiku-5-5"
+}

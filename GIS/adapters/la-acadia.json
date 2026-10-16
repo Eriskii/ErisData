@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-acadia",
+  "publisher": "Acadia Parish Assessor (ES2support hosted service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/cWVjJ3EL88oVeYPk/arcgis/rest/services/Tax_Parcel_View/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22001"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "OWNERS",
+    "address": "MAILING_ADDRESS",
+    "acres": "ACREAGE"
+  },
+  "notes": "Tax parcel layer hosted by ES2support_apa; native CRS EPSG:26782",
+  "verification": {
+    "verified_at": 1792049834807,
+    "counties": [
+      "22001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

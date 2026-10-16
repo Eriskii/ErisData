@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-dougherty",
+  "publisher": "Albany-Dougherty GIS (Dougherty County Land Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VKHi8CC6pMIyYUIs/arcgis/rest/services/Parcels_Public_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13095"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNum",
+    "owner": "Name",
+    "address": "Address",
+    "acres": "TotalAcerage",
+    "land_use": "Zone_"
+  },
+  "notes": "Hosted by Albany GIS; community-hosted public view layer of Dougherty County parcels",
+  "verification": {
+    "verified_at": 1792048749610,
+    "counties": [
+      "13095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

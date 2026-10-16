@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-turner",
+  "publisher": "Turner County, SD (via East Central SD District III GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/TURNER_COUNTY_LAYERS/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46125"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "OWNERNAME",
+    "acres": "DEEDED_ACRE",
+    "assessed_value": "VAL_TTL"
+  },
+  "notes": "Parcels layer from District III county GIS server; public ArcGIS REST service. SITE_ADDRESS is sparsely populated, so not mapped.",
+  "verification": {
+    "verified_at": 1792051734245,
+    "counties": [
+      "46125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "48269",
+  "reason": "paywalled",
+  "evidence": [
+    "https://www.taxnetusa.com/texas/king/",
+    "https://www.dynamospatial.com/c/king-county-tx/parcel-data",
+    "https://reportallusa.com/store/Texas/48269",
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap23_land_parcels_48/MapServer",
+    "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "https://services6.arcgis.com/nolmkcNXcNYRF7iO/arcgis/rest/services/Parcel_Boundaries/FeatureServer/0"
+  ],
+  "note": "King County TX (48269): no public queryable parcel service found. Commercial sites (dynamospatial, reportallusa, texascountygisdata) sell downloads; taxnetusa GIS map requires a Pro subscription. StratMap 2023 parcel MapServer returns 'Token Required'. Two statewide CAD-derived ArcGIS parcel layers return zero features for FIPS 48269, COUNTY LIKE '%KING%', and SITUS_CITY 'GUTHRIE' within the county's bounding box, so King County appears absent from them.",
+  "recorded_at": 1792052103182,
+  "recheck_after": 1823588103182,
+  "model": "claude-haiku-5-5"
+}

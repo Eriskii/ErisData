@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-hood",
+  "publisher": "Hood County Appraisal District (via HoodCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/n4964dyKb7h58xBo/arcgis/rest/services/HoodCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48221"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_num",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Hood CAD public web service; parcels layer of CAD polygons; land use code (hood_cd) is empty in source so not mapped",
+  "verification": {
+    "verified_at": 1792051702494,
+    "counties": [
+      "48221"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

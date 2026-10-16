@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-morgan",
+  "publisher": "Colorado OIT GIS Team (statewide parcels, Morgan County extract)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.colorado.gov/public/rest/services/GOV/PropertyTaxParels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08087"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "owner",
+    "address": "situsAdd"
+  },
+  "filter": "countyName = 'Morgan'",
+  "notes": "State OIT statewide parcel layer (parcels2023), filtered to countyName Morgan. Morgan County rows carry no acreage, assessed value or land use in this service, so those are not mapped.",
+  "verification": {
+    "verified_at": 1792048746001,
+    "counties": [
+      "08087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

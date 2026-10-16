@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "id": "id-statewide",
+  "publisher": "Idaho Department of Water Resources (compiled from county assessor parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.idwr.idaho.gov/hosting/rest/services/reference/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "ID"
+    ]
+  },
+  "fields": {
+    "apn": "PIN"
+  },
+  "notes": "IDWR compilation of county assessor parcel polygons; usage restriction: not for determining ownership boundaries. Owner, address, acreage and value fields are not populated in this service, so only APN is mapped. Source max record count 2000; page_size set to 1000.",
+  "verification": {
+    "verified_at": 1792048396118,
+    "counties": [
+      "16001",
+      "16003",
+      "16005",
+      "16007",
+      "16009",
+      "16011",
+      "16013",
+      "16015",
+      "16017",
+      "16019",
+      "16021",
+      "16023",
+      "16025",
+      "16027",
+      "16029",
+      "16031",
+      "16033",
+      "16035",
+      "16039",
+      "16041",
+      "16043",
+      "16045",
+      "16047",
+      "16051",
+      "16053",
+      "16055",
+      "16057",
+      "16059",
+      "16061",
+      "16063",
+      "16065",
+      "16067",
+      "16069",
+      "16071",
+      "16075",
+      "16077",
+      "16079",
+      "16081",
+      "16083",
+      "16087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

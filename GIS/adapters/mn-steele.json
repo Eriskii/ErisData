@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-steele",
+  "publisher": "Steele County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.steele.mn/server/rest/services/gcportal_us_mn_co_steele/Tax_Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27147"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNAME",
+    "address": "QRYADDRESS",
+    "acres": "ACRES",
+    "land_use": "AVCLASDESC1"
+  },
+  "notes": "Steele County, MN tax parcels via county ArcGIS MapServer; source spatial reference is a custom wkid 103782. Assessed values are in SumOfAVLAND/SumOfAVBLDG as strings and not mapped.",
+  "verification": {
+    "verified_at": 1792050898639,
+    "counties": [
+      "27147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

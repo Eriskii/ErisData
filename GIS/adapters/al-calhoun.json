@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "al-calhoun",
+  "publisher": "Calhoun County GIS (Alabama)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.calhouncounty.org/arcgis/rest/services/Parcel_Viewer_IPV/MapServer/106",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01015"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "owner": "NAME",
+    "address": "STREET_ADDRESS",
+    "acres": "CALCULATED_ACRES",
+    "land_use": "LAND_USE",
+    "assessed_value": "TOTAL_ASSD_VALUE"
+  },
+  "notes": "Owner Parcels layer of Calhoun County cadastral parcel viewer (Parcel_Viewer_IPV). Reference use; not for conveyance.",
+  "verification": {
+    "verified_at": 1792048300797,
+    "counties": [
+      "01015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "al-cleburne",
+  "publisher": "Cleburne County Alabama Revenue Commissioner (via Alabama Parcel Data, PowerSouth ArcGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01029"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "acres": "GISACRE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Cleburne County layer from multi-county Alabama Parcel Data service; 17020 features. Site address populated for only ~30% of parcels and land use blank, so those are not mapped.",
+  "verification": {
+    "verified_at": 1792048324896,
+    "counties": [
+      "01029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

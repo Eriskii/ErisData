@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21009",
+  "reason": "no-public-gis",
+  "evidence": [
+    "http://kygeonet.ky.gov/pva/barren/viewer.htm (404, listed as the Barren PVA map service)",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp (lists the Barren PVA service only as that 404 viewer link)",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=sitemap (no Barren PVA parcel service; only Ky_PVA_Webster_Parcels_WGS84WM)",
+    "https://gis-bradd-ky.opendata.arcgis.com (BRADD open data API: no Barren County parcel datasets)",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=BarrenCountyKY&PageType=Search (Cloudflare 403, no service URL exposed)"
+  ],
+  "note": "Barren County KY parcel polygons are not published as a queryable ArcGIS service or file. The state PVA service for Barren is a 404; the state server has no Barren parcel service (tried Ky_PVA_Barren_* name variants); the BRADD portal has no parcel layer; the county's only parcel viewer (qPublic) is blocked and exposes no service. Only commercial paid downloads (DynamoSpatial, Equator, Regrid, ReportAllUSA) were found, which do not count as county-published data.",
+  "recorded_at": 1792049404683,
+  "recheck_after": 1807601404683,
+  "model": "claude-haiku-5-5"
+}

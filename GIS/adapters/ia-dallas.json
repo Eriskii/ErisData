@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-dallas",
+  "publisher": "Iowa DHS/HSEMD (hosted by University of Iowa), Dallas County extract",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19049"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Dallas'",
+  "notes": "Statewide Iowa parcels 2017 layer filtered to Dallas County. Dallas County own ArcGIS MapServer (gis.dallascountyiowa.gov Cadastral/Parcels) would not answer queries from the validator.",
+  "verification": {
+    "verified_at": 1792049570475,
+    "counties": [
+      "19049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

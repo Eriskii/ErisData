@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21007",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://ballardcounty.ky.gov/Pages/Links.aspx",
+    "https://app.regrid.com/store/us/ky/ballard"
+  ],
+  "note": "Searched ArcGIS Hub/Online, KY DGI (kygisserver and services3) and county site. Ballard County has no public parcel polygon service. The KYTC PVA availability layer lists Ballard as 'Without Ownership' with no PVA parcel data made available to the Commonwealth. The only DGI county parcel service is Webster County. The county website links no GIS viewer. Regrid's Ballard parcels need an authenticated token and a commercial license, so they cannot be used.",
+  "recorded_at": 1792049402491,
+  "recheck_after": 1807601402491,
+  "model": "claude-haiku-5-5"
+}

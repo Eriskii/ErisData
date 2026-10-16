@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "26145",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services3.arcgis.com/CmHnqlf5e6ltOCrY/arcgis/rest/services/County_Parcels_2_15_22/FeatureServer/0",
+    "https://www.sagagis.org/services-pricing/",
+    "https://app.fetchgis.com/?currentMap=saginaw",
+    "https://www.saginawcountymi.gov/departments/board-of-commissioners/district-maps/",
+    "https://www.emcog.org/gis_data.asp"
+  ],
+  "note": "Only public-looking county parcel layer (GDITAdmin 'Parcels - MI - Saginaw County', services3 CmHnqlf5e6ltOCrY/County_Parcels_2_15_22/FeatureServer/0) refuses every request: metadata returns 'Invalid URL' and query returns 400 with geojson on and off. Saginaw Area GIS Authority (SAGA) sells parcel shapefiles by paid license; the county viewer is FetchGIS, a vendor viewer with no public ArcGIS REST endpoint; EMCOG lists only BS&A Online and FetchGIS for parcels. Other ArcGIS hits (Tax Class 101/102 woodlot subset, Saginaw Township Parcels_wPASER requiring a token) do not cover county parcels.",
+  "recorded_at": 1792049999783,
+  "recheck_after": 1807601999783,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21105",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://qpublic.schneidercorp.com/Application.aspx",
+    "https://www.qpublic.net/ky/hickman/",
+    "https://www.gismaps.org/ky-hickman-county/"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Hickman County KY parcels. The state kygisserver PVA parcel services only include Webster County (Ky_PVA_Webster_Parcels_WGS84WM); no Hickman service exists in the WGS84WM_Services directory. The county's parcel viewer is a Schneider qPublic site (Cloudflare-protected, no public ArcGIS REST). Other Hickman parcel sources are commercial paid shapefile vendors (Dynamo, Mapping Solutions).",
+  "recorded_at": 1792049879849,
+  "recheck_after": 1807601879849,
+  "model": "claude-haiku-5-5"
+}

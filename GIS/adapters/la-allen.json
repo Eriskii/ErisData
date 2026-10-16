@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "la-allen",
+  "publisher": "Allen Parish Police Jury GIS (via totaland)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis2.totaland.com/ArcGIS/rest/services/Allen/AllenParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22003"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "OwnerName",
+    "acres": "Acreage",
+    "land_use": "group_description",
+    "assessed_value": "Total_value"
+  },
+  "notes": "Public ArcGIS service behind allen.totaland.com parish GIS viewer; 17,707 features. Total_value is the assessed value; par_address is sparsely filled so not mapped.",
+  "verification": {
+    "verified_at": 1792049869597,
+    "counties": [
+      "22003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

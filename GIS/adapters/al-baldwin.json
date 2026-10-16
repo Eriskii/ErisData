@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-baldwin",
+  "publisher": "Baldwin County Revenue Commission (via Alabama Parcel Data, ArcGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01003"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Baldwin County AL parcels, Revenue Commission data mirrored in a multi-county Alabama Parcel Data service; layer 2 is Baldwin only. USECODE is mostly blank so land use is not mapped. Ownership and tax data as published by the county.",
+  "verification": {
+    "verified_at": 1792048293075,
+    "counties": [
+      "01003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

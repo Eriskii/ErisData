@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-mayaguez",
+  "publisher": "CRIM Puerto Rico (Parcelario 2017, hosted copy)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/QnAlpI4OtHhbgGN9/arcgis/rest/services/Map_3/FeatureServer/29",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72097"
+    ]
+  },
+  "fields": {
+    "apn": "NUM_CATAST",
+    "address": "DIRECCION_",
+    "acres": "CABIDA",
+    "land_use": "TIPO"
+  },
+  "filter": "MUNICIPIO = 'MAYAGUEZ'",
+  "notes": "Hosted copy of CRIM Parcelario (Nov 2017 revision); official CRIM services were down. CABIDA is area in square meters per CRIM; no owner field.",
+  "verification": {
+    "verified_at": 1792052219658,
+    "counties": [
+      "72097"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

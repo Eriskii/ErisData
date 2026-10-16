@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-clark",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05019"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "acres": "Shape__Area",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '019'",
+  "notes": "Statewide AR parcel polygons from Arkansas GIS Office; not a legal boundary; filtered to Clark County by CountyFips 019. Shape__Area is square meters. Site address (adrlabel) is empty for rural parcels, so not mapped.",
+  "verification": {
+    "verified_at": 1792048485540,
+    "counties": [
+      "05019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

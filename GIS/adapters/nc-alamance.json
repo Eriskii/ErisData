@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-alamance",
+  "publisher": "Alamance County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://apps.alamance-nc.com/arcgis/rest/services/Tax/AlamanceParcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37001"
+    ]
+  },
+  "fields": {
+    "apn": "AKPAR_",
+    "owner": "OWNAM1",
+    "address": "CAKPSAD",
+    "acres": "ACRES",
+    "land_use": "XXDDC1",
+    "assessed_value": "JMTCTM"
+  },
+  "notes": "Alamance County tax parcels; public ArcGIS service on apps.alamance-nc.com",
+  "verification": {
+    "verified_at": 1792051338316,
+    "counties": [
+      "37001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

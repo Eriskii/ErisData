@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-johnson",
+  "publisher": "Johnson County TN (via TN County Parcel Map, HNTBCorp)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/43",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47091"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_46_PARCELID",
+    "owner": "Assessment_Data_46_OWNER",
+    "address": "Assessment_Data_46_ADDRESS",
+    "acres": "Assessment_Data_46_CALCAC",
+    "land_use": "Assessment_Data_46_CLASS",
+    "assessed_value": "Assessment_Data_46_ASSESSMENT"
+  },
+  "notes": "Johnson County TN parcels joined to assessment data, from a multi-county TN parcel service",
+  "verification": {
+    "verified_at": 1792052209329,
+    "counties": [
+      "47091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

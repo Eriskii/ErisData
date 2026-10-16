@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-shelby",
+  "publisher": "Shelby County Appraisal District (ShelbyCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/j94FvPaik4etwHFk/arcgis/rest/services/ShelbyCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48419"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Shelby County TX CAD web service; parcel polygons; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792051749313,
+    "counties": [
+      "48419"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

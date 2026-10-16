@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-huerfano",
+  "publisher": "Huerfano County, CO (via ArcGIS Online parcel suitability layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/YKIZLV97YLZN6bol/arcgis/rest/services/Huerfano_Parcels_Mean_Suitability_Scores/FeatureServer/164",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08055"
+    ]
+  },
+  "fields": {
+    "owner": "name",
+    "address": "address",
+    "acres": "master_acr",
+    "land_use": "use_code"
+  },
+  "notes": "Parcel polygons for Huerfano County with suitability scores; attributes derived from county parcel data. Confirm terms before bulk use.",
+  "verification": {
+    "verified_at": 1792048755602,
+    "counties": [
+      "08055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

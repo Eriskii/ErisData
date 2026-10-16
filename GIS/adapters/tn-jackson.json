@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-jackson",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (STS-GIS) via Jackson County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47087"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_NAME = 'JACKSON'",
+  "notes": "Statewide TN property boundaries layer filtered to Jackson County (about 9,020 parcels). Public use layer.",
+  "verification": {
+    "verified_at": 1792052665004,
+    "counties": [
+      "47087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nm-taos",
+  "publisher": "Taos County Assessor (via Taos County GIS ArcGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/XSUObhM9CdLiddkA/arcgis/rest/services/Taos_County_Online_Assessor_Data/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35055"
+    ]
+  },
+  "fields": {
+    "apn": "UPC",
+    "owner": "NAME",
+    "acres": "ACRES_1",
+    "land_use": "TYPE",
+    "assessed_value": "TOTALVALUE"
+  },
+  "notes": "Land Ownership - Private (Mapped) layer from Taos County Online Assessor Data; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792051355777,
+    "counties": [
+      "35055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

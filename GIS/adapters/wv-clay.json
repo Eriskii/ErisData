@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wv-clay",
+  "publisher": "West Virginia GIS Technical Center (WVU) / WVGIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.wvgis.wvu.edu/arcgis/rest/services/Planning_Cadastre/WV_Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54015"
+    ]
+  },
+  "fields": {
+    "apn": "CleanParcelID",
+    "owner": "FullOwnerName",
+    "address": "FullPhysicalAddress",
+    "acres": "CALC_ACRE"
+  },
+  "filter": "COUNTY = '08' AND CALC_ACRE < 5000",
+  "notes": "Statewide WVGIS parcels; COUNTY 08 = Clay County (WV FIPS 54015). Parcels over 5000 acres excluded: a single 20,841-acre forest holding has geometry far outside the county extent and fails the location check.",
+  "verification": {
+    "verified_at": 1792053145116,
+    "counties": [
+      "54015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

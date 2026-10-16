@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-sioux",
+  "publisher": "Iowa DHS&EM / University of Iowa (Iowa statewide parcels, Sioux County subset)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19167"
+    ]
+  },
+  "fields": {
+    "apn": "UNPARCELID",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Sioux'",
+  "notes": "Subset of statewide Iowa parcel layer filtered to COUNTYNAME Sioux. Source CC-BY-style public statewide dataset; no address or acreage fields in source.",
+  "verification": {
+    "verified_at": 1792049291948,
+    "counties": [
+      "19167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

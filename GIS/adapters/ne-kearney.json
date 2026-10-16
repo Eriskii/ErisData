@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ne-kearney",
+  "publisher": "Nebraska OCIO statewide parcels, Kearney County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ne.gov/Enterprise/rest/services/StatewideParcelsExternal/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31099"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '099'",
+  "verification": {
+    "verified_at": 1792051370212,
+    "counties": [
+      "31099"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

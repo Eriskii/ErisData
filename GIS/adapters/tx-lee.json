@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-lee",
+  "publisher": "Lee Central Appraisal District (Lee CAD Web Service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/la5KbvGUYLup9Aee/arcgis/rest/services/LeeCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "48287"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Lee CAD public ArcGIS web service; ~15,338 parcels",
+  "verification": {
+    "verified_at": 1792052665092,
+    "counties": [
+      "48287"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

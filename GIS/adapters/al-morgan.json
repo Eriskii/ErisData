@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "al-morgan",
+  "publisher": "Morgan County, Alabama (KCS GIS, via Morgan_Public_ISV MapServer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://al52portal.kcsgis.com/al52server/rest/services/Mapping/Morgan_Public_ISV/MapServer/132",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01103"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "Owner",
+    "address": "PropAddr1",
+    "acres": "TotalAcres",
+    "land_use": "AssessmentClass",
+    "assessed_value": "AssdValue"
+  },
+  "notes": "Parcels layer from the Morgan County AL public web map (Morgan Parcel Viewer). No license stated; public ArcGIS service.",
+  "verification": {
+    "verified_at": 1792048400524,
+    "counties": [
+      "01103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

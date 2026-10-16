@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "mn-clearwater",
+  "publisher": "Minnesota Geospatial Commons (Parcels Compiled from Opt-In Open Data Counties), Clearwater County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_mngeo/plan_parcels_open/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27029"
+    ]
+  },
+  "fields": {
+    "apn": "county_pin",
+    "owner": "tax_name",
+    "address": "st_name",
+    "acres": "acres_poly",
+    "land_use": "useclass1",
+    "assessed_value": "emv_total"
+  },
+  "filter": "co_name = 'Clearwater'",
+  "notes": "State compiled open parcel dataset; Clearwater County rows filtered by co_name. Owner from tax_name (owner_name often blank). Updated quarterly.",
+  "verification": {
+    "verified_at": 1792050882474,
+    "counties": [
+      "27029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-mchenry",
+  "publisher": "McHenry County GIS (Illinois)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/6iYC5AXXYapRVNzl/arcgis/rest/services/McHenry_County_TaxParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17111"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "Owner",
+    "address": "SiteAddress",
+    "acres": "ParcelArea",
+    "land_use": "PropertyClass"
+  },
+  "notes": "Official McHenry County TaxParcels layer from the county GIS Data Hub.",
+  "verification": {
+    "verified_at": 1792048944438,
+    "counties": [
+      "17111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

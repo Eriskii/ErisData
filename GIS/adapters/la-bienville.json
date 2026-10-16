@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-bienville",
+  "publisher": "Bienville Parish GIS (hosted by GDITAdmin, ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/rxjYSJmWllCcGWDd/arcgis/rest/services/Bienville(Parcels)(2018)/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22013"
+    ]
+  },
+  "fields": {
+    "apn": "ASSESSMENT",
+    "owner": "OWNER_NAME",
+    "acres": "AC"
+  },
+  "notes": "2018 parcel snapshot from a public ArcGIS Online feature service; STREET_NAM is mostly blank so no site address is mapped; OWNER_ADDR and OWNER_CITY hold the mailing address; LEGAL_DESC available",
+  "verification": {
+    "verified_at": 1792049900466,
+    "counties": [
+      "22013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

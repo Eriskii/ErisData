@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-beaver",
+  "publisher": "Beaver County GIS (InfoAtlas)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.beavercountypa.gov/server/rest/services/InfoAtlas/Parcels_with_Owner/MapServer/22",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42007"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "Owner_Name1",
+    "address": "Location_Street",
+    "acres": "GIS_Ac",
+    "land_use": "Landuse",
+    "assessed_value": "Total_Value"
+  },
+  "notes": "Beaver County PA InfoAtlas Parcels_with_Owner layer 22; state plane PA S ftUS source CRS handled by server; no login required",
+  "verification": {
+    "verified_at": 1792051508544,
+    "counties": [
+      "42007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

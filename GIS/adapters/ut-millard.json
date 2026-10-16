@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ut-millard",
+  "publisher": "Millard County GIS (via UGRC/AGRC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Millard/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49027"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID"
+  },
+  "notes": "UGRC/AGRC Utah parcel layer for Millard County (county-supplied 2025 parcels); owner names and addresses are not published in this layer (OWN_TYPE is ownership class only, PARCEL_ADD sparse). Snapshot may be outdated.",
+  "verification": {
+    "verified_at": 1792052737283,
+    "counties": [
+      "49027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

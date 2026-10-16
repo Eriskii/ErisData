@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ia-des-moines",
+  "publisher": "Des Moines County GIS (DMCGIS)",
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://www.dmcwebgis.com/arcgis/rest/services/dmcgis/Parcels/MapServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "19057"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumb",
+    "owner": "OwnerName",
+    "address": "FullSitus",
+    "acres": "NetAcre",
+    "land_use": "PropertyCl",
+    "assessed_value": "FullTotalV"
+  },
+  "notes": "Public DMCGIS Parcels layer on dmcwebgis.com",
+  "verification": {
+    "verified_at": 1792049142924,
+    "counties": [
+      "19057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

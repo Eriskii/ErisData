@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ne-chase",
+  "publisher": "Nebraska statewide parcels (compiled from Chase County assessor CAMA and polygon data, via NebraskaMap / OCIO)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ne.gov/Enterprise/rest/services/StatewideParcelsExternal/FeatureServer/0",
+    "page_size": 25,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31029"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "Ownership_Type",
+    "address": "Situs_Address",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '029'",
+  "notes": "Statewide compilation from county assessors, annual (2025). Authority of data lies with county. Ownership_Type is a type, not owner name; owner name not in source.",
+  "verification": {
+    "verified_at": 1792051210678,
+    "counties": [
+      "31029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

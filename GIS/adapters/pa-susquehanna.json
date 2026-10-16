@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-susquehanna",
+  "publisher": "Susquehanna County GIS (PA AgMaps / SusqCoGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/lmuC4NmaSm4GH9h5/ArcGIS/rest/services/Parcel/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42115"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "LAST_NAME",
+    "address": "ADDRESS_2",
+    "acres": "DEEDED_ACR"
+  },
+  "notes": "Public ArcGIS layer; source CRS is PA State Plane South ft (wkid 102728/2271). Owner is last name only; FIRST_NAME also available. Address field is mailing address line 2.",
+  "verification": {
+    "verified_at": 1792051572634,
+    "counties": [
+      "42115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

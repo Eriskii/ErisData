@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "29067",
+  "reason": "login-required",
+  "evidence": [
+    "https://services2.integritygis.com/arcgis/rest/services/MO/Douglas_Assessor_Data/MapServer",
+    "https://services2.integritygis.com/arcgis/rest/services/MO/Douglas_Assessor_Data/MapServer/0",
+    "https://services4.integritygis.com/arcgis/rest/services/MO/Douglas_Assessor_Data/MapServer",
+    "https://montgomerygis.integritygis.com/Geocortex/Essentials/REST/sites/Douglas_County_MO_Public/map",
+    "https://douglascountymoassessor.com/"
+  ],
+  "note": "Douglas County MO assessor parcel map service (MO/Douglas_Assessor_Data on services2.integritygis.com, linked from the county Geocortex public viewer) returns 'Token Required' on the service, its layers and its FeatureServer. services4 returns not found. ArcGIS Hub/Online search found no public Douglas MO parcel service (GDITAdmin item returned Invalid URL). Only paid vendors (Regrid, Dynamo Spatial, Equator) offer Douglas parcels.",
+  "recorded_at": 1792051000362,
+  "recheck_after": 1807603000362,
+  "model": "claude-haiku-5-5"
+}

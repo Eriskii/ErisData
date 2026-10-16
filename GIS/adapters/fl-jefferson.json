@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-jefferson",
+  "publisher": "Jefferson County Property Appraiser (via ArcGIS Hub, bcrouch_JCPA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/vFMp1Ly1q6rKKp0o/arcgis/rest/services/JC__PARCELS_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12065"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "acres": "COGO_ACRES"
+  },
+  "notes": "Jefferson County FL parcel polygons published by the county property appraiser on ArcGIS Hub. Layer is in Web Mercator (102100). No owner/address/land-use fields in this view.",
+  "verification": {
+    "verified_at": 1792048790176,
+    "counties": [
+      "12065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

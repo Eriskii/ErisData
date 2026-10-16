@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21079",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://kygeonet.ky.gov/",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://www.garrardpva.com/",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=1145&LayerID=30284&PageTypeID=30&PageID=12294"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the Kentucky state ArcGIS server (kygisserver WGS84WM_Services directory). The only KY PVA parcel services listed are Webster, Barren, Caldwell, Nelson, Pendleton, Spencer, Wayne, Hardin, Trimble (none for Garrard); guessed Garrard service names return not found. Garrard PVA publishes parcels via qPublic (Schneider), a non-ArcGIS viewer that returned HTTP 403 (Cloudflare) to our reader. Commercial vendors (Regrid, Rockford, dynamospatial) sell the data only.",
+  "recorded_at": 1792049887399,
+  "recheck_after": 1807601887399,
+  "model": "claude-haiku-5-5"
+}

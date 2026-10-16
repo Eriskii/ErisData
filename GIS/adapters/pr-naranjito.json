@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-naranjito",
+  "publisher": "CRIM Parcelario PR (2017 revision, hosted copy)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/a523XM128lX5Nsff/arcgis/rest/services/PARCELARIO_PR_REV_DJCM_NOV102017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72105"
+    ]
+  },
+  "fields": {
+    "apn": "NUM_CATAST",
+    "address": "DIRECCION_",
+    "land_use": "TIPO",
+    "assessed_value": "LAND"
+  },
+  "filter": "MUNICIPIO = 'NARANJITO'",
+  "notes": "Statewide CRIM parcelario copy (2017 revision) on ArcGIS Online; CRIM live services were unreachable. Area fields CABIDA/GISAREA are square meters so acres not mapped; no owner field; LAND is land value.",
+  "verification": {
+    "verified_at": 1792052331834,
+    "counties": [
+      "72105"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

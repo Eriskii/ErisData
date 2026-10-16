@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "20197",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.wbcounty.org/1242/GIS-Web-Mapping-Service",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Wabaunsee",
+    "https://services.kansasgis.org/arcgis4/rest/services/KS_Parcels_ORKA_EB/FeatureServer",
+    "https://services.kansasgis.org/arcgis4/rest/services/KS_Parcels_ORKA/MapServer",
+    "https://hub.kansasgis.org/pages/de8c49f33a0e4149a8568fea0ef3997d",
+    "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/ORKA_Status_20200609/FeatureServer/0"
+  ],
+  "note": "Wabaunsee County (FIPS 20197) parcels are not published as a queryable service or file. Its ORKA status layer lists it as Map-Public, but the ORKA viewer draws no parcel REST layer we could query. The statewide KS_Parcels_ORKA and KS_Parcels_ORKA_EB services hold no Wabaunsee parcels (EB covers only CN, RA, SH, TH; KS_Parcels_ORKA has address points, subdivisions, lots and an opaque tile index with no query support). Parcel data is available only by PORKA request with registration and approval; the county parcel search is a registered-user portal; other sources are commercial vendors.",
+  "recorded_at": 1792049492576,
+  "recheck_after": 1807601492576,
+  "model": "claude-haiku-5-5"
+}

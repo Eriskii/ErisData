@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-phelps",
+  "publisher": "Phelps County GIS (gworks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Phelps_County_NE_Assessor_Sub/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31137"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "ACRES"
+  },
+  "notes": "Phelps County assessor parcel layer served via gworks; attributes limited to PID/ACRES/PARCELKEY; reference only, map approximate",
+  "verification": {
+    "verified_at": 1792051156623,
+    "counties": [
+      "31137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

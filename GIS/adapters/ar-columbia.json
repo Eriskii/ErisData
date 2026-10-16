@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-columbia",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program) - Columbia County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05027"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelId",
+    "owner": "OwnerName",
+    "address": "AdrLabel",
+    "land_use": "ParcelType",
+    "assessed_value": "TotalValue"
+  },
+  "filter": "CountyFips = '027'",
+  "notes": "Statewide AGIO polygon layer, not a legal boundary; filtered to Columbia County (CountyFips 027); only parcels with CAMA records are included; assessed_value is TotalValue because AssessValue is empty; no acreage field.",
+  "verification": {
+    "verified_at": 1792048528791,
+    "counties": [
+      "05027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

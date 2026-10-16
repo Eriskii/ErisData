@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-st-francis",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 100,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "05123"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "countyfips = '123'",
+  "notes": "Statewide AR polygon layer, filtered to CountyFips 123 (St. Francis). Not a legal boundary; tax-valuation use. Updated twice a year.",
+  "verification": {
+    "verified_at": 1792048537410,
+    "counties": [
+      "05123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

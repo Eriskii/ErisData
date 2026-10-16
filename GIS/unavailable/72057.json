@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "72057",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelario/MapServer/0",
+    "https://catastro.crimpr.net/cdprpc/",
+    "https://www.dynamospatial.com/t/guayama-municipio-pr/guayama/parcel-data"
+  ],
+  "note": "CRIM's statewide Parcelario parcel layer (covers Guayama) is registered on sigejp.pr.gov but returns 'Service crim/crim_parcelas/MapServer not started' (HTTP 500) on every query; the crim folder now lists no services; the sige.pr.gov and satasgis.crimpr.net mirrors are unreachable; CRIM's Catastro web app is a viewer and its parcel data is described as CRIM property. No other public parcel polygon service for Guayama was found; the only Guayama parcel download is commercial (Dynamo Spatial).",
+  "recorded_at": 1792052001079,
+  "recheck_after": 1807604001079,
+  "model": "claude-haiku-5-5"
+}

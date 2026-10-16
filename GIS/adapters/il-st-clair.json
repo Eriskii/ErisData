@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-st-clair",
+  "publisher": "St. Clair County, Illinois (via ArcGIS Hub view)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/NhRCDiozXxukD769/arcgis/rest/services/St_Clair_County_Parcels_view/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17163"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "ACREAGE",
+    "land_use": "LANDUSE",
+    "assessed_value": "TOTAMT"
+  },
+  "notes": "Partial: this hosted view holds about 2,047 county parcels (a project-vicinity selection), not the full ~148,000-parcel county layer. The full county layer (SCC_parcel_map_data MapServer/29) failed the paging check, so it was not used.",
+  "verification": {
+    "verified_at": 1792049004698,
+    "counties": [
+      "17163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "46063",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/?site=HardingCountySD",
+    "https://qpublic.schneidercorp.com/Application.aspx",
+    "https://www.countyoffice.org/sd-gis-maps/",
+    "https://www.gismaps.org/sd-harding-county/",
+    "https://app.regrid.com/store/us/sd/harding"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Harding County, SD parcels. No public ArcGIS REST or downloadable parcel service found. The county parcel viewer is a Schneider Beacon/qPublic app (bot-challenged, no public API). Other sources are commercial and paid (Regrid store, Acres, Rockford Map, AcreValue). The SD state server arcgis.sd.gov was unreachable. Neighbour hosts (Montana cadastral, ND statewide) do not cover Harding County.",
+  "recorded_at": 1792051693863,
+  "recheck_after": 1807603693863,
+  "model": "claude-haiku-5-5"
+}

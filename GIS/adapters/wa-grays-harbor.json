@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "wa-grays-harbor",
+  "publisher": "Grays Harbor County GIS (via 10KYIADMIN ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/CxYgmwdx507LY5lO/arcgis/rest/services/Grays_Harbor_Parcels_2024/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53027"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "TOTACRES",
+    "land_use": "LANDUSE",
+    "assessed_value": "MRKTVALUE"
+  },
+  "notes": "2024 Grays Harbor County parcels sourced from county GIS portal. ADDRESS is the owner mailing address; SITUS (site address) is mostly blank.",
+  "verification": {
+    "verified_at": 1792053113151,
+    "counties": [
+      "53027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

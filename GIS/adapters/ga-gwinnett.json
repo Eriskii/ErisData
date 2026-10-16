@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-gwinnett",
+  "publisher": "Gwinnett County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/RfpmnkSAQleRbndX/arcgis/rest/services/Property_and_Tax/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13135"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "address": "ADDRESS",
+    "acres": "CALCULATEDACREAGE",
+    "land_use": "PARCELTYPE"
+  },
+  "notes": "Gwinnett County Open Data, Property and Tax layer 0 (Parcels). Owner and assessed value are in the non-spatial Tax Master Table (layer 3, joined on PIN) and are not on this layer.",
+  "verification": {
+    "verified_at": 1792048774368,
+    "counties": [
+      "13135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

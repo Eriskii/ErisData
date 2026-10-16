@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72085",
+  "reason": "login-required",
+  "evidence": [
+    "https://catastro.crimpr.net/server/rest/services/Parcelario?f=json",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer?f=json",
+    "https://catastro.crimpr.net/cdprpc/"
+  ],
+  "note": "CRIM's current parcel services (catastro.crimpr.net/server/rest/services/Parcelario, Planimetria, Hosted) return 'Token Required' (499). The older public copy, sigejp.pr.gov crim/crim_parcelas MapServer, has been 'not started' (HTTP 500) across three sessions and validations, and the legacy satasgis.crimpr.net host returns 404/unreachable. The pr.gov WFS has only CRIM grids, no parcels.",
+  "recorded_at": 1792052157165,
+  "recheck_after": 1807604157165,
+  "model": "claude-sonnet-5-5"
+}

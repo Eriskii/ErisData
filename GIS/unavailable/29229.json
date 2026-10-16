@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29229",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://wrightgis.breezemaps.com/",
+    "https://www.wrightcountymo.gov/government/assessor/",
+    "https://services2.arcgis.com/5fBksrmhqE9Y6xQi/arcgis/rest/services/Mountain_Grove_Wright_County_and_Texas_County_Parcels/FeatureServer",
+    "https://wright-county-gis-wrightgis.hub.arcgis.com/"
+  ],
+  "note": "Searched ArcGIS Hub/Online, the county assessor site and the Wright County MO hub. The only Wright County (MO) parcel service found is the City of Mountain Grove layer (2,363 parcels, city limits only). The county's own parcel viewers (breezemaps, integritygis) are gated viewers with no public REST endpoint. The Hub 'Parcels Wright County' item (services2.arcgis.com/CiQCvRGImIxsaFnM) is Wright County, Minnesota, not Missouri. The state FMDC parcel service returns 404.",
+  "recorded_at": 1792051117652,
+  "recheck_after": 1807603117652,
+  "model": "claude-haiku-5-5"
+}

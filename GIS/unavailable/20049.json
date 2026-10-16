@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20049",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://elkcountyks.org/index.php/county-departments/elk-county-appraiser",
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://hub.kansasgis.org/pages/de8c49f33a0e4149a8568fea0ef3997d",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online, the county appraiser page, the ORKA hub and the statewide KS_ORKA_Extras service (its layers are subdivisions, lots, address points and ag-use, not Elk parcels). No public REST parcel endpoint for Elk County was found. Parcels are only available via the ORKA request process (registration, possible fees or data-use agreement) or commercial vendors.",
+  "recorded_at": 1792049311295,
+  "recheck_after": 1807601311295,
+  "model": "claude-haiku-5-5"
+}

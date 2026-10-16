@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ks-finney",
+  "publisher": "Finney County Appraiser (via Finney County GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/9e3691d1d0e64182aa19dac298b6c7f8/rest/services/FinneyCountyAppraisers/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20055"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUM",
+    "owner": "PartyName",
+    "address": "SitusAddress",
+    "acres": "ACRES",
+    "land_use": "SUBCLASS",
+    "assessed_value": "FinalTotal"
+  },
+  "notes": "Finney County, KS appraiser parcel boundaries; reference use per county disclaimer. Source hosted on utility.arcgis.com (county service mirror).",
+  "verification": {
+    "verified_at": 1792049299927,
+    "counties": [
+      "20055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

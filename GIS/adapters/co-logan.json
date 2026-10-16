@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-logan",
+  "publisher": "Logan County Assessor (Colorado)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/TaxParcel_public_7618b62ab58b4faba819d7df4ba65ca5/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08075"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownernme1",
+    "address": "siteaddress"
+  },
+  "notes": "Logan County Assessor Equitable Property Value public TaxParcel layer; about 12,321 features. Value and use fields are blank for many parcels, so not mapped.",
+  "verification": {
+    "verified_at": 1792048749854,
+    "counties": [
+      "08075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

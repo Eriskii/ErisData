@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-chowan",
+  "publisher": "NC OneMap (ICDE parcels) - Chowan County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37041"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37041'",
+  "notes": "Statewide NC OneMap ICDE parcel layer filtered to Chowan County by state-county FIPS; land use field empty in source for sampled parcels",
+  "verification": {
+    "verified_at": 1792051348456,
+    "counties": [
+      "37041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

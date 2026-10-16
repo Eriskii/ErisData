@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-newton",
+  "publisher": "Arkansas GIS Office (AGISO) via County Assessor Mapping Program",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05101"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelId",
+    "owner": "OwnerName",
+    "address": "AdrLabel",
+    "land_use": "ParcelType",
+    "assessed_value": "AssessValue"
+  },
+  "filter": "CountyFips = '101'",
+  "notes": "Statewide AGISO parcel polygons, not a legal boundary; for ad valorem assessment. Filtered to Newton County by CountyFips 101. Updated twice a year. Shape__Area is square metres (EPSG:26915) and is not mapped as acres.",
+  "verification": {
+    "verified_at": 1792048533930,
+    "counties": [
+      "05101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "wy-sweetwater",
+  "publisher": "City of Green River (compiled from Sweetwater County parcel mapping)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/KuLOZPy3lKDA07LB/arcgis/rest/services/Tax_Parcel/FeatureServer/910619",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56037"
+    ]
+  },
+  "fields": {
+    "apn": "pidn",
+    "owner": "owner",
+    "address": "m_address",
+    "acres": "area_calc",
+    "land_use": "accttype",
+    "assessed_value": "totalval"
+  },
+  "filter": "accttype <> 'Exempt'",
+  "notes": "Tax parcels compiled from Sweetwater County parcel mapping dataset, hosted by City of Green River; exempt (federal/state) parcels excluded; address is mailing address",
+  "verification": {
+    "verified_at": 1792051846866,
+    "counties": [
+      "56037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

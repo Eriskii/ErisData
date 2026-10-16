@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "az-greenlee",
+  "publisher": "Arizona Department of Water Resources (ADWR) parcel layers - Greenlee County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/C34zQ7veRS0V1t04/arcgis/rest/services/Parcels/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04011"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "OWNER_NAME",
+    "acres": "ACRES_US"
+  },
+  "notes": "ADWR statewide parcel service, Greenlee sublayer (layer 5). Site address is mostly blank in source. Other fields available: BOOK, MAP, PARCEL, SUFFIX, SITE_CITY, SITE_ZIP.",
+  "verification": {
+    "verified_at": 1792048425905,
+    "counties": [
+      "04011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

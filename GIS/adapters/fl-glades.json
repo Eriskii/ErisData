@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "fl-glades",
+  "publisher": "Glades County GIS (via ArcGIS Online Glades_Parcels2020)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/90Aakxb3SLGcQGor/arcgis/rest/services/Glades_Parcels2020/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12043"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO"
+  },
+  "notes": "Community-published Glades County parcel polygons (2020), 11,404 features; only parcel number available",
+  "verification": {
+    "verified_at": 1792048782834,
+    "counties": [
+      "12043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

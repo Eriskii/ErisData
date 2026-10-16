@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-wasatch",
+  "publisher": "Utah AGRC / Wasatch County (LIR parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Wasatch_LIR/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49051"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "acres": "PARCEL_ACRES",
+    "land_use": "PROP_CLASS"
+  },
+  "notes": "UGRC LIR parcels with county tax roll attributes; CC BY 4.0; site address is blank for most rural parcels so it is not mapped; no owner name field in this layer",
+  "verification": {
+    "verified_at": 1792052734627,
+    "counties": [
+      "49051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

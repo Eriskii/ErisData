@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-jerauld",
+  "publisher": "Jerauld County GIS (via District III GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/JERAULD_COUNTY_WEB_LAYERS/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46073"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "CAMA_OWNERNAME",
+    "address": "CAMA_SITE_ADDRESS",
+    "acres": "CAMA_ACRES"
+  },
+  "notes": "Parcels layer of Jerauld Public web viewer hosted by District III GIS; 4,115 features; public, no key",
+  "verification": {
+    "verified_at": 1792051651844,
+    "counties": [
+      "46073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ky-shelby",
+  "publisher": "Shelby County KY (ArcGIS Online, services2.arcgis.com/VqPd1Ybcc46AvijK)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/VqPd1Ybcc46AvijK/arcgis/rest/services/Parcels_Service121324/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21211"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "Name",
+    "address": "Location",
+    "acres": "Shape__Area"
+  },
+  "notes": "Shelby County KY parcels; ArcGIS Online service",
+  "verification": {
+    "verified_at": 1792050079092,
+    "counties": [
+      "21211"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

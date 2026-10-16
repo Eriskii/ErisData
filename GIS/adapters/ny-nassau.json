@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ny-nassau",
+  "publisher": "Nassau County GIS (Nassau Interactive Map Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/dptt3Slw4IV02m0l/arcgis/rest/services/Nassau_County_Parcels_v2/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36059"
+    ]
+  },
+  "fields": {
+    "apn": "SBL",
+    "owner": "PRIMARY_OW",
+    "address": "PARCEL_ADD",
+    "acres": "ACRES",
+    "land_use": "PROP_CLASS"
+  },
+  "notes": "Nassau County interactive map parcels; SBL is the Nassau section-block-lot id; no assessed value field published",
+  "verification": {
+    "verified_at": 1792051369604,
+    "counties": [
+      "36059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

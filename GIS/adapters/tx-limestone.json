@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-limestone",
+  "publisher": "Limestone Central Appraisal District",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/ApXmrXrf4zi88eKu/arcgis/rest/services/LimestoneCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48293"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage"
+  },
+  "notes": "Limestone CAD public ArcGIS service; about 22115 parcels; situs_num and situs_street are separate fields; market value is empty so not mapped",
+  "verification": {
+    "verified_at": 1792051713492,
+    "counties": [
+      "48293"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

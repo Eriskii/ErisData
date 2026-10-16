@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-montgomery",
+  "publisher": "Montgomery County GIS (Montco_GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/kOChldNuKsox8qZD/arcgis/rest/services/Montgomery_County_Parcels/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42091"
+    ]
+  },
+  "fields": {
+    "apn": "TAXPIN",
+    "owner": "OWN1",
+    "address": "LOCATION1",
+    "acres": "LAND_ACRES",
+    "land_use": "LAND_USE",
+    "assessed_value": "TOTAL_ASSE"
+  },
+  "notes": "Montgomery County PA open data parcels; fields from layer 6 of Montgomery_County_Parcels FeatureServer",
+  "verification": {
+    "verified_at": 1792051652986,
+    "counties": [
+      "42091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

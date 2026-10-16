@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "13105",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=667&LayerID=11830&PageTypeID=1",
+    "https://geohub-elbertcounty.hub.arcgis.com/"
+  ],
+  "note": "Elbert County, GA publishes its parcel map only through the Schneider qPublic web viewer; no public ArcGIS REST parcel service found. The county Hub site serves only Elbert County, Colorado data. ArcGIS Hub/Online searches found no county-run Georgia parcel Feature Service. Georgia GIO hub and GIS Clearinghouse list no free Elbert parcel download; only commercial vendors (Regrid, MappingSolutionsGIS) offer it. qPublic returns a bot-check (HTTP 403), so it cannot be queried as a service.",
+  "recorded_at": 1792048851783,
+  "recheck_after": 1807600851783,
+  "model": "claude-haiku-5-5"
+}

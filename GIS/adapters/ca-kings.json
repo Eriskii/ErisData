@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-kings",
+  "publisher": "Kings County (2025 Kings County Parcels, ArcGIS Online, nromero_mljllc)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/EIisXLNLSBZgYsBY/arcgis/rest/services/Kings_County_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06031"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "AssesseeNa",
+    "acres": "Acres",
+    "land_use": "LandUseCod",
+    "assessed_value": "NetValue"
+  },
+  "notes": "Kings County parcel layer hosted on ArcGIS Online; attributes derived from county assessor roll. Situs address fields are mostly blank, so address is not mapped; Address1 is the owner mailing address.",
+  "verification": {
+    "verified_at": 1792048640788,
+    "counties": [
+      "06031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

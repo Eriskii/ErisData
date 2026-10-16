@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "22101",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://map.viewprogis.com/ecp/smp-la?widget=7d0410d8-2558-42f1-8fc9-ec115200a2d2",
+    "https://stmary.geosync.io/",
+    "https://www.dynamospatial.com/c/st-mary-parish-la/parcel-data",
+    "https://www.stmaryparishla.gov/",
+    "https://www.smpassessor.net/"
+  ],
+  "note": "St. Mary Parish parcels appear only in vendor web viewers (ViewPro ECP map, Geosync assessor portal) with no discoverable public ArcGIS REST or file endpoint; the only downloadable parcel dataset is sold commercially (Dynamo Spatial). ArcGIS Hub/Online searches and parish/state GIS hosts returned no St. Mary parcel layer.",
+  "recorded_at": 1792049962997,
+  "recheck_after": 1807601962997,
+  "model": "claude-haiku-5-5"
+}

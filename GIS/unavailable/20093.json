@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "20093",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.kearnycountykansas.com/county-appraiser/links/kearny-county-public-parcel-search",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Kearny",
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer",
+    "https://services.kansasgis.org/arcgis/rest/services/wimas"
+  ],
+  "note": "Kearny County parcels are only reachable through the state ORKA property viewer (apps.kansasgis.org/orka; Experience app a40d598785b3424a8a672d5d080823f9). Its webmap and ORKA service folders expose no Kearny parcel polygon layer (KS_ORKA_Extras holds city limits, subdivisions and lots; ORKA_Extras_VTI2 is a generic tile index; wimas holds water-right points). ORKA parcel data is obtained via a request page, not a public queryable service. Commercial sites (Acres, AcreValue, Regrid) are not county sources.",
+  "recorded_at": 1792049397098,
+  "recheck_after": 1807601397098,
+  "model": "claude-haiku-5-5"
+}

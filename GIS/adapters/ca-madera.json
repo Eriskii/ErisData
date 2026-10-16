@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-madera",
+  "publisher": "Madera County Assessor (geoprod.ASSESSOR.Parcels via ArcGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/1t7wwtWWQetYRAXB/arcgis/rest/services/MaderaCounty_Parcels/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06039"
+    ]
+  },
+  "fields": {
+    "apn": "ASMT",
+    "acres": "Acres",
+    "land_use": "UseCode",
+    "assessed_value": "Total"
+  },
+  "notes": "Madera County Assessor parcels, about 65,658 features; situs address is sparse (mostly rural parcels blank), so address is not mapped; no owner field published",
+  "verification": {
+    "verified_at": 1792048653304,
+    "counties": [
+      "06039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

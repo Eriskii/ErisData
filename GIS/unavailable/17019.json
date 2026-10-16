@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "17019",
+  "reason": "paywalled",
+  "evidence": [
+    "https://gisportal.champaignil.gov/ms/rest/services/CCGISC",
+    "https://gisportal.champaignil.gov/ms/rest/services/CCGISC/TaxParcels_Assessed/MapServer",
+    "https://www.ccgisc.org/Products.aspx",
+    "https://www.ccgisc.org/datarequestform.aspx"
+  ],
+  "note": "Champaign County's parcel polygons (CCGISC TaxParcels_Assessed MapServer on gisportal.champaignil.gov) return 'Token Required' on both the folder and the layer. The CCGISC parcel data is otherwise sold by annual subscription (Products page) or per-request fee (Data Requests form). The only public ArcGIS layers found (Urbana Park_Districts, URBANA School_District) are single district-boundary polygons, not tax parcels; UIUC_Owned_Parcels covers only university-owned land. No open, queryable county-wide parcel service was found.",
+  "recorded_at": 1792048939422,
+  "recheck_after": 1823584939422,
+  "model": "claude-haiku-5-5"
+}

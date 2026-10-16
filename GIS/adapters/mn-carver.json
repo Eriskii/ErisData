@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-carver",
+  "publisher": "Carver County GIS (via MetroGIS regional parcel compilation)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.metc.state.mn.us/data1/rest/services/parcels/Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27019"
+    ]
+  },
+  "fields": {
+    "apn": "COUNTY_PIN",
+    "owner": "TAX_NAME",
+    "address": "ST_NAME",
+    "acres": "ACRES_POLY",
+    "land_use": "USECLASS1",
+    "assessed_value": "EMV_TOTAL"
+  },
+  "notes": "MetroGIS regional parcel dataset, Carver County layer (layer 1 of parcels/Parcels FeatureServer). OWNER_NAME is empty in source so TAX_NAME (taxpayer) is used for owner. Address is street name only (ANUMBER and ST_NAME split in source).",
+  "verification": {
+    "verified_at": 1792050889272,
+    "counties": [
+      "27019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

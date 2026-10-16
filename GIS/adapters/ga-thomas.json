@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-thomas",
+  "publisher": "Thomas County GA (GIS, via thomascountymaps.org parcels_addresses)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.thomascountymaps.org/arcgis/rest/services/parcels_addresses/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13275"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "LASTNAME",
+    "address": "STREET_NAM",
+    "acres": "TOTALACRES",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Thomas County GA parcel polygons from county ArcGIS MapServer layer 4; owner is LASTNAME field; value is CURR_VAL",
+  "verification": {
+    "verified_at": 1792048851734,
+    "counties": [
+      "13275"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-lee",
+  "publisher": "Lee County, IL GIS Department",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.leecountyil.gov/leecogis/rest/services/Parcel_Polygons/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17103"
+    ]
+  },
+  "fields": {
+    "apn": "dbo_gis_data_parcel_number",
+    "owner": "dbo_gis_data_owner1_name",
+    "address": "dbo_gis_data_site_address",
+    "acres": "dbo_gis_data_gross_acres",
+    "land_use": "dbo_gis_data_land_use_descr",
+    "assessed_value": "dbo_gis_data_assess_total"
+  },
+  "notes": "Lee County IL own GIS server; public, no cost per county GIS portal. PIN fields also available as Hyphenated_PIN.",
+  "verification": {
+    "verified_at": 1792049021033,
+    "counties": [
+      "17103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

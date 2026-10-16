@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ar-sevier",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/MapServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05133"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "acres": "st_area(shape)",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '133'",
+  "notes": "Statewide Arkansas parcel polygons (not a legal boundary); filtered to Sevier by CountyFips 133. Acres field is area in square metres. Source updated twice a year.",
+  "verification": {
+    "verified_at": 1792048558873,
+    "counties": [
+      "05133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-monroe",
+  "publisher": "Monroe County GIS (monroegis.org)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.monroegis.org/webadaptor/rest/services/public/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42089"
+    ]
+  },
+  "fields": {
+    "apn": "PARID",
+    "owner": "OWNER",
+    "address": "LOCATION"
+  },
+  "notes": "Monroe County PA parcels; public ArcGIS service; no acreage or assessment fields published in this layer",
+  "verification": {
+    "verified_at": 1792051532662,
+    "counties": [
+      "42089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

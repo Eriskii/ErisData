@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ne-red-willow",
+  "publisher": "Red Willow County, NE (via Nebraska Tax Parcels, UNL hosted feature service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/jzdN07B7ZhRTxuzU/arcgis/rest/services/Layers_Data_WFL1/FeatureServer/29",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31145"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "Current_Owner_Name",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '145'",
+  "notes": "Statewide Nebraska Tax Parcels layer; County_ID 145 = Red Willow. Situs address mostly empty in source, so not mapped; Street_Address is owner mailing address.",
+  "verification": {
+    "verified_at": 1792051151531,
+    "counties": [
+      "31145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

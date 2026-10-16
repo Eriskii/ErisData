@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "26135",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.oscodacountymi.com/equalization/",
+    "https://beacon.schneidercorp.com/Application.aspx?App=OscodaCountyMI&PageType=Map",
+    "https://www.michigan.gov/dtmb/services/maps/mgf-data-hub/boundaries-and-mgf/tax-parcels",
+    "https://gis-michigan.opendata.arcgis.com/"
+  ],
+  "note": "Oscoda County (MI) publishes parcels only through its Schneider Beacon viewer (App=OscodaCountyMI). Beacon returns an HTTP 403 bot-challenge page to automated access and exposes no documented ArcGIS REST or downloadable parcel service. The county equalization page links no REST service or file. The state MGF statewide parcel layer is for internal use only. ArcGIS Hub and Online searches for Oscoda parcels found only non-parcel layers. Commercial sources (Regrid, Dynamo, Acres, Equator) were not used.",
+  "recorded_at": 1792049984108,
+  "recheck_after": 1807601984108,
+  "model": "claude-haiku-5-5"
+}

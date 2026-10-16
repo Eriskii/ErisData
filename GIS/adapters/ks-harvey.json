@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ks-harvey",
+  "publisher": "Harvey County GIS (HarveyGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/NYSVwQ7Ci1T1U8La/arcgis/rest/services/HV_Parcels_CRS2/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20079"
+    ]
+  },
+  "fields": {
+    "apn": "PIDNO",
+    "owner": "PriOwnerNa",
+    "address": "SitusAddre",
+    "acres": "Acres",
+    "land_use": "PropertyTy",
+    "assessed_value": "FTV"
+  },
+  "notes": "Harvey County KS public parcel layer from HarveyGIS ArcGIS Online. Owner/address/value fields from the county extract.",
+  "verification": {
+    "verified_at": 1792049331786,
+    "counties": [
+      "20079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-pope",
+  "publisher": "Pope County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.popecountymn.gov/arcgis/rest/services/Pictometry/Pictometry_DataLayers/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27121"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "owner": "TAXPAYER_NAME",
+    "acres": "DEEDED_ACRES",
+    "land_use": "CLASSIFICATIONS",
+    "assessed_value": "EstimatedMarketValue"
+  },
+  "notes": "Pope County MN official GIS parcels (Pictometry_DataLayers MapServer layer 10). Owner from TAXPAYER_NAME; OWNER_NAME is empty in this service. Property address sparse, omitted.",
+  "verification": {
+    "verified_at": 1792050897863,
+    "counties": [
+      "27121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "21047",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx",
+    "https://countyoffice.org/ky-christian-county-gis-maps/",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services"
+  ],
+  "note": "Christian County KY (FIPS 21047) parcels are only offered through the Schneider qPublic PVA viewer (blocked by a Cloudflare 403 to automated access) and paid vendors (Regrid, Dynamo, Rockford). The state kygisserver publishes PVA parcels only for Webster County; LOJIC does not cover Christian. No public ArcGIS parcel service or free file was found for the county.",
+  "recorded_at": 1792049433814,
+  "recheck_after": 1807601433814,
+  "model": "claude-haiku-5-5"
+}

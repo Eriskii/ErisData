@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-hickman",
+  "publisher": "Hickman County GIS (RCSPlanners)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/8PmFuaCvSsknw5Z0/arcgis/rest/services/HickmanCo_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47081"
+    ]
+  },
+  "fields": {
+    "apn": "GISLINK",
+    "acres": "CALC_ACRE"
+  },
+  "notes": "Hickman County parcel layer published by RCSPlanners for county planning use; COUNTY_ID field present; source CRS is TN State Plane feet (wkid 103152); owner and address not in this layer",
+  "verification": {
+    "verified_at": 1792052647965,
+    "counties": [
+      "47081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

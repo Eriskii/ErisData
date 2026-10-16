@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "56003",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.bighorncountywy.gov/departments/land-planning/gis",
+    "https://maps.terragis.net/bighorn/mapserver/download/",
+    "https://gis.deq.wyo.gov/arcgis/rest/services/WY_PRIVATE_PARCELS/MapServer"
+  ],
+  "note": "No queryable ArcGIS service for Big Horn parcels. The county's only parcel file is a shapefile zip whose deed_date field has invalid dates, so it can't be parsed. The statewide DEQ parcel MapServer rejects every query.",
+  "recorded_at": 1792051925205,
+  "recheck_after": 1807603925205,
+  "model": "claude-sonnet-5-5"
+}

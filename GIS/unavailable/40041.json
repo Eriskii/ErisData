@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40041",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.myassessor1.org/mapping",
+    "https://property.spatialest.com/ok/delaware",
+    "https://ogidev.okmaps.org/OGI/RestDataAccessItem.aspx?UUID=7c55e990-048e-499d-a20c-58fc5b730562",
+    "https://delaware.okcounties.org/maps"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Delaware County OK parcels. The county assessor's GIS map (myassessor1.org/mapping) links to an ArcGIS Online viewer (delawareco.maps.arcgis.com, appid a4ed71c3291e49c392f48b45e05d681f) whose item is inaccessible; that org's parcel layer is Delaware County, Ohio. The assessor's CAMA portal is Spatialest (property.spatialest.com/ok/delaware) with no public GIS service found. The statewide OK parcels layer (OK Maps) is view-only/WMS, not downloadable. Only commercial Delaware County OK parcel sources (Regrid, DynamoSpatial, USLandGrid, Acres) were found; no public queryable county service.",
+  "recorded_at": 1792051622254,
+  "recheck_after": 1807603622254,
+  "model": "claude-haiku-5-5"
+}

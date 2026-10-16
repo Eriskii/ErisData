@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-denton",
+  "publisher": "Denton Central Appraisal District / Denton County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.dentoncounty.gov/arcgis/rest/services/Parcels_FC/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48121"
+    ]
+  },
+  "fields": {
+    "apn": "pid",
+    "owner": "name",
+    "address": "situs_full_address",
+    "acres": "legalAcreage",
+    "land_use": "propType",
+    "assessed_value": "ownerAppraisedValue"
+  },
+  "notes": "Denton CAD parcel data, certified tax roll; EPSG 2276 source, served as geoJSON",
+  "verification": {
+    "verified_at": 1792051675500,
+    "counties": [
+      "48121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-craighead",
+  "publisher": "Arkansas GIS Office (CAMA parcel polygons, Craighead County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05031"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "CountyFips = '031'",
+  "notes": "Statewide Arkansas GIS Office parcel polygons filtered to county FIPS 031 (Craighead). Not a legal boundary; for ad valorem assessment use. Updated twice a year. assessed_value is total market value (totalvalue); assessvalue is empty for this county.",
+  "verification": {
+    "verified_at": 1792048532758,
+    "counties": [
+      "05031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

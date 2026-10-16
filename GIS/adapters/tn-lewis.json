@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-lewis",
+  "publisher": "Tennessee Office of Information Resources / TNMAP",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47101"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_ID = 51",
+  "notes": "Statewide TN property boundaries layer filtered to Lewis County (COUNTY_ID 51, about 8705 features). Public use layer.",
+  "verification": {
+    "verified_at": 1792052657402,
+    "counties": [
+      "47101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

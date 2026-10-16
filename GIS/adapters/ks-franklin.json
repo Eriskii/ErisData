@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ks-franklin",
+  "publisher": "Franklin County KS GIS (Appraiser)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Cdr6tOjJ99MjOR6x/arcgis/rest/services/Appraiser_Parcel_Search_WFL1/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20059"
+    ]
+  },
+  "fields": {
+    "apn": "PropertyNumber",
+    "address": "SitusAddress"
+  },
+  "notes": "Franklin County KS appraiser parcel layer (Orion). Owner not published in this layer. Native CRS 3857. WebsiteLink is the Orion link; LegalDescription and TownshipRange not mapped.",
+  "verification": {
+    "verified_at": 1792049273138,
+    "counties": [
+      "20059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

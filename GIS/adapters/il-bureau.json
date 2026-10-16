@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-bureau",
+  "publisher": "Bureau County Supervisor of Assessments (Sidwell)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/LiP3SciiR8VBXvcO/arcgis/rest/services/BureauParcels_polygons/FeatureServer/29",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17011"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "PrimaryNam",
+    "address": "PrimaryAdd",
+    "acres": "Acreage",
+    "land_use": "UseCode",
+    "assessed_value": "Taxable_Value"
+  },
+  "notes": "Bureau County IL parcel polygons, Oct 2025 update; no license stated",
+  "verification": {
+    "verified_at": 1792048926469,
+    "counties": [
+      "17011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

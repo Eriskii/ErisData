@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ak-lake-and-peninsula",
+  "publisher": "Lake and Peninsula Borough",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/WksF4eh55tBXkYCI/arcgis/rest/services/LakeandPenCadastralOnline/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02164"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "GeneralOwner",
+    "acres": "GISAcres"
+  },
+  "verification": {
+    "verified_at": 1792048957145,
+    "counties": [
+      "02164"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

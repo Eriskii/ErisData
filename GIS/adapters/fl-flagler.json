@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "fl-flagler",
+  "publisher": "Flagler County Property Appraiser parcels, via Palm Coast GIS (Flagler_Co_Parcels_gdb)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/tpnsCwhQRDqwL3mq/arcgis/rest/services/Flagler_Co_Parcels_gdb/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12035"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "land_use": "property_use_cd",
+    "assessed_value": "appraised_val"
+  },
+  "notes": "Flagler County Property Appraiser roll data joined to parcel geometry; 88,911 parcels. Site address omitted: situs_street is blank for most vacant/rural parcels.",
+  "verification": {
+    "verified_at": 1792048789859,
+    "counties": [
+      "12035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

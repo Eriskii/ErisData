@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ak-yakutat",
+  "publisher": "City and Borough of Yakutat",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/gRKiTtxkoTx0gERB/arcgis/rest/services/ParcelsOnline/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02282"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "Owner",
+    "address": "PhysicalAddress",
+    "acres": "GISAcres",
+    "land_use": "Landuse",
+    "assessed_value": "TotalValue"
+  },
+  "filter": "OwnType <> 'Federal'",
+  "notes": "Excludes federal forest tracts; borough tax parcels",
+  "verification": {
+    "verified_at": 1792048971267,
+    "counties": [
+      "02282"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

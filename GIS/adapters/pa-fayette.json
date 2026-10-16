@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "pa-fayette",
+  "publisher": "Fayette County, PA (via PASDA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/FayetteCounty/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42051"
+    ]
+  },
+  "fields": {
+    "apn": "TAXIDNUM"
+  },
+  "notes": "PASDA Fayette County Parcels region 202602; fields limited to parcel id (TAXIDNUM) and TAXSHORT; no owner/address/value in this layer",
+  "verification": {
+    "verified_at": 1792051547943,
+    "counties": [
+      "42051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

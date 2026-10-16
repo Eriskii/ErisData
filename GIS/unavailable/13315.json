@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13315",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.qpublic.net/ga/wilcox/",
+    "https://qpublic.schneidercorp.com/",
+    "https://www.sgrcmaps.com/alma/rest/services",
+    "https://maps.capturecama.com/arcgis/rest/services/Wilcox/Wilcox_03122025/MapServer/10"
+  ],
+  "note": "Wilcox County GA's official parcel viewer is the Schneider qPublic site, behind a bot wall (HTTP 403, Cloudflare) with no public ArcGIS REST endpoint found. The Capture CAMA Wilcox service is Wilcox County, Alabama (extent about -87.7 to -86.9 lon), not Georgia. The SGRC sgrcmaps host has no Wilcox folder. Hub and ArcGIS Online searches found no Wilcox GA parcel layer. Regrid, LandBrief and Acres are commercial, not county publications.",
+  "recorded_at": 1792048980714,
+  "recheck_after": 1807600980714,
+  "model": "claude-haiku-5-5"
+}

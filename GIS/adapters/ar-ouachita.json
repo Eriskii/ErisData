@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-ouachita",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05103"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "acres": "Shape__Area",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '103'",
+  "notes": "Statewide AR parcel polygons from AR GIS Office; countyfips stored as 3-digit string; situs address mostly empty for rural parcels (adrlabel); not a legal boundary; updated twice a year",
+  "verification": {
+    "verified_at": 1792048541695,
+    "counties": [
+      "05103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

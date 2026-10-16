@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ok-kingfisher",
+  "publisher": "Kingfisher County GIS (Oklahoma)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Db5XpjF4RhP8rhhk/arcgis/rest/services/Kingfisher_Parcels_2020/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40073"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL",
+    "owner": "OWNER",
+    "address": "ADD1",
+    "acres": "ACRES_1",
+    "land_use": "LAST"
+  },
+  "notes": "Parcel layer published on ArcGIS Online by CityofKingfisherGIS (2020 parcels); assessed value not populated in source",
+  "verification": {
+    "verified_at": 1792051454514,
+    "counties": [
+      "40073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

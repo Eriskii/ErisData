@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-lake",
+  "publisher": "Lake County, Michigan GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/077PZZsPIOhJKfvk/arcgis/rest/services/Parcels2026_View/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26085"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNAME",
+    "acres": "ACREAGE",
+    "land_use": "PROPCLASS",
+    "assessed_value": "STATEEQVALUE"
+  },
+  "notes": "Lake County MI public parcel layer from the county ArcGIS Online viewer (Parcels2026_View); ~27,200 parcels. Source spatial reference is EPSG:2252; runtime requests lon/lat. Site address is sparse in source (PROPADDRESS filled for few parcels), so it is not mapped.",
+  "verification": {
+    "verified_at": 1792049980278,
+    "counties": [
+      "26085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

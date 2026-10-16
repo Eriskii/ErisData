@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21177",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=875&LayerID=16557&PageTypeID=2&PageID=7308",
+    "https://beacon.schneidercorp.com/?site=MuhlenbergCountyKY",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0"
+  ],
+  "note": "Muhlenberg County (KY) parcel polygons are only published through the PVA's qPublic/Beacon Schneider viewer, which is a web app behind a bot challenge (HTTP 403) with no public ArcGIS REST or file download found. Kentucky's state server (kygisserver.ky.gov WGS84WM_Services folder) lists PVA parcel services only for Webster County; the KYTC PVA availability layer marks MUHLENBERG as 'With Ownership' but no Muhlenberg parcel service is published. Searches of ArcGIS Hub/Online for Muhlenberg parcels returned only roads, utilities, tourism and similar layers. Commercial vendors (Regrid, Dynamo, Acres) were not used since they are paid and not county-run.",
+  "recorded_at": 1792049891872,
+  "recheck_after": 1807601891872,
+  "model": "claude-haiku-5-5"
+}

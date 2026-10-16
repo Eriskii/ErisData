@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-evangeline",
+  "publisher": "Evangeline Parish (hosted parcel layer, Data for Evangeline Parish Site)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/1fGAZVgZnPx4zcNH/arcgis/rest/services/Evangeline_Parish/FeatureServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22039"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnumb",
+    "owner": "owner",
+    "acres": "ll_gisacre",
+    "assessed_value": "parval"
+  },
+  "notes": "Parcel layer from public ArcGIS FeatureServer, no token required. Fields appear Regrid-derived (ll_ prefix). Site address and land use codes are sparse in this layer (about half filled), so only apn, owner, acres and assessed value are mapped.",
+  "verification": {
+    "verified_at": 1792049855051,
+    "counties": [
+      "22039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

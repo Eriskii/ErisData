@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-greenwood",
+  "publisher": "Greenwood County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://greenwoodsc.gov/arcgis/rest/services/Operational_Layers/Hover_Snap_Map_Tips/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45047"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Owner",
+    "assessed_value": "MarketValue_Total"
+  },
+  "notes": "Parcel layer from county ArcGIS server, 39,386 features; no address field exposed in layer",
+  "verification": {
+    "verified_at": 1792051636978,
+    "counties": [
+      "45047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

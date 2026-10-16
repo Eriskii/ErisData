@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21081",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=GrantCountyKY&PageType=Search",
+    "https://www.oldkentucky.com/parcels/grant",
+    "https://assessorsearch.com/property-records/kentucky/grant-county",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp"
+  ],
+  "note": "Grant County KY (21081) parcels are published through the Schneider qPublic PVA viewer (JS-rendered, Cloudflare-blocked to automated access) and an ArcGIS webapp viewer whose item (a5fe04589adb43ccaa8b66fbb096f013) is inaccessible via the ArcGIS sharing API. No public ArcGIS REST parcel service or downloadable county parcel file was found: the Kentucky state server has PVA parcel services only for Webster and other counties (not Grant), the KGS/KyGeoNet PVA listing excludes Grant, and ArcGIS Hub/Online searches return only New Mexico's Grant County or commercial products (Regrid, Acres, DynamoSpatial). Grant parcels are sold commercially, not offered as a county service.",
+  "recorded_at": 1792049978315,
+  "recheck_after": 1807601978315,
+  "model": "claude-haiku-5-5"
+}

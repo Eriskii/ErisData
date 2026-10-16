@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ok-okfuskee",
+  "publisher": "Okfuskee County GIS (Hughes/Okfuskee/Seminole parcel data, hosted by ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/ep2pgCIk48QobVh6/arcgis/rest/services/Hughes_Okfuskee_Seminole_Parcel_Data_Updated/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40107"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNER",
+    "address": "SITUS",
+    "acres": "CALC_ACREA",
+    "land_use": "STATUS"
+  },
+  "filter": "COUNTY_NAM = 'Okfuskee'",
+  "notes": "Multi-county parcel layer (Hughes, Okfuskee, Seminole); filtered on COUNTY_NAM. Source fields include SITUS_CITY, ZIP_CODE, LEGAL_DSC1 and NOTES. STATUS is not land use. No assessed value field.",
+  "verification": {
+    "verified_at": 1792051453005,
+    "counties": [
+      "40107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

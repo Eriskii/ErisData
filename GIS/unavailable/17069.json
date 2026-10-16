@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "17069",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://app.regrid.com/store/us/il/hardin",
+    "https://maps.acres.com/plat-map/map/il/hardin-county-il",
+    "https://www.dynamospatial.com/c/hardin-county-il/parcel-data",
+    "https://tiles.arcgis.com/tiles/KzeiCaQsMoeCfoCq/arcgis/rest/services/Regrid_Nationwide_Parcel_Boundaries_v1/MapServer/0",
+    "https://www.gis-portal.org/il-hardin-county/",
+    "https://www.il-ccao.org/ccao/hardin-county/"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web. No official Hardin County IL parcel ArcGIS REST service or file download found. Greater Egypt GIS hub has no Hardin parcel layer. Only commercial/paid viewers and shapefile sellers (Regrid, Acres, Dynamo, Rockford Map) found. The Regrid nationwide ArcGIS Online MapServer layer returns metadata but has no query endpoint (404 on /query), so it cannot be used. Assessor's office publishes no GIS service in the sources checked.",
+  "recorded_at": 1792048974785,
+  "recheck_after": 1807600974785,
+  "model": "claude-haiku-5-5"
+}

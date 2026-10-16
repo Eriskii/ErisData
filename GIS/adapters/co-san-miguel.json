@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-san-miguel",
+  "publisher": "San Miguel County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aXqye4IXyXsdIpPb/arcgis/rest/services/TaxParcelsPublic/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08113"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "NAME1",
+    "acres": "NETACRES",
+    "land_use": "ACCTTYPE"
+  },
+  "notes": "San Miguel County CO tax parcels, public ArcGIS service from county open data hub. Situs address is sparsely populated, so not mapped.",
+  "verification": {
+    "verified_at": 1792048715181,
+    "counties": [
+      "08113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

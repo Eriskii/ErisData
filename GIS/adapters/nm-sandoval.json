@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-sandoval",
+  "publisher": "Sandoval County Assessor (SCMapping)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/CkhxOCyQmitz4nLa/arcgis/rest/services/Sandoval_County_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35043"
+    ]
+  },
+  "fields": {
+    "apn": "Account_No",
+    "owner": "Owner_List",
+    "acres": "Acrage"
+  },
+  "notes": "Sandoval County Assessor parcel layer (AssessorGIS_PROD sc_parcels); acres is a text string like 3.138 ac; no street address field in source; Parcel_ID is a parcel number",
+  "verification": {
+    "verified_at": 1792051363863,
+    "counties": [
+      "35043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

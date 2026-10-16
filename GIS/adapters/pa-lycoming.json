@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-lycoming",
+  "publisher": "Lycoming County GIS via PASDA (Penn State)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/LycomingCounty/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42081"
+    ]
+  },
+  "fields": {
+    "apn": "TXID_NMBR",
+    "address": "SITUS",
+    "acres": "DEED_ACRES"
+  },
+  "notes": "Source: PASDA Lycoming County Parcels 202603. Public service; no owner or assessed value fields published.",
+  "verification": {
+    "verified_at": 1792051523913,
+    "counties": [
+      "42081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

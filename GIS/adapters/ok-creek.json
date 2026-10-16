@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ok-creek",
+  "publisher": "Creek County, OK Assessor / INCOG",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map11.incog.org/arcgis11wa/rest/services/Parcels_CreekCo/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40037"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "acres": "acres",
+    "land_use": "propclass",
+    "assessed_value": "totalvalue"
+  },
+  "notes": "Parcel Boundary layer from INCOG ArcGIS server (Creek County parcels, about 46k features). Situs address is sparse in source (rural parcels), so not mapped. Source spatial reference EPSG:26914.",
+  "verification": {
+    "verified_at": 1792051446675,
+    "counties": [
+      "40037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

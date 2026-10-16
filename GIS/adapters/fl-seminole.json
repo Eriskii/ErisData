@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-seminole",
+  "publisher": "Florida Department of Health EHWATER Parcels service (Seminole County parcels, FDOR tax roll schema)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.floridahealth.gov/server/rest/services/EHWATER/Parcels/MapServer/58",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12117"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_NAME",
+    "address": "PHY_ADDR1",
+    "acres": "LND_SQFOOT",
+    "land_use": "DOR_UC",
+    "assessed_value": "AV_NSD"
+  },
+  "notes": "Seminole County parcels from FDOR-format tax roll; service is a single-county sublayer (ID 58).",
+  "verification": {
+    "verified_at": 1792049034986,
+    "counties": [
+      "12117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

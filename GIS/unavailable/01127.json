@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "01127",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://walker.alabamagis.com/walker/",
+    "https://www.alabamagis.com/walker/Frameset.cfm",
+    "https://services5.arcgis.com/fmKivMCp6fwbWbeE/arcgis/rest/services/2025_NSGIC_Parcel_Portal/FeatureServer/0"
+  ],
+  "note": "Walker County AL parcels are published only through the Flagship GIS proprietary public viewer (walker.alabamagis.com, fgis-map-102.flagshipcloud.com). Its ArcGIS-style REST endpoints return HTTP 500 and no parcel query endpoint is public. The NSGIC 2025 portal lists Walker's viewer URL with no REST API or download URL. The Alabama_Parcel_Data aggregate (services6) has no Walker layer. The Regrid nationwide MapServer returns 404 on query and is an aggregator, not the county source. No county-hosted parcel service was found in ArcGIS Hub/Online or web search.",
+  "recorded_at": 1792048428492,
+  "recheck_after": 1807600428492,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-lehigh",
+  "publisher": "Lehigh County GIS (via LeCo_Parcels_2024 hosted service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/eWJXbcaMRoaFxXQs/arcgis/rest/services/LeCo_Parcels_2024/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42077"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "address": "SITUS_ADDR",
+    "acres": "ACRES"
+  },
+  "notes": "Parcel boundary polygons, 2024 hosted copy. Owner and assessment fields exist only on the companion Parcel Owners point layer (FeatureServer/0), not mapped here.",
+  "verification": {
+    "verified_at": 1792051630983,
+    "counties": [
+      "42077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

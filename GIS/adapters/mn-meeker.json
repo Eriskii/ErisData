@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-meeker",
+  "publisher": "Meeker County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/pHb2Lre5eSy5plfE/arcgis/rest/services/Parcels_hub/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27093"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "NAME",
+    "address": "STREET",
+    "acres": "DEED_AC"
+  },
+  "notes": "Meeker County MN parcels via ArcGIS Hub (GDITAdmin). Fields: PID parcel id, NAME owner, STREET street name, DEED_AC deeded acres.",
+  "verification": {
+    "verified_at": 1792050902822,
+    "counties": [
+      "27093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

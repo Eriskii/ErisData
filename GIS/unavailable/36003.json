@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "36003",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://nysgeohub.ny.gov/arcgis/rest/services/Parcels/NYS_Tax_Parcels_Public/FeatureServer/1",
+    "https://www.alleganyco.gov/departments/planning/giscounty-mapping/",
+    "https://beacon.schneidercorp.com/Application.aspx?App=AlleganyCountyNY&PageType=Search",
+    "https://services3.arcgis.com/sWOFQF0OJXqBaDLq/arcgis/rest/services/Allegany_County_Potential_Brownfields/FeatureServer/0"
+  ],
+  "note": "Statewide NYS_Tax_Parcels_Public layer has zero Allegany features (COUNTY_NAME='Allegany' returns count 0; no SWIS 04* rows), so the adapter cannot pass. County GIS page only links to the Beacon (Schneider) viewer, which has no public ArcGIS REST parcel service. The only other ArcGIS layer for Allegany is a 107-point brownfield layer, not parcels. Commercial parcel data only (uslandgrid, mappingsolutionsgis).",
+  "recorded_at": 1792051521773,
+  "recheck_after": 1807603521773,
+  "model": "claude-haiku-5-5"
+}

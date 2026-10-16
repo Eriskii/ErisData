@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-mahaska",
+  "publisher": "Iowa DHS&EM statewide parcel layer (Mahaska County subset)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19123"
+    ]
+  },
+  "fields": {
+    "apn": "UNPARCELID",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Mahaska'",
+  "notes": "Statewide Iowa parcel layer 2017, filtered to Mahaska County by COUNTYNAME. Source is a public ArcGIS service.",
+  "verification": {
+    "verified_at": 1792049292189,
+    "counties": [
+      "19123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

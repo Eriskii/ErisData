@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "02-msb-mat-su-borough",
+  "publisher": "Matanuska-Susitna Borough GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.matsugov.us/map/rest/services/OpenData/Cadastral_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02170"
+    ]
+  },
+  "fields": {
+    "apn": "ACCOUNT",
+    "acres": "ACRES",
+    "assessed_value": "LANDASSD"
+  },
+  "notes": "Public Mat-Su Borough OpenData cadastral parcels layer; maxRecordCount 25000. APN field ACCOUNT is AGENCY for publicly held parcels, which dominate the validation sample area; owner names (OWNER_1) are blank there and so are not mapped.",
+  "verification": {
+    "verified_at": 1792048382879,
+    "counties": [
+      "02170"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

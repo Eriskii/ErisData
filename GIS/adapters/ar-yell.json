@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-yell",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 5,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "05149"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "countyfips = '149'",
+  "notes": "Statewide Arkansas GIS parcel polygons (not a legal boundary); filtered to Yell County (CountyFips 149). Updated twice yearly. Address (adrlabel) is blank for many rural parcels so not mapped. page_size 5 needed for stable offset paging on this server.",
+  "verification": {
+    "verified_at": 1792048564334,
+    "counties": [
+      "05149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

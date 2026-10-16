@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-gonzales",
+  "publisher": "Gonzales County GIS (GonzalesGIS, Gonzales County Appraisal District parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/zJLELbQdlhsJLcCM/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48177"
+    ]
+  },
+  "fields": {
+    "apn": "Account",
+    "owner": "Owner_Name",
+    "address": "Location_C",
+    "acres": "Acres",
+    "land_use": "Real_Class",
+    "assessed_value": "Market_Val"
+  },
+  "notes": "Gonzales County parcels, 2023 tax year, hosted by GonzalesGIS on ArcGIS Online",
+  "verification": {
+    "verified_at": 1792051702501,
+    "counties": [
+      "48177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

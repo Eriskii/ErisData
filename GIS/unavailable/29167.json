@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "29167",
+  "reason": "login-required",
+  "evidence": [
+    "https://services3.integritygis.com/arcgis/rest/services/MO/Polk_Assessor_Data_Integrity/MapServer",
+    "https://services3.integritygis.com/arcgis/rest/services/MO/Polk_Assessor_Data_Integrity/MapServer/10",
+    "https://polkgis.integritygis.com/H5/Index.html?viewer=polk",
+    "https://polkcountymo.gov/assessors-office/",
+    "https://gis.polk-county.net/hosting/rest/services/POLK_PARCEL_BOUNDARIES_MIL1/MapServer/0"
+  ],
+  "note": "Polk County MO's assessor parcel service (Polk_Assessor_Data_Integrity on services3.integritygis.com, which backs the county's public GIS viewer) returns 'Token Required' at the service root and at the Parcel sublayer, so it is not publicly queryable. The county's gis.polk-county.net host serves Polk County, Florida parcels (coordinates around -82.08, 28.19), not Missouri. No other public parcel service for Polk County MO was found; the only parcel data offered is paid third-party download, which I did not use.",
+  "recorded_at": 1792051160889,
+  "recheck_after": 1807603160889,
+  "model": "claude-haiku-5-5"
+}

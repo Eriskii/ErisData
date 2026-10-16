@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-potter",
+  "publisher": "Potter County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.pottercountypa.net/arcgis/rest/services/TaxParcel/TaxParcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42105"
+    ]
+  },
+  "fields": {
+    "apn": "Map_Number",
+    "owner": "Owner_Name_1",
+    "address": "Situs_Complete",
+    "acres": "Acreage",
+    "land_use": "Land_Use_Code",
+    "assessed_value": "Current_Total_Value"
+  },
+  "notes": "Potter County PA ArcGIS Enterprise TaxParcels layer; no login required",
+  "verification": {
+    "verified_at": 1792051549188,
+    "counties": [
+      "42105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ky-jefferson",
+  "publisher": "Louisville Metro / Jefferson County PVA via LOJIC",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lojic.org/maps/rest/services/LojicSolutions/OpenDataPVA/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21111"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID"
+  },
+  "notes": "Jefferson County KY Parcels from LOJIC OpenDataPVA MapServer layer 1; updated daily; PVA maintained. Only parcel id and PIN fields published in this layer.",
+  "verification": {
+    "verified_at": 1792049816447,
+    "counties": [
+      "21111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

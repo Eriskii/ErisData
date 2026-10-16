@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ne-jefferson",
+  "publisher": "Nebraska Tax Parcels (University of Nebraska layer, county assessor CAMA data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/jzdN07B7ZhRTxuzU/arcgis/rest/services/Layers_Data_WFL1/FeatureServer/29",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31095"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "Current_Owner_Name",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '095'",
+  "notes": "Statewide Nebraska parcel compilation; Jefferson County rows selected by County_ID 095. Situs address is sparsely populated in source, so not mapped.",
+  "verification": {
+    "verified_at": 1792051148613,
+    "counties": [
+      "31095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

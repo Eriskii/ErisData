@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sd-day",
+  "publisher": "Day County GIS (District III)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/DAY_COUNTY_WEB_LAYERS/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46037"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "TC_OWNER",
+    "acres": "A1_ACRES",
+    "land_use": "A1_CLASS1",
+    "assessed_value": "A1_TOTAL"
+  },
+  "notes": "Day County SD web viewer layer hosted by District III; PARCELS layer of the county web layers MapServer. Owner from tax-cert field TC_OWNER. Situs address field is sparsely populated in source, so not mapped.",
+  "verification": {
+    "verified_at": 1792051628621,
+    "counties": [
+      "46037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

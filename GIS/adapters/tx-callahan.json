@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-callahan",
+  "publisher": "Callahan Central Appraisal District (via ArcGIS CADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/W7qqCKXBmbtc0d4r/arcgis/rest/services/CallahanCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48059"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Appraisal district web service; 12,732 parcels. Address field is street name only (situs_num separate).",
+  "verification": {
+    "verified_at": 1792051655682,
+    "counties": [
+      "48059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

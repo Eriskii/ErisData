@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-miller",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program, Miller County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05091"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '091'",
+  "notes": "Statewide parcel polygon layer filtered to Miller County (countyfips 091). Not a legal boundary; for ad valorem assessment use. Updated twice a year.",
+  "verification": {
+    "verified_at": 1792048523039,
+    "counties": [
+      "05091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

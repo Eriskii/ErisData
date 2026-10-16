@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-randolph",
+  "publisher": "Randolph County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.randolphcountync.gov/arcgis/rest/services/PW/PW_ParcelMap/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37151"
+    ]
+  },
+  "fields": {
+    "apn": "REID",
+    "owner": "ACCT_NAME",
+    "address": "LOCADDRESS",
+    "acres": "TAX_ACRES"
+  },
+  "notes": "County parcel layer from PW_ParcelMap; fields from county service. Owner mailing address in ACCT_ADDR, ACCT_CITY, ACCT_STATE, ACCT_ZIP.",
+  "verification": {
+    "verified_at": 1792051374807,
+    "counties": [
+      "37151"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

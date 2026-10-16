@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-orleans",
+  "publisher": "City of New Orleans GIS / Orleans Parish Assessor",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.nola.gov/server/rest/services/Assessor/Landbase_Layers/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22071"
+    ]
+  },
+  "fields": {
+    "apn": "GEOPIN",
+    "address": "SITUS_STREET",
+    "acres": "ACRES"
+  },
+  "notes": "Parcel layer maintained by Orleans Parish Assessor, shared with City; updated weekly. Situs address is split into SITUS_NUMBER, SITUS_DIR, SITUS_STREET, SITUS_TYPE. No owner or value fields in this layer.",
+  "verification": {
+    "verified_at": 1792049841654,
+    "counties": [
+      "22071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

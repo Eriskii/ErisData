@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-dyer",
+  "publisher": "Dyer County GIS (via TN County Parcel Map, HNTB-hosted)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/63",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47045"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_23_PARCELID",
+    "owner": "Assessment_Data_23_OWNER",
+    "address": "Assessment_Data_23_ADDRESS",
+    "acres": "Parcels_CALC_ACRE",
+    "land_use": "Assessment_Data_23_CLASS",
+    "assessed_value": "Assessment_Data_23_APPRAISAL"
+  },
+  "notes": "Dyer County layer from TN statewide county parcel map service; assessment attributes joined. land_use from CLASS (LANDUSE is sparsely filled).",
+  "verification": {
+    "verified_at": 1792051950988,
+    "counties": [
+      "47045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-martin",
+  "publisher": "NC OneMap (NC Center for Geographic Information & Analysis) - Martin County parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37117"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "assessed_value": "parval"
+  },
+  "filter": "cntyfips = '117'",
+  "notes": "Statewide NC OneMap parcel layer filtered to county FIPS 117",
+  "verification": {
+    "verified_at": 1792051363088,
+    "counties": [
+      "37117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

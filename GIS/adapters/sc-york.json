@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sc-york",
+  "publisher": "York County SC Tax Assessor / GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/2AGLxyiJoNiVHKwq/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45091"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "Owner1",
+    "address": "PropertyAddress",
+    "acres": "GISSizeAC",
+    "land_use": "LandUse",
+    "assessed_value": "AprTotVal"
+  },
+  "notes": "Authoritative York County SC tax parcel layer from ArcGIS Hub (yorkcountysc_gisonline). Public.",
+  "verification": {
+    "verified_at": 1792051706602,
+    "counties": [
+      "45091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-potter",
+  "publisher": "Potter-Randall Appraisal District via City of Amarillo",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Vdk8uHgdgYx8ZqS6/arcgis/rest/services/TaxAccountParcelsArcGISOnline/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48375"
+    ]
+  },
+  "fields": {
+    "apn": "PROP_ID",
+    "owner": "Tyler_OWNER_NAME",
+    "land_use": "PARCEL_TYPE"
+  },
+  "filter": "COUNTY = 'POTTER'",
+  "notes": "Potter-Randall Appraisal District tax account parcels, hosted by City of Amarillo; situs street field largely blank, so address not mapped",
+  "verification": {
+    "verified_at": 1792052532465,
+    "counties": [
+      "48375"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "mi-gladwin",
+  "publisher": "Gladwin County, MI (GladwinParcels_SS_SAD070325 feature service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/edGXqVKidagzAIPB/arcgis/rest/services/GladwinParcels_SS_SAD070325/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26051"
+    ]
+  },
+  "fields": {
+    "apn": "par_id"
+  },
+  "notes": "Public ArcGIS layer found via ArcGIS Hub; no access restriction stated. Source CRS 2252; runtime requests lon/lat. Owner and land-use fields are mostly empty in this layer, so not mapped.",
+  "verification": {
+    "verified_at": 1792049958933,
+    "counties": [
+      "26051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

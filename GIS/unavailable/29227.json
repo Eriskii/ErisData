@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "29227",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.gismaps.org/mo-worth-county/",
+    "https://app.regrid.com/store/us/mo/worth",
+    "https://www.dynamospatial.com/c/worth-county-mo/parcel-data",
+    "https://www.acres.com/plat-map/map/mo/worth-county-mo",
+    "https://services6.arcgis.com/6hR3ncgZytDB2gKA/arcgis/rest/services/Apex_Missouri_Parcels/FeatureServer/2"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Worth County MO parcels. No public ArcGIS REST parcel service found: the Apex Missouri parcels layer has no Worth County features, the Missouri viewer web map has no Worth parcel layer, and the Worth County GIS/assessor resources are only paid aggregators (Regrid, DynamoSpatial) or plat viewers with no service URL.",
+  "recorded_at": 1792051100007,
+  "recheck_after": 1807603100007,
+  "model": "claude-haiku-5-5"
+}

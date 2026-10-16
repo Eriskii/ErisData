@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-winnebago",
+  "publisher": "Iowa DHS&EM statewide parcels (Winnebago County extract)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19189"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'WINNEBAGO'",
+  "notes": "2017 statewide data; no address/acres/value",
+  "verification": {
+    "verified_at": 1792049389054,
+    "counties": [
+      "19189"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

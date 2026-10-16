@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29069",
+  "reason": "login-required",
+  "evidence": [
+    "https://services3.arcgis.com/4YDNe1fbBW9TMNTu/arcgis/rest/services/AGOL_Dunklin_County_MO/FeatureServer/3",
+    "https://services4.integritygis.com/arcgis/rest/services/MO/Dunklin_Assessor_Data/MapServer",
+    "https://dunklin.integritygis.com/",
+    "https://services3.arcgis.com/4YDNe1fbBW9TMNTu/arcgis/rest/services/AGOL_Dunklin_County_MO/FeatureServer/1"
+  ],
+  "note": "Dunklin County's full parcel layer (Dunklin_Assessor_Data, linked via the county's integritygis GIS site and Geocortex directories) returns 'Token Required', so it is not publicly queryable. The only public parcel polygon layer found (AGOL_Dunklin_County_MO/parcels_20220428, 14,767 features) does not represent the county: its extent runs east to -89.32 beyond Dunklin's boundary, it has Sikeston (Scott County) addresses, only about 917 features fall inside Dunklin's envelope, and none are in Kennett. It failed the interior-point and in-county validation checks. Commercial vendors (Regrid, Dynamo, Rockford, Acres) are paid and are not county services.",
+  "recorded_at": 1792051027928,
+  "recheck_after": 1807603027928,
+  "model": "claude-haiku-5-5"
+}

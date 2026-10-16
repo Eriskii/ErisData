@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "fips": "40153",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://woodward.okcounties.org/maps",
+    "https://woodward.okcounties.org/",
+    "https://ok-county-gis-hub-ok-co.hub.arcgis.com/",
+    "https://www.dynamospatial.com/c/woodward-county-ok/parcel-data",
+    "https://rockfordmap.com/maps/oklahoma-woodward-county/",
+    "https://app.datacrosspoint.com/properties/woodward",
+    "https://gis.equatorstudios.com/oklahoma_woodward/",
+    "https://ogidev.okmaps.org/OGI/RestDataAccessItem.aspx?UUID=7c55e990-048e-499d-a20c-58fc5b730562"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Woodward parcel service found) and web. Woodward County's official site (woodward.okcounties.org) has only a commissioner-district map and links to land/tax record search sites; no public parcel REST service. Woodward parcels are sold by commercial vendors (Dynamo Spatial shapefile, Rockford Map, Regrid, Equator Studios, DataCrosspoint/Landmark GSI tile viewer). Statewide OGI Parcels dataset is view-only/WMS with no download or REST query.",
+  "recorded_at": 1792051518484,
+  "recheck_after": 1807603518484,
+  "model": "claude-haiku-5-5"
+}

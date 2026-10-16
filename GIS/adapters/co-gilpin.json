@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "co-gilpin",
+  "publisher": "Gilpin County GIS (Legacy Tax Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gilpincounty.org/server/rest/services/Hosted/Legacy_Tax_Parcels_of_Gilpin_County_Colorado/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08047"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "acres": "calcacre"
+  },
+  "notes": "Legacy tax parcels, county hosted service. Sample area is mostly public land and right-of-way with blank owner/value; owner (about a third of records in sample) and assessed value are sparse in the layer and are omitted.",
+  "verification": {
+    "verified_at": 1792048689682,
+    "counties": [
+      "08047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

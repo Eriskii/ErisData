@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ar-izard",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 100,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "05065"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "acres": "Shape__Area",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '065'",
+  "notes": "Statewide AR parcel polygons from AR GIS Office CAMA; not a legal boundary; filtered to countyfips 065",
+  "verification": {
+    "verified_at": 1792048498209,
+    "counties": [
+      "05065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

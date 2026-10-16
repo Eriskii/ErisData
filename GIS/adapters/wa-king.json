@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wa-king",
+  "publisher": "King County GIS (public FeatureServer copy kc_parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/ehqDdz3tYh5QLTaC/arcgis/rest/services/kc_parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "KCA_ACRES",
+    "land_use": "PREUSE_DESC",
+    "assessed_value": "APPRLNDVAL"
+  },
+  "notes": "King County Property Parcels (KC Assessor data) from public FeatureServer copy; ADDR_FULL is filled only for improved parcels so it is not mapped; no owner field in source; official KingCo_Parcels MapServer has only PIN and no address/owner",
+  "verification": {
+    "verified_at": 1792053158196,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-effingham",
+  "publisher": "Effingham County GA (via ArcGIS Online parcels layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/9Z9r3rLUCq0SjsRb/arcgis/rest/services/Effingham_County_GA_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13103"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "LASTNAME",
+    "address": "StreetAdd",
+    "acres": "ACRES",
+    "land_use": "DIGCLASS",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Tax parcels, Effingham County GA assessor data; county-wide layer",
+  "verification": {
+    "verified_at": 1792048762825,
+    "counties": [
+      "13103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

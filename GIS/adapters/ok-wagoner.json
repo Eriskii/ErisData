@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ok-wagoner",
+  "publisher": "Wagoner County GIS (ENERGOV_FS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/isyssYY3DsxBggm1/arcgis/rest/services/ENERGOV_FS/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40145"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERS",
+    "acres": "LOTSIZE",
+    "land_use": "CLASS",
+    "assessed_value": "TOTALV"
+  },
+  "notes": "Public ArcGIS layer published by Wagoner County; PARCELS layer of ENERGOV_FS service. SITUS situs address is sparsely populated, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792051516984,
+    "counties": [
+      "40145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

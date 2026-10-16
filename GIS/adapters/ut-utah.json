@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ut-utah",
+  "publisher": "Utah County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Parcels/Parcel_TaxParcels/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER_NAME",
+    "acres": "ACREAGE",
+    "land_use": "PROP_TYPE_DESCR",
+    "assessed_value": "MKT_CUR_VALUE"
+  },
+  "notes": "Utah County Assessor tax parcels from the county live ArcGIS service; attributes from tax roll. Site address is blank for many vacant parcels, so it is not mapped.",
+  "verification": {
+    "verified_at": 1792051785782,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-pawnee",
+  "publisher": "Pawnee County Assessor (gWorks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Pawnee_County_NE_Assessor/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31133"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "Pawnee County NE assessor parcels via gWorks ArcGIS server; layer has only PID and acres fields",
+  "verification": {
+    "verified_at": 1792051175699,
+    "counties": [
+      "31133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

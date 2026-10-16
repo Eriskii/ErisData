@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72067",
+  "reason": "login-required",
+  "evidence": [
+    "https://catastro.crimpr.net/server/rest/services/Parcelario",
+    "https://services.arcgis.com/85ZqtFFgqCh5li9K/arcgis/rest/services/Parcelario_23_02_18/FeatureServer",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim"
+  ],
+  "note": "CRIM's official parcel services (catastro.crimpr.net Parcelario/Planimetria/Operaciones/Hosted folders and the services.arcgis.com Parcelario_23_02_18 item) return 'Token Required'. The only public copy, sigejp.pr.gov crim_parcelas MapServer, returns 'Service not started' (HTTP 500) on every attempt including spec validate, and the sigejp crim folder now lists no services; the old satasgis.crimpr.net host 404s/is unreachable.",
+  "recorded_at": 1792052181110,
+  "recheck_after": 1807604181110,
+  "model": "claude-sonnet-5-5"
+}

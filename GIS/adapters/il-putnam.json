@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-putnam",
+  "publisher": "Putnam County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Z2F3lckKXNBvWQZU/arcgis/rest/services/Parcel/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17155"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "OwnerName",
+    "address": "SiteAddress",
+    "acres": "TotalAcres",
+    "land_use": "class"
+  },
+  "notes": "Putnam County IL parcel layer hosted by county on ArcGIS Online",
+  "verification": {
+    "verified_at": 1792048987825,
+    "counties": [
+      "17155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

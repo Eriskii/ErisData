@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mi-clinton",
+  "publisher": "Clinton County, MI (via Tri-County Regional Planning Commission)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/f1RRY3KdfLkWdWvF/arcgis/rest/services/Clinton_Parcels_2025_Public_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26037"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "acres": "AREA"
+  },
+  "notes": "Clinton County MI parcels 2025, received from Tri-County Regional Planning Commission 06/04/2025. Source exposes only parcel number and area; no owner/address fields.",
+  "verification": {
+    "verified_at": 1792049932969,
+    "counties": [
+      "26037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

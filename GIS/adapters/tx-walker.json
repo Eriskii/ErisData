@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-walker",
+  "publisher": "Walker County Appraisal District (BIS Consulting)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/hEVWOxh6v1J8BInI/arcgis/rest/services/WalkerCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48471"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Walker CAD public ArcGIS web service; parcels layer of WalkerCADWebService",
+  "verification": {
+    "verified_at": 1792051754186,
+    "counties": [
+      "48471"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

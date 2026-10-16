@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "mi-otsego",
+  "publisher": "Otsego County, MI (parcel layer hosted by MSU GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/uHAHKfH1Z5ye1Oe0/arcgis/rest/services/mi_otsego1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26137"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnumb",
+    "owner": "owner",
+    "address": "address",
+    "acres": "gisacre",
+    "land_use": "usecode",
+    "assessed_value": "parval"
+  },
+  "filter": "county = 'otsego'",
+  "notes": "Parcel layer served from MSU ArcGIS Online account; attributes appear to derive from a national parcel aggregator. Filtered to county=otsego.",
+  "verification": {
+    "verified_at": 1792050048139,
+    "counties": [
+      "26137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

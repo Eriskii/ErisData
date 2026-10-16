@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "or-wallowa",
+  "publisher": "Wallowa County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/IMdJDKFYUN1k5T2P/arcgis/rest/services/Taxlots_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41063"
+    ]
+  },
+  "fields": {
+    "apn": "Taxlot"
+  },
+  "filter": "Taxlot IS NOT NULL AND OBJECTID NOT IN (173771,173695,173841,173690)",
+  "notes": "Only taxlot number published",
+  "verification": {
+    "verified_at": 1792052526088,
+    "counties": [
+      "41063"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

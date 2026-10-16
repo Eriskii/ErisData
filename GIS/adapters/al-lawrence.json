@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "al-lawrence",
+  "publisher": "Lawrence County AL (via Parcels_North_Alabama, ALS DWG files)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/y6YW10u0XkJDr4YY/arcgis/rest/services/Parcels_North_Alabama/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01079"
+    ]
+  },
+  "fields": {
+    "apn": "Handle"
+  },
+  "notes": "Parcel polygons derived from ALS CAD/DWG files (Lawrence layer of a 4-county service, Q1 2018 vintage). Handle is the CAD entity handle, not the tax parcel number. No owner, address, land use or value attributes are published in this service.",
+  "verification": {
+    "verified_at": 1792048343441,
+    "counties": [
+      "01079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

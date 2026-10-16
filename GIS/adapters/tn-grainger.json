@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-grainger",
+  "publisher": "Grainger County GIS (via TN County Parcel Map, HNTB)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/58",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47057"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_29_PARCELID",
+    "owner": "Assessment_Data_29_OWNER",
+    "address": "Assessment_Data_29_ADDRESS",
+    "acres": "Parcels_CALC_ACRE",
+    "land_use": "Assessment_Data_29_LANDUSE",
+    "assessed_value": "Assessment_Data_29_APPRAISAL"
+  },
+  "notes": "Grainger County layer from the TN County Parcel Map FeatureServer; parcels joined to assessment data. Single-county layer, no filter needed.",
+  "verification": {
+    "verified_at": 1792052001726,
+    "counties": [
+      "47057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

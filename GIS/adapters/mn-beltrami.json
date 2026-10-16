@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "mn-beltrami",
+  "publisher": "Beltrami County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.co.beltrami.mn.us/arcgis/rest/services/BeltramiData/BeltramiOpenData/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27007"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNERNAME1",
+    "address": "PROP_ADD1",
+    "acres": "ACRES_POLY",
+    "land_use": "USE1_DESC",
+    "assessed_value": "EMV_TTL"
+  },
+  "filter": "PIN <> 'RED LAKE RESERVATION'",
+  "notes": "County open data tax parcels; refreshed nightly. Excludes the Red Lake Reservation polygon (not a parcel).",
+  "verification": {
+    "verified_at": 1792050917781,
+    "counties": [
+      "27007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

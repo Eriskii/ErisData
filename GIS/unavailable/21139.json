@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21139",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=LivingstonCountyKY&Layer=Parcels&PageType=Search",
+    "https://livingstoncountypva.com/",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://kygisserver.ky.gov/arcgis/rest/services?f=sitemap",
+    "https://app.regrid.com/store/us/ky/livingston"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Livingston KY parcel layer), KyGeoNet/kygisserver (state PVA parcel services exist only for Webster and others, not Livingston; KGS list of nine county PVA services excludes Livingston), and Kentucky_DGI services (Webster only). Livingston County's parcel viewer is Schneider qPublic (LivingstonCountyKY), behind a bot-check with no public REST parcel service. Only commercial vendors (Regrid, AcreValue, Acres, FBN, Rockford, Equator) offer Livingston parcels, under license; Regrid's nationwide tile service is not publicly queryable.",
+  "recorded_at": 1792049937858,
+  "recheck_after": 1807601937858,
+  "model": "claude-haiku-5-5"
+}

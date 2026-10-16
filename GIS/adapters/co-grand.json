@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "co-grand",
+  "publisher": "Grand County GIS (CO)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.grand.co.us:6443/arcgis/rest/services/GrandCoParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08049"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER1"
+  },
+  "notes": "Grand County CO parcels from county GIS MapServer; about 28,959 parcels; updated monthly; situs address (GIS_ADD) sparsely populated so not mapped; county limits on sharing data with outside agencies apply",
+  "verification": {
+    "verified_at": 1792048679309,
+    "counties": [
+      "08049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

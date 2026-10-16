@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mo-osage",
+  "publisher": "Osage County, MO GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/bHCR7EW2rtRWmtnn/arcgis/rest/services/Osage_County_Field_Map_6_18_2025_WFL1/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29151"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELPIN",
+    "owner": "DEED_HOLDE",
+    "address": "SITUS_ADDR",
+    "acres": "DEEDED_ACR",
+    "land_use": "CLASS",
+    "assessed_value": "PY_TOTAL_V"
+  },
+  "notes": "Osage County field map parcel layer; PY = prior year values",
+  "verification": {
+    "verified_at": 1792051034144,
+    "counties": [
+      "29151"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-otter-tail",
+  "publisher": "Otter Tail County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://web2.co.ottertail.mn.us/arcgis/rest/services/LandInformation/LandlgimH/MapServer/25",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27111"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNNAME",
+    "acres": "ACRES",
+    "land_use": "TPCLS1_DSC"
+  },
+  "notes": "Otter Tail County MN land info parcel layer; reference use only, not a legal document; public ArcGIS REST service. Physical address sparse in source (rural parcels), so address is not mapped.",
+  "verification": {
+    "verified_at": 1792050889811,
+    "counties": [
+      "27111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

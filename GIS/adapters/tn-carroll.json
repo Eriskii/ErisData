@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tn-carroll",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (STS-GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47017"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "notes": "Statewide TN layer; sampled parcels around a point inside Carroll County (COUNTY_ID 9). No where filter.",
+  "verification": {
+    "verified_at": 1792052738362,
+    "counties": [
+      "47017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

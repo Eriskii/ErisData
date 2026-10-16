@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ks-mitchell",
+  "publisher": "Mitchell County, Kansas GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Acs1p0HMMkJAKf35/arcgis/rest/services/MC_PARCEL/FeatureServer/1310",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20123"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "owner": "PartyName",
+    "address": "SitusAddress",
+    "acres": "ACREAGE",
+    "land_use": "fpropclass"
+  },
+  "notes": "Mitchell County KS GIS (experience c86b811e922848d58ef2cfd110acf0b9). PIN also available.",
+  "verification": {
+    "verified_at": 1792049332156,
+    "counties": [
+      "20123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

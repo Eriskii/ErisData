@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-union",
+  "publisher": "Union County GIS (via TN County Parcel Map, HNTB)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47173"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_87_PARCELID",
+    "owner": "Assessment_Data_87_OWNER",
+    "address": "Assessment_Data_87_ADDRESS",
+    "acres": "Parcels_CALC_ACRE",
+    "land_use": "Assessment_Data_87_LANDUSE",
+    "assessed_value": "Assessment_Data_87_APPRAISAL"
+  },
+  "notes": "Union County layer from TN County Parcel Map service; assessment attributes joined by GISLINK",
+  "verification": {
+    "verified_at": 1792052600850,
+    "counties": [
+      "47173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

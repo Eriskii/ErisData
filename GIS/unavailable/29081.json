@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29081",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.mo.gov/arcgis/rest/services/OA/FMDCrealEstate_StateOwnedParcels/MapServer/0/query?where=COUNTYNAME%3D%27HARRISON%27&outFields=COUNTYNAME,COUNTYFIPS,HasData,FULLPARCELS&f=json (state parcel map: Harrison HasData=N, FULLPARCELS=N)",
+    "https://countygismaps.com/mo/harrison (states Harrison County parcel records are not yet available)",
+    "https://harrison.countygis.org (resolves to Harrison County, Ohio GIS, not Missouri)",
+    "https://app.regrid.com/store/us/mo/harrison and https://maps.acres.com/plat-map/map/mo/harrison-county-mo (commercial vendors only, not county-published services)"
+  ],
+  "note": "Searched ArcGIS Hub/Online, MSDIS, state GIS (gis.mo.gov), county assessor and government pages, and neighbouring-county vendors. The only Missouri statewide parcel layer flags Harrison as having no parcel data; the remaining parcel sources are commercial aggregators. The gis.mo.gov allParcels Feature Service listed in ArcGIS Online returned 404 on every path tried.",
+  "recorded_at": 1792051048742,
+  "recheck_after": 1807603048742,
+  "model": "claude-haiku-5-5"
+}

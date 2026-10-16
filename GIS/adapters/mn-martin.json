@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-martin",
+  "publisher": "Martin County MN (parcel layer hosted on ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/04HiymDgLlsbhaV4/arcgis/rest/services/POM_OH1_JUNE_2026_GIS_Station_Online_WFL1/FeatureServer/48",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27091"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "owner",
+    "address": "address",
+    "acres": "acreage_calc",
+    "land_use": "land_use_class"
+  },
+  "notes": "Martin County MN parcels (ReportAll layer) in a public ArcGIS Online feature service",
+  "verification": {
+    "verified_at": 1792050913710,
+    "counties": [
+      "27091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

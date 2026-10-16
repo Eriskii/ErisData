@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-lubbock",
+  "publisher": "Lubbock County Appraisal District via TxGIO StratMap (BIS Consultants)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/TjA0ysuXmC5nducZ/arcgis/rest/services/Lubbock_Co_TrimmedDown/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48303"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "assessed_value": "MKT_VALUE"
+  },
+  "notes": "TxGIO StratMap annual land parcels from Lubbock CAD via BIS Consultants; land use not populated in source",
+  "verification": {
+    "verified_at": 1792051710636,
+    "counties": [
+      "48303"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

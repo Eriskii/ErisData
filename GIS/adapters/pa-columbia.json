@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "pa-columbia",
+  "publisher": "Columbia County Land Information Department (via PASDA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/ColumbiaCounty/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42037"
+    ]
+  },
+  "fields": {
+    "apn": "PIN"
+  },
+  "notes": "PASDA 2024 release of Columbia County tax parcels; source exposes only PIN plus edit metadata, no owner/address fields",
+  "verification": {
+    "verified_at": 1792051532501,
+    "counties": [
+      "42037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

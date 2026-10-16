@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "15005",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://geodata.hawaii.gov/arcgis/rest/services/ParcelsZoning/MapServer/25",
+    "https://files.hawaii.gov/dbedt/op/gis/data/tmk_state.pdf",
+    "https://health.hawaii.gov/wastewater/home/tmk-guide/",
+    "https://en.wikipedia.org/wiki/Kalawao_County,_Hawaii"
+  ],
+  "note": "Kalawao County publishes no parcel service. The statewide queryable TMK layer (ParcelsZoning/MapServer/25, 384k features) has county values only Maui, Hawaii, Honolulu and Kauai; a query on county LIKE 'Kalawao' returns 0. The point area around -156.95,21.17 is tagged Maui County (zone 6, MOL). Kalawao is administered by the Hawaii Department of Health with no county assessor parcel database, and the TMK guide does not list Kalawao.",
+  "recorded_at": 1792048915231,
+  "recheck_after": 1807600915231,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-hemphill",
+  "publisher": "TxGIO / TNRIS StratMap land parcels (from Hemphill Appraisal District data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "48211"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA"
+  },
+  "filter": "COUNTY LIKE 'HEMPHILL%'",
+  "notes": "Statewide TxGIO land parcels compiled from Hemphill Appraisal District data (TAX_YEAR 2024). Land use and market value are sparse in source and omitted.",
+  "verification": {
+    "verified_at": 1792053555504,
+    "counties": [
+      "48211"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

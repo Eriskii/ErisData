@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "al-cullman",
+  "publisher": "Cullman County GIS (via Good Hope Zoning Map Layers service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/jF2q3LPxL7PETdYk/arcgis/rest/services/Good_Hope_Zoning_Map_Layers/FeatureServer/130",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01043"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "acres": "CALC_ACRE"
+  },
+  "notes": "TaxParcel layer 130 in hosted Good Hope service; 61840 features; owner and address fields not present in this layer",
+  "verification": {
+    "verified_at": 1792048342543,
+    "counties": [
+      "01043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

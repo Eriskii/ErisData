@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-montgomery",
+  "publisher": "Montgomery County, NC (via Garver-hosted ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/eNPJk90aMrXNOKF8/arcgis/rest/services/Montgomery_County_NC_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37123"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Name_1",
+    "address": "PhyAddress",
+    "acres": "ACRES",
+    "land_use": "ClassCdDes",
+    "assessed_value": "TotASVCur"
+  },
+  "notes": "Montgomery County NC parcel layer; 30k features; PIN is dashed parcel id, PinNoDash is undashed",
+  "verification": {
+    "verified_at": 1792051369435,
+    "counties": [
+      "37123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

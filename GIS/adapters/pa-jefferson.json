@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-jefferson",
+  "publisher": "Jefferson County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/qXvbYftT9ld1YWzi/arcgis/rest/services/Jefferson_County_Parcels_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42065"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelId",
+    "owner": "OwnerName",
+    "address": "AdrLabel",
+    "land_use": "ParcelType",
+    "assessed_value": "AssesValue"
+  },
+  "notes": "Provided by Jefferson County GIS, zipped file 12/2/2025; hosted via Hub feature service",
+  "verification": {
+    "verified_at": 1792051655011,
+    "counties": [
+      "42065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

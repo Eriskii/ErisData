@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "72127",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_feb_2025/MapServer"
+  ],
+  "note": "CRIM's San Juan parcel services (crim_parcelas, crim_feb_2025) return 'Service not started'; the old satasgis.crimpr.net host and sige.pr.gov are unreachable; the only other public CRIM parcel layer on AGOL covers Bayamon only (validated, 2 parcels in San Juan bbox).",
+  "recorded_at": 1792053447002,
+  "recheck_after": 1807605447002,
+  "model": "claude-sonnet-5-5"
+}

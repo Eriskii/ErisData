@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ak-anchorage",
+  "publisher": "Municipality of Anchorage",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/Ce3DhLRthdwbHlfF/arcgis/rest/services/PropertyInformation_Hosted/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02020"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "Owner_Name",
+    "address": "Parcel_Address",
+    "land_use": "Land_Use",
+    "assessed_value": "Appraised_Total_Value"
+  },
+  "notes": "Municipality of Anchorage property information (CAMA appraisal data), updated weekly; public. Appraisal_Year field present; may contain multiple years.",
+  "verification": {
+    "verified_at": 1792048939244,
+    "counties": [
+      "02020"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

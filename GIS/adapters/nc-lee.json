@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-lee",
+  "publisher": "Lee County GIS (NC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://lee-arcgis.leecountync.gov/arcgis/rest/services/ParcelsPictometryTyler/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37105"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Owner1",
+    "address": "PropAddr",
+    "acres": "ACRES",
+    "assessed_value": "APRTOT"
+  },
+  "notes": "Lee County NC Tyler/Pictometry parcel layer; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792051365679,
+    "counties": [
+      "37105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

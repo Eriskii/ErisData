@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-jefferson",
+  "publisher": "Iowa DHSEM statewide parcels 2017 (Jefferson County subset)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19101"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'JEFFERSON'",
+  "notes": "Statewide 2017 parcels filtered to Jefferson County. Source has no site address field; 2017 snapshot.",
+  "verification": {
+    "verified_at": 1792049314292,
+    "counties": [
+      "19101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

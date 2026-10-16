@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-dewitt",
+  "publisher": "De Witt County GIS (Sidwell Portico)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/Parcel_DeWittIL/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17039"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "PrimaryName",
+    "address": "PrimaryAddress",
+    "acres": "Acreage",
+    "land_use": "UseCode"
+  },
+  "notes": "Public ArcGIS layer behind the De Witt County parcel viewer (Sidwell). address is PrimaryAddress (owner mailing address; SiteAddress is mostly blank). Source fields pin, AlternateParcelNumber, SiteAddress also available.",
+  "verification": {
+    "verified_at": 1792048984103,
+    "counties": [
+      "17039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

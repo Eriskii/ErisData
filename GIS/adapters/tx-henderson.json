@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-henderson",
+  "publisher": "Henderson County Appraisal District (via ArcGIS Online, bis_HendersonCAD)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/4x7oelC9W8TNucjG/arcgis/rest/services/HendersonCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48213"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_num",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Henderson CAD parcel layer; polygons served in Texas State Plane feet, reprojected by service",
+  "verification": {
+    "verified_at": 1792051694377,
+    "counties": [
+      "48213"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-oakland",
+  "publisher": "Oakland County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.oakgov.com/arcgis/rest/services/Enterprise/EnterpriseOpenParcelDataMapService/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26125"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "address": "SITEADDRESS",
+    "land_use": "CLASSCODE",
+    "assessed_value": "ASSESSEDVALUE"
+  },
+  "notes": "Oakland County open parcel data (Tax Parcel Plus), MapServer layer 1. Owner names are withheld by the county (NAME1 is null), so owner is not mapped.",
+  "verification": {
+    "verified_at": 1792049954172,
+    "counties": [
+      "26125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

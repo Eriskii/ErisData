@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-dawson",
+  "publisher": "Dawson County NE GIS (gWorks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Dawson_County_NE_Assessor/MapServer/105",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31047"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "Dawson County NE assessor parcels served via gWorks MapServer; only PID and acres exposed; no owner/address fields in this layer. Approximate, not for official use per county.",
+  "verification": {
+    "verified_at": 1792051210255,
+    "counties": [
+      "31047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

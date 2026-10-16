@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-nevada",
+  "publisher": "Arkansas GIS Office (CAMA parcel polygons, Nevada County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05099"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "county = 'Nevada'",
+  "notes": "Statewide AR CAMA parcel polygons (PARCEL_POLYGON_CAMP), filtered to county Nevada. Only parcels with CAMA appraisal records. Coordinates in EPSG:26915; service supports geoJSON.",
+  "verification": {
+    "verified_at": 1792048539578,
+    "counties": [
+      "05099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

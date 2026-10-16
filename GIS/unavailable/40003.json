@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "40003",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://alfalfa.okcounties.org/departments/county-assessor/property-information-search",
+    "https://alfalfa.okcounties.org/maps",
+    "https://oklmrecords.com/alfalfa/map/",
+    "https://okmaps.org/OGI/",
+    "https://app.regrid.com/store/us/ok/alfalfa",
+    "https://services.arcgis.com/3xOwF6p0r7IHIjfn/arcgis/rest/services/Alfalfa_gdb/FeatureServer"
+  ],
+  "note": "Alfalfa County parcel polygons are not published as a public queryable service. The county assessor's parcel search links to an interactive vendor map at oklmrecords.com/alfalfa/map whose parcel overlay source is not exposed as any REST endpoint; the county maps page links only static JPG/PDF files. The statewide OK Maps parcel layer is view-only (WMS, not for download). Regrid's nationwide parcel service requires a token. The county's ArcGIS group service (Alfalfa_gdb) holds districts, hydrology and roads, with no parcels. Commercial sources are paid.",
+  "recorded_at": 1792051601876,
+  "recheck_after": 1807603601876,
+  "model": "claude-haiku-5-5"
+}

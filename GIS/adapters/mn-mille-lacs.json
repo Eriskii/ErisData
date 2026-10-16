@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-mille-lacs",
+  "publisher": "Minnesota Geospatial Commons (Plan Parcels Open, county-contributed), Mille Lacs County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_mngeo/plan_parcels_open/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27095"
+    ]
+  },
+  "fields": {
+    "apn": "county_pin",
+    "owner": "tax_name",
+    "address": "tax_add_l1",
+    "acres": "acres_deed",
+    "land_use": "useclass1"
+  },
+  "filter": "co_name = 'Mille Lacs'",
+  "notes": "Statewide compiled parcels from Minnesota Geospatial Commons; filtered to Mille Lacs county. Address and owner are taxpayer/mailing fields from the county tax roll. Paginates.",
+  "verification": {
+    "verified_at": 1792050909775,
+    "counties": [
+      "27095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

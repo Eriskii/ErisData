@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-kenedy",
+  "publisher": "Kenedy CAD",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/ULlHx6dVKNOs2ogU/arcgis/rest/services/KenedyCADWebService/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48261"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "filter": "prop_id_text <> '15589'",
+  "verification": {
+    "verified_at": 1792051774039,
+    "counties": [
+      "48261"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

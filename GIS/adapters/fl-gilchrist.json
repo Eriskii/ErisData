@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-gilchrist",
+  "publisher": "Gilchrist County Property Appraiser (via Map_web ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/9BsiK5ZcG2rYNMSi/arcgis/rest/services/Map_web/FeatureServer/73",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12041"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "acres": "CALC_ACRE"
+  },
+  "notes": "Gilchrist County parcel polygons; no owner/address fields in this layer",
+  "verification": {
+    "verified_at": 1792049090131,
+    "counties": [
+      "12041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

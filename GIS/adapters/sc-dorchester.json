@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sc-dorchester",
+  "publisher": "Dorchester County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.dorchestercounty.net/hosting/rest/services/General_Data/Parcels_Public/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45035"
+    ]
+  },
+  "fields": {
+    "apn": "TMS13",
+    "owner": "OWNER",
+    "address": "PROPERTY_LOCATION",
+    "acres": "GIS_ACREAGE",
+    "land_use": "E_CODE"
+  },
+  "notes": "Basic public assessor CAMA data; base info not survey grade; license limits use in pay-for-use locations without written approval from County Assessor or GIS Director. Source EPSG 2273.",
+  "verification": {
+    "verified_at": 1792051568036,
+    "counties": [
+      "45035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-presidio",
+  "publisher": "Presidio County Appraisal District",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/olwlVbUZZ1LTljgD/arcgis/rest/services/PresidioCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48377"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "filter": "file_as_name IS NOT NULL",
+  "notes": "Presidio CAD parcels via ArcGIS web service; situs address fields are populated for only some parcels, so no address is mapped",
+  "verification": {
+    "verified_at": 1792051732389,
+    "counties": [
+      "48377"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

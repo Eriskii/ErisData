@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-osceola",
+  "publisher": "Iowa DHS&EM statewide parcels (2017), filtered to Osceola County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19143"
+    ]
+  },
+  "fields": {
+    "apn": "UNPARCELID",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Osceola'",
+  "notes": "Statewide 2017 parcel file from Iowa DHS&EM hosted by University of Iowa; deprecated, not current. Filtered by COUNTYNAME.",
+  "verification": {
+    "verified_at": 1792049293170,
+    "counties": [
+      "19143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

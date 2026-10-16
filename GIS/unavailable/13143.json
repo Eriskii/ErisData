@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13143",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=HaralsonCountyGA&Layer=Parcels&PageType=Search",
+    "https://www.haralsoncountyga.gov/board-of-tax-assessors.cfm",
+    "https://services.arcgis.com/ISpzx3B5ZsVA6e1Z/ArcGIS/rest/services/Haralson_Parcels/FeatureServer/0"
+  ],
+  "note": "Haralson County GA parcels are published only through the qPublic/Schneider web viewer (Cloudflare-protected, no public REST endpoint found). The only ArcGIS Online item titled 'Parcels - GA - Haralson County' (GDITAdmin) is refused by the server: metadata and queries return 'Invalid URL', 'Token Required' or HTTP 400 in both geojson and json formats, and it is not listed in the service directory. Commercial sources (Regrid, Rockford Map, AcreValue) are not county services.",
+  "recorded_at": 1792048844879,
+  "recheck_after": 1807600844879,
+  "model": "claude-haiku-5-5"
+}

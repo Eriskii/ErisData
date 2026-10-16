@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "42031",
+  "reason": "login-required",
+  "evidence": [
+    "https://gis.co.clarion.pa.us/hosting/rest/services/Parcel_CAMA_/FeatureServer/0",
+    "https://services6.arcgis.com/drkDXByy6E3bYW3a/arcgis/rest/services/clarion_county_pa_parcels/FeatureServer",
+    "https://gis-clarioncounty.hub.arcgis.com/",
+    "https://www.exploreclarion.com/2021/03/26/clarion-county-launches-online-gis-information-resource/"
+  ],
+  "note": "Clarion County lists a parcel layer (Parcel_CAMA_/FeatureServer/0) on its own host, but every request to gis.co.clarion.pa.us failed with connection errors, including the validator's query. The only other hosted copy (services6 ArcGIS Online) returns 'Token Required'. The county's parcel shapefiles are sold per parcel per the 2021 local news piece; no public bulk download found.",
+  "recorded_at": 1792051535133,
+  "recheck_after": 1807603535133,
+  "model": "claude-haiku-5-5"
+}

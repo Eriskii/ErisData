@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "wa-skamania",
+  "publisher": "Skamania County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/uKh72TYBlxpm42Cm/arcgis/rest/services/Parcel/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53059"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OwnerLast",
+    "address": "Situs",
+    "acres": "DeedAcres",
+    "land_use": "PropClass",
+    "assessed_value": "AssTotVal"
+  },
+  "notes": "Skamania County assessor parcel layer published by SkamaniaGIS on ArcGIS Online; ownership parcels with assessor attributes",
+  "verification": {
+    "verified_at": 1792053107472,
+    "counties": [
+      "53059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

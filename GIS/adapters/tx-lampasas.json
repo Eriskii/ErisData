@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-lampasas",
+  "publisher": "Lampasas County Appraisal District (via BIS Consultants ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/j94FvPaik4etwHFk/arcgis/rest/services/LampasasCADWebService/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48281"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_num",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Parcels layer of CAD web service; situs_num/situs_street combine for address; market is total market value",
+  "verification": {
+    "verified_at": 1792051704807,
+    "counties": [
+      "48281"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

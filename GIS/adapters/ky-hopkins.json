@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ky-hopkins",
+  "publisher": "Hopkins County GIS (KY)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.hopkinscountygis.com:6443/arcgis/rest/services/Parcel/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21107"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "acres": "ACRES"
+  },
+  "notes": "Hopkins County GIS parcel layer (PVA map-based parcels; Parcel_ID is the map-parcel key). No owner, address, land use or value fields are populated on this layer.",
+  "verification": {
+    "verified_at": 1792049901748,
+    "counties": [
+      "21107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

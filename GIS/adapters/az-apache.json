@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "az-apache",
+  "publisher": "Apache County GIS (hosted by zpemberton)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/KyZIQDOsXnGaTxj2/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04001"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "owner": "OWNERNAME"
+  },
+  "notes": "Hosted ArcGIS Online parcel layer; 57674 features. Situs address mostly blank in source, so not mapped. Acres not provided.",
+  "verification": {
+    "verified_at": 1792048414177,
+    "counties": [
+      "04001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

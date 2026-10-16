@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "or-wheeler",
+  "publisher": "Oregon Department of Transportation (ODOT) ames, Wheeler County Taxlots",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.odot.state.or.us/arcgis1006/rest/services/ames/ames/MapServer/40",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41069"
+    ]
+  },
+  "fields": {
+    "apn": "MapTaxlot"
+  },
+  "notes": "ODOT ames service; Wheeler County Taxlots layer 40; carries only map/taxlot identifiers, no owner or value fields. Access and use constraints apply to the ames service.",
+  "verification": {
+    "verified_at": 1792051522829,
+    "counties": [
+      "41069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21089",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx",
+    "https://www.qpublic.net/ky/greenup/search.html",
+    "https://www.oldkentucky.com/parcels/greenup",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer"
+  ],
+  "note": "Greenup County parcels are published only through the PVA's Schneider qPublic viewer (HTTP 403 to automated access, no public REST service). The state kygisserver has only a Webster County PVA parcel service, KYTC's PVA list has no Greenup parcel layer, and the only ArcGIS parcel layers for Greenup are small city-level consultant subsets (Flatwoods 627 and Raceland 190 parcels), not county-wide tax parcels.",
+  "recorded_at": 1792049890778,
+  "recheck_after": 1807601890778,
+  "model": "claude-haiku-5-5"
+}

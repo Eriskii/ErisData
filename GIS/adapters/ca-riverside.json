@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ca-riverside",
+  "publisher": "Riverside County (ArcGIS Hub, FODMlandadmin riverside_county_california_parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/1l4gUeyWy99V9Ja2/arcgis/rest/services/riverside_county_california_parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "apn": "APN"
+  },
+  "notes": "Riverside County taxable parcel polygons; attributes limited to APN and FLAG; 846,890 features",
+  "verification": {
+    "verified_at": 1792048699175,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

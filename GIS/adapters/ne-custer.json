@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-custer",
+  "publisher": "Custer County GIS (gWorks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Custer_County_NE_Clerk/MapServer/51",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31041"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "Layer 51 of Custer County NE Clerk MapServer. Only PID, pidnum, ACRES exposed; no owner/address/value fields published on this layer.",
+  "verification": {
+    "verified_at": 1792051118396,
+    "counties": [
+      "31041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

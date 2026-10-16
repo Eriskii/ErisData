@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-conecuh",
+  "publisher": "Conecuh County GIS (via Alabama Parcel Data, PowerSouth)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01035"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer 15 of PowerSouth-hosted Alabama Parcel Data, Conecuh County only. Site address field is sparsely populated in source, so not mapped. Attribute schema resembles Regrid/LandVision.",
+  "verification": {
+    "verified_at": 1792048320312,
+    "counties": [
+      "01035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-sttammany",
+  "publisher": "St. Tammany Parish Assessor Office",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/qTudxJc3aZ26vKe6/arcgis/rest/services/STP_Parcels_2025/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "22103"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "address": "Physical_A",
+    "assessed_value": "Assessment"
+  },
+  "filter": "Shape__Area < 5000000",
+  "notes": "St. Tammany Parish Assessor Office 2025 parcels with tax roll; hosted feature service. Parcels over 5,000,000 sq m (very large rural tracts) excluded because their geometry fails the location check.",
+  "verification": {
+    "verified_at": 1792049969760,
+    "counties": [
+      "22103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

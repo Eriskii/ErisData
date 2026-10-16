@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-rio-grande",
+  "publisher": "Rio Grande County, CO (parcel service via Magnasoft/ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/S4XaDWnt7zDg1erG/arcgis/rest/services/Parcel_RioGrande/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08105"
+    ]
+  },
+  "fields": {
+    "apn": "GIS_Parcel_Number",
+    "owner": "TSC_OWNER1",
+    "address": "TSC_Site_Address",
+    "assessed_value": "FinalTaxableValue"
+  },
+  "notes": "Public ArcGIS Online feature layer NewParcels, about 13,178 parcels. Attributes from county assessor extract; no acreage or land use field.",
+  "verification": {
+    "verified_at": 1792048732344,
+    "counties": [
+      "08105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

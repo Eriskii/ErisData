@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-yoakum",
+  "publisher": "Yoakum County Appraisal District (bis_yoakumcad)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/9OUuANKRTlIFdUUK/arcgis/rest/services/YoakumCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48501"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "assessed_value": "market"
+  },
+  "notes": "Yoakum CAD public ArcGIS service; parcels layer 0 of YoakumCADWebService",
+  "verification": {
+    "verified_at": 1792051765285,
+    "counties": [
+      "48501"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

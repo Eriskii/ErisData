@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-mercer",
+  "publisher": "Mercer County PA via PASDA (2026 parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/MercerCounty/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42085"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "Comb_Owner",
+    "address": "Situs_Desc",
+    "acres": "Acreage"
+  },
+  "notes": "Source PASDA; layer 0 is 2026 parcels, 58006 features",
+  "verification": {
+    "verified_at": 1792051526446,
+    "counties": [
+      "42085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

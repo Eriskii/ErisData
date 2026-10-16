@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21013",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=BellCountyKY&Layer=Parcels&PageType=Search",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://www.dynamospatial.com/c/bell-county-ky/parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub/Online for Bell County KY parcels: no parcel service found. Bell County PVA parcels are published only through the Schneider qPublic viewer (Cloudflare-blocked, no public REST endpoint found). KyGeoNet kygisserver hosts per-county PVA parcel services for some counties (Webster, Barren, Nelson, etc.) but no Bell County service exists (Ky_PVA_Bell_Parcels_WGS84WM not found). Commercial sources (Dynamo Spatial, Acres, Regrid) are paid/non-public and were not used.",
+  "recorded_at": 1792049381276,
+  "recheck_after": 1807601381276,
+  "model": "claude-haiku-5-5"
+}

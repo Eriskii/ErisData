@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-greene",
+  "publisher": "Greene County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/0JhPFgxDlwicqVHq/arcgis/rest/services/TaxParcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42059"
+    ]
+  },
+  "fields": {
+    "apn": "TAXIDNUM",
+    "land_use": "LAND_USE"
+  },
+  "notes": "Greene County PA TaxParcels layer; source CRS 32029/4455. No owner or address field published in this layer.",
+  "verification": {
+    "verified_at": 1792051539662,
+    "counties": [
+      "42059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

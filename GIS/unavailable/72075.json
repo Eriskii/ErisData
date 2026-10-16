@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72075",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_feb_2025/FeatureServer",
+    "https://github.com/openaddresses/openaddresses/issues/2894"
+  ],
+  "note": "CRIM publishes the Puerto Rico Parcelario polygon layer (crim_parcelas, 2018; also crim_feb_2025) as ArcGIS REST services on sigejp.pr.gov. Both are listed in the server directory but every query returns 'Service crim/crim_parcelas/MapServer not started' (HTTP 500), including the validation query. The satasgis.crimpr.net endpoints from older references are unreachable. No other public parcel service for Juana Díaz was found; the GeoServer WFS at geoserver2.pr.gov has only CRIM grid layers and state land holdings. Commercial sources (Regrid, Dynamo Spatial) are paid. The official CRIM service is stopped, so it may be worth retrying once CRIM restarts it.",
+  "recorded_at": 1792052045083,
+  "recheck_after": 1807604045083,
+  "model": "claude-haiku-5-5"
+}

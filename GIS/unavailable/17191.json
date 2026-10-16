@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "17191",
+  "reason": "login-required",
+  "evidence": [
+    "https://wanynecoil-waynecounty911.hub.arcgis.com/api/feed/dcat-us/1.1.json",
+    "https://www.arcgis.com/sharing/rest/content/items/815018dfb3c14e73a738c81760bab820/data?f=json",
+    "https://services8.arcgis.com/V0KQ1VLd07IcvL9M/arcgis/rest/services/WayneILBaseData/FeatureServer/39",
+    "https://waynecountyil.gov/supervisor-of-assessments/",
+    "https://portico.sidwellco.com/portal/apps/experiencebuilder/experience/?id=a7af1ce1d7c64604b00d34e97be4bcc8"
+  ],
+  "note": "Wayne County IL public parcel viewers (Wayne 911 Municipal Viewer; Sidwell-hosted 'Wayne County' experience linked from waynecountyil.gov) draw parcels from ArcGIS services that refuse anonymous queries ('Token Required', services8.arcgis.com/V0KQ1VLd07IcvL9M WayneILBaseData). The Sidwell public server has no Wayne County IL parcel service. Other hits (services1 b6rkZNtCd6Mx2gvB Wayne_County_Parcel_Shape_File, 7k5pwykhBf04bSfy, f4rR7WnIfGBdVYFd) are Michigan's Wayne County or return no features at the Wayne IL point. Commercial sources (Regrid, Acres, MappingSolutions) excluded.",
+  "recorded_at": 1792049223394,
+  "recheck_after": 1807601223394,
+  "model": "claude-haiku-5-5"
+}

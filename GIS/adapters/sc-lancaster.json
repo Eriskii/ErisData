@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sc-lancaster",
+  "publisher": "Lancaster County GIS (SC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/rJcpRneDUBgTeCT3/arcgis/rest/services/SDE_County_Parcels_Patriot_View/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45057"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "Owner1",
+    "address": "StreetName",
+    "acres": "TotalAcres",
+    "land_use": "LUC",
+    "assessed_value": "TotalValue"
+  },
+  "notes": "Lancaster County SC Patriot View parcels; ArcGIS Hub public service",
+  "verification": {
+    "verified_at": 1792051579592,
+    "counties": [
+      "45057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

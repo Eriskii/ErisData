@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-costilla",
+  "publisher": "Costilla County (Sidwell Portico parcel data via ArcGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/ParcelPolygon_CostillaCO/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08023"
+    ]
+  },
+  "fields": {
+    "apn": "Account_Number",
+    "owner": "Owner_Name",
+    "address": "Address",
+    "acres": "Total_Area"
+  },
+  "notes": "Hosted by Sidwell for Costilla County; layer from legacy Portico ParcelPolygon_CostillaCO service",
+  "verification": {
+    "verified_at": 1792048689543,
+    "counties": [
+      "08023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-sandiego",
+  "publisher": "SANDAG (San Diego County parcels, from SanGIS/County Assessor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geo.sandag.org/server/rest/services/Hosted/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06073"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "address": "SITUS_ADDRESS",
+    "acres": "ACREAGE",
+    "assessed_value": "ASR_TOTAL"
+  },
+  "notes": "Public ArcGIS layer, no token. Taxable parcels plus some nontaxable. No owner name field in this layer.",
+  "verification": {
+    "verified_at": 1792048648590,
+    "counties": [
+      "06073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

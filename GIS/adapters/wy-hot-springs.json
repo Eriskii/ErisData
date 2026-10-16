@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wy-hot-springs",
+  "publisher": "Wyoming statewide parcels (state IT/assessors)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/r0iJ85SKZ4zAzz3P/arcgis/rest/services/Wyoming_Parcels_for_2026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56017"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnb",
+    "owner": "ownername1",
+    "address": "locationad",
+    "acres": "landgrossa",
+    "assessed_value": "assessedva"
+  },
+  "notes": "Statewide layer; filtered by spatial extent",
+  "verification": {
+    "verified_at": 1792051930439,
+    "counties": [
+      "56017"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-richmond",
+  "publisher": "Augusta-Richmond County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismap.augustaga.gov/arcgis/rest/services/Map_LayersTS/MapServer/316",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13245"
+    ]
+  },
+  "fields": {
+    "apn": "pin",
+    "owner": "own1",
+    "address": "siteaddress",
+    "acres": "totalacres",
+    "land_use": "propdesc",
+    "assessed_value": "curr_val"
+  },
+  "notes": "Augusta-Richmond County consolidated government parcel layer (Map_LayersTS layer 316, internal GIS service publicly queryable). Covers whole county.",
+  "verification": {
+    "verified_at": 1792048824702,
+    "counties": [
+      "13245"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

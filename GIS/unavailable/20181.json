@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20181",
+  "reason": "login-required",
+  "evidence": [
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Sherman",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer",
+    "https://www.dynamospatial.com/c/sherman-county-ks/parcel-data",
+    "https://www.acres.com/plat-map/map/ks/sherman-county-ks"
+  ],
+  "note": "Searched ArcGIS Hub/Online, the Kansas ORKA state services (services.kansasgis.org ORKA/KS_ORKA_Extras has address points, subdivisions and lots but no parcel polygon layer), county and commercial sources. Sherman County parcel data is only available by registered request via the ORKA portal (login required), or as paid commercial shapefiles (Dynamo, Rockford). Regrid's Esri tile layer is not queryable (404 on query); Acres and Regrid viewers expose no public service endpoint.",
+  "recorded_at": 1792049373739,
+  "recheck_after": 1807601373739,
+  "model": "claude-haiku-5-5"
+}

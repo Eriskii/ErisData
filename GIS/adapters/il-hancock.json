@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-hancock",
+  "publisher": "Hancock County GIS (hosted by WIU GIS Center)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wiu.edu/arcgis/rest/services/hancock/MapServer/54",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17067"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_number",
+    "owner": "owner1_name",
+    "address": "site_address",
+    "acres": "gross_acres",
+    "land_use": "class",
+    "assessed_value": "farm_land"
+  },
+  "notes": "Hancock County IL parcel layer from WIU GIS Center; reference only, not a legal survey",
+  "verification": {
+    "verified_at": 1792048914764,
+    "counties": [
+      "17067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-washington",
+  "publisher": "Washington Parish Communications District (911)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/yE0LOKocwREqepjx/arcgis/rest/services/Parcels_Public_view_March_2024/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22117"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNER_NAME",
+    "acres": "ACREAGE"
+  },
+  "notes": "Parish-published public view layer, edited 2024-03-18. Situs address is sparse in source (PHYSICAL_S filled for only a minority of rural parcels) so address is not mapped. No land use or assessed value published.",
+  "verification": {
+    "verified_at": 1792049976931,
+    "counties": [
+      "22117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

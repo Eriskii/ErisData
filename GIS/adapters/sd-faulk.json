@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-faulk",
+  "publisher": "Faulk County GIS (hosted by Planning & Development District III)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/FAULK_COUNTY_WEB_LAYERS/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46049"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "TAX_OWNER_NAME_1",
+    "address": "SITE_ADDRESS",
+    "acres": "TOTAL_ACRES"
+  },
+  "notes": "Parcel layer of Faulk County web map service; 8,877 features; page size capped at maxRecordCount 2000, using 1000.",
+  "verification": {
+    "verified_at": 1792051662342,
+    "counties": [
+      "46049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

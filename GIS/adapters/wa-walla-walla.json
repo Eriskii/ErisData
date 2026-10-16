@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wa-walla-walla",
+  "publisher": "Walla Walla County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/COL6rRPkF9w28VGX/arcgis/rest/services/Tax_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53071"
+    ]
+  },
+  "fields": {
+    "apn": "geo_id",
+    "owner": "py_owner_name",
+    "acres": "land_acres",
+    "land_use": "prop_type_cd",
+    "assessed_value": "appraised_val"
+  },
+  "notes": "Walla Walla County Assessor tax parcels via county ArcGIS service (kcorn_wwcgis). Situs address sparsely populated in source (rural parcels), so not mapped.",
+  "verification": {
+    "verified_at": 1792053113386,
+    "counties": [
+      "53071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

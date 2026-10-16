@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-coffee",
+  "publisher": "Coffee County, AL (via PowerSouth Alabama Parcel Data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01031"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer 14 of Alabama_Parcel_Data service containing Coffee County parcels only (37,876 features). Source is a PowerSouth-hosted statewide compilation. USECODE is mostly blank so land_use is not mapped.",
+  "verification": {
+    "verified_at": 1792048319437,
+    "counties": [
+      "01031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

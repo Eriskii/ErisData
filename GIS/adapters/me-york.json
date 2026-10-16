@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "me-york",
+  "publisher": "Maine GeoLibrary / MaineGIS organized-town parcels (York County towns)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23031"
+    ]
+  },
+  "fields": {
+    "apn": "MAP_BK_LOT"
+  },
+  "filter": "COUNTY = 'York'",
+  "notes": "Statewide Maine organized-town tax parcels; filtered to COUNTY York (CNTYCODE 31). APN is the town map-block-lot. Owner, address and value come from separate town ADB tables and are not in this layer. Unorganized territory not included.",
+  "verification": {
+    "verified_at": 1792049922999,
+    "counties": [
+      "23031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

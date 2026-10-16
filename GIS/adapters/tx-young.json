@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-young",
+  "publisher": "Young County Appraisal District (via ArcGIS CAD web service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XkhWnpXLglOI9qps/arcgis/rest/services/YoungCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48503"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Young CAD public web service; parcels layer",
+  "verification": {
+    "verified_at": 1792051757233,
+    "counties": [
+      "48503"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

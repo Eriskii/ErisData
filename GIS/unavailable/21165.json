@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "21165",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0",
+    "https://menifeecounty.ky.gov/Elected-Officials/Pages/default.aspx"
+  ],
+  "note": "Searched ArcGIS Hub/Online, the Kentucky GIS server (kygisserver) and the KYTC county PVA availability layer. The only Kentucky PVA parcel MapServer found is Webster County; no Menifee parcel service exists. Menifee parcel sources found are commercial only (Regrid, DynaMo, OGI, Rockford Map, Acres viewer), not public services.",
+  "recorded_at": 1792049909734,
+  "recheck_after": 1807601909734,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ny-queens",
+  "publisher": "NYS GIS Clearinghouse / NYS Office of Real Property Services",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://nysgeohub.ny.gov/arcgis/rest/services/Parcels/NYS_Tax_Parcels_Public/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36081"
+    ]
+  },
+  "fields": {
+    "apn": "SBL",
+    "owner": "PRIMARY_OWNER",
+    "address": "PARCEL_ADDR",
+    "acres": "CALC_ACRES",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "TOTAL_AV"
+  },
+  "filter": "COUNTY_NAME = 'Queens'",
+  "notes": "NYS Office of Real Property Services public tax parcels; Queens County subset",
+  "verification": {
+    "verified_at": 1792051447447,
+    "counties": [
+      "36081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

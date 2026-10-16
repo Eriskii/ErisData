@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-dodge",
+  "publisher": "Dodge County GIS (hosted by Goodhue County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://publicmaps.co.goodhue.mn.us/arcgis/rest/services/DodgeCounty/Dodge_Parcels/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27039"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "C0NAME1P",
+    "address": "FULL_ADD",
+    "acres": "C0ACRES"
+  },
+  "notes": "Dodge County MN parcels layer served from Goodhue County server; 12418 features",
+  "verification": {
+    "verified_at": 1792050887833,
+    "counties": [
+      "27039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

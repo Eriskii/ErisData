@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "01133",
+  "reason": "login-required",
+  "evidence": [
+    "https://services7.arcgis.com/jF2q3LPxL7PETdYk/arcgis/rest/services/AL_Winston_Parcel_NonRes/FeatureServer/0/query?where=1%3D1&outFields=*&f=json",
+    "https://services7.arcgis.com/jF2q3LPxL7PETdYk/arcgis/rest/services/AL_Winston_Parcel_NonRes/FeatureServer"
+  ],
+  "note": "Only Winston County parcel service found (Villanova 'AL Winston Parcel Non Res', ArcGIS Online) returns 'Token Required' on every request; it covers non-residential parcels only. ArcGIS Hub/Online searches for Winston County AL parcels found no other service; the county's own site was unreachable and web search returned no results.",
+  "recorded_at": 1792048409866,
+  "recheck_after": 1807600409866,
+  "model": "claude-haiku-5-5"
+}

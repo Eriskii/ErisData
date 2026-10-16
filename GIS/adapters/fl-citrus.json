@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "fl-citrus",
+  "publisher": "Florida Department of Health (EHWATER) Citrus County parcels, from Citrus County Property Appraiser data",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.floridahealth.gov/server/rest/services/EHWATER/Parcels/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12017"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "OWN_NAME",
+    "address": "PHY_ADDR1",
+    "land_use": "DOR_UC",
+    "assessed_value": "AV_SD"
+  },
+  "notes": "Citrus County polygon parcels, FDOR tax roll schema; no filter needed",
+  "verification": {
+    "verified_at": 1792048823448,
+    "counties": [
+      "12017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

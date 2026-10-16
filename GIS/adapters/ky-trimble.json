@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-trimble",
+  "publisher": "Trimble County, KY (ArcGIS Online, zher)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/SRuaqVyoD8TEQJga/arcgis/rest/services/Trimble_Co_Current_Landuse/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21223"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "acres": "ACRES",
+    "land_use": "CLASS"
+  },
+  "notes": "Trimble County current land-use parcel layer (2018 parcels, current); no owner or address fields in source",
+  "verification": {
+    "verified_at": 1792049879607,
+    "counties": [
+      "21223"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

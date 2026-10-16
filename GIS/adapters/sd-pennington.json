@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sd-pennington",
+  "publisher": "Pennington County / Rapid City GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/AhXvNWFdL7hH4TjJ/ArcGIS/rest/services/PenningtonParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46103"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "GranteeFul",
+    "address": "LotStreetN",
+    "acres": "Acres",
+    "land_use": "LandUse",
+    "assessed_value": "ValueTotal"
+  },
+  "notes": "Tax parcels, Pennington County SD / Rapid City GIS; hosted FeatureServer",
+  "verification": {
+    "verified_at": 1792051769617,
+    "counties": [
+      "46103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

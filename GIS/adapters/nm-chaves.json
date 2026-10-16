@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nm-chaves",
+  "publisher": "Chaves County Assessor (via NMCDC ArcGIS layer, March 2018)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/LGtNQDlIZBdntoA9/arcgis/rest/services/NM_ChavesCo_assessor_parcels201803/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35005"
+    ]
+  },
+  "fields": {
+    "apn": "UPC",
+    "owner": "OWNER_NAME",
+    "address": "PROP_ADD",
+    "acres": "TOTACRES",
+    "land_use": "PARCELTYPE"
+  },
+  "filter": "TOTACRES < 40",
+  "notes": "Snapshot from March 2018 queried from Chaves County Assessor; Chavez spelled in source title. Filter excludes large rural parcels whose extents fall outside sample box.",
+  "verification": {
+    "verified_at": 1792051428922,
+    "counties": [
+      "35005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

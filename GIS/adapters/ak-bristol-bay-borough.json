@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ak-bristol-bay-borough",
+  "publisher": "Bristol Bay Borough",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/MqzStQjDmKoNl0E6/arcgis/rest/services/Parcels_view_public/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02060"
+    ]
+  },
+  "fields": {
+    "apn": "BBB_BLMLegalDescription",
+    "acres": "CalculatedArea"
+  },
+  "notes": "Bristol Bay Borough parcel fabric layer (public view). apn is the BLM legal description (filled on sampled parcels; Name holds the parcel number on some parcels). acres is CalculatedArea (computed acres). Owner (First_Owner_Name, Second_Owner_Name, Company_Owner_Name) and site address (BBB_SiteAddress) are present only on some parcels and are not mapped.",
+  "verification": {
+    "verified_at": 1792048475729,
+    "counties": [
+      "02060"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

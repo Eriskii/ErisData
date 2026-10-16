@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-lawrence",
+  "publisher": "Lawrence County, TN (via ArcGIS Online Parcels layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/5SWQTB2G8AH9RQYE/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47099"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "LANDUSE",
+    "assessed_value": "APPRAISAL"
+  },
+  "notes": "Lawrence County TN CAMA parcel layer; no filter needed",
+  "verification": {
+    "verified_at": 1792052216464,
+    "counties": [
+      "47099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

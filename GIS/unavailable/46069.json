@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "46069",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx",
+    "https://www.countyoffice.org/sd-gis-maps/",
+    "https://landrecords.us/documentation/coverage/counties/46-069-hyde",
+    "https://www.dynamospatial.com/c/hyde-county-sd/parcel-data"
+  ],
+  "note": "Hyde County SD's only county parcel viewer found is qPublic (Schneider), which returns a bot-challenge page (HTTP 403 'Just a moment') to automated access, so no open service is readable. hydecountygis.com resolves to Hyde County, NC (not SD). hydeco.org is unreachable. No public ArcGIS REST, WFS or file download of SD Hyde County parcels was found; remaining sources are paid vendors (Regrid, Dynamo, Landrecords). The Regrid nationwide tile layer is not queryable.",
+  "recorded_at": 1792051724063,
+  "recheck_after": 1807603724063,
+  "model": "claude-haiku-5-5"
+}

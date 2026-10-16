@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "72033",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://services6.arcgis.com/HRKUyjzdGC8Kwtbz/arcgis/rest/services/Parcelario_CRIM_(Junio_2026)/FeatureServer/0"
+  ],
+  "note": "CRIM island-wide parcel service on sigejp.pr.gov is not started (HTTP 500) and the CRIM mirror is dead. The only hosted CRIM parcelario found covers Bayamón; in the Cataño bbox only 29 of 282 features fall inside Cataño and they have blank cadastral numbers. No usable Cataño parcel service found.",
+  "recorded_at": 1792052046129,
+  "recheck_after": 1807604046129,
+  "model": "claude-sonnet-5-5"
+}

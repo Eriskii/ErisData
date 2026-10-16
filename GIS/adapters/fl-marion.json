@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-marion",
+  "publisher": "Marion County Property Appraiser / Marion County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.marionfl.org/public/rest/services/General/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12083"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL",
+    "owner": "NAME",
+    "address": "SITUS_1",
+    "acres": "ACRES",
+    "land_use": "LND1",
+    "assessed_value": "ASSD_VAL"
+  },
+  "notes": "Marion County GIS public parcels layer; 285k features; county-hosted",
+  "verification": {
+    "verified_at": 1792048809801,
+    "counties": [
+      "12083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-benton",
+  "publisher": "Benton County GIS (via Northwest Arkansas Regional Planning Commission)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/Benton_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05007"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OW_NAME",
+    "address": "PH_ADD",
+    "acres": "ACRE_AREA",
+    "land_use": "TYPE_",
+    "assessed_value": "TOTAL_VAL"
+  },
+  "notes": "Source: Benton County AR parcel data via NWARPC feature service; not a legal boundary per county notes.",
+  "verification": {
+    "verified_at": 1792048492283,
+    "counties": [
+      "05007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

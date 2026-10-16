@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ut-duchesne",
+  "publisher": "UGRC / Duchesne County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/ArcGIS/rest/services/Parcels_Duchesne/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49013"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_TYPE"
+  },
+  "notes": "UGRC-hosted Duchesne County parcels (county-supplied, 2026 parcel year). Owner name not published; OWN_TYPE is ownership type (e.g. Private). Address sparsely filled in source (PARCEL_ADD).",
+  "verification": {
+    "verified_at": 1792052697528,
+    "counties": [
+      "49013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

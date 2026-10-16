@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "02105",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services.arcgis.com/2j08Y1PuezhQEfCz/arcgis/rest/services/Alaska_Statewide_Parcels/FeatureServer/0",
+    "https://services8.arcgis.com/jzbhhVHDe3lCCWFT/arcgis/rest/services/AK_Statewide_Parcels/FeatureServer/0",
+    "https://services1.arcgis.com/7HDiw78fcUiM2BWn/arcgis/rest/services/AK_Parcels/FeatureServer/0",
+    "https://en.wikipedia.org/wiki/Hoonah%E2%80%93Angoon_Census_Area,_Alaska"
+  ],
+  "note": "Hoonah-Angoon is unorganized borough land with no county assessor or parcel service. The three statewide Alaska parcel layers have no Hoonah-Angoon coverage at the validation sample point: the UAA layer has only a few Angoon, Gustavus and Pelican rows with null Parcel_ID, and the other two have none. A spec against the UAA layer failed validation with 0 parcels near the sample point.",
+  "recorded_at": 1792048530394,
+  "recheck_after": 1807600530394,
+  "model": "claude-haiku-5-5"
+}

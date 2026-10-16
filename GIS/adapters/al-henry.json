@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "al-henry",
+  "publisher": "Henry County, AL (via PowerSouth Alabama Parcel Data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/26",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01067"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Henry County layer from PowerSouth multi-county Alabama parcel service; same schema as Dale layer",
+  "verification": {
+    "verified_at": 1792048336896,
+    "counties": [
+      "01067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

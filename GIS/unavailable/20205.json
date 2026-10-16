@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20205",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.wilsoncountykansas.org/main/county-offices/gis-mapping",
+    "https://beacon.schneidercorp.com/Application.aspx",
+    "https://orkahub.kansasgis.org/",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer/layers",
+    "https://reportallusa.com/store/Kansas/20205"
+  ],
+  "note": "Searched Wilson County KS (FIPS 20205) parcel sources. County site links only to Beacon (Schneider viewer, no public REST; returned 403). State ORKA services (services.kansasgis.org ORKA/KS_ORKA_Extras) contain only subdivision lots and annotation/ag-use layers, not a countywide tax parcel polygon layer. The gis.wilson-co.com Taxparcels and county-data-wilsoncounty hub services belong to Wilson County, North Carolina. Wilson KS parcels are offered only by commercial vendors (ReportAll, Acres, Rockford, Regrid), not as a county-published queryable service.",
+  "recorded_at": 1792049404724,
+  "recheck_after": 1807601404724,
+  "model": "claude-haiku-5-5"
+}

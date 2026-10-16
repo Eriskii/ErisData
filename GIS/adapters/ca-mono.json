@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-mono",
+  "publisher": "Mono County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mono.ca.gov/webgis/rest/services/OpenData/Cadastral/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06051"
+    ]
+  },
+  "fields": {
+    "apn": "AsmtNum",
+    "address": "FullAddress",
+    "acres": "CalcAcres",
+    "land_use": "LUD"
+  },
+  "notes": "Mono County open cadastral TaxParcels layer; no owner or assessed value published in this layer",
+  "verification": {
+    "verified_at": 1792048641749,
+    "counties": [
+      "06051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

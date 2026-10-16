@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-pickett",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (STS-GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47137"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_NAME = 'Pickett'",
+  "notes": "Statewide TN public-use property boundaries; Pickett County rows selected by COUNTY_NAME (COUNTY_ID 69, not FIPS).",
+  "verification": {
+    "verified_at": 1792052690252,
+    "counties": [
+      "47137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

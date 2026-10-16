@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-monroe",
+  "publisher": "Monroe County, TN GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/ce7KWJtkyRqyMe6X/arcgis/rest/services/Parcels_CAMA_A/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47123"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "LANDUSE",
+    "assessed_value": "APPRAISAL"
+  },
+  "notes": "Monroe County TN CAMA parcel layer from ArcGIS Hub (monroeco); 29k features.",
+  "verification": {
+    "verified_at": 1792052314180,
+    "counties": [
+      "47123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

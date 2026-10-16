@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-bradley",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/MapServer/6",
+    "page_size": 20,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "05011"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "countyfips = '011'",
+  "verification": {
+    "verified_at": 1792048801295,
+    "counties": [
+      "05011"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

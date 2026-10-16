@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-mills",
+  "publisher": "Mills County Appraisal District (via ArcGIS Online MillsCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/0xwlcKhzh0RpcMH8/arcgis/rest/services/MillsCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48333"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Appraisal district parcel layer; fields per CAD web service schema",
+  "verification": {
+    "verified_at": 1792051710640,
+    "counties": [
+      "48333"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

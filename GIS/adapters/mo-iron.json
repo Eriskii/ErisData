@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mo-iron",
+  "publisher": "Iron County, MO (via SEMO GIS / SEMO RPC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.semogis.com/server/rest/services/Iron_CO/IronCo_Assessment/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29093"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "DEEDNAME",
+    "address": "ADDRESS",
+    "acres": "LANDACRES",
+    "land_use": "PCLCLASS"
+  },
+  "notes": "Served by SEMO RPC for Iron County assessor; not for survey use.",
+  "verification": {
+    "verified_at": 1792050999656,
+    "counties": [
+      "29093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

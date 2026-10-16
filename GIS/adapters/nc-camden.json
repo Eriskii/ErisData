@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-camden",
+  "publisher": "Camden County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/f8vjF7CsMeTPBIVC/arcgis/rest/services/Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37029"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Name1",
+    "address": "Address",
+    "acres": "ACRES_GIS",
+    "land_use": "ExistingLa"
+  },
+  "notes": "Camden County GIS parcel layer (ArcGIS Online, county account)",
+  "verification": {
+    "verified_at": 1792051477483,
+    "counties": [
+      "37029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

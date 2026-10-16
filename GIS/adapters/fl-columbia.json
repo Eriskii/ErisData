@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "fl-columbia",
+  "publisher": "Columbia County Property Appraiser via Florida Department of Health EHWATER Parcels service",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.floridahealth.gov/server/rest/services/EHWATER/Parcels/FeatureServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12023"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "OWN_NAME",
+    "address": "PHY_ADDR1",
+    "land_use": "DOR_UC",
+    "assessed_value": "AV_SD"
+  },
+  "notes": "Columbia County-only sublayer of statewide DOR-format parcels",
+  "verification": {
+    "verified_at": 1792049055915,
+    "counties": [
+      "12023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

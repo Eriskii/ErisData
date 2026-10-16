@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-wilkin",
+  "publisher": "Wilkin County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.co.wilkin.mn.us/arcgis/rest/services/Assessor/TaxParcels_public/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27167"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "TAXPAYER_NAME",
+    "acres": "DEEDED_ACRES",
+    "assessed_value": "TOTAL_MARKET_VALUE"
+  },
+  "notes": "Public Wilkin County tax parcels layer from county assessor. Owner is taxpayer name; physical address is sparsely populated in source so not mapped.",
+  "verification": {
+    "verified_at": 1792050900674,
+    "counties": [
+      "27167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-granville",
+  "publisher": "NC OneMap (NC1Map Parcels, Granville County records)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37077"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37077'",
+  "notes": "Statewide NC OneMap parcel layer filtered to county FIPS 37077; land use field empty for Granville",
+  "verification": {
+    "verified_at": 1792051423376,
+    "counties": [
+      "37077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

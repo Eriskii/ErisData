@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ut-beaver",
+  "publisher": "Utah Parcels (SEI_SSAP) / Beaver County, Utah",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/NLojPQtYgvtbGgW1/arcgis/rest/services/Utah_Parcels_Post_69/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49001"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID"
+  },
+  "filter": "COUNTY_NAM = 'Beaver County'",
+  "notes": "Statewide Utah parcel layer filtered to Beaver County; public open data",
+  "verification": {
+    "verified_at": 1792052525363,
+    "counties": [
+      "49001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

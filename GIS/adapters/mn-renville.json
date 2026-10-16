@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-renville",
+  "publisher": "Renville County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.renvillecountymn.gov/arcgis/rest/services/EagleViewOnline/MapServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27129"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "owner": "TAXPAYER_NAME",
+    "acres": "DEEDED_ACRES",
+    "land_use": "CLASSIFICATION_1"
+  },
+  "notes": "County tax parcels from EagleView/CONNECT public MapServer layer 15. Owner is TAXPAYER_NAME (OWNER_NAME is mostly blank). PHYSICAL_ADDRESS is blank for many rural parcels, so address is not mapped. No assessed value field published.",
+  "verification": {
+    "verified_at": 1792050927305,
+    "counties": [
+      "27129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

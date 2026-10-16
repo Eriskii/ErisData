@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-kalkaska",
+  "publisher": "Kalkaska County, MI (parcel layer hosted on ArcGIS Online by msugis)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/uHAHKfH1Z5ye1Oe0/arcgis/rest/services/mi_kalkaska1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26079"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnumb",
+    "owner": "owner",
+    "acres": "ll_gisacre",
+    "land_use": "usecode",
+    "assessed_value": "parval"
+  },
+  "notes": "Public ArcGIS Online feature layer of Kalkaska County parcels (about 20,406 features). Owner and value fields as published in the layer.",
+  "verification": {
+    "verified_at": 1792050008346,
+    "counties": [
+      "26079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "31015",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://boyd.gworks.com/",
+    "https://giscat.ne.gov/agency/rest/services/TaxParcelsDED/FeatureServer/0",
+    "https://www.nebraskamap.gov/"
+  ],
+  "note": "Boyd County parcels appear only in its gWorks web viewer (boyd.gworks.com), with no public ArcGIS REST service found there. The state TaxParcelsDED parcel layer (75k features) has no Boyd County records (no 08xxx county codes, no Butte/Spencer addresses). The statewide 2025 parcel set is offered only as a file geodatabase download.",
+  "recorded_at": 1792051242118,
+  "recheck_after": 1807603242118,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-jones",
+  "publisher": "Taylor & Jones County Courier Parcels (City of Abilene GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/iBFmWI3dYPQqS1KF/arcgis/rest/services/Courier_Parcels_Beta/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48253"
+    ]
+  },
+  "fields": {
+    "apn": "ACCNO",
+    "owner": "OWNER",
+    "acres": "LEGAL_ACRE"
+  },
+  "filter": "COUNTY = 'Jones'",
+  "notes": "Beta layer from City of Abilene; Jones County records only (about 1,159 parcels, mainly the Abilene-side portion). Not full county coverage; CAD-joined fields such as situs address and value are empty in this layer.",
+  "verification": {
+    "verified_at": 1792051834192,
+    "counties": [
+      "48253"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

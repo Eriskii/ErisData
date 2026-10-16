@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-harrison",
+  "publisher": "Harrison Central Appraisal District",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/9EzFuq4pvjRgSIO3/arcgis/rest/services/HarrisonCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48203"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "addr_line1",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Harrison CAD web service (public ArcGIS feature layer behind harrisoncad.net map search). 51k parcels. Parcels layer in state plane feet.",
+  "verification": {
+    "verified_at": 1792051686317,
+    "counties": [
+      "48203"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

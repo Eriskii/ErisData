@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21057",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://co-cumberlandgis.opendata.arcgis.com/",
+    "https://www.oldkentucky.com/parcels/cumberland",
+    "https://www.gis-data.org/ky-cumberland-county/",
+    "https://www.dynamospatial.com/c/cumberland-county-ky/parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub (co-cumberlandgis.opendata.arcgis.com datasets API, 'cumberland' and 'parcel' queries), ArcGIS Online parcel search for Cumberland County KY, and web searches. Hub parcel results are for other jurisdictions (Mariposa CA, Cumberland MD/ME). No county-run ArcGIS REST parcel service found; parcels appear only via the PVA's Schneider/Beacon viewer (no public ArcGIS endpoint) and commercial vendors (Dynamo, Acres, AcreValue), which are not county services. Kentucky state services (kygisserver.ky.gov) have county boundaries only, no parcels.",
+  "recorded_at": 1792049394715,
+  "recheck_after": 1807601394715,
+  "model": "claude-haiku-5-5"
+}

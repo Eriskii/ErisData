@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13047",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=CatoosaCountyGA&Layer=Parcels&PageType=Search",
+    "https://www.catoosacountyga.gov/departments/view-all-departments/tax-assessor",
+    "https://www.gismaps.org/ga-catoosa-county/",
+    "https://services5.arcgis.com/UWegEIVn0JwnAZjA/arcgis/rest/services/Road_Centerlines/FeatureServer"
+  ],
+  "note": "Catoosa County (GA, FIPS 13047) publishes parcels only through the qPublic/Schneider web viewer (App=CatoosaCountyGA), which returns 403 to automated access and exposes no ArcGIS REST parcel layer. The county's own ArcGIS org (services5 UWegEIVn0JwnAZjA) publishes only roads and zoning. ArcGIS Hub/Online searches for Catoosa parcels returned only commercial vendor downloads (Dynamo, Mapping Solutions, Equatorstudios, Regrid, ReportAllUSA, Acres). The services1 bqfNVPUK3HOnCFmA Parcels layer is not Catoosa's. No usable public parcel service or file found.",
+  "recorded_at": 1792048804355,
+  "recheck_after": 1807600804355,
+  "model": "claude-haiku-5-5"
+}

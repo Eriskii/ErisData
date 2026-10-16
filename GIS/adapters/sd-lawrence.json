@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sd-lawrence",
+  "publisher": "Lawrence County, SD (client-hosted parcel data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/YKIZLV97YLZN6bol/arcgis/rest/services/Lawrence_Parcels_YrBlt/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46081"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "CURRENT_OW",
+    "address": "SITUS",
+    "acres": "Acres",
+    "land_use": "CLASS"
+  },
+  "filter": "CLASS <> '0' AND PLAT NOT LIKE 'PUBLIC%'",
+  "notes": "Lawrence County SD parcel data from county client; public land parcels excluded; source via ArcGIS Online item Lawrence_Parcels_YrBlt",
+  "verification": {
+    "verified_at": 1792051612401,
+    "counties": [
+      "46081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

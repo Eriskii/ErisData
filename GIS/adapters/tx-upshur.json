@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-upshur",
+  "publisher": "Upshur Central Appraisal District (BIS CAD Web Service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/uTQe835Qm04W5Cjr/arcgis/rest/services/UpshurCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48459"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Public BIS CAD web service for Upshur CAD; parcels layer of tax parcels; situs_street holds street name only, situs_num separate",
+  "verification": {
+    "verified_at": 1792051750420,
+    "counties": [
+      "48459"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

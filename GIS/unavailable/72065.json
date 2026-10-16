@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72065",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim?f=pjson"
+  ],
+  "note": "CRIM's Parcelario layer (crim_parcelas, 2018 parcels, EPSG 32161) is registered on sigejp.pr.gov and sige.pr.gov, but every query returns 'Service crim/crim_parcelas/MapServer not started' (HTTP 500), both from my searches and from the spec validation run. The sige.pr.gov host was unreachable, and the crim folder lists no running services. The satasgis.crimpr.net parcel services cited in OpenAddresses returned 404 or no connection. No other public parcel polygon service for Hatillo was found on ArcGIS Hub/Online or the PR GeoServer WFS. Hatillo parcels are not currently queryable.",
+  "recorded_at": 1792052017347,
+  "recheck_after": 1807604017347,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-washington",
+  "publisher": "NC OneMap (NC Center for Geographic Information & Analysis) - Washington County parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37187"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "assessed_value": "parval"
+  },
+  "filter": "cntyfips = '187'",
+  "notes": "Statewide NC OneMap parcel layer, filtered to county FIPS 187 (Washington County)",
+  "verification": {
+    "verified_at": 1792051423556,
+    "counties": [
+      "37187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

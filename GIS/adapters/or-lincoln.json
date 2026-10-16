@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "or-lincoln",
+  "publisher": "Lincoln County, Oregon (ORMAP tax lots, taxlot21 layer via ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/W1uyphp8h2tna3qJ/arcgis/rest/services/Lincoln_County_Tax_Lots/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41041"
+    ]
+  },
+  "fields": {
+    "apn": "MapTaxlot",
+    "acres": "TaxlotAcre"
+  },
+  "notes": "Lincoln County tax lots (ORMAP 2021 shapefile). Owner and situs fields not included in this layer.",
+  "verification": {
+    "verified_at": 1792051541381,
+    "counties": [
+      "41041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

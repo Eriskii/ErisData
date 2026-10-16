@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "pa-perry",
+  "publisher": "Pennsylvania Spatial Data Access (PASDA) / Perry County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/PerryCounty/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42099"
+    ]
+  },
+  "fields": {
+    "apn": "PIN"
+  },
+  "notes": "PASDA 2021 Perry County parcel boundaries; only PIN attribute exposed in layer",
+  "verification": {
+    "verified_at": 1792051532819,
+    "counties": [
+      "42099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

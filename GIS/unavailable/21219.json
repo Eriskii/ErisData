@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21219",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.mytoddcounty.com/toddcounty/rest/services/PZ_Parcels/MapServer/1",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=925&LayerID=18027&PageTypeID=1&PageID=8057"
+  ],
+  "note": "Todd County KY (21219): no public parcel service found. gis.mytoddcounty.com PZ_Parcels/Parcels layer is Todd County, Minnesota data (coordinates near -94.8, 45.8; 0 features in the KY bbox). Kentucky kygisserver lists per-county PVA parcel services for Webster and others, not Todd; KGS list of county PVA parcel services omits Todd. The Todd PVA parcel viewer is a fee-based Schneider qPublic app; commercial sources are paid downloads.",
+  "recorded_at": 1792049911779,
+  "recheck_after": 1807601911779,
+  "model": "claude-haiku-5-5"
+}

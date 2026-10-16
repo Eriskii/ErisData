@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-cherokee",
+  "publisher": "Cherokee County GIS (NC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/UmQCfTNQbyTzAV5N/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37039"
+    ]
+  },
+  "fields": {
+    "apn": "NEWPIN",
+    "owner": "Name1",
+    "address": "Address1",
+    "acres": "POLY_ACRES",
+    "assessed_value": "TotalAsses"
+  },
+  "notes": "Hosted by Cherokee County NC via ArcGIS Hub (tslovin); includes ownership and assessment attributes",
+  "verification": {
+    "verified_at": 1792051345416,
+    "counties": [
+      "37039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

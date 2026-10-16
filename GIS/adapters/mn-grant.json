@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-grant",
+  "publisher": "Grant County, Minnesota (GIS / Assessor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.grant.mn.us/arcgis/rest/services/Assessor/TaxParcels_public/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27051"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "TAXPAYER_NAME",
+    "address": "TAXPAYER_ADDRESS",
+    "acres": "GIS_Acres"
+  },
+  "notes": "Public TaxParcels_public service from Grant County MN assessor; county disclaimer applies. owner and address are taxpayer (mailing) name and address because the property owner and site address fields are often blank. No land use or assessed value fields published.",
+  "verification": {
+    "verified_at": 1792050887534,
+    "counties": [
+      "27051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

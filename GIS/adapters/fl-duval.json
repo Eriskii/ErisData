@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-duval",
+  "publisher": "Duval County Property Appraiser / City of Jacksonville GIS (CityBiz Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.coj.net/coj/rest/services/CityBiz/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12031"
+    ]
+  },
+  "fields": {
+    "apn": "RE",
+    "owner": "LNAMEOWNER",
+    "address": "STREET_NO",
+    "acres": "ACRES",
+    "land_use": "PUSE",
+    "assessed_value": "CAMA_VAL"
+  },
+  "notes": "Duval County parcels from City of Jacksonville CityBiz MapServer; public service",
+  "verification": {
+    "verified_at": 1792048807816,
+    "counties": [
+      "12031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

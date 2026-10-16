@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-custer",
+  "publisher": "Colorado OIT GIS Team (statewide public parcels, Custer County subset)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08027"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "owner",
+    "acres": "landAcres"
+  },
+  "filter": "countyName = 'Custer'",
+  "notes": "Statewide Colorado public parcel composite filtered to countyName Custer (9,489 features). Situs address, land use and assessed value are empty for Custer in the source, so not mapped. Source: CO OIT GIS; see geodata.colorado.gov terms.",
+  "verification": {
+    "verified_at": 1792048730881,
+    "counties": [
+      "08027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

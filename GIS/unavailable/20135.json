@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20135",
+  "reason": "login-required",
+  "evidence": [
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=ness",
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://www.nesscountyks.gov/department/appraiser",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer"
+  ],
+  "note": "Ness County parcels are only reachable through the state ORKA/PORKA viewer, which requires registration and county approval for parcel data. The county appraiser's Parcel Information link is a login portal (ks527.cichosting.com). The ORKA KS_ORKA_Extras ArcGIS service holds only subdivisions, lots, annotation, address points and county boundaries, with no public Ness parcel polygon layer. Commercial sources (dynamospatial, acres, rockfordmap, acrevalue) are paid downloads or viewers, not county-published services.",
+  "recorded_at": 1792049406955,
+  "recheck_after": 1807601406955,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ne-dixon",
+  "publisher": "Dixon County, NE (GDIT/gworks assessor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis3.gworks.com/arcgis/rest/services/Dixon_County_NE_Assessor/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31051"
+    ]
+  },
+  "fields": {
+    "apn": "PID"
+  },
+  "notes": "Public ArcGIS layer from county assessor",
+  "verification": {
+    "verified_at": 1792051126494,
+    "counties": [
+      "31051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

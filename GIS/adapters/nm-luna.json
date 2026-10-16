@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-luna",
+  "publisher": "Luna County GIS Department (Land Information)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/K9P1N7Y1EilGjehZ/arcgis/rest/services/LandParcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35029"
+    ]
+  },
+  "fields": {
+    "apn": "upc",
+    "owner": "GONAM",
+    "assessed_value": "GTVALL"
+  },
+  "notes": "Public ArcGIS layer from the Luna County Land Information viewer (LandParcels, services2.arcgis.com). upc is the parcel ID. Situs address field Address is only sparsely filled, so it is not mapped. Assessor maps flagged as not updated since 2018 on hub.",
+  "verification": {
+    "verified_at": 1792051391304,
+    "counties": [
+      "35029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

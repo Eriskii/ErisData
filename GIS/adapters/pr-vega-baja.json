@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pr-vega-baja",
+  "publisher": "Municipio de Vega Baja (dpastrana GIS) / parcelas catastro",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/gVntsmQ43qP0i4E4/arcgis/rest/services/Parcelas_VegaBaja_07212025_shp/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72145"
+    ]
+  },
+  "fields": {
+    "apn": "Name",
+    "acres": "StatedArea"
+  },
+  "notes": "Vega Baja parcel polygons, 24108 features, from ArcGIS Online item by dpastrana; source CRS 3857. Owner and address not published in this layer.",
+  "verification": {
+    "verified_at": 1792052087389,
+    "counties": [
+      "72145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

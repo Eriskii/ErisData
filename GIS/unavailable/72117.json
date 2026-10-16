@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "72117",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/ParcelasEtiquetas/MapServer/0",
+    "https://services7.arcgis.com/QzuqnWYL9YGM618L/arcgis/rest/services/PARCELAS/FeatureServer/0",
+    "https://services6.arcgis.com/HRKUyjzdGC8Kwtbz/arcgis/rest/services/Parcelario_CRIM_(Junio_2026)/FeatureServer/0"
+  ],
+  "note": "CRIM (Puerto Rico cadastre) publishes the Parcelario polygons, but its statewide sige/sigejp crim_parcelas services return 'not started' or are unreachable, and satasgis CRIM parcel endpoints return 404. The public ArcGIS-hosted CRIM parcel layers found (PARCELAS, Parcelario_CRIM Junio 2026) are queryable but contain zero features within Rincón's bounding box and around the sample point (-67.23194, 18.33620); they cover eastern and southeastern Puerto Rico only. No queryable Rincón parcel service was found.",
+  "recorded_at": 1792052631364,
+  "recheck_after": 1807604631364,
+  "model": "claude-haiku-5-5"
+}

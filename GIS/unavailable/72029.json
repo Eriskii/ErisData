@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72029",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.arcgis.com/home/item.html?id=177a03ea0b31411cafe5596fe710790d",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://catastro.crimpr.net/cdprpc/"
+  ],
+  "note": "Canóvanas parcels come from CRIM's Catastro Digital (Parcelario, 2018). The CRIM ArcGIS services that publish it (sigejp.pr.gov crim/crim_parcelas, and the satasgis.crimpr.net Parcelas layer named in the CRIM web map) return 'Service not started' or refuse connections; the catastro viewer is a web app with no discoverable open endpoint. No other public parcel service for Canóvanas was found in ArcGIS Hub/Online or the pr_geodata WFS.",
+  "recorded_at": 1792051965112,
+  "recheck_after": 1807603965112,
+  "model": "claude-haiku-5-5"
+}

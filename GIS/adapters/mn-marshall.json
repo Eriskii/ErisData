@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-marshall",
+  "publisher": "Marshall County GIS (MN)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.marshall.mn.us/server/rest/services/Marshall/MarshallCountyMN_LandRecords/MapServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27089"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "TAXPAYER_NAME",
+    "address": "PROPERTY_ADDRESS",
+    "acres": "GIS_Acres",
+    "land_use": "CITY_TWP_NAME"
+  },
+  "notes": "Marshall County MN land records MapServer, Tax Parcel layer (layer 8). OWNER_NAME is often blank; TAXPAYER_NAME used as owner. No assessed value or land use code in this layer; CITY_TWP_NAME used as district label.",
+  "verification": {
+    "verified_at": 1792050891194,
+    "counties": [
+      "27089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

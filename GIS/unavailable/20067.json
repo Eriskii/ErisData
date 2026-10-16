@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20067",
+  "reason": "login-required",
+  "evidence": [
+    "https://services.kansasgis.org/arcgis4/rest/services/KS_Parcels_ORKA_EB/FeatureServer/0",
+    "https://services.kansasgis.org/arcgis4/rest/services/KS_Parcels_ORKA/MapServer",
+    "https://www.grantcoks.org/QuickLinks.aspx?CID=82",
+    "https://orkahub.kansasgis.org/pages/request"
+  ],
+  "note": "Grant County KS parcels are only reachable via the state ORKA portal (PORKA), which requires registration and a per-county request. The statewide public parcel service KS_Parcels_ORKA_EB contains only four counties (CN, RA, SH, TH; 23,861 features); a point query at the Grant County sample location (-101.30821, 37.56203) returns no parcels. KS_Parcels_ORKA MapServer has no parcel polygon layer. The ORKA parcel search linked from grantcoks.org is an Experience app with no public parcel REST endpoint. The only other Grant County parcel source found is a commercial vendor.",
+  "recorded_at": 1792049388505,
+  "recheck_after": 1807601388505,
+  "model": "claude-haiku-5-5"
+}

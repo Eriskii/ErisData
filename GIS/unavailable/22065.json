@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "22065",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.arcgis.com/apps/webappviewer/index.html?id=60c3944db1274eecb578af32a5b2e7fd",
+    "https://services7.arcgis.com/deoj2Y8l1tBr7P5X/arcgis/rest/services/Madison_Service/FeatureServer/5",
+    "https://assessorsearch.com/property-records/louisiana/madison-parish"
+  ],
+  "note": "The Madison Parish parcel viewer's only service (services7.arcgis.com Madison_Service/FeatureServer/5) covers Madison County, Mississippi (lon -90.45 to -89.73, lat 32.8-33.0; Mississippi parcel IDs); validation found 0 parcels in the Madison Parish sample box. No parish-run parcel endpoint found; other parcel sources are commercial (Regrid, Equator, Dynamo, Acres).",
+  "recorded_at": 1792049960586,
+  "recheck_after": 1807601960586,
+  "model": "claude-haiku-5-5"
+}

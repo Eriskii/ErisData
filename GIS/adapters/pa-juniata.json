@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-juniata",
+  "publisher": "Juniata County GIS via PASDA",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/JuniataCounty/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42067"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "Owners_Nam",
+    "address": "Physical_A",
+    "acres": "Calc_AC",
+    "land_use": "Land_Code",
+    "assessed_value": "Total_Valu"
+  },
+  "notes": "PASDA 2024 parcel layer; EPSG:4269; maxRecordCount 1000",
+  "verification": {
+    "verified_at": 1792051566283,
+    "counties": [
+      "42067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

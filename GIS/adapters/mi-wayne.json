@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mi-wayne",
+  "publisher": "Wayne County MI (hosted copy, AleenaMR ArcGIS Online item)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/WXQyaFovsjw3xuqW/arcgis/rest/services/wayne_county_parcelsGIS5101Lab2/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26163"
+    ]
+  },
+  "fields": {
+    "apn": "packedParc",
+    "address": "propstreet"
+  },
+  "notes": "Wayne County MI parcel polygons, 768k features; source item is a hosted copy by a third party; no owner or value fields published",
+  "verification": {
+    "verified_at": 1792049980398,
+    "counties": [
+      "26163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

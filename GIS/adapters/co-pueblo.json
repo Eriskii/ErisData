@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-pueblo",
+  "publisher": "Pueblo County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.pueblo.co.us/outside/rest/services/Landbase/PuebloCounty_Parcels/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08101"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumb",
+    "owner": "OwnerName",
+    "land_use": "TaxDistric",
+    "assessed_value": "Improvemen"
+  },
+  "notes": "Pueblo County Assessor parcel layer from maps.co.pueblo.co.us outside services; no site address field in source",
+  "verification": {
+    "verified_at": 1792048698915,
+    "counties": [
+      "08101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

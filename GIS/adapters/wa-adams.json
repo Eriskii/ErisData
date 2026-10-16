@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wa-adams",
+  "publisher": "WA Geospatial Services (WA DOR statewide tax parcels), Adams County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/jsIt88o09Q0r1j8h/arcgis/rest/services/Current_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53001"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID_NR",
+    "land_use": "LANDUSE_CD",
+    "assessed_value": "VALUE_LAND"
+  },
+  "filter": "FIPS_NR = '001'",
+  "notes": "Statewide DOR parcel layer filtered to Adams County (FIPS_NR 001). Address is sparse in source (about 40% filled), so not mapped. No owner field in source.",
+  "verification": {
+    "verified_at": 1792053129987,
+    "counties": [
+      "53001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

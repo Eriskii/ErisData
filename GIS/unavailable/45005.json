@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "45005",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.qpublic.net/sc/allendale/search.html",
+    "https://www.dynamospatial.com/c/allendale-county-sc/parcel-data",
+    "https://info2.scdot.org/sites/gis/SitePages/tfresults.aspx?cty=Allendale&MapType=County",
+    "https://services1.arcgis.com/pRKvFlmLlelBHFfD/arcgis/rest/services/USC_System_Parcels/FeatureServer",
+    "https://services9.arcgis.com/RvqSyw3diI7dTKo5/arcgis/rest/services/Allendale_Hampton_2_Web_Map_VIEW/FeatureServer/4"
+  ],
+  "note": "Searched ArcGIS Hub/Online (Allendale parcels, SC statewide parcels) and web searches for the county GIS. Only found: qPublic/Schneider assessor portal behind a disclaimer (no public REST service); commercial vendors (Dynamo Spatial shapefile purchase, ACRES, AcreValue); SCDOT static 2017 PDF map; USC System Parcels (university lands only); and a 450-feature Allendale Affected Parcels project layer (Hampton 2 web map) that is a project subset, not county parcels. County site allendalecounty.com has no GIS link.",
+  "recorded_at": 1792051592932,
+  "recheck_after": 1807603592932,
+  "model": "claude-haiku-5-5"
+}

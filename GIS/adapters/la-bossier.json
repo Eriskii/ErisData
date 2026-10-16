@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-bossier",
+  "publisher": "Bossier Parish (2016 parcel feature service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/rxjYSJmWllCcGWDd/arcgis/rest/services/Bossier(Parcels)(2016)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22015"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "OWNER",
+    "acres": "ACRES"
+  },
+  "notes": "Community-published 2016 Bossier parcel layer; no address or value fields; verify currency",
+  "verification": {
+    "verified_at": 1792049880765,
+    "counties": [
+      "22015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

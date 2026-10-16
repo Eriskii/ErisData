@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-summit",
+  "publisher": "Summit County GIS (Colorado)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/dmNYNuTJZDtkcRJq/arcgis/rest/services/SummitCnty_Parcels_Pictometry/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08117"
+    ]
+  },
+  "fields": {
+    "apn": "PropertyScheduleText",
+    "owner": "OwnerFullName",
+    "address": "SitusAddress",
+    "land_use": "BriefPropertyDescription"
+  },
+  "notes": "Summit County CO public parcel layer (PrISM_Parcels via Pictometry view)",
+  "verification": {
+    "verified_at": 1792048722869,
+    "counties": [
+      "08117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

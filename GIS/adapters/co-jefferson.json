@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "co-jefferson",
+  "publisher": "Jefferson County GIS (gisportal.jeffco.us)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.jeffco.us/server2/rest/services/Parcel/FeatureServer/20",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08059"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNNAM",
+    "address": "PRPADDRESS",
+    "acres": "VALACR",
+    "land_use": "TAXCLS",
+    "assessed_value": "VALACT"
+  },
+  "notes": "Jefferson County CO parcel ownership layer; CC BY 4.0 per county open data terms. VALACT is actual value.",
+  "verification": {
+    "verified_at": 1792048688065,
+    "counties": [
+      "08059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

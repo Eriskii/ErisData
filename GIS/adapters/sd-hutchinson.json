@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-hutchinson",
+  "publisher": "Hutchinson County GIS (via District III)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/HUTCHINSON_COUNTY_WEB_LAYERS2/MapServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46067"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNERNAME",
+    "acres": "DEEDED_ACRES"
+  },
+  "notes": "Hutchinson County SD parcel layer from District III ArcGIS server. SITE_ADDRESS exists but is blank for most rural parcels, so address is not mapped. No assessed value field in source.",
+  "verification": {
+    "verified_at": 1792051706252,
+    "counties": [
+      "46067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-claiborne",
+  "publisher": "Claiborne Parish (parcel layer hosted on ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/rxjYSJmWllCcGWDd/arcgis/rest/services/Parcels(Claiborne)/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22027"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER_NAME",
+    "acres": "ACREAGE",
+    "assessed_value": "ASSESSED_V"
+  },
+  "notes": "Public ArcGIS Online feature layer of Claiborne Parish parcels (about 4,022 features). Blank values are single spaces. Site address fields are mostly blank, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792049971246,
+    "counties": [
+      "22027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

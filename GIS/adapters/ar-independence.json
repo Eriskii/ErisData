@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-independence",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 8,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05063"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "acres": "Shape__Area",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "county = 'Independence'",
+  "notes": "Statewide AR parcel polygons, not a legal boundary; Independence County rows selected by county field (countyfips is 3-digit 063). Situs address (adrlabel) is sparse in source, so omitted. Data updated twice a year.",
+  "verification": {
+    "verified_at": 1792048549014,
+    "counties": [
+      "05063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

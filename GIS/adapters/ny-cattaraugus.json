@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ny-cattaraugus",
+  "publisher": "Cattaraugus County Office of Real Property",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps2.cattco.org/arcgiswebadaptor/rest/services/ParcelandSales_Viewer/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36009"
+    ]
+  },
+  "fields": {
+    "apn": "PRINTKEY",
+    "owner": "OWNER1",
+    "address": "PROP_LOC",
+    "acres": "ACRES",
+    "land_use": "CLASS_CODE"
+  },
+  "notes": "County parcel layer; PRINTKEY is the parcel id; SWIS is municipality code",
+  "verification": {
+    "verified_at": 1792051353310,
+    "counties": [
+      "36009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

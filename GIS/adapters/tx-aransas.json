@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-aransas",
+  "publisher": "Aransas County Appraisal District (via AransasCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/91dtIBbR8eaxrmHR/arcgis/rest/services/AransasCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48007"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Appraisal district CAD parcel layer; geo_id is the parcel geographic ID; situs_street is street name only (situs_num separate).",
+  "verification": {
+    "verified_at": 1792051633217,
+    "counties": [
+      "48007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

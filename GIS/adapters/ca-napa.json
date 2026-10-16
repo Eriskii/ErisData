@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-napa",
+  "publisher": "Napa County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ko5rxt00spOfjMqj/arcgis/rest/services/Napa_County_Public_Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06055"
+    ]
+  },
+  "fields": {
+    "apn": "ASMT",
+    "acres": "Acres",
+    "land_use": "Landuse1",
+    "assessed_value": "NetAssessedValues"
+  },
+  "notes": "Napa County Public Parcels, authoritative public-facing layer from Napa County GIS (PBES). Owner name not published in this layer. Situs address is blank for many vacant/rural parcels, so it is not mapped.",
+  "verification": {
+    "verified_at": 1792048643825,
+    "counties": [
+      "06055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

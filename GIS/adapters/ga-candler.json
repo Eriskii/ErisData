@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-candler",
+  "publisher": "Candler County GIS (hogagis)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/Candler_County_Wide_View/FeatureServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13043"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELLABEL",
+    "owner": "NAME",
+    "address": "SEIPARCELSTREETADDRESS",
+    "acres": "STATEDAREA"
+  },
+  "notes": "Candler County GA tax parcels from Candler_County_Wide_View service, layer TaxParcel_26. Acres from STATEDAREA.",
+  "verification": {
+    "verified_at": 1792048733618,
+    "counties": [
+      "13043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13231",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.pikecoga.com/gis-department.html",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=PikeCountyGA&Layer=Parcels&PageType=Search",
+    "https://qpublic.net/ga/pike/"
+  ],
+  "note": "Pike County GA parcels are published only through the qPublic (Schneider) viewer, which is behind a Cloudflare challenge (HTTP 403) and exposes no public ArcGIS REST service. Searches of ArcGIS Hub/Online and county pages found no Pike County GA parcel FeatureServer/MapServer. The pikepa.org service found is Pike County, Pennsylvania. Remaining parcel sources are commercial paid downloads (Dynamo Spatial, Regrid, Rockford Map, Equator Studios).",
+  "recorded_at": 1792048867398,
+  "recheck_after": 1807600867398,
+  "model": "claude-haiku-5-5"
+}

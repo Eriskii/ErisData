@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-tuscola",
+  "publisher": "Tuscola County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/FA2StDZ4LO95Cm3q/arcgis/rest/services/TuscolaCountyParcelsCurrentYearAddresses/FeatureServer/53",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26157"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "ownername1",
+    "address": "propstreetcombined",
+    "acres": "Acres"
+  },
+  "notes": "Current-year parcels layer from Tuscola County GIS (ArcGIS Hub, chortoneq/GDITAdmin). No assessed value or land use fields published.",
+  "verification": {
+    "verified_at": 1792049955491,
+    "counties": [
+      "26157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

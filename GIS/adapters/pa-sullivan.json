@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-sullivan",
+  "publisher": "Sullivan County, PA (tax parcel map, ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/v23hD9oBVGlp45Zy/arcgis/rest/services/Sullivan_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42113"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "address": "PROPERTY_L",
+    "acres": "ACRES"
+  },
+  "notes": "Public service from the Sullivan County Public Map viewer; no owner or assessed value fields published",
+  "verification": {
+    "verified_at": 1792051565383,
+    "counties": [
+      "42113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

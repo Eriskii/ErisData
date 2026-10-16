@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-whiteside",
+  "publisher": "Whiteside County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/l0M0OC6J9QAHCiGx/arcgis/rest/services/Tax_Parcels_Ver_2_Parcels_Only/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17195"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "acres": "Shape__Area",
+    "land_use": "CLASSCD",
+    "assessed_value": "CNTASSDVAL"
+  },
+  "notes": "Whiteside County IL tax parcels via Hub; SITEADDRESS is sparse so not mapped; Shape__Area is square meters in layer units",
+  "verification": {
+    "verified_at": 1792048982636,
+    "counties": [
+      "17195"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

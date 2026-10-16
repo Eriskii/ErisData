@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-indian-river",
+  "publisher": "Indian River County Property Appraiser (via ParcelsIRC feature service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/mK9abRqiJFkUgbPZ/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12061"
+    ]
+  },
+  "fields": {
+    "apn": "PropertyID",
+    "owner": "Owner1",
+    "address": "ParcelAddress",
+    "acres": "Acres",
+    "land_use": "PrimaryUse",
+    "assessed_value": "AssessedValue"
+  },
+  "notes": "Parcel boundaries for Indian River County, FL; attributes from county tax roll",
+  "verification": {
+    "verified_at": 1792048795073,
+    "counties": [
+      "12061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

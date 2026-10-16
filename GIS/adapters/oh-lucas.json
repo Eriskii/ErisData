@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "oh-lucas",
+  "publisher": "Lucas County Engineer Tax Map Dept / Auditor (via ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/T8dczfwPixv79EgZ/arcgis/rest/services/Parcels_General_Land_Use_Classification_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39095"
+    ]
+  },
+  "fields": {
+    "apn": "PARID",
+    "owner": "OWNER",
+    "address": "PROPERTY_ADDRESS",
+    "acres": "ACREAGE_CALC",
+    "land_use": "LUC"
+  },
+  "notes": "Lucas County, Ohio. Tax map parcels maintained by Engineer Tax Map Dept, hosted in Auditor Cadastre dataset; joined with auditor CAMA attributes.",
+  "verification": {
+    "verified_at": 1792051652810,
+    "counties": [
+      "39095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

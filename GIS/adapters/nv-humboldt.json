@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nv-humboldt",
+  "publisher": "Nevada Division of Water Resources (statewide parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.water.nv.gov/arcgis/rest/services/BaseLayers/County_Parcels_in_Nevada/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32013"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "address": "SiteCity",
+    "acres": "Acres"
+  },
+  "filter": "County = 'Humboldt' AND Acres < 2000",
+  "notes": "Statewide compiled parcels; filter excludes huge rural parcels",
+  "verification": {
+    "verified_at": 1792051418572,
+    "counties": [
+      "32013"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

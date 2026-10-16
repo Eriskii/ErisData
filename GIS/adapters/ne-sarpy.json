@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ne-sarpy",
+  "publisher": "Sarpy County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geodata.sarpy.gov/arcgis/rest/services/Cadastral/LandRecordsSearch/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31153"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "address": "SITEADDRESS",
+    "acres": "ACREAGE",
+    "land_use": "CLASSDSCRP",
+    "assessed_value": "CNTASSDVAL"
+  },
+  "notes": "Sarpy County NE tax parcels, MapServer layer 5 (LandRecordsSearch). Public service.",
+  "verification": {
+    "verified_at": 1792051123537,
+    "counties": [
+      "31153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

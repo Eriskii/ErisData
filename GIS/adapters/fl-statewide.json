@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-statewide",
+  "publisher": "Florida Department of Revenue (FDOR) via Florida Statewide Cadastral layer",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Gh9awoU677aKree0/arcgis/rest/services/Florida_Statewide_Cadastral/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "FL"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "OWN_NAME",
+    "address": "PHY_ADDR1",
+    "land_use": "DOR_UC",
+    "assessed_value": "AV_SD"
+  },
+  "notes": "Florida DOR parcel subset from 67 county property appraisers, annual July roll. Source is ArcGIS Hub feature service; CO_NO holds county number. No acres field; LND_SQFOOT is land square feet.",
+  "verification": {
+    "verified_at": 1792048305638,
+    "counties": [
+      "12001",
+      "12069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

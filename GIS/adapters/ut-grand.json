@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-grand",
+  "publisher": "Grand County GIS (via Utah AGRC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Grand/FeatureServer/0",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49019"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_TYPE",
+    "address": "PARCEL_ADD"
+  },
+  "notes": "CC BY 4.0; Grand County parcels from AGRC open data; about 7,900 records; no acreage or value fields published in this layer",
+  "verification": {
+    "verified_at": 1792052709840,
+    "counties": [
+      "49019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

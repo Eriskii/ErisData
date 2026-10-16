@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-bradford",
+  "publisher": "Florida Department of Revenue via Florida Statewide Cadastral (Bradford County, CO_NO 14)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Gh9awoU677aKree0/arcgis/rest/services/Florida_Statewide_Cadastral/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12007"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "OWN_NAME",
+    "address": "PHY_ADDR1",
+    "land_use": "DOR_UC",
+    "assessed_value": "JV"
+  },
+  "filter": "CO_NO = 14",
+  "notes": "FDOR statewide cadastral; CO_NO 14 = Bradford County code",
+  "verification": {
+    "verified_at": 1792049623826,
+    "counties": [
+      "12007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

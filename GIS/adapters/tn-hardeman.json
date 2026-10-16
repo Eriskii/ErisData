@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-hardeman",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (statewide parcel boundaries, Hardeman rows)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47069"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_NAME = 'HARDEMAN'",
+  "notes": "Statewide TN parcel boundaries; filtered to Hardeman County rows",
+  "verification": {
+    "verified_at": 1792052647099,
+    "counties": [
+      "47069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

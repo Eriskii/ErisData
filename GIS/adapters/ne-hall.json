@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-hall",
+  "publisher": "City of Grand Island / Hall County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/H1fomogcAqX4720J/ArcGIS/rest/services/PV1_ParcelManagement/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31079"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL",
+    "owner": "CURRENT_OWNER"
+  },
+  "notes": "Parcel layer from City of Grand Island PV1_ParcelManagement; covers Hall County; SITUS address sparsely filled (rural parcels), so not mapped; area in AREASQFT",
+  "verification": {
+    "verified_at": 1792051117742,
+    "counties": [
+      "31079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

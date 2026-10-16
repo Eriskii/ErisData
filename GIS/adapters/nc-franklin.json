@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-franklin",
+  "publisher": "NC OneMap (NC1Map Parcels), Franklin County records",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37069"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "acres": "gisacres",
+    "land_use": "parusecode",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37069'",
+  "notes": "NCOneMap aggregated statewide parcels; filtered to Franklin County FIPS 37069. Site address not populated for Franklin County in this layer, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792051435305,
+    "counties": [
+      "37069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

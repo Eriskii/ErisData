@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "fl-osceola",
+  "publisher": "Osceola County Property Appraiser",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/NbEF7l0gBsrypoec/arcgis/rest/services/Osceola_2025_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12097"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_NAME",
+    "address": "PHY_ADDR1",
+    "land_use": "DOR_UC",
+    "assessed_value": "AV_SD"
+  },
+  "notes": "Osceola County parcel layer with FDOR tax roll fields; DOR_UC is DOR land use code",
+  "verification": {
+    "verified_at": 1792048955992,
+    "counties": [
+      "12097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

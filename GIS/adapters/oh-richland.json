@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-richland",
+  "publisher": "Ohio DNR / OGRIP statewide parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ohiodnr.gov/arcgis/rest/services/OIT_Services/odnr_landbase_v2/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39139"
+    ]
+  },
+  "fields": {
+    "apn": "STATEWIDE_PIN",
+    "acres": "CALC_ACRES"
+  },
+  "filter": "COUNTY = 'Richland'",
+  "notes": "ODNR statewide parcels filtered to Richland; no owner/address published for this county in this layer. County server maps.richlandcountyoh.us Parcel_CAMA has richer attributes but broken paging.",
+  "verification": {
+    "verified_at": 1792051882667,
+    "counties": [
+      "39139"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

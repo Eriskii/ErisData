@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-bamberg",
+  "publisher": "Bamberg County (via Bamberg Colleton Web Map ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/RvqSyw3diI7dTKo5/arcgis/rest/services/Bamberg_Colleton_Web_Map_VIEW/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45009"
+    ]
+  },
+  "fields": {
+    "apn": "PIN"
+  },
+  "filter": "County = 'Bamberg County'",
+  "notes": "Partial coverage: this service holds only 86 project-affected parcels, not the full county parcel set. Full county parcels are on qPublic (Schneider), which is not reachable as a public service. No owner or address fields are published; PIN is the parcel number.",
+  "verification": {
+    "verified_at": 1792051613977,
+    "counties": [
+      "45009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29053",
+  "reason": "login-required",
+  "evidence": [
+    "https://services2.integritygis.com/arcgis/rest/services/MO/Cooper_Assessor_Data/MapServer (returns 'Token Required' on the service and on /11, the parcel layer)",
+    "https://raygis.integritygis.com/Geocortex/Essentials/REST/sites/Cooper_County_MO/overviewmap/mapservices (Geocortex directory listing Cooper_Assessor_Data with Parcel layer)",
+    "https://gis.equatorstudios.com/missouri_cooper/ (commercial parcel product, not a public service)"
+  ],
+  "note": "Cooper County MO parcels are served by an IntegrityGIS Assessor Data MapServer that requires a token, so no public queryable parcel service was found. Searched ArcGIS Hub/Online, IntegrityGIS Public, Locators, Utilities and MO folders, neighbouring Boone County (its ParcelLayers covers only Boone), and MSDIS (no statewide parcel layer).",
+  "recorded_at": 1792051014561,
+  "recheck_after": 1807603014561,
+  "model": "claude-haiku-5-5"
+}

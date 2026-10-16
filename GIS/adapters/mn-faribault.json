@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-faribault",
+  "publisher": "Faribault County GIS (via GDITAdmin ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/fxB2C8mQfjMb1848/arcgis/rest/services/TaxParcelsGAC/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27043"
+    ]
+  },
+  "fields": {
+    "apn": "COUNTY_PIN",
+    "owner": "TAX_NAME",
+    "acres": "ACRES_POLY"
+  },
+  "notes": "Tax Parcel (GAC) layer for Faribault County MN. Owner is the tax-mailing name (OWNER_NAME is mostly blank). Situs address sparse in source (mostly rural parcels). No assessed value or land use in source.",
+  "verification": {
+    "verified_at": 1792050906271,
+    "counties": [
+      "27043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

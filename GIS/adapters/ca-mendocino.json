@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-mendocino",
+  "publisher": "Mendocino County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/8y4r60VTvWj2wnDH/arcgis/rest/services/Parcels_Public_/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06045"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "address": "SITUS_ADD",
+    "acres": "ACRES",
+    "land_use": "CLASS_CD"
+  },
+  "notes": "Mendocino County Assessor Parcels (Parcels Public), public ArcGIS service; owner field not published",
+  "verification": {
+    "verified_at": 1792048632813,
+    "counties": [
+      "06045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

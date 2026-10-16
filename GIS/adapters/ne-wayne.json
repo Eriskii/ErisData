@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-wayne",
+  "publisher": "Wayne County NE Assessor (gworks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Wayne_County_NE_Assessor/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31179"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "Wayne County NE assessor parcels via gworks MapServer; owner/address not published in this layer",
+  "verification": {
+    "verified_at": 1792051315710,
+    "counties": [
+      "31179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

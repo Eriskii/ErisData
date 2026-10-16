@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-schuyler",
+  "publisher": "Schuyler County, IL (Sidwell Portico)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/6WBCrIMyoycGocqb/arcgis/rest/services/Parcel_Schuyler/FeatureServer/0",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "17169"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_number",
+    "owner": "owner1_name",
+    "acres": "gross_acres",
+    "land_use": "class",
+    "assessed_value": "tax_billed"
+  },
+  "notes": "Hosted by Sidwell Portico (services9 Parcel_Schuyler). site_address is sparse in the source (often blank for rural parcels), so it is not mapped. Owner mailing address available as owner1_address1/owner1_csz.",
+  "verification": {
+    "verified_at": 1792049617214,
+    "counties": [
+      "17169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

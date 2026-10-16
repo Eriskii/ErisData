@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-multnomah",
+  "publisher": "Multnomah County Department of Assessment, Recording and Taxation",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/x7DNZL1YqNQVNykA/arcgis/rest/services/Multnomah_County_Taxlot_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41051"
+    ]
+  },
+  "fields": {
+    "apn": "MAPTAXLOT",
+    "owner": "NAME",
+    "address": "SITUSADDR",
+    "acres": "SIZEACRES",
+    "land_use": "PROPCLASS"
+  },
+  "notes": "County assessor tax parcels; boundaries approximate, not for legal boundary determination. Source: multco open data (harperb_AGO hosted copy).",
+  "verification": {
+    "verified_at": 1792051488675,
+    "counties": [
+      "41051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

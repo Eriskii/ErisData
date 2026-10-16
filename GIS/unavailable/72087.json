@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "72087",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "http://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/FeatureServer/0"
+  ],
+  "note": "CRIM's parcel service on sigejp.pr.gov returns 500 'Service not started' on all queries; the older satasgis.crimpr.net host is dead (404/unreachable). No other public parcel service or file found.",
+  "recorded_at": 1792052152179,
+  "recheck_after": 1807604152179,
+  "model": "claude-sonnet-5-5"
+}

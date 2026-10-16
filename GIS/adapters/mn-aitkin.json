@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-aitkin",
+  "publisher": "Aitkin County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.co.aitkin.mn.us/arcgis/rest/services/ParcelTaxData/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27001"
+    ]
+  },
+  "fields": {
+    "apn": "PRINT_KEY",
+    "owner": "OWNNAME",
+    "address": "Physical_Address",
+    "acres": "Acres",
+    "land_use": "TPCLS1",
+    "assessed_value": "ESTTOTVAL"
+  },
+  "notes": "Aitkin County tax parcels keyed by PIN (PRINT_KEY). Redundant geometries exist for condominiums and undivided interests. Redistribution restricted without county consent per metadata.",
+  "verification": {
+    "verified_at": 1792050874116,
+    "counties": [
+      "27001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

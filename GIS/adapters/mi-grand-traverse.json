@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mi-grand-traverse",
+  "publisher": "Grand Traverse County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gtcountymi.gov/arcgis/rest/services/Public_Services/Tax_Parcel_Public/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26055"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "address": "SITEADDRESS",
+    "acres": "ASSACRES",
+    "land_use": "CLASSDSCRP",
+    "assessed_value": "CNTASSDVAL"
+  },
+  "notes": "Current tax roll parcels, hosted by Grand Traverse County",
+  "verification": {
+    "verified_at": 1792049919330,
+    "counties": [
+      "26055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

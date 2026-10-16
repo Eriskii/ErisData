@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-rowan",
+  "publisher": "Rowan County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rowancountync.gov/arcgis/rest/services/Public/RowanTaxParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37159"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNNAME",
+    "address": "PROP_ADDRESS",
+    "acres": "CALCACRE",
+    "assessed_value": "TOT_VAL"
+  },
+  "notes": "Rowan County tax parcels, public ArcGIS service; source in Web Mercator. No land-use field published; TAX_DISTRICT is the fire/tax district and is not mapped.",
+  "verification": {
+    "verified_at": 1792051376406,
+    "counties": [
+      "37159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

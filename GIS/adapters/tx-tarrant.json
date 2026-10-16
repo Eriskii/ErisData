@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-tarrant",
+  "publisher": "Tarrant Appraisal District via Tarrant County (mapit.tarrantcounty.com)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapit.tarrantcounty.com/arcgis/rest/services/Dynamic/TADParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48439"
+    ]
+  },
+  "fields": {
+    "apn": "ACCOUNT",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "LAND_ACRES",
+    "assessed_value": "TOTAL_VALU"
+  },
+  "notes": "Tarrant Appraisal District parcel polygons; ownership and appraisal data. Service exposes TAXPIN too.",
+  "verification": {
+    "verified_at": 1792051749937,
+    "counties": [
+      "48439"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

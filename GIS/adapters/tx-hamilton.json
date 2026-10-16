@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-hamilton",
+  "publisher": "Hamilton County Appraisal District (via ArcGIS Online HamiltonCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/pzFcYh1n3tCig21y/arcgis/rest/services/HamiltonCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48193"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Texas CAD parcel layer; polygons in EPSG:2277 served as geoJSON; situs_street holds street name only (situs_num separate)",
+  "verification": {
+    "verified_at": 1792051686197,
+    "counties": [
+      "48193"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-linn",
+  "publisher": "Linn County GIS (Oregon)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.linn.or.us/public/rest/services/baselayers/Pub_taxlots/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41043"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER1",
+    "acres": "TaxlotAcre",
+    "land_use": "PCLSD",
+    "assessed_value": "ASSESSVAL"
+  },
+  "notes": "Linn County Assessor tax lots, public MapServer; source reprojected from EPSG:2913",
+  "verification": {
+    "verified_at": 1792051482018,
+    "counties": [
+      "41043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

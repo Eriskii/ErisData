@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ok-okmulgee",
+  "publisher": "Oklahoma Office of Geographic Information (OK Maps) statewide parcels, source Okmulgee County assessor data",
+  "source": {
+    "kind": "wfs",
+    "url": "https://ogidev.okmaps.org/geoserver/wfs",
+    "type_name": "ogi_wms:current_statewide_parcels",
+    "version": "1.0.0",
+    "page_size": 1000,
+    "lat_lon": false
+  },
+  "coverage": {
+    "counties": [
+      "40111"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "owner"
+  },
+  "filter": "county = 'Okmulgee'",
+  "notes": "Statewide parcel layer from OK Maps geoserver (WFS GetFeature works). Okmulgee rows filtered on county attribute. acres sparsely populated in source so not mapped. Attributes: parcelid, accountnumber, owner, schooldistrict, trs.",
+  "verification": {
+    "verified_at": 1792051720237,
+    "counties": [
+      "40111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

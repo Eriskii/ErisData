@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "id": "ny-statewide",
+  "publisher": "NYS GIS Clearinghouse / NYS Office of Real Property Services",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://nysgeohub.ny.gov/arcgis/rest/services/Parcels/NYS_Tax_Parcels_Public/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "NY"
+    ]
+  },
+  "fields": {
+    "apn": "SBL",
+    "owner": "PRIMARY_OWNER",
+    "address": "PARCEL_ADDR",
+    "acres": "CALC_ACRES",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "TOTAL_AV"
+  },
+  "notes": "Statewide NYS Tax Parcels Public layer, updated annually; COUNTY_NAME field identifies county. SBL is the statewide-unique parcel ID (PRINT_KEY is empty for NYC). Footprint layer 0 lists counties with available polygons.",
+  "verification": {
+    "verified_at": 1792051440549,
+    "counties": [
+      "36001",
+      "36005",
+      "36007",
+      "36011",
+      "36013",
+      "36023",
+      "36029",
+      "36037",
+      "36039",
+      "36047",
+      "36049",
+      "36051",
+      "36057",
+      "36061",
+      "36065",
+      "36067",
+      "36069",
+      "36071",
+      "36075",
+      "36077",
+      "36079",
+      "36083",
+      "36085",
+      "36087",
+      "36089",
+      "36097",
+      "36101",
+      "36103",
+      "36105",
+      "36107",
+      "36109",
+      "36111",
+      "36113",
+      "36117",
+      "36119",
+      "36121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

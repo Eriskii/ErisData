@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ak-fairbanks-north-star",
+  "publisher": "Fairbanks North Star Borough GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.fnsb.gov/referenced/rest/services/_/Parcels_with_TaxInfo/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02090"
+    ]
+  },
+  "fields": {
+    "apn": "PAN",
+    "owner": "Owner1",
+    "address": "Mailing_Address",
+    "acres": "Shape__Area",
+    "land_use": "Assessing_Primary_Use",
+    "assessed_value": "Total_Value"
+  },
+  "filter": "PARCEL_TYPE <> 'Waterway' AND Shape__Area < 10000000",
+  "notes": "Borough tax parcels joined with taxroll; Shape__Area is square feet, not acres. Filter drops waterway polygons and the largest state-land polygons. Public ArcGIS service.",
+  "verification": {
+    "verified_at": 1792048400858,
+    "counties": [
+      "02090"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

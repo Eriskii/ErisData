@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72111",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/MapServer/0",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/ParcelasEtiquetas/MapServer/0"
+  ],
+  "note": "CRIM (Catastro Digital) parcel polygon layers are listed in CRIM's web maps, but the crim_parcelas service returns 'Service not started' (HTTP 500 on query), the SATAS Parcelas/ParcelasEtiquetas endpoints return 404 or are unreachable, and sige.pr.gov is unreachable. gis.pr.gov, the Catastro hub and the Municipios layer give no queryable Peñuelas parcel service. Validation run pr-penuelas failed on query.",
+  "recorded_at": 1792052070306,
+  "recheck_after": 1807604070306,
+  "model": "claude-haiku-5-5"
+}

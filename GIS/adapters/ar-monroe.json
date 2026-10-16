@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-monroe",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05095"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelId",
+    "owner": "OwnerName",
+    "land_use": "ParcelType",
+    "assessed_value": "TotalValue"
+  },
+  "filter": "CountyFips = '095'",
+  "notes": "Statewide AR parcel polygons, not a legal boundary; updated twice a year; CountyFips stored as 3-digit county code; address field AdrLabel is sparse so omitted; assessed_value uses TotalValue because AssessValue is empty",
+  "verification": {
+    "verified_at": 1792048533664,
+    "counties": [
+      "05095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

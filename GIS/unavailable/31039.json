@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "31039",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://cumingcountyne.gov/online-services/",
+    "https://nebraskaassessorsonline.us/search.aspx?county=Cuming",
+    "https://cuming.gworks.com/",
+    "https://gis3.gworks.com/arcgis/rest/services/Cuming_County_NE_Assessor/MapServer/0",
+    "https://services8.arcgis.com/jzdN07B7ZhRTxuzU/arcgis/rest/services/NGPC_NE_Parcels_2023/FeatureServer/0",
+    "https://www.nebraskamap.gov/pages/county-assessor-gis"
+  ],
+  "note": "Searched ArcGIS Hub/Online, the gWorks server directory, county and state pages. The only Cuming parcel service listed on ArcGIS Online (gis3.gworks.com Cuming_County_NE_Assessor) is not on the server. The statewide NGPC 2023 parcel layer covers only Madison and Stanton (0 Cuming features). The statewide 2025 parcels are a file geodatabase download, not a service. Remaining Cuming parcel sources are paid vendors or the assessor's HTML search.",
+  "recorded_at": 1792051212074,
+  "recheck_after": 1807603212074,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-trinity",
+  "publisher": "Trinity County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/32siQkg0O6da8zFF/arcgis/rest/services/Parcel_Service/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06105"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "OWNERSHIP_TYPE",
+    "acres": "GIS_ACRES",
+    "land_use": "GENERAL_PLAN"
+  },
+  "notes": "Trinity County Parcels, public ArcGIS service from county GIS hub; no owner name, situs address (often blank for unaddressed parcels) or assessed value fields published",
+  "verification": {
+    "verified_at": 1792048667149,
+    "counties": [
+      "06105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

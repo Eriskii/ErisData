@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "me-cumberland",
+  "publisher": "Maine Cadastral/MCHT combined digital tax parcels (Cumberland County towns)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mcht.org/arcgis/rest/services/Cadastral_Planning/MCHT_Combined_Parcels/FeatureServer/0",
+    "page_size": 42,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "23005"
+    ]
+  },
+  "fields": {
+    "apn": "geocode",
+    "address": "prop_loc",
+    "land_use": "type"
+  },
+  "filter": "county = 'Cumberland'",
+  "notes": "Combined organized-town parcels from Maine Cadastral Historical Tech; county field = Cumberland; owner not published in this layer; source CRS EPSG:26919",
+  "verification": {
+    "verified_at": 1792049907240,
+    "counties": [
+      "23005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

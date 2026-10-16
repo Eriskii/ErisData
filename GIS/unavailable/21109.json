@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21109",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://countygismaps.com/ky/jackson",
+    "https://www.dynamospatial.com/c/jackson-county-ky/parcel-data",
+    "https://jacksoncounty.ky.gov/Pages/Officials.aspx",
+    "https://revenue.ky.gov/Property/Mapping-Services/Pages/default.aspx",
+    "https://kygisserver.ky.gov/arcgis/rest/services"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Jackson County KY parcels. No public ArcGIS REST parcel service or downloadable county parcel file found. Only commercial vendors (Dynamo, Acres, AcreValue, NETR), a qPublic/Schneider PVA viewer (not an ArcGIS service, blocked from inspection), and countygismaps.com states Jackson County parcel records are not yet available. KY state kygisserver has no parcel folder. Regrid nationwide tile service is not queryable.",
+  "recorded_at": 1792049924744,
+  "recheck_after": 1807601924744,
+  "model": "claude-haiku-5-5"
+}

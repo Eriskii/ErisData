@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-vanzandt",
+  "publisher": "Van Zandt Central Appraisal District (via BIS Consulting ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/96Y3rGnOjGwKKDOM/arcgis/rest/services/VanZandtCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48467"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_num",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Parcel polygons from Van Zandt CAD via BIS Consulting web service; no land use field exposed",
+  "verification": {
+    "verified_at": 1792051805287,
+    "counties": [
+      "48467"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

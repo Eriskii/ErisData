@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-sherman",
+  "publisher": "Sherman County GIS (gWorks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis2.gworks.com/arcgis/rest/services/Sherman_County_NE_SimpleRoads_MGMT/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31163"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "Sherman County parcel layer from county gWorks roads/management service; only PID and acres published.",
+  "verification": {
+    "verified_at": 1792051325184,
+    "counties": [
+      "31163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

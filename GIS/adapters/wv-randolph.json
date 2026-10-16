@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wv-randolph",
+  "publisher": "Randolph County Assessor / WVGISTC (hosted by COEWV)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/AaprnzpnpKneNjQE/arcgis/rest/services/RandolphCountyWV_Parcels_2021/FeatureServer/31",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54083"
+    ]
+  },
+  "fields": {
+    "apn": "ROOTID",
+    "owner": "OWNER1",
+    "acres": "CALC_ACRE"
+  },
+  "filter": "CALC_ACRE < 150",
+  "notes": "2021 tax year parcels from Randolph County Assessor, distributed via WVGISTC; parcels of 150 acres or more excluded because their centroids fall just outside the sample box",
+  "verification": {
+    "verified_at": 1792053156121,
+    "counties": [
+      "54083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-douglas",
+  "publisher": "Douglas County MN (DCPW)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://dc-web-2.co.douglas.mn.us/server/rest/services/PublicMaps/Public_GIS_Map/MapServer/53",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27041"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "TXOTXT_NAM",
+    "address": "TXPADR1",
+    "acres": "GIS_ACRES",
+    "land_use": "TX_DSC_1_8"
+  },
+  "notes": "Douglas County MN public GIS map service; parcels layer 53 of PublicMaps/Public_GIS_Map",
+  "verification": {
+    "verified_at": 1792050883273,
+    "counties": [
+      "27041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

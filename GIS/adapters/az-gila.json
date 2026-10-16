@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "az-gila",
+  "publisher": "Gila County Assessor (hosted ArcGIS Online, Parcels_View3)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/PEZ16KoOWXoETFQ5/arcgis/rest/services/Parcels_View3/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04007"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "Owner_Name",
+    "acres": "Acres"
+  },
+  "notes": "Gila County AZ assessor parcels, hosted feature service; no site address field in this layer",
+  "verification": {
+    "verified_at": 1792048972706,
+    "counties": [
+      "04007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

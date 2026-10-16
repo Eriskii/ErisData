@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21027",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.qpublic.net/ky/breckinridge/search.html",
+    "https://qpublic.schneidercorp.com/Application.aspx",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0"
+  ],
+  "note": "Breckinridge County PVA parcels are published only through the qPublic (Schneider Corp) web viewer, which is not a queryable ArcGIS REST or file service and blocks automated access (403/bot check). No Breckinridge PVA parcel service appears on kygisserver.ky.gov WGS84WM_Services (which has Webster, Hardin and other PVA parcel services but none for Breckinridge), on KGS's PVA service catalog, or in ArcGIS Hub/Online searches. Only commercial vendors (Regrid, ReportAll, DynamoSpatial, Acres) offer parcel data for the county.",
+  "recorded_at": 1792049430639,
+  "recheck_after": 1807601430639,
+  "model": "claude-haiku-5-5"
+}

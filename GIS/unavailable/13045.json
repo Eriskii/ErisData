@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13045",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=CarrollCountyGA&Layer=Parcels&PageType=Search",
+    "https://qpublic.net/ga/carroll/",
+    "https://www.carrollcountyga.gov/687/Maps",
+    "https://www.dynamospatial.com/c/carroll-county-ga/parcel-data"
+  ],
+  "note": "Carroll County GA's official parcel source is the Schneider qPublic web viewer (Cloudflare-blocked, no REST endpoint shown). The only ArcGIS parcel service found (GDITAdmin 'Parcels - GA - Carroll County', services.arcgis.com/ISpzx3B5ZsVA6e1Z) now returns Invalid URL, is absent from that host's service directory, and its item reports the subscription is canceled. Other ArcGIS parcel layers found are polylines or belong to Mississippi. Remaining parcel data is commercial (Dynamo, Regrid, Equator, Acres).",
+  "recorded_at": 1792048840734,
+  "recheck_after": 1807600840734,
+  "model": "claude-haiku-5-5"
+}

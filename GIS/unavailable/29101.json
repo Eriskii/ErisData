@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29101",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gis.warrensburg-mo.com/arcgis/rest/services/third-party/Johnson_County_Pracels_FILTERED/MapServer/info/iteminfo",
+    "https://gis.warrensburg-mo.com/arcgis/rest/services/third-party/Johnson_County_Pracels_FILTERED/MapServer/3",
+    "https://www.jocomo.gov/384/Interactive-Map",
+    "https://www.jocomo.gov/177/Assessor"
+  ],
+  "note": "No countywide public parcel service found. The only public parcel REST service (Warrensburg-hosted Johnson_County_Pracels_FILTERED) is filtered to City of Warrensburg parcels, and its license limits use to City of Warrensburg work and bars other use or distribution, so it cannot serve as the county source. The county's parcel data is only in its login/disclaimer viewer (johnsongis.integritygis.com), which exposes no documented service. Commercial sources (Regrid, Dynamo Spatial) are paid.",
+  "recorded_at": 1792050978795,
+  "recheck_after": 1807602978795,
+  "model": "claude-haiku-5-5"
+}

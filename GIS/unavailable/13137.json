@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13137",
+  "reason": "paywalled",
+  "evidence": [
+    "https://www.habershamga.com/gis-mapping.cfm",
+    "https://www.habershamga.com/userfiles/File/GIS-Mapping-System-Fee-Schedule.pdf",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=1010&LayerID=20413&PageTypeID=1&PageID=8923",
+    "https://arcgis5.roktech.net/arcgis/rest/services/habersham/habersham_rokmaps/MapServer/8"
+  ],
+  "note": "No queryable public parcel service found for Habersham County GA (FIPS 13137). The ArcGIS Online item 'Parcels - GA - Habersham County' (GDITAdmin) points to arcgis5.roktech.net habersham/habersham_rokmaps/MapServer/8, but that service returns 'not found' now, and the host's services directory no longer lists a habersham folder; arcgis4 habersham_base is likewise gone. The county fee schedule says GIS parcel layers are sold on CD/DVD. The qPublic viewer (Schneider) is behind a Cloudflare challenge with no public ArcGIS endpoint. Commercial vendors sell parcel files only.",
+  "recorded_at": 1792048839878,
+  "recheck_after": 1823584839878,
+  "model": "claude-haiku-5-5"
+}

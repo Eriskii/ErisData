@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "29049",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://services2.arcgis.com/kNS2ppBA4rwAQQZy/arcgis/rest/services/Missouri_County_GIS_Resources/FeatureServer/0/query?where=COUNTYNAME%3D%27Clinton%27&outFields=*&returnGeometry=false&f=json",
+    "https://clintoncountymo.giscloud.com/",
+    "https://app.fetchgis.com/?currentMap=clinton",
+    "https://portal.fetchgis.com/layerPortal.php",
+    "https://clinton.missouriassessors.com/",
+    "https://gis.mo.gov/arcgis/rest/services/OA/FMDCrealEstate_StateOwnedParcels/MapServer"
+  ],
+  "note": "Clinton County MO publishes no queryable parcel service. The state county-resource layer lists its interactive mapper as clintoncountymo.giscloud.com (GIS Cloud, not an ArcGIS REST service) with no data download. The FetchGIS viewer (login-gated portal) and the assessor site (subscription) expose no public parcel endpoint. The statewide FMDC parcel service was not reachable (404 at gis.mo.gov/arcgis01 and ogi.oa.mo.gov) and its OA folder lists only state-owned parcels. Commercial vendors (Dynamo, Regrid, Rockford Map, Acres) are paid and not county-published.",
+  "recorded_at": 1792050969560,
+  "recheck_after": 1807602969560,
+  "model": "claude-haiku-5-5"
+}

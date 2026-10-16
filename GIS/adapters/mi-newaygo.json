@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mi-newaygo",
+  "publisher": "Newaygo County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgisweb.countyofnewaygo.com/hosting/rest/services/WebMaps/PublicCountyViewerProV3/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26123"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER_NAME",
+    "address": "P_ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "CLASS",
+    "assessed_value": "ASSESSED"
+  },
+  "notes": "Source layer is in Michigan South State Plane (wkid 2253); runtime requests lon/lat. Public county viewer service.",
+  "verification": {
+    "verified_at": 1792049949186,
+    "counties": [
+      "26123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-lanier",
+  "publisher": "Lanier County GIS (via Southern Georgia Regional Commission sgrcmaps)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.sgrcmaps.com/alma/rest/services/Lanier/Parcels/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13173"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "LASTNAME",
+    "acres": "TOTALACRES"
+  },
+  "notes": "Parcel boundaries Dec 2025; owner split into LASTNAME/FIRSTNAME; no site address field in this layer",
+  "verification": {
+    "verified_at": 1792048779632,
+    "counties": [
+      "13173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

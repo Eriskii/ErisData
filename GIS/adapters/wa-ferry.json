@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "wa-ferry",
+  "publisher": "Ferry County GIS (AG_Tax layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/BBejpmYP0j5q6NLc/arcgis/rest/services/AG_Tax/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53019"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELANNO",
+    "acres": "GIS_ACRE"
+  },
+  "notes": "Ferry County GIS AG_Tax layer; attributes limited (no owner/address in service). Polygons in Web Mercator.",
+  "verification": {
+    "verified_at": 1792053124491,
+    "counties": [
+      "53019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

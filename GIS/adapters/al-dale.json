@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "al-dale",
+  "publisher": "Dale County, AL (via PowerSouth Alabama Parcel Data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/19",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01045"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Dale County layer from statewide Alabama Parcel Data FeatureServer (PowerSouth). USEDESC is mostly blank so USECODE is mapped as land use.",
+  "verification": {
+    "verified_at": 1792048321162,
+    "counties": [
+      "01045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

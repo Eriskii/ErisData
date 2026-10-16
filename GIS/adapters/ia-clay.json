@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-clay",
+  "publisher": "Iowa DHS&EM statewide parcels (Clay County subset)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19041"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Clay'",
+  "notes": "Subset of statewide Iowa parcel layer filtered to Clay County; source is state-hosted public service",
+  "verification": {
+    "verified_at": 1792049288991,
+    "counties": [
+      "19041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

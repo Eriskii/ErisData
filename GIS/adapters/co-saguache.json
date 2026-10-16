@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "co-saguache",
+  "publisher": "Saguache County, CO (via San Luis Valley GIS/GPS Authority parcel viewer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/zH7gQ37AKcpvTX6d/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08109"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel",
+    "owner": "Owner",
+    "address": "Address",
+    "acres": "Deeded_Acres"
+  },
+  "filter": "Shape__Area < 100000000",
+  "notes": "Source is the county parcel layer behind the Saguache County parcel viewer; includes Tyler assessor account. acres uses Deeded_Acres because GIS_Acres is a constant placeholder. Filter drops a few oversized bad-geometry polygons. No land use or assessed value fields published.",
+  "verification": {
+    "verified_at": 1792048725167,
+    "counties": [
+      "08109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

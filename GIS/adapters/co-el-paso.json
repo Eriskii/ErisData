@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "co-el-paso",
+  "publisher": "El Paso County, Colorado (GIS / Assessor parcel owners layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.elpasoco.com/arcgis2/rest/services/Public/MailingLabelParcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08041"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL",
+    "owner": "NAME1"
+  },
+  "notes": "County-run public service of parcel polygons with owner mailing info; no situs address or acreage on this layer. Parcel polygons from county MailingLabelParcels layer.",
+  "verification": {
+    "verified_at": 1792048680217,
+    "counties": [
+      "08041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

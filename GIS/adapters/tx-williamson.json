@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-williamson",
+  "publisher": "Williamson Central Appraisal District (WCAD) via Williamson County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wilco.org/arcgis/rest/services/public/county_wcad_parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48491"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "address": "SITEADDRESS",
+    "acres": "AssessedAc",
+    "land_use": "USEDSCRP",
+    "assessed_value": "CNTASSDVAL"
+  },
+  "notes": "WCAD parcels served by Williamson County GIS; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792052189035,
+    "counties": [
+      "48491"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

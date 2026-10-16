@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mt-flathead",
+  "publisher": "Flathead County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/K08Ti8IHU6QaR33e/arcgis/rest/services/Flathead_County_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30029"
+    ]
+  },
+  "fields": {
+    "apn": "geocode"
+  },
+  "filter": "type IN ('LOT','TRACT LAND','CONDO') AND polygontyp <> 'US FS'",
+  "notes": "Flathead County Parcels hosted by county on ArcGIS Online (about 116k parcels). Fields limited to geocode, assessor number, tract ID; no owner or value fields published.",
+  "verification": {
+    "verified_at": 1792051081614,
+    "counties": [
+      "30029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

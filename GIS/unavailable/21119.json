@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "21119",
+  "reason": "login-required",
+  "evidence": [
+    "https://kygisportalservices.ky.gov/server/rest/services/COT/Ky_PVA_Knott_Parcels_WM/FeatureServer?f=json (returns error 499 Token Required)",
+    "https://www.arcgis.com/sharing/rest/content/items/d8a09e5e4d9b49f3ae8ed1d1fe3a7515/data?f=json (KyFromAbove Explorer web map for Knott County references the PVA Knott parcels layer)",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=json (only Webster County PVA parcels are public)"
+  ],
+  "note": "Knott County PVA parcel polygons are served from kygisportalservices.ky.gov as COT/Ky_PVA_Knott_Parcels_WM, but the service requires a token (error 499 Token Required), so it is not publicly queryable. No other public Knott parcel service found; ArcGIS hits were water/address/road layers and commercial download vendors.",
+  "recorded_at": 1792049943746,
+  "recheck_after": 1807601943746,
+  "model": "claude-haiku-5-5"
+}

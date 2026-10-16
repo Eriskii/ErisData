@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "al-franklin",
+  "publisher": "Franklin County AL GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/I97nVdg0OgwKVCpk/arcgis/rest/services/parcel_layer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01059"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_no",
+    "owner": "name_owner_full",
+    "address": "address_physical_full",
+    "acres": "acres_calculated",
+    "land_use": "use_code",
+    "assessed_value": "total_appraised_value"
+  },
+  "notes": "Franklin County AL assessor parcel layer, hosted by county GIS (michaelfcgis account)",
+  "verification": {
+    "verified_at": 1792048392031,
+    "counties": [
+      "01059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

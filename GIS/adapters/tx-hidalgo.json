@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "tx-hidalgo",
+  "publisher": "TxGIO StratMap statewide land parcels (data from Hidalgo CAD)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48215"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "land_use": "LOC_LAND_USE",
+    "assessed_value": "MKT_VALUE"
+  },
+  "filter": "FIPS = '48215'",
+  "notes": "Statewide TxGIO StratMap parcels copy on ArcGIS Online, filtered to Hidalgo (source Hidalgo Appraisal District, tax year 2024); Hidalgo CAD own services are down/token-protected",
+  "verification": {
+    "verified_at": 1792053551780,
+    "counties": [
+      "48215"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

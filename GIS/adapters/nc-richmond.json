@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-richmond",
+  "publisher": "NC OneMap (ICDE) — Richmond County parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37153"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "acres": "gisacres",
+    "assessed_value": "parval"
+  },
+  "filter": "cntyfips = '153'",
+  "notes": "Statewide NC OneMap ICDE parcel polygons, county-sourced; Richmond County county server (gis3.richmondnc.com) unreachable during setup. Filter by county FIPS. Site address and land use are empty for many parcels in this source.",
+  "verification": {
+    "verified_at": 1792051456810,
+    "counties": [
+      "37153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

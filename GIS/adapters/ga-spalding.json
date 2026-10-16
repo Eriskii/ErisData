@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-spalding",
+  "publisher": "Spalding County GA (parcel data hosted by mhackman_UofMD ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/qTQ6qYkHpxlu0G82/arcgis/rest/services/ga_spalding_shp/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13255"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnumb",
+    "owner": "owner",
+    "address": "address",
+    "acres": "gisacre",
+    "assessed_value": "parval"
+  },
+  "notes": "Public ArcGIS Online feature service of Spalding County tax parcels; land use code is blank in this source",
+  "verification": {
+    "verified_at": 1792048836158,
+    "counties": [
+      "13255"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

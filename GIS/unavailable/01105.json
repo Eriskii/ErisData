@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "01105",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer",
+    "https://tiles.arcgis.com/tiles/KzeiCaQsMoeCfoCq/arcgis/rest/services/Regrid_Nationwide_Parcel_Boundaries_v1/MapServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Perry County AL parcels. The PowerSouth Alabama_Parcel_Data FeatureServer (which carries neighbouring Chilton, Dallas, etc.) lists no Perry County layer; its gap layer IDs (e.g. 4, 34, 35) are refused. Only Perry County items found are non-parcel (address geocode, dam risk, boundaries). Regrid nationwide layer is tile-only and not queryable. perrycountyal.gov returns 403. No public parcel polygon service found.",
+  "recorded_at": 1792048363820,
+  "recheck_after": 1807600363820,
+  "model": "claude-haiku-5-5"
+}

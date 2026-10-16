@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ak-north-slope",
+  "publisher": "North Slope Borough GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Y7pceKxvo6htl90x/arcgis/rest/services/OpenGov_NSB02_feature01/FeatureServer/291",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02185"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "Last_Name",
+    "address": "Street_Name",
+    "land_use": "LUCDesc"
+  },
+  "filter": "Parcel_ID IS NOT NULL",
+  "notes": "Borough GIS parcel layer; owner is last name only.",
+  "verification": {
+    "verified_at": 1792048984658,
+    "counties": [
+      "02185"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

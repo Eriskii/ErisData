@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "de-statewide",
+  "publisher": "State of Delaware FirstMap",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://enterprise.firstmap.delaware.gov/arcgis/rest/services/PlanningCadastre/DE_StateParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "DE"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "ACRES"
+  },
+  "notes": "State of Delaware Parcels (FirstMap, DE_StateParcels 2.0), without ownership information. Public FirstMap data provided as is.",
+  "verification": {
+    "verified_at": 1792048246176,
+    "counties": [
+      "10001",
+      "10003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

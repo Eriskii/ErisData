@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "or-benton",
+  "publisher": "Benton County GIS (via Oregon Dept. of Transportation ArcGIS copy)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.odot.state.or.us/arcgis1006/rest/services/ames/ames/MapServer/29",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41003"
+    ]
+  },
+  "fields": {
+    "apn": "MapTaxlot"
+  },
+  "notes": "Third-party ODOT-hosted copy of Benton County taxlots; county host gis.co.benton.or.us was unreachable during setup. Native projection 2992 (Oregon Lambert ft); runtime requests WGS84.",
+  "verification": {
+    "verified_at": 1792051476021,
+    "counties": [
+      "41003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

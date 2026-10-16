@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20179",
+  "reason": "paywalled",
+  "evidence": [
+    "https://www.sheridancountyks.gov/sheridan",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Sheridan",
+    "https://publicrecords.netronline.com/state/KS/county/sheridan",
+    "https://gis.equatorstudios.com/kansas_sheridan/",
+    "https://tiles.arcgis.com/tiles/KzeiCaQsMoeCfoCq/arcgis/rest/services/Regrid_Nationwide_Parcel_Boundaries_v1/MapServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online for Sheridan County KS and Kansas parcels: no county parcel FeatureServer/MapServer found. County portal and Kansas DASC ORKA pages show no public parcel service; ORKA parcel access is by county-approved request (some with fees). Sheridan parcels are sold via commercial vendors (Equator, Rockford, Acres, Regrid). Regrid's nationwide MapServer layer has no query endpoint (query returned 404, no maxRecordCount or fields), so it is not a usable county service. Beacon viewer for Sheridan blocked (403).",
+  "recorded_at": 1792049389244,
+  "recheck_after": 1823585389244,
+  "model": "claude-haiku-5-5"
+}

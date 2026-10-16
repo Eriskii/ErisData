@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72119",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/MapServer/0"
+  ],
+  "note": "CRIM parcel services are unreachable: sige.pr.gov and satasgis.crimpr.net refuse connections; sigejp.pr.gov reports 'Service crim_parcelas/MapServer not started'. No bulk parcel download found.",
+  "recorded_at": 1792052114088,
+  "recheck_after": 1807604114088,
+  "model": "claude-sonnet-5-5"
+}

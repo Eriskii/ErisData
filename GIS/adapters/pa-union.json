@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-union",
+  "publisher": "Union County GIS / PASDA",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/UnionCounty/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42119"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel",
+    "owner": "Name"
+  },
+  "notes": "PASDA Union County Tax Parcels 202605; source has no address, land use or assessed value fields",
+  "verification": {
+    "verified_at": 1792051548731,
+    "counties": [
+      "42119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

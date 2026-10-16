@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "48297",
+  "reason": "login-required",
+  "evidence": [
+    "https://services3.arcgis.com/JZj6WxptUNogw8h7/arcgis/rest/services/LiveOakCADWebService/FeatureServer/0",
+    "https://services3.arcgis.com/JZj6WxptUNogw8h7/arcgis/rest/services/LiveOakCADWebService/FeatureServer",
+    "https://services9.arcgis.com/QClEuaPkoZwU6r3B/arcgis/rest/services/Property_Boundary_/FeatureServer/0",
+    "https://www.dynamospatial.com/c/live-oak-county-tx/parcel-data"
+  ],
+  "note": "Live Oak CAD parcel service (LiveOakCADWebService, owner bis_liveoakcad) exists on ArcGIS Online but returns 'Token Required' for every request, so it is login-gated. The only other public Live Oak layer (Property_Boundary_, BIS/TNRIS lease boundary) is a single feature, not parcels. TNRIS StratMap parcel service (feature.tnris.org stratmap25_land_parcels_48) was unreachable from this session on repeated attempts; Live Oak parcel data otherwise appears only as paid vendor downloads (Dynamo Spatial, TexasCountyGISData, Regrid).",
+  "recorded_at": 1792051774765,
+  "recheck_after": 1807603774765,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mi-jackson",
+  "publisher": "Jackson County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mijackson.org/countygis/rest/services/ParcelViewer/Parcels/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26075"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER",
+    "address": "P_FULLADD",
+    "acres": "P_ACREAGE",
+    "land_use": "P_CLASS",
+    "assessed_value": "P_ASSMBOR2"
+  },
+  "notes": "Jackson County MI tax parcels; source CRS EPSG:2898",
+  "verification": {
+    "verified_at": 1792049970069,
+    "counties": [
+      "26075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

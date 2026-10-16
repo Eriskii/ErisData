@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72059",
+  "reason": "login-required",
+  "evidence": [
+    "https://catastro.crimpr.net/server/rest/services/Parcelario",
+    "https://catastro.crimpr.net/cdprpc/",
+    "https://sigejp.pr.gov/server/rest/services/crim"
+  ],
+  "note": "CRIM's current parcel services (catastro.crimpr.net/server/rest/services/Parcelario) return 'Token Required'. The old satasgis host refuses connections. The sigejp mirrors say 'Service not started' and list no services. The gis.pr.gov WFS has only CRIM grid cuadrículas, not parcels.",
+  "recorded_at": 1792052034838,
+  "recheck_after": 1807604034838,
+  "model": "claude-sonnet-5-5"
+}

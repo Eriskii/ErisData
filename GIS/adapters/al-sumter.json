@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "al-sumter",
+  "publisher": "Sumter County AL (Capture CAMA)",
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://maps.capturecama.com/arcgis/rest/services/Sumter/Sumter03282024/MapServer/2/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "01119"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "acres": "CALC_ACRE"
+  },
+  "notes": "server caps at 1000 features per query, no pagination; partial coverage; owner mostly blank",
+  "verification": {
+    "verified_at": 1792048502188,
+    "counties": [
+      "01119"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

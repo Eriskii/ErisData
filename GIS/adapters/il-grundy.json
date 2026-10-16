@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-grundy",
+  "publisher": "Grundy County Assessment Department (maps.grundyco.org)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.grundyco.org/arcgis/rest/services/AssessmentDepartment/CountyParcelsTotalValue_SPIE/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17063"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "TaxName",
+    "address": "PhysicalAddress1",
+    "acres": "LotAcres",
+    "land_use": "PropClass",
+    "assessed_value": "CurrentYearTotalVal"
+  },
+  "notes": "Parcels with total value labels from SQL spatial view, NAD83 Illinois East (feet); dynamic layer updated nightly",
+  "verification": {
+    "verified_at": 1792048929938,
+    "counties": [
+      "17063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

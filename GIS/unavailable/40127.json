@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40127",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://csagis-uok.opendata.arcgis.com/maps/7ef3d13db7ee4ebebeb02b74aaa48a4d",
+    "https://services.arcgis.com/3xOwF6p0r7IHIjfn/arcgis/rest/services/Pushmataha_County_Data/FeatureServer",
+    "https://assessorsearch.com/property-records/oklahoma/pushmataha-county",
+    "https://www.dynamospatial.com/c/pushmataha-county-ok/parcel-data",
+    "https://app.regrid.com/store/us/ok/pushmataha"
+  ],
+  "note": "Pushmataha County (40127) publishes no queryable tax parcel service. The county ArcGIS open-data warehouse (csagis-uok) has transportation, legislative, municipal and hydrology layers only, no parcels (the Pushmataha_County_Data FeatureServer confirms this). Assessor and treasurer sites are web lookups. ArcGIS searches found no parcel FeatureServer for the county. Parcel polygons come only from commercial vendors (Regrid, Dynamo Spatial, Acres, Equator Studios, Rockford Map, Landmark GSI tiles): paid downloads or non-queryable tiles. The OKMaps statewide parcel layer is view-only WMS. The OWRB parcels MapServer was unreachable.",
+  "recorded_at": 1792051764928,
+  "recheck_after": 1807603764928,
+  "model": "claude-haiku-5-5"
+}

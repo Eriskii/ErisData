@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-st-clair",
+  "publisher": "St. Clair County GIS (Alabama)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map.stclairco.com/arcgis/rest/services/Political/MapServer/145",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01115"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "NAME_1",
+    "address": "STREET_ADDRESS",
+    "acres": "CALCULATED_ACRES",
+    "assessed_value": "TOTAL_ASSD_VALUE"
+  },
+  "notes": "Owner Parcels layer from St. Clair County public Political map service; no token required for this layer.",
+  "verification": {
+    "verified_at": 1792048507807,
+    "counties": [
+      "01115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

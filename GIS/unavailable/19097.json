@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "19097",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://jacksoncounty.iowa.gov/gis/data/",
+    "https://jacksoncounty.iowa.gov/gis/maps/",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=80&LayerID=723&PageTypeID=2&PageID=523",
+    "https://www.iowagisdata.org/index.php/login",
+    "https://www.mappingsolutionsgis.com/jackson-county-iowa-gis-parcel-data/"
+  ],
+  "note": "Jackson County, IA publishes no public queryable parcel ArcGIS service. Its GIS page points only to Schneider Beacon (web viewer, download claimed but no public REST endpoint), the Iowa GIS Data Repository (login-gated), and a commercial paid parcel file. The county says uploads are incomplete and advises emailing for data. The ArcGIS Hub site share-open-data-jacksoncowi is unrelated content. The ia-statewide 2017 layer is not a county source and was already rejected.",
+  "recorded_at": 1792049308728,
+  "recheck_after": 1807601308728,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "35019",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/10",
+    "https://gis.ose.state.nm.us/arcgis/rest/services/Parcels/County_Parcels_2021/MapServer/12",
+    "https://www.guadalupecountynm.org/assessor-s-office"
+  ],
+  "note": "Only statewide NM parcel services list Guadalupe County (layer 10 of the 2025 MapServer, layer 12 of the 2021 one). The 2025 service returns HTTP 500 'not started' on every request, and its Parcels folder is empty; the 2021 host is unreachable or returns 404. The county assessor page links no GIS or parcel service. Retried across several attempts; no queryable parcel polygons available.",
+  "recorded_at": 1792051568510,
+  "recheck_after": 1807603568510,
+  "model": "claude-haiku-5-5"
+}

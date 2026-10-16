@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72063",
+  "reason": "login-required",
+  "evidence": [
+    "https://catastro.crimpr.net/server/rest/services/Parcelario (Token Required)",
+    "https://catastro.crimpr.net/server/rest/services/ProductosCartograficos (Token Required)",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0 (Service not started, HTTP 500)",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/MapServer/0 (unreachable / 404)"
+  ],
+  "note": "Gurabo (72063) parcels are published by CRIM only as the Parcelario layer on catastro.crimpr.net, which requires a token (Token Required). The public CRIM parcel service on sigejp.pr.gov (crim_parcelas, 'Parcelarios Crim 2018') is stopped (HTTP 500 'not started'). The older satasgis Parcelas endpoints return 404. No other public, queryable Gurabo or island-wide parcel polygon service was found in ArcGIS Hub/Online searches or the CRIM viewer config. Commercial parcel data exists (Regrid etc.) but is paywalled.",
+  "recorded_at": 1792052235562,
+  "recheck_after": 1807604235562,
+  "model": "claude-haiku-5-5"
+}

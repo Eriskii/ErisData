@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-sutter",
+  "publisher": "Sutter County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.suttercounty.org/server/rest/services/Aumentum/Aumentum_Staff/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06101"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "address": "CITY",
+    "acres": "ACRES"
+  },
+  "notes": "Sutter County Aumentum tax parcels layer; no owner field published on this layer",
+  "verification": {
+    "verified_at": 1792048674325,
+    "counties": [
+      "06101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

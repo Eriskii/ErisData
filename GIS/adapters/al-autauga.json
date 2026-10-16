@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "al-autauga",
+  "publisher": "Autauga County GIS (via Alabama Parcel Data, ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01001"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "land_use": "CLASSUSE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Autauga County AL parcel layer from Alabama Parcel Data FeatureServer (layer 1, ~33k features). Public service; no login.",
+  "verification": {
+    "verified_at": 1792048287790,
+    "counties": [
+      "01001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

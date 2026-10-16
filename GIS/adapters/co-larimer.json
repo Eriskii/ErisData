@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-larimer",
+  "publisher": "Larimer County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08069"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUM",
+    "owner": "NAME",
+    "land_use": "ACCTTYPE"
+  },
+  "notes": "Larimer County tax parcels (MapServer layer 3). Site addresses are sparse on this layer and live in the separate Site Address point layer, so address is not mapped. No acreage or assessed value fields in this layer.",
+  "verification": {
+    "verified_at": 1792048679359,
+    "counties": [
+      "08069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "vt-bennington",
+  "publisher": "Vermont Center for Geographic Information (VCGI) / VT Dept of Taxes grand list",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/BkFxaEFNwHqX3tAw/arcgis/rest/services/FS_VCGI_OPENDATA_Cadastral_VTPARCELS_poly_standardized_parcels_SP_v1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "50003"
+    ]
+  },
+  "fields": {
+    "apn": "PARCID",
+    "owner": "OWNER1",
+    "address": "E911ADDR",
+    "acres": "ACRESGL",
+    "land_use": "CAT",
+    "assessed_value": "REAL_FLV"
+  },
+  "filter": "PARCID IS NOT NULL AND PROPTYPE = 'PARCEL' AND TOWN IN ('ARLINGTON','BENNINGTON','DORSET','GLASTENBURY','LANDGROVE','MANCHESTER','PERU','POWNAL','READSBORO','RUPERT','SANDGATE','SEARSBURG','SHAFTSBURY','STAMFORD','SUNDERLAND','WINHALL','WOODFORD')",
+  "notes": "Statewide VCGI parcels filtered to Bennington County towns by TOWN name, excluding road right-of-way polygons. Address from E911 address field.",
+  "verification": {
+    "verified_at": 1792052739378,
+    "counties": [
+      "50003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

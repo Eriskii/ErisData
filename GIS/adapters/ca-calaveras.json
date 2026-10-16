@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-calaveras",
+  "publisher": "Calaveras County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.calaverascounty.gov/server/rest/services/PARCELS/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06009"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "address": "SITUS1",
+    "acres": "ACREAS_MPTS",
+    "land_use": "LANDUSE1",
+    "assessed_value": "LANDVALUE"
+  },
+  "notes": "Calaveras County public PARCELS layer; owner name not published in this layer",
+  "verification": {
+    "verified_at": 1792048603985,
+    "counties": [
+      "06009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

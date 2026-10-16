@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-jim-hogg",
+  "publisher": "Jim Hogg County Appraisal District",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/9Z9r3rLUCq0SjsRb/arcgis/rest/services/Jim_Hogg_CAD_TX_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48247"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_CAM",
+    "acres": "StatedArea"
+  },
+  "filter": "Parcel_CAM <> 0",
+  "notes": "Jim Hogg CAD parcels via ArcGIS Online (vendor-hosted). Name field only repeats the account number, so owner is not mapped. Filter drops placeholder account 0 (a 2,078 ac polygon with no real account number). Several large ranch accounts share one stacked polygon.",
+  "verification": {
+    "verified_at": 1792051832405,
+    "counties": [
+      "48247"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

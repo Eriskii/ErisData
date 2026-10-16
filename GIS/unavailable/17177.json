@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "17177",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://stephensoncountyil.gov/departments/county_assessment_office/maps___gis.php",
+    "https://wingis.org/maps/stephensoncolayers",
+    "https://maps.wingis.org/public/rest/services/PropertySearch/MapServer",
+    "https://wingis.org/GISData",
+    "https://app.regrid.com/store/us/il/stephenson"
+  ],
+  "note": "Stephenson County (IL) parcels are hosted via WinGIS. The county GIS page and WinGIS pages link only to a viewer (stephensoncolayers) and a data request form, not a public REST service. The WinGIS PropertySearch MapServer returns 'Token Required'. The WinGIS public server (maps.wingis.org/public) has no Stephenson parcel layer; its only parcel layers are test data. Other parcel sources found are commercial (Regrid, Acres, MappingSolutionsGIS, Rockford Map Publishers). No public queryable parcel service was found.",
+  "recorded_at": 1792049055710,
+  "recheck_after": 1807601055710,
+  "model": "claude-haiku-5-5"
+}

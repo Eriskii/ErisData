@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ny-madison-county",
+  "publisher": "Madison County GIS, NY",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/yg1rUzGjBdSxKz2Z/arcgis/rest/services/2024_Tax_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36053"
+    ]
+  },
+  "fields": {
+    "apn": "Print_Key",
+    "address": "PARCEL_LOC",
+    "acres": "ACRES",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "TOTAL_AV"
+  },
+  "notes": "Madison County NY 2024 tax parcels with real property attributes; county ArcGIS Online service; no owner name in source",
+  "verification": {
+    "verified_at": 1792051479976,
+    "counties": [
+      "36053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

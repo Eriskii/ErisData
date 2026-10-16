@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "22029",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://concordia-parish-kdrpdd.hub.arcgis.com/",
+    "https://www.actdatascout.com/RealProperty/Louisiana/Concordia",
+    "https://app.regrid.com/store/us/la/concordia",
+    "https://services8.arcgis.com/g1eUGM6NUcD0Fk5p/arcgis/rest/services/LandGrid_Parcels/FeatureServer"
+  ],
+  "note": "Searched the Concordia Parish ArcGIS Hub (dataset search returned no parish parcel layer), ArcGIS Online search for Concordia parcels (no public parcel service), Louisiana statewide sources (LAGIC/LSU Atlas list no statewide parcel service; LandGrid parcels require a token), and neighbouring Mississippi Waggoner statewide parcels (Mississippi only). Parish assessor viewers (ActDataScout, Acres, qPublic) are proprietary search portals with no public ArcGIS REST service; commercial sellers (Regrid, Dynamo Spatial, Equator) are paid downloads.",
+  "recorded_at": 1792049941844,
+  "recheck_after": 1807601941844,
+  "model": "claude-haiku-5-5"
+}

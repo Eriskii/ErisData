@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-box-elder",
+  "publisher": "UGRC / Box Elder County (LIR)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_BoxElder_LIR/FeatureServer/0",
+    "page_size": 200,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49003"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "acres": "PARCEL_ACRES",
+    "assessed_value": "TOTAL_MKT_VALUE"
+  },
+  "notes": "UGRC LIR parcel layer, Box Elder tax roll attributes; TOTAL_MKT_VALUE is market value; address and property class are sparsely populated; no owner name published",
+  "verification": {
+    "verified_at": 1792052732497,
+    "counties": [
+      "49003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

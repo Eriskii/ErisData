@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-howard",
+  "publisher": "Iowa DHS&EM statewide parcel data 2017 (hosted by University of Iowa), Howard County extract",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19089"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Howard'",
+  "notes": "2017 statewide snapshot; filtered to Howard County by COUNTYNAME. Only parcel number, deed holder and classification are provided; no address or acreage fields in source.",
+  "verification": {
+    "verified_at": 1792049291473,
+    "counties": [
+      "19089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

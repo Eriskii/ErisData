@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-clinton",
+  "publisher": "Iowa DHS&EM statewide parcels (2017), Clinton County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19045"
+    ]
+  },
+  "fields": {
+    "apn": "UNPARCELID",
+    "owner": "DEEDHOLDER",
+    "address": "PARCELNUMB",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Clinton'",
+  "notes": "Statewide 2017 layer filtered to Clinton County; 2017 vintage",
+  "verification": {
+    "verified_at": 1792049288687,
+    "counties": [
+      "19045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

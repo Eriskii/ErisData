@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-humboldt",
+  "publisher": "Humboldt County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cty-gis-web.co.humboldt.ca.us/server/rest/services/Parcels/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06023"
+    ]
+  },
+  "fields": {
+    "apn": "APN_12",
+    "acres": "ACRES",
+    "land_use": "NEIGHCODE"
+  },
+  "notes": "Humboldt County official parcel layer v13.5; includes incorporated areas. Situs address mostly blank for rural parcels, so not mapped. No owner or assessed value fields published on this layer.",
+  "verification": {
+    "verified_at": 1792048603785,
+    "counties": [
+      "06023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

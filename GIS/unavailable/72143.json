@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72143",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/mapserver/0",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://services.arcgis.com/85ZqtFFgqCh5li9K/arcgis/rest/services/CRIM/FeatureServer"
+  ],
+  "note": "CRIM's statewide Parcelario service (crim_parcelas), which covers Vega Alta, returns 'Service crim/crim_parcelas/MapServer not started' (HTTP 500) on every endpoint tested. The sige.pr.gov host is unreachable. The SATASGIS ParcelasEtiquetas and Parcelario MapServer URLs from older references return 404 or are unreachable. The CRIM FeatureServer on ArcGIS Online requires a token. The Catastro Digital item is marked no longer available. No other public Vega Alta parcel service was found.",
+  "recorded_at": 1792052130769,
+  "recheck_after": 1807604130769,
+  "model": "claude-haiku-5-5"
+}

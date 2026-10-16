@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ne-perkins",
+  "publisher": "NebraskaMap / Nebraska statewide tax parcels (compiled from county assessor data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/jzdN07B7ZhRTxuzU/arcgis/rest/services/Layers_Data_WFL1/FeatureServer/29",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31135"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "Current_Owner_Name",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '135'",
+  "notes": "Statewide Nebraska Tax Parcels layer (UNL-hosted feature service); County_ID is the 3-digit county code, Perkins = 135. Situs address is blank for most rural parcels, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792051166650,
+    "counties": [
+      "31135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

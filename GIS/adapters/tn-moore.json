@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-moore",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (STS-GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47127"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "land_use": "PARCEL_TYPE"
+  },
+  "filter": "COUNTY_NAME = 'Moore'",
+  "notes": "Statewide TN property boundaries layer filtered to Moore County (COUNTY_NAME stored as Moore, COUNTY_ID 64).",
+  "verification": {
+    "verified_at": 1792052647013,
+    "counties": [
+      "47127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

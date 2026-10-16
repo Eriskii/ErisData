@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ks-shawnee",
+  "publisher": "Shawnee County GIS (Kansas)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/2XE514jeVQMWNKHX/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20177"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "address": "PADDRESS",
+    "acres": "ACRES",
+    "land_use": "LBCSFUNCTI"
+  },
+  "notes": "Hosted by Shawnee County GIS via ArcGIS Online; source spatial reference 3857; no owner or assessed value fields published on this layer",
+  "verification": {
+    "verified_at": 1792049314267,
+    "counties": [
+      "20177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

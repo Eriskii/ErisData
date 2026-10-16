@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29169",
+  "reason": "login-required",
+  "evidence": [
+    "https://services8.integritygis.com/arcgis/rest/Services/MO/Pulaski_Assessor_Data/MapServer",
+    "https://raygis.integritygis.com/Geocortex/Essentials/REST/sites/Pulaski_County_MO/map/mapservices/0",
+    "https://pulaskigis.integritygis.com/H5/Index.html",
+    "https://www.pulaskicounty.org/gis.html"
+  ],
+  "note": "Pulaski County MO (29169) parcels are served by the county's Assessor Data MapServer (services8.integritygis.com, Pulaski_Assessor_Data, with Parcel and Owner Name layers). That endpoint returns 'Token Required', so it is login-gated and cannot be queried publicly. The county's public Parcel Viewer (pulaskicounty.maps.arcgis.com) draws from services5.arcgis.com ParcelUpdate_2026, but that service is Pulaski County, Virginia (coordinates near -80.6, 37.2), not Missouri. The integritygis H5 viewer and Geocortex hosts were unreachable from this environment. The state FMDC statewide parcel layer returned 404 or state-owned parcels only. Commercial vendors (Regrid, Acres, Dynamo) are paid and do not count.",
+  "recorded_at": 1792051175189,
+  "recheck_after": 1807603175189,
+  "model": "claude-haiku-5-5"
+}

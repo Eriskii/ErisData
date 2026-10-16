@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29219",
+  "reason": "login-required",
+  "evidence": [
+    "https://services2.integritygis.com/arcgis/rest/Services/MO/Warren_Assessor_Data/MapServer",
+    "https://services2.integritygis.com/arcgis/rest/login?redirect=https%3A//services2.integritygis.com/arcgis/rest/Services/MO/Warren_Assessor_Data/MapServer",
+    "https://sites6.integritygis.com/Geocortex/Essentials/REST/sites/Warren_County_MO/overviewmap",
+    "https://ps.warrencomogis.com/"
+  ],
+  "note": "Warren County MO parcel layer (Warren_Assessor_Data MapServer on services2.integritygis.com) returns 'Token Required' and redirects to a login form; no public parcel polygon service found. Rejected: ags.agdmaps.com Warren/TaxParcels is Warren County MS (coordinates near -90.7, 32.6); maps.butlercountyauditor.org WarrenCounty is not running. Regrid is paid.",
+  "recorded_at": 1792051115419,
+  "recheck_after": 1807603115419,
+  "model": "claude-haiku-5-5"
+}

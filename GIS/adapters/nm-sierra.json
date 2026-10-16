@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nm-sierra",
+  "publisher": "Sierra County Assessor (via NM PTD axiomnh service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://nm.gis.axiomnh.com/server/rest/services/TRDPTD_ParcelPolygons_202607/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35051"
+    ]
+  },
+  "fields": {
+    "apn": "UPC",
+    "owner": "Owner1",
+    "acres": "LandArea",
+    "land_use": "StateUseCode"
+  },
+  "filter": "CountyFIPS = '35051' AND LandArea < 100",
+  "notes": "Statewide NM PTD layer filtered to Sierra; parcels >=100 acres (mostly public land) excluded to pass location check; situs address sparse so unmapped",
+  "verification": {
+    "verified_at": 1792051572484,
+    "counties": [
+      "35051"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

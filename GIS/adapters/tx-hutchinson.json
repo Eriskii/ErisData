@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-hutchinson",
+  "publisher": "Hutchinson County Appraisal District (via Pandai GIS)",
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://gisdata.pandai.com/pamaps02/rest/services/Hutchinson/HutchinsonCADPublic/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "48233"
+    ]
+  },
+  "fields": {
+    "apn": "DBO.TaxParcels.Name",
+    "owner": "DBO.Accounts.Owner_Name",
+    "address": "DBO.Accounts.Prop_Street",
+    "acres": "DBO.Accounts.Acres",
+    "land_use": "DBO.Accounts.Primary_Category_Code"
+  },
+  "notes": "Pandai-hosted CAD layer; server has no pagination support, so single query download; Market_Value is empty in the public layer",
+  "verification": {
+    "verified_at": 1792053341159,
+    "counties": [
+      "48233"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

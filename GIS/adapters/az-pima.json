@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "az-pima",
+  "publisher": "Pima County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisdata.pima.gov/arcgis1/rest/services/GISOpenData/LandRecords/MapServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04019"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL",
+    "owner": "MAIL1",
+    "acres": "GISACRES",
+    "land_use": "PARCEL_USE",
+    "assessed_value": "FCV"
+  },
+  "notes": "Pima County open data, all tax parcels; owner is the mailing-name field MAIL1; no site address on many parcels",
+  "verification": {
+    "verified_at": 1792048422649,
+    "counties": [
+      "04019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

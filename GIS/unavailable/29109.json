@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29109",
+  "reason": "login-required",
+  "evidence": [
+    "https://services2.integritygis.com/arcgis/rest/services/MO/Lawrence_Assessor_Data/MapServer/6",
+    "https://dadegis.integritygis.com/Geocortex/Essentials/REST/sites/Lawrence_County_MO/overviewmap/mapservices",
+    "https://lawrencegis.integritygis.com/H5/Index.html"
+  ],
+  "note": "Lawrence County MO assessor parcel service (Lawrence_Assessor_Data MapServer on services2.integritygis.com, folder MO) exists but returns 'Token Required'; the county viewer is token-gated. No public parcel ArcGIS service or open download found; other sources found are commercial paid datasets.",
+  "recorded_at": 1792050974260,
+  "recheck_after": 1807602974260,
+  "model": "claude-haiku-5-5"
+}

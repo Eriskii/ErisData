@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-marion",
+  "publisher": "Marion County, IL Supervisor of Assessments (REACH parcels via ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/bcQYzj0jmLWRU0zq/arcgis/rest/services/REACH_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17121"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "owner1_name",
+    "address": "SiteAddress",
+    "acres": "gross_acres",
+    "land_use": "class",
+    "assessed_value": "non_farm_building"
+  },
+  "notes": "Public ArcGIS service behind Marion County IL REACH assessor viewer; 33,867 features; Web Mercator 102100 source",
+  "verification": {
+    "verified_at": 1792049027988,
+    "counties": [
+      "17121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

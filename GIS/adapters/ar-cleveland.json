@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-cleveland",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05025"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelId",
+    "owner": "OwnerName",
+    "land_use": "ParcelType",
+    "assessed_value": "TotalValue"
+  },
+  "filter": "CountyFips = '025'",
+  "notes": "Statewide AR GIS Office polygon layer, not a legal boundary; tax valuation purposes only. CountyFips stores 3-digit county code 025 for Cleveland. AdrLabel is sparsely populated so address is not mapped.",
+  "verification": {
+    "verified_at": 1792048535042,
+    "counties": [
+      "05025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

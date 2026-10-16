@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "md-kent",
+  "publisher": "Maryland Department of Planning / MD iMAP (MD Property View)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdgeodata.md.gov/imap/rest/services/PlanningCadastre/MD_ParcelBoundaries/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24029"
+    ]
+  },
+  "fields": {
+    "apn": "ACCTID",
+    "owner": "OWNADD1",
+    "address": "ADDRESS",
+    "acres": "ACRES",
+    "land_use": "DESCLU",
+    "assessed_value": "NFMTTLVL"
+  },
+  "filter": "JURSCODE = 'KENT' AND ACCTID <> 'ROW'",
+  "notes": "MD iMAP statewide parcel boundaries filtered to Kent County via JURSCODE=KENT, excluding right-of-way placeholder records. Owner name not published in this layer; OWNADD1 is owner mailing address.",
+  "verification": {
+    "verified_at": 1792049940486,
+    "counties": [
+      "24029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

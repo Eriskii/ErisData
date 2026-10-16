@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21085",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/?site=GraysonCountyKY",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=1032&LayerID=21824&PageTypeID=2&PageID=9297",
+    "https://gis.equatorstudios.com/kentucky_grayson/",
+    "https://kygisserver.ky.gov/arcgis/rest/services?f=json"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Grayson KY parcel service), KyGeoNet kygisserver WGS84WM services (only Webster PVA parcels published; no Grayson), KYTC PVA availability layer, and county/third-party pages. Grayson PVA parcels are viewable only via Schneider Beacon/qPublic (viewer, no public REST service; Cloudflare challenge). Hub map 77850c5c... is a Texas Grayson County map (owner thomas.rich, Grayson TX services), not Kentucky. Commercial vendors (Equator, Acres, Rockford, ReportAllUSA) sell files only.",
+  "recorded_at": 1792049951015,
+  "recheck_after": 1807601951015,
+  "model": "claude-haiku-5-5"
+}

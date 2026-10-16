@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nm-los-alamos",
+  "publisher": "Los Alamos County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/h2T8KwQEZGypOW4c/arcgis/rest/services/Parcels_Complete/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35028"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "ACRES",
+    "land_use": "ZONE"
+  },
+  "notes": "Los Alamos County parcel layer (Parcels_Complete) from DPS_Planning; no assessed value field published",
+  "verification": {
+    "verified_at": 1792051327768,
+    "counties": [
+      "35028"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

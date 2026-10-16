@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "fl-nassau",
+  "publisher": "Nassau County Property Appraiser (via FDOR-format Nassau FL Parcels layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/ImYoiBnIj5kSaAsi/arcgis/rest/services/Nassau_FL_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12089"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_NAME",
+    "address": "PHY_ADDR1",
+    "land_use": "DOR_UC",
+    "assessed_value": "AV_NSD"
+  },
+  "notes": "FDOR-format parcel roll for Nassau County FL; public ArcGIS layer; no ACRES field (LND_SQFOOT available)",
+  "verification": {
+    "verified_at": 1792048797582,
+    "counties": [
+      "12089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

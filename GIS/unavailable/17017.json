@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "17017",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=55&LayerID=375",
+    "https://www.co.cass.il.us/departments/gis",
+    "https://gis.equatorstudios.com/illinois_cass/"
+  ],
+  "note": "Cass County IL parcels are only in a Schneider Beacon viewer (Cloudflare-blocked); no public ArcGIS/WFS/bulk service found; other copies are commercial (Regrid, Equator, Dynamo). Brown County service does not cover Cass.",
+  "recorded_at": 1792048965181,
+  "recheck_after": 1807600965181,
+  "model": "claude-sonnet-5-5"
+}

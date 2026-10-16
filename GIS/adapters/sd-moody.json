@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sd-moody",
+  "publisher": "Moody County GIS (via 1stdistrict.org moodymapnet)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Moody/moodymapnet/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46101"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "deedhold",
+    "address": "LegalDesc",
+    "acres": "GrossAcres",
+    "land_use": "Class1"
+  },
+  "notes": "Parcel layer from Moody County SD map service hosted by 1stdistrict.org; service description mentions Codington County, confirm current. Owner address fields: deedaddr1-3, deedzip.",
+  "verification": {
+    "verified_at": 1792051610594,
+    "counties": [
+      "46101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

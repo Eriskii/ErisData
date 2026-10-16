@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "co-pitkin",
+  "publisher": "Pitkin County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.pitkincounty.com/arcgis/rest/services/Hosted/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08097"
+    ]
+  },
+  "fields": {
+    "apn": "parcel",
+    "owner": "owner_name",
+    "address": "situs_address",
+    "acres": "mapped_acres",
+    "land_use": "type",
+    "assessed_value": "final_actual_value"
+  },
+  "notes": "Public ArcGIS service on Pitkin County server; attributes joined from Assessor.",
+  "verification": {
+    "verified_at": 1792048693861,
+    "counties": [
+      "08097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "fl-monroe",
+  "publisher": "Monroe County GIS (Property Appraiser parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/D7K7hj5GW1YIVRiA/arcgis/rest/services/Current_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12087"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "NAME",
+    "address": "LOCATION",
+    "land_use": "PC",
+    "assessed_value": "PASSD1"
+  },
+  "notes": "Monroe County Current Parcels layer (parcels and condos); PASSD1 is the assessed value for tax year PYEAR1",
+  "verification": {
+    "verified_at": 1792048805759,
+    "counties": [
+      "12087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

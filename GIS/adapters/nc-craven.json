@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-craven",
+  "publisher": "Craven County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cravencountync.gov/arcgis/rest/services/map3/MapServer/19",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37049"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "PANAME",
+    "address": "TMADDR",
+    "acres": "PACREA",
+    "land_use": "LUDESC",
+    "assessed_value": "totval"
+  },
+  "notes": "Craven County NC tax parcels, county map3 MapServer layer 19; owner and mailing address from tax records",
+  "verification": {
+    "verified_at": 1792051341563,
+    "counties": [
+      "37049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-white",
+  "publisher": "White County, IL (Sidwell ArcGIS Parcel1_WhiteIL)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/Parcel1_WhiteIL/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17193"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Primary_Owner",
+    "address": "Site_Address",
+    "acres": "Acreage",
+    "land_use": "Property_Class"
+  },
+  "notes": "Sidwell-hosted parcel polygons behind White County IL viewer; ~20k parcels",
+  "verification": {
+    "verified_at": 1792049018232,
+    "counties": [
+      "17193"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

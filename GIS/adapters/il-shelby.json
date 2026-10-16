@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-shelby",
+  "publisher": "Shelby County, IL (GIS parcel layer Shelby_Parcel, hosted in Shelby_County_Zoning service by rudy88)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/hiovbjLDyGQZm4LO/arcgis/rest/services/Shelby_County_Zoning/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17173"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "PrimaryNam",
+    "acres": "Acreage",
+    "land_use": "UseCode",
+    "assessed_value": "ValuationS"
+  },
+  "notes": "Site address (SiteAddres) is blank for most parcels, so not mapped; PrimaryAdd is the owner mailing address. Field mapping verified against sample attributes.",
+  "verification": {
+    "verified_at": 1792049023813,
+    "counties": [
+      "17173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

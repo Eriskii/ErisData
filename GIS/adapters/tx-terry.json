@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-terry",
+  "publisher": "Terry County Appraisal District (bis_terrycad)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/KV6dti1aWimeZzWM/arcgis/rest/services/TerryCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48445"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage"
+  },
+  "notes": "Terry CAD public ArcGIS web service; parcels layer (layer 0). Land use and assessed value are not populated in the public service.",
+  "verification": {
+    "verified_at": 1792051771300,
+    "counties": [
+      "48445"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

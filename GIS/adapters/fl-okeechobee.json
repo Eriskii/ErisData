@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-okeechobee",
+  "publisher": "Okeechobee County Property Appraiser (via Okeechobee County GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/jE4lvuOFtdtz6Lbl/arcgis/rest/services/Parcels_2022/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12093"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "own1",
+    "address": "str_name"
+  },
+  "notes": "Parcels 2024-07-25 layer from Okeechobee County ArcGIS org; no acreage/land use/value fields.",
+  "verification": {
+    "verified_at": 1792048806393,
+    "counties": [
+      "12093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

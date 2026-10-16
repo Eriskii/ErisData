@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-harper",
+  "publisher": "Harper County, KS (KansasGIS / ORKA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/HarperValue/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20077"
+    ]
+  },
+  "fields": {
+    "apn": "KSPID",
+    "land_use": "LBCSDesc",
+    "assessed_value": "FinalTotal"
+  },
+  "notes": "Harper County property valuation parcels from KansasGIS hosted service; no owner or address fields published",
+  "verification": {
+    "verified_at": 1792049278499,
+    "counties": [
+      "20077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "wy-fremont",
+  "publisher": "Fremont County Wyoming GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/rlGvD2ZEQWYJHMZp/arcgis/rest/services/Parcel_Polygon/FeatureServer/10",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56013"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNB"
+  },
+  "notes": "Community-hosted copy of Fremont County tax parcels; source has no owner/address/value fields.",
+  "verification": {
+    "verified_at": 1792051789532,
+    "counties": [
+      "56013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-burnet",
+  "publisher": "Burnet Central Appraisal District",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/WB9lDuPLSvoToaB9/arcgis/rest/services/BurnetCADWebService1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48053"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Burnet CAD web service layer; parcels with owner, situs and appraised values. Source is Texas State Plane feet; runtime requests WGS84.",
+  "verification": {
+    "verified_at": 1792051661310,
+    "counties": [
+      "48053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

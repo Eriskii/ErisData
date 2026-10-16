@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13129",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.gordoncountyga.gov/211/Geographic-Information-System-GIS",
+    "https://gordonassessors.com/gis/",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=629&LayerID=11198&PageTypeID=1",
+    "https://www.gordoncountyga.gov/497/GIS-Fee-Schedule-PDF"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Gordon County parcel service; only SEIDA planning areas, which are not parcels). Probed gis.gordoncountyga.gov (no response). County GIS page points only to the qPublic/Beacon viewer (Schneider; blocked to automated access, no public REST endpoint found) and to paid shapefile copies per the GIS fee schedule. No public queryable parcel service or file found.",
+  "recorded_at": 1792048833110,
+  "recheck_after": 1807600833110,
+  "model": "claude-haiku-5-5"
+}

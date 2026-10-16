@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-lavaca",
+  "publisher": "Lavaca County Appraisal District (BIS CAD web service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/NIfETzIj7kHquibp/arcgis/rest/services/LavacaCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48285"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "BIS CAD web service; Texas appraisal district data",
+  "verification": {
+    "verified_at": 1792051707167,
+    "counties": [
+      "48285"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

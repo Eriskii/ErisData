@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-big-stone",
+  "publisher": "Big Stone County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Q8Rg5UEje9Jslmfh/arcgis/rest/services/Tax_Parcel_Viewer_WFL1/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27011"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "owner": "TAXPAYER_NAME",
+    "acres": "DEEDED_ACRES"
+  },
+  "notes": "Hosted by county via Tax Parcel Viewer on ArcGIS Online; public access. PROPERTY_ADDRESS is mostly empty so not mapped.",
+  "verification": {
+    "verified_at": 1792050873295,
+    "counties": [
+      "27011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

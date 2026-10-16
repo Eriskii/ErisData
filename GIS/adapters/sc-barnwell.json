@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-barnwell",
+  "publisher": "Barnwell County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/qqnlHdXochyJPfSY/arcgis/rest/services/Barnwell_County_Boundary_Data/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45011"
+    ]
+  },
+  "fields": {
+    "apn": "TaxPIN",
+    "acres": "DeedAc"
+  },
+  "notes": "County boundary data service; Parcel_Data layer. Owner and address fields not published in this layer.",
+  "verification": {
+    "verified_at": 1792051579042,
+    "counties": [
+      "45011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

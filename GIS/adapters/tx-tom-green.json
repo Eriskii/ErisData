@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-tom-green",
+  "publisher": "Tom Green Central Appraisal District (bis_tomgreencad ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/3KYdtBnAMnav1mt9/arcgis/rest/services/TomGreenCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48451"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "filter": "file_as_name IS NOT NULL",
+  "notes": "Tom Green CAD public web service; land_val and imprv_val also available",
+  "verification": {
+    "verified_at": 1792051755583,
+    "counties": [
+      "48451"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

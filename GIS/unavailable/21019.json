@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21019",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/?site=BoydCountyKY",
+    "https://boydpva.com/",
+    "https://kygisserver.ky.gov/arcgis/rest/services?f=json",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0"
+  ],
+  "note": "Boyd County PVA parcels are published only through the Schneider qPublic/Beacon viewer (App=BoydCountyKY), a proprietary viewer with no public ArcGIS REST parcel service. The KY state server (kygisserver.ky.gov WGS84WM_Services) has parcel services only for Webster County, and the KYTC County PVA Availability layer marks Boyd as 'Without Ownership'. ArcGIS Hub/Online searches found no Boyd parcel FeatureServer; commercial vendors (Regrid, Dynamo, Acres) are not official sources.",
+  "recorded_at": 1792049414406,
+  "recheck_after": 1807601414406,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-brown",
+  "publisher": "Brown CAD (BIS Consulting)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/GDTvqYSV5kJg6ilh/arcgis/rest/services/BrownCADWebService/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48049"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Brown CAD web service",
+  "verification": {
+    "verified_at": 1792051813643,
+    "counties": [
+      "48049"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

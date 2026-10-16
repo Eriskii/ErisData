@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-cherokee",
+  "publisher": "Iowa DHS&EM statewide parcels 2017 (hosted by University of Iowa), Cherokee County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19035"
+    ]
+  },
+  "fields": {
+    "apn": "UNPARCELID",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'CHEROKEE'",
+  "notes": "Subset of statewide 2017 Iowa parcel layer. No address, acreage or value fields in source.",
+  "verification": {
+    "verified_at": 1792049291099,
+    "counties": [
+      "19035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21181",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/?site=NicholasCountyKY",
+    "https://qpublic.schneidercorp.com/",
+    "https://www.qpublic.net/ky/index.html",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://services2.arcgis.com/BxXA8zJZUU4360ND/arcgis/rest/services"
+  ],
+  "note": "Searched ArcGIS Hub/Online, KyGeoNet, the KY state GIS server, LOJIC, BGADD and PVA directories. Nicholas County parcels appear only in the Schneider Beacon/qPublic viewer, which returns a Cloudflare 403 to automated access. No public ArcGIS REST parcel service or file for Nicholas was found; the state PVA parcel service covers Webster County only.",
+  "recorded_at": 1792049933208,
+  "recheck_after": 1807601933208,
+  "model": "claude-haiku-5-5"
+}

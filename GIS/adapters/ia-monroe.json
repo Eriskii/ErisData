@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-monroe",
+  "publisher": "Monroe County, Iowa GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/rPGIngGsuNJl5jbk/arcgis/rest/services/Monroe_Features/FeatureServer/43",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19135"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "PRIMARY_NAME1",
+    "address": "ADDRESS",
+    "acres": "TOTAL_ACRES",
+    "land_use": "CLASS"
+  },
+  "notes": "Parcels_Join layer from Monroe County IA features service (pfreshwater). Owner/address from tax join.",
+  "verification": {
+    "verified_at": 1792049291803,
+    "counties": [
+      "19135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ia-muscatine",
+  "publisher": "MAGIC (Muscatine Area Geographic Information Consortium)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://magic-gis.com/arcgis/rest/services/MAGIC_Landbase/Countywide_ParcelLayers/MapServer/44",
+    "page_size": 100,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "19139"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "DEEDHLDR",
+    "address": "ADDRESS",
+    "acres": "ACRES",
+    "land_use": "CLASS",
+    "assessed_value": "NetValue"
+  },
+  "notes": "Parcels layer from MAGIC countywide parcel layers; attributes from county assessor extract",
+  "verification": {
+    "verified_at": 1792049215814,
+    "counties": [
+      "19139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

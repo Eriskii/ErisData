@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-dupage",
+  "publisher": "DuPage County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.dupageco.org/arcgis/rest/services/DuPage_County_IL/ParcelsWithRealEstateCC/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17043"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "BILLNAME",
+    "address": "PROPSTNAME",
+    "acres": "ACREAGE",
+    "land_use": "REA017_PROP_CLASS",
+    "assessed_value": "BILLVALUE"
+  },
+  "notes": "Parcels with real estate file data; State Plane IL East (SR 3435) feet; geoJSON query requested in lon/lat by runtime",
+  "verification": {
+    "verified_at": 1792048868688,
+    "counties": [
+      "17043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

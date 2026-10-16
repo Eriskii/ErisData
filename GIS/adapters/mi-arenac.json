@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mi-arenac",
+  "publisher": "Arenac County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/SWvtgOskziun2bFF/arcgis/rest/services/Arenac_Parcel_2026/FeatureServer/37",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26011"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "OWNERNAME",
+    "address": "PROPERTY_A",
+    "acres": "GIS_ACREAG",
+    "land_use": "PROPCLASS",
+    "assessed_value": "SEV"
+  },
+  "notes": "Tax parcel layer for Arenac County, MI, updated 2026; BS&A tax links in Tax_Info",
+  "verification": {
+    "verified_at": 1792049915064,
+    "counties": [
+      "26011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

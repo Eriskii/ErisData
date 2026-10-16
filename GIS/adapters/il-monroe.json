@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-monroe",
+  "publisher": "Monroe County, IL (GDIT-hosted ArcGIS parcels, 2019)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/AZVIEb4WFZST2UYx/arcgis/rest/services/Parcels2019/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17133"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "owner": "Owner",
+    "address": "SiteAdd",
+    "acres": "Acreage",
+    "land_use": "UseCode"
+  },
+  "notes": "Public ArcGIS layer from Monroe County IL GIS Hub (gishub-monroegis). Polygon layer in state plane (wkid 102672); service reprojects to lon/lat.",
+  "verification": {
+    "verified_at": 1792048976488,
+    "counties": [
+      "17133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ny-washington",
+  "publisher": "Washington County NY GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.washingtoncountyny.gov/arcgis/rest/services/Layers/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36115"
+    ]
+  },
+  "fields": {
+    "apn": "PRINT_KEY",
+    "owner": "OWNER",
+    "address": "PROP_ADDR",
+    "acres": "ACRES",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "TOTAL_AV"
+  },
+  "notes": "Washington County NY county GIS parcels; PRINT_KEY is the SWIS-SBL print key; no filter needed",
+  "verification": {
+    "verified_at": 1792051471701,
+    "counties": [
+      "36115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

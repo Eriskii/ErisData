@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21193",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.net/ky/perry",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=json"
+  ],
+  "note": "Searched ArcGIS Hub/Online, KyGovMaps/KyGeoNet, KYTC PVA availability layer (Perry listed 'Without Ownership'), kygisserver PVA parcel services (only Webster published), and county sites. Perry KY parcels appear only in the Schneider qPublic viewer (qpublic.net/ky/perry), which is behind a Cloudflare challenge and exposes no public ArcGIS REST parcel service. The PCEO parcel service found (services7.arcgis.com/xdw4bqNcVlUgWjU8 PCEOParcels) is Perry County, Ohio (extent ~39.5N, -82.4W), not Kentucky. Commercial vendors only (Regrid, Dynamo Spatial, Rockford Map) for Perry KY.",
+  "recorded_at": 1792049972538,
+  "recheck_after": 1807601972538,
+  "model": "claude-haiku-5-5"
+}

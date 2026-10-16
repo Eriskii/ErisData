@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72149",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_feb_2025/MapServer",
+    "https://www.arcgis.com/sharing/rest/content/items/acf043a178254fcdad6708be3e8ab51c?f=json"
+  ],
+  "note": "CRIM (Puerto Rico tax authority) lists parcel layer Parcelarios CRIM 2018 (crim/crim_parcelas) and crim_feb_2025, but every query and metadata endpoint returns 500 'Service not started' on sigejp.pr.gov and sige.pr.gov; the ArcGIS Online Catastro items are web maps with no service URL; no municipal Villalba parcel service found; Regrid is commercial and was not used.",
+  "recorded_at": 1792052150568,
+  "recheck_after": 1807604150568,
+  "model": "claude-haiku-5-5"
+}

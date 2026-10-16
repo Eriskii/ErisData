@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sd-sully",
+  "publisher": "Sully County GIS (via District III)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/SULLY_COUNTY_WEB_LAYERS/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46119"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "CAMA_OWNERNAME",
+    "address": "CAMA_SITE_ADDRESS",
+    "acres": "ACRES",
+    "assessed_value": "VAL_TOTAL_VALUE_1"
+  },
+  "notes": "Parcel layer from District III hosted Sully County web layers; CAMA attributes joined by county assessor. Public service.",
+  "verification": {
+    "verified_at": 1792051704595,
+    "counties": [
+      "46119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

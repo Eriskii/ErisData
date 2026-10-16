@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-lake",
+  "publisher": "Lake County, Oregon (tax lots hosted on ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/e3KSI9Py4B7m3xu6/arcgis/rest/services/Lake01_TL_Addresspoints/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41037"
+    ]
+  },
+  "fields": {
+    "apn": "MapTaxlot",
+    "owner": "OwnerLine1",
+    "address": "siteAddNam",
+    "acres": "TaxlotAcre",
+    "land_use": "PrpClsDsc"
+  },
+  "notes": "Lake County OR tax lot polygons; currentness varies; no assessed value field",
+  "verification": {
+    "verified_at": 1792051534652,
+    "counties": [
+      "41037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

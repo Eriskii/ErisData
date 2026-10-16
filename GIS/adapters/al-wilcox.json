@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-wilcox",
+  "publisher": "Wilcox County, AL (via Alabama Parcel Data, PowerSouth)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01131"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer serves Wilcox County parcels; source of Alabama Parcel Data aggregate. Site address fields are largely blank in source, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792048402033,
+    "counties": [
+      "01131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

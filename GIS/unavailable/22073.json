@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "22073",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.opassessor.com/ (assessor site; its interactive map links to https://www.actdatascout.com/RealProperty/Louisiana/Ouachita, which returns HTTP 403 Azure WAF to automated access)",
+    "https://www.countyoffice.org/la-ouachita-parish-gis-maps/ (403 Forbidden to automated access; directory only, points to the ActDataScout viewer)",
+    "https://monroela.us/departments/engineering/gis-geographic-index-system/",
+    "https://monroela.us/departments/engineering/gis-geographic-information-system/ (City of Monroe only; its ArcGIS Online web app item config has no parcel layer)",
+    "arcgis searches for Ouachita Parish parcels, assessor tax parcels, and West Monroe parcels returned no parcel feature services",
+    "Commercial vendors only for parcel polygons: Regrid, Dynamo Spatial, Acres, mappingsolutionsgis"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Ouachita Parish parcel services. The only parish parcel viewer (ActDataScout, linked from the assessor site) was blocked by a WAF, so no service URL could be verified. Recording unavailable on that basis; re-checking the ActDataScout viewer's network requests from an accessible browser could reverse this.",
+  "recorded_at": 1792049909848,
+  "recheck_after": 1807601909848,
+  "model": "claude-haiku-5-5"
+}

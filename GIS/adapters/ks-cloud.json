@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ks-cloud",
+  "publisher": "Cloud County, Kansas (via lkmap open records)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/yGerJCngvNpaN2km/arcgis/rest/services/CloudCoKS_ParcelsOpenRecords/FeatureServer/0",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "20029"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "PrimaryOwn",
+    "address": "SitusAddre",
+    "acres": "ACRES",
+    "land_use": "PropTypeCo"
+  },
+  "notes": "Cloud County KS open-records parcel layer, about 9,392 features; fields include PartyName, City, State, ZIP, LegalDescr",
+  "verification": {
+    "verified_at": 1792049589690,
+    "counties": [
+      "20029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

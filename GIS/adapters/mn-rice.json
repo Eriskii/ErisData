@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-rice",
+  "publisher": "Rice County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://asr-arcgis01.ricecountymn.gov/arcgis/rest/services/Maps/TaxParcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27131"
+    ]
+  },
+  "fields": {
+    "apn": "COUNTY_PIN",
+    "owner": "OWNER_NAME",
+    "address": "SiteAddrFull",
+    "acres": "ACRES_DEED",
+    "land_use": "USECLASS1",
+    "assessed_value": "EMV_TOTAL"
+  },
+  "notes": "Rice County MN tax parcels; source maxRecordCount 2000, page_size set to 1000",
+  "verification": {
+    "verified_at": 1792050896492,
+    "counties": [
+      "27131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "la-east-feliciana",
+  "publisher": "East Feliciana Parish Assessor (GDITAdmin hosted)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/KLV8PjHx4dhS4u83/arcgis/rest/services/EFAOParcelsPV/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22037"
+    ]
+  },
+  "fields": {
+    "apn": "PIN_Number",
+    "owner": "Register_N"
+  },
+  "notes": "Parcel polygons from East Feliciana Parish assessor GIS. PIN_Number is the parcel number; Lot_Number is the lot label. Owner field (Register_N) is sparsely filled. Shape__Area is in square feet and is not mapped as acres. No owner or address field is published.",
+  "verification": {
+    "verified_at": 1792049831385,
+    "counties": [
+      "22037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

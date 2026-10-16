@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "fl-walton",
+  "publisher": "Walton County GIS (via EnerGov Parcels feature service, from Property Appraiser data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/TaXHPwWfIMuzJ7Ov/arcgis/rest/services/EnerGov/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12131"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "OWNER_NAME",
+    "acres": "GIS_ACRES",
+    "land_use": "USE_CODE",
+    "assessed_value": "APPRAISED_VALUE"
+  },
+  "notes": "Walton County GIS EnerGov service, Parcels layer; updated weekly; sourced from Walton County Property Appraiser parcel data",
+  "verification": {
+    "verified_at": 1792049175852,
+    "counties": [
+      "12131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

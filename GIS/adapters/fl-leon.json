@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "fl-leon",
+  "publisher": "Leon County GIS (TLCGIS) / Leon County Property Appraiser",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://intervector.leoncountyfl.gov/intervector/rest/services/MapServices/TLC_OverlayParnal_D_WM/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12073"
+    ]
+  },
+  "fields": {
+    "apn": "TAXID",
+    "owner": "OWNER1",
+    "address": "SITEADDR",
+    "acres": "CALC_ACREA",
+    "land_use": "PROP_USE"
+  },
+  "notes": "Leon County Property Appraiser parcels incl. Tallahassee city limits; NAL enhanced layer; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792048791046,
+    "counties": [
+      "12073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

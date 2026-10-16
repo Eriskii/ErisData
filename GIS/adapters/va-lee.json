@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-lee",
+  "publisher": "Virginia Geographic Information Network (VGIN) statewide parcels, Lee County (FIPS 51105)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://vginmaps.vdem.virginia.gov/arcgis/rest/services/VA_Base_Layers/VA_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51105"
+    ]
+  },
+  "fields": {
+    "apn": "VGIN_QPID"
+  },
+  "filter": "FIPS = '51105'",
+  "notes": "Statewide VGIN parcel layer filtered to FIPS 51105 (Lee County, VA). In this layer the county-level PARCELID, PTM_ID and owner fields are empty for Lee County, so apn uses VGIN_QPID, the VGIN unique parcel key. No owner, address or value data is published here.",
+  "verification": {
+    "verified_at": 1792053171492,
+    "counties": [
+      "51105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

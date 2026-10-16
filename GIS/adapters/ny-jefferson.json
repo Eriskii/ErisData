@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ny-jefferson",
+  "publisher": "Jefferson County Real Property Tax Services (via ArcGIS Online, parcels near eligible water bodies)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/CkyPywOAuM5hLISM/arcgis/rest/services/Parcels_near_Eligible_Water_Bodies/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36045"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER_NAME",
+    "address": "PROP_ADDR",
+    "acres": "ACRES",
+    "land_use": "Prop_class",
+    "assessed_value": "TOTAL_AV"
+  },
+  "notes": "Subset layer: parcels near eligible water bodies (about 9,674 parcels), not every county parcel",
+  "verification": {
+    "verified_at": 1792051590916,
+    "counties": [
+      "36045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "48173",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services.arcgis.com/YNGHnBhGIqsBFqY2/arcgis/rest/services/GlasscockCADWebService/FeatureServer (Token Required)",
+    "https://gisdata.pandai.com/pamaps02/rest/services/Glasscock/GlasscockCADPublic/MapServer (Token Required)",
+    "https://services.arcgis.com/YNGHnBhGIqsBFqY2/arcgis/rest/services/GlasscockCADAdditonalData/FeatureServer (Token Required)",
+    "https://services9.arcgis.com/0wMGpXTgzixiyVc5/arcgis/rest/services/Land_Grid_and_Parcel_Data/FeatureServer (Token Required)"
+  ],
+  "note": "Glasscock County Appraisal District parcel services exist on ArcGIS Online and a pandai host, but every one returns Token Required. The county's public parcel viewer (secure.oginfo.com FastMaps) is not an open REST service. Remaining parcel sources found are commercial downloads (Regrid, DynamoSpatial, Equator, TexasCountyGISData, Acres, TaxNetUSA Pro). The DeLa pipeline parcel layers are a pipeline-buffer subset, not county tax parcels. Glasscock County parcels are not published as a publicly queryable service or file.",
+  "recorded_at": 1792051751937,
+  "recheck_after": 1807603751937,
+  "model": "claude-haiku-5-5"
+}

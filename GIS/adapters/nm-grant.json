@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-grant",
+  "publisher": "Grant County, NM (Assessor/GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/33TOOklri9xpic7U/arcgis/rest/services/Grant_County_Interactive_Parcel_Map/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35017"
+    ]
+  },
+  "fields": {
+    "apn": "Name",
+    "owner": "OWNER",
+    "address": "GISAccount"
+  },
+  "notes": "Public-use planning map; assessment and planning purposes only. Parcel number in Name; GISAccount is account number.",
+  "verification": {
+    "verified_at": 1792051330154,
+    "counties": [
+      "35017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "co-eagle",
+  "publisher": "Eagle County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map.eaglecounty.us/arcgiswa/rest/services/Parcels_Portal/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08037"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM"
+  },
+  "notes": "Eagle County Parcels layer from county GIS portal; owner, address, acreage and value fields are not published in this layer",
+  "verification": {
+    "verified_at": 1792048671093,
+    "counties": [
+      "08037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

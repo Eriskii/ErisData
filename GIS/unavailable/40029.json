@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40029",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://coal.okcounties.org/maps",
+    "https://www.dynamospatial.com/c/coal-county-ok/parcel-data",
+    "https://rockfordmap.com/maps/oklahoma-coal-county/",
+    "https://libertycoreconsultants.com/oklahoma-gisassessor-links/",
+    "https://app.regrid.com/us/ok/coal"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Coal County OK parcel GIS. The county site publishes only static PDF maps and links to record-search sites (okassessor.com, okcountyrecords.com). Commercial parcel shapefiles (Dynamo Spatial, Rockford Map Publishers) and the Regrid viewer are paid/licensed aggregators, not a county service. The OWRB Parcels MapServer was unreachable, and the Regrid nationwide MapServer exposes no query endpoint. No public queryable county parcel service or file was found.",
+  "recorded_at": 1792051457185,
+  "recheck_after": 1807603457185,
+  "model": "claude-haiku-5-5"
+}

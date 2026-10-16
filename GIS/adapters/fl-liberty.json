@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-liberty",
+  "publisher": "Liberty County, FL (ARPC maps, DOR parcel layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/N3lCn6dEKCL6LidU/arcgis/rest/services/Liberty_DOR/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12077"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "land_use": "DOR_Land_Use",
+    "assessed_value": "JV"
+  },
+  "notes": "Liberty County parcels from Liberty_DOR service (ARPCmaps), layer 1 Parcels. No owner/address fields published in this layer. JV is just value. Shape__Area is square feet, not mapped.",
+  "verification": {
+    "verified_at": 1792048804623,
+    "counties": [
+      "12077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

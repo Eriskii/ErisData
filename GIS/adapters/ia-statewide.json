@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ia-statewide",
+  "publisher": "Iowa Department of Homeland Security & Emergency Management (hosted by University of Iowa)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "IA"
+    ]
+  },
+  "fields": {
+    "apn": "UNPARCELID",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "notes": "2017 statewide parcel snapshot (Parcels_20171102), about 2.45M features; source is deprecated and not current. Includes COUNTYNAME, STATEPARID and PARCELNUMB. No address or acreage fields.",
+  "verification": {
+    "verified_at": 1792049057333,
+    "counties": [
+      "19001",
+      "19003",
+      "19005",
+      "19007",
+      "19011",
+      "19099",
+      "19197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-baker",
+  "publisher": "Baker County Assessor Office via ArcGIS Online",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/QNL6ESLaMOiSE2DQ/arcgis/rest/services/OWNERSHIP_BAKER_COUNTY_OREGON_Source_view/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41001"
+    ]
+  },
+  "fields": {
+    "apn": "GISKEY",
+    "owner": "OWNER",
+    "address": "LOC",
+    "acres": "ACRES",
+    "land_use": "PROPCL"
+  },
+  "notes": "Baker County Assessor tax lot ownership layer; 16682 features; source CRS EPSG 2913",
+  "verification": {
+    "verified_at": 1792051565002,
+    "counties": [
+      "41001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

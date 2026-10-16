@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-drew",
+  "publisher": "Arkansas GIS Office (statewide CAMA parcel polygons, Drew County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 8,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05043"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '043'",
+  "notes": "Statewide Arkansas GIS Office PARCEL_POLYGON_CAMP layer; Drew County rows have countyfips 043. Not a legal boundary; for ad valorem assessment use. Updated twice a year.",
+  "verification": {
+    "verified_at": 1792048584062,
+    "counties": [
+      "05043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

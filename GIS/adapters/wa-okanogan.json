@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wa-okanogan",
+  "publisher": "Okanogan County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/p1XMcn4KWrkdZVeA/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53047"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "CURRENT_OW",
+    "acres": "DEEDED_ACR",
+    "land_use": "DOR_CODE",
+    "assessed_value": "TOTAL_MARK"
+  },
+  "notes": "Okanogan County assessor parcels; PIN is parcel number. Situs address fields (E911_ADD, SITUS) are mostly blank in this layer, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792053125873,
+    "counties": [
+      "53047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

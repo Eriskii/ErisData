@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-rockdale",
+  "publisher": "Rockdale County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Tbke9ca9DhtF4VIx/arcgis/rest/services/Tax_Maps_WFL1/FeatureServer/28",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13247"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "address": "Address",
+    "acres": "Acreage",
+    "land_use": "tax_DESCR",
+    "assessed_value": "Valuation"
+  },
+  "notes": "Rockdale County Tax Maps and Parcel Viewer (ArcGIS Online); parcels layer Parcels_1; no owner field in service",
+  "verification": {
+    "verified_at": 1792048822077,
+    "counties": [
+      "13247"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "22067",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.mpassess.org/",
+    "http://mpassess.org/Home/Contact",
+    "https://www.pubrecord.org/morehouse-parish-property-records-louisiana/",
+    "https://www.actdatascout.com/RealProperty/Louisiana/Morehouse",
+    "https://services8.arcgis.com/g1eUGM6NUcD0Fk5p/arcgis/rest/services/LandGrid_Parcels/FeatureServer"
+  ],
+  "note": "Morehouse Parish Assessor (mpassess.org) publishes its GIS parcel map only inside a subscriber-only site; the ArcGIS webmap linked from pubrecord.org returned no item; no public ArcGIS REST, WFS or file download of Morehouse parcels was found. Parcel data elsewhere is commercial (Regrid, Rockford Map, DynamoSpatial, Acres). The LandGrid Louisiana parcel service requires a token. Neighbouring Arkansas services do not cover Louisiana.",
+  "recorded_at": 1792049898521,
+  "recheck_after": 1807601898521,
+  "model": "claude-haiku-5-5"
+}

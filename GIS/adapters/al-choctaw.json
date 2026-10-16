@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-choctaw",
+  "publisher": "Choctaw County, AL (via Alabama Parcel Data, PowerSouth ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/10",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01023"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "acres": "GISACRE",
+    "land_use": "LANDCUSE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer dedicated to Choctaw County parcels; ~24k features; source EPSG:26916 served as GeoJSON. Site address sparse in source (ADDRESS filled for ~1/3 of parcels), so omitted.",
+  "verification": {
+    "verified_at": 1792048321791,
+    "counties": [
+      "01023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

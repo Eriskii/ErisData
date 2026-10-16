@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21221",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx",
+    "https://www.dynamospatial.com/c/trigg-county-ky/parcel-data",
+    "https://maps.acres.com/plat-map/map/ky/trigg-county-ky",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=sitemap",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0"
+  ],
+  "note": "Trigg County (21221) parcels are not published as a public queryable service. The county PVA parcel viewer is hosted on qPublic (Schneider), which returns 403/Cloudflare to automated access and exposes no documented REST endpoint. Kentucky's state server (kygisserver) has PVA parcel services only for Webster County; no Trigg service exists (probe of Ky_PVA_Trigg_Parcels_WGS84WM returned not found). Trigg parcels are sold only by commercial vendors (Dynamo Spatial, ReportAllUSA, Regrid), and the acres/acrevalue plat viewers expose no public service. The KYTC PVA availability layer does not list Trigg as published.",
+  "recorded_at": 1792049918126,
+  "recheck_after": 1807601918126,
+  "model": "claude-haiku-5-5"
+}

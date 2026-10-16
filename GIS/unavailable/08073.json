@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "08073",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0",
+    "https://gis.colorado.gov/public/rest/services/GOV/PropertyTaxParels/MapServer/0",
+    "https://lincolngis.integritygis.com/H5/Index.html?viewer=lincoln",
+    "https://lincolncounty.colorado.gov/assessor"
+  ],
+  "note": "Lincoln County CO (08073) has zero features in the state's composite parcel layers (countyFips 08073 and countyName LIKE Lincoln both return 0; the layer lists 40+ other counties, not Lincoln). The county's own WebGIS (lincoln.integritygis.com) is the only parcel viewer found, but its host is unreachable from here and no ArcGIS service endpoint for it could be identified. The assessor site returns 403 and says files are PDFs by default. No public queryable Lincoln County parcel service was found.",
+  "recorded_at": 1792048799555,
+  "recheck_after": 1807600799555,
+  "model": "claude-haiku-5-5"
+}

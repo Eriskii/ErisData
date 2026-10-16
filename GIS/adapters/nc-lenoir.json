@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-lenoir",
+  "publisher": "Lenoir County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/bDx73HOFAO3oSeDq/arcgis/rest/services/Parcels_Zoning_Addressing/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37107"
+    ]
+  },
+  "fields": {
+    "apn": "NC_PIN",
+    "owner": "Name1",
+    "address": "PhysStrAdd",
+    "acres": "GIS_ACRE",
+    "land_use": "LandUseCur",
+    "assessed_value": "TotalFMVCu"
+  },
+  "notes": "Lenoir County public GIS viewer parcel layer; tax records joined; NC State Plane ft source CRS handled by server",
+  "verification": {
+    "verified_at": 1792051367149,
+    "counties": [
+      "37107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nm-rio-arriba",
+  "publisher": "Rio Arriba County GIS (East Rio Arriba Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/6gDz3aQl2Pya7uIo/arcgis/rest/services/East_Rio_Arriba_Parcels/FeatureServer/57",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35039"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "OWNER_NAME",
+    "address": "ADDRESS_1",
+    "assessed_value": "TOTAL_ACT"
+  },
+  "notes": "Rio Arriba County assessor parcels, East Rio Arriba layer",
+  "verification": {
+    "verified_at": 1792051372653,
+    "counties": [
+      "35039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

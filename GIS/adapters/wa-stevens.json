@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "wa-stevens",
+  "publisher": "Stevens County GIS (Assessor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stevenscountywa.gov/server/rest/services/RealPropertyParcels_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53065"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELN",
+    "owner": "file_as_na",
+    "address": "situs_disp",
+    "acres": "legal_acre",
+    "land_use": "prop_type_",
+    "assessed_value": "appraised_"
+  },
+  "filter": "legal_acre > 0",
+  "notes": "Stevens County Assessor public real property parcels; county GIS server. Zero-acre road right-of-way polygons excluded.",
+  "verification": {
+    "verified_at": 1792053185217,
+    "counties": [
+      "53065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

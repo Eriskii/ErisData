@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40025",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://okmaps.org/OGI/xmlmetadatadownload.aspx?LayerUUID=1484707a-712a-4447-96a9-5a38affc600e",
+    "https://ogidev.okmaps.org/OGI/RestDataAccessItem.aspx?UUID=7c55e990-048e-499d-a20c-58fc5b730562",
+    "https://libertycoreconsultants.com/oklahoma-gisassessor-links/",
+    "https://www.acres.com/plat-map/map/ok/cimarron-county-ok",
+    "https://www.dynamospatial.com/c/cimarron-county-ok/parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub/Online for Cimarron County parcels: no parcel layer found; the CSA University of Oklahoma Cimarron layers have no parcels. Oklahoma statewide parcel layer (compiled from county assessors) is view-only via WMS with no download. The only county parcel link found is a USAssessor LiteSearch search page, not a GIS service. Other Cimarron parcel sources are commercial vendors (Acres, Dynamo, Mapping Solutions, Equator, Regrid licensed layer). Could not open mapview-cimarron.com or the assessor site to check for a public ArcGIS backend.",
+  "recorded_at": 1792051513316,
+  "recheck_after": 1807603513316,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-clatsop",
+  "publisher": "Clatsop County GIS (tax lots hosted on ArcGIS Online, data as of 2019)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/fbzu5hCcieRmwHUo/arcgis/rest/services/Tax_Lots/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41007"
+    ]
+  },
+  "fields": {
+    "apn": "TAXLOTKEY",
+    "owner": "OWNER_LINE",
+    "address": "SITUS_ADDR",
+    "acres": "Shape__Area",
+    "land_use": "PROPERTY_C"
+  },
+  "notes": "Clatsop County GIS tax lots, data as of 2019-10-08; not current. Shape__Area is in square meters (Web Mercator units).",
+  "verification": {
+    "verified_at": 1792051499474,
+    "counties": [
+      "41007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

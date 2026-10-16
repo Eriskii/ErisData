@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wa-franklin",
+  "publisher": "Franklin County, WA (Parcels in Franklin County and incorporated cities, City of Pasco GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pasco-wa.gov/gs/rest/services/Citybase_Published_Layers/Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53021"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMBER",
+    "owner": "TAXPAYER_NAME",
+    "address": "SITUS",
+    "land_use": "DEPARTMENTOFREVENUECODE",
+    "assessed_value": "TOTAL_MARKET_VALUE"
+  },
+  "notes": "Franklin County parcels including incorporated cities, from City of Pasco Citybase published layers. Market value used for assessed_value field.",
+  "verification": {
+    "verified_at": 1792053563599,
+    "counties": [
+      "53021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

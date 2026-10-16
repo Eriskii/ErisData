@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "13111",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.arcgis.com/home/item.html?id=08ba4a6b6b0f45d49b89a1fdff82be36",
+    "https://services7.arcgis.com/wCqQSYzCSB2pQ16E/arcgis/rest/services/Fannin_County_Parcels/FeatureServer/57",
+    "https://services.arcgis.com/ISpzx3B5ZsVA6e1Z/ArcGIS/rest/services/Fannin_Webmap/FeatureServer/0",
+    "https://www.qpublic.net/ga/fannin/",
+    "https://fannincountypropertyappraiser.org/gis-maps/",
+    "https://countygismaps.com/ga/fannin"
+  ],
+  "note": "Searched ArcGIS Online/Hub and web for Fannin County GA parcels. The AGOL item 08ba4a6b... points to a service (services7 .../Fannin_County_Parcels/FeatureServer/57) whose 5,887 features are Grayson County, TX parcels (GFA/CBC codes, lon -96.2), so it is not Fannin GA. The GDITAdmin item Fannin_Webmap returns 'Invalid URL' for every path, so it is not queryable. Fannin GA parcels are served only via the qPublic/Schneider viewer and commercial vendors (Regrid, Acres, DynamoSpatial, CountyGISMaps); no public parcel FeatureServer/MapServer or downloadable file found.",
+  "recorded_at": 1792048849321,
+  "recheck_after": 1807600849321,
+  "model": "claude-haiku-5-5"
+}

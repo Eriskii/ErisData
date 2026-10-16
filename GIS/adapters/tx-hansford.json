@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-hansford",
+  "publisher": "Hansford County Appraisal District (via Pandai GIS)",
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://gisdata.pandai.com/pamaps02/rest/services/Hansford/HansfordCADPublic/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "48195"
+    ]
+  },
+  "fields": {
+    "apn": "DBO.TaxParcels.Name",
+    "owner": "DBO.Accounts.Owner_Name",
+    "address": "DBO.Accounts.Prop_Street",
+    "acres": "DBO.Accounts.Acres",
+    "land_use": "DBO.Accounts.Primary_Category_Code"
+  },
+  "notes": "Pandai public CAD service; market value not populated",
+  "verification": {
+    "verified_at": 1792053389621,
+    "counties": [
+      "48195"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "22053",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://jdpe.totaland.com",
+    "https://www.jeffdavisassessor.org",
+    "https://geoportal.jeffparish.net/arcgis/rest/services",
+    "https://jpgis.jeffparish.net/arcgis/rest/services",
+    "https://www.dynamospatial.com/c/jefferson-davis-parish-la/parcel-data",
+    "https://app.regrid.com/store/us/la/jefferson-davis"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Jeff Davis parcel service), and the parish's GIS hosts. geoportal.jeffparish.net and jpgis.jeffparish.net return HTTP 500 on ArcGIS REST root and their services belong to Jefferson Parish, not Jefferson Davis. jdpe.totaland.com (Tax Assessor) is an HTML search portal with no discoverable REST endpoint. Only commercial parcel vendors (Dynamo, Regrid, Landrecords, Acres) publish Jefferson Davis parcels; the one ArcGIS parcel layer found (LandGrid) requires a token. No public county-run parcel polygon service was found.",
+  "recorded_at": 1792049944642,
+  "recheck_after": 1807601944642,
+  "model": "claude-haiku-5-5"
+}

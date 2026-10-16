@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ks-ford",
+  "publisher": "Ford County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/QfD34vvHtHcH5kGh/arcgis/rest/services/Zoning_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20057"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "OWNER",
+    "address": "siteaddres",
+    "acres": "Acres",
+    "land_use": "ZoningCode"
+  },
+  "notes": "Layer published by Ford County GIS via ArcGIS Online (Zoning_Parcels). No assessed value field.",
+  "verification": {
+    "verified_at": 1792049260292,
+    "counties": [
+      "20057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "nc-dare",
+  "publisher": "NC OneMap (Dare County parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37055"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "land_use": "parusedesc",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37055' AND gisacres < 50",
+  "notes": "Statewide NC OneMap aggregated parcel layer; filtered to Dare County FIPS 37055 and parcels under 50 acres (excludes very large federal/refuge tracts whose centroids lie far from their envelope). Public service.",
+  "verification": {
+    "verified_at": 1792051426979,
+    "counties": [
+      "37055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-mcduffie",
+  "publisher": "Thomson-McDuffie GIS (McDuffie County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.thomson-mcduffie.net/arcgis/rest/services/CloudPermit/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13189"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNo",
+    "owner": "Name",
+    "address": "Street_Nam",
+    "acres": "Deed_Acres",
+    "land_use": "Dig_Class"
+  },
+  "notes": "Tax parcels from Thomson-McDuffie GIS CloudPermit MapServer layer 4; about 12,579 features",
+  "verification": {
+    "verified_at": 1792048818326,
+    "counties": [
+      "13189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "mo-jackson",
+  "publisher": "Jackson County Missouri GIS (jcgis.jacksongov.org)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://jcgis.jacksongov.org/arcgis/rest/services/ParcelViewer/ParcelsAscendRelate/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29095"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id"
+  },
+  "notes": "County parcel polygons (Ascend). Owner and address not in this layer; acreage mostly null. Tax purposes only, not survey accurate.",
+  "verification": {
+    "verified_at": 1792051096175,
+    "counties": [
+      "29095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

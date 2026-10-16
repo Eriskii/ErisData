@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-boone",
+  "publisher": "Boone County, Arkansas (GIS / Assessor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/GkTTq9BaSPUnctWP/arcgis/rest/services/BC_Parcels2020/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05009"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_Id",
+    "owner": "OW_NAME",
+    "address": "PH_ADD",
+    "acres": "Acres",
+    "land_use": "TYPE",
+    "assessed_value": "ASSESS_VAL"
+  },
+  "notes": "Boone County GIS parcel layer (BC_Parcels2020), published by boonemapping; 2020 vintage. Source spatial reference EPSG:26915.",
+  "verification": {
+    "verified_at": 1792048494556,
+    "counties": [
+      "05009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

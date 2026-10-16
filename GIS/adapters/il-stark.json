@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-stark",
+  "publisher": "Stark County GIS (LandParcels, OwnershipAssessment)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/IMZwRRU1qL5MDxBH/arcgis/rest/services/LandParcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17175"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "PrimaryName",
+    "address": "SiteAddress",
+    "acres": "Acreage",
+    "land_use": "UseCode"
+  },
+  "notes": "Stark County IL public parcel layer from the county ArcGIS viewer; 6089 features",
+  "verification": {
+    "verified_at": 1792048982265,
+    "counties": [
+      "17175"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

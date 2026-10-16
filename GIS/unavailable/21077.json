@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21077",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/?site=GallatinCountyKY",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=901&LayerID=17030&PageTypeID=1&PageID=7667",
+    "https://gallatinpva.com/",
+    "https://kygeonet.ky.gov/",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services"
+  ],
+  "note": "Searched ArcGIS Hub/Online, KyGovMaps/KyGeoNet hub, and kygisserver WGS84WM services. Only a Webster County PVA parcel service is published by the state; no Gallatin County parcel service found. The county's parcel viewer is Schneider Beacon/qPublic (403 to automated reads, no public ArcGIS REST). Commercial sources (Regrid, Dynamo, Acres) are paid or non-queryable.",
+  "recorded_at": 1792049911515,
+  "recheck_after": 1807601911515,
+  "model": "claude-haiku-5-5"
+}

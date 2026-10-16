@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "co-teller",
+  "publisher": "Teller County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/haXoJFLDtvxGvyC1/arcgis/rest/services/TC_Parcels_Public_View/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08119"
+    ]
+  },
+  "fields": {
+    "apn": "ACCOUNTNO",
+    "owner": "Name1",
+    "address": "Situsstnum",
+    "acres": "Totacres",
+    "land_use": "Econdesc",
+    "assessed_value": "Totassd"
+  },
+  "notes": "Teller County public parcel view (services5.arcgis.com), referenced by OpenAddresses PR 8800",
+  "verification": {
+    "verified_at": 1792048724066,
+    "counties": [
+      "08119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nm-eddy",
+  "publisher": "Eddy County, NM (cocarlsbad Parcel - Public)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/4ii5mmz1d3LIlzwY/arcgis/rest/services/Parcel/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35015"
+    ]
+  },
+  "fields": {
+    "apn": "UPC",
+    "owner": "OWNERNAME"
+  },
+  "notes": "Eddy County Parcel Information, public ArcGIS feature service; 53,282 features; no address/acreage/value fields published",
+  "verification": {
+    "verified_at": 1792051627638,
+    "counties": [
+      "35015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-bullock",
+  "publisher": "Bullock County, AL (via Alabama Parcel Data, PowerSouth/ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01011"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer 5 of Alabama_Parcel_Data FeatureServer, Bullock County Parcels. Source CRS EPSG:26916. Per-county layer published by PowerSouth account; 10665 features. Land use is a numeric USECODE; description field USEDESC is mostly blank.",
+  "verification": {
+    "verified_at": 1792048279856,
+    "counties": [
+      "01011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

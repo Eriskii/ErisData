@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-morgan",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (STS-GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47129"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_NAME = 'Morgan'",
+  "notes": "Statewide TN parcel layer filtered to Morgan County (COUNTY_NAME)",
+  "verification": {
+    "verified_at": 1792052720049,
+    "counties": [
+      "47129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

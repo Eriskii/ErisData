@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "29215",
+  "reason": "paywalled",
+  "evidence": [
+    "https://texasgis.breezemaps.com/",
+    "http://texasgis.countyportal.net/",
+    "https://www.texascountymissouri.gov/government/elected-officials/assessor/",
+    "https://parcelvision.app/parcel-maps/missouri/texas-county/",
+    "https://services2.arcgis.com/5fBksrmhqE9Y6xQi/arcgis/rest/services/Mountain_Grove_Wright_County_and_Texas_County_Parcels/FeatureServer/1"
+  ],
+  "note": "Texas County MO (29215): no public queryable county-wide parcel service found. County GIS viewer (texasgis.breezemaps.com, ClearBasin) shows no public ArcGIS REST endpoint; the official portal texasgis.countyportal.net requires a 160 dollar/yr subscription; assessor site points only to that subscription portal. Only ArcGIS parcel layer found is City of Mountain Grove parcels (city-only, not the county, not around the validation point). Regrid nationwide tiles service exposes no query endpoint (404); Apex_Missouri_Parcels covers pipeline counties, not Texas County.",
+  "recorded_at": 1792051125074,
+  "recheck_after": 1823587125074,
+  "model": "claude-haiku-5-5"
+}

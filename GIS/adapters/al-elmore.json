@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-elmore",
+  "publisher": "Elmore County, AL (via Alabama Parcel Data, PowerSouth)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/21",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01051"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Elmore County parcel layer from the Alabama Parcel Data service; about 54k features; source layer name has a typo (Parccels). USECODE is empty in this source, so land_use is not mapped.",
+  "verification": {
+    "verified_at": 1792048496012,
+    "counties": [
+      "01051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "nc-columbus",
+  "publisher": "NC OneMap (WEI hosted copy of NC statewide parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/n5rY677NVyRuW3Ht/arcgis/rest/services/NC_OneMap_Parcels/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37047"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "land_use": "parusedesc",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37047'",
+  "notes": "Static copy of NC OneMap statewide parcels (hosted FeatureServer), filtered to county FIPS 37047.",
+  "verification": {
+    "verified_at": 1792051676942,
+    "counties": [
+      "37047"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

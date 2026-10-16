@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "me-lincoln",
+  "publisher": "Maine Coast Heritage Trust (MCHT) combined parcels, Lincoln County towns",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mcht.org/arcgis/rest/services/Cadastral_Planning/MCHT_Combined_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23015"
+    ]
+  },
+  "fields": {
+    "apn": "map_bk_lot",
+    "address": "prop_loc"
+  },
+  "filter": "county = 'Lincoln'",
+  "notes": "Combined digital tax parcels of Maine organized towns compiled by MCHT; town updates irregular. No owner field published.",
+  "verification": {
+    "verified_at": 1792049918088,
+    "counties": [
+      "23015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

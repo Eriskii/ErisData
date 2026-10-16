@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20039",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Decatur",
+    "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KS_County_Website_Links_SHP/FeatureServer/0",
+    "https://decaturcountypropertyappraiser.org/gis-maps/",
+    "https://www.dynamospatial.com/c/decatur-county-ks/parcel-data",
+    "https://reportallusa.com/store/kansas/20039"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Decatur KS parcel service found). Decatur County's statewide county-links layer shows no county GIS portal (GIS_PORTAL and GIS_CONTAC empty, GIS parcel flag 0); its only parcel link is the state ORKA viewer, which gates county parcel data behind a PORKA request and open-records acceptance. The county assessor site and decaturcountypropertyappraiser.org point to a qPublic/Schneider viewer (403 to automated access) with no public REST endpoint. Commercial vendors (Dynamo Spatial, Rockford Map, ReportAll, Regrid) sell parcel shapefiles under paid or licensed terms.",
+  "recorded_at": 1792049257760,
+  "recheck_after": 1807601257760,
+  "model": "claude-haiku-5-5"
+}

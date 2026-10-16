@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "al-marshall",
+  "publisher": "Marshall County Revenue Commissioner (KCS GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://al50portal.kcsgis.com/al50server/rest/services/Marshall_Public_ISV/MapServer/118",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01095"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "Owner",
+    "address": "SitusAddName",
+    "acres": "CALCULATEDACREAGE",
+    "land_use": "ImpDescrip",
+    "assessed_value": "TAV"
+  },
+  "notes": "KCS ISV Marshall_Public_ISV MapServer layer 118 Parcels; native SR 102629",
+  "verification": {
+    "verified_at": 1792048559658,
+    "counties": [
+      "01095"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

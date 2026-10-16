@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-stanley",
+  "publisher": "Stanley County, SD (via District III GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/STANLEY_COUNTY_WEB_LAYERS/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46117"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "CAMA_OWNERNAME",
+    "address": "CAMA_SITE_ADDRESS",
+    "acres": "CAMA_ACRES"
+  },
+  "notes": "Parcel layer from Stanley County GIS web layers hosted by District III; CAMA attributes from county assessor",
+  "verification": {
+    "verified_at": 1792051711308,
+    "counties": [
+      "46117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

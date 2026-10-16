@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "nc-person",
+  "publisher": "Person County GIS (via NC OneMap statewide NC1Map Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37145"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "land_use": "parusecode",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37145'",
+  "notes": "Statewide NC OneMap ICDX parcel layer, filtered to Person County by state-county FIPS. Person County own server returned errors.",
+  "verification": {
+    "verified_at": 1792051419041,
+    "counties": [
+      "37145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

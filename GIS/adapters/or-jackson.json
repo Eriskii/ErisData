@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "or-jackson",
+  "publisher": "Jackson County GIS (Oregon)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aD4sstpQmlnZu2vq/arcgis/rest/services/Taxlots/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41029"
+    ]
+  },
+  "fields": {
+    "apn": "ACCOUNT",
+    "owner": "FEEOWNER",
+    "address": "SITEADD",
+    "acres": "ACREAGE",
+    "land_use": "PROPCLASS",
+    "assessed_value": "LANDVALUE"
+  },
+  "notes": "Jackson County, Oregon tax lots (ownership and account data), hosted ArcGIS service",
+  "verification": {
+    "verified_at": 1792051627280,
+    "counties": [
+      "41029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

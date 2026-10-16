@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "pa-snyder",
+  "publisher": "Snyder County GIS via PASDA",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/SnyderCounty/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42109"
+    ]
+  },
+  "fields": {
+    "apn": "PIN"
+  },
+  "notes": "Source: PASDA Snyder County parcel polygons (2026-05 update). Owner and address fields not included in this layer.",
+  "verification": {
+    "verified_at": 1792051542293,
+    "counties": [
+      "42109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

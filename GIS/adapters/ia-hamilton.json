@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-hamilton",
+  "publisher": "Iowa DHS HSEMD (hosted by University of Iowa) - statewide parcels, Hamilton County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19079"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'HAMILTON'",
+  "notes": "Statewide Iowa parcel layer (2017); filtered to COUNTYNAME HAMILTON. No address/acres/value fields in source.",
+  "verification": {
+    "verified_at": 1792049286665,
+    "counties": [
+      "19079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

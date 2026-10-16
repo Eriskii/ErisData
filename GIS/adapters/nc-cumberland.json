@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-cumberland",
+  "publisher": "Cumberland County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37051"
+    ]
+  },
+  "fields": {
+    "apn": "NAD83_PIN",
+    "owner": "OWNER",
+    "address": "LOCATION_ADDR",
+    "acres": "ACREAGE",
+    "land_use": "LAND_CLASS",
+    "assessed_value": "TOTAL_PROP_VALUE"
+  },
+  "notes": "Cumberland County NC Tax Parcels layer; public county GIS service",
+  "verification": {
+    "verified_at": 1792051333127,
+    "counties": [
+      "37051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

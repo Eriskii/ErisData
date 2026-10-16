@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "oh-summit",
+  "publisher": "Summit County Fiscal Office / County of Summit GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/3Ukh5HzAdI6WZ3KP/arcgis/rest/services/Parcels_07162026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownernme1",
+    "address": "siteaddress",
+    "land_use": "usecd",
+    "assessed_value": "cntassdval"
+  },
+  "notes": "Summit County tax parcels from County of Summit GIS open data; updated daily; ArcGIS Hub public use",
+  "verification": {
+    "verified_at": 1792051648815,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

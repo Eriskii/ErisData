@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-overton",
+  "publisher": "Overton County GIS (via ppurgiel_ucdd ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/EMZFDxQzNQloLbAf/arcgis/rest/services/Overton_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47133"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "LANDUSE",
+    "assessed_value": "APPRAISAL"
+  },
+  "notes": "Overton County TN parcel layer with tax attributes; PARID is the parcel id too",
+  "verification": {
+    "verified_at": 1792052645604,
+    "counties": [
+      "47133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

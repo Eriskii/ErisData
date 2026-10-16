@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-branch",
+  "publisher": "Branch County, Michigan GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/OHynDFZ1SVDsGFwm/arcgis/rest/services/BranchCountyParcels/FeatureServer/191",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26023"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER_NAME",
+    "address": "PARCEL_ADD",
+    "acres": "ACRES"
+  },
+  "notes": "Branch County MI parcel layer; current except four townships per publisher. Source is EPSG 2253, served as WGS84 GeoJSON. Owner mailing address in OWNER_ADDR; MUNICIPALITY gives township.",
+  "verification": {
+    "verified_at": 1792049926959,
+    "counties": [
+      "26023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

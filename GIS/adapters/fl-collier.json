@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-collier",
+  "publisher": "Collier County GIS (Property Appraiser parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/SlIq32SqARUHIhSx/arcgis/rest/services/Parcel/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12021"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelId",
+    "owner": "OwnerLine1"
+  },
+  "notes": "Collier County ArcGIS Hub service (Parcel FeatureServer layer 2), parcels with owner line; site address is sparsely filled (many parcels are vacant or rural), so address is not mapped; no acreage, land use or value fields in this layer",
+  "verification": {
+    "verified_at": 1792048763869,
+    "counties": [
+      "12021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

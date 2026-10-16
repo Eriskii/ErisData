@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-cook",
+  "publisher": "Cook County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cookcountyil.gov/traditional/rest/services/cookVwrDynmc/MapServer/44",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17031"
+    ]
+  },
+  "fields": {
+    "apn": "PIN14",
+    "address": "Address",
+    "acres": "LandSqft",
+    "land_use": "BLDGClass",
+    "assessed_value": "TotalValue"
+  },
+  "notes": "Cook County Current Parcel layer from Cook Viewer dynamic service; owner not published in this layer",
+  "verification": {
+    "verified_at": 1792048922831,
+    "counties": [
+      "17031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

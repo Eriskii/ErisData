@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29117",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://livingstongis.integritygis.com/H5/Index.html",
+    "https://sites6.integritygis.com/geocortex/essentials/rest/sites/Livingston_County_MO_Public/map",
+    "https://services2.integritygis.com/arcgis/rest/services/Public"
+  ],
+  "note": "Parcels only appear in the Geocortex viewer backed by Livingston_Assessor_Data MapServer on services2.integritygis.com. That service is not in the public directory and returns 'Service not found' at every path I tried. The viewer hosts were unreachable. No open-data or other queryable parcel source exists.",
+  "recorded_at": 1792051112310,
+  "recheck_after": 1807603112310,
+  "model": "claude-sonnet-5-5"
+}

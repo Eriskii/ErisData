@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ks-russell",
+  "publisher": "Russell County, KS (ATCiMaps hosted ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/zDY8zW24CdJKhVIw/arcgis/rest/services/RussellCountyGIS/FeatureServer/2",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "20167"
+    ]
+  },
+  "fields": {
+    "apn": "KSPID",
+    "owner": "OwnerName",
+    "address": "SitusAddr",
+    "acres": "Acres"
+  },
+  "notes": "Russell County KS parcel layer from ATCiMaps-hosted RussellCountyGIS FeatureServer, layer 2 (Parcels). Public ArcGIS service linked from county viewer. PRC_20xx fields are PropertyRecords URLs, not land-use codes; no land use mapped.",
+  "verification": {
+    "verified_at": 1792049658653,
+    "counties": [
+      "20167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

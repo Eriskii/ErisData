@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "21201",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.arcgis.com/home/item.html?id=b3363a077d5b49c69d7172265ecab116",
+    "https://services6.arcgis.com/skDYeFloTW88hhip/arcgis/rest/services/Robertson_Parcels/FeatureServer/22",
+    "https://robertsoncounty.ky.gov/departments/Pages/PVA.aspx",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=json",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://www.dynamospatial.com/c/robertson-county-ky/parcel-data"
+  ],
+  "note": "The only ArcGIS item named Robertson Parcels (services6 FeatureServer/22, 16,875 polygons, PIN/Acreage) is for Robertson County, Texas (coordinates near 30.7N, 96.5W), not Kentucky; it returns 0 features in the Kentucky sample box. The state PVA parcel services under kygisserver/kygeonet list only Webster County (plus Barren, Caldwell, Nelson, Pendleton, Spencer, Trimble, Wayne, Hardin), with no Robertson. The county PVA page offers no download or service. Robertson parcel data is only sold commercially (Dynamo Spatial shapefile, ACRES viewer, Regrid licensed), which does not qualify as a public service.",
+  "recorded_at": 1792049925504,
+  "recheck_after": 1807601925504,
+  "model": "claude-haiku-5-5"
+}

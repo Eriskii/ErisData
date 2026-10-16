@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "26039",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://crawfordco.org/online-services/",
+    "https://crawfordco.org/offices-departments/equalization/gis/",
+    "https://ccauditor.crawford-co.org/gis/",
+    "https://parcelvision.app/parcel-maps/michigan/crawford-county/"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web. Crawford County MI parcels are only offered through vendor viewers (Colligo interactive GIS, Schneider Beacon, BS&A), which expose no public ArcGIS REST parcel service; gis.crawford-co.org REST directory is unreachable (HTTP 522). Other parcel sources are paid commercial products (Regrid, Dynamo Spatial, Rockford Map).",
+  "recorded_at": 1792049994005,
+  "recheck_after": 1807601994005,
+  "model": "claude-haiku-5-5"
+}

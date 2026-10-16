@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "26083",
+  "reason": "login-required",
+  "evidence": [
+    "https://www.keweenawcountyonline.org/department-equal.php",
+    "https://www.colligogis.com/desktop/",
+    "https://portal1-geo.sabu.mtu.edu/server/rest/services/KCFC/KCFC_GLC_HKCD_Parcels/MapServer"
+  ],
+  "note": "Keweenaw County's official parcel viewer is a login-gated Colligo GIS site (colligogis.com/desktop). The only Keweenaw parcel ArcGIS service found (MTU-hosted KCFC_GLC_HKCD_Parcels MapServer) returns 'User couldn't access this resource' (restricted, not public). The other Keweenaw parcel item is a personal Hub SQLite geodatabase (djtrepal_mtu1), not a service or a supported format. Regrid, Dynamo and Acres are paid/commercial sources.",
+  "recorded_at": 1792049962596,
+  "recheck_after": 1807601962596,
+  "model": "claude-haiku-5-5"
+}

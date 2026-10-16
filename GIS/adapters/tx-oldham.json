@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-oldham",
+  "publisher": "Oldham County Appraisal District (bis_oldhamcad ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/wE0ehOaljLzej1d7/arcgis/rest/services/OldhamCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48359"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Oldham CAD public web service; parcels layer 0 of OldhamCADWebService. Situs address fields are mostly blank, so no address mapped.",
+  "verification": {
+    "verified_at": 1792051729199,
+    "counties": [
+      "48359"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

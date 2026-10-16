@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sc-orangeburg",
+  "publisher": "Orangeburg County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/bUKn95BqgpYYTnx3/arcgis/rest/services/Main_Public_Tax_Parcel_Map_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45075"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "owner1",
+    "address": "own_street",
+    "acres": "CalculatedAcres"
+  },
+  "notes": "Public tax parcel map layer from Orangeburg County; 62,555 features. Owner address fields are mailing addresses (own_street/own_city/own_state/own_zip). Map account number in CMPLNN.",
+  "verification": {
+    "verified_at": 1792051592361,
+    "counties": [
+      "45075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

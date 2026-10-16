@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-lawrence",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 5,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05075"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "acres": "Shape__Area",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "countyfips = '075'",
+  "notes": "Statewide state-hosted layer built from county assessor data; countyfips is 3-digit. Not a legal boundary. Updated twice a year.",
+  "verification": {
+    "verified_at": 1792048544523,
+    "counties": [
+      "05075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

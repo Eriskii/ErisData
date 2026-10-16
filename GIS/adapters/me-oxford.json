@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "me-oxford",
+  "publisher": "Maine Revenue Services / MaineGIS (Maine Parcels Organized Towns, Oxford County records)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Parcels_Organized_Towns/FeatureServer/10",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23017"
+    ]
+  },
+  "fields": {
+    "apn": "MAP_BK_LOT",
+    "address": "PROP_LOC"
+  },
+  "filter": "COUNTY = 'Oxford'",
+  "notes": "State statewide organized-towns parcel layer; filtered to COUNTY=Oxford (about 40,656 parcels). Unorganized territory parcels not included. No owner or acreage fields in source; owner data may be missing. Data vintage varies by town.",
+  "verification": {
+    "verified_at": 1792049914556,
+    "counties": [
+      "23017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-harrisonburg",
+  "publisher": "City of Harrisonburg GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.harrisonburgva.gov/arcgis/rest/services/CityServices/Real_Estate_and_Ownership/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51660"
+    ]
+  },
+  "fields": {
+    "apn": "REISParcelID",
+    "owner": "Owner",
+    "address": "SiteAddress",
+    "acres": "Acres_GIS"
+  },
+  "notes": "City of Harrisonburg real estate and ownership parcels; ArcGIS layer in State Plane VA North (2283); maxRecordCount 15000",
+  "verification": {
+    "verified_at": 1792053085346,
+    "counties": [
+      "51660"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

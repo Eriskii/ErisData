@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "45033",
+  "reason": "login-required",
+  "evidence": [
+    "https://smpesri.scdot.org/arcgis/rest/services/GISMapping/SC_Parcels/MapServer/16",
+    "https://dillonsc.wthgis.com/",
+    "https://dilloncounty.sc.gov/departments/gis"
+  ],
+  "note": "Only Dillon-specific parcel layer found is 'Parcels - SC - Dillon County' on SCDOT's SC_Parcels MapServer/16; the server returns 'Token Required' for the service and layer, so it is not publicly queryable. Dillon County's own Think GIS viewer (dillonsc.wthgis.com) exposes no discoverable REST endpoint (/arcgis/rest/services, /server/rest/services and config.json all 404). County GIS page gives no service link. Other hits are paid commercial shapefile vendors, not county-published services.",
+  "recorded_at": 1792051636927,
+  "recheck_after": 1807603636927,
+  "model": "claude-haiku-5-5"
+}

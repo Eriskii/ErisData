@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "27133",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.co.rock.mn.us/department_directory/land_records_office_(recording___assessing)/index.php",
+    "https://beacon.schneidercorp.com/Application.aspx?App=RockCountyMN&Layer=Parcels&PageType=Search",
+    "https://tax.cptmn.us/PTaxPortal/#/parcelSearch/Rock",
+    "https://mnatlas.org/resources/parcels/"
+  ],
+  "note": "Searched ArcGIS Hub/Online, the county Hub site, county website, MetroGIS and state parcel compilations. Rock County MN parcels are only shown through the Schneider Beacon viewer (Cloudflare-blocked, no public REST service) and a CPT tax portal (no ArcGIS endpoint). Rock County is excluded from the statewide Plan Parcels compilation. No queryable public parcel service or file was found.",
+  "recorded_at": 1792050958684,
+  "recheck_after": 1807602958684,
+  "model": "claude-haiku-5-5"
+}

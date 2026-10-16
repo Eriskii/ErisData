@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-faulkner",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05045"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "County = 'Faulkner'",
+  "notes": "Statewide Arkansas parcel polygons (not a legal boundary); filtered to Faulkner County. Updated twice a year.",
+  "verification": {
+    "verified_at": 1792048522570,
+    "counties": [
+      "05045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

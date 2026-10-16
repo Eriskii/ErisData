@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-lac-qui-parle",
+  "publisher": "Lac qui Parle County GIS (GDITAdmin)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/D5NH3zpCRhpMEHEy/arcgis/rest/services/Tax_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27073"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNERNAME",
+    "address": "PHYADD",
+    "acres": "DEEDACRES"
+  },
+  "notes": "Lac qui Parle County tax parcels; 7103 features; spatial reference Web Mercator",
+  "verification": {
+    "verified_at": 1792050885056,
+    "counties": [
+      "27073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

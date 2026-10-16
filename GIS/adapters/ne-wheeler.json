@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ne-wheeler",
+  "publisher": "Nebraska statewide parcels (county assessor data, compiled by OCIO/NebraskaMap) - Wheeler County 183",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/jzdN07B7ZhRTxuzU/arcgis/rest/services/Layers_Data_WFL1/FeatureServer/29",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31183"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "Current_Owner_Name",
+    "address": "Street_Address",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '183'",
+  "notes": "Statewide Nebraska tax parcels layer filtered to County_ID 183 (Wheeler). Situs_Address is blank for most rural parcels, so address uses Street_Address (often the owner mailing address).",
+  "verification": {
+    "verified_at": 1792051340117,
+    "counties": [
+      "31183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

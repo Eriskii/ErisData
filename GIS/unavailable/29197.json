@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29197",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/?county=sc_lancaster/",
+    "https://www.dynamospatial.com/c/schuyler-county-mo/parcel-data",
+    "https://www.gis-portal.org/mo-schuyler-county/",
+    "https://gis.mo.gov/arcgis/rest/services/OA/FMDCrealEstate_StateOwnedParcels/MapServer"
+  ],
+  "note": "No public ArcGIS REST or file parcel service found for Schuyler County MO. The county assessor parcel map is a Schneider qPublic viewer (Cloudflare-blocked, no service URL exposed); the state FMDC layer covers only state-owned parcels; the statewide Parcels service on gis.mo.gov requires a token; the only downloadable parcels are paid commercial shapefiles.",
+  "recorded_at": 1792051145175,
+  "recheck_after": 1807603145175,
+  "model": "claude-haiku-5-5"
+}

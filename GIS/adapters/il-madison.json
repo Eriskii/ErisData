@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-madison",
+  "publisher": "Madison County Chief County Assessment Office (GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.co.madison.il.us/servera/rest/services/CCAO/Parcel_Owners/FeatureServer/0",
+    "page_size": 125,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17119"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWN_FULL",
+    "acres": "ACRES"
+  },
+  "notes": "Parcel polygons with owner name fields from Madison County CCAO. Site address omitted: NUM is blank on many parcels.",
+  "verification": {
+    "verified_at": 1792048990280,
+    "counties": [
+      "17119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

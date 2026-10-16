@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mo-buchanan",
+  "publisher": "Buchanan County, MO (HDR-hosted parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/04HiymDgLlsbhaV4/arcgis/rest/services/BuchananCountyParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29021"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "owner": "NAME1",
+    "address": "SITUSADDRE",
+    "acres": "GIS_ACRE",
+    "land_use": "ZONECLASS",
+    "assessed_value": "TOTAL_VALU"
+  },
+  "notes": "Parcel polygons from BuchananCountyParcels_Clip layer; fields include owner, situs address, total value.",
+  "verification": {
+    "verified_at": 1792050901707,
+    "counties": [
+      "29021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

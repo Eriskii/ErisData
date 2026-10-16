@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "31117",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://giscat.ne.gov/agency/rest/services/TaxParcelsDED/FeatureServer/0",
+    "https://giscat.ne.gov/agency/rest/services/IPAParcelsDED/FeatureServer/0",
+    "https://giscat.ne.gov/agency/rest/services/NC3ParcelsDED/FeatureServer/0",
+    "https://mcpherson.gworks.com/",
+    "https://platbookmapper.com/nebraska/"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no McPherson parcel service). State TaxParcelsDED layer (75k statewide parcels, the only public Nebraska parcel REST service found) has 0 features in McPherson County's bounding box; IPA and NC3 parcel layers also 0. The county's only parcel viewer is the proprietary gworks (Grantworks) site, which exposes no ArcGIS REST service. Statewide 2025 parcel geodatabase is a download without a verified direct URL or McPherson coverage.",
+  "recorded_at": 1792051211227,
+  "recheck_after": 1807603211227,
+  "model": "claude-haiku-5-5"
+}

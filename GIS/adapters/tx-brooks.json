@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-brooks",
+  "publisher": "Brooks County Appraisal District (BrooksCAD)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wC6vDMSje0egetVY/arcgis/rest/services/BrooksCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48047"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Texas Brooks CAD public ArcGIS web service; ~6033 parcels. Situs address is sparse in source so not mapped.",
+  "verification": {
+    "verified_at": 1792051653214,
+    "counties": [
+      "48047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-mckean",
+  "publisher": "McKean County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mckeancountypa.gov/server/rest/services/ParcelViewer/BPV3_Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42083"
+    ]
+  },
+  "fields": {
+    "apn": "pin",
+    "acres": "calc_acrea"
+  },
+  "notes": "McKean County Basic Parcel Viewer layer (Parcels_Publishing). Data not of survey quality. Owner, site address and assessed value are not in this layer; muni holds the municipality name.",
+  "verification": {
+    "verified_at": 1792051579263,
+    "counties": [
+      "42083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

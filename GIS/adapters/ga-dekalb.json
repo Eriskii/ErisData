@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-dekalb",
+  "publisher": "DeKalb County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://dcgis.dekalbcountyga.gov/mapping/rest/services/TaxParcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13089"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "address": "SITEADDRESS",
+    "acres": "ACREAGE",
+    "land_use": "LANDUSE",
+    "assessed_value": "CNTASSDVAL"
+  },
+  "notes": "DeKalb County GA tax parcels, public GIS service",
+  "verification": {
+    "verified_at": 1792048749020,
+    "counties": [
+      "13089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

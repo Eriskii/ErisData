@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "or-crook",
+  "publisher": "Crook County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.crookcountyor.gov/server/rest/services/CC_Taxlots_Helion/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41013"
+    ]
+  },
+  "fields": {
+    "apn": "MAPTAXLOT",
+    "owner": "OWNER_NAME",
+    "acres": "GIS_ACRES",
+    "land_use": "PROP_CLASS"
+  },
+  "notes": "Crook County OR tax lots (Helion). Public county GIS service. Situs address is blank for most rural lots, so not mapped.",
+  "verification": {
+    "verified_at": 1792051479954,
+    "counties": [
+      "41013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

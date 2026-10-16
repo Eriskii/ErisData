@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wa-jefferson",
+  "publisher": "Jefferson County WA (hosted Jefferson_County_Parcels layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/0IbpLwS460cn4psv/arcgis/rest/services/Jefferson_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53031"
+    ]
+  },
+  "fields": {
+    "apn": "PIN_STRING",
+    "acres": "Ttl_Acres",
+    "assessed_value": "CFMV_Total"
+  },
+  "notes": "Jefferson County WA PACS-derived parcel layer. Owner names and situs addresses are not filled in this layer; land use descriptions are sparse.",
+  "verification": {
+    "verified_at": 1792053150190,
+    "counties": [
+      "53031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ne-scotts-bluff",
+  "publisher": "Scotts Bluff County Mapping Department",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/ZY6RPCPg3T324XgF/arcgis/rest/services/City_of_Scottsbluff_Rest/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31157"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL",
+    "owner": "ownername1",
+    "address": "SitusAddre",
+    "acres": "Acreage",
+    "assessed_value": "LandValue"
+  },
+  "notes": "Assessor tax parcels, county-wide layer; feet units",
+  "verification": {
+    "verified_at": 1792051127559,
+    "counties": [
+      "31157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

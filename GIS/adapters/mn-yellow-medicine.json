@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-yellow-medicine",
+  "publisher": "Yellow Medicine County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.ym.mn.gov/arcgis/rest/services/Assessors/TaxParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27173"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "owner": "TAXPAYER_NAME",
+    "acres": "DEEDED_ACRES",
+    "land_use": "TILLABLE_ACRES"
+  },
+  "notes": "County assessor tax parcels (TAX_YEAR 2026); OWNER_NAME and GIS_ACRES mostly empty so TAXPAYER_NAME and DEEDED_ACRES used; PROPERTY_ADDRESS mostly blank in sample so not mapped; no assessed value field published",
+  "verification": {
+    "verified_at": 1792050901009,
+    "counties": [
+      "27173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

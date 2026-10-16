@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sd-minnehaha",
+  "publisher": "Sioux Falls GIS (Minnehaha County parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.siouxfalls.gov/arcgis/rest/services/Data/Property/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46099"
+    ]
+  },
+  "fields": {
+    "apn": "TAG",
+    "owner": "OWNNAME1",
+    "address": "ADDRESS",
+    "acres": "ACREAGE",
+    "land_use": "LANDUSE"
+  },
+  "notes": "Layer covers Sioux Falls and Minnehaha County parcels; EPSG 32164",
+  "verification": {
+    "verified_at": 1792051625735,
+    "counties": [
+      "46099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

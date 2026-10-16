@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-poinsett",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05111"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype"
+  },
+  "filter": "CountyFips = '111'",
+  "notes": "Statewide AR parcel polygons (PARCEL_POLYGON_CAMP), not a legal boundary; filtered to Poinsett by CountyFips=111. Source updated twice a year. assessvalue is empty for many parcels, so total_value is mapped instead.",
+  "verification": {
+    "verified_at": 1792048538024,
+    "counties": [
+      "05111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

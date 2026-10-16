@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "il-washington",
+  "publisher": "Washington County, IL (DEVNET wEdge digital tax map)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/72ZZon8FQb6nYtKt/arcgis/rest/services/WashingtonIL_wEdgeParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17189"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL"
+  },
+  "notes": "Parcel polygons from the county digital tax map hosted by DEVNET wEdge; PIN and PARCEL identifiers; no owner or address fields published in this layer.",
+  "verification": {
+    "verified_at": 1792049012927,
+    "counties": [
+      "17189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

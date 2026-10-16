@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "la-stbernard",
+  "publisher": "St. Bernard Parish Government GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/4fqapJ8XMsv2AQ0j/arcgis/rest/services/Lots_zoning_work/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22087"
+    ]
+  },
+  "fields": {
+    "apn": "AssID",
+    "land_use": "Zone"
+  },
+  "notes": "Parish-hosted AGOL lots layer (zoning work, ~9.5k lots, partial coverage); official Parcels3 service at lucity.sbpg.net was unreachable. AssID is assessor ID (shared by multiple lots). No owner field; land_use is zoning district.",
+  "verification": {
+    "verified_at": 1792049980149,
+    "counties": [
+      "22087"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

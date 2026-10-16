@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-hockley",
+  "publisher": "Hockley County Appraisal District (bis_hockleycad)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/PaxwrMmTVp4WH7Xr/arcgis/rest/services/HockleyCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48219"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Hockley CAD public ArcGIS service (bis_hockleycad); parcels layer of HockleyCADWebService. Situs address sparsely populated, so not mapped.",
+  "verification": {
+    "verified_at": 1792051718623,
+    "counties": [
+      "48219"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

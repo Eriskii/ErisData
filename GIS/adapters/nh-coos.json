@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nh-coos",
+  "publisher": "NH Dept. of Revenue Administration / NH GRANIT (NH Parcel Mosaic), Coos County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://nhgeodata.unh.edu/hosting/rest/services/Hosted/CAD_ParcelMosaic/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33007"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "address": "StreetAddress",
+    "land_use": "SLU"
+  },
+  "filter": "CountyId = '4'",
+  "notes": "Statewide NH parcel mosaic; Coos is CountyId 4 (alphabetical county codes). No owner or acreage fields in this layer.",
+  "verification": {
+    "verified_at": 1792051355249,
+    "counties": [
+      "33007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

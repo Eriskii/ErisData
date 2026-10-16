@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-culberson",
+  "publisher": "TxGIO Texas Land Parcels (statewide, from Texas appraisal districts)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48109"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA"
+  },
+  "filter": "FIPS = '48109'",
+  "notes": "TxGIO statewide land parcels compiled from Texas CAD data (Culberson Appraisal District, tax year 2024); public. Assessed value and land use are not populated for Culberson in this layer, so not mapped.",
+  "verification": {
+    "verified_at": 1792051697307,
+    "counties": [
+      "48109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

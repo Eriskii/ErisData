@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "72017",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://services3.arcgis.com/ueSNrFTFQrqQnNV8/arcgis/rest/services/CRIM_Catastros_Munic_USPS/FeatureServer/0"
+  ],
+  "note": "CRIM crim_parcelas service is not started. The only reachable CRIM layer is Manatí's copy, and only 33 of 989 parcels in a Barceloneta coordinate box fell inside Barceloneta.",
+  "recorded_at": 1792052227054,
+  "recheck_after": 1807604227054,
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ga-johnson",
+  "publisher": "Johnson County GA (parcel layer via ArcGIS Online, jamie_cvg)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ue5fMdTkPeHLCobS/arcgis/rest/services/Johnson_GA_Parcels_gdb/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13167"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "owner_name",
+    "address": "situs_address",
+    "acres": "acreage_calc",
+    "land_use": "land_use_code",
+    "assessed_value": "total_value"
+  },
+  "filter": "county_fips = 13167",
+  "notes": "Vendor-compiled parcel layer (ReportAll-style fields) for Johnson County GA; 5,854 features",
+  "verification": {
+    "verified_at": 1792048866954,
+    "counties": [
+      "13167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

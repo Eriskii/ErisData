@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-washington",
+  "publisher": "Colorado OIT GIS Team (statewide public parcels, Washington County subset)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "08121"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "acres": "landAcres"
+  },
+  "filter": "countyName = 'Washington' AND landAcres < 500",
+  "notes": "Statewide Colorado public parcels composite; Washington County rows selected by countyName (countyFips holds 121). Parcels over 500 acres excluded: large tracts whose centroids fall outside the county neighbourhood. Owner, situs address, land use and value fields are null for Washington County in this source, so only apn and acres are mapped.",
+  "verification": {
+    "verified_at": 1792048778243,
+    "counties": [
+      "08121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

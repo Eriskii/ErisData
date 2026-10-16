@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-valencia",
+  "publisher": "Valencia County Assessor GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://arcgisce2.co.valencia.nm.us/arcgis/rest/services/GIS_OnlineMap/MapServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35061"
+    ]
+  },
+  "fields": {
+    "apn": "UPC",
+    "owner": "Owner",
+    "assessed_value": "TOTASD"
+  },
+  "notes": "Assessor property locator MapServer layer 14 on county host (http); 1000-record query limit; Situs address sparsely filled",
+  "verification": {
+    "verified_at": 1792051576232,
+    "counties": [
+      "35061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

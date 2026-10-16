@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-logan",
+  "publisher": "Logan County GIS (centralilmaps)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://centralilmaps.com/arcgis/rest/services/Logan/Logan_PropertyAnno/MapServer/98",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17107"
+    ]
+  },
+  "fields": {
+    "apn": "PIN"
+  },
+  "filter": "PIN <> '13-01-153-005'",
+  "notes": "Parcel polygons only, no owner/address; one invalid-geometry parcel excluded",
+  "verification": {
+    "verified_at": 1792049032943,
+    "counties": [
+      "17107"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "21083",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=GravesCountyKY&Layer=Parcels&PageType=Search",
+    "https://www.qpublic.net/ky/graves/",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=json"
+  ],
+  "note": "Graves County KY parcels are only viewable through the Schneider qPublic viewer (no public ArcGIS REST or file download found). The Kentucky state ArcGIS server publishes PVA parcel polygons only for Webster County (Ky_PVA_Webster_Parcels_WGS84WM); no Graves service exists there or in ArcGIS Online/Hub searches. Commercial sources (Regrid, Dynamo, Acres, Rockford) are paid.",
+  "recorded_at": 1792049905228,
+  "recheck_after": 1807601905228,
+  "model": "claude-haiku-5-5"
+}

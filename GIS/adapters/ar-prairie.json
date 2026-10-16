@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-prairie",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/MapServer/6",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05117"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "county = 'Prairie'",
+  "notes": "Statewide AR parcel polygons, not a legal boundary; updated twice a year; filtered to Prairie County by county field",
+  "verification": {
+    "verified_at": 1792048553507,
+    "counties": [
+      "05117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

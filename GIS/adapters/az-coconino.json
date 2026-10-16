@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "az-coconino",
+  "publisher": "Coconino County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Rlvx5g8pKeK13apH/arcgis/rest/services/Coconino_County_Parcels_Open_Data/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04005"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "address": "SITUS"
+  },
+  "notes": "Public open data layer from Coconino County GIS; limited fields, no owner info; for owner info contact Assessor.",
+  "verification": {
+    "verified_at": 1792048481614,
+    "counties": [
+      "04005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

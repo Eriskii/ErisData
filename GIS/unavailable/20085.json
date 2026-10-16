@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20085",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://jackson.integritygis.com/",
+    "https://www.jacksoncountyks.com/309/Parcel-Map",
+    "https://parcelvision.app/parcel-maps/kansas/jackson-county/",
+    "https://services3.integritygis.com/arcgis/rest/services/KS",
+    "https://www.dynamospatial.com/c/jackson-county-ks/parcel-data"
+  ],
+  "note": "Jackson County KS (FIPS 20085) parcels are shown only in a SAM Integrity viewer (jackson.integritygis.com), which exposes no public REST service; the vendor's KS ArcGIS folder requires a token and no Jackson layer was found. The county's Parcel Map page links only to that viewer. Bulk parcel files are sold commercially (Dynamo, Regrid, Equator). The jcgis.jacksongov.org and gis.mijackson.org services found in searches belong to Jackson County MO and MI, not Kansas.",
+  "recorded_at": 1792049408546,
+  "recheck_after": 1807601408546,
+  "model": "claude-haiku-5-5"
+}

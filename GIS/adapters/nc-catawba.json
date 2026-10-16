@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-catawba",
+  "publisher": "Catawba County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis2.catawbacountync.gov/arcgis/rest/services/Catawba_Basic_MIL1/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37035"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "CALCAC"
+  },
+  "notes": "Catawba County GIS parcels; no owner/address fields in this service; edited daily, uploaded quarterly",
+  "verification": {
+    "verified_at": 1792051335002,
+    "counties": [
+      "37035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

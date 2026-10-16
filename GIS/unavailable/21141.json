@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "21141",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=LoganCountyKY&PageType=Search",
+    "https://www.arcgis.com/apps/mapviewer/index.html?webmap=70e43f6161624b988f0d74eb806f1826",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services"
+  ],
+  "note": "Logan parcels appear only in the Schneider qPublic/Beacon viewer (Cloudflare-blocked, wfs.schneidercorp.com unreachable) and a private ArcGIS web map (item inaccessible). No public AGOL/Hub service or state-hosted Logan layer exists (state server has only Webster); other results are Logan County in IL/OH/WV or paid vendors.",
+  "recorded_at": 1792050056043,
+  "recheck_after": 1807602056043,
+  "model": "claude-sonnet-5-5"
+}

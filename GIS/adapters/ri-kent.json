@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ri-kent",
+  "publisher": "RIGIS / RI Division of Statewide Planning (Assessors Tax Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://risegis.ri.gov/hosting/rest/services/RIDEM/Tax_Parcels/MapServer/0",
+    "page_size": 35,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "44003"
+    ]
+  },
+  "fields": {
+    "apn": "PlatLot",
+    "acres": "Acres",
+    "land_use": "E911Desc"
+  },
+  "filter": "OBJECTID > 0 AND (TownCode = 'CO' OR TownCode = 'EG' OR TownCode = 'WG' OR TownCode = 'WW' OR TownCode = 'WA')",
+  "notes": "Statewide RI tax parcels; Kent County towns selected by TownCode",
+  "verification": {
+    "verified_at": 1792051747628,
+    "counties": [
+      "44003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

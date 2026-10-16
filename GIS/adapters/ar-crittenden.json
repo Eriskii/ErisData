@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-crittenden",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05035"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype"
+  },
+  "filter": "county = 'Crittenden'",
+  "notes": "Statewide AR CAMA parcel polygons (Arkansas GIS Office, not a legal boundary); filtered to Crittenden county by county field; updated twice a year",
+  "verification": {
+    "verified_at": 1792048532495,
+    "counties": [
+      "05035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

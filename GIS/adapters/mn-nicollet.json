@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-nicollet",
+  "publisher": "Nicollet County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/2EqaWBnOOFtbyU4P/arcgis/rest/services/Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27103"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "LASTNAME",
+    "acres": "GISACRES",
+    "land_use": "PRIMARYCLA",
+    "assessed_value": "CURR_TOTAL"
+  },
+  "notes": "Nicollet County MN parcel layer (Parcels_09082021), 6133 features; partial county coverage; owner is last name field only; site address sparsely filled so not mapped",
+  "verification": {
+    "verified_at": 1792051008235,
+    "counties": [
+      "27103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

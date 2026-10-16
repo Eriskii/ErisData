@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20027",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.claycountykansas.org/161/Appraiser",
+    "https://experience.arcgis.com/experience/a40d598785b3424a8a672d5d080823f9",
+    "https://www.kansasgis.org/orka/map.cfm?countyName=clay",
+    "https://services.kansasgis.org/arcgis4/rest/services/KS_Parcels_ORKA_EB/FeatureServer/0",
+    "https://services.kansasgis.org/arcgis4/rest/services/KS_Parcels_ORKA/MapServer"
+  ],
+  "note": "Clay County KS (20027): the county appraiser links only to an ArcGIS Experience parcel viewer and the state ORKA viewer (per-county, request-based). The statewide ORKA parcel services (KS_Parcels_ORKA_EB, KS_Parcels_ORKA) are partial and contain no Clay County features (CO_ABBR values only CN, RA, SH, TH; no parcel at the Clay sample point). The only public Clay parcel service found (services7.arcgis.com ClayCountyParcelService) is Clay County, Missouri. Other Clay County KS parcel sources are commercial vendors (Regrid, Acres, Equator), not county services.",
+  "recorded_at": 1792049298571,
+  "recheck_after": 1807601298571,
+  "model": "claude-haiku-5-5"
+}

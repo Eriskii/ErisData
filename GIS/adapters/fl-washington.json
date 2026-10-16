@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-washington",
+  "publisher": "Washington County Property Appraiser (via FDOR 2024 DOR parcel export, hosted by matthew.gore9)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Ie0K5n4UyLAfvdiX/arcgis/rest/services/Washington_2024_DOR_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12133"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_NAME",
+    "address": "PHY_ADDR1",
+    "land_use": "DOR_UC",
+    "assessed_value": "JV"
+  },
+  "filter": "CO_NO = 77",
+  "notes": "FDOR 2024 DOR parcel export for Washington County (DOR county code 77); data as of Aug 2024; LND_SQFOOT is square feet so acres is not mapped",
+  "verification": {
+    "verified_at": 1792048833795,
+    "counties": [
+      "12133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

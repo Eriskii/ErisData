@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "me-hancock",
+  "publisher": "Maine GeoLibrary / MCHT Combined Parcels (Hancock County records)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mcht.org/arcgis/rest/services/Cadastral_Planning/MCHT_Combined_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23009"
+    ]
+  },
+  "fields": {
+    "apn": "state_id"
+  },
+  "filter": "county = 'Hancock'",
+  "notes": "Statewide combined municipal parcel layer from MCHT; filtered to county=Hancock (about 50,834 parcels). Only the parcel id is reliably populated; owner, address, land use are blank in this layer for many towns. Geometry stored in EPSG:26919.",
+  "verification": {
+    "verified_at": 1792049925865,
+    "counties": [
+      "23009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

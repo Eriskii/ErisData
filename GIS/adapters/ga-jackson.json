@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-jackson",
+  "publisher": "Jackson County GA GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/bcbi4lYRFOsss0F5/arcgis/rest/services/Tax_Parcels/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13157"
+    ]
+  },
+  "fields": {
+    "apn": "tax_id",
+    "owner": "LASTNAME",
+    "address": "STREET_NAM",
+    "acres": "acre_calc",
+    "land_use": "DIGCLASS",
+    "assessed_value": "FMVRES"
+  },
+  "notes": "Jackson County GA open data portal, public; about 45,000 parcels, last updated 2023; no license listed",
+  "verification": {
+    "verified_at": 1792048780533,
+    "counties": [
+      "13157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

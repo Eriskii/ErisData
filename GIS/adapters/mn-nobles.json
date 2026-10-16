@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-nobles",
+  "publisher": "Nobles County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/3Ww0xxsxao12Dntv/arcgis/rest/services/Parcels_PublicView/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27105"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "TaxName",
+    "address": "PropAddr1",
+    "acres": "Deeded_Acr",
+    "land_use": "PropClass"
+  },
+  "notes": "Public ArcGIS view of Nobles County parcels; OwnerName is empty so TaxName used for owner",
+  "verification": {
+    "verified_at": 1792050883755,
+    "counties": [
+      "27105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-duplin",
+  "publisher": "Duplin County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.duplinnc.gov/server/rest/services/TaxMapping/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37061"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Name1",
+    "address": "FormattedPropertyAddress",
+    "acres": "CALCULATED_ACRES",
+    "assessed_value": "TotalAssessedValue"
+  },
+  "notes": "Duplin County NC public parcel layer (TaxMapping/Parcels)",
+  "verification": {
+    "verified_at": 1792051349557,
+    "counties": [
+      "37061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

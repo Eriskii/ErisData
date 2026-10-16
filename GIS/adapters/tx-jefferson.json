@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-jefferson",
+  "publisher": "Jefferson Central Appraisal District (Jefferson County, TX)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/ZXAF35aJr7XcgDMv/arcgis/rest/services/JCADTXFeatures/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48245"
+    ]
+  },
+  "fields": {
+    "apn": "PropIDPadded",
+    "owner": "Owner1",
+    "address": "SiteAddress",
+    "land_use": "PropertyUse"
+  },
+  "notes": "JCAD public ArcGIS parcel layer (Jefferson Central Appraisal District, Beaumont TX). Assessed value and acreage not mapped: no clean field in this layer.",
+  "verification": {
+    "verified_at": 1792051791330,
+    "counties": [
+      "48245"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

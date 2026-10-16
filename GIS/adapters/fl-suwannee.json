@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "fl-suwannee",
+  "publisher": "Florida Department of Revenue via FL_Parcels (Suwannee County roll)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/GcvM6vDlR2gM4x31/arcgis/rest/services/FL_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12121"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_NAME",
+    "address": "PHY_ADDR1",
+    "acres": "Acres",
+    "land_use": "DOR_UC",
+    "assessed_value": "AV_SD"
+  },
+  "filter": "CO_NO = 71",
+  "notes": "FDOR statewide parcel roll, Suwannee county number 71",
+  "verification": {
+    "verified_at": 1792049233026,
+    "counties": [
+      "12121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

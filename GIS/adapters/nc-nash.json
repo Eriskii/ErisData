@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "nc-nash",
+  "publisher": "Nash County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/mmindpmdbSZXPVNc/arcgis/rest/services/NashCounty_NC_Parcels/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37127"
+    ]
+  },
+  "fields": {
+    "apn": "PARNO",
+    "owner": "OWNNAME",
+    "address": "SITEADD",
+    "acres": "GISACRES",
+    "land_use": "PARUSEDESC",
+    "assessed_value": "PARVAL"
+  },
+  "filter": "CNTYFIPS = '127'",
+  "notes": "Nash County NC tax parcels hosted by Collier GIS on ArcGIS Online; public service",
+  "verification": {
+    "verified_at": 1792051370585,
+    "counties": [
+      "37127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

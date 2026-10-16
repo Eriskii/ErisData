@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-van-buren",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (STS-GIS), Van Buren County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47175"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_NAME = 'VAN BUREN'",
+  "notes": "Statewide TN property boundaries layer filtered to Van Buren County by COUNTY_NAME. Public use layer.",
+  "verification": {
+    "verified_at": 1792052692797,
+    "counties": [
+      "47175"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

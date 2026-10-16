@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-tangipahoa",
+  "publisher": "Tangipahoa Parish GIS (TanGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://tangis.tangipahoa.org/server/rest/services/Cadastral/TaxParcelAssessment_A/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22105"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_no",
+    "owner": "taxpayer_name",
+    "address": "par_address"
+  },
+  "notes": "Tangipahoa Parish tax parcels joined with assessment data; ArcGIS public map service. No acreage, land use or assessed value fields in service.",
+  "verification": {
+    "verified_at": 1792049894746,
+    "counties": [
+      "22105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

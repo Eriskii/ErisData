@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-solano",
+  "publisher": "Solano County GIS (ReGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/SCn6czzcqKAFwdGU/arcgis/rest/services/Parcels_Public_Aumentum/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06095"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "acres": "gis_acre",
+    "land_use": "usecode",
+    "assessed_value": "valland"
+  },
+  "notes": "Solano County Aumentum public parcel layer (monthly update); owner and address not reliably published in this layer (site address mostly blank in rural areas)",
+  "verification": {
+    "verified_at": 1792048710845,
+    "counties": [
+      "06095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-randall",
+  "publisher": "Potter-Randall Appraisal District (via City of Amarillo ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Vdk8uHgdgYx8ZqS6/arcgis/rest/services/TaxAccountParcelsArcGISOnline/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48381"
+    ]
+  },
+  "fields": {
+    "apn": "PROP_ID",
+    "owner": "Tyler_OWNER_NAME",
+    "address": "STREET"
+  },
+  "filter": "COUNTY = 'RANDALL'",
+  "notes": "Potter-Randall Appraisal District tax account parcels, hosted by City of Amarillo. Source is state plane feet; service converts to WGS84 on request. Filter on COUNTY RANDALL. Some Randall rows may lack COUNTY value.",
+  "verification": {
+    "verified_at": 1792052304612,
+    "counties": [
+      "48381"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-humacao",
+  "publisher": "CRIM Catastro Digital (ArcGIS Online copy, 2017 parcelario)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/a523XM128lX5Nsff/arcgis/rest/services/PARCELARIO_PR_REV_DJCM_NOV102017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72069"
+    ]
+  },
+  "fields": {
+    "apn": "NUM_CATAST",
+    "address": "DIRECCION_",
+    "acres": "CABIDA",
+    "assessed_value": "LAND"
+  },
+  "filter": "MUNICIPIO = 'HUMACAO'",
+  "notes": "CRIM parcelario Nov 2017 copy on ArcGIS Online; official CRIM service is stopped. CABIDA is in square meters (not acres); no owner field.",
+  "verification": {
+    "verified_at": 1792052099737,
+    "counties": [
+      "72069"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

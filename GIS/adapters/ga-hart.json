@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-hart",
+  "publisher": "University of Georgia Archway Partnership / Hart County (2016 commercial parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.itos.uga.edu/arcgis/rest/services/Archway/HartCounty/MapServer/28",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13147"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "address": "STREET_NAM",
+    "land_use": "DIGCLASS"
+  },
+  "notes": "Only commercial parcels subset (2016 data), not full county tax roll; no owner or acreage attributes; Archway/Hart County ITOS",
+  "verification": {
+    "verified_at": 1792048799900,
+    "counties": [
+      "13147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

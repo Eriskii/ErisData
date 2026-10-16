@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-meigs",
+  "publisher": "Ohio Department of Natural Resources (OGRIP statewide parcels), Meigs County extract",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ohiodnr.gov/arcgis/rest/services/OIT_Services/odnr_landbase_v2/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39105"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "CALC_ACRES"
+  },
+  "filter": "COUNTY = 'Meigs'",
+  "notes": "Statewide ODNR/OGRIP parcel layer filtered to COUNTY Meigs. Owner names are empty in this source for Meigs, so owner is not mapped.",
+  "verification": {
+    "verified_at": 1792051652491,
+    "counties": [
+      "39105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

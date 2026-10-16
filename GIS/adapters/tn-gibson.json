@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-gibson",
+  "publisher": "Gibson County GIS (via TN County Parcel Map, HNTB-hosted)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/60",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47053"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_27_PARCELID",
+    "owner": "Assessment_Data_27_OWNER",
+    "address": "Assessment_Data_27_ADDRESS",
+    "acres": "Parcels_CALC_ACRE",
+    "land_use": "Assessment_Data_27_LANDUSE",
+    "assessed_value": "Assessment_Data_27_APPRAISAL"
+  },
+  "notes": "Layer 60 of TN County Parcel Map FeatureServer; parcels joined to assessment data; EPSG:26916",
+  "verification": {
+    "verified_at": 1792051966865,
+    "counties": [
+      "47053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

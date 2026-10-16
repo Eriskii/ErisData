@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-real",
+  "publisher": "Real Central Appraisal District (RealCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/zYWSy8EH4fp8Icmp/arcgis/rest/services/RealCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48385"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Real CAD public ArcGIS service (bis_realcad). Situs address sparsely populated, so not mapped.",
+  "verification": {
+    "verified_at": 1792051734785,
+    "counties": [
+      "48385"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

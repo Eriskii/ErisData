@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ut-morgan",
+  "publisher": "Morgan County Recorder (ParcelService, via ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/9zdKz4c9IFXMrlCe/arcgis/rest/services/ParcelService/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49029"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "acres": "STATEDAREA",
+    "assessed_value": "CNTASSDVAL"
+  },
+  "notes": "Morgan County parcels last updated 2025; no license stated in source. Site address and use-class fields are mostly blank in source.",
+  "verification": {
+    "verified_at": 1792052191666,
+    "counties": [
+      "49029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29055",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://ccauditor.crawford-co.org/gis/",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=853&LayerID=15968&PageTypeID=1&PageID=0",
+    "https://crawfordgis.breezemaps.com/",
+    "https://app.regrid.com/store/us/mo/crawford"
+  ],
+  "note": "Crawford County's official parcel map is a Schneider Beacon viewer (Cloudflare-blocked, no public REST endpoint found) and a Breeze GIS app with no discoverable service URL. The county auditor GIS page links only the viewer, no downloadable parcels or ArcGIS REST services. ArcGIS Hub/Online searches found no Crawford County parcel FeatureServer or MapServer. Parcel data otherwise comes only from commercial vendors (Dynamo, Regrid, Equator, Rockford).",
+  "recorded_at": 1792050991794,
+  "recheck_after": 1807602991794,
+  "model": "claude-haiku-5-5"
+}

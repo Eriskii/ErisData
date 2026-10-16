@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-iron",
+  "publisher": "Wisconsin Statewide Parcel Map Initiative (WI DOA / State Cartographer), Iron County extract",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/n6uYoouQZW75n5WI/arcgis/rest/services/Wisconsin_Statewide_Parcels_DB/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55051"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "acres": "GISACRES"
+  },
+  "filter": "CONAME = 'IRON'",
+  "notes": "Iron County rows of the WI statewide parcel layer (PARCELFIPS 051, PARCELSRC IRON, loaded 2026-03-02). Site address, assessed value and land use are sparsely populated in this source, so they are not mapped.",
+  "verification": {
+    "verified_at": 1792045344954,
+    "counties": [
+      "55051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

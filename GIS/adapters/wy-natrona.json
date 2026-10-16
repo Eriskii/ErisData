@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wy-natrona",
+  "publisher": "Natrona County GIS (NRGC) via Assessor ownership data",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/sF6mYFdZFl3Y1kjj/arcgis/rest/services/Natrona_County_Ownership_Data/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56025"
+    ]
+  },
+  "fields": {
+    "apn": "GEOCODE",
+    "owner": "OWN1",
+    "address": "ADDR1",
+    "acres": "ACRES"
+  },
+  "notes": "August 2024 ownership snapshot from county assessor data; polygons joined to owner and mailing address. No land use or assessed value fields in this layer.",
+  "verification": {
+    "verified_at": 1792051821280,
+    "counties": [
+      "56025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

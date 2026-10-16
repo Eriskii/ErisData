@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "co-montezuma",
+  "publisher": "Montezuma County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-server.co.montezuma.co.us/arcgis/rest/services/OpenDataMap/FeatureServer/7",
+    "page_size": 20,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08083"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "OWNERNAME1",
+    "address": "LOCATIONADDRESS",
+    "acres": "ACRES_GIS",
+    "land_use": "PROPERTYCODE",
+    "assessed_value": "ASSESSEDVAL"
+  },
+  "notes": "Montezuma County open data parcels; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792048685495,
+    "counties": [
+      "08083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

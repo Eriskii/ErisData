@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21153",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.dynamospatial.com/c/magoffin-county-ky/parcel-data",
+    "https://www.acres.com/plat-map/map/ky/magoffin-county-ky",
+    "https://www.parcelsearch.org/ky-magoffin-county/",
+    "https://www.gismaps.org/ky-magoffin-county/",
+    "https://qpublic.net/ky/kypvas/"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Magoffin parcel FeatureServer found; only unrelated KY layers), the KyGovMaps state hub (no Magoffin parcel layer), and county directories. Magoffin parcels appear only in paid shapefile products (Dynamo, Rockford) and commercial plat viewers (Acres, qPublic-style PVA viewer) with no public ArcGIS REST service or free file download found.",
+  "recorded_at": 1792049902550,
+  "recheck_after": 1807601902550,
+  "model": "claude-haiku-5-5"
+}

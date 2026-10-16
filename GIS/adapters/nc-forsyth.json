@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-forsyth",
+  "publisher": "Forsyth County / City-County GIS (Winston-Salem)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XAnuVx6VEMybNvyd/arcgis/rest/services/Forsyth_County_Tax_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37067"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "T_OWNERS_N",
+    "address": "T_STREET_1",
+    "acres": "CALCULATED",
+    "land_use": "ZONING",
+    "assessed_value": "T_L_B_LAND"
+  },
+  "notes": "Forsyth County NC tax parcels from City-County GIS, hosted on ArcGIS Online; public.",
+  "verification": {
+    "verified_at": 1792051370438,
+    "counties": [
+      "37067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-searcy",
+  "publisher": "Arkansas GIS Office (Searcy County parcel data, via state Planning_Cadastre service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05129"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '129'",
+  "notes": "Statewide Arkansas parcel polygons (CAMP); Searcy County rows identified by CountyFips 129. Situs address field (adrlabel) is filled for only a minority of parcels, so it is not mapped. Public state GIS service.",
+  "verification": {
+    "verified_at": 1792048545494,
+    "counties": [
+      "05129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

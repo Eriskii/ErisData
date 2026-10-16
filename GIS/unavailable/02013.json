@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "02013",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services1.arcgis.com/7HDiw78fcUiM2BWn/arcgis/rest/services/AK_Parcels/FeatureServer/0",
+    "https://www.aleutianseast.org/",
+    "https://www.dynamospatial.com/c/aleutians-east-borough-ak/parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub/Online (AK and county box), the borough site, and web. The only public statewide parcel service (AK_Parcels, 415,656 features) has no Aleutians East entries in local_gov (19 jurisdictions listed, none for this borough). The borough site links no GIS or parcel viewer. Only commercial aggregators (Dynamo, Regrid) show parcels; they are not public county services.",
+  "recorded_at": 1792048513106,
+  "recheck_after": 1807600513106,
+  "model": "claude-haiku-5-5"
+}

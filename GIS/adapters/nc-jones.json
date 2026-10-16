@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-jones",
+  "publisher": "NC OneMap / NC Center for Geographic Information and Analysis (ICDBS statewide parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 5000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37103"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37103'",
+  "notes": "Statewide NC parcel layer from NC OneMap (ICDBS); filtered to Jones County by stcntyfips 37103. Land use field (parusedesc) is empty for Jones County so not mapped.",
+  "verification": {
+    "verified_at": 1792051431446,
+    "counties": [
+      "37103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

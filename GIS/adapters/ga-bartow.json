@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-bartow",
+  "publisher": "Bartow County GIS (BartowGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/0tQ9yX5b2VG5RHei/arcgis/rest/services/Parcels/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13015"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "acres": "C_LOT_SIZE"
+  },
+  "notes": "Bartow County Tax Parcels hosted by BartowGIS on ArcGIS Online. Owner and address fields not present in this layer; only parcel id and lot size mapped.",
+  "verification": {
+    "verified_at": 1792048759839,
+    "counties": [
+      "13015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

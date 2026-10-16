@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "01007",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://bibb.alabamagis.com/bibb/",
+    "https://www.alabamagis.com/Bibb/frameset.cfm",
+    "https://services5.arcgis.com/fmKivMCp6fwbWbeE/arcgis/rest/services/2025_NSGIC_Parcel_Portal/FeatureServer/0",
+    "https://fgis-map-106.flagshipcloud.com/mapserver106/mapagent/mapagent.fcgi?REQUEST=GetCapabilities&SERVICE=WFS"
+  ],
+  "note": "Bibb County AL parcels are published only through a Flagship GIS (MapGuide) public viewer at bibb.alabamagis.com. The NSGIC portal lists Bibb's parcel access as indirect (viewer only, no API or download URL). The Flagship host exposes a WMS (raster map images only) and a WFS whose capabilities list no parcel feature types. No ArcGIS REST, WFS, OGC API Features, or bulk-download parcel service was found. The PowerSouth Alabama_Parcel_Data service has no Bibb layer (layer 4 is absent). Searches for Bibb County GIS and parcel services turned up no other source.",
+  "recorded_at": 1792048375244,
+  "recheck_after": 1807600375244,
+  "model": "claude-haiku-5-5"
+}

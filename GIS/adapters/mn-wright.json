@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-wright",
+  "publisher": "Wright County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/CiQCvRGImIxsaFnM/arcgis/rest/services/Parcels_Wright_County/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27171"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "OWNNAME",
+    "address": "PHYSADDR",
+    "acres": "CalculatedArea",
+    "land_use": "PAR_LUC",
+    "assessed_value": "EMV"
+  },
+  "notes": "Wright County MN parcels hosted by county GIS; nightly update; fields from layer metadata",
+  "verification": {
+    "verified_at": 1792050908062,
+    "counties": [
+      "27171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

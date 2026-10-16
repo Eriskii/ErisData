@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "35059",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/31",
+    "https://gis.ose.state.nm.us/arcgis/rest/services/Parcels/County_Parcels_2021/MapServer/31"
+  ],
+  "note": "Union County NM parcels (layer 31 of the NM statewide County_Parcels_2025 MapServer, TRD/county assessor data) exist as an ArcGIS service, but the 2025 service returns HTTP 500 'Service Parcels/County_Parcels_2025/MapServer not started' on every request (checked repeatedly, including via spec validate). The 2021 copy on gis.ose.state.nm.us is unreachable (connection error). No public Union County GIS parcel service was found on the Hub or county sites; commercial downloads (Regrid, Dynamo, Acres, Rockford) are paid.",
+  "recorded_at": 1792051592756,
+  "recheck_after": 1807603592756,
+  "model": "claude-haiku-5-5"
+}

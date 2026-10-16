@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13171",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gis.bisclient.com/LAMARCAD/",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=LamarCountyGA&Layer=Parcels&PageType=Search",
+    "https://www.dynamospatial.com/c/lamar-county-ga/parcel-data"
+  ],
+  "note": "Lamar County GA parcels are only in the BIS Consultants and qPublic viewers (qPublic is behind Cloudflare). The BIS ArcGIS root returns HTTP 500. ArcGIS Online and Hub searches found no county-wide public parcel service, and the only bulk data on offer is paid (Dynamo Spatial, Regrid).",
+  "recorded_at": 1792049021685,
+  "recheck_after": 1807601021685,
+  "model": "claude-sonnet-5-5"
+}

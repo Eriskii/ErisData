@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "me-kennebec",
+  "publisher": "Maine GeoLibrary / Maine Revenue Services (organized towns, hosted by MCHT)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mcht.org/arcgis/rest/services/Cadastral_Planning/MEGIS_Parcels_Organized/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23011"
+    ]
+  },
+  "fields": {
+    "apn": "MAP_BK_LOT",
+    "address": "PROP_LOC",
+    "acres": "cacreage",
+    "land_use": "TYPE"
+  },
+  "filter": "COUNTY = 'Kennebec'",
+  "notes": "Organized towns only; unorganized territory parcels are in a separate MRS service. Owner names not in this layer. Source data may be dated for some towns.",
+  "verification": {
+    "verified_at": 1792049921869,
+    "counties": [
+      "23011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

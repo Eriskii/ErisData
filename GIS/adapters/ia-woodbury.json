@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-woodbury",
+  "publisher": "Woodbury County GIS (WCICC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/kd1jFI4TM5bZHeP8/arcgis/rest/services/Woodbury_County_IA_Parcel_Data_Feature/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19193"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "deedhldr_name1",
+    "acres": "land_acres",
+    "land_use": "land_class"
+  },
+  "notes": "Woodbury County IA parcel polygons, published by Woodbury County GIS / WCICC on ArcGIS Online. Address fields are sparse, so not mapped.",
+  "verification": {
+    "verified_at": 1792049254026,
+    "counties": [
+      "19193"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

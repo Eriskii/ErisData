@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "46115",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/?site=SpinkCountySD",
+    "https://www.spinkcounty-sd.org/maps.html",
+    "https://www.spinkcounty-sd.org/equalization.html",
+    "https://www.1stdistrict.org/arcgis/rest/services"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Spink parcel layers), the neighbouring 1stdistrict.org ArcGIS server (no Spink folder), the county website (static PDFs only), and web searches. Spink County's parcel viewer is a Schneider Beacon site (Cloudflare-protected, no public ArcGIS REST endpoint found); other parcel sources are commercial (Regrid, Acres, Rockford Map). No queryable public parcel service or file found.",
+  "recorded_at": 1792051672011,
+  "recheck_after": 1807603672011,
+  "model": "claude-haiku-5-5"
+}

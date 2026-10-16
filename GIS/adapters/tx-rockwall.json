@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-rockwall",
+  "publisher": "Rockwall Central Appraisal District (via OpenAddresses CAD FeatureServer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/9RjmpzvuPPeYSNdf/arcgis/rest/services/CAD_Data_to_Address_Lookup/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48397"
+    ]
+  },
+  "fields": {
+    "apn": "pid",
+    "owner": "fileasname",
+    "address": "streetnam",
+    "acres": "legalacre",
+    "land_use": "marketarea",
+    "assessed_value": "ownermarke"
+  },
+  "notes": "CAD parcel data; situs address split across streetnum/streetpre/streetnam/streetsuf; verify coverage is Rockwall County only",
+  "verification": {
+    "verified_at": 1792051732663,
+    "counties": [
+      "48397"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

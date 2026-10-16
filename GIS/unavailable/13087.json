@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13087",
+  "reason": "tos-forbids-automation",
+  "evidence": [
+    "https://decaturcountypropertyappraiser.org/terms-and-conditions/",
+    "https://decaturcountypropertyappraiser.org/gis-maps/",
+    "https://qpublic.net/ga/decatur/",
+    "https://services5.arcgis.com/TIhHfn6hMXyrVHu4/arcgis/rest/services/SmartGov_Online_Map/FeatureServer/6"
+  ],
+  "note": "Decatur County GA parcels are only offered through the qPublic viewer (not an ArcGIS REST service). The Property Appraiser's terms forbid automated scripts/scraping and bulk downloading without an agreement; shapefile exports are fee-based. The only ArcGIS parcel layer found (GDIT SmartGov FeatureServer/6) returns 'Invalid URL' / 400 for every request, including validation. No public queryable parcel service was found.",
+  "recorded_at": 1792048820237,
+  "recheck_after": 1823584820237,
+  "model": "claude-haiku-5-5"
+}

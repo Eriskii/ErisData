@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sd-codington",
+  "publisher": "Codington County GIS (1st District GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Codington/codingtonparcels/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46029"
+    ]
+  },
+  "fields": {
+    "apn": "RECORD_Q",
+    "owner": "OWNER1",
+    "address": "PROP_STREE",
+    "acres": "acres",
+    "land_use": "CODE_NAME",
+    "assessed_value": "ASSESSED_T"
+  },
+  "notes": "Served by 1st District GIS for Codington County SD; polygons in EPSG:3454 reprojected by server",
+  "verification": {
+    "verified_at": 1792051593767,
+    "counties": [
+      "46029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

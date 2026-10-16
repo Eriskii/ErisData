@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-monterey",
+  "publisher": "Monterey County (GIS Parcels_Data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/nOGTdfb4kF4dZljH/arcgis/rest/services/Parcels_Data/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06053"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "Legal_Description",
+    "acres": "GIS_ACRES",
+    "land_use": "Use_Code_No",
+    "assessed_value": "Land_Value"
+  },
+  "notes": "County cartographic parcel layer; owner not published, Legal_Description used as closest field; attributes from Assessor, updated constantly",
+  "verification": {
+    "verified_at": 1792048656605,
+    "counties": [
+      "06053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

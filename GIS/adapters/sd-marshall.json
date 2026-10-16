@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-marshall",
+  "publisher": "Marshall County GIS (SD) via District III",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/MARSHALL_COUNTY_WEB_LAYERS/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46091"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNERNAME",
+    "acres": "DEEDED_ACRE",
+    "land_use": "FEATURE_TYPE"
+  },
+  "notes": "Public ArcGIS layer from Marshall County GIS viewer, SD (District III). Site address is sparsely populated, so not mapped. Includes mailing address and legal description fields.",
+  "verification": {
+    "verified_at": 1792051626965,
+    "counties": [
+      "46091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

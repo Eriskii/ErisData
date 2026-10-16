@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29177",
+  "reason": "login-required",
+  "evidence": [
+    "https://services2.integritygis.com/arcgis/rest/Services/MO/Ray_Assessor_Data/MapServer",
+    "https://sites6.integritygis.com/Geocortex/Essentials/REST/sites/Ray_County_MO/overviewmap",
+    "https://ray.missouriassessors.com/"
+  ],
+  "note": "Ray County's parcel layer (Ray_Assessor_Data MapServer on services2.integritygis.com) returns 'Token Required' for the service root and layer 0, so it is not publicly queryable. The assessor site lists GIS Mapping only as a paid subscription feature. Commercial parcel vendors (Regrid, uslandgrid, ReportAll, Acres) are paid, not county-published. No public county parcel FeatureServer/MapServer or downloadable file was found in ArcGIS Hub/Online searches.",
+  "recorded_at": 1792051065716,
+  "recheck_after": 1807603065716,
+  "model": "claude-haiku-5-5"
+}

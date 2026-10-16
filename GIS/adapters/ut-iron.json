@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ut-iron",
+  "publisher": "UGRC / Iron County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/68f18PuBXUNoTrSW/arcgis/rest/services/IronCountyParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49021"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "address": "PARCEL_ADD",
+    "acres": "PARCEL_ACRES",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "TOTAL_MKT_VALUE"
+  },
+  "notes": "Iron County parcels with UGRC LIR tax roll attributes",
+  "verification": {
+    "verified_at": 1792052574560,
+    "counties": [
+      "49021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

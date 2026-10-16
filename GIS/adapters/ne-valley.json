@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ne-valley",
+  "publisher": "Valley County GIS (gWorks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Valley_County_NE_Assessor/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31175"
+    ]
+  },
+  "fields": {
+    "apn": "PID"
+  },
+  "notes": "Valley County NE assessor parcels via gWorks; only PID field published",
+  "verification": {
+    "verified_at": 1792051318201,
+    "counties": [
+      "31175"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-kimball",
+  "publisher": "Kimball County Assessor (via GIS Workshop gWorks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Kimball_County_NE_Assessor/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31105"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "ACRES"
+  },
+  "notes": "Kimball County NE assessor parcels via gWorks ArcGIS server; only PID, ACRES, TOWN, COMMENTS published; no owner or address fields.",
+  "verification": {
+    "verified_at": 1792051257560,
+    "counties": [
+      "31105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

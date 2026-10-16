@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tn-mcnairy",
+  "publisher": "Tennessee Office of Information Resources (statewide public-use parcel boundaries), McNairy County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47109"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_ID = 55",
+  "verification": {
+    "verified_at": 1792052641591,
+    "counties": [
+      "47109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

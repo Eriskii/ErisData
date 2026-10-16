@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-somerset",
+  "publisher": "Somerset County GIS (via ArcGIS Online, PA_AgMaps_Admin)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/3t8a8pNihhGS6bDO/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42111"
+    ]
+  },
+  "fields": {
+    "apn": "PROP",
+    "owner": "NAME1",
+    "address": "MADDR",
+    "land_use": "LNDUSE",
+    "assessed_value": "ASSTOT"
+  },
+  "notes": "Parcel layer named JP; PA State Plane South ftUS (wkid 102729); address field MADDR is the owner mailing address (LOCAT holds site address but is blank for about half of parcels); land value LNDVAL, building BLDVAL, total TOTVAL",
+  "verification": {
+    "verified_at": 1792051547253,
+    "counties": [
+      "42111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

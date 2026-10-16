@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ok-comanche",
+  "publisher": "Comanche County, OK (via State of Oklahoma GIS; hosted by Garver)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/eNPJk90aMrXNOKF8/arcgis/rest/services/Comanche_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40031"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "NAME",
+    "acres": "CALCACRES"
+  },
+  "notes": "Parcels downloaded from State of Oklahoma GIS; no address, land use or value fields in source. ACCOUNT is the county account number.",
+  "verification": {
+    "verified_at": 1792051398907,
+    "counties": [
+      "40031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

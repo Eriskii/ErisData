@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-richardson",
+  "publisher": "Richardson County Assessor (via Richardson County GIS, ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/32wfTde6zPzZl2pZ/arcgis/rest/services/Richardson_PerChng_032426_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31147"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "land_use": "use_",
+    "assessed_value": "current_totalvalue"
+  },
+  "notes": "Parcels_032426_Joined layer with 2026 value change fields; owner and address not published in this layer; primary_nao holds an assessor URL",
+  "verification": {
+    "verified_at": 1792051178963,
+    "counties": [
+      "31147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

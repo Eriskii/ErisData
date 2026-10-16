@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ks-montgomery",
+  "publisher": "Montgomery County, Kansas GIS (Beacon)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/NlV1tPHJ1eShmjwO/arcgis/rest/services/MontgomeryCountyKS_BeaconUpdated/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20125"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "OwnerName",
+    "address": "Situs",
+    "acres": "GIS_Acres"
+  },
+  "notes": "Beacon-hosted county parcel layer; polygons in NAD83 (EPSG:4269)",
+  "verification": {
+    "verified_at": 1792049313423,
+    "counties": [
+      "20125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

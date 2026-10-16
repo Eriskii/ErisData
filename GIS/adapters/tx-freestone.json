@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-freestone",
+  "publisher": "Freestone County Appraisal District via TxGIO StratMap",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/LHv9vJs7EplGwleT/arcgis/rest/services/stratmap25_landparcels_48161_lp/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48161"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA"
+  },
+  "notes": "TxGIO StratMap land parcels 2025, derived from CAD data; no land use or value fields in source",
+  "verification": {
+    "verified_at": 1792051677896,
+    "counties": [
+      "48161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

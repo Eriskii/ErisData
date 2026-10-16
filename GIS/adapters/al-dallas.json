@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-dallas",
+  "publisher": "Dallas County, AL (via Alabama Parcel Data, PowerSouth, ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/20",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01047"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer 20 of PowerSouth Alabama_Parcel_Data service; Dallas County parcels. Site address fields (ADDRESS, LOCATION_N) are empty in this source, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792048329851,
+    "counties": [
+      "01047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

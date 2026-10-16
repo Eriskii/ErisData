@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-holmes",
+  "publisher": "Florida Department of Revenue statewide parcels (FDOR cadastral), Holmes County (CO_NO 40)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/GcvM6vDlR2gM4x31/arcgis/rest/services/FL_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12059"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_NAME",
+    "acres": "Acres",
+    "land_use": "DOR_UC",
+    "assessed_value": "AV_SD"
+  },
+  "filter": "CO_NO = 40",
+  "notes": "Holmes County subset of FDOR statewide parcels (DOR county code 40 = Holmes). Situs address (PHY_ADDR1) is sparsely filled in the source, so it is not mapped.",
+  "verification": {
+    "verified_at": 1792049657894,
+    "counties": [
+      "12059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

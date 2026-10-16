@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-koochiching",
+  "publisher": "Koochiching County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/8mdusDCY0WncdJVw/arcgis/rest/services/KoochichingCountyParcelDataPublish/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27071"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNNAME",
+    "acres": "GISAcres",
+    "land_use": "CLASSCODE1",
+    "assessed_value": "TAXABLELANDVALUE"
+  },
+  "notes": "Koochiching County parcel layer hosted by county ArcGIS Online; polygons in EPSG:26915. Site address field ADDR_1 is empty in sample, so not mapped.",
+  "verification": {
+    "verified_at": 1792050897478,
+    "counties": [
+      "27071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

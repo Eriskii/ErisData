@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "17199",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.williamsoncountyil.gov/records/geographic-information-system/",
+    "https://www.arcgis.com/sharing/rest/search?q=owner:GDITAdmin%20Williamson&f=json",
+    "https://gis.equatorstudios.com/illinois_williamson/"
+  ],
+  "note": "Only a Schneider Beacon viewer and paid downloads are reachable. The one IL REST service listed in AGOL (ags.bhamaps.com WilliamsonIL_PAT_Taxmap) fails over https and returns 404 over http, so no queryable service could be verified.",
+  "recorded_at": 1792049096312,
+  "recheck_after": 1807601096312,
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-ouray",
+  "publisher": "Ouray County, Colorado (OC Parcel Public 4-12-26)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/pehZWDHjiyZAAcRP/arcgis/rest/services/OC_Parcel_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08091"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNB",
+    "owner": "NAME",
+    "address": "STREETNAME",
+    "acres": "ACRES_calc"
+  },
+  "notes": "Ouray County public parcel layer by csterling_oc; draft, for reference only, not survey accurate. Address is street name only (STREETNO split out).",
+  "verification": {
+    "verified_at": 1792048688368,
+    "counties": [
+      "08091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

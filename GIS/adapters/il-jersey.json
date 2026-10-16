@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-jersey",
+  "publisher": "Jersey County GIS (Sidwell)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/4E4kKjeF2wUJQ8Fi/arcgis/rest/services/Parcel_JerseyIL/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17083"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_number",
+    "owner": "owner1_name",
+    "address": "site_address",
+    "acres": "Acreage",
+    "land_use": "class",
+    "assessed_value": "Assessed_Value_New"
+  },
+  "notes": "Sidwell-synced county parcel layer (polygons, EPSG 3857 native). Source of ArcGIS Experience parcel viewer for Jersey County IL.",
+  "verification": {
+    "verified_at": 1792048975493,
+    "counties": [
+      "17083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-cocke",
+  "publisher": "Cocke County GIS (TDEC-hosted Cocke County parcels, CAMA layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/Cocke_county_parcels/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47029"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "LANDUSE",
+    "assessed_value": "APPRAISAL"
+  },
+  "notes": "Cocke County parcels with CAMA attributes joined; PARCELID is the tax parcel id.",
+  "verification": {
+    "verified_at": 1792052136034,
+    "counties": [
+      "47029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

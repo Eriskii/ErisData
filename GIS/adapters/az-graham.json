@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "az-graham",
+  "publisher": "Arizona Department of Water Resources (ADWR) parcel layers, Graham County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/C34zQ7veRS0V1t04/arcgis/rest/services/Parcels/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04009"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "OWNER_NAME",
+    "acres": "ACRES_US"
+  },
+  "notes": "ADWR statewide parcel compilation; Graham County layer (18,821 features). SITE_ADDRESS is blank for most parcels, so not mapped. Attributes as published by ADWR.",
+  "verification": {
+    "verified_at": 1792048412850,
+    "counties": [
+      "04009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

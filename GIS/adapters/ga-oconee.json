@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-oconee",
+  "publisher": "Greater Athens GIS (Oconee County Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services/Greater_Athens_All_WFL1/FeatureServer/32",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13219"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "acres": "CALC_ACRES"
+  },
+  "filter": "CALC_ACRES < 1000",
+  "notes": "No owner/address in layer.",
+  "verification": {
+    "verified_at": 1792049001426,
+    "counties": [
+      "13219"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

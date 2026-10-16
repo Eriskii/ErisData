@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-gunnison",
+  "publisher": "Gunnison County GIS (via Colorado OIT statewide public parcel composite)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08051"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "owner",
+    "address": "situsAdd"
+  },
+  "filter": "countyName = 'Gunnison'",
+  "notes": "Gunnison County subset of the Colorado statewide public parcel composite; countyName Gunnison (countyFips 51). Public data. Acres, land use and value fields are empty for this county in the source and are not mapped.",
+  "verification": {
+    "verified_at": 1792048736734,
+    "counties": [
+      "08051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

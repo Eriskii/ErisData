@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "la-iberville",
+  "publisher": "Iberville Parish (hosted by Westwood/ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/FqQ2BQIKVGpUWqAa/arcgis/rest/services/Iberville_Parish_Parcels_1dd47/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22047"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumb",
+    "owner": "Owner_Name",
+    "address": "Street_Nam",
+    "acres": "CALC_ACRE",
+    "land_use": "Zonning",
+    "assessed_value": "Assessed_V"
+  },
+  "notes": "Iberville Parish tax parcels, ArcGIS Online hosted feature layer, 17471 features; from assessor data. address field is street name only (house number in Address_Nu). Layer native CRS EPSG:4269.",
+  "verification": {
+    "verified_at": 1792049851900,
+    "counties": [
+      "22047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

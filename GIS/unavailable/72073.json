@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72073",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://www.arcgis.com/sharing/rest/content/items/177a03ea0b31411cafe5596fe710790d/data?f=json"
+  ],
+  "note": "CRIM publishes the 2018 Parcelario (crim_parcelas MapServer layer 0) and it is listed in the sigejp.pr.gov crim folder, but the server returns 'Service crim/crim_parcelas/MapServer not started' on every request (metadata, query, count) across repeated attempts, including a failed validation. The satasgis.crimpr.net parcel endpoints return 404 and sige.pr.gov is unreachable. The Poncegis PARCELAS layer is not Jayuya (bbox query returned 0). No queryable public parcel service for Jayuya is currently available.",
+  "recorded_at": 1792052026501,
+  "recheck_after": 1807604026501,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-dauphin",
+  "publisher": "Dauphin County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/IqEe3YDHhqT8n4KU/arcgis/rest/services/Dauphin_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42043"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "last_name",
+    "address": "street_nam",
+    "acres": "acres",
+    "land_use": "py_used_co",
+    "assessed_value": "land"
+  },
+  "notes": "Dauphin County PA parcel layer hosted on ArcGIS Online by DauphinCo GIS; owner split across last_name/first_name; address split across house_numb/street_nam/street_suf; assessed_value maps to land component only",
+  "verification": {
+    "verified_at": 1792051638717,
+    "counties": [
+      "42043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

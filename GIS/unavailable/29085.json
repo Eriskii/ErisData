@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29085",
+  "reason": "paywalled",
+  "evidence": [
+    "https://services2.arcgis.com/kNS2ppBA4rwAQQZy/ArcGIS/rest/services/Missouri_County_GIS_Resources/FeatureServer/0 (state county GIS directory: Hickory County interactive mapper is https://hickorycountymo.giscloud.com/, Data_Download empty)",
+    "https://hickorygis.breezemaps.com/ (county parcel viewer; guest preview, paid subscription for full data, no service endpoints)",
+    "https://landrecords.us/documentation/coverage/counties/29-085-hickory (paid third-party parcel dataset)"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Hickory County parcel service), the Missouri statewide parcel service (gis.mo.gov and ogi.oa.mo.gov endpoints returned 404 or were unreachable), MSDIS, and the state county GIS directory. Hickory County's only parcel viewers are a subscription BreezeMaps portal and a GIS Cloud map with no public REST service or download.",
+  "recorded_at": 1792051010809,
+  "recheck_after": 1823587010809,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-hall",
+  "publisher": "Hall County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://hallgis.hallcounty.org/arcgis/rest/services/Assessors_Web_Service/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13139"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER",
+    "address": "SITE_LOCATION",
+    "acres": "CALC_ACRE",
+    "land_use": "DIGCLASS_DESC",
+    "assessed_value": "CUR_VALUE"
+  },
+  "notes": "Hall County GA assessor web service (Assessors_Web_Service layer 0, Parcel_Owner). Source per OpenAddresses hall.json.",
+  "verification": {
+    "verified_at": 1792048808219,
+    "counties": [
+      "13139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

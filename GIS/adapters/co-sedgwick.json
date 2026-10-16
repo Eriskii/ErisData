@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-sedgwick",
+  "publisher": "Sedgwick County, Colorado (hosted by Colorado OIT GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.colorado.gov/public/rest/services/OIT/SedgwickCounty/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08115"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "NAME1",
+    "acres": "Acreage"
+  },
+  "notes": "County-specific Sedgwick County CO parcels from OIT GIS MapServer layer 3 (3149 features). The layer carries no site address fields populated, so address is not mapped. NAME2 holds second owner.",
+  "verification": {
+    "verified_at": 1792048768500,
+    "counties": [
+      "08115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

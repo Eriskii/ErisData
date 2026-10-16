@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "or-harney",
+  "publisher": "Harney County GIS (harney_parcels3)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/HnimYoi3CzQPs95i/arcgis/rest/services/harney_parcels3/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41025"
+    ]
+  },
+  "fields": {
+    "apn": "Taxlot",
+    "owner": "OWNER",
+    "acres": "TaxlotAcre"
+  },
+  "notes": "Harney County parcels, ArcGIS Online feature service (harney_parcels3).",
+  "verification": {
+    "verified_at": 1792051535670,
+    "counties": [
+      "41025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

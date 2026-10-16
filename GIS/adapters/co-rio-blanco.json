@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "co-rio-blanco",
+  "publisher": "Rio Blanco County, CO (GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/pfZ4YwxhgKucWn2S/arcgis/rest/services/RioBlancoCO_features/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "08103"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNB",
+    "owner": "NAME",
+    "address": "STREETNAME",
+    "acres": "ACRES",
+    "land_use": "ACCTTYPE",
+    "assessed_value": "TOTAL_ASSE"
+  },
+  "notes": "Rio Blanco County GIS parcel boundary layer; ACRES integer; address is street name only",
+  "verification": {
+    "verified_at": 1792048719803,
+    "counties": [
+      "08103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

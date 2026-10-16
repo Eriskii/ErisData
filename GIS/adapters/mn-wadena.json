@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-wadena",
+  "publisher": "Wadena County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.wadena.mn.us/arcgis/rest/services/LinkPublic/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27159"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "owner": "TAXPAYER_NAME",
+    "address": "PHYSICAL_ADDRESS",
+    "acres": "ACRES"
+  },
+  "notes": "Wadena County public LinkPublic MapServer, layer 0. No land use or assessed value published in this layer.",
+  "verification": {
+    "verified_at": 1792050894350,
+    "counties": [
+      "27159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

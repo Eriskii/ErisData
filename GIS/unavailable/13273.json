@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13273",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=TerrellCountyGA&Layer=Parcels&PageType=Search",
+    "https://terrellcountyga.gov/",
+    "https://www.landbrief.com/ga/terrell-county",
+    "https://www.freeparceldata.com/parcel-data/georgia/terrell/"
+  ],
+  "note": "Searched ArcGIS Hub/Online: no Terrell County GA parcel service (the only TerrellCADWebService hit is Terrell County, Texas). County parcels are viewable only via the Schneider qPublic portal, which has no public ArcGIS REST endpoint. County site links only to a Google Maps page. Only file sources are third-party: FreeParcelData (email-gated, Jan 2022 vintage) and commercial vendors (Regrid, Acres, Rockford), not county-published.",
+  "recorded_at": 1792048862515,
+  "recheck_after": 1807600862515,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "or-umatilla",
+  "publisher": "Umatilla County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/tNPgIZWOB0Efvm0g/ArcGIS/rest/services/Tax_Lots/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41059"
+    ]
+  },
+  "fields": {
+    "apn": "TLID",
+    "owner": "MAILING_NA",
+    "address": "SITUS_STRE",
+    "acres": "SUM_OF_ACR",
+    "land_use": "PROPERTY_C",
+    "assessed_value": "RMV_PROPER"
+  },
+  "notes": "Umatilla County tax lots, dated 08_06_2025; updated daily per county; NAD83(91)",
+  "verification": {
+    "verified_at": 1792051523021,
+    "counties": [
+      "41059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

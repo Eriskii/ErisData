@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "fips": "21011",
+  "reason": "paywalled",
+  "evidence": [
+    "https://assessorsearch.com/property-records/kentucky/bath-county",
+    "https://www.arcgis.com/apps/webappviewer/index.html?id=a7e1ed825b364a6d9412e26ad14af0c4",
+    "https://services2.arcgis.com/VkOe3q7u7LGe1XcE/arcgis/rest/services/Parcels/FeatureServer/0",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=json",
+    "https://app.regrid.com/us/ky/bath",
+    "https://www.dynamospatial.com/c/bath-county-ky/parcel-data",
+    "https://countygismaps.com/ky/bath",
+    "https://qpublic.schneidercorp.com/Application.aspx"
+  ],
+  "note": "Bath County KY (21011): the county GIS viewer (cspdc.maps.arcgis.com item a7e1ed...) points to a parcel layer at services2.arcgis.com/VkOe3q7u7LGe1XcE, but its polygons are in Bath County, Virginia (around -79.6, 38.1), not Kentucky. Kentucky state server (kygisserver) has a parcel service only for Webster County. No Bath KY PVA parcel service found on KY state, KYTC or Hub searches. Bath parcels are only sold commercially (Regrid licensed feature service, Dynamo/MappingSolutions shapefiles); PVA portal is Schneider qPublic with no public REST endpoint.",
+  "recorded_at": 1792049412421,
+  "recheck_after": 1823585412421,
+  "model": "claude-haiku-5-5"
+}

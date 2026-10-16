@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "02180",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services9.arcgis.com/Oi9vFzXc8ZcONgM6/arcgis/rest/services/Parcel_Taxroll_Joined/FeatureServer/0",
+    "https://services6.arcgis.com/b8wD2lL3FNc20VqC/arcgis/rest/services/Parcels_-_shapefile/FeatureServer/0",
+    "https://services1.arcgis.com/7HDiw78fcUiM2BWn/arcgis/rest/services/AK_Parcels/FeatureServer/0"
+  ],
+  "note": "No countywide parcel service for Nome Census Area. Only City of Nome parcels are published (Nome_GIS taxroll-joined layer, 3,366 parcels; combined AK layer lists City of Nome 3,332 and no Nome Census Area/unorganized-borough entries). The validation sample point (-163.92,64.80) lies about 85 km east of the city; the city layer returns 0 parcels there, and the statewide AK_Parcels layer returns none near it either.",
+  "recorded_at": 1792048510546,
+  "recheck_after": 1807600510546,
+  "model": "claude-haiku-5-5"
+}

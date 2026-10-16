@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ga-barrow",
+  "publisher": "Barrow County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/OVFGXfRTCVcPwl55/arcgis/rest/services/BCGIS_Base_Layers/FeatureServer/120",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13013"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_no"
+  },
+  "notes": "Parcel Boundaries layer from Barrow County GIS Viewer (BCGIS_Base_Layers). Owner/address/acreage fields not published in this layer; Map_no also available.",
+  "verification": {
+    "verified_at": 1792048726638,
+    "counties": [
+      "13013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

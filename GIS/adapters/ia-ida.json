@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-ida",
+  "publisher": "Ida County GIS (via Iowa statewide parcel layer, 2017)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19093"
+    ]
+  },
+  "fields": {
+    "apn": "UNPARCELID",
+    "owner": "DEEDHOLDER",
+    "address": "PARCELNUMB",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'IDA'",
+  "notes": "Statewide 2017 Iowa parcel layer filtered to Ida County",
+  "verification": {
+    "verified_at": 1792049288263,
+    "counties": [
+      "19093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-lake",
+  "publisher": "Lake County, Illinois GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/HESxeTbDliKKvec2/arcgis/rest/services/OpenData_ParcelPolygons/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17097"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "taxpayer_name",
+    "address": "situs_addr_line_1_First"
+  },
+  "notes": "Lake County IL open data parcel polygons; max 2000 per query",
+  "verification": {
+    "verified_at": 1792048926425,
+    "counties": [
+      "17097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

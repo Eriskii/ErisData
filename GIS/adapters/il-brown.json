@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-brown",
+  "publisher": "Brown County, IL GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aHxsJXn8GAlRIIIg/arcgis/rest/services/Parcels/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17009"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_number",
+    "owner": "owner1_name",
+    "acres": "gross_acres",
+    "land_use": "class"
+  },
+  "notes": "Brown County IL parcel layer hosted on ArcGIS Online; site_address is blank for many (e.g. unimproved) parcels, so address is not mapped",
+  "verification": {
+    "verified_at": 1792048905161,
+    "counties": [
+      "17009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mi-charlevoix",
+  "publisher": "Charlevoix County GIS (via TOMWC ArcGIS Online layer charlevoix_parcels_shp)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/iOTGKDZaCCAubV8c/arcgis/rest/services/charlevoix_parcels_shp/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26029"
+    ]
+  },
+  "fields": {
+    "apn": "pin",
+    "owner": "owner",
+    "address": "propadd",
+    "acres": "calcacre",
+    "land_use": "class",
+    "assessed_value": "sevcurrent"
+  },
+  "notes": "Parcel layer hosted in ArcGIS Online; fields from county parcel export. Unrestricted public feature service.",
+  "verification": {
+    "verified_at": 1792049934888,
+    "counties": [
+      "26029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

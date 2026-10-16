@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-rains",
+  "publisher": "Rains County Appraisal District (BIS Consulting)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/BfnsH81Ljct7mdRF/arcgis/rest/services/RainsCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48379"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Rains CAD public web service; parcels layer of appraisal district records",
+  "verification": {
+    "verified_at": 1792051734623,
+    "counties": [
+      "48379"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

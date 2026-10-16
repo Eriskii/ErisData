@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-mcdowell",
+  "publisher": "McDowell County GIS (via NC aggregated parcels, ETP7IuCigkUz7iI9)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/ETP7IuCigkUz7iI9/arcgis/rest/services/McDowell_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37111"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "assessed_value": "parval"
+  },
+  "filter": "cntyfips = '111' AND stfips = '37'",
+  "notes": "Statewide aggregated NC parcel layer; filtered to McDowell County (cntyfips 111, stfips 37). Land use codes are empty in this source.",
+  "verification": {
+    "verified_at": 1792051385517,
+    "counties": [
+      "37111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

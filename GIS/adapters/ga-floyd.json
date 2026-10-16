@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-floyd",
+  "publisher": "Floyd County GA (via Rome/Floyd GIS, hosted ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/nV67H1IJR8GS6SAA/arcgis/rest/services/CurrentParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13115"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "owner": "OWNERNAME",
+    "address": "LOCATION",
+    "acres": "TOTALACRES",
+    "land_use": "DIGCLASS",
+    "assessed_value": "VALUE_2026"
+  },
+  "notes": "Parcel data for Floyd County as of 6/30/2026, hosted by Rome/Floyd GIS on ArcGIS Online. Source spatial reference is EPSG:2240 (GA West ft).",
+  "verification": {
+    "verified_at": 1792048830688,
+    "counties": [
+      "13115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

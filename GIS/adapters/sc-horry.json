@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sc-horry",
+  "publisher": "Horry County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.horrycounty.org/gispublic/rest/services/Public/HorryCountyGIS/MapServer/24",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45051"
+    ]
+  },
+  "fields": {
+    "apn": "PINtext",
+    "owner": "OwnerName",
+    "acres": "Acreage",
+    "land_use": "LandUseCode",
+    "assessed_value": "AssessedProp"
+  },
+  "notes": "Horry County SC public GIS MapServer layer 24 (Parcels). PINtext is the parcel number. No site-address field in this layer; LegalDescr is a legal description and is not mapped as address.",
+  "verification": {
+    "verified_at": 1792051642573,
+    "counties": [
+      "45051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72121",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://www.arcgis.com/sharing/rest/content/items/177a03ea0b31411cafe5596fe710790d/data?f=json"
+  ],
+  "note": "CRIM's statewide Parcelario layer (crim/crim_parcelas) is in the catalog, but sigejp.pr.gov returns 500 'Service crim/crim_parcelas/MapServer not started' for MapServer, MapServer/0, query and FeatureServer/0 (checked repeatedly). The CRIM viewer's parcel service at satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/MapServer/0 is unreachable (connection errors on https, 404 on http). sige.pr.gov FeatureServer is unreachable too. No other public Sabana Grande parcel service or file was found; the only alternative is commercial (Regrid).",
+  "recorded_at": 1792052057998,
+  "recheck_after": 1807604057998,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-bailey",
+  "publisher": "Bailey Central Appraisal District (bis_baileycad)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/UpQN8IYpnCYHn7nk/arcgis/rest/services/BaileyCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48017"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Bailey CAD public web service; parcels layer 0 of BaileyCADWebService",
+  "verification": {
+    "verified_at": 1792051636635,
+    "counties": [
+      "48017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

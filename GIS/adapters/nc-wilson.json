@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-wilson",
+  "publisher": "Wilson County GIS (Tax Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wilson-co.com/arcgis/rest/services/Tax/Taxparcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37195"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "Name1",
+    "address": "PhysicalStreetAddress",
+    "acres": "CACRES",
+    "land_use": "Description3",
+    "assessed_value": "TotalASVCurrent"
+  },
+  "notes": "Wilson County NC tax parcels. Item info states resale of county tax/GIS data is prohibited without written permission; this adapter only reads features for display/analysis, does not redistribute. Source is public, no login or key.",
+  "verification": {
+    "verified_at": 1792051393506,
+    "counties": [
+      "37195"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

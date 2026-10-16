@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-davis",
+  "publisher": "Davis County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal-pro.daviscountyutah.gov/server/rest/services/Public/Davis_County_Public_Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49011"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelTaxID",
+    "acres": "ParcelAcreage",
+    "land_use": "ParcelTaxDistrict"
+  },
+  "notes": "County public parcels layer; owner names excluded by county; situs address often blank in source so not mapped",
+  "verification": {
+    "verified_at": 1792052202226,
+    "counties": [
+      "49011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

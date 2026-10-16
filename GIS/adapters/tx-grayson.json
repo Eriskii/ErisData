@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "tx-grayson",
+  "publisher": "Grayson County Appraisal District / Grayson County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.grayson.tx.us/arcgis/rest/services/Grayson/Grayson_County_Public_Interactive_Map/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48181"
+    ]
+  },
+  "fields": {
+    "apn": "GEO_ID"
+  },
+  "notes": "Grayson County Public Interactive Map parcels layer; fields limited to PROP_ID, LONG_GEO_I, GEO_ID",
+  "verification": {
+    "verified_at": 1792051689019,
+    "counties": [
+      "48181"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

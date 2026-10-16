@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-foard",
+  "publisher": "Texas Land Parcels (TxGIO/CAD compilation, hosted by SHSU)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48155"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA"
+  },
+  "filter": "FIPS = '48155'",
+  "notes": "Statewide Texas parcel compilation from CADs; filtered to FIPS 48155. Land use and market value are blank for Foard in this source.",
+  "verification": {
+    "verified_at": 1792051712335,
+    "counties": [
+      "48155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

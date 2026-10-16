@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-hamilton",
+  "publisher": "Hamilton County TN GIS (OpenGov Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapsdev.hamiltontn.gov/hcwa03/rest/services/OpenGov/OpenGov_HamiltonTN/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47065"
+    ]
+  },
+  "fields": {
+    "apn": "PBA_NUM",
+    "owner": "OWNERNAME1",
+    "address": "ADDRESS",
+    "acres": "CALCACRES",
+    "land_use": "LUCODE",
+    "assessed_value": "ASSVALUE"
+  },
+  "notes": "Hamilton County TN parcels, 84,698 features; from county mapsdev host",
+  "verification": {
+    "verified_at": 1792052045484,
+    "counties": [
+      "47065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

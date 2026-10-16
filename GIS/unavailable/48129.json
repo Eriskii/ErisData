@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "48129",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap_land_parcels_48_most_recent/MapServer/0",
+    "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "https://services6.arcgis.com/nolmkcNXcNYRF7iO/arcgis/rest/services/Parcel_Boundaries/FeatureServer/0",
+    "https://donleycad.org/default.htm"
+  ],
+  "note": "Donley (FIPS 48129) parcels are not queryable from any public service found. TxGIO StratMap latest MapServer layer 0 rejects all queries (query capability not supported). The statewide Texas Land Parcels FeatureServer has no 48129 block (OBJECTID scan shows Dimmit 48127 directly followed by Duval 48131) and FIPS 48129 queries return 400. The Parcel_Boundaries copy has 0 Donley rows. TNRIS StratMap 2019 Donley service (feature.tnris.org) was unreachable from our network and from validation. Donley CAD publishes no GIS download. Caveat: the TNRIS 2019 service may still be reachable from other networks.",
+  "recorded_at": 1792053693883,
+  "recheck_after": 1807605693883,
+  "model": "claude-haiku-5-5"
+}

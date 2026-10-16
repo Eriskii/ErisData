@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "45089",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://williamsburgsc.wthgis.com/",
+    "https://www.williamsburgcounty.sc.gov/170/Assessor",
+    "https://smpesri.scdot.org/arcgis/rest/services/GISMapping/SC_Parcels/MapServer/44",
+    "https://arcweb.dnr.sc.gov/server/rest/services/Hosted/SC_County_Parcel_Viewers/FeatureServer/0"
+  ],
+  "note": "Williamsburg County's only official parcel source is the wthgis.com web viewer; no REST service or download is linked from the county site, and the viewer's backend could not be identified. The SCDOT statewide SC_Parcels layer for Williamsburg (MapServer/44) returns 'Token Required'. Commercial parcel downloads exist but are paid.",
+  "recorded_at": 1792051638115,
+  "recheck_after": 1807603638115,
+  "model": "claude-haiku-5-5"
+}

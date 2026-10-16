@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13091",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=DodgeCountyGA&Layer=Parcels&PageType=Search",
+    "https://dodgecountyga.com/",
+    "https://assessorsearch.com/property-records/georgia/dodge-county",
+    "https://gis-dodgecounty.opendata.arcgis.com/"
+  ],
+  "note": "Dodge County GA's parcel map is only the Schneider qPublic viewer (Cloudflare-blocked, no public ArcGIS REST parcel service found). The gis-dodgecounty.opendata hub and the 'Dodge County Parcel Viewer' experience turned out to be Dodge County WI and Goodhue Co. MN, not Georgia. No Georgia Dodge parcel FeatureServer/MapServer found in ArcGIS Hub/Online searches.",
+  "recorded_at": 1792048863536,
+  "recheck_after": 1807600863536,
+  "model": "claude-haiku-5-5"
+}

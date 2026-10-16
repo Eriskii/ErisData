@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-pamlico",
+  "publisher": "Pamlico County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/nJbIFHiSnaX0z0hS/arcgis/rest/services/Pamlico_ParcelService/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37137"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "CALC_ACRES",
+    "assessed_value": "TOTAL_VAL"
+  },
+  "notes": "Pamlico County AGOL parcel service",
+  "verification": {
+    "verified_at": 1792051544644,
+    "counties": [
+      "37137"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-kimble",
+  "publisher": "Kimble Central Appraisal District (KimbleCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/DNlZo36viNjkzTpZ/arcgis/rest/services/KimbleCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48267"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Texas CAD parcel layer via ArcGIS Online; same schema as Edwards CAD service",
+  "verification": {
+    "verified_at": 1792051698605,
+    "counties": [
+      "48267"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

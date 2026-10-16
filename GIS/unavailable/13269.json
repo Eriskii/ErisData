@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13269",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services2.arcgis.com/iXA1dC6ldRMKRwra/arcgis/rest/services/Taylor_County_Parcels/FeatureServer/0",
+    "https://taylorcountypropertyappraiser.org/gis-maps/",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=769&LayerID=11805&PageTypeID=1"
+  ],
+  "note": "Only ArcGIS parcel layer found (GDITAdmin 'Parcels - GA - Taylor County') returns 'Invalid URL' on metadata and HTTP 400 on every query, so no usable service. County GIS page links no REST service; the county's parcel viewer is a qPublic/Schneider application with no public REST endpoint (403 bot check on fetch).",
+  "recorded_at": 1792048913302,
+  "recheck_after": 1807600913302,
+  "model": "claude-haiku-5-5"
+}

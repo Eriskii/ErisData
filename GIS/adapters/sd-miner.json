@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sd-miner",
+  "publisher": "Miner County GIS (hosted by First District GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Miner/minermapnetpro/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46097"
+    ]
+  },
+  "fields": {
+    "apn": "LEGAL",
+    "owner": "OWNER1",
+    "address": "PROP_STREE",
+    "acres": "acres",
+    "land_use": "CODE_NAME",
+    "assessed_value": "TOTAL_TV"
+  },
+  "notes": "Parcel layer from First District GIS Miner County mapping app; source attribute names per layer 2 of minermapnetpro. Record key RECORD also available.",
+  "verification": {
+    "verified_at": 1792051662928,
+    "counties": [
+      "46097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

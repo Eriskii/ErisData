@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72061",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://www.arcgis.com/home/item.html?id=acf043a178254fcdad6708be3e8ab51c",
+    "https://www.dynamospatial.com/c/guaynabo-municipio-pr/parcel-data"
+  ],
+  "note": "Guaynabo has no municipal parcel service found. The only island-wide CRIM parcel layer (sige.pr.gov crim_parcelas, covers Guaynabo) is unreachable: connection errors from both my side and the validator, and sigejp returns 'Service not started'. The Bayamón CRIM layer (services6 HRKUyjzdGC8Kwtbz) covers Bayamón only (19 of 129 sampled parcels in Guaynabo). Guaynabo parcel data otherwise appears only as a paid vendor download (Dynamo Spatial).",
+  "recorded_at": 1792052021008,
+  "recheck_after": 1807604021008,
+  "model": "claude-haiku-5-5"
+}

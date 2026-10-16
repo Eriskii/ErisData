@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-clay",
+  "publisher": "Clay County, AL (via Alabama Parcel Data, LL/Regrid-style compilation)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01027"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer 12 of Alabama_Parcel_Data FeatureServer, Clay County Parcels only; 17541 features. Situs address fields (ADDRESS, LOCATION_N) are empty in sampled areas, so not mapped.",
+  "verification": {
+    "verified_at": 1792048324631,
+    "counties": [
+      "01027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "17171",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.scottcoil.gov/assessorinformation",
+    "https://open-data-scottcounty.hub.arcgis.com/",
+    "https://www.dynamospatial.com/c/scott-county-il/parcel-data",
+    "https://www.acres.com/plat-map/map/il/scott-county-il"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web. Scott County IL (FIPS 17171) has no public parcel REST service found. The county assessor page offers shapefiles only by fee/request with no service link. The open-data hub belongs to a different Scott County. The gscplanning.com Parcels service is Scott County, Kentucky/Indiana (Georgetown area), not Illinois, verified by a feature at -84.68,38.18. Illinois parcel data appears only via commercial vendors (Dynamo, Acres, Regrid).",
+  "recorded_at": 1792049099138,
+  "recheck_after": 1807601099138,
+  "model": "claude-haiku-5-5"
+}

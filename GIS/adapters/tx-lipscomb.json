@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-lipscomb",
+  "publisher": "Texas Geographic Information Office StratMap land parcels (hosted by SHSU)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48295"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "acres": "GIS_AREA",
+    "assessed_value": "MKT_VALUE"
+  },
+  "filter": "OBJECTID BETWEEN 10200001 AND 10215000 AND FIPS = '48295'",
+  "notes": "Statewide TxGIO StratMap parcels from Texas appraisal districts (Lipscomb CAD, DATE_ACQ 2024); rows ordered by FIPS so OBJECTID range narrows the scan to FIPS 48295. Situs address and land use are blank for this county in the source.",
+  "verification": {
+    "verified_at": 1792053560420,
+    "counties": [
+      "48295"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

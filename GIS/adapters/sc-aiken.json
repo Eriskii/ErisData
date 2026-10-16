@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sc-aiken",
+  "publisher": "Aiken County (via City of Aiken planning dataset, HL Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/74bZbbuf05Ctvbzv/arcgis/rest/services/Aiken_Nonconformities_HL_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45003"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ASR",
+    "owner": "OwnerName",
+    "address": "LocationAddress",
+    "acres": "Acres",
+    "land_use": "PropertyClassType",
+    "assessed_value": "AssessedValue"
+  },
+  "notes": "Parcel layer uploaded 2026 for Aiken nonconformities dashboard; assessor attributes; source CRS EPSG:2273 (SC state plane feet)",
+  "verification": {
+    "verified_at": 1792051670179,
+    "counties": [
+      "45003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

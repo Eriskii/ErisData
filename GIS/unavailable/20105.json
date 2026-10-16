@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "20105",
+  "reason": "login-required",
+  "evidence": [
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA",
+    "https://www.dynamospatial.com/c/lincoln-county-ks/parcel-data"
+  ],
+  "note": "Kansas parcels for Lincoln County are only distributed via ORKA registration/request; the state ORKA services hold only subdivisions/lots/addresses, no parcel polygons. The arcgisserver.lincolncounty.org host (not clearly Kansas) is unreachable over HTTPS; no other public parcel service found.",
+  "recorded_at": 1792049485085,
+  "recheck_after": 1807601485085,
+  "model": "claude-sonnet-5-5"
+}

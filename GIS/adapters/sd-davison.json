@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-davison",
+  "publisher": "Davison County GIS (District III hosted)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/DAVISON_COUNTY_WEB_LAYERS1/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46035"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNERNAME",
+    "acres": "DEEDED_ACRE",
+    "assessed_value": "TOTAL_VALUE"
+  },
+  "notes": "Layer PARCEL from Davison County web layers hosted by District III; public viewer at gis.districtiii.org/DAVISON. SITE_ADDRESS is sparsely populated (mostly rural parcels), so address is not mapped. Assessed value is TOTAL_VALUE.",
+  "verification": {
+    "verified_at": 1792051623623,
+    "counties": [
+      "46035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-ector",
+  "publisher": "Ector County Appraisal District (ECAD)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis11.cama.io/arcgis/rest/services/Ector/EctorCounty_Basemap/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48135"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "owner_name",
+    "address": "owner_addr",
+    "acres": "land_area",
+    "land_use": "use_cd",
+    "assessed_value": "cap_val"
+  },
+  "notes": "Public ECAD parcel layer from Ector County Appraisal District; owner_addr is mailing address; no situs address field published",
+  "verification": {
+    "verified_at": 1792051681355,
+    "counties": [
+      "48135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

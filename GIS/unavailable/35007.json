@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "35007",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/4",
+    "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer",
+    "https://www.co.colfax.nm.us/government/county_assessor.php"
+  ],
+  "note": "Only candidate public parcel service is the NM OSE statewide MapServer (County_Parcels_2025, layer 4 = Colfax). It is listed in the services directory but every request (probe, query, validate) returns 'Service Parcels/County_Parcels_2025/MapServer not started' (HTTP 500), including on retries. The 2021 copy on gis.ose.state.nm.us is unreachable. The county assessor site links only to a records search and a GIS specialist by email, with no public parcel service. Other sources are commercial only.",
+  "recorded_at": 1792051528993,
+  "recheck_after": 1807603528993,
+  "model": "claude-haiku-5-5"
+}

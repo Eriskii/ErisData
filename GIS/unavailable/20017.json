@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20017",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/ORKA_Status_20180201/FeatureServer/0 (Chase row: STATUS 'ORKA Private', ORKA_LINK kansasgis.org/orka/intro.cfm?countyName=Chase)",
+    "https://hub.kansasgis.org/pages/de8c49f33a0e4149a8568fea0ef3997d (county parcel data only via per-county request, approve or deny)",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Chase (login/terms gate, no public parcel service)",
+    "https://app.regrid.com/store/us/ks/chase (paid vendor only)"
+  ],
+  "note": "Chase County KS (20017) publishes no public parcel polygon service or file. The state ORKA status layer marks Chase as ORKA Private; the state DASC ORKA extras service has no Chase parcel layer; the only parcel sources found are the ORKA request process and paid commercial vendors (Regrid, Dynamo, Acres). The gworks viewer found is Chase County, Nebraska, not Kansas. The Elder Family Farm service covers only 11 features.",
+  "recorded_at": 1792049258573,
+  "recheck_after": 1807601258573,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "20157",
+  "reason": "login-required",
+  "evidence": [
+    "https://services5.integritygis.com/arcgis/rest/services/KS/Republic_Assessor_Data_Recon/MapServer",
+    "https://republicgis.integritygis.com/H5/Index.html",
+    "https://orkahub.kansasgis.org/pages/request"
+  ],
+  "note": "Republic County's parcel layer (Republic_Assessor_Data_Recon MapServer, layer 7 Parcel) is on an integritygis ArcGIS server that returns 'Token Required' for the MapServer and its layers. The county viewer host did not respond. The state ORKA portal gives parcel data only via a county-by-county registration and approval request, and no open parcel service was found.",
+  "recorded_at": 1792049372764,
+  "recheck_after": 1807601372764,
+  "model": "claude-haiku-5-5"
+}

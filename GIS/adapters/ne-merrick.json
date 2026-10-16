@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-merrick",
+  "publisher": "Merrick County, Nebraska (gworks assessor GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Merrick_County_NE_Assessor/MapServer/52",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31121"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "County-wide parcel layer from Merrick County assessor gworks MapServer; only PID and acres published in this layer; no owner/address/value fields.",
+  "verification": {
+    "verified_at": 1792051140859,
+    "counties": [
+      "31121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

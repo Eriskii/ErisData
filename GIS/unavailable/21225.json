@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21225",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.net/ky/union/",
+    "https://qpublic.net/ky/union/links.html",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=UnionCountyKY&PageType=Search",
+    "https://kygisserver.ky.gov/arcgis/rest/services",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp"
+  ],
+  "note": "Union County KY (21225) publishes its parcel viewer through Schneider qPublic (UnionCountyKY app), a web viewer behind Cloudflare, not a public ArcGIS REST service or file download. No Union County parcel service exists on kygisserver (only Webster County PVA is listed), and KGS's catalog of county PVA services omits Union. The only Union County parcel FeatureServer found (services8.arcgis.com/7YUdLQ8pDBKU1XYI) is Union County, North Carolina, and it failed validation. Commercial sources (Regrid, Acres, AcreValue) are paid or viewers only.",
+  "recorded_at": 1792049974090,
+  "recheck_after": 1807601974090,
+  "model": "claude-haiku-5-5"
+}

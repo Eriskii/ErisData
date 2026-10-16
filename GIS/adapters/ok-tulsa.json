@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ok-tulsa",
+  "publisher": "Tulsa County (INCOG-hosted parcel layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map11.incog.org/arcgis11wa/rest/services/Parcels_TulsaCo/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40143"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNo",
+    "owner": "Owner",
+    "address": "PropertyAddress",
+    "acres": "GrossAcre",
+    "land_use": "UseCode",
+    "assessed_value": "TotalAcctValue"
+  },
+  "notes": "Served by INCOG (map11.incog.org) Parcels_TulsaCo layer; Tulsa County parcels. Verify license/terms before wide use.",
+  "verification": {
+    "verified_at": 1792051496331,
+    "counties": [
+      "40143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "az-pinal",
+  "publisher": "Pinal County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/gJAeEJVykiKW6D8d/arcgis/rest/services/PinalCountyParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04021"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID"
+  },
+  "notes": "Pinal County AZ tax parcels, hosted feature service; only parcel ID exposed",
+  "verification": {
+    "verified_at": 1792048431081,
+    "counties": [
+      "04021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-macon",
+  "publisher": "Macon County GA (GDITAdmin, ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/ArcGIS/rest/services/Parcels12_2018/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13193"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_Num",
+    "owner": "Owner",
+    "address": "Address",
+    "acres": "Ac1",
+    "assessed_value": "Curr_Val"
+  },
+  "notes": "Parcels 2018 snapshot from Macon County GA GIS; no land use field",
+  "verification": {
+    "verified_at": 1792048812440,
+    "counties": [
+      "13193"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

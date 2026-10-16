@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-lawrence",
+  "publisher": "Lawrence County PA (via LEOC GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.leoc.net:6443/arcgis/rest/services/LAWRENCEGIS/TaxParcelCAMA/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42073"
+    ]
+  },
+  "fields": {
+    "apn": "TID",
+    "owner": "PRIMARY_OWNER",
+    "address": "SITUS",
+    "acres": "ACREAGE",
+    "land_use": "PROP_TYPE",
+    "assessed_value": "TOTAL_VALUE"
+  },
+  "notes": "Tax parcels with CAMA attributes from Lawrence County PA assessment; CONTROLNUM is internal control number",
+  "verification": {
+    "verified_at": 1792051527775,
+    "counties": [
+      "42073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

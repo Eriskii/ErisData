@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-stone",
+  "publisher": "Stone County, MO (sces911 ArcGIS Online map package)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/yxqWib8HJGkXh9Vt/arcgis/rest/services/StoneCounty/FeatureServer/25",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29209"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "owner": "Name",
+    "address": "Address"
+  },
+  "notes": "Public ArcGIS Online service from Stone County MO map package; fields limited (no acres/value/land use).",
+  "verification": {
+    "verified_at": 1792051072062,
+    "counties": [
+      "29209"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

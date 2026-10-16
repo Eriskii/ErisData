@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-ascension",
+  "publisher": "Ascension Parish Assessor / GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ascensionparishla.gov/server/rest/services/AssessorData/Parcel_View/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22005"
+    ]
+  },
+  "fields": {
+    "apn": "PN_Join",
+    "owner": "Owner_Name",
+    "address": "Street_Name",
+    "assessed_value": "Assessed_Value"
+  },
+  "notes": "Geometry from parish AssessorData MapServer layer 2; owner data from CAMA join per item info; address is street name only (physical city field mostly empty); no acreage or land use field",
+  "verification": {
+    "verified_at": 1792049829462,
+    "counties": [
+      "22005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

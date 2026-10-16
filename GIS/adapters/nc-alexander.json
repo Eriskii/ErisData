@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-alexander",
+  "publisher": "Alexander County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.hickorync.gov/server/rest/services/AlexanderCounty/Alexander_Property_Lines/FeatureServer/0",
+    "page_size": 50,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37003"
+    ]
+  },
+  "fields": {
+    "apn": "PIN__",
+    "owner": "OWNER_NAME",
+    "acres": "CALCULATED",
+    "land_use": "DESCRIPTIO",
+    "assessed_value": "ASSESED_VA"
+  },
+  "notes": "Alexander County NC property lines hosted by City of Hickory ArcGIS server; native EPSG 2264",
+  "verification": {
+    "verified_at": 1792051438496,
+    "counties": [
+      "37003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

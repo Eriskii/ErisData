@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-madison",
+  "publisher": "Madison County GIS (Tax Department)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/NwIC4HArqo0JlKGT/arcgis/rest/services/2025_Parcels/FeatureServer/19",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37115"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "TACRES"
+  },
+  "notes": "Madison County NC 2025 tax parcels, public ArcGIS service; REID is the internal parcel id",
+  "verification": {
+    "verified_at": 1792051395293,
+    "counties": [
+      "37115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "20007",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services.kansasgis.org/arcgis4/rest/services/KS_Parcels_ORKA_EB/FeatureServer/0",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Barber",
+    "https://barber.ks.gov/parcel-search-instructions.html",
+    "https://ks294.cichosting.com/WebPortal/Login.aspx",
+    "https://orkahub.kansasgis.org/pages/request"
+  ],
+  "note": "Searched ArcGIS Hub/Online and Kansas ORKA services. The statewide KS_Parcels_ORKA_EB parcel layer has only counties CN, RA, SH, TH and no features at a Barber County point. Barber's parcels appear only in the ORKA viewer (disclaimer-gated, no public REST URL found), the county's CIC web parcel portal, and paid vendors (Regrid, Dynamo, Acres, Equator). County parcel data is requested county by county via PORKA.",
+  "recorded_at": 1792049274776,
+  "recheck_after": 1807601274776,
+  "model": "claude-haiku-5-5"
+}

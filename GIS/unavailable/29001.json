@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29001",
+  "reason": "login-required",
+  "evidence": [
+    "https://publicrecords.netronline.com/state/MO/county/adair",
+    "https://adairgis.integritygis.com/H5/Index.html?viewer=adair",
+    "https://services2.integritygis.com/arcgis/rest/services/MO/Adair_Assessor_Data/MapServer?f=json",
+    "https://rockfordmap.com/maps/missouri-adair-county/"
+  ],
+  "note": "Adair's parcels are only in the Integrity GIS Geocortex viewer (Parcel_Public layer). Its ArcGIS services sit in the MO folder on services2/3/5.integritygis.com, which answer 'Token Required' (code 499) to every request. The viewer host sites5.integritygis.com is unreachable. No state, county or ArcGIS Online parcel service exists, and the only other bulk source is paid (Rockford Map, Regrid).",
+  "recorded_at": 1792051251690,
+  "recheck_after": 1807603251690,
+  "model": "claude-sonnet-5-5"
+}

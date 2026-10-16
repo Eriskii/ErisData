@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "fl-pasco",
+  "publisher": "Pasco County GIS (Pasco County Property Appraiser parcel layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Mo4MddfRHpFwT7UF/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12101"
+    ]
+  },
+  "fields": {
+    "apn": "LPARCEL",
+    "owner": "L1_OWNER_FULL_NAME",
+    "acres": "ACRES",
+    "land_use": "CLASS",
+    "assessed_value": "APPRVAL"
+  },
+  "notes": "Pasco County GIS parcel layer; DATADATE field indicates 2020 snapshot; physical address (PHYSADDR) is sparsely filled so not mapped; geometry in Web Mercator",
+  "verification": {
+    "verified_at": 1792049034699,
+    "counties": [
+      "12101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40013",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://okmaps.org/ogi/RestDataAccessItem.aspx?UUID=1484707a-712a-4447-96a9-5a38affc600e",
+    "https://okmaps.org/ogi/search.aspx",
+    "https://bryan.okcounties.org/departments",
+    "https://app.regrid.com/store/us/ok/bryan",
+    "https://bryangis.bryan-county.org/arcgis/rest/services/Parcels/MapServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Bryan County OK (FIPS 40013) parcels. No county-published queryable parcel service or file found. The only county-named ArcGIS parcel service (bryangis.bryan-county.org Parcels MapServer) is Bryan County, Georgia (Georgia State Plane extent) and the host is unreachable. The statewide OK Maps parcel layer is view/WMS-only, not downloadable or queryable. Regrid nationwide tile MapServer has no query endpoint. Bryan County OK parcels are only offered by commercial vendors (Dynamo, Regrid, Equator, Mapping Solutions, ReportAllUSA). County clerk and assessor sites link no GIS or parcel service.",
+  "recorded_at": 1792051584267,
+  "recheck_after": 1807603584267,
+  "model": "claude-haiku-5-5"
+}

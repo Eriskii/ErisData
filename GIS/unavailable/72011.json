@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72011",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0/query?where=1%3D1&returnCountOnly=true&f=json",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "http://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/FeatureServer/0"
+  ],
+  "note": "CRIM Parcelario (statewide tax parcels, incl. Añasco) is the only parcel polygon service found. Its sigejp.pr.gov MapServer/FeatureServer returns 'Service crim/crim_parcelas/MapServer not started' (HTTP 500). sige.pr.gov FeatureServer is unreachable (connection error, also from spec validate). The satasgis.crimpr.net Parcelas layer listed in the CRIM Catastro item returns 404. No other public parcel service for Añasco found in ArcGIS Hub/Online, gis.pr.gov, or the PR geoserver WFS (only partial Fincas/PRIDCO shapefiles).",
+  "recorded_at": 1792051917770,
+  "recheck_after": 1807603917770,
+  "model": "claude-haiku-5-5"
+}

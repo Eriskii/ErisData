@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-clark",
+  "publisher": "Clark County, SD (via 1stdistrict MapNet)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Clark/clarkmapnetpro/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46025"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNER1",
+    "address": "LOCATION",
+    "acres": "GIS_ACRES"
+  },
+  "notes": "Layer from Clark County MapNet service hosted by 1stdistrict.org. LANDUSE mostly empty so not mapped. PARCELID is integer; PARCEL_ID string used for apn.",
+  "verification": {
+    "verified_at": 1792051659726,
+    "counties": [
+      "46025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

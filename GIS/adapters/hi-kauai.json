@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "hi-kauai",
+  "publisher": "County of Kauai GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/0DaVqrPt2eyXUS9g/arcgis/rest/services/Parcels_and_CPRs/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "15007"
+    ]
+  },
+  "fields": {
+    "apn": "PARTXT",
+    "owner": "OWN1",
+    "acres": "GISACRES"
+  },
+  "filter": "GISACRES < 300",
+  "notes": "County of Kauai parcels and mapped CPRs; parcels of 300+ acres excluded (large state/ranch parcels)",
+  "verification": {
+    "verified_at": 1792048968733,
+    "counties": [
+      "15007"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13241",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=674&LayerID=11359&PageTypeID=1",
+    "https://www.countyoffice.org/ga-rabun-county-gis-maps/",
+    "https://reportallusa.com/store/georgia/13241"
+  ],
+  "note": "Rabun parcels are only in the qPublic viewer (no public REST endpoint, 403 to automation); ArcGIS searches found only a 103-feature KML-derived Rabun_County_Parcels layer with no parcel attributes; full data is sold commercially.",
+  "recorded_at": 1792048983247,
+  "recheck_after": 1807600983247,
+  "model": "claude-sonnet-5-5"
+}

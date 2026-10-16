@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-lasalle",
+  "publisher": "LaSalle County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lasallecounty.org/arcgis/rest/services/TaxParcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17099"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "TAXNAME",
+    "address": "SiteAddress",
+    "acres": "LOTACRES",
+    "land_use": "PROPCLASS"
+  },
+  "notes": "Tax parcels from LaSalle County GIS TaxParcels MapServer, EPSG:3857; OLDPIN is reference number",
+  "verification": {
+    "verified_at": 1792048926056,
+    "counties": [
+      "17099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

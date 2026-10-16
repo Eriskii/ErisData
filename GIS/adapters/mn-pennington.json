@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-pennington",
+  "publisher": "Pennington County GIS (Minnesota)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismap.co.pennington.mn.us/arcgis/rest/services/Pennington/ProPhoenix/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27113"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUM",
+    "owner": "OWNER_NAME_1",
+    "acres": "DEEDED_ACRES"
+  },
+  "notes": "Pennington County MN ProPhoenix parcel layer (maxRecordCount 2000). Site address PROPERTY_ADDRESS is mostly empty for rural parcels, so not mapped. Owner is OWNER_NAME_1.",
+  "verification": {
+    "verified_at": 1792050933796,
+    "counties": [
+      "27113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

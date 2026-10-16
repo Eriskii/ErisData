@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wy-niobrara",
+  "publisher": "Wyoming Office of State Lands and Investments (statewide 2025 parcel layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/r0iJ85SKZ4zAzz3P/arcgis/rest/services/Wyoming_Parcels_for_2025/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56027"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnb",
+    "owner": "ownername1",
+    "address": "locationad",
+    "assessed_value": "assessedva"
+  },
+  "filter": "jurisdicti LIKE '%NIOBRARA%' AND Shape__Area < 10000000",
+  "notes": "statewide layer; excludes very large ranch parcels (>10 km2) as workaround",
+  "verification": {
+    "verified_at": 1792053588828,
+    "counties": [
+      "56027"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

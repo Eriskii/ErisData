@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20137",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Norton",
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer",
+    "https://www.nortoncountyks.gov/departments/staff_directory/appraiser/"
+  ],
+  "note": "Norton County KS (20137) parcels are not published as a queryable ArcGIS/WFS/OGC service or bulk file. The state ORKA portal for Norton shows only a terms-acceptance disclaimer with no service links; ORKA parcel data requires a per-county request approved by the county, with possible fees. KS_ORKA_Extras has no Norton parcel polygon layer. The county website links only to ORKA. Other parcel sources found are commercial vendors (Regrid, Rockford Map, Equator Studios, acres.com).",
+  "recorded_at": 1792049395552,
+  "recheck_after": 1807601395552,
+  "model": "claude-haiku-5-5"
+}

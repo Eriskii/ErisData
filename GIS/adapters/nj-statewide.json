@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "id": "nj-statewide",
+  "publisher": "NJ Office of GIS (NJOGIS) / NJ Division of Taxation MOD-IV",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.nj.gov/arcgis/rest/services/Framework/Cadastral/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "NJ"
+    ]
+  },
+  "fields": {
+    "apn": "PAMS_PIN",
+    "address": "ST_ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "NET_VALUE"
+  },
+  "notes": "Parcels and MOD-IV Composite of New Jersey, normalized to NJ Treasury MOD-IV. OWNER_NAME is blank in the public layer, so owner is not mapped. Includes COUNTY, MUN_NAME, GIS_PIN, LAND_VAL, IMPRVT_VAL fields.",
+  "verification": {
+    "verified_at": 1792048256703,
+    "counties": [
+      "34001",
+      "34003",
+      "34005",
+      "34007",
+      "34009",
+      "34011",
+      "34013",
+      "34017",
+      "34019",
+      "34021",
+      "34023",
+      "34025",
+      "34027",
+      "34029",
+      "34031",
+      "34033",
+      "34035",
+      "34037",
+      "34039",
+      "34041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

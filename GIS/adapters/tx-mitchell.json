@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-mitchell",
+  "publisher": "Mitchell County Appraisal District (bis_mitchellcad ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/GLd5zlieI7IBJJ6U/arcgis/rest/services/MitchellCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48335"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Mitchell CAD public web service; situs_street holds street name only (situs_num separate). Values from CAD roll.",
+  "verification": {
+    "verified_at": 1792051719666,
+    "counties": [
+      "48335"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

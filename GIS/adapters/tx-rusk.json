@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-rusk",
+  "publisher": "Rusk CAD (ArcGIS Online copy)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/m0KwjhIqrCrtPsZV/arcgis/rest/services/RUSKCOUNTY/FeatureServer/3",
+    "page_size": 250,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "48401"
+    ]
+  },
+  "fields": {
+    "apn": "Name",
+    "owner": "Owner_Name",
+    "address": "Prop_Str_1",
+    "acres": "Acres",
+    "land_use": "Primary_Ca",
+    "assessed_value": "Market_Val"
+  },
+  "notes": "Rusk CAD data hosted on AGOL; unofficial copy",
+  "verification": {
+    "verified_at": 1792052720547,
+    "counties": [
+      "48401"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

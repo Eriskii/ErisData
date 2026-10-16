@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "13225",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://peachcounty.gov/tax-assessors/",
+    "https://www.peachcounty.net/",
+    "https://qpublic.net/ga/peach/",
+    "http://peachcounty.southfire.com/maps.cfm",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=783&LayerID=11819&PageTypeID=1"
+  ],
+  "note": "Peach County GA publishes parcels only through the qPublic/Schneider viewer (proprietary; no public ArcGIS REST, GeoJSON or WFS endpoint visible; the viewer returned 403 to automated reads). The county's own pages link no ArcGIS service or parcel download. ArcGIS Hub/Online searches for Peach County parcels found no county parcel feature service. Only commercial sources (Regrid, DynamoSpatial, Rockford Map, acres.com) offer parcel data, and those are paid.",
+  "recorded_at": 1792048842190,
+  "recheck_after": 1807600842190,
+  "model": "claude-haiku-5-5"
+}

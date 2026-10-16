@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "co-la-plata",
+  "publisher": "La Plata County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.laplata.co.us/arcgis/rest/services/JS_website/CityViewGIS/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08067"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "NAME",
+    "address": "SITE_ADDR",
+    "acres": "ACRES",
+    "land_use": "USE_CODE"
+  },
+  "notes": "La Plata County GIS parcel boundaries (CityViewGIS), public ArcGIS service. Assessed values not mapped (no assessed-value field in layer).",
+  "verification": {
+    "verified_at": 1792048694596,
+    "counties": [
+      "08067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48387",
+  "reason": "login-required",
+  "evidence": [
+    "https://services6.arcgis.com/QegVDgwL3C5CaiQS/arcgis/rest/services/RedRiverCADWebService/FeatureServer/0/query",
+    "https://maps.pandai.com/redrivercad/",
+    "https://rrcad.org/"
+  ],
+  "note": "Red River Appraisal District's parcel service (RedRiverCADWebService, BIS, services6.arcgis.com) returns 'Token Required' on the service root and on /0/query, so it is not public. The district's parcel viewer (maps.pandai.com/redrivercad) is gated by reCAPTCHA. No other public ArcGIS parcel service for Red River County was found in ArcGIS Hub/Online searches; remaining sources are commercial downloads (Regrid, Dynamo, Equator, texascountygisdata).",
+  "recorded_at": 1792051766939,
+  "recheck_after": 1807603766939,
+  "model": "claude-haiku-5-5"
+}

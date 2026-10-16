@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-mcdonough",
+  "publisher": "McDonough County GIS (hosted by WIU GIS Center)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wiu.edu/arcgis/rest/services/mcdonough_highway/MapServer/21",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17109"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_number",
+    "owner": "owner1_name",
+    "address": "site_address",
+    "acres": "gross_acres",
+    "land_use": "class"
+  },
+  "notes": "Public WIU GIS Center service; McDonough County parcels with tax fields",
+  "verification": {
+    "verified_at": 1792048976332,
+    "counties": [
+      "17109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

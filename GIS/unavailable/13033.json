@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13033",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=BurkeCountyGA&Layer=Parcels&PageType=Search",
+    "https://www.qpublic.net/ga/burke/",
+    "https://www.burkecounty-ga.gov/",
+    "https://georgiagisclearinghouse.com/parcels"
+  ],
+  "note": "Burke County GA (FIPS 13033) publishes parcels only through the qPublic/Schneider web viewer, which returns a bot-check (HTTP 403) and exposes no public ArcGIS REST, WFS or downloadable parcel file. The county's official site links only to qPublic. Search of ArcGIS Hub/Online found no Burke County GA parcel service (the Burke County hits are North Carolina's). Commercial vendors (Regrid, DynamoSpatial, Equator, Acres, Rockford) sell parcel files but are not county-published services.",
+  "recorded_at": 1792048787986,
+  "recheck_after": 1807600787986,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-manatee",
+  "publisher": "Manatee County GIS/PAO",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/t03WDvnSR7gSDOB2/arcgis/rest/services/Parcels2/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12081"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNER",
+    "address": "PRIMARY_ADDRESS",
+    "acres": "ACRES",
+    "land_use": "LUC",
+    "assessed_value": "ASSESVAL"
+  },
+  "notes": "Manatee County GIS/PAO parcel layer; public; updated biweekly",
+  "verification": {
+    "verified_at": 1792048823883,
+    "counties": [
+      "12081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

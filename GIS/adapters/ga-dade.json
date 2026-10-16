@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-dade",
+  "publisher": "Dade County GA (2020 parcels, hosted by bgn313_igtlab)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/UnTXoPXBYERF0OH6/arcgis/rest/services/Dade_Parcels_2020LLLT/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13083"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "address": "parcelAddress",
+    "acres": "TOTALACRES"
+  },
+  "notes": "2020 parcel layer for Dade County GA, ArcGIS Online item clipped to an area of interest; no owner or value fields published",
+  "verification": {
+    "verified_at": 1792048744460,
+    "counties": [
+      "13083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

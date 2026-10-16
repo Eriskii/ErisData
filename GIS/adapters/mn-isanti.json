@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-isanti",
+  "publisher": "Isanti County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.isanti.mn.us/arcgis/rest/services/LandRecords/TaxParcels_Public/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27059"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "address": "PSTLADDRESS",
+    "acres": "DEEDEDACRES",
+    "land_use": "PRIMARYUSECODE",
+    "assessed_value": "CNTASSDVAL"
+  },
+  "notes": "Isanti County tax parcels, public ArcGIS service; updated nightly. address is the owner mailing address (PSTLADDRESS) because SITEADDRESS is blank on many parcels (vacant lots).",
+  "verification": {
+    "verified_at": 1792050886333,
+    "counties": [
+      "27059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

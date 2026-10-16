@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48115",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.dawsoncad.org/home/DataRecords",
+    "https://www.dawsoncad.org/home/map",
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap19_land_parcels_48/MapServer"
+  ],
+  "note": "No public ArcGIS service for Dawson CAD; the CAD map is empty, StratMap requires a token, and the only CAD shapefile yields 0 parcels in any supported EPSG (likely State Plane).",
+  "recorded_at": 1792051754256,
+  "recheck_after": 1807603754256,
+  "model": "claude-sonnet-5-5"
+}

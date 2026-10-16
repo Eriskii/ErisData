@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "72147",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.arcgis.com/sharing/rest/content/items/acf043a178254fcdad6708be3e8ab51c/data?f=json",
+    "https://github.com/openaddresses/openaddresses/issues/2894",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://app.regrid.com/store/us/pr/vieques"
+  ],
+  "note": "CRIM Parcelas FeatureServer at satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/FeatureServer/0 returns HTTP 404, as do all satasgis service directories; sige.pr.gov and sigejp.pr.gov CRIM parcelario are unreachable or 'not started'. Only paid Vieques parcel downloads (Regrid, DynamoSpatial) were found. The Junta de Planificacion Parcelas layer (207 features) has none in the Vieques bbox.",
+  "recorded_at": 1792052181731,
+  "recheck_after": 1807604181731,
+  "model": "claude-haiku-5-5"
+}

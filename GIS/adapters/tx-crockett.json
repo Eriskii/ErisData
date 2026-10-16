@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-crockett",
+  "publisher": "TxGIO Texas Land Parcels (Crockett CAD data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 50,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48105"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA"
+  },
+  "filter": "COUNTY = 'Crockett'",
+  "notes": "Crockett CAD data via TxGIO; value and land use not populated; small page size needed for speed",
+  "verification": {
+    "verified_at": 1792053553697,
+    "counties": [
+      "48105"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

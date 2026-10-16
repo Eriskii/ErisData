@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nv-esmeralda",
+  "publisher": "Nevada Division of Water Resources (County Parcels in Nevada, sourced from Regrid)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.water.nv.gov/arcgis/rest/services/BaseLayers/County_Parcels_in_Nevada/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32009"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "address": "SiteCity",
+    "acres": "Acres"
+  },
+  "filter": "County = 'Esmeralda'",
+  "notes": "Statewide NV parcel layer filtered to County Esmeralda. Source Regrid (March 2025). Metadata restricts sharing of parcel data under NRS 250; no owner or assessed value fields in this layer.",
+  "verification": {
+    "verified_at": 1792051341694,
+    "counties": [
+      "32009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

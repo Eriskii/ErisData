@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48125",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap_land_parcels_48_most_recent/MapServer/0",
+    "https://feature.tnris.org/arcgis/rest/services/Parcels/stratmap25_land_parcels_48/MapServer?f=pjson",
+    "https://gisdata.pandai.com/pamaps02/rest/services/Dickens/DickensCADPublic/MapServer"
+  ],
+  "note": "Dickens County parcels are not usable as a public query service. The only public statewide parcel layer (TxGIO StratMap 48 Most Recent, feature.geographic.texas.gov) lists geometry and Dickens County attributes but refuses every query (JSON, GeoJSON, PBF, objectIds, count-only): 'Requested operation is not supported by this service.' The 2025 StratMap service on feature.tnris.org was unreachable from the validator. The Dickens CAD public map service (gisdata.pandai.com) returns 'Token Required'. Dickens CAD's own site says its mapping system is still under development. Commercial sources (Regrid, Dynamo Spatial, texascountygisdata.com, TaxNetUSA Pro) are paid or login-gated and were not used.",
+  "recorded_at": 1792051760954,
+  "recheck_after": 1807603760954,
+  "model": "claude-haiku-5-5"
+}

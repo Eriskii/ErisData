@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "48307",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.mccullochcad.org/home/map",
+    "https://www.mccullochcad.org/home/DataRecords",
+    "https://www.arcgis.com/sharing/rest/search?q=McCullochCADWebService&f=json",
+    "https://services8.arcgis.com/9pNClJ36UGcgthXy/arcgis/rest/services/10355_mcculloch_parcels_lightbox/FeatureServer/0",
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap_land_parcels_48_most_recent/MapServer/0"
+  ],
+  "note": "McCulloch CAD's web map parcel service (utility.arcgis.com McCullochCADWebService) returns 403 to public queries. The only public parcel layer found (ArcGIS Online Lightbox, 49 features) is a partial sample, and the validation sample near the county interior point found no parcels. The statewide StratMap 2025 'most recent' layer, which covers FIPS 48 and includes FIPS 48307, advertises query but refuses every query with 'capability not supported'. The TNRIS and TxGIO hosts were unreachable or returned errors, and the only full McCulloch parcel sources are paid vendors.",
+  "recorded_at": 1792051933347,
+  "recheck_after": 1807603933347,
+  "model": "claude-haiku-5-5"
+}

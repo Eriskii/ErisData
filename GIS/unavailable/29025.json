@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "29025",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://caldwellcountymo.municipalonlinepayments.com/caldwellcountymo/tax/search",
+    "https://tiles.arcgis.com/tiles/KzeiCaQsMoeCfoCq/arcgis/rest/services/Regrid_Nationwide_Parcel_Boundaries_v1/MapServer",
+    "https://www.acres.com/plat-map/map/mo/caldwell-county-mo",
+    "https://www.dynamospatial.com/c/caldwell-county-mo/parcel-data",
+    "https://landrecords.us/documentation/coverage/counties/29-025-caldwell",
+    "https://app.regrid.com/store/us/mo/caldwell"
+  ],
+  "note": "Searched ArcGIS Hub/Online (county and MO-wide) and web for Caldwell County MO parcel services. Found no public parcel polygon FeatureServer/MapServer for Caldwell County MO. The only parcel polygon sources are commercial vendors (Regrid, Dynamo, Acres, landrecords, mappingsolutionsgis, reportallusa) that sell downloads. The Regrid nationwide ArcGIS Online MapServer exposes no query endpoint (404 on query). The county's tax search (Tyler Municipal Online) is a name/parcel-number lookup with no polygons. Caldwell County website did not yield a GIS link. Neighbouring-county searches (Ray, Livingston, Clinton, Daviess) also found no public REST services.",
+  "recorded_at": 1792050999143,
+  "recheck_after": 1807602999143,
+  "model": "claude-haiku-5-5"
+}

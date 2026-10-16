@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "20075",
+  "reason": "login-required",
+  "evidence": [
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Hamilton",
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer",
+    "https://map.netronline.com/kansas-hamilton/20075",
+    "https://gis.equatorstudios.com/kansas_hamilton/",
+    "https://app.regrid.com/store/us/ks/hamilton"
+  ],
+  "note": "Searched ArcGIS Hub/Online, ORKA (Kansas state appraiser parcel portal), statewide services.kansasgis.org and mapserver.kansasgis.org folders, NETR, and county pages. ORKA county parcel data requires registration on PORKA; its KS_ORKA_Extras service has only subdivision, lot and annotation layers, no Hamilton County tax parcel polygons. Only commercial vendors (Equator, Dynamo, Rockford, Regrid) offer Hamilton County KS parcels; Regrid's nationwide tile service is not queryable. No public queryable parcel service or free county file was found.",
+  "recorded_at": 1792049364892,
+  "recheck_after": 1807601364892,
+  "model": "claude-haiku-5-5"
+}

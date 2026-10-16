@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-blueearth",
+  "publisher": "Blue Earth County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.blueearthcountymn.gov/server/rest/services/LandRecords/TaxParcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27013"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNo",
+    "owner": "Name"
+  },
+  "notes": "Blue Earth County MN public ArcGIS REST TaxParcels layer. Owner-level attributes not exposed on this layer; Name field used as owner label. Acreage not mapped (layer exposes only geometry area in square metres).",
+  "verification": {
+    "verified_at": 1792050913270,
+    "counties": [
+      "27013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

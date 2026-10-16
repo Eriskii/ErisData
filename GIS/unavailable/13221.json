@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13221",
+  "reason": "login-required",
+  "evidence": [
+    "https://services1.arcgis.com/IX9GvidKl201KteW/arcgis/rest/services/Oglethorpe_Parcels_view/FeatureServer",
+    "https://services1.arcgis.com/IX9GvidKl201KteW/arcgis/rest/services/Tax_Parcels/FeatureServer/0",
+    "https://services1.arcgis.com/IX9GvidKl201KteW/arcgis/rest/services/oglethorpe_county/FeatureServer",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=758&LayerID=11794&PageTypeID=1"
+  ],
+  "note": "Oglethorpe County's own ArcGIS Online account (services1.arcgis.com/IX9GvidKl201KteW) hosts parcel layers (Oglethorpe_Parcels_view, Tax_Parcels, oglethorpe_county), but every one returns 'Token Required' to anonymous requests. The county's public parcel viewer is qPublic (Schneider), which returns a Cloudflare 403 and exposes no REST endpoint. Searches found only commercial vendors (Regrid, DynamoSpatial, ReportAllUSA), not county-published data. Access requires a token/login, so the county is recorded as unavailable.",
+  "recorded_at": 1792048850600,
+  "recheck_after": 1807600850600,
+  "model": "claude-haiku-5-5"
+}

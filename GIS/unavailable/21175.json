@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21175",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.net/ky/morgan/",
+    "https://qpublic.net/ky/morgan/links.html",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=sitemap",
+    "https://web5.kcsgis.com/kcsgis/rest/services/Morgan/Public/MapServer"
+  ],
+  "note": "Morgan County KY (FIPS 21175) parcels are only shown in the qPublic/Schneider PVA viewer, which is proprietary and not a public ArcGIS REST service. The state kygisserver hosts PVA parcels only for Webster County. The kcsgis Morgan/Public MapServer is Morgan County, Alabama (references Hartselle), not Kentucky. The county website and services page link no GIS service. Commercial sources (Regrid, Rockford Map) are not county publications.",
+  "recorded_at": 1792049893866,
+  "recheck_after": 1807601893866,
+  "model": "claude-haiku-5-5"
+}

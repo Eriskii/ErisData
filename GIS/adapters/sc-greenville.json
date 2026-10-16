@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sc-greenville",
+  "publisher": "Greenville County GIS (GCGIA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/YQLyddqtM8cTAr6Y/arcgis/rest/services/Greenville_Base_Data11102023_WFL1/FeatureServer/33",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45045"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNAM1",
+    "address": "LOCATE",
+    "acres": "TACRES",
+    "land_use": "LANDUSE",
+    "assessed_value": "FAIRMKTVAL"
+  },
+  "notes": "Tax Parcel-Greenville County layer from Greenville_Base_Data FeatureServer; source spatial ref 6570",
+  "verification": {
+    "verified_at": 1792051642882,
+    "counties": [
+      "45045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-montague",
+  "publisher": "Texas Geographic Information Office (TxGIO) statewide land parcels, from Montague County Appraisal District data",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48337"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA"
+  },
+  "filter": "FIPS = '48337'",
+  "notes": "TxGIO statewide land parcels (source: Montague Appraisal District, tax year 2024); filtered by FIPS. Market value and land use fields are empty for Montague in this source, so not mapped.",
+  "verification": {
+    "verified_at": 1792051715291,
+    "counties": [
+      "48337"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

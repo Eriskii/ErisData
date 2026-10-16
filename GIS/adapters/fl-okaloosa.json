@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-okaloosa",
+  "publisher": "Okaloosa County GIS parcels (Parcels layer, Okaloosa Gas/Okaloosa GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/fsvJfv4JtlL2ZmFY/arcgis/rest/services/Parcels_03JUN2026/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12091"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "OwnerName",
+    "address": "PhysicalAddress",
+    "acres": "CalculatedAcres",
+    "land_use": "UseDescription"
+  },
+  "filter": "County = 'OKALOOSA'",
+  "notes": "Parcel layer covering Okaloosa, Santa Rosa, Walton counties",
+  "verification": {
+    "verified_at": 1792049589665,
+    "counties": [
+      "12091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

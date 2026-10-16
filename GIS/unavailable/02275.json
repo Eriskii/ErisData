@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "02275",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services7.arcgis.com/7cBSaoaaRaH5ojZy/arcgis/rest/services/Parcels/FeatureServer/0",
+    "https://services1.arcgis.com/7HDiw78fcUiM2BWn/arcgis/rest/services/AK_Parcels/FeatureServer"
+  ],
+  "note": "Wrangell publishes a town-only assessor parcel layer (2,437 polygons) but it has no parcels within 0.12 deg of the validator sample point (-131.67534,56.26879, unparcelled Stikine mainland); validation failed with 0 parcels, and the statewide AK_Parcels and shapefile compilations also have none there. Layer is usable if a town sample point is allowed.",
+  "recorded_at": 1792048543239,
+  "recheck_after": 1807600543239,
+  "model": "claude-sonnet-5-5"
+}

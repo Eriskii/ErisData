@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sc-beaufort",
+  "publisher": "Beaufort County GIS (SC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.beaufortcountysc.gov/server/rest/services/Hosted/AddressParcels/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45013"
+    ]
+  },
+  "fields": {
+    "apn": "PIN_",
+    "owner": "Owner1",
+    "address": "situsaddress",
+    "acres": "GIS_ACRES",
+    "land_use": "ClassCode",
+    "assessed_value": "Assessed"
+  },
+  "notes": "Beaufort County SC parcels from county AddressParcels hosted service, layer 1 Parcels. Public county GIS.",
+  "verification": {
+    "verified_at": 1792051574063,
+    "counties": [
+      "45013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

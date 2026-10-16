@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ne-cedar",
+  "publisher": "Cedar County NE Assessor (GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Cedar_County_NE_Assessor/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31027"
+    ]
+  },
+  "fields": {
+    "apn": "PID"
+  },
+  "notes": "Cedar County NE assessor parcel polygons via gworks MapServer layer 6; about 9,879 features; only PID and PIDNUM attributes published",
+  "verification": {
+    "verified_at": 1792051181320,
+    "counties": [
+      "31027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

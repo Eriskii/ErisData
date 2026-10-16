@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ne-knox",
+  "publisher": "Knox County NE Assessor (via NE statewide parcels, gWorks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis2.gworks.com/arcgis/rest/services/Statewide_NE_MGMT/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31107"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "CURRENT_OWNER_NAME",
+    "acres": "acres",
+    "land_use": "PROPERTY_TYPE",
+    "assessed_value": "TOTAL_ASSESSED_VALUE"
+  },
+  "filter": "COUNTY = 'Knox'",
+  "notes": "Statewide Nebraska parcel layer filtered to Knox County; situs address mostly empty for rural parcels",
+  "verification": {
+    "verified_at": 1792051320290,
+    "counties": [
+      "31107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

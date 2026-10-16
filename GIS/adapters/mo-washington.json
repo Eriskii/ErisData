@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mo-washington",
+  "publisher": "Washington County, MO (via SEMO GIS)",
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://maps.semogis.com/server/rest/services/Washington_CO/WashingtonCo_Assessment/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "29221"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "NAME1",
+    "address": "SITUSADDRE",
+    "acres": "GIS_Ac",
+    "land_use": "TAX_CODE",
+    "assessed_value": "TOTAL_VALU"
+  },
+  "notes": "Washington County MO tax assessment parcels; last update January 31, 2017",
+  "verification": {
+    "verified_at": 1792051068442,
+    "counties": [
+      "29221"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

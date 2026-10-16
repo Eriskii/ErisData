@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "02198",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services8.arcgis.com/jzbhhVHDe3lCCWFT/arcgis/rest/services/AK_Statewide_Parcels/FeatureServer/0",
+    "https://services1.arcgis.com/7HDiw78fcUiM2BWn/arcgis/rest/services/AK_Parcels/FeatureServer/0",
+    "https://dnr.alaska.gov/mlw/planning/areaplans/wales/"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Prince of Wales-Hyder parcels; found no county or census-area parcel service. The two statewide Alaska parcel compilations (AK_Statewide_Parcels, AK_Parcels) contain no Prince of Wales records: a bounding-box query over Prince of Wales Island returns 1 feature in AK_Statewide_Parcels and 0 in AK_Parcels, and no Craig/Klawock/Thorne Bay city records. The census area is unorganized borough with no county assessor publishing parcels as a queryable service.",
+  "recorded_at": 1792048526970,
+  "recheck_after": 1807600526970,
+  "model": "claude-haiku-5-5"
+}

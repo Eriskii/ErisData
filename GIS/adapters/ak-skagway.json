@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ak-skagway",
+  "publisher": "Municipality of Skagway GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/cUHUWk42bzkg9QL1/arcgis/rest/services/Lots_view/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02230"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUM",
+    "owner": "OWN",
+    "acres": "Acre",
+    "land_use": "ZONING",
+    "assessed_value": "TTLVALUE"
+  },
+  "filter": "PARCELNUM IS NOT NULL AND PARCELNUM <> ' '",
+  "notes": "Lots layer from Skagway Municipality ArcGIS Online (Lots_view). Filtered to lots with a parcel number. Includes 2024 assessed values; land use field is zoning.",
+  "verification": {
+    "verified_at": 1792048413737,
+    "counties": [
+      "02230"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

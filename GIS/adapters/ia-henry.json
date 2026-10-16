@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-henry",
+  "publisher": "Iowa Department of Homeland Security & Emergency Management (hosted by University of Iowa), Henry County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19087"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'HENRY'",
+  "notes": "2017 statewide parcel file filtered to Henry County; COUNTYNAME is the county field. Address and value fields are not present in this layer.",
+  "verification": {
+    "verified_at": 1792049292483,
+    "counties": [
+      "19087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

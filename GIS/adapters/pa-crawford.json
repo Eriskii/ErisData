@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-crawford",
+  "publisher": "Crawford County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/CcJI8wbz22fo71LO/arcgis/rest/services/CivQuest_Core/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42039"
+    ]
+  },
+  "fields": {
+    "apn": "CAMA_PIN",
+    "owner": "REM_OWN_NAME",
+    "address": "REM_PRCL_LOCN",
+    "acres": "GIS_ACRES",
+    "land_use": "LND_USE_DESC",
+    "assessed_value": "PRC_TTL_ASSESS"
+  },
+  "notes": "Crawford County PA open data tax parcels with CAMA; approximate, not survey quality",
+  "verification": {
+    "verified_at": 1792051608141,
+    "counties": [
+      "42039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

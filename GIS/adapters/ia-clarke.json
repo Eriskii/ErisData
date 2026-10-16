@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-clarke",
+  "publisher": "Iowa DHS&EM statewide parcels (2017 compilation), Clarke County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19039"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'CLARKE'",
+  "notes": "Statewide Iowa parcel layer filtered to Clarke County (COUNTYNAME CLARKE, about 12,054 parcels). Source 2017 compilation; no address, acres or value fields.",
+  "verification": {
+    "verified_at": 1792049292589,
+    "counties": [
+      "19039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-howell",
+  "publisher": "Howell County Missouri (Cityofwp3 ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/vlbfeUFWgxfykYSC/arcgis/rest/services/Howell_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29091"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "owner": "name",
+    "address": "situs",
+    "acres": "acreage"
+  },
+  "notes": "Public ArcGIS Online feature service; parcel polygons for Howell County MO",
+  "verification": {
+    "verified_at": 1792050954708,
+    "counties": [
+      "29091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

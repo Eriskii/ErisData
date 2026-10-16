@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-tyrrell",
+  "publisher": "NC OneMap - Tyrrell County parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37177"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37177' AND gisacres < 500",
+  "notes": "Excludes tracts >=500 acres so sample-box location check can pass",
+  "verification": {
+    "verified_at": 1792051544478,
+    "counties": [
+      "37177"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

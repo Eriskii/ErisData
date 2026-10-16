@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wa-douglas",
+  "publisher": "WA Geospatial Services (WA DOR statewide tax parcels), Douglas County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/jsIt88o09Q0r1j8h/arcgis/rest/services/Current_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53017"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID_NR",
+    "land_use": "LANDUSE_CD"
+  },
+  "filter": "FIPS_NR = '017'",
+  "notes": "WA DOR statewide parcels filtered to Douglas County (FIPS_NR 017). Situs address and owner name are not populated in this layer for Douglas, so not mapped.",
+  "verification": {
+    "verified_at": 1792053133605,
+    "counties": [
+      "53017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

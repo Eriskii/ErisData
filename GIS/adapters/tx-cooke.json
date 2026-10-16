@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-cooke",
+  "publisher": "Cooke County (PilotPointTx hosted parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/EYTIgi02HN6AuvRN/arcgis/rest/services/Cooke_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48097"
+    ]
+  },
+  "fields": {
+    "apn": "pid",
+    "owner": "fileasname",
+    "address": "streetnam",
+    "acres": "legalacre",
+    "land_use": "marketarea",
+    "assessed_value": "ownermarke"
+  },
+  "notes": "Hosted Cooke County Parcels feature service; 336 features in layer",
+  "verification": {
+    "verified_at": 1792051767357,
+    "counties": [
+      "48097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

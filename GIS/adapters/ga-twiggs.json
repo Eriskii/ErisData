@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-twiggs",
+  "publisher": "Twiggs County GIS (via Middle Georgia Regional Commission)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services/Twiggs_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13289"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "LASTNAME",
+    "address": "ADDRESS",
+    "acres": "TOTALACRES_1",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Data from Tax Assessor, Aug 2024; ArcGIS Online hosted by MGRC",
+  "verification": {
+    "verified_at": 1792048839164,
+    "counties": [
+      "13289"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

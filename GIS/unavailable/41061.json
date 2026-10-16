@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "41061",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gis.odf.oregon.gov/ags1/rest/services/WebMercator/TaxlotsDisplay/MapServer/30",
+    "https://unioncountyor.gov/dl/gis/download.php"
+  ],
+  "note": "Union County (OR) tax lots appear only as a display layer (ODF TaxlotsDisplay MapServer layer 30); the service refuses every query request ('Requested operation is not supported by this service', tested with JSON and geoJSON), so no parcel features or attributes can be read. The county's own parcel downloads (Accounts.shp.zip, UnionCounty.gdb.zip) are behind a terms-acknowledgement page with an arithmetic captcha, which I did not work around. No other public queryable Union County parcel service was found.",
+  "recorded_at": 1792051541952,
+  "recheck_after": 1807603541952,
+  "model": "claude-haiku-5-5"
+}

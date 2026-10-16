@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ut-wayne",
+  "publisher": "UGRC / Wayne County (Parcels LIR)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Wayne_LIR/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49055"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "acres": "PARCEL_ACRES",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "TOTAL_MKT_VALUE"
+  },
+  "notes": "Utah AGRC LIR parcels for Wayne County with tax roll attributes; PARCEL_ADD is sparse (about 24% filled) so address is not mapped; no owner field in this layer",
+  "verification": {
+    "verified_at": 1792052733850,
+    "counties": [
+      "49055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

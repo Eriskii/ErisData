@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-coffee",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (STS-GIS) statewide property boundaries",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47031"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_NAME = 'COFFEE'",
+  "notes": "Statewide TN property boundaries layer filtered to Coffee County by COUNTY_NAME.",
+  "verification": {
+    "verified_at": 1792052123760,
+    "counties": [
+      "47031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

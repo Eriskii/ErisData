@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13119",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=FranklinCountyGA&Layer=Parcels&PageType=Search",
+    "https://data-franklincova.opendata.arcgis.com/",
+    "https://www.dynamospatial.com/c/franklin-county-ga/parcel-data"
+  ],
+  "note": "Franklin County GA parcels are published only through the Schneider qPublic viewer, which returned HTTP 403 to automated requests and exposes no public ArcGIS REST service. The county's ArcGIS Open Data Hub and its GIS Map FeatureServer contain no Georgia parcel layer: the Parcels layer found (services2.arcgis.com/Y0fDSibEfxdu2Ya6, Franklin_County_GIS_Map/FeatureServer/8) is Franklin County, Indiana (COUNTY_ID 16, Indiana coordinates). The only other parcel sources are commercial (Dynamo Spatial, Regrid).",
+  "recorded_at": 1792048822886,
+  "recheck_after": 1807600822886,
+  "model": "claude-haiku-5-5"
+}

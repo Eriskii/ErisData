@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-calcasieu",
+  "publisher": "Calcasieu Parish Government (CPPJ GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://lak-dc-arcgis2.cppj.net/arcgis/rest/services/HubLayers/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22019"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "NAME",
+    "address": "PHYSICALAD",
+    "assessed_value": "ASSESSMENT"
+  },
+  "notes": "Parish parcel polygons; fields from HubLayers/Parcels layer. Address fields may be partly blank.",
+  "verification": {
+    "verified_at": 1792049828704,
+    "counties": [
+      "22019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

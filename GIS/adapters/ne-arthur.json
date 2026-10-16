@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ne-arthur",
+  "publisher": "Nebraska statewide parcels (county submissions), Arthur County 005",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ne.gov/Enterprise/rest/services/StatewideParcelsExternal/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31005"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '005'",
+  "notes": "Nebraska statewide parcel layer compiled from county assessor data (2025); filtered to County_ID 005 (Arthur). Situs address and owner are sparse or absent in this layer.",
+  "verification": {
+    "verified_at": 1792051155149,
+    "counties": [
+      "31005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

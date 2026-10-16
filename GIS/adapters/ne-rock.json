@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-rock",
+  "publisher": "Rock County Assessor (gWorks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Rock_County_NE_Assessor/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31149"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "Rock County NE assessor parcels via gWorks public MapServer; approximate, not for official use per viewer disclaimer. Only PID and acres published.",
+  "verification": {
+    "verified_at": 1792051160633,
+    "counties": [
+      "31149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

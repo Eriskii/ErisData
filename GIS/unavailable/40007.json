@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40007",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://beaver.okcounties.org/offices/county-assessor",
+    "https://beaver.okcounties.org/maps",
+    "https://okmaps.org/ogi/search.aspx",
+    "https://tiles.arcgis.com/tiles/KzeiCaQsMoeCfoCq/arcgis/rest/services/Regrid_Nationwide_Parcel_Boundaries_v1/MapServer/0",
+    "https://www.acres.com/plat-map/map/ok/beaver-county-ok"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Beaver County OK parcels. County assessor site links only static PDF maps and a records search, no GIS service. Statewide OK parcels (okmaps.org) are viewing/WMS only, not downloadable or queryable. Only ArcGIS parcel layer found is commercial Regrid nationwide MapServer, which has no query endpoint (404). Commercial plat sites (Acres, FBN, Rockford, Equator, MappingSolutions, Dynamo) have no public service. The services7 Parcels layer found is Dumfries, VA.",
+  "recorded_at": 1792051495056,
+  "recheck_after": 1807603495056,
+  "model": "claude-haiku-5-5"
+}

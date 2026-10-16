@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pr-ponce",
+  "publisher": "CRIM / Municipio de Ponce GIS (Poncegis)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/QzuqnWYL9YGM618L/arcgis/rest/services/GEO_PONCE_gdb/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72113"
+    ]
+  },
+  "fields": {
+    "apn": "NUM_CATAST",
+    "owner": "CONTACT",
+    "address": "DIRECCION_",
+    "assessed_value": "TOTALVAL"
+  },
+  "notes": "Property-tax parcel layer (PARCELAS_MAP) from Ponce municipal GIS; EPSG 3857 geometry; no acreage or land-use field, Shape__Area in m2.",
+  "verification": {
+    "verified_at": 1792051995436,
+    "counties": [
+      "72113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

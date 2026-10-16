@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "az-maricopa",
+  "publisher": "Maricopa County Assessor (via mapgeohub ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Parcels_-_Maricopa_County_Arizona_(2021)/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04013"
+    ]
+  },
+  "fields": {
+    "apn": "APN"
+  },
+  "notes": "2021 parcel boundaries from Maricopa County Assessor; address mostly blank (about 15% filled); owner, land use, value and area units not published in this layer",
+  "verification": {
+    "verified_at": 1792048542300,
+    "counties": [
+      "04013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

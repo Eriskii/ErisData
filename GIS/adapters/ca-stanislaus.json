@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-stanislaus",
+  "publisher": "Stanislaus County GIS (via ArcGIS Online, Parcels - CA - Stanislaus County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/EeYBJFxLdUojipYa/arcgis/rest/services/Public_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06099"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "address": "Situs_Address",
+    "acres": "StatedArea"
+  },
+  "notes": "Stanislaus County parcels hosted on ArcGIS Online; no owner or assessed value fields in this layer",
+  "verification": {
+    "verified_at": 1792048660674,
+    "counties": [
+      "06099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "01093",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer",
+    "https://services7.arcgis.com/y6YW10u0XkJDr4YY/arcgis/rest/services/Parcels_North_Alabama/FeatureServer",
+    "https://tiles.arcgis.com/tiles/KzeiCaQsMoeCfoCq/arcgis/rest/services/Regrid_Nationwide_Parcel_Boundaries_v1/MapServer"
+  ],
+  "note": "Searched ArcGIS Hub and Online (arcgis search 'Marion County Alabama', 'Marion County AL parcels', 'Alabama parcels', 'Marion AL tax parcels'), the ArcGIS Online sharing search, and web search. The only Alabama county-parcel service found (PowerSouth Alabama_Parcel_Data, one layer per county) has no Marion County layer; its layer IDs for Marion's alphabetic slot (31, 34, 35) refuse access. The Marion County AL domains (marioncountyal.gov, gis.marioncountyal.gov) were unreachable. The Regrid nationwide layer is not queryable. No public parcel service for Marion County, AL was found.",
+  "recorded_at": 1792048410221,
+  "recheck_after": 1807600410221,
+  "model": "claude-haiku-5-5"
+}

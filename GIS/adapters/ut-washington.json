@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-washington",
+  "publisher": "Washington County, UT GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://agisprodvm.washco.utah.gov/arcgis/rest/services/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49053"
+    ]
+  },
+  "fields": {
+    "apn": "ACCOUNT",
+    "acres": "SHAPE.STArea()"
+  },
+  "filter": "ACCOUNT IS NOT NULL",
+  "notes": "County-hosted parcel polygons; apn is the county account number; features without an account number (non-tax parcels) are excluded; attributes limited to account and subdivision",
+  "verification": {
+    "verified_at": 1792052298172,
+    "counties": [
+      "49053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

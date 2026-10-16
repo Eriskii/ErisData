@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-taylor",
+  "publisher": "Iowa DHS-HSEMD (hosted by University of Iowa), Taylor County extract",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19173"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Taylor'",
+  "notes": "Statewide Iowa parcel layer filtered to COUNTYNAME Taylor (about 16,474 parcels)",
+  "verification": {
+    "verified_at": 1792049291530,
+    "counties": [
+      "19173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

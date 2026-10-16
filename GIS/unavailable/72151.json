@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "72151",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0/query?where=1%3D1&returnCountOnly=true&f=json",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer?f=json",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/MapServer/0",
+    "https://www.arcgis.com/sharing/rest/content/items/177a03ea0b31411cafe5596fe710790d/data?f=json"
+  ],
+  "note": "CRIM (Centro de Recaudación de Ingresos Municipales) publishes Puerto Rico parcel polygons (Parcelario, CRIM 2018, EPSG:32161) as ArcGIS services, but the sigejp.pr.gov and sige.pr.gov endpoints return 'Service crim/crim_parcelas/MapServer not started' (HTTP 500 JSON) on every query. The satasgis.crimpr.net parcel layers return 404 or are unreachable. The gis.pr.gov WFS (geoserver2.pr.gov pr_geodata) has no working CRIM parcel layer, and no Yabucoa-specific municipal parcel service exists. Only commercial sources (Regrid, landrecords.us) remain.",
+  "recorded_at": 1792052188700,
+  "recheck_after": 1807604188700,
+  "model": "claude-haiku-5-5"
+}

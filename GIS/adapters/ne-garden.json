@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ne-garden",
+  "publisher": "State of Nebraska (NebraskaMAP) Statewide Parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ne.gov/Enterprise/rest/services/StatewideParcelsExternal/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31069"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '069'",
+  "notes": "Statewide 2025 parcel layer compiled from county data; Garden County County_ID is 069. Situs address is empty for rural Garden parcels, so not mapped.",
+  "verification": {
+    "verified_at": 1792051177122,
+    "counties": [
+      "31069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

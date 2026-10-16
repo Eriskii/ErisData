@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "il-will",
+  "publisher": "Will County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.willcountyillinois.com/server/rest/services/Basemap/Parcels_20/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17197"
+    ]
+  },
+  "fields": {
+    "apn": "PIN"
+  },
+  "notes": "Will County GIS parcel polygons (levy-year tax map parcels). Source has PIN and ParcelID only; no owner/address/acres fields published on this layer.",
+  "verification": {
+    "verified_at": 1792048994177,
+    "counties": [
+      "17197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

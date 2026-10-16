@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20193",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Thomas",
+    "https://thomascountyks.gov/",
+    "https://gis.equatorstudios.com/kansas_thomas/",
+    "https://www.dynamospatial.com/c/thomas-county-ks/parcel-data",
+    "https://app.regrid.com/store/esri/us/ks/thomas"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Thomas County KS parcels. Thomas County KS's official site (thomascountyks.gov) links no GIS or parcel service. Its parcel viewer is the state ORKA portal (kansasgis.org/orka), which requires accepting a Kansas Open Records Act statement and does not expose a public REST parcel layer. The only parcel downloads found are commercial (Dynamo Spatial, Equator, Regrid, Rockford Map, Acres). The thomascountymaps.org ArcGIS server with a Base_Parcels layer appears to be Thomas County, Georgia (Times-Enterprise article, state plane 2240); it is not Kansas. No county-published queryable parcel service or file for Thomas County, KS was found.",
+  "recorded_at": 1792049493340,
+  "recheck_after": 1807601493340,
+  "model": "claude-haiku-5-5"
+}

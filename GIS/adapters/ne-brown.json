@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-brown",
+  "publisher": "Brown County, NE Assessor (GeoGraphics Works)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Brown_County_NE_Assessor/MapServer/28",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31017"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "ACRES"
+  },
+  "notes": "Brown County NE assessor parcel layer hosted on mapserver01.gworks.com; only PID and ACRES fields exposed; no owner or address in this layer.",
+  "verification": {
+    "verified_at": 1792051168846,
+    "counties": [
+      "31017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

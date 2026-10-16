@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13227",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=PickensCountyGA&Layer=Parcels&PageType=Search",
+    "https://www.qpublic.net/ga/pickens/search.html",
+    "https://pickensassessor.org/",
+    "https://www.dynamospatial.com/c/pickens-county-ga/parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub and Online for Pickens County GA parcels; only a Pickens Structures point service and a critical infrastructure service were found (services9.arcgis.com/uUkF1ujSTIH0KtfM), no parcel layer. Pickens County parcels are published through the Schneider qPublic/Beacon viewer, a proprietary viewer with no public REST endpoint found (Cloudflare-blocked on fetch). Commercial vendors (Dynamo, Mapping Solutions, Regrid) sell paid files only. Neighbour hosts (Bartow, Cherokee) do not carry Pickens parcels.",
+  "recorded_at": 1792048910460,
+  "recheck_after": 1807600910460,
+  "model": "claude-haiku-5-5"
+}

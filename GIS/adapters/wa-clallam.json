@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wa-clallam",
+  "publisher": "Clallam County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/noCZ2SM2C0rVag8y/arcgis/rest/services/Parcel_Published_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53009"
+    ]
+  },
+  "fields": {
+    "apn": "GEO_12",
+    "acres": "ACRES_GIS",
+    "assessed_value": "MKT_VALUE"
+  },
+  "notes": "Clallam County public parcel layer without landowner or site address; GEO_12 is parcel number; MKT_VALUE total market value; source spatial ref 2926 served as geoJSON",
+  "verification": {
+    "verified_at": 1792053106742,
+    "counties": [
+      "53009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

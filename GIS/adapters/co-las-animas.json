@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "co-las-animas",
+  "publisher": "Las Animas County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/NWWOCaXnjdetEWUz/arcgis/rest/services/LasAnimasParcels/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08071"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNum",
+    "owner": "NAME",
+    "acres": "CalcAcres",
+    "land_use": "ACCTTYPE"
+  },
+  "filter": "ParcelNum <> '-99999' AND ACCOUNTNO IS NOT NULL AND Shape__Area > 5 * Shape__Length AND CalcAcres < 1000",
+  "notes": "County ArcGIS Online parcels (State Plane CO South ft source, 18,159 features). KNOWN LIMITATION: source has invalid (self-overlapping/multi-part) geometry on many large parcels. Filter keeps only rows with a tax account number, drops placeholder ParcelNum -99999 rows and zero-width sliver polygons (area < 5 x perimeter), and drops parcels >= 1000 acres, which are the ones with invalid geometry; large ranch parcels are therefore missing. Situs address is almost empty in source so address is not mapped.",
+  "verification": {
+    "verified_at": 1792048967608,
+    "counties": [
+      "08071"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

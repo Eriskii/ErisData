@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-watonwan",
+  "publisher": "Watonwan County GIS (911Map service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/KjkKqqLmb3VPIWHp/arcgis/rest/services/911Map/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27165"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "TAXACRES"
+  },
+  "notes": "Watonwan County 911Map FeatureServer parcels layer (8202 features, EPSG:26915). Owner name (TAXPAYER_1) is populated for only a small share of records, so it is not mapped.",
+  "verification": {
+    "verified_at": 1792050986582,
+    "counties": [
+      "27165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

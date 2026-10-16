@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-hooker",
+  "publisher": "Hooker County Assessor (gworks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Hooker_County_NE_Assessor/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31091"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "Hooker County NE assessor parcel layer via gworks public GIS; only PID and acres published; no owner/address fields.",
+  "verification": {
+    "verified_at": 1792051167257,
+    "counties": [
+      "31091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

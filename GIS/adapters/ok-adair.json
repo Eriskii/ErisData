@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ok-adair",
+  "publisher": "Adair County Assessor (Parcel Map for Dashboard, Adair_WFL1)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/ZTbCl7IqVy1LQh5d/arcgis/rest/services/Adair_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40001"
+    ]
+  },
+  "fields": {
+    "apn": "account",
+    "owner": "ownername",
+    "acres": "lotsize",
+    "land_use": "propclass",
+    "assessed_value": "totalvalue"
+  },
+  "notes": "Parcel layer behind Adair County OK assessor parcel mapping dashboard; situs address mostly blank so address not mapped",
+  "verification": {
+    "verified_at": 1792051439962,
+    "counties": [
+      "40001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

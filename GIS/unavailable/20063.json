@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20063",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Gove",
+    "https://publicrecords.netronline.com/state/KS/county/gove",
+    "https://tiles.arcgis.com/tiles/KzeiCaQsMoeCfoCq/arcgis/rest/services/Regrid_Nationwide_Parcel_Boundaries_v1/MapServer",
+    "https://www.gis-data.org/ks-gove-county/"
+  ],
+  "note": "Searched ArcGIS Hub/Online for Gove County and Kansas parcels: no county parcel FeatureServer/MapServer found. Gove parcels appear only via the state ORKA viewer (one county at a time, behind a disclaimer click-through, no public service URL), NETR and Acres viewers (no public service exposed), and commercial vendors (Regrid, Equator, Mapping Solutions, Rockford, Dynamo). Regrid's nationwide tile MapServer does not support queries.",
+  "recorded_at": 1792049329761,
+  "recheck_after": 1807601329761,
+  "model": "claude-haiku-5-5"
+}

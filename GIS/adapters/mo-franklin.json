@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mo-franklin",
+  "publisher": "Franklin County, Missouri",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/HM4C7tGF5KT34U6h/arcgis/rest/services/Franklin_County_Data/FeatureServer/37",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29071"
+    ]
+  },
+  "fields": {
+    "apn": "PID_1",
+    "owner": "Owner1",
+    "address": "Situs",
+    "acres": "CalcAc",
+    "land_use": "MasterTaxCode"
+  },
+  "notes": "Franklin County MO map data, Parcels layer (FeatureServer 37). Source geometry in EPSG:3857; service supports geoJSON.",
+  "verification": {
+    "verified_at": 1792051045463,
+    "counties": [
+      "29071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

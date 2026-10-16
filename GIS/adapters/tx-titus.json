@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-titus",
+  "publisher": "Titus County Appraisal District (BIS CAD Web Service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/33odzvCca0xzxvGO/arcgis/rest/services/TitusCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48449"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Titus CAD BIS web service; public parcels layer; ~20,538 features",
+  "verification": {
+    "verified_at": 1792051750618,
+    "counties": [
+      "48449"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-forsyth",
+  "publisher": "Forsyth County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geo.forsythco.com/gis/rest/services/Public/Tax_Parcel/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13117"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "address": "SITEADDRESS",
+    "acres": "STATEDAREA",
+    "land_use": "USEDSCRP",
+    "assessed_value": "CNTASSDVAL"
+  },
+  "notes": "Forsyth County GA Tax Parcel layer; no owner field published",
+  "verification": {
+    "verified_at": 1792048759084,
+    "counties": [
+      "13117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

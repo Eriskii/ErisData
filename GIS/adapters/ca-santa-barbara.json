@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-santa-barbara",
+  "publisher": "County of Santa Barbara (Assessor parcels 2020, via ArcGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/gWy3ppy8CxiDTKPQ/arcgis/rest/services/Parcels2020/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06083"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "Owner",
+    "acres": "Acreage",
+    "land_use": "LandUse",
+    "assessed_value": "Net_AV"
+  },
+  "notes": "Countywide assessor parcel layer (2020 vintage) from county GIS; situs address often blank for rural and vacant parcels. For assessment purposes only, not legal boundaries.",
+  "verification": {
+    "verified_at": 1792048664571,
+    "counties": [
+      "06083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

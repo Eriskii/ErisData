@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-allegan",
+  "publisher": "Allegan County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.allegancounty.org/server/rest/services/Hosted/ParcelLayer_June2026_3/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26005"
+    ]
+  },
+  "fields": {
+    "apn": "mapping_id",
+    "owner": "ownername1",
+    "address": "propstreetcombined",
+    "acres": "totalacres"
+  },
+  "notes": "Allegan County parcel viewer layer; id field also present",
+  "verification": {
+    "verified_at": 1792049900123,
+    "counties": [
+      "26005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

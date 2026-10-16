@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-el-paso",
+  "publisher": "El Paso Central Appraisal District via City of El Paso GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.elpasotexas.gov/arcgis/rest/services/EPParcels/FeatureServer/0",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48141"
+    ]
+  },
+  "fields": {
+    "apn": "PIDN",
+    "owner": "NAMEREAL",
+    "address": "LOCADDRESS",
+    "land_use": "PropID"
+  },
+  "notes": "EPCAD parcel layer hosted by City of El Paso GIS; verify county coverage",
+  "verification": {
+    "verified_at": 1792051685022,
+    "counties": [
+      "48141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

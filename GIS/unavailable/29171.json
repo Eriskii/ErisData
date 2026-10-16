@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29171",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://putnam.missouriassessors.com/",
+    "https://onawagis.integritygis.com/Geocortex/Essentials/REST/sites/Putnam_County_MO_Vanguard/map",
+    "https://www.dynamospatial.com/c/putnam-county-mo/parcel-data"
+  ],
+  "note": "Putnam County MO parcels are only in a Geocortex viewer and the assessor site. The backing Putnam_Assessor_Data service isn't exposed on services8.integritygis.com. The state MO parcel MapServer needs a token. The putnamcountygis.com FeatureServer holds Putnam County, Ohio data.",
+  "recorded_at": 1792051376520,
+  "recheck_after": 1807603376520,
+  "model": "claude-sonnet-5-5"
+}

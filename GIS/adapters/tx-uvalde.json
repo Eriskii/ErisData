@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-uvalde",
+  "publisher": "Uvalde County Appraisal District (via BIS Consulting ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/j94FvPaik4etwHFk/arcgis/rest/services/UvaldeCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48463"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "addr_line2",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Uvalde CAD web service; public ArcGIS layer",
+  "verification": {
+    "verified_at": 1792051814062,
+    "counties": [
+      "48463"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

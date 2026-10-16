@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mi-eaton",
+  "publisher": "Eaton County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/c9l1e4fKpsCnqD7H/arcgis/rest/services/Parcels_AGO/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26045"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "address": "SITEADDRESS",
+    "acres": "STATEDAREA",
+    "land_use": "CLASSCD",
+    "assessed_value": "CNTASSDVAL"
+  },
+  "notes": "Eaton County MI parcels hosted by Eaton County GIS on ArcGIS Online (Parcels_AGO).",
+  "verification": {
+    "verified_at": 1792049912892,
+    "counties": [
+      "26045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "48383",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gisdata.pandai.com/pamaps02/rest/services/Reagan/ReaganCADPublic/MapServer/0",
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap_land_parcels_48_most_recent/MapServer/0"
+  ],
+  "note": "Reagan CAD parcels are only on a Pandai MapServer with supportsPagination=false (runtime's paged queries are refused: 'Pagination is not supported'); TxGIO StratMap MapServer returns 'operation not supported' for all queries; the AGOL copies require tokens. No usable paged service or bulk file found.",
+  "recorded_at": 1792051877445,
+  "recheck_after": 1807603877445,
+  "model": "claude-sonnet-5-5"
+}

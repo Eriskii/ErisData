@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-jasper",
+  "publisher": "Jasper County GIS (JascoGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/f6278XvXrNz6PmsX/arcgis/rest/services/Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29097"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Own_Name",
+    "address": "Address",
+    "acres": "Graphic_Ac"
+  },
+  "notes": "Jasper County Land Parcels for Taxing Purposes, public JascoGIS hosted service; 60,742 features; land use field blank in source",
+  "verification": {
+    "verified_at": 1792050949315,
+    "counties": [
+      "29097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-madison",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (statewide parcel boundaries, Madison County records)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47113"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_NAME = 'MADISON'",
+  "notes": "Statewide TN parcel layer filtered to Madison County (COUNTY_NAME MADISON, 49,503 records). Public use dataset.",
+  "verification": {
+    "verified_at": 1792052670114,
+    "counties": [
+      "47113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

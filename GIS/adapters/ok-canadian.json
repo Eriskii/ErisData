@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ok-canadian",
+  "publisher": "Canadian County GIS (Oklahoma)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/0NjdXxmJp53hZWPd/arcgis/rest/services/ParcelDataService_2_view/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40017"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "owners_name",
+    "acres": "parcel_size",
+    "land_use": "prop_class",
+    "assessed_value": "total_assess"
+  },
+  "notes": "Public view of Canadian County assessor parcel data; surface fee simple ownership. Situs address is blank for many parcels (unincorporated/exempt), so not mapped.",
+  "verification": {
+    "verified_at": 1792051391149,
+    "counties": [
+      "40017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

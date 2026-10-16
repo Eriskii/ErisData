@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-east-baton-rouge",
+  "publisher": "East Baton Rouge Parish GIS (EBRGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/KYvXadMcgf0K1EzK/arcgis/rest/services/Tax_Parcels_2026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "22033"
+    ]
+  },
+  "fields": {
+    "apn": "ASSESSMENT_NUM",
+    "owner": "OWNER",
+    "address": "PHYSICAL_ADDRESS",
+    "assessed_value": "SUM_ASSESSED_VALUE"
+  },
+  "notes": "EBRGIS Tax Parcels 2026 hosted copy of the parish tax parcel layer",
+  "verification": {
+    "verified_at": 1792049871419,
+    "counties": [
+      "22033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

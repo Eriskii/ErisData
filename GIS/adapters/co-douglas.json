@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-douglas",
+  "publisher": "Douglas County, Colorado GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://apps.douglas.co.us/gisod/rest/services/Parcels/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08035"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_SPN",
+    "owner": "PARCEL_NAME",
+    "acres": "CALC_AREA"
+  },
+  "notes": "Douglas County CO public parcels MapServer layer PARCELS; PARCEL_SPN is the state parcel number. Owner and situs address not in this layer; PARCEL_NAME is the parcel name/number, not always an owner.",
+  "verification": {
+    "verified_at": 1792048707012,
+    "counties": [
+      "08035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

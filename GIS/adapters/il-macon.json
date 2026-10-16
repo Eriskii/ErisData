@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-macon",
+  "publisher": "Macon County / City of Decatur GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.decaturil.gov/arcgis/rest/services/Public/parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17115"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMBER",
+    "owner": "PRIMARYNAME",
+    "address": "SITEADDRESS",
+    "acres": "ACREAGE",
+    "land_use": "USECODE",
+    "assessed_value": "IMPROVEMENTS"
+  },
+  "notes": "Macon Co. Tax Parcels from City of Decatur public server; attributes current as of about 2021",
+  "verification": {
+    "verified_at": 1792048954796,
+    "counties": [
+      "17115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

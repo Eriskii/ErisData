@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-sullivan",
+  "publisher": "Sullivan County TN (via TN County Parcel Map, HNTB)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47163"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_82_PARCELID",
+    "owner": "Assessment_Data_82_OWNER",
+    "address": "Assessment_Data_82_ADDRESS",
+    "acres": "Parcels_CALC_ACRE",
+    "land_use": "Assessment_Data_82_CLASS",
+    "assessed_value": "Assessment_Data_82_APPRAISAL"
+  },
+  "notes": "Layer is Sullivan County parcels joined to assessment data; no filter needed.",
+  "verification": {
+    "verified_at": 1792052499027,
+    "counties": [
+      "47163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

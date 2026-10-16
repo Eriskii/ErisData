@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-barry",
+  "publisher": "Barry County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/i0SsdDzLI3mLGmPR/arcgis/rest/services/Parcels_PublicViewer_View/FeatureServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26015"
+    ]
+  },
+  "fields": {
+    "apn": "Tparcel",
+    "owner": "owner_name",
+    "address": "prop_street_add",
+    "acres": "Acres"
+  },
+  "notes": "Barry County open data parcel layer (Parcels_PublicViewer_View); public view-only service",
+  "verification": {
+    "verified_at": 1792049909521,
+    "counties": [
+      "26015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

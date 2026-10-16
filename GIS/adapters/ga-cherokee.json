@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-cherokee",
+  "publisher": "Cherokee County GIS (Georgia)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cherokeecountyga.gov/arcgis/rest/services/MainLayers/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13057"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Owner",
+    "address": "Property_Address",
+    "acres": "Acreage",
+    "land_use": "Zoning"
+  },
+  "notes": "Cherokee County GA parcels from county MainLayers MapServer layer 1; 116k features; maxRecordCount 1000",
+  "verification": {
+    "verified_at": 1792048782207,
+    "counties": [
+      "13057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

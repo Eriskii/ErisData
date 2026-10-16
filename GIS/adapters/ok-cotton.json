@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ok-cotton",
+  "publisher": "Oklahoma Office of Geographic Information (statewide parcels, Cotton County records)",
+  "source": {
+    "kind": "wfs",
+    "url": "http://ogidev.okmaps.org/geoserver/wfs",
+    "type_name": "ogi_wms:current_statewide_parcels",
+    "version": "2.0.0",
+    "page_size": 1000,
+    "lat_lon": false
+  },
+  "coverage": {
+    "counties": [
+      "40033"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "owner",
+    "acres": "acres"
+  },
+  "filter": "county = 'Cotton'",
+  "notes": "OK OGI statewide parcel compilation; view-only/WMS per portal, accessed via public WFS. Cotton County records dated 2026.",
+  "verification": {
+    "verified_at": 1792051498307,
+    "counties": [
+      "40033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

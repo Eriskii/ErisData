@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13309",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=WheelerCountyGA&Layer=Parcels&PageType=Search",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=777&LayerID=11813&PageTypeID=1",
+    "https://www.qpublic.net/ga/wheeler/",
+    "https://wheelercounty.org"
+  ],
+  "note": "Wheeler County GA parcels are published only via the qPublic (Schneider) web viewer, which returns 403/Cloudflare challenges and exposes no ArcGIS REST FeatureServer/MapServer or file download. ArcGIS Hub/Online searches for Wheeler County parcels returned nothing; neighbour Jeff Davis service and HOGARC open data portal have no Wheeler parcel layer. County site wheelercounty.org also blocked.",
+  "recorded_at": 1792048952500,
+  "recheck_after": 1807600952500,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-newton",
+  "publisher": "Newton County, Missouri (Assessor, via Newton County GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/g6eV2CrSSwCZj8Mc/arcgis/rest/services/Newton_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29145"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_PID",
+    "land_use": "Likely_Use"
+  },
+  "notes": "Parcel polygons sourced from Newton County Tax Assessor via Geocortex viewer; owner and address fields not published in this layer. Likely_Use is a derived classification.",
+  "verification": {
+    "verified_at": 1792050992855,
+    "counties": [
+      "29145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

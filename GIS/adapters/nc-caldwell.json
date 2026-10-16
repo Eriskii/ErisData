@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-caldwell",
+  "publisher": "Caldwell County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.caldwellcountync.org/arcgis/rest/services/Public_Access/MapServer/45",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37027"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "AcctName1",
+    "address": "FullPropAddress",
+    "acres": "TotalCalcAcres",
+    "land_use": "Neighborhood",
+    "assessed_value": "AssessedValue"
+  },
+  "notes": "Caldwell County NC public parcels layer from Public_Access MapServer; 52761 features",
+  "verification": {
+    "verified_at": 1792051344533,
+    "counties": [
+      "37027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40095",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://marshall.okcounties.org/offices/county-assessor",
+    "https://marshall.okcounties.org/maps",
+    "https://www.actdatascout.com/RealProperty/Oklahoma/Marshall",
+    "https://okmaps.org/ogi/search.aspx",
+    "https://maps.owrb.ok.gov/arcgis/rest/services/Hazard/Parcels/MapServer"
+  ],
+  "note": "Marshall County OK (40095): no public queryable parcel polygon service found. The county assessor page links only to a vendor-hosted real property search (actDataScout, returned HTTP 403 WAF block) and a static PDF maps page. The statewide OGI parcels layer is view-only WMS with no download. The OWRB Parcels map service was unreachable. The only ArcGIS parcel layer found under the Marshall County name (gis.districtiii.org MapServer/3) is Marshall County, South Dakota (Township 126N, Range 59W), not Oklahoma. Regrid nationwide tiles are not queryable and are commercial.",
+  "recorded_at": 1792051658194,
+  "recheck_after": 1807603658194,
+  "model": "claude-haiku-5-5"
+}

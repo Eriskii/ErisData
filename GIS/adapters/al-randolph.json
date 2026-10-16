@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-randolph",
+  "publisher": "Randolph County, AL (via Alabama Parcel Data, PowerSouth ArcGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/37",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01111"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "PowerSouth Alabama Parcel Data compilation; Randolph County layer. Site address field ADDRESS is populated only for some parcels, so not mapped.",
+  "verification": {
+    "verified_at": 1792048407612,
+    "counties": [
+      "01111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

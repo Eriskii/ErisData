@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-palm-beach",
+  "publisher": "Palm Beach County Property Appraiser / PBC GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ZWOoUZbtaYePLlPw/arcgis/rest/services/Parcels_and_Property_Details_WebMercator/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12099"
+    ]
+  },
+  "fields": {
+    "apn": "PARID",
+    "owner": "OWNER_NAME1",
+    "address": "SITE_ADDR_STR",
+    "acres": "ACRES",
+    "land_use": "PROPERTY_USE",
+    "assessed_value": "ASSESSED_VAL"
+  },
+  "notes": "Palm Beach County open data parcels joined with property details; county-published; updated regularly",
+  "verification": {
+    "verified_at": 1792048822717,
+    "counties": [
+      "12099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

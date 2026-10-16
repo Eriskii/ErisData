@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-modoc",
+  "publisher": "CAL FIRE (ITS) via ArcGIS Hub, California Statewide Parcels Public View (Modoc County records)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://bz1uwwpkuinzbk94.svcs5.arcgis.com/bz1uwWPKUInZBK94/arcgis/rest/services/CA_Statewide_Parcels_Public_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06049"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_APN",
+    "address": "FullStreetAddress"
+  },
+  "filter": "FIPS_CODE = '06049'",
+  "notes": "Statewide layer filtered to Modoc FIPS 06049; owner and land use not present in source",
+  "verification": {
+    "verified_at": 1792048665835,
+    "counties": [
+      "06049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

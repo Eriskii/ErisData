@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ne-grant",
+  "publisher": "Nebraska Dept. of Revenue / Grant County via NebraskaMap Statewide Parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis2.gworks.com/arcgis/rest/services/Statewide_NE_MGMT/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31075"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "CURRENT_OWNER_NAME",
+    "land_use": "PROPERTY_TYPE",
+    "assessed_value": "TOTAL_ASSESSED_VALUE"
+  },
+  "filter": "COUNTY = 'Grant'",
+  "notes": "Statewide 2025 parcel dataset (NebraskaMap), filtered to COUNTY Grant; 1698 features. Situs address and acres are sparsely populated and omitted.",
+  "verification": {
+    "verified_at": 1792051375321,
+    "counties": [
+      "31075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

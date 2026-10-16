@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-guthrie",
+  "publisher": "Iowa DHS-HSEMD (hosted by University of Iowa), Iowa Parcels 2017",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19077"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'GUTHRIE'",
+  "notes": "Statewide Iowa parcels layer filtered to Guthrie County; no address or acreage fields in source",
+  "verification": {
+    "verified_at": 1792049290746,
+    "counties": [
+      "19077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-wharton",
+  "publisher": "Wharton County Appraisal District (BIS CAD web service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/j94FvPaik4etwHFk/arcgis/rest/services/WhartonCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48481"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_num",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Wharton CAD BIS web service; parcels layer of the CAD public map service",
+  "verification": {
+    "verified_at": 1792051756444,
+    "counties": [
+      "48481"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

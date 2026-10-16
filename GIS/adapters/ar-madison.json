@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-madison",
+  "publisher": "Arkansas GIS Office (CAMA parcel polygons, Madison County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/MapServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05087"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '087'",
+  "notes": "Statewide AR CAMA parcel polygons filtered to county FIPS 087 (Madison). Not a legal boundary.",
+  "verification": {
+    "verified_at": 1792048533613,
+    "counties": [
+      "05087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-assumption",
+  "publisher": "Assumption Parish Assessor (via ArcGIS Hub)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/FqQ2BQIKVGpUWqAa/arcgis/rest/services/Assumption_Parish_Parcels_2019/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22007"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Taxpayer",
+    "acres": "MapAcres"
+  },
+  "notes": "Assessor parcels 2019 layer; source CRS EPSG:4269; no address or value fields published",
+  "verification": {
+    "verified_at": 1792049834922,
+    "counties": [
+      "22007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

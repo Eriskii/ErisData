@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-lancaster",
+  "publisher": "Lancaster County Assessment Office",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.lancastercountypa.gov/arcgis/rest/services/Properties/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42071"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER_NAME",
+    "address": "ADDRESS",
+    "acres": "DEED_ACRES",
+    "land_use": "LANDUSECD",
+    "assessed_value": "TOTLASSESS"
+  },
+  "notes": "County assessment office parcel layer (Properties MapServer layer 1); also published on PASDA. Source is intended for illustration; verify terms.",
+  "verification": {
+    "verified_at": 1792051538330,
+    "counties": [
+      "42071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

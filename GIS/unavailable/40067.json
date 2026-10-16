@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40067",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://landrecords.us/documentation/coverage/counties/40-067-jefferson",
+    "https://www.dynamospatial.com/c/jefferson-county-ok/parcel-data",
+    "https://okmaps.org/OGI/xmlmetadatadownload.aspx?LayerUUID=1484707a-712a-4447-96a9-5a38affc600e",
+    "https://app.datacrosspoint.com/properties/Jefferson",
+    "https://experience.arcgis.com/experience/4745f2bf2cc84f208b5617efcffa6a5a"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web sources for Jefferson County OK (FIPS 40067, seat Waurika). No county-operated parcel polygon service found. Parcel polygons are sold commercially (Regrid, DynamoSpatial, LandRecords paid download). The statewide OKMAPS Statewide Parcels layer is view-only via WMS, metadata says not for download. The assessor's linked GIS parcel map experience is Jefferson County, Missouri, not Oklahoma. Assessor property search is a third-party hosted app with no public GIS endpoint.",
+  "recorded_at": 1792051588142,
+  "recheck_after": 1807603588142,
+  "model": "claude-haiku-5-5"
+}

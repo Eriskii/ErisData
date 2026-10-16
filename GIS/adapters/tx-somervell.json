@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-somervell",
+  "publisher": "Somervell Central Appraisal District (via ArcGIS Online SomervellCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/j94FvPaik4etwHFk/arcgis/rest/services/SomervellCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48425"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Appraisal district CAD web service; public. Field names as published by Somervell CAD.",
+  "verification": {
+    "verified_at": 1792051743169,
+    "counties": [
+      "48425"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

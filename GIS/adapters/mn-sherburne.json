@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-sherburne",
+  "publisher": "Sherburne County Public Works GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.sherburne.mn.us/arcgis4/rest/services/OpenData/Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27141"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER_NAME",
+    "address": "STREETNAME",
+    "acres": "ACRES_POLY",
+    "land_use": "CLS_DESC",
+    "assessed_value": "EMV_LAND"
+  },
+  "notes": "Public parcel boundary service from Sherburne County; maxRecordCount 50000, 2000 used in practice per county docs.",
+  "verification": {
+    "verified_at": 1792050898558,
+    "counties": [
+      "27141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

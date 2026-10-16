@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-st-louis-city",
+  "publisher": "City of St. Louis (Assessor parcel data, via ArcGIS Hub)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/HZXbCkpCSqbGd0vK/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29510"
+    ]
+  },
+  "fields": {
+    "apn": "HANDLE",
+    "address": "SITEADDR",
+    "land_use": "AsrLandUse"
+  },
+  "notes": "City of St. Louis parcel boundaries, hosted by tcoriell_stlcity on ArcGIS Online. Owner and assessed value not in this layer. City host stlgis.stlouis-mo.gov was down for maintenance during search.",
+  "verification": {
+    "verified_at": 1792051045972,
+    "counties": [
+      "29510"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

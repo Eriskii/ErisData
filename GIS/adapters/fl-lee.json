@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-lee",
+  "publisher": "Lee County Property Appraiser / Lee County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/LvWGAAhHwbCJ2GMP/arcgis/rest/services/Lee_County_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12071"
+    ]
+  },
+  "fields": {
+    "apn": "STRAP",
+    "owner": "O_NAME",
+    "address": "SITEADDR",
+    "acres": "GISACRES",
+    "land_use": "LANDUSEDES",
+    "assessed_value": "ASSESSED"
+  },
+  "notes": "Lee County Parcels layer maintained by Lee County GIS / Property Appraiser; nightly sync; 565k parcels incl. condo units.",
+  "verification": {
+    "verified_at": 1792048790613,
+    "counties": [
+      "12071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-franklin",
+  "publisher": "Franklin County, TN (via TN County Parcel Map, HNTB / Tennessee Comptroller assessment data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/61",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47051"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_26_PARCELID",
+    "owner": "Assessment_Data_26_OWNER",
+    "address": "Assessment_Data_26_ADDRESS",
+    "acres": "Parcels_CALC_ACRE",
+    "land_use": "Assessment_Data_26_LANDUSE",
+    "assessed_value": "Assessment_Data_26_APPRAISAL"
+  },
+  "notes": "Franklin County TN parcels joined to state comptroller assessment data (GISLINK). Layer is county-specific.",
+  "verification": {
+    "verified_at": 1792052693804,
+    "counties": [
+      "47051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

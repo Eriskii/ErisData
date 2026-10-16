@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ia-scott",
+  "publisher": "Scott County GIS (Iowa)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/ovln19YRWV44nBqV/arcgis/rest/services/Cadastral/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19163"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "DeedHold",
+    "address": "PropertyAddress",
+    "acres": "Net_AC",
+    "land_use": "PropClass",
+    "assessed_value": "TotVal"
+  },
+  "notes": "Scott County Iowa cadastral parcel layer from Scott_County_IA_GIS ArcGIS Hub",
+  "verification": {
+    "verified_at": 1792049191622,
+    "counties": [
+      "19163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

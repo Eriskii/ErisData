@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ny-monroe",
+  "publisher": "Monroe County GIS (Census Parcels 2020, Real Property Services data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.monroecounty.gov/server/rest/services/Census_Data/Census/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36055"
+    ]
+  },
+  "fields": {
+    "apn": "PRINTKEY",
+    "owner": "OWNERNAME1",
+    "address": "PARCELADDR",
+    "acres": "ACRES",
+    "land_use": "PROPERTYCL",
+    "assessed_value": "TOTALASSES"
+  },
+  "notes": "Monroe County NY parcels from county Census_Parcels_2020 layer, rebuilt weekly from Real Property Services data",
+  "verification": {
+    "verified_at": 1792051371785,
+    "counties": [
+      "36055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-pierce",
+  "publisher": "Pierce County Board of Assessors (sgrcmaps)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.sgrcmaps.com/alma/rest/services/Pierce/ParcelInformation/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13229"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "LASTNAME",
+    "address": "STREET_NAM",
+    "acres": "TOTALACRES",
+    "land_use": "ZONINGCODE",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Pierce County GA tax parcels, served by the SGRC ParcelInformation map service linked from the county Tax Assessor mapping app",
+  "verification": {
+    "verified_at": 1792048826634,
+    "counties": [
+      "13229"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

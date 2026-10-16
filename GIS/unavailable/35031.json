@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "35031",
+  "reason": "login-required",
+  "evidence": [
+    "https://gis.ose.nm.gov/server_s/rest/services/Hosted/County_Parcels_2024/FeatureServer/17",
+    "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/17"
+  ],
+  "note": "State OSE McKinley parcel layers: 2024 hosted FeatureServer requires a token (499); 2025 MapServer is not started and the Parcels folder is empty; 2021 host unreachable. County portal offers no parcel service.",
+  "recorded_at": 1792051654543,
+  "recheck_after": 1807603654543,
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "29041",
+  "reason": "login-required",
+  "evidence": [
+    "https://services2.integritygis.com/arcgis/rest/Services/MO/Chariton_Assessor_Data/MapServer",
+    "https://services2.integritygis.com/arcgis/rest/login?redirect=https%3A//services2.integritygis.com/arcgis/rest/Services/MO/Chariton_Assessor_Data/MapServer"
+  ],
+  "note": "Chariton County's assessor parcel MapServer (Chariton_Assessor_Data, hosted by IntegrityGIS) returns 'Token Required' (code 499) on every request and redirects to a login form. No public parcel service was found: the Missouri state services list no statewide parcel layer, and other Chariton parcel sources are paid downloads (Regrid, Dynamo, landrecords, Equator Studios).",
+  "recorded_at": 1792050932539,
+  "recheck_after": 1807602932539,
+  "model": "claude-haiku-5-5"
+}

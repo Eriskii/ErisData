@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "22043",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://atlas.geoportalmaps.com/grant_public",
+    "https://grantassessor.org/useful-links",
+    "https://gppj.org/district-maps",
+    "https://www.doa.la.gov/doa/osl/gis-data/"
+  ],
+  "note": "Grant Parish parcel viewer (atlas.geoportalmaps.com/grant_public, GCT GeoPortal) exposes no public ArcGIS REST or GeoJSON parcel service; its REST path returns 404 and no config endpoint was found. Grant Assessor site links only a vendor tax roll/maps portal (actdatascout.com, 403). Grant Police Jury publishes only PDF district maps. Only commercial aggregators (Regrid, DynamoSpatial, Acres) carry parcel polygons. Statewide ArcGIS searches returned no Grant Parish parcel layer.",
+  "recorded_at": 1792049897556,
+  "recheck_after": 1807601897556,
+  "model": "claude-haiku-5-5"
+}

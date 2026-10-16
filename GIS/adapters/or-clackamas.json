@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "or-clackamas",
+  "publisher": "Clackamas County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/I2eWXOndpF9m8oKC/arcgis/rest/services/Taxlots_CMap/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41005"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "address": "SITUS",
+    "acres": "MAPACRES",
+    "land_use": "LANDCLASS",
+    "assessed_value": "ASSESSEDVAL"
+  },
+  "filter": "MAPACRES < 1000",
+  "notes": "Clackamas County parcels curated for CMap; parcels over 1000 acres (large rural/forest holdings) excluded because their polygons do not sit near their centroid-based sample location",
+  "verification": {
+    "verified_at": 1792051517106,
+    "counties": [
+      "41005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

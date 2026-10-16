@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-bladen",
+  "publisher": "Bladen County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.bladenco.org/server/rest/services/BladenCounty/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37017"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Name1",
+    "address": "PhysicalSt",
+    "acres": "calcacre",
+    "assessed_value": "TotalASVCu"
+  },
+  "notes": "Bladen County GIS TaxParcels layer; maxRecordCount 2000 (page_size set to 1000)",
+  "verification": {
+    "verified_at": 1792051346775,
+    "counties": [
+      "37017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

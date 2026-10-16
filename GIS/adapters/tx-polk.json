@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-polk",
+  "publisher": "Polk Central Appraisal District (via bisconsulting ArcGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/j94FvPaik4etwHFk/arcgis/rest/services/PolkCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48373"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Polk CAD public web service; parcels layer",
+  "verification": {
+    "verified_at": 1792051726081,
+    "counties": [
+      "48373"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

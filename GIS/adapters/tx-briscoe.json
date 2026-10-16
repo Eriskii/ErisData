@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-briscoe",
+  "publisher": "TxGIO StratMap Texas Land Parcels",
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0/query?where=FIPS%3D%2748045%27&geometry=-101.33,34.43,-101.08,34.63&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=true&outSR=4326&resultRecordCount=2000&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "48045"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "assessed_value": "MKT_VALUE"
+  },
+  "notes": "StratMap statewide parcels (Briscoe CAD source), subset query capped at 2000 features",
+  "verification": {
+    "verified_at": 1792053516650,
+    "counties": [
+      "48045"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

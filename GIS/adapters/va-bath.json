@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-bath",
+  "publisher": "Bath County GIS (CSPDC ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/VkOe3q7u7LGe1XcE/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51017"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "acres": "GIS_acre"
+  },
+  "filter": "GIS_acre < 100",
+  "notes": "Bath County VA tax parcel polygons; filter drops a few very large tracts; owner and address not published in this layer",
+  "verification": {
+    "verified_at": 1792053556034,
+    "counties": [
+      "51017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

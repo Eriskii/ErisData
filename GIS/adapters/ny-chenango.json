@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ny-chenango",
+  "publisher": "Chenango County GIS (via ArcGIS Online, Chenango Tax Map)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/krSNOBBGf8rF7cNp/arcgis/rest/services/Chenango_Tax_Map_WFL1/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36017"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnumb",
+    "owner": "owner",
+    "address": "address",
+    "acres": "gisacre",
+    "assessed_value": "parval"
+  },
+  "notes": "Chenango County tax parcels hosted on ArcGIS Online by the county; 34,526 features; use code field is mostly blank so land_use is not mapped.",
+  "verification": {
+    "verified_at": 1792051362620,
+    "counties": [
+      "36017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

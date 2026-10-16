@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-moultrie",
+  "publisher": "Moultrie County GIS (via Illinois Coles County GIS server)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.colesco.illinois.gov/arcgis/rest/services/Moultrie/Moultrie_Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17139"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "OwnerName",
+    "address": "SiteLocation",
+    "acres": "Acreage",
+    "land_use": "PropertyUse"
+  },
+  "filter": "1=1",
+  "notes": "Parcels from Moultrie County GIS service hosted on Illinois Coles County GIS server",
+  "verification": {
+    "verified_at": 1792048971366,
+    "counties": [
+      "17139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

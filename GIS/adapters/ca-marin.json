@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-marin",
+  "publisher": "Marin County GIS (MarinMap)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.marinpublic.com/arcgis/rest/services/BaseMap/Basemap/MapServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06041"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "address": "SitusFormatted",
+    "land_use": "UseDescription"
+  },
+  "notes": "Marin County parcels from MarinMap basemap layer 13. Owner names are published only for public agencies, so no owner field is mapped. Address is blank for vacant parcels.",
+  "verification": {
+    "verified_at": 1792048631801,
+    "counties": [
+      "06041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

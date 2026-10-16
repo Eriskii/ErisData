@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-marion",
+  "publisher": "Marion County TN (Parcels_Joined_372025, hosted on ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Parcels_Joined_372025/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47115"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "CLASS",
+    "assessed_value": "ASSESSMENT"
+  },
+  "notes": "Joined parcel layer; TAXYR field present; name-of-source and license not stated",
+  "verification": {
+    "verified_at": 1792052296556,
+    "counties": [
+      "47115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

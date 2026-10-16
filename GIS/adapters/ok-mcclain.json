@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ok-mcclain",
+  "publisher": "McClain County 9-1-1 / Newcastle GIS (nicktonias_newcastleplan)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Tkj64juGWKKHPp01/arcgis/rest/services/County_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40087"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "land_use": "propclass",
+    "assessed_value": "totalvalue"
+  },
+  "notes": "McClain County Parcels 2026-05-13 layer; situs address mostly blank so not mapped; source spatial reference 2268, runtime requests lon/lat",
+  "verification": {
+    "verified_at": 1792051523686,
+    "counties": [
+      "40087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

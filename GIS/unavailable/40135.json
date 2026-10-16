@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "40135",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://sequoyah.okcounties.org/maps",
+    "http://sequoyahcountyassessor.com/",
+    "https://www.actdatascout.com/Map/Index?countyId=40135",
+    "https://okmaps.org/ogi/RestDataAccessItem.aspx?UUID=1484707a-712a-4447-96a9-5a38affc600e",
+    "https://services6.arcgis.com/Dosymvda4OueTcnj/arcgis/rest/services/Layers/FeatureServer",
+    "https://services.arcgis.com/3xOwF6p0r7IHIjfn/arcgis/rest/services/Sequoyah_County_Data/FeatureServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online: no Sequoyah parcel service found; the Ponca City and Sequoyah County Data services contain no parcels. County site links only to actDataScout, a vendor parcel map that returns HTTP 403 (Azure WAF) and is not a public ArcGIS service. OK Maps statewide parcels are view-only via WMS, not queryable REST. Only commercial paid parcel downloads exist.",
+  "recorded_at": 1792051569163,
+  "recheck_after": 1807603569163,
+  "model": "claude-haiku-5-5"
+}

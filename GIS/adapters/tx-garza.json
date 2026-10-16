@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-garza",
+  "publisher": "Garza County Appraisal District (via ArcGIS Online GarzaCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Bt5L98Rubsv0bzHI/arcgis/rest/services/GarzaCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48169"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage"
+  },
+  "notes": "Garza CAD parcels; boundaries are not legal surveys per CAD disclaimer; situs address and market value are mostly blank in source",
+  "verification": {
+    "verified_at": 1792051683638,
+    "counties": [
+      "48169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

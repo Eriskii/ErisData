@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-osceola",
+  "publisher": "Osceola County, Michigan (Osceola County GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/FmKMwUEmDSC75SQm/arcgis/rest/services/OsceolaCountyParcels_view20240111/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26133"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER",
+    "acres": "BSA_ACRES",
+    "land_use": "PROPCLASS",
+    "assessed_value": "SEV"
+  },
+  "notes": "County parcel viewer layer, view dated 2024-01-11. Site address (PROPADD) is filled for only about a third of parcels in the source, so it is not mapped. Owner mailing fields OWNER_ADD/OWNER_CITY/OWNER_ST/OWNER_ZIP also present.",
+  "verification": {
+    "verified_at": 1792049985954,
+    "counties": [
+      "26133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

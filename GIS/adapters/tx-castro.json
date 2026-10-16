@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-castro",
+  "publisher": "Castro County Appraisal District (via ArcGIS Online CastroCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/iunrO5vjpmI1MJJA/arcgis/rest/services/CastroCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48069"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Castro CAD public web service; parcels layer of about 6594 features. Situs address is sparse (situs_street), so not mapped.",
+  "verification": {
+    "verified_at": 1792051657367,
+    "counties": [
+      "48069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

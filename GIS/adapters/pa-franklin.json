@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-franklin",
+  "publisher": "Franklin County GIS via PASDA",
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://www.pasda.psu.edu/download/franklincounty/FranklinCountyParcels202606.zip",
+    "format": "shapefile-zip",
+    "epsg": 3857
+  },
+  "coverage": {
+    "counties": [
+      "42055"
+    ]
+  },
+  "fields": {
+    "apn": "Name",
+    "owner": "FULL_OWNER",
+    "address": "FULL_SITUS",
+    "acres": "BASE_ACRES",
+    "assessed_value": "PRC_TTL_AS"
+  },
+  "notes": "PASDA Franklin County parcels shapefile; REST endpoint too slow",
+  "verification": {
+    "verified_at": 1792052968127,
+    "counties": [
+      "42055"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

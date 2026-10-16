@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21239",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx",
+    "https://www.woodfordcountyky.gov/173/Geographic-Information-System-GIS",
+    "https://www.woodford-county.org/172/Maps",
+    "https://www.dynamospatial.com/c/woodford-county-ky/parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub, Online, KyGovMaps/kygisserver and county sites. Woodford KY parcels appear only in the Schneider qPublic viewer (bot-blocked, no public REST service found) and paid vendor files; the county's Hub and public map viewer resolve to Woodford County, Illinois data. No public parcel polygon service found.",
+  "recorded_at": 1792049989962,
+  "recheck_after": 1807601989962,
+  "model": "claude-haiku-5-5"
+}

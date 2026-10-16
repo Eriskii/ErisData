@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-hardin",
+  "publisher": "Hardin Central Appraisal District (bis_hardincad)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/8oveauLo4lI1NjDp/arcgis/rest/services/HardinCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48199"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Hardin CAD public web service; parcel polygons with appraisal attributes; situs address sparse for rural parcels so not mapped",
+  "verification": {
+    "verified_at": 1792051694036,
+    "counties": [
+      "48199"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

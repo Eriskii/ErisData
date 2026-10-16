@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-caldwell",
+  "publisher": "Caldwell County Appraisal District (caldwellcad)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rVxY74DxxIDrDbc0/arcgis/rest/services/CaldwellCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48055"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Caldwell CAD public web service; parcel polygons with owner and situs attributes",
+  "verification": {
+    "verified_at": 1792051658267,
+    "counties": [
+      "48055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

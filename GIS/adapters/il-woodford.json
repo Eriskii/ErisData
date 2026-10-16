@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-woodford",
+  "publisher": "Woodford County GIS (via ArcGIS Online, Admin_CP)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/iOG1OLysrxLAswZi/arcgis/rest/services/Parcels_with_Devnet_Public_View/FeatureServer/36",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17203"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_Number",
+    "owner": "Owner_Name_1",
+    "address": "Address",
+    "acres": "Gross_Acreage",
+    "land_use": "Land_Use_Code"
+  },
+  "notes": "Woodford County parcels with Devnet attributes, public view layer; source spatial reference 102672 (Illinois State Plane), service reprojects",
+  "verification": {
+    "verified_at": 1792049011900,
+    "counties": [
+      "17203"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-travis",
+  "publisher": "Travis Central Appraisal District / Travis County TNR (taxmaps)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://taxmaps.traviscountytx.gov/arcgis/rest/services/Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48453"
+    ]
+  },
+  "fields": {
+    "apn": "PROP_ID",
+    "owner": "py_owner_name",
+    "address": "situs_address",
+    "acres": "tcad_acres",
+    "land_use": "land_type_desc",
+    "assessed_value": "market_value"
+  },
+  "notes": "Tax parcel polygons from TCAD via Travis County tax maps server; public ArcGIS service. assessed_value column is market_value because assessed_val is empty in this source.",
+  "verification": {
+    "verified_at": 1792051755093,
+    "counties": [
+      "48453"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

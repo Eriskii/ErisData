@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-banner",
+  "publisher": "Banner County Assessor (via GIS Workshop)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/bRhJe4i6arzgfrvF/arcgis/rest/services/Banner_County_NE_Assessor/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31007"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "GISAcres"
+  },
+  "notes": "Banner County NE assessor parcel layer; no owner or situs address fields published in this layer",
+  "verification": {
+    "verified_at": 1792051051648,
+    "counties": [
+      "31007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

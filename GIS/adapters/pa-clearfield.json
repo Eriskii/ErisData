@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-clearfield",
+  "publisher": "Clearfield County PA (via Planning Viewer ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/QnkWuD9VDNC466fU/arcgis/rest/services/Planning_Viewer_WFL1/FeatureServer/21",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42033"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "full_name",
+    "address": "situs",
+    "acres": "ACRES",
+    "land_use": "p_use",
+    "assessed_value": "prop_val"
+  },
+  "notes": "Public ClearfieldParcels layer from the county Planning Viewer; spatial reference Web Mercator; owner/address fields as published",
+  "verification": {
+    "verified_at": 1792051580038,
+    "counties": [
+      "42033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

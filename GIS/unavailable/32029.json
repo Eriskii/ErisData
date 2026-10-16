@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "32029",
+  "reason": "tos-forbids-automation",
+  "evidence": [
+    "https://arcgis.water.nv.gov/arcgis/rest/services/BaseLayers/County_Parcels_in_Nevada/MapServer/0",
+    "https://arcgis.water.nv.gov/arcgis/rest/services/BaseLayers/County_Parcels_in_Nevada/MapServer?f=pjson",
+    "https://www.storeycounty.org/196/Parcel-Maps"
+  ],
+  "note": "Storey County parcels are only available through the Nevada State Demographer/DWR statewide layer (County_Parcels_in_Nevada, 1.39M features, Storey included). Its service description says county parcel GIS data cannot be shared outside the department under NRS 250 and cannot be copied or exported to anyone, so an adapter that copies parcels into the registry would breach its terms. The county assessor site publishes only parcel map books and index maps. Paid portals (equatorstudios, dynamospatial) are not public services.",
+  "recorded_at": 1792051358952,
+  "recheck_after": 1823587358952,
+  "model": "claude-haiku-5-5"
+}

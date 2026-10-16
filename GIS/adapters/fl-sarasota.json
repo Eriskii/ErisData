@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-sarasota",
+  "publisher": "Sarasota County Property Appraiser / Sarasota County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ags3.scgov.net/server/rest/services/Hosted/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12115"
+    ]
+  },
+  "fields": {
+    "apn": "ACCOUNT",
+    "owner": "NAME1",
+    "address": "FULLADDRESS",
+    "acres": "MeasuredAcreage",
+    "land_use": "STCD",
+    "assessed_value": "ASSD"
+  },
+  "notes": "Sarasota County open data ParcelHosted layer; county parcels with appended FDOR-style tax roll fields. Verify terms on data-sarco.opendata.arcgis.com.",
+  "verification": {
+    "verified_at": 1792048811513,
+    "counties": [
+      "12115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

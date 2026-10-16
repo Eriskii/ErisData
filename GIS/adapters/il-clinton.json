@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-clinton",
+  "publisher": "Clinton County, Illinois (GDIT ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/gnvxvf9aoRBjW15Q/ArcGIS/rest/services/ClintonILFeatures/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17027"
+    ]
+  },
+  "fields": {
+    "apn": "GIS_Parcel_Number",
+    "owner": "TSC_Owner1",
+    "address": "TSC_Site_Address"
+  },
+  "notes": "Parcel polygons from county ArcGIS service; alternate parcel number TSC_Parcel_Number also present",
+  "verification": {
+    "verified_at": 1792048860759,
+    "counties": [
+      "17027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

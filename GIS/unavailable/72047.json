@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "72047",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_feb_2025/MapServer",
+    "https://services3.arcgis.com/ueSNrFTFQrqQnNV8/arcgis/rest/services/CRIM_Catastros_Munic_USPS/FeatureServer/0",
+    "https://services7.arcgis.com/QzuqnWYL9YGM618L/arcgis/rest/services/PARCELAS/FeatureServer/0"
+  ],
+  "note": "Corozal parcels not reachable as a public service: the CRIM statewide Parcelario layer (crim_parcelas, EPSG:32161) returns 'Service not started' (HTTP 500) on sigejp.pr.gov and sige.pr.gov is unreachable; crim_feb_2025 is also stopped. CRIM_Catastros_Munic_USPS and PARCELAS return zero features in the Corozal bbox and for NUM_CATASTRO prefix 047. Regrid and Dynamo Spatial are commercial. Reconsider if crim_parcelas is restarted.",
+  "recorded_at": 1792052089554,
+  "recheck_after": 1807604089554,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ne-lancaster",
+  "publisher": "Lincoln/Lancaster County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lincoln.ne.gov/public/rest/services/Assessor/TaxParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31109"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "address": "SITEADDRESS",
+    "land_use": "CLASSCD",
+    "assessed_value": "CNTASSDVAL"
+  },
+  "notes": "Lincoln/Lancaster County assessor tax parcels; updated nightly. Land use is property class code; acreage not mapped (StatedArea is square feet).",
+  "verification": {
+    "verified_at": 1792051120988,
+    "counties": [
+      "31109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sc-chester",
+  "publisher": "Chester County GIS (SC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/7uCc8YS9s04rg0sr/arcgis/rest/services/Parcels_10_7_24/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45023"
+    ]
+  },
+  "fields": {
+    "apn": "TMS",
+    "owner": "Name_1",
+    "address": "Mailing_Ad",
+    "acres": "GIS_ACRES",
+    "land_use": "FEAT_CODE",
+    "assessed_value": "Appraised_"
+  },
+  "notes": "Chester County SC GIS parcel layer hosted on county ArcGIS Online org",
+  "verification": {
+    "verified_at": 1792051733396,
+    "counties": [
+      "45023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

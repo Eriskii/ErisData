@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21205",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://rowan2.connectgis.com/Login.aspx",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=RowanCountyKY&PageType=Search",
+    "https://www.rcky.us/pva-1",
+    "https://tiles.arcgis.com/tiles/KzeiCaQsMoeCfoCq/arcgis/rest/services/Regrid_Nationwide_Parcel_Boundaries_v1/MapServer"
+  ],
+  "note": "Rowan County KY parcel viewers are login-gated connectGIS (rowan2.connectgis.com, persistently 504 Gateway Time-out during this search) and a Schneider qPublic app (RowanCountyKY) that is bot-protected with no public ArcGIS REST endpoint. The Rowan County PVA site links only to qPublic. No public ArcGIS parcel service or downloadable parcel file for Rowan County KY was found in ArcGIS Hub/Online, kygisserver.ky.gov (only Webster County PVA parcels exist), or KY state open data. Regrid's nationwide layer is not queryable; commercial sites are not public county sources.",
+  "recorded_at": 1792050053180,
+  "recheck_after": 1807602053180,
+  "model": "claude-haiku-5-5"
+}

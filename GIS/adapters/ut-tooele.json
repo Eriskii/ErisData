@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ut-tooele",
+  "publisher": "Utah AGRC (UGRC) Tooele County parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Tooele/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49045"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "address": "PARCEL_ADD"
+  },
+  "notes": "UGRC parcel layer for Tooele County; owner names not included.",
+  "verification": {
+    "verified_at": 1792052724709,
+    "counties": [
+      "49045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

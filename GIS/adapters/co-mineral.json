@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "co-mineral",
+  "publisher": "Mineral County, CO (Sidwell-hosted ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/QRZ3Fl7A33hVHixV/arcgis/rest/services/Parcels_Mineral/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08079"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "NAME",
+    "address": "SiteAddress",
+    "acres": "ACRES",
+    "land_use": "CLASSCD1_DESC",
+    "assessed_value": "TOTAL_ASSESSED_VALUE"
+  },
+  "notes": "Layer from Mineral County Equitable Property Value viewer (The Sidwell Company). Polygons with tax roll attributes.",
+  "verification": {
+    "verified_at": 1792048731089,
+    "counties": [
+      "08079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

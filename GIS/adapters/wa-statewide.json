@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "id": "wa-statewide",
+  "publisher": "WA Geospatial Services (WA DOR statewide tax parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/jsIt88o09Q0r1j8h/arcgis/rest/services/Current_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "WA"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID_NR",
+    "address": "SITUS_ADDRESS",
+    "land_use": "LANDUSE_CD",
+    "assessed_value": "VALUE_LAND"
+  },
+  "notes": "Statewide tax parcel data, updated April 2026. Fields: FIPS_NR county FIPS, ORIG_PARCEL_ID original county parcel id, VALUE_BLDG building value, SITUS_CITY_NM, SITUS_ZIP_NR. No owner field in source.",
+  "verification": {
+    "verified_at": 1792048279913,
+    "counties": [
+      "53003",
+      "53005",
+      "53011",
+      "53029",
+      "53035",
+      "53037",
+      "53039",
+      "53041",
+      "53043",
+      "53051",
+      "53053",
+      "53055",
+      "53061",
+      "53063",
+      "53067",
+      "53077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

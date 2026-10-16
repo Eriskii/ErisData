@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-peoria",
+  "publisher": "Peoria County GIS (Illinois)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/iPiPjILCMYxPZWTc/arcgis/rest/services/Tax_Parcels/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17143"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "owner_name",
+    "address": "prop_street",
+    "acres": "Acres",
+    "assessed_value": "total_assessed_value"
+  },
+  "notes": "Public Peoria County tax parcel layer via county ArcGIS Online open data; 90k+ parcels. Land use field (PropClass) is sparsely filled, so not mapped.",
+  "verification": {
+    "verified_at": 1792048966534,
+    "counties": [
+      "17143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13027",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=BrooksCountyGA&Layer=Parcels&PageType=Search",
+    "https://www.brookscoda.com/map-room",
+    "https://www.gismaps.org/ga-brooks-county/",
+    "https://services5.arcgis.com/HA2thkMWRBDb77XN/arcgis/rest/services?f=json"
+  ],
+  "note": "Searched ArcGIS Hub/Online (only zoning, census, soils, flood layers for Brooks), SGRC hosted ArcGIS services (no Brooks parcel layer), and county-linked viewers. The official assessor parcel viewer is qPublic/Schneider, a Cloudflare-protected web app with no public ArcGIS REST parcel service identified. Parcel files are only sold by commercial vendors (Dynamo, Regrid, ReportAll, Acres, Rockford, Mapping Solutions).",
+  "recorded_at": 1792048802027,
+  "recheck_after": 1807600802027,
+  "model": "claude-haiku-5-5"
+}

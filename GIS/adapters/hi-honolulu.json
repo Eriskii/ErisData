@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "hi-honolulu",
+  "publisher": "Hawaii State GIS (HawaiiStateGIS) - City & County of Honolulu tax parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geodata.hawaii.gov/arcgis/rest/services/ParcelsZoning/MapServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "15003"
+    ]
+  },
+  "fields": {
+    "apn": "TMK",
+    "acres": "GISAcres",
+    "land_use": "ZONE"
+  },
+  "filter": "GISAcres < 2000",
+  "notes": "Tax parcel boundaries for City & County of Honolulu (Oahu), current to April 2026. TMK is the tax map key. Filter drops a few very large non-taxlot polygons (e.g. state/forest land) whose centroids fall far from their tax-lot location. No owner or assessed value fields in this layer. zone is the zone/section code, not land use.",
+  "verification": {
+    "verified_at": 1792048867407,
+    "counties": [
+      "15003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

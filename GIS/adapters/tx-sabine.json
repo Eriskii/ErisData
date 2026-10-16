@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-sabine",
+  "publisher": "Texas Land Parcels (TxGIO statewide, Sabine CAD data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48403"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "acres": "GIS_AREA",
+    "assessed_value": "MKT_VALUE"
+  },
+  "filter": "OBJECTID >= 11262187 AND OBJECTID <= 12258300",
+  "notes": "Statewide aggregated parcels; OBJECTID range filter is a workaround so small page sizes work; use spatial queries. Sabine = FIPS 48403, TAX_YEAR 2024.",
+  "verification": {
+    "verified_at": 1792054883012,
+    "counties": [
+      "48403"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

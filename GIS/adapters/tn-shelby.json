@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tn-shelby",
+  "publisher": "Shelby County ITS / ReGIS (Shelby County Assessor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.shelbycountytn.gov/serverhigh/rest/services/Parcel/CurrentParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47157"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "PAR_ADDR1",
+    "land_use": "LUC"
+  },
+  "notes": "ReGIS Current Parcels; anonymous query access. Source notice: data for ReGIS participants; may not be displayed publicly or sold without ReGIS consent. Acres not provided (Shape.STArea available).",
+  "verification": {
+    "verified_at": 1792045281866,
+    "counties": [
+      "47157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

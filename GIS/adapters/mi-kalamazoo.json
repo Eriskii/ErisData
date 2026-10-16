@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-kalamazoo",
+  "publisher": "Kalamazoo County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/RGltUbqpl4h9E3Qh/arcgis/rest/services/Parcels_2025/FeatureServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26077"
+    ]
+  },
+  "fields": {
+    "apn": "PELNUMBER",
+    "owner": "ONERNAME1",
+    "address": "PCOMBINED",
+    "acres": "gis_acres",
+    "land_use": "PRTYCLSTXT"
+  },
+  "notes": "2025 tax roll parcels, Kalamazoo County MI; county ArcGIS Online account",
+  "verification": {
+    "verified_at": 1792049937055,
+    "counties": [
+      "26077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

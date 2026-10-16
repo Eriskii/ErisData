@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "id": "md-statewide",
+  "publisher": "Maryland Department of Planning / MD iMAP (MD Property View)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdgeodata.md.gov/imap/rest/services/PlanningCadastre/MD_ParcelBoundaries/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "MD"
+    ]
+  },
+  "fields": {
+    "apn": "ACCTID",
+    "owner": "OWNADD1",
+    "address": "ADDRESS",
+    "acres": "ACRES",
+    "land_use": "DESCLU",
+    "assessed_value": "NFMTTLVL"
+  },
+  "notes": "Statewide parcel boundaries from MD Property View (SDAT). About 2.29M features. JURSCODE holds the county code. Owner name is not in this layer; OWNADD1 is the owner mailing address. Public service; the geodata.md.gov host was returning maintenance 503 during this run, so mdgeodata.md.gov is used.",
+  "verification": {
+    "verified_at": 1792048319831,
+    "counties": [
+      "24001",
+      "24003",
+      "24005",
+      "24009",
+      "24011",
+      "24013",
+      "24015",
+      "24017",
+      "24021",
+      "24023",
+      "24025",
+      "24027",
+      "24031",
+      "24033",
+      "24035",
+      "24037",
+      "24039",
+      "24041",
+      "24043",
+      "24045",
+      "24047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

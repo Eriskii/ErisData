@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-curry",
+  "publisher": "Curry County, NM",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.currycounty.org/server/rest/services/Parcel_Layer/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35009"
+    ]
+  },
+  "fields": {
+    "apn": "UPCPRP_1",
+    "owner": "GONAM",
+    "acres": "ACREAGE"
+  },
+  "notes": "Curry County GIS Parcel_Layer public ArcGIS service; source CRS is NM State Plane East (ft), service reprojects to WGS84 for queries. Situs address (GACOM) is blank for most rural parcels, so not mapped.",
+  "verification": {
+    "verified_at": 1792051357645,
+    "counties": [
+      "35009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

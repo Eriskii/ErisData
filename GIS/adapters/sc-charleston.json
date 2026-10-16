@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sc-charleston",
+  "publisher": "Charleston County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisccapps.charlestoncounty.org/arcgis/rest/services/GIS_VIEWER/External_GIS_Website/MapServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45019"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "OWNER1",
+    "address": "MAIL_ST_NAME",
+    "acres": "ACREAGE",
+    "land_use": "CLASS_CODE"
+  },
+  "notes": "Assessor-maintained parcels from public GIS viewer service; no token required. Address field is mailing address street name only.",
+  "verification": {
+    "verified_at": 1792051570496,
+    "counties": [
+      "45019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

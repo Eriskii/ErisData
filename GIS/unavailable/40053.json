@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40053",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://okmaps.org/ogi/RestDataAccessItem.aspx?UUID=1484707a-712a-4447-96a9-5a38affc600e",
+    "https://okmaps.org/ogi/search.aspx",
+    "https://grant.okcounties.org/maps",
+    "https://landrecords.us/documentation/coverage/counties/40-053-grant",
+    "https://www.datacrosspoint.com/grant-county-property-search/"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Grant County OK (FIPS 40053) parcels. No county-published parcel polygon service found. The Esri experience map 8914003b... found under 'Grant County Parcel Map' belongs to Grant County, New Mexico. The statewide OKMaps parcel layer is view-only WMS with no download or REST query. Grant County's own site links only static 911 map images and assessor/tax search portals. Commercial sources (landrecords.us, reportallusa, Regrid) are paid or not queryable. An OWRB 'Parcels' MapServer (maps.owrb.ok.gov/arcgis/rest/services/Hazard/Parcels) was listed but unreachable from my tools, so it could not be inspected.",
+  "recorded_at": 1792051737379,
+  "recheck_after": 1807603737379,
+  "model": "claude-haiku-5-5"
+}

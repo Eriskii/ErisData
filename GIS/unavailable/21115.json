@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21115",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://qpublic.net/ky/johnson/index.php?case=9",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=JohnsonCountyKY&Layer=Parcels&PageType=Search",
+    "https://kygisserver.ky.gov/arcgis/rest/services?f=json",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp"
+  ],
+  "note": "Johnson County KY parcels are published only through the Johnson County PVA's qPublic/Schneider viewer, which is not a public ArcGIS REST or file service. The state KyGeoNet/KYDGI server lists PVA parcel services for Webster, Barren, Caldwell, Nelson, Pendleton, Spencer, Trimble, Wayne and Hardin counties but none for Johnson. Searches of ArcGIS Hub and Online found no Johnson County KY parcel service. Only commercial sources (Dynamo Spatial, Regrid, Acres) offer parcel data, and those are paid.",
+  "recorded_at": 1792049875234,
+  "recheck_after": 1807601875234,
+  "model": "claude-haiku-5-5"
+}

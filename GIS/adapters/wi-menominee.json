@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wi-menominee",
+  "publisher": "Wisconsin Statewide Parcel Map Initiative (WI DOA / State Cartographer), Menominee County extract",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/n6uYoouQZW75n5WI/arcgis/rest/services/Wisconsin_Statewide_Parcels_DB/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55078"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "address": "SITEADRESS",
+    "acres": "GISACRES"
+  },
+  "filter": "CONAME = 'MENOMINEE'",
+  "notes": "Statewide WI parcel layer filtered to Menominee County via CONAME (PARCELFIPS is 3-digit 078, so not used). Includes tribal trust placeholder parcels (PARCELID TRIBAL). assessed_value (CNTASSDVALUE) and land_use (PROPCLASS) are populated for only about half the county parcels (2,209 of 4,514) and are left unmapped here because the sample area is dominated by tribal parcels without values. Data from the State Cartographer statewide parcel database, 2026 load.",
+  "verification": {
+    "verified_at": 1792045265508,
+    "counties": [
+      "55078"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

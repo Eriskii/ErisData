@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ky-pendleton",
+  "publisher": "Pendleton County PVA via LINK-GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.linkgis.org/server/rest/services/Parcel_QueryOnly/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21191"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "Name",
+    "address": "LOC_ADDRESS",
+    "acres": "ACRES",
+    "land_use": "Class"
+  },
+  "notes": "Pendleton County KY PVA parcels served by LINK-GIS; map viewer is reference only per LINK-GIS FAQ",
+  "verification": {
+    "verified_at": 1792049826653,
+    "counties": [
+      "21191"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

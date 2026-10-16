@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-davidson",
+  "publisher": "Davidson County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://webgis.co.davidson.nc.us/arcgis/rest/services/Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37057"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "Name1",
+    "address": "PropertyAddress",
+    "land_use": "UseModel1",
+    "assessed_value": "TotalAssessedValue"
+  },
+  "notes": "Davidson County NC county parcel layer; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792051342367,
+    "counties": [
+      "37057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ia-story",
+  "publisher": "Story County GIS, Iowa",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://apps.storycounty.com/arcgis/rest/services/parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19169"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OwnerName",
+    "address": "FullSitus",
+    "acres": "DIGITAL_ACRES",
+    "land_use": "PropertyClass",
+    "assessed_value": "AssessedTotalValue"
+  },
+  "notes": "Story County Iowa parcels MapServer layer 0, public ArcGIS service; max record count 100000, page_size set to 2000 conservatively.",
+  "verification": {
+    "verified_at": 1792049193909,
+    "counties": [
+      "19169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

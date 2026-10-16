@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ma-bristol",
+  "publisher": "MassGIS (Massachusetts Executive Office of Technology and Security Services) - Bristol County towns",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgisserver.digital.mass.gov/arcgisserver/rest/services/AGOL/MassachusettsPropertyTaxParcels/FeatureServer/1",
+    "page_size": 62,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "apn": "LOC_ID"
+  },
+  "filter": "TOWN_ID IN (3,16,27,72,76,88,94,95,102,167,201,211,218,245,247,265,273,292,293,334)",
+  "notes": "MassGIS statewide tax parcels (FeatureServer layer), filtered to the 20 Bristol County MA municipalities by MassGIS TOWN_ID.",
+  "verification": {
+    "verified_at": 1792050045970,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

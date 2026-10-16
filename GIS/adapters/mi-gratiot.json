@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mi-gratiot",
+  "publisher": "Gratiot County, Michigan (via ArcGIS Online, jcassady@gratiotmi.com)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/RukRjumVrIALMGTk/arcgis/rest/services/Gratiot_Parcels_2024_view_read_only/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26057"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "address": "PropAddressCombined"
+  },
+  "notes": "Gratiot Parcels 2024 read-only view; service exposes parcel ID and situs address only; source CRS EPSG:2253",
+  "verification": {
+    "verified_at": 1792049934730,
+    "counties": [
+      "26057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

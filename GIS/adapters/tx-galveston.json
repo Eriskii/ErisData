@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-galveston",
+  "publisher": "Galveston County Appraisal District (via TNRIS StratMap land parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/lqRTrQp2HrfnJt8U/arcgis/rest/services/stratmap22_landparcels_48167_lp/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48167"
+    ]
+  },
+  "fields": {
+    "apn": "ID",
+    "owner": "NAME",
+    "address": "SITUS",
+    "acres": "ACRES",
+    "assessed_value": "VAL21TOT"
+  },
+  "filter": "FIPS = '48167'",
+  "notes": "TNRIS StratMap land parcels, derived from Galveston CAD; tax year 2021 values",
+  "verification": {
+    "verified_at": 1792051689795,
+    "counties": [
+      "48167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

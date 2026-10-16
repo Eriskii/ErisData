@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-lafayette",
+  "publisher": "Florida Department of Revenue (FDOR) Florida Statewide Cadastral, Lafayette County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Gh9awoU677aKree0/arcgis/rest/services/Florida_Statewide_Cadastral/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12067"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_NAME",
+    "address": "PHY_ADDR1",
+    "land_use": "DOR_UC",
+    "assessed_value": "AV_NSD"
+  },
+  "filter": "CO_NO = 44",
+  "notes": "FDOR statewide cadastral; Lafayette County is CO_NO 44.",
+  "verification": {
+    "verified_at": 1792049262038,
+    "counties": [
+      "12067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

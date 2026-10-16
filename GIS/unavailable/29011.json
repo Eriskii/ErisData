@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29011",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://countyofbarton.gov/assessor",
+    "https://barton.samgis.biz/",
+    "https://gis.equatorstudios.com/missouri_barton/",
+    "https://app.regrid.com/store/us/mo/barton"
+  ],
+  "note": "Barton County MO (FIPS 29011). The county assessor page links to its GIS site, barton.samgis.biz (a SAM Integrity single-page app). Every path probed on that host (arcgis/rest/services, Parcels MapServer/FeatureServer, server/rest/services) returns the HTML app shell, not an ArcGIS REST catalog, and no ArcGIS Hub or Online item for Barton County MO parcels was found. The county mapping page points to ORKA, which is Barton County, Kansas. Parcel polygons are only offered as fee-based downloads (Equator Studios, Regrid, Dynamo) and as a state FMDC layer that covers state-owned parcels, not county tax parcels. No public queryable parcel service was identified.",
+  "recorded_at": 1792050984538,
+  "recheck_after": 1807602984538,
+  "model": "claude-haiku-5-5"
+}

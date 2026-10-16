@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-lincoln",
+  "publisher": "Lincoln County, SD GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lincolncountysd.gov/arcgis/rest/services/Pro29/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46083"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "AcreCalc",
+    "land_use": "Zoning"
+  },
+  "notes": "Lincoln County SD parcel layer; no owner, situs address or assessed value fields published in this layer",
+  "verification": {
+    "verified_at": 1792051612513,
+    "counties": [
+      "46083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

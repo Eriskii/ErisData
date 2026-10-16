@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-matagorda",
+  "publisher": "Matagorda County Appraisal District (via BIS CAD web service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/pOoGFPnvGO2DVZ5T/arcgis/rest/services/MatagordaCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "48321"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Matagorda CAD web service hosted by BIS; parcel layer 0 of MatagordaCADWebService. Not a legal boundary per CAD caveat.",
+  "verification": {
+    "verified_at": 1792051745910,
+    "counties": [
+      "48321"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

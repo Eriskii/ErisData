@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-currituck",
+  "publisher": "Currituck County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.currituckcountync.gov/arcgis/rest/services/GISWebsite/OperationalLayers/MapServer/20",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37053"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN1",
+    "address": "LOC_STR",
+    "acres": "ACREAGE_GI",
+    "land_use": "LUC",
+    "assessed_value": "TOT_VAL"
+  },
+  "notes": "County MapServer layer 20 Parcels; 27902 features",
+  "verification": {
+    "verified_at": 1792051336179,
+    "counties": [
+      "37053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

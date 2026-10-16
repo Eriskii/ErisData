@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-tazewell",
+  "publisher": "Tazewell County GIS (Illinois)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.tazewell-il.gov/arcgis/rest/services/AGS_tazewell_co_il_taxmap_view_noowner2/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17179"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "address": "site_address",
+    "acres": "gross_acres",
+    "land_use": "class"
+  },
+  "notes": "Tax parcels view without owner field. Source: Tazewell County GIS, gis.tazewell-il.gov.",
+  "verification": {
+    "verified_at": 1792048992396,
+    "counties": [
+      "17179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

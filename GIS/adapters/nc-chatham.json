@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-chatham",
+  "publisher": "Chatham County GIS and Tax Department",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.chathamcountync.gov/webapps/rest/services/DedicatedDatasets/LandReference/MapServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37037"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_number",
+    "owner": "current_owners",
+    "address": "physical_street_address",
+    "acres": "gross_current_acres",
+    "land_use": "py_use_code",
+    "assessed_value": "jan1_total_ASV"
+  },
+  "notes": "County tax parcel layer (Cama Parcels), served by Chatham County GIS/Tax; public ArcGIS REST service",
+  "verification": {
+    "verified_at": 1792051354821,
+    "counties": [
+      "37037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

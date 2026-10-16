@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-campbell",
+  "publisher": "Campbell County GIS (via District III GIS server)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/CAMPBELL_COUNTY_WEB_LAYERS/MapServer/22",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46021"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNERNAME",
+    "address": "SITE_ADDRESS",
+    "acres": "DEEDED_ACRE"
+  },
+  "notes": "Campbell County SD parcels layer from District III GIS server; web map layer, no login required",
+  "verification": {
+    "verified_at": 1792051597731,
+    "counties": [
+      "46021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

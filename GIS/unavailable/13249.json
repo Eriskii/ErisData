@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13249",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services2.arcgis.com/iXA1dC6ldRMKRwra/arcgis/rest/services/Schley_County_Parcels/FeatureServer/0",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=SchleyCountyGA&Layer=Parcels&PageType=Search",
+    "https://www.qpublic.net/ga/schley/",
+    "https://georgiagisclearinghouse.com/parcels"
+  ],
+  "note": "Only public Schley County parcel service found (GDITAdmin 'Parcels - GA - Schley County' on ArcGIS Online) is listed but every request returns 400 'Invalid URL' / Bad Request, so it is not queryable. The county's official parcel viewer is qPublic (Schneider), which serves a bot-check interstitial and exposes no public REST endpoint. Other Schley ArcGIS layers (RVRC org) are tracts, roads, addresses, blocks, city limits, not parcels. Remaining parcel sources are paid downloads (Dynamo Spatial, Equator Studios, Regrid, ReportAllUSA).",
+  "recorded_at": 1792048997109,
+  "recheck_after": 1807600997109,
+  "model": "claude-haiku-5-5"
+}

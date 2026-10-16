@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "48327",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gisdata.pandai.com/pamaps02/rest/services/Menard/MenardCADPublic/MapServer/0",
+    "https://services6.arcgis.com/yXTxb5WRZVU3HkAX/arcgis/rest/services/Menard_County_Parcels/FeatureServer/0"
+  ],
+  "note": "Menard CAD parcels (5,710) are only on a Pandai MapServer that rejects all pagination (resultOffset), so the runtime cannot page it even with page_size 10000; the only hosted feature copy requires a token; TNRIS StratMap endpoints are unreachable.",
+  "recorded_at": 1792051853752,
+  "recheck_after": 1807603853752,
+  "model": "claude-sonnet-5-5"
+}

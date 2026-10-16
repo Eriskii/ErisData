@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "fl-union",
+  "publisher": "Union County Florida Tax Parcels (Union County GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/yghUoIoA2Cd2cWki/arcgis/rest/services/Union_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12125"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_polygon_PARCELNO"
+  },
+  "notes": "Union County FL tax parcel polygons; layer publishes only parcel number (apn), a PIN-style name and a PA link; no owner, address or value fields",
+  "verification": {
+    "verified_at": 1792049016980,
+    "counties": [
+      "12125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

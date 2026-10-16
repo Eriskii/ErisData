@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "wa-grant",
+  "publisher": "Grant County GIS (WA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/hQZvdtFxRzJpMtdS/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "53025"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL",
+    "owner": "LastName",
+    "address": "Address1",
+    "acres": "TotalAcres",
+    "land_use": "PropertyClass",
+    "assessed_value": "TotalAssessedValue"
+  },
+  "notes": "Grant County Assessor parcel polygons; owner is last name field only; address is owner mailing address; boundaries not survey-exact",
+  "verification": {
+    "verified_at": 1792053555727,
+    "counties": [
+      "53025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

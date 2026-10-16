@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-shasta",
+  "publisher": "Shasta County IT (ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/22p1CUjMjjRWlw6O/arcgis/rest/services/ParcelSitusAddress/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06089"
+    ]
+  },
+  "fields": {
+    "apn": "ASMT",
+    "address": "Situs_Address"
+  },
+  "notes": "Polygons with Assessment Number (ASMT) and situs address; maintained by Shasta County IT",
+  "verification": {
+    "verified_at": 1792048676061,
+    "counties": [
+      "06089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-ramsey",
+  "publisher": "Ramsey County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.ramsey.mn.us/arcgis/rest/services/OpenData/OpenData/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27123"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "OwnerName1",
+    "address": "SiteAddress",
+    "acres": "ParcelAcresPolygon",
+    "land_use": "LandUseCodeDescription",
+    "assessed_value": "EMVTotal"
+  },
+  "notes": "Ramsey County open data Parcels layer (OpenData service); EPSG:26915 source, served as GeoJSON/WGS84 by query",
+  "verification": {
+    "verified_at": 1792050894362,
+    "counties": [
+      "27123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

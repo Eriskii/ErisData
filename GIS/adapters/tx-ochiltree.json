@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-ochiltree",
+  "publisher": "Ochiltree County Appraisal District (via ArcGIS web service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/tzXFuAOuVv9jbvkS/arcgis/rest/services/OchiltreeCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48357"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Ochiltree CAD public web service; source CRS is Texas State Plane feet (wkid 2275); geoJSON output reprojected by server; situs address fields are sparse (mostly rural parcels) so address is not mapped",
+  "verification": {
+    "verified_at": 1792051733113,
+    "counties": [
+      "48357"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

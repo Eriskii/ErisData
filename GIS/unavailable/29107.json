@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29107",
+  "reason": "login-required",
+  "evidence": [
+    "https://services4.integritygis.com/arcgis/rest/services/Public/Lafayette_NG911_Data/MapServer",
+    "https://sites8.integritygis.com/geocortex/essentials/rest/sites/Lafayette_County_MO/map",
+    "https://lafayettecountymo.gov/services/assessor.php"
+  ],
+  "note": "Lafayette County MO parcels are only served via IntegrityGIS. The Parcel Public layer (layer 5 of Lafayette_NG911_Data MapServer) returns 'Token Required', and the assessor page says the fuller GIS data requires a paid enhanced subscription. No public, queryable parcel service was found. Other hits (landrecords.us, uslandgrid.com, dynamospatial, regrid, acres) are paid commercial vendors, not county publications. Other IntegrityGIS hosts were unreachable from here.",
+  "recorded_at": 1792051014603,
+  "recheck_after": 1807603014603,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "13311",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.whitecountyga.gov/296/Mapping-GIS",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=982&LayerID=19945&PageTypeID=1&PageID=8773"
+  ],
+  "note": "White County GA (13311): county GIS page names qPublic (Schneider) as the only parcel host and links no ArcGIS REST service or parcel download. qPublic viewer returned HTTP 403 (Cloudflare) so its layers could not be inspected. ArcGIS Online/Hub searches for White County parcels found no public parcel feature service. Guessed host gis.whitecountyga.gov did not respond. Only commercial sources exist (Dynamo Spatial, Equatorstudios, Regrid).",
+  "recorded_at": 1792048928716,
+  "recheck_after": 1807600928716,
+  "model": "claude-haiku-5-5"
+}

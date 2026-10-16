@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nv-clark",
+  "publisher": "Clark County Assessor (maps.clarkcountynv.gov)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/Assessor/Layers/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32003"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "acres": "ASSR_ACRES"
+  },
+  "notes": "Clark County NV Assessor parcel polygons; no owner/address/value fields exposed on this layer",
+  "verification": {
+    "verified_at": 1792051347420,
+    "counties": [
+      "32003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

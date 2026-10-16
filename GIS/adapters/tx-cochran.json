@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-cochran",
+  "publisher": "Cochran County Appraisal District (bis_cochrancad)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/d7f5jhAosYNYotdL/arcgis/rest/services/CochranCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48079"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Cochran CAD public ArcGIS service; same vendor as Bailey County adapter. Situs address fields are mostly empty, so address is not mapped. Source is Texas State Plane feet; runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792051665634,
+    "counties": [
+      "48079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

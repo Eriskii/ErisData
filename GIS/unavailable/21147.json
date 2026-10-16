@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21147",
+  "reason": "paywalled",
+  "evidence": [
+    "https://www.qpublic.net/ky/mccreary/",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=999&LayerID=20377&PageTypeID=2&PageID=8871",
+    "https://www.qpublic.net/ky/index.html",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=sitemap",
+    "https://services3.arcgis.com/zFbua1leq0IWGIul/arcgis/rest/services/Parcel_McCreary_NKUrequest/FeatureServer/0"
+  ],
+  "note": "McCreary County parcels are published only through the PVA's qPublic (Schneider) portal, listed as a subscription service; its viewer is blocked by a Cloudflare challenge and exposes no public ArcGIS REST parcel endpoint. No county-wide parcel service found on kygisserver.ky.gov (only Webster County PVA parcels there). The only ArcGIS parcel layer found (plumhilleco_18 Parcel_McCreary_NKUrequest) has just 12 features. Other McCreary parcel sources are commercial paid downloads.",
+  "recorded_at": 1792049889457,
+  "recheck_after": 1823585889457,
+  "model": "claude-haiku-5-5"
+}

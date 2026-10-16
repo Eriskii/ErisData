@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20147",
+  "reason": "login-required",
+  "evidence": [
+    "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/ORKA_Status_20180201/FeatureServer/0/query?where=COUNTY%3D%27Phillips%27&outFields=*&f=json",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Phillips",
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://www.phillipscountyks.org/departments/CountyAppraisersOffice"
+  ],
+  "note": "Phillips County KS parcels are not published as a public queryable service. The Kansas DASC ORKA status layer lists Phillips as 'ORKA Private' (access via ORKA with county approval/registration). The county appraiser links only to the ORKA viewer, which sits behind a Kansas Open Records Act use-restriction disclaimer. No public ArcGIS REST parcel layer was found in the ORKA services (services.kansasgis.org KS_ORKA_Extras, sketch), on the county site, or in the arcgis Hub/Online searches. Only paid third-party vendors (Dynamo, Regrid, Acres) offer parcels.",
+  "recorded_at": 1792049401550,
+  "recheck_after": 1807601401550,
+  "model": "claude-haiku-5-5"
+}

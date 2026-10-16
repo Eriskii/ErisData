@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20141",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://orkahub.kansasgis.org/",
+    "https://www.osbornecounty.org/departments/appraiser/index.html",
+    "https://www.osbornecounty.org/news_and_information/maps/",
+    "https://www.dynamospatial.com/c/osborne-county-ks/parcel-data",
+    "https://services.kansasgis.org/arcgis/rest/services"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Osborne County parcel service), the Kansas ORKA portal and KansasGIS services directories (ORKA extras, wimas, water, Utilities: no parcel polygons for Osborne), the county website and appraiser pages (no GIS/REST endpoint; appraisal search is a lookup portal), and commercial vendors (Dynamo Spatial shapefile download, Regrid viewer). The only nationwide parcel layer found (Regrid Nationwide Parcel Boundaries MapServer) is third-party and its query endpoint returns 404, so it is not queryable. No public queryable county parcel service exists.",
+  "recorded_at": 1792049363312,
+  "recheck_after": 1807601363312,
+  "model": "claude-haiku-5-5"
+}

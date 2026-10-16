@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wa-wahkiakum",
+  "publisher": "Wahkiakum County GIS (Tall_Timber hosted authoritative tax parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/SQaKrZ90pTH1GKNW/arcgis/rest/services/Wahkiakum_County_Tax_Parcels_Authoritative_Hosted_Feature_(Public_VIew_WCNYH)/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53069"
+    ]
+  },
+  "fields": {
+    "apn": "Property_I",
+    "owner": "Property_O",
+    "acres": "Calc_GIS_Acres",
+    "land_use": "Primary_Use_Code",
+    "assessed_value": "AppraisedVal"
+  },
+  "notes": "Public view of county authoritative tax parcel layer; 4466 features; situs address (Parcel_Add) is sparsely populated so not mapped; updated monthly per county GIS",
+  "verification": {
+    "verified_at": 1792053113088,
+    "counties": [
+      "53069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

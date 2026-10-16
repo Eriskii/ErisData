@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "co-dolores",
+  "publisher": "Colorado OIT GIS Team (Dolores County parcels, statewide Colorado Public Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08033"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "owner",
+    "acres": "landAcres",
+    "assessed_value": "asedValTot"
+  },
+  "filter": "countyFips = '033'",
+  "notes": "State OIT composite of county parcels; Dolores County rows selected by countyFips 033. Site address (situsAdd) is filled for only about 44% of parcels in source, so it is not mapped.",
+  "verification": {
+    "verified_at": 1792048724392,
+    "counties": [
+      "08033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

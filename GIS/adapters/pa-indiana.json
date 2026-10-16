@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-indiana",
+  "publisher": "Indiana County GIS / PASDA",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/IndianaCounty/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42063"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "LAST_NAME",
+    "address": "COMBINED_S",
+    "acres": "GIS_ACRES",
+    "land_use": "LAND_USE_C",
+    "assessed_value": "NEW_MV_TOT"
+  },
+  "notes": "PASDA Indiana County parcels 202311; owner is LAST_NAME field only",
+  "verification": {
+    "verified_at": 1792051519811,
+    "counties": [
+      "42063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

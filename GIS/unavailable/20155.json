@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20155",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.renocountyks.gov/Maps-Parcel-Information",
+    "https://www.renocountyks.gov/maps",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=1063&LayerID=25050&PageTypeID=2&PageID=10267",
+    "http://renogis3.renogov.org/rn_vb/MainPage.aspx"
+  ],
+  "note": "Reno County KS publishes no queryable public ArcGIS REST or file parcel service that I could find. Its official parcel viewer is Schneider Beacon (bot-protected, not a public ArcGIS service). The legacy renogis3.renogov.org viewer and gis.renocountyks.gov did not respond to probes. County pages link only to Beacon. Parcel polygons are otherwise sold by commercial vendors (Regrid, Dynamo, Equator, MappingSolutions); the Regrid national ArcGIS layer does not answer queries.",
+  "recorded_at": 1792049383047,
+  "recheck_after": 1807601383047,
+  "model": "claude-haiku-5-5"
+}

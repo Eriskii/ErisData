@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21087",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=GreenCountyKY&Layer=Parcels&PageType=Search",
+    "https://www.acrevalue.com/plat-map/KY/Green/",
+    "https://rockfordmap.com/maps/kentucky-green-county/",
+    "https://kygeonet.ky.gov/",
+    "https://revenue.ky.gov/Property/Mapping-Services/Pages/default.aspx"
+  ],
+  "note": "Green County PVA parcels appear only in the qPublic (Schneider) web viewer, which is behind a Cloudflare challenge and offers no public ArcGIS REST or GeoJSON parcel service. The state kygisserver hosts PVA parcel services for only nine counties (not Green), ArcGIS Hub and Online searches found no Green County parcel layer, and commercial parcel shapefiles from Rockford Map are paid.",
+  "recorded_at": 1792049878536,
+  "recheck_after": 1807601878536,
+  "model": "claude-haiku-5-5"
+}

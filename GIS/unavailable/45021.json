@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "45021",
+  "reason": "login-required",
+  "evidence": [
+    "https://smpesri.scdot.org/arcgis/rest/services/GISMapping/SC_Parcels/MapServer/10",
+    "https://cherokeecountysc.gov/gis-mapping/gis-parcel-map/",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=CherokeeCountySC&Layer=Parcels&PageType=Search"
+  ],
+  "note": "Cherokee County SC parcels are published only via (1) the SCDOT-hosted SC_Parcels MapServer layer 10 ('Parcels - SC - Cherokee County'), which returns 'Token Required' to anonymous requests, and (2) the county's qPublic/Schneider viewer, which has no public REST endpoint. No public queryable parcel service for Cherokee County SC was found. The Gaffney city layer covers only the city; commercial downloads are not public services.",
+  "recorded_at": 1792051620812,
+  "recheck_after": 1807603620812,
+  "model": "claude-haiku-5-5"
+}

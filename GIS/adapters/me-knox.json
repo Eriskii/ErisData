@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "me-knox",
+  "publisher": "Maine GeoLibrary / coagis (Maine Parcels Organized Towns), Knox County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/0EOqWPtpCmgQr2ay/arcgis/rest/services/Parcels___Organized/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23013"
+    ]
+  },
+  "fields": {
+    "apn": "geocode",
+    "owner": "state_id",
+    "address": "map_bk_lot",
+    "land_use": "type"
+  },
+  "filter": "county = 'Knox'",
+  "notes": "Statewide Maine parcels for organized towns; Knox County subset via county field. No owner/address/value attributes in this layer; state_id and map_bk_lot are parcel identifiers, not owner or site address. Area in st_area_sh (square metres).",
+  "verification": {
+    "verified_at": 1792049907256,
+    "counties": [
+      "23013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

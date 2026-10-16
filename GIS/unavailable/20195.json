@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20195",
+  "reason": "login-required",
+  "evidence": [
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://hub.kansasgis.org/pages/de8c49f33a0e4149a8568fea0ef3997d",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=trego",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA"
+  ],
+  "note": "Trego County (KS) parcels are only served through the state ORKA property viewer. ORKA's public GeoServices folder holds only KS_ORKA_Extras (partial, no Trego parcel polygon layer) and sketch. Parcel data for a county is obtained through the ORKA request process, which requires registration and per-county approval (2-3 weeks). No public queryable Trego parcel service was found in ArcGIS Hub/Online searches or on county sites (tregocountyks.gov has no GIS link). Commercial vendors (Regrid, acres, mappingsolutionsgis) are paid and not county sources.",
+  "recorded_at": 1792049401156,
+  "recheck_after": 1807601401156,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ak-sitka-city",
+  "publisher": "City and Borough of Sitka",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/EozEvrS4g3SEhtG3/arcgis/rest/services/Parcel_Layer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02220"
+    ]
+  },
+  "fields": {
+    "apn": "MSPARCELID",
+    "address": "MSADD",
+    "acres": "MSAREACAC"
+  },
+  "notes": "Parcels only cover Sitka town area",
+  "verification": {
+    "verified_at": 1792049025257,
+    "counties": [
+      "02220"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

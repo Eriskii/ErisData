@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-howard",
+  "publisher": "Howard County, NE (via gWorks clerk map service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Howard_County_NE_Clerk/MapServer/30",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31093"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "Clerk map service; layer exposes parcel id and acres only. Source CRS 3857.",
+  "verification": {
+    "verified_at": 1792051117495,
+    "counties": [
+      "31093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

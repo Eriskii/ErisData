@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "08021",
+  "reason": "viewer-only",
+  "evidence": [
+    "http://slvgis.maps.arcgis.com/apps/Solutions/s2.html?appid=52a2d58320094b57b94f7c6c98f3c044",
+    "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0",
+    "https://services6.arcgis.com/OsYw3Kyf0wNIxk1B/arcgis/rest/services/Conejos_County/FeatureServer/0"
+  ],
+  "note": "Conejos County parcels are only reachable via the San Luis Valley GIS/GPS Authority's viewer (slvgis ArcGIS Online app); its parcel service could not be located in public ArcGIS search or the slvgis org. The statewide Colorado Public Parcels layer has 0 Conejos records (countyFips 08021 and countyName queries return none). The only Conejos ArcGIS service found (PuenteAdmin, services6 OsYw3Kyf0wNIxk1B) is the county boundary, not parcels.",
+  "recorded_at": 1792048855504,
+  "recheck_after": 1807600855504,
+  "model": "claude-haiku-5-5"
+}

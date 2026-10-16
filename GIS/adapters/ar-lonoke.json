@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-lonoke",
+  "publisher": "Arkansas GIS Office (county assessor parcel polygons), Lonoke County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05085"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "acres": "Shape__Area",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "countyfips = '085'",
+  "notes": "Statewide AR parcel polygons; not a legal boundary; updated twice a year. Lonoke = countyfips 085. Address sparsely populated in source.",
+  "verification": {
+    "verified_at": 1792048533986,
+    "counties": [
+      "05085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

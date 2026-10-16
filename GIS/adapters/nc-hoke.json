@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-hoke",
+  "publisher": "Hoke County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.hokecounty.org/server/rest/services/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37093"
+    ]
+  },
+  "fields": {
+    "apn": "TWN_PIN",
+    "owner": "OWNER_NAME",
+    "address": "PHY_ADDRES",
+    "acres": "CAL_ACRES",
+    "assessed_value": "COST_TOTAL"
+  },
+  "notes": "Hoke County NC official county ArcGIS MapServer, NC State Plane feet (SR 2264); service reprojected to WGS84 by runtime",
+  "verification": {
+    "verified_at": 1792051364450,
+    "counties": [
+      "37093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

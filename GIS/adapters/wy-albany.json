@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "wy-albany",
+  "publisher": "Albany County Planning (Wyoming)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/EmwrhKkmuQhTATzU/arcgis/rest/services/Albany_County_Planning_Floodplain_and_APOZ_Interactive_Map_WFL1/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "56001"
+    ]
+  },
+  "fields": {
+    "apn": "pidn",
+    "owner": "name1",
+    "address": "st_address",
+    "acres": "grossacres",
+    "land_use": "descript",
+    "assessed_value": "totalval"
+  },
+  "filter": "grossacres < 300",
+  "notes": "Ownership layer from Albany County Planning floodplain/APOZ web map, data as of 2-8-22; filter excludes parcels over 300 acres pending location check",
+  "verification": {
+    "verified_at": 1792052732660,
+    "counties": [
+      "56001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

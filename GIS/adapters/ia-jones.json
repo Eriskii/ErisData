@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-jones",
+  "publisher": "Iowa DHSEM / University of Iowa (statewide 2017 parcels), Jones County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19105"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Jones'",
+  "notes": "Statewide Iowa parcels 2017 layer; filtered to COUNTYNAME Jones. Parcel ids from PARCELNUMB.",
+  "verification": {
+    "verified_at": 1792049290193,
+    "counties": [
+      "19105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

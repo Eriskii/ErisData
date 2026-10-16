@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "me-androscoggin",
+  "publisher": "Maine Cadastral/MCHT Combined Parcels (municipal submissions)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mcht.org/arcgis/rest/services/Cadastral_Planning/MCHT_Combined_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23001"
+    ]
+  },
+  "fields": {
+    "apn": "map_bk_lot"
+  },
+  "filter": "county = 'Androscoggin'",
+  "notes": "Combined Maine parcel layer from municipal submissions; some towns old; no owner or acreage field in this layer; many address fields blank.",
+  "verification": {
+    "verified_at": 1792049915811,
+    "counties": [
+      "23001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-bucks",
+  "publisher": "Bucks County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/SP47Tddf7RK32lBU/arcgis/rest/services/Bucks_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42017"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "owner": "OWNER1",
+    "address": "ADDRESS",
+    "acres": "DEED_AREA",
+    "land_use": "LAND_USE_CODE",
+    "assessed_value": "TOTAL_VALUE"
+  },
+  "notes": "Bucks County GIS open data portal parcel layer; includes municipality, owner2, land/building values",
+  "verification": {
+    "verified_at": 1792051527074,
+    "counties": [
+      "42017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

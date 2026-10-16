@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "tx-johnson",
+  "publisher": "Johnson County Central Appraisal District (via ArcGIS Online JohnsonCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/SNQMi91A9RRB0qcO/arcgis/rest/services/JohnsonCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48251"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text"
+  },
+  "notes": "Johnson CAD public web service; parcel polygons for Johnson County TX. Owner, situs address and value fields are published empty in this service.",
+  "verification": {
+    "verified_at": 1792051724671,
+    "counties": [
+      "48251"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "56009",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://maps.terragis.net/converse/download/ownership.zip",
+    "https://gis.deq.wyo.gov/arcgis/rest/services/WY_PRIVATE_PARCELS/MapServer",
+    "https://www.conversecountywy.gov/177/County-Assessor"
+  ],
+  "note": "Converse County publishes parcel ownership only as ownership.zip (shapefile). Validation fails: its dBASE deed_date field holds an invalid month (InvalidDate(InvalidMonth(0))), so the file cannot be read. The statewide WY_PRIVATE_PARCELS MapServer lists no layers and every layer query returns HTTP 400 'Unable to complete operation'. No other county parcel service or file was found.",
+  "recorded_at": 1792051890353,
+  "recheck_after": 1807603890353,
+  "model": "claude-haiku-5-5"
+}

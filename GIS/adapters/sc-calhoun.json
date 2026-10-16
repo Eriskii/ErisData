@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sc-calhoun",
+  "publisher": "Calhoun County, SC (Assessor / GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/B3Zo1xqTw8CidOoF/arcgis/rest/services/WebParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45017"
+    ]
+  },
+  "fields": {
+    "apn": "TMS",
+    "owner": "Name1",
+    "address": "Property_Address",
+    "acres": "Acres",
+    "assessed_value": "Tot_Market_Appr"
+  },
+  "notes": "Calhoun County SC web parcels layer behind the county GIS mapping experience (Calhoun County Assessor). Owner name in Name1 (Owner field is empty). Tot_Market_Appr is market value. Reference use.",
+  "verification": {
+    "verified_at": 1792051871474,
+    "counties": [
+      "45017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

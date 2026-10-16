@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29057",
+  "reason": "login-required",
+  "evidence": [
+    "https://services4.integritygis.com/arcgis/rest/services/MO/Dade_Assessor_Data/MapServer (returns 'Token Required' on service and /0 query)",
+    "https://services4.integritygis.com/arcgis/rest/services/MO/Dade_Assessor_Data/MapServer/0/query?where=1%3D1&outFields=*&resultRecordCount=1&f=json (error 499 Token Required)",
+    "https://www.dadecountymo.gov/assessor (links to Dade County Public GIS viewer at dadegis.integritygis.com, the viewer for the token-protected assessor data)"
+  ],
+  "note": "Dade County MO parcel polygons are served by the county's integritygis assessor MapServer (Dade_Assessor_Data, Parcel / Parcel Public layers), but that service requires a token. No public, token-free parcel service or file was found; the other sources are commercial vendors (Dynamo Spatial, Regrid, Rockford Map).",
+  "recorded_at": 1792050980563,
+  "recheck_after": 1807602980563,
+  "model": "claude-haiku-5-5"
+}

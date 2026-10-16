@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-placer",
+  "publisher": "Placer County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/NENkjkswKTzMfG3A/arcgis/rest/services/County_Parcels_-_Public_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06061"
+    ]
+  },
+  "fields": {
+    "apn": "Apn",
+    "address": "SitusAddressFull",
+    "acres": "GisAcres"
+  },
+  "notes": "Placer County GIS public view; owner removed by county for confidentiality. Tra (tax rate area) not mapped.",
+  "verification": {
+    "verified_at": 1792049632567,
+    "counties": [
+      "06061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

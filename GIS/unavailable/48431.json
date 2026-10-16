@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "48431",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gisdata.pandai.com/pamaps02/rest/services/Sterling/SterlingCADClient/MapServer/0",
+    "https://gisdata.pandai.com/pamaps02/rest/services/Sterling/SterlingCADPublic/MapServer/0"
+  ],
+  "note": "Only parcel layer is Pandai MapServer (2364 features, maxRecordCount 1000) with supportsPagination=false; the runtime's paged queries are refused on every variant tried, so it can't be read. No other public parcel service or download found.",
+  "recorded_at": 1792051838690,
+  "recheck_after": 1807603838690,
+  "model": "claude-sonnet-5-5"
+}

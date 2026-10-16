@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ne-blaine",
+  "publisher": "Nebraska OCIO / Blaine County Assessor (via Statewide Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ne.gov/Enterprise/rest/services/StatewideParcelsExternal/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31009"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '009' AND GIS_Acres < 100",
+  "notes": "Statewide Parcels 2025 compiled from county CAMA and polygon data by Nebraska OCIO; parcels under 100 acres only; no owner field in source",
+  "verification": {
+    "verified_at": 1792051204360,
+    "counties": [
+      "31009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-montgomery",
+  "publisher": "Montgomery County GIS (via TN statewide parcel compilation, RCSPlanners/HNTB)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/28",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47125"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNo",
+    "address": "PropertyAd",
+    "acres": "CalcAcreag",
+    "land_use": "PropType",
+    "assessed_value": "AppraisedV"
+  },
+  "notes": "Layer from statewide county parcel compilation; Montgomery County parcels only",
+  "verification": {
+    "verified_at": 1792052306655,
+    "counties": [
+      "47125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

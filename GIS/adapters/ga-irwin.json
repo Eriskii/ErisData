@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-irwin",
+  "publisher": "Irwin County GIS (via SGRC sgrcmaps)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.sgrcmaps.com/alma/rest/services/Irwin/ParcelInformation/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13155"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "LASTNAME",
+    "address": "STREET_NAM",
+    "acres": "TOTALACRES",
+    "land_use": "DIGCLASS",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Tax parcels from Irwin County ParcelInformation service; owner name from joined owner fields",
+  "verification": {
+    "verified_at": 1792048781568,
+    "counties": [
+      "13155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

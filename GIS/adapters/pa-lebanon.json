@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-lebanon",
+  "publisher": "Lebanon County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/7072ca11c43c43feb1ab453851e847b9/rest/services/LandRecords/TaxParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42075"
+    ]
+  },
+  "fields": {
+    "apn": "GEO_PIN",
+    "owner": "OWNER",
+    "address": "SITUS_ADDR",
+    "acres": "DEEDED_ACR",
+    "land_use": "PROPERTY_T",
+    "assessed_value": "TOTAL_ASSE"
+  },
+  "notes": "Lebanon County PA tax parcels (Property Lines layer), maintained by county GIS",
+  "verification": {
+    "verified_at": 1792051531012,
+    "counties": [
+      "42075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

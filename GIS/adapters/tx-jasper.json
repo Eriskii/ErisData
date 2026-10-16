@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-jasper",
+  "publisher": "Jasper County Appraisal District (BIS Consultants)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/8W4ZPPjIzqjTNZWj/arcgis/rest/services/JasperCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48241"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_num",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Jasper CAD web service; situs address split across situs_num/situs_street_prefx/situs_street/situs_street_sufix; market = total market value",
+  "verification": {
+    "verified_at": 1792051697971,
+    "counties": [
+      "48241"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

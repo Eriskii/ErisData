@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-lackawanna",
+  "publisher": "Lackawanna County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lackawannacounty.org/arcgis/rest/services/GISViewer/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42069"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "ASSESSEDACRES"
+  },
+  "notes": "Lackawanna Tax Parcel Viewer, county GIS; NAD83 PA North feet, served as geoJSON. Owner and address are not populated in this public layer.",
+  "verification": {
+    "verified_at": 1792051537748,
+    "counties": [
+      "42069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "01075",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://lamar.alabamagis.com/lamar/",
+    "https://fgis-map-102.flagshipcloud.com/mapserver102/mobile/?mapLabel=LAMAR",
+    "https://services5.arcgis.com/fmKivMCp6fwbWbeE/arcgis/rest/services/2025_NSGIC_Parcel_Portal/FeatureServer/0/query?where=COUNTYFP%3D%27075%27&outFields=NAME,VIEWURL,APIURL,DLDURL&f=json"
+  ],
+  "note": "Lamar County AL parcels are published only through a Flagship GIS hosted web viewer (lamar.alabamagis.com, proprietary Flagship MapServer). No public ArcGIS REST, WFS, OGC or bulk download exists: the NSGIC 2025 portal lists Lamar with digital parcels but blank REST API and download URLs. The Flagship mapserver root returns 500 on rest/services. Lamar is absent from the PowerSouth Alabama_Parcel_Data service, and the county site only links to a tax payment portal. Regrid nationwide parcels is not queryable.",
+  "recorded_at": 1792048383774,
+  "recheck_after": 1807600383774,
+  "model": "claude-haiku-5-5"
+}

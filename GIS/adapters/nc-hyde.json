@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-hyde",
+  "publisher": "NC OneMap (ICDX parcels) - Hyde County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37095"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37095'",
+  "notes": "Statewide NC OneMap integrated parcel layer; filtered to Hyde County FIPS 37095. Land use codes are empty for Hyde in this layer.",
+  "verification": {
+    "verified_at": 1792051422049,
+    "counties": [
+      "37095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

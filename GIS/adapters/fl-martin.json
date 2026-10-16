@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-martin",
+  "publisher": "Martin County Property Appraiser (via Martin County GIS, ArcGIS Online Martin_County_Parcel_Map)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Ie0K5n4UyLAfvdiX/arcgis/rest/services/Martin_County_Parcel_Map/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12085"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "OWN_NAME",
+    "address": "PHY_ADDR1",
+    "acres": "LND_SQFOOT",
+    "land_use": "DOR_UC",
+    "assessed_value": "AV_NSD"
+  },
+  "notes": "Layer holds Martin County parcels (about 5,150 features, a subset around CR 713); the attribute schema matches the FDOR cadastral export.",
+  "verification": {
+    "verified_at": 1792049046535,
+    "counties": [
+      "12085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

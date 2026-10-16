@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-muscogee",
+  "publisher": "Columbus Consolidated Government (Muscogee County) GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ccggisprod.columbusga.org/server/rest/services/TaxAssessors/CurrentYear/MapServer/20",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13215"
+    ]
+  },
+  "fields": {
+    "apn": "TaxPIN",
+    "acres": "GISAcreage"
+  },
+  "notes": "Parcel polygons from Columbus Consolidated Government tax assessor GIS; current-year layer. Service exposes only PIN, acreage and edit metadata; no owner or situs fields published.",
+  "verification": {
+    "verified_at": 1792048864637,
+    "counties": [
+      "13215"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

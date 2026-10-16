@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21071",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=FloydCountyKY&Layer=Parcels&PageType=Search",
+    "https://www.qpublic.net/ky/floyd/",
+    "https://floydcountyrecords.us/property-records",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp"
+  ],
+  "note": "Floyd County PVA publishes parcels only through the qPublic/Schneider web viewer (Cloudflare-blocked to automated access, no REST service found). Searched ArcGIS Hub/Online, KyGeoNet/kygisserver directory, KYTC PVA availability layer; no Floyd parcel polygon service. Only a 404-parcel buyout subset and commercial vendors (Regrid tiles, Equator, Rockford, acres) exist.",
+  "recorded_at": 1792049449386,
+  "recheck_after": 1807601449386,
+  "model": "claude-haiku-5-5"
+}

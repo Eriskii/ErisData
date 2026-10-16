@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29059",
+  "reason": "login-required",
+  "evidence": [
+    "https://services2.integritygis.com/arcgis/rest/Services/MO/Dallas_Assessor_Data/MapServer",
+    "https://services2.integritygis.com/arcgis/rest/Services/MO/Dallas_Assessor_Data/MapServer/7",
+    "https://dallasgis.integritygis.com/H5/Index.html"
+  ],
+  "note": "Dallas County MO's assessor parcel layer (Dallas_Assessor_Data, layer 7, on services2.integritygis.com) is published but refuses anonymous access: the server returns 'Token Required' for the MapServer root and layer 7. The county GIS viewer (dallasgis.integritygis.com) fronts that same service. Other searches (ArcGIS Hub, ArcGIS Online, county open data hub) found no public parcel service for Dallas County MO; only paid vendor data (Regrid, DynamoSpatial) and census TIGER faces, which are not tax parcels.",
+  "recorded_at": 1792050981434,
+  "recheck_after": 1807602981434,
+  "model": "claude-haiku-5-5"
+}

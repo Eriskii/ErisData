@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-pecos",
+  "publisher": "Pecos County Appraisal District (via Land Parcels service hosted by GIS_Help_audubon)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/lDFzr3JyGEn5Eymu/arcgis/rest/services/Land_Parcels/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48371"
+    ]
+  },
+  "fields": {
+    "apn": "PROP_ID",
+    "owner": "OWNER_NAME",
+    "acres": "GIS_AREA",
+    "assessed_value": "MKT_VALUE"
+  },
+  "filter": "FIPS = '48371'",
+  "notes": "Pecos County TX parcels; public ArcGIS service; no login. Situs address and land use are mostly blank in source, so not mapped.",
+  "verification": {
+    "verified_at": 1792052711485,
+    "counties": [
+      "48371"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21215",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.spencercountyky.gov/contacts/maps.php",
+    "https://qpublic.schneidercorp.com/Application.aspx",
+    "https://assessorsearch.com/property-records/kentucky/spencer-county",
+    "https://www.dynamospatial.com/c/spencer-county-ky/parcel-data",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp"
+  ],
+  "note": "Searched ArcGIS Hub/Online, KYGeoNet kygisserver folders, LOJIC, and county site. No public queryable Spencer County parcel service found. Only a Cloudflare-protected qPublic (Schneider) viewer, not an ArcGIS REST service, plus paid parcel downloads. KGS lists a Spencer PVA viewer at kygeonet.ky.gov/pva/spencer/viewer.htm, which returns 404; no Spencer PVA REST endpoint found on kygisserver.",
+  "recorded_at": 1792049941511,
+  "recheck_after": 1807601941511,
+  "model": "claude-haiku-5-5"
+}

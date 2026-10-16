@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "21237",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://app.regrid.com/store/us/ky/wolfe",
+    "https://www.dynamospatial.com/c/wolfe-county-ky/parcel-data",
+    "https://gis.equatorstudios.com/kentucky_wolfe/",
+    "https://www.acres.com/plat-map/map/ky/wolfe-county-ky",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services"
+  ],
+  "note": "Searched ArcGIS Hub/Online, the KY state GIS server (kygisserver, which hosts PVA parcel MapServers only for Webster County), the KYTC PVA availability layer (Wolfe listed as having ownership data, but no parcel geometry service), and county/state portals. Wolfe County parcel polygons appear only through commercial vendors (Regrid, DynamoSpatial, Equator, Acres viewer), with no public queryable service or free file found.",
+  "recorded_at": 1792049984512,
+  "recheck_after": 1807601984512,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-ward",
+  "publisher": "Ward County (TxGIO StratMap land parcels, west Texas copy)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/lDFzr3JyGEn5Eymu/arcgis/rest/services/Land_Parcels/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48475"
+    ]
+  },
+  "fields": {
+    "apn": "PROP_ID",
+    "owner": "OWNER_NAME",
+    "address": "MAIL_ADDR",
+    "acres": "GIS_AREA",
+    "assessed_value": "MKT_VALUE"
+  },
+  "notes": "StratMap 2021 land parcels derived from Ward CAD; address is owner mailing address because situs is mostly blank",
+  "verification": {
+    "verified_at": 1792052719838,
+    "counties": [
+      "48475"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

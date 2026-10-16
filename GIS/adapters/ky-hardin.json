@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ky-hardin",
+  "publisher": "Hardin County PVA / Hardin County GIS (via ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/fYwcHOBzInDTQxh0/arcgis/rest/services/Hardin_Parcels_08_11_22/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21093"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "NAME",
+    "address": "PROP_ADD",
+    "acres": "ACRES"
+  },
+  "notes": "Hardin County KY PVA parcel polygons; web-mercator service; CLASS (land use) is blank in source, so not mapped; mailing address in MAIL_ADD and CITY_ST",
+  "verification": {
+    "verified_at": 1792049907456,
+    "counties": [
+      "21093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

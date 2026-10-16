@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "al-madison",
+  "publisher": "Madison County AL (ALS DWG parcel compilation, hosted by Enjnir)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/y6YW10u0XkJDr4YY/arcgis/rest/services/Parcels_North_Alabama/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01089"
+    ]
+  },
+  "fields": {
+    "apn": "Handle"
+  },
+  "notes": "Derived from ALS DWG parcel files (Q2 2018). Handle is a CAD handle, not an official APN; no owner or situs address in source. Only the Madison County layer (FeatureServer/3) is used.",
+  "verification": {
+    "verified_at": 1792048351561,
+    "counties": [
+      "01089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

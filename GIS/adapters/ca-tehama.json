@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-tehama",
+  "publisher": "Tehama County (public parcel layer, Tehama County Transportation Commission / county GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/3iNbxbY9zhyxPvde/arcgis/rest/services/Tehama_County_Parcels_Public_2025_11_04/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06103"
+    ]
+  },
+  "fields": {
+    "apn": "LOWPARCELI",
+    "address": "Situs1",
+    "land_use": "RollCatego"
+  },
+  "notes": "Public parcel layer, Nov 2025; no ownership information published, so owner is not mapped. Assessed values in LandValue/StructureV are strings, not mapped.",
+  "verification": {
+    "verified_at": 1792048662554,
+    "counties": [
+      "06103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

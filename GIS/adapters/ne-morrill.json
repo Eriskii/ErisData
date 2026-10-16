@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-morrill",
+  "publisher": "Morrill County GIS (via ArcGIS Online Morrill map service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ivsyBnYvCqD5QZwO/arcgis/rest/services/Map/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31123"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "County parcel polygons; layer lists only PID and acres. Source of record is Morrill County Assessor (gWorks/Beacon viewers).",
+  "verification": {
+    "verified_at": 1792051195678,
+    "counties": [
+      "31123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

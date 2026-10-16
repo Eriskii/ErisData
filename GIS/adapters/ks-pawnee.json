@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ks-pawnee",
+  "publisher": "Pawnee County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/zDY8zW24CdJKhVIw/arcgis/rest/services/PawneeCountyGIS/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20145"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OwnerName",
+    "address": "SitusAddr",
+    "acres": "Acres"
+  },
+  "notes": "Pawnee County KS GIS parcels, FeatureServer layer 12 of PawneeCountyGIS (ATCiMaps). No land-use code field; PRC_* fields are property-record URLs.",
+  "verification": {
+    "verified_at": 1792049623810,
+    "counties": [
+      "20145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

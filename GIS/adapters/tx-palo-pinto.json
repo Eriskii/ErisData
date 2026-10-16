@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-palo-pinto",
+  "publisher": "Palo Pinto CAD via TNRIS StratMap land parcels (2023)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/OCHBpyHMBFOeBqny/arcgis/rest/services/stratmap23_landparcels_48363_palopinto_202307/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48363"
+    ]
+  },
+  "fields": {
+    "apn": "PROP_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "assessed_value": "MKT_VALUE"
+  },
+  "notes": "TNRIS StratMap 2023 land parcels compiled from Palo Pinto CAD vendor data (Southwest Data Solutions); county-specific layer, no filter needed",
+  "verification": {
+    "verified_at": 1792051729188,
+    "counties": [
+      "48363"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

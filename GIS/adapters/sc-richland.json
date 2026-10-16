@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-richland",
+  "publisher": "Richland County GIS (via ArcGIS Online Parcels_2026)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/c3cIZYSjaB1F0qF7/arcgis/rest/services/Parcels_2026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45079"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "NAME1",
+    "address": "LOC"
+  },
+  "notes": "Richland County SC Parcel Data 2026, 33170 features; source item by jesse61 on ArcGIS Online",
+  "verification": {
+    "verified_at": 1792051617415,
+    "counties": [
+      "45079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-van-buren",
+  "publisher": "Iowa DHS&EM statewide parcels (hosted by University of Iowa), Van Buren County extract",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19177"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'VAN BUREN'",
+  "notes": "2017 statewide parcel layer; filtered to Van Buren County by COUNTYNAME. No county-maintained service found.",
+  "verification": {
+    "verified_at": 1792049292919,
+    "counties": [
+      "19177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

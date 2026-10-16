@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21031",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://maps.butlercountyauditor.org/arcgis/rest/services/basemap_wgs84/MapServer/1",
+    "https://maps.butlercountyauditor.org/arcgis/rest/services/Hosted",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=ButlerCountyKY&Layer=Parcels&PageType=Search",
+    "https://kygisserver.ky.gov/arcgis/rest/services?f=json"
+  ],
+  "note": "Butler County auditor's only parcel layer (basemap_wgs84/MapServer/1, PIN field) returns 'Service not started' (HTTP 500) on every attempt during this session; the auditor's Hosted folder requires a token. The county's qPublic/Schneider viewer is the only other public parcel view and its parcel search is password protected. The state KyGeoNet server has parcel services only for Webster County, none for Butler. No other public, queryable Butler parcel service or file was found.",
+  "recorded_at": 1792049401916,
+  "recheck_after": 1807601401916,
+  "model": "claude-haiku-5-5"
+}

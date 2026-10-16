@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-baylor",
+  "publisher": "TxGIO Texas Land Parcels (Baylor CAD)",
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0/query?where=FIPS%3D%2748023%27&outFields=*&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "48023"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "assessed_value": "MKT_VALUE"
+  },
+  "notes": "Single-query download; server may cap rows per response",
+  "verification": {
+    "verified_at": 1792053413015,
+    "counties": [
+      "48023"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

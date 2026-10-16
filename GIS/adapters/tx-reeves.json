@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-reeves",
+  "publisher": "Reeves County Appraisal District (via ReevesCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/j94FvPaik4etwHFk/arcgis/rest/services/ReevesCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48389"
+    ]
+  },
+  "fields": {
+    "apn": "geo_id",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Reeves CAD public web service; parcel polygons in Texas State Plane feet, served as GeoJSON in lon/lat",
+  "verification": {
+    "verified_at": 1792051838210,
+    "counties": [
+      "48389"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

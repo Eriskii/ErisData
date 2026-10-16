@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "or-marion",
+  "publisher": "Marion County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.marion.or.us/arcgis/rest/services/Public/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "apn": "TAXLOT",
+    "owner": "OWNERNAME",
+    "address": "SITUS",
+    "acres": "ACRES",
+    "land_use": "PROPCLASS",
+    "assessed_value": "ASSDVAL"
+  },
+  "notes": "Public MapServer layer; ownership included in this service. Source: Marion County GIS open data.",
+  "verification": {
+    "verified_at": 1792051478232,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

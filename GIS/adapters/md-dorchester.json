@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "md-dorchester",
+  "publisher": "Dorchester County, MD GIS (DoCoGo)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/yqhlYKSnzjiOzQig/arcgis/rest/services/PropParcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24019"
+    ]
+  },
+  "fields": {
+    "apn": "ACCTID",
+    "owner": "OWNNAME1",
+    "acres": "ACRES",
+    "land_use": "LU"
+  },
+  "filter": "ACCTID <> ' '",
+  "notes": "Dorchester County MD property parcels published by county GIS (DoCoGo); public ArcGIS service; parcels without account ID excluded; address is sparse in source so not mapped",
+  "verification": {
+    "verified_at": 1792049987134,
+    "counties": [
+      "24019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

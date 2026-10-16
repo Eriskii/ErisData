@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-monroe",
+  "publisher": "Monroe County GA GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services/MonroeCountyParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13207"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "acres": "Acres",
+    "land_use": "COUNTYZONING"
+  },
+  "notes": "Monroe County GA parcels from the county GIS hub; no owner name field is published in this layer; land_use is county zoning code",
+  "verification": {
+    "verified_at": 1792048946728,
+    "counties": [
+      "13207"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

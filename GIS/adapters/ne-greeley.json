@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-greeley",
+  "publisher": "Greeley County, NE (gWorks assessor GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Greeley_County_NE_Assessor/MapServer/118",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31077"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "Greeley County NE assessor parcels served via gWorks; only PID and acres published in this layer",
+  "verification": {
+    "verified_at": 1792051175756,
+    "counties": [
+      "31077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

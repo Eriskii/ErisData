@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-mecklenburg",
+  "publisher": "Mecklenburg County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://meckgis.mecklenburgcountync.gov/server/rest/services/TaxParcelBoundaries/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37119"
+    ]
+  },
+  "fields": {
+    "apn": "pid",
+    "acres": "gisacres"
+  },
+  "notes": "Tax Parcel Boundaries from Mecklenburg County GIS (meckgis). Polygons with PIN/PID; owner, address and value are not in this layer.",
+  "verification": {
+    "verified_at": 1792051372778,
+    "counties": [
+      "37119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

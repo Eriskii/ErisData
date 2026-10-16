@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ny-yates",
+  "publisher": "Yates County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.yatescounty.org/server/rest/services/2022_Parcel_Map_W_Anno_MIL1/MapServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36123"
+    ]
+  },
+  "fields": {
+    "apn": "SBL",
+    "acres": "Acres"
+  },
+  "notes": "Yates County NY GIS parcel layer (2022 parcel map). SBL = Section-Block-Lot; no owner/address fields in this layer.",
+  "verification": {
+    "verified_at": 1792051476381,
+    "counties": [
+      "36123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

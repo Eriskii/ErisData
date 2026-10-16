@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13163",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.qpublic.net/ga/jefferson/",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=JeffersonCountyGA&Layer=Parcels&PageType=Search",
+    "https://app.regrid.com/us/ga/jefferson",
+    "https://www.jeffersoncountygataxes.com/quick-links.html"
+  ],
+  "note": "No public queryable parcel service found for Jefferson County GA (13163). Parcels are only viewable via the qPublic/Schneider web viewer (no public REST endpoint; returns HTTP 403 to bots); commercial vendors (Regrid, Dynamo, Equator, Acres, AcreValue) sell the data. ArcGIS searches (Jefferson County GA, Jefferson GA tax parcels, Georgia statewide parcels) found no county parcel layer. The Jefferson County CO (gisportal.jeffco.us) and Idaho (jcgov.us) services that surfaced are different counties.",
+  "recorded_at": 1792048855828,
+  "recheck_after": 1807600855828,
+  "model": "claude-haiku-5-5"
+}

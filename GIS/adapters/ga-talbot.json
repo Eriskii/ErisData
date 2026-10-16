@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-talbot",
+  "publisher": "Talbot County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/ISpzx3B5ZsVA6e1Z/ArcGIS/rest/services/Talbot_Web_Map_2026_WFL1/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13263"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "owner": "Owner",
+    "address": "Road",
+    "acres": "Acres",
+    "land_use": "Class",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Layer from Talbot County ArcGIS web map (2026). Address field is street name only; HOUSE_NO separate.",
+  "verification": {
+    "verified_at": 1792048822892,
+    "counties": [
+      "13263"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

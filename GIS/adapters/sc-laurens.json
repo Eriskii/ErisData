@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-laurens",
+  "publisher": "Laurens County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.laurenscountygis.org/arcgis/rest/services/Pebble/TaxParcel/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45059"
+    ]
+  },
+  "fields": {
+    "apn": "TMS",
+    "owner": "Owner",
+    "acres": "Acres"
+  },
+  "notes": "Laurens County SC public parcel layer from county GIS ArcGIS service; about 45,015 parcels; Property_Address and Neighborhood are sparsely filled so not mapped",
+  "verification": {
+    "verified_at": 1792051573546,
+    "counties": [
+      "45059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

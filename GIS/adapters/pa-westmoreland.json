@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-westmoreland",
+  "publisher": "Westmoreland County GIS (via ArcGIS Online, tzink_lsse)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/beeAx3XQCWXfcm0Q/arcgis/rest/services/Westmoreland_County_Parcels/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42129"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "NAME",
+    "address": "SITUS",
+    "acres": "ACRES",
+    "land_use": "LCODE",
+    "assessed_value": "ATOTL"
+  },
+  "notes": "Westmoreland County tax parcels; geometry in Web Mercator served as WGS84 by server",
+  "verification": {
+    "verified_at": 1792051548776,
+    "counties": [
+      "42129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

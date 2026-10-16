@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mo-callaway",
+  "publisher": "Callaway County GIS (hosted via City of Fulton ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/PkSd5H4bF0wttE05/arcgis/rest/services/Parcels/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29027"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "OWNERNAME",
+    "address": "ADDRESS",
+    "acres": "ACRES",
+    "land_use": "PCLCLASS",
+    "assessed_value": "TOTALASSESSEDVALUE"
+  },
+  "notes": "Public ArcGIS Online feature service; county parcels layer with assessor attributes. Page size 1000 (maxRecordCount 2000).",
+  "verification": {
+    "verified_at": 1792050932570,
+    "counties": [
+      "29027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

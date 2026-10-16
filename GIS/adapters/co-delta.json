@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "co-delta",
+  "publisher": "Delta County, Colorado (GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/iISaUisYi4rM2M0D/arcgis/rest/services/DeltaCountyTaxParcels_Jan2025/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08029"
+    ]
+  },
+  "fields": {
+    "apn": "TaxPIN_GIS",
+    "owner": "NAME",
+    "address": "Site_Address",
+    "acres": "ACRES",
+    "land_use": "CLASSCD1_D",
+    "assessed_value": "ASSESSED_V"
+  },
+  "notes": "Delta County CO tax parcels, Jan 2025 snapshot, from county-published ArcGIS service",
+  "verification": {
+    "verified_at": 1792048678473,
+    "counties": [
+      "08029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

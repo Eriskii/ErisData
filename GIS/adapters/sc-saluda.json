@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sc-saluda",
+  "publisher": "Saluda County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://saludacountysc.net/arcgis/rest/services/ParcelViewers/PublicWebsite_Pro/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45081"
+    ]
+  },
+  "fields": {
+    "apn": "SDE.DBO.Parcels.TaxMapNumber",
+    "owner": "SDE.DBO.AssessorData.Name",
+    "acres": "SDE.DBO.AssessorData.Tot_Number_Acres",
+    "assessed_value": "SDE.DBO.AssessorData.Tot_Assesd_Value"
+  },
+  "notes": "Saluda County public parcel service (MapServer layer 4, Parcels joined to AssessorData). Native SR is EPSG:2273; runtime requests WGS84. Site address and land use are sparsely populated in source, so omitted.",
+  "verification": {
+    "verified_at": 1792051626103,
+    "counties": [
+      "45081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

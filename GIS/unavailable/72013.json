@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72013",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://www.arcgis.com/home/item.html?id=acf043a178254fcdad6708be3e8ab51c"
+  ],
+  "note": "Arecibo parcels are only published by CRIM's statewide crim_parcelas service (sige.pr.gov FeatureServer unreachable; sigejp.pr.gov MapServer returns 'Service not started'; crim folder empty) and the Catastro Digital viewer, which exposes no service URL or download. Repeated validation across 3 attempts failed at the query step; no alternate public ArcGIS/WFS/bulk source found (other AGOL hits are 95-feature fragments or token-required). Re-check if CRIM restarts crim_parcelas.",
+  "recorded_at": 1792052742194,
+  "recheck_after": 1807604742194,
+  "model": "claude-sonnet-5-5"
+}

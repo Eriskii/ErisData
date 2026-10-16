@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72007",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/ParcelasEtiquetas/MapServer/0",
+    "https://github.com/openaddresses/openaddresses/issues/2894"
+  ],
+  "note": "CRIM (Puerto Rico tax assessor) published Aguas Buenas parcel polygons (Parcelario layer, crim_parcelas 2018) on sigejp.pr.gov and older satasgis.crimpr.net endpoints. In this session every one returned 'Service not started' (HTTP 500) or 404, and the sigejp crim folder lists no services. No other public queryable or downloadable parcel file was found; Regrid and DynamoSpatial are paid commercial sources.",
+  "recorded_at": 1792051904058,
+  "recheck_after": 1807603904058,
+  "model": "claude-haiku-5-5"
+}

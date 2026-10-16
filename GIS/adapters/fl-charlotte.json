@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-charlotte",
+  "publisher": "Charlotte County GIS (Ownership layer, CCGISLayers MapServer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://agis3.charlottecountyfl.gov/arcgis/rest/services/Essentials/CCGISLayers/MapServer/27",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12015"
+    ]
+  },
+  "fields": {
+    "apn": "ACCOUNT",
+    "owner": "ownersname",
+    "land_use": "landuse",
+    "assessed_value": "assessedvalue"
+  },
+  "notes": "Charlotte County GIS Ownership polygons keyed to property appraiser account numbers; situs address (propertyaddress/FullPropertyAddress) is blank for most parcels, notably vacant and government parcels; values are space-padded; served in Web Mercator",
+  "verification": {
+    "verified_at": 1792048816615,
+    "counties": [
+      "12015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

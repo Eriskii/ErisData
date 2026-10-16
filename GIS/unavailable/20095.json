@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20095",
+  "reason": "login-required",
+  "evidence": [
+    "https://www.kansasgis.org/orka/intro.cfm",
+    "https://www.kingmancoks.org/2156/Appraiser",
+    "https://services.kansasgis.org/arcgis4/rest/services/KS_Parcels_ORKA_EB/FeatureServer",
+    "https://services1.arcgis.com/q2CglofYX6ACNEeu/ArcGIS/rest/services/ORKA_Status_20200609/FeatureServer/0"
+  ],
+  "note": "Searched ArcGIS Hub/Online, KansasGIS services1 org directory, services.kansasgis.org and KGS ORKA folders. Kingman (CO_ABBR KM) has no parcel polygons in KS_Parcels_ORKA_EB (only RA, TH, SH, CN present; Kingman point returns nothing). ORKA_Status_20200609 lists Kingman as 'Map- Public' but is a 105-feature county status layer, not parcels. County parcel search is an ArcGIS Experience app plus a paid-subscriber portal (ks1080.cichosting.com); parcel data otherwise only via PORKA login or commercial vendors.",
+  "recorded_at": 1792049441480,
+  "recheck_after": 1807601441480,
+  "model": "claude-haiku-5-5"
+}

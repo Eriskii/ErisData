@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "21125",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=LaurelCountyKY&PageType=Search",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://www.dynamospatial.com/c/laurel-county-ky/parcel-data"
+  ],
+  "note": "Laurel County (21125) parcels are only published through the Schneider qPublic PVA viewer, which is behind a Cloudflare interstitial (403) with no public ArcGIS REST endpoint. The Kentucky state ArcGIS server (kygisserver.ky.gov) has PVA parcel services only for Webster County, and the KYTC PVA availability layer has no Laurel record. No Laurel parcel FeatureServer/MapServer was found on ArcGIS Hub or Online. The only Laurel parcel downloads found are commercial (Dynamo, ReportAll, Regrid).",
+  "recorded_at": 1792049919043,
+  "recheck_after": 1807601919043,
+  "model": "claude-haiku-5-5"
+}

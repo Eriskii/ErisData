@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-becker",
+  "publisher": "Becker County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-server.co.becker.mn.us/arcgis/rest/services/Assessor/MapCode/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27005"
+    ]
+  },
+  "fields": {
+    "apn": "BeckerGIS_DBO_Parcels_PIN",
+    "acres": "BeckerGIS_DBO_Parcels_GIS_Acres",
+    "land_use": "MapCode072023__DESCR"
+  },
+  "notes": "Parcel polygons from Becker County GIS Assessor MapCode layer (ParcelMapCodeJoin). Owner/address not in this layer. Source is in EPSG:26850; runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792050889572,
+    "counties": [
+      "27005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

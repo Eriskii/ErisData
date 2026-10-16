@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "13283",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/",
+    "https://www.countyoffice.org/ga-treutlen-county-gis-maps/"
+  ],
+  "note": "Searched ArcGIS Hub and ArcGIS Online for Treutlen County GA parcels and Soperton; no parcel FeatureServer/MapServer found. The county's parcel viewer is Schneider qPublic (web viewer, not a public ArcGIS REST service; returns 403 to automated access). Other parcel sources are commercial vendors (Rockford Map, Dynamo Spatial, Regrid, acres.com), not county-published services.",
+  "recorded_at": 1792048860169,
+  "recheck_after": 1807600860169,
+  "model": "claude-haiku-5-5"
+}

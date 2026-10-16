@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-inyo",
+  "publisher": "Inyo County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.inyo.gov/server/rest/services/ParcelsPublic/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06027"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "acres": "Acres_gis"
+  },
+  "filter": "APN NOT IN ('024460DVNP','024500DVNP','027060BLM','027090DVNP','027100DVNP','027330BLM','027370DVNP')",
+  "notes": "Inyo County ParcelsPublic; includes federal pseudo-parcels (DVNP/BLM) with no assessor data",
+  "verification": {
+    "verified_at": 1792048766257,
+    "counties": [
+      "06027"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

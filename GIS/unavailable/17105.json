@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "17105",
+  "reason": "paywalled",
+  "evidence": [
+    "https://www.livingstoncountyil.gov/department/supervisor_of_assessments/gis_data_requests.php",
+    "https://livingston.illinoisassessors.com/",
+    "https://livgov.maps.arcgis.com/apps/webappviewer/index.html?id=f3cd4da87c034c3eb8ba892da94c47f6"
+  ],
+  "note": "Searched ArcGIS Hub, ArcGIS Online and the web. County GIS data page sells parcel polygons only as bundled shapefile packages on request at 0.20 per parcel, with no REST service or download link. The livgov ArcGIS parcel viewer linked by Tyrone Township is Livingston County Michigan, not Illinois, and the livgov org content API returns 403. No Livingston County IL parcel FeatureServer or MapServer found. Commercial vendors (Regrid, Acres, Dynamo, Rockford Map, Equator) are not county services.",
+  "recorded_at": 1792049057156,
+  "recheck_after": 1823585057156,
+  "model": "claude-haiku-5-5"
+}

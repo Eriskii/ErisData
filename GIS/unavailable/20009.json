@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20009",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.bartoncounty.org/vnews/display.v/SEC/Mapping%7CMaps%20%26%20GIS",
+    "https://www.bartoncounty.org/vnews/display.v/SEC/Mapping%7CParcel%20Search",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=barton",
+    "https://services.kansasgis.org/arcgis4/rest/services/KS_Parcels_ORKA_EB/FeatureServer/0",
+    "https://services.kansasgis.org/arcgis4/rest/services/KS_Parcels_ORKA/MapServer"
+  ],
+  "note": "Barton County (20009) parcels are only viewable through the statewide ORKA viewer. The county's Maps & GIS page says GIS data is ordered for a fee. The statewide ORKA parcel REST services (KS_Parcels_ORKA_EB FeatureServer layer 0 and KS_Parcels_ORKA MapServer) contain only four counties (CN, RA, SH, TH) and no Barton features, neither at the Barton bbox nor the sample point. No public Barton parcel REST service or file download was found.",
+  "recorded_at": 1792049303864,
+  "recheck_after": 1807601303864,
+  "model": "claude-haiku-5-5"
+}

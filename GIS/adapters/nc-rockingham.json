@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-rockingham",
+  "publisher": "Rockingham County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/6ceReeeoWYqSyV5I/arcgis/rest/services/Tax_gdb/FeatureServer/10",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37157"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "Name1",
+    "address": "TaxpayAddress1",
+    "acres": "DeedAcres",
+    "assessed_value": "TotalValue"
+  },
+  "notes": "Rockingham County NC tax parcel polygons from Tax_gdb service published by rockcogis on ArcGIS Online; no site address field present, taxpayer mailing address mapped; land use not mapped (FarmUse sparse).",
+  "verification": {
+    "verified_at": 1792051424145,
+    "counties": [
+      "37157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-greene",
+  "publisher": "Greene County GA Board of Commissioners",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/QbbsWI5nIfBp4cMB/arcgis/rest/services/Parcel_Regions_w_WinGAP_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13133"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "owner": "lastname",
+    "address": "street_nam",
+    "acres": "Deed_Acres",
+    "assessed_value": "curr_val"
+  },
+  "filter": "acctstatus <> -1",
+  "notes": "Greene County GA parcel regions (WinGAP view), public ArcGIS service; owner is last name field only",
+  "verification": {
+    "verified_at": 1792048793251,
+    "counties": [
+      "13133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

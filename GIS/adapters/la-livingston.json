@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-livingston",
+  "publisher": "Livingston Parish Government (Assessor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/c24a97ebd70d4581acf3134ba7eea341/rest/services/Assessor/Livingston_Parish/MapServer/21",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22063"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "Owner_Name",
+    "address": "Par_Address",
+    "assessed_value": "Assessed_Value"
+  },
+  "notes": "Parish government ArcGIS Online org (LivParishGov), Assessor parcel layer; 79,656 features. Parcels (non-GCT) layer of the Assessor/Livingston_Parish MapServer.",
+  "verification": {
+    "verified_at": 1792050002623,
+    "counties": [
+      "22063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-jefferson",
+  "publisher": "Jefferson County GIS (tngeo_jcgis)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/in9ruKxwZKI20efQ/arcgis/rest/services/JeffersonParcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47089"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "LANDUSE",
+    "assessed_value": "APPRAISAL"
+  },
+  "notes": "Public ArcGIS layer published by Jefferson County TN GIS; CAMA-joined parcel polygons",
+  "verification": {
+    "verified_at": 1792052169386,
+    "counties": [
+      "47089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

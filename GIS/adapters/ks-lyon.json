@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ks-lyon",
+  "publisher": "Lyon County Kansas GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/dw5aksXsLRAhbdxH/arcgis/rest/services/Lyon_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20111"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUM",
+    "acres": "ACRES"
+  },
+  "notes": "Parcel Boundaries layer from Lyon County KS GIS; PID also available as internal id",
+  "verification": {
+    "verified_at": 1792049308195,
+    "counties": [
+      "20111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

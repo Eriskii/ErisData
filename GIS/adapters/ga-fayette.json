@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-fayette",
+  "publisher": "Fayette County GA Tax Assessor (GDIT)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Hg5aLg4LtSINzVWa/arcgis/rest/services/TaxParcels_public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13113"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "address": "SITEADDRESS",
+    "assessed_value": "CNTASSDVAL"
+  },
+  "notes": "Public ArcGIS layer published by Fayette County; countywide tax parcels. Land use and acreage fields are mostly empty, so not mapped.",
+  "verification": {
+    "verified_at": 1792048783726,
+    "counties": [
+      "13113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

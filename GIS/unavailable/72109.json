@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72109",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://www.arcgis.com/home/item.html?id=177a03ea0b31411cafe5596fe710790d",
+    "https://catastro.crimpr.net/cdprpc"
+  ],
+  "note": "CRIM parcels for Puerto Rico are only reachable via the Catastro Digital viewer; the REST endpoints (sigejp crim_parcelas 'not started', satasgis.crimpr.net unreachable/404, Parcelas_Secured auth-locked) do not serve queries, and no other public parcel service exists.",
+  "recorded_at": 1792052122289,
+  "recheck_after": 1807604122289,
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-midland",
+  "publisher": "Midland County Equalization Department (Michigan)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/9ALftzD3ElQ7KAgT/arcgis/rest/services/Land_Information/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26111"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "OwnerName",
+    "address": "PropAddressCombined",
+    "acres": "SummaryTotalAcreage",
+    "land_use": "PropertyClass"
+  },
+  "notes": "Tax parcels maintained by Midland County Equalization Dept; last updated 02/24/2025. Public ArcGIS service from county GeoHub.",
+  "verification": {
+    "verified_at": 1792049951786,
+    "counties": [
+      "26111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

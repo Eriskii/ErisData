@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20117",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA",
+    "https://mappingsolutionsgis.com/marshall-county-kansas-gis-parcel-data/",
+    "https://www.gisfinder.com/ks/county/marshall/",
+    "https://isv.kcsgis.com/al.marshall_revenue/"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Marshall County, KS parcels. No public parcel polygon service found. Kansas ORKA (kansasgis.org) parcel map is county-controlled and gated behind a request/disclaimer; its services folder exposes only KS_ORKA_Extras (annotation, ag-use, subdivision lots) and sketch, no parcel layer. Commercial vendors (MappingSolutions, Regrid, Dynamo, Acres) sell files or gated feeds only. The KCS ISV viewer found on ArcGIS Online is Marshall County, Alabama, and its host is unreachable. gis.districtiii.org MARSHALL_COUNTY_WEB_LAYERS PARCELS layer is a different county (Weston/Buffalo townships, zero features near the Marshall KS point), so it fails validation.",
+  "recorded_at": 1792049426212,
+  "recheck_after": 1807601426212,
+  "model": "claude-haiku-5-5"
+}

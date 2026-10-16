@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "id-idaho",
+  "publisher": "Idaho County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/gqcDdwE7LMrYrEMJ/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16049"
+    ]
+  },
+  "fields": {
+    "apn": "PS_PAR_15",
+    "owner": "ML_OWNR_NM",
+    "acres": "Acres",
+    "land_use": "PS_CATS",
+    "assessed_value": "PS_TOT_VAL"
+  },
+  "notes": "Idaho County GIS parcel layer (GDITAdmin). APN from PS_PAR_15 since Parcel_ID is empty. Site address omitted: filled for only ~30% of parcels.",
+  "verification": {
+    "verified_at": 1792048908075,
+    "counties": [
+      "16049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

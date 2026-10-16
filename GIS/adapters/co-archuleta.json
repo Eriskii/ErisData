@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "co-archuleta",
+  "publisher": "Archuleta County GIS (Sidwell) via ArcGIS Online",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/b1fZk1fY2MHCTEXz/arcgis/rest/services/Parcels_Current/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08007"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnumber",
+    "owner": "ownername",
+    "address": "situs",
+    "acres": "lglacre",
+    "land_use": "propertycode",
+    "assessed_value": "finaladjustedtaxablevalue"
+  },
+  "notes": "Archuleta County Parcels Data 2026, public ArcGIS Online service; county site notes GIS downloads, service is queryable without login",
+  "verification": {
+    "verified_at": 1792048671969,
+    "counties": [
+      "08007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

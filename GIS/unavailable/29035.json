@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29035",
+  "reason": "no-public-gis",
+  "evidence": [
+    "http://www.cartercountyassessor.org/ccamap/viewer.htm",
+    "https://www.countyoffice.org/mo-carter-county-gis-maps/",
+    "https://www.dynamospatial.com/c/carter-county-mo/parcel-data",
+    "https://app.regrid.com/store/us/mo"
+  ],
+  "note": "The county's listed GIS parcel viewer (cartercountyassessor.org/ccamap) no longer serves Carter County MO content; the domain now resolves to an Oklahoma county site with no map service. Searches of ArcGIS Hub/Online, MSDIS and the county web found no Carter County MO parcel FeatureServer/MapServer or download. Parcel polygons are only sold by commercial vendors (Dynamo Spatial, Regrid, Acres, Rockford Map), under licence.",
+  "recorded_at": 1792051005184,
+  "recheck_after": 1807603005184,
+  "model": "claude-haiku-5-5"
+}

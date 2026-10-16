@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "02158",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services8.arcgis.com/HXv92wfqHcYIh2KB/arcgis/rest/services/Parcels_Public/FeatureServer/5",
+    "https://app.regrid.com/store/us/ak/kusilvak",
+    "https://gis.equatorstudios.com/alaska_kusilvakcensusarea/"
+  ],
+  "note": "No county-published parcel service found for Kusilvak Census Area. The only queryable parcel polygons are CVRF community layers (Parcels_Public/FeatureServer/5) covering Chevak, Hooper Bay, Mertarvik, Newtok, Scammon Bay only, not a county service. Statewide AK_Parcels and AK_Statewide_Parcels return 0 features around the validation point (-163.3152, 62.0965). Regrid and Equator are vendor aggregators, not county services. Hub and web searches found no county GIS parcel endpoint.",
+  "recorded_at": 1792048509163,
+  "recheck_after": 1807600509163,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-tioga",
+  "publisher": "Tioga County GIS (tiogagis ArcGIS Server)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://tiogagis.tiogacountypa.us/arcgis2017/rest/services/01_Parcel_Fabric_CAMA_Lines_REG/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42117"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "SLH_OWN_NAME",
+    "address": "LOCATION",
+    "acres": "PRC_TTL_LND_AREA_ACRES",
+    "land_use": "LND_USE_CODE",
+    "assessed_value": "TOTVAL"
+  },
+  "notes": "County parcel fabric with CAMA attributes (Vision). Source publishes parcels as polygons; MBLU is the PIN in CAMA format.",
+  "verification": {
+    "verified_at": 1792051564142,
+    "counties": [
+      "42117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

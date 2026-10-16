@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21035",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx",
+    "https://ccpva.org/",
+    "https://kygisserver.ky.gov/arcgis/rest/services?f=json",
+    "https://gis.equatorstudios.com/kentucky_calloway/"
+  ],
+  "note": "Calloway County KY (FIPS 21035) parcels are not published as a public queryable service. The county PVA (ccpva.org) points to the Schneider qPublic web viewer, which exposes no public REST endpoint (403 / Cloudflare on access). The Kentucky state server kygisserver.ky.gov lists parcel services only for Webster County, none for Calloway. ArcGIS Hub/Online searches found no Calloway parcel layer; the Calloway KY feature service requires a token. Only commercial paid vendors (Dynamo Spatial, Equator, ACRES, countygismaps) offer Calloway parcels as downloads.",
+  "recorded_at": 1792049429339,
+  "recheck_after": 1807601429339,
+  "model": "claude-haiku-5-5"
+}

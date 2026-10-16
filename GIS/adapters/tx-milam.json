@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-milam",
+  "publisher": "Milam County Appraisal District (via TNRIS DataHub / BIS Consulting)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/82iS1Pc7dgs3LFZv/arcgis/rest/services/Milam_County_Parcel_Map_Tnris/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48331"
+    ]
+  },
+  "fields": {
+    "apn": "PROP_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR"
+  },
+  "notes": "TNRIS DataHub copy of Milam CAD parcels (BIS Consulting). Reference only, not a legal survey.",
+  "verification": {
+    "verified_at": 1792053533841,
+    "counties": [
+      "48331"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

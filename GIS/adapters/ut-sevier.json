@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ut-sevier",
+  "publisher": "UGRC / Sevier County, Utah",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Sevier/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49041"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID"
+  },
+  "notes": "UGRC Utah Parcels, Sevier County basic layer (2026 snapshot). Situs address is sparse (about 20% filled) so it is not mapped; no owner name published.",
+  "verification": {
+    "verified_at": 1792052639181,
+    "counties": [
+      "49041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

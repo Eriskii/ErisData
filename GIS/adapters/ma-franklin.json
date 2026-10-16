@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ma-franklin",
+  "publisher": "MassGIS (Massachusetts Executive Office of Technology and Security Services) - Franklin County towns",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgisserver.digital.mass.gov/arcgisserver/rest/services/AGOL/MassachusettsPropertyTaxParcels/MapServer/1",
+    "page_size": 10,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25011"
+    ]
+  },
+  "fields": {
+    "apn": "MAP_PAR_ID"
+  },
+  "filter": "TOWN_ID IN (13, 29, 53, 68, 74, 91, 114, 192, 217, 223, 272)",
+  "notes": "MassGIS statewide tax parcels, filtered to Franklin County towns by TOWN_ID. Owner, address and value fields are not populated in this layer. Public MassGIS service.",
+  "verification": {
+    "verified_at": 1792049949948,
+    "counties": [
+      "25011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

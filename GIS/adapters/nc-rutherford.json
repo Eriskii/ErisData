@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-rutherford",
+  "publisher": "Rutherford County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rutherfordcountync.gov/arcgis/rest/services/TaxParcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37161"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_Number",
+    "owner": "Property_Owner",
+    "address": "Physical_Address",
+    "acres": "Acreage",
+    "land_use": "Land_Class",
+    "assessed_value": "Total_Property_Value"
+  },
+  "notes": "Rutherford County GIS TaxParcels layer; for taxing purposes only per county disclaimer.",
+  "verification": {
+    "verified_at": 1792051440175,
+    "counties": [
+      "37161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

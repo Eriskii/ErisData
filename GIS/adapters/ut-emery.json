@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-emery",
+  "publisher": "Utah AGRC (UGRC) / Emery County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Emery/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49015"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_TYPE",
+    "address": "PARCEL_ADD"
+  },
+  "notes": "UGRC Utah Emery County Parcels (basic). Owner name not published; OWN_TYPE is ownership type.",
+  "verification": {
+    "verified_at": 1792052718976,
+    "counties": [
+      "49015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

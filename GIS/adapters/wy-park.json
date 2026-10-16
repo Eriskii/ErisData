@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "wy-park",
+  "publisher": "Wyoming Department of Revenue / Park County Assessor (statewide parcels 2026)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/r0iJ85SKZ4zAzz3P/arcgis/rest/services/Wyoming_Parcels_for_2026/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56029"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnb",
+    "owner": "ownername1",
+    "address": "locationad",
+    "acres": "Shape__Area",
+    "assessed_value": "assessedva"
+  },
+  "filter": "jurisdicti = 'PARK' AND parcelnb NOT LIKE '99000%'",
+  "notes": "Statewide Wyoming parcel layer (WY DOR / county assessors), 2026 tax year, filtered to jurisdiction PARK; placeholder 99000* parcels excluded. Shape__Area is in square metres (Web Mercator), not acres.",
+  "verification": {
+    "verified_at": 1792051954404,
+    "counties": [
+      "56029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

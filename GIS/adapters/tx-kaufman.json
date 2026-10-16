@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-kaufman",
+  "publisher": "Kaufman County Appraisal District (via BIS Consultants CAD web service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/26s7bQ5Q51Gt4J2Q/arcgis/rest/services/KaufmanCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48257"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_num",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Kaufman CAD parcels, redistributed via BIS Consultants / TxGIO; source is Texas State Plane feet (2279) and the service reprojects on request",
+  "verification": {
+    "verified_at": 1792051696422,
+    "counties": [
+      "48257"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

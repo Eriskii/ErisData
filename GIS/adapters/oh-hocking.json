@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-hocking",
+  "publisher": "Ohio Department of Natural Resources (OGRIP statewide parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ohiodnr.gov/arcgis/rest/services/OIT_Services/odnr_landbase_v2/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39073"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "CALC_ACRES"
+  },
+  "filter": "COUNTY = 'Hocking'",
+  "notes": "Statewide OGRIP parcel layer filtered to Hocking county (COUNTY stored as Hocking). Owner names are blank in this source, so not mapped. Parcel links: auditor.hocking.oh.gov",
+  "verification": {
+    "verified_at": 1792051768114,
+    "counties": [
+      "39073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

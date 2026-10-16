@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-avery",
+  "publisher": "Avery County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/h4jNYexE41HKnu98/arcgis/rest/services/averync_parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37011"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER_NAME",
+    "address": "ADDRESS",
+    "acres": "ACREAGE",
+    "assessed_value": "TOTAL_VALU"
+  },
+  "notes": "Avery County NC parcel layer hosted by S583527_NWMSUGIS; PARNUM is the parcel number alternative to PIN",
+  "verification": {
+    "verified_at": 1792051332902,
+    "counties": [
+      "37011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

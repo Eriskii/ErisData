@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sd-lyman",
+  "publisher": "Lyman County Equalization / District III GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/LYMAN_COUNTY_WEB_LAYERS/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46085"
+    ]
+  },
+  "fields": {
+    "apn": "PIDLINK",
+    "owner": "CAMA_OWNERNAME",
+    "address": "CAMA_SITE_ADDRESS",
+    "acres": "CAMA_ACRES",
+    "assessed_value": "VAL_TOTAL_VALUE_1"
+  },
+  "notes": "Parcel polygons from the Lyman County web layers hosted by District III GIS; CAMA attributes joined from county assessor data. Public service.",
+  "verification": {
+    "verified_at": 1792051641484,
+    "counties": [
+      "46085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

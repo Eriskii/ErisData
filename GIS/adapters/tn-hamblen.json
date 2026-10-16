@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-hamblen",
+  "publisher": "Hamblen County GIS (via MH-GIS ParcelPublishing)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.mh-gis.com/server/rest/services/ParcelPublishing/Parcels/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47063"
+    ]
+  },
+  "fields": {
+    "apn": "GISLINK",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "LANDUSE",
+    "assessed_value": "APPRAISAL"
+  },
+  "notes": "Hamblen County TN parcels published by MH-GIS ParcelPublishing service",
+  "verification": {
+    "verified_at": 1792052033127,
+    "counties": [
+      "47063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-crow-wing",
+  "publisher": "Crow Wing County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.crowwing.us/cwc_external_main/rest/services/Public_pro/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27035"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNAME",
+    "acres": "Acres",
+    "land_use": "TPCLS1",
+    "assessed_value": "ESTTOTVAL"
+  },
+  "notes": "Crow Wing County public GIS parcel layer (Public_pro MapServer layer 0). PHYSADDR (site address) is blank for many vacant and tax-forfeited parcels, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792050926723,
+    "counties": [
+      "27035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

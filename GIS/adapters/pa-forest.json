@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-forest",
+  "publisher": "Forest County GIS (via PASDA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/ForestCounty/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42053"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL",
+    "owner": "OWNER1",
+    "address": "SITUS",
+    "acres": "ACRES",
+    "land_use": "PROP_USE",
+    "assessed_value": "TOTAL_VALU"
+  },
+  "notes": "Forest County PA parcels 202602 via PASDA public MapServer; no filter needed",
+  "verification": {
+    "verified_at": 1792051537612,
+    "counties": [
+      "42053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13187",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.lumpkincounty.gov/300/Map-Data-Requests",
+    "https://www.lumpkincounty.gov/169/Geographical-Information-Systems-GIS",
+    "https://www.lumpkincounty.gov/Faq.aspx?QID=156",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=LumpkinCountyGA"
+  ],
+  "note": "Lumpkin County GA (13187) publishes parcels only through the qPublic/Schneider web viewer (no public ArcGIS REST or open download). County GIS page says tax parcels are sold as Shapefile/DXF via a fee-based request form; FAQ confirms data is purchased, no free download or service link. Probed gis.lumpkincounty.gov/arcgis/rest/services: unreachable. ArcGIS Hub/Online searches for Lumpkin parcels found only UGA-owned parcels and commercial vendor files, none county-published.",
+  "recorded_at": 1792048834627,
+  "recheck_after": 1807600834627,
+  "model": "claude-haiku-5-5"
+}

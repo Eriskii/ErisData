@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ms-hancock",
+  "publisher": "Hancock County, MS (MDMRGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/CYWvDQNfmlrPP5Rh/arcgis/rest/services/Hancock_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28045"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_Number",
+    "owner": "Owner_Name",
+    "acres": "ARCACRES",
+    "assessed_value": "Appraised_Total"
+  },
+  "filter": "ARCACRES < 50",
+  "notes": "Hancock County MS parcels, 2026 layer by MDMRGIS; public ArcGIS service. Parcels of 50 acres or more excluded (large timber tracts with off-centre centroids).",
+  "verification": {
+    "verified_at": 1792050944356,
+    "counties": [
+      "28045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

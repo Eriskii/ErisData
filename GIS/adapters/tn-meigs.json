@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-meigs",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (STS-GIS), Meigs County parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47121"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_ID = 61",
+  "notes": "Statewide TN parcel layer; Meigs is COUNTY_ID 61 (COUNTY_NAME Meigs).",
+  "verification": {
+    "verified_at": 1792052665499,
+    "counties": [
+      "47121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

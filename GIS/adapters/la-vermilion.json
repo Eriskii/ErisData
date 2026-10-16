@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "la-vermilion",
+  "publisher": "Vermilion Parish (via Lafayette/Vermilion parish tax parcel service, es2.amelia.adams)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Brg1qbmzmFn7JtpX/arcgis/rest/services/Parish_Parcels__All_/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22113"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnumb",
+    "owner": "owner",
+    "address": "original_address",
+    "acres": "ll_gisacre",
+    "land_use": "usecode",
+    "assessed_value": "parval"
+  },
+  "filter": "county = 'vermilion'",
+  "notes": "Combined Lafayette+Vermilion parish parcel layer; filtered on county field. Regrid-style attributes.",
+  "verification": {
+    "verified_at": 1792049894196,
+    "counties": [
+      "22113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

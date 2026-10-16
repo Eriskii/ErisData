@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21001",
+  "reason": "login-required",
+  "evidence": [
+    "https://www.adairpva.com/",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=AdairCountyKY&PageType=Search",
+    "https://www.arcgis.com/apps/dashboards/5723ea16d1b94a5dbb49c0fa05c095c0",
+    "https://services5.arcgis.com/ZTbCl7IqVy1LQh5d/arcgis/rest/services/Adair_WFL1/FeatureServer/0"
+  ],
+  "note": "Adair County KY PVA publishes parcels only via subscriber-login qPublic 'Subscriber GIS Maps'. The Adair Parcel Mapping ArcGIS dashboard (item 5723ea16...) draws from service Adair_WFL1/FeatureServer/0, but that service is Adair County, Oklahoma (features near -94.6, 36.2; WATTS OK), not Kentucky; 0 parcels in the KY sample area. No public KY Adair parcel REST service or file found; only commercial vendors (Regrid, DynamoSpatial, Equator Studios).",
+  "recorded_at": 1792049433008,
+  "recheck_after": 1807601433008,
+  "model": "claude-haiku-5-5"
+}

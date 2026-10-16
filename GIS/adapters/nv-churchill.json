@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nv-churchill",
+  "publisher": "Churchill County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/uPb1UC2HwTkBAlth/arcgis/rest/services/Churchill_County_Tax_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32001"
+    ]
+  },
+  "fields": {
+    "apn": "Name",
+    "address": "FULLADD"
+  },
+  "notes": "Churchill County tax parcels; no owner or acreage field published in this layer (Shape__Area is not acres)",
+  "verification": {
+    "verified_at": 1792051331961,
+    "counties": [
+      "32001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

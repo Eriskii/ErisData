@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-kent",
+  "publisher": "TxGIO StratMap 2025 Land Parcels (Kent CAD)",
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://s3.amazonaws.com/data.tnris.org/0fa04328-872e-481c-b453-126a74777593/resources/stratmap25-landparcels_48263_lp.zip",
+    "format": "shapefile-zip",
+    "epsg": 3857
+  },
+  "coverage": {
+    "counties": [
+      "48263"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "land_use": "STAT_LAND_",
+    "assessed_value": "MKT_VALUE"
+  },
+  "notes": "TxGIO StratMap 2025 land parcels, CC0; data.geographic.texas.gov blocks bots so S3 mirror used; shapefile coordinates read as EPSG:3857",
+  "verification": {
+    "verified_at": 1792051932405,
+    "counties": [
+      "48263"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

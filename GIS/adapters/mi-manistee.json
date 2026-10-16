@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-manistee",
+  "publisher": "Manistee County GIS (via ArcGIS Online, Manistee_Parcels_2019_ViewOnly)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/s1zfHrONOpCVv7YC/arcgis/rest/services/Manistee_Parcels_2019_ViewOnly/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26101"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELCODE",
+    "owner": "ownername1",
+    "acres": "ACRES",
+    "land_use": "propclass",
+    "assessed_value": "mborass"
+  },
+  "notes": "2019 parcel snapshot, public view-only layer; site address mostly blank in source so not mapped; county 2022 service requires a token",
+  "verification": {
+    "verified_at": 1792049972971,
+    "counties": [
+      "26101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

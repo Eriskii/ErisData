@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-coosa",
+  "publisher": "Coosa County GIS (via Alabama Parcel Data, PowerSouth)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/16",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01037"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Dedicated Coosa County layer (15,854 features) in a multi-county Alabama parcel service; no filter needed. Site address fields are empty in source, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792048339253,
+    "counties": [
+      "01037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13253",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=SeminoleCountyGA&Layer=Parcels&PageType=Search",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=790&LayerID=11822&PageTypeID=1",
+    "https://www.qpublic.net/ga/seminole/",
+    "https://www.seminolecountyga.com/"
+  ],
+  "note": "Seminole County GA publishes parcel maps only through the qPublic (Schneider) viewer, which is behind a Cloudflare challenge and exposes no public ArcGIS REST parcel service. arcgis search for Seminole County/GA parcels found no county FeatureServer or MapServer. The county GIS host gis.seminolecountyga.com did not respond. Commercial downloads (gis.equatorstudios.com) are vendor exports, not county-published files. Neighbouring Houston County AL service does not cover Georgia.",
+  "recorded_at": 1792048941049,
+  "recheck_after": 1807600941049,
+  "model": "claude-haiku-5-5"
+}

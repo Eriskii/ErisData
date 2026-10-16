@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-jackson",
+  "publisher": "Jackson County, SD GIS (District III)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/JACKSON_COUNTY_WEB_LAYERS2/MapServer/42",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46071"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "owner": "DEEDHOLDER",
+    "acres": "GIS_ACRES"
+  },
+  "filter": "FEATURE_TYPE = 'PARCEL'",
+  "notes": "Parcel rows only (FEATURE_TYPE PARCEL); other rows are tribal, leased or section placeholders. Site address field is empty in source, so not mapped.",
+  "verification": {
+    "verified_at": 1792051643050,
+    "counties": [
+      "46071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

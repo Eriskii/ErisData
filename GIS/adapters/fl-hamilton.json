@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-hamilton",
+  "publisher": "Hamilton County Property Appraiser via Florida Dept of Health EHWATER Parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.floridahealth.gov/server/rest/services/EHWATER/Parcels/FeatureServer/22",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12047"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "OWN_NAME",
+    "land_use": "DOR_UC",
+    "assessed_value": "AV_SD"
+  },
+  "notes": "Site addresses sparsely filled in source, so omitted",
+  "verification": {
+    "verified_at": 1792049357792,
+    "counties": [
+      "12047"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

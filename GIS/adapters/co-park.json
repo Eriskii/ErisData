@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "co-park",
+  "publisher": "Park County, CO (via Colorado OIT statewide public parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08093"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "owner",
+    "address": "situsAdd",
+    "acres": "landAcres",
+    "land_use": "landUseDsc"
+  },
+  "filter": "countyName = 'Park'",
+  "notes": "Statewide Colorado public parcel composite from gis.colorado.gov (OIT). Park County rows selected by countyName (countyFips is not populated for Park). Assessed value (apprValTot) is sparsely populated in the source, so not mapped. Park County GIS server maps.parkco.us was unreachable during search.",
+  "verification": {
+    "verified_at": 1792048732857,
+    "counties": [
+      "08093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

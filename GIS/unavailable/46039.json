@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "46039",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.deuelcountysd.com/",
+    "https://www.deuelcountysd.com/director-of-equalization",
+    "https://services.arcgis.com/mq0BGE5kHpm8mHFz/arcgis/rest/services/Deuel_County_Parcels/FeatureServer/2",
+    "https://app.regrid.com/store/us/sd/deuel",
+    "https://maps.acres.com/plat-map/map/sd/deuel-county-sd",
+    "https://rockfordmap.com/maps/south-dakota-deuel-county/"
+  ],
+  "note": "Deuel County SD: no county-published parcel service found. The only Deuel parcel ArcGIS layer (services.arcgis.com/mq0BGE5kHpm8mHFz, Deuel_County_Parcels/FeatureServer/2) has NE-named fields and features at about lon -102.3, lat 41.0, which is Nebraska's Deuel County, not SD. County website has no GIS link. Parcel sources found are commercial (Regrid, Acres, Rockford Map), not county services.",
+  "recorded_at": 1792051636861,
+  "recheck_after": 1807603636861,
+  "model": "claude-haiku-5-5"
+}

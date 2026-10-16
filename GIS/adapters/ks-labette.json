@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ks-labette",
+  "publisher": "Labette County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/zDY8zW24CdJKhVIw/arcgis/rest/services/LabetteCountyGIS/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20099"
+    ]
+  },
+  "fields": {
+    "apn": "PIDNO",
+    "owner": "PartyName",
+    "address": "PropAdd",
+    "acres": "ACRES"
+  },
+  "notes": "Layer hosted by ATCiMaps for Labette County GIS; source CRS wkid 102678 (latest 3420)",
+  "verification": {
+    "verified_at": 1792049589515,
+    "counties": [
+      "20099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

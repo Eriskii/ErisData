@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-marion",
+  "publisher": "Marion County Appraisal District (bis_marioncad)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/yHyk19CrrUYjbLOM/arcgis/rest/services/MarionCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48315"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Texas CAD parcels via public ArcGIS web service; situs_street holds street name only (house number in situs_num, often blank for rural parcels)",
+  "verification": {
+    "verified_at": 1792051721703,
+    "counties": [
+      "48315"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

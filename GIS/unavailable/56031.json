@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "56031",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.deq.wyo.gov/arcgis/rest/services/WY_PRIVATE_PARCELS/MapServer/0",
+    "https://services.wygisc.org/hostgis/rest/services/GeoHub/PathfinderSupport/MapServer",
+    "https://www.arcgis.com/sharing/rest/content/items/7791d50809a24a118463a81552c06a9b?f=json",
+    "https://www.plattecountywyoming.com/departments/Assessor/gis-information"
+  ],
+  "note": "Platte County parcels are not published as a usable queryable service. The only statewide parcel layer (WY DEQ WY_PRIVATE_PARCELS/MapServer/0) returns 'Unable to complete operation' on every query and 'Pagination is not supported' on any paged query, and its layer metadata returns an error. The county's ArcGIS Online item points to a boundary layer, not parcels. The county assessor page offers only the terragis viewer; commercial vendors sell the parcel files, but those are not public services.",
+  "recorded_at": 1792051897360,
+  "recheck_after": 1807603897360,
+  "model": "claude-haiku-5-5"
+}

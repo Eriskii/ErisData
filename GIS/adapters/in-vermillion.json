@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "in-vermillion",
+  "publisher": "Indiana Geographic Information Office (IndianaMap), Parcel Boundaries of Indiana Current",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisdata.in.gov/server/rest/services/Hosted/Parcel_Boundaries_of_Indiana_Current/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18165"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "DLGF_PROP_ADDRESS",
+    "address": "PROP_ADD",
+    "acres": "SHAPE__Area",
+    "land_use": "DLGF_PROP_CLASS_CODE"
+  },
+  "filter": "COUNTY_FIPS = '18165' AND PROP_ADD <> 'VERMILLION RISE MEGA'",
+  "notes": "Statewide IN parcel layer (IndianaMap/IGIO IDSI); filtered to Vermillion county FIPS 18165. The PROP_ADD VERMILLION RISE MEGA record is excluded: its attribute coordinates sit about 0.03 degrees off its polygon and fail the location check.",
+  "verification": {
+    "verified_at": 1792049035814,
+    "counties": [
+      "18165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

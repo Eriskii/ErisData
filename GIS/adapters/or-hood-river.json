@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "or-hood-river",
+  "publisher": "Hood River County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/xtfQPw7zwSRPkcfN/arcgis/rest/services/Tax_Lot_Parcels_Public/FeatureServer/54",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41027"
+    ]
+  },
+  "fields": {
+    "apn": "MAPTAXLOT",
+    "owner": "OWNER",
+    "address": "SITUS",
+    "acres": "TAXLOT_ACRES",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "ASSESS_VALUE"
+  },
+  "notes": "Hood River County Tax Lot Parcels (public), ArcGIS Hub; assessor data linked",
+  "verification": {
+    "verified_at": 1792051485979,
+    "counties": [
+      "41027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-bandera",
+  "publisher": "Bandera County CAD (via TrueAutomation ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/ZbeB5GO8asJXJb2R/arcgis/rest/services/BanderaCADWebService/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48019"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Bandera County CAD public parcel layer; 33k parcels",
+  "verification": {
+    "verified_at": 1792051635203,
+    "counties": [
+      "48019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

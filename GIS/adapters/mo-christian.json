@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mo-christian",
+  "publisher": "Christian County Assessor (MO)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.christiancountymo.gov/arcgis/rest/services/Christian_Ozark/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29043"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "name",
+    "address": "address1",
+    "acres": "acres",
+    "assessed_value": "land_totalval_app"
+  },
+  "notes": "Christian County MO assessor parcel layer; maxRecordCount 2000; no land use field published",
+  "verification": {
+    "verified_at": 1792050916155,
+    "counties": [
+      "29043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ks-linn",
+  "publisher": "Linn County KS GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.linncountyks.com/server/rest/services/Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20107"
+    ]
+  },
+  "fields": {
+    "apn": "PropertyNu",
+    "owner": "PartyName",
+    "address": "SitusAddre",
+    "acres": "Acres",
+    "land_use": "NbhdCode"
+  },
+  "notes": "Linn County KS GIS public Parcels MapServer (layer 1); from county Online Public Maps portal",
+  "verification": {
+    "verified_at": 1792049340566,
+    "counties": [
+      "20107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

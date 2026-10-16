@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-clay",
+  "publisher": "Texas Geographic Information Office (TxGIO) statewide land parcels, from Clay County Appraisal District data",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48077"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA"
+  },
+  "filter": "FIPS = '48077'",
+  "notes": "TxGIO statewide annual land parcel program (TAX_YEAR 2024); filtered to Clay County FIPS 48077. Market value and land use not populated for Clay County in this layer.",
+  "verification": {
+    "verified_at": 1792051688618,
+    "counties": [
+      "48077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

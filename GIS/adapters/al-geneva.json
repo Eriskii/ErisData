@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "al-geneva",
+  "publisher": "Geneva County, AL (via PowerSouth Alabama Parcel Data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/23",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01061"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Geneva County parcel layer from PowerSouth Alabama Parcel Data hosted service; land_use is USECODE because USEDESC is blank in this source; assessed value PARVAL",
+  "verification": {
+    "verified_at": 1792048334771,
+    "counties": [
+      "01061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20097",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer/layers",
+    "https://services7.arcgis.com/QfD34vvHtHcH5kGh/arcgis/rest/services",
+    "https://www.kiowacountyks.gov/159/County-Appraiser",
+    "https://www.kiowacountyks.gov/",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Kiowa"
+  ],
+  "note": "Searched ArcGIS Hub/Online, Ford County's ArcGIS account (services7 QfD34vvHtHcH5kGh; holds only a Kiowa city-limits layer, no parcels), the statewide ORKA KS_ORKA_Extras MapServer (no county parcel polygon layers; ORKA viewer is the only state parcel access), the Kiowa County government site (no GIS or parcel service link), and KDOR/KGS services. Kiowa parcels appear only through commercial vendors (Dynamo, Equator, Regrid, Acres, AcreValue, Rockford Map).",
+  "recorded_at": 1792049437413,
+  "recheck_after": 1807601437413,
+  "model": "claude-haiku-5-5"
+}

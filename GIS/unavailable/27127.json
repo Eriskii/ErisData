@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "27127",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/?site=RedwoodCountyMN",
+    "https://redwoodcountyeda.com/economic-development/mapping-tools/",
+    "https://redwoodcounty-mn.gov/departments/environmental-office/",
+    "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_mngeo/plan_parcels_open/FeatureServer"
+  ],
+  "note": "Redwood County parcels are published only through the Schneider Beacon viewer, which returns a Cloudflare challenge (403) to automated access and exposes no public ArcGIS REST endpoint. The county points parcel data requests to a GIS data request form and a fee schedule. Redwood County is absent from the state opt-in open parcel service: queries at the county's point return no features and co_name has no Redwood match.",
+  "recorded_at": 1792050956824,
+  "recheck_after": 1807602956824,
+  "model": "claude-haiku-5-5"
+}

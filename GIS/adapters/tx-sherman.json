@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-sherman",
+  "publisher": "Sherman County Appraisal District (via Pandai GIS)",
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://gisdata.pandai.com/pamaps02/rest/services/Sherman/ShermanCADPublic/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "48421"
+    ]
+  },
+  "fields": {
+    "apn": "ShermanCADWeb.DBO.TaxParcels.Name",
+    "owner": "ShermanCADWeb.DBO.Accounts.Owner_Name",
+    "address": "ShermanCADWeb.DBO.Accounts.Prop_Street",
+    "acres": "ShermanCADWeb.DBO.Accounts.Acres",
+    "land_use": "ShermanCADWeb.DBO.Accounts.Primary_Category_Code"
+  },
+  "notes": "Sherman CAD public parcel polygons joined with public account attributes. Single full-layer GeoJSON query; server does not support paging. Rural parcels often have legal descriptions instead of street addresses.",
+  "verification": {
+    "verified_at": 1792051857815,
+    "counties": [
+      "48421"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

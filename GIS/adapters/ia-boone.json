@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-boone",
+  "publisher": "Iowa Department of Homeland Security & Emergency Management (2017 statewide parcels, hosted by University of Iowa); Boone County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19015"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'BOONE'",
+  "notes": "2017 snapshot of statewide parcels; filtered to Boone County via COUNTYNAME. Source has no address, acreage or value fields.",
+  "verification": {
+    "verified_at": 1792049314375,
+    "counties": [
+      "19015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

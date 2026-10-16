@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-meriwether",
+  "publisher": "Meriwether County GIS (hosted layer MeriwetherParcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Xv8vRekQ4FVHSSIe/arcgis/rest/services/MeriwetherParcels/FeatureServer/0",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "13199"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "owner": "lastname",
+    "address": "street_nam",
+    "acres": "Draw_Acres",
+    "land_use": "land_type",
+    "assessed_value": "curr_val"
+  },
+  "notes": "Parcel polygons from Meriwether County CAMA-linked layer (hosted by mbrown619). Owner is last name only; land_use is numeric land_type code.",
+  "verification": {
+    "verified_at": 1792049219869,
+    "counties": [
+      "13199"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

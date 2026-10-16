@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "co-routt",
+  "publisher": "Routt County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VxFGFP4XeHMTNgVs/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08107"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "ownCareOf",
+    "acres": "totalAcres",
+    "land_use": "propUse",
+    "assessed_value": "totalLandAssessed"
+  },
+  "notes": "Hosted Routt County Parcels FeatureServer (replaces retired on-prem server); situs address (locAddress) is sparse in source so not mapped; 25,539 features",
+  "verification": {
+    "verified_at": 1792048712602,
+    "counties": [
+      "08107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

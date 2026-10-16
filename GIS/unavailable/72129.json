@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72129",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0/query?where=1%3D1&returnCountOnly=true&f=json",
+    "https://www.arcgis.com/sharing/rest/content/items/177a03ea0b31411cafe5596fe710790d/data?f=json"
+  ],
+  "note": "CRIM publishes the island-wide Parcelario (about 1.25M parcels, incl. San Lorenzo, 72129). Its ArcGIS REST host sigejp.pr.gov returns 'Service crim/crim_parcelas/MapServer not started' for the MapServer, layer and query endpoints, and the sigejp crim folder lists no services. The legacy satasgis.crimpr.net Parcelas/Tasaciones/ParcelasEtiquetas MapServer URLs cited by the CRIM web map return 404 or fail to connect. The gis.pr.gov WFS (geoserver2.pr.gov pr_geodata) has no parcel feature type. No other public queryable San Lorenzo parcel polygon service was found; Regrid has parcels but is commercial.",
+  "recorded_at": 1792052139669,
+  "recheck_after": 1807604139669,
+  "model": "claude-haiku-5-5"
+}

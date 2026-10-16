@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40097",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://mayes.okcounties.org/maps",
+    "https://www.actdatascout.com/RealProperty/Oklahoma/Mayes",
+    "https://okmaps.org/ogi/RestDataAccessItem.aspx?UUID=1484707a-712a-4447-96a9-5a38affc600e",
+    "http://lmweb.dyndns.org:6580/Mapview-Mayes/"
+  ],
+  "note": "No public queryable parcel service found for Mayes County OK. The county GIS viewer (lmweb.dyndns.org:6580/Mapview-Mayes) returns 502/connection errors, including on its arcgis/rest/services path. The county site offers only static PDF maps; the assessor records portal is a vendor site. The Oklahoma statewide parcel layer is view-only WMS, not downloadable or queryable as features, and Mayes is not listed. Other parcel sources (Regrid, Dynamo Spatial, Mapping Solutions GIS, Acres) are paid commercial products.",
+  "recorded_at": 1792051584243,
+  "recheck_after": 1807603584243,
+  "model": "claude-haiku-5-5"
+}

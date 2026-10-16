@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pr-toa-baja",
+  "publisher": "Municipio de Toa Baja (Catastro Toa Baja, Marzo 2019)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/n6by4cEju3ytQLNI/arcgis/rest/services/CatastroToaBaja/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72137"
+    ]
+  },
+  "fields": {
+    "apn": "NUM_CATASTRO",
+    "owner": "CONTACT",
+    "address": "DIRECCION_FISICA"
+  },
+  "notes": "Municipal cadastre layer, March 2019, identification attributes only; source CRS EPSG:32161",
+  "verification": {
+    "verified_at": 1792052093757,
+    "counties": [
+      "72137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

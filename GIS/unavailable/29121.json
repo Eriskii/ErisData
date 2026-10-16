@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29121",
+  "reason": "login-required",
+  "evidence": [
+    "https://www.maconcountymo.com/gis",
+    "https://maconcountygis.integritygis.com/H5/Index.html?viewer=maconcounty",
+    "https://experience.arcgis.com/experience/7fbdb13536964337aa8e563d59146905",
+    "https://services2.integritygis.com/arcgis/rest/services/MO/Macon_Assessor_Data/MapServer"
+  ],
+  "note": "Macon County MO parcel polygons are only served through IntegrityGIS-hosted ArcGIS services (services2.integritygis.com/.../MO/Macon_*_Assessor_Data) and the county viewer; the server refuses anonymous access with 'Token Required'. The county GIS page says deeper parcel records need a paid subscription. No public parcel FeatureServer/MapServer or downloadable file was found on ArcGIS Hub, ArcGIS Online search, MSDIS, or the county site; remaining sources are commercial vendors. Access requires a token/subscription.",
+  "recorded_at": 1792051013849,
+  "recheck_after": 1807603013849,
+  "model": "claude-haiku-5-5"
+}

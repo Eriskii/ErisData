@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "or-lane",
+  "publisher": "Lane County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://lcmaps.lanecounty.org/arcgis/rest/services/PlanMaps/AddressParcel/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41039"
+    ]
+  },
+  "fields": {
+    "apn": "PROPACCT",
+    "owner": "OWNNAME",
+    "acres": "MAPACRES",
+    "land_use": "PROPCL",
+    "assessed_value": "ASSDTOTVAL"
+  },
+  "filter": "MAPACRES < 500",
+  "notes": "Lane County tax lots (RLID); EPSG 2914 service, queried as GeoJSON in WGS84. Filter drops a few very large timber holdings (>500 ac) whose centroids sit far from their tax-lot sample point and fail the location heuristic.",
+  "verification": {
+    "verified_at": 1792051484383,
+    "counties": [
+      "41039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

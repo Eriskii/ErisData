@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wa-mason",
+  "publisher": "Squaxin Island Tribe GIS (hosted copy of Mason County parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.squaxin.us/arcgis/rest/services/Hosted/Skookum_Habitat_Map_WFL1/FeatureServer/23",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53045"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "LAST_NAME",
+    "acres": "TOT_ACRES",
+    "land_use": "LANDUSE",
+    "assessed_value": "ASSESS_VAL"
+  },
+  "notes": "Third-party hosted copy of Mason County tax parcels (Squaxin Island Tribe). Only 391 features; partial extract, not the full county roll. Source of record is the county TaxParcels layer at gis.masoncountywa.gov, which refuses paging. Address not mapped: situs fill is sparse in this copy.",
+  "verification": {
+    "verified_at": 1792053220555,
+    "counties": [
+      "53045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

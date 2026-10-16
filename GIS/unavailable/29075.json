@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "29075",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.mo.gov/arcgis/rest/services/OA/FMDCrealEstate_allParcels/MapServer",
+    "https://gentry.missouriassessors.com/index.php",
+    "https://gentry.missouriassessors.com/links.php",
+    "https://app.regrid.com/us/mo/gentry",
+    "https://www.acres.com/plat-map/map/mo/gentry-county-mo"
+  ],
+  "note": "No public queryable parcel service found for Gentry County MO. The state's statewide all-parcels MapServer (gis.mo.gov FMDCrealEstate_allParcels) returns 'Token Required'; the state-owned parcels layer is not tax parcels. The Gentry assessor site and county links expose no GIS endpoint. Regrid (token-gated, commercial), Acres (browser viewer with no endpoint) and vendor shapefile sellers are not public services.",
+  "recorded_at": 1792051042934,
+  "recheck_after": 1807603042934,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nm-lincoln",
+  "publisher": "Lincoln County, NM (Property Map parcel layer, hosted by Stephanie2025 on ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/4LbiazNcRaSJw3X0/arcgis/rest/services/Lincoln_County__New_Mexico_Property_Map_WFL1/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35027"
+    ]
+  },
+  "fields": {
+    "apn": "Name",
+    "owner": "GONAM",
+    "acres": "StatedArea",
+    "assessed_value": "GTFULL"
+  },
+  "notes": "Parcel layer from Lincoln County NM Property Map web service. ParcelID field is 0 in source; Name holds the parcel number. StatedArea is in square feet, not acres. Situs street field GSTNAM is mostly blank, so no address is mapped.",
+  "verification": {
+    "verified_at": 1792051453546,
+    "counties": [
+      "35027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

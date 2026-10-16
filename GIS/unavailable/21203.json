@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21203",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/",
+    "https://www.dynamospatial.com/c/rockcastle-county-ky/parcel-data",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp"
+  ],
+  "note": "Rockcastle County (KY) parcels are published only through the Schneider qPublic PVA viewer (HTTP 403 to automated access, no public REST endpoint found). The state kygisserver hosts PVA parcel services for Webster and several other counties but none for Rockcastle; the only Rockcastle polygon there is the county boundary. Commercial sources (Dynamo, Acres, AcreValue) are paid or proprietary. ArcGIS Hub/Online searches returned no Rockcastle parcel service.",
+  "recorded_at": 1792049897308,
+  "recheck_after": 1807601897308,
+  "model": "claude-haiku-5-5"
+}

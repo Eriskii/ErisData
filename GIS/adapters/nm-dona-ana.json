@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nm-dona-ana",
+  "publisher": "Doña Ana County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.donaana.gov/server/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35013"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMBER",
+    "owner": "OWNERNAME",
+    "address": "SITUSADDRS",
+    "acres": "TOTALACRES",
+    "land_use": "NEIGHBORHOOD",
+    "assessed_value": "LANDVALUE"
+  },
+  "notes": "Assessor CAMA-derived parcels, 2026 tax year per county metadata; not for legal or survey use. Data from county GIS server, feet-based state plane (wkid 2258).",
+  "verification": {
+    "verified_at": 1792051333598,
+    "counties": [
+      "35013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

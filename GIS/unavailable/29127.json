@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29127",
+  "reason": "login-required",
+  "evidence": [
+    "https://services2.integritygis.com/arcgis/rest/services/MO/Marion_Assessor_Data/MapServer",
+    "https://services2.integritygis.com/arcgis/rest/services/MO/Marion_Assessor_Data/MapServer/0/query?where=1%3D1&returnCountOnly=true&f=json",
+    "https://sites5.integritygis.com/geocortex/essentials/rest/sites/Marion_County_MO_Public/map/mapservices"
+  ],
+  "note": "Marion County MO assessor parcel MapServer (services2.integritygis.com, Marion_Assessor_Data) is published but every endpoint, including the layer query, returns 'Token Required'. The public Geocortex viewer draws from it. Searched ArcGIS Hub/Online, county assessor and county websites, MSDIS and state sources; no open parcel service found.",
+  "recorded_at": 1792051036050,
+  "recheck_after": 1807603036050,
+  "model": "claude-haiku-5-5"
+}

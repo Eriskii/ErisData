@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-edgefield",
+  "publisher": "Edgefield County GIS (hosted by GRTEDGE, ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/GrsHGJ284Po4FBDs/arcgis/rest/services/parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45037"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "AcreText"
+  },
+  "notes": "Layer has no owner or situs address fields; Plat_Book_Page is a deed plat reference. Acres stored as text. Public ArcGIS REST, no login.",
+  "verification": {
+    "verified_at": 1792051620214,
+    "counties": [
+      "45037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

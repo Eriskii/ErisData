@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40137",
+  "reason": "paywalled",
+  "evidence": [
+    "https://www.dynamospatial.com/c/stephens-county-ok/parcel-data",
+    "https://okmaps.org/OGI/xmlmetadatadownload.aspx?LayerUUID=1484707a-712a-4447-96a9-5a38affc600e",
+    "https://services.arcgis.com/3xOwF6p0r7IHIjfn/arcgis/rest/services/Stephens_County_Data/FeatureServer",
+    "https://maps.owrb.ok.gov/arcgis/rest/services/Hazard/Parcels/MapServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online, web and neighbouring hosts. No county GIS portal or parcel service found for Stephens County. Stephens County Data FeatureServer has no parcels. OK Maps statewide parcels are WMS view-only, no download. Only commercial vendors (Dynamo, Mapping Solutions, Acres, Regrid API at $200/mo) sell parcels. OWRB 'Parcels by county' MapServer was unreachable from both my environment and the validator, so its Stephens coverage could not be checked.",
+  "recorded_at": 1792051764816,
+  "recheck_after": 1823587764816,
+  "model": "claude-haiku-5-5"
+}

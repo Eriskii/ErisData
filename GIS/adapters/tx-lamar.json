@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-lamar",
+  "publisher": "Lamar County Appraisal District (BIS Consultants)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/f4WhMvUzLwYd9QH8/arcgis/rest/services/LamarCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48277"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_num",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "BIS Consultants CAD web service; informational use. Address is situs_num plus situs_street fields; acreage is sparsely populated (legal_acreage) so not mapped; market is total market value.",
+  "verification": {
+    "verified_at": 1792051709858,
+    "counties": [
+      "48277"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29029",
+  "reason": "login-required",
+  "evidence": [
+    "https://camdengis.integritygis.com/Geocortex/Essentials/REST/sites/Camden_County_MO/map/mapservices/0/layers/8",
+    "https://camdengis.integritygis.com/Geocortex/Essentials/REST/sites/Camden_County_MO/overviewmap/mapservices/0",
+    "https://services8.integritygis.com/arcgis/rest/services/MO/Camden_Assessor_Data/MapServer"
+  ],
+  "note": "Camden County MO parcel polygons (Parcel Public layer 8 of MO/Camden_Assessor_Data) are served from services8.integritygis.com, but the ArcGIS REST service answers 'Token Required' for both the service root and layer 8, so no public query endpoint exists. Geocortex viewer pages are only a front end. The statewide MSDIS/gis.mo.gov parcel service listed in search was unreachable (404). Only commercial viewers (Acres, uslandgrid) offer Camden parcels.",
+  "recorded_at": 1792050971575,
+  "recheck_after": 1807602971575,
+  "model": "claude-haiku-5-5"
+}

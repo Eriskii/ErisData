@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-merced",
+  "publisher": "Merced County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.countyofmerced.com/server/rest/services/Merced_County_Site_Address_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06047"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "address": "fullrdname",
+    "acres": "GIS_ACRES"
+  },
+  "notes": "Merced County GIS parcels with site address points; no owner or assessed value fields published on this layer",
+  "verification": {
+    "verified_at": 1792048647119,
+    "counties": [
+      "06047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

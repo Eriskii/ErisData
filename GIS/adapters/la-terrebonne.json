@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-terrebonne",
+  "publisher": "Terrebonne Parish Consolidated Government (GIS, via ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/JbKmzpUJDB0d0o8l/arcgis/rest/services/Terrebonne_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22109"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "Owner_Name",
+    "address": "Street_Name",
+    "assessed_value": "Assessed_Value"
+  },
+  "notes": "Parcel polygons with assessor attributes; Address_Number and Street_Name are separate fields; Shape__Area is square feet in source CRS, not mapped as acres; no land use field populated",
+  "verification": {
+    "verified_at": 1792049901119,
+    "counties": [
+      "22109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

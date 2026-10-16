@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "or-douglas",
+  "publisher": "Douglas County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.douglas.or.us/server/rest/services/Parcel/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41019"
+    ]
+  },
+  "fields": {
+    "apn": "TAXID",
+    "owner": "NAME",
+    "address": "SitusAddress",
+    "acres": "TotalAcreage",
+    "land_use": "PROPCLASS",
+    "assessed_value": "ASSD_VALUE"
+  },
+  "notes": "Douglas County, Oregon tax lots; source CRS EPSG:2270 (converted by service)",
+  "verification": {
+    "verified_at": 1792051455620,
+    "counties": [
+      "41019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

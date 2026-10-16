@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-crisp",
+  "publisher": "Crisp County GIS (SGRC_GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services/CrispParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13081"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "owner": "lastname",
+    "address": "street_nam",
+    "acres": "Draw_Acres",
+    "land_use": "land_type",
+    "assessed_value": "curr_val"
+  },
+  "notes": "Crisp County parcels hosted by SGRC_GIS on ArcGIS Online; owner is last name field only",
+  "verification": {
+    "verified_at": 1792048754785,
+    "counties": [
+      "13081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

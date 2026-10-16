@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-brown",
+  "publisher": "Brown County SD GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/yav1mEAAtr5X89Li/arcgis/rest/services/BCSDGISdata_view/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46013"
+    ]
+  },
+  "fields": {
+    "apn": "nParcelID",
+    "owner": "vcPayerLas",
+    "acres": "ACRES"
+  },
+  "notes": "Brown County SD GIS data view (BCSDGISdata_view), Parcel Boundaries layer; uploaded 10/27/2025. Rural parcels carry no site address, so address is not mapped. Owner surname in vcPayerLas, first name in vcPayerFir.",
+  "verification": {
+    "verified_at": 1792051607085,
+    "counties": [
+      "46013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

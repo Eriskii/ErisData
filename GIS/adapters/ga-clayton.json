@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-clayton",
+  "publisher": "Clayton County GIS (Tax Assessor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.claytoncountyga.gov/server/rest/services/TaxAssessor/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13063"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME",
+    "address": "SITEADDRES",
+    "land_use": "LANDUSEC",
+    "assessed_value": "ASSESSVAL"
+  },
+  "notes": "Clayton County GA tax parcels, ArcGIS MapServer layer 0; supports geoJSON; acreage field ACERAGE is sparsely populated so not mapped",
+  "verification": {
+    "verified_at": 1792048738418,
+    "counties": [
+      "13063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

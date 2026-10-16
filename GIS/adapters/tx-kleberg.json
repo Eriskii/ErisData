@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-kleberg",
+  "publisher": "Kleberg County Appraisal District (KlebergCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/j94FvPaik4etwHFk/arcgis/rest/services/KlebergCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48273"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Kleberg CAD public web service; parcels layer of appraisal roll. Situs address is sparsely populated so not mapped.",
+  "verification": {
+    "verified_at": 1792051709955,
+    "counties": [
+      "48273"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

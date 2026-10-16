@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mo-shannon",
+  "publisher": "Shannon County, Missouri (ShannonData_gdb, michaelwitt1975 ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Vn2AABxp7qIdWLwq/arcgis/rest/services/ShannonData_gdb/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29203"
+    ]
+  },
+  "fields": {
+    "apn": "parcel",
+    "owner": "ownername",
+    "address": "add1",
+    "acres": "deedacres"
+  },
+  "filter": "Shape__Area > 100",
+  "notes": "Parcel layer from Shannon County GIS data; mailing address in add1. Filter drops zero-area and sliver duplicate fragments.",
+  "verification": {
+    "verified_at": 1792051137021,
+    "counties": [
+      "29203"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

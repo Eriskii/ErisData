@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29061",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services.arcgis.com/mq0BGE5kHpm8mHFz/arcgis/rest/services/Parcels/FeatureServer/0",
+    "http://daviess.integritygis.com/",
+    "https://daviess.missouriassessors.com/index.php",
+    "https://gis.mo.gov/arcgis/rest/services/OA/FMDCrealEstate_StateOwnedParcels/MapServer"
+  ],
+  "note": "Daviess County MO (29061) does not publish a queryable county tax parcel service. The only Daviess-specific ArcGIS parcel layer (GDITAdmin 'Parcels - MO - Daviess County' on services.arcgis.com) returns HTTP 400 'Invalid URL' for its metadata and for every query, including the validator's. The county GIS portal (Midland GIS, daviess.integritygis.com) has no arcgis/rest/services directory (404) and no readable links. The assessor site links only to that portal. The gis.mo.gov state-owned parcels layer covers state property, not county tax parcels. Other sources (Regrid, Acres, Rockford Map, AcreValue) are commercial.",
+  "recorded_at": 1792051005371,
+  "recheck_after": 1807603005371,
+  "model": "claude-haiku-5-5"
+}

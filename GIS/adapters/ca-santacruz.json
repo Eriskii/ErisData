@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-santacruz",
+  "publisher": "Santa Cruz County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sccgis.santacruzcountyca.gov/server/rest/services/gisweb/MapServer/28",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06087"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "OWNNAME",
+    "address": "SITEADD",
+    "land_use": "ASRUSECD"
+  },
+  "notes": "Santa Cruz County GIS public parcels layer (gisweb MapServer layer 28). Assessor parcels; no acreage or assessed value field, use Shape.STArea if needed.",
+  "verification": {
+    "verified_at": 1792048651970,
+    "counties": [
+      "06087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

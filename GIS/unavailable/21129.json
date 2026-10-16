@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21129",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=1179&LayerID=34850&PageTypeID=2&PageID=13187",
+    "https://leecountykypva.com/",
+    "https://kygeonet.ky.gov/",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://www.dynamospatial.com/c/lee-county-ky/parcel-data"
+  ],
+  "note": "Lee County KY parcels are only on the county's qPublic/Schneider viewer (HTTP 403 to automated access, no REST endpoint). The state PVA parcel services on kygisserver and kygeonet cover only Webster, Barren, Caldwell, Nelson, Pendleton, Spencer, Trimble, Wayne, Hardin, not Lee. ArcGIS Hub and Online searches returned no Lee County KY parcel layer. The only Lee County parcel layer found (services2.arcgis.com/LvWGAAhHwbCJ2GMP, Lee_County_Parcels) is Lee County, Florida (Fort Myers), so it was rejected. Commercial vendors (Dynamo Spatial, Acres) are not public services.",
+  "recorded_at": 1792049930134,
+  "recheck_after": 1807601930134,
+  "model": "claude-haiku-5-5"
+}

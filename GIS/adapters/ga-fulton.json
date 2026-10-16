@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-fulton",
+  "publisher": "Fulton County GIS (Board of Assessors)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismaps.fultoncountyga.gov/arcgispub/rest/services/OpenData/Tax_Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13121"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "Owner",
+    "address": "Address",
+    "acres": "LandAcres",
+    "land_use": "LUCode"
+  },
+  "notes": "Public OpenData tax parcel layer, Fulton County GA; maxRecordCount 2000",
+  "verification": {
+    "verified_at": 1792045168956,
+    "counties": [
+      "13121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

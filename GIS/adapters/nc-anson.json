@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-anson",
+  "publisher": "Anson County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ansoncountygis.com/arcgis/rest/services/WebApp2026/MapServer/10",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37007"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "NAME1",
+    "address": "SITUSADDRESS",
+    "acres": "ASSESSEDACREAGE",
+    "assessed_value": "CURTOTTOT"
+  },
+  "notes": "Anson County GIS parcel layer from WebApp2026 MapServer; about 19,159 features; no license stated",
+  "verification": {
+    "verified_at": 1792051352213,
+    "counties": [
+      "37007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

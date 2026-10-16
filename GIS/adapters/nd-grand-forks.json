@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nd-grand-forks",
+  "publisher": "North Dakota GIS Hub / State Parcel Program",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/GOcSXpzwBHyk2nog/arcgis/rest/services/NDGISHUB_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38035"
+    ]
+  },
+  "fields": {
+    "apn": "GISID",
+    "acres": "CalculatedAcres"
+  },
+  "filter": "CountyFIPS = '38035' AND GISID <> 'road'",
+  "notes": "State parcel program layer, Grand Forks subset. Excludes non-parcel road right-of-way polygons (GISID = road). No owner/address attributes in state schema.",
+  "verification": {
+    "verified_at": 1792052686010,
+    "counties": [
+      "38035"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

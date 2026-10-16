@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "or-malheur",
+  "publisher": "Malheur County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/ZfBm5CKxbEBYLP3J/arcgis/rest/services/County_GIS_Portal_WFL1/FeatureServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41045"
+    ]
+  },
+  "fields": {
+    "apn": "MapTaxlot",
+    "owner": "OWNERSNAME",
+    "address": "SITUSADD",
+    "acres": "TOTACRE",
+    "land_use": "ZONING",
+    "assessed_value": "TAXES"
+  },
+  "filter": "TOTACRE < 2000",
+  "notes": "Malheur County GIS portal, tax lot layer (TL Jun2026). Lots over 2000 acres excluded: their polygons are malformed.",
+  "verification": {
+    "verified_at": 1792051527799,
+    "counties": [
+      "41045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

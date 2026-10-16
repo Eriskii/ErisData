@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72037",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.arcgis.com/sharing/rest/content/items/177a03ea0b31411cafe5596fe710790d/data",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/MapServer/0"
+  ],
+  "note": "CRIM publishes the Puerto Rico cadastral parcel layer (Parcelas / Parcelario), but every endpoint was unreachable or stopped during the search: sigejp.pr.gov returns 'Service crim/crim_parcelas not started' (HTTP 500); sige.pr.gov and www.satasgis.crimpr.net fail to connect (also from the validator). The satasgis http path returns 404. Ceiba-named ArcGIS services found (CEIBA_parcels_shp, CEIBA_parcels2) are Philadelphia data. Reachable Ceiba-containing layers (services2 QwVReOib6QNUWA6n Parcelas_para_CRIM, 95 features island-wide; Parcels, 35 features) are small project subsets, not the county's tax parcels, so none was submitted. Reason is a judgment call: the county's parcels exist on CRIM servers that are down, so this may be temporary and the county could be re-run later.",
+  "recorded_at": 1792053406576,
+  "recheck_after": 1807605406576,
+  "model": "claude-haiku-5-5"
+}

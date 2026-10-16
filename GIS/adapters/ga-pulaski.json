@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-pulaski",
+  "publisher": "SGRC (Hawkinsville-Pulaski zoning/parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/ArcGIS/rest/services/Hawkinsville_Pulaski_Zoning_Classifications/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13235"
+    ]
+  },
+  "fields": {
+    "apn": "PAR_ID",
+    "owner": "OwnerName",
+    "address": "Address",
+    "acres": "CALCACRES",
+    "land_use": "ZoningClass"
+  },
+  "notes": "Parcel polygons with zoning class, county-wide (~6872)",
+  "verification": {
+    "verified_at": 1792049014501,
+    "counties": [
+      "13235"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

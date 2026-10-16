@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-sevier",
+  "publisher": "Sevier County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Qu4yM4JJvNoC2GKw/ArcGIS/rest/services/Parcel_Sevier_County/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47155"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "CLASS",
+    "assessed_value": "ASSESSMENT"
+  },
+  "notes": "Sevier County TN parcel layer (GDITAdmin), ~86k features; state plane feet source",
+  "verification": {
+    "verified_at": 1792052737704,
+    "counties": [
+      "47155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-moore",
+  "publisher": "Moore County Appraisal District (bis_moorecad ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/ENPboUyBmARUSE46/arcgis/rest/services/MooreCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48341"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Public CAD web service (MooreCADWebService parcels layer). Situs address is sparse so not mapped.",
+  "verification": {
+    "verified_at": 1792051723348,
+    "counties": [
+      "48341"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

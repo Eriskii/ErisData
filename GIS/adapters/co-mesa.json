@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "co-mesa",
+  "publisher": "Mesa County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mcgis.mesacounty.us/arcgis/rest/services/maps/Open_Data/FeatureServer/55",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08077"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "owner": "OWNER",
+    "acres": "Acres",
+    "land_use": "LNDUSE",
+    "assessed_value": "TOTVALCUR"
+  },
+  "filter": "Acres < 50",
+  "notes": "Mesa County assessor tax parcels; limited to parcels under 50 acres because larger rural polygons fail geometry validity",
+  "verification": {
+    "verified_at": 1792048758659,
+    "counties": [
+      "08077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

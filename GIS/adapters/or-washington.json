@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "or-washington",
+  "publisher": "Washington County GIS (Oregon)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gispub.co.washington.or.us/server/rest/services/Urban_Services_Plan_Framework/Urban_Services_Framework/FeatureServer/151",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41067"
+    ]
+  },
+  "fields": {
+    "apn": "TLID",
+    "owner": "OWNERNAME",
+    "address": "SITEADDR",
+    "acres": "A_T_ACRES",
+    "land_use": "PROP_CODE",
+    "assessed_value": "TOTALVAL"
+  },
+  "notes": "Washington County OR tax lots from Urban Services Framework FeatureServer, assessor attributes joined to geometry. Source requests EPSG:3857 geoJSON. Access terms: email GIS support for errors.",
+  "verification": {
+    "verified_at": 1792051506449,
+    "counties": [
+      "41067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

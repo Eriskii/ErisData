@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-hanson",
+  "publisher": "Hanson County GIS (via District III)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/HANSON_COUNTY_WEB_LAYERS/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46061"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "owner": "DEEDHOLDER",
+    "acres": "DEEDED_ACRE"
+  },
+  "notes": "Layer from Hanson County web map service on District III host; PARCEL sublayer of HANSON_COUNTY_WEB_LAYERS. Site address mostly blank in source, so not mapped. No land use or assessed value fields published here.",
+  "verification": {
+    "verified_at": 1792051671047,
+    "counties": [
+      "46061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

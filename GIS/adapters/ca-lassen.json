@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-lassen",
+  "publisher": "Lassen County GIS (via ArcGIS Hub, California Parcel Update)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/q3Zg9ERurv23iysr/arcgis/rest/services/Lassen_Parcel_Final_Schema1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06035"
+    ]
+  },
+  "fields": {
+    "address": "FULL_ADD",
+    "acres": "AREA_AC"
+  },
+  "filter": "FULL_ADD IS NOT NULL AND AREA_AC < 100",
+  "notes": "Public ArcGIS Hub layer, about 47,354 parcels, 2016 assessor data enriched with hazard layers (last updated 2023). APN, owner and land use are blank in the source; only parcels with a situs address and under 100 acres are served.",
+  "verification": {
+    "verified_at": 1792048639774,
+    "counties": [
+      "06035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

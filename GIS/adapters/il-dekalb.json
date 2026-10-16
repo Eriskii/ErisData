@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-dekalb",
+  "publisher": "DeKalb County, Illinois (GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/hEXJrPwm89CLXBYe/arcgis/rest/services/DeKalbIL_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17037"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_Number",
+    "owner": "Owner",
+    "address": "SiteAddress",
+    "acres": "gross_current_acres",
+    "land_use": "tax_code",
+    "assessed_value": "net_taxable_value"
+  },
+  "notes": "Layer found via third-party DeKalb parcel index; verify publisher. 45k features.",
+  "verification": {
+    "verified_at": 1792048862970,
+    "counties": [
+      "17037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

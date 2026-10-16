@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-cook",
+  "publisher": "Cook County MN GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/L3KwVADPEG6iD24f/arcgis/rest/services/Tax_Parcel_Layer_(Current)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27031"
+    ]
+  },
+  "fields": {
+    "apn": "COUNTY_PIN",
+    "owner": "OWNER_NAME",
+    "acres": "ACRES_POLY",
+    "land_use": "USECLASS1",
+    "assessed_value": "EMV_TOTAL"
+  },
+  "notes": "Cook County MN open data Tax Parcel Layer (Current); public access; data last updated March 2023 per hub page. Street address split into ANUMBER/ST_NAME parts and sparsely filled, so not mapped.",
+  "verification": {
+    "verified_at": 1792050886928,
+    "counties": [
+      "27031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

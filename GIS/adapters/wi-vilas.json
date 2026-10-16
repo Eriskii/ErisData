@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wi-vilas",
+  "publisher": "Vilas County Land Information Office",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.vilascountywi.gov/vilasgis/rest/services/V4/OwnerTaxParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55125"
+    ]
+  },
+  "fields": {
+    "apn": "pin",
+    "owner": "NameFull",
+    "acres": "gisacre",
+    "land_use": "category"
+  },
+  "notes": "Vilas County GIS server; tax parcel polygons with owner info. Site address fields are empty in this layer, so address is not mapped. No assessed value field published.",
+  "verification": {
+    "verified_at": 1792045241897,
+    "counties": [
+      "55125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

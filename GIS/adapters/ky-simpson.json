@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ky-simpson",
+  "publisher": "Simpson County PVA (Kentucky)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/P3u2F80lQaN3sLkC/arcgis/rest/services/Public_Access_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21213"
+    ]
+  },
+  "fields": {
+    "apn": "PIDN",
+    "owner": "Name",
+    "address": "Property_L",
+    "acres": "Acres"
+  },
+  "notes": "Simpson County PVA public access parcels (2026 layer); view-only ArcGIS service",
+  "verification": {
+    "verified_at": 1792049822503,
+    "counties": [
+      "21213"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

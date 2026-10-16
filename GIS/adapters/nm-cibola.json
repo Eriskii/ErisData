@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nm-cibola",
+  "publisher": "Cibola County, NM (hosted by Map_1_2_WFL1 on ArcGIS Online, parcel data as of 2022-11-18)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/EXpqByQTAWSD3ysq/arcgis/rest/services/Map_1_2_WFL1/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35006"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "land_use": "CLASSDSCRP",
+    "assessed_value": "CNTASSDVAL"
+  },
+  "filter": "OWNERNME1 <> ' '",
+  "notes": "Parcel data as of 2022-11-18; no acreage field; Web Mercator layer. Filtered to parcels with an owner name; site address is mostly blank in this layer, so not mapped.",
+  "verification": {
+    "verified_at": 1792051565341,
+    "counties": [
+      "35006"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

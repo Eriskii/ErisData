@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "26001",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.alconacountymi.com/",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=1164&LayerID=31546&PageTypeID=2&PageID=12762",
+    "https://services2.arcgis.com/S0RKHjQgTe6cv2os/arcgis/rest/services/Parcels_Alcona_Twp/FeatureServer/1"
+  ],
+  "note": "Alcona County (MI, 26001) publishes parcels only through its Beacon/Schneider viewer, a proprietary web app (bot-check HTTP 403 on fetch) with no public ArcGIS REST parcel service. The only public ArcGIS parcel layer found (Parcels_Alcona_Twp, 2,972 features, third-party owned) covers Alcona Township only and returns zero parcels for the validation area around -83.58348,44.68426. Other sources are paid vendor downloads (Regrid, Dynamo, Reportall, MappingSolutionsGIS).",
+  "recorded_at": 1792049949977,
+  "recheck_after": 1807601949977,
+  "model": "claude-haiku-5-5"
+}

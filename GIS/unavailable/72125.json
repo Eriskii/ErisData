@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72125",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0 (CRIM Parcelario 2018: 'Service crim/crim_parcelas/MapServer not started'; crim folder listing now empty: https://sigejp.pr.gov/server/rest/services/crim?f=json)",
+    "https://www.arcgis.com/sharing/rest/content/items/177a03ea0b31411cafe5596fe710790d/data?f=json (CRIM parcel layer www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/FeatureServer/0 returns 404; ParcelasEtiquetas and Tasaciones endpoints likewise 404 or unreachable)",
+    "https://www.arcgis.com/home/item.html?id=acf043a178254fcdad6708be3e8ab51c (item marked no longer available, points to crimpr.net)",
+    "https://gis.pr.gov/Pages/wfs.aspx and http://geoserver2.pr.gov/geoserver/pr_geodata/wfs GetCapabilities: no parcel feature type (only 1995/1998 CRIM grids)"
+  ],
+  "note": "San Germán (72125) parcels are published only by CRIM Catastro Digital. Every public CRIM parcel endpoint found is down: sigejp crim_parcelas stopped, satasgis Mapas services 404, sige.pr.gov does not resolve. No municipal parcel service found. Commercial sources (Regrid, landrecords, reportallusa) are licensed, not public services, so not used.",
+  "recorded_at": 1792052477172,
+  "recheck_after": 1807604477172,
+  "model": "claude-haiku-5-5"
+}

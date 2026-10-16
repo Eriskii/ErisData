@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-telfair",
+  "publisher": "Telfair County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/ISpzx3B5ZsVA6e1Z/arcgis/rest/services/Telfair_2025_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13271"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Owner",
+    "acres": "Acres",
+    "land_use": "Class"
+  },
+  "notes": "Telfair County GA parcels via ArcGIS Online webmap service (Telfair_Parcels_Webmap); 8871 features. Address fields are mostly blank so not mapped.",
+  "verification": {
+    "verified_at": 1792048834977,
+    "counties": [
+      "13271"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

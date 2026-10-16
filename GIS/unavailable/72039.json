@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "72039",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://www.arcgis.com/home/item.html?id=acf043a178254fcdad6708be3e8ab51c"
+  ],
+  "note": "CRIM's statewide parcel service (sigejp.pr.gov crim_parcelas) returns 'Service not started'; satasgis.crimpr.net is unreachable. The only other copy (Opadu CRIM_Catastros_Munic_USPS) covers just the north edge of Ciales and fails in-county checks.",
+  "recorded_at": 1792052218105,
+  "recheck_after": 1807604218105,
+  "model": "claude-sonnet-5-5"
+}

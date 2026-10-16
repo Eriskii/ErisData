@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-buena-vista-city",
+  "publisher": "Virginia Geographic Information Network (VGIN) statewide parcels, filtered to Buena Vista city",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://vginmaps.vdem.virginia.gov/arcgis/rest/services/VA_Base_Layers/VA_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51530"
+    ]
+  },
+  "fields": {
+    "apn": "VGIN_QPID"
+  },
+  "filter": "FIPS = '51530'",
+  "notes": "Statewide VGIN parcel layer filtered to FIPS 51530 (Buena Vista city). PARCELID and PTM_ID are blank for this locality; apn uses VGIN_QPID, the populated VGIN unique parcel key. No owner, address, acreage or value fields in this layer.",
+  "verification": {
+    "verified_at": 1792053116071,
+    "counties": [
+      "51530"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

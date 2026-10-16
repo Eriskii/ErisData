@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "45027",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=795&LayerID=11833&PageTypeID=1&PageID=5731",
+    "https://clarendonsc.wthgis.com/",
+    "https://smpesri.scdot.org/arcgis/rest/services/GISMapping/SC_Parcels/MapServer/13",
+    "https://arcweb.dnr.sc.gov/server/rest/services/Hosted/SC_County_Parcel_Viewers/FeatureServer/0"
+  ],
+  "note": "Clarendon County publishes parcels only through viewers: qPublic (Schneider, Cloudflare-blocked, no public REST) and clarendonsc.wthgis.com (no ArcGIS REST root; /arcgis/rest/services returns 404). The only parcel polygon service found, SCDOT SC_Parcels MapServer layer 13 'Parcels - SC - Clarendon County', returns 'Token Required'. No public queryable parcel service or file was found.",
+  "recorded_at": 1792051641126,
+  "recheck_after": 1807603641126,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-wichita",
+  "publisher": "Wichita Central Appraisal District (WCAD) parcels, propaccess.wadtx.com",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://propaccess.wadtx.com/arcgis/rest/services/WCAD/Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48485"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id",
+    "owner": "NAME",
+    "address": "addr_line2",
+    "acres": "LEGAL_ACRES",
+    "land_use": "STATE_CD"
+  },
+  "notes": "Wichita CAD own ArcGIS service; whole layer is Wichita County. address is the owner mailing line (addr_line2), used because situs fields are sparse",
+  "verification": {
+    "verified_at": 1792051939712,
+    "counties": [
+      "48485"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

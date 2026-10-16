@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wa-cowlitz",
+  "publisher": "Cowlitz County Assessor (GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cowlitzwa.gov/ccserver/rest/services/Assessor/Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53015"
+    ]
+  },
+  "fields": {
+    "apn": "PARCNO",
+    "owner": "DEED_HOLDER_NAME",
+    "acres": "ACRES_TOTAL",
+    "land_use": "USE_CODE",
+    "assessed_value": "LAND_ASSESSED_VALUE"
+  },
+  "notes": "Cowlitz County assessor parcels MapServer, EPSG 2927; runtime requests WGS84. Situs address fields are often empty, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792053111462,
+    "counties": [
+      "53015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

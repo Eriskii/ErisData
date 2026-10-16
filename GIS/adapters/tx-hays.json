@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-hays",
+  "publisher": "Hays County Appraisal District (via GBRA/mdowning 2023 parcel service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Q6vsXnxTnYcWB7qg/arcgis/rest/services/HAYS_PARCELS/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48209"
+    ]
+  },
+  "fields": {
+    "apn": "CADID",
+    "owner": "OwnerName",
+    "address": "Address1",
+    "acres": "GIS_ACREAG"
+  },
+  "notes": "Hays CAD parcel boundaries, 2023 vintage, via BIS Consulting data; Address1 is owner mailing address",
+  "verification": {
+    "verified_at": 1792051711042,
+    "counties": [
+      "48209"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

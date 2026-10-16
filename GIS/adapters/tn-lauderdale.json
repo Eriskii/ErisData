@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-lauderdale",
+  "publisher": "Lauderdale County GIS (via TN County Parcel Map, HNTB-hosted)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/41",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47097"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_49_PARCELID",
+    "owner": "Assessment_Data_49_OWNER",
+    "address": "Assessment_Data_49_ADDRESS",
+    "acres": "Parcels_CALC_ACRE",
+    "land_use": "Assessment_Data_49_LANDUSE",
+    "assessed_value": "Assessment_Data_49_APPRAISAL"
+  },
+  "notes": "Lauderdale County TN parcels joined with assessment data via TN County Parcel Map (HNTB-hosted)",
+  "verification": {
+    "verified_at": 1792052208182,
+    "counties": [
+      "47097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

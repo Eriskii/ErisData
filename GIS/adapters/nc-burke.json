@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-burke",
+  "publisher": "Burke County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.burkenc.org/arcgis/rest/services/BurkeMapMetricsSP/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37023"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "CALCULATED_ACREAGE"
+  },
+  "notes": "Burke County NC parcel polygons from County MapMetrics service (layer 0 Parcel Polygons). PIN is parcel number; REID is real estate ID. No owner or address fields in this layer.",
+  "verification": {
+    "verified_at": 1792051344040,
+    "counties": [
+      "37023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29149",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.gismaps.org/mo-oregon-county/",
+    "https://www.gis-portal.org/mo-oregon-county/",
+    "https://landrecords.us/documentation/coverage/counties/29-149-oregon",
+    "https://www.acrevalue.com/map/MO/Oregon/"
+  ],
+  "note": "Searched ArcGIS Hub/Online for Oregon County MO parcels (no county layer found), searched the web for the county assessor/GIS site, and checked Missouri state sources (MSDIS, gis.mo.gov). Only commercial viewers (Acres, AcreValue, Regrid tiles, landrecords, dynamospatial) show Oregon County parcels; none is a public queryable county service. The Regrid tile service has no query endpoint. The neighbouring Howell County service does not cover Oregon County.",
+  "recorded_at": 1792051093674,
+  "recheck_after": 1807603093674,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-highlands",
+  "publisher": "Highlands County Property Appraiser (PAO Tax Parcel layer, Highlands County GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.highlandsfl.gov/server/rest/services/Layers/PAO_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12055"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "Owner_Name_1",
+    "address": "SITEADDRESS",
+    "acres": "Calculated_Acres",
+    "land_use": "DOR_Code",
+    "assessed_value": "Assessed_Value"
+  },
+  "notes": "Highlands County Property Appraiser tax parcel polygons, public ArcGIS service",
+  "verification": {
+    "verified_at": 1792049025540,
+    "counties": [
+      "12055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

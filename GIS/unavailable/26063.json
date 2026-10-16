@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "26063",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.co.huron.mi.us/gis",
+    "https://www.co.huron.mi.us/amalgam-fetchgis",
+    "https://app.fetchgis.com/feeServiceHelp.php",
+    "https://www.michigan.gov/dtmb/services/maps/mgf-data-hub/boundaries-and-mgf/tax-parcels"
+  ],
+  "note": "Huron County MI (26063) publishes parcels only through the FetchGIS web viewer (app.fetchgis.com), a fee-based per-item service (record details, parcel PDFs, CSV exports at about \\$3 per item) with no public ArcGIS REST, WFS, or bulk download. County GIS page lists no REST endpoints. ArcGIS Hub/Online searches for Huron County and Michigan statewide parcels returned no county-run parcel feature service. Remaining parcel sources are commercial vendors (Regrid, Dynamo, Mapping Solutions, ReportAll, Acres), which do not count as county publication.",
+  "recorded_at": 1792049970944,
+  "recheck_after": 1807601970944,
+  "model": "claude-haiku-5-5"
+}

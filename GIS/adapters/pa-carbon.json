@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-carbon",
+  "publisher": "Carbon County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.carboncounty.com/arcgis/rest/services/Parcels_Universal/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42025"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Owner",
+    "address": "Location",
+    "acres": "CALCAC",
+    "land_use": "LandUseCode",
+    "assessed_value": "LandAsmt"
+  },
+  "notes": "Carbon County PA tax parcels (Parcels Universal layer). Source spatial reference is PA State Plane feet; geojson output is WGS84. Land use is a numeric code.",
+  "verification": {
+    "verified_at": 1792051533213,
+    "counties": [
+      "42025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

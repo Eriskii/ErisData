@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ne-washington",
+  "publisher": "Nebraska OCIO / Washington County Assessor (via NebraskaMap Statewide Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ne.gov/Enterprise/rest/services/StatewideParcelsExternal/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31177"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "address": "Situs_Address",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '177'",
+  "notes": "Statewide parcel layer filtered to County_ID 177 (Washington County). Source is state aggregate of county assessor data; no owner field in this layer.",
+  "verification": {
+    "verified_at": 1792051322178,
+    "counties": [
+      "31177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

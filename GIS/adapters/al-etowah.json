@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-etowah",
+  "publisher": "Etowah County, AL (Revenue Dept / KCS GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://web3.kcsgis.com/kcsgis/rest/services/Etowah/Etowah_Public_ISV/MapServer/91",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01055"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "Owner",
+    "address": "SitusAddName",
+    "acres": "CalcAcres",
+    "assessed_value": "TAV"
+  },
+  "notes": "Etowah County Revenue parcel layer served by KCS GIS; public MapServer layer 91. Address is street name only (SitusAddNumber holds the house number).",
+  "verification": {
+    "verified_at": 1792048338271,
+    "counties": [
+      "01055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

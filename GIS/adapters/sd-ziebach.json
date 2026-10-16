@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-ziebach",
+  "publisher": "Ziebach County, SD (via District III GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/ZIEBACH_WEB_LAYERS/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46137"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "DEED_HOLDER",
+    "acres": "TOTAL_ACRES",
+    "assessed_value": "VALUES_VALUETOTALNONAG"
+  },
+  "notes": "District III ArcGIS Server, Ziebach County web layers; PARCEL_NUMBER_PIN is the state parcel number; situs address and land use fields are mostly empty so not mapped",
+  "verification": {
+    "verified_at": 1792051725795,
+    "counties": [
+      "46137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

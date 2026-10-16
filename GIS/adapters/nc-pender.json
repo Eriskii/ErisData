@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-pender",
+  "publisher": "Pender County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pendercountync.gov/arcgis/rest/services/Layers/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37141"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "NAME",
+    "address": "PROPERTY_ADDRESS",
+    "acres": "CALCACRES",
+    "land_use": "PCL_CLASS"
+  },
+  "notes": "Pender County GIS parcel layer from county server; public ArcGIS REST. No assessed value field in this layer.",
+  "verification": {
+    "verified_at": 1792051422255,
+    "counties": [
+      "37141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

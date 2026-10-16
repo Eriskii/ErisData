@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21207",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=RussellCountyKY&Layer=Parcels&PageType=Search",
+    "https://beacon.schneidercorp.com/?site=RussellCountyKY",
+    "https://russellpva.com/",
+    "https://assessorsearch.com/property-records/kentucky/russell-county"
+  ],
+  "note": "Russell County KY PVA publishes parcels only through the Schneider qPublic/Beacon viewer; no public ArcGIS REST service or parcel file found. qPublic, Beacon and russellpva.com return bot-check 403 pages to automated access. ArcGIS Hub/Online, KY state GIS (kygisserver, KyGovMaps) and the KYTC PVA layer had no Russell County parcel service. Only commercial parcel files (Regrid, Dynamo, Mapping Solutions, Acres) exist.",
+  "recorded_at": 1792049901071,
+  "recheck_after": 1807601901071,
+  "model": "claude-haiku-5-5"
+}

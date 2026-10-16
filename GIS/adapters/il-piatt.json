@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-piatt",
+  "publisher": "Piatt County GIS (Platte-River hosted ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/OjHfU34Et3kVRT5y/arcgis/rest/services/IL_Piatt_County_Parcels_gdb/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17147"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNER",
+    "acres": "CALC_ACREA",
+    "land_use": "LAND_USE_C",
+    "assessed_value": "MKT_VAL_TO"
+  },
+  "notes": "Piatt County tax parcels hosted by Platte-River for Piatt County IL; 4501 features; no filter. Situs address (SITUS) is blank for most parcels, so it is not mapped.",
+  "verification": {
+    "verified_at": 1792049655874,
+    "counties": [
+      "17147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

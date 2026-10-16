@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-jefferson",
+  "publisher": "Jefferson Parish GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://eweb.jeffparish.net/arcgis/rest/services/ENGINEERING/Utilities/FeatureServer/32",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22051"
+    ]
+  },
+  "fields": {
+    "apn": "SITE_ID",
+    "acres": "CADASTRE.PARCEL_PLG.AREA",
+    "land_use": "PRIMARY_ZONING"
+  },
+  "notes": "Parish parcel layer from ENGINEERING/Utilities FeatureServer; no owner field exposed; not a property survey",
+  "verification": {
+    "verified_at": 1792049838638,
+    "counties": [
+      "22051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

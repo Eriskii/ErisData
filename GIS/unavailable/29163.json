@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "29163",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://pike.missouriassessors.com/",
+    "https://maps.camavision.com/pikemo",
+    "https://pikecountymo.net/assessor",
+    "https://www.dynamospatial.com/c/pike-county-mo/parcel-data",
+    "https://app.regrid.com/store/us/mo/pike"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Pike County MO parcels. The county assessor (Vanguard Appraisals) GIS viewer at maps.camavision.com/pikemo is a web client with no public ArcGIS REST endpoint found (probe of maps.camavision.com/arcgis/rest/services returned 404). County site links only to that viewer. Parcel polygons are only offered as paid vendor downloads (Dynamo Spatial, Rockford Map, Regrid store). The Regrid nationwide tile service on ArcGIS Online has no queryable metadata and is commercial. No official queryable parcel service for Pike County MO was found.",
+  "recorded_at": 1792051094271,
+  "recheck_after": 1807603094271,
+  "model": "claude-haiku-5-5"
+}

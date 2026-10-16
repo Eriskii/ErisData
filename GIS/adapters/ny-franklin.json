@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ny-franklin",
+  "publisher": "Franklin County NY / Development Authority of the North Country (DANC) GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/Parcel_Model/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36033"
+    ]
+  },
+  "fields": {
+    "apn": "SBL",
+    "owner": "PRIMARY_OW",
+    "address": "PARCEL_ADD",
+    "acres": "CALC_ACRES",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "TOTAL_AV"
+  },
+  "filter": "COUNTY = 'FRANKLIN'",
+  "notes": "Parcel model served by DANC (dancgis.org) for Franklin County NY; filtered on COUNTY field",
+  "verification": {
+    "verified_at": 1792051465578,
+    "counties": [
+      "36033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

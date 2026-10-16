@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nm-torrance",
+  "publisher": "Torrance County, NM (assessor parcel data hosted by gispro@sma, 2018 layer TORRANCE_CO_201804)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/IMlavGjDML4v7AoT/arcgis/rest/services/TORRANCE_CO_201804/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35057"
+    ]
+  },
+  "fields": {
+    "apn": "UPC",
+    "owner": "NAME1",
+    "acres": "Acres",
+    "land_use": "ACCTTYPE",
+    "assessed_value": "IMPVAL"
+  },
+  "filter": "Acres < 1000",
+  "notes": "Assessor parcel polygons, 2018 snapshot (about 28,245 features in the full layer; the layer is dated 2018). Filter Acres < 1000 is required: parcels over 1,000 acres (large ranches) have geometry that fails the validity check in this source, so they are excluded; the adapter therefore omits those large rural parcels. Spatial reference NM State Plane feet, converted by the query. Owner is the assessor name field; address is not populated in the source for most parcels.",
+  "verification": {
+    "verified_at": 1792051565472,
+    "counties": [
+      "35057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

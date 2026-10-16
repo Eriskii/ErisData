@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-stevens",
+  "publisher": "Stevens County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/7iPhaYyq6PkRoVhV/arcgis/rest/services/July_2026_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27149"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Name",
+    "address": "Address",
+    "acres": "Deed_Acres"
+  },
+  "notes": "Stevens County GIS parcel dataset (hosted July 2026); for general/visual purposes per publisher",
+  "verification": {
+    "verified_at": 1792050903458,
+    "counties": [
+      "27149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

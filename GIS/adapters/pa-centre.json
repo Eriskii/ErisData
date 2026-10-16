@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-centre",
+  "publisher": "Centre County GIS / PASDA",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/CentreCounty/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42027"
+    ]
+  },
+  "fields": {
+    "apn": "TAXIDNUM",
+    "acres": "MAP_ACRES"
+  },
+  "notes": "Centre County Parcels 202501 via PASDA. No owner, address or assessment fields populated in this layer. Coordinates EPSG:4269.",
+  "verification": {
+    "verified_at": 1792051523580,
+    "counties": [
+      "42027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

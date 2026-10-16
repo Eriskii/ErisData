@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "13037",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=703&LayerID=11447&PageTypeID=1",
+    "https://www.qpublic.net/ga/calhoun/",
+    "https://gis.calhouncounty.org/Parcelviewer2/",
+    "https://gis.equatorstudios.com/georgia_calhoun/",
+    "https://rockfordmap.com/maps/georgia-calhoun-county/"
+  ],
+  "note": "Calhoun County GA (FIPS 13037) publishes parcels only through the qPublic (Schneider) viewer, behind a Cloudflare challenge with no public ArcGIS REST endpoint. The county ArcGIS hosts gis.calhouncounty.org and gis1.calhouncounty.org serve Calhoun County, ALABAMA (Parcel_Viewer_IPV, ParcelOrthos), not Georgia. Georgia Calhoun parcel files are sold by commercial vendors (Rockford Map, Equator Studios). ArcGIS Hub/Online searches found no Calhoun GA parcel service.",
+  "recorded_at": 1792048815371,
+  "recheck_after": 1807600815371,
+  "model": "claude-haiku-5-5"
+}

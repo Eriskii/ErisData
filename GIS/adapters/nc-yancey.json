@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-yancey",
+  "publisher": "Yancey County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yanceycountync.org/server/rest/services/OperationalLayers2025/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37199"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER",
+    "address": "PROPERTY_LOCATION",
+    "acres": "CALCULATED_ACREAGE",
+    "land_use": "CLASS",
+    "assessed_value": "CURRENT_TOTAL_VALUE"
+  },
+  "notes": "Yancey County NC official TaxParcels layer (OperationalLayers2025 MapServer/0); public, no token; 17k parcels",
+  "verification": {
+    "verified_at": 1792051393504,
+    "counties": [
+      "37199"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

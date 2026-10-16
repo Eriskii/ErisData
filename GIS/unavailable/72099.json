@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72099",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim",
+    "https://catastro.crimpr.net/"
+  ],
+  "note": "CRIM Parcelario (Catastro, all PR parcels incl. Moca) is the only parcel polygon service found; every endpoint (MapServer, FeatureServer, crim_feb_2025) returns 'Service crim/crim_parcelas/MapServer not started' (HTTP 500), and sige.pr.gov is unreachable. No other Moca parcel polygon service found in Hub/AGOL, CRIM or services2/services5 catalogs; Moca parcels are only commercial (Regrid, landrecords).",
+  "recorded_at": 1792052550468,
+  "recheck_after": 1807604550468,
+  "model": "claude-haiku-5-5"
+}

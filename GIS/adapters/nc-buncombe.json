@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-buncombe",
+  "publisher": "Buncombe County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.buncombecounty.org/arcgis/rest/services/opendata/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37021"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Owner",
+    "address": "Address",
+    "acres": "Acreage",
+    "land_use": "Class",
+    "assessed_value": "AppraisedValue"
+  },
+  "notes": "Buncombe County open data parcel layer (opendata/MapServer/1); maxRecordCount 2000, requested 1000",
+  "verification": {
+    "verified_at": 1792051338581,
+    "counties": [
+      "37021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

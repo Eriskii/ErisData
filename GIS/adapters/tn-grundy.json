@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-grundy",
+  "publisher": "Grundy County GIS (via TN County Parcel Map, kross@HNTB)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/56",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47061"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_31_PARCELID",
+    "owner": "Assessment_Data_31_OWNER",
+    "address": "Assessment_Data_31_ADDRESS",
+    "acres": "Parcels_CALC_ACRE",
+    "land_use": "Assessment_Data_31_CLASS"
+  },
+  "notes": "Grundy County parcel polygons joined to assessment data on GISLINK; source is a community-hosted copy of the TN Comptroller parcel data",
+  "verification": {
+    "verified_at": 1792052040138,
+    "counties": [
+      "47061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

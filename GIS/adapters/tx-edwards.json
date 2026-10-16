@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-edwards",
+  "publisher": "Edwards Central Appraisal District (EdwardsCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VtGdG6zirc9oUs4j/arcgis/rest/services/EdwardsCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48137"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Edwards CAD public ArcGIS web service; ~9,694 parcels. Situs address is sparse in source (only ~1/3 of parcels), so address is not mapped; mailing address is in addr_line1/addr_city/zip.",
+  "verification": {
+    "verified_at": 1792051686920,
+    "counties": [
+      "48137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

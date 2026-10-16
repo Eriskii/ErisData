@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ny-clinton",
+  "publisher": "Clinton County NY (via City of Plattsburgh WFL1 hosted layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/krSNOBBGf8rF7cNp/arcgis/rest/services/Plattsburgh_WFL1/FeatureServer/20",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36019"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnumb",
+    "owner": "owner",
+    "address": "address",
+    "acres": "gisacre",
+    "land_use": "usecode",
+    "assessed_value": "parval"
+  },
+  "notes": "Clinton County Tax Parcels layer hosted in Plattsburgh_WFL1 service; no filter needed",
+  "verification": {
+    "verified_at": 1792051390580,
+    "counties": [
+      "36019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

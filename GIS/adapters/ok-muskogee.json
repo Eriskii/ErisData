@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ok-muskogee",
+  "publisher": "Muskogee County, OK (Halff-hosted parcel layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/1oF9XVrVYcFTsAKj/arcgis/rest/services/Muskogee_Parcels_FDP_1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40101"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelId",
+    "owner": "OwnerName",
+    "acres": "Shape__Area",
+    "land_use": "ParcelType",
+    "assessed_value": "AssesValue"
+  },
+  "filter": "CountyFips = '40101'",
+  "notes": "Public ArcGIS feature service; ParcelId is parcel number; Shape__Area in degrees (web mercator source units); site address fields sparse so not mapped",
+  "verification": {
+    "verified_at": 1792051463817,
+    "counties": [
+      "40101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

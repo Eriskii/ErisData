@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-mclennan",
+  "publisher": "City of Waco / McLennan CAD",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wacotx.gov/server/rest/services/Parcel_2024/FeatureServer/48",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48309"
+    ]
+  },
+  "fields": {
+    "apn": "PROP_ID",
+    "owner": "file_as_name",
+    "address": "situs_display",
+    "acres": "POLY_AC",
+    "land_use": "prop_type_cd",
+    "assessed_value": "assessed_val"
+  },
+  "verification": {
+    "verified_at": 1792052841615,
+    "counties": [
+      "48309"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

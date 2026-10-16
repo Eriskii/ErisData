@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-atkinson",
+  "publisher": "Atkinson County Tax Assessor (via sgrcmaps ALMA PropertyInformation service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.sgrcmaps.com/alma/rest/services/Atkinson/PropertyInformation/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13003"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUM",
+    "owner": "LASTNAME",
+    "address": "STREET_NAM",
+    "acres": "TOTALACRES",
+    "land_use": "LAND_TYPE",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Tax parcel polygons from the county assessor ALMA map service linked from the Atkinson County assessor viewer (garc.maps.arcgis.com). Owner name from LASTNAME (FIRSTNAME also present).",
+  "verification": {
+    "verified_at": 1792048725867,
+    "counties": [
+      "13003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

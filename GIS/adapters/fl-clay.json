@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-clay",
+  "publisher": "Clay County GIS (AddressLocator parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/R0MaBWycrb80Pvlu/arcgis/rest/services/AddressLocator/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12019"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "address": "Address"
+  },
+  "notes": "Clay County parcel polygons; no owner field",
+  "verification": {
+    "verified_at": 1792049783700,
+    "counties": [
+      "12019"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

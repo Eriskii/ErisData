@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sd-charles-mix",
+  "publisher": "Charles Mix County GIS (via District III)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/CHARLES_MIX_WEB_LAYERS/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46023"
+    ]
+  },
+  "fields": {
+    "apn": "Parcelid",
+    "owner": "deedhold",
+    "acres": "GrossAcres",
+    "land_use": "Class1",
+    "assessed_value": "A1_TOTAL"
+  },
+  "filter": "Parcelid <> 'RW'",
+  "notes": "Parcel layer from Charles Mix County land information database served by Planning & Development District III. Unattributed right-of-way polygons (Parcelid RW) excluded. Site address is not populated in the source; owner, value and land use are sparse outside attributed parcels.",
+  "verification": {
+    "verified_at": 1792051708551,
+    "counties": [
+      "46023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ne-stanton",
+  "publisher": "Nebraska statewide parcels (gWorks, compiled from county assessor submissions)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis2.gworks.com/arcgis/rest/services/Statewide_NE_MGMT/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31167"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "CURRENT_OWNER_NAME",
+    "acres": "acres",
+    "land_use": "PROPERTY_TYPE",
+    "assessed_value": "TOTAL_ASSESSED_VALUE"
+  },
+  "filter": "COUNTY LIKE '%tanton%'",
+  "notes": "Statewide Nebraska parcel layer filtered to Stanton County by COUNTY field; compiled from county submissions.",
+  "verification": {
+    "verified_at": 1792051321017,
+    "counties": [
+      "31167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-erie",
+  "publisher": "PASDA / Erie County PA",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/ErieCountyParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42049"
+    ]
+  },
+  "fields": {
+    "apn": "TaxPin",
+    "address": "FullStreet"
+  },
+  "notes": "Erie County PA parcels via PASDA (Penn State), 2026-03 release. Owner names are not published in this layer.",
+  "verification": {
+    "verified_at": 1792051525274,
+    "counties": [
+      "42049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

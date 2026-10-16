@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21099",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=HartCountyKY",
+    "https://www.hartpva.com/",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0",
+    "https://maps.itos.uga.edu/arcgis/rest/services/Archway/HartCounty/MapServer",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services"
+  ],
+  "note": "Hart County (21099) publishes its tax parcels only through the Schneider qPublic viewer (not a public queryable service; blocked to automated access). No Hart County PVA parcel service on the Kentucky state server (kygisserver WGS84WM listing has only Webster County PVA parcels). KYTC PVA availability layer lists Hart as 'Without Ownership' (no PVA data shared with the Commonwealth). Hart's only ArcGIS parcel layers (UGA Archway MapServer layers 27-28) are partial industrial/commercial subsets dated 2016. Equator Studios and Regrid are paid third-party products, not county-published.",
+  "recorded_at": 1792049907346,
+  "recheck_after": 1807601907346,
+  "model": "claude-haiku-5-5"
+}

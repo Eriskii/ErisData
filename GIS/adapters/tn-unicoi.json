@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "tn-unicoi",
+  "publisher": "Johnson City GIS (Tax Parcels, Unicoi County records)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.johnsoncitytn.org/arcgis/rest/services/ParcelPublishing/TaxParcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47171"
+    ]
+  },
+  "fields": {
+    "apn": "GISLINK",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "LANDUSE",
+    "assessed_value": "APPRAISAL"
+  },
+  "filter": "COUNTYNAME LIKE '%Unicoi%'",
+  "notes": "Regional layer covering Washington, Carter, Sullivan and Unicoi counties; filtered to Unicoi via COUNTYNAME. apn is GISLINK (PARID is empty for many parcels).",
+  "verification": {
+    "verified_at": 1792052559179,
+    "counties": [
+      "47171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

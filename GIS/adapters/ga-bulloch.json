@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-bulloch",
+  "publisher": "Bulloch County GIS (via Bulloch County GA Atlas, Pond)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/xxKKavhytNgFUeV5/arcgis/rest/services/Bulloch_County_GA_Atlas_WFL1/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13031"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "OWNKEY",
+    "address": "STREET_NAM",
+    "acres": "TOTALACRES",
+    "land_use": "ZONINGCODE",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Parcel polygons from Bulloch County Atlas feature service; maxRecordCount 2000; EPSG 3857 native. Owner name not exposed in this layer (OWNKEY is an owner key). Address split across HOUSE_NO, STDIRECT, STREET_NAM, STTYPE.",
+  "verification": {
+    "verified_at": 1792048732448,
+    "counties": [
+      "13031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-san-saba",
+  "publisher": "San Saba County Appraisal District (via TNRIS statewide land parcels, BIS Consulting)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/FyvlHTnrGrMFAbTq/arcgis/rest/services/SanSabaLandParcels2021/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48411"
+    ]
+  },
+  "fields": {
+    "apn": "PROP_ID",
+    "acres": "GIS_AREA"
+  },
+  "filter": "FIPS = '48411'",
+  "notes": "2021 vintage from TNRIS DataHub statewide parcel program; source CAD vendor BIS Consulting. Owner, situs address, land use and values are blank in this release, so they are not mapped.",
+  "verification": {
+    "verified_at": 1792051776296,
+    "counties": [
+      "48411"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ut-weber",
+  "publisher": "Utah AGRC (UGRC) – Weber County Parcels LIR",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Weber_LIR/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49057"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "address": "PARCEL_ADD",
+    "acres": "PARCEL_ACRES",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "TOTAL_MKT_VALUE"
+  },
+  "notes": "UGRC Land Information Records parcels with Weber County tax roll attributes; CC BY 4.0; snapshot. No owner name in source.",
+  "verification": {
+    "verified_at": 1792052714748,
+    "counties": [
+      "49057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

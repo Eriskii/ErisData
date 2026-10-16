@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-putnam",
+  "publisher": "Putnam County Property Appraiser / Putnam County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YZc1OyqL6jbIOeOv/arcgis/rest/services/Parcels_01062025/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12107"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "address": "SITEADDRESS",
+    "acres": "Shape__Area",
+    "land_use": "USECD",
+    "assessed_value": "CNTASSDVAL"
+  },
+  "notes": "Putnam County GIS parcels, countywide, 97,845 features; Shape__Area is in square feet (projected)",
+  "verification": {
+    "verified_at": 1792049057287,
+    "counties": [
+      "12107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13065",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/",
+    "https://dor.georgia.gov/property-records-online",
+    "https://app.regrid.com/store/us/ga/clinch",
+    "https://regrid.com/feature-service"
+  ],
+  "note": "Clinch County GA parcels are published only through the Schneider qPublic/Beacon web viewer (no public REST endpoint; the viewer returns a Cloudflare challenge to automated access). Regrid's Clinch parcel data is a paid, token-authenticated feature service. Searches of ArcGIS Hub/Online returned no Clinch County parcel service. Regrid nationwide tile MapServer layer is not publicly queryable (404 on query endpoint).",
+  "recorded_at": 1792048796498,
+  "recheck_after": 1807600796498,
+  "model": "claude-haiku-5-5"
+}

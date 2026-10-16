@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "22025",
+  "reason": "login-required",
+  "evidence": [
+    "https://www.efsedge.com/arcgis/rest/services/Catahoula_Parish/Parcels/FeatureServer/1",
+    "https://www.efsedge.com/login/?ReturnUrl=%2Flogin%2Farcgis%2Frest%2Fservices%2FCatahoula_Parish",
+    "https://gis.equatorstudios.com/louisiana_catahoulaparish/"
+  ],
+  "note": "Only ArcGIS service found for Catahoula Parish parcels is Parcels/FeatureServer/1 on efsedge.com (listed on ArcGIS Online as 'Parcels - LA - Catahoula Parish', owner GDITAdmin). Every request to it, including the folder and layer metadata, redirects to the EFS login page, so it is not publicly queryable. Other sources are paid downloads (Regrid, Dynamo Spatial, USLandGrid, Equator) or commercial viewers (Acres, ParcelVision) with no public parcel service. Searches of ArcGIS Hub/Online and the Louisiana assessor portal (qPublic) found no open parish parcel service.",
+  "recorded_at": 1792049889710,
+  "recheck_after": 1807601889710,
+  "model": "claude-haiku-5-5"
+}

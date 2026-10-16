@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-san-benito",
+  "publisher": "San Benito County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/NjMFCzThTMQy3AJa/arcgis/rest/services/ParcelsTyler2/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06069"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "Owner",
+    "address": "Situs1",
+    "acres": "Acres",
+    "land_use": "LandUse1"
+  },
+  "notes": "San Benito County Parcels (Tyler), ArcGIS Hub open data by San Benito County GIS",
+  "verification": {
+    "verified_at": 1792048646913,
+    "counties": [
+      "06069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "26061",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=1388&LayerID=46658&PageTypeID=1&PageID=19530",
+    "https://www.houghtoncounty.net/directory-equalization.php",
+    "https://www.wuppdr.org/gis",
+    "https://colligogis.com/desktop/"
+  ],
+  "note": "Houghton County Equalization publishes parcels only through the Schneider Beacon viewer (proprietary; returned 403 to automated reads) and a Colligo GIS login form. No public ArcGIS REST parcel service or downloadable county parcel file was found in ArcGIS Hub/Online searches or county, WUPPDR or state pages. Commercial parcel vendors (Regrid, Equator, Rockford, Dynamo) were not treated as county sources.",
+  "recorded_at": 1792049974423,
+  "recheck_after": 1807601974423,
+  "model": "claude-haiku-5-5"
+}

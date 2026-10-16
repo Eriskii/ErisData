@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "17095",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gis.knoxcountyil.gov/server/rest/services/Public/Knox_V4/MapServer/1129",
+    "https://www.knoxcountyil.gov/departments/county_gis.php"
+  ],
+  "note": "Knox County's only public parcel layer (Knox_V4 MapServer/1129, 33,239 polygons) has supportsPagination=false; every paged query fails with 'Pagination is not supported' in 4 validations, so it cannot be read by the runtime. The AGOL KnoxV1 copy is not publicly accessible and no free bulk download exists (only paid Regrid/Rockford Map). If the county enables pagination or posts a file, a spec with PARCELID/owner1_name/site_addr/gross_ac/class would work.",
+  "recorded_at": 1792049110036,
+  "recheck_after": 1807601110036,
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "31023",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis3.gworks.com/arcgis/rest/services/Butler_County_NE_Assessor/MapServer/21",
+    "https://gis2.gworks.com/arcgis/rest/services/Butler_County_NE_Assessor/MapServer",
+    "https://butler.gworks.com/",
+    "https://butler-county-geoportal-bucogis.hub.arcgis.com/"
+  ],
+  "note": "Only public Butler County NE parcel service (ArcGIS Online item by GDITAdmin, extent matches county) returns 'Service not found' on gis2 and gis3 gworks hosts and is absent from the gis3 services directory. County parcel viewer butler.gworks.com exposes no REST endpoint (its /arcgis/rest/services returns 404). Hub geoportal API returned no Butler NE datasets. Remaining sources are commercial downloads (Regrid, MappingSolutions, Equatorstudios).",
+  "recorded_at": 1792051332315,
+  "recheck_after": 1807603332315,
+  "model": "claude-haiku-5-5"
+}

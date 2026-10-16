@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "08089",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://oterocounty.colorado.gov/departments/geographic-information-systems-gis",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=OteroCountyCO&Layer=Parcels&PageType=Search",
+    "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0",
+    "https://services6.arcgis.com/1XjIDBVnDQpTiqmr/arcgis/rest/services/Parcels/FeatureServer/1",
+    "https://www.arcgis.com/sharing/rest/content/items/ba4eab844b184f0086307adab6cd10fc?f=json"
+  ],
+  "note": "No public parcel polygon service found for Otero County CO. Statewide Colorado Public Parcels layer has no Otero records (countyName/countyFips queries return 0; no feature at sample point). La Junta city parcels service covers only the city (3,821 parcels; no feature at sample point). The county ArcGIS Experience app is Otero County, NM. County GIS page and qPublic viewer (Schneider) are blocked to automated access and expose no REST endpoint; county GIS page says redistribution requires a separate agreement.",
+  "recorded_at": 1792048808303,
+  "recheck_after": 1807600808303,
+  "model": "claude-haiku-5-5"
+}

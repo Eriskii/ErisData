@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21149",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.mcleancounty.ky.gov/property-valuation-administrator",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=McleanCountyKY&Layer=Parcels&PageType=Search",
+    "https://www.mappingsolutionsgis.com/mclean-county-kentucky-gis-parcel-data/",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=sitemap"
+  ],
+  "note": "McLean County KY (FIPS 21149): no public parcel polygon service or file found. The county PVA publishes parcels only through the qPublic Schneider viewer, which has no public REST endpoint and returned 403 to automated access. Parcel files are sold by vendors (Mapping Solutions, ReportAll) under non-transferable licenses. The county GIS Hub (mcleancounty-mcggis) and mcgis.org are McLean County, Illinois. The state KyGovMaps REST folder has only a Webster County PVA parcel service, none for McLean.",
+  "recorded_at": 1792049913058,
+  "recheck_after": 1807601913058,
+  "model": "claude-haiku-5-5"
+}

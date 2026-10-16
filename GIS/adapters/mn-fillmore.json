@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-fillmore",
+  "publisher": "Fillmore County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.co.fillmore.mn.us/arcgis/rest/services/FillmoreAll/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27045"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNERNAME",
+    "address": "PROPERTYAD",
+    "acres": "Acres",
+    "land_use": "USE_DESC"
+  },
+  "notes": "Fillmore County MN parcels from county ArcGIS server (FillmoreAll MapServer layer 1). Owner mailing fields OWNERADDRE, OWNERCITY, OWNERSTATE, OWNERZIP also available.",
+  "verification": {
+    "verified_at": 1792050900906,
+    "counties": [
+      "27045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

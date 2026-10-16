@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-washington",
+  "publisher": "Washington CAD (BIS Consulting) via ArcGIS WashingtonCADMatixService",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/42lb4t0mpCcD1zg8/arcgis/rest/services/WashingtonCADMatixService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48477"
+    ]
+  },
+  "fields": {
+    "apn": "propidtxt",
+    "owner": "file_as_name",
+    "address": "situs_full",
+    "acres": "legal_acreage",
+    "land_use": "statecode",
+    "assessed_value": "market"
+  },
+  "notes": "Washington CAD parcel layer; public ArcGIS service from WCAD GIS open records",
+  "verification": {
+    "verified_at": 1792051755012,
+    "counties": [
+      "48477"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

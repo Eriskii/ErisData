@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "al-chilton",
+  "publisher": "Chilton County, AL (via Alabama Parcel Data, PowerSouth)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01021"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer is Chilton County Parcels from the statewide Alabama Parcel Data service; land_use is numeric USECODE because USEDESC is blank",
+  "verification": {
+    "verified_at": 1792048297461,
+    "counties": [
+      "01021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

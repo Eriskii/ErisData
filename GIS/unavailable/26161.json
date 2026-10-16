@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "26161",
+  "reason": "login-required",
+  "evidence": [
+    "https://www.washtenaw.org/mapwashtenaw",
+    "https://data-washtenaw.opendata.arcgis.com/",
+    "https://webmapssecure.ewashtenaw.org/arcgisshared/rest/services"
+  ],
+  "note": "Attributed parcels (Parcels_MS, OverlayQuery) are only served through proxied services restricted to county-approved apps (permission refused; license forbids other use). Public county-wide polygon layers have only FID/shape (no PIN/owner/address); the attributed parcel download is a ShareFile link, not a queryable service. Other public layers cover only subsets (Pittsfield) away from the sample area.",
+  "recorded_at": 1792050972032,
+  "recheck_after": 1807602972032,
+  "model": "claude-sonnet-5-5"
+}

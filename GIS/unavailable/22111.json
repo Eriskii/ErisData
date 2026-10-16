@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "22111",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.unionparishassessor.com/",
+    "https://www.actdatascout.com/RealProperty/Louisiana/Union",
+    "https://www.dynamospatial.com/c/union-parish-la/parcel-data",
+    "https://gis.equatorstudios.com/louisiana_unionparish/",
+    "https://www.acres.com/plat-map/map/la/union-parish-la"
+  ],
+  "note": "Searched ArcGIS Hub/Online, state and neighbouring Lincoln Parish ArcGIS servers, and web directories. No public queryable Union Parish parcel service found. The parish assessor's interactive map is hosted by ActDataScout (commercial vendor), which returns HTTP 403 (Azure WAF), so no public service could be confirmed. Other parcel sources are paid downloads (Dynamo Spatial, Equator) or commercial viewers (Acres). LandGrid Parcels feature service requires a token.",
+  "recorded_at": 1792049949897,
+  "recheck_after": 1807601949897,
+  "model": "claude-haiku-5-5"
+}

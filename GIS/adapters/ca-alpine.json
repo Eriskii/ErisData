@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ca-alpine",
+  "publisher": "Alpine County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/9z9tEfqo0TExR9C8/arcgis/rest/services/Alpine_OperationalLayers_Service/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06003"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "Mail_Name",
+    "address": "S_Street_Address",
+    "acres": "GIS_Acres",
+    "assessed_value": "Land_Value"
+  },
+  "filter": "GIS_Acres < 500",
+  "notes": "Alpine County Parcels service (2025 internal parcel data); owner from Mail_Name (Owner field is empty); parcels over 500 acres excluded because their polygons fail validity checks",
+  "verification": {
+    "verified_at": 1792048660649,
+    "counties": [
+      "06003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

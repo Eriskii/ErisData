@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-gregory",
+  "publisher": "Gregory County GIS (District III)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/GREGORY_COUNTY_WEB_LAYERS/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46053"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "CAMA_OWNERNAME",
+    "acres": "acres"
+  },
+  "notes": "Parcel layer from Gregory County CAMA/GIS via District III web layers; public ArcGIS service; about 7,809 features. Site address, land use and value fields are sparsely populated in source so omitted.",
+  "verification": {
+    "verified_at": 1792051620420,
+    "counties": [
+      "46053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-randolph",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05121"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '121'",
+  "notes": "Statewide Arkansas parcel polygons (CAMA parcels only); not a legal boundary. Filter on countyfips 121 (Randolph). Updated twice a year.",
+  "verification": {
+    "verified_at": 1792048531634,
+    "counties": [
+      "05121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

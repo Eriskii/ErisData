@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-stlucie-paslc",
+  "publisher": "St. Lucie County Property Appraiser / FtPierceGIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/oDRzuf2MGmdEHAbQ/arcgis/rest/services/ParcelBoundaries/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12111"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_Num",
+    "owner": "Owner1",
+    "acres": "Acre"
+  },
+  "notes": "St. Lucie County parcel boundaries (City of Fort Pierce and Port St Lucie included); from FtPierceGIS ArcGIS Online layer. SiteAddres and LandUseDes are blank for most parcels in this layer, so they are not mapped.",
+  "verification": {
+    "verified_at": 1792048855052,
+    "counties": [
+      "12111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

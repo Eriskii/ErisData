@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "72015",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://www.arcgis.com/home/item.html?id=acf043a178254fcdad6708be3e8ab51c",
+    "https://gis.pr.gov/Pages/default.aspx"
+  ],
+  "note": "CRIM's island-wide Parcelario layer (Parcelarios Crim 2018, which includes Arroyo) is listed in the sigejp.pr.gov service directory but every request returns 'Service crim/crim_parcelas/MapServer not started' (HTTP 500), across repeated checks. The crim_feb_2025 service is also stopped. The older satasgis.crimpr.net parcel endpoints return 404 or no connection. No other public Arroyo or Puerto Rico parcel service was found in ArcGIS Hub/Online or the GIS portal. Parcel data is not usable from any public service at this time; this may be a temporary outage.",
+  "recorded_at": 1792051973452,
+  "recheck_after": 1807603973452,
+  "model": "claude-haiku-5-5"
+}

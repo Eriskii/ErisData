@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72079",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/ParcelasEtiquetas/MapServer/0"
+  ],
+  "note": "CRIM Parcelario (Catastro Digital, Puerto Rico) is listed as a parcel service, but the server answers 'Service crim/crim_parcelas/MapServer not started' (HTTP 500) on every query; sige.pr.gov and satasgis hosts are unreachable. The sigejp crim folder lists no other services. No other public parcel polygon service for Lajas was found; Regrid and similar are paid and excluded.",
+  "recorded_at": 1792052060124,
+  "recheck_after": 1807604060124,
+  "model": "claude-haiku-5-5"
+}

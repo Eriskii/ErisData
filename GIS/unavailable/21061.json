@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "21061",
+  "reason": "login-required",
+  "evidence": [
+    "https://services9.arcgis.com/JDWFvM0V61PBXods/arcgis/rest/services/ECWD_online/FeatureServer/12",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=EdmonsonCountyKY&Layer=Parcels&PageType=Search",
+    "https://www.dynamospatial.com/c/edmonson-county-ky/parcel-data"
+  ],
+  "note": "Only county-specific ArcGIS parcel layer found (Parcels - KY - Edmonson County, GDITAdmin ECWD_online FeatureServer/12) returns 'Token Required' for both layer and service root. The official county parcel viewer is qPublic (Schneider), a Cloudflare-blocked web viewer with no public REST endpoint; the state kygisserver has no Edmonson PVA parcel service (only Webster). Other parcel sources are paid (Dynamo, Rockford, Regrid).",
+  "recorded_at": 1792049517224,
+  "recheck_after": 1807601517224,
+  "model": "claude-haiku-5-5"
+}

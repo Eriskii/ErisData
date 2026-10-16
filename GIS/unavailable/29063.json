@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29063",
+  "reason": "login-required",
+  "evidence": [
+    "https://services5.integritygis.com/arcgis/rest/services/MO/Dekalb_Assessor_Data/MapServer (returns 'Token Required' on the root and layer 0)",
+    "https://raygis.integritygis.com/Geocortex/Essentials/REST/sites/Dekalb_County_MO/map (Geocortex directory listing the Dekalb_Assessor_Data MapServer as the assessor source)",
+    "https://spatial.dekalbcounty.org/vertigisstudio/web/?app=1533fc994e264d6b9968fa438b3e49e7 (county interactive property map; no public service URL exposed)",
+    "https://dekalbcounty.org/departments/information-management-office/data-orders/ (county GIS data orders page; bulk parcel data is ordered, not served)"
+  ],
+  "note": "DeKalb County MO parcel polygons are served only from an ArcGIS MapServer that requires a token. No public parcel REST service or file was found in the county's own pages, the county viewer, or the statewide MSDIS/gis.mo.gov search. Bulk parcel data is only available through a paid data order.",
+  "recorded_at": 1792051002537,
+  "recheck_after": 1807603002537,
+  "model": "claude-haiku-5-5"
+}

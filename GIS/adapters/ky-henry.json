@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ky-henry",
+  "publisher": "Henry County KY (ArcGIS Online, HenryCoParcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/SRuaqVyoD8TEQJga/arcgis/rest/services/HenryCoParcels/FeatureServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21103"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "Name",
+    "address": "Address1",
+    "acres": "ACRES",
+    "land_use": "CLASS",
+    "assessed_value": "FAIRCASH"
+  },
+  "notes": "Parcel layer uploaded to ArcGIS Online by zher; 9449 features",
+  "verification": {
+    "verified_at": 1792049813328,
+    "counties": [
+      "21103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

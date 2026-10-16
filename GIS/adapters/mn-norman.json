@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-norman",
+  "publisher": "Norman County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.norman.mn.us/server/rest/services/Norman/Norman_Internal_LINK/MapServer/26",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27107"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "TAXPAYER_NAME",
+    "acres": "DEEDED_ACRES",
+    "land_use": "CITY_TWP_NAME"
+  },
+  "notes": "Norman County MN internal-link MapServer, Parcels layer; TAXPAYER_NAME used as owner (OWNER_NAME mostly blank); PROPERTY_ADDRESS sparse so not mapped; TAX_YEAR 2026; source CRS 3857",
+  "verification": {
+    "verified_at": 1792050894934,
+    "counties": [
+      "27107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

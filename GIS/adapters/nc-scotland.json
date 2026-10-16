@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-scotland",
+  "publisher": "Laurinburg-Scotland County GIS (Tax Parcels Scotland County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/bgKigTDifCMNj8OU/arcgis/rest/services/Tax_Parcels_Scotland_County_view/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37165"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "Name",
+    "address": "PropertyAd",
+    "acres": "ACRES",
+    "assessed_value": "AssessedVa"
+  },
+  "notes": "Public view of Scotland County tax parcels, maintained by Laurinburg-Scotland County GIS",
+  "verification": {
+    "verified_at": 1792051440509,
+    "counties": [
+      "37165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

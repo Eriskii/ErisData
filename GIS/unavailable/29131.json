@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29131",
+  "reason": "login-required",
+  "evidence": [
+    "https://millergis.integritygis.com/H5/Index.html",
+    "https://services2.integritygis.com/arcgis/rest/Services/MO/Dallas_Assessor_Data/MapServer",
+    "https://services.integritygis.com/arcgis/rest/services/MO/Miller_Assessor_Data/MapServer"
+  ],
+  "note": "Miller parcels are served only by the Integrity GIS Miller_Assessor_Data MapServer; services.integritygis.com is unreachable from here, and sibling Integrity hosts return Token Required. The statewide MO parcel service also needs a token. No other public service or file found.",
+  "recorded_at": 1792051119603,
+  "recheck_after": 1807603119603,
+  "model": "claude-sonnet-5-5"
+}

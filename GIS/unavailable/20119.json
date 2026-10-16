@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20119",
+  "reason": "paywalled",
+  "evidence": [
+    "https://www.meadecounty.org/gis",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=53&LayerID=17891&PageTypeID=2&PageID=7965",
+    "https://gis.equatorstudios.com/kansas_meade/",
+    "https://www.dynamospatial.com/c/meade-county-ks/parcel-data",
+    "https://orkahub.kansasgis.org/"
+  ],
+  "note": "Meade County KS parcels are only available through Schneider Beacon (subscription for full access, no public ArcGIS REST service) or commercial/per-request downloads (Equator, Dynamo, ORKA request process). The Ford County ArcGIS host (services7.arcgis.com/QfD34vvHtHcH5kGh) has a 'Parcels_' layer, but its features are in Ford/Gray County (around -99.99,37.75), not Meade; no Meade parcel polygon service exists there. Meade-named services on that host are address points, boundary and roads only. gis.rcgov.org is Rapid City, SD, not Kansas.",
+  "recorded_at": 1792049371526,
+  "recheck_after": 1823585371526,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-west-baton-rouge",
+  "publisher": "West Baton Rouge Parish GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/QClEuaPkoZwU6r3B/arcgis/rest/services/WestBatonRougeTest/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22121"
+    ]
+  },
+  "fields": {
+    "apn": "ASSESSORID",
+    "owner": "AISName",
+    "address": "AISAddress",
+    "acres": "Acres"
+  },
+  "notes": "Public layer from WBR GIS ArcGIS Online service (named WestBatonRougeTest); no owner/value fields published in this layer",
+  "verification": {
+    "verified_at": 1792049903100,
+    "counties": [
+      "22121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-lee",
+  "publisher": "Lee County GIS (Lee County GA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/xWHrkwYCAX9v0Owj/arcgis/rest/services/Parcels_10_02_26/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13177"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "LASTNAME",
+    "acres": "TotalAcres",
+    "land_use": "PropertyCl",
+    "assessed_value": "LandValue"
+  },
+  "notes": "Layer from Lee County GIS Map web app (ArcGIS Online, charles.talley). Owner is the tax-record owner name. Layer has no site address field; ADDRESS fields are mailing address.",
+  "verification": {
+    "verified_at": 1792048837618,
+    "counties": [
+      "13177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

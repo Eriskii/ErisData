@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-tama",
+  "publisher": "Iowa DHS-HSEMD (statewide parcels, Tama County subset)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19171"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'TAMA'",
+  "notes": "Statewide Iowa parcel layer filtered to Tama County",
+  "verification": {
+    "verified_at": 1792049293835,
+    "counties": [
+      "19171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

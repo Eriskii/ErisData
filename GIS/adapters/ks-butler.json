@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ks-butler",
+  "publisher": "Butler County GIS (Kansas)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ww1.bucoks.com/bucogis1/rest/services/Appraisers/Parcels23/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20015"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUM",
+    "acres": "ACRES"
+  },
+  "notes": "Butler County Appraiser parcel boundaries (no owner attributes); other Butler parcel layers reject pagination",
+  "verification": {
+    "verified_at": 1792049471581,
+    "counties": [
+      "20015"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

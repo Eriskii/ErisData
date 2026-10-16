@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13257",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://stephenscountyga.gov/property-maps-gis/",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=StephensCountyGA&Layer=Parcels&PageType=Search",
+    "https://stephenscountyga.gov/tax-assessor/"
+  ],
+  "note": "Stephens County GA publishes parcels only through its qPublic (Schneider Corporation) viewer, a proprietary web app with no public ArcGIS REST, GeoJSON, or bulk parcel download. The county GIS page links only to that viewer and gives no service URL. ArcGIS Hub and Online searches for Stephens County parcels found no county parcel feature service, and a probe of a likely county ArcGIS host failed. Commercial vendors (Dynamo, Rockford, Regrid, acres) are paid or third-party and were not used. The qPublic viewer returned a Cloudflare 403 when read.",
+  "recorded_at": 1792048867449,
+  "recheck_after": 1807600867449,
+  "model": "claude-haiku-5-5"
+}

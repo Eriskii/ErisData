@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-itasca",
+  "publisher": "Itasca County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.itasca.mn.us/arcgis/rest/services/Search_Rescue/Itasca_SAR_Layers/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27061"
+    ]
+  },
+  "fields": {
+    "apn": "PRCL_NBR",
+    "owner": "TAO_NAME",
+    "address": "ADDR_1",
+    "acres": "Acres",
+    "land_use": "CLASS_CODE",
+    "assessed_value": "EMV"
+  },
+  "notes": "Itasca County tax parcels. apn from PRCL_NBR; owner TAO_NAME; address is taxpayer mailing address ADDR_1; EMV estimated market value.",
+  "verification": {
+    "verified_at": 1792050900602,
+    "counties": [
+      "27061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

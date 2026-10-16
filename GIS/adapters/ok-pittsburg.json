@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ok-pittsburg",
+  "publisher": "Pittsburg County GIS (hosted by county, via ArcGIS Online item Pittsburg_Parcels_62325)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/vS6jO1qrSVqdHIdf/arcgis/rest/services/Pittsburg_Parcels_62325/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40121"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelId",
+    "owner": "OwnerName",
+    "address": "AdrLabel",
+    "land_use": "ParcelType",
+    "assessed_value": "AssesValue"
+  },
+  "filter": "CountyFips = '40121'",
+  "notes": "Parcel polygons, 45,662 features; CountyFips 40121. Web Mercator geometry. Acreage not mapped: AreaSqFt is empty in source.",
+  "verification": {
+    "verified_at": 1792051464391,
+    "counties": [
+      "40121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

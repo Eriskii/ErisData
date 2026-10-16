@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "pa-montour",
+  "publisher": "Montour County GIS via PASDA (Montour County Tax Parcels 202402)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/MontourCounty/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42093"
+    ]
+  },
+  "fields": {
+    "apn": "PIN"
+  },
+  "notes": "Only PIN is published in this layer; owner, address, acreage and value are not in the service.",
+  "verification": {
+    "verified_at": 1792051604445,
+    "counties": [
+      "42093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

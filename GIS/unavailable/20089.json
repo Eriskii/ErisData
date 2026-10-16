@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20089",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Jewell",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer",
+    "https://services.kansasgis.org/arcgis/rest/services/wimas/wimas_pd/FeatureServer",
+    "https://jewellcountykansas.net/",
+    "https://map.netronline.com/kansas-jewell/20089"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Jewell results), Kansas DASC hub, ORKA state services (KS_ORKA_Extras has address points, subdivisions, lots, roads, boundaries but no tax parcel polygons; VTI2 is a quadtree index; wimas_pd is points of diversion). The Jewell county parcel viewer is the ORKA intro page, which gates access behind a disclaimer and exposes no public parcel service. Jewell county website has no GIS link. Only commercial parcel sources (Regrid, Dynamo, Acres, Rockford) found; the reportallusa Jewell GIS link did not respond.",
+  "recorded_at": 1792049414308,
+  "recheck_after": 1807601414308,
+  "model": "claude-haiku-5-5"
+}

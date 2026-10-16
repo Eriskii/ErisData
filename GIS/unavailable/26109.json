@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "26109",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.menomineecountymi.gov/departments/land-information-services-gis/",
+    "https://colligogis.com/desktop/",
+    "https://app.fetchgis.com/?currentMap=menominee",
+    "https://www.michigan.gov/dtmb/services/maps/mgf-data-hub/boundaries-and-mgf/tax-parcels"
+  ],
+  "note": "Menominee County GIS is a login-only Colligo viewer with no public service URLs; the FetchGIS map exposes no parcel REST endpoint; the assessor's parcel lookup is a BS&A portal. ArcGIS searches for Menominee County MI parcels found only a token-protected service (menominee_parcels_New_050120, likely Wisconsin) and commercial vendors (Regrid, Acres, Dynamo, Rockford, Equator). Contact: Equalization office, 906-863-2683.",
+  "recorded_at": 1792050110845,
+  "recheck_after": 1807602110845,
+  "model": "claude-haiku-5-5"
+}

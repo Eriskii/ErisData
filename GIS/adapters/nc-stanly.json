@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-stanly",
+  "publisher": "Stanly County GIS (Parcel Records Base)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/w1igg0Q14weqYXUh/arcgis/rest/services/parcel_records_base_2/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37167"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Name1",
+    "address": "PhyStreetAddr",
+    "acres": "ACRES",
+    "land_use": "DescCode1",
+    "assessed_value": "TotalFMVCurrent"
+  },
+  "notes": "County parcel layer published by Stanly County GIS staff (preynolds@stanlycountync.gov) on ArcGIS Online; about 44k parcels; includes lot-level and PIN fields. Public data.",
+  "verification": {
+    "verified_at": 1792051382637,
+    "counties": [
+      "37167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

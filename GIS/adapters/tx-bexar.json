@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-bexar",
+  "publisher": "Bexar County Appraisal District / Bexar County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.bexar.org/arcgis/rest/services/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48029"
+    ]
+  },
+  "fields": {
+    "apn": "AcctNumb",
+    "owner": "Owner",
+    "address": "Situs",
+    "acres": "LglAcres",
+    "land_use": "PropUse",
+    "assessed_value": "TotVal"
+  },
+  "notes": "Source: county Parcels MapServer (BCAD-derived). Updated each Sept/Oct. Max 1000 records per request.",
+  "verification": {
+    "verified_at": 1792051644179,
+    "counties": [
+      "48029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

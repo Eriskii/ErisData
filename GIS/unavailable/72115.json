@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "72115",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.arcgis.com/sharing/rest/content/items/acf043a178254fcdad6708be3e8ab51c/data",
+    "https://sigejp.pr.gov/server/rest/services/crim?f=json",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "http://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/FeatureServer/0",
+    "https://sigejp.pr.gov/server/rest/services/Planes_territoriales/isabela_pt/FeatureServer/0"
+  ],
+  "note": "Quebradillas (72115) has no queryable public parcel service found. CRIM's Catastro Digital parcel layer is not running: the sigejp.pr.gov crim folder is empty, crim/crim_parcelas reports 'not started', and the satasgis.crimpr.net Parcelas layer returns 404. The Isabela isabela_pt layer has no Quebradillas features at the sample point or town centre. Other leads are commercial (Regrid, landrecords.us) or non-tax (PR Lands Authority, PRIDCO).",
+  "recorded_at": 1792052101741,
+  "recheck_after": 1807604101741,
+  "model": "claude-haiku-5-5"
+}

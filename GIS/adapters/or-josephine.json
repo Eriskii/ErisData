@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "or-josephine",
+  "publisher": "Josephine County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.josephine.or.us/arcgis/rest/services/Assessor/Assessor_Taxlots/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41033"
+    ]
+  },
+  "fields": {
+    "apn": "ACCOUNT",
+    "owner": "NAME",
+    "address": "SITUS",
+    "acres": "GIS_Acres",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "ASSD_VALUE"
+  },
+  "notes": "Josephine County Assessor taxlots, public ArcGIS service; no token required for this layer",
+  "verification": {
+    "verified_at": 1792051477194,
+    "counties": [
+      "41033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

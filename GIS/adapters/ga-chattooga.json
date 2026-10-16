@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-chattooga",
+  "publisher": "Chattooga County GIS (hosted ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/eXIsbyIncFwEzqul/arcgis/rest/services/parcels_zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13055"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "address": "parcel_address",
+    "acres": "ACRES"
+  },
+  "notes": "No owner field; includes zoning code",
+  "verification": {
+    "verified_at": 1792049649406,
+    "counties": [
+      "13055"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

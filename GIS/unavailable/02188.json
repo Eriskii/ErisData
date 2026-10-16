@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "02188",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services1.arcgis.com/7HDiw78fcUiM2BWn/arcgis/rest/services/AK_Parcels/FeatureServer/0",
+    "https://services1.arcgis.com/7HDiw78fcUiM2BWn/arcgis/rest/services/AK_Parcels/FeatureServer/0/query?where=1%3D1&groupByFieldsForStatistics=local_gov&outStatistics=[{\"statisticType\":\"count\",\"onStatisticField\":\"OBJECTID\",\"outStatisticFieldName\":\"n\"}]&f=json",
+    "https://www.nwabor.org/departments/planning/"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web. The only statewide Alaska parcel layer found (AK_Parcels, 415,656 features) groups by local_gov into 19 jurisdictions, none of which is Northwest Arctic Borough; a 'Northwest' LIKE query returns 0. No borough parcel service, GIS parcel download or assessor GIS was found. Borough GIS results were only imagery extents (2013) and boundaries. Borough planning page says its land-use permitting excludes the City of Kotzebue. Commercial aggregators (Regrid, HomeInfoMax) require paid accounts.",
+  "recorded_at": 1792048513522,
+  "recheck_after": 1807600513522,
+  "model": "claude-haiku-5-5"
+}

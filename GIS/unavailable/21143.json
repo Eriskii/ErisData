@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21143",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.lyoncountyks.gov/342/GISMapping",
+    "https://beacon.schneidercorp.com/?site=LyonCountyKY",
+    "https://www.qpublic.net/ky/lyon/",
+    "https://kygisserver.ky.gov/arcgis/rest/services?f=json",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp"
+  ],
+  "note": "Lyon County KY (FIPS 21143): no public queryable parcel service found after searching. gis.lyon-county.org Landbase/Parcels is Lyon County, Nevada (Fernley, Wellington, Mason Valley records), not Kentucky. The county GIS page requires a GIS Data Request Form and Open Records Request for parcel data. Kentucky's kygisserver hosts PVA parcel services for Webster and other counties but none for Lyon; the KGS list of PVA services omits Lyon. Parcels are only viewable through the Schneider Beacon/qPublic viewer (no public REST endpoint; returns 403 to automated access) and commercial vendors.",
+  "recorded_at": 1792049964369,
+  "recheck_after": 1807601964369,
+  "model": "claude-haiku-5-5"
+}

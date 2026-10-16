@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ok-oklahoma",
+  "publisher": "Oklahoma County GIS (Artimcon hub)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/euhkr1dAJeQBIjV0/arcgis/rest/services/TaxParcelsPublics_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40109"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNB_1",
+    "owner": "name1",
+    "address": "location",
+    "acres": "acres",
+    "land_use": "accttype",
+    "assessed_value": "currentassessed"
+  },
+  "notes": "Oklahoma County tax parcels, public view",
+  "verification": {
+    "verified_at": 1792051429774,
+    "counties": [
+      "40109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

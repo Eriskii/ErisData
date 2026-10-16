@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-mills",
+  "publisher": "Mills County Iowa GIS (hosted by pbinns, ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/20XE3PmEegLQbaze/arcgis/rest/services/Parcels_Mills_County_Iowa/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19129"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "DeedHold",
+    "acres": "GrossAcres",
+    "land_use": "Class",
+    "assessed_value": "Value_"
+  },
+  "notes": "Mills County Iowa parcel layer, 17437 features; site address mostly blank in source so not mapped",
+  "verification": {
+    "verified_at": 1792049169572,
+    "counties": [
+      "19129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

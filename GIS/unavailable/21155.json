@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "21155",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=MarionCountyKY&Layer=Parcels&PageType=Search",
+    "https://www.marionkypva.com/",
+    "https://app.regrid.com/store/us/ky/marion",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://data.lojic.org/"
+  ],
+  "note": "Searched ArcGIS Hub/Online, the KY state ArcGIS server (kygisserver WGS84WM_Services lists PVA parcel services only for Webster County), the KGS county PVA service list (no Marion), and LOJIC's REST extent (no Marion). Marion County PVA publishes parcels only through the qPublic/Schneider viewer (behind a bot challenge, no public REST service found) and Regrid (commercial). No queryable public parcel service or file found.",
+  "recorded_at": 1792049877353,
+  "recheck_after": 1807601877353,
+  "model": "claude-haiku-5-5"
+}

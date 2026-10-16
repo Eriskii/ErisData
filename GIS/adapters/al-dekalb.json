@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-dekalb",
+  "publisher": "DeKalb County, Alabama",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/NT45iGhs5xJWW8xQ/arcgis/rest/services/Parcel_Data/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01049"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "Owner",
+    "address": "SitusAddNa",
+    "acres": "CalcAcres",
+    "assessed_value": "TAV"
+  },
+  "notes": "Parcel_Data hosted by AustinReed on ArcGIS Online. PropertyCl (land use) is blank in sampled records, so land_use is not mapped.",
+  "verification": {
+    "verified_at": 1792048496034,
+    "counties": [
+      "01049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

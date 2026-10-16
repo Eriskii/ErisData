@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20013",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.brcoks.org/1213/Brown-County-GIS-Mapping",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=brown",
+    "https://brown.kansasgov.com/parcel/",
+    "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/ORKA_Status_20180201/FeatureServer/0",
+    "https://www.dynamospatial.com/c/brown-county-ks/parcel-data"
+  ],
+  "note": "No public ArcGIS REST service or downloadable parcel file for Brown County KS (FIPS 20013) found after searching ArcGIS Hub/Online, the county site, ORKA and vendor pages. The county points to the ORKA viewer and a Parcel Search login page, with no public REST endpoint. ORKA's only public ArcGIS layer is a 105-feature county status layer, not parcels. Wisconsin Brown County services were excluded as the wrong state. Parcel data is sold only by commercial vendors.",
+  "recorded_at": 1792049236642,
+  "recheck_after": 1807601236642,
+  "model": "claude-haiku-5-5"
+}

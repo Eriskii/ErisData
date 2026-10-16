@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-mason",
+  "publisher": "Mason County Appraisal District",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/AKlIcTAXzzKLNWkD/arcgis/rest/services/MasonCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48319"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Mason CAD ArcGIS web service (ArcGIS Online). Parcels layer of CAD web service.",
+  "verification": {
+    "verified_at": 1792051716350,
+    "counties": [
+      "48319"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

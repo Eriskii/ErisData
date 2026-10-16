@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wy-weston",
+  "publisher": "Wyoming Office of State Lands and Investments (statewide 2025 parcel layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/r0iJ85SKZ4zAzz3P/arcgis/rest/services/Wyoming_Parcels_for_2025/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56045"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnb",
+    "owner": "ownername1",
+    "land_use": "jurisdicti",
+    "assessed_value": "assessedva"
+  },
+  "filter": "jurisdicti LIKE '%WESTON%'",
+  "notes": "Statewide Wyoming parcel layer for 2025; filtered to Weston County by jurisdiction field. Site address and many owner fields are blank in source for many parcels.",
+  "verification": {
+    "verified_at": 1792051850697,
+    "counties": [
+      "56045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

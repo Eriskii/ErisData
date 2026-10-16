@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-robertson",
+  "publisher": "Robertson County GIS (via APSU GIS Center)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://apnsgis4.apsu.edu/arcgis/rest/services/Robertson/RobertsonViewer/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47147"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "owner",
+    "address": "address",
+    "acres": "calc_acre",
+    "land_use": "landuse",
+    "assessed_value": "appraisal"
+  },
+  "notes": "APSU-hosted Robertson County viewer parcel layer (parc_addr)",
+  "verification": {
+    "verified_at": 1792052456895,
+    "counties": [
+      "47147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

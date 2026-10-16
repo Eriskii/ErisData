@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "31031",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://beacon.schneidercorp.com/Application.aspx?App=CherryCountyNE&PageType=Search",
+    "https://giscat.ne.gov/agency/rest/services/TaxParcelsDED/FeatureServer/0",
+    "https://www.nebraskamap.gov/pages/county-assessor-gis"
+  ],
+  "note": "Cherry County NE parcels are not published as a public queryable service. Beacon (Schneider) viewer is bot-blocked (HTTP 403), not an open ArcGIS service. State TaxParcelsDED FeatureServer (75,394 features) has zero features inside the Cherry bbox and does not cover Lincoln either, so it is partial. IPAParcelsDED returns zero in the bbox. A gworks ArcGIS entry 'Parcels - NE - Cherry County' (gis3.gworks.com/.../Cherry_County_NE_Assessor/MapServer/11) returns 'service not found' and is absent from the server directory. Only commercial vendor downloads (Dynamo, Mapping Solutions, Acres, Regrid) were found.",
+  "recorded_at": 1792051185761,
+  "recheck_after": 1807603185761,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "tn-carter",
+  "publisher": "City of Johnson City GIS (Tax Parcels, Carter County records)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.johnsoncitytn.org/arcgis/rest/services/ParcelPublishing/TaxParcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47019"
+    ]
+  },
+  "fields": {
+    "apn": "GISLINK",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "LANDUSE",
+    "assessed_value": "APPRAISAL"
+  },
+  "filter": "COUNTYNAME LIKE '%Carter%' AND CALC_ACRE < 5000",
+  "notes": "Regional multi-county tax parcel service maintained by Johnson City; filtered to Carter County records by COUNTYNAME. Parcels over 5000 acres (large placeholder polygons under GISLINK 010035) excluded.",
+  "verification": {
+    "verified_at": 1792051836962,
+    "counties": [
+      "47019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

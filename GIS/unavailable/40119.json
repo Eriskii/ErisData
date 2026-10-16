@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40119",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://pro.paynecountyassessor.org/arcgis/rest/services",
+    "https://okmaps.org/ogi/search.aspx",
+    "https://countygismaps.com/ok/payne",
+    "https://www.dynamospatial.com/c/payne-county-ok/parcel-data"
+  ],
+  "note": "Assessor's ArcGIS host (pro.paynecountyassessor.org) refuses HTTPS connections and returns a generic 404 over HTTP; only a city-limits layer is indexed, no parcel layer. Statewide OK Maps parcels are view-only WMS; no county, INCOG, OU CSA or Hub parcel service exists; parcels are only sold by vendors.",
+  "recorded_at": 1792051783982,
+  "recheck_after": 1807603783982,
+  "model": "claude-sonnet-5-5"
+}

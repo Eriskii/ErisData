@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-jefferson",
+  "publisher": "Jefferson County IL (GDIT-hosted ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4YineAQdtmx0tv46/ArcGIS/rest/services/Parcel_JeffersonIL2/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17081"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_number",
+    "owner": "owner1_name",
+    "address": "site_address",
+    "acres": "gross_acres",
+    "land_use": "class",
+    "assessed_value": "tax_billed"
+  },
+  "notes": "Polygon parcels, Jefferson County IL. Service layer named Staging; source attributes used as-is.",
+  "verification": {
+    "verified_at": 1792048967811,
+    "counties": [
+      "17081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

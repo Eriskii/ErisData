@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-henry",
+  "publisher": "Henry County GA GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.co.henry.ga.us/server/rest/services/Parcels/MapServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13151"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "address": "FULLADDRES",
+    "acres": "ACREAGE_1"
+  },
+  "notes": "Henry County GIS parcels layer; no owner or land use field published in this layer",
+  "verification": {
+    "verified_at": 1792048796253,
+    "counties": [
+      "13151"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

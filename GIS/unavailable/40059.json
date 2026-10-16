@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "40059",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://okmaps.org/ogi/search.aspx",
+    "https://landrecords.us/documentation/coverage/counties/40-059-harper",
+    "https://app.regrid.com/store/us/ok/harper",
+    "https://publicrecords.netronline.com/state/OK/county/harper",
+    "https://csagis-uok.opendata.arcgis.com/datasets/64563f4bd63041c2b36047a283e722ea",
+    "https://services.arcgis.com/3xOwF6p0r7IHIjfn/arcgis/rest/services/Harper_County_Data/FeatureServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Harper County OK parcels. No county parcel polygon service found. The Harper_County_Data FeatureServer (OU CSA) has only legislative, transport, hydrology layers. Statewide OK parcels on okmaps.org are view-only/WMS, not downloadable. Regrid nationwide boundaries is a non-queryable tile service; Acres, Regrid store, landrecords, mappingsolutionsgis are paid/commercial. Assessor site is subscription-only.",
+  "recorded_at": 1792051657577,
+  "recheck_after": 1807603657577,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-bastrop",
+  "publisher": "Bastrop County Appraisal District / Bastrop County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/wdTkTU0MdZbNBEZy/arcgis/rest/services/ParcelARI/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48021"
+    ]
+  },
+  "fields": {
+    "apn": "geo_id",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage"
+  },
+  "notes": "Public ArcGIS feature service, ParcelARI layer, Bastrop County Parcels. Owner and address fields are from the appraisal roll.",
+  "verification": {
+    "verified_at": 1792051655553,
+    "counties": [
+      "48021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

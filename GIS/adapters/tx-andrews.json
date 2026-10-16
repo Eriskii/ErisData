@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-andrews",
+  "publisher": "Andrews County Appraisal District (AndrewsCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/ihDsRGnlJz5F4xyl/arcgis/rest/services/AndrewsCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48003"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Andrews CAD public ArcGIS service; 10,782 parcels",
+  "verification": {
+    "verified_at": 1792051627738,
+    "counties": [
+      "48003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

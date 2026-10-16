@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-st-louis",
+  "publisher": "St. Louis County, MN Enterprise GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stlouiscountymn.gov/server2/rest/services/GeneralUse/Cadastral/MapServer/23",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27137"
+    ]
+  },
+  "fields": {
+    "apn": "PRCL_NBR",
+    "owner": "OWNAME",
+    "address": "PHYSADDR",
+    "acres": "ACREAGE",
+    "land_use": "TPCLS1",
+    "assessed_value": "EstTotalValue"
+  },
+  "notes": "Tax parcels, St. Louis County MN; refreshed weekly/daily; source Cadastral MapServer layer 23 (Tax Parcels - Neighborhood)",
+  "verification": {
+    "verified_at": 1792050902987,
+    "counties": [
+      "27137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

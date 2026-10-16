@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sd-hand",
+  "publisher": "Hand County GIS (First District GIS, Watertown SD)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/ceZU40cgb1gjKt1n/arcgis/rest/services/HandCountyBaseLayer/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46059"
+    ]
+  },
+  "fields": {
+    "apn": "RECORD",
+    "owner": "OWNER_NAME",
+    "address": "PROPERTY_A",
+    "acres": "acres",
+    "land_use": "CODE_NAME",
+    "assessed_value": "TOTAL_TV"
+  },
+  "notes": "Official county parcel layer (hosted copy, First District GIS, Watertown SD). Attributes from county assessor records.",
+  "verification": {
+    "verified_at": 1792051652339,
+    "counties": [
+      "46059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

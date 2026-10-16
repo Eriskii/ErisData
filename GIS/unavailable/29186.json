@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29186",
+  "reason": "paywalled",
+  "evidence": [
+    "https://sgassessor.com/Mapping_GIS/Integrity_WebGIS.html",
+    "https://maps.semogis.com/server/rest/services/SteGenCity/SteGenAssessorBaseData/MapServer",
+    "https://maps.semogis.com/arcgis/rest/services/SteGenCity/SteGenAssessorBaseData/MapServer"
+  ],
+  "note": "Ste. Genevieve County parcels are not published as an open queryable service. The assessor's Integrity Web GIS states that access requires a license agreement and fees. The semogis ArcGIS server hosting the city/assessor base data (SteGenCity/SteGenAssessorBaseData) returns 'Token Required' on its /server/ path and HTTP 503 on its /arcgis/ path across repeated attempts. The county public-base service (SteGenevieveCo_PublicBase) has only roads, city limits and county boundary, no parcel layer.",
+  "recorded_at": 1792051091911,
+  "recheck_after": 1823587091911,
+  "model": "claude-haiku-5-5"
+}

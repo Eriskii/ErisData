@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-wise",
+  "publisher": "Wise County Appraisal District (WiseCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/9sR6E9qY5UqEzC5T/arcgis/rest/services/WiseCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48497"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Wise CAD public parcel layer; same schema as Parker CAD service",
+  "verification": {
+    "verified_at": 1792051941783,
+    "counties": [
+      "48497"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

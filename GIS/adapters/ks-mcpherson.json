@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ks-mcpherson",
+  "publisher": "McPherson County, KS (GIS / Ownership Online Map)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/5ehLV5DLlzhyV3k5/arcgis/rest/services/Ownership_Online_Map/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20113"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNum",
+    "owner": "owner",
+    "address": "PropAddres",
+    "acres": "Area_Acres",
+    "land_use": "PropertyTy"
+  },
+  "notes": "Public county ownership/parcel layer behind McPherson County GIS Online Map parcel search; county disclaimer says for taxation purposes only",
+  "verification": {
+    "verified_at": 1792049339529,
+    "counties": [
+      "20113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

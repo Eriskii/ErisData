@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "26073",
+  "reason": "paywalled",
+  "evidence": [
+    "https://www.isabellacounty.org/departments/community-development/gis-mapping/gis-data-for-purchase/",
+    "https://www.isabellacounty.org/departments/community-development/gis-mapping/overview/",
+    "https://app.fetchgis.com/?currentMap=isabella",
+    "https://www.michigan.gov/dtmb/services/maps/mgf-data-hub/boundaries-and-mgf/tax-parcels"
+  ],
+  "note": "Isabella County (MI) tax parcels are not published as a public queryable ArcGIS service or open file. The county's GIS page says parcel data is sold only as shapefile under a signed license agreement (Data Request and License Agreement forms). The public parcel viewer is a FetchGIS vendor app with no service endpoint exposed. Searches of ArcGIS Hub, ArcGIS Online and county web pages found no Isabella parcel FeatureServer or MapServer; the Isabella services found (Isabella_County FeatureServer, ROW tile layer) are points, soil story maps or roads, not parcels. The host gis.isabellacounty.org did not respond.",
+  "recorded_at": 1792050014368,
+  "recheck_after": 1823586014368,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-scott",
+  "publisher": "Scott County, MO (SEMO GIS / Assessor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.semogis.com/server/rest/services/Scott_CO/ScottCo_Assessment/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29201"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "NAME",
+    "address": "SITE_ADDRESS",
+    "acres": "GIS_ACRES"
+  },
+  "notes": "Scott County MO assessor PARCEL layer via SEMO GIS. PARCEL is the parcel number; PID the parcel id.",
+  "verification": {
+    "verified_at": 1792051127498,
+    "counties": [
+      "29201"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

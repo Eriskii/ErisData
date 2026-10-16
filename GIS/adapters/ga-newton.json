@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-newton",
+  "publisher": "Newton County GA (tax assessor parcel layer, hosted by mhackman)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/qTQ6qYkHpxlu0G82/arcgis/rest/services/Newton_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13217"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "address": "Address1",
+    "acres": "TotalAcres",
+    "assessed_value": "TotalImpVa"
+  },
+  "notes": "Newton County GA parcel layer (PARCEL_VIEW), 45,755 features. Owner and street-address fields are mostly blank in the source, so only apn, acres and mailing address are mapped. Source spatial reference is Georgia State Plane feet; geoJSON output is WGS84.",
+  "verification": {
+    "verified_at": 1792048836503,
+    "counties": [
+      "13217"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

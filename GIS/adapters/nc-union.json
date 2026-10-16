@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-union",
+  "publisher": "Union County GIS (NC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/7YUdLQ8pDBKU1XYI/arcgis/rest/services/Parcels/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37179"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "CURR_NAME1",
+    "address": "PHYSSTRADD",
+    "acres": "gross_acre",
+    "land_use": "DESC1_DESC",
+    "assessed_value": "FMV_TOTAL"
+  },
+  "notes": "Union County tax parcels as of 10/01/2026, published by Union County GIS via ArcGIS Hub. Source CRS is NC State Plane ftUS (2264); service returns WGS84 geoJSON.",
+  "verification": {
+    "verified_at": 1792051408747,
+    "counties": [
+      "37179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

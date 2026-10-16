@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-el-dorado",
+  "publisher": "El Dorado County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/UHg8l1wC48WQyDSO/ArcGIS/rest/services/El_Dorado_County_Basemap/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06017"
+    ]
+  },
+  "fields": {
+    "apn": "PRCL_ID",
+    "address": "PRCL_ADDR",
+    "acres": "ACREAGE",
+    "land_use": "USECD_1",
+    "assessed_value": "LAND_VAL"
+  },
+  "notes": "El Dorado County public parcels, monthly update, distributed via county ArcGIS Online basemap FeatureServer. PRCL_ID is the APN. No owner field published.",
+  "verification": {
+    "verified_at": 1792048608823,
+    "counties": [
+      "06017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

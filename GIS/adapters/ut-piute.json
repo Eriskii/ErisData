@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ut-piute",
+  "publisher": "UGRC / Piute County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Piute/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49031"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID"
+  },
+  "notes": "UGRC parcels for Piute County, CC BY 4.0. Owner names not published in this layer (OWN_TYPE is ownership category only); PARCEL_ADD is mostly empty.",
+  "verification": {
+    "verified_at": 1792052732840,
+    "counties": [
+      "49031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

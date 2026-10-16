@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-emanuel",
+  "publisher": "Emanuel County GA (CAMA parcel layer via ArcGIS Online, TimberHarvest)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/oi3j4zWzPc3hzTpc/arcgis/rest/services/Emanuel_Parcels_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13107"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "owner": "lastname",
+    "address": "street_nam",
+    "acres": "Draw_Acres",
+    "land_use": "land_type",
+    "assessed_value": "curr_val"
+  },
+  "notes": "Parcel polygons in Web Mercator; attributes from county CAMA extract. Owner is last name field only (firstname separate).",
+  "verification": {
+    "verified_at": 1792048762106,
+    "counties": [
+      "13107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

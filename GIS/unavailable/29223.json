@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "29223",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://maps.semogis.com/server/rest/services",
+    "https://gis.mo.gov/arcgis/rest/services",
+    "https://data-msdis.opendata.arcgis.com/",
+    "https://www.acrevalue.com/map/MO/Wayne/",
+    "https://app.regrid.com/store/us/mo/wayne"
+  ],
+  "note": "Searched SEMO GIS host (no Wayne_CO folder; Iron/Madison/Bollinger are there), Missouri state GIS (gis.mo.gov has only BaseMap/boundaries, no parcels), MSDIS open data (no Wayne parcel dataset), ArcGIS Hub/Online search (no Wayne County MO parcel service), and Beacon/qPublic (no public Wayne County MO entry). Wayne County MO parcels appear only in commercial vendors (Regrid, Dynamo Spatial, Acres, AcreValue, Equator). The Wayne County OH/PA/MI/NC hub results are other states and were rejected.",
+  "recorded_at": 1792051149151,
+  "recheck_after": 1807603149151,
+  "model": "claude-haiku-5-5"
+}

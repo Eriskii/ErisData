@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21199",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/?site=PulaskiCountyKY",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=961&LayerID=19058&PageTypeID=2&PageID=8417",
+    "https://pulaskicountyassessor.net/services/raw-data-export/",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=json"
+  ],
+  "note": "Pulaski County KY parcels are published only through the Schneider Beacon/qPublic PVA viewer, a non-ArcGIS web app that returns HTTP 403 (Cloudflare) to automated access. The county assessor's raw export is a CAMA real-property zip (no polygons) on Dropbox. The Kentucky state server hosts only Webster County's PVA parcel service; no Pulaski layer. ArcGIS Hub/Online searches found no public Pulaski KY parcel feature service. Commercial vendors (Regrid, Dynamo, Rockford, Acres) are paid.",
+  "recorded_at": 1792049887983,
+  "recheck_after": 1807601887983,
+  "model": "claude-haiku-5-5"
+}

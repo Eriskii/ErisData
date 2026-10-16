@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-tattnall",
+  "publisher": "Tattnall County GIS (hogagis)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/Tattnall_CountyWide_GeoData_View/FeatureServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13267"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_PIN",
+    "acres": "Calc_Acres"
+  },
+  "notes": "Tattnall County tax parcels (TaxParcels_25) from hogagis GeoData view; no owner/address fields published in this layer",
+  "verification": {
+    "verified_at": 1792048830591,
+    "counties": [
+      "13267"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-mackinac",
+  "publisher": "Mackinac County GIS (Northrop Assessing parcel mapping project)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/wWwid2HdqJ8HIOOi/arcgis/rest/services/MackinacCo_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26097"
+    ]
+  },
+  "fields": {
+    "apn": "TaxPIN",
+    "acres": "GISACRES",
+    "land_use": "Class"
+  },
+  "notes": "Hosted by NorthropAssessing on ArcGIS Online; no owner/address fields in the layer. Spatial reference 3857.",
+  "verification": {
+    "verified_at": 1792049968679,
+    "counties": [
+      "26097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

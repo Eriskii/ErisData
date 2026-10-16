@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20091",
+  "reason": "login-required",
+  "evidence": [
+    "https://aims.jocogov.org/AIMSData/AIMSOnline.aspx",
+    "https://maps.jocogov.org/ArcGIS/rest/services/Secure/Property/MapServer",
+    "https://aims.jocogov.org/AIMSData/FreeData.aspx",
+    "https://ims.jocogov.org/ddr/"
+  ],
+  "note": "Johnson County KS (20091) publishes its countywide parcel/property data only in the AIMS Property map service (maps.jocogov.org/ArcGIS/rest/services/Secure/Property/MapServer), which returns 'Token Required' and is restricted to AIMS data partners and subscribers. The public FreeData2 service and AIMS Free Data list have no parcel layer; parcel data is otherwise ordered via the paid Digital Data Request. Overland Park MixedInfo services cover only the city; Merriam parcel services are city-only. No public, unauthenticated county-wide parcel polygon service was found.",
+  "recorded_at": 1792049360042,
+  "recheck_after": 1807601360042,
+  "model": "claude-haiku-5-5"
+}

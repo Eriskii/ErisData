@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ri-statewide",
+  "publisher": "RIGIS / RI Division of Statewide Planning (Assessors Tax Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://risegis.ri.gov/hosting/rest/services/RIDEM/Tax_Parcels/MapServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "RI"
+    ]
+  },
+  "fields": {
+    "apn": "PlatLot",
+    "acres": "Acres"
+  },
+  "notes": "Statewide assessors tax parcel polygons hosted by RIGIS. No owner or site address field in this layer.",
+  "verification": {
+    "verified_at": 1792048307636,
+    "counties": [
+      "44001",
+      "44009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

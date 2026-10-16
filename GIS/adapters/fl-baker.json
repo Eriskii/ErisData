@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "fl-baker",
+  "publisher": "Baker County Property Appraiser (via FDOR-format Baker and Nassau parcels layer, CGRUSER_USG)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/PYn6bWCjT6bhw1z3/arcgis/rest/services/Parcels_in_Baker_and_Nassau_Counties/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12003"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "ONAME",
+    "address": "PHYADDR1",
+    "acres": "ACRES",
+    "land_use": "PARUSEDESC",
+    "assessed_value": "JV"
+  },
+  "filter": "CNTYNAME = 'BAKER'",
+  "notes": "Parcel layer covering Baker and Nassau counties; filter to CNTYNAME BAKER. Source dates around 2019 (SOURCEDATE); dated but the published service.",
+  "verification": {
+    "verified_at": 1792048681268,
+    "counties": [
+      "12003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

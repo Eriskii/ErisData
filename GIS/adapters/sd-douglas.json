@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-douglas",
+  "publisher": "Douglas County, SD (GIS via District III)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/DOUGLAS_COUNTY_WEB_LAYERS/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46043"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "CAMA_OWNERNAME",
+    "address": "CAMA_SITE_ADDRESS",
+    "acres": "GIS_ACRES"
+  },
+  "notes": "Parcel polygons from county web layers service; CAMA attributes joined by county.",
+  "verification": {
+    "verified_at": 1792051637212,
+    "counties": [
+      "46043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

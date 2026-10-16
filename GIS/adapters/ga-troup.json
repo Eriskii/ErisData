@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-troup",
+  "publisher": "Troup County GA (via SageGov parcel feature layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/WjqAE1SlQxuk7dsk/arcgis/rest/services/Troup_County_GA_Parcel_Feature_Layer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13285"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnumb",
+    "owner": "owner",
+    "address": "address",
+    "acres": "gisacre",
+    "land_use": "usecode",
+    "assessed_value": "parval"
+  },
+  "notes": "Parcel layer hosted by SageGov; fields appear derived from public assessor data.",
+  "verification": {
+    "verified_at": 1792048844321,
+    "counties": [
+      "13285"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

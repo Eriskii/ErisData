@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mo-st-louis-county",
+  "publisher": "St. Louis County, MO GIS Service Center",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.stlouisco.com/hosting/rest/services/Maps/AGS_Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29189"
+    ]
+  },
+  "fields": {
+    "apn": "LOCATOR",
+    "owner": "OWNER_NAME",
+    "address": "PROP_ADD",
+    "acres": "ACRES",
+    "land_use": "LUC",
+    "assessed_value": "TOTASSMT"
+  },
+  "notes": "Public county GIS parcel layer (maps.stlouisco.com AGS_Parcels).",
+  "verification": {
+    "verified_at": 1792051032919,
+    "counties": [
+      "29189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

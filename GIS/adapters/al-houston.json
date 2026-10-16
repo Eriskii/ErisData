@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "al-houston",
+  "publisher": "Houston County, AL (via PowerSouth Alabama Parcel Data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/27",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01069"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "land_use": "USEDESC",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer 27 of PowerSouth Alabama Parcel Data service; Houston County parcels only",
+  "verification": {
+    "verified_at": 1792048350711,
+    "counties": [
+      "01069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

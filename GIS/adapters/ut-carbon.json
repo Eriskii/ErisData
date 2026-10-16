@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-carbon",
+  "publisher": "Utah AGRC (UGRC) / Carbon County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Carbon_LIR/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49007"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "acres": "PARCEL_ACRES",
+    "land_use": "PROP_CLASS"
+  },
+  "notes": "UGRC LIR parcel layer with tax roll attributes for Carbon County, CC BY 4.0; contact county recorder for current data. Address and market value are often empty for sampled parcels and are not mapped.",
+  "verification": {
+    "verified_at": 1792052640818,
+    "counties": [
+      "49007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

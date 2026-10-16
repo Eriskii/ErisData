@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "22079",
+  "reason": "login-required",
+  "evidence": [
+    "https://gissrv1.romlc.net/arcgis/rest/services/WebMaps/LA_Assessors/MapServer/0",
+    "https://www.arcgis.com/home/search.html?q=Parcels%20LA%20Rapides%20Parish"
+  ],
+  "note": "Only parcel polygon service found for Rapides Parish (Parcels - LA - Rapides Parish, LA_Assessors/MapServer/0 on gissrv1.romlc.net) returns 'Token Required' on probe, so it is not publicly queryable. Parish GIS viewer rapcgis.rapc.info and assessor portal rapidesassessor.org were unreachable; RAPC addressing hub (addresses-rapc.hub.arcgis.com) has no parcel layer; other parcel sources are paid commercial downloads (dynamospatial, equatorstudios, regrid).",
+  "recorded_at": 1792049882582,
+  "recheck_after": 1807601882582,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21045",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://www.dynamospatial.com/c/casey-county-ky/parcel-data",
+    "https://www.countyoffice.org/ky-casey-county-gis-maps/"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the Kentucky state ArcGIS server (kygisserver WGS84WM_Services; PVA parcel MapServers exist only for Webster County). No Casey County PVA parcel service found under likely names. Casey parcels appear only in the county's qPublic (Schneider) viewer, which is not a public REST service; other sources are commercial (Dynamo Spatial shapefile, Regrid, acres, acrevalue).",
+  "recorded_at": 1792049419731,
+  "recheck_after": 1807601419731,
+  "model": "claude-haiku-5-5"
+}

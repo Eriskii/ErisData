@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-shelby",
+  "publisher": "Shelby County, AL (via Alabama Parcel Data, PowerSouth)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/39",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01117"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Shelby County Parcels layer from PowerSouth Alabama_Parcel_Data service; land use not reliably populated in source",
+  "verification": {
+    "verified_at": 1792048401475,
+    "counties": [
+      "01117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

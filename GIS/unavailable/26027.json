@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "26027",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.casscountymi.org/1345/Geographic-Information-Systems",
+    "https://www.casscountymi.org/1527/Resource-Links",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=1152&LayerID=30814&PageTypeID=1&PageID=12487",
+    "https://casscountymi.maps.arcgis.com/home/index.html",
+    "https://services1.arcgis.com/vFQXQuqACTPxa4Yc/arcgis/rest/services/CASS_COUNTY/FeatureServer"
+  ],
+  "note": "Searched county GIS page, resource links, the county ArcGIS Online org (owner search returns 0 items), ArcGIS Hub/Online search for Cass County MI parcels, and state DNR/MGF sources. County parcels are only offered through the Beacon (Schneider) viewer, a Cloudflare-protected web app with no public REST endpoint, and as downloads from commercial vendors (Regrid, Equator, Dynamo). The only Cass County ArcGIS services found are a 1-feature county boundary and unrelated layers. No queryable county parcel service was found.",
+  "recorded_at": 1792049985742,
+  "recheck_after": 1807601985742,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-lincoln",
+  "publisher": "Lincoln County, MN (GIS via lcmn.maps.arcgis.com web map)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/4bzoopFK3ECP25Sn/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27081"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "owner": "TP_NAME1",
+    "acres": "ACRE"
+  },
+  "notes": "Lincoln County MN parcel layer from the county ArcGIS Online org (lcmn.maps.arcgis.com web map). About 7,039 features. Physical site address (Phys_Add) is blank for most rural parcels, so it is not mapped. ACRE is a string value.",
+  "verification": {
+    "verified_at": 1792050975241,
+    "counties": [
+      "27081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

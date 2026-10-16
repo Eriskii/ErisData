@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-morris",
+  "publisher": "Morris County Appraisal District via TxGIO (BIS Consultants), hosted by CincolandGIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/SBVelvjTzPGISLro/arcgis/rest/services/MORRIS_PARCELS/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48343"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "assessed_value": "MKT_VALUE"
+  },
+  "filter": "COUNTY = 'Morris'",
+  "notes": "TxGIO DataHub annual parcel extract; FIPS field in source is unreliable (shows 48001), so filter on COUNTY",
+  "verification": {
+    "verified_at": 1792051731875,
+    "counties": [
+      "48343"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

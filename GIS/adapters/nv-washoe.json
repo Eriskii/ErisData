@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nv-washoe",
+  "publisher": "Washoe County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://wcgisweb.washoecounty.us/arcgis/rest/services/OpenData/OpenData/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32031"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "LASTNAME",
+    "address": "FullAddress",
+    "acres": "ACREAGE",
+    "land_use": "LAND_USE",
+    "assessed_value": "TOTALASS"
+  },
+  "notes": "Washoe County open data parcels; owner field is last name only in source",
+  "verification": {
+    "verified_at": 1792051326221,
+    "counties": [
+      "32031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-chickasaw",
+  "publisher": "Iowa DHSEMA (hosted by University of Iowa), Iowa Parcels 2017",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19037"
+    ]
+  },
+  "fields": {
+    "apn": "UNPARCELID",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'CHICKASAW'",
+  "notes": "Statewide Iowa parcel layer filtered to Chickasaw county; source lacks address and acreage fields",
+  "verification": {
+    "verified_at": 1792049290704,
+    "counties": [
+      "19037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

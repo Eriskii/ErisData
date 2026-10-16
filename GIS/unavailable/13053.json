@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13053",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/ (Beacon/qPublic viewer for Chattahoochee County GA; returns 403, no REST endpoint visible)",
+    "https://www.qpublic.net/ga/chattahoochee/index.html (county assessor qPublic site; no public service URL)",
+    "https://app.regrid.com/store/us/ga/chattahoochee (commercial vendor parcel download, not a county-published service)",
+    "https://rockfordmap.com/maps/georgia-chattahoochee-county/ (commercial shapefile vendor, quote-based)"
+  ],
+  "note": "Searched ArcGIS Hub/Online for Chattahoochee County parcels (no county parcel FeatureServer found), checked River Valley RC, Georgia GIS Clearinghouse (blocked, no Chattahoochee service link), and the Alabama Parcel Data service (Russell County only). Only parcel sources found are the qPublic viewer (no public REST) and paid vendors (Regrid, Rockford Map). No queryable public county parcel service or file identified.",
+  "recorded_at": 1792048814838,
+  "recheck_after": 1807600814838,
+  "model": "claude-haiku-5-5"
+}

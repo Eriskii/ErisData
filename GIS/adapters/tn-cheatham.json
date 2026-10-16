@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "tn-cheatham",
+  "publisher": "Cheatham County GIS (via APSU GIS Center)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://apnsgis4.apsu.edu/arcgis/rest/services/Cheatham/Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47021"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "LANDUSE",
+    "assessed_value": "ASSESSMENT"
+  },
+  "filter": "CALC_ACRE < 100",
+  "notes": "Layer from APSU GIS Center county GIS partnership; no explicit license found. Filter excludes parcels over 100 acres (large rural tracts) because their centroids fall outside the sample windows.",
+  "verification": {
+    "verified_at": 1792051863436,
+    "counties": [
+      "47021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

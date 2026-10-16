@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13153",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=HoustonCountyGA&Layer=Parcels&PageType=Search",
+    "https://www.houstoncountyga.gov/residents/tax-assessor.cms",
+    "https://app.regrid.com/us/ga/houston",
+    "https://www.dynamospatial.com/c/houston-county-ga/parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for a Houston County GA parcel polygon service. Found none county-published. Only the county's parcel access is the Schneider qPublic viewer (Cloudflare-blocked, no public REST endpoint visible); county GIS page 404s. Other parcel sources are commercial (Regrid, Dynamo) or city-only (Perry, Warner Robins) layers.",
+  "recorded_at": 1792048836581,
+  "recheck_after": 1807600836581,
+  "model": "claude-haiku-5-5"
+}

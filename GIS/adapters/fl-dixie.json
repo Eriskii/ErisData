@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "fl-dixie",
+  "publisher": "Florida Department of Revenue statewide parcels (FL_Parcels copy, Dixie County, DOR county no. 25)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/GcvM6vDlR2gM4x31/arcgis/rest/services/FL_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12029"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_NAME",
+    "address": "PHY_ADDR1",
+    "acres": "Acres",
+    "land_use": "DOR_UC",
+    "assessed_value": "JV"
+  },
+  "filter": "CO_NO = 25",
+  "notes": "Florida DOR statewide parcel data, filtered to Dixie County (DOR county no. 25). Public ArcGIS service.",
+  "verification": {
+    "verified_at": 1792049284256,
+    "counties": [
+      "12029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

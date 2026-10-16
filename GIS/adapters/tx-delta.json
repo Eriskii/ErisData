@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-delta",
+  "publisher": "Delta Central Appraisal District (via DeltaCADWebService, BIS Consulting)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/CPh8611N01zfPAqb/arcgis/rest/services/DeltaCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48119"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Delta CAD parcel layer from BIS Consulting vendor service; public, no token on this endpoint",
+  "verification": {
+    "verified_at": 1792051673077,
+    "counties": [
+      "48119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

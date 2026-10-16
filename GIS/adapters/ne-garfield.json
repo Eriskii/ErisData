@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-garfield",
+  "publisher": "Garfield County, NE (gWorks-hosted GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Garfield_County_NE_Assessor/MapServer/30",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31071"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "Parcel polygons from Garfield County NE Assessor MapServer hosted on gWorks; layer 30 Parcels. Only PID and acres fields exposed.",
+  "verification": {
+    "verified_at": 1792051150473,
+    "counties": [
+      "31071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

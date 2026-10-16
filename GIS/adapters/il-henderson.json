@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-henderson",
+  "publisher": "Henderson County GIS (hosted by WIU GIS Center)",
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://gis.wiu.edu/arcgis/rest/services/Henderson_basemap_online/MapServer/6/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "17071"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "owner1_nam",
+    "acres": "Acreage",
+    "land_use": "class"
+  },
+  "notes": "Source MapServer/6 lacks pagination; single query capped at maxRecordCount 2000 of ~8105 parcels, so coverage is partial. site_addre sparsely filled.",
+  "verification": {
+    "verified_at": 1792049029787,
+    "counties": [
+      "17071"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

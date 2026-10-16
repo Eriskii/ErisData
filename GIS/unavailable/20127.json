@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "20127",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.morriscountyks.org/1203/Parcel-Search",
+    "https://www.morriscountyks.org/1196/Appraiser",
+    "https://ks288.cichosting.com/webportal/Login.aspx",
+    "https://orkahub.kansasgis.org/",
+    "https://services.kgs.ku.edu/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer",
+    "https://www.dynamospatial.com/c/morris-county-ks/parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Morris County parcel service found) and the county appraiser site. The county's Parcel Search is a web portal (CichoSting webportal) with no public REST service. The appraiser's 'GIS Web Mapping Service' link goes to the state ORKA hub, which is request-based per county. KGS ORKA_Extras MapServer has no Morris parcel polygons (layer 1 is a vector tile index). Commercial vendors (Dynamo, Acres, MappingSolutions, Regrid) only sell files; no public queryable parcel service for Morris County, KS was found.",
+  "recorded_at": 1792049367207,
+  "recheck_after": 1807601367207,
+  "model": "claude-haiku-5-5"
+}

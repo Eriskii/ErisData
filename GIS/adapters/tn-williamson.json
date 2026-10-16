@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-williamson",
+  "publisher": "Williamson County GIS (CountyMap_gdb, Williamson County TN ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/hkhKI6Qq7rjvBjZU/arcgis/rest/services/CountyMap_gdb/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47187"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "OwnerName1",
+    "address": "SITUS",
+    "acres": "AC",
+    "assessed_value": "total_asse"
+  },
+  "notes": "Williamson County TN parcel layer from the county online map geodatabase",
+  "verification": {
+    "verified_at": 1792052650119,
+    "counties": [
+      "47187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

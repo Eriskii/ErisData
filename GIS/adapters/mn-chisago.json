@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-chisago",
+  "publisher": "Chisago County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.chisagocounty.us/arcgis/rest/services/AssessmentInformation/TaxParcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27025"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Ownname",
+    "address": "PropAddr",
+    "acres": "gisacres",
+    "land_use": "ClassCd1",
+    "assessed_value": "TotalValue"
+  },
+  "notes": "Chisago County MN tax parcels; keyed by PIN; from county ArcGIS MapServer",
+  "verification": {
+    "verified_at": 1792050870106,
+    "counties": [
+      "27025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

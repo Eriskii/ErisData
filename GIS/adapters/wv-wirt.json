@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wv-wirt",
+  "publisher": "West Virginia GIS Technical Center (WVU) / WVGIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.wvgis.wvu.edu/arcgis/rest/services/Planning_Cadastre/WV_Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54105"
+    ]
+  },
+  "fields": {
+    "apn": "CleanParcelID",
+    "owner": "FullOwnerName",
+    "acres": "CALC_ACRE"
+  },
+  "filter": "COUNTY = '53'",
+  "notes": "Statewide WV parcel layer; Wirt County rows are COUNTY='53' (WV alphabetical county code). Physical address mostly empty in source, so not mapped. Source is WVGIS/WVU.",
+  "verification": {
+    "verified_at": 1792053125941,
+    "counties": [
+      "54105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

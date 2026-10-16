@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-onslow",
+  "publisher": "Onslow County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismaps.onslowcountync.gov/server/rest/services/WEB_PUBLICATIONS/County_Map_Layers/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37133"
+    ]
+  },
+  "fields": {
+    "apn": "PARID",
+    "owner": "OWNER1",
+    "address": "PHYSICALADDRESS",
+    "acres": "GISACRES",
+    "land_use": "PROPERTYTYPE",
+    "assessed_value": "TAXMARKETVALUE"
+  },
+  "notes": "Onslow County Parcels - Full Data, from Onslow County Open Data Hub; includes tax record links",
+  "verification": {
+    "verified_at": 1792051424934,
+    "counties": [
+      "37133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

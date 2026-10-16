@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-jim-wells",
+  "publisher": "Jim Wells County Appraisal District (via ArcGIS Online, bis_jimwellscad)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/36tOt5wOeEMz3tyS/arcgis/rest/services/JimWellsCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48249"
+    ]
+  },
+  "fields": {
+    "apn": "geoID",
+    "owner": "name",
+    "address": "situsAddre",
+    "acres": "legalAcrea"
+  },
+  "notes": "Parcels layer of the Jim Wells CAD web service (pYear 2027). land use code asCode is empty in sampled rows, so not mapped.",
+  "verification": {
+    "verified_at": 1792051704805,
+    "counties": [
+      "48249"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21217",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0",
+    "https://www.dynamospatial.com/c/taylor-county-ky/parcel-data",
+    "https://www.mappingsolutionsgis.com/taylor-county-kentucky-gis-parcel-data/"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the Kentucky kygisserver REST directory: only Webster County has a PVA parcel MapServer, no Taylor service. KYTC's county PVA availability layer lists Taylor as 'Not Yet Available'. Taylor parcels are sold only as commercial files (Dynamo Spatial, Mapping Solutions) or through the qPublic/Schneider PVA viewer, which is not a public parcel service.",
+  "recorded_at": 1792049932109,
+  "recheck_after": 1807601932109,
+  "model": "claude-haiku-5-5"
+}

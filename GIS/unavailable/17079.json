@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "17079",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://jaspercountyillinois.gov/supervisor-of-assessments/",
+    "https://jaspercountyillinois.gov/maps/",
+    "https://jasper-il.bhamaps.com/ (county GIS viewer; returns 403 Access Denied to automated requests, including its ArcGIS services path)",
+    "https://urbankitstudio.com/parcel-atlas/illinois (Jasper County not indexed)"
+  ],
+  "note": "Searched ArcGIS Hub/Online for Jasper County IL parcels: only hits were Jasper County SC (services6.arcgis.com/UXJOITFCLbn0Ibm0) and Jasper County MO, both wrong states, plus an aerials map service. The county's own parcel viewer is access-restricted and no FeatureServer/MapServer parcel layer is published. Remaining sources are paid/commercial downloads (Regrid, Dynamo, Rockford Map, Equator, Acres, AcreValue), which do not qualify as public county services.",
+  "recorded_at": 1792049006847,
+  "recheck_after": 1807601006847,
+  "model": "claude-haiku-5-5"
+}

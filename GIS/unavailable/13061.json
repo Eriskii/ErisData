@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "13061",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.claycountyga.net/maps",
+    "https://www.countyoffice.org/ga-clay-county-gis-maps/",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=830&LayerID=15008&PageTypeID=2&PageID=6754",
+    "https://www.qpublic.net/ga/clay/",
+    "https://assessorsearch.com/property-records/georgia/clay-county"
+  ],
+  "note": "Clay County GA parcels are published only through the Schneider qPublic viewer (qpublic.net/ga/clay), a proprietary web app with no public ArcGIS REST, MapServer or FeatureServer URL found. The county maps page offers only a static PDF parcel map. ArcGIS Online/Hub searches for Clay County GA parcels returned nothing (only Clayton County GA and Clay County FL/MO/AL). Neighbouring host patterns (Capture CAMA, PowerSouth AL) do not cover Georgia.",
+  "recorded_at": 1792048773748,
+  "recheck_after": 1807600773748,
+  "model": "claude-haiku-5-5"
+}

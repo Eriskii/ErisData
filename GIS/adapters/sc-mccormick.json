@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sc-mccormick",
+  "publisher": "McCormick County GIS (via Greenwood/McCormick web map, RFA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/RvqSyw3diI7dTKo5/arcgis/rest/services/Greenwood_McCormick_Web_Map_Feature_Layers/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45065"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "taxName",
+    "address": "taxStreetN",
+    "assessed_value": "taxTotAsse"
+  },
+  "notes": "McCormick County tax parcels; owner taxName, site street number taxStreetN; land use not populated in source",
+  "verification": {
+    "verified_at": 1792051598801,
+    "counties": [
+      "45065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

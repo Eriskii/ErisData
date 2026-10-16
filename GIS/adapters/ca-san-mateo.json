@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-san-mateo",
+  "publisher": "San Mateo County (active parcels, Jan 2025 download hosted by City of Half Moon Bay)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/PmM1Bg9qFLS54qH7/arcgis/rest/services/SAN_MATEO_COUNTY_ACTIVE_PARCELS_FGDB_/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06081"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "address": "SITUS_ADDR"
+  },
+  "notes": "San Mateo County active parcels, January 2025 SMC GIS download; no owner or value fields published in this copy",
+  "verification": {
+    "verified_at": 1792048666012,
+    "counties": [
+      "06081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

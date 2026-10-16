@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-mitchell",
+  "publisher": "Mitchell County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapping.mitchellcountync.gov/arcgis/rest/services/WebMapNew/MapServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37121"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Owner1",
+    "address": "LocAddr",
+    "acres": "LegalAc",
+    "land_use": "PropClas",
+    "assessed_value": "Total"
+  },
+  "notes": "Mitchell County NC public parcel layer from county WebMapNew MapServer, layer 12 (Parcels). Max 1000 records per request.",
+  "verification": {
+    "verified_at": 1792051366291,
+    "counties": [
+      "37121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

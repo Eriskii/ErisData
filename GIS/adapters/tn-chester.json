@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tn-chester",
+  "publisher": "Chester County Assessor of Property (via CAMA Capture map service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.capturecama.com/arcgis/rest/services/ChesterTN/ChesterCapture/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47023"
+    ]
+  },
+  "fields": {
+    "apn": "L15Parce_2",
+    "owner": "GPDATA__OW",
+    "address": "GPDATA__PR",
+    "acres": "L15Parce_4"
+  },
+  "notes": "Chester County TN parcel layer Parcels_12 from the Chester County CAMA capture map service; public ArcGIS REST, no login. Fields are GPDATA__ coded; owner GPDATA__OW, site address GPDATA__PR, city GPDATA__CI, zip GPDATA__ZI.",
+  "verification": {
+    "verified_at": 1792051884262,
+    "counties": [
+      "47023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

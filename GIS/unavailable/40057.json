@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40057",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://csagis-uok.opendata.arcgis.com/maps/5a999422035f4437b8f6c3a915239dd3",
+    "https://okmaps.org/OGI/xmlmetadatadownload.aspx?LayerUUID=1484707a-712a-4447-96a9-5a38affc600e",
+    "https://libertycoreconsultants.com/oklahoma-gisassessor-links/",
+    "https://maps.owrb.ok.gov/arcgis/rest/services/Hazard/Parcels/MapServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online, county GIS data warehouse, state clearinghouse and county directories. No Harmon County parcel polygon service found. Statewide parcels (okmaps.org) are view-only WMS, not downloadable. The OWRB 'Parcels by county' MapServer was unreachable from both my session and the validator, so it could not be verified. Remaining parcel sources are commercial portals or the county's assessor search site.",
+  "recorded_at": 1792051733771,
+  "recheck_after": 1807603733771,
+  "model": "claude-haiku-5-5"
+}

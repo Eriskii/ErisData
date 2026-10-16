@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ks-dickinson",
+  "publisher": "Dickinson County, KS GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/XBUaJ9z59sKeDhyY/arcgis/rest/services/Data_Dictionary/FeatureServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20041"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "PartyName",
+    "address": "SitusAddress",
+    "acres": "vproplevel_TotalAcres",
+    "land_use": "PropTypeDesc"
+  },
+  "notes": "Dickinson County KS parcel polygons (ParcelPolyDKBasemap), updated weekly by county GIS. Owner mailing address in PartyAddress.",
+  "verification": {
+    "verified_at": 1792049213324,
+    "counties": [
+      "20041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

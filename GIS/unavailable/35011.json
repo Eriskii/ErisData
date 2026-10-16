@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "35011",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer",
+    "https://gis.ose.state.nm.us/arcgis/rest/services/Parcels/County_Parcels_2021/MapServer"
+  ],
+  "note": "The NM OSE statewide county parcels service lists a De Baca County Parcels layer (layer 6), but every request to it returns HTTP 500 'Service Parcels/County_Parcels_2025/MapServer not started' (checked on the 2025 and 2021 services, several times). No other public parcel service for De Baca County was found: Regrid, Dynamo and Rockford are paid, and the acrevalue/acres plat viewers returned 403 with no service endpoint. Re-check when the OSE service is running.",
+  "recorded_at": 1792051523711,
+  "recheck_after": 1807603523711,
+  "model": "claude-haiku-5-5"
+}

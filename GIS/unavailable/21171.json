@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21171",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=MonroeCountyKY&Layer=Parcels&PageType=Search",
+    "https://www.qpublic.net/ky/monroe/",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=sitemap",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://monroecounty.ky.gov/Pages/Resources.aspx"
+  ],
+  "note": "Monroe County KY parcels are published only through the Schneider qPublic PVA search app (proprietary, no public ArcGIS REST or file download). Kentucky's state ArcGIS server hosts PVA parcel services for about nine counties (Webster, Barren, Caldwell, Nelson, etc.) but none for Monroe; the county GIS portal lists no GIS or parcel service links. ArcGIS Hub/Online searches for Monroe County KY parcels returned only Ohio or Florida results or commercial sites.",
+  "recorded_at": 1792049913643,
+  "recheck_after": 1807601913643,
+  "model": "claude-haiku-5-5"
+}

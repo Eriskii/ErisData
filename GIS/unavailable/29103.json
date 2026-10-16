@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "29103",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.mo.gov/arcgis01/rest/services/OA/FMDCrealEstate_allParcels/MapServer/0 (listed as 'Parcels - MO - Statewide' but returns 404 on MapServer, FeatureServer and layer paths; ogi.oa.mo.gov host unreachable)",
+    "https://www.knoxcountymo.org/index.cgi?tag=offices (county site lists Assessor in Edina with phone/email only, no GIS or parcel service link)",
+    "https://www.gismaps.org/mo-knox-county/ (directory page, no parcel service link)",
+    "https://usparcelmaps.com/missouri_parcels.html (no Knox County viewer link)",
+    "https://tiles.arcgis.com/tiles/KzeiCaQsMoeCfoCq/arcgis/rest/services/Regrid_Nationwide_Parcel_Boundaries_v1/MapServer/0 (commercial Regrid tile service; query endpoint returns 404, not queryable)",
+    "Third-party only: acres.com, acrevalue.com, fbn.com plat viewers; dynamospatial.com and regrid.com paid downloads; no county-published parcel service found"
+  ],
+  "note": "Searched ArcGIS Hub/Online, state MSDIS and FMDC services, county website, and vendor pages for Knox County MO. Only the state statewide parcel listing exists in the catalog, and it does not respond. No public queryable Knox County parcel polygon service found.",
+  "recorded_at": 1792051028404,
+  "recheck_after": 1807603028404,
+  "model": "claude-haiku-5-5"
+}

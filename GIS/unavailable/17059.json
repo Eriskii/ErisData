@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "17059",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gallatinco.illinois.gov/departments/supervisor-of-assessments/",
+    "https://gallatinco.illinois.gov/gis-property-index/",
+    "https://app.regrid.com/us/il/gallatin",
+    "https://www.acres.com/plat-map/map/il/gallatin-county-il"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Gallatin County IL parcels. The county's official GIS map (gallatinco.illinois.gov, linked from the Supervisor of Assessments page) could not be reached, and no county-hosted public ArcGIS parcel service was found. Only commercial viewers (Regrid, Acres, Rockford Map Publishers) offer parcel data. ArcGIS services under services3.arcgis.com/JuknJLoAEm9DTWXh (Parcels_May_2026, OwnerParcel) belong to Gallatin County, Montana: zero features at the Illinois sample point. services.arcgis.com/9ecg2KpMLcsUv1Oh Gallatin_County_Parcels_WFL1 is a student project with no parcels at the sample point.",
+  "recorded_at": 1792049016156,
+  "recheck_after": 1807601016156,
+  "model": "claude-haiku-5-5"
+}

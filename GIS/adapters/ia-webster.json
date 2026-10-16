@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-webster",
+  "publisher": "Iowa DHS&EM statewide parcel layer (Webster County subset)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19187"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'WEBSTER'",
+  "notes": "Statewide Iowa parcel layer filtered to Webster County; 2017 snapshot. Public ArcGIS service.",
+  "verification": {
+    "verified_at": 1792049293239,
+    "counties": [
+      "19187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

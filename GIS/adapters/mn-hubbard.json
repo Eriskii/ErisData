@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-hubbard",
+  "publisher": "Hubbard County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.hubbard.mn.us/arcgis/rest/services/OpenData/Hubbard_County_Tax_Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27057"
+    ]
+  },
+  "fields": {
+    "apn": "hubbgis_GIS_Parcels_PIN",
+    "owner": "PINAME1",
+    "address": "PIADRLN1",
+    "acres": "PYACRES",
+    "land_use": "Class1",
+    "assessed_value": "EMVTOT"
+  },
+  "notes": "Hubbard County MN open data tax parcels; PYACRES is prior-year acres",
+  "verification": {
+    "verified_at": 1792050887248,
+    "counties": [
+      "27057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

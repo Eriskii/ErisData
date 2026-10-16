@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-polk",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (STS-GIS), Polk County rows",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47139"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_ID = 70",
+  "notes": "Statewide TN property boundaries filtered to COUNTY_ID 70 (Polk, COUNTY_NAME Polk).",
+  "verification": {
+    "verified_at": 1792052677908,
+    "counties": [
+      "47139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

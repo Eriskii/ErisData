@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-jeffdavis",
+  "publisher": "TxGIO Texas Land Parcels (statewide, from Texas appraisal districts)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 200,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "48243"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA"
+  },
+  "filter": "FIPS = '48243'",
+  "notes": "TxGIO statewide parcels from Jeff Davis Appraisal District (2024); small page size needed or queries time out; land use/value empty in source",
+  "verification": {
+    "verified_at": 1792053518434,
+    "counties": [
+      "48243"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

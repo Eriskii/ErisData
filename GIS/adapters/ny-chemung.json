@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ny-chemung",
+  "publisher": "Chemung County GIS (GDITAdmin)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Zuw6weNBpZX2wFbS/arcgis/rest/services/Chemung_County_Parcels_Merged_9.1.2021/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36015"
+    ]
+  },
+  "fields": {
+    "apn": "PrintKey",
+    "owner": "CURRENT_OW",
+    "address": "RPS_ADDRES",
+    "acres": "Calc_Acre",
+    "land_use": "PARCEL_LOC"
+  },
+  "notes": "Chemung County merged parcel layer, 2021; PrintKey is the parcel print key; ParcelNumb is mostly blank",
+  "verification": {
+    "verified_at": 1792051420124,
+    "counties": [
+      "36015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

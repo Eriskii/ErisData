@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-henry",
+  "publisher": "Henry County IL (Sidwell Company, Portico)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/Parcel_Henry/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17073"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "owner_name",
+    "acres": "ACREAGE",
+    "land_use": "use_code",
+    "assessed_value": "tot_assess"
+  },
+  "notes": "Sidwell Portico parcel layer for Henry County IL; 31932 features. location_addr is sparse (mostly blank for rural parcels), so address not mapped.",
+  "verification": {
+    "verified_at": 1792049001544,
+    "counties": [
+      "17073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

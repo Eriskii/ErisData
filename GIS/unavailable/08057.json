@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "08057",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://jacksoncounty.colorado.gov/data-requests-and-pricing",
+    "https://jacksoncounty.colorado.gov/gis",
+    "https://eagleweb.jacksoncountyco.gov/assessor/web/",
+    "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query?where=countyFips%3D%2708057%27&returnCountOnly=true&f=json"
+  ],
+  "note": "Jackson County CO (08057) publishes no queryable parcel polygon service found after search. County GIS page returns 403 and links to an interactive map with no public service located. Assessor site is an EagleWeb property-card search. Parcel shapefiles are sold by the assessor for a fee (check only). The state Colorado_Public_Parcels layer has 0 features for countyFips 08057 or countyName 'Jackson'. ArcGIS searches only returned Jackson County MO, WI, NC, MI and OR services.",
+  "recorded_at": 1792048811648,
+  "recheck_after": 1807600811648,
+  "model": "claude-haiku-5-5"
+}

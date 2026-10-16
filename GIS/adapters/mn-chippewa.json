@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-chippewa",
+  "publisher": "Minnesota Geospatial Commons / Chippewa County (Open Parcels compilation)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_mngeo/plan_parcels_open/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27023"
+    ]
+  },
+  "fields": {
+    "apn": "state_pin",
+    "owner": "owner_name",
+    "acres": "acres_poly",
+    "land_use": "useclass1"
+  },
+  "filter": "co_code = '27023'",
+  "notes": "Statewide compiled open parcels (MN Geospatial Commons), filtered to co_code 27023 (about 11,962 features). Site address and assessed value are sparse or empty in this compilation for Chippewa County, so they are not mapped. Source CRS EPSG:26915; service returns geoJSON.",
+  "verification": {
+    "verified_at": 1792050899859,
+    "counties": [
+      "27023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-nueces",
+  "publisher": "Nueces County Appraisal District (via NuecesCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/j94FvPaik4etwHFk/ArcGIS/rest/services/NuecesCADWebService/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48355"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Nueces CAD parcel layer, public ArcGIS web service",
+  "verification": {
+    "verified_at": 1792051880754,
+    "counties": [
+      "48355"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

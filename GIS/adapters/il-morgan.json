@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-morgan",
+  "publisher": "Morgan County, IL GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/95PFahBF8eyGEfuc/arcgis/rest/services/TaxParcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17137"
+    ]
+  },
+  "fields": {
+    "apn": "pin",
+    "owner": "owner1_nam",
+    "acres": "gross_acre",
+    "land_use": "tax_code",
+    "assessed_value": "total_asse"
+  },
+  "notes": "Morgan County IL tax parcels, hosted by county ArcGIS Online (sla100). Site address field (site_addre) is mostly blank in source, so not mapped.",
+  "verification": {
+    "verified_at": 1792048967254,
+    "counties": [
+      "17137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

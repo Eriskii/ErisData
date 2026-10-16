@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29045",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://clark.missouriassessors.com/",
+    "https://clarkcountymo.org/county-offices/assessor/",
+    "https://gis.mo.gov/arcgis/rest/services/OA/FMDCrealEstate_allParcels/MapServer/0",
+    "https://gisserver2.ccgisonline.com/server/rest/services/BASELAYERS/PARCELS/MapServer/0"
+  ],
+  "note": "No public queryable parcel service found for Clark County MO (FIPS 29045). The assessor site and county site link no GIS or parcel service. The statewide MO parcel service (gis.mo.gov FMDCrealEstate_allParcels) requires a token. The ccgisonline.com parcel layer is Clark County, Kentucky: 0 features inside the Missouri bounding box. Remaining hits are commercial vendors (Regrid, landrecords.us, acres.com).",
+  "recorded_at": 1792051029084,
+  "recheck_after": 1807603029084,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "20035",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.cowleycountyks.gov/374/GIS-Services",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=1237&LayerID=39451&PageTypeID=1&PageID=14684",
+    "https://gis.cowleycountyks.gov/server/rest/services/MunicipalBoundary/MapServer"
+  ],
+  "note": "Cowley County publishes parcels only through its Beacon (Schneider) viewer, which is not a public ArcGIS REST service or file download and returned a Cloudflare 403 to automated access. The only county ArcGIS REST service found (MunicipalBoundary MapServer) holds municipal boundaries, not parcels. Other parcel sources are commercial vendors or third-party downloads, not county-published.",
+  "recorded_at": 1792049266332,
+  "recheck_after": 1807601266332,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "la-st-landry",
+  "publisher": "St. Landry Parish GIS (GDITAdmin ArcGIS Hub)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/fe3XWHMASK948q2c/ArcGIS/rest/services/StLandryParcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22097"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL",
+    "acres": "CALC_ACRES"
+  },
+  "notes": "Parcel polygons from St. Landry Parish GIS layer; about 62,196 features. Layer publishes no owner or address fields; BUS_NAME is mostly empty and not mapped.",
+  "verification": {
+    "verified_at": 1792049853636,
+    "counties": [
+      "22097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ky-mccracken",
+  "publisher": "McCracken County PVA / MapGIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/xkOPDyh2DVxtFEGe/arcgis/rest/services/OwnerParcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21145"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "NAME",
+    "address": "LOCATION",
+    "acres": "ACRES",
+    "land_use": "CLASS"
+  },
+  "notes": "McCracken County KY PVA ownership parcels, hosted by MapGIS (Paducah/McCracken)",
+  "verification": {
+    "verified_at": 1792049866137,
+    "counties": [
+      "21145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

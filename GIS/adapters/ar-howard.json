@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-howard",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05061"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "countyfips = '061'",
+  "notes": "Statewide Arkansas parcel polygons, filtered to Howard County (countyfips 061). Not a legal boundary; for ad valorem tax valuation purposes. Updated twice a year. Address (adrlabel) is sparsely populated in the source and omitted. assessed_value uses totalvalue because assessvalue is empty.",
+  "verification": {
+    "verified_at": 1792048538227,
+    "counties": [
+      "05061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

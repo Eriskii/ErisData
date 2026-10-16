@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "22041",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://qpublic.net/la/laassessors/",
+    "https://www.franklinparish.org/",
+    "https://franklin.smartcama.com/Assessments/Search",
+    "https://www.gis-portal.org/la-franklin-parish/",
+    "https://www.dynamospatial.com/c/franklin-parish-la/parcel-data",
+    "https://app.regrid.com/store/us/la/franklin"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Franklin Parish LA parcels. No public ArcGIS REST or downloadable parcel service found. qPublic/Louisiana assessor portal lists Franklin but its page is unreachable and no map service URL is exposed. Franklin assessor site is SmartCAMA (CAMA search, no GIS polygon endpoint found). Franklin GIS portal pages are generic with no service link. Parcel data found only from commercial vendors (Dynamo Spatial paid download, Regrid, Land Records, Acres). LandGrid parcel service on ArcGIS Online requires a token. Regional DOTD services contain boundaries only.",
+  "recorded_at": 1792050000861,
+  "recheck_after": 1807602000861,
+  "model": "claude-haiku-5-5"
+}

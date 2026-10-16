@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-orange",
+  "publisher": "Orange County Property Appraiser",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://vgispublic.ocpafl.org/server/rest/services/DYNAMIC/Dynamic_Parcels/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12095"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL",
+    "owner": "NAME1",
+    "address": "SITUS",
+    "acres": "ACREAGE",
+    "land_use": "DOR_CODE",
+    "assessed_value": "PYASSESSED_VALUE"
+  },
+  "notes": "Orange County Property Appraiser public dynamic parcels layer (Parcels_Poly)",
+  "verification": {
+    "verified_at": 1792049055349,
+    "counties": [
+      "12095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

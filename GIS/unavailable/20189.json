@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20189",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.stevenscoks.org/departments/gis.php",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Stevens",
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Stevens KS parcel layers); county GIS Public Parcel Search leads only to the state ORKA intro page with an Open Records acceptance step; statewide ORKA REST folders have no county parcel polygons (KS_ORKA_Extras has lots, subdivisions, ag use only). ORKA parcel data is requested per county via PORKA with registration and county approval.",
+  "recorded_at": 1792049429626,
+  "recheck_after": 1807601429626,
+  "model": "claude-haiku-5-5"
+}

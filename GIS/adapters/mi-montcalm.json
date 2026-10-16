@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mi-montcalm",
+  "publisher": "Montcalm County GIS (BS&A tax parcel export, hosted via ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/GJ2uZAPsEvtmqpe1/arcgis/rest/services/Tax_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26117"
+    ]
+  },
+  "fields": {
+    "apn": "TaxParcel_PARCELID",
+    "owner": "BSAEXPORT_ONERNAME1",
+    "address": "BSAEXPORT_PCOMBINED",
+    "acres": "MapAcreage",
+    "land_use": "BSAEXPORT_PRTYCLASS",
+    "assessed_value": "BSAEXPORT_AAR1_MBOR"
+  },
+  "notes": "Tax parcels from BS&A export; about 44,000 features; owner, property address, class and SEV fields included.",
+  "verification": {
+    "verified_at": 1792049960851,
+    "counties": [
+      "26117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

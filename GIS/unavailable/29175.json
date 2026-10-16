@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29175",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://randolphgis.breezemaps.com/",
+    "https://randolph.missouriassessors.com/",
+    "https://randolphcounty-mo.com/departments/assessor/",
+    "https://gis.mo.gov/arcgis/rest/services/OA/FMDCrealEstate_StateOwnedParcels/MapServer"
+  ],
+  "note": "Randolph County MO publishes no queryable parcel service found after search. Its official GIS viewer (randolphgis.breezemaps.com, gated by a disclaimer) is a BreezeMaps app with no ArcGIS REST endpoint (probe returned HTML). The assessor site (Vanguard/CAMA) links no parcel service. The only state ArcGIS parcel service (FMDCrealEstate_StateOwnedParcels) covers state-owned property only. Commercial parcel sellers (Regrid, Dynamo Spatial, Acres) are not county services.",
+  "recorded_at": 1792051101781,
+  "recheck_after": 1807603101781,
+  "model": "claude-haiku-5-5"
+}

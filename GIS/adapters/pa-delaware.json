@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-delaware",
+  "publisher": "Delaware County PA Board of Assessments (GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.delcopa.gov/arcgis/rest/services/Parcels/Parcels_Public_Access/FeatureServer/0",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42045"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "CLICKTHROU",
+    "address": "ADRCAT",
+    "acres": "Shape__Area"
+  },
+  "notes": "Delaware County PA Parcels_Public_Access layer; owner not in layer; CLICKTHROU is a link to the assessment datalet",
+  "verification": {
+    "verified_at": 1792051585723,
+    "counties": [
+      "42045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

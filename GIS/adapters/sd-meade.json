@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sd-meade",
+  "publisher": "Meade County, SD (hosted by City of Rapid City GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rcgov.org/server/rest/services/AGOL/MPO/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46093"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "DEEDHOLD",
+    "acres": "GrossAcres",
+    "land_use": "Class1",
+    "assessed_value": "AssdValue"
+  },
+  "notes": "Meade County parcels layer served by Rapid City GIS; site address sparse (mostly rural), so address not mapped. Verify currency with county.",
+  "verification": {
+    "verified_at": 1792051630698,
+    "counties": [
+      "46093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

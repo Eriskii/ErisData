@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sd-brookings",
+  "publisher": "Brookings County, SD (impervious surface parcels, hosted by ISG)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/15GJI8WbC3n3DIUU/arcgis/rest/services/Impervious_Surface_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46011"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "acres": "totalArea_ac"
+  },
+  "notes": "Impervious surface parcel layer; no owner/address/value fields published in this layer",
+  "verification": {
+    "verified_at": 1792051627144,
+    "counties": [
+      "46011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

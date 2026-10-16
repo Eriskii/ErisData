@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "40051",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.efsedge.com/Grady/",
+    "http://grady.oklahoma.usassessor.com/Shared/base/LiteSearch/Search.php",
+    "https://maps.acres.com/plat-map/map/ok/grady-county-ok",
+    "https://okmaps.org/ogi/search.aspx",
+    "https://csagis-uok.opendata.arcgis.com/",
+    "https://services.arcgis.com/3xOwF6p0r7IHIjfn/arcgis/rest/services/Grady_County_Data/FeatureServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Grady County OK parcel services. The county assessor viewers (EFS Edge, usassessor, Acres plat map) are proprietary viewers with no public ArcGIS REST parcel service found. The statewide OK parcel layer (okmaps.org) is view-only/WMS, not downloadable. The CSA and Grady County Data ArcGIS services contain no parcel layer. The only ArcGIS parcel source found is Regrid's nationwide MapServer tile service, which is view-only with no queryable attributes (query returns 404). Commercial parcel downloads (Regrid, ReportAll, Dynamo) are paid, not public services.",
+  "recorded_at": 1792051483044,
+  "recheck_after": 1807603483044,
+  "model": "claude-haiku-5-5"
+}

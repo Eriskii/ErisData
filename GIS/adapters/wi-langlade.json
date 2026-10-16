@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "wi-langlade",
+  "publisher": "Langlade County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/XZITcenZeXZ3Y5EZ/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55067"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID"
+  },
+  "notes": "Langlade County parcel layer from ArcGIS Online (owner: Langlade_GIS_Tech); main purpose ownership display. Only PARCELID exposed.",
+  "verification": {
+    "verified_at": 1792045212712,
+    "counties": [
+      "55067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

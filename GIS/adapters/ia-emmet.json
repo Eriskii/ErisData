@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-emmet",
+  "publisher": "Iowa DHS-HSEMD (hosted by University of Iowa) - Iowa Parcels 2017, Emmet County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19063"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'EMMET'",
+  "notes": "Statewide Iowa parcel layer filtered to COUNTYNAME EMMET. Attributes limited to parcel number, classification and deed holder.",
+  "verification": {
+    "verified_at": 1792049289691,
+    "counties": [
+      "19063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

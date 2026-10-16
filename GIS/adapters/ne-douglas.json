@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ne-douglas",
+  "publisher": "Douglas County GIS (DOGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://dcgis.org/server/rest/services/vector/Parcels_public/FeatureServer/0",
+    "page_size": 341,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "31055"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER_NAME",
+    "address": "PROPERTY_A",
+    "acres": "ACRES",
+    "land_use": "CLASS"
+  },
+  "notes": "Public parcels layer maintained by County Assessor; about 217k records",
+  "verification": {
+    "verified_at": 1792051114762,
+    "counties": [
+      "31055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

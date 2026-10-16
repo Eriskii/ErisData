@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-lafourche",
+  "publisher": "Lafourche Parish GIS (NLCLDD)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/4SUeHSEFUQHen9tg/arcgis/rest/services/LafourcheParishParcels2020/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22057"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnumb",
+    "owner": "owner_name",
+    "acres": "acres",
+    "assessed_value": "assessed_v"
+  },
+  "notes": "Lafourche Parish Parcels 2020, public ArcGIS service. Street address fields (par_addres, address_nu) are sparsely populated, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792049839011,
+    "counties": [
+      "22057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

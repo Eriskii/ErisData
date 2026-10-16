@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-nuckolls",
+  "publisher": "Nuckolls County NE Assessor (gWorks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Nuckolls_County_NE_Assessor/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31129"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "gWorks-hosted; only PID and acres attributes",
+  "verification": {
+    "verified_at": 1792051370767,
+    "counties": [
+      "31129"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

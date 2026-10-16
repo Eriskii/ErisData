@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "hi-maui",
+  "publisher": "County of Maui / State of Hawaii GIS (TMK parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geodata.hawaii.gov/arcgis/rest/services/ParcelsZoning/MapServer/30",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "15009"
+    ]
+  },
+  "fields": {
+    "apn": "TMK_txt",
+    "owner": "Homeowner",
+    "address": "TMK_txt",
+    "acres": "GISAcres",
+    "assessed_value": "LandValue"
+  },
+  "notes": "TMK parcels for Maui County, April 2026 release. Owner field is homeowner flag only; no owner name published in this layer. Land value only.",
+  "verification": {
+    "verified_at": 1792048848130,
+    "counties": [
+      "15009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

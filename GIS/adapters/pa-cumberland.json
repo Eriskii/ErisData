@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-cumberland",
+  "publisher": "Cumberland County GIS (CCPA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/1Cfo0re3un0w6a30/arcgis/rest/services/Tax_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER",
+    "address": "SITUS",
+    "acres": "CalcAcre",
+    "land_use": "LUC",
+    "assessed_value": "TOTAL_VAL"
+  },
+  "notes": "Cumberland County PA open data Tax Parcels layer; CAMA attributes",
+  "verification": {
+    "verified_at": 1792051646021,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "22125",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.wfassessor.com/",
+    "https://maps.smartcama.com/westfeliciana",
+    "https://maps.smartcama.com/westfeliciana/map",
+    "https://maps.smartcama.com/westfeliciana/parcel_assessments.csv",
+    "https://www.gismaps.org/la-west-feliciana-parish/",
+    "https://app.regrid.com/store/us/la/west-feliciana"
+  ],
+  "note": "West Feliciana Parish assessor parcels are served only through the SmartCAMA web viewer (maps.smartcama.com/westfeliciana). Its map loads parcel geometry from an endpoint not exposed in the page HTML, and the parcel CSV has headers only (no geometry). ArcGIS Hub and Online searches for West Feliciana parcels returned no parish-published parcel FeatureServer or MapServer (only flood, FIRM, census and web-map items, plus East Feliciana's service). Remaining parcel sources found were commercial (Regrid, Acres, DynaMo), which do not count as county publication.",
+  "recorded_at": 1792049957669,
+  "recheck_after": 1807601957669,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "46127",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://unioncountysd.org/director-of-equalization/",
+    "https://unioncountysd.org/treasurer/",
+    "https://beacon.schneidercorp.com/?site=UnionCountySD",
+    "https://app.regrid.com/us/sd/union"
+  ],
+  "note": "Union County SD directs users to its Beacon (Schneider) viewer for parcel maps and data. Beacon returns 403 'Request forbidden by administrative rules' / Cloudflare interstitial to automated access, and no public ArcGIS REST parcel service is linked. The ArcGIS 'Union County Parcel Viewer' experience (8ce9289b0dbf4fa8a41a16794d8f0032) is owned by UnionGIS but is for Union County, New Mexico (NM tags, 575 phone, NM extent), so it is not this county. ArcGIS Hub/Online and web searches for Union County SD parcels found no county parcel service. Regrid and Equator Studios are commercial sources, not county-published.",
+  "recorded_at": 1792051691438,
+  "recheck_after": 1807603691438,
+  "model": "claude-haiku-5-5"
+}

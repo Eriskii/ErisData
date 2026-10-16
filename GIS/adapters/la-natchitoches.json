@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-natchitoches",
+  "publisher": "Natchitoches Parish (parcel data hosted by tomhing, ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/eR5n9maFLflJFdXU/arcgis/rest/services/LA_Natchitoches_Parish_22069_a0198910/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22069"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNER",
+    "acres": "CALC_ACREA",
+    "assessed_value": "MKT_VAL_TO"
+  },
+  "notes": "Parcel polygons with assessor attributes (about 29,443 features) from ArcGIS Online parcel data for Natchitoches Parish, 2023. Situs address and land use fields are mostly blank in source, so not mapped.",
+  "verification": {
+    "verified_at": 1792049840799,
+    "counties": [
+      "22069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

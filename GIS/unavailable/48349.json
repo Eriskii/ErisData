@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48349",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services7.arcgis.com/yfE8xVBACewiUO4D/arcgis/rest/services/Navarro_County_Parcel_Data/FeatureServer",
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap_land_parcels_48_most_recent/MapServer/0",
+    "https://gis.bisclient.com/maps03/rest/services/NavarroWeb/MapServer/0"
+  ],
+  "note": "Navarro CAD parcel data exists only as (a) an ArcGIS Online feature service (yfE8xVBACewiUO4D Navarro_County_Parcel_Data) that returns 'Token Required'; (b) the TxGIO StratMap 48 Most Recent layer, which lists FIPS fields but rejects every query ('Requested operation is not supported'); (c) the Navarro CAD viewer's BIS service (gis.bisclient.com NavarroWeb), which now returns 404. The tnris.org hosts were unreachable from here and from the validator. No public, queryable Navarro parcel polygon service was found.",
+  "recorded_at": 1792051925680,
+  "recheck_after": 1807603925680,
+  "model": "claude-haiku-5-5"
+}

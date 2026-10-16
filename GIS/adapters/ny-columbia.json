@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ny-columbia",
+  "publisher": "Columbia County NY Real Property Tax Service (via County GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/71beebf563f848479e79202d20c2dfe7/rest/services/CCBT24/FeatureServer/200",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36021"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "address": "StreetName",
+    "acres": "CalcAcres",
+    "land_use": "PropClass"
+  },
+  "notes": "Columbia County tax parcels, linked from the county Parcel Viewer web map. No owner or assessed value fields published in this layer. Address field is street name only.",
+  "verification": {
+    "verified_at": 1792051395508,
+    "counties": [
+      "36021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-washington",
+  "publisher": "Northwest Arkansas Regional Planning Commission (Washington County assessor data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/Washington_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05143"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "ow_name",
+    "acres": "CALC_ACRES",
+    "land_use": "parcel_type",
+    "assessed_value": "assess_val"
+  },
+  "notes": "Compiled from Washington County assessor rolls by NWARPC; not a legal boundary. Situs address fields (ph_*) are sparse, mostly empty for rural parcels, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792048517115,
+    "counties": [
+      "05143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-yankton",
+  "publisher": "Yankton County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Iz7mflZV1DVFSE2G/arcgis/rest/services/PARCELS/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46135"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "Name",
+    "acres": "Acres"
+  },
+  "notes": "Yankton County SD parcel layer on county ArcGIS Online org (Harry.Redman_YCOEM), 15,947 parcels county-wide. Site address (Site_Addre) is filled for only about a third of parcels in the source, so it is not mapped. No land use or assessed value fields in this layer.",
+  "verification": {
+    "verified_at": 1792051645146,
+    "counties": [
+      "46135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

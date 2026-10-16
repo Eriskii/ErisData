@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-pine",
+  "publisher": "Pine County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.pine.mn.us/server/rest/services/Hosted/Parcel_Layer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27115"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "OwnerName1",
+    "acres": "Acreage",
+    "land_use": "Class"
+  },
+  "notes": "Pine County MN parcel layer (Hosted/Parcel_Layer). Address omitted: blank for many vacant parcels in source.",
+  "verification": {
+    "verified_at": 1792050905462,
+    "counties": [
+      "27115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

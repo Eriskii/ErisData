@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-audubon",
+  "publisher": "Iowa DHS&EM statewide parcels (hosted by University of Iowa), Audubon County rows",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19009"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'AUDUBON'",
+  "notes": "Statewide Iowa 2017 parcel layer; filtered to Audubon county rows (11,303 features). Source has no address/acreage/value fields.",
+  "verification": {
+    "verified_at": 1792049288904,
+    "counties": [
+      "19009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

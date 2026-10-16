@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-shelby",
+  "publisher": "Iowa DHSEMA statewide parcels 2017 (hosted by University of Iowa), Shelby County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19165"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Shelby'",
+  "notes": "Subset of 2017 statewide parcel layer for Shelby County, Iowa. Source fields: UNPARCELID, STATEPARID also available. No address/acreage/value fields in source.",
+  "verification": {
+    "verified_at": 1792049291467,
+    "counties": [
+      "19165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

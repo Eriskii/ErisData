@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "26119",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.montcounty.org/gis.html",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=1175&LayerID=33006&PageTypeID=1&PageID=13026",
+    "https://www.michigan.gov/dtmb/services/maps/mgf-data-hub/boundaries-and-mgf/tax-parcels",
+    "https://gisp.mcgi.state.mi.us/maps/rest/services"
+  ],
+  "note": "Montmorency County (MI) parcels are published only through the Schneider Beacon viewer (bot-protected HTML app, not a public ArcGIS REST service) and by commercial vendors (Dynamo, Regrid, Acres, Equator, ReportAllUSA, Rockford Map). County GIS page lists no REST endpoint or download; ArcGIS search for Montmorency parcels returned nothing; the state gisp.mcgi.state.mi.us REST directory has no parcel layer for the county.",
+  "recorded_at": 1792050005028,
+  "recheck_after": 1807602005028,
+  "model": "claude-haiku-5-5"
+}

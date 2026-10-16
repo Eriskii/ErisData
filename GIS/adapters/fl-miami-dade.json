@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "fl-miami-dade",
+  "publisher": "Miami-Dade County Property Appraiser (Parcels @ PaParcel, MD_LandInformation)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12086"
+    ]
+  },
+  "fields": {
+    "apn": "FOLIO",
+    "owner": "TRUE_OWNER1",
+    "acres": "LOT_SIZE",
+    "land_use": "DOR_CODE_CUR",
+    "assessed_value": "TOTAL_VAL_CUR"
+  },
+  "notes": "Miami-Dade Property Appraiser parcel polygons with folio, owner and value. LOT_SIZE is in square feet, not acres. Site address (TRUE_SITE_ADDR) is left unmapped: it is empty for unincorporated and vacant parcels in the validation sample. Public ArcGIS MapServer.",
+  "verification": {
+    "verified_at": 1792048842458,
+    "counties": [
+      "12086"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

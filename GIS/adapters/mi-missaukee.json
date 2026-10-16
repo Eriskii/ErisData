@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-missaukee",
+  "publisher": "Missaukee County GIS (Lake Township 2026 assessment parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/XUgqsPOnCjCOo7GW/arcgis/rest/services/2026AV_LakeTwpMiss/FeatureServer/158",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26113"
+    ]
+  },
+  "fields": {
+    "apn": "pnum",
+    "address": "propstreet",
+    "acres": "totalacres",
+    "land_use": "propclass",
+    "assessed_value": "F2026AV"
+  },
+  "notes": "Covers Lake Township only (about 3,200 parcels), not the whole county; source is the county assessor sales and assessment map on ArcGIS Online. No owner field published. Countywide parcels are sold by the county, not via a public service.",
+  "verification": {
+    "verified_at": 1792050002333,
+    "counties": [
+      "26113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

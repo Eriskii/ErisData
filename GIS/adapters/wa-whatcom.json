@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "wa-whatcom",
+  "publisher": "Whatcom County GIS (Assessor Tax Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://wcgis.whatcomcounty.us/arcgis/rest/services/EnterprisePublishing/WhatcomCo_Property/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53073"
+    ]
+  },
+  "fields": {
+    "apn": "geo_id",
+    "owner": "title_owner_name_full",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "property_use_description",
+    "assessed_value": "appraised_val_total"
+  },
+  "notes": "Whatcom County WA Assessor public tax parcels; ArcGIS MapServer layer 1; from WhatcomGIS",
+  "verification": {
+    "verified_at": 1792053110297,
+    "counties": [
+      "53073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

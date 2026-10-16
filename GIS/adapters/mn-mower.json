@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-mower",
+  "publisher": "Minnesota State Geospatial Commons (Opt-In Open Data Counties) - Mower County parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_mngeo/plan_parcels_open/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27099"
+    ]
+  },
+  "fields": {
+    "apn": "state_pin",
+    "owner": "owner_name",
+    "acres": "acres_poly",
+    "land_use": "useclass1",
+    "assessed_value": "emv_total"
+  },
+  "filter": "co_code = '27099'",
+  "notes": "Statewide compiled parcels from Minnesota Geospatial Commons; Mower County rows selected by co_code 27099. Source layer in EPSG:26915.",
+  "verification": {
+    "verified_at": 1792050909282,
+    "counties": [
+      "27099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

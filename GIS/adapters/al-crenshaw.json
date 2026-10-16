@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "al-crenshaw",
+  "publisher": "Crenshaw County, AL (via PowerSouth Alabama Parcel Data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/18",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01041"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer from PowerSouth-hosted statewide Alabama parcel service; Crenshaw County layer 18 of 17984 features",
+  "verification": {
+    "verified_at": 1792048320219,
+    "counties": [
+      "01041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

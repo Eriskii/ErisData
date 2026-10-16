@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29139",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://montgomery.missouriassessors.com/",
+    "http://mcmo.us/departments/collector/real-estate/",
+    "https://publicrecordhub.com/state/mo/montgomery/gis-parcel-maps",
+    "https://www.gismaps.org/mo-montgomery-county/"
+  ],
+  "note": "No public queryable parcel service found for Montgomery County, MO (FIPS 29139) after a real search. County assessor site and collector pages have no GIS or parcel map links; collector has no online parcel lookup. The county GIS viewer at montgomery.integritygis.com was unreachable and no REST endpoint was found. ArcGIS Hub/Online searches returned only other states' Montgomery County parcel services. MSDIS and MidMoGIS have no Montgomery County parcel layer. Only commercial vendors (Acres, AcreValue, Regrid, Dynamo Spatial, Rockford Map) offer parcels.",
+  "recorded_at": 1792051158469,
+  "recheck_after": 1807603158469,
+  "model": "claude-haiku-5-5"
+}

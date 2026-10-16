@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "29153",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.gis-portal.org/mo-ozark-county/",
+    "https://www.acres.com/plat-map/map/mo/ozark-county-mo",
+    "https://app.regrid.com/store/us/mo/ozark",
+    "https://www.dynamospatial.com/c/ozark-county-mo/parcel-data",
+    "https://gis.mo.gov/arcgis01/rest/services/OA/FMDCrealEstate_allParcels/MapServer/0"
+  ],
+  "note": "No public queryable parcel service found for Ozark County MO. Searches of ArcGIS Hub/Online and web found only commercial viewers (Acres, Regrid, Dynamo, Rockford) and directory pages that name no GIS service. The statewide Missouri parcel layer listed in ArcGIS Online (gis.mo.gov FMDCrealEstate_allParcels) returns 404 for both the layer and query endpoints. The county assessor site did not respond.",
+  "recorded_at": 1792051078730,
+  "recheck_after": 1807603078730,
+  "model": "claude-haiku-5-5"
+}

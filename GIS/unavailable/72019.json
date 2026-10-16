@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72019",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_feb_2025/MapServer",
+    "https://www.arcgis.com/home/item.html?id=177a03ea0b31411cafe5596fe710790d"
+  ],
+  "note": "CRIM parcel MapServers on sigejp.pr.gov return 500 'Service not started'; legacy satasgis.crimpr.net Parcelas endpoints return 404 or fail to connect. No other public parcel service or file found.",
+  "recorded_at": 1792051965182,
+  "recheck_after": 1807603965182,
+  "model": "claude-sonnet-5-5"
+}

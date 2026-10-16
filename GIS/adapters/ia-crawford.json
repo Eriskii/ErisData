@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-crawford",
+  "publisher": "Iowa Department of Homeland Security & Emergency Management (hosted by University of Iowa)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19047"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Crawford'",
+  "notes": "Statewide Iowa parcels 2017 snapshot, filtered to Crawford county",
+  "verification": {
+    "verified_at": 1792049291683,
+    "counties": [
+      "19047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

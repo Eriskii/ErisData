@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ut-uintah",
+  "publisher": "Uintah County, UT (GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://apps.uintah.utah.gov/arcgis/rest/services/ParcelMailingAndSiteAddress/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49047"
+    ]
+  },
+  "fields": {
+    "apn": "Name",
+    "owner": "OWNER",
+    "address": "SiteAddress",
+    "acres": "ACRES"
+  },
+  "notes": "Uintah County GIS parcel mailing and site address layer; county-published. DESCRIPT (legal description) not mapped as land use.",
+  "verification": {
+    "verified_at": 1792051894848,
+    "counties": [
+      "49047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

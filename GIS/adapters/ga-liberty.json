@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-liberty",
+  "publisher": "Liberty County GIS (via CRC / SEGRASS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://portal.segrass.org/crcarcgis/rest/services/Liberty/PropertyData/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13179"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_Number",
+    "owner": "Owner_Name",
+    "address": "Property_Address",
+    "acres": "Acres"
+  },
+  "notes": "CRC-hosted mirror of Liberty County parcels",
+  "verification": {
+    "verified_at": 1792048916169,
+    "counties": [
+      "13179"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

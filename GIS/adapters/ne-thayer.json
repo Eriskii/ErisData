@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ne-thayer",
+  "publisher": "Thayer County, Nebraska (Assessor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/Thayer_Parcels_2026_2/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31169"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "Taxpayer_Name_1",
+    "address": "Situs",
+    "acres": "Total_Acres",
+    "land_use": "NDR_Codes",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "notes": "Thayer County assessor parcel layer (Parcel_June26) on ArcGIS Online, updated 2026.",
+  "verification": {
+    "verified_at": 1792051216525,
+    "counties": [
+      "31169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72025",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_feb_2025/MapServer",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/FeatureServer/0"
+  ],
+  "note": "CRIM statewide parcel layers return 'Service crim/crim_parcelas/MapServer not started' (HTTP 500) on every query; the sigejp crim folder lists no services; sige.pr.gov is unreachable; satasgis.crimpr.net returns 404 over http and fails over https. Other hits (Bayamon Parcelario on ArcGIS Online) are token-protected, Regrid is a paid product, and the gis.pr.gov WFS has no Caguas parcel layer.",
+  "recorded_at": 1792052011688,
+  "recheck_after": 1807604011688,
+  "model": "claude-haiku-5-5"
+}

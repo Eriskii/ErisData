@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-coles",
+  "publisher": "Coles County GIS (CCRPDC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.colesco.illinois.gov/arcgis/rest/services/ColesCounty/EnterpriseZone/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17029"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_number",
+    "owner": "owner1_name",
+    "acres": "gross_acres",
+    "land_use": "class",
+    "assessed_value": "farm_land"
+  },
+  "notes": "Ownership parcels layer from Coles County GIS (CCRPDC). site_address is sparsely populated in the source, so address is not mapped. Owner names carry trailing spaces.",
+  "verification": {
+    "verified_at": 1792048915043,
+    "counties": [
+      "17029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-dallas",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05039"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "countyfips = '039'",
+  "notes": "Statewide AR parcel polygons, not a legal boundary; filter by countyfips 039 (Dallas). Address label (adrlabel) is sparsely populated in source, so not mapped. Updated twice a year.",
+  "verification": {
+    "verified_at": 1792048534108,
+    "counties": [
+      "05039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

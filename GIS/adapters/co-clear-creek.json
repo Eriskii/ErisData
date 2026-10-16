@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "co-clear-creek",
+  "publisher": "Clear Creek County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/faTiISwEuJk1lvB1/arcgis/rest/services/Property/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08019"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "PARCELNAME",
+    "land_use": "LOC_LU"
+  },
+  "notes": "Clear Creek County cadastral Property service, Parcels layer. Owner not published in this layer; PARCELNAME mapped as owner-name field.",
+  "verification": {
+    "verified_at": 1792048672052,
+    "counties": [
+      "08019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

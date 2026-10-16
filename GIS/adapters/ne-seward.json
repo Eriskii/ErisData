@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ne-seward",
+  "publisher": "Lower Platte South NRD (Shaula) via ArcGIS Online",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iTf0MCf7KYGMrPY1/arcgis/rest/services/Parcels_in_LPSNRD_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31159"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "Owner1",
+    "address": "MailAddr",
+    "acres": "PolyAcres",
+    "land_use": "PropType"
+  },
+  "filter": "County = 'Seward County'",
+  "notes": "Snapshot of parcels within Lower Platte South NRD; County field distinguishes counties. Seward subset only partially covers county.",
+  "verification": {
+    "verified_at": 1792051131093,
+    "counties": [
+      "31159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

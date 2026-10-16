@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "pa-cambria",
+  "publisher": "Cambria County GIS / PASDA",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/CambriaCounty/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42021"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "acres": "STATEDAREA",
+    "land_use": "CVTTXCD"
+  },
+  "notes": "PASDA-hosted Cambria County Parcels 202501; fields limited to parcel id, tax code, state area",
+  "verification": {
+    "verified_at": 1792051506109,
+    "counties": [
+      "42021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

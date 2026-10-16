@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ne-sioux",
+  "publisher": "Sioux County, NE (via Nebraska statewide parcel dataset, gWorks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis2.gworks.com/arcgis/rest/services/Statewide_NE_MGMT/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31165"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "CURRENT_OWNER_NAME",
+    "assessed_value": "TOTAL_ASSESSED_VALUE"
+  },
+  "filter": "COUNTY = 'Sioux'",
+  "notes": "Statewide Nebraska parcel layer compiled from county CAMA and polygon files (2025); filtered to Sioux County. Situs address, acreage and land use are blank in this source for many parcels, so not mapped.",
+  "verification": {
+    "verified_at": 1792051363878,
+    "counties": [
+      "31165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ut-sanpete",
+  "publisher": "UGRC / Sanpete County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Sanpete/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49039"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_TYPE"
+  },
+  "notes": "UGRC Utah Parcels basic boundaries for Sanpete County (FIPS 49039); OWN_TYPE holds ownership type, not owner name; updated periodically",
+  "verification": {
+    "verified_at": 1792052639443,
+    "counties": [
+      "49039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

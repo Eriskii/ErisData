@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-scott",
+  "publisher": "Scott County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/DqIh9WAsIZcPlBEF/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27139"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "TaxPayerName",
+    "address": "PropertyAddress",
+    "acres": "GISAcres",
+    "land_use": "Classification",
+    "assessed_value": "EMVTotal"
+  },
+  "notes": "Scott County MN open data parcels (ScottCountyGIS ArcGIS Online), tax year roll",
+  "verification": {
+    "verified_at": 1792050897471,
+    "counties": [
+      "27139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

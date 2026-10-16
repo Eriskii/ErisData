@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nm-san-miguel",
+  "publisher": "San Miguel County Assessor (via ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/kpHNTxyC2khk5uUM/arcgis/rest/services/San_Miguel_Assessor_parcel_Map_June_06_09_2023_WFL1/FeatureServer/217",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35047"
+    ]
+  },
+  "fields": {
+    "apn": "UPC_APN",
+    "owner": "Owner1",
+    "acres": "LandArea",
+    "assessed_value": "AssessedVa"
+  },
+  "notes": "San Miguel County NM assessor parcel layer, TaxYear 2022/2023 snapshot; hosted on county ArcGIS Online org. SitusAddre is sparsely populated, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792051418173,
+    "counties": [
+      "35047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

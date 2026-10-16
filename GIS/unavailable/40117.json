@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40117",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://pawneecountyok.org/county-assessor",
+    "https://oklmrecords.com/pawnee/map/",
+    "https://okmaps.org/OGI/RestDataAccessItem.aspx?UUID=1484707a-712a-4447-96a9-5a38affc600e",
+    "https://app.datacrosspoint.com/properties/pawnee",
+    "https://map.netronline.com/oklahoma-pawnee/40117"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web. No county-hosted public parcel REST service or downloadable file found for Pawnee County OK. County assessor site links only to a third-party map (oklmrecords.com) with no visible ArcGIS service. Statewide OK parcels (okmaps.org) are viewing/WMS only; the okmaps GeoServer WFS lists parcel layers only for Carter and Oklahoma counties, not Pawnee. Commercial viewers (Regrid, acres, acrevalue, NETR, datacrosspoint/Landmark GSI vector tiles) are not public services.",
+  "recorded_at": 1792051562586,
+  "recheck_after": 1807603562586,
+  "model": "claude-haiku-5-5"
+}

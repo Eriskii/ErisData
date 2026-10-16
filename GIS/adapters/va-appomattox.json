@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "va-appomattox",
+  "publisher": "Appomattox County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/wnL4os9xzGCi48td/arcgis/rest/services/Appomattox_WL_P/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51011"
+    ]
+  },
+  "fields": {
+    "apn": "GIS_ACCOUNT",
+    "owner": "Owner1",
+    "address": "ParcelAddress1",
+    "acres": "AMAACR",
+    "land_use": "AMCLAS",
+    "assessed_value": "TOTALASSESSEDVALUE"
+  },
+  "notes": "County GIS parcel layer migrated to ArcGIS Online; pid is GIS_ACCOUNT",
+  "verification": {
+    "verified_at": 1792052571441,
+    "counties": [
+      "51011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-lake",
+  "publisher": "Lake County, Minnesota (via MN Geospatial Commons)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_co_lake/plan_tax_parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27075"
+    ]
+  },
+  "fields": {
+    "apn": "GIS_PID",
+    "owner": "TAX_OWNNAME",
+    "address": "TAX_TAXADR1",
+    "acres": "GIS_ACRES",
+    "land_use": "GIS_OWNERTYPE",
+    "assessed_value": "GIS_EMV"
+  },
+  "notes": "Tax parcels from Lake County MN via MN Geospatial Commons; source CRS is custom wkid 103704, geojson output reprojected by server.",
+  "verification": {
+    "verified_at": 1792050894027,
+    "counties": [
+      "27075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

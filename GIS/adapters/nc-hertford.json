@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-hertford",
+  "publisher": "Hertford County GIS (HertfordCountyGIS, ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/MOvVToSDbOGFaHPk/arcgis/rest/services/Watershed_Parcel_2022_Map_WFL1/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37091"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "PROPERTY_OWNER",
+    "address": "LOCATION_ADDR",
+    "acres": "CALCULATED_ACRES",
+    "land_use": "LAND_CLASS",
+    "assessed_value": "TOTAL_PROP_VALUE"
+  },
+  "notes": "Hertford County GIS parcel layer (2022 watershed parcel service, full county parcels); public ArcGIS Online service",
+  "verification": {
+    "verified_at": 1792051497964,
+    "counties": [
+      "37091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

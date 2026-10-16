@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-wyoming",
+  "publisher": "Wyoming County GIS via PASDA (Penn State)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/WyomingCounty/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42131"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUM",
+    "owner": "Owner",
+    "address": "Situs_Addr",
+    "acres": "CALC_AC",
+    "land_use": "Property_T",
+    "assessed_value": "TOTAL_FAV"
+  },
+  "notes": "PASDA public parcel layer, 202405 vintage; Pin and CAMAKEY also available",
+  "verification": {
+    "verified_at": 1792051535438,
+    "counties": [
+      "42131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

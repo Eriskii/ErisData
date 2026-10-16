@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-worth",
+  "publisher": "Iowa DHS&EM statewide parcels (filtered to Worth County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19195"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'WORTH'",
+  "notes": "Statewide Iowa parcel layer (2017), filtered to Worth County rows",
+  "verification": {
+    "verified_at": 1792049305447,
+    "counties": [
+      "19195"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ct-naugatuck-valley",
+  "publisher": "CT GIS Office, Office of Policy and Management (Connecticut CAMA and Parcel Layer 2025)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/3FL1kr7L4LvwA2Kb/arcgis/rest/services/Connecticut_CAMA_and_Parcel_Layer_2025/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09140"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "Owner",
+    "address": "Location",
+    "acres": "Land_Acres",
+    "land_use": "State_Use",
+    "assessed_value": "Assessed_Total"
+  },
+  "filter": "Town_Name IN ('Ansonia','Beacon Falls','Derby','Middlebury','Naugatuck','Oxford','Prospect','Seymour','Shelton','Waterbury','Wolcott')",
+  "notes": "Statewide CAMA and parcel layer; filtered to Naugatuck Valley Planning Region towns by Town_Name. Polygons in EPSG:3857 served as GeoJSON.",
+  "verification": {
+    "verified_at": 1792048616537,
+    "counties": [
+      "09140"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

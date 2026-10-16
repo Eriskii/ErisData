@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "fl-franklin",
+  "publisher": "Florida Department of Revenue via Florida Statewide Cadastral (Franklin County, CO_NO 29)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Gh9awoU677aKree0/arcgis/rest/services/Florida_Statewide_Cadastral/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12037"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_NAME",
+    "address": "PHY_ADDR1",
+    "acres": "LND_SQFOOT",
+    "land_use": "DOR_UC",
+    "assessed_value": "AV_SD"
+  },
+  "filter": "CO_NO = 29",
+  "notes": "FDOR statewide cadastral extract filtered to Franklin County (CO_NO 29)",
+  "verification": {
+    "verified_at": 1792049655356,
+    "counties": [
+      "12037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

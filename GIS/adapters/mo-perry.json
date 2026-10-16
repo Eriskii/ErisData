@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-perry",
+  "publisher": "Perry County, MO GIS (via SEMO GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.semogis.com/server/rest/services/Perry_CO/PerryCo_PublicBase/MapServer/39",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29157"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_Number",
+    "owner": "Deedholder",
+    "address": "Site_Address",
+    "acres": "GIS_AC"
+  },
+  "notes": "Parcels layer from Perry County MO public base map service; no land use or assessed value fields published",
+  "verification": {
+    "verified_at": 1792051024703,
+    "counties": [
+      "29157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

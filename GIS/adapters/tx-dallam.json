@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-dallam",
+  "publisher": "Dallam County Appraisal District (bis_dallamcad ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/jwCCs5I7EWDwKVZK/arcgis/rest/services/DallamCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48111"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Dallam CAD public ArcGIS web service; parcels layer of FeatureServer/0. Situs address fields are mostly empty, so no address mapped.",
+  "verification": {
+    "verified_at": 1792051671594,
+    "counties": [
+      "48111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

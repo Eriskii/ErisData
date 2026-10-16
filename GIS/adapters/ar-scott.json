@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ar-scott",
+  "publisher": "Arkansas GIS Office (statewide CAMA parcel polygons), Scott County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05127"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "acres": "shape__area",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "county = 'Scott'",
+  "notes": "Statewide Arkansas GIS Office CAMA parcel polygons; not a legal boundary; updated twice a year",
+  "verification": {
+    "verified_at": 1792048696409,
+    "counties": [
+      "05127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

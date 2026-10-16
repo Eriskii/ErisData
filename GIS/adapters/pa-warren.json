@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "pa-warren",
+  "publisher": "Warren County PA / PASDA",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/WarrenCounty/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42123"
+    ]
+  },
+  "fields": {
+    "apn": "PIN"
+  },
+  "notes": "PASDA public tax parcels 2020 (202003). Owner and address are not published in this layer; PIN is the parcel key (municipality-block-parcel).",
+  "verification": {
+    "verified_at": 1792051562626,
+    "counties": [
+      "42123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

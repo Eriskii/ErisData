@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ne-lincoln",
+  "publisher": "Nebraska statewide parcels (county-supplied), Lincoln County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ne.gov/Enterprise/rest/services/StatewideParcelsExternal/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31111"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "address": "Situs_Address",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '111'",
+  "notes": "Statewide Nebraska parcel dataset from gis.ne.gov; County_ID 111 = Lincoln County (North Platte). Owner name not present in this service.",
+  "verification": {
+    "verified_at": 1792051130197,
+    "counties": [
+      "31111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

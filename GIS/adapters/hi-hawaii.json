@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "hi-hawaii",
+  "publisher": "County of Hawaii GIS (cohParcels view)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/C2LPusZs5OXNGFDn/arcgis/rest/services/cohParcels_prod_pa11_agol_VIEW/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "15001"
+    ]
+  },
+  "fields": {
+    "apn": "Name"
+  },
+  "notes": "County of Hawaii parcel view",
+  "verification": {
+    "verified_at": 1792048935968,
+    "counties": [
+      "15001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

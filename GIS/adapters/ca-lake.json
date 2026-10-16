@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-lake",
+  "publisher": "Lake County GIS (CA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lakecountyca.gov/server/rest/services/Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06033"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "address": "SITUSFULL",
+    "acres": "ACRES",
+    "assessed_value": "NETVAL"
+  },
+  "notes": "Lake County CA Planning Division parcel layer; tax parcel boundaries, planning tool, not legal boundary. Owner name not published in this layer.",
+  "verification": {
+    "verified_at": 1792048622163,
+    "counties": [
+      "06033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

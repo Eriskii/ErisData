@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-cross",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/MapServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05037"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelId",
+    "owner": "OwnerName",
+    "address": "AdrLabel",
+    "land_use": "ParcelType",
+    "assessed_value": "AssessValue"
+  },
+  "filter": "CountyFips = '037'",
+  "notes": "Statewide Arkansas parcel polygons (CountyFips 037 = Cross). Not a legal boundary; for ad valorem assessment use only. Updated twice a year.",
+  "verification": {
+    "verified_at": 1792048535901,
+    "counties": [
+      "05037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

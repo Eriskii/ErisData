@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ny-schoharie",
+  "publisher": "Schoharie County GIS (VHB)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/fScJUugRnMdg5KWv/arcgis/rest/services/Parcels/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36095"
+    ]
+  },
+  "fields": {
+    "apn": "PRINT_KEY",
+    "owner": "OWNER",
+    "address": "PROP_ADDR",
+    "acres": "ACRES_1",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "TOTAL_AV"
+  },
+  "notes": "Schoharie County parcel data hosted by VHB; public ArcGIS layer, no token",
+  "verification": {
+    "verified_at": 1792051385669,
+    "counties": [
+      "36095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

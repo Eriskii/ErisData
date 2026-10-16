@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "17117",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://macoupin.il.bhamaps.com/",
+    "https://ags.bhamaps.com/arcgisserver/rest/services/MacoupinIL/MacoupinIL_PAT_Taxmap/MapServer/0"
+  ],
+  "note": "The only parcel service (ags.bhamaps.com MapServer/0) is unreachable: every request fails, so it can't be queried or validated. The county open-data portal has no parcels. The other sources are commercial.",
+  "recorded_at": 1792049014318,
+  "recheck_after": 1807601014318,
+  "model": "claude-sonnet-5-5"
+}

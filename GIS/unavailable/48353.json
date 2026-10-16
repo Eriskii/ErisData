@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "48353",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.nolan-cad.org/home/map",
+    "https://nolan-cad.org/home/Custom?custurl=/home/map",
+    "https://appraisaldistrict.org/nolan-county-appraisal-district/",
+    "https://www.co.nolan.tx.us/page/nolan.county.assessor.collector",
+    "https://www.dynamospatial.com/c/nolan-county-tx/parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub/Online (Nolan County, Sweetwater, Texas statewide parcels) and the web. Nolan CAD (nolan-cad.org) runs its own interactive map at /home/map and /home/Custom, but no public ArcGIS REST or downloadable parcel service is exposed; the page content gives no service URL. The county, city and CAD sites list no open GIS parcel download. Only paid vendors (Dynamo, Regrid, Acres, USLandGrid, texascountygisdata) sell Nolan parcels.",
+  "recorded_at": 1792051784007,
+  "recheck_after": 1807603784007,
+  "model": "claude-haiku-5-5"
+}

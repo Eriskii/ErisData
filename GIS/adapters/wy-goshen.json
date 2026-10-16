@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wy-goshen",
+  "publisher": "Goshen County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.goshencounty.org/arcgis/rest/services/CivicPlus/GoshenParcels_CivicPlus/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56015"
+    ]
+  },
+  "fields": {
+    "apn": "PIDN",
+    "owner": "OWNER1",
+    "address": "ADRS",
+    "acres": "GROSS_ACRES_RW"
+  },
+  "notes": "Goshen County WY ownership parcels, CivicPlus-hosted ArcGIS MapServer layer 0; 8590 features. Owner mailing address in ADRS, not site address.",
+  "verification": {
+    "verified_at": 1792051790485,
+    "counties": [
+      "56015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

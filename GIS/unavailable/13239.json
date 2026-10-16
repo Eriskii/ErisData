@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "13239",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.qpublic.net/ga/quitman/",
+    "https://www.gqc-ga.org/home/government/tax-assessor/",
+    "https://gis.equatorstudios.com/georgia_quitman/",
+    "https://app.regrid.com/us/ga/quitman",
+    "https://tiles.arcgis.com/tiles/KzeiCaQsMoeCfoCq/arcgis/rest/services/Regrid_Nationwide_Parcel_Boundaries_v1/MapServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online for Quitman County GA parcels: no county parcel feature service found. County parcels are only viewable through the qPublic (Schneider) web viewer, which exposes no public ArcGIS REST parcel layer. Third-party sources (Regrid, Equator Studios, Rockford Map) are commercial downloads, not county-published services. The Regrid nationwide tile MapServer is not queryable (query returns 404).",
+  "recorded_at": 1792048866247,
+  "recheck_after": 1807600866247,
+  "model": "claude-haiku-5-5"
+}

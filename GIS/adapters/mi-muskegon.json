@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mi-muskegon",
+  "publisher": "Muskegon County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.muskegoncountygis.com/arcgis/rest/services/PropertyViewer/MapServer/23",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26121"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Owner_Name1",
+    "address": "Property_Address_Combined",
+    "acres": "Acreage_per_GIS",
+    "land_use": "Property_Class_Description",
+    "assessed_value": "Assessed_Value"
+  },
+  "notes": "County public Property Viewer service; PIN is parcel number; layers 23/24/25 are duplicate parcel layers at different scales, 23 used",
+  "verification": {
+    "verified_at": 1792049950611,
+    "counties": [
+      "26121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mi-lapeer",
+  "publisher": "Lapeer County GIS (Lapeer_CRC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/n1QQsnAVBkeegRxs/arcgis/rest/services/Parcels_2023/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26087"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "Owner",
+    "address": "Address",
+    "acres": "MapAcres",
+    "land_use": "Class",
+    "assessed_value": "Assessed"
+  },
+  "notes": "Parcels_2023 layer from Lapeer County GIS hosted on ArcGIS Online; updated 2023",
+  "verification": {
+    "verified_at": 1792049931065,
+    "counties": [
+      "26087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

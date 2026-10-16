@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sc-florence",
+  "publisher": "Florence County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/otEVSGO5ESloTE5q/arcgis/rest/services/New_GIS_Layers/FeatureServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45041"
+    ]
+  },
+  "fields": {
+    "apn": "TMS",
+    "owner": "OWNERNAME",
+    "address": "ADDR_SITE",
+    "acres": "CALCULATED_ACREAGE",
+    "assessed_value": "TOTBDGVAL"
+  },
+  "notes": "Florence County SC public ArcGIS layer TMS_All_Data behind the Parcel Info experience. No land-use field published; ZONECODE (zoning) deliberately not mapped. TOTBDGVAL is total building value; 0 where no improvements.",
+  "verification": {
+    "verified_at": 1792051737373,
+    "counties": [
+      "45041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

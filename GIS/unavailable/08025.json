@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "08025",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0",
+    "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/MapServer/0",
+    "https://qpublic.net/co/crowley/"
+  ],
+  "note": "Statewide OIT composite parcel layer (countyFips is 3-digit, Crowley = 025) returns 0 features for countyFips='025', countyName='Crowley', and for a point query at the Crowley sample point (-103.778,38.31793); the MapServer layer also returns 0. No Crowley-specific ArcGIS REST parcel service found via arcgis search or web search. Crowley's only public parcel viewer is qPublic (Schneider), a proprietary app with no REST/GeoJSON/shapefile access; other sources (Regrid, DynamoSpatial, AcreValue) are commercial downloads.",
+  "recorded_at": 1792048763746,
+  "recheck_after": 1807600763746,
+  "model": "claude-haiku-5-5"
+}

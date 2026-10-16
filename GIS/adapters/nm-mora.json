@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "nm-mora",
+  "publisher": "USACE NM Field Map (Mora County Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/HdtZMT2FmI4wPzTM/arcgis/rest/services/USACE_NM_FieldMap/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35033"
+    ]
+  },
+  "fields": {
+    "apn": "APN"
+  },
+  "notes": "Mora County parcels from USACE NM FieldMap hosted feature layer; public query. Owner and site address fields are blank in the source.",
+  "verification": {
+    "verified_at": 1792051397287,
+    "counties": [
+      "35033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

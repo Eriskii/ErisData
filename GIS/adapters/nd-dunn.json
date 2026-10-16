@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nd-dunn",
+  "publisher": "North Dakota GIS Hub / State Parcel Program",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/GOcSXpzwBHyk2nog/arcgis/rest/services/NDGISHUB_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38025"
+    ]
+  },
+  "fields": {
+    "apn": "GlobalID",
+    "acres": "CalculatedAcres"
+  },
+  "filter": "CountyFIPS = '38025'",
+  "notes": "State Parcel Program statewide layer filtered to Dunn County (CountyFIPS 38025). Dunn rows carry geometry, acreage and PLSS section/township/range only; no parcel number, owner, address or land use is published for this county, so apn is the layer GlobalID record identifier.",
+  "verification": {
+    "verified_at": 1792051770614,
+    "counties": [
+      "38025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

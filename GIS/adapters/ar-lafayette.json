@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-lafayette",
+  "publisher": "Arkansas GIS Office (county assessor parcel polygons)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05073"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "acres": "Shape__Area",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "countyfips = '073'",
+  "notes": "Approximate locations, not legal boundaries. Statewide AR GIS Office layer filtered to Lafayette County (CountyFips 073). Acres field is Shape__Area in square meters (EPSG:26915 source).",
+  "verification": {
+    "verified_at": 1792048537910,
+    "counties": [
+      "05073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

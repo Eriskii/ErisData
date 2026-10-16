@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wa-garfield",
+  "publisher": "Garfield County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/1UmAlNNRc6UDVQ4y/arcgis/rest/services/Garfield_Online_gdb/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53023"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "NAME",
+    "acres": "T_ACRES"
+  },
+  "notes": "Garfield County WA GIS countywide parcels (gmci ArcGIS Online viewer layer). No situs address field in this layer.",
+  "verification": {
+    "verified_at": 1792053144683,
+    "counties": [
+      "53023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

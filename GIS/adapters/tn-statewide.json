@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "id": "tn-statewide",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (STS-GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "TN"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "notes": "Statewide TN property boundaries, public-use version; covers 86 counties; counties maintaining their own systems are not included. No land use or assessed value fields published.",
+  "verification": {
+    "verified_at": 1792052189464,
+    "counties": [
+      "47003",
+      "47005",
+      "47007",
+      "47009",
+      "47011",
+      "47013",
+      "47015",
+      "47027",
+      "47035",
+      "47049",
+      "47075",
+      "47079",
+      "47095",
+      "47107",
+      "47189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

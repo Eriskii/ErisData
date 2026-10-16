@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-phelps",
+  "publisher": "City of Rolla GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rollacity.gov/server/rest/services/Boundaries/City_Lots/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29161"
+    ]
+  },
+  "fields": {
+    "apn": "ACCT_NU",
+    "owner": "DEEDHOLDER",
+    "address": "SITUS_ADDR",
+    "acres": "ACRES"
+  },
+  "notes": "City of Rolla lots only (not countywide); county IntegrityGIS service unreachable",
+  "verification": {
+    "verified_at": 1792051358314,
+    "counties": [
+      "29161"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

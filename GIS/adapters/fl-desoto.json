@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "fl-desoto",
+  "publisher": "FDEP FDOR Cadastral South District (DeSoto)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/nRHtyn3uE1kyzoYc/arcgis/rest/services/FDORCadastral_SouthDistrict/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12027"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "OWN_NAME",
+    "address": "PHY_ADDR1",
+    "acres": "LND_SQFOOT",
+    "land_use": "DOR_UC",
+    "assessed_value": "JV"
+  },
+  "filter": "CO_NO = 24",
+  "notes": "FDOR cadastral, CO_NO 24 = DeSoto",
+  "verification": {
+    "verified_at": 1792049465749,
+    "counties": [
+      "12027"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "46087",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=95&LayerID=951&PageTypeID=1&PageID=904",
+    "https://mccookcountysd.gov/departments/equalization/",
+    "https://tiles.arcgis.com/tiles/KzeiCaQsMoeCfoCq/arcgis/rest/services/Regrid_Nationwide_Parcel_Boundaries_v1/MapServer/0"
+  ],
+  "note": "McCook County SD publishes parcels only through a Schneider Beacon viewer (not a public ArcGIS REST service); county site links no GIS service and points to the Equalization office by email/phone. SD state sdgis.sd.gov services have no McCook parcels. The only ArcGIS parcel layer found (Regrid nationwide MapServer) returns 404 on query. Commercial downloads (Equator, Regrid store, Rockford) are not county-published.",
+  "recorded_at": 1792051689713,
+  "recheck_after": 1807603689713,
+  "model": "claude-haiku-5-5"
+}

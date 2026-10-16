@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-marion",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05089"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '089'",
+  "notes": "Statewide AR parcel polygons from County Assessor Mapping Program; not a legal boundary; updated twice a year",
+  "verification": {
+    "verified_at": 1792048492818,
+    "counties": [
+      "05089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

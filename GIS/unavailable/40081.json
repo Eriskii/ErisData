@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "40081",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://lincolnassessor.org/",
+    "https://publicrecords.netronline.com/state/OK/county/lincoln",
+    "https://app.regrid.com/store/us/ok/lincoln",
+    "https://www.dynamospatial.com/c/lincoln-county-ok/parcel-data",
+    "https://landrecords.us/documentation/coverage/counties/40-081-lincoln",
+    "https://experience.arcgis.com/experience/c3c6f7daf88b48eea1633af924f11e5c"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Lincoln County OK parcel layer found), the county assessor site, and the county's Parcel Map experience app (no REST URL exposed). The county's own viewer is a legacy MapServer CGI on port 81 that was unreachable and offers no REST services. OK Maps statewide parcels are WMS-only, not downloadable. Commercial parcel sources (Regrid, Dynamo, landrecords.us) are paid and licensed, so not used.",
+  "recorded_at": 1792051673725,
+  "recheck_after": 1807603673725,
+  "model": "claude-haiku-5-5"
+}

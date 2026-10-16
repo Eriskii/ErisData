@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-cottonwood",
+  "publisher": "Cottonwood County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/HWNeJO1BX8XvS0O8/arcgis/rest/services/CottCoParcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27033"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "deedhold",
+    "acres": "GrossAcres",
+    "land_use": "propclass"
+  },
+  "notes": "Cottonwood County MN parcel layer from county ArcGIS Online org (CottCoParcels); about 10,741 features. Site address (propadr1) is blank for many agricultural parcels, so it is not mapped; deedaddr1 is the owner mailing address.",
+  "verification": {
+    "verified_at": 1792050905529,
+    "counties": [
+      "27033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

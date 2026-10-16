@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wv-mcdowell",
+  "publisher": "West Virginia GIS Technical Center (WVU) / WVGIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.wvgis.wvu.edu/arcgis/rest/services/Planning_Cadastre/WV_Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54047"
+    ]
+  },
+  "fields": {
+    "apn": "GISPID",
+    "owner": "FullOwnerName",
+    "address": "FullPhysicalAddress",
+    "acres": "CALC_ACRE"
+  },
+  "filter": "CountyID = '27' AND CALC_ACRE < 5000",
+  "notes": "WV statewide parcel layer filtered to McDowell County (CountyID 27). Excludes one malformed 13,766-acre polygon (GISPID 27-03-0309-0001) whose geometry places it outside the parcel area. Owner/address as published by WVGIS.",
+  "verification": {
+    "verified_at": 1792053142419,
+    "counties": [
+      "54047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

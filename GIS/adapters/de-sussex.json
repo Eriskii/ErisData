@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "de-sussex",
+  "publisher": "Sussex County Government, Delaware (Geographic Information Office)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map.sussexcountyde.gov/trdserver/rest/services/Geographic_Information_Office/Parcels_PIN_With_Assessment_Unit/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "10005"
+    ]
+  },
+  "fields": {
+    "apn": "Name"
+  },
+  "notes": "Sussex County DE tax parcel polygons; Name holds the tax PIN (e.g. 133-18.00-12.04). Owner and address live in a separate OwnershipInformation table, not mapped here. Acreage field mostly null, so not mapped.",
+  "verification": {
+    "verified_at": 1792048633018,
+    "counties": [
+      "10005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

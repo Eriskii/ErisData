@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "45069",
+  "reason": "login-required",
+  "evidence": [
+    "https://smpesri.scdot.org/arcgis/rest/services/GISMapping/SC_Parcels/MapServer/33",
+    "https://smpesri.scdot.org/arcgis/rest/services/GISMapping/SC_Parcels/MapServer",
+    "https://marlborosc.wthgis.com/",
+    "https://marlborosc.wthgis.com/arcgis/rest/services",
+    "https://arcweb.dnr.sc.gov/server/rest/services/Hosted/SC_County_Parcel_Viewers/FeatureServer/0"
+  ],
+  "note": "Marlboro County (SC) publishes its parcels only through its Think GIS viewer (marlborosc.wthgis.com), which exposes no public REST service (root returns 404). The only Marlboro parcel layer found, SCDOT SC_Parcels MapServer/33 (smpesri.scdot.org), returns 'Token Required' for both the service and layer, so it is login-gated and cannot be used. Other sources are commercial (Regrid, DynamoSpatial, acres) or lack a county service.",
+  "recorded_at": 1792051649673,
+  "recheck_after": 1807603649673,
+  "model": "claude-haiku-5-5"
+}

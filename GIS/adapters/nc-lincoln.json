@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "nc-lincoln",
+  "publisher": "Lincoln County GIS (via NC OneMap ICDE statewide parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37109"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "land_use": "parusedesc",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37109'",
+  "notes": "Statewide NC OneMap ICDE parcel layer, filtered to Lincoln County (stcntyfips 37109)",
+  "verification": {
+    "verified_at": 1792051467733,
+    "counties": [
+      "37109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

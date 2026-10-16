@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-erath",
+  "publisher": "Erath County Appraisal District (ErathCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/gIWyxqmQ0YHPVqA2/arcgis/rest/services/ErathCADWebService/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48143"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Erath CAD public parcel layer; native SR 2276; land use field not populated in public layer",
+  "verification": {
+    "verified_at": 1792051678030,
+    "counties": [
+      "48143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

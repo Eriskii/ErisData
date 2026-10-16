@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "32033",
+  "reason": "tos-forbids-automation",
+  "evidence": [
+    "https://arcgis.water.nv.gov/arcgis/rest/services/BaseLayers/County_Parcels_in_Nevada/MapServer/info/metadata",
+    "https://arcgis.water.nv.gov/arcgis/rest/services/BaseLayers/County_Parcels_in_Nevada/MapServer",
+    "https://experience.arcgis.com/experience/e31527ddf5594a61a5821af8f9f529ac/page/Parcel"
+  ],
+  "note": "White Pine parcels are only published via the Nevada statewide County_Parcels_in_Nevada MapServer (layer 0, polygons, maxRecordCount 5000). Its metadata states the parcel GIS data cannot be copied, exported, downloaded or shared outside the department under NRS 250. The White Pine assessor viewer reports data inaccessible; no county-run public parcel service was found. Because the published terms forbid copying/exporting the data, an adapter that harvests it would violate those terms, so I did not build one.",
+  "recorded_at": 1792051346846,
+  "recheck_after": 1823587346846,
+  "model": "claude-haiku-5-5"
+}

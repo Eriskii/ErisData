@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-bennett",
+  "publisher": "Bennett County GIS (via District III)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/BENNETT_COUNTY_WEB_LAYERS/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46007"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNERNAME",
+    "address": "SITE_ADDRESS",
+    "acres": "DEEDED_ACRE"
+  },
+  "notes": "Bennett County SD public web layer served by District III GIS. Parcel polygons; no land use or value fields published.",
+  "verification": {
+    "verified_at": 1792051696631,
+    "counties": [
+      "46007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

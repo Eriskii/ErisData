@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-putnam",
+  "publisher": "Putnam County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/qJpn8feEWHB40aWm/arcgis/rest/services/Putnam_County_Parcels_VPA/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47141"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "assessed_value": "APPRAISAL"
+  },
+  "notes": "Putnam County Parcels hosted by ArcGIS Online (Putnam_County_Parcels_VPA); 37k features; total appraised value per acre layer.",
+  "verification": {
+    "verified_at": 1792052413204,
+    "counties": [
+      "47141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

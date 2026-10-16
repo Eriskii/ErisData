@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ks-nemaha",
+  "publisher": "Nemaha County Kansas GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/6xqgnnfHDAKxg22k/arcgis/rest/services/NM_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20131"
+    ]
+  },
+  "fields": {
+    "apn": "PIDdash",
+    "acres": "ACRES"
+  },
+  "notes": "Parcel Boundaries layer from Nemaha County Kansas Land Ownership service; no owner/address fields published in this layer. PID is unformatted apn; PIDdash dashed form.",
+  "verification": {
+    "verified_at": 1792049313696,
+    "counties": [
+      "20131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

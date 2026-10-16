@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-pinellas",
+  "publisher": "Pinellas County Property Appraiser (via Pinellas County GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_ParcelPropertyInfo/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER1",
+    "address": "SITE_ADDRESS",
+    "acres": "ACREAGE",
+    "land_use": "PROPERTY_USE",
+    "assessed_value": "CNTY_TAXABLE_VALUE"
+  },
+  "notes": "Pinellas Property Appraiser parcel polygons joined with property info; use code and taxable value from PAO. Terms: http://www.pcpao.org/Terms_of_Use.html",
+  "verification": {
+    "verified_at": 1792048856894,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

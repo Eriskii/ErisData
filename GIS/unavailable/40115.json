@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "fips": "40115",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.okassessor.com/",
+    "https://okmaps.org/ogi/search.aspx",
+    "https://okmaps.org/OGI/xmlmetadatadownload.aspx?LayerUUID=1484707a-712a-4447-96a9-5a38affc600e",
+    "https://ottawaok.gov/offices/county-assessor",
+    "https://ottawaok.gov/maps",
+    "https://app.regrid.com/store/us/ok/ottawa",
+    "https://maps.owrb.ok.gov/arcgis/rest/services/Hazard/Parcels/MapServer"
+  ],
+  "note": "Ottawa County OK (40115) publishes no queryable parcel service or file that we could find. The county assessor says it maintains a parcel mapping system but links only to a land-records search site (okcountyrecords.com) and okassessor.com, with no GIS endpoint. The OK Geographic Information Office statewide parcel dataset is view-only (WMS) with no download and no WFS parcel layer in GeoServer capabilities. The only Oklahoma parcel REST service found (OWRB Hazard/Parcels MapServer, listed as 'Oklahoma parcels by county') was unreachable from our environment; the OWRB CSA server version requires a token. Remaining Ottawa County parcel sources are commercial (Regrid, ACRES, DataCrossPoint), not county-published.",
+  "recorded_at": 1792051751304,
+  "recheck_after": 1807603751304,
+  "model": "claude-haiku-5-5"
+}

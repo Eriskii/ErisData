@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "pa-fulton",
+  "publisher": "Fulton County GIS (via PASDA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/FultonCounty/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42057"
+    ]
+  },
+  "fields": {
+    "apn": "PIN"
+  },
+  "notes": "Fulton County Parcels 2021 via PASDA; attributes limited to PIN and within-ROW flag",
+  "verification": {
+    "verified_at": 1792051515736,
+    "counties": [
+      "42057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

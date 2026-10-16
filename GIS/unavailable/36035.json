@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "36035",
+  "reason": "login-required",
+  "evidence": [
+    "https://services6.arcgis.com/drkDXByy6E3bYW3a/arcgis/rest/services/fulton_county_ny_parcels/FeatureServer/0 (returns Token Required)",
+    "https://nysgeohub.ny.gov/arcgis/rest/services/Parcels/NYS_Tax_Parcels_Public/FeatureServer/1 (no Fulton rows; COUNTY_NAME group-by omits Fulton)",
+    "https://www.fultoncountyny.gov/real-property-tax-service-agency (no service links; Beacon viewer only)"
+  ],
+  "note": "Fulton County NY tax parcels are not published as an open queryable service. The only Fulton-specific ArcGIS service (wharcgisdeveloper fulton_county_ny_parcels) requires a token. The NYS statewide parcel layer has no Fulton rows. The county's own GIS was unreachable; its parcels are served via the Schneider Beacon viewer, not a public REST service.",
+  "recorded_at": 1792051511772,
+  "recheck_after": 1807603511772,
+  "model": "claude-haiku-5-5"
+}

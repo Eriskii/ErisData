@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-wilbarger",
+  "publisher": "Wilbarger County Appraisal District (via ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/XORm2dmqucrRUHcY/arcgis/rest/services/WilbargerCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48487"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Wilbarger CAD parcel layer; no filter needed",
+  "verification": {
+    "verified_at": 1792051945158,
+    "counties": [
+      "48487"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

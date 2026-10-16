@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "az-yuma",
+  "publisher": "ADWR Parcels (Yuma County layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/C34zQ7veRS0V1t04/arcgis/rest/services/Parcels/FeatureServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04027"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "OWNER_NAME",
+    "acres": "ACRES_US"
+  },
+  "notes": "Served via ADWR Parcels service, Yuma layer; source CRS 26912. SITE_ADDRESS is mostly blank in source, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792048425992,
+    "counties": [
+      "04027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

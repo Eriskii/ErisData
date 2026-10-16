@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-amador",
+  "publisher": "Amador County (Planning / GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Z65sx307Hunxj6eq/arcgis/rest/services/Public_Land_Use_Parcels_2025/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06005"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "address": "AddressStr",
+    "acres": "Acres",
+    "land_use": "LandUse1"
+  },
+  "notes": "Amador County public land use parcels 2025, planning and analysis use; no owner or assessed value fields published",
+  "verification": {
+    "verified_at": 1792048536053,
+    "counties": [
+      "06005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

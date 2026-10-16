@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-angelina",
+  "publisher": "Angelina Central Appraisal District",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Ku30AWcUhD95wd6b/arcgis/rest/services/AngelinaCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48005"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Angelina CAD public web service; parcels layer of FeatureServer/0",
+  "verification": {
+    "verified_at": 1792051628181,
+    "counties": [
+      "48005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

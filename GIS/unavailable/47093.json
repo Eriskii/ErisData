@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "47093",
+  "reason": "login-required",
+  "evidence": [
+    "https://kgis.org/geocortex/essentials/rest/sites/Knox_Sheriff_Viewer/map/mapservices",
+    "https://www.kgis.org/arcgis/rest/services/Maps/GlobalSearch/MapServer",
+    "https://www.kgis.org/arcgis/rest/services/Maps_Cached/AerialLabels/MapServer/19",
+    "https://www.kgis.org/arcgis/rest/services/Maps_Cached/GrayBasemapPro/MapServer/105",
+    "https://tnview.utk.edu/data/",
+    "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer"
+  ],
+  "note": "Knox County parcels are maintained by KGIS (Knoxville-Knox County-KUB GIS). Every KGIS ArcGIS REST endpoint holding the Parcels layer (GlobalSearch/MapServer layer 0, Maps_Cached/AerialLabels layer 19, Maps_Cached/GrayBasemapPro layer 105) returns HTTP 401 'Access is denied due to invalid credentials', so they are not publicly queryable. The statewide TN Property Boundaries layer excludes Knox County (tnview.utk.edu notes Knox is missing), and the TN_County_Parcel_Map FeatureServer (HNTB) has per-county layers for 83 counties but none for Knox. No public Knox parcel service found on ArcGIS Hub/Online. The only shapefile/GeoJSON source found is a third-party reseller (gis.equatorstudios.com), not an official county source.",
+  "recorded_at": 1792052240617,
+  "recheck_after": 1807604240617,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48225",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services9.arcgis.com/CQhVQdXrdvvl6p1k/arcgis/rest/services/Houston_parcels/FeatureServer/0",
+    "https://www.houstoncad.org/home/map",
+    "https://feature.tnris.org/arcgis/rest/services/Parcels/stratmap19_land_parcels_48/MapServer"
+  ],
+  "note": "Only candidate is the ArcGIS Online item 'Parcels - TX - Houston County' (GDITAdmin, Houston_parcels/FeatureServer/0). Every request to it, including metadata and query, is refused with 'Invalid URL' (validation: 'the ArcGIS server refused the query'), so it is not queryable. Houston CAD (houstoncad.org) offers an interactive map and PDF TNT resources only, with no GIS download or REST endpoint. The TNRIS StratMap 2019 parcel MapServer (feature.tnris.org) was unreachable. TxGIO statewide parcels may not include Houston County; its DataHub returned 403. Remaining sources are paid vendors (texascountygisdata.com, TaxNetUSA Pro, Regrid), which are not county publication.",
+  "recorded_at": 1792051764441,
+  "recheck_after": 1807603764441,
+  "model": "claude-haiku-5-5"
+}

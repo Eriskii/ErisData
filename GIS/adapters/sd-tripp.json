@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "sd-tripp",
+  "publisher": "Tripp County Equalization (via District III GIS, TRIPP_TODD_WEB_LAYERS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/TRIPP_TODD_WEB_LAYERS/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46123"
+    ]
+  },
+  "fields": {
+    "apn": "TRIPP_TODD_PARCEL_ID",
+    "owner": "TC_OWNER",
+    "address": "TC_SITE_ADDRESS",
+    "acres": "A1_ACRES",
+    "land_use": "A1_CLASS1",
+    "assessed_value": "A1_TOTAL"
+  },
+  "filter": "TRIPP_TODD_COUNTY = 'TRIPP COUNTY'",
+  "notes": "Layer covers Tripp and Todd counties; filtered to Tripp. Parcel attributes from county assessor extract.",
+  "verification": {
+    "verified_at": 1792051695117,
+    "counties": [
+      "46123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

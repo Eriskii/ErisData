@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-fulton",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05049"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "countyfips = '049'",
+  "notes": "Statewide AR CAMA parcel layer filtered to Fulton county FIPS 049; assessed_value mapped to totalvalue because assessvalue is empty",
+  "verification": {
+    "verified_at": 1792048525105,
+    "counties": [
+      "05049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

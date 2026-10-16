@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29135",
+  "reason": "login-required",
+  "evidence": [
+    "https://services2.integritygis.com/arcgis/rest/Services/MO/Moniteau_Assessor_Data/MapServer",
+    "https://sites7.integritygis.com/geocortex/essentials/rest/sites/Moniteau_County_MO/overviewmap/mapservices/0/layers",
+    "https://moniteaugis.integritygis.com/H5/Index.html",
+    "https://tiles.arcgis.com/tiles/KzeiCaQsMoeCfoCq/arcgis/rest/services/Regrid_Nationwide_Parcel_Boundaries_v1/MapServer/0"
+  ],
+  "note": "Moniteau County publishes parcels via an ArcGIS service (Moniteau_Assessor_Data MapServer on services2.integritygis.com, Parcel Public layer 9, Owner Name 12, Situs Address 14) but every layer returns 'Token Required', so it is not publicly queryable. The county viewer uses the same protected services. The only other service found, Regrid nationwide tiles MapServer, returns 404 on query and is commercial (Pro account needed for export). No open parcel service or file was found.",
+  "recorded_at": 1792051043226,
+  "recheck_after": 1807603043226,
+  "model": "claude-haiku-5-5"
+}

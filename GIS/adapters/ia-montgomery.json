@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-montgomery",
+  "publisher": "Iowa Department of Homeland Security & Emergency Management (hosted by University of Iowa)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19137"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'MONTGOMERY'",
+  "notes": "Statewide Iowa parcel layer (2017 snapshot); filtered to COUNTYNAME MONTGOMERY. Attributes limited: no address, acreage or value.",
+  "verification": {
+    "verified_at": 1792049289996,
+    "counties": [
+      "19137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

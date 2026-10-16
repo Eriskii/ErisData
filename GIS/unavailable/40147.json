@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "40147",
+  "reason": "login-required",
+  "evidence": [
+    "https://washingtoncountyok.gov/help-tool",
+    "https://washingtoncountyok.gov/public-access",
+    "https://oklmrecords.com/washington/map/",
+    "https://app.datacrosspoint.com/properties/washington",
+    "https://okmaps.org/ogi/RestDataAccessItem.aspx?UUID=1484707a-712a-4447-96a9-5a38affc600e",
+    "http://okmaps.org/geoserver/wfs?service=WFS&request=GetCapabilities"
+  ],
+  "note": "Washington County OK parcels are only viewable through third-party proprietary vector-tile viewers (CrossPoint/Landmark GSI, oklmrecords.com). No public county ArcGIS REST service found. The statewide OK Maps parcel layer is WMS-only for public use; the WFS copy (ogi_secure:okco_parcels) returns HTTP 401 and requires login. Regrid's nationwide MapServer has no query endpoint (404) and is a third-party aggregator. Commercial vendor downloads (dynamospatial) are not county sources.",
+  "recorded_at": 1792051542004,
+  "recheck_after": 1807603542004,
+  "model": "claude-haiku-5-5"
+}

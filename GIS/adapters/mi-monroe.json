@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-monroe",
+  "publisher": "Monroe County, Michigan (hosted at gis.mocogeo.org)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mocogeo.org/server/rest/services/Hosted/Parcel_View_2026_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26115"
+    ]
+  },
+  "fields": {
+    "apn": "parcelmaster_pnum",
+    "owner": "parcelmaster_ownername1",
+    "address": "parcelmaster_propstreetcombined",
+    "acres": "parcelmaster_totalacres"
+  },
+  "notes": "Monroe County MI tax parcels, 2026 update; public ArcGIS REST service; wildcard outFields works on this layer; land use not mapped (zoning field empty)",
+  "verification": {
+    "verified_at": 1792050108881,
+    "counties": [
+      "26115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-aurora",
+  "publisher": "Aurora County GIS (via District III)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/AURORA_COUNTY_WEB_LAYERS/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46003"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNERNAME",
+    "acres": "DEEDED_ACRE"
+  },
+  "notes": "Aurora County SD parcel polygons from District III ArcGIS server (AURORA_COUNTY_WEB_LAYERS, PARCEL layer). Source geometry in EPSG:3857. SITE_ADDRESS is sparsely filled (about 21%), so address is not mapped. No land use or assessed value fields published.",
+  "verification": {
+    "verified_at": 1792051634510,
+    "counties": [
+      "46003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

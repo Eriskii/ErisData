@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "vt-statewide",
+  "publisher": "Vermont Center for Geographic Information (VCGI) / VT Dept of Taxes grand list",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/BkFxaEFNwHqX3tAw/arcgis/rest/services/FS_VCGI_OPENDATA_Cadastral_VTPARCELS_poly_standardized_parcels_SP_v1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "VT"
+    ]
+  },
+  "fields": {
+    "apn": "PARCID",
+    "owner": "OWNER1",
+    "address": "E911ADDR",
+    "acres": "ACRESGL",
+    "land_use": "CAT",
+    "assessed_value": "REAL_FLV"
+  },
+  "notes": "VCGI open data standardized statewide parcel polygons; 344k features; grand list attributes. Display-reference use disclaimer on service. Source CRS 32145, served as geoJSON.",
+  "verification": {
+    "verified_at": 1792048388330,
+    "counties": [
+      "50001",
+      "50005",
+      "50007",
+      "50011",
+      "50013",
+      "50015",
+      "50017",
+      "50019",
+      "50021",
+      "50023",
+      "50025",
+      "50027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

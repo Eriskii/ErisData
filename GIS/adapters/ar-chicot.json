@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-chicot",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05017"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "countyfips = '017'",
+  "notes": "Statewide AR parcel polygons (not a legal boundary, for ad valorem assessment). Filtered to Chicot via CountyFips 017. Source updated twice a year.",
+  "verification": {
+    "verified_at": 1792048476790,
+    "counties": [
+      "05017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

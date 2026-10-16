@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nv-pershing",
+  "publisher": "Pershing County GIS (Landbase)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/qOD0sKAJC4zVpWPR/arcgis/rest/services/Landbase/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32027"
+    ]
+  },
+  "fields": {
+    "apn": "APN_TOTAL",
+    "owner": "legal_name",
+    "address": "phys_addr",
+    "acres": "py_mapped_acres",
+    "land_use": "py_use_code"
+  },
+  "notes": "Pershing County NV Landbase service, Parcel Boundary layer, maintained by county GIS. Coordinates in EPSG:3857. net_assessed_value is unpopulated in this layer so it is not mapped.",
+  "verification": {
+    "verified_at": 1792051374179,
+    "counties": [
+      "32027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

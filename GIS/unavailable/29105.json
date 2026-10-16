@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "29105",
+  "reason": "login-required",
+  "evidence": [
+    "https://services5.integritygis.com/arcgis/rest/services/MO/Laclede_Assessor_Data/MapServer",
+    "https://douglasgis.integritygis.com/Geocortex/Essentials/REST/sites/Laclede_County_MO/map"
+  ],
+  "note": "Laclede County's official assessor parcel layer (Laclede_Assessor_Data/MapServer, Parcel layer 8) is on services5.integritygis.com and returns 'Token Required' for the service, its layers and layer 8 alike. The county viewer (Geocortex site) draws parcels from this token-protected service. No public parcel service or file was found; the other sources are paid vendor downloads (landrecords.us, mappingsolutionsgis.com, countygismaps.com).",
+  "recorded_at": 1792050977034,
+  "recheck_after": 1807602977034,
+  "model": "claude-haiku-5-5"
+}

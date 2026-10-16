@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "or-morrow",
+  "publisher": "Morrow County, Oregon GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/MQGnkVpUbcAxMorv/arcgis/rest/services/Taxlots_wo_Ownership/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41049"
+    ]
+  },
+  "fields": {
+    "apn": "MapTaxlot",
+    "acres": "TaxlotAcre"
+  },
+  "notes": "Morrow County tax lot layer; no owner, address or land use fields published in this service. MapTaxlot is the map+lot ID; ORTaxlot is the alternate.",
+  "verification": {
+    "verified_at": 1792051483670,
+    "counties": [
+      "41049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

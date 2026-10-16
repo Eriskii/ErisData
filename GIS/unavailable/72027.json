@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72027",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://www.arcgis.com/home/item.html?id=acf043a178254fcdad6708be3e8ab51c"
+  ],
+  "note": "CRIM publishes the Parcelario (2018) layer as a MapServer/FeatureServer at sigejp.pr.gov and sige.pr.gov, but every query returns 'Service crim/crim_parcelas not started' (HTTP 500) and sige.pr.gov is unreachable; crim_feb_2025 is also not started. satasgis.crimpr.net endpoints are unreachable. No other public parcel service for Camuy was found in ArcGIS Hub/Online, the gis.pr.gov WFS, or the services2/services5 folders; the only Camuy parcel datasets are paid commercial downloads (Regrid, Dynamo Spatial, ReportAll).",
+  "recorded_at": 1792053185742,
+  "recheck_after": 1807605185742,
+  "model": "claude-haiku-5-5"
+}

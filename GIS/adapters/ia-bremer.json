@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-bremer",
+  "publisher": "Bremer County GIS (BremerCountyGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/5fdnasK4g70Ve01j/arcgis/rest/services/Bremer_County_Reference_Map/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19017"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELPIN",
+    "owner": "DEEDHOLDER",
+    "address": "MAILTO_ADDRESS1",
+    "acres": "DEEDEDACRES",
+    "land_use": "CLASSCODE"
+  },
+  "notes": "Tax Parcels layer of Bremer County Reference Map FeatureServer; public ArcGIS service. address is the owner mailing street address (MAILTO_ADDRESS1); the site address field ADDRESS holds street names only for most parcels.",
+  "verification": {
+    "verified_at": 1792049137920,
+    "counties": [
+      "19017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

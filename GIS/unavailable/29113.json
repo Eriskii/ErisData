@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29113",
+  "reason": "login-required",
+  "evidence": [
+    "https://services8.integritygis.com/arcgis/rest/services/MO/Lincoln_Assessor_Data/MapServer",
+    "https://sites5.integritygis.com/geocortex/essentials/rest/sites/Lincoln_County_MO/overviewmap/mapservices/1",
+    "https://experience.arcgis.com/experience/c3c6f7daf88b48eea1633af924f11e5c"
+  ],
+  "note": "Lincoln County MO assessor parcel layers are hosted on integritygis (Lincoln_Assessor_Data MapServer). Probing the MapServer and its Parcel layer returns 'Token Required', so the parcel polygons are not publicly queryable. The county's own ArcGIS server did not respond, the Experience Builder viewer exposes no static service URL, and ArcGIS Hub/Online searches found no public Lincoln County MO parcel service. Only commercial aggregators (landrecords.us, regrid) offer parcels, which are not county endpoints.",
+  "recorded_at": 1792050964430,
+  "recheck_after": 1807602964430,
+  "model": "claude-haiku-5-5"
+}

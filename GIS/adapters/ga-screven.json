@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-screven",
+  "publisher": "Screven County GA (via ArcGIS Online parcels layer, Screven_Web_Map)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/ISpzx3B5ZsVA6e1Z/ArcGIS/rest/services/Screven_Web_Map_WFL1/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13251"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "owner": "Owner",
+    "address": "Road",
+    "acres": "Acres",
+    "land_use": "Class",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Parcel layer from Screven County GIS web map; about 10,980 features; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792048842612,
+    "counties": [
+      "13251"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

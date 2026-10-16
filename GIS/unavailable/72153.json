@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72153",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim"
+  ],
+  "note": "CRIM publishes the Parcelario polygon layer for Puerto Rico (crim_parcelas) and its folder lists it, but every request to it returns 'Service crim/crim_parcelas/MapServer not started' (HTTP 500); crim_feb_2025 is also stopped and the crim folder now lists no services. Other CRIM hosts (satasgis.crimpr.net, sige.pr.gov) were unreachable or returned 404. No other public parcel service for Yauco was found; Regrid and ReportAll are commercial. Validation pr-yauco failed on the query check with the same error.",
+  "recorded_at": 1792052169233,
+  "recheck_after": 1807604169233,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wa-pacific",
+  "publisher": "WA Geospatial Services (WA DOR statewide tax parcels), Pacific County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/jsIt88o09Q0r1j8h/arcgis/rest/services/Current_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53049"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID_NR",
+    "land_use": "LANDUSE_CD",
+    "assessed_value": "VALUE_BLDG"
+  },
+  "filter": "FIPS_NR = '049'",
+  "notes": "Statewide WA DOR parcels filtered to Pacific County by FIPS_NR='049'. Situs address and owner not populated in this layer; county DataLink points to taxsifter.",
+  "verification": {
+    "verified_at": 1792053126655,
+    "counties": [
+      "53049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

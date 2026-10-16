@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-wayne",
+  "publisher": "Wayne County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/q2nSlChj7QgGTANO/arcgis/rest/services/Parcels/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37191"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Name1",
+    "address": "PropertyAddress",
+    "acres": "GIS_Acres",
+    "land_use": "PropUse",
+    "assessed_value": "TotalAssessedValue"
+  },
+  "notes": "Wayne County NC GIS TaxParcels service (ArcGIS Online hosted). Property Lines layer, polygons.",
+  "verification": {
+    "verified_at": 1792051416880,
+    "counties": [
+      "37191"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

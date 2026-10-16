@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-black-hawk",
+  "publisher": "Black Hawk County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/ya62ECiavqTkK0wv/arcgis/rest/services/ParcelFabricPublished_gdb/FeatureServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19013"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "deedholder",
+    "acres": "acres",
+    "land_use": "class_subc",
+    "assessed_value": "landval"
+  },
+  "notes": "Black Hawk County Iowa parcel fabric export (Pclwattr polygon layer) from county ArcGIS Hub. Public, no token. Site address (propertyad) is filled for only about 40% of parcels, so it is not mapped.",
+  "verification": {
+    "verified_at": 1792049144625,
+    "counties": [
+      "19013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

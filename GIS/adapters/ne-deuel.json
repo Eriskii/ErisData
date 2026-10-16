@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ne-deuel",
+  "publisher": "Deuel County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/mq0BGE5kHpm8mHFz/arcgis/rest/services/Deuel_County_Parcels/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31049"
+    ]
+  },
+  "fields": {
+    "apn": "Deuel_County_NE_CAMA_PID",
+    "owner": "Deuel_County_NE_CAMA_Owner_Name",
+    "acres": "Deuel_County_NE_Parcels_acres",
+    "land_use": "Deuel_County_NE_CAMA_Property_T",
+    "assessed_value": "Deuel_County_NE_CAMA_Total_Asse"
+  },
+  "notes": "Deuel County NE parcels with CAMA attributes; hosted on ArcGIS Online. Situs address is blank for most rural parcels, so not mapped.",
+  "verification": {
+    "verified_at": 1792051118095,
+    "counties": [
+      "31049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

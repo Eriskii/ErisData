@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-baldwin",
+  "publisher": "Baldwin County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Da8HZMsU25Hzzob3/arcgis/rest/services/Parcel_Layer/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13009"
+    ]
+  },
+  "fields": {
+    "apn": "PARID",
+    "acres": "ACRES",
+    "land_use": "CLASS"
+  },
+  "notes": "AY2021 parcel edit layer, exported 03/01/2021; not the Digest layer. No owner/address fields published in this layer.",
+  "verification": {
+    "verified_at": 1792048695060,
+    "counties": [
+      "13009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40099",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://csagis-uok.opendata.arcgis.com/maps/6dc1e192c14646db9a8055569490922b",
+    "https://ogidev.okmaps.org/OGI/RestDataAccessItem.aspx?UUID=7c55e990-048e-499d-a20c-58fc5b730562",
+    "https://www.dynamospatial.com/c/murray-county-ok/parcel-data",
+    "https://app.regrid.com/us/ok/murray",
+    "http://murray.oklahoma.usassessor.com/Shared/base/LiteSearch/Search.php"
+  ],
+  "note": "Searched ArcGIS Hub/Online for Murray County parcels: no Murray parcel service found. County GIS data warehouse (csagis-uok) lists transportation, legislative, municipal and hydrology layers only. Statewide OK Maps parcel layer is view-only WMS, not downloadable, no REST endpoint. Murray parcel boundaries are sold only by commercial vendors (Dynamo shapefile, Regrid) or shown in assessor/plat viewers with no public service.",
+  "recorded_at": 1792051498090,
+  "recheck_after": 1807603498090,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "31185",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://maps.camavision.com/yorkne",
+    "https://york.gworks.com/",
+    "https://york.samgis.biz/",
+    "https://york.nebraskaassessors.com/",
+    "https://www.yorkcounty.ne.gov/county-assessor.html",
+    "https://giscat.ne.gov/agency/rest/services/TaxParcelsDED/FeatureServer/0"
+  ],
+  "note": "Searched ArcGIS Hub/Online, county assessor and GIS pages, state directories and the NE state ArcGIS server. The only York parcel MapServer found (maps.yorkcounty.gov Landrecords_Service) is York County, Virginia, not Nebraska. Nebraska's statewide TaxParcelsDED layer has no York coverage (zero features in York and Lincoln test envelopes). York NE's viewers (CAMA Vision, gworks, SAM) expose no public REST service.",
+  "recorded_at": 1792051485700,
+  "recheck_after": 1807603485700,
+  "model": "claude-haiku-5-5"
+}

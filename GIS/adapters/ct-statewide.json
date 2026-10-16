@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "ct-statewide",
+  "publisher": "CT GIS Office, Office of Policy and Management",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/3FL1kr7L4LvwA2Kb/arcgis/rest/services/Connecticut_CAMA_and_Parcel_Layer_2025/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "CT"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "Owner",
+    "address": "Full_Address",
+    "acres": "Land_Acres",
+    "land_use": "State_Use_Description",
+    "assessed_value": "Assessed_Total"
+  },
+  "notes": "Created by CT GIS Office per CGS Sec. 4d-90-92; statewide parcel geometry with CAMA attributes; 2025 collection year. Town_Name and FIPS identify municipality/county.",
+  "verification": {
+    "verified_at": 1792048280140,
+    "counties": [
+      "09110",
+      "09120",
+      "09130",
+      "09150",
+      "09160",
+      "09170",
+      "09190"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

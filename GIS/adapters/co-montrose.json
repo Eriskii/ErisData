@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-montrose",
+  "publisher": "Montrose County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mcmap.montrosecounty.net/server/rest/services/MontroseCOcadastral/MapServer/47",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08085"
+    ]
+  },
+  "fields": {
+    "apn": "ACCOUNTNO",
+    "owner": "NAME",
+    "address": "ADDRESS1",
+    "land_use": "ACCTTYPE"
+  },
+  "notes": "address is owner mailing address",
+  "verification": {
+    "verified_at": 1792048783662,
+    "counties": [
+      "08085"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sc-lexington",
+  "publisher": "Lexington County GIS (SC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.lex-co.com/agstserver/rest/services/Property/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45063"
+    ]
+  },
+  "fields": {
+    "apn": "TMS",
+    "owner": "Owner",
+    "address": "PropAddr_Str",
+    "acres": "Acres",
+    "land_use": "PropTypeDesc",
+    "assessed_value": "AsmtTotal"
+  },
+  "notes": "Lexington County SC Parcels layer from the county ArcGIS server (Property MapServer layer 4).",
+  "verification": {
+    "verified_at": 1792051591624,
+    "counties": [
+      "45063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

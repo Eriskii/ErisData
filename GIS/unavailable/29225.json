@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29225",
+  "reason": "login-required",
+  "evidence": [
+    "https://services5.integritygis.com/arcgis/rest/services/MO/Webster_Assessor_Data/MapServer",
+    "https://services5.integritygis.com/arcgis/rest/services/MO/Webster_Assessor_Data/MapServer/0",
+    "https://webstergis.integritygis.com/Geocortex/Essentials/REST/sites/Webster_County_MO/map"
+  ],
+  "note": "Webster County's assessor parcel layers are published on the integritygis ArcGIS server (Webster_Assessor_Data MapServer, Parcel layer), but both the MapServer root and the parcel layer return 'Token Required' to anonymous requests. Other sources found are commercial vendors (Dynamo Spatial, Regrid, Rockford Map, Acres), which are paid products, not county services. No public parcel service or free file was found.",
+  "recorded_at": 1792051096105,
+  "recheck_after": 1807603096105,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "19183",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://washingtoncounty.iowa.gov/215/GIS-Services",
+    "https://beacon.schneidercorp.com/Application.aspx?App=WashingtonCountyIA&PageType=Map",
+    "https://services.arcgis.com/vPD5PVLI6sfkZ5E4/arcgis/rest/services/Iowa_GMA_2025/FeatureServer/0"
+  ],
+  "note": "Washington County, IA publishes parcels only through the Beacon (Schneider) viewer, a Cloudflare-protected proprietary app with no public ArcGIS REST service. The official county GIS page links only to Beacon. The Iowa GMA 2025 parcel-program layer marks Washington County (COUNTYFP 183) parcel access as 'Internal' (PRCLACCS=I), i.e. not publicly accessible. Regrid's nationwide MapServer is tile-only (query returns 404). Remaining parcel sources are paid third-party shapefiles.",
+  "recorded_at": 1792049267321,
+  "recheck_after": 1807601267321,
+  "model": "claude-haiku-5-5"
+}

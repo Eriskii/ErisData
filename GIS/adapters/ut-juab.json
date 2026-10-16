@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-juab",
+  "publisher": "UGRC / Juab County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Juab/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49023"
+    ]
+  },
+  "fields": {
+    "owner": "OWN_TYPE",
+    "land_use": "OWN_TYPE"
+  },
+  "filter": "FIPS = 49023",
+  "notes": "UGRC statewide parcels; PARCEL_ID/PARCEL_ADD/ACCOUNT_NUM exist but blank on public land; owner is ownership type only",
+  "verification": {
+    "verified_at": 1792052754427,
+    "counties": [
+      "49023"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

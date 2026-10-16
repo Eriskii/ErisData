@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-cerro-gordo",
+  "publisher": "Cerro Gordo County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/qyyoWTywHfayX67L/arcgis/rest/services/Tax_Parcels_Feature_Service/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19033"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "Tyler_OwnerName",
+    "acres": "Tyler_FullAcres"
+  },
+  "notes": "Tyler Technologies Beacon-hosted tax parcels on county ArcGIS Online org. Situs address (Tyler_FullSitus) is sparsely populated so it is not mapped.",
+  "verification": {
+    "verified_at": 1792049129966,
+    "counties": [
+      "19033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

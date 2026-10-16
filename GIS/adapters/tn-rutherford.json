@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-rutherford",
+  "publisher": "Rutherford County GIS (Parcel Data via GBLee2 ArcGIS Hub)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/A5C0MR9xfkxVRwat/arcgis/rest/services/Parcel_Data/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47149"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "Owner1",
+    "address": "FormattedLocation",
+    "acres": "CALCACRES",
+    "land_use": "NALCode",
+    "assessed_value": "TotalAssessedValue"
+  },
+  "notes": "Rutherford County, TN parcel layer hosted by GBLee2 on ArcGIS Online. Statewide TNMAP layer has no Rutherford records (COUNTY_NAME query returns 0). STREETADDRESS is empty; FormattedLocation holds the site address.",
+  "verification": {
+    "verified_at": 1792052578922,
+    "counties": [
+      "47149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

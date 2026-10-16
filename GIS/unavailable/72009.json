@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72009",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://www.arcgis.com/home/item.html?id=177a03ea0b31411cafe5596fe710790d",
+    "https://catastro.crimpr.net/cdprpc/"
+  ],
+  "note": "Aibonito parcels come only from CRIM's statewide Parcelario layer (crim_parcelas). Both published endpoints fail: the sigejp MapServer returns 'Service crim/crim_parcelas/MapServer not started' (500) on every request, and the sige.pr.gov FeatureServer is unreachable. The satasgis.crimpr.net parcel layers listed in CRIM's ArcGIS Online item return 404. No other public Aibonito or PR-wide parcel polygon service was found; the viewer at catastro.crimpr.net is a web app with no REST endpoint.",
+  "recorded_at": 1792051949376,
+  "recheck_after": 1807603949376,
+  "model": "claude-haiku-5-5"
+}

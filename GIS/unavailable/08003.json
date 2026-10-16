@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "08003",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query?where=countyFips+%3D+%27003%27&returnCountOnly=true&f=json (count 0)",
+    "https://gis.colorado.gov/public/rest/services/Parcels/Public_Parcel_Map_Services/MapServer/1 (service not found)",
+    "https://gis.colorado.gov/public/rest/services (no Alamosa folder)",
+    "https://www.alamosacounty.org/163/Assessor (links only to qPublic Schneider viewer)"
+  ],
+  "note": "Searched ArcGIS Hub/Online, gis.colorado.gov service directory, Alamosa County assessor and SLV GIS/GPS pages, and commercial sources. No public parcel REST service or file for Alamosa County. The statewide layer has no Alamosa rows; the county's parcel viewer is Schneider qPublic, not a public ArcGIS service.",
+  "recorded_at": 1792048770725,
+  "recheck_after": 1807600770725,
+  "model": "claude-haiku-5-5"
+}

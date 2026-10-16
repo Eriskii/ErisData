@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-le-sueur",
+  "publisher": "Le Sueur County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.le-sueur.mn.us/server/rest/services/Cadastral/Parcels/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27079"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "owner": "OWNER_NAME_1",
+    "acres": "DEEDED_ACRES",
+    "land_use": "CLASSIFICATION_1",
+    "assessed_value": "TOTAL_ESTIMATED_MARKET_VALUE"
+  },
+  "notes": "County certified parcel layer; property situs address (PROPERTY_ADDRESS_LINE_1) is filled only for a minority of parcels in the source, so it is not mapped. County disclaimer applies; bulk data is fee-based but this service is public query.",
+  "verification": {
+    "verified_at": 1792050899736,
+    "counties": [
+      "27079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

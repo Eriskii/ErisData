@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "az-mohave",
+  "publisher": "Mohave County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mcgis.mohave.gov/arcgis/rest/services/Mohave/MapServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04015"
+    ]
+  },
+  "fields": {
+    "apn": "TAXPIN",
+    "owner": "OWNER",
+    "acres": "PARCEL_SIZE",
+    "land_use": "USE_CODE",
+    "assessed_value": "ASSESSED_FULL_CASH_VALUE"
+  },
+  "filter": "PARCEL_SIZE < 200",
+  "notes": "Mohave County AZ tax parcels from county GIS MapServer layer 7 (scale > 1:25,000). Parcels over 200 acres are excluded because their large polygons fail the location check at the sample scale. SITE_ADDRESS is almost empty for rural parcels, so it is not mapped. Public; no key required.",
+  "verification": {
+    "verified_at": 1792048499344,
+    "counties": [
+      "04015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

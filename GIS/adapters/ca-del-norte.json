@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-del-norte",
+  "publisher": "Del Norte County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/IkUDY1vRIUWiVvcz/arcgis/rest/services/Parcels_06112024/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06015"
+    ]
+  },
+  "fields": {
+    "apn": "Asmt",
+    "address": "AddressStr",
+    "assessed_value": "TotalAsses"
+  },
+  "notes": "Del Norte County assessor parcel layer (latest update 06/11/2024), published by county GIS on ArcGIS Online. No owner or acreage fields published.",
+  "verification": {
+    "verified_at": 1792048589736,
+    "counties": [
+      "06015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

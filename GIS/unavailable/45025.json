@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "45025",
+  "reason": "login-required",
+  "evidence": [
+    "https://smpesri.scdot.org/arcgis/rest/services/GISMapping/SC_Parcels/MapServer/12",
+    "https://smpesri.scdot.org/arcgis/rest/services/GISMapping/SC_Parcels/MapServer",
+    "https://chesterfieldsc.wthgis.com/",
+    "https://www.chesterfieldcountysc.com/geographical-information-systems",
+    "https://opengisdata.chesterfield.gov/"
+  ],
+  "note": "Chesterfield County SC (45025) parcel polygons appear only in SCDOT's SC_Parcels MapServer layer 12, which returns 'Token Required'. The county's own GIS (WTH viewer) exposes no public ArcGIS REST service; the Open GIS Data hub found is Chesterfield County, Virginia. Commercial parcel files only otherwise.",
+  "recorded_at": 1792051630076,
+  "recheck_after": 1807603630076,
+  "model": "claude-haiku-5-5"
+}

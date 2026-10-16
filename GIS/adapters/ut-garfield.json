@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ut-garfield",
+  "publisher": "UGRC / Garfield County, Utah (Parcels LIR)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Garfield_LIR/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49017"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "address": "PARCEL_ADD",
+    "acres": "PARCEL_ACRES",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "TOTAL_MKT_VALUE"
+  },
+  "filter": "PARCEL_ID <> ''",
+  "notes": "UGRC Garfield County parcels LIR with tax roll attributes; filtered to parcels that carry a parcel ID",
+  "verification": {
+    "verified_at": 1792052719680,
+    "counties": [
+      "49017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

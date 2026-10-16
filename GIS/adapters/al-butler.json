@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "al-butler",
+  "publisher": "Butler County, AL (via Alabama Parcel Data, PowerSouth)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01013"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "filter": "COUNTY = 'butler'",
+  "notes": "Layer titled Buter County Parcels in a multi-county PowerSouth service; filtered to COUNTY = butler. Many ADDRESS and USEDESC values are blank.",
+  "verification": {
+    "verified_at": 1792048296715,
+    "counties": [
+      "01013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

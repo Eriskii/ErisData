@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-glenn",
+  "publisher": "CAL FIRE (ITS) via ArcGIS Hub, California Statewide Parcels Public View",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://bz1uwwpkuinzbk94.svcs5.arcgis.com/bz1uwWPKUInZBK94/arcgis/rest/services/CA_Statewide_Parcels_Public_view/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06021"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_APN",
+    "owner": "PARCEL_DMP_ID",
+    "address": "FullStreetAddress"
+  },
+  "filter": "FIPS_CODE = '06021'",
+  "notes": "Statewide parcel layer filtered to Glenn County FIPS 06021.",
+  "verification": {
+    "verified_at": 1792048710699,
+    "counties": [
+      "06021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

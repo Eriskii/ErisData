@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-glascock",
+  "publisher": "Glascock County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/ISpzx3B5ZsVA6e1Z/arcgis/rest/services/Glascock_Web_Map_2026_WFL1/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13125"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Owner",
+    "address": "Road",
+    "acres": "Acres",
+    "land_use": "Class",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "GMASS 2026 web map layer for Glascock County GA; no license terms stated on service",
+  "verification": {
+    "verified_at": 1792048764055,
+    "counties": [
+      "13125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "02290",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services.arcgis.com/2j08Y1PuezhQEfCz/arcgis/rest/services/Alaska_Statewide_Parcels/FeatureServer/0",
+    "https://services1.arcgis.com/7HDiw78fcUiM2BWn/arcgis/rest/services/AK_Parcels/FeatureServer/0",
+    "https://services8.arcgis.com/jzbhhVHDe3lCCWFT/arcgis/rest/services/AK_Statewide_Parcels/FeatureServer/0"
+  ],
+  "note": "Searched ArcGIS Hub/Online for Yukon-Koyukuk and Alaska parcels; the only parcel services found are three statewide compilations (UAA, AK_Parcels, AK_Statewide_Parcels). The UAA and AK_Parcels layers have no Yukon-Koyukuk borough values (Parcel_Borough lists 18 boroughs/cities, none Yukon-Koyukuk), and all three return zero features within a box around the validation point -153.55,65.22. No Yukon-Koyukuk county or community assessor parcel service was found.",
+  "recorded_at": 1792048508658,
+  "recheck_after": 1807600508658,
+  "model": "claude-haiku-5-5"
+}

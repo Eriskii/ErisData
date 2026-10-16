@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21179",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "http://kygeonet.ky.gov/pva/nelson/viewer.htm",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=NelsonCountyKY&PageType=Search",
+    "https://assessorsearch.com/property-records/kentucky/nelson-county",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services"
+  ],
+  "note": "Kentucky's service catalog lists a Nelson County PVA parcel service, but its kygeonet viewer link returns 404 and its geoportal metadata record is also 404. No Nelson parcel MapServer/FeatureServer was found on kygisserver (only Webster PVA parcels are listed), and the Hub and ArcGIS Online searches found none. The county's parcel viewer is a Schneider qPublic app behind a bot check, with no documented public API.",
+  "recorded_at": 1792049972227,
+  "recheck_after": 1807601972227,
+  "model": "claude-haiku-5-5"
+}

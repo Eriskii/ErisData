@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-union",
+  "publisher": "Union County GIS (GDITAdmin ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/72ZZon8FQb6nYtKt/arcgis/rest/services/Union_IL_Parcel_Map_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17181"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "owner1_nam",
+    "address": "site_addre",
+    "acres": "TotalAcres",
+    "land_use": "class"
+  },
+  "notes": "Hosted on ArcGIS Online by GDITAdmin; spatial reference 3857 served",
+  "verification": {
+    "verified_at": 1792048977561,
+    "counties": [
+      "17181"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

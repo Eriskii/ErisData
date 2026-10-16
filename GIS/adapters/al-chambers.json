@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "al-chambers",
+  "publisher": "Chambers County, AL (via PowerSouth Alabama Parcel Data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01017"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Chambers County layer (FeatureServer layer 8) from PowerSouth-hosted Alabama Parcel Data multi-county service. USEDESC is blank in source so land_use maps USECODE.",
+  "verification": {
+    "verified_at": 1792048294250,
+    "counties": [
+      "01017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

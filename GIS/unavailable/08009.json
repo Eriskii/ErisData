@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "08009",
+  "reason": "paywalled",
+  "evidence": [
+    "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0",
+    "https://www.bacacountyco.gov/government/county-assessor/",
+    "https://gis.equatorstudios.com/colorado_baca/",
+    "https://www.dynamospatial.com/c/baca-county-co/parcel-data",
+    "https://countygismaps.com/co/baca",
+    "https://app.regrid.com/us/co/baca"
+  ],
+  "note": "Baca County (08009) publishes no public queryable parcel polygon service. The state OIT Colorado_Public_Parcels layer has 0 features with countyFips 08009 and 0 with countyName like BACA (checked by where-clause queries). The county assessor site links no GIS or parcel service. Baca parcel data appears only via paid or commercial vendors (Equator, Dynamo Spatial, Regrid Pro, CountyGISMaps, Acres/AcreValue viewers), and no free ArcGIS REST parcel layer was found in ArcGIS Hub/Online searches (only commissioner district and precinct layers).",
+  "recorded_at": 1792048750491,
+  "recheck_after": 1823584750491,
+  "model": "claude-haiku-5-5"
+}

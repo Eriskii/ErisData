@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-traverse",
+  "publisher": "Traverse County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/unxYrwb3eK5uevNZ/arcgis/rest/services/Traverse_County_Explore_Layer/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27155"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "owner": "TAXPAYER_N",
+    "address": "TAXPAYER_1",
+    "acres": "DEEDED_ACR"
+  },
+  "notes": "Traverse County Explore Layer (Moore Engineering) Parcels layer, 6,113 features. OWNER_NAME and PROPERTY_A are mostly blank, so owner is TAXPAYER_N and address is the taxpayer mailing address TAXPAYER_1 (not the site address). TAX_YEAR present.",
+  "verification": {
+    "verified_at": 1792050972950,
+    "counties": [
+      "27155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "co-chaffee",
+  "publisher": "Chaffee County GIS (CHAFFEE_PARCELS, hosted by Salida/Chaffee County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/fRzYA77NIM7odeAM/arcgis/rest/services/CHAFFEE_PARCELS/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08015"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "NAME1",
+    "address": "ADDRESS",
+    "acres": "GIS_Acres",
+    "land_use": "ACCT_TYPE"
+  },
+  "notes": "Chaffee County parcel layer, live service; check service description for use restrictions before redistribution",
+  "verification": {
+    "verified_at": 1792048672185,
+    "counties": [
+      "08015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

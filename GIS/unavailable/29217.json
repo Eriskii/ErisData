@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "29217",
+  "reason": "login-required",
+  "evidence": [
+    "https://vernoncountymo.org/?page_id=42",
+    "https://services4.integritygis.com/arcgis/rest/services/MO/Dade_Assessor_Data/MapServer"
+  ],
+  "note": "Vernon parcels are served only through the Integrity GIS Geocortex viewer. Its backing ArcGIS servers (services2 and services4.integritygis.com, MO/*_Assessor_Data) return Token Required. gis.mo.gov has only state-owned parcels.",
+  "recorded_at": 1792051417705,
+  "recheck_after": 1807603417705,
+  "model": "claude-sonnet-5-5"
+}

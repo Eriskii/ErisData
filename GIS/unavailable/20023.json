@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "20023",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://orkahub.kansasgis.org/",
+    "https://apps.kansasgis.org/orka/intro.cfm?countyName=Cheyenne",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer/layers",
+    "https://cheyennecounty.org/map.htm",
+    "https://cheyennecounty.org/appraiser.htm",
+    "https://www.gismaps.org/ks-cheyenne-county/"
+  ],
+  "note": "Searched ArcGIS Hub/Online, Kansas DASC/ORKA statewide services (services.kansasgis.org, mapserver.kansasgis.org, services.kgs.ku.edu), county website pages and third-party directories. The Kansas ORKA extras service has only partial statewide layers (address points, subdivisions, lots, AGUSE land-use polygons) with no parcel polygon layer for Cheyenne County. Parcel access is through the ORKA viewer and a PORKA request process, not a public queryable service. Only commercial vendors (Regrid, Acres, Rockford Map) offer Cheyenne parcels. No county-hosted parcel REST service was found.",
+  "recorded_at": 1792049332876,
+  "recheck_after": 1807601332876,
+  "model": "claude-haiku-5-5"
+}

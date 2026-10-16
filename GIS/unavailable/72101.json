@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72101",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0/query returns 500 'Service crim/crim_parcelas/MapServer not started' (CRIM 2018 Parcelario layer, listed in the sigejp crim folder)",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/ParcelasEtiquetas/MapServer/0 unreachable over HTTPS and 404 over HTTP (CRIM ParcelasEtiquetas, cited in OpenAddresses issue 2894)",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0 unreachable"
+  ],
+  "note": "Morovis parcels are held by CRIM (Puerto Rico tax assessor). The only CRIM parcel polygon services located are stopped or unreachable; ArcGIS Online copies are marked as no longer available; Regrid is a paid commercial source with no public service. No public queryable parcel service for Morovis was found.",
+  "recorded_at": 1792052015104,
+  "recheck_after": 1807604015104,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "08061",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0 (statewide parcel layer: query countyFips='08061' returns count 0)",
+    "https://www.kiowacounty-colorado.com/Kiowa_county_assessor.htm (no GIS or parcel map link)",
+    "https://kiowacounty.colorado.gov/government/elected-officials/assessors-office (points only to qPublic/Beacon search)",
+    "https://platbookmapper.com/colorado/index.html (Kiowa viewer is qPublic Schneider app, not a public ArcGIS service)"
+  ],
+  "note": "Kiowa County (08061) publishes its parcels only through the qPublic/Beacon (Schneider Geospatial) viewer, a proprietary app that returns 403 to automated access and exposes no public ArcGIS REST parcel service. The statewide OIT parcel layer contains zero Kiowa records. Elbert County's Kiowa zoning layer is zoning only; Kiowa's open-data ArcGIS items are precinct and commissioner district layers, not parcels. Commercial sources (Regrid, acres, Rockford) are paid.",
+  "recorded_at": 1792048751957,
+  "recheck_after": 1807600751957,
+  "model": "claude-haiku-5-5"
+}

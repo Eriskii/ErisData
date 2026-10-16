@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-cedar",
+  "publisher": "Iowa DHS&EM statewide parcels (2017), Cedar County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19031"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Cedar'",
+  "notes": "Statewide Iowa parcel layer filtered to COUNTYNAME Cedar; 2017 snapshot",
+  "verification": {
+    "verified_at": 1792049508520,
+    "counties": [
+      "19031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

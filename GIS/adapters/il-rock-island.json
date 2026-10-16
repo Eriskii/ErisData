@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-rock-island",
+  "publisher": "Rock Island County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/6FnscPPlUa9DXXOk/ArcGIS/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17161"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "owner1_name",
+    "address": "taxbill_addr",
+    "acres": "GIS_acres_num",
+    "land_use": "class",
+    "assessed_value": "EAV"
+  },
+  "notes": "Rock Island County IL tax parcels from the county ArcGIS service. address is the tax bill mailing address (site_address is mostly blank in source).",
+  "verification": {
+    "verified_at": 1792049378232,
+    "counties": [
+      "17161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

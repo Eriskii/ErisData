@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-goliad",
+  "publisher": "Goliad Appraisal District (via GOLIAD PARCELS feature service, mdowning_gbra)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Q6vsXnxTnYcWB7qg/arcgis/rest/services/GOLIAD_PARCELS/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48175"
+    ]
+  },
+  "fields": {
+    "apn": "PROP_ID",
+    "owner": "file_as_na",
+    "address": "addr_line2",
+    "acres": "legal_acre"
+  },
+  "notes": "Goliad Appraisal District 2025 tax year parcels; hosted by GBRA user; 9965 features. Address is the owner mailing line; situs fields are sparsely filled.",
+  "verification": {
+    "verified_at": 1792051698556,
+    "counties": [
+      "48175"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

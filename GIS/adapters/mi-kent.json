@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-kent",
+  "publisher": "Kent County GIS (Michigan)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.kentcountymi.gov/agisprod/rest/services/OpenData/Parcel_Related_Layers/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26081"
+    ]
+  },
+  "fields": {
+    "apn": "PNUM",
+    "address": "PROPERTYADDRESS",
+    "acres": "ACREAGE",
+    "land_use": "PROPERTYCLASS"
+  },
+  "notes": "Kent County open data parcel layer (parcels with condos); public ArcGIS service; owner names not published in this layer",
+  "verification": {
+    "verified_at": 1792049983793,
+    "counties": [
+      "26081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

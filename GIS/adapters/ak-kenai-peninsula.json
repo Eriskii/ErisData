@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ak-kenai-peninsula",
+  "publisher": "Kenai Peninsula Borough",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XdwPqILKwMlOaw4F/arcgis/rest/services/KPB_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02122"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNER",
+    "address": "PHYSICAL_ADDRESSES",
+    "acres": "ACREAGE",
+    "land_use": "USAGE_ASSESS",
+    "assessed_value": "ASSESSED_VALUE"
+  },
+  "notes": "KPB parcels 2025",
+  "verification": {
+    "verified_at": 1792048977126,
+    "counties": [
+      "02122"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

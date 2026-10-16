@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-campbell",
+  "publisher": "Campbell County GIS (VA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.campbell.va.us/arcgis/rest/services/Public_Data/Parcels/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51031"
+    ]
+  },
+  "fields": {
+    "apn": "ACCOUNT",
+    "land_use": "ParcelType"
+  },
+  "notes": "Parcel polygons from county Public_Data Parcels layer; ACCOUNT is full tax map number. No owner/address in this layer.",
+  "verification": {
+    "verified_at": 1792052658626,
+    "counties": [
+      "51031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

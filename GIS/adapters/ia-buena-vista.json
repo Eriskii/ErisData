@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ia-buena-vista",
+  "publisher": "Buena Vista County, IA (via City of Storm Lake GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/8xg0ntvPHd0DEjki/arcgis/rest/services/Parcels_Joined_to_Valuation_and_GF_Tax_Revenue_Data_and_Tax_Status/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19021"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumb",
+    "owner": "OwnerName",
+    "address": "FullSitus",
+    "acres": "TOTACRES",
+    "land_use": "PropertyCl",
+    "assessed_value": "AssessedTotalValue"
+  },
+  "notes": "Parcels from Buena Vista County dated 5/16/2025 joined to valuation tables; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792049117237,
+    "counties": [
+      "19021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "29147",
+  "reason": "paywalled",
+  "evidence": [
+    "https://nodawaycountymo.us/",
+    "https://nodawaycountymo.us/county-offices/assessor/",
+    "https://gis.mo.gov/arcgis/rest/services/OA/",
+    "https://data-msdis.opendata.arcgis.com/",
+    "https://app.regrid.com/store/us/mo/nodaway"
+  ],
+  "note": "Searched ArcGIS Hub/Online, county websites (nodawaycountymo.us, nodawaycountymo.com), assessor pages, MSDIS and gis.mo.gov. No public parcel polygon service found for Nodaway County. Only paid vendor downloads (Regrid, Equator, uslandgrid, dynamospatial, acres). gis.mo.gov only has a state-owned parcels layer (FMDCrealEstate_StateOwnedParcels). Apex_Missouri_Parcels and Regrid nationwide tiles do not provide Nodaway coverage via a queryable endpoint.",
+  "recorded_at": 1792051123038,
+  "recheck_after": 1823587123038,
+  "model": "claude-haiku-5-5"
+}

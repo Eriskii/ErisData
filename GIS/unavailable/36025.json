@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "36025",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://nysgeohub.ny.gov/arcgis/rest/services/Parcels/NYS_Tax_Parcels_Public/FeatureServer/1",
+    "https://gis.ny.gov/parcels",
+    "https://services6.arcgis.com/drkDXByy6E3bYW3a/arcgis/rest/services/delaware_county_ny_parcels/FeatureServer",
+    "https://spatial.vhb.com/comit/",
+    "https://www.delcony.gov/rpt/home/tax%20mapping/"
+  ],
+  "note": "Statewide NYS Tax Parcels Public layer has zero Delaware County records (COUNTY_NAME and SWIS queries return 0); Delaware is not among the counties authorized for it. The only county-specific ArcGIS parcel service (wharcgisdeveloper, ArcGIS Online) returns Token Required. The county COMIT viewer (spatial.vhb.com/comit) is an app with no discoverable public parcel service; Beacon (Schneider) is a search app; other digital parcels are sold commercially or by county request form.",
+  "recorded_at": 1792051516449,
+  "recheck_after": 1807603516449,
+  "model": "claude-haiku-5-5"
+}

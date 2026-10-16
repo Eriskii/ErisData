@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13023",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.arcgis.com/sharing/rest/content/items/ba75e3564af74fa99c97392e41b24372?f=json",
+    "https://services.arcgis.com/ISpzx3B5ZsVA6e1Z/arcgis/rest/services/Bleckley_Parcels/FeatureServer/0",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=BleckleyCountyGA&Layer=Parcels&PageType=Search",
+    "https://www.dynamospatial.com/c/bleckley-county-ga/parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub/Online, web, state GIO hub, NETR and county directories. Only ArcGIS parcel layer found (Parcels - GA - Bleckley County, GDITAdmin, Bleckley_Parcels/FeatureServer/0) returns 'Invalid URL' on every request and its ArcGIS Online item returns 403 'Subscription is canceled, the item is not accessible'. The county's official parcel viewer (qPublic/Schneider) is behind a Cloudflare challenge (403) with no public REST endpoint; other parcel sources are paid vendor downloads (Dynamo, Regrid, Rockford). No usable public parcel service or file found.",
+  "recorded_at": 1792048779014,
+  "recheck_after": 1807600779014,
+  "model": "claude-haiku-5-5"
+}

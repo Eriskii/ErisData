@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-roseau",
+  "publisher": "Roseau County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.roseau.mn.us/arcgis/rest/services/TaxParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27135"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "TaxName",
+    "acres": "GIS_Acres"
+  },
+  "notes": "Roseau County GIS TaxParcels layer; situs address (PhysAddr) is sparse and no land use or value fields are published",
+  "verification": {
+    "verified_at": 1792050900713,
+    "counties": [
+      "27135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

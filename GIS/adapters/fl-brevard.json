@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-brevard",
+  "publisher": "Brevard County Property Appraiser (BCPAO)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.bcpao.us/arcgis/rest/services/Brevard_Detailed_Dynamic/MapServer/24",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12009"
+    ]
+  },
+  "fields": {
+    "apn": "TaxAcct",
+    "acres": "Acres"
+  },
+  "notes": "BCPAO parcel polygons (WKID 2881, served as lon/lat). TaxAcct is the account number; Name holds the parcel ID (PID) string. Owner, address and assessed value are not in this layer.",
+  "verification": {
+    "verified_at": 1792048750818,
+    "counties": [
+      "12009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

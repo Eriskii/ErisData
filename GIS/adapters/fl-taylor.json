@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "fl-taylor",
+  "publisher": "Florida Department of Revenue parcel roll via digitalRE FL_Parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/GcvM6vDlR2gM4x31/arcgis/rest/services/FL_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12123"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_NAME",
+    "land_use": "DOR_UC",
+    "assessed_value": "AV_SD"
+  },
+  "filter": "CO_NO = 72",
+  "notes": "FDOR parcel roll; Taylor County rows only (CO_NO 72)",
+  "verification": {
+    "verified_at": 1792049102926,
+    "counties": [
+      "12123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

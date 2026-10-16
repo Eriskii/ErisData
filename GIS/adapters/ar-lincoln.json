@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-lincoln",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05079"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "county = 'Lincoln' AND countyfips = '079'",
+  "notes": "Statewide CAMP parcel polygons (Arkansas GIS Office), not a legal boundary; updated twice a year. countyfips stored as 079.",
+  "verification": {
+    "verified_at": 1792048529563,
+    "counties": [
+      "05079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

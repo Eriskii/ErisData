@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-fulton",
+  "publisher": "Fulton County GIS (Illinois)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/O9Z7JkIFFJ6nOIIq/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17057"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "owner1_nam",
+    "acres": "GIS_Acreag",
+    "land_use": "class",
+    "assessed_value": "tax_billed"
+  },
+  "notes": "Hosted by JRussell_FultonCo on ArcGIS Online; 27,610 parcels. site_addre is sparse (mostly blank), so no address mapped. Source CRS 102672 (IL State Plane East).",
+  "verification": {
+    "verified_at": 1792048925707,
+    "counties": [
+      "17057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

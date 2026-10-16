@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-sumter",
+  "publisher": "City of Americus & Sumter County GIS (kcsgis)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ga31portal.kcsgis.com/ga31server/rest/services/Public/Sumter_Parcels/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13261"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "FULLOWNERNAMES",
+    "address": "SITEADDRESS",
+    "acres": "ACRES",
+    "assessed_value": "CNTASSDVAL"
+  },
+  "notes": "Tax Parcel layer from City of Americus & Sumter County public viewer (ga31portal.kcsgis.com). Source CRS EPSG:26916. Property class fields (CLASSCD, CLASSDSCRP) are empty in this layer, so land use is not mapped.",
+  "verification": {
+    "verified_at": 1792048858304,
+    "counties": [
+      "13261"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

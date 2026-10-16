@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "or-grant",
+  "publisher": "Oregon Department of Transportation (ODOT) ames taxlots, Grant County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.odot.state.or.us/arcgis1006/rest/services/ames/ames/MapServer/32",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41023"
+    ]
+  },
+  "fields": {
+    "apn": "MapTaxlot"
+  },
+  "notes": "ODOT copy of ORMAP taxlots for Grant County; only tax lot identifiers available.",
+  "verification": {
+    "verified_at": 1792051472849,
+    "counties": [
+      "41023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

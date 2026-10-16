@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "tx-nacogdoches",
+  "publisher": "Nacogdoches Central Appraisal District (NACOCAD)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/hmAqtTW1a9v8J2zg/arcgis/rest/services/Public_Parcels/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48347"
+    ]
+  },
+  "fields": {
+    "apn": "gid"
+  },
+  "notes": "NACOCAD public parcel boundaries (ArcGIS org hmAqtTW1a9v8J2zg). The polygon layer carries no owner, situs address or tax parcel number; gid is an internal record id, not the CAD parcel number. Parcel IDs exist only on companion point layer FeatureServer/1 (parcelid). Map is informational; CAD disclaims accuracy.",
+  "verification": {
+    "verified_at": 1792051741280,
+    "counties": [
+      "48347"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

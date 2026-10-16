@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "46031",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://corson.southdakotadirectors.com/",
+    "https://maps.camavision.com/corsonsd",
+    "https://landrecords.us/documentation/coverage/counties/46-031-corson",
+    "https://rockfordmap.com/maps/south-dakota-corson-county/"
+  ],
+  "note": "Searched ArcGIS Hub/Online (Corson hits were only an IMEG bridges layer, no parcels) and county sites. Corson's parcel viewer is CAMAvision (maps.camavision.com/corsonsd); its ArcGIS endpoint returns 'map not active' and no public FeatureServer/MapServer for parcels was found. Parcel polygons are only sold by commercial vendors (landrecords.us, Rockford Map, Regrid). County website links contain no public parcel service.",
+  "recorded_at": 1792051645207,
+  "recheck_after": 1807603645207,
+  "model": "claude-haiku-5-5"
+}

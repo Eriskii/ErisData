@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-anoka",
+  "publisher": "Anoka County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.co.anoka.mn.us/anoka_gis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27003"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER",
+    "address": "LOC_ADDR",
+    "acres": "ACRES",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "MKT_VALUE"
+  },
+  "notes": "Anoka County GIS parcels layer GIS_APPS.SDE.Parcels; maxRecordCount 12500",
+  "verification": {
+    "verified_at": 1792050870385,
+    "counties": [
+      "27003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

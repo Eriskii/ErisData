@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-butler",
+  "publisher": "Butler County PA (via PASDA 2023 parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/ButlerCounty/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42019"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Own1",
+    "address": "Paddr1",
+    "acres": "Shape_Area",
+    "land_use": "luc",
+    "assessed_value": "AssessedVa"
+  },
+  "notes": "Source PASDA Butler County Parcels 202304, EPSG:4269",
+  "verification": {
+    "verified_at": 1792051506746,
+    "counties": [
+      "42019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

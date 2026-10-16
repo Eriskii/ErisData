@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-york",
+  "publisher": "York County Planning Commission (YCPC) GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcweb1.ycpc.org/server/rest/services/OPEN_DATA/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42133"
+    ]
+  },
+  "fields": {
+    "apn": "PIDN",
+    "owner": "OWNER_FULL",
+    "address": "PROPADR",
+    "acres": "ACRES",
+    "land_use": "LUC",
+    "assessed_value": "APRTOTAL"
+  },
+  "notes": "York County PA open data parcel layer from YCPC; 176k features",
+  "verification": {
+    "verified_at": 1792051546284,
+    "counties": [
+      "42133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

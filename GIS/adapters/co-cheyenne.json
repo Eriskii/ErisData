@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "co-cheyenne",
+  "publisher": "Cheyenne County, CO Assessor (via ArcGIS Experience viewer service CheyenneCO_Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/vhybbSS0snCEf2Qb/arcgis/rest/services/CheyenneCO_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08017"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "owner": "NAME1",
+    "address": "ADDRESS",
+    "acres": "LANDGROSSACRECOUNT",
+    "land_use": "ACCTTYPE",
+    "assessed_value": "ASSESSEDVALUE"
+  },
+  "notes": "County assessor parcel layer (Parcel_May25) served from the Cheyenne County CO ArcGIS experience; about 4,649 features. Public access.",
+  "verification": {
+    "verified_at": 1792048711827,
+    "counties": [
+      "08017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

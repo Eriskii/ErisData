@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-brewster",
+  "publisher": "Brewster County Appraisal District (BrewsterCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/rQ0f7V2sPSbAKMbv/arcgis/rest/services/BrewsterCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48043"
+    ]
+  },
+  "fields": {
+    "apn": "geo_id",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "filter": "file_as_name IS NOT NULL",
+  "notes": "Appraisal district CAD web service, public ArcGIS layer. Situs address fields are sparse in source, so address is not mapped. Filter drops geometry-only placeholder records with no attributes.",
+  "verification": {
+    "verified_at": 1792051666143,
+    "counties": [
+      "48043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

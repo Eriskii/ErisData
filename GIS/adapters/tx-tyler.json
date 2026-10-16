@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-tyler",
+  "publisher": "Tyler Central Appraisal District (via bisconsulting ArcGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/j94FvPaik4etwHFk/arcgis/rest/services/TylerCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48457"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Tyler CAD public parcel layer; no filter needed",
+  "verification": {
+    "verified_at": 1792051752123,
+    "counties": [
+      "48457"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

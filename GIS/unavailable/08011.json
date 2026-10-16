@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "08011",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.bentcounty.net/government/property_information.php",
+    "https://www.bentcounty.net/government/assessor.php",
+    "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0"
+  ],
+  "note": "Bent County's property information page says its GIS and digital parcel data are not online; database downloads require a written request approved by the Assessor. No Bent County parcel service found: the statewide OIT Colorado Public Parcels layer returns 0 features for countyFips 08011 and 0 features in a sample envelope around the county point. Only third-party aggregators (Regrid, LandBrief, AcreVision) list Bent parcels.",
+  "recorded_at": 1792048727839,
+  "recheck_after": 1807600727839,
+  "model": "claude-haiku-5-5"
+}

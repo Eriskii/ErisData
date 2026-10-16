@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-wakulla",
+  "publisher": "Wakulla County (via ArcGIS Online, brandon.geiger)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/vAltLjtfYIJc7pDt/arcgis/rest/services/Wakulla_County_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "12129"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "acres": "MAP_ACRES"
+  },
+  "notes": "Wakulla County parcel polygons as published on ArcGIS Online; no owner or address fields in this layer",
+  "verification": {
+    "verified_at": 1792049333773,
+    "counties": [
+      "12129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

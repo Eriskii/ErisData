@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-sonoma",
+  "publisher": "Sonoma County Permit and Resource Management (GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/P5Mv5GY5S66M8Z1Q/arcgis/rest/services/Parcels_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06097"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "address": "SitusFormatted1",
+    "acres": "LandSizeAcres",
+    "land_use": "UseCode",
+    "assessed_value": "Value601NetValue"
+  },
+  "notes": "County parcel layer hosted on the Sonoma County ArcGIS Online organization; public general-use service",
+  "verification": {
+    "verified_at": 1792048682576,
+    "counties": [
+      "06097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

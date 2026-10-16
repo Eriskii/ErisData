@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-swift",
+  "publisher": "Swift County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/D3VRNSq5Pf3sYZAp/arcgis/rest/services/Swift_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27151"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNAME",
+    "acres": "GIS_Acres"
+  },
+  "notes": "Swift County GIS parcels hosted on ArcGIS Online (Swift_Parcels). Owner names padded with spaces. Reference only.",
+  "verification": {
+    "verified_at": 1792050911923,
+    "counties": [
+      "27151"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

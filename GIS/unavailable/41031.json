@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "41031",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gis.odf.oregon.gov/ags1/rest/services/WebMercator/TaxlotsDisplay/MapServer/15",
+    "https://gis.odf.oregon.gov/ags1/rest/services/WebMercator/TaxlotsDisplay/MapServer",
+    "https://www.jeffersoncountyor.gov/gis",
+    "https://www.jeffersoncountyor.gov/assessor"
+  ],
+  "note": "Jefferson County OR tax lots appear only in the ODF statewide TaxlotsDisplay MapServer layer 15 (polygons; fields MAPTAXLOT, OWNERLINE1, PRPCLASS). That layer advertises capability 'Map' only: every query (JSON, GeoJSON) returns 'Requested operation is not supported by this service', so features cannot be read. No county-hosted FeatureServer/MapServer or downloadable parcel file was found. The county GIS mapper (maps.co.jefferson.or.us) is not an ArcGIS REST service and was unreachable; the county GIS page offers data only via a fee schedule.",
+  "recorded_at": 1792051623831,
+  "recheck_after": 1807603623831,
+  "model": "claude-haiku-5-5"
+}

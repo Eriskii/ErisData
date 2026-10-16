@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "29137",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://monroecountymo.gov/assessor/ (official assessor page; no GIS or download links, only a contact email and a realsearch page)",
+    "https://parcelvision.app/parcel-maps/missouri/monroe-county/ (points to a Google search, no county viewer)",
+    "https://map.netronline.com/missouri-monroe/29137 (third-party viewer, no public county service)",
+    "https://gis.mo.gov/arcgis/rest/services/OA (statewide state-owned parcel layer only, not county tax parcels)",
+    "https://gishub-monroegis.hub.arcgis.com/ (county hub found is Monroe County, Ohio, not Missouri)",
+    "Commercial only: Regrid, Dynamo Spatial, Mapping Solutions, Acres, AcreValue, Rockford Map"
+  ],
+  "note": "Searched ArcGIS Hub/Online, MSDIS and gis.mo.gov catalogs, county web pages and neighbouring-county vendors. Parcel sources found are paid vendors or third-party viewers. The one unrelated TaxParcels FeatureServer returned no features at Monroe County MO coordinates.",
+  "recorded_at": 1792051112892,
+  "recheck_after": 1807603112892,
+  "model": "claude-haiku-5-5"
+}

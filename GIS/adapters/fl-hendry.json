@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-hendry",
+  "publisher": "Hendry County Property Appraiser (via Hendry County GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/8l7Qq5t0CPLAJwJK/arcgis/rest/services/Parcels_Feb2024/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12051"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "OWNAME",
+    "address": "LOCADD",
+    "acres": "MAP_ACRES",
+    "land_use": "PUSE1",
+    "assessed_value": "TASSD"
+  },
+  "notes": "Hendry County parcels, Feb 2024 snapshot, county-hosted service; attributes from property appraiser roll",
+  "verification": {
+    "verified_at": 1792048782015,
+    "counties": [
+      "12051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

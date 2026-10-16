@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "tx-taylor",
+  "publisher": "Taylor County, TX (hosted parcels layer; source data from Taylor CAD)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/pGfbNJoYypmNq86F/arcgis/rest/services/Parcels_Taylor_County_Texas/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48441"
+    ]
+  },
+  "fields": {
+    "apn": "PROP_ID"
+  },
+  "notes": "Hosted ArcGIS parcel polygons for Taylor County TX, 69,743 features; only property ID is provided as attribute. Taylor CAD GIS shapefiles are at taylor-cad.org/data-downloads.",
+  "verification": {
+    "verified_at": 1792051755158,
+    "counties": [
+      "48441"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

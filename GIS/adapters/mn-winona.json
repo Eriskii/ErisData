@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-winona",
+  "publisher": "Winona County GIS (OpenGov tax parcels, hosted by ZJKosel)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/n4v88Dv33V9Mhi0b/arcgis/rest/services/OpenGov_TaxParcels_5_15_25/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27169"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "owner": "own1",
+    "address": "adrstr",
+    "acres": "Acres",
+    "land_use": "class",
+    "assessed_value": "aprtot"
+  },
+  "notes": "Winona County MN tax parcels from ArcGIS Online (OpenGov export, May 2025).",
+  "verification": {
+    "verified_at": 1792050896296,
+    "counties": [
+      "27169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

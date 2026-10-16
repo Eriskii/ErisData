@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-goodhue",
+  "publisher": "Goodhue County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://publicmaps.co.goodhue.mn.us/arcgis/rest/services/GoodhueCounty/ParcelsAGOL/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27049"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "C0NAME1P",
+    "address": "FULLSTREET",
+    "acres": "C0ACRES"
+  },
+  "notes": "Goodhue County MN parcels (SDE.ParcelsAll), weekly updates, HARN feet coordinates",
+  "verification": {
+    "verified_at": 1792050883497,
+    "counties": [
+      "27049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

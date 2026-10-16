@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "wi-jackson",
+  "publisher": "Jackson County, WI Land Information",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/G9tkBzRKbAqaotWr/arcgis/rest/services/TaxParcelTest_Public/FeatureServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55053"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "address": "PSTLADRESS",
+    "acres": "GISACRES",
+    "land_use": "AUXCLASS",
+    "assessed_value": "CNTASSDVALUE"
+  },
+  "notes": "Jackson County WI Tax Parcels (TaxParcelTest_Public layer 16). SITEADRESS is sparsely populated, so address is the postal address; PROPCLASS is empty in most records.",
+  "verification": {
+    "verified_at": 1792045208275,
+    "counties": [
+      "55053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

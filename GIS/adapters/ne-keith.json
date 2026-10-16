@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ne-keith",
+  "publisher": "Nebraska Tax Parcels (UNL, hosted on ArcGIS Online), filtered to Keith County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/jzdN07B7ZhRTxuzU/arcgis/rest/services/Layers_Data_WFL1/FeatureServer/29",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31101"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "Current_Owner_Name",
+    "address": "Situs_Address",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '101'",
+  "notes": "Statewide Nebraska parcel layer from UNL; County_ID 101 = Keith County (9184 parcels). Source data may lag county records.",
+  "verification": {
+    "verified_at": 1792051146997,
+    "counties": [
+      "31101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

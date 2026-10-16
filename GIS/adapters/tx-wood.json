@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-wood",
+  "publisher": "Wood County Appraisal District (BIS CAD Web Service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/5u6RvFtqihOOiyUO/arcgis/rest/services/WoodCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48499"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "BIS CAD web service; parcels layer of Wood CAD",
+  "verification": {
+    "verified_at": 1792051776503,
+    "counties": [
+      "48499"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

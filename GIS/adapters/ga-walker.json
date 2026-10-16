@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-walker",
+  "publisher": "Walker County GA (hosted by bgn313_igtlab)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/UnTXoPXBYERF0OH6/arcgis/rest/services/Walker_Parcels_2026LLLT/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13295"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "owner": "ownerName",
+    "address": "parcelAddress",
+    "acres": "totalacres"
+  },
+  "notes": "Walker County GA parcels clipped to LLLT AOI; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792048861082,
+    "counties": [
+      "13295"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-lee",
+  "publisher": "Lee County Auditor (Iowa)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/zeL4k07rMtB4v9Yi/arcgis/rest/services/Auditor_Data_Public_View/FeatureServer/32",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19111"
+    ]
+  },
+  "fields": {
+    "apn": "Name",
+    "owner": "Owner1",
+    "acres": "StatedArea"
+  },
+  "notes": "Lee County IA Auditor public view, TaxParcel layer. No address/value fields published in this layer.",
+  "verification": {
+    "verified_at": 1792049159722,
+    "counties": [
+      "19111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

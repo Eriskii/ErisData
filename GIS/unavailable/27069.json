@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "27069",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.co.kittson.mn.us/community/_gis.php",
+    "https://beacon.schneidercorp.com/Application.aspx?App=KittsonCountyMN&PageType=Map",
+    "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_mngeo/plan_parcels_open/FeatureServer/1"
+  ],
+  "note": "Kittson County (27069) parcels are published only through the county's Schneider Beacon viewer, which is not a public ArcGIS REST or file service (the viewer returned a 403 bot-check page to our reads). The state's compiled opt-in parcel layer (plan_parcels_open, 2.7M features) has zero records for Kittson (co_name and co_code 27069 queries both return 0). Commercial vendors (Dynamo, Rockford, Mapping Solutions, Regrid) sell the data but offer no free service.",
+  "recorded_at": 1792050964932,
+  "recheck_after": 1807602964932,
+  "model": "claude-haiku-5-5"
+}

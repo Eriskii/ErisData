@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nj-gloucester",
+  "publisher": "Gloucester County GIS (via Rowan University hosted layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/CBiB2HwHGXUi8D4Y/arcgis/rest/services/Gloucester_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34015"
+    ]
+  },
+  "fields": {
+    "apn": "PAMS_PIN",
+    "owner": "OWNER_NAME",
+    "address": "ST_ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "NET_VALUE"
+  },
+  "notes": "NJ MOD-IV normalized parcels for Gloucester County; hosted public layer",
+  "verification": {
+    "verified_at": 1792051352871,
+    "counties": [
+      "34015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

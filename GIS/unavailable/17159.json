@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "17159",
+  "reason": "viewer-only",
+  "evidence": [
+    "http://richlandil.wthgis.com/",
+    "https://richlandcounty.illinois.gov/supervisor-of-assessments/",
+    "https://www.rcrpc.org/maps-and-data",
+    "https://app.regrid.com/us/il/richland"
+  ],
+  "note": "Richland County IL official GIS (richlandil.wthgis.com, linked from the Supervisor of Assessments page) is a WTH Technology web viewer; /arcgis/rest/services returns 404, so no public ArcGIS REST parcel service was found. rcrpc.org points to Richland County, Ohio resources. ArcGIS Hub/Online searches found no Richland County IL parcel feature service. Other sources (Acres, Regrid, Dynamo, Rockford Map, Equator) are licensed commercial products.",
+  "recorded_at": 1792049038039,
+  "recheck_after": 1807601038039,
+  "model": "claude-haiku-5-5"
+}

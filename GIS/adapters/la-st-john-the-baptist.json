@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-st-john-the-baptist",
+  "publisher": "St. John the Baptist Parish (via SCPDC Place-Based Investment layers, J-Mann hosted)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/NaE1rjvJf3JdTAkI/arcgis/rest/services/St_John_PBI_WFL1/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22095"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNER",
+    "address": "PAR_ADDR"
+  },
+  "notes": "Parcel polygons from St. John PBI eligibility service (hosted by J-Mann, derived from parish parcels provided to SCPDC). Snapshot, not authoritative assessor feed. Assessed value field is blank in source.",
+  "verification": {
+    "verified_at": 1792049871093,
+    "counties": [
+      "22095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ks-stafford",
+  "publisher": "Stafford County, Kansas (ATCiMaps GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/zDY8zW24CdJKhVIw/arcgis/rest/services/StaffordCountyGIS/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20185"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OwnerName",
+    "address": "SitusAddr",
+    "acres": "Acres"
+  },
+  "notes": "Parcels layer of Stafford County GIS FeatureServer (ATCiMaps). Owner mailing address in OwnerAddr; PRC_2018/PRC_2019 are property record codes.",
+  "verification": {
+    "verified_at": 1792049617228,
+    "counties": [
+      "20185"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

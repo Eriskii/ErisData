@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "13237",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://putnamcountygis.com/arcgis/rest/services/Hosted/Parcels/FeatureServer/0",
+    "https://putnamcountygis.com/arcgis/rest/services/Boundaries/Villages/MapServer",
+    "https://qpublic.net/ga/putnam/",
+    "https://putnamcountyga.us/196/Departments",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=761&LayerID=11797&PageTypeID=1"
+  ],
+  "note": "Putnam County GA (13237). The county GIS server putnamcountygis.com hosts Hosted/Parcels and Hosted/ParcelData FeatureServers, but those hold Putnam County, OHIO parcels (coordinates ~41.08N, -83.89W), not Georgia. The Georgia parcel viewers (qPublic/Schneider, Commission District experience app) are viewer-only, with no public queryable parcel service found; the Boundaries folder has only boundary layers. Commercial parcel sources (Dynamo, Regrid, Rockford) were not used due to licensing.",
+  "recorded_at": 1792048984757,
+  "recheck_after": 1807600984757,
+  "model": "claude-haiku-5-5"
+}

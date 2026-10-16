@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-howard",
+  "publisher": "Howard Central Appraisal District (via ArcGIS Online HowardCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/T3dTslR6IXXsd0JO/arcgis/rest/services/HowardCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48227"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Howard CAD parcel layer from the HowardCADWebService on ArcGIS Online; about 20,593 parcels; situs address sparse in source; no land use field exposed",
+  "verification": {
+    "verified_at": 1792051697523,
+    "counties": [
+      "48227"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

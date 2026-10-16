@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-smith",
+  "publisher": "Tennessee Property Boundaries (TNMAP / Office of Information Resources), Smith County records",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47159"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_NAME = 'SMITH'",
+  "notes": "Statewide TN Property Boundaries public-use layer, filtered to Smith County (12,091 parcels).",
+  "verification": {
+    "verified_at": 1792052677210,
+    "counties": [
+      "47159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

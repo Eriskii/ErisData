@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40049",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://csagis-uok.opendata.arcgis.com/maps/402326131d584d5094efc2e638bed051",
+    "https://ogidev.okmaps.org/OGI/RestDataAccessItem.aspx?UUID=7c55e990-048e-499d-a20c-58fc5b730562",
+    "https://app.regrid.com/store/us/ok/garvin",
+    "https://www.dynamospatial.com/c/garvin-county-ok/parcel-data",
+    "https://assessorsearch.com/property-records/oklahoma/garvin-county"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the CSA Garvin County GIS warehouse: no parcel layer (its Garvin_County_Data service has only boundaries, districts, roads, hydrology). Garvin parcels are only offered by commercial vendors (Regrid, Dynamo, Acres, OGI) or in the statewide OK Maps parcel layer, which is view-only/WMS with download restricted. The county assessor link (usassessor.com LiteSearch) is a search page, not a queryable parcel service. No public parcel polygon service or file was found.",
+  "recorded_at": 1792051513056,
+  "recheck_after": 1807603513056,
+  "model": "claude-haiku-5-5"
+}

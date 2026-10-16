@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-collin",
+  "publisher": "Collin Central Appraisal District (via City of Allen ArcGIS mirror)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismaps.cityofallen.org/arcgis/rest/services/ReferenceData/Collin_County_Appraisal_District_Parcels/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48085"
+    ]
+  },
+  "fields": {
+    "apn": "GIS_DBO_Parcel_PROP_ID",
+    "owner": "GIS_DBO_AD_Entity_file_as_name",
+    "address": "GIS_DBO_AD_Entity_situs_display",
+    "acres": "GIS_DBO_AD_Entity_legal_acreage",
+    "land_use": "GIS_DBO_AD_Entity_state_cd",
+    "assessed_value": "GIS_DBO_AD_Entity_cert_assessed"
+  },
+  "notes": "CCAD parcels mirrored by City of Allen; not survey-grade",
+  "verification": {
+    "verified_at": 1792051906674,
+    "counties": [
+      "48085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

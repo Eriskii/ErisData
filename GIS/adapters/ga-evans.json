@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-evans",
+  "publisher": "Evans County GA (Board of Assessors via ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/vgwS5Le2XfU2EPjI/arcgis/rest/services/Parcels_with_ownership_20211025/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13109"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUM",
+    "owner": "LASTNAME",
+    "address": "STREET_NAM",
+    "acres": "ACRES",
+    "land_use": "ZONING",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Parcel layer from Evans County GA ArcGIS Online org; owner is last name field only; address is street name only (HOUSE_NO separate)",
+  "verification": {
+    "verified_at": 1792048765754,
+    "counties": [
+      "13109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

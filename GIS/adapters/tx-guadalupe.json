@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-guadalupe",
+  "publisher": "Guadalupe Central Appraisal District (GuadalupeCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/1l4hbpt78hjlsIcl/arcgis/rest/services/GuadalupeCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48187"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Appraisal district public web service; situs address split into situs_num/situs_street fields; market is total market value",
+  "verification": {
+    "verified_at": 1792051685280,
+    "counties": [
+      "48187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

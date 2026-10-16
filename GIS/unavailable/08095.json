@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "08095",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0",
+    "https://gis.colorado.gov/public/rest/services?f=json",
+    "https://phillipscounty.colorado.gov/departments/assessor"
+  ],
+  "note": "Phillips County (08095) has no records in the statewide Colorado Public Parcels composite: countyName and countyFips filters return 0 features, and a point inside the county returns no parcel. The county's listed 'GIS Public Viewer Map' could not be reached (403). Hub and Online searches found no public Phillips County parcel service; the other Phillips parcel sources are commercial (Regrid, Acres, Dynamo, Equator Studios).",
+  "recorded_at": 1792048788853,
+  "recheck_after": 1807600788853,
+  "model": "claude-haiku-5-5"
+}

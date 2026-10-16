@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-sequatchie",
+  "publisher": "Sequatchie County GIS (Parcels_Joined_1625, hosted on ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Parcels_Joined_1625/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47153"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALCAC",
+    "land_use": "CLASS",
+    "assessed_value": "ASSESSMENT"
+  },
+  "notes": "Parcel polygons with tax attributes; CAMA/tax data joined. Public tax assessment use.",
+  "verification": {
+    "verified_at": 1792052477259,
+    "counties": [
+      "47153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

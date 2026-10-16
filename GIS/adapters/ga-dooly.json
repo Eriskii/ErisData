@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-dooly",
+  "publisher": "Dooly County GA (SGRC_GIS ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services/Dooly_County_Parcels/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "13093"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "owner": "lastname",
+    "address": "street_nam",
+    "acres": "totalacres",
+    "land_use": "zoningcode",
+    "assessed_value": "curr_val"
+  },
+  "notes": "Dooly County Parcels feature layer, 7277 features; owner from lastname/firstname fields of tax roll",
+  "verification": {
+    "verified_at": 1792048776257,
+    "counties": [
+      "13093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-giles",
+  "publisher": "Giles County, TN (via TN County Parcel Map compilation, ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/59",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47055"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_28_PARCELID",
+    "owner": "Assessment_Data_28_OWNER",
+    "address": "Assessment_Data_28_ADDRESS",
+    "acres": "Parcels_CALC_ACRE",
+    "land_use": "Assessment_Data_28_LANDUSE",
+    "assessed_value": "Assessment_Data_28_APPRAISAL"
+  },
+  "notes": "Compiled layer by HNTBCorp; assessment attributes joined to parcel polygons. Whole layer is Giles County.",
+  "verification": {
+    "verified_at": 1792052262318,
+    "counties": [
+      "47055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

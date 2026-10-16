@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-venango",
+  "publisher": "Venango County PA (via PASDA 2023 parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/VenangoCounty/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42121"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumb",
+    "address": "Situs",
+    "acres": "Shape_Area",
+    "land_use": "PropertyTy"
+  },
+  "notes": "PASDA Venango Parcels 202306, EPSG 4269. Owner and assessed value fields not published in this layer.",
+  "verification": {
+    "verified_at": 1792051542556,
+    "counties": [
+      "42121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

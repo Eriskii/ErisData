@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ak-ketchikan-gateway",
+  "publisher": "Ketchikan Gateway Borough",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/65jtiGuzdaRB5FxF/ArcGIS/rest/services/Parcel_Ketchikan/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02130"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "Owner_Name",
+    "address": "Address",
+    "acres": "Land_Acres",
+    "land_use": "Prop_Type",
+    "assessed_value": "Total_Asse"
+  },
+  "verification": {
+    "verified_at": 1792048940905,
+    "counties": [
+      "02130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

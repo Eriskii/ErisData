@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-humphreys",
+  "publisher": "Humphreys County GIS (via TN statewide parcel compilation, RCSPlanners/HNTB)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/46",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47085"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_43_PARCELID",
+    "owner": "Assessment_Data_43_OWNER",
+    "address": "Assessment_Data_43_ADDRESS",
+    "acres": "Parcels_CALC_ACRE",
+    "land_use": "Assessment_Data_43_LANDUSE",
+    "assessed_value": "Assessment_Data_43_APPRAISAL"
+  },
+  "notes": "Layer 46 of TN_County_Parcel_Map; parcels joined to assessment data. Source CRS 26916; runtime requests lat/lon.",
+  "verification": {
+    "verified_at": 1792052131832,
+    "counties": [
+      "47085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

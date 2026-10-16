@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "fl-sumter",
+  "publisher": "Sumter County Property Appraiser (SCPA_PROPERTY_USE parcel polygons)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/ITa4LPv6Pe88ISGp/ArcGIS/rest/services/ConnectExplorerLayersforupdate_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12119"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL",
+    "owner": "PIN",
+    "land_use": "PROP_USE_D"
+  },
+  "notes": "Sumter County Property Appraiser parcel polygons; PIN is the parcel id key; no owner or address attributes published on this layer",
+  "verification": {
+    "verified_at": 1792049640352,
+    "counties": [
+      "12119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

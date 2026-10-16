@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-midland",
+  "publisher": "Midland County GIS / Midland CAD (via City of Midland GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/0H6bQdxd9223gQB5/arcgis/rest/services/Parcel1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48329"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "address": "ADDRESS",
+    "acres": "Acres",
+    "land_use": "LANDUSE"
+  },
+  "notes": "City and County of Midland parcels; attributes from Midland GIS.",
+  "verification": {
+    "verified_at": 1792051724310,
+    "counties": [
+      "48329"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

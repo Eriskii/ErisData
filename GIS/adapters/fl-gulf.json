@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "fl-gulf",
+  "publisher": "Gulf County Property Appraiser (via ARPC Gulf_DOR parcels layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/N3lCn6dEKCL6LidU/arcgis/rest/services/Gulf_DOR/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12045"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "land_use": "DOR_Land_Use"
+  },
+  "notes": "Parcel polygons with DOR land use; no owner/address fields in this layer. Shape__Area is in square feet (not mapped as acres).",
+  "verification": {
+    "verified_at": 1792048782256,
+    "counties": [
+      "12045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

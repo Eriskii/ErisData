@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-van-buren",
+  "publisher": "Van Buren County GIS (via ArcGIS Online Parcels layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/fOViEAUKl91t9cT6/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26159"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "OWNERNAME",
+    "address": "ADDRESSALL",
+    "acres": "ACREAGE",
+    "land_use": "CURRCLASS"
+  },
+  "notes": "Hosted copy of Van Buren County parcels; maxRecordCount 2000, page_size set to 1000",
+  "verification": {
+    "verified_at": 1792049971972,
+    "counties": [
+      "26159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

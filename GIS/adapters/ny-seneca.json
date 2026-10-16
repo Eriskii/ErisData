@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ny-seneca",
+  "publisher": "Seneca County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/r16htQT76FYkOCrg/arcgis/rest/services/Map_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36099"
+    ]
+  },
+  "fields": {
+    "apn": "Printkey",
+    "owner": "primary_ow",
+    "address": "street_add",
+    "land_use": "prop_class"
+  },
+  "notes": "Seneca County Tax Parcels, updated January 2024, public ArcGIS Online feature service",
+  "verification": {
+    "verified_at": 1792051501276,
+    "counties": [
+      "36099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

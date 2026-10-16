@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13005",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=711&LayerID=11416&PageTypeID=1",
+    "https://qpublic.net/ga/bacon/",
+    "https://baconcounty.org/tax-office.php",
+    "https://www.dynamospatial.com/c/bacon-county-ga/parcel-data"
+  ],
+  "note": "Bacon County GA publishes parcels only through the Schneider qPublic viewer (Cloudflare-blocked, no documented ArcGIS REST or file download). Searches of ArcGIS Hub/Online for Bacon County parcels returned nothing; county site links only to qPublic. Commercial vendors (Dynamo, Regrid, Acres) are paid/subscription, not a county service.",
+  "recorded_at": 1792048748961,
+  "recheck_after": 1807600748961,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "nc-warren",
+  "publisher": "NC OneMap statewide parcels (Warren County extract, NCOneMap NC1Map_Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 24,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37185"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "land_use": "parusedesc",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37185'",
+  "notes": "NC OneMap statewide parcel layer, filtered to Warren County FIPS 37185; county-sourced data",
+  "verification": {
+    "verified_at": 1792051424324,
+    "counties": [
+      "37185"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

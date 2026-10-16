@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-harrison",
+  "publisher": "Harrison County, Iowa (Schneider Geospatial WFS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://wfs.schneidercorp.com/arcgis/rest/services/HarrisonCountyIA_WFS/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19085"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "DEEDHOLD",
+    "acres": "GROSSACRES",
+    "land_use": "CLASS",
+    "assessed_value": "TOTALVAL"
+  },
+  "notes": "Harrison County IA parcels from Schneider WFS MapServer layer 0 (public viewer Beacon HarrisonCountyIA). Owner = DEEDHOLD mailing holder. Situs address (LOCATION) is mostly blank for rural parcels, so not mapped.",
+  "verification": {
+    "verified_at": 1792049181216,
+    "counties": [
+      "19085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

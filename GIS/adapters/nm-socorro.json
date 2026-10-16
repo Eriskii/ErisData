@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "nm-socorro",
+  "publisher": "Socorro County Assessor (via NM axiomnh hosted service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://nm.gis.axiomnh.com/server/rest/services/Hosted/Assessor_Tax_Parcels_202405/FeatureServer/32",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35053"
+    ]
+  },
+  "fields": {
+    "apn": "upc"
+  },
+  "notes": "Socorro County Assessor tax parcel layer, May 2024 snapshot, linked from county assessor parcel map viewer. Owner names not published in this layer (null). Labeled DEV on item page; no address field in source.",
+  "verification": {
+    "verified_at": 1792051405204,
+    "counties": [
+      "35053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

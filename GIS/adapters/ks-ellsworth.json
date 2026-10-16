@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ks-ellsworth",
+  "publisher": "Ellsworth County GIS (ATCiMaps)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/zDY8zW24CdJKhVIw/arcgis/rest/services/EllsworthCountyGIS/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20053"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "OwnerName",
+    "address": "SitusAddr",
+    "acres": "Acres"
+  },
+  "notes": "County GIS parcel layer hosted by ATCiMaps; public ArcGIS service. PRC_2018/PRC_2019 hold property-record URLs, not land use codes.",
+  "verification": {
+    "verified_at": 1792049558007,
+    "counties": [
+      "20053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

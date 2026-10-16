@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "me-somerset",
+  "publisher": "Maine Coast Heritage Trust / MCHT Combined Maine Parcels (via gis.mcht.org)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mcht.org/arcgis/rest/services/Cadastral_Planning/MCHT_Combined_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23025"
+    ]
+  },
+  "fields": {
+    "apn": "state_id",
+    "acres": "st_area_sh"
+  },
+  "filter": "county = 'Somerset'",
+  "notes": "Combined statewide Maine parcels layer; Somerset organized-town rows selected by county field. Town submissions may be outdated. No owner, address, land use or value populated in source. Unorganized territory not included in this filter.",
+  "verification": {
+    "verified_at": 1792049977164,
+    "counties": [
+      "23025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

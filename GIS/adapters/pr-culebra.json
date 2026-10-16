@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pr-culebra",
+  "publisher": "Culebra Municipio parcels (HW 2010 inferred land use, via ArcGIS Hub)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/3HJnCDaJt8fFyjQy/arcgis/rest/services/HW_2010_InferredParcelLandUse_Culebra/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72049"
+    ]
+  },
+  "fields": {
+    "apn": "NUM_CATAST",
+    "address": "Barrio",
+    "acres": "Area_Acres",
+    "land_use": "LU_TDesc_E"
+  },
+  "notes": "Layer is a 2010 inferred land-use parcel dataset for Culebra; no owner or assessed value fields. Barrio used as locality only.",
+  "verification": {
+    "verified_at": 1792051891096,
+    "counties": [
+      "72049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20201",
+  "reason": "login-required",
+  "evidence": [
+    "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/ORKA_Status_20180201/FeatureServer/0/query?where=COUNTY+like+%27%25Washington%25%27&outFields=COUNTY,STATUS,ORKA_LINK,ALT_LINK&returnGeometry=false&f=json",
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://hub.kansasgis.org/pages/de8c49f33a0e4149a8568fea0ef3997d",
+    "https://washington.kansasgov.com/parcel/"
+  ],
+  "note": "Washington County KS parcels are not published as a public queryable service. The Kansas ORKA status layer lists Washington County as 'ORKA Private' (ORKA_LINK https://www.kansasgis.org/orka/intro.cfm?countyName=Washington). ORKA parcel access requires registration and per-county approval, and the county's own parcel search (washington.kansasgov.com/parcel) is a login gate. ORKA KS_ORKA_Extras has no county parcel layer. Commercial vendors (Regrid, DynaMo, Equator) sell the data; the Regrid nationwide tile service exposes no public query endpoint (404). Searched ArcGIS Hub/Online, ORKA services directory, county open-data and appraiser pages; none expose a public parcel service.",
+  "recorded_at": 1792049424126,
+  "recheck_after": 1807601424126,
+  "model": "claude-haiku-5-5"
+}

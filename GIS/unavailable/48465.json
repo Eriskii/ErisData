@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "48465",
+  "reason": "paywalled",
+  "evidence": [
+    "https://valverdecad.org/maps",
+    "https://landrecords.us/documentation/coverage/counties/48-465-val-verde",
+    "https://texascountygisdata.com/product/val-verde-county-shapefile-and-property-data/",
+    "https://app.regrid.com/store/us/tx/val-verde",
+    "https://www.taxnetusa.com/texas/valverde/",
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap23_land_parcels_48/MapServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Val Verde parcel service found), county CAD site (valverdecad.org maps page is a browser-notice shell; the parcel viewer is OGInfo, unreachable), county IT site, and neighbouring-host patterns. Only parcel sources found are paid downloads (landrecords.us, Regrid, texascountygisdata, Equator, TaxNet Pro). The statewide StratMap parcel MapServer requires a token. No free queryable parcel service or file was found.",
+  "recorded_at": 1792051843509,
+  "recheck_after": 1823587843509,
+  "model": "claude-haiku-5-5"
+}

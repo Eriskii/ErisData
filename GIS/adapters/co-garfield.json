@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-garfield",
+  "publisher": "Garfield County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.garfield-county.com/arcgis/rest/services/webmaps/parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08045"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNB",
+    "owner": "OWNER",
+    "address": "PHYSFULL",
+    "assessed_value": "SCHOOLASSESSED"
+  },
+  "notes": "County parcels via MapServer (FeatureServer paging unstable); ACRES empty",
+  "verification": {
+    "verified_at": 1792048737645,
+    "counties": [
+      "08045"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

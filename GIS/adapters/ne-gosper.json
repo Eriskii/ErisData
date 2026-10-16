@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ne-gosper",
+  "publisher": "Nebraska Tax Parcels (UNL compilation of county assessor data), Gosper County records",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/jzdN07B7ZhRTxuzU/arcgis/rest/services/Layers_Data_WFL1/FeatureServer/29",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31073"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "Current_Owner_Name",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '073'",
+  "notes": "Statewide Nebraska Tax Parcels layer; Gosper rows selected by County_ID 073 (3,060 parcels). Situs_Address is empty in this county's source data, so address is not mapped. Source data from county assessors.",
+  "verification": {
+    "verified_at": 1792051163600,
+    "counties": [
+      "31073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

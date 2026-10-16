@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "or-coos",
+  "publisher": "Coos County Assessor (GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Mg5lKoVeyQMwwiX3/ArcGIS/rest/services/Coos_County_Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41011"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "owner": "OWNER1",
+    "address": "SITUSSTR",
+    "acres": "ACRES",
+    "land_use": "PCLCD",
+    "assessed_value": "AV"
+  },
+  "filter": "SITUSSTR <> ' '",
+  "notes": "Coos County Oregon assessor parcels, county-hosted ArcGIS service. Filtered to parcels with a situs address. Assessment purposes only per county site.",
+  "verification": {
+    "verified_at": 1792051494797,
+    "counties": [
+      "41011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

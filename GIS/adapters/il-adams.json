@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-adams",
+  "publisher": "Adams County, Illinois GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/BXTAaNPMn1VANOeH/arcgis/rest/services/ParcelsOnlineMap/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17001"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OwnerName",
+    "acres": "Acres",
+    "land_use": "UseCode",
+    "assessed_value": "TotalValue"
+  },
+  "notes": "Published by Adams County IL via ArcGIS Hub (KevinD_ACHD). Site addresses are sparse in the source (about 22% filled), so address is not mapped. Layer in EPSG 102672/3436.",
+  "verification": {
+    "verified_at": 1792048865446,
+    "counties": [
+      "17001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-bradford",
+  "publisher": "Bradford County GIS via PASDA (Penn State)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/BradfordCounty/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42015"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelJoin",
+    "owner": "NAME",
+    "address": "ADDRESS",
+    "acres": "ACREAGE",
+    "land_use": "LANDUSE"
+  },
+  "notes": "PASDA 202511 Bradford County parcels; 34,935 features; NAD83 EPSG:4269",
+  "verification": {
+    "verified_at": 1792051507118,
+    "counties": [
+      "42015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

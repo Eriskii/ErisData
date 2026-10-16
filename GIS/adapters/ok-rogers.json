@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ok-rogers",
+  "publisher": "Rogers County, Oklahoma (via ArcGIS Online, Catoosa_ROCO_Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/nj9ncbfaytLCyS0D/arcgis/rest/services/Catoosa_ROCO_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40131"
+    ]
+  },
+  "fields": {
+    "apn": "ACCOUNT",
+    "owner": "OWNERSNAM",
+    "address": "SITUS",
+    "acres": "TOTALAREA",
+    "land_use": "PROPERTYC"
+  },
+  "notes": "Rogers County parcel layer, 50,331 features, public ArcGIS service; no license stated",
+  "verification": {
+    "verified_at": 1792051535692,
+    "counties": [
+      "40131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

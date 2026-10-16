@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "17045",
+  "reason": "paywalled",
+  "evidence": [
+    "https://edgarcountyillinois.com/property-records/",
+    "https://edgar-il.bhamaps.com/",
+    "https://ags.bhamaps.com/arcgisserver/rest/services/EdgarIL/EdgarIL_PAT_Taxmap/MapServer/0"
+  ],
+  "note": "Edgar County sells its GIS parcel data package at 25 cents per parcel and offers only a vendor viewer (edgar-il.bhamaps.com, which returns 403 on its REST path). The only ArcGIS listing, ags.bhamaps.com .../EdgarIL_PAT_Taxmap/MapServer/0, refused every connection across several sessions (probe, web get, spec validate) and plain http returns 404, so no queryable service is reachable.",
+  "recorded_at": 1792049060109,
+  "recheck_after": 1823585060109,
+  "model": "claude-sonnet-5-5"
+}

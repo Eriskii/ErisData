@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-hunt",
+  "publisher": "Hunt Central Appraisal District (via BIS Consulting web service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/GIIiqmeq0npieHV9/arcgis/rest/services/HuntCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48231"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Hunt CAD public web service (BIS Consulting); parcels for Hunt County TX",
+  "verification": {
+    "verified_at": 1792051731605,
+    "counties": [
+      "48231"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "oh-fairfield",
+  "publisher": "Fairfield County Auditor / GIS (OpenData ParcelBoundaries)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.fairfield.oh.us/arcgis/rest/services/OpenData/ParcelBoundaries/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39045"
+    ]
+  },
+  "fields": {
+    "apn": "PARID",
+    "owner": "OWN1",
+    "address": "ADRSTR",
+    "acres": "ACRES",
+    "land_use": "LUC",
+    "assessed_value": "APPRVAL"
+  },
+  "notes": "County open data parcel boundaries; PIN is the parcel key, PARID the parcel id",
+  "verification": {
+    "verified_at": 1792051640485,
+    "counties": [
+      "39045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

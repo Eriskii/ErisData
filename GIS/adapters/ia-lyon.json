@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ia-lyon",
+  "publisher": "Lyon County, Iowa (Schneider Corp. WFS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://wfs.schneidercorp.com/arcgis/rest/services/LyonCountyIA_WFS/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19119"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "deedhold",
+    "address": "Primaddr",
+    "acres": "grossac",
+    "land_use": "Class",
+    "assessed_value": "AssessedValue"
+  },
+  "notes": "Lyon County IA parcels from the county Schneider ArcGIS WFS (layer 1). PPN is an alternate parcel number.",
+  "verification": {
+    "verified_at": 1792049258452,
+    "counties": [
+      "19119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

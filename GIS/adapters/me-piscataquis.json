@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "me-piscataquis",
+  "publisher": "Maine GeoLibrary / MCHT Combined Parcels (Piscataquis rows)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mcht.org/arcgis/rest/services/Cadastral_Planning/MCHT_Combined_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23021"
+    ]
+  },
+  "fields": {
+    "apn": "map_bk_lot"
+  },
+  "filter": "county LIKE 'PI%' AND Shape__Area <= 10000000",
+  "notes": "Combined municipal and MRS parcels; PI-prefixed county codes denote Piscataquis. Parcels over 1,000 ha (whole-township unorganized-territory lots whose polygons extend far beyond their reference point) are excluded. Owner and address fields are empty in this source; apn is map_bk_lot (town lot id).",
+  "verification": {
+    "verified_at": 1792049990308,
+    "counties": [
+      "23021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

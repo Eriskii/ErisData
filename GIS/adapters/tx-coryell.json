@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-coryell",
+  "publisher": "Coryell County Central Appraisal District (via BIS Consultants ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/qmqVEYNCt8dhXqHl/arcgis/rest/services/CoryellCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48099"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Coryell CAD public ArcGIS web service; appraisal data for appraisal use",
+  "verification": {
+    "verified_at": 1792051662894,
+    "counties": [
+      "48099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

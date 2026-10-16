@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40123",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://pontotoc.okcounties.org/offices/assessor",
+    "https://publicrecords.netronline.com/state/OK/county/pontotoc",
+    "https://www.acres.com/plat-map/map/ok/pontotoc-county-ok",
+    "http://maps.adaok.com:6080/arcgis/rest/services/Special_Projects/Water_Rights_Purchase_Map/MapServer",
+    "https://okmaps.org/ogi/search.aspx"
+  ],
+  "note": "Searched ArcGIS Online/Hub and the web. Pontotoc County's assessor says it maintains a parcel mapping system but links no service. The only ArcGIS endpoint found (maps.adaok.com, a water-rights map service) is unreachable, and its services directory and layer path return 404. Parcel viewers found (Acres, NETR map, AcreValue, Regrid) are commercial, not county-published services. The statewide OK Maps parcel layer is view-only WMS, not downloadable.",
+  "recorded_at": 1792051571789,
+  "recheck_after": 1807603571789,
+  "model": "claude-haiku-5-5"
+}

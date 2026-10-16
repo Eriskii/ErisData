@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20203",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KS_County_Website_Links_SHP/FeatureServer/0",
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer",
+    "https://www.wichitacounty.org/201/Appraiser"
+  ],
+  "note": "Searched ArcGIS Hub/Online, Kansas state (KSGIS ORKA) and county sites. Wichita County publishes no GIS portal or parcel service: the statewide county-links layer lists wichitacounty.org with no GIS portal, and points parcel data to the ORKA portal, which provides parcel data only by request. ORKA_Extras layers cover other counties, not Wichita. Commercial viewers (Regrid, Acres, parcelmap.app, ProAccess) are not official services; the Regrid ArcGIS tile service does not support queries.",
+  "recorded_at": 1792049394365,
+  "recheck_after": 1807601394365,
+  "model": "claude-haiku-5-5"
+}

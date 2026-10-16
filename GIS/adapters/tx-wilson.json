@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-wilson",
+  "publisher": "Wilson County Appraisal District (via WilsonCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/k8X7ZqKHDjdLxW50/arcgis/rest/services/WilsonCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48493"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Public WCAD CAD web service; parcels layer of the appraisal district map",
+  "verification": {
+    "verified_at": 1792051761128,
+    "counties": [
+      "48493"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-karnes",
+  "publisher": "Karnes County, TX (via Texas County Parcel Data, genericUser01 ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/NX9oirWWrUw2AYDS/arcgis/rest/services/TX_County_Parcels/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48255"
+    ]
+  },
+  "fields": {
+    "apn": "GlobalID",
+    "acres": "Shape__Area"
+  },
+  "notes": "Layer Karnes_Parcels_Web from a 2017 statewide KML-derived compilation; no owner, situs or APN attributes. apn is the GlobalID, not a tax ID. Shape__Area is square meters, not acres. Geometry in EPSG:3857.",
+  "verification": {
+    "verified_at": 1792051742916,
+    "counties": [
+      "48255"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

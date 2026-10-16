@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72055",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0 returns 'Service crim/crim_parcelas/MapServer not started'",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/MapServer/0 (listed in ArcGIS item 177a03ea0b31411cafe5596fe710790d) unreachable over https; http returns 404",
+    "https://github.com/openaddresses/openaddresses/issues/2894 lists the satasgis crimpr ParcelasEtiquetas endpoint, also unreachable"
+  ],
+  "note": "CRIM (Puerto Rico) publishes the island-wide parcel layer (Parcelas / Parcelario) as ArcGIS REST services, but every endpoint found returned errors during this search: sigejp crim_parcelas stopped, satasgis host unreachable or 404. No queryable parcel service for Guánica was reachable.",
+  "recorded_at": 1792051963970,
+  "recheck_after": 1807603963970,
+  "model": "claude-haiku-5-5"
+}

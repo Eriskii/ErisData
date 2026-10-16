@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ri-newport",
+  "publisher": "RIGIS / RI Division of Statewide Planning (Assessors Tax Parcels), Newport County towns",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://risegis.ri.gov/hosting/rest/services/RIDEM/Tax_Parcels/MapServer/0",
+    "page_size": 5,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "44005"
+    ]
+  },
+  "fields": {
+    "apn": "PlatLot",
+    "acres": "Acres",
+    "land_use": "E911Desc"
+  },
+  "filter": "TownCode IN ('NE','JA','LC','MI','PO','TI')",
+  "notes": "Newport County towns only from the statewide assessor parcel layer; TownCode 2-letter code. No owner or address in this layer.",
+  "verification": {
+    "verified_at": 1792051699012,
+    "counties": [
+      "44005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

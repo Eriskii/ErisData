@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mo-st-charles",
+  "publisher": "St. Charles County Government (GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.sccmo.org/scc_gis/rest/services/open_data/Parcel_Area/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29183"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "Owner",
+    "address": "SiteAddress",
+    "acres": "Parcel_Acres",
+    "land_use": "PropType",
+    "assessed_value": "TotalMarketValue"
+  },
+  "notes": "St. Charles County open data parcels layer; custom county license, see gis-sccmo.opendata.arcgis.com",
+  "verification": {
+    "verified_at": 1792051040656,
+    "counties": [
+      "29183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

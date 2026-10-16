@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "va-amelia",
+  "publisher": "Amelia County, VA (GIS via ArcGIS Online, AmeliaCoVA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/KuWoGBd5phLjOeUB/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51007"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "NAME",
+    "address": "ADDRESS1",
+    "acres": "ACRES",
+    "assessed_value": "CalcTotVal"
+  },
+  "notes": "Amelia County public parcel layer (Parcels_Joined). Single-county layer, no filter needed. Coordinates are State Plane VA South (wkid 2284); runtime reprojects. Address is owner mailing address; situs number is mostly zero. Land use not populated.",
+  "verification": {
+    "verified_at": 1792052776127,
+    "counties": [
+      "51007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

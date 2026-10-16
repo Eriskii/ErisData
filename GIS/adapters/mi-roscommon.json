@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-roscommon",
+  "publisher": "Roscommon County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/edGXqVKidagzAIPB/arcgis/rest/services/Roscommon_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26143"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "ownername1",
+    "address": "Property_A"
+  },
+  "notes": "Public ArcGIS service from Roscommon County Parcels (spicergroup). Native CRS 2253; geoJSON query requested.",
+  "verification": {
+    "verified_at": 1792049960285,
+    "counties": [
+      "26143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29185",
+  "reason": "login-required",
+  "evidence": [
+    "https://services8.integritygis.com/arcgis/rest/services/MO/St_Clair_Assessor_Data/MapServer",
+    "https://services8.integritygis.com/arcgis/rest/services/MO",
+    "https://maps.stclaircounty.org/Html5/index.html?viewer=Public_Pcls",
+    "https://www.stclaircounty.org/Offices/gis/"
+  ],
+  "note": "St. Clair County MO parcel polygons sit on an IntegrityGIS assessor MapServer that returns 'Token Required' at service and folder level. The county parcel viewer (Public_Pcls) has no discoverable public REST endpoint. No open download found; commercial parcel files are not county-published.",
+  "recorded_at": 1792051126822,
+  "recheck_after": 1807603126822,
+  "model": "claude-haiku-5-5"
+}

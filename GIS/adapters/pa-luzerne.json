@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-luzerne",
+  "publisher": "Luzerne County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.luzernecounty.org/server/rest/services/PublicMap/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42079"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "PUB_OWNER",
+    "land_use": "Municipality_Name",
+    "assessed_value": "TOTAL_FAV"
+  },
+  "notes": "Luzerne County public tax parcels; PIN/GIS_PIN/LONG_PIN identifiers. No site address field in this layer; owner mailing care-of omitted.",
+  "verification": {
+    "verified_at": 1792051528387,
+    "counties": [
+      "42079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

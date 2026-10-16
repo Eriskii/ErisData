@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mi-berrien",
+  "publisher": "Berrien County, MI parcels (2020 vintage, public ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/o5a9nldztUcivksS/arcgis/rest/services/Berrien_Co_Parcels_2020/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26021"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnumb",
+    "owner": "owner",
+    "address": "address",
+    "acres": "gisacre",
+    "land_use": "usecode",
+    "assessed_value": "parval"
+  },
+  "notes": "Parcel polygons in WGS84; 2020 vintage.",
+  "verification": {
+    "verified_at": 1792049935997,
+    "counties": [
+      "26021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

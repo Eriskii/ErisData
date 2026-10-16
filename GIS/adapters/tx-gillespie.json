@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-gillespie",
+  "publisher": "Gillespie Central Appraisal District (via ArcGIS Online GillespieCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Jt5Ms9iSpiRKiydw/arcgis/rest/services/GillespieCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48171"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Appraisal district public web service; parcels for Gillespie County",
+  "verification": {
+    "verified_at": 1792051687339,
+    "counties": [
+      "48171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

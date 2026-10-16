@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "al-russell",
+  "publisher": "Russell County, AL (via Alabama Parcel Data, PowerSouth/ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/38",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01113"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer 38 of Alabama Parcel Data (PowerSouth). Russell County Parcels; 36000 features. USEDESC is mostly blank so USECODE is mapped as land_use.",
+  "verification": {
+    "verified_at": 1792048404848,
+    "counties": [
+      "01113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

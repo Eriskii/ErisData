@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ia-polk",
+  "publisher": "Polk County Iowa GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis4.polkcountyiowa.gov/server/rest/services/Public/Polk_County_Parcels/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19153"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_Number",
+    "acres": "Shape__Area"
+  },
+  "notes": "Polk County Iowa public cadastral parcels (layer 1 of Public/Polk_County_Parcels). Shape__Area is in square feet-like projected units, not acres; no owner or assessed value fields in this layer",
+  "verification": {
+    "verified_at": 1792049175945,
+    "counties": [
+      "19153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

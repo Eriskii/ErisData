@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72035",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_feb_2025/FeatureServer/0",
+    "https://www.arcgis.com/sharing/rest/content/items/acf043a178254fcdad6708be3e8ab51c/data?f=json"
+  ],
+  "note": "CRIM Parcelario services (crim_parcelas, crim_feb_2025) on sigejp.pr.gov return 'Service ... not started'; the CRIM viewer's Parcelas FeatureServer on satasgis.crimpr.net returns 404 for all paths, and the sige.pr.gov host is unreachable. Searches of ArcGIS Hub/Online, gis.pr.gov, and commercial sources found no other public Cayey parcel service; only Regrid and similar commercial sellers list Cayey parcels.",
+  "recorded_at": 1792051961909,
+  "recheck_after": 1807603961909,
+  "model": "claude-haiku-5-5"
+}

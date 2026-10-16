@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-cumberland",
+  "publisher": "Cumberland County GIS (Tax PWA parcel extract, hosted by GDITAdmin)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4YineAQdtmx0tv46/ArcGIS/rest/services/Parcels_Cumberland/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17035"
+    ]
+  },
+  "fields": {
+    "apn": "TSC_Parcel_Number",
+    "owner": "TSC_owner1_name",
+    "address": "TSC_site_address",
+    "acres": "TSC_Gross_Acres",
+    "land_use": "class",
+    "assessed_value": "TSC_assessed_last"
+  },
+  "notes": "Parcel extract from county Tax PWA; alternate PIN in Alt_PIN/TSC_Alternate_Parcel_Number; site city/state/zip in TSC_site_csz; web mercator service",
+  "verification": {
+    "verified_at": 1792048976802,
+    "counties": [
+      "17035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

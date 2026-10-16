@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "mn-cass",
+  "publisher": "Minnesota Geospatial Commons (opt-in county parcels, Cass County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_mngeo/plan_parcels_open/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27021"
+    ]
+  },
+  "fields": {
+    "apn": "county_pin",
+    "owner": "owner_name",
+    "address": "st_name",
+    "acres": "acres_deed",
+    "land_use": "useclass1",
+    "assessed_value": "emv_total"
+  },
+  "filter": "co_name = 'Cass'",
+  "notes": "Statewide compiled parcels from opt-in counties; Cass County subset via co_name.",
+  "verification": {
+    "verified_at": 1792050886267,
+    "counties": [
+      "27021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

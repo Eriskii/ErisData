@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72054",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://www.arcgis.com/home/item.html?id=177a03ea0b31411cafe5596fe710790d"
+  ],
+  "note": "CRIM (Puerto Rico's tax assessor) publishes the statewide Parcelario layer as crim_parcelas. Its MapServer and FeatureServer endpoints on sigejp.pr.gov and sige.pr.gov return 'Service crim/crim_parcelas/MapServer not started' (HTTP 500) on every probe and in validation; the sige.pr.gov host does not connect. The older satasgis.crimpr.net Parcelas layer, linked from the CRIM ArcGIS Online map, also does not connect. gis.pr.gov WFS (geoserver2.pr.gov pr_geodata) has no parcel layer, only index grids. Regrid and landrecords.us are commercial, not county-published services.",
+  "recorded_at": 1792052070627,
+  "recheck_after": 1807604070627,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-lyon",
+  "publisher": "Lyon County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/WSCKzjfnubMgUOk8/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27083"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "TXTNAM",
+    "acres": "GISAcres",
+    "land_use": "Asmtdesc",
+    "assessed_value": "TaxTotal"
+  },
+  "notes": "Lyon County Parcels layer from the county ArcGIS Online org (services.arcgis.com/WSCKzjfnubMgUOk8). No situs address field mapped: TXTAD1 is the owner mailing address and TXCITY is a city code.",
+  "verification": {
+    "verified_at": 1792050896177,
+    "counties": [
+      "27083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

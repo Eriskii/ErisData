@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ks-sedgwick",
+  "publisher": "Sedgwick County GIS (Kansas)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismaps.sedgwickcounty.org/arcgis/rest/services/Map/Op_Parcel_Dynamic_SP/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20173"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "ParcAcresC"
+  },
+  "notes": "Sedgwick County Tax Parcels (Parcel Trim), public county GIS service. Owner/address/value fields not published on this layer.",
+  "verification": {
+    "verified_at": 1792049327173,
+    "counties": [
+      "20173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

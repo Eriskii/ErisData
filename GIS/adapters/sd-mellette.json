@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sd-mellette",
+  "publisher": "Mellette County GIS (hosted by District III)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/MELLETTE_COUNTY_WEB_LAYERS/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46095"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "CAMA_OWNERNAME",
+    "address": "CAMA_SITE_ADDRESS",
+    "acres": "CAMA_ACRES",
+    "assessed_value": "VAL_TOTAL_VALUE_1"
+  },
+  "notes": "Parcel polygons from county CAMA-linked web layer (District III hosted); MapServer layer 5 PARCEL, maxRecordCount 2000. Land use field PROP_CAT_DESC_1 is empty in sampled records, so not mapped.",
+  "verification": {
+    "verified_at": 1792051632002,
+    "counties": [
+      "46095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

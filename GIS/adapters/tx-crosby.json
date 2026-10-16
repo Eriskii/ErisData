@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-crosby",
+  "publisher": "Crosby County Appraisal District via TxGIO StratMap 2025 land parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/TjA0ysuXmC5nducZ/arcgis/rest/services/stratmap25_landparcels_48107_lp/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48107"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "land_use": "STAT_LAND_",
+    "assessed_value": "MKT_VALUE"
+  },
+  "notes": "TxGIO StratMap 2025 land parcels for Crosby County (FIPS 48107), derived from CAD data; public. Service reports 851 features.",
+  "verification": {
+    "verified_at": 1792051670160,
+    "counties": [
+      "48107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

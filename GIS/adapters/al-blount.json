@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "al-blount",
+  "publisher": "Blount County AL (via BradleyParcelLayers, Parcels - Blount County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/zrLFDfFngKFAFR7B/arcgis/rest/services/BradleyParcelLayers/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01009"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "acres": "LAND_ACRES",
+    "land_use": "LAND_USE",
+    "assessed_value": "ASSD_VAL"
+  },
+  "notes": "Parcel polygons for Blount County AL; FIPS_CODE 01009 on every record; source has no owner or full site address field (SITE_STR is street name only, partly filled); source spatial reference 102630 reprojected by runtime.",
+  "verification": {
+    "verified_at": 1792048342506,
+    "counties": [
+      "01009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

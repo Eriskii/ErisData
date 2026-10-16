@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40011",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://blaine.okcounties.org/departments/county-assessor/property-information-search",
+    "https://blaine.okcounties.org/maps",
+    "https://www.actdatascout.com/",
+    "https://okmaps.org/OGI/xmlmetadatadownload.aspx?LayerUUID=1484707a-712a-4447-96a9-5a38affc600e"
+  ],
+  "note": "Blaine County OK publishes parcel maps only through its assessor's actDataScout portal (proprietary, WAF-blocked, no ArcGIS REST or file download found). County maps page lists only PDF maps. No public ArcGIS parcel service for Blaine County found in ArcGIS Hub/Online searches. The OK Maps statewide parcel layer is WMS view-only with no download. Commercial vendors (Regrid, DynamoSpatial, Rockford) are paid, not county sources. The Blaine_Gdb FeatureServer found under services6 is Blaine County, WA, not Oklahoma.",
+  "recorded_at": 1792051471548,
+  "recheck_after": 1807603471548,
+  "model": "claude-haiku-5-5"
+}

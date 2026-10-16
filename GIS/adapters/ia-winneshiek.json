@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ia-winneshiek",
+  "publisher": "Winneshiek County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/iTD9H5n0iOsV1oub/arcgis/rest/services/Winn_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19191"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "DEEDHOLD",
+    "address": "location",
+    "acres": "GISAcres",
+    "land_use": "class",
+    "assessed_value": "Total_Valu"
+  },
+  "notes": "Winneshiek County IA parcels; hosted by county on ArcGIS Online",
+  "verification": {
+    "verified_at": 1792049242062,
+    "counties": [
+      "19191"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

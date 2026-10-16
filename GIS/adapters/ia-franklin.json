@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-franklin",
+  "publisher": "Iowa DHS&EM / University of Iowa statewide parcels (Franklin County subset)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19069"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'FRANKLIN'",
+  "notes": "Statewide Iowa parcel layer (2017), filtered to COUNTYNAME FRANKLIN. No address or acreage in source.",
+  "verification": {
+    "verified_at": 1792049290911,
+    "counties": [
+      "19069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

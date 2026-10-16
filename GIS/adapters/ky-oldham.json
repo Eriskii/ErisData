@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ky-oldham",
+  "publisher": "Oldham County Planning & Development Services (ocpdsgis)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/4eBIYcSR3sVL9y0D/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21185"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "acres": "ACRES"
+  },
+  "notes": "Public ArcGIS Online layer from Oldham County GIS org; no owner/address fields in this layer. 27k features.",
+  "verification": {
+    "verified_at": 1792049850237,
+    "counties": [
+      "21185"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

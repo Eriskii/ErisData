@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20199",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services.kansasgis.org/arcgis4/rest/services/KS_Parcels_ORKA_EB/FeatureServer/0",
+    "https://services.kansasgis.org/arcgis4/rest/services/KS_Parcels_ORKA/MapServer",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer",
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://www.ksrevenue.gov/pvdmap.html"
+  ],
+  "note": "The statewide ORKA parcel layer (KS_Parcels_ORKA_EB, 23,861 features) has only CO_ABBR values CN, RA, SH, TH; a query over the full Wallace bbox and the sample point returns zero Wallace parcels (only Sherman SH parcels at the bbox edge). ORKA lists Wallace parcels only via a per-county request process. The county site wallacecounty.net returns 403. Remaining Wallace parcel sources (Regrid, Dynamo Spatial, Acres, Rockford Map) are paid/commercial, not public services.",
+  "recorded_at": 1792049444853,
+  "recheck_after": 1807601444853,
+  "model": "claude-haiku-5-5"
+}

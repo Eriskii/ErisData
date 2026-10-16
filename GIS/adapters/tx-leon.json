@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-leon",
+  "publisher": "Leon County Appraisal District via TxGIO StratMap",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/LHv9vJs7EplGwleT/arcgis/rest/services/stratmap25_landparcels_48289_lp/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48289"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "land_use": "LOC_LAND_U",
+    "assessed_value": "MKT_VALUE"
+  },
+  "notes": "TxGIO StratMap 2025 land parcels, Leon County; public download",
+  "verification": {
+    "verified_at": 1792051700758,
+    "counties": [
+      "48289"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20081",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.haskellcounty.org/county-appraiser",
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer",
+    "https://www.dynamospatial.com/c/haskell-county-ks/parcel-data"
+  ],
+  "note": "After a real search, no public queryable parcel polygon service found for Haskell County KS. County appraiser site links no GIS service (only ecountyworks tax search). State ORKA parcel access is via a per-county PORKA request; the statewide KS_ORKA_Extras MapServer has only subdivision/lot/ag-use/address layers, no tax parcels. Commercial vendors (Dynamo, Equator, Rockford, Regrid) sell parcel files; these are not county publications.",
+  "recorded_at": 1792049469768,
+  "recheck_after": 1807601469768,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-fort-bend",
+  "publisher": "Fort Bend Central Appraisal District (via Fort Bend Parcels hosted feature service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/t0YOf6jgWI9VlXp2/arcgis/rest/services/Fort_Bend_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48157"
+    ]
+  },
+  "fields": {
+    "apn": "PropertyNu",
+    "owner": "OwnerName",
+    "address": "Situs",
+    "acres": "LandSizeAC",
+    "land_use": "LandStateC",
+    "assessed_value": "TotalValue"
+  },
+  "notes": "FBCAD parcels",
+  "verification": {
+    "verified_at": 1792051720045,
+    "counties": [
+      "48157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

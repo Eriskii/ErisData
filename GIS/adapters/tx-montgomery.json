@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tx-montgomery",
+  "publisher": "Montgomery Central Appraisal District via Montgomery County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/PRoAPGnMSUqvTrzq/arcgis/rest/services/TaxParcelperClass/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48339"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "land_use": "STCodeDesc"
+  },
+  "notes": "MCAD tax parcels per Texas state classification, Montgomery County TX",
+  "verification": {
+    "verified_at": 1792052642839,
+    "counties": [
+      "48339"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

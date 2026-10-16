@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-henderson",
+  "publisher": "Henderson County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.hendersoncountync.gov/arcgis/rest/services/Tax/Data_for_MapMetrics/MapServer/18",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37089"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "CALCACRE"
+  },
+  "notes": "Henderson County NC parcel polygons (Tax/Data_for_MapMetrics layer 18); public ArcGIS service; no owner/address on this layer",
+  "verification": {
+    "verified_at": 1792051433036,
+    "counties": [
+      "37089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

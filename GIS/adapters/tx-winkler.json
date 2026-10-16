@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "tx-winkler",
+  "publisher": "Winkler County Appraisal District (via TrueAutomation WinklerMapSearchNoLabels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://webmap.trueautomation.com/arcgis/rest/services/WinklerMapSearchNoLabels/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48495"
+    ]
+  },
+  "fields": {
+    "apn": "PROP_ID"
+  },
+  "notes": "Parcel boundary polygons from TrueAutomation public map service; no owner/address/value fields published in this layer. Prop_udi and STATUS also available.",
+  "verification": {
+    "verified_at": 1792051871728,
+    "counties": [
+      "48495"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

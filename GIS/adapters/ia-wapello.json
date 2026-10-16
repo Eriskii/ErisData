@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-wapello",
+  "publisher": "Wapello County GIS (Schneider Corp. WapelloCountyIA_WFS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://wfs.schneidercorp.com/arcgis/rest/services/WapelloCountyIA_WFS/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19179"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "PRIMNAME1",
+    "address": "ADDRESS",
+    "acres": "ACREAGE",
+    "land_use": "PROPCLASS"
+  },
+  "notes": "Wapello County Parcels layer served by Schneider Corp; maxRecordCount 2000; geoJSON supported",
+  "verification": {
+    "verified_at": 1792049300454,
+    "counties": [
+      "19179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

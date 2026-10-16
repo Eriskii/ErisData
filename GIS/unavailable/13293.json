@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13293",
+  "reason": "login-required",
+  "evidence": [
+    "https://services9.arcgis.com/1zCta9fCSdX45Yaq/arcgis/rest/services/Parcel_Regions_w_WinGAP/FeatureServer/0",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=562&LayerID=8423&PageTypeID=1",
+    "https://gis.equatorstudios.com/georgia_upson/",
+    "https://www.dynamospatial.com/c/upson-county-ga/parcel-data"
+  ],
+  "note": "Upson County GA (13293). The only county-published parcel service found, the Upson County Georgia Parcels Feature Service on services9.arcgis.com (Parcel_Regions_w_WinGAP), returns 'Token Required' at the service root and at layer /0, so it is not publicly queryable. The qPublic viewer (Schneider, AppID 562) returns a Cloudflare 'Just a moment' challenge (HTTP 403) and exposes no REST endpoint. Equator Studios offers SHP/GPKG only through a sign-up flow; Dynamo Spatial is a paid shapefile listing. Two generic Parcels services on services1 and services7 were checked at the county point (-84.29286, 32.84484) and return no features, so they are not Upson. Upson County IT page lists no GIS links.",
+  "recorded_at": 1792049022097,
+  "recheck_after": 1807601022097,
+  "model": "claude-haiku-5-5"
+}

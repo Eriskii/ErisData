@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "22077",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://atlas.geoportalmaps.com/ptcoupee",
+    "https://www.ptcoupeeassessor.com/",
+    "https://services.geoportalmaps.com/arcgis/rest/services",
+    "https://atlas.geoportalmaps.com/arcgis/rest/services",
+    "https://assessorsearch.com/property-records/louisiana/pointe-coupee-parish"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web. The only official parcel viewer is the GCT GeoPortal atlas at atlas.geoportalmaps.com/ptcoupee, a web viewer with no discoverable public REST endpoint; its services.geoportalmaps.com and atlas ArcGIS REST roots return 404. The assessor site links only to that viewer and an assessor search page. ArcGIS Online items for Pointe Coupee are non-parcel (streets, address points, flood, land claims). Commercial parcel sellers (Regrid, Dynamo, Acres, landrecords.us) are paid and do not qualify.",
+  "recorded_at": 1792049924517,
+  "recheck_after": 1807601924517,
+  "model": "claude-haiku-5-5"
+}

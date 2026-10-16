@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ca-san-luis-obispo",
+  "publisher": "San Luis Obispo County (SLO Parcels 05082023, assessment roll parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/RckyInAWq0wKV3eS/arcgis/rest/services/SLO_Parcels_05082023/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06079"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "OWNER",
+    "address": "SITUS_1",
+    "acres": "EST_ACRES",
+    "land_use": "PRIM_LUC",
+    "assessed_value": "LAND"
+  },
+  "notes": "Parcels derived from the San Luis Obispo County assessment roll; 2023 snapshot. Attribute names as published.",
+  "verification": {
+    "verified_at": 1792048654765,
+    "counties": [
+      "06079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

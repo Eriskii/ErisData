@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "48447",
+  "reason": "login-required",
+  "evidence": [
+    "https://services3.arcgis.com/Mh7OLeMAkvXW8X3w/arcgis/rest/services/ThrockmortonCADWebService1/FeatureServer/0",
+    "https://gisdata.pandai.com/pamaps02/rest/services/Throckmorton/ThrockmortonCADClient/MapServer",
+    "https://www.throckmortoncad.org/home/map",
+    "https://www.dynamospatial.com/c/throckmorton-county-tx/parcel-data"
+  ],
+  "note": "Throckmorton CAD parcel layers exist on ArcGIS Online (bis_throckmortoncad ThrockmortonCADWebService1) and pandai-hosted ThrockmortonCADClient MapServer, but both refuse anonymous queries with 'Token Required'. No public queryable parcel service or open file found; the only downloads are paid (Dynamo Spatial, texascountygisdata). Access would require a token, so not worked around.",
+  "recorded_at": 1792051783161,
+  "recheck_after": 1807603783161,
+  "model": "claude-haiku-5-5"
+}

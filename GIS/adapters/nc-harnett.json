@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-harnett",
+  "publisher": "Harnett County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VIqR7UNKtUqQ1fzt/arcgis/rest/services/Harnett_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37085"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "land_use": "parusedesc",
+    "assessed_value": "parval"
+  },
+  "notes": "Harnett County Parcels retrieved Sept 2024 via ArcGIS Hub (mtadmin_ba). Polygons in EPSG:3857.",
+  "verification": {
+    "verified_at": 1792051334849,
+    "counties": [
+      "37085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

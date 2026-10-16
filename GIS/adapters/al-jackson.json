@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-jackson",
+  "publisher": "Jackson County, AL (GIS Planning, hosted on ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/7ScJ8q0HhcQyXcHe/arcgis/rest/services/Jackson_County_GIS/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01071"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "Owner",
+    "address": "SitusAddNa",
+    "acres": "CalcAcres",
+    "assessed_value": "TAV"
+  },
+  "notes": "Parcel layer from Jackson County AL GIS planning service; Alabama East State Plane source CRS, runtime requests lon/lat. PropertyCl (land use) is blank in source, so not mapped.",
+  "verification": {
+    "verified_at": 1792048506829,
+    "counties": [
+      "01071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

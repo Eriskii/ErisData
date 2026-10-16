@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-butler",
+  "publisher": "Iowa Department of Homeland Security & Emergency Management (Iowa Statewide Parcel Data 2017, filtered to Butler County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19023"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Butler'",
+  "notes": "2017 statewide parcel layer from Iowa DHSEMD hosted by University of Iowa; filtered to Butler County rows. Vintage 2017.",
+  "verification": {
+    "verified_at": 1792049290975,
+    "counties": [
+      "19023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

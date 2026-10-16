@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-san-bernardino",
+  "publisher": "County of San Bernardino (SBCountyDPW / ITD GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services/Parcels_for_San_Bernardino_County/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "OwnerName",
+    "acres": "Acreage",
+    "land_use": "AssessDescription",
+    "assessed_value": "LandValue"
+  },
+  "notes": "County of San Bernardino parcel polygons, public layer; owner names may be redacted per AB 1785 in some views. Source spatial reference is Web Mercator; runtime requests WGS84.",
+  "verification": {
+    "verified_at": 1792048645112,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

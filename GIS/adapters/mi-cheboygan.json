@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-cheboygan",
+  "publisher": "Cheboygan County Equalization (GDITAdmin parcel service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/j6ueqNZduqQcCpQQ/arcgis/rest/services/Relationship_class/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26031"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "ownername1",
+    "address": "propstreetcombined",
+    "assessed_value": "SEV_2026"
+  },
+  "notes": "Parcels_legals2 layer, Cheboygan County MI; native CRS EPSG:2252; maxRecordCount 2000",
+  "verification": {
+    "verified_at": 1792049936547,
+    "counties": [
+      "26031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

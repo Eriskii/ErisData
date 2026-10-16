@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pr-bayamon",
+  "publisher": "Municipio de Bayamón (parcelario CRIM, Geodato_Bayamon)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/HRKUyjzdGC8Kwtbz/arcgis/rest/services/Geodato_Bayamon_Copy07212026/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72021"
+    ]
+  },
+  "fields": {
+    "apn": "num_catast",
+    "address": "barrio"
+  },
+  "notes": "Bayamón municipal copy of CRIM parcel polygons (CRIM 2018 parcelario); source is Web Mercator, served as GeoJSON in WGS84. Owner and land use not published in this layer.",
+  "verification": {
+    "verified_at": 1792051882788,
+    "counties": [
+      "72021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

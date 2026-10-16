@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-marshall",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (Marshall County parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47117"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC",
+    "land_use": "PARCEL_TYPE"
+  },
+  "filter": "COUNTY_ID = 59",
+  "notes": "Statewide TN property boundaries, Marshall County rows selected by COUNTY_ID 59 (COUNTY_NAME Marshall).",
+  "verification": {
+    "verified_at": 1792052689648,
+    "counties": [
+      "47117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

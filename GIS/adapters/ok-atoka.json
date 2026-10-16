@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ok-atoka",
+  "publisher": "Atoka County GIS (County Parcels 2019)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/nlZN4VPoCeta6ngK/arcgis/rest/services/County_Parcels_2019_view/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40005"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "ow_name",
+    "address": "ph_add",
+    "acres": "acre_area",
+    "land_use": "type",
+    "assessed_value": "assess_val"
+  },
+  "notes": "County parcels 2019 view hosted by Atoka County admin; maxRecordCount 2000",
+  "verification": {
+    "verified_at": 1792051390056,
+    "counties": [
+      "40005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

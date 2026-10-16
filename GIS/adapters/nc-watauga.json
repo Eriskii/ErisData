@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-watauga",
+  "publisher": "Watauga County GIS (via NC OneMap)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/wdQEqhSQSuYA89VW/arcgis/rest/services/Watauga_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37189"
+    ]
+  },
+  "fields": {
+    "apn": "PARNO",
+    "owner": "OWNNAME",
+    "acres": "GISACRES",
+    "land_use": "PARUSEDESC",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Source: NC One Map parcel shapefile, Watauga County. Attributes mapped to NC parcel standard Nov 2021. Site address (SITEADD) is filled for only about 43% of parcels, so it is not mapped.",
+  "verification": {
+    "verified_at": 1792051382370,
+    "counties": [
+      "37189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

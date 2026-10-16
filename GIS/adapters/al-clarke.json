@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-clarke",
+  "publisher": "PowerSouth / Alabama Parcel Data (Clarke County Parcels layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01025"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Clarke County AL parcels from PowerSouth-hosted Alabama Parcel Data service; layer 11 is Clarke County only; USEDESC mostly blank so land_use not mapped",
+  "verification": {
+    "verified_at": 1792048303371,
+    "counties": [
+      "01025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

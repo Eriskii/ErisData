@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "id-owyhee",
+  "publisher": "Idaho Transportation Dept District 3 (Owyhee assessor data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Qqv4dYPC8Vv8e3c3/arcgis/rest/services/D3_Parcels/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16073"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "PrimaryOwn",
+    "acres": "Acreage",
+    "land_use": "PropClsDes",
+    "assessed_value": "NetAssesse"
+  },
+  "notes": "Snapshot May 2023; Situs mostly blank so not mapped",
+  "verification": {
+    "verified_at": 1792049013736,
+    "counties": [
+      "16073"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

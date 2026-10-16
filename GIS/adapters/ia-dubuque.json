@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ia-dubuque",
+  "publisher": "Dubuque County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.dubuquecounty.us/server/rest/services/Maps/Land_Records/MapServer/26",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19061"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OwnerName",
+    "address": "Line1",
+    "acres": "NetAcres",
+    "land_use": "PropertyClass",
+    "assessed_value": "FullTotalValue"
+  },
+  "notes": "Dubuque County Iowa Land Records parcels, public ArcGIS service. address is the owner mailing address (Line1); situs FullSitus is blank for many rural parcels. TaxYear 2025.",
+  "verification": {
+    "verified_at": 1792049141848,
+    "counties": [
+      "19061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

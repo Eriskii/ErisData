@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21073",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services2.arcgis.com/Y0fDSibEfxdu2Ya6/ArcGIS/rest/services/Franklin_County_GIS_Map/FeatureServer/8",
+    "https://services2.arcgis.com/BxXA8zJZUU4360ND/arcgis/rest/services",
+    "https://bluegrassadd.maps.arcgis.com/apps/webappviewer/index.html?id=e96a2a025f974cf681de1b0bd6082d69",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=FranklinCountyKY&Layer=Parcels&PageType=Search",
+    "https://franklin.mipsgis.com/"
+  ],
+  "note": "Franklin County KY (21073). The Franklin_County_GIS_Map Parcels layer (FeatureServer/8, 17,415 features) has no features within Franklin County KY; its records are in other states (COUNTY_ID codes, e.g. lat 39.3 lon -85.3), and a query envelope at the sample point returns nothing. The Bluegrass ADD org services (BxXA8zJZUU4360ND) contain zoning, precincts and tax layers but no parcel polygons. The Kentucky state server (kygisserver) has no parcel folder. The county's parcel viewer (qPublic/Schneider, franklin.mipsgis.com) is not a public ArcGIS REST service; qPublic returns HTTP 403 to automated access.",
+  "recorded_at": 1792049492660,
+  "recheck_after": 1807601492660,
+  "model": "claude-haiku-5-5"
+}

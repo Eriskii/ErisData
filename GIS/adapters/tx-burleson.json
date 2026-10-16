@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-burleson",
+  "publisher": "Burleson Central Appraisal District (via ArcGIS Online BurlesonCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/0uWFXDEpQd9NFiad/arcgis/rest/services/BurlesonCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48051"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Appraisal district CAD web service; parcel polygons with owner and situs fields. Public ArcGIS service.",
+  "verification": {
+    "verified_at": 1792051666981,
+    "counties": [
+      "48051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

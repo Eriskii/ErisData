@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "26141",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://presqueislecounty.org/",
+    "https://beacon.schneidercorp.com/Application.aspx?App=PresqueIsleCountyMI&PageType=Map",
+    "https://gis.equatorstudios.com/michigan_presqueisle/",
+    "https://www.michigan.gov/dtmb/services/maps/mgf-data-hub/boundaries-and-mgf/tax-parcels"
+  ],
+  "note": "Searched ArcGIS Hub/Online: no Presque Isle parcel service found. County site links only to the Schneider Beacon viewer (no public ArcGIS REST; automated access blocked by a Cloudflare challenge) and county land-records portals. Equator, Regrid, Rockford and ReportAllUSA are third-party paid products. DTMB tax parcel page returned 403; the statewide parcel layer is internal-only.",
+  "recorded_at": 1792049994598,
+  "recheck_after": 1807601994598,
+  "model": "claude-haiku-5-5"
+}

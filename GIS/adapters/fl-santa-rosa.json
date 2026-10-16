@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-santa-rosa",
+  "publisher": "Santa Rosa County GIS (Property Appraiser parcels, Open Data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/ParcelsOpenData/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12113"
+    ]
+  },
+  "fields": {
+    "apn": "PAR_NUM",
+    "owner": "OwnerName",
+    "acres": "CALC_ACRE",
+    "land_use": "PRuse"
+  },
+  "notes": "Santa Rosa County GIS open data parcels from the Property Appraiser, updated monthly (about 117k records). Situs address is not mapped: StrNum/StrName are blank for most rural parcels; Addr2 is the owner mailing address, so it is not used as situs.",
+  "verification": {
+    "verified_at": 1792048838042,
+    "counties": [
+      "12113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

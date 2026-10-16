@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "56019",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gis.deq.wyo.gov/arcgis/rest/services/WY_PRIVATE_PARCELS/MapServer/0",
+    "https://maps.terragis.net/johnson/",
+    "https://www.johnsoncowy.gov/departments/assessor"
+  ],
+  "note": "Johnson County WY parcels are not published as a queryable service I could find. The statewide WY_PRIVATE_PARCELS MapServer layer 0 lists no layers and refuses every query (spatial, attribute, and paged requests return 'Unable to complete operation' or 'Pagination is not supported'); spec validation failed its query check. The county's own MapServer (maps.terragis.net/johnson, formerly maps.greenwoodmap.com/johnson) is a viewer with no discoverable REST endpoint (404 on rest/services and MapServer paths; greenwoodmap host unreachable). Remaining leads are commercial parcel vendors only.",
+  "recorded_at": 1792051901183,
+  "recheck_after": 1807603901183,
+  "model": "claude-haiku-5-5"
+}

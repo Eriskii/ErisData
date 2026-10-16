@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ks-anderson",
+  "publisher": "Anderson County GIS / KansasGIS (ORKA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Anderson_Mobile_ORKA_WFL1/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20003"
+    ]
+  },
+  "fields": {
+    "apn": "Parcels_QuickRefID",
+    "owner": "Parcels_OWNER1",
+    "address": "Parcels_PropertyAddress",
+    "acres": "Parcels_Acres",
+    "land_use": "Parcels_PropertyTypeDesc"
+  },
+  "notes": "Kansas ORKA mobile service for Anderson County; KSPID is statewide parcel id",
+  "verification": {
+    "verified_at": 1792049145118,
+    "counties": [
+      "20003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

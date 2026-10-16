@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72131",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer (CRIM Parcelarios 2018, Parcelario layer 0) returns 'Service crim/crim_parcelas/MapServer not started'",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_feb_2025/MapServer returns 'not started'",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/MapServer/0 unreachable; http variant returns 404",
+    "https://sigejp.pr.gov/server/rest/services/Planes_territoriales/isabela_pt/FeatureServer/0 covers Isabela only: envelope query over San Sebastian returns 0 features"
+  ],
+  "note": "San Sebastian parcels are published by CRIM, but the only CRIM parcel services found (sigejp crim folder, satasgis.crimpr.net) are stopped, unreachable or 404. No other queryable San Sebastian parcel service found on Hub/Online, gis.pr.gov WFS, or DGCN geoportal. PRIDCO and Fincas Admin Terrenos downloads are not municipal-wide.",
+  "recorded_at": 1792052210115,
+  "recheck_after": 1807604210115,
+  "model": "claude-haiku-5-5"
+}

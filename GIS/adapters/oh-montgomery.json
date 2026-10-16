@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-montgomery",
+  "publisher": "Montgomery County Engineer GIS (MCEO)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/OYwao4bWJR5ergop/arcgis/rest/services/MCEO_TaxParcelQuery/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39113"
+    ]
+  },
+  "fields": {
+    "apn": "TAXPINNO",
+    "owner": "OWNER_NAME1",
+    "address": "PARLOC"
+  },
+  "notes": "Montgomery County OH tax parcels from MCEO Tax Parcel Query service (Parcels_WMAS). No acreage (sparsely filled) or land use code published in this layer.",
+  "verification": {
+    "verified_at": 1792051773621,
+    "counties": [
+      "39113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

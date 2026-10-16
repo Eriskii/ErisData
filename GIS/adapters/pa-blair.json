@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-blair",
+  "publisher": "Blair County GIS (via PASDA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/BlairCounty/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42013"
+    ]
+  },
+  "fields": {
+    "apn": "PAR_NUM",
+    "acres": "DEED_AC"
+  },
+  "notes": "PASDA 2026 Blair County parcels, tax-area polygons; NAD83 geographic. Owner/address not in this layer.",
+  "verification": {
+    "verified_at": 1792051521607,
+    "counties": [
+      "42013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

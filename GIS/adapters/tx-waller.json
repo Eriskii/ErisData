@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-waller",
+  "publisher": "Waller County Appraisal District (via Waller County 2025 Parcels hosted feature service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/VPrBcXpTAXqMTZ3Y/arcgis/rest/services/Waller_County_2025_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48473"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_te",
+    "owner": "file_as_na",
+    "address": "situs_st_1",
+    "acres": "legal_acre",
+    "assessed_value": "market"
+  },
+  "notes": "WCAD parcel data hosted by county staff; situs_num holds the street number separately; layer in State Plane TX South Central (wkid 2278)",
+  "verification": {
+    "verified_at": 1792051781417,
+    "counties": [
+      "48473"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

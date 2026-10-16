@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ma-plymouth",
+  "publisher": "MassGIS (Massachusetts Executive Office of Technology and Security Services), Plymouth County towns subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/hGdibHYSPO59RG1h/arcgis/rest/services/Massachusetts_Property_Tax_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25023"
+    ]
+  },
+  "fields": {
+    "apn": "MAP_PAR_ID",
+    "owner": "OWNER1",
+    "address": "SITE_ADDR",
+    "acres": "LOT_SIZE",
+    "land_use": "USE_CODE",
+    "assessed_value": "TOTAL_VAL"
+  },
+  "filter": "CITY IN ('ABINGTON','BRIDGEWATER','BROCKTON','CARVER','DUXBURY','EAST BRIDGEWATER','HALIFAX','HANOVER','HANSON','HINGHAM','HULL','KINGSTON','LAKEVILLE','MARION','MARSHFIELD','MATTAPOISETT','MIDDLEBOROUGH','NORWELL','PEMBROKE','PLYMOUTH','PLYMPTON','ROCHESTER','ROCKLAND','SCITUATE','WAREHAM','WEST BRIDGEWATER','WHITMAN')",
+  "notes": "MassGIS Level 3 assessor parcels; filtered to Plymouth County towns by CITY. Statewide hosted layer; no key required.",
+  "verification": {
+    "verified_at": 1792049944876,
+    "counties": [
+      "25023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

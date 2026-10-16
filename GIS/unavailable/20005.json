@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20005",
+  "reason": "login-required",
+  "evidence": [
+    "https://www.atchisoncountyks.org/Faq.aspx?QID=4",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Atchison",
+    "http://ks825.cichosting.com/webportal/appraiser",
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://services.kansasgis.org/arcgis4/rest/services/KS_Parcels_ORKA_EB/FeatureServer/0"
+  ],
+  "note": "Atchison County (20005) publishes no public parcel polygon service or file. County Map Search points to the state ORKA viewer, which has no parcel service for the county. Parcel Search is a county assessor portal (ks825.cichosting.com) behind a login. The statewide ORKA parcel service (KS_Parcels_ORKA_EB/FeatureServer/0, 23,861 features) holds only four counties (CN, RA, SH, TH); KSPID prefix 20005 returns 0. ORKA county parcel downloads require an approved account and a 2-3 week request. Commercial vendors sell Atchison parcels, which is not a county-published service.",
+  "recorded_at": 1792049288044,
+  "recheck_after": 1807601288044,
+  "model": "claude-haiku-5-5"
+}

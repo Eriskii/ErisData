@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "22115",
+  "reason": "login-required",
+  "evidence": [
+    "https://www.efsedge.com/arcgis/rest/services/Vernon_Parish/Vernon_Vector/MapServer/19",
+    "https://www.efsedge.com/login/?ReturnUrl=%2Flogin%2Farcgis%2Frest%2Fservices%2FVernon_Parish%2FVernon_Vector%2FMapServer%2F19",
+    "https://www.vernonassessor.org/",
+    "https://services9.arcgis.com/QClEuaPkoZwU6r3B/arcgis/rest/services/Vernon_Parish_Map_WFL1/FeatureServer"
+  ],
+  "note": "Vernon Parish (22115) has no public queryable parcel polygon service found. The only county-linked parcel layer, 'Parcels - LA - Vernon Parish' (GDITAdmin), sits on the EFS Edge host and redirects to a login page. Other parcel sources are commercial (Regrid, Land Records, Dynamo Spatial, Acres). The Vernon_LA Georeferences service holds scanned plats, and Vernon_Parish_Map_WFL1 is an area-of-interest polygon only. The assessor site links to a property search app and an efsedge viewer with no open parcel REST endpoint. The totaland host used by Allen Parish has no Vernon folder.",
+  "recorded_at": 1792049964379,
+  "recheck_after": 1807601964379,
+  "model": "claude-haiku-5-5"
+}

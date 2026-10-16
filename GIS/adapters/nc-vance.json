@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-vance",
+  "publisher": "NC OneMap statewide parcels (static copy hosted by WEI; Vance County extract)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/n5rY677NVyRuW3Ht/arcgis/rest/services/NC_OneMap_Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37181"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37181'",
+  "notes": "Static copy of NC OneMap statewide parcels; land use not populated for Vance; live NC OneMap layer has unstable paging.",
+  "verification": {
+    "verified_at": 1792051572583,
+    "counties": [
+      "37181"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

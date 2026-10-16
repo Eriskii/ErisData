@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-washington",
+  "publisher": "Washington County MN GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.washington.mn.us/arcgis/rest/services/GISViewer/Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27163"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDRESS",
+    "acres": "Acres_Poly",
+    "land_use": "USE1_DESC",
+    "assessed_value": "EMV_TOTAL"
+  },
+  "notes": "Washington County MN external GIS viewer cadastral layer; EMV_TOTAL is estimated market value",
+  "verification": {
+    "verified_at": 1792050903233,
+    "counties": [
+      "27163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-stephens",
+  "publisher": "Stephens Central Appraisal District (via BIS Consultants ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/uIMunOkV6KNGlZzT/arcgis/rest/services/StephensCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48429"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_num",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Stephens CAD parcel layer from the StephensCADWebService feature service; 13048 features. Address field is situs number only; street name in situs_street. Source lacks a land-use field.",
+  "verification": {
+    "verified_at": 1792051747909,
+    "counties": [
+      "48429"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-edgecombe",
+  "publisher": "Edgecombe County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.edgecombecountync.gov/arcgis/rest/services/webmap/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37065"
+    ]
+  },
+  "fields": {
+    "apn": "parcel",
+    "owner": "owner",
+    "address": "address",
+    "acres": "acreage",
+    "land_use": "pclass",
+    "assessed_value": "netval"
+  },
+  "notes": "County webmap Parcels layer; pin/altpin also available; shapefile purchase only for bulk",
+  "verification": {
+    "verified_at": 1792051332348,
+    "counties": [
+      "37065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-washington",
+  "publisher": "Washington County, Tennessee GIS (WashCoTNZoning)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/nLnrKGwI08veJ5uu/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47179"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "LANDUSE",
+    "assessed_value": "APPRAISAL"
+  },
+  "notes": "County parcel layer with CAMA attributes joined; updated 2026",
+  "verification": {
+    "verified_at": 1792052560322,
+    "counties": [
+      "47179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

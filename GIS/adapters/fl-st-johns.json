@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "fl-st-johns",
+  "publisher": "St. Johns County Property Appraiser via St. Johns County GIS (SJC_Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/GaG1SP1c4IVsQCiu/arcgis/rest/services/SJC_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12109"
+    ]
+  },
+  "fields": {
+    "apn": "STRAP",
+    "owner": "Owner_Name",
+    "address": "addr_1",
+    "acres": "acreage",
+    "land_use": "dor_dscr"
+  },
+  "notes": "Parcel polygons from ParcelInfo layer; address fields are mailing address (addr_1). No assessed value field present.",
+  "verification": {
+    "verified_at": 1792048813257,
+    "counties": [
+      "12109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

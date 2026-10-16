@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-pike",
+  "publisher": "Pike County GIS / Tax Administration",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pikepa.org/arcgis/rest/services/PikeCo_Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42103"
+    ]
+  },
+  "fields": {
+    "apn": "Control",
+    "owner": "Name",
+    "address": "Situs",
+    "acres": "Acreage",
+    "land_use": "InfoCode",
+    "assessed_value": "AssLand"
+  },
+  "notes": "Pike County PA parcel layer from the county ArcGIS server (PikeCo_Parcels MapServer layer 1). Public, no token.",
+  "verification": {
+    "verified_at": 1792051546454,
+    "counties": [
+      "42103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-calhoun",
+  "publisher": "Florida Department of Revenue (statewide cadastral, CO_NO 17)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Gh9awoU677aKree0/arcgis/rest/services/Florida_Statewide_Cadastral/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12013"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_NAME",
+    "address": "PHY_ADDR1",
+    "land_use": "DOR_UC",
+    "assessed_value": "JV"
+  },
+  "filter": "CO_NO = 17",
+  "notes": "FDOR statewide cadastral; Calhoun FL is CO_NO 17",
+  "verification": {
+    "verified_at": 1792049567328,
+    "counties": [
+      "12013"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

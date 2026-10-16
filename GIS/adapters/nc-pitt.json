@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-pitt",
+  "publisher": "Pitt County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pittcountync.gov/gis/rest/services/PittOpenData/CadastralPitt/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37147"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMBER",
+    "owner": "OwnerName",
+    "address": "PhysicalAddress",
+    "acres": "CalculatedAcres",
+    "land_use": "UseCode",
+    "assessed_value": "CurTaxValue"
+  },
+  "notes": "Pitt County Tax Administration parcels; CC BY-SA 4.0 per open data portal; about 81K parcels",
+  "verification": {
+    "verified_at": 1792051371911,
+    "counties": [
+      "37147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

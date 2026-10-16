@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-grundy",
+  "publisher": "Grundy County, Iowa (agolgrundy3 ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/OByJ3xhDbxAXgMbp/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19075"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "acres": "CMSGROSSAC",
+    "land_use": "CLASS"
+  },
+  "notes": "Public cadastral parcel layer for Grundy County, Iowa; no owner or assessed value fields published; acres from CMSGROSSAC (NETACRES mostly empty)",
+  "verification": {
+    "verified_at": 1792049431185,
+    "counties": [
+      "19075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

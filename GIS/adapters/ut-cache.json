@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ut-cache",
+  "publisher": "Cache County GIS via UGRC/AGRC Land Information Records",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Cache_LIR/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "acres": "PARCEL_ACRES",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "TOTAL_MKT_VALUE"
+  },
+  "notes": "UGRC Land Information Record parcels for Cache County; tax-roll attributes; no owner or site address populated in many records",
+  "verification": {
+    "verified_at": 1792052264910,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

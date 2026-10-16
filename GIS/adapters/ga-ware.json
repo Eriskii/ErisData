@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-ware",
+  "publisher": "Ware County GA GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/XAyIBOsw3fLfDjTY/arcgis/rest/services/WareCounty_Base_gdb/FeatureServer/38",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "13299"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "acres": "calc_ac",
+    "land_use": "DIG_CLASS"
+  },
+  "notes": "Parcels layer from Ware County GIS WareCounty_Base_gdb; no owner or value fields published in this layer",
+  "verification": {
+    "verified_at": 1792049376173,
+    "counties": [
+      "13299"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

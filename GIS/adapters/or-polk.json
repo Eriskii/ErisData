@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "or-polk",
+  "publisher": "Polk County GIS (via ArcGIS Hub, Tax Lots Polk County Reduced)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/WmcZB3LWhS1KAqbv/arcgis/rest/services/Tax_Lots_Polk_County_Reduced/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41053"
+    ]
+  },
+  "fields": {
+    "apn": "ORTaxlot",
+    "owner": "OwnerLine1"
+  },
+  "notes": "Reduced Polk County taxlot polygons hosted on ArcGIS Online; no address or value fields in source",
+  "verification": {
+    "verified_at": 1792051517773,
+    "counties": [
+      "41053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

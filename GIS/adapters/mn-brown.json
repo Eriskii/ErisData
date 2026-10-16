@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "mn-brown",
+  "publisher": "Brown County GIS (Minnesota)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.brown.mn.us/server/rest/services/GISNEW/Brown_County_Production_Public_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27015"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM"
+  },
+  "notes": "Public production parcels layer from Brown County GIS; owner, address, acreage and tax value not published in this layer.",
+  "verification": {
+    "verified_at": 1792050900724,
+    "counties": [
+      "27015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

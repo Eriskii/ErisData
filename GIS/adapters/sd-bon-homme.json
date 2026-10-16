@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sd-bon-homme",
+  "publisher": "Bon Homme County GIS (via DistrictIII)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/BON_HOMME_COUNTY_WEB_LAYERS2/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46009"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "TC_OWNER",
+    "acres": "A1_ACRES",
+    "land_use": "A1_CLASS1",
+    "assessed_value": "A1_TOTAL"
+  },
+  "notes": "County GIS Viewer parcel layer, DistrictIII host; 8,880 features; tax records from county assessor. Site address only partly populated (mostly rural parcels), so not mapped.",
+  "verification": {
+    "verified_at": 1792051704412,
+    "counties": [
+      "46009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

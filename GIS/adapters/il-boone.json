@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-boone",
+  "publisher": "Boone County GIS, Illinois",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.boonecountyil.org/arcgis/rest/services/Assessment_Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17007"
+    ]
+  },
+  "fields": {
+    "apn": "pin",
+    "acres": "acres"
+  },
+  "notes": "Boone County GIS Assessment_Parcels layer. Site address is blank for many (mostly rural) parcels, so no address is mapped. No owner field is published in this layer.",
+  "verification": {
+    "verified_at": 1792048856698,
+    "counties": [
+      "17007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

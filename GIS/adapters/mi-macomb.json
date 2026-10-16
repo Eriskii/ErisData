@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-macomb",
+  "publisher": "Macomb County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.macombgov.org/arcgis1/rest/services/FLEX2/Parcel_Layers/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26099"
+    ]
+  },
+  "fields": {
+    "apn": "TAX_ID",
+    "owner": "ownername1",
+    "address": "propstreetcombined",
+    "land_use": "TAX_TYPE",
+    "assessed_value": "mborsev_0"
+  },
+  "notes": "Macomb County tax parcels, property area boundaries layer. Public ArcGIS service.",
+  "verification": {
+    "verified_at": 1792049936577,
+    "counties": [
+      "26099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

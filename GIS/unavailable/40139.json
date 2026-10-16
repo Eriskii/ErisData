@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40139",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://texas.okcounties.org/offices/county-assessor",
+    "https://texas.okcounties.org/maps",
+    "https://okmaps.org/ogi/RestDataAccessItem.aspx?UUID=1484707a-712a-4447-96a9-5a38affc600e",
+    "https://tiles.arcgis.com/tiles/KzeiCaQsMoeCfoCq/arcgis/rest/services/Regrid_Nationwide_Parcel_Boundaries_v1/MapServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Texas County OK (FIPS 40139) parcels. The county assessor site publishes no GIS or REST link (only static PDF maps and third-party search portals). The statewide OK Maps parcel layer is view-only / OGC WMS, explicitly not downloadable. The Regrid nationwide ArcGIS service exposes no query endpoint (query returns 404), and it is a commercial licensed product. Commercial sellers (Equator, Regrid store) are paid downloads. No public queryable Texas County parcel service was found.",
+  "recorded_at": 1792051532956,
+  "recheck_after": 1807603532956,
+  "model": "claude-haiku-5-5"
+}

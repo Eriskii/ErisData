@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sd-mcpherson",
+  "publisher": "McPherson County GIS (via District III)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/MCPHERSON_COUNTY_WEB_LAYERS/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46089"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNERNAME",
+    "address": "SITE_ADDRESS",
+    "acres": "DEEDED_ACRE"
+  },
+  "notes": "Public county web viewer layer hosted by District III. Layer PARCELS on MCPHERSON_COUNTY_WEB_LAYERS MapServer.",
+  "verification": {
+    "verified_at": 1792051644720,
+    "counties": [
+      "46089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

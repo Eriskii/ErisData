@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-berrien",
+  "publisher": "Berrien County GIS (via Southern Georgia Regional Commission sgrcmaps)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sgrcmaps.com/arcgis/rest/services/Berrien/TaxParcelBoundaries/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13019"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "LASTNAME",
+    "acres": "TOTALACRES",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Tax parcel polygons served by sgrcmaps.com for Berrien County GA; about 10,742 features. LASTNAME holds owner name. Site address (STREET_NAM) is sparsely populated, so not mapped.",
+  "verification": {
+    "verified_at": 1792048727463,
+    "counties": [
+      "13019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

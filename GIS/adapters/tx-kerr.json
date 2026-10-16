@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-kerr",
+  "publisher": "Kerr Central Appraisal District (KerrCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/j94FvPaik4etwHFk/arcgis/rest/services/KerrCADWebService/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48265"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Kerr CAD parcels; CAD web service layer; land use code not populated in source",
+  "verification": {
+    "verified_at": 1792052360194,
+    "counties": [
+      "48265"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

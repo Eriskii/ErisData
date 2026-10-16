@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill",
+  "publisher": "Schuylkill County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/ParcelLocator/Parcel_CAMA_View/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "owner": "OWNER_NAME_1",
+    "address": "STREET_NAME",
+    "acres": "DEEDED_ACRES",
+    "land_use": "PROPERTY_TYPE"
+  },
+  "notes": "Schuylkill County CAMA parcel view; EPSG 2272-ish state plane feet source, served as geoJSON. Address field is street name only (house number in HOUSE_NUMBER).",
+  "verification": {
+    "verified_at": 1792051542174,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

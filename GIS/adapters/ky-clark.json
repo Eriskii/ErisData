@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ky-clark",
+  "publisher": "Clark County GIS Consortium (PVA Tax Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisserver2.ccgisonline.com/server/rest/services/BASELAYERS/PARCELS/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21049"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "NAME1",
+    "address": "PROPLOC_STREET",
+    "acres": "ACREAGE"
+  },
+  "notes": "Clark County KY PVA tax parcels served by CCGIS consortium; no land use or assessed value fields in the layer",
+  "verification": {
+    "verified_at": 1792049475438,
+    "counties": [
+      "21049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

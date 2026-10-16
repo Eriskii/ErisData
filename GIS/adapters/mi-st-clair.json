@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-st-clair",
+  "publisher": "St. Clair County GIS (Michigan)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.stclaircounty.org/GeoCortex_wa/rest/services/Public_GISweb/TaxParcels_Nightly/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26147"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER",
+    "address": "PROP_ADDRESS_COMBINED",
+    "acres": "Calc_Acres",
+    "land_use": "PROP_CLASS"
+  },
+  "notes": "Tax parcel layer from St. Clair County MI Geocortex public services (Public_GISweb/TaxParcels_Nightly). Nightly refresh. Source CRS is Michigan South State Plane (wkid 2898); service reports GeoJSON.",
+  "verification": {
+    "verified_at": 1792050013344,
+    "counties": [
+      "26147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

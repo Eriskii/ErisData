@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "42005",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://apps.pasda.psu.edu/arcgis/rest/services/PA_Parcels/MapServer/1",
+    "https://apps.pasda.psu.edu/ArcGIS/rest/services/CountyDataShare/MapServer/0",
+    "https://co.armstrong.pa.us/index.php/county-government-m/geographic-information-systems-m",
+    "https://www.co.armstrong.pa.us/images/departments/gis/GISDataRequestForm.pdf"
+  ],
+  "note": "Armstrong County (42005) publishes no queryable parcel service. The PASDA statewide PA_Parcels layer (4.4M features) has zero features in Armstrong County: an envelope query around -79.45,40.85 returns nothing, and no Source value matches ARMSTRONG. PASDA CountyDataShare lists Armstrong as 'Data Sharing Agreement Signed' with no data link. The county GIS page says it has no online viewer and sells parcel data by request. The only ArcGIS parcel service found for the area (Kiski_Parcels, services9.arcgis.com) requires a token and is a third-party dataset.",
+  "recorded_at": 1792051564937,
+  "recheck_after": 1807603564937,
+  "model": "claude-haiku-5-5"
+}

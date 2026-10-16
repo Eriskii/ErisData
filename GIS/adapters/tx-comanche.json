@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-comanche",
+  "publisher": "Comanche Central Appraisal District",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/gshWNaFhUNegaQZA/arcgis/rest/services/ComancheCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48093"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_num",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Comanche CAD public web service; parcels layer. Address is split across situs_num/situs_street_prefx/situs_street/situs_street_sufix.",
+  "verification": {
+    "verified_at": 1792051664152,
+    "counties": [
+      "48093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

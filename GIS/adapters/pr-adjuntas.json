@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-adjuntas",
+  "publisher": "Adjuntas_Parcels (ArcGIS Online, sreyes_ConvergentEP)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G5mLkxEgvqZZHqXF/arcgis/rest/services/Adjuntas_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72001"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnumb",
+    "owner": "owner",
+    "address": "address",
+    "acres": "gisacre",
+    "assessed_value": "parval"
+  },
+  "notes": "Parcel polygons for Adjuntas Municipio, PR; source attributes include CRIM-derived assessment data; land use field empty in source; spatial reference 3857",
+  "verification": {
+    "verified_at": 1792052116050,
+    "counties": [
+      "72001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

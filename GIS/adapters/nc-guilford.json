@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-guilford",
+  "publisher": "Guilford County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gcgis.guilfordcountync.gov/arcgis/rest/services/GISDV/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37081"
+    ]
+  },
+  "fields": {
+    "apn": "REID",
+    "owner": "Owner",
+    "address": "LOCATION_ADDR",
+    "acres": "Lot_Size",
+    "land_use": "Property_Type",
+    "assessed_value": "Total_Assessed"
+  },
+  "notes": "Guilford County NC parcel polygons (GISDV Parcels layer), public ArcGIS REST service",
+  "verification": {
+    "verified_at": 1792051331398,
+    "counties": [
+      "37081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

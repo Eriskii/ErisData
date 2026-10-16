@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-desoto",
+  "publisher": "De Soto Parish Assessor (dpaogis ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/pbafaqRkYgys7ElS/arcgis/rest/services/Parcels_AGOL_view/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22031"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "Owner_Name",
+    "address": "Street_Name",
+    "assessed_value": "Assessed_Value"
+  },
+  "notes": "Public parcel view published by De Soto Parish Assessor via ArcGIS Online. Physical city fields are mostly blank; street name is the best site address field. ~41,982 features.",
+  "verification": {
+    "verified_at": 1792049862823,
+    "counties": [
+      "22031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ar-pike",
+  "publisher": "Arkansas GIS Office (county assessor CAMA parcel polygons), Pike County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 8,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05109"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "acres": "Shape__Area",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '109'",
+  "notes": "Statewide AR GIS Office parcel polygons (not a legal boundary; assessor CAMA use only). County filter countyfips='109' (3-digit). Only parcels with CAMA record included. Shape__Area in square meters (EPSG:26915).",
+  "verification": {
+    "verified_at": 1792048557081,
+    "counties": [
+      "05109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

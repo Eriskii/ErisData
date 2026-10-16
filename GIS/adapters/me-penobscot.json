@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "me-penobscot",
+  "publisher": "Maine Office of GIS / Maine Parcels (organized towns, municipal submissions)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/0EOqWPtpCmgQr2ay/arcgis/rest/services/Parcels___Organized/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23019"
+    ]
+  },
+  "fields": {
+    "apn": "state_id",
+    "address": "map_bk_lot"
+  },
+  "filter": "county = 'Penobscot'",
+  "notes": "Maine organized-town parcels; Penobscot rows filtered by county field. No statewide layer exists; unorganized territory not included. Owner not in this layer.",
+  "verification": {
+    "verified_at": 1792049973259,
+    "counties": [
+      "23019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

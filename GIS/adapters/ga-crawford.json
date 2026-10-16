@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-crawford",
+  "publisher": "Crawford County GA (ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services/CrawfordCountyParcels_Jan2026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13079"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "acres": "CALCACRES",
+    "land_use": "ZoningCode"
+  },
+  "notes": "No owner/address/value in layer; zoning used as land_use",
+  "verification": {
+    "verified_at": 1792049022526,
+    "counties": [
+      "13079"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

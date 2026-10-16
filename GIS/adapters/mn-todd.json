@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-todd",
+  "publisher": "Todd County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mytoddcounty.com/toddcounty/rest/services/PZ_Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27153"
+    ]
+  },
+  "fields": {
+    "apn": "par_id",
+    "owner": "OWNNAM",
+    "address": "PHYSADD",
+    "acres": "acres",
+    "land_use": "PLDESC",
+    "assessed_value": "AVTMKT"
+  },
+  "notes": "Todd County MN parcels from county PZ_Parcels MapServer layer 1; EPSG:26915 served, runtime requests lon/lat",
+  "verification": {
+    "verified_at": 1792050894878,
+    "counties": [
+      "27153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

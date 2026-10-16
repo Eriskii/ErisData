@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72031",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0/query?where=1%3D1&returnCountOnly=true&f=json",
+    "https://www.arcgis.com/home/item.html?id=acf043a178254fcdad6708be3e8ab51c"
+  ],
+  "note": "CRIM publishes Carolina parcels (Parcelarios Crim 2018, EPSG 32161) as a MapServer listed in the sigejp.pr.gov services directory, but every request (service info, layer info, query) returns HTTP 500 'Service crim/crim_parcelas/MapServer not started' across repeated attempts. The CRIM Catastro Digital ArcGIS Online item says the app and layers are no longer available. No other free public parcel service for Carolina was found; the remaining sources (Regrid, Land Records, Dynamo Spatial, USLandGrid) are paid.",
+  "recorded_at": 1792051946843,
+  "recheck_after": 1807603946843,
+  "model": "claude-haiku-5-5"
+}

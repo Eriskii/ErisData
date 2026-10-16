@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-massac",
+  "publisher": "Massac County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/BDZP61z0a0OeR13M/arcgis/rest/services/ReachParcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17127"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Owner",
+    "address": "SiteAddress",
+    "acres": "Acreage",
+    "land_use": "UseCode"
+  },
+  "notes": "Massac County hosted parcels (ReachParcels)",
+  "verification": {
+    "verified_at": 1792049124497,
+    "counties": [
+      "17127"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

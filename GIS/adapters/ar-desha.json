@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-desha",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program), Desha County data",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05041"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "countyfips = '041'",
+  "notes": "Statewide AR parcel polygons, not a legal boundary; filtered to CountyFips 041 (Desha). Assessor data, updated twice a year. Rural parcels often lack a situs address, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792048535812,
+    "counties": [
+      "05041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

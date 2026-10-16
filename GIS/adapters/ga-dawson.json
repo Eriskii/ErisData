@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ga-dawson",
+  "publisher": "Dawson County GA (Energov layers, GDITAdmin)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Ptz860OPLeIY55cX/ArcGIS/rest/services/Energov_Layers_Update2021/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13085"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID"
+  },
+  "notes": "Parcel polygons from county Energov layers service; only PARCELID and Parcel_Dis available as attributes",
+  "verification": {
+    "verified_at": 1792048769976,
+    "counties": [
+      "13085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

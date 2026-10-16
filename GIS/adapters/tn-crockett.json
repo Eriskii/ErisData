@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-crockett",
+  "publisher": "Crockett County GIS (via TN County Parcel Map, HNTB-hosted)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/68",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47033"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_17_PARCELID",
+    "owner": "Assessment_Data_17_OWNER",
+    "address": "Assessment_Data_17_ADDRESS",
+    "acres": "Parcels_CALC_ACRE",
+    "land_use": "Assessment_Data_17_LANDUSE",
+    "assessed_value": "Assessment_Data_17_APPRAISAL"
+  },
+  "notes": "Crockett County layer from the statewide TN County Parcel Map service (parcels joined to assessment data). Single-county layer; no filter needed.",
+  "verification": {
+    "verified_at": 1792051894328,
+    "counties": [
+      "47033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

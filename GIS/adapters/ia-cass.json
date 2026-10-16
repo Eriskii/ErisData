@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-cass",
+  "publisher": "Iowa DHS HSEMD (hosted by University of Iowa)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19029"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Cass'",
+  "notes": "Statewide Iowa parcel layer, filtered to Cass County",
+  "verification": {
+    "verified_at": 1792049285164,
+    "counties": [
+      "19029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

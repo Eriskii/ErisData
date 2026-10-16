@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-clarke",
+  "publisher": "Athens-Clarke County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://enigma.accgov.com/server/rest/services/ACC_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13059"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "OWNER_NAME",
+    "address": "PAR_ADD",
+    "acres": "ACRES"
+  },
+  "notes": "Athens-Clarke County consolidated government; layer arcserver.DBO.parcels",
+  "verification": {
+    "verified_at": 1792048733605,
+    "counties": [
+      "13059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

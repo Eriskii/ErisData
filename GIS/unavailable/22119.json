@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "22119",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://atlas.geoportalmaps.com/webster_public",
+    "https://atlas.geoportalmaps.com/Account/Login",
+    "https://www.websterassessor.org/maps",
+    "https://landrecords.us/documentation/coverage/counties/22-119-webster",
+    "https://regrid.com/louisiana-parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Webster Parish LA parcels. The official parcel viewer (atlas.geoportalmaps.com/webster_public, GCT GeoPortal) exposes no ArcGIS REST endpoint and its account login page suggests gated access; the assessor maps page is not fetchable. The gis.wlf.la.gov state basemap returns 502 and has no parcels. The Regrid nationwide MapServer tile service has no working query endpoint (404), and the LandGrid service requires a token. Other parcel sources found (landrecords.us, dynamospatial, equatorstudios, Regrid store) are paid downloads, not public services. No public queryable Webster Parish parcel service was found.",
+  "recorded_at": 1792050003847,
+  "recheck_after": 1807602003847,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "co-lake",
+  "publisher": "Lake County, Colorado Mapping Department (LCMD)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/38PTfoP8IjlBsxZN/arcgis/rest/services/Parcel_test/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08065"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNB",
+    "owner": "NAME",
+    "address": "FULLPROPADDRESS",
+    "acres": "ACRES",
+    "land_use": "CLASSCD1_DESC",
+    "assessed_value": "TOTAL_ASSESSED_VALUE"
+  },
+  "notes": "Lake County Assessor tax parcel layer (LCMD Parcel Info (Updated)); county-published; deprecated older layer LCMDParcelInfo not used",
+  "verification": {
+    "verified_at": 1792048675124,
+    "counties": [
+      "08065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

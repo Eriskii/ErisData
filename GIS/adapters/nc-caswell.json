@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-caswell",
+  "publisher": "NC OneMap / NC Center for Geographic Information and Analysis (Caswell County parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37033"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37033'",
+  "notes": "Statewide NC OneMap parcel layer (ICE); filtered to Caswell County by state-county FIPS. Public. Land use codes are empty for Caswell in this source, so not mapped.",
+  "verification": {
+    "verified_at": 1792051414279,
+    "counties": [
+      "37033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

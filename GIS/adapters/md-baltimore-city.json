@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "md-baltimore-city",
+  "publisher": "Baltimore City (CityView Real Property Information)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/Realproperty_OB/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24510"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER_1",
+    "address": "FULLADDR",
+    "land_use": "USEGROUP",
+    "assessed_value": "FULLCASH"
+  },
+  "notes": "Baltimore City real property information; updated weekly; CC BY 3.0",
+  "verification": {
+    "verified_at": 1792049931629,
+    "counties": [
+      "24510"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

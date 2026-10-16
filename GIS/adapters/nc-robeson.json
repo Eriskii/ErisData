@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "nc-robeson",
+  "publisher": "Robeson County GIS (ROKMAPS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis4.roktech.net/arcgis/rest/services/robeson/ROKMAPS_v2/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37155"
+    ]
+  },
+  "fields": {
+    "apn": "PIN_NUMBER"
+  },
+  "notes": "Robeson County ROKMAPS_v2 Parcels layer (MapServer layer 15) served by ROK Technologies. The public layer publishes parcel geometry and PIN only; owner, situs address, acreage and value attributes are blank in the public service.",
+  "verification": {
+    "verified_at": 1792051412755,
+    "counties": [
+      "37155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-weakley",
+  "publisher": "Weakley County GIS (via TN County Parcel Map, HNTB-hosted)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47183"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_92_PARCELID",
+    "owner": "Assessment_Data_92_OWNER",
+    "address": "Assessment_Data_92_ADDRESS",
+    "acres": "Parcels_CALC_ACRE",
+    "land_use": "Assessment_Data_92_LANDUSE",
+    "assessed_value": "Assessment_Data_92_APPRAISAL"
+  },
+  "notes": "Layer from TN County Parcel Map FeatureServer; parcel attributes joined from assessment data. Fields ending in _ prefixes are join artifacts.",
+  "verification": {
+    "verified_at": 1792052602033,
+    "counties": [
+      "47183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

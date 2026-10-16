@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-lee",
+  "publisher": "Lee County, SC GIS (Lee County SC Tax Map)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/zg6ovB2KKN8L0zFv/arcgis/rest/services/Land_Records/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45061"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "GISAC"
+  },
+  "notes": "Parcel_Polygons layer of Lee County SC Tax Map (ArcGIS Online, owner LeeCounty_2013). Owner/address/land use/value not published in this layer.",
+  "verification": {
+    "verified_at": 1792051601982,
+    "counties": [
+      "45061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

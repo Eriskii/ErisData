@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-coffee",
+  "publisher": "Coffee County GIS (via sgrcmaps)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.sgrcmaps.com/alma/rest/services/Coffee/CoffeeBackgroundLayers/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13069"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO_1",
+    "address": "STREET_NAM",
+    "acres": "Calc_Acres",
+    "land_use": "DIGCLASS",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Coffee County GA parcel layer served by sgrcmaps; no owner field in this layer",
+  "verification": {
+    "verified_at": 1792048745011,
+    "counties": [
+      "13069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

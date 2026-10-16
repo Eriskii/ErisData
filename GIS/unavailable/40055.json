@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40055",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://greer.okcounties.org/maps",
+    "https://greer.okcounties.org/offices/county-assessor",
+    "https://ogidev.okmaps.org/OGI/search.aspx",
+    "https://app.regrid.com/store/us/ok/greer",
+    "https://maps.owrb.ok.gov/arcgis/rest/services/Hazard/Parcels/MapServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Greer County OK parcels. County site publishes only static PDF maps and no parcel viewer or REST service; assessor page has no GIS link. Statewide OKMaps parcel layer is view-only (WMS), with no download or REST endpoint. Regrid parcels are paid and its ArcGIS tile service is not queryable. OWRB 'Parcels by county' MapServer is listed publicly but was unreachable (connection error from both probe and validation). No public queryable Greer County parcel polygon service found.",
+  "recorded_at": 1792051733853,
+  "recheck_after": 1807603733853,
+  "model": "claude-haiku-5-5"
+}

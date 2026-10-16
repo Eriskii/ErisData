@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "46105",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.perkinscounty.org/geographical-information-systems-gi",
+    "https://perkins.southdakotadirectors.com",
+    "https://beacon.schneidercorp.com/?site=PerkinsCountySD",
+    "https://maps.camavision.com/perkinssd",
+    "https://www.gismaps.org/sd-perkins-county/"
+  ],
+  "note": "Perkins County SD publishes parcel data only through vendor viewers (Schneider Beacon/qPublic, CAMAVision, southdakotadirectors). Beacon returns a Cloudflare 403 challenge; no public ArcGIS REST parcel service was found. County GIS page says basic GIS access requires a subscription form. ArcGIS Hub/Online searches for Perkins County parcels returned nothing; statewide SD searches found no county parcel layer. Commercial sources (Regrid, landrecords.us, Equator) are not county services.",
+  "recorded_at": 1792051668242,
+  "recheck_after": 1807603668242,
+  "model": "claude-haiku-5-5"
+}

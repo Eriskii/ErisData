@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21043",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx",
+    "https://usparcelmaps.com/kentucky_parcels.html",
+    "https://cartercounty.ky.gov/Pages/default.aspx",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp"
+  ],
+  "note": "Carter County KY parcels are published only through the Schneider qPublic PVA web app (Cloudflare-protected; no public ArcGIS REST or file download found). The county website links no GIS or parcel service. The KyDGI county PVA service list has no Carter entry, the kygisserver root has no PVA folder, and ArcGIS Hub/Online searches return no Carter County parcel FeatureServer. Commercial sources (Regrid, Equator, DynamoSpatial, Acres) are paid or licensed, not county services.",
+  "recorded_at": 1792049463964,
+  "recheck_after": 1807601463964,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sc-berkeley",
+  "publisher": "Berkeley County GIS (SC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.berkeleycountysc.gov/arcgis/rest/services/API/internet_map_with_api/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45015"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "OwnerName",
+    "address": "StreetAddress1",
+    "acres": "TotalAcres",
+    "assessed_value": "TotalTaxValue"
+  },
+  "filter": "TotalAcres < 1000",
+  "notes": "Parcel polygons from Berkeley County GIS (Parcel Lines layer, EPSG:2273). Filter excludes very large rural tracts whose geometry fails validity checks. O_TMS is the tax map number.",
+  "verification": {
+    "verified_at": 1792051577825,
+    "counties": [
+      "45015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

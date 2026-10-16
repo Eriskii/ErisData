@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "40083",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://okmaps.org/ogi/RestDataAccessItem.aspx?UUID=1484707a-712a-4447-96a9-5a38affc600e",
+    "https://www.logancountyok.com/234/Search-Assessors-Records",
+    "https://www.dynamospatial.com/c/logan-county-ok/parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Logan County OK parcels. No county-published queryable parcel service found. Logan County assessor links to actDataScout (records search, no map service). Statewide OKMaps parcels are view-only via WMS, no WFS parcel layer for Logan. Commercial vendors only (Dynamo Spatial, Regrid, landrecords.us). The 'Logan County Public Map Viewer' experience app that surfaced is Logan County, Illinois, not Oklahoma.",
+  "recorded_at": 1792051683261,
+  "recheck_after": 1807603683261,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sc-union",
+  "publisher": "Union County, SC (UC PARCELS, hosted ArcGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/xQgypOVdY84tFTiW/arcgis/rest/services/UNION_SC_PARCELS_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45087"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "Name",
+    "address": "Address_1"
+  },
+  "notes": "Parcel polygons from a public ArcGIS service titled UC PARCELS (Union County SC). Source CRS is Web Mercator; runtime handles reprojection. Parcel number also in ParcelNumb.",
+  "verification": {
+    "verified_at": 1792051612618,
+    "counties": [
+      "45087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

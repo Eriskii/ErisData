@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-smith",
+  "publisher": "Smith County Map Site (911 District) / Smith CAD",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/KgTmADyzXWOLUPKd/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48423"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE"
+  },
+  "notes": "Approximate parcel boundaries from Smith County Map Site; no owner or value fields published in this layer. ACCOUNT holds the SCAD tax account.",
+  "verification": {
+    "verified_at": 1792051745542,
+    "counties": [
+      "48423"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

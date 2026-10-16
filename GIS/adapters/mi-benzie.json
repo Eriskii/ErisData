@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-benzie",
+  "publisher": "Benzie County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/lcdRo4JSOTVu3FMR/arcgis/rest/services/Benzie_County_Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26019"
+    ]
+  },
+  "fields": {
+    "apn": "PNUM",
+    "owner": "OWNERNAME1",
+    "address": "PROPSTREET",
+    "land_use": "PROPCLASS"
+  },
+  "notes": "Parcel polygons layer of Benzie County Parcels FeatureServer (layer 1). Source hosted by JoshuaMills on ArcGIS Online.",
+  "verification": {
+    "verified_at": 1792049921666,
+    "counties": [
+      "26019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

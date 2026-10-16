@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-polk",
+  "publisher": "Polk County NC GIS (tax parcels, via ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/23uf7jKvz6SRPFWJ/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37149"
+    ]
+  },
+  "fields": {
+    "apn": "TMS",
+    "owner": "OWNAM1",
+    "address": "PHYSICAL_STREET_ADDRESS",
+    "acres": "TOTAL_CALCULATED_ACRES",
+    "assessed_value": "TOTAL_TAX_VALUE"
+  },
+  "notes": "Polk County NC tax parcels published by county GIS",
+  "verification": {
+    "verified_at": 1792051544263,
+    "counties": [
+      "37149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

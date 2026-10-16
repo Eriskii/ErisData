@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-hillsborough",
+  "publisher": "Hillsborough County Property Appraiser (HCPA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/HCPA_Parcels_All/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12057"
+    ]
+  },
+  "fields": {
+    "apn": "FOLIO",
+    "owner": "OWNER",
+    "address": "SITE_ADDR",
+    "acres": "ACREAGE",
+    "land_use": "DOR_C",
+    "assessed_value": "ASD_VAL"
+  },
+  "notes": "Hillsborough County Property Appraiser parcels, served by Hillsborough County ArcGIS org; geoJSON supported; no filter needed",
+  "verification": {
+    "verified_at": 1792048785207,
+    "counties": [
+      "12057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

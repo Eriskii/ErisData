@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "26059",
+  "reason": "login-required",
+  "evidence": [
+    "https://services.arcgis.com/OeX2IGuO6RXdWbJX/arcgis/rest/services/Hillsdale_Parcels_Select_And_Query_Layer2/FeatureServer/0",
+    "https://gis.hillsdale.us/?currentMap=home.php",
+    "https://hillsdalecounty.gov/index.php/tm-gov/tsm-gov-eq-land/gis-online-maps",
+    "https://app.fetchgis.com/?currentMap=hillsdale",
+    "https://hillsdalecounty.gov/images/equalization/equploads/giswebterms.pdf"
+  ],
+  "note": "Hillsdale County MI (26059): the only ArcGIS parcel layer found (Parcels - MI - Hillsdale County, services.arcgis.com OeX2IGuO6RXdWbJX) refuses anonymous access with 'Token Required'. The county's public viewers (FetchGIS app, gis.hillsdale.us) expose no REST endpoint; the county sells its parcel file (mappingsolutionsgis, reportallusa) and the state MGF parcel layer is internal only. Not working around the token requirement.",
+  "recorded_at": 1792049966363,
+  "recheck_after": 1807601966363,
+  "model": "claude-haiku-5-5"
+}

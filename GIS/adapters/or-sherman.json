@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "or-sherman",
+  "publisher": "Columbia River Tax Lots (Sherman County, OR layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/xEHq4N54Na2L3oyh/arcgis/rest/services/Columbia_River_Tax_Lots/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41055"
+    ]
+  },
+  "fields": {
+    "apn": "MAPTAXLOT",
+    "owner": "OWNER",
+    "address": "M_ADDRESS",
+    "acres": "TaxlotAcre",
+    "land_use": "PROPERTY_C",
+    "assessed_value": "AV_TOTAL"
+  },
+  "notes": "Tax lots within one mile of the Columbia River only (2022 snapshot).",
+  "verification": {
+    "verified_at": 1792051516149,
+    "counties": [
+      "41055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

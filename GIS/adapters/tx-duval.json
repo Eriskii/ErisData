@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-duval",
+  "publisher": "Duval County Appraisal District (via ArcGIS Online, bis_duvalcad)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/RAxb9SOLfINbVMkC/arcgis/rest/services/DuvalCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48131"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "addr_line2",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Appraisal district parcel layer, about 15,391 features. address is the owner mailing line (addr_line2); situs fields are mostly empty.",
+  "verification": {
+    "verified_at": 1792051675548,
+    "counties": [
+      "48131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

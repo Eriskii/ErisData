@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21127",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.arcgis.com/home/item.html?id=d8f8d6c2618a4aedb8cbcf1276d37317",
+    "https://web4.kcsgis.com/kcsgis/rest/services/Lawrence/Public/MapServer/49",
+    "https://kgs.uky.edu/kgsmap/KGSGeoPortal/KGSGeoPortal.asp",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0",
+    "https://app.regrid.com/store/us/ky/lawrence"
+  ],
+  "note": "Lawrence County KY: the KCS viewer's parcel layer (web4.kcsgis.com Lawrence/Public layer 49) holds Lawrence County, Alabama parcels; 0 features in the KY bbox. Lawrence KY PVA parcels are not on kygisserver or the KGS geoportal list; KYTC PVA availability marks LAWRENCE as Without Ownership. Only commercial sellers (Regrid, Acres, DynamoSpatial) offer KY parcels.",
+  "recorded_at": 1792049927268,
+  "recheck_after": 1807601927268,
+  "model": "claude-haiku-5-5"
+}

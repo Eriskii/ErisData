@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "35023",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer",
+    "https://gis.ose.state.nm.us/arcgis/rest/services/Parcels/County_Parcels_2021/MapServer",
+    "https://hidalgocounty.org/portfolio/new-mexico-gis-map/",
+    "https://www.tax.newmexico.gov/businesses/geographic-information-system-gis/data-download/"
+  ],
+  "note": "Hidalgo County NM has no working parcel service. The state OSE County_Parcels_2025 MapServer (sublayer 12 = Hidalgo) answers 'Service not started' (HTTP 500) on every request, and the 2021 OSE host is unreachable. The county's own ArcGIS web map holds only county boundary, roads and cities, no parcels. TRD does not publish county parcels; the only other sources are paid commercial datasets (Regrid, DynamoSpatial, uslandgrid).",
+  "recorded_at": 1792051543289,
+  "recheck_after": 1807603543289,
+  "model": "claude-haiku-5-5"
+}

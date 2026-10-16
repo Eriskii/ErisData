@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-vermilion",
+  "publisher": "City of Danville GIS (Tax Parcels Public, covers Vermilion County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofdanville.org/arcgis/rest/services/Hosted/Tax_Parcels_Public/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17183"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "owner_name",
+    "acres": "gross_acres",
+    "land_use": "class_code"
+  },
+  "notes": "Hosted by City of Danville; county-wide parcel polygons. site_address is empty for most county parcels (only inside-Danville records carry it), so address is not mapped. Some parcels split into multiple polygons sharing a parcel_id.",
+  "verification": {
+    "verified_at": 1792049028836,
+    "counties": [
+      "17183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

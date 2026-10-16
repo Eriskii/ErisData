@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "me-sagadahoc",
+  "publisher": "Maine Parcels Organized Towns (MCHT Combined Parcels) via MCHT",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mcht.org/arcgis/rest/services/Cadastral_Planning/MCHT_Combined_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23023"
+    ]
+  },
+  "fields": {
+    "apn": "map_bk_lot",
+    "land_use": "type"
+  },
+  "filter": "county = 'Sagadahoc'",
+  "notes": "Combined Maine organized-towns parcels hosted by MCHT; ownership and situs address not populated in this layer; county field used for filter",
+  "verification": {
+    "verified_at": 1792049926159,
+    "counties": [
+      "23023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

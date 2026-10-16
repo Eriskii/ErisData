@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ne-franklin",
+  "publisher": "Nebraska statewide parcels (county-supplied), Franklin County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ne.gov/Enterprise/rest/services/StatewideParcelsExternal/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31061"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '061'",
+  "notes": "Nebraska statewide parcel layer (county-supplied) filtered to County_ID 061 (Franklin). Owner names are not published in this layer. Situs address is blank for many rural parcels in the source.",
+  "verification": {
+    "verified_at": 1792051131140,
+    "counties": [
+      "31061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

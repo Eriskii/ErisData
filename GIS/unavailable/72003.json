@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72003",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_feb_2025/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim?f=json"
+  ],
+  "note": "CRIM's statewide Parcelario (crim_parcelas 2018, crim_feb_2025) is listed on sigejp.pr.gov but every endpoint returns 'Service not started' (HTTP 500 JSON), and the crim folder now lists no services. The sige.pr.gov mirror is unreachable. The statewide geoserver2 WFS (pr_geodata) has no parcel layer; gis.pr.gov download pages list only grids and statewide property points; sigejp propiedades_dtop is points only. Regrid has Aguada parcels but is commercial. No currently queryable public parcel service for Aguada.",
+  "recorded_at": 1792051907370,
+  "recheck_after": 1807603907370,
+  "model": "claude-haiku-5-5"
+}

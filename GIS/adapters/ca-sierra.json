@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-sierra",
+  "publisher": "Sierra County, CA (via CAL FIRE ITS California Statewide Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://bz1uwwpkuinzbk94.svcs5.arcgis.com/bz1uwWPKUInZBK94/arcgis/rest/services/CA_Statewide_Parcels_Public_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06091"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_APN",
+    "address": "FullStreetAddress"
+  },
+  "filter": "FIPS_CODE = '06091'",
+  "notes": "Statewide CA parcels service filtered to FIPS 06091 (Sierra County). Owner, acres, land use and value not in source.",
+  "verification": {
+    "verified_at": 1792048687589,
+    "counties": [
+      "06091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

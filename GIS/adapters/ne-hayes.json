@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ne-hayes",
+  "publisher": "Hayes County, NE (GeoWorks assessor service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Hayes_County_NE_Assessor/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31085"
+    ]
+  },
+  "fields": {
+    "apn": "PID"
+  },
+  "notes": "Hayes County NE assessor parcels via GeoWorks host; only PID exposed in layer fields",
+  "verification": {
+    "verified_at": 1792051166969,
+    "counties": [
+      "31085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

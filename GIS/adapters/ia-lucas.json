@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-lucas",
+  "publisher": "Iowa DHS & Emergency Management (hosted by University of Iowa), statewide parcels filtered to Lucas County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19117"
+    ]
+  },
+  "fields": {
+    "apn": "UNPARCELID",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Lucas'",
+  "notes": "Statewide Iowa parcel layer (2017); filtered on COUNTYNAME. No address or acreage fields in source.",
+  "verification": {
+    "verified_at": 1792049289750,
+    "counties": [
+      "19117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-camp",
+  "publisher": "Camp Central Appraisal District (BIS CAD Web Service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/3ERd7aqQXEjL9i0y/arcgis/rest/services/CampCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48063"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Camp CAD parcel layer from BIS Consultants web service; ~11,698 features; source spatial reference 2276 (Texas State Plane feet).",
+  "verification": {
+    "verified_at": 1792051656512,
+    "counties": [
+      "48063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

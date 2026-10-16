@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-maury",
+  "publisher": "Maury County GIS (via ArcGIS Online, dtoney_ColumbiaTN)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/ubRvNDgGwwJuZMcL/arcgis/rest/services/Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47119"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "LANDUSE",
+    "assessed_value": "APPRAISAL"
+  },
+  "notes": "Maury County parcel layer with CAMA attributes; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792052464187,
+    "counties": [
+      "47119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

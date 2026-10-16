@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ia-pottawattamie",
+  "publisher": "Pottawattamie County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pottcounty-ia.gov/arcgis/rest/services/PublicDataEnterprise/PublicData_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19155"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER",
+    "address": "TaxAddress",
+    "acres": "NETACRES",
+    "land_use": "PROPCLASS",
+    "assessed_value": "TOTALVALUE"
+  },
+  "notes": "County public parcel layer; PIN is parcel number; ADDRESS often blank for rural parcels so TaxAddress (mailing address) is used; max 2000 per query",
+  "verification": {
+    "verified_at": 1792049185703,
+    "counties": [
+      "19155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

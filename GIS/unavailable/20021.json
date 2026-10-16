@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "20021",
+  "reason": "login-required",
+  "evidence": [
+    "https://services3.arcgis.com/aE3vJiyvd5fGDgoX/arcgis/rest/services/CK_Parcels/FeatureServer (county Appraiser land ownership parcels; returns 'Token Required')",
+    "https://services3.arcgis.com/aE3vJiyvd5fGDgoX/arcgis/rest/services/Tax_Sale_Parcels_Boundaries/FeatureServer (returns 'Token Required')",
+    "https://www.cherokeecountyks.gov/main/departments/appraiser-portal/mapping (county GIS page; only viewer link is IntegrityMaps https://cherokee.integritygis.com/, whose service endpoints were unreachable and not listed)"
+  ],
+  "note": "Cherokee County KS parcels are behind a token-protected ArcGIS service; the IntegrityMaps viewer's REST endpoints could not be reached or discovered. No public query endpoint or downloadable parcel file found. Results for Cherokee County GA and AL are different counties; the rest are paid commercial vendors.",
+  "recorded_at": 1792049366953,
+  "recheck_after": 1807601366953,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ks-ellis",
+  "publisher": "Ellis County GIS (Geospatial Data Portal, City of Hays/Ellis County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.geodataportal.net/arcgis/rest/services/CityCountyData/MapServer/54",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20051"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OwnerName",
+    "address": "SitusAddress",
+    "acres": "TotalAcres",
+    "land_use": "PropertyType",
+    "assessed_value": "AppraisedTotal"
+  },
+  "notes": "Ellis County KS parcels from City of Hays/Ellis County GSDP ArcGIS MapServer layer AllParcels; KS83-NF projection, service returns WGS84 via geoJSON",
+  "verification": {
+    "verified_at": 1792049248049,
+    "counties": [
+      "20051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

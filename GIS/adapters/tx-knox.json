@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-knox",
+  "publisher": "Knox Central Appraisal District (via ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/Ju5vg9anco2Yv2af/arcgis/rest/services/KnoxCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48275"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "addr_line1",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Knox CAD public GIS parcels; about 6,405 features. address is the owner mailing address (situs fields are mostly empty). Values are appraisal-district market values.",
+  "verification": {
+    "verified_at": 1792051708994,
+    "counties": [
+      "48275"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

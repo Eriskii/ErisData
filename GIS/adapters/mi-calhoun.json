@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-calhoun",
+  "publisher": "Calhoun County, MI (hosted by City of Battle Creek GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.battlecreekmi.gov/mapping/rest/services/SewerContractors/FeatureServer/5",
+    "page_size": 25,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "26025"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "ONERNAME1",
+    "address": "PSSSTREET",
+    "acres": "ACRES",
+    "land_use": "PRTYCLASS"
+  },
+  "notes": "County parcel polygons from Battle Creek city ArcGIS server; source CRS EPSG:2253. Owner-of-record fields may be incomplete.",
+  "verification": {
+    "verified_at": 1792050038606,
+    "counties": [
+      "26025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

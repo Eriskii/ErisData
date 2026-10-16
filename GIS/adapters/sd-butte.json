@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sd-butte",
+  "publisher": "Butte County, SD (District III GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/BUTTE_COUNTY_WEB_LAYERS2/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46019"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "TC_OWNER",
+    "acres": "A1_ACRES",
+    "land_use": "A1_CLASS1",
+    "assessed_value": "A1_TOTAL"
+  },
+  "notes": "Butte County SD assessor parcels via District III ArcGIS server (BUTTE_COUNTY_WEB_LAYERS2); site address field often blank for rural parcels",
+  "verification": {
+    "verified_at": 1792051744909,
+    "counties": [
+      "46019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

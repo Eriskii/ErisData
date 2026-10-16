@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ne-colfax",
+  "publisher": "Colfax County Assessor (via GDIT gworks ArcGIS server)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis3.gworks.com/arcgis/rest/services/Colfax_County_NE_Assessor/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31037"
+    ]
+  },
+  "fields": {
+    "apn": "PID"
+  },
+  "notes": "Parcel polygons from county assessor MapServer layer 9; only PID exposed (acres empty).",
+  "verification": {
+    "verified_at": 1792051139449,
+    "counties": [
+      "31037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

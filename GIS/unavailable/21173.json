@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21173",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/?site=MontgomeryCountyKY",
+    "https://www.qpublic.net/ky/montgomery/index.php?case=7",
+    "https://montgomerycokypva.com/",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0"
+  ],
+  "note": "Searched ArcGIS Hub/Online, KY state GIS server (kygisserver: PVA parcel services only for Webster County), KGS and KYTC PVA lists, and web directories. Montgomery County KY parcels are reachable only through the Schneider Beacon/qPublic viewers, which are bot-challenged (HTTP 403) and not a public ArcGIS REST service. Commercial exports (equatorstudios, Rockford) are paid. No queryable Montgomery County KY parcel service or file found.",
+  "recorded_at": 1792049958532,
+  "recheck_after": 1807601958532,
+  "model": "claude-haiku-5-5"
+}

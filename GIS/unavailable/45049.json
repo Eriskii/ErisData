@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "45049",
+  "reason": "login-required",
+  "evidence": [
+    "https://arcweb.dnr.sc.gov/server/rest/services/Hosted/SC_County_Parcel_Viewers/FeatureServer/0/query?where=county_name%3D%27Hampton%27&outFields=*&f=json",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=902&LayerID=17042&PageTypeID=1&PageID=7671",
+    "http://webgis.hampton.gov/ArcGIS/rest/services/Public/MapServer/4",
+    "https://webgis2.hampton.gov/server/rest/services/Public/MapServer"
+  ],
+  "note": "Hampton County SC (FIPS 45049). The SC DNR statewide parcel-viewer registry lists only a qPublic (Schneider) viewer for Hampton County, flagged login_required=yes; fetching it returned a 403 interstitial. No public ArcGIS REST parcel service found: webgis.hampton.gov was unreachable and webgis2.hampton.gov's Public MapServer belongs to the City of Hampton, VA. Other parcel sources are commercial only (Regrid, MappingSolutions, Acres, Equator).",
+  "recorded_at": 1792051607797,
+  "recheck_after": 1807603607797,
+  "model": "claude-haiku-5-5"
+}

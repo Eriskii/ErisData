@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "72139",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://catastro.crimpr.net/cdprpc"
+  ],
+  "note": "CRIM's only parcel service (crim_parcelas and crim_feb_2025 MapServers on sigejp.pr.gov) returns HTTP 500 'Service not started' on every request across repeated attempts; older CRIM endpoints are unreachable and the rest is a viewer only.",
+  "recorded_at": 1792052160764,
+  "recheck_after": 1807604160764,
+  "model": "claude-sonnet-5-5"
+}

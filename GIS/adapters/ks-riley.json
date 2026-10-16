@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ks-riley",
+  "publisher": "Riley County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rileycountyks.gov/arcgis/rest/services/GISWeb/Parcels_and_Subdivisions/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20161"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNum",
+    "owner": "Party_Name",
+    "address": "Property_A",
+    "acres": "CalculatedArea",
+    "land_use": "Class",
+    "assessed_value": "TotalVal26"
+  },
+  "notes": "Riley County Community GIS; parcels updated daily; owner/address from county assessment data",
+  "verification": {
+    "verified_at": 1792049314802,
+    "counties": [
+      "20161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72077",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_feb_2025/FeatureServer",
+    "https://www.arcgis.com/home/item.html?id=177a03ea0b31411cafe5596fe710790d",
+    "https://reportallusa.com/store/Puerto%20Rico/72077"
+  ],
+  "note": "CRIM's Parcelario service (crim_parcelas, Parcelarios Crim 2018) is the only public parcel polygon service found for PR, and it returns 'Service not started' (HTTP 500) on every query, including from the spec validator; crim_feb_2025 is also stopped. No Juncos-filtered service found; the only Juncos parcel data is commercial (reportallusa, Regrid).",
+  "recorded_at": 1792053228203,
+  "recheck_after": 1807605228203,
+  "model": "claude-haiku-5-5"
+}

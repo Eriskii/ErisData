@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-bowie",
+  "publisher": "Bowie County Appraisal District via TxGIO (BIS Consultants), hosted by CincolandGIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/SBVelvjTzPGISLro/arcgis/rest/services/BOWIE_PARCELS/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48037"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "land_use": "STAT_LAND_",
+    "assessed_value": "MKT_VALUE"
+  },
+  "notes": "Bowie County TX parcels from TxGIO DataHub (annual CAD extract). Single-county layer.",
+  "verification": {
+    "verified_at": 1792051648940,
+    "counties": [
+      "48037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

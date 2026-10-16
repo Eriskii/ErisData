@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-buffalo",
+  "publisher": "Buffalo County, NE (assessor, hosted by gworks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Buffalo_County_NE_Assessor/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31019"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "Acres"
+  },
+  "notes": "Parcel layer from Buffalo County NE assessor GIS (gworks). Only PID and Acres exposed; no owner/address/value fields on this layer.",
+  "verification": {
+    "verified_at": 1792051174805,
+    "counties": [
+      "31019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

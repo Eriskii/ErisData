@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40061",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://okmaps.org/ogi/RestDataAccessItem.aspx?UUID=1484707a-712a-4447-96a9-5a38affc600e",
+    "https://ogidev.okmaps.org/OGI/RestDataAccessItem.aspx?UUID=7c55e990-048e-499d-a20c-58fc5b730562",
+    "http://haskell.oklahoma.usassessor.com/Shared/base/LiteSearch/Search.php",
+    "https://www.actdatascout.com/RealProperty/Oklahoma/Haskell",
+    "https://publicrecords.netronline.com/state/OK/county/haskell"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Haskell County OK (FIPS 40061) parcel services. No county-published parcel polygon service or file was found. The only statewide parcel layer (OK Maps Statewide Parcels, from county assessor rolls) is view-only via OGC WMS, not downloadable or queryable as features, and does not clearly include Haskell County. Haskell's assessor search is a vendor-hosted property search (usassessor / actDataScout; the latter returned HTTP 403) with no public parcel polygon service. Commercial vendors (Dynamo, Regrid, Rockford) sell parcel files but are not county services.",
+  "recorded_at": 1792051626510,
+  "recheck_after": 1807603626510,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-atascosa",
+  "publisher": "Atascosa County Appraisal District (via AtascosaCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/q1dyPay4QViMab9g/arcgis/rest/services/AtascosaCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48013"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Appraisal district CAD web service; polygons served in state plane feet, reprojected to WGS84 for geojson",
+  "verification": {
+    "verified_at": 1792051636479,
+    "counties": [
+      "48013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

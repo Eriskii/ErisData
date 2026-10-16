@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-tillamook",
+  "publisher": "Tillamook County taxlot owners (ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/Tilllamook_Taxlot_Owners/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41057"
+    ]
+  },
+  "fields": {
+    "apn": "MapTaxlot",
+    "owner": "OWNERLINE1",
+    "acres": "TaxlotAcre",
+    "land_use": "PRPCLASS",
+    "assessed_value": "ASSESSVAL"
+  },
+  "notes": "Tillamook County taxlot polygons with owner and assessment attributes; ArcGIS Online hosted. SITEADDNAM is sparse (mostly blank for rural lots) so not mapped.",
+  "verification": {
+    "verified_at": 1792051538692,
+    "counties": [
+      "41057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

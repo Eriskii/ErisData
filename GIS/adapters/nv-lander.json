@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nv-lander",
+  "publisher": "Lander County Assessor (lcassessor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/pO52tJVU1A7DeQKH/arcgis/rest/services/Lander_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32015"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "owner_name",
+    "acres": "ACRES",
+    "land_use": "use_dscr",
+    "assessed_value": "adj_cap_val"
+  },
+  "filter": "ACRES < 5000",
+  "notes": "Lander County Assessor parcel layer joined with CAMA data. Public ArcGIS service. Filter excludes very large rural polygons (over 5000 acres, mostly BLM/public-use lands) whose centroids fall outside the sampled area. Site address fields are empty in the source, so no address is mapped.",
+  "verification": {
+    "verified_at": 1792051371077,
+    "counties": [
+      "32015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

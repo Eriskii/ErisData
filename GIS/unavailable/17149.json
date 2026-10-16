@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "17149",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.pikecountyil.org/gis-maps/",
+    "https://www.pikecountyil.org/county-assessor/think-gis-map/",
+    "https://pikeil.wthgis.com/"
+  ],
+  "note": "Pike County IL publishes parcels only through its WTH Think GIS web viewer (pikeil.wthgis.com). No ArcGIS REST services directory or parcel layer was found: probes of pikeil.wthgis.com /arcgis/rest/services, /rest/services and /arcgis/rest/services/Parcels/MapServer returned 404; ArcGIS Hub/Online searches for Pike County parcels found nothing county-published; the county site lists no download or API link. Parcel data appears only from commercial vendors (Regrid, Dynamo, Rockford Map, Acres) or a third-party portal.",
+  "recorded_at": 1792049020401,
+  "recheck_after": 1807601020401,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "co-fremont",
+  "publisher": "Fremont County Regional GIS Authority (fremontgis.com)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://fremontgis.com/server/rest/services/AUT_LAND_RECORDS/FeatureServer/1082516613",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08043"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMBER",
+    "owner": "OWNER_NAME",
+    "address": "SITE_ADDR",
+    "acres": "AUT_ACRES",
+    "land_use": "ZONE_DIST"
+  },
+  "notes": "Fremont County CO assessor parcels layer from fremontgis.com (AUT_LAND_RECORDS, FC Parcels). No assessed value field; ZONE_DIST is zoning district, not land use class.",
+  "verification": {
+    "verified_at": 1792048687219,
+    "counties": [
+      "08043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13011",
+  "reason": "paywalled",
+  "evidence": [
+    "https://www.bankscountyga.org/1455/GIS-Data-and-Maps",
+    "https://www.bankscountyga.org/1452/Parcel-Mapping",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=BanksCountyGA&Layer=Parcels&PageType=Search",
+    "https://countygismaps.com/ga/banks"
+  ],
+  "note": "Banks County GA publishes no public parcel REST service or file. Its GIS department page says digital parcel data is sold under license (request by email). The parcel viewer is Schneider qPublic (proprietary, no ArcGIS REST endpoint found; page returned bot-check). countygismaps.com offers paid downloads only. ArcGIS Online searches found no Banks County parcel layer; the TaxParcels FeatureServer (services7 0JhPFgxDlwicqVHq) returns no features at the Banks County point, so it is not this county's data.",
+  "recorded_at": 1792048769879,
+  "recheck_after": 1823584769879,
+  "model": "claude-haiku-5-5"
+}

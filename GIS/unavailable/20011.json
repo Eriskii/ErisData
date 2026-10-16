@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20011",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.bourboncountyks.org/gis/",
+    "https://apps.kansasgis.org/orka/intro.cfm?countyName=Bourbon",
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer"
+  ],
+  "note": "Bourbon County's official GIS page points only to the state ORKA online map viewer (terms acceptance, no download or service link). ORKA's parcel data is available only by a request page, and its ORKA_Extras REST services contain subdivision and lot layers for other counties, not Bourbon County tax parcels. No public county parcel service found; the commercial parcel files are paid vendors, not county data.",
+  "recorded_at": 1792049227558,
+  "recheck_after": 1807601227558,
+  "model": "claude-haiku-5-5"
+}

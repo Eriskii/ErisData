@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "48305",
+  "reason": "login-required",
+  "evidence": [
+    "https://www.lynncad.org/home/map",
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap_land_parcels_48_most_recent/MapServer"
+  ],
+  "note": "Lynn CAD viewer uses token-protected Pandai service; TxGIO StratMap layer has query disabled; CAD 2021 shapefile zip yields 0 features in the runtime (7 validations); no ArcGIS service for 48305 found.",
+  "recorded_at": 1792051853269,
+  "recheck_after": 1807603853269,
+  "model": "claude-sonnet-5-5"
+}

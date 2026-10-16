@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nm-quay",
+  "publisher": "Quay County Assessor (via Quay County GIS ArcGIS Experience)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/wGmVYwBpZBpXLfsK/arcgis/rest/services/PARCEL_MAINT_ExportFeatures6_view/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35037"
+    ]
+  },
+  "fields": {
+    "apn": "UPC",
+    "owner": "Owner_Name"
+  },
+  "notes": "Layer from Quay County Parcel Map viewer; about 6941 features; source spatial reference 2257. Situs_Address (not mapped) is populated for only about 38% of parcels, so address is omitted. AccountNum is the assessor account number.",
+  "verification": {
+    "verified_at": 1792051424407,
+    "counties": [
+      "35037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-pasquotank",
+  "publisher": "Pasquotank County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/0sC2n3LxYOcxBOg0/arcgis/rest/services/PasquotankCountyNC_20260101/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37139"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNER1",
+    "address": "LOCATION",
+    "acres": "DEED_ACRE",
+    "land_use": "CLASS",
+    "assessed_value": "TOTASSD"
+  },
+  "notes": "Data as of 2026-01-01 per county parcel search; parcel polygons from county ArcGIS Online service",
+  "verification": {
+    "verified_at": 1792051371975,
+    "counties": [
+      "37139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mi-livingston",
+  "publisher": "Livingston County GIS (MSTEPHENS, GCDCWWS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/PrYwGqAi1wKjoFb1/arcgis/rest/services/Livingston_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26093"
+    ]
+  },
+  "fields": {
+    "apn": "Long_PID",
+    "owner": "O_NAME1",
+    "address": "P_ADDR",
+    "acres": "GIS_Acres",
+    "land_use": "CLASS_DESC",
+    "assessed_value": "ASSESS_VAL"
+  },
+  "notes": "Layer in Michigan South State Plane feet; runtime requests WGS84. Short_PID is alternate parcel id.",
+  "verification": {
+    "verified_at": 1792049932802,
+    "counties": [
+      "26093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "wy-uinta",
+  "publisher": "Wyoming Department of Revenue / Uinta County Assessor (statewide parcels 2026)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/r0iJ85SKZ4zAzz3P/arcgis/rest/services/Wyoming_Parcels_for_2026/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56041"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnb",
+    "owner": "ownername1",
+    "address": "locationad",
+    "acres": "landgrossa",
+    "assessed_value": "assessedva"
+  },
+  "filter": "jurisdicti = 'UINTA'",
+  "notes": "Statewide Wyoming parcel layer filtered to jurisdiction UINTA; county assessor data",
+  "verification": {
+    "verified_at": 1792051859850,
+    "counties": [
+      "56041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

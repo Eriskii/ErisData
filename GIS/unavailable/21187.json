@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "21187",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.net/ky/owen/",
+    "https://www.owencountyky.us/",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services"
+  ],
+  "note": "Owen County KY (FIPS 21187) parcels are published only through the qPublic/Schneider PVA viewer (qpublic.net/ky/owen), a proprietary web app with no public ArcGIS REST service or file download found. Kentucky's state server (kygisserver) publishes PVA parcel services for some counties (e.g. Ky_PVA_Webster_Parcels_WGS84WM) but none for Owen; probes of Ky_PVA_Owen_Parcels_WGS84WM and the WGS84WM folder found nothing. ArcGIS Hub/Online searches returned no Owen County parcel service. Commercial sources (Acres, OGInfo, Rockford Map, Mapping Solutions) are paid products, not public services.",
+  "recorded_at": 1792049887477,
+  "recheck_after": 1807601887477,
+  "model": "claude-haiku-5-5"
+}

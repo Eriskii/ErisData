@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "al-talladega",
+  "publisher": "Talladega County Revenue Commission (via Alabama Parcel Data, PowerSouth ArcGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/42",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01121"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "acres": "GISACRE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer from PowerSouth-hosted Alabama Parcel Data compilation; Talladega County layer 42. Site address and land use are sparsely populated in the source, so not mapped.",
+  "verification": {
+    "verified_at": 1792048413755,
+    "counties": [
+      "01121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

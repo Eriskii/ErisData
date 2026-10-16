@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "fips": "72023",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.arcgis.com/home/item.html?id=acf043a178254fcdad6708be3e8ab51c",
+    "https://www.arcgis.com/sharing/rest/content/items/acf043a178254fcdad6708be3e8ab51c/data?f=json",
+    "https://www.arcgis.com/home/item.html?id=177a03ea0b31411cafe5596fe710790d",
+    "http://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/FeatureServer/0",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/MapServer/0",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/ParcelasEtiquetas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0?f=json"
+  ],
+  "note": "Cabo Rojo (72023): CRIM Catastro Digital publishes Parcelas layers on satasgis.crimpr.net, but every parcel endpoint returns 404 (http) or connection errors (https), and the services directory returns 404. The sigejp.pr.gov crim folder is empty and crim_parcelas reports 'Service not started'. No working public parcel service found for Cabo Rojo.",
+  "recorded_at": 1792051945185,
+  "recheck_after": 1807603945185,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-dewitt",
+  "publisher": "DeWitt County Appraisal District via GBRA Parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Q6vsXnxTnYcWB7qg/arcgis/rest/services/GBRA_Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48123"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "owner": "Name",
+    "address": "Street",
+    "acres": "Acres"
+  },
+  "notes": "Appraisal district boundary data compiled by GBRA; DeWitt layer FIPS 48123. No land use or value fields in source.",
+  "verification": {
+    "verified_at": 1792051753756,
+    "counties": [
+      "48123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-obion",
+  "publisher": "Obion County GIS (via TN County Parcel Map, HNTB-hosted)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/25",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47131"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_66_PARCELID",
+    "owner": "Assessment_Data_66_OWNER",
+    "address": "Assessment_Data_66_ADDRESS",
+    "acres": "Parcels_CALC_ACRE",
+    "land_use": "Assessment_Data_66_LANDUSE",
+    "assessed_value": "Assessment_Data_66_APPRAISAL"
+  },
+  "notes": "Layer 25 of TN_County_Parcel_Map; parcels joined with assessment data; 19823 features",
+  "verification": {
+    "verified_at": 1792052321841,
+    "counties": [
+      "47131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-bell",
+  "publisher": "Bell County Appraisal District (BellCAD) via BellCADWebService",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/EHW2HuuyZNO7DZct/arcgis/rest/services/BellCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48027"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "BellCAD public web service; parcels layer. Address fields split (situs_num, situs_street_prefx, situs_street, situs_street_sufix).",
+  "verification": {
+    "verified_at": 1792051665697,
+    "counties": [
+      "48027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

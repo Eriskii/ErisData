@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-marshall",
+  "publisher": "Marshall County, IL (GIS / Supervisor of Assessments)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/Parcel_MarshallIL/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17123"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "PrimaryName",
+    "acres": "Acreage",
+    "land_use": "UseCode"
+  },
+  "notes": "Public ArcGIS layer behind the Marshall County IL public Experience viewer (item 542ad24015a04d35a3ca5d4231329ef8). SiteAddress is sparsely populated, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792048986889,
+    "counties": [
+      "17123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "vt-essex",
+  "publisher": "VCGI / VT Dept of Taxes grand list",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/BkFxaEFNwHqX3tAw/arcgis/rest/services/FS_VCGI_OPENDATA_Cadastral_VTPARCELS_poly_standardized_parcels_SP_v1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "50009"
+    ]
+  },
+  "fields": {
+    "apn": "SPAN",
+    "owner": "OWNER1",
+    "address": "E911ADDR",
+    "acres": "ACRESGL",
+    "land_use": "CAT",
+    "assessed_value": "REAL_FLV"
+  },
+  "filter": "TOWN IN ('AVERILL','AVERYS GORE','BLOOMFIELD','BRIGHTON','BRUNSWICK','CANAAN','CONCORD','FERDINAND','GUILDHALL','LEMINGTON','LUNENBURG','MAIDSTONE','NORTON','VICTORY')",
+  "notes": "Partial: Granby and East Haven excluded because source geometries there are invalid (whole-town polygons with vertices spanning the county).",
+  "verification": {
+    "verified_at": 1792052826509,
+    "counties": [
+      "50009"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

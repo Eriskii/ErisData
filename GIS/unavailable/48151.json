@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "48151",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap25_land_parcels_48/MapServer",
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap19_land_parcels_48/MapServer",
+    "https://feature.tnris.org/arcgis/rest/services/Parcels/stratmap24_land_parcels_48/MapServer/0",
+    "https://www.fishercad.org/home/map",
+    "https://app.regrid.com/store/us/tx/fisher"
+  ],
+  "note": "Fisher County (48151) has no public queryable parcel service found. The statewide TxGIO StratMap parcel services return 'Token Required' on feature.geographic.texas.gov, and the TNRIS mirror (feature.tnris.org) is unreachable from our probes and from validation. The Fisher CAD interactive map (fishercad.org) exposes no ArcGIS service URL; the Regrid and TaxNet USA parcel data are paid or Pro-only. ArcGIS Hub and Online searches for Fisher County parcels returned no parcel layer.",
+  "recorded_at": 1792051728167,
+  "recheck_after": 1807603728167,
+  "model": "claude-haiku-5-5"
+}

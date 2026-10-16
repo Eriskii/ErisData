@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21063",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://kygisserver.ky.gov/arcgis/rest/services?f=json",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=json",
+    "https://qpublic.net/ky/kypvas/",
+    "https://www.qpublic.net/ky/elliott/",
+    "https://rockfordmap.com/maps/kentucky-elliott-county/"
+  ],
+  "note": "Elliott County KY (21063) parcels are not published as a queryable ArcGIS/WFS/OGC service. The state kygisserver directory has only the Webster County PVA parcel service (Ky_PVA_Webster_Parcels_WGS84WM); no Elliott service exists in the WGS84WM_Services folder. The Elliott PVA points to a Schneider qPublic viewer (no public REST endpoint) and tells users to request bulk data from the PVA office. Commercial vendors (Rockford Map, acres) sell parcel shapefiles but are not a public service.",
+  "recorded_at": 1792049409082,
+  "recheck_after": 1807601409082,
+  "model": "claude-haiku-5-5"
+}

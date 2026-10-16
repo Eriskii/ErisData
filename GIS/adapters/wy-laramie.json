@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wy-laramie",
+  "publisher": "Laramie County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.laramiecounty.com/arcgis/rest/services/CntyAssessor/property_restricted_ASR/FeatureServer/0",
+    "page_size": 5,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "56021"
+    ]
+  },
+  "fields": {
+    "apn": "statepidn",
+    "owner": "name1",
+    "address": "address1",
+    "acres": "netacres",
+    "land_use": "accttype"
+  },
+  "notes": "Laramie County assessor parcels",
+  "verification": {
+    "verified_at": 1792051943326,
+    "counties": [
+      "56021"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

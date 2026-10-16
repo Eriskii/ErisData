@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ks-pottawatomie",
+  "publisher": "Pottawatomie County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Zt2LWLYlpbYKRPfg/arcgis/rest/services/CoparcelO/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20149"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "OWNER1",
+    "address": "MAIL_ADD",
+    "acres": "CALC_ACRE",
+    "land_use": "TAXUNIT"
+  },
+  "notes": "County parcel layer (CoparcelO) hosted on county ArcGIS org; PARCEL/PID carry parcel number; MAIL_ADD is mailing address (no situs field found); no assessed value field in layer.",
+  "verification": {
+    "verified_at": 1792049339187,
+    "counties": [
+      "20149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

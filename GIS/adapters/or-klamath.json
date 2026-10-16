@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-klamath",
+  "publisher": "Klamath County GIS (KC_Taxlots, Taxlot Publish layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/H6Mh1bySxR4oHx6x/arcgis/rest/services/KC_Taxlots/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41035"
+    ]
+  },
+  "fields": {
+    "apn": "MTL",
+    "owner": "OWNER_NAME",
+    "acres": "ACREAGE",
+    "land_use": "PCLSD",
+    "assessed_value": "M50_VALUE"
+  },
+  "notes": "Klamath County taxlot polygons with assessor attributes; situs address sparsely populated so not mapped",
+  "verification": {
+    "verified_at": 1792051499943,
+    "counties": [
+      "41035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

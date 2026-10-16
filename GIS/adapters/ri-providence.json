@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ri-providence",
+  "publisher": "RIGIS / RI Division of Statewide Planning (Assessors Tax Parcels), Providence County towns",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://risegis.ri.gov/hosting/rest/services/RIDEM/Tax_Parcels/MapServer/0",
+    "page_size": 96,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "44007"
+    ]
+  },
+  "fields": {
+    "apn": "PlatLot",
+    "acres": "Acres"
+  },
+  "filter": "TownCode IN ('BU','CF','CR','CU','EP','FO','GL','JO','LI','NP','NS','PA','PR','SC','SM','WO')",
+  "notes": "RIGIS statewide assessor parcels; Providence County towns selected by TownCode. No owner/address fields in source.",
+  "verification": {
+    "verified_at": 1792051679724,
+    "counties": [
+      "44007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

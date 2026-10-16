@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-upton",
+  "publisher": "TxGIO Texas Land Parcels (Upton CAD data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48461"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA"
+  },
+  "filter": "FIPS = '48461'",
+  "notes": "TxGIO statewide parcels from Upton Appraisal District; attribute-only queries return HTTP 400 but queries with a spatial extent work; value and land use are empty for Upton; GIS_AREA is acres-like",
+  "verification": {
+    "verified_at": 1792053561765,
+    "counties": [
+      "48461"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

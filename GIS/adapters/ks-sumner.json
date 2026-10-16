@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ks-sumner",
+  "publisher": "Sumner County, Kansas Appraisers Office",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/1T9VnnU2vFIMRmpS/arcgis/rest/services/SU_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20191"
+    ]
+  },
+  "fields": {
+    "apn": "CAMANUM",
+    "acres": "GIS_Acres",
+    "land_use": "PropType"
+  },
+  "notes": "Sumner County KS Appraisers Office parcel layer (SU_Parcels). CAMANUM is the tax account number; PID is a 16-digit parcel id. No owner or situs address fields published in this layer. Web link field WEB_PUBLIC points to the county public parcel search.",
+  "verification": {
+    "verified_at": 1792049321035,
+    "counties": [
+      "20191"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

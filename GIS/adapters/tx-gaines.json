@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-gaines",
+  "publisher": "Gaines County Appraisal District (GainesCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/nHWyvEneKvyPn23C/arcgis/rest/services/GainesCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48165"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Gaines CAD public web service. Situs street number (situs_num) is populated only for some parcels (mostly in-town), so address is not mapped. Parcels include mineral/abstract-type records with no situs address.",
+  "verification": {
+    "verified_at": 1792051683217,
+    "counties": [
+      "48165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

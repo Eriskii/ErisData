@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sc-pickens",
+  "publisher": "Pickens County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/59960rq18IxUcAVI/arcgis/rest/services/Pickens_Open_data/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45077"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "NAME1",
+    "address": "LOCADD",
+    "acres": "ACRES"
+  },
+  "notes": "Pickens County SC open data (GISpickens) Parcels layer, about 66k features; land use and assessed value not populated in this layer",
+  "verification": {
+    "verified_at": 1792051801486,
+    "counties": [
+      "45077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

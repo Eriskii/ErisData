@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-franklin",
+  "publisher": "Franklin County, IL (Sidwell Portico parcel layer, hosted by TPrice)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/gb3yKpyyBmugDAn1/arcgis/rest/services/Parcel_Franklin/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17055"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_num",
+    "owner": "owner1_nam",
+    "address": "site_addre",
+    "acres": "ACREAGE",
+    "land_use": "class",
+    "assessed_value": "assessed_l"
+  },
+  "notes": "Layer used by Franklin County IL Portico assessor viewer; no filter applied",
+  "verification": {
+    "verified_at": 1792048975252,
+    "counties": [
+      "17055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

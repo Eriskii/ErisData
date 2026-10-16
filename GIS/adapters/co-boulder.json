@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-boulder",
+  "publisher": "Boulder County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.bouldercounty.org/arcgis/rest/services/PARCELS/PARCELS_OWNER/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08013"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNo",
+    "owner": "OwnerName",
+    "address": "Street",
+    "land_use": "AcctType"
+  },
+  "notes": "Boulder County parcels with owner and situs fields; CC BY 4.0 per county open data. Area field Shape__Area is in square feet and is not mapped to acres.",
+  "verification": {
+    "verified_at": 1792048670847,
+    "counties": [
+      "08013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "21003",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=AllenCountyKY&PageType=Search",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=json"
+  ],
+  "note": "Searched ArcGIS Hub/Online, kygisserver.ky.gov WGS84WM services, KyGovMaps, BRADD portal and web sources. Allen County KY parcels are only offered through the Schneider qPublic viewer (no public REST service found; viewer blocked by Cloudflare) and commercial vendors (Regrid, Dynamo, Acres). KYTC PVA availability layer lists Allen County with no PVA data shared. Only Webster and Simpson County PVA parcel services exist in these catalogs.",
+  "recorded_at": 1792049431336,
+  "recheck_after": 1807601431336,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sd-hamlin",
+  "publisher": "Hamlin County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Hamlin/hamlinmapnetpro/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46057"
+    ]
+  },
+  "fields": {
+    "apn": "RECORD",
+    "owner": "OWNER_NAME",
+    "address": "PROPERTY_A",
+    "acres": "acres",
+    "land_use": "CODE_NAME",
+    "assessed_value": "TOTAL_TV"
+  },
+  "notes": "Hamlin Parcels layer from Hamlin County SD official GIS (hamlinmapnetpro). Owner mailing fields: OWNER1, OWNER_STRE, OWNER_CITY, OWNER_ST, OWNER_ZIP. Legal: LEGAL. Sale: SALE_PR, FILED_DATE.",
+  "verification": {
+    "verified_at": 1792051616338,
+    "counties": [
+      "46057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

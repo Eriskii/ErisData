@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "22107",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://propertytaxrecords.louisianaofficialrecords.com/parish/tensas",
+    "https://cotthosting.com/latensasexternal/User/Login.aspx",
+    "https://landrecords.us/documentation/coverage/counties/22-107-tensas",
+    "https://services8.arcgis.com/g1eUGM6NUcD0Fk5p/arcgis/rest/services/LandGrid_Parcels/FeatureServer"
+  ],
+  "note": "No public queryable parcel service found for Tensas Parish (FIPS 22107) after searching ArcGIS Hub/Online and the web. The Tensas assessor has no public web parcel portal, per the state tax-records directory. The clerk's record search (cotthosting) requires a subscription login. The only parcel sources found are commercial (Regrid, Acres, Dynamo, landrecords.us). A LandGrid Louisiana parcel FeatureServer exists but returns 'Token Required'. The Tensas_Parish_WFL1 service holds redistricting and roads layers, not parcels. The Regrid nationwide tile service exposes no query endpoint.",
+  "recorded_at": 1792049990954,
+  "recheck_after": 1807601990954,
+  "model": "claude-haiku-5-5"
+}

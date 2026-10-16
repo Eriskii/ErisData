@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nm-harding",
+  "publisher": "Harding County, NM (Assessor, via Parcel_HardingNM service by PTrujillo03)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/4ZPzS5PXstvPqi0G/arcgis/rest/services/Parcel_HardingNM/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35021"
+    ]
+  },
+  "fields": {
+    "apn": "UPC",
+    "owner": "OWNER",
+    "acres": "Shape__Area",
+    "assessed_value": "GTVALL"
+  },
+  "notes": "Harding County NM parcels, about 5492 features. Situs address field (TSC_Address) is sparsely filled, so omitted. Shape__Area units unverified.",
+  "verification": {
+    "verified_at": 1792051429319,
+    "counties": [
+      "35021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

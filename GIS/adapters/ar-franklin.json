@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-franklin",
+  "publisher": "Arkansas GIS Office (AR statewide parcel polygons, County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 23,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05047"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '047'",
+  "notes": "Not a legal boundary; statewide AGIO layer filtered to Franklin County (countyfips 047)",
+  "verification": {
+    "verified_at": 1792048563093,
+    "counties": [
+      "05047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

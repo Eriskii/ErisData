@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-cabarrus",
+  "publisher": "NC OneMap parcels (WEI static copy)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/n5rY677NVyRuW3Ht/arcgis/rest/services/NC_OneMap_Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37025"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "acres": "gisacres",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37025'",
+  "notes": "Static copy of NC OneMap statewide parcels, filtered to Cabarrus FIPS; site address largely empty in source",
+  "verification": {
+    "verified_at": 1792051468375,
+    "counties": [
+      "37025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

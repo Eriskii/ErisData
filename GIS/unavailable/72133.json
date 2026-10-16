@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "72133",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0"
+  ],
+  "note": "CRIM Parcelario is the only parcel source; sigejp returns HTTP 500 'Service not started' and sige.pr.gov is unreachable. Retry if CRIM restores it.",
+  "recorded_at": 1792052137120,
+  "recheck_after": 1807604137120,
+  "model": "claude-sonnet-5-5"
+}

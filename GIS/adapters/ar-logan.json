@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-logan",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/MapServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05083"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "County = 'Logan'",
+  "notes": "Statewide CAMA parcel polygons, not a legal boundary; only parcels with CAMA records included; situs address present for only about a third of parcels (adrlabel), so address is not mapped; updated twice a year",
+  "verification": {
+    "verified_at": 1792048575856,
+    "counties": [
+      "05083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

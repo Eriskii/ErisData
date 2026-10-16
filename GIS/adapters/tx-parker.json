@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-parker",
+  "publisher": "Parker County Appraisal District (via ParkerCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/79g1H99xInKSRRK3/arcgis/rest/services/ParkerCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48367"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_num",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Parker CAD public GIS parcel layer; about 102k parcels",
+  "verification": {
+    "verified_at": 1792051728552,
+    "counties": [
+      "48367"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

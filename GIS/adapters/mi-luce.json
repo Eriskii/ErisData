@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-luce",
+  "publisher": "Luce County GIS (hosted by euprpdc)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/r3fID69a2yHQdVc4/arcgis/rest/services/LuceCoCensusParcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26095"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "OWNER",
+    "acres": "RECORDACRE",
+    "land_use": "class",
+    "assessed_value": "av"
+  },
+  "notes": "Luce County census parcels layer with tax roll fields; TAXYEAR field present; situs address mostly blank",
+  "verification": {
+    "verified_at": 1792049995993,
+    "counties": [
+      "26095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

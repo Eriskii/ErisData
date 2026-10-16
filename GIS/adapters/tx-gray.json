@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-gray",
+  "publisher": "Gray County Appraisal District (GrayCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/ZBvh25uqWsIRmkWK/arcgis/rest/services/GrayCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48179"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "filter": "prop_id > 0",
+  "notes": "Texas CAD parcel data via ArcGIS Online; attributes as published by the appraisal district",
+  "verification": {
+    "verified_at": 1792051719718,
+    "counties": [
+      "48179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

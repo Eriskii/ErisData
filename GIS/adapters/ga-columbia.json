@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-columbia",
+  "publisher": "Columbia County GA (Development Authority GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/XqCfDEcWKHtcTHsa/arcgis/rest/services/Parcels_Columbia_County_GA/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13073"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "Calc_Acre"
+  },
+  "notes": "Parcel polygons; source spatial reference 102666 (GA East State Plane ftUS); owner/address not published in this layer",
+  "verification": {
+    "verified_at": 1792048733358,
+    "counties": [
+      "13073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

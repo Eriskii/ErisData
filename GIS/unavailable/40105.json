@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40105",
+  "reason": "paywalled",
+  "evidence": [
+    "https://landrecords.us/documentation/coverage/counties/40-105-nowata",
+    "https://www.dynamospatial.com/t/nowata-county-ok/nowata/parcel-data",
+    "https://app.datacrosspoint.com/properties/nowata",
+    "https://www.acres.com/plat-map/map/ok/nowata-county-ok",
+    "https://okmaps.org/geoserver/wfs?service=WFS&version=2.0.0&request=GetCapabilities"
+  ],
+  "note": "Searched ArcGIS Hub/Online (only Nowata County Data transport/legislative layers, no parcels), OKMAPS statewide parcel layer (WMS view-only, no Nowata WFS feature type), and county/state sites. Nowata parcels appear only via paid vendors (Regrid, Rockford, Dynamo shapefile sale) or viewers (Acres, AcreValue, datacrosspoint) with no public parcel service endpoint.",
+  "recorded_at": 1792051498436,
+  "recheck_after": 1823587498436,
+  "model": "claude-haiku-5-5"
+}

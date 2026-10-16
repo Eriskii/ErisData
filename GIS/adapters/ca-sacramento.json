@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ca-sacramento",
+  "publisher": "Sacramento County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.gis.saccounty.net/arcgis/rest/services/PARCELS/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06067"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "owner": "OWNER",
+    "address": "SITUS_ADD1",
+    "land_use": "LANDUSE"
+  },
+  "notes": "Sacramento County Active GIS Parcel Base (layer 8 of PARCELS MapServer). LOTSIZE is square feet, not mapped as acres.",
+  "verification": {
+    "verified_at": 1792048648587,
+    "counties": [
+      "06067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

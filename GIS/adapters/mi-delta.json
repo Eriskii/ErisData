@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "mi-delta",
+  "publisher": "Delta County GIS (via Parcel Viewer service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/Parcel_Viewer_WFL1/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26041"
+    ]
+  },
+  "fields": {
+    "apn": "Name"
+  },
+  "notes": "Parcel polygons from a public ArcGIS viewer service for Delta County MI; county server maps.deltacounty.com was unreachable. Only name, zip, township and area fields available; Shape__Area is square metres and not mapped.",
+  "verification": {
+    "verified_at": 1792049926409,
+    "counties": [
+      "26041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

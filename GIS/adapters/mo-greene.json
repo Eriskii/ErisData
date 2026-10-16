@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mo-greene",
+  "publisher": "Greene County Assessor (MO)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://greenecountyassessor.org/arcgis/rest/services/TopoCountyParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29077"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWN1",
+    "address": "PropAdr",
+    "acres": "ACRES",
+    "land_use": "LUC",
+    "assessed_value": "P_VALASM3"
+  },
+  "notes": "Greene County MO assessor parcel polygons (TopoCountyParcels), about 44.6k parcels; maxRecordCount 1000",
+  "verification": {
+    "verified_at": 1792051142281,
+    "counties": [
+      "29077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

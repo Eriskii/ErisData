@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-madison",
+  "publisher": "Iowa DHS-HSEMD (hosted by University of Iowa), Madison County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19121"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Madison'",
+  "notes": "Statewide Iowa parcel layer filtered to Madison County by COUNTYNAME",
+  "verification": {
+    "verified_at": 1792049290265,
+    "counties": [
+      "19121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-lenawee",
+  "publisher": "Lenawee County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/mjEvhc9AE3ceAXtG/arcgis/rest/services/Lenawee_Parcels_Public/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26091"
+    ]
+  },
+  "fields": {
+    "apn": "TAXID",
+    "owner": "OWNNM1",
+    "address": "PRADDCOMB",
+    "acres": "ACRECALC"
+  },
+  "notes": "Public ArcGIS feature layer from Lenawee County GIS; about 55k parcels",
+  "verification": {
+    "verified_at": 1792049933824,
+    "counties": [
+      "26091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

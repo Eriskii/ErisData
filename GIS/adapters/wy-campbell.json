@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wy-campbell",
+  "publisher": "Campbell County, WY (via City of Gillette GIS portal)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.gillettewy.gov/arcgisserver/rest/services/BOCountyTaxParcelMS/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56005"
+    ]
+  },
+  "fields": {
+    "apn": "MUNISF24",
+    "owner": "OWNERNAME1",
+    "address": "PROPADDR",
+    "acres": "ACRES",
+    "land_use": "NOTES"
+  },
+  "notes": "Campbell County government tax parcels (SDE.DBO.owTaxParcel), updated infrequently; published on City of Gillette portal",
+  "verification": {
+    "verified_at": 1792051828506,
+    "counties": [
+      "56005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

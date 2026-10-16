@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-blanco",
+  "publisher": "Blanco County Appraisal District",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/GsFOwV8KcywEbxTn/arcgis/rest/services/BlancoCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48031"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Blanco CAD public web service; parcels layer from BlancoCADWebService FeatureServer. Site address fields are mostly empty in source, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792051651048,
+    "counties": [
+      "48031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-kendall",
+  "publisher": "Kendall County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/fabric_hosted/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17093"
+    ]
+  },
+  "fields": {
+    "apn": "pin",
+    "owner": "owner_name",
+    "acres": "gis_acres",
+    "land_use": "class",
+    "assessed_value": "total_assessed"
+  },
+  "filter": "retired_date IS NULL",
+  "notes": "Kendall County IL open GIS parcel layer (fabric hosted); current parcels only (retired_date null); site address is sparse in source so not mapped; 2000-record page limit",
+  "verification": {
+    "verified_at": 1792048936585,
+    "counties": [
+      "17093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

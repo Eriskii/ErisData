@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-turner",
+  "publisher": "Turner County GIS (via sgrcmaps)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.sgrcmaps.com/alma/rest/services/Turner/TurnerParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13287"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "owner": "lastname",
+    "address": "street_nam",
+    "acres": "TOTALACRES",
+    "land_use": "land_type",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Parcel layer from Turner County GIS via SGRC sgrcmaps; owner is last name field only",
+  "verification": {
+    "verified_at": 1792048828857,
+    "counties": [
+      "13287"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

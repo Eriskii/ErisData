@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-adams",
+  "publisher": "Adams County Tax Services (GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapping.adamscountypa.gov/arcgis/rest/services/AGOL/Parcel_Owners/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42001"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "SHORT_NAME",
+    "address": "COMBINED_SITUS",
+    "acres": "DEEDED_ACRES",
+    "land_use": "PROPERTY_TYPE",
+    "assessed_value": "LAST_MAILED_TAXABLE_TOTAL"
+  },
+  "notes": "County-hosted public parcel lines with limited tax info from Tax Services Department; max 2000 per query",
+  "verification": {
+    "verified_at": 1792051498395,
+    "counties": [
+      "42001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

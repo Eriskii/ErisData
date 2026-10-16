@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-effingham",
+  "publisher": "Effingham County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/vj0V9Lal6oiz0YXp/arcgis/rest/services/Features/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17049"
+    ]
+  },
+  "fields": {
+    "apn": "PinAssessor",
+    "owner": "Owner1Name",
+    "address": "SiteAddress",
+    "acres": "GrossAcres",
+    "land_use": "PropertyClass",
+    "assessed_value": "TotalAssessment"
+  },
+  "notes": "Effingham County IL tax parcels, ArcGIS Online service owned by effcnty; PIN formats vary",
+  "verification": {
+    "verified_at": 1792048931780,
+    "counties": [
+      "17049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

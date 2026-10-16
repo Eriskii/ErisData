@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-jackson",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program) - Jackson County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05067"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "CountyFips = '067'",
+  "notes": "Statewide Arkansas parcel polygons (PARCEL_POLYGON_CAMP) from the Arkansas GIS Office, filtered to county FIPS 067 (Jackson). Approximate, not a legal boundary. Updated twice a year.",
+  "verification": {
+    "verified_at": 1792048527401,
+    "counties": [
+      "05067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

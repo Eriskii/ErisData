@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "sd-dewey",
+  "publisher": "Dewey County, SD (GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/VaWuldDb7HYFU2ja/arcgis/rest/services/DEWEY_COUNTY_LAYERS/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46041"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "DEEDHOLDER",
+    "acres": "DEEDED_ACRES"
+  },
+  "notes": "Dewey County GIS layers service; PARCELS layer. PARCEL_NUMBER duplicates PARCEL_ID; LEGAL holds legal description; site ADDRESS is mostly empty so not mapped; mailing address fields exist but are not site address. No land use or assessed value fields published.",
+  "verification": {
+    "verified_at": 1792051602932,
+    "counties": [
+      "46041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

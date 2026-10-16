@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-berks",
+  "publisher": "Berks County GIS (BerksCountyGIS, ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/dGYe1jDYrTw1wwpc/arcgis/rest/services/Berks_County_Parcels_V2/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42011"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "NAME1",
+    "address": "FULLSITEADDRESS",
+    "acres": "ACREAGE",
+    "land_use": "LANDUSE",
+    "assessed_value": "VALUTOTAL"
+  },
+  "notes": "Berks County parcel polygons from BerksCountyGIS ArcGIS Online service; county self-hosted server reported down. PROPID is an alternate key.",
+  "verification": {
+    "verified_at": 1792051530887,
+    "counties": [
+      "42011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

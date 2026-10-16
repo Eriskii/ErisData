@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ut-daggett",
+  "publisher": "UGRC / Daggett County parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/ArcGIS/rest/services/Parcels_Daggett_LIR/FeatureServer/0",
+    "page_size": 200,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49009"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "address": "PARCEL_ADD",
+    "acres": "PARCEL_ACRES",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "TOTAL_MKT_VALUE"
+  },
+  "notes": "UGRC statewide parcel dataset, Daggett County LIR tax roll attributes. No owner field in source. Open data.",
+  "verification": {
+    "verified_at": 1792052723761,
+    "counties": [
+      "49009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

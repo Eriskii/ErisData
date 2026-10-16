@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-austin",
+  "publisher": "Austin County Appraisal District (BIS CAD web service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/rNakmFefTO1XjYg4/arcgis/rest/services/AustinCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48015"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Appraisal district parcel layer for Austin County, TX; public ArcGIS service behind the BIS CAD web map.",
+  "verification": {
+    "verified_at": 1792051638487,
+    "counties": [
+      "48015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

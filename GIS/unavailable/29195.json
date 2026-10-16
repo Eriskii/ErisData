@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29195",
+  "reason": "paywalled",
+  "evidence": [
+    "https://services5.integritygis.com/arcgis/rest/services/MO/Saline_Assessor_Data/MapServer",
+    "https://christiangis.integritygis.com/Geocortex/Essentials/REST/sites/Saline_County_MO/overviewmap",
+    "https://www.salinecountymo.gov/assessor"
+  ],
+  "note": "Saline County's parcel layers (Parcel, Parcel Public, Parcel Number/Acres, Owner Name) are served from services5.integritygis.com Saline_Assessor_Data MapServer, but every request returns 'Token Required' (the MapServer root and each layer). The county assessor page says its GIS data is available only by paid subscription (GIS Application PDF, \\$50/month or \\$500/year). No public parcel service or file was found in ArcGIS Hub/Online or web searches; the SweetSpringsMo feature service is a city web map layer and also requires a token.",
+  "recorded_at": 1792051066233,
+  "recheck_after": 1823587066233,
+  "model": "claude-haiku-5-5"
+}

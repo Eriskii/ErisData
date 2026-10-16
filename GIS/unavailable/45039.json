@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "45039",
+  "reason": "login-required",
+  "evidence": [
+    "https://smpesri.scdot.org/arcgis/rest/services/GISMapping/SC_Parcels/MapServer/19",
+    "https://smpesri.scdot.org/arcgis/rest/services/GISMapping/SC_Parcels/MapServer",
+    "https://qpublic.net/sc/fairfield/",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=796&LayerID=11834&PageTypeID=1&PageID=5735"
+  ],
+  "note": "Fairfield County parcel polygons appear only in the SCDOT-hosted SC_Parcels ArcGIS service (MapServer/19), which returns 'Token Required' for the MapServer root, the layer, and the FeatureServer path. The county's viewers (qPublic, Schneider Beacon) are not a public query service and returned Cloudflare/403 to automated access. Commercial parcel vendors are paid downloads. No public, unauthenticated parcel service was found.",
+  "recorded_at": 1792051601885,
+  "recheck_after": 1807603601885,
+  "model": "claude-haiku-5-5"
+}

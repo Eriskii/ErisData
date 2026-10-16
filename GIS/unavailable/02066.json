@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "02066",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services8.arcgis.com/jzbhhVHDe3lCCWFT/arcgis/rest/services/AK_Statewide_Parcels/FeatureServer/0",
+    "https://services1.arcgis.com/7HDiw78fcUiM2BWn/arcgis/rest/services/AK_Parcels/FeatureServer/0",
+    "https://services.arcgis.com/2j08Y1PuezhQEfCz/arcgis/rest/services/Alaska_Statewide_Parcels/FeatureServer/0"
+  ],
+  "note": "Searched ArcGIS Hub and Online for parcels in Alaska and Copper River; probed three statewide parcel layers. Radius queries (20-60 km) around the sample point -143.97236,61.80473 returned 0 parcels in all three (the first returned 9 near Valdez, so it works). Copper River Census Area is unorganized borough with no county GIS parcel service found. Only commercial sources (Regrid, Equatorstudios, parcelvision) list parcels, which are not public county services.",
+  "recorded_at": 1792048512015,
+  "recheck_after": 1807600512015,
+  "model": "claude-haiku-5-5"
+}

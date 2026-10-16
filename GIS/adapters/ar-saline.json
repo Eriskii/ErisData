@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-saline",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program) - Saline County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05125"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype"
+  },
+  "filter": "countyfips = '125'",
+  "notes": "Statewide AR parcel polygons, not a legal boundary; filtered to Saline County by CountyFips 125. Ad valorem tax valuation use. Updated twice a year. assessvalue field is empty in source, so total value is mapped instead.",
+  "verification": {
+    "verified_at": 1792048537820,
+    "counties": [
+      "05125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

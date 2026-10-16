@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-davidson",
+  "publisher": "Metro Nashville / Davidson County GIS (Planning Dept)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.nashville.gov/arcgis/rest/services/Cadastral/Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47037"
+    ]
+  },
+  "fields": {
+    "apn": "STANPAR",
+    "owner": "Owner",
+    "address": "PropAddr",
+    "acres": "Acres",
+    "land_use": "LUCode",
+    "assessed_value": "TotlAssd"
+  },
+  "notes": "Ownership parcels for Nashville/Davidson County; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792051958565,
+    "counties": [
+      "47037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

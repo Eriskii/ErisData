@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-haywood",
+  "publisher": "Haywood County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.haywoodcountync.gov/arcgis/rest/services/Land_Records/Open_Data/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37087"
+    ]
+  },
+  "fields": {
+    "apn": "ALPHA",
+    "owner": "Owner_1",
+    "address": "Prop_Addr",
+    "acres": "Calc_Acres",
+    "land_use": "Land_Code",
+    "assessed_value": "Assd_Value"
+  },
+  "notes": "Haywood County NC open data parcels layer",
+  "verification": {
+    "verified_at": 1792051332878,
+    "counties": [
+      "37087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

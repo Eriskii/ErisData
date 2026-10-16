@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ky-jessamine",
+  "publisher": "Jessamine County PVA / Jessamine County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/zS6BFcOikVpehjJD/arcgis/rest/services/Parcels_Published/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21113"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "NAME",
+    "address": "PROP_ADD",
+    "acres": "ACRES",
+    "land_use": "CLASS"
+  },
+  "notes": "Jessamine County published parcels layer from county ArcGIS org; no filter needed",
+  "verification": {
+    "verified_at": 1792049868334,
+    "counties": [
+      "21113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "il-warren",
+  "publisher": "Warren County, IL (Supervisor of Assessment) via ArcGIS Online",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/RIfeUk3WiZQO2Wv1/arcgis/rest/services/parcels/FeatureServer/0",
+    "page_size": 250,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17187"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "Name1",
+    "address": "SitusAddress1",
+    "acres": "TotalAcres",
+    "land_use": "PropertyClassDescription",
+    "assessed_value": "TotalAssessedValue"
+  },
+  "filter": "TaxYear = 2023",
+  "notes": "Source hosted on Warren County IL ArcGIS Online org (warrenco-094). Filtered to TaxYear 2023 (single year present).",
+  "verification": {
+    "verified_at": 1792049558939,
+    "counties": [
+      "17187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

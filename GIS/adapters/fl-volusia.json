@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-volusia",
+  "publisher": "Volusia County Property Appraiser via Volusia County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps5.vcgov.org/arcgis/rest/services/Port_Orange/MapServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12127"
+    ]
+  },
+  "fields": {
+    "apn": "PARID",
+    "owner": "OWNER1",
+    "address": "ADDRFULL",
+    "acres": "CALCACRES",
+    "land_use": "PC_DESC",
+    "assessed_value": "TOTJUST"
+  },
+  "notes": "Volusia County GIS parcel layer (Property Appraiser data); weekly updates",
+  "verification": {
+    "verified_at": 1792048817240,
+    "counties": [
+      "12127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

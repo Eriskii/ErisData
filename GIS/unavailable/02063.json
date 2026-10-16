@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "02063",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services5.arcgis.com/pDiwEHErgACQrcA3/arcgis/rest/services/PUB_PARCELS/FeatureServer/0",
+    "https://services1.arcgis.com/7HDiw78fcUiM2BWn/arcgis/rest/services/AK_Parcels/FeatureServer/0",
+    "https://app.regrid.com/store/us/ak/chugach"
+  ],
+  "note": "Chugach Census Area is unorganized borough with no county assessor GIS. The only public parcel service found (City of Valdez PUB_PARCELS) covers Valdez city only and returns 0 parcels around the sample point (-144.49,60.71); the statewide AK_Parcels compilation has no features there. Other sources are commercial (Regrid, paid listings).",
+  "recorded_at": 1792048510105,
+  "recheck_after": 1807600510105,
+  "model": "claude-haiku-5-5"
+}

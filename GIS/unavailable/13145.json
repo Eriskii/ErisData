@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13145",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.arcgis.com/sharing/rest/content/items/767829c7e26f4f59a5f89bccadfcdd16?f=json",
+    "https://services2.arcgis.com/iXA1dC6ldRMKRwra/ArcGIS/rest/services/Harris_County_Parcels/FeatureServer/0",
+    "https://harris-county-data-hub-garc.hub.arcgis.com/",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=HarrisCountyGA&Layer=Parcels&PageType=Search"
+  ],
+  "note": "Only ArcGIS parcel layer found for Harris County GA (GDITAdmin 'Parcels - GA - Harris County', extent matches bbox) is dead: the item returns 403 'Subscription is canceled', and the FeatureServer URL returns 'Invalid URL' for both metadata and query. The county Hub's dataset API returns no parcel datasets and the geoharriscounty Hub is private (401). The county's only public parcel viewer is qPublic (Schneider), which is bot-blocked (403) and exposes no REST endpoint.",
+  "recorded_at": 1792048852798,
+  "recheck_after": 1807600852798,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-warren",
+  "publisher": "Warren County GA (via ArcGIS feature service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/dHLq2sjobnpJcAcz/arcgis/rest/services/GA_Warren_County_13301_27bb032/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13301"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNER",
+    "address": "SITUS",
+    "acres": "CALC_ACREA",
+    "assessed_value": "MKT_VAL_TO"
+  },
+  "notes": "Warren County GA parcel layer hosted by JeffreyF96 on ArcGIS Online; public, no token; land use field empty in source",
+  "verification": {
+    "verified_at": 1792048852337,
+    "counties": [
+      "13301"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

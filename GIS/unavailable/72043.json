@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72043",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim",
+    "https://www.arcgis.com/home/item.html?id=177a03ea0b31411cafe5596fe710790d"
+  ],
+  "note": "CRIM's statewide parcel layer (Parcelarios Crim 2018), which covers Coamo, is listed but returns 'Service crim/crim_parcelas/MapServer not started' (HTTP 500) on every query, from the validator and from our client, across three validation attempts. The sige.pr.gov mirror is unreachable. The only other sources are commercial (Regrid, Dynamo Spatial, US Land Grid). No working free parcel service or file for Coamo was found.",
+  "recorded_at": 1792051974780,
+  "recheck_after": 1807603974780,
+  "model": "claude-haiku-5-5"
+}

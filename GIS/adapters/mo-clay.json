@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-clay",
+  "publisher": "Clay County Missouri GIS / Assessor parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/3c8lLdmDNevrTlaV/ArcGIS/rest/services/ClayCountyParcelService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29047"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "current_owner",
+    "address": "situs_display",
+    "acres": "acres_calc"
+  },
+  "notes": "Clay County MO parcel polygons hosted on ArcGIS Online; public query, no key",
+  "verification": {
+    "verified_at": 1792050921159,
+    "counties": [
+      "29047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

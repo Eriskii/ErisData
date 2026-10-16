@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ny-hamilton",
+  "publisher": "NYS GIS Clearinghouse / NYS Office of Real Property Services (Hamilton County extract)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://nysgeohub.ny.gov/arcgis/rest/services/Parcels/NYS_Tax_Parcels_Public/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36041"
+    ]
+  },
+  "fields": {
+    "apn": "PRINT_KEY",
+    "owner": "PRIMARY_OWNER",
+    "address": "PARCEL_ADDR",
+    "acres": "ACRES",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "TOTAL_AV"
+  },
+  "filter": "COUNTY_NAME = 'Hamilton' AND ACRES < 50",
+  "notes": "Statewide NYS tax parcel layer filtered to Hamilton County parcels under 50 acres.",
+  "verification": {
+    "verified_at": 1792051475663,
+    "counties": [
+      "36041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

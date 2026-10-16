@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-grady",
+  "publisher": "Grady County GA (GIS, via ArcGIS WebParcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Pf7RRv4QttHB3VbR/arcgis/rest/services/WebParcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13131"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "acres": "ACRES",
+    "land_use": "DIG_CLASS"
+  },
+  "notes": "Grady County GA parcel layer (GRADY2017PARCELS), 14,057 features; no owner/address fields published in this layer",
+  "verification": {
+    "verified_at": 1792048790548,
+    "counties": [
+      "13131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

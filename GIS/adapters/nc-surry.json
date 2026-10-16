@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-surry",
+  "publisher": "Surry County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.surryinfo.net/arcgis/rest/services/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37171"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel",
+    "owner": "Name1",
+    "address": "Address1",
+    "acres": "Calculated_Acreage",
+    "assessed_value": "TotalAssessedValue"
+  },
+  "notes": "Surry County Website Property Map, PARCEL layer; 44k features",
+  "verification": {
+    "verified_at": 1792051381808,
+    "counties": [
+      "37171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

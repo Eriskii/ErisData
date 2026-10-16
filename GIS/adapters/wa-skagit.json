@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wa-skagit",
+  "publisher": "Skagit County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.skagitcountywa.gov/arcgis/rest/services/OpenData/AssessorDataParcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53057"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OwnerName",
+    "acres": "Acres",
+    "land_use": "LandUse",
+    "assessed_value": "AssessedValue"
+  },
+  "notes": "Skagit County Assessor open data, informational use; refreshed weekly. Situs address fields are blank for many parcels (e.g. federal/exempt land), so address is not mapped.",
+  "verification": {
+    "verified_at": 1792053115732,
+    "counties": [
+      "53057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "or-columbia",
+  "publisher": "Columbia County Land Information, Oregon (county GIS taxlots)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.columbiacountymaps.com/server/rest/services/TaxlotWb/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41009"
+    ]
+  },
+  "fields": {
+    "apn": "MAP_TAX",
+    "owner": "OWNER",
+    "acres": "ACRES",
+    "land_use": "PROPERTY_C"
+  },
+  "notes": "County GIS taxlot layer (TaxlotWb). Public, no token. Polygons in Oregon State Plane feet (WKID 2913); runtime requests lon/lat. PRIMARY_SI (situs) is blank for many rural parcels, so no situs address is mapped; mailing address is used instead.",
+  "verification": {
+    "verified_at": 1792051620161,
+    "counties": [
+      "41009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

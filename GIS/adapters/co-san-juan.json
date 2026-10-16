@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "co-san-juan",
+  "publisher": "San Juan County, Colorado (GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/wkH46IqOhYntFxVp/arcgis/rest/services/SanJuanCountyParcelData_20260209/FeatureServer/116",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "08111"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "owner",
+    "acres": "landAcres",
+    "land_use": "landUseDsc",
+    "assessed_value": "apprValTot"
+  },
+  "notes": "Parcel data as of Feb 9 2026, publicly published by San Juan County via ArcGIS Hub. Situs address sparsely populated, so not mapped.",
+  "verification": {
+    "verified_at": 1792049448120,
+    "counties": [
+      "08111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-edwards",
+  "publisher": "Edwards County, IL (SheilaEC ArcGIS Online PARCELS layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/anr3PwUmzQdlCbyr/arcgis/rest/services/PARCELS/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17047"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_number",
+    "owner": "owner1_name",
+    "acres": "gross_acres",
+    "land_use": "class"
+  },
+  "notes": "Parcel layer from Edwards County IL on ArcGIS Online; 7,574 features. site_address is mostly blank for rural parcels, so not mapped.",
+  "verification": {
+    "verified_at": 1792048914105,
+    "counties": [
+      "17047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

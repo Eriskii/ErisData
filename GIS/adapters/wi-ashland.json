@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wi-ashland",
+  "publisher": "Ashland County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ashlandcountywi.gov/arcgis/rest/services/TaxParcels_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55003"
+    ]
+  },
+  "fields": {
+    "apn": "formatted_parcel",
+    "owner": "name",
+    "acres": "acres",
+    "land_use": "municipality_name",
+    "assessed_value": "total_land_value"
+  },
+  "notes": "Ashland County WI public tax parcels served by county ArcGIS server. property_address is sparsely filled (rural/forest parcels), so it is not mapped. land_use is municipality name, not a use code.",
+  "verification": {
+    "verified_at": 1792045202597,
+    "counties": [
+      "55003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-hancock",
+  "publisher": "Tennessee Comptroller / TNMAP (Property Boundaries Public Use), Hancock County records",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "47067"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_ID = 34",
+  "notes": "Statewide Comptroller public-use layer, updated monthly, not for commercial use. Hancock County is COUNTY_ID 34.",
+  "verification": {
+    "verified_at": 1792052644920,
+    "counties": [
+      "47067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

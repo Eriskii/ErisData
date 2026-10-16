@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29083",
+  "reason": "login-required",
+  "evidence": [
+    "https://services5.integritygis.com/arcgis/rest/services/MO/Henry_Assessor_Data/MapServer",
+    "https://sites7.integritygis.com/Geocortex/Essentials/REST/sites/Henry_County_MO/overviewmap",
+    "https://utegis.integritygis.com/Geocortex/Essentials/REST/sites/Henry_County_MO/map",
+    "https://henrygis.integritygis.com/H5/Index.html?viewer=henry"
+  ],
+  "note": "Henry County MO's assessor parcel MapServer (services5.integritygis.com/arcgis/rest/services/MO/Henry_Assessor_Data/MapServer, Parcel Public layer) returns 'Token Required' to anonymous requests. The county GIS viewer is on henrygis.integritygis.com. No other public parcel service or open download found; remaining parcel sources are paid commercial vendors. Not working around the token.",
+  "recorded_at": 1792051001509,
+  "recheck_after": 1807603001509,
+  "model": "claude-haiku-5-5"
+}

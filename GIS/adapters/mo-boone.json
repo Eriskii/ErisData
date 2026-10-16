@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-boone",
+  "publisher": "City of Columbia GIS (Boone County Assessor parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gocolumbiamo.com/arcgis/rest/services/Energov/Energov_View/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29019"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL",
+    "owner": "OWNER_COMBINED",
+    "address": "ADDNUM",
+    "land_use": "Z_Value"
+  },
+  "notes": "Boone County Assessor parcel polygons, served by City of Columbia GIS (Energov_View). Source ArcGIS JSON/GeoJSON query.",
+  "verification": {
+    "verified_at": 1792051444690,
+    "counties": [
+      "29019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

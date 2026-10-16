@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nm-otero",
+  "publisher": "Otero County, NM (ltkgis Property Lines 2023)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/bgz8gagoCo8zWA4H/arcgis/rest/services/Cloudcroft_Properties/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35035"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "owner": "OWNERNAME",
+    "address": "SITUS",
+    "acres": "CAL_ACRES",
+    "assessed_value": "TOTAL_VALU"
+  },
+  "notes": "NM TRD 2023 tax year parcels; service covers the Cloudcroft area only, not the whole county",
+  "verification": {
+    "verified_at": 1792051975255,
+    "counties": [
+      "35035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

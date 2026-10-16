@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "fips": "13099",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://assessorsearch.com/property-records/georgia/early-county",
+    "https://www.qpublic.net/ga/early/search.html",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=741&LayerID=11778&PageTypeID=2&PageID=5489",
+    "https://www.acres.com/plat-map/map/ga/early-county-ga",
+    "https://gis.equatorstudios.com/georgia_early/",
+    "https://rockfordmap.com/maps/georgia-early-county/",
+    "https://app.regrid.com/us/ga/early",
+    "https://dynamospatial.com/state/georgia/parcel-data"
+  ],
+  "note": "Early County GA parcels are published only through the qPublic/Schneider web viewer (no public ArcGIS REST service found in multiple searches of ArcGIS Hub/Online, county and GA GIO sources). Other sources are commercial paid downloads (Equator, Rockford, Regrid Pro, Dynamo). The qPublic app returns a Cloudflare 403 to automated access, so no queryable service could be inspected. Neighbouring PowerSouth AL services do not cover Georgia.",
+  "recorded_at": 1792048793258,
+  "recheck_after": 1807600793258,
+  "model": "claude-haiku-5-5"
+}

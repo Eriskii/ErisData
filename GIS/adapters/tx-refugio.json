@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-refugio",
+  "publisher": "Refugio County Appraisal District (via TX County Parcel Data, Refugio_Parcels_Web)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/NX9oirWWrUw2AYDS/arcgis/rest/services/TX_County_Parcels/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48391"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "acres": "ACRES",
+    "land_use": "CATEGORY"
+  },
+  "notes": "Refugio layer from a statewide 2017 multi-county TX parcel compilation; owner and situs fields not included in this layer",
+  "verification": {
+    "verified_at": 1792051737752,
+    "counties": [
+      "48391"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

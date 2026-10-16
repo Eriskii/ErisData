@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-northampton",
+  "publisher": "Northampton County GIS / Assessment Office",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.northamptoncounty.org/arcgisweb/rest/services/Assessment_Services/Land_Records_LGM/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNERS_NAME_1",
+    "address": "LOCATION",
+    "acres": "GIS_ACREAGE",
+    "land_use": "LUC",
+    "assessed_value": "TOTAL_ASSESSED_VALUE"
+  },
+  "notes": "County assessment parcels; CAMA_ID joins to assessment data. Public county ArcGIS service.",
+  "verification": {
+    "verified_at": 1792051537201,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

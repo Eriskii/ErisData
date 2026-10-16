@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ar-sebastian",
+  "publisher": "Arkansas GIS Office (CAMP statewide parcel polygons)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/MapServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05131"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "acres": "st_area(shape)",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '131'",
+  "notes": "Statewide Arkansas GIS Office CAMP parcel polygon layer, not a legal boundary; filter to countyfips 131 (Sebastian). Geometry in EPSG:26915; st_area(shape) is square meters, not acres.",
+  "verification": {
+    "verified_at": 1792048576878,
+    "counties": [
+      "05131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

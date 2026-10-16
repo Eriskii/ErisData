@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-plaquemines",
+  "publisher": "Plaquemines Parish GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/FqQ2BQIKVGpUWqAa/arcgis/rest/services/Plaquemines_Parish_Tax_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22075"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "address": "ADDR_PSPR",
+    "acres": "CALC_ACR_G",
+    "assessed_value": "ASSESSID"
+  },
+  "notes": "Plaquemines Parish tax parcels, ArcGIS Online hosted feature layer. Owner and zoning fields are empty in the published layer, so not mapped.",
+  "verification": {
+    "verified_at": 1792049838613,
+    "counties": [
+      "22075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

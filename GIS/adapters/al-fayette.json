@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "al-fayette",
+  "publisher": "Fayette County, AL Tax Assessor (Censeo-hosted Fayette County Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/Z4oonA9tfgNvnlIk/arcgis/rest/services/Fayette_County_Parcels/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01057"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELAPN",
+    "owner": "OWN1",
+    "land_use": "USECDSTD",
+    "assessed_value": "VALASS"
+  },
+  "notes": "Layer is EPSG:3395; geoJSON output is WGS84. Street address is split across STHSNUM/STDIR/STSTNAME/STSUFFIX and is sparsely filled (about 37%), so it is not mapped. Owner in OWN1.",
+  "verification": {
+    "verified_at": 1792048395160,
+    "counties": [
+      "01057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

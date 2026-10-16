@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "me-franklin",
+  "publisher": "Maine Geological Survey / coagis (Maine Parcels Organized Towns)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/0EOqWPtpCmgQr2ay/arcgis/rest/services/Parcels___Organized/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23007"
+    ]
+  },
+  "fields": {
+    "apn": "map_bk_lot",
+    "land_use": "type"
+  },
+  "filter": "county = 'Franklin'",
+  "notes": "Statewide organized-town parcel layer filtered to county Franklin; unorganized territories not included. No owner or address fields in source.",
+  "verification": {
+    "verified_at": 1792049924809,
+    "counties": [
+      "23007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ne-saline",
+  "publisher": "Saline County GIS (gWorks statewide parcel layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis2.gworks.com/arcgis/rest/services/Statewide_NE_MGMT/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31151"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "CURRENT_OWNER_NAME",
+    "address": "SITUS_ADDRESS",
+    "acres": "acres",
+    "land_use": "PROPERTY_TYPE",
+    "assessed_value": "TOTAL_ASSESSED_VALUE"
+  },
+  "filter": "COUNTY = 'Saline'",
+  "notes": "Statewide Nebraska parcel layer from gWorks; filtered to COUNTY = Saline. land_use is PROPERTY_TYPE because CLASSIFICATION_CODE is blank in many records.",
+  "verification": {
+    "verified_at": 1792051366940,
+    "counties": [
+      "31151"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

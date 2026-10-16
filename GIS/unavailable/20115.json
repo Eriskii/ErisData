@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20115",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.marioncoks.net/280/Mapping",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Marion",
+    "https://marion.kansasgov.com/parcel/",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer/layers",
+    "https://orkahub.kansasgis.org/pages/request"
+  ],
+  "note": "Searched ArcGIS Hub/Online (no Marion County KS parcel service), county mapping page (links only to ORKA viewer), ORKA statewide services (KS_ORKA_Extras and sketch have no parcel polygon layer; only ag-use, subdivision, lot layers), and county parcel search (login-gated). ORKA request page says parcel data is obtained by county request. Commercial parcel products are not public county services. No public queryable parcel polygon service found for Marion County, KS.",
+  "recorded_at": 1792049367662,
+  "recheck_after": 1807601367662,
+  "model": "claude-haiku-5-5"
+}

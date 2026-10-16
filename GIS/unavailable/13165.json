@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13165",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.net/ga/jenkins/",
+    "https://www.jenkinscountytax.com/",
+    "https://jenkinscountyga.com/"
+  ],
+  "note": "Jenkins County GA publishes its parcel map only through the qPublic/Schneider viewer (qpublic.net/ga/jenkins), which is not a public ArcGIS REST service and returned HTTP 403 to automated reads. ArcGIS Hub/Online searches for Jenkins County parcels returned no FeatureServer/MapServer parcel layer. The county site, tax commissioner site and Georgia GIO hub link no downloadable parcel layer. Regrid is commercial and not a county source.",
+  "recorded_at": 1792048834202,
+  "recheck_after": 1807600834202,
+  "model": "claude-haiku-5-5"
+}

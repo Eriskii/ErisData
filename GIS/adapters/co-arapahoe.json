@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "co-arapahoe",
+  "publisher": "Arapahoe County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arapahoegov.com/arcgis/rest/services/OpenDataService/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08005"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "Owner",
+    "acres": "GIS_AREA",
+    "land_use": "Classification",
+    "assessed_value": "Assd_Value"
+  },
+  "notes": "Arapahoe County open data parcels (ArapaMAP OpenDataService). Situs address is blank for many rural/agricultural parcels, so address is not mapped. PIN and Folio also available.",
+  "verification": {
+    "verified_at": 1792048690364,
+    "counties": [
+      "08005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

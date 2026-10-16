@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-ionia",
+  "publisher": "Ionia County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/i2awudUyJK8gxxEe/arcgis/rest/services/Ionia_County_Tax_Parcels_Public/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26067"
+    ]
+  },
+  "fields": {
+    "apn": "CountyParcels_PIN",
+    "owner": "Parcel_Data_OWNERNAME",
+    "address": "PROPERTYFULLADDR"
+  },
+  "notes": "Public ArcGIS layer hosted by Ionia County; no acreage/land use/value fields in this layer",
+  "verification": {
+    "verified_at": 1792049929143,
+    "counties": [
+      "26067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

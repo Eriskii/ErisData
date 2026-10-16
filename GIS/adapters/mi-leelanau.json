@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mi-leelanau",
+  "publisher": "Leelanau County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/F7SeTaZ2Nijdg6lG/arcgis/rest/services/Tax_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26089"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL",
+    "owner": "OWNER_1",
+    "address": "SITE_ADD",
+    "acres": "ACRES",
+    "land_use": "CLASS",
+    "assessed_value": "ASSVAL"
+  },
+  "notes": "Tax parcels, Leelanau County MI; service hosted by GDIT; 25,223 features; includes PSTL_ADD/PSTL_CITY owner mailing fields",
+  "verification": {
+    "verified_at": 1792049935617,
+    "counties": [
+      "26089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-durham",
+  "publisher": "Durham County Tax Administration (via Town of Chapel Hill GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-portal.townofchapelhill.org/server/rest/services/OpenData/DurhamCountyParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37063"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "PROPERTY_OWNER",
+    "address": "LOCATION_ADDR",
+    "acres": "CALCULATED_ACRES",
+    "land_use": "LAND_CLASS",
+    "assessed_value": "TOTAL_PROP_VALUE"
+  },
+  "notes": "Durham County parcel polygons; hosted by Town of Chapel Hill open data MapServer copy; maxRecordCount 10000",
+  "verification": {
+    "verified_at": 1792051335136,
+    "counties": [
+      "37063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

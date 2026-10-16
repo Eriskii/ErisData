@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-echols",
+  "publisher": "Echols County GA (SGRC/Valor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HA2thkMWRBDb77XN/arcgis/rest/services/Echols_Tax_Parcels/FeatureServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13101"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "LASTNAME",
+    "acres": "TOTALACRES",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Echols County tax parcel layer hosted by SGRC via Valor; last updated 6/23/2026. Owner is LASTNAME only (first name in FIRSTNAME). Situs address not mapped: STREET_NAM is blank for about half of parcels.",
+  "verification": {
+    "verified_at": 1792048776802,
+    "counties": [
+      "13101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

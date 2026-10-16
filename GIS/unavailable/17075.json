@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "17075",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.arcgis.com/sharing/rest/search?q=Iroquois%20parcels (ArcGIS Online item e5d8acaf6dcd4b8cabc3411ab32b6409, 'Parcels - IL - Iroquois County', points to https://ags.bhamaps.com/arcgisserver/rest/services/IroquoisIL/IroquoisIL_PAT_Taxmap/MapServer/331)",
+    "https://ags.bhamaps.com/ MapServer/331 over HTTPS: connection fails on every request (metadata, services directory, query)",
+    "http://ags.bhamaps.com/arcgisserver/rest/services/IroquoisIL/IroquoisIL_PAT_Taxmap/MapServer/331 : HTTP 404 Not Found (layer, MapServer and services directory all 404)",
+    "http://iroquois.il.bhamaps.com/ : HTTP 404 at root; https://iroquois.il.bhamaps.com/ connection fails",
+    "No other county parcel service found: county sites co.iroquois.il.us and iroquoiscountyil.gov, devnetwedge tax portal, Regrid, arcgis search"
+  ],
+  "note": "Iroquois County IL's only listed public parcel service (bhamaps PAT Taxmap layer 331) is unreachable over HTTPS and returns 404 over HTTP for the layer, MapServer and services directory. The county viewer host also returns 404. No working queryable parcel service or file was found after search.",
+  "recorded_at": 1792048999750,
+  "recheck_after": 1807600999750,
+  "model": "claude-haiku-5-5"
+}

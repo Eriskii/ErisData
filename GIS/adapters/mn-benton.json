@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-benton",
+  "publisher": "Benton County GIS (MN)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/cHtpFLI4WlqULV8k/arcgis/rest/services/Benton_Co_Data/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27009"
+    ]
+  },
+  "fields": {
+    "apn": "TaxPIN",
+    "owner": "TAXPAYER_NAME1",
+    "address": "PROPERTY_ADDRESS",
+    "acres": "DEEDED_ACRES"
+  },
+  "notes": "Benton County MN tax parcels, from ArcGIS Online item b5240c2d09744e7cb999cf066ffc9c06; one row per tax year may exist, TAX_YEAR field present",
+  "verification": {
+    "verified_at": 1792050884098,
+    "counties": [
+      "27009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

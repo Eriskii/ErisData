@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21097",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.harrisoncountypva.com/",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=1141&LayerID=29296&PageTypeID=2&PageID=12165",
+    "https://harrison.countygis.org/",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://platbookmapper.com/kentucky/"
+  ],
+  "note": "Harrison County KY PVA publishes parcels only through the Schneider Beacon viewer (bot-protected, HTTP 403 to automated reads, no public REST or file). County GIS portal harrison.countygis.org exposes no ArcGIS REST services (404). kygisserver has Ky_PVA parcel services only for Webster County, none for Harrison. Commercial sources (Regrid, Acres, Rockford) are paid and excluded. No public queryable parcel service or downloadable file found after searching ArcGIS Hub/Online, kygisserver, KyGeoNet, and the county PVA and GIS sites.",
+  "recorded_at": 1792049883755,
+  "recheck_after": 1807601883755,
+  "model": "claude-haiku-5-5"
+}

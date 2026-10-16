@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "al-barbour",
+  "publisher": "Barbour County, AL (via Capture CAMA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.capturecama.com/arcgis/rest/services/Barbour/Barbour06172024/MapServer/197",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01005"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "acres": "CALC_ACRE"
+  },
+  "notes": "Capture CAMA parcel layer (2024 snapshot); owner and address not published on this layer",
+  "verification": {
+    "verified_at": 1792048288909,
+    "counties": [
+      "01005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

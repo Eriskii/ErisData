@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ak-juneau",
+  "publisher": "City and Borough of Juneau (Juneau Internet Parcel Layer, State of Alaska DNR)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/7HDiw78fcUiM2BWn/arcgis/rest/services/juneau_alaska_gis_internet_parcel_layer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02110"
+    ]
+  },
+  "fields": {
+    "apn": "tax_id",
+    "address": "site_addrs"
+  },
+  "notes": "CBJ parcels, general-purpose internet layer",
+  "verification": {
+    "verified_at": 1792049018290,
+    "counties": [
+      "02110"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

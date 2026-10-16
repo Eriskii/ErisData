@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21123",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0",
+    "https://laruecountyky.gov/departments/gis/",
+    "https://qpublic.schneidercorp.com/",
+    "https://www.dynamospatial.com/c/larue-county-ky/parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub/Online, KyGovMaps state server (PVA parcel services exist for Webster and Hardin only, none for Larue), the KYTC PVA availability layer, the LaRue County GIS page (no service links) and web searches. Larue parcels appear only in the Schneider qPublic viewer (blocked to automated access) and paid vendor products; no public parcel service or file found.",
+  "recorded_at": 1792049913320,
+  "recheck_after": 1807601913320,
+  "model": "claude-haiku-5-5"
+}

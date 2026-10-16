@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21157",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://mcpva.com/",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=MarshallCountyKY&PageType=Search",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0",
+    "https://app.regrid.com/store/us/ky/marshall"
+  ],
+  "note": "Searched ArcGIS Online/Hub, the state KyGeoNet server (only Webster County has a PVA parcel service), the KYTC PVA availability layer (Marshall listed as 'Without Ownership'), the county PVA site (qPublic, Cloudflare-blocked, no public REST service found), county GIS pages, and commercial sources (Regrid, Equator, Acres). The isv.kcsgis.com 'Marshall County Revenue Commissioner' viewer appears to be Alabama's Marshall County (al. tenant, revenue commissioner), not Kentucky's, and is unreachable. Marshall County KY publishes no queryable public parcel service or file that I could find.",
+  "recorded_at": 1792049906592,
+  "recheck_after": 1807601906592,
+  "model": "claude-haiku-5-5"
+}

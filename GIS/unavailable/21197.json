@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21197",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://powellcounty.ky.gov/Pages/services.aspx",
+    "http://www.powellcountyky.us/pva.asp",
+    "https://qpublic.net/ky/kypvas/",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=json"
+  ],
+  "note": "Searched ArcGIS Hub/Online, Kentucky state server (kygisserver) and county sites. No public ArcGIS REST parcel service or downloadable county parcel file for Powell County (FIPS 21197) found. County parcels appear only in qPublic (web viewer, not a queryable service); the KYTC PVA availability layer lists Powell as 'Without Ownership'; kygisserver has PVA parcel services only for Webster County. Commercial parcel sets (dynamospatial, acres) are paid, not county-published. Clark County's service does not cover Powell.",
+  "recorded_at": 1792049869495,
+  "recheck_after": 1807601869495,
+  "model": "claude-haiku-5-5"
+}

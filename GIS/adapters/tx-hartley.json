@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-hartley",
+  "publisher": "Hartley County Appraisal District (bis_hartleycad ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/9AShvsLksvOzPnzm/arcgis/rest/services/HartleyCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48205"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Hartley CAD public parcel layer from ArcGIS Online service owned by bis_hartleycad. Situs address fields are mostly empty in source, so address and land use are not mapped; addr_line1 is the owner mailing address.",
+  "verification": {
+    "verified_at": 1792051695447,
+    "counties": [
+      "48205"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

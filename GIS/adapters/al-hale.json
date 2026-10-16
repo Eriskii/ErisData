@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "al-hale",
+  "publisher": "Hale County, Alabama",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/AhiZvN2uMZkZVfSu/arcgis/rest/services/Hale_Web_Service/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01065"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNERNAME",
+    "acres": "TOTAL_AC",
+    "assessed_value": "TOTALVALUE"
+  },
+  "notes": "Hale County AL assessor parcels, from HaleCounty ArcGIS Hub Hale_Service_New; situs address field is empty in the source so not mapped",
+  "verification": {
+    "verified_at": 1792048493843,
+    "counties": [
+      "01065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

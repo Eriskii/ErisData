@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ne-cass",
+  "publisher": "Cass County GIS (CassNEGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/oIhWXTph9P1clNT3/arcgis/rest/services/Tax_Parcels_(Cass_County)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31025"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "OwnerName1",
+    "acres": "LegalAcres",
+    "land_use": "ClassCodeUse",
+    "assessed_value": "PropertyValue"
+  },
+  "notes": "Cass County, NE tax parcels via CassNEGIS ArcGIS Hub. Situs address fields (FullSitusAddress/SitusAddress) are populated for only a minority of parcels in the source, mostly rural, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792051122421,
+    "counties": [
+      "31025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

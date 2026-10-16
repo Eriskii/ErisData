@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-warren",
+  "publisher": "Warren County Iowa GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/lcU85Lh3UvDs5Naw/arcgis/rest/services/Parcels051622/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19181"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "DEEDHOLD",
+    "acres": "GROSSAC",
+    "land_use": "CLASS",
+    "assessed_value": "TotalValue"
+  },
+  "notes": "Warren County Iowa parcels, 5.16.2022 snapshot, public ArcGIS service. Site address is sparse in source (ADDRESS filled for ~18%), so not mapped. Owner is DEEDHOLD (deed holder).",
+  "verification": {
+    "verified_at": 1792049233697,
+    "counties": [
+      "19181"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-san-juan",
+  "publisher": "San Juan County, Utah (via UGRC statewide parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_SanJuan/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49037"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "land_use": "OWN_TYPE"
+  },
+  "filter": "FIPS = 49037",
+  "notes": "UGRC open data, San Juan County UT parcels; address field is sparsely populated (about 18%) so not mapped; owner not published in this layer",
+  "verification": {
+    "verified_at": 1792052738785,
+    "counties": [
+      "49037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "72083",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim?f=json",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0"
+  ],
+  "note": "CRIM crim_parcelas service is not started (500) and the crim folder now lists no services; sige.pr.gov unreachable; other CRIM copy requires a token.",
+  "recorded_at": 1792052084725,
+  "recheck_after": 1807604084725,
+  "model": "claude-sonnet-5-5"
+}

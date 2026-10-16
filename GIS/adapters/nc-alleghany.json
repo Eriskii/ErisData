@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-alleghany",
+  "publisher": "Alleghany County GIS (PAMT)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.webgis.net/arcgis/rest/services/NC/Alleghany/MapServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37005"
+    ]
+  },
+  "fields": {
+    "apn": "PRODUCTION_NUMBER",
+    "owner": "OWNER",
+    "address": "SUBDIVISION",
+    "acres": "TOTAL_CALCULATED"
+  },
+  "notes": "Parcel layer from webgis.net NC/Alleghany MapServer layer 11; no site address field present",
+  "verification": {
+    "verified_at": 1792051331806,
+    "counties": [
+      "37005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

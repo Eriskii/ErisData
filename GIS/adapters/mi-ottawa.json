@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mi-ottawa",
+  "publisher": "Ottawa County GIS (MI)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.miottawa.org/arcgis/rest/services/HostedServices/ParcelsPublic/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26139"
+    ]
+  },
+  "fields": {
+    "apn": "FinalPIN",
+    "owner": "OwnerName",
+    "address": "PropertyAddress",
+    "acres": "Acreage",
+    "land_use": "PropertyClass",
+    "assessed_value": "AssessedValue"
+  },
+  "notes": "Public parcel layer from Ottawa County MI GIS; max 2000 records per query",
+  "verification": {
+    "verified_at": 1792049968106,
+    "counties": [
+      "26139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

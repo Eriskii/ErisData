@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "29199",
+  "reason": "paywalled",
+  "evidence": [
+    "https://scotland.missouriassessors.com/index.php",
+    "https://scotland.missouriassessors.com/search.php",
+    "https://www.arcgis.com/home/item.html?id=7a41450aee5b4c5daac5e43d347dd751",
+    "https://www.dynamospatial.com/c/scotland-county-mo/parcel-data",
+    "https://app.regrid.com/us/mo/scotland"
+  ],
+  "note": "Searched ArcGIS Hub/Online, MSDIS open data, the county web map (item data lists only boundary, address point, road and municipal layers; the account mq0BGE5kHpm8mHFz has no Scotland parcel service), the county assessor site (Beacon-style search with no public GIS endpoint) and third-party viewers. Scotland County parcels are only sold as shapefiles (Dynamo, Rockford Map) or viewed via Regrid/Acres licensed viewers. The only public ArcGIS layer with Scotland rows (Apex_Missouri_Parcels FeatureServer/2) holds 10 pipeline-project parcels, not the county's tax parcels.",
+  "recorded_at": 1792051135954,
+  "recheck_after": 1823587135954,
+  "model": "claude-haiku-5-5"
+}

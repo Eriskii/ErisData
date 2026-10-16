@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ne-cheyenne",
+  "publisher": "State of Nebraska (NebraskaMAP) Statewide Parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ne.gov/Enterprise/rest/services/StatewideParcelsExternal/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31033"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID"
+  },
+  "filter": "County_ID = '033'",
+  "verification": {
+    "verified_at": 1792051310676,
+    "counties": [
+      "31033"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

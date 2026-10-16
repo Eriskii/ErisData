@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-brunswick",
+  "publisher": "Brunswick County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://bcgis.brunswickcountync.gov/arcgis/rest/services/Layers/TaxParcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37019"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "Name1",
+    "acres": "CALCAC",
+    "land_use": "UseCode"
+  },
+  "notes": "Brunswick County NC tax parcels, public GIS service. Site address fields (HouseNumber, StreetName, StreetType) are sparse; Address1 is sparse so omitted.",
+  "verification": {
+    "verified_at": 1792051352033,
+    "counties": [
+      "37019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

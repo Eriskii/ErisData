@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72107",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://catastro.crimpr.net/cdprpc",
+    "https://www.arcgis.com/home/item.html?id=acf043a178254fcdad6708be3e8ab51c"
+  ],
+  "note": "Only CRIM islandwide parcel service (sigejp crim_parcelas) is stopped (HTTP 500 'not started'; crim folder lists no services); the satasgis.crimpr.net service from the CRIM web map is unreachable; the Catastro item says data can't be obtained as shapefile. No queryable Orocovis parcel service is currently available.",
+  "recorded_at": 1792052606611,
+  "recheck_after": 1807604606611,
+  "model": "claude-sonnet-5-5"
+}

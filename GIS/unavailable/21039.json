@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21039",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.net/ky/carlisle/",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=CarlisleCountyKY&Layer=Parcels&PageType=Search",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://carlislecountyclerk.ky.gov/county-maps/"
+  ],
+  "note": "Carlisle County KY parcels are only exposed through the Schneider qPublic PVA viewer, which returns HTTP 403 bot-check to automated access and offers no documented REST/download service. KYDGI's state PVA parcel services (kygisserver WGS84WM_Services) include only Webster County, not Carlisle. ArcGIS Hub/Online searches found no Carlisle parcel feature service; the clerk's maps are static PDFs; Regrid, Acres and Rockford are commercial.",
+  "recorded_at": 1792049428520,
+  "recheck_after": 1807601428520,
+  "model": "claude-haiku-5-5"
+}

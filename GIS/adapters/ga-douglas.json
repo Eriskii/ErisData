@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-douglas",
+  "publisher": "Douglas County GA GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.douglascountyga.gov/arcgis/rest/services/ArcReader/ArcReaderBase/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13097"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "ACREAGE_GIS",
+    "land_use": "DIGCLASS",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "County ArcReaderBase MapServer layer 8 Land Records (parcel polygons, 57k). Public service.",
+  "verification": {
+    "verified_at": 1792048834000,
+    "counties": [
+      "13097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

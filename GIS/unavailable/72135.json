@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "72135",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim?f=json"
+  ],
+  "note": "CRIM statewide Parcelario returns 'Service not started'; crim folder empty; sige.pr.gov and satasgis.crimpr.net parcel services unreachable; Bayamon and Toa Baja municipal layers contain no Toa Alta parcels.",
+  "recorded_at": 1792052219337,
+  "recheck_after": 1807604219337,
+  "model": "claude-sonnet-5-5"
+}

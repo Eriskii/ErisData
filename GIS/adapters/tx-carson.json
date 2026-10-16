@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "tx-carson",
+  "publisher": "TxGIO / Texas Land Parcels (CAD-sourced)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48065"
+    ]
+  },
+  "fields": {
+    "apn": "PROP_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "land_use": "LOC_LAND_USE",
+    "assessed_value": "MKT_VALUE"
+  },
+  "filter": "FIPS = '48065'",
+  "notes": "TxGIO statewide land parcels compiled from Carson Appraisal District data, tax year 2024; public",
+  "verification": {
+    "verified_at": 1792051701625,
+    "counties": [
+      "48065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

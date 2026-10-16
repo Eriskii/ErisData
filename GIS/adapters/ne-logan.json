@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ne-logan",
+  "publisher": "Nebraska OCIO / NebraskaMap Statewide Parcels (hosted on gWorks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis2.gworks.com/arcgis/rest/services/Statewide_NE_MGMT/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31113"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "CURRENT_OWNER_NAME",
+    "land_use": "PROPERTY_TYPE",
+    "assessed_value": "TOTAL_ASSESSED_VALUE"
+  },
+  "filter": "COUNTY = 'Logan'",
+  "notes": "Statewide 2025 parcel layer from NebraskaMap, filtered to Logan County; state merges county assessor data yearly; situs address and acreage are blank for most parcels in this source",
+  "verification": {
+    "verified_at": 1792051432546,
+    "counties": [
+      "31113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

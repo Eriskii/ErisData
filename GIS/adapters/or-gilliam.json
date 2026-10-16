@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "or-gilliam",
+  "publisher": "Gilliam County, OR (GDITAdmin tax lot ownership layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/e3KSI9Py4B7m3xu6/arcgis/rest/services/Gilliam01_TL/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41021"
+    ]
+  },
+  "fields": {
+    "apn": "MapTaxlot",
+    "owner": "OWNERSHIP",
+    "address": "SITUS",
+    "acres": "TaxlotAcre",
+    "land_use": "PROPERTY_CLASS"
+  },
+  "notes": "Gilliam County tax lot ownership layer, 3171 features; land_use is numeric property class code",
+  "verification": {
+    "verified_at": 1792051531030,
+    "counties": [
+      "41021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-mariposa",
+  "publisher": "Mariposa County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/wEula7SYiezXcdRv/arcgis/rest/services/MariposaCo_Parcels_Public/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06043"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "address": "ST_NAME"
+  },
+  "notes": "Mariposa County public parcel layer (Assessor parcels). APN field is APN; ST_NAME is street name only (ST_NO, ST_DIR, ST_SUFFIX hold the rest). Shape__Area is square feet, not mapped. No owner or assessed value fields published.",
+  "verification": {
+    "verified_at": 1792048632970,
+    "counties": [
+      "06043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

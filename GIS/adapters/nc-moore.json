@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-moore",
+  "publisher": "Moore County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.moorecountync.gov/server/rest/services/Tax/Archival_Parcels/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37125"
+    ]
+  },
+  "fields": {
+    "apn": "PARID",
+    "owner": "NAME",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRES",
+    "land_use": "CLASS",
+    "assessed_value": "TOTAL_VAL"
+  },
+  "notes": "Moore County tax parcels, PARCELTAX_2025 layer of the county archival parcel service; NC State Plane feet source, runtime requests lon/lat",
+  "verification": {
+    "verified_at": 1792051369382,
+    "counties": [
+      "37125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

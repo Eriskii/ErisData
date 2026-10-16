@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-hopkins",
+  "publisher": "Hopkins County, TX (TxGIO DataHub / BIS Consulting)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/S14quRRuDSaYoUKA/arcgis/rest/services/Hopkins_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48223"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "land_use": "LOC_LAND_U",
+    "assessed_value": "MKT_VALUE"
+  },
+  "notes": "Derived from CAD data via TxGIO DataHub; public. land_use is the local land-use code.",
+  "verification": {
+    "verified_at": 1792051695513,
+    "counties": [
+      "48223"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

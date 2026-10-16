@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ia-buchanan",
+  "publisher": "Buchanan County, IA (ArcGIS Hub: Buchanan_Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/tYzMC5F5v21mpREX/arcgis/rest/services/Buchanan_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19019"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OwnerName",
+    "land_use": "PropertyClass"
+  },
+  "notes": "Parcel boundaries for Buchanan County, IA; public ArcGIS feature service. Situs address and acreage are sparsely populated in source, so not mapped.",
+  "verification": {
+    "verified_at": 1792049231083,
+    "counties": [
+      "19019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

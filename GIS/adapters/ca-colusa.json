@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-colusa",
+  "publisher": "Colusa County Department of Public Works (GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/RHVBVx0fVmUtvfJV/arcgis/rest/services/Colusa_County_Tax_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06011"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "acres": "ACRES",
+    "land_use": "LAND_USE_1"
+  },
+  "notes": "Colusa County tax parcels 2026; situs address mostly blank in source; no owner field published",
+  "verification": {
+    "verified_at": 1792048609015,
+    "counties": [
+      "06011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

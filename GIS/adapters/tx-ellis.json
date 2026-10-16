@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-ellis",
+  "publisher": "Ellis County Appraisal District (via ArcGIS Hub, jbinford1)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/URKkSE6MsjA926qB/arcgis/rest/services/Ellis_County_Parcel_Ownership/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48139"
+    ]
+  },
+  "fields": {
+    "apn": "pid",
+    "owner": "fileasname",
+    "address": "streetnam",
+    "acres": "legalacre",
+    "assessed_value": "ownermarke"
+  },
+  "notes": "Appraisal district ownership data hosted on ArcGIS Online; no land use field.",
+  "verification": {
+    "verified_at": 1792051668545,
+    "counties": [
+      "48139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

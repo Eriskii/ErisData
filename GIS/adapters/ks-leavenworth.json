@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ks-leavenworth",
+  "publisher": "Leavenworth County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/YvdlPN5z971EmeG3/arcgis/rest/services/Parcel_Boundaries/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20103"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUM",
+    "owner": "OwnerName",
+    "address": "SiteAddr",
+    "acres": "ACRES",
+    "land_use": "LBCS",
+    "assessed_value": "RP_AprTot"
+  },
+  "notes": "Leavenworth County GIS parcel layer with survey parcels; ArcGIS Hub org YvdlPN5z971EmeG3",
+  "verification": {
+    "verified_at": 1792049589500,
+    "counties": [
+      "20103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

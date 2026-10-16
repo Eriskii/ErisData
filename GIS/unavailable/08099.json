@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "08099",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=ProwersCountyCO&PageType=Map",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=ProwersCountyCO&PageType=Search",
+    "https://www.prowersco.gov/departments/assessor/Assessor-Staff",
+    "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0"
+  ],
+  "note": "Prowers County (08099) parcels are served only through the Schneider qPublic web viewer (bot-protected, no documented public ArcGIS REST endpoint). The statewide OIT Colorado_Public_Parcels layer contains no Prowers records (countyName='PROWERS' and countyFips='08099' both return count 0). arcgis search finds no Prowers parcel FeatureServer/MapServer. Commercial sources (Acres, Dynamo, Regrid, Rockford) are not county services and were not used. County GIS contact: prowersgis@prowerscounty.net.",
+  "recorded_at": 1792048767404,
+  "recheck_after": 1807600767404,
+  "model": "claude-haiku-5-5"
+}

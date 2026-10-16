@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "la-st-charles",
+  "publisher": "St. Charles Parish GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Nj65ZtNghtksKPeG/arcgis/rest/services/View_Production_Services_Planning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22089"
+    ]
+  },
+  "fields": {
+    "apn": "pi_code",
+    "owner": "owner",
+    "address": "address",
+    "assessed_value": "assessed_v"
+  },
+  "verification": {
+    "verified_at": 1792049931378,
+    "counties": [
+      "22089"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

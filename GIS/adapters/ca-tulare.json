@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-tulare",
+  "publisher": "Tulare County (Public Parcels, Production Geodatabase)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/bYBANhmQGwSSLC0l/arcgis/rest/services/Public_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06107"
+    ]
+  },
+  "fields": {
+    "apn": "APN_TXT",
+    "owner": "DATA_OWNER",
+    "acres": "TOT_ACRES",
+    "land_use": "USEDSCRP",
+    "assessed_value": "LAND_VAL"
+  },
+  "notes": "Tulare County tax parcels from public ArcGIS service; no situs address field in source",
+  "verification": {
+    "verified_at": 1792048676890,
+    "counties": [
+      "06107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

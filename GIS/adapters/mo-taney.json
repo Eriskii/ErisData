@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mo-taney",
+  "publisher": "City of Branson GIS (Taney County Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.bransonmo.gov/webgis/rest/services/Applications/COB_UtilityViewer2021/FeatureServer/975",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29213"
+    ]
+  },
+  "fields": {
+    "apn": "PROPERTY_N",
+    "owner": "OwnerName",
+    "address": "SitusAddre",
+    "acres": "Calculated",
+    "land_use": "TaxCode",
+    "assessed_value": "TOT_ASSMT"
+  },
+  "notes": "Taney County Parcels layer hosted by City of Branson; countywide attributes",
+  "verification": {
+    "verified_at": 1792051041830,
+    "counties": [
+      "29213"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

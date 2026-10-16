@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29141",
+  "reason": "login-required",
+  "evidence": [
+    "https://services4.integritygis.com/arcgis/rest/services/MO/Morgan_Assessor_Data/MapServer?f=json",
+    "https://morgangis.integritygis.com/H5/Index.html",
+    "https://www.morgancountymo.gov/gis-map"
+  ],
+  "note": "Morgan County MO parcel and assessor data sits on the integritygis services4 ArcGIS server as MO/Morgan_Assessor_Data, but every layer returns 'Token Required' (code 499), so it is login-gated and cannot be queried anonymously. The county GIS viewer (morgangis.integritygis.com/H5) is HTML only. The kcsgis Morgan/Public service that matched 'Morgan County' is Morgan County, Alabama (Hartselle zoning; no parcels at the Missouri sample point). No public Missouri parcel service was found on gis.mo.gov or MSDIS.",
+  "recorded_at": 1792051069698,
+  "recheck_after": 1807603069698,
+  "model": "claude-haiku-5-5"
+}

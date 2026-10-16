@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "29037",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.casscounty.com/2157/GIS",
+    "https://cass.missouriassessors.com/",
+    "https://maps.camavision.com/cassmo",
+    "https://beacon.schneidercorp.com/?site=CassCountyMO",
+    "https://services6.arcgis.com/ZxotJxQo35Sx0jNg/arcgis/rest/services/Central_Square_Map/FeatureServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online and county web resources. County GIS page and assessor site link only to the CAMAvision viewer (maps.camavision.com/cassmo) and Schneider Beacon viewer (Cloudflare-blocked); neither exposes a public ArcGIS REST parcel service. No county-wide Cass County parcel FeatureServer/MapServer found. Only public parcel services are city-level (Belton), which do not cover the county. Commercial vendors (Regrid, Dynamo, USLandgrid) are paid.",
+  "recorded_at": 1792050962143,
+  "recheck_after": 1807602962143,
+  "model": "claude-haiku-5-5"
+}

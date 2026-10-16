@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "17185",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.gis-portal.org/il-wabash-county/",
+    "https://www.gismaps.org/il-wabash-county",
+    "https://www.acres.com/plat-map/map/il/wabash-county-il",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=167&LayerID=2153&PageTypeID=2&PageID=1112",
+    "https://app.regrid.com/us/il/wabash"
+  ],
+  "note": "Searched ArcGIS Hub/Online for Wabash County IL parcels; only the Wabash County boundary layer and Indiana services came up (the Edwards County IL service is a different county). Wabash County IL parcels are not published as a public ArcGIS REST service or file: the county GIS directories name no service, the Schneider Beacon viewer is proprietary and access-blocked, and the other parcel sources are commercial with no public endpoint.",
+  "recorded_at": 1792049066305,
+  "recheck_after": 1807601066305,
+  "model": "claude-haiku-5-5"
+}

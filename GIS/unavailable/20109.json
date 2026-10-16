@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20109",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Logan",
+    "https://map.netronline.com/kansas-logan/20109",
+    "https://app.regrid.com/store/us/ks/logan"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Logan County KS (FIPS 20109) parcel polygons. The Kansas state host services.kansasgis.org has ORKA folders with subdivision, lot, road and boundary layers but no tax parcel polygon layer for Logan. The county ownership viewer (kansasgis.org/orka) and NETR map expose no public REST service. logan.kansasgis.com was unreachable. Remaining parcel sources are paid or third-party (Regrid, Dynamo Spatial, Acres, AcreValue).",
+  "recorded_at": 1792049404368,
+  "recheck_after": 1807601404368,
+  "model": "claude-haiku-5-5"
+}

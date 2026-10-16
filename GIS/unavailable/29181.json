@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29181",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.mo.gov/arcgis/rest/services/OA/FMDCrealEstate_StateOwnedParcels/MapServer/0 (state FMDC parcel status layer: Ripley COUNTYFIPS 181 has HasData=N, FULLPARCELS=N)",
+    "https://gis.mo.gov/arcgis/rest/services/OA/FMDCrealEstate_allParcels/MapServer/0 (statewide parcel service returns 'Token Required')",
+    "https://www.acres.com/plat-map/map/mo/ripley-county-mo (commercial viewer, no public service endpoints)",
+    "https://www.gis-portal.org/mo-ripley-county/ (no viewer or service link)"
+  ],
+  "note": "Searched ArcGIS Hub/Online for Ripley County and Missouri parcels, state MSDIS/FMDC services, and county assessor and GIS pages. No public queryable Ripley County parcel service or file was found; the statewide parcel service requires a token and the state parcel status layer marks Ripley as having no parcel data. Remaining sources are commercial (Regrid, Acres, Rockford Map, Mapping Solutions).",
+  "recorded_at": 1792051091926,
+  "recheck_after": 1807603091926,
+  "model": "claude-haiku-5-5"
+}

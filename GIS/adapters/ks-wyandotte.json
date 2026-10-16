@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ks-wyandotte",
+  "publisher": "Unified Government of Wyandotte County / Kansas City, Kansas GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.wycokck.org/arcgis/rest/services/GISPUB/UGMAPS_4_V02/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20209"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL",
+    "owner": "OWNER_NAME",
+    "address": "NUMB",
+    "acres": "ACRE",
+    "land_use": "LAND_USE"
+  },
+  "notes": "Unified Government GIS parcel layer (GISPUB/UGMAPS_4_V02). Address split across NUMB, DIR, ST_NAME, SUFX.",
+  "verification": {
+    "verified_at": 1792049317715,
+    "counties": [
+      "20209"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

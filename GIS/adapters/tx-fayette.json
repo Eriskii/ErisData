@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-fayette",
+  "publisher": "Fayette County Appraisal District (BIS CAD web service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/INOomfRKQGxc9OW4/arcgis/rest/services/FayetteCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48149"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Fayette CAD public CAD web service; attributes per BIS CAD schema. situs_street is street name only; situs_num holds house number.",
+  "verification": {
+    "verified_at": 1792051679870,
+    "counties": [
+      "48149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

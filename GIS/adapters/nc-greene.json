@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-greene",
+  "publisher": "Greene County, NC GIS (GIMS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/nJbIFHiSnaX0z0hS/arcgis/rest/services/Greene_Service/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37079"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "OWNER_NAME_1",
+    "address": "PROPERTY_LOCATION",
+    "acres": "calc_acre",
+    "land_use": "CLASS",
+    "assessed_value": "TOTAL_ASSESSED"
+  },
+  "notes": "Greene County NC tax parcels (TaxParcels layer) from the county GIMS ArcGIS service referenced by the Greene County, NC GIS web app.",
+  "verification": {
+    "verified_at": 1792051422157,
+    "counties": [
+      "37079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

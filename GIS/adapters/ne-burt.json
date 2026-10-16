@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-burt",
+  "publisher": "Burt County GIS (gWorks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Burt_County_NE_Assessor/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31021"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "Burt County NE assessor parcels via gWorks MapServer; layer 7 Parcels; no owner/address fields exposed in layer",
+  "verification": {
+    "verified_at": 1792051145488,
+    "counties": [
+      "31021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

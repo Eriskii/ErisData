@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-kanabec",
+  "publisher": "Kanabec County GIS (Schneider Corp Beacon WFS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://wfs.schneidercorp.com/arcgis/rest/services/KanabecCountyMN_WFS/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27065"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER_ORIG",
+    "address": "SiteAddress",
+    "acres": "ACRES_CALC"
+  },
+  "notes": "Schneider WFS; http endpoint responds, https does not",
+  "verification": {
+    "verified_at": 1792051032279,
+    "counties": [
+      "27065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

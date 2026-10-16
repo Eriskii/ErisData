@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-kern",
+  "publisher": "Kern County Assessor / KernGIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Y8jwjGUWbRjuqpG5/arcgis/rest/services/Assessor_Parcels_Land_2026_gdb/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06029"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "acres": "SHAPE_ACRE"
+  },
+  "notes": "Kern County Assessor land parcels 2026 (KernGIS). Full county, about 424k polygons. Only APN, APN9, APN_LABEL and area are published; no owner, address or value fields.",
+  "verification": {
+    "verified_at": 1792048625349,
+    "counties": [
+      "06029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

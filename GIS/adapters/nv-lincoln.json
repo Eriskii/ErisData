@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nv-lincoln",
+  "publisher": "Lincoln County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/zEd0UM6DWpfqnURg/arcgis/rest/services/Tax_Parcels_Viewer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32017"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "owner_name",
+    "acres": "acreage",
+    "land_use": "use_dscr",
+    "assessed_value": "adj_cap_val"
+  },
+  "filter": "APN > '00700000'",
+  "notes": "Lincoln County Tax Parcels Viewer; address omitted (sparse)",
+  "verification": {
+    "verified_at": 1792051424760,
+    "counties": [
+      "32017"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

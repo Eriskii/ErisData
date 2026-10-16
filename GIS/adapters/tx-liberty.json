@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-liberty",
+  "publisher": "Liberty County Appraisal District (via LibertyCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/LbQai106UcFy2LlR/arcgis/rest/services/LibertyCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48291"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Liberty CAD public GIS web service; parcels layer of ~156k features",
+  "verification": {
+    "verified_at": 1792051713186,
+    "counties": [
+      "48291"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

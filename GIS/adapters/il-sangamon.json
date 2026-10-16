@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-sangamon",
+  "publisher": "Sangamon County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sangis.co.sangamon.il.us/server/rest/services/TyleratENTParcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17167"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "TOTACRES"
+  },
+  "notes": "Only PIN and acreage published; no owner/address",
+  "verification": {
+    "verified_at": 1792049222493,
+    "counties": [
+      "17167"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

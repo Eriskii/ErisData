@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ny-dutchess",
+  "publisher": "Dutchess County GIS (ParcelAccess)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.dutchessny.gov/server/rest/services/ParcelAccess_Public/MapServer/97",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36027"
+    ]
+  },
+  "fields": {
+    "apn": "PrintKey"
+  },
+  "notes": "Dutchess County ParcelAccess public MapServer, Parcels layer; geometry plus parcel keys only (no owner/value in this layer)",
+  "verification": {
+    "verified_at": 1792051497165,
+    "counties": [
+      "36027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

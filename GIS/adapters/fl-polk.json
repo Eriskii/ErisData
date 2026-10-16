@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-polk",
+  "publisher": "Polk County Property Appraiser via Polk County GIS (Parcels 04282025)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.polk-county.net/hosting/rest/services/Hosted/Dashboard_Project_Tracking/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12105"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "NAME",
+    "address": "ADDR_1",
+    "acres": "Acres"
+  },
+  "notes": "Polk County GIS hosted parcel layer combining property appraisers CAMA and tax data; redundant condo-unit geometry possible.",
+  "verification": {
+    "verified_at": 1792049047143,
+    "counties": [
+      "12105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

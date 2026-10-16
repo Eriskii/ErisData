@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "or-wasco",
+  "publisher": "Wasco County GIS (parcel layer hosted on Wasco County 911 ArcGIS Online service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/zdREmI43RxOVE0bq/arcgis/rest/services/HoodRiver_Wasco_Data/FeatureServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41065"
+    ]
+  },
+  "fields": {
+    "apn": "MapTaxlot",
+    "owner": "Taxpayer",
+    "address": "MailingAdd",
+    "acres": "Calculated"
+  },
+  "notes": "Wasco County Parcel layer from HoodRiver_Wasco_Data 911 service. county own host unreachable.",
+  "verification": {
+    "verified_at": 1792051571751,
+    "counties": [
+      "41065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

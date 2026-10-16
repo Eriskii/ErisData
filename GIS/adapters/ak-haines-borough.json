@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ak-haines-borough",
+  "publisher": "Haines Borough",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/pMlUMMROURtJLUZt/arcgis/rest/services/ParcelsOnline/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02100"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER1",
+    "acres": "Acres",
+    "land_use": "LandType",
+    "assessed_value": "TOTAL"
+  },
+  "filter": "PIN <> 'TONGASS'",
+  "notes": "Haines Borough Parcels Online; excludes the Tongass National Forest polygon; ADDRESS2 (site address) only ~40% filled so not mapped",
+  "verification": {
+    "verified_at": 1792049297480,
+    "counties": [
+      "02100"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

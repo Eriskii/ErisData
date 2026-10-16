@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ga-cook",
+  "publisher": "Cook County GA (parcels in Adel GIS overview service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/TSNNo8H51qYl31gq/arcgis/rest/services/Map__Adel_Overview_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13075"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "acres": "Shape__Area"
+  },
+  "notes": "Parcel polygons from a town overview service; owner and address not published in this layer. Shape__Area is in square metres (web mercator source).",
+  "verification": {
+    "verified_at": 1792048771172,
+    "counties": [
+      "13075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

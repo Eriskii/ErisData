@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ky-fayette",
+  "publisher": "Lexington-Fayette Urban County Government (LFUCG) GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Mg7DLdfYcSWIaDnu/arcgis/rest/services/Parcel/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21067"
+    ]
+  },
+  "fields": {
+    "apn": "PVANUM",
+    "address": "ADDRESS",
+    "acres": "PVA_ACRE",
+    "land_use": "CLASS"
+  },
+  "notes": "Lexington-Fayette Urban County parcels from LFUCG Parcel layer; no owner field published in this layer",
+  "verification": {
+    "verified_at": 1792049356831,
+    "counties": [
+      "21067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

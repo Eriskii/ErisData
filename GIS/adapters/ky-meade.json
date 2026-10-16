@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ky-meade",
+  "publisher": "Meade County KY PVA (via Meade County E911 ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ufOeQWjwz5JyJXKQ/arcgis/rest/services/Meade_Co_KY_Addresses_Roads_Lot_Lines_WFL1/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21163"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "Name",
+    "address": "Location",
+    "acres": "ACRES"
+  },
+  "notes": "Parcel Owner layer from Meade County KY E911 AGOL service; LANDUSE field is empty so not mapped",
+  "verification": {
+    "verified_at": 1792049837469,
+    "counties": [
+      "21163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

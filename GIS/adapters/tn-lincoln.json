@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-lincoln",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (STS-GIS) statewide property boundaries, Lincoln County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47103"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_NAME = 'LINCOLN'",
+  "notes": "Lincoln County TN subset of statewide public-use parcel layer; filtered by COUNTY_NAME",
+  "verification": {
+    "verified_at": 1792052678296,
+    "counties": [
+      "47103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

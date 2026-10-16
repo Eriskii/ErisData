@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ut-summit",
+  "publisher": "Summit County Utah (parcel copy)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/QeCcHn4mdx7XnhdL/arcgis/rest/services/Parcels_Summit__7517939063577543337/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49043"
+    ]
+  },
+  "fields": {
+    "owner": "OWN_TYPE",
+    "acres": "Shape__Area"
+  },
+  "notes": "Parcel polygons for Summit County UT. OWN_TYPE is ownership class (e.g. Federal), not owner name. PARCEL_ID and PARCEL_ADD are blank for many parcels, especially federal land, so no apn/address mapped. Area field is square metres, not acres.",
+  "verification": {
+    "verified_at": 1792052645604,
+    "counties": [
+      "49043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21195",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://beacon.schneidercorp.com/?site=PikeCountyKY",
+    "https://pikeparcelsearch.appraisalresearchcorp.com/",
+    "https://www.dynamospatial.com/c/pike-county-ky/parcel-data",
+    "https://app.regrid.com/store/us/ky/pike",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer"
+  ],
+  "note": "Pike County PVA parcels are only reachable through a Schneider Beacon/qPublic web viewer (not a public ArcGIS REST service; Cloudflare-blocked to our reader). KYTC lists Pike as PVA data 'With Ownership' but no Pike parcel service exists on kygisserver.ky.gov (only Webster) or the KyGovMaps hub. Other Pike parcel sources are paid vendor downloads (Dynamo, Regrid, Mapping Solutions, Equator, Acres/Rockford viewers).",
+  "recorded_at": 1792049956131,
+  "recheck_after": 1807601956131,
+  "model": "claude-haiku-5-5"
+}

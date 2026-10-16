@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pr-manati",
+  "publisher": "Municipio de Manatí (Opadu GIS) / CRIM parcelario",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/ueSNrFTFQrqQnNV8/arcgis/rest/services/Parcelario_Municipio_Manatí_10_1_2024/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72091"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnumb",
+    "address": "direccion_fisica"
+  },
+  "notes": "Municipal parcel layer, 18432 features, Puerto Rico parcel numbering; no owner or value fields published",
+  "verification": {
+    "verified_at": 1792051974501,
+    "counties": [
+      "72091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

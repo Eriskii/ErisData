@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mo-cole",
+  "publisher": "Cole County GIS (MidMO GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/rXa0aMElf2BPjgBA/arcgis/rest/services/JCBaseMap/FeatureServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29051"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "ACRES"
+  },
+  "notes": "Parcel polygons from the MidMO GIS JCBaseMap service (Cole County parcels, about 34k features). PID is the full parcel ID; PARCELNUM is a short per-survey number. No owner or situs fields in this layer.",
+  "verification": {
+    "verified_at": 1792050958363,
+    "counties": [
+      "29051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

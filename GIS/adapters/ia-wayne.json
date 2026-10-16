@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-wayne",
+  "publisher": "Wayne County, Iowa (assessor parcels, hosted by City of Corydon)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/JzjHkPYdZx3hBL2l/arcgis/rest/services/WayneCoParcelsJan2023_view/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19185"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELPIN",
+    "owner": "DEEDHOLDER",
+    "acres": "GIS_ACRES",
+    "land_use": "CLASS",
+    "assessed_value": "APPR_TOTAL"
+  },
+  "notes": "Wayne County assessor parcel layer as republished by CorydonCityHall, Jan 2023 snapshot (renamed generic Jan 2024). Situs ADDRESS is filled for only about 20% of parcels, so address is left unmapped. Public ArcGIS service.",
+  "verification": {
+    "verified_at": 1792049259397,
+    "counties": [
+      "19185"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

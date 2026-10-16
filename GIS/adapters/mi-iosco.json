@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "mi-iosco",
+  "publisher": "Iosco County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/xJvlcOU5Vdf86o1L/arcgis/rest/services/IoscoCountyPar2024/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26069"
+    ]
+  },
+  "fields": {
+    "apn": "TaxID"
+  },
+  "notes": "Iosco County 2024 parcel layer on ArcGIS Online (bri2010); 31418 features; attributes are only TaxID (formatted APN) and Name (unformatted parcel number, not owner); no owner, address or value fields",
+  "verification": {
+    "verified_at": 1792049942393,
+    "counties": [
+      "26069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

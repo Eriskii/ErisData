@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ky-kenton",
+  "publisher": "Kenton County PVA via LINK-GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.linkgis.org/server/rest/services/Parcel_QueryOnly/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21117"
+    ]
+  },
+  "fields": {
+    "apn": "PIDN",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "ACREAGE",
+    "land_use": "LANDUSE_CO"
+  },
+  "notes": "Kenton County KY PVA parcels served by LINK-GIS; no assessed value field in this layer",
+  "verification": {
+    "verified_at": 1792049833579,
+    "counties": [
+      "21117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

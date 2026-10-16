@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "me-aroostook",
+  "publisher": "Maine Office of GIS / COAGIS statewide parcels (organized towns)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/0EOqWPtpCmgQr2ay/arcgis/rest/services/Parcels___Organized/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23003"
+    ]
+  },
+  "fields": {
+    "apn": "map_bk_lot"
+  },
+  "filter": "county = 'Aroostook'",
+  "notes": "Organized towns only; unorganized territories are published separately by Maine Land Use Planning Commission and are not included. No owner or assessed value in this layer; ownership is joined from town ADB tables outside this service. Maine GeoLibrary data is voluntary town submissions and may be out of date.",
+  "verification": {
+    "verified_at": 1792049907162,
+    "counties": [
+      "23003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

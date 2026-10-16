@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "az-yavapai",
+  "publisher": "Yavapai County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/BajuNXbtZNiBKFkx/arcgis/rest/services/Parcels_WGS84/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04025"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "NAME",
+    "address": "ADDRESS",
+    "acres": "ACRE_CALC"
+  },
+  "notes": "Yavapai County GIS open data parcel layer (WGS84). Assessor parcel polygons.",
+  "verification": {
+    "verified_at": 1792048482980,
+    "counties": [
+      "04025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

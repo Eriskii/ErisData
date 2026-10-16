@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ok-beckham",
+  "publisher": "Beckham County Assessor",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/2uPhy8KfHlaAyk3B/arcgis/rest/services/Parcel/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40009"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "address2",
+    "acres": "lotsize",
+    "land_use": "propclass",
+    "assessed_value": "totalvalue"
+  },
+  "notes": "Beckham County OK assessor parcel layer on ArcGIS Online. address is the owner mailing address (address2); situs (site address) is blank for many parcels.",
+  "verification": {
+    "verified_at": 1792051389288,
+    "counties": [
+      "40009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

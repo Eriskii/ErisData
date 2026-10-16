@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-anderson",
+  "publisher": "Anderson County Appraisal District (via ETCOG)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.etcog.org/arcgis/rest/services/PALESTINE/PALESTINE_UTILITIES_Public/FeatureServer/36",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48001"
+    ]
+  },
+  "fields": {
+    "apn": "PROP_ID",
+    "owner": "file_as_na",
+    "address": "situs_stre",
+    "acres": "legal_acre",
+    "assessed_value": "market"
+  },
+  "notes": "Anderson CAD parcel data republished by ETCOG; data dated April 2019; public ArcGIS service, no login",
+  "verification": {
+    "verified_at": 1792051692015,
+    "counties": [
+      "48001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

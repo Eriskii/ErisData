@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "al-mobile",
+  "publisher": "Mobile County Revenue Commission (Mapping Department)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/HND1NcQt6vgOGn1z/arcgis/rest/services/MCRC_Public_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01097"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_Number",
+    "owner": "Name1",
+    "address": "PropAddr1",
+    "acres": "Acreage"
+  },
+  "notes": "Tax parcel data for tax purposes only; Mobile County Revenue Commission public parcel layer",
+  "verification": {
+    "verified_at": 1792048341093,
+    "counties": [
+      "01097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

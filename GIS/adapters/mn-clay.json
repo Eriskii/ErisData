@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-clay",
+  "publisher": "Clay County GIS (Minnesota)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis23.claycountymn.gov/arcgis/rest/services/OpenData/Tax_Parcels_with_Tax_Data_in_State_Standard/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27027"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "TAX_NAME",
+    "address": "PropertyAddress",
+    "acres": "ACRES_POLY",
+    "land_use": "USECLASS1",
+    "assessed_value": "EMV_TOTAL"
+  },
+  "notes": "Clay County MN open data tax parcels, state standard fields; polygons from county GIS OpenData service",
+  "verification": {
+    "verified_at": 1792050978522,
+    "counties": [
+      "27027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-parmer",
+  "publisher": "Parmer County Appraisal District (via ArcGIS CADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VFKV32Si4tVahTQv/arcgis/rest/services/ParmerCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48369"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Parmer CAD public ArcGIS service; parcels layer FeatureServer/0. Situs address mostly blank in source, so not mapped.",
+  "verification": {
+    "verified_at": 1792051731254,
+    "counties": [
+      "48369"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

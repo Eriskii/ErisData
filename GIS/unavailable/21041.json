@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21041",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services (statewide PVA parcel services; only Ky_PVA_Webster_Parcels_WGS84WM present, no Carroll)",
+    "https://carrollpva.com/ (PVA site, returns 403 Cloudflare; no public GIS link)",
+    "https://carroll.countygis.org/arcgis/rest/services (404; no ArcGIS services)",
+    "https://services2.arcgis.com/kQPfxbSKhIDcSFXL/arcgis/rest/services/CarrollParcelViewer/FeatureServer (item titled Carroll County Parcel Viewer, but PARCEL_POLY features are Carroll County, Mississippi, not Kentucky)",
+    "https://www.dynamospatial.com/c/carroll-county-ky/parcel-data (commercial paid shapefile only)"
+  ],
+  "note": "Searched ArcGIS Hub/Online, Kentucky state kygisserver, county PVA and GIS sites. No public queryable Carroll County KY parcel service found; only commercial vendors (Dynamo Spatial, Acres, Regrid, Rockford) offer Carroll KY parcels, paid or viewer-only. The one ArcGIS item titled Carroll County Parcel Viewer serves Carroll County, Mississippi.",
+  "recorded_at": 1792049470660,
+  "recheck_after": 1807601470660,
+  "model": "claude-haiku-5-5"
+}

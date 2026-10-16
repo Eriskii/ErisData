@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-harris",
+  "publisher": "Harris County Appraisal District (HCAD) via Harris County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.gis.hctx.net/arcgis/rest/services/HCAD/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48201"
+    ]
+  },
+  "fields": {
+    "apn": "LOWPARCELID",
+    "owner": "owner_name_1",
+    "address": "site_str_name",
+    "acres": "acreage_1",
+    "land_use": "land_use",
+    "assessed_value": "total_appraised_val"
+  },
+  "notes": "HCAD public parcel data; Harris County only; no filter needed",
+  "verification": {
+    "verified_at": 1792051691040,
+    "counties": [
+      "48201"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-delaware",
+  "publisher": "Iowa HSEMD statewide parcels (Delaware County extract)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19055"
+    ]
+  },
+  "fields": {
+    "apn": "UNPARCELID",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'DELAWARE'",
+  "notes": "Statewide Iowa parcel layer filtered to Delaware County",
+  "verification": {
+    "verified_at": 1792049288605,
+    "counties": [
+      "19055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

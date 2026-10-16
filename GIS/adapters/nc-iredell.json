@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-iredell",
+  "publisher": "Iredell County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/WbGEgSzGTEPg4fr6/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37097"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Name",
+    "acres": "TaxAcres"
+  },
+  "notes": "Iredell County parcels (ArcGIS Hub, GIS_Admin_statesvillegis). Source in NC State Plane feet; runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792051373023,
+    "counties": [
+      "37097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "mo-platte",
+  "publisher": "Platte County GIS (via City of Platte City Property view)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ji2hJlB9RmHn0um4/arcgis/rest/services/Platte_City_MO_Property_view/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29165"
+    ]
+  },
+  "fields": {
+    "apn": "PNUM"
+  },
+  "notes": "Parcel polygons with TRC, SUBC, SEC, QSEC, BNUM, PNUM, CNUM fields. No owner/address/land use fields published in this layer.",
+  "verification": {
+    "verified_at": 1792051033794,
+    "counties": [
+      "29165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

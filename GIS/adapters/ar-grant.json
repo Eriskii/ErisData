@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-grant",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05053"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "countyfips = '053'",
+  "notes": "Statewide layer filtered to Grant County (countyfips 053). Not a legal boundary; for ad valorem assessment purposes. Updated twice yearly.",
+  "verification": {
+    "verified_at": 1792048532718,
+    "counties": [
+      "05053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ca-ventura",
+  "publisher": "Ventura County GIS (VCITSGIS) / Assessor",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/XJ5Tb7dTYtAMoyYT/arcgis/rest/services/Parcels_Quarterly/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06111"
+    ]
+  },
+  "fields": {
+    "apn": "APN"
+  },
+  "notes": "Ventura County Assessor parcels, updated monthly; source exposes APN, APN10, LAT, LON only (no owner/address/value fields)",
+  "verification": {
+    "verified_at": 1792048694562,
+    "counties": [
+      "06111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

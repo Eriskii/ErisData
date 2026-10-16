@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "42047",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://countyofelkpa.gov/elk-county-offices/it-gis/map-data-sales/",
+    "https://apps.pasda.psu.edu/arcgis/rest/services/PA_Parcels/MapServer/1",
+    "https://services5.arcgis.com/s0MwppvGT3g8a79x/arcgis/rest/services/County_Data_2023/FeatureServer/2"
+  ],
+  "note": "Elk County sells its tax parcel data through the Tax Assessment Office; the county GIS site lists no parcel service. The statewide PASDA PA_Parcels layer returns no features anywhere in Elk County. The only Elk-related parcel service found (St. Marys borough extract, County_Data_2023 layer 2) covers just the city of St. Marys, roughly 13 miles from the sample point, so it does not cover the county. Commercial vendors (Regrid, Dynamo, Acres) are paid or non-public and were not used.",
+  "recorded_at": 1792051609906,
+  "recheck_after": 1807603609906,
+  "model": "claude-haiku-5-5"
+}

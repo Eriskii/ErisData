@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-swain",
+  "publisher": "Swain County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/bAaHaqP9BvQhS7eE/arcgis/rest/services/Swain_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37173"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "Name__1",
+    "address": "ParcelPropertyAddress",
+    "acres": "Acreage",
+    "land_use": "Neighborhood_Name",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "notes": "Swain County GIS public parcel layer (Parcel_Polygons_Public); 13,554 features; maxRecordCount 2000",
+  "verification": {
+    "verified_at": 1792051395302,
+    "counties": [
+      "37173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

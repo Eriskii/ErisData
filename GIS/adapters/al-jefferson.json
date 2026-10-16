@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "al-jefferson",
+  "publisher": "Jefferson County, Alabama GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://jccgis.jccal.org/server/rest/services/Basemap/Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01073"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNAME",
+    "address": "ADDR_APR",
+    "acres": "GIS_ACRES",
+    "land_use": "Cls",
+    "assessed_value": "AssdValue"
+  },
+  "notes": "Jefferson County AL GIS parcels layer (Basemap/Parcels). Public service.",
+  "verification": {
+    "verified_at": 1792048338427,
+    "counties": [
+      "01073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

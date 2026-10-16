@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29207",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://stoddard.missouriassessors.com/",
+    "https://stoddard.missouriassessors.com/search.php",
+    "https://maps.camavision.com/stoddardmo",
+    "https://gis.mo.gov/arcgis/rest/services/OA/FMDCrealEstate_StateOwnedParcels/MapServer/0"
+  ],
+  "note": "Stoddard County (29207) has no public parcel polygon service found. The county assessor (Vanguard Appraisals hub) links GIS Mapping to a CAMAvision viewer (maps.camavision.com/stoddardmo), which exposes no public ArcGIS REST service (its ArcGIS endpoint returns 'map not active'). The Missouri statewide FMDC parcel layer lists Stoddard with HasData=N and no features. ArcGIS Hub/Online searches found no Stoddard County parcel service; the Bollinger account (services5 Vn2AABxp7qIdWLwq) has no Stoddard layer. Remaining parcel sources (Regrid, ReportAll, Dynamo Spatial, AcreValue, ACRES, Rockford Map) are paid or commercial.",
+  "recorded_at": 1792051184159,
+  "recheck_after": 1807603184159,
+  "model": "claude-haiku-5-5"
+}

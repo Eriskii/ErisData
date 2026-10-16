@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-levy",
+  "publisher": "Florida Department of Revenue (FDOR) parcel data via FL_Parcels feature service, Levy County rows",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/GcvM6vDlR2gM4x31/arcgis/rest/services/FL_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12075"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_NAME",
+    "acres": "Acres",
+    "land_use": "DOR_UC",
+    "assessed_value": "JV"
+  },
+  "filter": "CO_NO = 48",
+  "notes": "FDOR parcel rolls, 2025 assessment year; Levy is county number 48 (CO_NO). Physical address PHY_ADDR1 is sparsely populated so it is not mapped.",
+  "verification": {
+    "verified_at": 1792049094106,
+    "counties": [
+      "12075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

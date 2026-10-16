@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ks-douglas",
+  "publisher": "Douglas County GIS (Kansas) via City of Lawrence hosted layer",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/8O9UlSTnqjKptoda/arcgis/rest/services/Parcel/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20045"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMBER",
+    "owner": "owner1",
+    "address": "situs",
+    "acres": "SYSCALACRES"
+  },
+  "notes": "Douglas County KS tax parcels; ownership and tax boundaries. Source maxRecordCount 2000.",
+  "verification": {
+    "verified_at": 1792049242159,
+    "counties": [
+      "20045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

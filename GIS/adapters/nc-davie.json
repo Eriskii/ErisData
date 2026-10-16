@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-davie",
+  "publisher": "Davie County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.daviecountync.gov/server/rest/services/Parcels/MapServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37059"
+    ]
+  },
+  "fields": {
+    "apn": "NCPIN",
+    "owner": "Name1",
+    "address": "Address1",
+    "acres": "TOTAL_ACRES",
+    "land_use": "TR1Category",
+    "assessed_value": "TotalAssessedValue"
+  },
+  "notes": "Davie County NC tax parcel layer (BITEK view). Owner/mailing fields from tax records.",
+  "verification": {
+    "verified_at": 1792051422350,
+    "counties": [
+      "37059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

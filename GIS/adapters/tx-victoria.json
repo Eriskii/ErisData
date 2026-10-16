@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-victoria",
+  "publisher": "Victoria County Appraisal District (via BIS CAD web service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/TFRbpkUZXMMkfhmY/arcgis/rest/services/VictoriaCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48469"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Victoria CAD parcels via BIS CAD web service; native SR 2278, runtime requests lon/lat",
+  "verification": {
+    "verified_at": 1792051751061,
+    "counties": [
+      "48469"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mi-oceana",
+  "publisher": "Oceana County GIS (oceanacogis)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/qB4jROUe2zYBi3yY/arcgis/rest/services/Parcel_View_Layer_New/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26127"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "Acres"
+  },
+  "notes": "Public ArcGIS layer from Oceana County Parcel Viewer; fields limited to PIN, Acres, Status",
+  "verification": {
+    "verified_at": 1792049961438,
+    "counties": [
+      "26127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

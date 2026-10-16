@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nv-nye",
+  "publisher": "Nye County, NV (via Nevada Division of Water Resources statewide parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.water.nv.gov/arcgis/rest/services/BaseLayers/County_Parcels_in_Nevada/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32023"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "acres": "Acres"
+  },
+  "filter": "County = 'Nye'",
+  "notes": "Statewide NDWR standardized parcel layer filtered to County=Nye; owner, address and assessed value not provided in source (SiteCity empty for Nye); SourceDate gives vintage; assessor links in Website field.",
+  "verification": {
+    "verified_at": 1792051355740,
+    "counties": [
+      "32023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

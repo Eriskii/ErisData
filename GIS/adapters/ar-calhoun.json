@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-calhoun",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05013"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "countyfips = '013'",
+  "notes": "Statewide AR parcel polygons, not a legal boundary; filtered to Calhoun by CountyFips 013. Updated twice a year. Address field sparse (adrlabel mostly empty).",
+  "verification": {
+    "verified_at": 1792048477698,
+    "counties": [
+      "05013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

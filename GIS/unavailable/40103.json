@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40103",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://experience.arcgis.com/experience/46d53ea0822c4237b3fbce4dd86e9872",
+    "https://services3.arcgis.com/FZ09CBe0jFkql45S/arcgis/rest/services/Noble_County_GIS_View/FeatureServer/0",
+    "https://okmaps.org/ogi/search.aspx",
+    "https://www.noblecountyok.com/assessor/"
+  ],
+  "note": "No queryable Noble County OK parcel service found. The Noble County parcel viewer linked from assessorsearch.com draws from a service that is actually Noble County, Ohio (coordinates near -81.26, 39.87; Ohio CAUV fields). The Oklahoma statewide parcel layer is WMS view-only and not downloadable; the county site links no GIS or parcel service; commercial vendors are paid.",
+  "recorded_at": 1792051599369,
+  "recheck_after": 1807603599369,
+  "model": "claude-haiku-5-5"
+}

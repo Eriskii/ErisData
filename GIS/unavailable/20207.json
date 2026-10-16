@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20207",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/ORKA_Status_20180201/FeatureServer/0/query?where=COUNTY%3D'Woodson'&outFields=*&f=json&returnGeometry=false",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Woodson",
+    "https://woodsoncounty.net/main/departments/appraiser",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA",
+    "https://gis2.kda.ks.gov/gis/woodson/"
+  ],
+  "note": "Searched ArcGIS Hub and ArcGIS Online for Woodson parcels, probed the ORKA statewide services (services.kansasgis.org and the q2CglofYX6ACNEeu org), the KDA GIS server and the county appraiser links. The ORKA status layer lists Woodson as 'ORKA Private'. Only floodplain, PLSS, and commercial parcel sites (Regrid, Acres, Dynamo) turned up, so no public parcel REST service was found.",
+  "recorded_at": 1792049480163,
+  "recheck_after": 1807601480163,
+  "model": "claude-haiku-5-5"
+}

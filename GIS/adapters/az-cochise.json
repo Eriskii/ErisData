@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "az-cochise",
+  "publisher": "Cochise County Assessor / GIS (via ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Yxem0VOcqSy8T6TE/arcgis/rest/services/Cad_Parcel_TaxInfo/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04003"
+    ]
+  },
+  "fields": {
+    "apn": "apn",
+    "owner": "owner_name1",
+    "acres": "acres",
+    "land_use": "use_code",
+    "assessed_value": "fcv"
+  },
+  "notes": "Cochise County AZ tax parcel layer, updated weekly. Situs address blank for most rural/agricultural parcels, so not mapped. fcv is full cash value.",
+  "verification": {
+    "verified_at": 1792048423670,
+    "counties": [
+      "04003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

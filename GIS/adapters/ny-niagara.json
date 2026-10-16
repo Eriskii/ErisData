@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ny-niagara",
+  "publisher": "Niagara County NY (via Niagara County parcels feature service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ASaO6mkKxE2fYJAi/ArcGIS/rest/services/Map_TEMP/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36063"
+    ]
+  },
+  "fields": {
+    "apn": "PrintKey",
+    "owner": "OwnrName",
+    "address": "PrclStreet",
+    "acres": "ACRES",
+    "land_use": "PropClsite",
+    "assessed_value": "TotAssess"
+  },
+  "notes": "Niagara County NY parcels; hosted by townofniagara_admin on ArcGIS Online. Statewide NYS layer has no Niagara records.",
+  "verification": {
+    "verified_at": 1792051408236,
+    "counties": [
+      "36063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

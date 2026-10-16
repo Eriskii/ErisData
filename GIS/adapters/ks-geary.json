@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ks-geary",
+  "publisher": "Geary County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/zDY8zW24CdJKhVIw/arcgis/rest/services/GearyCountyGIS/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20061"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OwnerName",
+    "address": "SitusAddr",
+    "acres": "Acres",
+    "land_use": "parceltype"
+  },
+  "notes": "Geary County GIS parcels layer hosted by ATCi; includes PIN, PIN16, PIN19 identifiers; owner mailing address in OwnerAddr",
+  "verification": {
+    "verified_at": 1792049456973,
+    "counties": [
+      "20061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

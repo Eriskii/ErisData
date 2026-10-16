@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-monona",
+  "publisher": "Iowa DHS&EM statewide 2017 parcels (filtered to Monona County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19133"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Monona'",
+  "notes": "Statewide 2017 Iowa parcel layer, filtered to Monona County (about 20,681 features). Source: Iowa HSEMD hosted by University of Iowa.",
+  "verification": {
+    "verified_at": 1792049290204,
+    "counties": [
+      "19133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

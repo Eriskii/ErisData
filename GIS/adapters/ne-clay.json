@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-clay",
+  "publisher": "Clay County, NE GIS (gWorks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis3.gworks.com/arcgis/rest/services/Clay_County_NE_Roads/MapServer/3",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "31035"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "Parcel layer from Clay County NE roads service on gis3.gworks.com; no owner/address fields published in this layer",
+  "verification": {
+    "verified_at": 1792051135746,
+    "counties": [
+      "31035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-chatham",
+  "publisher": "Chatham County Board of Assessors via SAGIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://pub.sagis.org/arcgis/rest/services/OpenData/Parcels/MapServer/27",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13051"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Owner",
+    "address": "PropAddress_Full",
+    "acres": "Acres",
+    "land_use": "Property_Use",
+    "assessed_value": "Total_Assessment"
+  },
+  "notes": "Parcel Digest 2025 from SAGIS / Chatham County Board of Assessors; source is in Georgia East State Plane feet, service returns GeoJSON in WGS84",
+  "verification": {
+    "verified_at": 1792048730013,
+    "counties": [
+      "13051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

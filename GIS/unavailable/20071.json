@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20071",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Greeley",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer",
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://publicrecords.netronline.com/state/KS/county/greeley"
+  ],
+  "note": "Real search: ArcGIS Hub/Online search for Greeley County KS parcels returned no county parcel service. The state DASC/ORKA county parcel viewer sits behind a disclaimer gate (Press OK) with no public parcel REST endpoint; the ORKA services folder (KS_ORKA_Extras, sketch) has address points, subdivisions, lots, roads, city limits and county boundaries but no Greeley parcel polygons. The Kansas services folder listing returned 503. The county appraiser site (greeleycounty.org) was unreachable. Only commercial vendors (Regrid, Acres, DynamoSpatial, Rockford Map) offer Greeley parcels, not public services.",
+  "recorded_at": 1792049357109,
+  "recheck_after": 1807601357109,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-chambers",
+  "publisher": "Chambers County / Baytown GIS (ArcGIS mapdata.baytown.org)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapdata.baytown.org/arcgis/rest/services/ArcgisOnline/BaytownLayers/MapServer/132",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48071"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "CurrentOwner",
+    "address": "PropertyAddress"
+  },
+  "notes": "Chambers County TX parcels, appraisal-roll attributes, served by City of Baytown ArcGIS MapServer layer 132 (Chamber Parcels); countywide roll with 17,455 features. Public service; no login.",
+  "verification": {
+    "verified_at": 1792051728056,
+    "counties": [
+      "48071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

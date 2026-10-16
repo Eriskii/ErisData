@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-calhoun",
+  "publisher": "Calhoun County Appraisal District (via CalhounCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/nEraHEKblzwMBYQ3/arcgis/rest/services/CalhounCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48057"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Calhoun CAD public web service; parcels layer of ~22,676 features",
+  "verification": {
+    "verified_at": 1792051652526,
+    "counties": [
+      "48057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

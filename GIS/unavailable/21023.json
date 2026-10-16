@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21023",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://beacon.schneidercorp.com/Application.aspx",
+    "https://www.countyoffice.org/ky-bracken-county-gis-maps/",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services"
+  ],
+  "note": "Searched ArcGIS Hub/Online and kygisserver.ky.gov state services (WGS84WM folder) for Bracken County parcels; none found. Only county parcel viewer is Schneider Beacon (proprietary, Cloudflare-blocked, not an ArcGIS REST service). KYTC County PVA Availability layer lists BRACKEN as 'Without Ownership' (no PVA parcel data made available to the Commonwealth). Other parcel sources (Regrid, Acres, Rockford Map) are commercial/paid.",
+  "recorded_at": 1792049401329,
+  "recheck_after": 1807601401329,
+  "model": "claude-haiku-5-5"
+}

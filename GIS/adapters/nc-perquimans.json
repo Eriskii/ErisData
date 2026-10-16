@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-perquimans",
+  "publisher": "Perquimans County GIS (Perquimans_Service, Parcels_append)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/nJbIFHiSnaX0z0hS/arcgis/rest/services/Perquimans_Service/FeatureServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37143"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID_1",
+    "owner": "NAME",
+    "address": "ADDRESS_1",
+    "acres": "dacre",
+    "assessed_value": "TAX_VAL"
+  },
+  "notes": "Perquimans County GIS public ArcGIS service; land use field sparsely filled so omitted",
+  "verification": {
+    "verified_at": 1792051566053,
+    "counties": [
+      "37143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

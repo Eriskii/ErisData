@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-rhea",
+  "publisher": "Rhea County TN GIS (Rhea_Parcels_Joined, CAMA parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Rhea_Parcels_Joined_3_7_25/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47143"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "LANDUSE",
+    "assessed_value": "APPRAISAL"
+  },
+  "notes": "Rhea County parcels with CAMA attributes, published on ArcGIS Online by Rhea County GIS.",
+  "verification": {
+    "verified_at": 1792053296115,
+    "counties": [
+      "47143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

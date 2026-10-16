@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sc-georgetown",
+  "publisher": "Georgetown County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis1.georgetowncountysc.org/portal/rest/services/GCGIS_Energov/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45043"
+    ]
+  },
+  "fields": {
+    "apn": "TMS",
+    "owner": "Owner1",
+    "address": "StreetName",
+    "acres": "TotalLandArea",
+    "land_use": "LandUseCode"
+  },
+  "notes": "Georgetown County SC GIS ParcelView layer (Energov service), public. TMS is tax map number; YearID present, may contain multiple years.",
+  "verification": {
+    "verified_at": 1792051573880,
+    "counties": [
+      "45043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

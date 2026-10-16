@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72051",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim?f=json",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://app.regrid.com/store/us/pr/dorado"
+  ],
+  "note": "CRIM's statewide parcel service (crim_parcelas) is stopped and the crim services directory now lists no services; the satasgis.crimpr.net copies are unreachable. No other public Dorado parcel service found; only commercial Regrid. Could be revisited if CRIM restores the service.",
+  "recorded_at": 1792052155622,
+  "recheck_after": 1807604155622,
+  "model": "claude-sonnet-5-5"
+}

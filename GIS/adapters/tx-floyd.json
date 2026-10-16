@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-floyd",
+  "publisher": "TxGIO StratMap / Floyd County Appraisal District (via BIS Consultants)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/TjA0ysuXmC5nducZ/arcgis/rest/services/stratmap25_landparcels_48153_lp/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48153"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "acres": "GIS_AREA",
+    "land_use": "STAT_LAND_",
+    "assessed_value": "MKT_VALUE"
+  },
+  "notes": "TxGIO StratMap land parcels, 2025 vintage, sourced from Floyd Appraisal District; situs address mostly blank in source; public domain",
+  "verification": {
+    "verified_at": 1792051679110,
+    "counties": [
+      "48153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13297",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services1.arcgis.com/TaXHPwWfIMuzJ7Ov/arcgis/rest/services/WaltonCountyPropeties/FeatureServer",
+    "https://services1.arcgis.com/TaXHPwWfIMuzJ7Ov/arcgis/rest/services/WaltonCountyPropeties/FeatureServer/3",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=628&LayerID=11921&PageTypeID=1"
+  ],
+  "note": "Only public ArcGIS parcel service found (WaltonCountyPropeties, 'county-owned properties' subset; layer 3 has 460 features). Validation returned 0 parcels within 0.12 deg of the sample point; layer 2 (5+ acres) also 0 features in the sample bbox. Official county parcel viewer (qPublic/Schneider) returns a Cloudflare 403 to automated access. Other parcel data found is commercial vendor shapefiles, not county-published. waltoncountypropertyappraiser.org is Walton County, Florida.",
+  "recorded_at": 1792048966176,
+  "recheck_after": 1807600966176,
+  "model": "claude-haiku-5-5"
+}

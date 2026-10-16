@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "nc-gates",
+  "publisher": "NC OneMap (NC1Map Parcels, compiled from Gates County data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37073"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "land_use": "parusecode",
+    "assessed_value": "parval"
+  },
+  "filter": "cntyfips = '073'",
+  "notes": "Statewide NC OneMap parcel layer; county subset via cntyfips",
+  "verification": {
+    "verified_at": 1792051352192,
+    "counties": [
+      "37073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

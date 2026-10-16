@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21055",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.crittendencountyky.org/",
+    "https://qpublic.schneidercorp.com/Application.aspx",
+    "https://kygisserver.ky.gov/arcgis/rest/services?f=json",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0"
+  ],
+  "note": "Crittenden County's only public parcel source is the Schneider qPublic PVA viewer (qpublic.net/ky/crittenden), which returns HTTP 403 Access Denied / bot-check to automated access, so no queryable parcel service was found. The state kygisserver WGS84WM_Services folder has PVA parcel services only for Webster County (Ky_PVA_Webster_Parcels_WGS84WM), none for Crittenden. The KYTC PVA availability layer lists CRITTENDEN as 'Without Ownership'. Searches of ArcGIS Hub/Online returned no Crittenden parcel service; the remaining Crittenden parcel sources are commercial (Regrid, DynamoSpatial, Acres, AcreValue, Rockford Map, Equator).",
+  "recorded_at": 1792049419796,
+  "recheck_after": 1807601419796,
+  "model": "claude-haiku-5-5"
+}

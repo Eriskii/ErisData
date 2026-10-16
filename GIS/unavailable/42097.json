@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "42097",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gis.norrycopa.net/arcgis/rest/services/Parcels/MapServer",
+    "https://services6.arcgis.com/drkDXByy6E3bYW3a/arcgis/rest/services/northumberland_county_pa_parcels/FeatureServer"
+  ],
+  "note": "County's parcel MapServer (gis.norrycopa.net, layer 2) is unreachable over HTTPS from the validator across several attempts; HTTP is refused. The AGOL copy requires a token, PASDA statewide has no Northumberland records, and no other public service covers the county.",
+  "recorded_at": 1792051665356,
+  "recheck_after": 1807603665356,
+  "model": "claude-sonnet-5-5"
+}

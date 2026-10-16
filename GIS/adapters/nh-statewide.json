@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "nh-statewide",
+  "publisher": "NH GRANIT / NH Dept. of Revenue Administration (NH Parcel Mosaic)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://nhgeodata.unh.edu/hosting/rest/services/Hosted/CAD_ParcelMosaic/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "NH"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "Name",
+    "address": "StreetAddress",
+    "land_use": "SLUC"
+  },
+  "notes": "Tax parcel polygons compiled by NH GRANIT from municipal data; communities with polygon topology only (line-only communities are in separate layers). Public ArcGIS service.",
+  "verification": {
+    "verified_at": 1792048285617,
+    "counties": [
+      "33001",
+      "33003",
+      "33005",
+      "33009",
+      "33011",
+      "33013",
+      "33015",
+      "33017",
+      "33019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

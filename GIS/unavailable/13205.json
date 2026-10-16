@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "13205",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=MitchellCountyGA&Layer=Parcels&PageType=Search",
+    "https://qpublic.net/ga/mitchell/",
+    "https://www.mitchellcountyga.net/taxassessor.html",
+    "https://www.dynamospatial.com/c/mitchell-county-ga/parcel-data",
+    "https://app.regrid.com/us/ga/mitchell"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web. Mitchell County (13205) publishes no public ArcGIS REST parcel service or file download. Its parcel viewer is qPublic (Schneider Corp web app; no public REST endpoint found; returns 403 to automated reads). The county assessor page links only to qPublic. Parcel data appears only via commercial vendors (Dynamo Spatial, Regrid, Acres, Equator Studios), which are not county-published. Dougherty County's Parcels_Public_View service covers Dougherty only.",
+  "recorded_at": 1792048849260,
+  "recheck_after": 1807600849260,
+  "model": "claude-haiku-5-5"
+}

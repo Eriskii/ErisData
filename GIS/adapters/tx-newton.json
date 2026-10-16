@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-newton",
+  "publisher": "Newton Central Appraisal District (BIS Consultants)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/j94FvPaik4etwHFk/arcgis/rest/services/NewtonCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48351"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Appraisal district CAD web service; public. Situs address split across situs_num/situs_street_prefx/situs_street/situs_street_sufix.",
+  "verification": {
+    "verified_at": 1792051722853,
+    "counties": [
+      "48351"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

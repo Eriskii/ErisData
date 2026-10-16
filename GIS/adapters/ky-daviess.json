@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ky-daviess",
+  "publisher": "City of Owensboro / OMPC GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.owensboro.org/arcgis/rest/services/OMPC/OMPC/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21059"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "Name",
+    "address": "prop_addre",
+    "acres": "ACRES"
+  },
+  "notes": "Owensboro-Metropolitan Planning Commission parcels, countywide 48023 features",
+  "verification": {
+    "verified_at": 1792049814520,
+    "counties": [
+      "21059"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

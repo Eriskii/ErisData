@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "id": "wv-statewide",
+  "publisher": "West Virginia GIS Technical Center (WVU) / WVGIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.wvgis.wvu.edu/arcgis/rest/services/Planning_Cadastre/WV_Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "WV"
+    ]
+  },
+  "fields": {
+    "apn": "GISPID",
+    "owner": "FullOwnerName",
+    "address": "FullPhysicalAddress",
+    "acres": "CALC_ACRE"
+  },
+  "notes": "Statewide WV parcels aggregated from county data; ~1.39M features; COUNTY field present; source CRS 3857",
+  "verification": {
+    "verified_at": 1792048332026,
+    "counties": [
+      "54001",
+      "54003",
+      "54005",
+      "54007",
+      "54009",
+      "54011",
+      "54013",
+      "54017",
+      "54019",
+      "54021",
+      "54023",
+      "54025",
+      "54027",
+      "54029",
+      "54031",
+      "54033",
+      "54035",
+      "54037",
+      "54039",
+      "54041",
+      "54043",
+      "54045",
+      "54049",
+      "54051",
+      "54053",
+      "54055",
+      "54057",
+      "54059",
+      "54061",
+      "54063",
+      "54065",
+      "54067",
+      "54069",
+      "54071",
+      "54073",
+      "54075",
+      "54077",
+      "54079",
+      "54081",
+      "54085",
+      "54087",
+      "54089",
+      "54091",
+      "54093",
+      "54095",
+      "54097",
+      "54099",
+      "54101",
+      "54103",
+      "54107",
+      "54109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

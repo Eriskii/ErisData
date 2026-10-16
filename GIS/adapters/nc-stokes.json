@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-stokes",
+  "publisher": "Stokes County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://stokescountygis.com/server/rest/services/ParcelsNew/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37169"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "PROPERTY_OWNER_1",
+    "address": "PHYSICAL_ADDRESS",
+    "acres": "CALCULATED_ACREAGE",
+    "land_use": "LAND_CLASS"
+  },
+  "notes": "Stokes County GIS parcels layer (ParcelsNew MapServer layer 2); 32k features; public",
+  "verification": {
+    "verified_at": 1792051382822,
+    "counties": [
+      "37169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

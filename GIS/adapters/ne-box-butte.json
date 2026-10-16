@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ne-box-butte",
+  "publisher": "Box Butte County Assessor (gWorks/MapServer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Box_Butte_County_NE_Assessor/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31013"
+    ]
+  },
+  "fields": {
+    "apn": "PID"
+  },
+  "notes": "Box Butte County NE assessor parcels via gWorks mapserver. Only PID is exposed (no owner/address/value fields). ~8,500 parcels.",
+  "verification": {
+    "verified_at": 1792051228527,
+    "counties": [
+      "31013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-kankakee",
+  "publisher": "Kankakee County GIS (K3GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://k3gis.net/arcgis/rest/services/Cadastral/Tax_Parcels_and_Subdivisions_2025/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17091"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_number",
+    "owner": "owner1_name",
+    "address": "site_address",
+    "acres": "gross_acres",
+    "land_use": "use_code",
+    "assessed_value": "eav"
+  },
+  "notes": "Kankakee County tax parcels and subdivisions, 2025 publishing service (view-only rights)",
+  "verification": {
+    "verified_at": 1792048936634,
+    "counties": [
+      "17091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-hardeman",
+  "publisher": "Hardeman County Appraisal District (via pandai)",
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://gisdata.pandai.com/pamaps02/rest/services/Hardeman/HardemanCADPublic/MapServer/0/query?where=1%3D1&geometry=-99.9980,34.0558,-99.4751,34.5793&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "48197"
+    ]
+  },
+  "fields": {
+    "apn": "HardemanCADWeb.DBO.TaxParcels.Name",
+    "owner": "HardemanCADWeb.DBO.Accounts.Owner_Name",
+    "acres": "HardemanCADWeb.DBO.Accounts.Acres",
+    "land_use": "HardemanCADWeb.DBO.Accounts.Primary_Category_Code"
+  },
+  "notes": "Hardeman CAD public MapServer; no pagination, server cap 2000 records per query; market value not populated, situs address sparse (Prop_Street)",
+  "verification": {
+    "verified_at": 1792053152323,
+    "counties": [
+      "48197"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-coweta",
+  "publisher": "Coweta County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://coweta-gis-web.coweta.ga.us/arcgis/rest/services/WinGapParcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13077"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "OwnerName",
+    "address": "StreetAddress",
+    "acres": "TotalAcres",
+    "land_use": "TaxDistrict",
+    "assessed_value": "CurrentValue"
+  },
+  "notes": "Coweta County GIS WinGapParcels layer (county ArcGIS server, public). Source spatial ref 2240; runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792048747820,
+    "counties": [
+      "13077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13169",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=JonesCountyGA&Layer=Parcels&PageType=Search",
+    "https://gis.districtiii.org/Jones",
+    "https://jonescountygataxassessor.com/",
+    "https://www.dynamospatial.com/c/jones-county-ga/parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Jones County GA parcel services. Only county parcel access found is the qPublic (Schneider) viewer, which exposes no public ArcGIS REST parcel service and is blocked to automated access. gis.districtiii.org/Jones is a South Dakota server, not Georgia. The only ArcGIS parcel layer found (services3.arcgis.com/2apYAev6EzpKDen5 Parcels/0, 40 features) is a Salamander Springs study-area extract, not county tax parcels. Commercial sources (Dynamo, Regrid) are paid downloads.",
+  "recorded_at": 1792048845680,
+  "recheck_after": 1807600845680,
+  "model": "claude-haiku-5-5"
+}

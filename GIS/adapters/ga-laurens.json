@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-laurens",
+  "publisher": "Laurens County GA (GDIT-hosted parcel layer, ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/ISpzx3B5ZsVA6e1Z/ArcGIS/rest/services/Laurens_Web_Map_WFL1/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13175"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "owner": "Owner",
+    "address": "Road",
+    "acres": "Calc_Acres",
+    "land_use": "Class",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Parcels layer from Laurens_Web_Map_WFL1 service; PIN and Realkey also available",
+  "verification": {
+    "verified_at": 1792048852854,
+    "counties": [
+      "13175"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

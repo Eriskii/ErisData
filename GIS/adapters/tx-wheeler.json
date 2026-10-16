@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-wheeler",
+  "publisher": "TxGIO StratMap Texas Land Parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48483"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "LEGAL_AREA"
+  },
+  "filter": "COUNTY = 'Wheeler'",
+  "notes": "TxGIO StratMap; source Wheeler Appraisal District 2024; value/land use unpopulated",
+  "verification": {
+    "verified_at": 1792053545323,
+    "counties": [
+      "48483"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-crawford",
+  "publisher": "Arkansas GIS Office (CAMP parcel polygons), Crawford County",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/MapServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05033"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '033'",
+  "notes": "Statewide CAMP parcel polygons, not legal boundary; only parcels with CAMA records; filtered to Crawford countyfips 033",
+  "verification": {
+    "verified_at": 1792048523023,
+    "counties": [
+      "05033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

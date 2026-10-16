@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-freeborn",
+  "publisher": "Freeborn County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/K2EK2rX46vJK2a3W/arcgis/rest/services/Freeborn_County_Parcel_Info/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27047"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "DEEDHOLDER",
+    "address": "ADDRESS",
+    "acres": "CALCACRES"
+  },
+  "notes": "Freeborn County MN parcel info layer hosted on tim.fulton ArcGIS Online org; 22k features; no land use or value fields",
+  "verification": {
+    "verified_at": 1792050892578,
+    "counties": [
+      "27047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

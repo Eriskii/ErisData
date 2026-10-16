@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "la-lincoln",
+  "publisher": "Lincoln Parish Public Works GIS (LPPJWO)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.lincolnparish.org/arcgis/rest/services/LPPJWO/MapServer/31",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22061"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelId",
+    "owner": "OwnerName",
+    "address": "AdrLabel",
+    "land_use": "ParcelType",
+    "assessed_value": "AssesValue"
+  },
+  "notes": "Parish parcel layer from public works MapServer; same parcel schema as assessor layer. Assessor layer 5 returns null geometry, so this layer is used.",
+  "verification": {
+    "verified_at": 1792049843676,
+    "counties": [
+      "22061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

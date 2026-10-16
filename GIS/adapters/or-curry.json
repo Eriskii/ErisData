@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "or-curry",
+  "publisher": "Oregon Dept. of Transportation (Curry County Taxlots, AMES)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.odot.state.or.us/arcgis1006/rest/services/ames/ames/MapServer/31",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41015"
+    ]
+  },
+  "fields": {
+    "apn": "MapTaxlot",
+    "address": "MapNumber"
+  },
+  "notes": "Curry County taxlot polygons from ODOT AMES MapServer layer 31; owner not published in this layer",
+  "verification": {
+    "verified_at": 1792051490523,
+    "counties": [
+      "41015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ar-hempstead",
+  "publisher": "Hempstead County, AR (Parcel Ownership from Assessor, hosted by hopegis)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/RVMSajYQji1bjmZ4/arcgis/rest/services/Parcel_Ownership/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05057"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelId",
+    "owner": "OwnerName",
+    "address": "AdrLabel"
+  },
+  "notes": "Assessor-derived parcel polygons for Hempstead County AR; source is a county-hosted ArcGIS service.",
+  "verification": {
+    "verified_at": 1792048577891,
+    "counties": [
+      "05057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

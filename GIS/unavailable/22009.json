@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "22009",
+  "reason": "login-required",
+  "evidence": [
+    "https://gissrv1.romlc.net/arcgis/rest/services/WebMaps/LA_Assessors/MapServer/2",
+    "https://services8.arcgis.com/g1eUGM6NUcD0Fk5p/arcgis/rest/services/LandGrid_Parcels/FeatureServer",
+    "https://efsedge.com/arcgis/rest/services/Avoyelles_Parish",
+    "https://www.efsedge.com/avoyelles/",
+    "https://www.avoypj.org"
+  ],
+  "note": "Avoyelles Parish (FIPS 22009) parcel polygons are not publicly queryable. The only ArcGIS layer titled 'Parcels - LA - Avoyelles Parish' (gissrv1.romlc.net LA_Assessors MapServer/2) returns 'Token Required' for the layer and the service root. The EFS Edge assessor ArcGIS directory (efsedge.com/arcgis/rest, Avoyelles_Parish folder) redirects to an EFS login page. The assessor viewer at efsedge.com/avoyelles is browser-only with no exposed service. LandGrid parcels (services8.arcgis.com) also require a token. The parish website lists no GIS or parcel service. Remaining parcel sources (Regrid, Dynamo Spatial, Acres) are commercial.",
+  "recorded_at": 1792049891888,
+  "recheck_after": 1807601891888,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21065",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=1162&LayerID=31497&PageTypeID=30&PageID=12816",
+    "https://estillky.com/estill-property-valuation-administrator/",
+    "https://kygisserver.ky.gov/arcgis/rest/services?f=json",
+    "https://opengisdata.ky.gov/api/search/v1/collections/dataset/items?q=Estill&limit=100"
+  ],
+  "note": "Estill County PVA publishes parcels only through its qPublic (Schneider) web viewer, which exposes no public ArcGIS REST or bulk download. The Kentucky state server (kygisserver.ky.gov) hosts PVA parcels only for Webster County. KyGovMaps open-data search returns no Estill parcel dataset. ArcGIS Hub/Online searches found no Estill parcel service. Only commercial vendors (Dynamo, Rockford, ReportAllUSA, Regrid, Acres) sell Estill parcels.",
+  "recorded_at": 1792049476125,
+  "recheck_after": 1807601476125,
+  "model": "claude-haiku-5-5"
+}

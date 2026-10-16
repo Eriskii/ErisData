@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21189",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://countygismaps.com/ky/owsley",
+    "https://kypvas.ky.gov",
+    "https://qpublic.net/ky/kypvas/",
+    "https://www.qpublic.net/ky/owsley/search.html",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=OwsleyCountyKY&Layer=Parcels&PageType=Search"
+  ],
+  "note": "Searched ArcGIS Hub/Online for Owsley parcels (no results), searched the Kentucky state server kygisserver WGS84WM folder (only Webster County PVA parcels, no Owsley), and searched LOJIC/KyGeoNet (no Owsley coverage). countygismaps.com says Owsley parcel records are not available yet. The only parcel viewer found is qPublic/Schneider (proprietary Application.aspx viewer, not a public ArcGIS REST service), so no queryable parcel service is published.",
+  "recorded_at": 1792049865104,
+  "recheck_after": 1807601865104,
+  "model": "claude-haiku-5-5"
+}

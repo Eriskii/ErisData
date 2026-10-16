@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-martin",
+  "publisher": "Texas Land Parcels (statewide, Martin Appraisal District data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "48317"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA"
+  },
+  "filter": "FIPS = '48317'",
+  "notes": "Statewide aggregated layer filtered to Martin County; value/land use unpopulated; geojson mode times out",
+  "verification": {
+    "verified_at": 1792053556973,
+    "counties": [
+      "48317"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

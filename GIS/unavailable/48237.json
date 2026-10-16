@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "48237",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap_land_parcels_48_most_recent/MapServer/0",
+    "https://feature.tnris.org/arcgis/rest/services/Parcels/stratmap24_land_parcels_48/MapServer",
+    "https://jackcad.org/home/map",
+    "https://jackcad.org/home/DataRecords"
+  ],
+  "note": "StratMap 48 'most recent' layer advertises Query but every query returns 'Requested operation is not supported by this service' (HTTP 400), so it only serves map images. The TNRIS StratMap county-48 services (feature.tnris.org, 2019/2022/2024/2025) were unreachable from my environment and from the validator. Jack CAD (jackcad.org) publishes only an interactive map and a CSV certified roll, no public parcel service or shapefile. Other Jack County parcel sources are paid vendor products (DGN, shapefile, Dynamo, ReportAll, TaxNet Pro map), which do not qualify.",
+  "recorded_at": 1792051798690,
+  "recheck_after": 1807603798690,
+  "model": "claude-haiku-5-5"
+}

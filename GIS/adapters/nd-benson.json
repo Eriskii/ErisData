@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nd-benson",
+  "publisher": "Benson County GIS (via Magnasoft/ArcGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/Parcel_BensonND/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38005"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Owner_Name_1",
+    "address": "Situs_Address",
+    "acres": "CalculatedAcres",
+    "assessed_value": "True_Full_Value"
+  },
+  "notes": "Benson County ND parcel layer; single-county service. Land use not populated in source.",
+  "verification": {
+    "verified_at": 1792051408105,
+    "counties": [
+      "38005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

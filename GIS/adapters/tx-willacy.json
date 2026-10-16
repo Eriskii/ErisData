@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-willacy",
+  "publisher": "Willacy County Appraisal District",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/HXKJeileNKFB6FPd/arcgis/rest/services/WillacyCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48489"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Willacy CAD web service (WillacyCADWebService), public parcel layer; 14,185 features. Situs street address is sparse, so not mapped.",
+  "verification": {
+    "verified_at": 1792051774590,
+    "counties": [
+      "48489"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

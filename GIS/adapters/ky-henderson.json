@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ky-henderson",
+  "publisher": "Henderson County KY GIS (HCCGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Iwwqwcdc5CWG2jt9/arcgis/rest/services/pcls/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21101"
+    ]
+  },
+  "fields": {
+    "apn": "PIDN",
+    "acres": "GIS_ACRES"
+  },
+  "notes": "Hosted by Henderson City/County GIS via ArcGIS Online; layer pcls. No owner or street address field published in this layer; LOCATION holds city/county jurisdiction only.",
+  "verification": {
+    "verified_at": 1792049805608,
+    "counties": [
+      "21101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

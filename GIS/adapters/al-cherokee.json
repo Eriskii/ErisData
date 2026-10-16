@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-cherokee",
+  "publisher": "Cherokee County AL (KCS GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://web3.kcsgis.com/kcsgis/rest/services/Cherokee/Public/MapServer/116",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01019"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "Owner",
+    "assessed_value": "TAV"
+  },
+  "notes": "CalcAcres sparsely filled; PropertyClass empty",
+  "verification": {
+    "verified_at": 1792048362088,
+    "counties": [
+      "01019"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

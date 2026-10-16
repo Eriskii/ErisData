@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mi-emmet",
+  "publisher": "Emmet County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.emmetcounty.org/arcgis/rest/services/ParcelPublicAccess/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26047"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "address": "SITEADDRESS",
+    "land_use": "USECD"
+  },
+  "notes": "Michigan Emmet County public access tax parcel layer (TaxParcel_1K, ParcelPublicAccess MapServer); PARCELID is the parcel number. Owner name not published in this layer except a second-owner field, so omitted.",
+  "verification": {
+    "verified_at": 1792049928592,
+    "counties": [
+      "26047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

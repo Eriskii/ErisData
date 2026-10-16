@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wi-clark",
+  "publisher": "Wisconsin Statewide Parcel Map Initiative (WI DOA / State Cartographer), Clark County records",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/n6uYoouQZW75n5WI/arcgis/rest/services/Wisconsin_Statewide_Parcels_DB/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55019"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "acres": "GISACRES",
+    "assessed_value": "CNTASSDVALUE"
+  },
+  "filter": "PARCELFIPS = '019' AND CONAME = 'CLARK'",
+  "notes": "Statewide V12 layer filtered to Clark County (PARCELFIPS 019). Site address and property class are sparsely populated in the source, so not mapped.",
+  "verification": {
+    "verified_at": 1792045230304,
+    "counties": [
+      "55019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

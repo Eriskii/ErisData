@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ga-appling",
+  "publisher": "Appling County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/Appling_County_Wide_View/FeatureServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13001"
+    ]
+  },
+  "fields": {
+    "apn": "PIN"
+  },
+  "notes": "Appling County GIS Wide_View service, layer TaxParcels25; only PIN and shape fields published (no owner/address/value).",
+  "verification": {
+    "verified_at": 1792048727220,
+    "counties": [
+      "13001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

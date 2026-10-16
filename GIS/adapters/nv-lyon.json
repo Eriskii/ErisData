@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nv-lyon",
+  "publisher": "Lyon County NV GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lyon-county.org/server/rest/services/Landbase/Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32019"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "PANAME",
+    "address": "PHY_ADDR",
+    "acres": "PACRES",
+    "land_use": "YLDUSE",
+    "assessed_value": "YNETV"
+  },
+  "notes": "Lyon County NV Assessor parcels joined to assessor data; county web app layer",
+  "verification": {
+    "verified_at": 1792051331354,
+    "counties": [
+      "32019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

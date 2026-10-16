@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-charlton",
+  "publisher": "Charlton County GA (CoreLogic-derived parcel layer, CGRUSER_USG)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/PYn6bWCjT6bhw1z3/arcgis/rest/services/Charlton_GA_Parcel/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13049"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "acres": "LAND_ACRES",
+    "land_use": "LAND_USE",
+    "assessed_value": "ASSD_VAL"
+  },
+  "notes": "Public ArcGIS layer; CoreLogic-derived attributes. Owner name and full site address not present as single fields; owner and address left unmapped.",
+  "verification": {
+    "verified_at": 1792048737066,
+    "counties": [
+      "13049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

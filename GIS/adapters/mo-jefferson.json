@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mo-jefferson",
+  "publisher": "Jefferson County, MO GIS (Assessor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ur3TPhgM56qvxaar/arcgis/rest/services/Tax_Parcels/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29099"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "owner_name",
+    "address": "Situs",
+    "acres": "calc_acres",
+    "land_use": "prop_class"
+  },
+  "notes": "Layer from Jefferson County MO Property Viewer config; 106k parcels; spatial reference 102696",
+  "verification": {
+    "verified_at": 1792050956667,
+    "counties": [
+      "29099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

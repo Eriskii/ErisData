@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21121",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.net/ky/knox/contactus.html",
+    "https://qpublic.schneidercorp.com/Application.aspx",
+    "https://revenue.ky.gov/Property/Mapping-Services/Pages/default.aspx",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services"
+  ],
+  "note": "Knox County KY (21121) parcels are published only through the qPublic/Schneider PVA viewer (web app, no public ArcGIS REST parcel service found). The KY state ArcGIS server hosts PVA parcel services for other counties (e.g. Ky_PVA_Webster_Parcels) but none for Knox. Kentucky Dept of Revenue says GIS parcel data is sold per request via the local PVA. Commercial vendors (Regrid, Dynamo, Acres) are not county sources. Knox County TN (KGIS) was ruled out as a name clash.",
+  "recorded_at": 1792049869453,
+  "recheck_after": 1807601869453,
+  "model": "claude-haiku-5-5"
+}

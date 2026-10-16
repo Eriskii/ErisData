@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-hamilton",
+  "publisher": "Hamilton County, NE (via gworks SimpleRoads MGMT service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis3.gworks.com/arcgis/rest/services/Hamilton_County_NE_SimpleRoads_MGMT/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31081"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "ACRES"
+  },
+  "notes": "Parcels layer from the county road-management MapServer; only PID and ACRES fields published. Polygons in EPSG:3857.",
+  "verification": {
+    "verified_at": 1792051160383,
+    "counties": [
+      "31081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

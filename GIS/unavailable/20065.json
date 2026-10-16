@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20065",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.arcgis.com/sharing/rest/content/items/b55dd57f309045a69fbf62a9ad07cbf5/data?f=json",
+    "https://services.arcgis.com/rr5PkYU3R3HXxyDH/arcgis/rest/services/Graham_County_Parcels_New/FeatureServer/9",
+    "https://www.grahamcountyks.com/appraiser",
+    "https://orkahub.kansasgis.org/",
+    "https://www.dynamospatial.com/c/graham-county-ks/parcel-data"
+  ],
+  "note": "The Graham County Parcels viewer (experience b55dd57f...) draws parcels from services.arcgis.com/rr5PkYU3R3HXxyDH Graham_County_Parcels_New, but that service is Graham County, Arizona (Safford, Pima, Thatcher layers); its Parcels layer returned 0 parcels near the Kansas sample point. No Kansas Graham County parcel REST service was found on ArcGIS Hub/Online, the county appraiser site (only a Parcel Search web app), KDOR/KGS services (tax units only), or the DASC hub. ORKA requires a request for county GIS parcel data; commercial sources (Dynamo Spatial, Acres, Regrid) are not public services; Regrid tile-only MapServer does not support queries; Integritygis Kansas services require a token.",
+  "recorded_at": 1792049405670,
+  "recheck_after": 1807601405670,
+  "model": "claude-haiku-5-5"
+}

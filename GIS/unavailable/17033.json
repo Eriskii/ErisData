@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "17033",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/CrawfordILFeatures/FeatureServer/3",
+    "https://ccauditor.crawford-co.org/gis/",
+    "https://crawfordcountyil.org/assessor/"
+  ],
+  "note": "Only ArcGIS Online parcel layer found for Crawford County IL (GDITAdmin, CrawfordILFeatures/FeatureServer/3) returns 400 Invalid URL on every request, including metadata and query. The county's official GIS is a Beacon (Schneider) viewer, not a public REST parcel service. Remaining parcel sources are commercial (Regrid, Dynamo Spatial, Rockford Map, Acres).",
+  "recorded_at": 1792048973900,
+  "recheck_after": 1807600973900,
+  "model": "claude-haiku-5-5"
+}

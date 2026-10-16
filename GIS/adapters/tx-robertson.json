@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-robertson",
+  "publisher": "Robertson Central Appraisal District (bis_robertsoncad)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/vP5EglcJd79Dd1TJ/arcgis/rest/services/RobertsonCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48395"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage"
+  },
+  "notes": "Robertson CAD public ArcGIS web service; situs_street is street name only; value and land use fields are empty in this service",
+  "verification": {
+    "verified_at": 1792051739805,
+    "counties": [
+      "48395"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13123",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services.arcgis.com/ISpzx3B5ZsVA6e1Z/ArcGIS/rest/services/Gilmer_Parcels/FeatureServer/0",
+    "https://www.arcgis.com/sharing/rest/content/items/b9457b9c0d664078b5226d25f6294223?f=json",
+    "https://qpublic.schneidercorp.com/Application.aspx"
+  ],
+  "note": "Only ArcGIS candidate for Gilmer County GA parcels (GDITAdmin 'Parcels - GA - Gilmer County') returns 'Invalid URL' from its FeatureServer/0 endpoint in every form tried, is absent from the org's service directory, and its item returns 403 'Subscription is canceled, the item is not accessible'. Gilmer's official viewer is qPublic (Schneider), behind a Cloudflare challenge with no public REST endpoint. Only commercial paid parcel downloads (Regrid, Dynamo Spatial, Equator Studios) were found; no county-published queryable service.",
+  "recorded_at": 1792048815119,
+  "recheck_after": 1807600815119,
+  "model": "claude-haiku-5-5"
+}

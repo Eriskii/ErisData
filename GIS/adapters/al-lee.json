@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-lee",
+  "publisher": "Lee County, AL (via PowerSouth Alabama Parcel Data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/28",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01081"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Lee County parcels from PowerSouth Alabama Parcel Data hosted service (layer 28 of Alabama_Parcel_Data). Land use description field is empty in this source, so not mapped.",
+  "verification": {
+    "verified_at": 1792048399940,
+    "counties": [
+      "01081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

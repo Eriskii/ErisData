@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-maverick",
+  "publisher": "Maverick County Appraisal District (via ArcGIS Online service Maverick_County_Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Mm1BAVEiAXrYE9vn/arcgis/rest/services/Maverick_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48323"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "FILEASNAME",
+    "acres": "LEGALACREA",
+    "land_use": "ASCODE",
+    "assessed_value": "OWNERMARKE"
+  },
+  "notes": "Community-hosted copy of Maverick CAD parcel ownership layer; ArcGIS Online item by AlainaEllis. Situs address (STREETNAME) is sparse, so not mapped.",
+  "verification": {
+    "verified_at": 1792051724277,
+    "counties": [
+      "48323"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

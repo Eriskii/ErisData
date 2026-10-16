@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ne-adams",
+  "publisher": "Adams County, Nebraska GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.adamscounty.org/arcgis/rest/services/Land_Use25/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31001"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "PartyName",
+    "acres": "acres"
+  },
+  "notes": "Adams County NE GIS parcels (2025 layer). Situs address (Property_Address) is blank for most rural parcels, so address is not mapped. Mailing address fields exist but are owner mailing addresses, not parcel sites.",
+  "verification": {
+    "verified_at": 1792051055375,
+    "counties": [
+      "31001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-mcintosh",
+  "publisher": "McIntosh County GIS (via CRC / SEGRASS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://portal.segrass.org/crcarcgis/rest/services/McIntosh/Property_Data/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13191"
+    ]
+  },
+  "fields": {
+    "apn": "GISParcelNumber",
+    "address": "Name",
+    "acres": "StatedArea"
+  },
+  "notes": "McIntosh County TaxParcels layer served by Coastal Regional Commission (SEGRASS). No owner field published in this layer.",
+  "verification": {
+    "verified_at": 1792048819230,
+    "counties": [
+      "13191"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

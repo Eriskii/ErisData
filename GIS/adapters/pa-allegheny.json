@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-allegheny",
+  "publisher": "Allegheny County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisdata.alleghenycounty.us/arcgis/rest/services/OPENDATA/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42003"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "CALCACREAGE"
+  },
+  "notes": "Allegheny County open data parcel boundaries; limited attributes (no owner, address or assessed value in this layer). MAPBLOCKLOT is a block-lot id, not mapped as address.",
+  "verification": {
+    "verified_at": 1792051495495,
+    "counties": [
+      "42003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

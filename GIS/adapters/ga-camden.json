@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-camden",
+  "publisher": "Camden County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/feUM6sTOP0Mfde8s/arcgis/rest/services/CamdenParcel_12132021/FeatureServer/122",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13039"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "acres": "Area",
+    "land_use": "Tax_District"
+  },
+  "notes": "Camden County GA 2023 tax parcels (Parcel_TaxYear2023), county ArcGIS Online hosted layer; owner and address not published in this layer",
+  "verification": {
+    "verified_at": 1792048738299,
+    "counties": [
+      "13039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

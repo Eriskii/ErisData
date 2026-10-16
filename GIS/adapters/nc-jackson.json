@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-jackson",
+  "publisher": "Jackson County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.jacksonnc.org/jcgis/rest/services/Tax_Admin/Parcels_Cached/FeatureServer/2",
+    "page_size": 32,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37099"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "CurrentOwner1",
+    "address": "PropAddr",
+    "acres": "AssessedAcres",
+    "land_use": "PropDesc",
+    "assessed_value": "TaxableValue"
+  },
+  "notes": "Jackson County NC tax parcels, Parcels_Cached layer; last updated Feb 2024 per open data hub",
+  "verification": {
+    "verified_at": 1792051371891,
+    "counties": [
+      "37099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

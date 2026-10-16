@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-wayne",
+  "publisher": "Wayne County GIS (PA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/VMKRr2Ecl6EFwJpm/arcgis/rest/services/TaxParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42127"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "Name",
+    "acres": "GISACRE",
+    "land_use": "LANDUSE",
+    "assessed_value": "TOTALVAL"
+  },
+  "notes": "Wayne County PA tax parcels from ArcGIS Hub (jzarnowski); maintained for assessment and public reference",
+  "verification": {
+    "verified_at": 1792051783523,
+    "counties": [
+      "42127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

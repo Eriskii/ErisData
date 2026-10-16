@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "co-denver",
+  "publisher": "City and County of Denver (Geospatial Denver open data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/ArcGIS/rest/services/ODC_PROP_PARCELS_A/FeatureServer/245",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08031"
+    ]
+  },
+  "fields": {
+    "apn": "SCHEDNUM",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDRESS_LINE1",
+    "land_use": "D_CLASS_CN",
+    "assessed_value": "ASSESSED_TOTAL_VALUE_LOCAL"
+  },
+  "notes": "City and County of Denver open data parcels; geometry not survey grade; source CRS EPSG:2877",
+  "verification": {
+    "verified_at": 1792048671043,
+    "counties": [
+      "08031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-loving",
+  "publisher": "TxGIO StratMap Texas Land Parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48301"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "assessed_value": "LAND_VALUE"
+  },
+  "filter": "FIPS = '48301'",
+  "notes": "TxGIO statewide parcels; Loving CAD source",
+  "verification": {
+    "verified_at": 1792053567179,
+    "counties": [
+      "48301"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ma-berkshire",
+  "publisher": "MassGIS (Massachusetts Executive Office of Technology and Security Services)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgisserver.digital.mass.gov/arcgisserver/rest/services/AGOL/MassachusettsPropertyTaxParcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25003"
+    ]
+  },
+  "fields": {
+    "apn": "MAP_PAR_ID",
+    "acres": "SHAPE.AREA"
+  },
+  "filter": "TOWN_ID IN (4, 6, 23, 58, 63, 113, 209, 236, 341)",
+  "notes": "MassGIS statewide tax parcels filtered to Berkshire County towns by MassGIS TOWN_ID (alphabetical 1-351). SITE and LU_CODES are mostly empty in this layer; SHAPE.AREA is square feet.",
+  "verification": {
+    "verified_at": 1792049975442,
+    "counties": [
+      "25003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-northampton",
+  "publisher": "NC OneMap (NC Center for Geographic Information & Analysis) – Northampton County parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37131"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "acres": "gisacres",
+    "land_use": "parusecode",
+    "assessed_value": "parval"
+  },
+  "filter": "cntyfips = '131'",
+  "notes": "NC OneMap statewide parcel layer (NC1Map_Parcels), filtered to county FIPS 131. Site address fields are empty for nearly all rural parcels, so no address is mapped. land_use is the state tax use code.",
+  "verification": {
+    "verified_at": 1792051422674,
+    "counties": [
+      "37131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

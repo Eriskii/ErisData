@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-hernando",
+  "publisher": "Hernando County Property Appraiser",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/x5zvhhxfUuRDntRe/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12053"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDRESS",
+    "acres": "ACRES",
+    "land_use": "CER_DOR_CODE",
+    "assessed_value": "CER_ASSESSED_CNTY"
+  },
+  "notes": "Hernando County Property Appraiser parcel layer (gis.V_PARCELS); public ArcGIS service",
+  "verification": {
+    "verified_at": 1792048782417,
+    "counties": [
+      "12053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-monroe",
+  "publisher": "Monroe County Revenue Commissioner (via Alabama Parcel Data, PowerSouth ArcGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/32",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01099"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "GISACRE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer 32 of PowerSouth Alabama_Parcel_Data service, Monroe County parcels only; 26,899 features; USEDESC and USECODE are mostly blank so land use not mapped",
+  "verification": {
+    "verified_at": 1792048397794,
+    "counties": [
+      "01099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

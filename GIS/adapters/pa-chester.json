@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-chester",
+  "publisher": "Chester County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/G4S1dGvn7PIgYd6Y/arcgis/rest/services/Parcels_owners/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42029"
+    ]
+  },
+  "fields": {
+    "apn": "PIN_COMMON",
+    "owner": "OWN1",
+    "address": "LOC_ADDRESS",
+    "acres": "ACRE_PLAN_TOT",
+    "land_use": "LUC",
+    "assessed_value": "TOT_ASSESS"
+  },
+  "notes": "Chester County PA open data parcels; mapped parcels are not survey-grade. Source in EPSG:2272 converted by server.",
+  "verification": {
+    "verified_at": 1792051509643,
+    "counties": [
+      "42029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

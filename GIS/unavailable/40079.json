@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "40079",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.actdatascout.com/Map/Index?countyId=40079",
+    "https://assessorsearch.com/property-records/oklahoma/le-flore-county",
+    "https://okmaps.org/ogi/RestDataAccessItem.aspx?UUID=1484707a-712a-4447-96a9-5a38affc600e",
+    "https://app.datacrosspoint.com/properties/leflore",
+    "https://www.dynamospatial.com/c/le-flore-county-ok/parcel-data"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web. No public queryable Le Flore County (40079) parcel service found. The county's GIS map is the actDataScout viewer (Map/Index?countyId=40079), which returns a 403 Azure WAF block and exposes no discoverable public ArcGIS endpoint. The statewide OKMaps parcel dataset is view-only via OGC WMS, not downloadable or REST-queryable. Commercial sources (Regrid, DynamoSpatial, Landmark GSI via datacrosspoint) are paid or licensed. OU CSA GIS warehouse has no Le Flore parcel layer. The OWRB parcels MapServer was unreachable.",
+  "recorded_at": 1792051590990,
+  "recheck_after": 1807603590990,
+  "model": "claude-haiku-5-5"
+}

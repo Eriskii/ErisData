@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-jackson",
+  "publisher": "Minnesota MnGeo (compiled from Jackson County opt-in parcel data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_mngeo/plan_parcels_open/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27063"
+    ]
+  },
+  "fields": {
+    "apn": "county_pin",
+    "owner": "owner_name",
+    "acres": "acres_poly",
+    "land_use": "useclass1",
+    "assessed_value": "emv_total"
+  },
+  "filter": "co_name = 'Jackson'",
+  "notes": "Minnesota statewide compiled open parcels (opt-in counties). Jackson County subset via co_name. Site address not populated in source.",
+  "verification": {
+    "verified_at": 1792050980168,
+    "counties": [
+      "27063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

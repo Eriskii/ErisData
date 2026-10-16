@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ia-johnson",
+  "publisher": "Johnson County Iowa GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.johnsoncountyiowa.gov/arcgis/rest/services/PDS/MapServer/26",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19103"
+    ]
+  },
+  "fields": {
+    "apn": "PPN",
+    "owner": "MailingName",
+    "address": "PropertyAddress",
+    "acres": "Acres_Net",
+    "land_use": "PropClass",
+    "assessed_value": "TotalValue_Assessed"
+  },
+  "notes": "County GIS PDS MapServer layer 26 (Parcels). Public service.",
+  "verification": {
+    "verified_at": 1792049154609,
+    "counties": [
+      "19103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-stone",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05137"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "countyfips = '137'",
+  "notes": "Statewide AR parcel polygons from Arkansas GIS Office CAMA; not a legal boundary; updated twice a year. Address field (adrlabel) is sparsely populated in source, so omitted.",
+  "verification": {
+    "verified_at": 1792048518746,
+    "counties": [
+      "05137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-tuolumne",
+  "publisher": "Tuolumne County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/4usxdjWKL0Lq9x6D/arcgis/rest/services/Tuolumne_County_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06109"
+    ]
+  },
+  "fields": {
+    "apn": "APN_Format",
+    "acres": "Acres"
+  },
+  "notes": "Tuolumne County cadastral parcels (Parcels_23_0711, published 2023). Situs address and land use fields are mostly blank in the source, so they are not mapped. No owner field in this layer.",
+  "verification": {
+    "verified_at": 1792048683270,
+    "counties": [
+      "06109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

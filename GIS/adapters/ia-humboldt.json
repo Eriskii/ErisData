@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-humboldt",
+  "publisher": "Iowa DHS&EM (hosted by University of Iowa), statewide parcels 2017",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19091"
+    ]
+  },
+  "fields": {
+    "apn": "UNPARCELID",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'HUMBOLDT'",
+  "notes": "Statewide Iowa parcel layer filtered to Humboldt County; no address or acreage fields in source",
+  "verification": {
+    "verified_at": 1792049292805,
+    "counties": [
+      "19091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

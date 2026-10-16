@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21183",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.ohiopva.com/",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=1159&LayerID=31236&PageTypeID=1",
+    "https://platbookmapper.com/kentucky/ohio-county/",
+    "https://kygovmaps-kygeonet.opendata.arcgis.com/"
+  ],
+  "note": "Searched ArcGIS Hub/Online, KyGovMaps/kygisserver directories, KYTC PVA availability layer, and Regrid. Ohio County KY parcels are only offered through the Schneider qPublic viewer (AppID=1159); no public ArcGIS REST parcel service or downloadable file was found. wfs.schneidercorp.com (Schneider-hosted REST directory) was unreachable from here, so no service could be confirmed. Regrid nationwide layer is not queryable.",
+  "recorded_at": 1792049945679,
+  "recheck_after": 1807601945679,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nm-roosevelt",
+  "publisher": "Roosevelt County (ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/ZEb47Ho06RmXcN4j/arcgis/rest/services/RooseveltCo_NM/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35041"
+    ]
+  },
+  "fields": {
+    "apn": "upc",
+    "owner": "NAME",
+    "address": "ADDRESS1"
+  },
+  "notes": "Mailing address, not situs",
+  "verification": {
+    "verified_at": 1792051661170,
+    "counties": [
+      "35041"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

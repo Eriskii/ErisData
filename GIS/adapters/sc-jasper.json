@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-jasper",
+  "publisher": "Jasper County GIS Initiatives (SC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/oJaBluQKw5aLHpzj/ArcGIS/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45053"
+    ]
+  },
+  "fields": {
+    "apn": "TaxPIN",
+    "acres": "GISAC"
+  },
+  "notes": "Jasper County SC parcels for taxing purposes; source spatial reference 2273 (SC State Plane feet), served as GeoJSON in WGS84 by the service. No owner or address fields published in this layer.",
+  "verification": {
+    "verified_at": 1792051611703,
+    "counties": [
+      "45053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

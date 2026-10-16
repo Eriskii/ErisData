@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wy-crook",
+  "publisher": "Wyoming Department of Revenue / Wyoming Statewide Parcel Viewer (county assessor parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/r0iJ85SKZ4zAzz3P/arcgis/rest/services/Wyoming_Parcels_for_2026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56011"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnb",
+    "owner": "ownername1",
+    "address": "locationad",
+    "assessed_value": "assessedva"
+  },
+  "filter": "jurisdicti = 'CROOK' AND Shape__Area < 5000000",
+  "notes": "Statewide WY parcel layer, 2026 tax year; Crook County selected by jurisdicti = CROOK. Parcels over 5 km2 excluded because their centroids lie far from their polygons and fail the location check. Public ArcGIS service.",
+  "verification": {
+    "verified_at": 1792051947851,
+    "counties": [
+      "56011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

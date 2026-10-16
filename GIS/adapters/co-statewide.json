@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "co-statewide",
+  "publisher": "Colorado Governor's Office of Information Technology (OIT) GIS Team",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "CO"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "owner",
+    "acres": "landAcres"
+  },
+  "notes": "Aggregated statewide from counties by OIT; updated annually; county via countyName/countyFips. Situs address, land use and assessed values are sparse or empty in some counties (e.g. Yuma), so only APN, owner and acres are mapped. Kiowa County returned no parcels in this composite at validation time.",
+  "verification": {
+    "verified_at": 1792048704711,
+    "counties": [
+      "08001",
+      "08123",
+      "08125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-waseca",
+  "publisher": "Waseca County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wasecacounty.gov/arcgis/rest/services/Public/Cadastral/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27161"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "acres": "LegalAcres",
+    "land_use": "CLASSDESCR"
+  },
+  "notes": "Published via Minnesota Geospatial Commons; county parcel layer from Schneider/Beacon Cadastral service",
+  "verification": {
+    "verified_at": 1792050899601,
+    "counties": [
+      "27161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

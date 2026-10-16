@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-statewide",
+  "publisher": "MassGIS (Massachusetts Executive Office of Technology and Security Services)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgisserver.digital.mass.gov/arcgisserver/rest/services/AGOL/MassachusettsPropertyTaxParcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "states": [
+      "MA"
+    ]
+  },
+  "fields": {
+    "apn": "MAP_PAR_ID"
+  },
+  "notes": "MassGIS statewide Property Tax Parcels, about 2.2M features, EPSG:26986. Owner, site address, assessed value and land use are not on this layer; they sit in the separate assessors database extract table, which this service does not expose. MAP_PAR_ID is blank for some parcels; LOC_ID is always populated.",
+  "verification": {
+    "verified_at": 1792048304351,
+    "counties": [
+      "25001",
+      "25007",
+      "25009",
+      "25013",
+      "25017",
+      "25019",
+      "25021",
+      "25025",
+      "25027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

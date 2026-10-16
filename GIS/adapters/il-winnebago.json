@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-winnebago",
+  "publisher": "Winnebago County GIS (WinGIS) via City of Rockford Parcel Viewer",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://rockgis.rockfordil.gov/arcgissvr/rest/services/Rockford_Parcel_Viewer/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17201"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OwnerLastName",
+    "address": "LOPStreetName"
+  },
+  "notes": "Parcel Ownership layer of the Rockford_Parcel_Viewer MapServer (City of Rockford GIS, covers Winnebago County). Owner first and last names are separate fields (OwnerFirstName). Assessment and land-use live in MapServer layer 15 (ParcelAssessment), not joined here. Address split into LOPHouseNumber, LOPPrefixDirectional, LOPStreetName, LOPStreetSuffix.",
+  "verification": {
+    "verified_at": 1792048995367,
+    "counties": [
+      "17201"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

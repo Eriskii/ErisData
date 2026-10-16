@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ga-glynn",
+  "publisher": "Glynn County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-web.glynncounty-ga.gov/gis-server/rest/services/Parcels/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13127"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID"
+  },
+  "notes": "Glynn County GIS tax parcel layer. Owner, situs address and assessed value are not published on this layer. PIN is an alternate parcel key; LEGAL_DESC and SUBDNAME are legal/subdivision descriptors, not owner or address.",
+  "verification": {
+    "verified_at": 1792048777930,
+    "counties": [
+      "13127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

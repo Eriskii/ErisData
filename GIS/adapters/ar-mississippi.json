@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-mississippi",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05093"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "County = 'Mississippi'",
+  "notes": "Statewide AR parcel polygons, not a legal boundary; filtered to County = Mississippi. Updated twice a year. Public service. assessed_value uses totalvalue because assessvalue is empty.",
+  "verification": {
+    "verified_at": 1792048537229,
+    "counties": [
+      "05093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

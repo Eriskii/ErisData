@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sc-spartanburg",
+  "publisher": "Spartanburg County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.spartanburgcounty.org/server/rest/services/OneMap/Tax_Parcels/MapServer/1",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45083"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMBER",
+    "owner": "OwnerName",
+    "address": "StreetAddress",
+    "acres": "DEEDACREAGE",
+    "land_use": "LandUse",
+    "assessed_value": "CurrentAssessedLandValue"
+  },
+  "notes": "Spartanburg County tax parcels (OneMap), updated nightly",
+  "verification": {
+    "verified_at": 1792051585130,
+    "counties": [
+      "45083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

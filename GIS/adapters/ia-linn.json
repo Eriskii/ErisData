@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ia-linn",
+  "publisher": "Linn County Auditor GIS (Iowa)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/i14SLLmXo7Hn9vNc/arcgis/rest/services/RealEstateParcel/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19113"
+    ]
+  },
+  "fields": {
+    "apn": "GPN",
+    "owner": "OwnerDeed",
+    "address": "SitusAddress",
+    "acres": "Acres",
+    "land_use": "Class",
+    "assessed_value": "ValueAssessedTotal"
+  },
+  "notes": "Linn County IA open data, RealEstateParcel layer; parcel geometry joined to tax system",
+  "verification": {
+    "verified_at": 1792049155068,
+    "counties": [
+      "19113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

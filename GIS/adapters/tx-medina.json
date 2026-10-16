@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-medina",
+  "publisher": "Medina County Appraisal District (via bisconsulting ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/j94FvPaik4etwHFk/arcgis/rest/services/MedinaCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48325"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Medina CAD public web service; parcels layer of TrueAutomation-style schema",
+  "verification": {
+    "verified_at": 1792051713663,
+    "counties": [
+      "48325"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

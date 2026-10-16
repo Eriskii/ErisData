@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-pipestone",
+  "publisher": "Pipestone County, MN (GIS / Assessor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pcmn.us/arcgis/rest/services/AssessmentInformation/TaxParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27117"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "owner": "OWNER_NAME",
+    "acres": "DEEDED_ACRES",
+    "land_use": "CLASSIFICATION_1",
+    "assessed_value": "EMV_TOTAL"
+  },
+  "notes": "County tax parcel layer; physical address is sparsely populated in source so not mapped. EMV = estimated market value.",
+  "verification": {
+    "verified_at": 1792050918465,
+    "counties": [
+      "27117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ca-yolo",
+  "publisher": "Yolo County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yolocounty.gov/ext/rest/services/Public/Parcels_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06113"
+    ]
+  },
+  "fields": {
+    "apn": "MPTS_ASMT_NUMBER",
+    "owner": "Name",
+    "address": "Situs_Address",
+    "acres": "GIS_Acres",
+    "land_use": "LU_Descr",
+    "assessed_value": "Roll_Asmt"
+  },
+  "notes": "Yolo County public parcels feature service; updated weekly",
+  "verification": {
+    "verified_at": 1792048664008,
+    "counties": [
+      "06113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

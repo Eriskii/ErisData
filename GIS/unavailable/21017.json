@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21017",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=949&LayerID=18567&PageTypeID=1&PageID=8266",
+    "http://www.qpublic.net/ky/bourbon/Search.html",
+    "https://assessorsearch.com/property-records/kentucky/bourbon-county",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=sitemap",
+    "https://www.arcgis.com/apps/instant/interactivelegend/index.html?appid=a4fd90c2c8e64b42ad9f20430b230d3a"
+  ],
+  "note": "Bourbon County KY parcels are shown only through the Schneider qPublic PVA viewer (no public REST endpoint found). The state kygisserver directory has parcel services only for Webster County; no Bourbon service found in the state sitemap, ArcGIS Online search, or the county's linked ArcGIS web app, which exposes zoning rather than a parcel service. Commercial parcel files (Regrid, Dynamo, Mapping Solutions) are paid downloads.",
+  "recorded_at": 1792049436197,
+  "recheck_after": 1807601436197,
+  "model": "claude-haiku-5-5"
+}

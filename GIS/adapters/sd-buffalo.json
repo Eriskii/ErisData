@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sd-buffalo",
+  "publisher": "Buffalo County GIS (via ArcGIS Online, Buffalo County Parcels 2019)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/15GJI8WbC3n3DIUU/arcgis/rest/services/Buffalo_County_Parcels_2019/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46017"
+    ]
+  },
+  "fields": {
+    "apn": "cama2016_L",
+    "owner": "cama2016_1",
+    "address": "cama2016_2",
+    "acres": "cama2016_D"
+  },
+  "filter": "cama2016_L <> ' '",
+  "notes": "2019 parcel layer from ArcGIS Online; attributes from CAMA join (cama2016_*); PARCELS_* fields are PLSS/section info; address is street only, city in cama2016_3",
+  "verification": {
+    "verified_at": 1792051622618,
+    "counties": [
+      "46017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

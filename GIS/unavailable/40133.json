@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "40133",
+  "reason": "paywalled",
+  "evidence": [
+    "https://www.dynamospatial.com/c/seminole-county-ok/parcel-data",
+    "https://www.mappingsolutionsgis.com/seminole-county-oklahoma-gis-parcel-data/",
+    "https://app.regrid.com/store/us/ok/seminole",
+    "https://okmaps.org/ogi/search.aspx",
+    "http://lmweb.dyndns.org:6580/Mapview-Seminole/",
+    "https://www.seminole-oklahoma.net/gis"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Seminole County OK parcels. No public queryable parcel service found. Seminole parcels are sold only as commercial downloads (DynamoSpatial, Mapping Solutions, Regrid store requiring account). OKMaps statewide parcels is WMS-only, not downloadable, and no Seminole layer in its WFS capabilities. The county assessor Mapview viewer (lmweb.dyndns.org:6580) was unreachable from here. City of Seminole GIS covers city layers only. The TaxParcels FeatureServer found (services7.arcgis.com/0JhPFgxDlwicqVHq) is West Virginia data; OWRB Parcels MapServer was unreachable.",
+  "recorded_at": 1792051775602,
+  "recheck_after": 1823587775602,
+  "model": "claude-haiku-5-5"
+}

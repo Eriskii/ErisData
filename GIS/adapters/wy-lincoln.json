@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wy-lincoln",
+  "publisher": "Lincoln County, WY GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/mAJPyaZkZWzjRIy7/arcgis/rest/services/Public_Download_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56023"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNERSHIP",
+    "land_use": "LANDUSE"
+  },
+  "notes": "Lincoln County WY public download parcels; Assessor-maintained. Address and acreage fields are often blank (federal and exempt parcels).",
+  "verification": {
+    "verified_at": 1792052731420,
+    "counties": [
+      "56023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

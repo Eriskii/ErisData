@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-yadkin",
+  "publisher": "Yadkin County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yadkincountync.gov/arcgis/rest/services/CountyGISmap/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37197"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "NAME1",
+    "address": "STREET_ADDRESS",
+    "acres": "TOTAL_ACRES",
+    "assessed_value": "LAND_ASV_CURRENT"
+  },
+  "notes": "Parcels layer of Yadkin County public CountyGISmap service; PARCEL_NO is alternate parcel id",
+  "verification": {
+    "verified_at": 1792051386038,
+    "counties": [
+      "37197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

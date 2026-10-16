@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-franklin",
+  "publisher": "Franklin Central Appraisal District (BIS CAD Web Service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/C0GusFTXlVtEh6ie/arcgis/rest/services/FranklinCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48159"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Franklin CAD public ArcGIS service; parcels layer of FranklinCADWebService",
+  "verification": {
+    "verified_at": 1792051681978,
+    "counties": [
+      "48159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

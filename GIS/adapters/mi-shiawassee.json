@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-shiawassee",
+  "publisher": "Shiawassee County, MI (parcel layer hosted via ArcGIS Online, Shiawassee_Parcel_PEA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/zssqyzc5LZ9oAgzn/arcgis/rest/services/Shiawassee_Parcel_PEA/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26155"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_Num",
+    "owner": "OWNER_NAME",
+    "address": "PROPERTY_A",
+    "acres": "GISAcres"
+  },
+  "notes": "Public ArcGIS layer; 34,734 features; owner mailing address in OWNER_STRE/OWNER_CITY/OWNER_STAT/OWNER_ZIP; no land use or assessed value fields",
+  "verification": {
+    "verified_at": 1792049977323,
+    "counties": [
+      "26155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

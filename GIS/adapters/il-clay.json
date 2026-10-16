@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-clay",
+  "publisher": "Clay County IL (Sidwell)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/Alldata_Clay/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17025"
+    ]
+  },
+  "fields": {
+    "apn": "GIS_Parcel_Number",
+    "owner": "TSC_Owner1",
+    "address": "TSC_Site_Address",
+    "acres": "TSC_Acreage",
+    "land_use": "TSC_Property_Class",
+    "assessed_value": "TSC_BOR_Total"
+  },
+  "verification": {
+    "verified_at": 1792048954907,
+    "counties": [
+      "17025"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21135",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=LewisCountyKY&PageType=Map",
+    "https://qpublic.net/ky/kypvas/",
+    "https://www.gismaps.org/ky-lewis-county/",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0"
+  ],
+  "note": "Lewis County KY (21135) parcels are published only through the Schneider qPublic viewer (App=LewisCountyKY), a Cloudflare-protected HTML viewer with no public ArcGIS REST service. Searched ArcGIS Hub/Online (no Lewis parcel layer; only Webster County PVA parcel services on kygisserver and Hub), the KyGeoNet kygisserver WGS84WM folder (only Webster PVA parcels), the KGS geoportal county list (no Lewis entry), and the KYTC PVA availability layer. The Regrid nationwide tiles layer has no public query endpoint and is commercial; Dynamo Spatial is a paid shapefile vendor. Parcels must be requested from the Lewis County PVA in Vanceburg.",
+  "recorded_at": 1792049922594,
+  "recheck_after": 1807601922594,
+  "model": "claude-haiku-5-5"
+}

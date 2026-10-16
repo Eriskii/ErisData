@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29039",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://cedar.missouriassessors.com/",
+    "https://cedarcomo.integritygis.com/",
+    "https://www.gismaps.org/mo-cedar-county/",
+    "https://uslandgrid.com/parcels/midwest-parcels/missouri/cedar-missouri-parcel-data.html"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web. The only public ArcGIS parcel layer found under 'Cedar County' (services9 Parcels_CedarCo) has extent around -90.9, 41.6 (Iowa) and zero features in the Missouri sample bbox, so it is not Cedar County MO. The county assessor's GIS viewer (cedarcomo.integritygis.com and Geocortex Cedar_County_MO endpoints) was unreachable and no public REST parcel endpoint is documented. The statewide gis.mo.gov FMDC service covers only state-owned property. Remaining parcel sources are paid vendors.",
+  "recorded_at": 1792050966415,
+  "recheck_after": 1807602966415,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29119",
+  "reason": "login-required",
+  "evidence": [
+    "https://services2.integritygis.com/arcgis/rest/Services/MO/McDonald_Assessor_Data/MapServer",
+    "https://sites6.integritygis.com/geocortex/essentials/rest/sites/McDonald_County_MO/map/mapservices",
+    "https://mcdonald.integritygis.com",
+    "https://assessorsearch.com/property-records/missouri/mcdonald-county"
+  ],
+  "note": "McDonald County's only parcel service (McDonald_Assessor_Data MapServer on services2.integritygis.com, Public Parcel layer) returns 'Token Required' to anonymous requests; the Public and MO service folders list no McDonald parcel layer; the county viewer is the same vendor (Geocortex) and not reachable; statewide FMDC parcel service path returns 404. Parcels are published only behind a login/token, so no public queryable service was found.",
+  "recorded_at": 1792050996600,
+  "recheck_after": 1807602996600,
+  "model": "claude-haiku-5-5"
+}

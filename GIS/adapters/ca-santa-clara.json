@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-santa-clara",
+  "publisher": "Santa Clara County (via ArcGIS Online Santa_Clara_County_Parcels layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/fpjs8A5Vtkshblnd/arcgis/rest/services/Santa_Clara_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06085"
+    ]
+  },
+  "fields": {
+    "apn": "apn",
+    "address": "situs_st_1"
+  },
+  "notes": "Santa Clara County parcels, ~493k features, layer published by NDCuser1 on ArcGIS Online; street number in situs_hous, street name in situs_st_1 and suffix in situs_st_2; no owner or assessed value fields",
+  "verification": {
+    "verified_at": 1792048669081,
+    "counties": [
+      "06085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

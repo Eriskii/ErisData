@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-statewide",
+  "publisher": "CAL FIRE (ITS) via ArcGIS Hub, California Statewide Parcels Public View",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://bz1uwwpkuinzbk94.svcs5.arcgis.com/bz1uwWPKUInZBK94/arcgis/rest/services/CA_Statewide_Parcels_Public_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "CA"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_APN",
+    "address": "SITE_ADDR"
+  },
+  "notes": "Public view from CAL FIRE statewide parcel compilation. Fields: PARCEL_APN, FIPS_CODE, COUNTYNAME, SITE_ADDR, SITE_CITY, SITE_ZIP. No owner, acres or land-use field exposed. Source spatial reference 102962 (CA State Plane-ish); service returns geoJSON.",
+  "verification": {
+    "verified_at": 1792048627169,
+    "counties": [
+      "06001",
+      "06007",
+      "06019",
+      "06057",
+      "06059",
+      "06075",
+      "06115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

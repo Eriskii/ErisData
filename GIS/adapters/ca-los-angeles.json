@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ca-los-angeles",
+  "publisher": "Los Angeles County Assessor (via LA County GIS cache)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://public.gis.lacounty.gov/public/rest/services/LACounty_Cache/LACounty_Parcel/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "apn": "AIN",
+    "land_use": "UseCode"
+  },
+  "notes": "LA County Assessor parcel polygons, weekly cache; AIN is the 10-digit APN. Situs address, owner and values are not reliably published in this layer.",
+  "verification": {
+    "verified_at": 1792048630617,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

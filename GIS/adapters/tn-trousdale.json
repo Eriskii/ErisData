@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-trousdale",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (STS-GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47169"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_NAME = 'TROUSDALE'",
+  "notes": "Statewide TN Property Boundaries public-use layer, filtered to Trousdale County by COUNTY_NAME. COUNTY_ID does not hold FIPS codes.",
+  "verification": {
+    "verified_at": 1792052707034,
+    "counties": [
+      "47169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

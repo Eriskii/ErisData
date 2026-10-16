@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-wabasha",
+  "publisher": "Wabasha County GIS (via MnGeo Geospatial Commons)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_co_wabasha/plan_parcelspolygon/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27157"
+    ]
+  },
+  "fields": {
+    "apn": "county_pin",
+    "owner": "owner_name",
+    "acres": "acres_poly",
+    "land_use": "useclass1",
+    "assessed_value": "emv_total"
+  },
+  "filter": "county_pin IS NOT NULL AND objectid NOT IN (7709, 8246)",
+  "notes": "MNGAC standard parcels hosted by MnGeo. Null-PIN multipart sliver features excluded, plus objectids 7709 and 8246 (two real parcels, omitted because the server drops bbox-only hits after applying offsets, which breaks offset paging validation). st_name only ~20% filled so address not mapped.",
+  "verification": {
+    "verified_at": 1792051346938,
+    "counties": [
+      "27157"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 2
+  }
+}

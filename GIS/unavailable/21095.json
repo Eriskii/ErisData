@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21095",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://beacon.schneidercorp.com/?site=HarlanCountyKY",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=HarlanCountyKY&Layer=Parcels&PageType=Search",
+    "https://www.qpublic.net/ky/harlan/",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=sitemap",
+    "https://services6.arcgis.com/9KfDH8jEokjaqjdI/arcgis/rest/services"
+  ],
+  "note": "Searched ArcGIS Hub/Online, the Kentucky state server WGS84WM directory (only Webster County PVA parcels, no Harlan), the KYTC PVA layer, and the HarlankyGIS account (water utility layers only). Harlan parcels are published only through the qPublic/Beacon Schneider viewer (no public ArcGIS REST endpoint; Beacon returns Cloudflare 403 to automated access) and commercial downloads (Regrid, Dynamo Spatial, etc.). Regrid's nationwide MapServer layer has no working query endpoint.",
+  "recorded_at": 1792049859917,
+  "recheck_after": 1807601859917,
+  "model": "claude-haiku-5-5"
+}

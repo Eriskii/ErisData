@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-jeff-davis",
+  "publisher": "Jeff Davis County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/ISpzx3B5ZsVA6e1Z/arcgis/rest/services/Jeff_Davis_Web_Map_2025_WFL1/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13161"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Owner",
+    "address": "Road",
+    "acres": "Calc_Acres",
+    "land_use": "Class",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Parcels layer from Jeff Davis web map service (2025), 8427 features",
+  "verification": {
+    "verified_at": 1792048785461,
+    "counties": [
+      "13161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

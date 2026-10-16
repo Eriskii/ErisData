@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-murray",
+  "publisher": "Minnesota Geospatial Commons (Murray County parcels, compiled from opt-in counties)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_mngeo/plan_parcels_open/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27101"
+    ]
+  },
+  "fields": {
+    "apn": "county_pin",
+    "owner": "owner_name",
+    "acres": "acres_poly"
+  },
+  "filter": "co_name = 'Murray'",
+  "notes": "State-compiled MN parcel dataset; Murray County subset selected by co_name. Source license per MN Geospatial Commons.",
+  "verification": {
+    "verified_at": 1792050944096,
+    "counties": [
+      "27101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

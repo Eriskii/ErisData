@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-jackson",
+  "publisher": "Jackson County Appraisal District (via BIS CAD web service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/O5g7RhdX0pelDe2J/arcgis/rest/services/JacksonCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48239"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd"
+  },
+  "notes": "Jackson CAD parcels via BIS Consultants web service; public",
+  "verification": {
+    "verified_at": 1792051696650,
+    "counties": [
+      "48239"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

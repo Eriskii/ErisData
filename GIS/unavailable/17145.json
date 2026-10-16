@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "17145",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://perrycountyil.gov/remote-land-records-access/",
+    "https://beacon.schneidercorp.com/Application.aspx?App=PerryCountyIL&LayerID=31488&PageTypeID=1&PageID=12724",
+    "https://gis.equatorstudios.com/illinois_perry/",
+    "https://rockfordmap.com/maps/illinois-perry-county/"
+  ],
+  "note": "Perry County IL (17145) parcels are published only through the county's Schneider Beacon viewer (proprietary, returns HTTP 403 bot challenge; no public ArcGIS REST service found). Searches of ArcGIS Hub/Online found no Perry County IL parcel FeatureServer. The semogis PerryCo/PerryAssess service is Perry County, Missouri, and the Perry County PA Experience map is Pennsylvania. Parcel polygons are only available from commercial vendors (Equator, Rockford Map Publishers) under license fees.",
+  "recorded_at": 1792049037343,
+  "recheck_after": 1807601037343,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "48365",
+  "reason": "paywalled",
+  "evidence": [
+    "https://gisdata.pandai.com/pamaps02/rest/services/Panola/PanolaCADClient/MapServer/0",
+    "https://www.dynamospatial.com/c/panola-county-tx/parcel-data",
+    "https://countygismaps.com/tx/panola"
+  ],
+  "note": "Panola CAD parcel polygons (18,990 features, TaxParcels joined to AccountsConfidential) sit on the public Pandai PanolaCADClient MapServer layer 0, but the server refuses every paged query ('Pagination is not supported') in both geoJSON and JSON, so the runtime cannot read it. Other Panola ArcGIS services (services3 GP5htIeRSzo61I03) return Token Required. Remaining parcel sources are paid quotes or gated; the panolacad.org pages returned 404 to the fetcher.",
+  "recorded_at": 1792051816190,
+  "recheck_after": 1823587816190,
+  "model": "claude-haiku-5-5"
+}

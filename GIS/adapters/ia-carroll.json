@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-carroll",
+  "publisher": "Iowa Department of Homeland Security & Emergency Management (hosted by University of Iowa), Carroll County extract",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19027"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Carroll'",
+  "notes": "2017 statewide parcel snapshot filtered to COUNTYNAME Carroll (about 21,966 features). Not current; no address or assessed value fields in source. Public data from Iowa DHSEMA.",
+  "verification": {
+    "verified_at": 1792049288535,
+    "counties": [
+      "19027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

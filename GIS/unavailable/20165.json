@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "20165",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://rushcountykansas.org/",
+    "https://rushcountykansas.org/appraiser/",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Rush",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer",
+    "https://www.atcimaps.com/"
+  ],
+  "note": "Rush County KS (20165) publishes no queryable parcel polygon service. Its Parcel Search link goes to the statewide ORKA viewer (kansasgis.org), a disclaimer page with no public parcel REST layer. The statewide ORKA_Extras MapServer has address points, subdivision, lot and plat layers and a tile index, but no Rush County parcel polygons. The ATCi viewer (atcimaps.com) is proprietary with no public REST endpoint. Parcel shapefiles are sold only by vendors (Equator Studios, Mapping Solutions GIS, Rockford Map).",
+  "recorded_at": 1792049429242,
+  "recheck_after": 1807601429242,
+  "model": "claude-haiku-5-5"
+}

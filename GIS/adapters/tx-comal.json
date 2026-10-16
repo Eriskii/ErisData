@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-comal",
+  "publisher": "Comal Appraisal District (ComalCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Yz6eib2o8WvEgWq8/arcgis/rest/services/ComalCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48091"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_num",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Comal Appraisal District public web service; parcels layer of ComalCADWebService",
+  "verification": {
+    "verified_at": 1792051666241,
+    "counties": [
+      "48091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

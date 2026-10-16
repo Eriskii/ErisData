@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "il-randolph",
+  "publisher": "Randolph County, IL (GIS / Assessor, via ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/pweYHqdOby1TE9DD/arcgis/rest/services/PublishedFabric/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17157"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumb",
+    "owner": "owner1_nam",
+    "acres": "gross_acre",
+    "land_use": "class"
+  },
+  "notes": "Published from ArcPro parcel fabric; about 26k features. Site address (site_addre) is blank for about half of parcels, so it is not mapped. Owner2 in owner2_nam, legal in legal, tax_billed in tax_billed.",
+  "verification": {
+    "verified_at": 1792048968913,
+    "counties": [
+      "17157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-washington",
+  "publisher": "Washington County PA GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/LgK9DpUhNjdU0HLy/arcgis/rest/services/Parcel_Boundaries_of_Washington_County_PA/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42125"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "owndat_own1",
+    "address": "legdat_adrstr",
+    "acres": "parcel_acres",
+    "land_use": "pardat_class"
+  },
+  "notes": "Parcel boundaries from Washington County PA GIS Hub; owner and address fields included; 122k features",
+  "verification": {
+    "verified_at": 1792051589452,
+    "counties": [
+      "42125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

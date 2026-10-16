@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "20037",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.crawfordcountykansas.org/parcel-search.html",
+    "https://www.crawfordcountykansas.org/gis--911-addressing.html",
+    "https://ccauditor.crawford-co.org/gis/",
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://hub.kansasgis.org/pages/de8c49f33a0e4149a8568fea0ef3997d",
+    "https://services.kansasgis.org/arcgis/rest/services/ORKA/KS_ORKA_Extras/MapServer/layers"
+  ],
+  "note": "Searched county GIS pages, Auditor GIS page, Kansas ORKA state portal and its services directory, and ArcGIS Hub/Online. Crawford County parcel polygons are only viewable in Schneider Beacon and ORKA viewers (no public REST service). Parcel data from ORKA/county needs PORKA registration and per-county approval with password-protected downloads; ORKA services directory holds only annotation/extras layers, no Crawford parcels. Commercial sources (Regrid, Dynamo) are not public services. A FeatureServer named Parcels exists but is Prince William County, VA, not Crawford KS.",
+  "recorded_at": 1792049314325,
+  "recheck_after": 1807601314325,
+  "model": "claude-haiku-5-5"
+}

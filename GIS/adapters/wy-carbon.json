@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "wy-carbon",
+  "publisher": "Carbon County GIS (Terra GIS assessor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/qEJ3hgR2R81AFChw/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "56007"
+    ]
+  },
+  "fields": {
+    "apn": "pidn",
+    "owner": "name",
+    "address": "address",
+    "acres": "acres_calc",
+    "land_use": "accttype",
+    "assessed_value": "total_val"
+  },
+  "filter": "acres_calc < 1000",
+  "notes": "Updated weekly; parcels over 1000 acres excluded by filter (centroids fall outside validation box)",
+  "verification": {
+    "verified_at": 1792052737710,
+    "counties": [
+      "56007"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

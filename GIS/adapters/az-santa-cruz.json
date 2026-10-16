@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "az-santa-cruz",
+  "publisher": "Arizona Department of Water Resources (ADWR) parcel layers",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/C34zQ7veRS0V1t04/arcgis/rest/services/Parcels/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04023"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "OWNER_NAME",
+    "address": "SITE_ADDRESS",
+    "acres": "ACRES_US"
+  },
+  "notes": "Santa Cruz County layer from ADWR statewide parcel service; 43189 features; reprojected by runtime",
+  "verification": {
+    "verified_at": 1792048505233,
+    "counties": [
+      "04023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

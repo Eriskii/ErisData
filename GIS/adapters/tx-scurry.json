@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-scurry",
+  "publisher": "Scurry County Appraisal District (via ArcGIS Online ScurryCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/JFlw2pRIhV8pU9ke/arcgis/rest/services/ScurryCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48415"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "assessed_value": "market"
+  },
+  "notes": "Scurry CAD public web service; parcels layer of ArcGIS Online CAD service. Acreage field sparsely populated, so not mapped.",
+  "verification": {
+    "verified_at": 1792051735028,
+    "counties": [
+      "48415"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "co-moffat",
+  "publisher": "Moffat County Assessor Office",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/nG7uHX1mi3PRD2sK/ArcGIS/rest/services/MC_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08081"
+    ]
+  },
+  "fields": {
+    "apn": "Pin_",
+    "owner": "OWNERNAME",
+    "acres": "GIS_ACRES"
+  },
+  "filter": "Pin_ <> '039301100901'",
+  "notes": "Moffat County Assessor parcels (MC_Parcels), 10,590 features; attribution Moffat County Assessor Office; site address field is blank in source so not mapped; one malformed multipart geometry (039301100901) excluded",
+  "verification": {
+    "verified_at": 1792048911401,
+    "counties": [
+      "08081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

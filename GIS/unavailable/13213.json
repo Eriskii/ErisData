@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13213",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.murraycountyga.org/488/Murray-County-Online-Maps",
+    "https://www.murraycountyga.org/141/Land-Use-Zoning",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=MurrayCountyGA&Layer=Parcels&PageType=Search",
+    "https://www.dynamospatial.com/c/murray-county-ga/parcel-data"
+  ],
+  "note": "Murray County's only parcel map is the Schneider qPublic viewer (returned 403 to fetches, no REST endpoint exposed). The county's online maps page links only qPublic and a static land use PDF. No public ArcGIS parcel service was found in Hub or Online searches; the commercial sources (Dynamo, Rockford, ACRES, CountyGISMaps) are paid or have no service.",
+  "recorded_at": 1792048926984,
+  "recheck_after": 1807600926984,
+  "model": "claude-haiku-5-5"
+}

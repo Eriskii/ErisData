@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "id-valley",
+  "publisher": "Valley County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/ikurHvtarxfN6u3u/arcgis/rest/services/Valley_County_Parcels_Open_Data/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16085"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "OwnerName1",
+    "address": "SitusAddress",
+    "acres": "LegalAc",
+    "land_use": "PCDesc",
+    "assessed_value": "TotVal1"
+  },
+  "filter": "OwnerName1 IS NOT NULL",
+  "notes": "Valley County Idaho open data parcels feature service (ArcGIS Online)",
+  "verification": {
+    "verified_at": 1792048931520,
+    "counties": [
+      "16085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

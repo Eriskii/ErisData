@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-mcmullen",
+  "publisher": "McMullen County Appraisal District (via bis_mcmullencad ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Z5ivCgJjcmkyFIuw/arcgis/rest/services/McMullenCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48311"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Texas CAD parcel layer; public ArcGIS service; situs address and land use fields are largely empty so not mapped",
+  "verification": {
+    "verified_at": 1792051710992,
+    "counties": [
+      "48311"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

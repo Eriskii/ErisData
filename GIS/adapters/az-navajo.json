@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "az-navajo",
+  "publisher": "Navajo County Assessor (ArcGIS Hub)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/cghC2lEIpJ2TRrs5/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "04017"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "Owner",
+    "acres": "Acreage"
+  },
+  "notes": "Navajo County Assessor public parcel layer; source CRS EPSG:4269; SitusAddress is mostly empty so not mapped",
+  "verification": {
+    "verified_at": 1792048968641,
+    "counties": [
+      "04017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-orange",
+  "publisher": "Orange County GIS (NC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.orangecountync.gov/arcgis/rest/services/WebParcelService/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37135"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNER1",
+    "address": "ADDRESS1",
+    "acres": "CALC_ACRES",
+    "land_use": "RATECODE",
+    "assessed_value": "VALUATION"
+  },
+  "notes": "Orange County NC WebParcelService Parcels layer; max 2000 records per query",
+  "verification": {
+    "verified_at": 1792051369873,
+    "counties": [
+      "37135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

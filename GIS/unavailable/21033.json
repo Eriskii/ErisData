@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "21033",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=CaldwellCountyKY&Layer=Parcels&PageType=Search",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services"
+  ],
+  "note": "Caldwell County KY (FIPS 21033) parcels are only reachable through the Schneider qPublic PVA viewer. KGS lists a Caldwell PVA map service, but its kygeonet viewer link returns 404 and the kygisserver WGS84WM folder has only Webster County PVA parcels. Searches of ArcGIS Hub/Online found no Caldwell KY tax-parcel service; the only Caldwell parcel layer found is a 20-feature Caldwell, Kentucky solar-project extract (services1.arcgis.com/JvH00PCIoAmeOo3D), not a county parcel service.",
+  "recorded_at": 1792049494794,
+  "recheck_after": 1807601494794,
+  "model": "claude-haiku-5-5"
+}

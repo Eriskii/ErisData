@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "il-hamilton",
+  "publisher": "Hamilton County, Illinois (Sidwell Portico / Supervisor of Assessments)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/49YxBsMNEjT1wN6z/arcgis/rest/services/Parcels_Hamilton2/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "17065"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Name1",
+    "address": "Address",
+    "acres": "TotalAcres",
+    "land_use": "StateCodeClass",
+    "assessed_value": "TotalAssessedValue"
+  },
+  "notes": "Hamilton County IL parcels served via the county Sidwell Portico viewer; layer from Sidwell/county hosted org",
+  "verification": {
+    "verified_at": 1792049288763,
+    "counties": [
+      "17065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "36043",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gisservices.its.ny.gov/arcgis/rest/services/NYS_Tax_Parcels_Public/FeatureServer/1",
+    "https://services6.arcgis.com/drkDXByy6E3bYW3a/arcgis/rest/services/herkimer_county_ny_parcels/FeatureServer/0",
+    "https://gis.ny.gov/parcels"
+  ],
+  "note": "Herkimer County (36043) is absent from the NYS statewide public tax parcel layer (38 counties authorized; Herkimer not listed; COUNTY_NAME query returns 0). The only Herkimer-specific ArcGIS service (services6 herkimer_county_ny_parcels) returns 'Token Required' for both the service and its layer 0. The county's official viewer is Schneider Beacon (beacon.schneidercorp.com, App=HerkimerCountyNY), a login-gated search app with no public ArcGIS REST parcel service. No public queryable parcel service or file was found.",
+  "recorded_at": 1792051519372,
+  "recheck_after": 1807603519372,
+  "model": "claude-haiku-5-5"
+}

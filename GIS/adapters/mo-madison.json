@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-madison",
+  "publisher": "Madison County, MO (via SEMO GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.semogis.com/server/rest/services/Madison_CO/MadisonCo_Assessment/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29123"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumb",
+    "owner": "Owner1",
+    "address": "LocationSt",
+    "acres": "CalcAcres"
+  },
+  "notes": "Parcel layer from SEMO GIS county assessment map service; maxRecordCount 2000. Address is street name in LocationSt (house number in LocationAd, often blank).",
+  "verification": {
+    "verified_at": 1792050983359,
+    "counties": [
+      "29123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

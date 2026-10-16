@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-halifax",
+  "publisher": "Halifax County GIS (via NC County Parcels WFL1, UCPCOG)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/eJ9GuQwMsO1iIOw1/arcgis/rest/services/NC_County_Parcels_WFL1/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37083"
+    ]
+  },
+  "fields": {
+    "apn": "PARNO",
+    "owner": "OWNNAME",
+    "address": "SITEADD",
+    "acres": "GISACRES",
+    "land_use": "PARUSEDESC",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Halifax County parcel layer from UCPCOG NC County Parcels service; parcel polygons in Web Mercator",
+  "verification": {
+    "verified_at": 1792051363639,
+    "counties": [
+      "37083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

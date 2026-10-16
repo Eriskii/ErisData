@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "17135",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://montgomerycountyil.gov/gis/",
+    "https://beacon.schneidercorp.com/Application.aspx?AppId=503&LayerId=7586&PageTypeId=2&PageID=3799",
+    "https://reportallusa.com/purchase-shapefiles/Illinois/17135"
+  ],
+  "note": "Montgomery County IL (17135) publishes parcels only through the Schneider Beacon web viewer (Cloudflare-protected, no public ArcGIS REST endpoint named) and a paid ReportAll shapefile. The county GIS page lists no parcel download or REST service. ArcGIS searches for Montgomery County IL parcels found only unrelated layers. The Montgomery_County_Parcels FeatureServer on services6 is for a different Montgomery County (extent near 74W).",
+  "recorded_at": 1792048986397,
+  "recheck_after": 1807600986397,
+  "model": "claude-haiku-5-5"
+}

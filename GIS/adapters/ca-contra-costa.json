@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ca-contra-costa",
+  "publisher": "Contra Costa County GIS (CCMAP)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cccounty.us/arcgis/rest/services/CCMAP/Assessment_Parcels_ArcPro/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06013"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "address": "full_address_display",
+    "acres": "ACREAGE",
+    "land_use": "USE_CODE",
+    "assessed_value": "LAND_VALUE"
+  },
+  "notes": "Assessor parcel layer from Contra Costa County GIS; public",
+  "verification": {
+    "verified_at": 1792048598707,
+    "counties": [
+      "06013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

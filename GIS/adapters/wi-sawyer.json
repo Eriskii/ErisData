@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wi-sawyer",
+  "publisher": "Wisconsin Statewide Parcel Map Initiative (WI DOA / State Cartographer), Sawyer County extract",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/n6uYoouQZW75n5WI/arcgis/rest/services/Wisconsin_Statewide_Parcels_DB/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55113"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNERNME1",
+    "address": "PSTLADRESS",
+    "acres": "GISACRES"
+  },
+  "filter": "CONAME = 'SAWYER'",
+  "notes": "Statewide V-series parcel layer filtered to Sawyer County by CONAME. Address is the mailing address (site address is sparse in source). Land class and assessed value are populated for about 68-74% of Sawyer parcels statewide-layer-wide but were empty for the sample parcels (tax-exempt rural land), so they are omitted.",
+  "verification": {
+    "verified_at": 1792045268651,
+    "counties": [
+      "55113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

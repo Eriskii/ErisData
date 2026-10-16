@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-macon",
+  "publisher": "NC OneMap / ICDX (Macon County parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37113"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37113'",
+  "notes": "Statewide NC OneMap parcel service (ICDX); filtered to Macon County by state-county FIPS. Land use codes are blank in this source for Macon, so not mapped.",
+  "verification": {
+    "verified_at": 1792051423113,
+    "counties": [
+      "37113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

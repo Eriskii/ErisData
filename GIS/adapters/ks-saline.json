@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ks-saline",
+  "publisher": "Saline County GIS (Kansas)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/cuBVqVP04yYSBGZ9/arcgis/rest/services/Parcels_1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20169"
+    ]
+  },
+  "fields": {
+    "apn": "PARCNUM",
+    "owner": "OWNERNAME",
+    "address": "SITUSADDRE",
+    "acres": "CLACRE",
+    "land_use": "PROPCL",
+    "assessed_value": "TOTALVAL"
+  },
+  "notes": "Parcel layer from Saline County ArcGIS Online org (sacoks); PID is alternate parcel id",
+  "verification": {
+    "verified_at": 1792049366061,
+    "counties": [
+      "20169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

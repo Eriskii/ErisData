@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72041",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0 (CRIM parcel layer, listed in the server directory) returns 'Service crim/crim_parcelas/MapServer not started'",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_feb_2025/FeatureServer/0 returns 'Service crim/crim_feb_2025/MapServer not started'",
+    "https://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/MapServer/0 (listed in CRIM's ArcGIS Online web map) unreachable; http variant returns 404",
+    "https://gis.pr.gov/Pages/default.aspx links only to the CRIM Mapa Catastral web app (no REST endpoint)"
+  ],
+  "note": "Cidra (FIPS 72041) parcels are held by CRIM (about 1.25M island-wide). CRIM's ArcGIS parcel services are listed in the server directory and the ArcGIS Online map, but every endpoint I tried is stopped or unreachable. Other Cidra hits are student or municipal test layers, not tax parcels. Parcels are reachable only through the CRIM web viewer right now.",
+  "recorded_at": 1792051967061,
+  "recheck_after": 1807603967061,
+  "model": "claude-haiku-5-5"
+}

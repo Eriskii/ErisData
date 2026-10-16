@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "fips": "29009",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.barrycounty.org/property_search/index.php",
+    "https://app.fetchgis.com/?currentMap=barry",
+    "https://portal.fetchgis.com/",
+    "https://barrygis.integritygis.com/H5/Index.html",
+    "https://barrygis.breezemaps.com/web-gis",
+    "https://gis-countyofbarry.opendata.arcgis.com/",
+    "https://services8.arcgis.com/k2UE4ezTdbXv1z7q/arcgis/rest/services/Barry_County_Parcels/FeatureServer"
+  ],
+  "note": "Searched ArcGIS Hub/Online, MSDIS, the county open-data API and county and vendor sites. Barry County's official parcel access is FetchGIS (login portal, no public REST endpoint found) and an assessor-hosted Integrity GIS viewer (barrygis.integritygis.com) that was unreachable from here, so its backend could not be checked. The only ArcGIS 'Barry County Parcels' service found (services8 k2UE4ezTdbXv1z7q) returns 'Token Required'. Other parcel sources are commercial (Regrid, Dynamo, Rockford, Acres). No public queryable parcel service confirmed.",
+  "recorded_at": 1792051018446,
+  "recheck_after": 1807603018446,
+  "model": "claude-haiku-5-5"
+}

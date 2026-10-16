@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ia-dickinson",
+  "publisher": "Dickinson County parcels within Iowa Great Lakes Sanitary District (hosted by ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZkOsbg84o8DsPPaP/arcgis/rest/services/IGLSD_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19059"
+    ]
+  },
+  "fields": {
+    "apn": "GIS_NUMBER",
+    "owner": "DEEDHOLDER",
+    "address": "PHYSICAL",
+    "acres": "TOTACRES",
+    "land_use": "CLASS"
+  },
+  "notes": "Dickinson County parcels within the Iowa Great Lakes Sanitary District only; not countywide. Mailing fields: MAILING, CITY, STATE, ZIP.",
+  "verification": {
+    "verified_at": 1792049171388,
+    "counties": [
+      "19059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

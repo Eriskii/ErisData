@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-kane",
+  "publisher": "Kane County, Utah (via AGRC Utah Kane County Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/Parcels_Kane/FeatureServer/0",
+    "page_size": 250,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49025"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWN_TYPE"
+  },
+  "filter": "Shape__Area < 2000000",
+  "notes": "Kane County parcel polygons (UGRC/AGRC). Owner name not published in this layer; OWN_TYPE is ownership type (Private/Federal/etc). Very large federal/BLM polygons excluded by area filter. Situs address sparse in source, so not mapped. Parcel map is not survey quality.",
+  "verification": {
+    "verified_at": 1792052745663,
+    "counties": [
+      "49025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

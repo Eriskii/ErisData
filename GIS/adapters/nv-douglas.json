@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nv-douglas",
+  "publisher": "Douglas County NV GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.douglasnv.us/server/rest/services/Douglas/ParcelsGroupLayer/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32005"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "PANAME",
+    "address": "PMADD1",
+    "acres": "PACRES"
+  },
+  "notes": "Douglas County NV open data parcels; APN text in PIN; PACRES is string; address is owner mailing address (situs STREETADDRESS is mostly empty)",
+  "verification": {
+    "verified_at": 1792051339213,
+    "counties": [
+      "32005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

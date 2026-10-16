@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "48313",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap_land_parcels_48_most_recent/MapServer/0",
+    "https://services5.arcgis.com/FyvlHTnrGrMFAbTq/arcgis/rest/services/Madisonville_Parcels/FeatureServer/0",
+    "https://gis.bisclient.com/madisoncad",
+    "https://madison.trueautomation.com/mapSearch/?cid=110"
+  ],
+  "note": "StratMap statewide county-48 parcel MapServer lists the layer but refuses every query (Requested operation is not supported; spec validate fails on the query check). Madisonville_Parcels covers only the city of Madisonville (2,876 parcels), not the county. The Madison CAD viewers (BIS gis.bisclient.com/madisoncad, TrueAutomation mapSearch) expose no public REST service, and the TxGIO DataHub download was blocked (403). Third-party Madison County parcel files are paid, so not used.",
+  "recorded_at": 1792051822763,
+  "recheck_after": 1807603822763,
+  "model": "claude-haiku-5-5"
+}

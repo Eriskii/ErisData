@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-lee",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05077"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelId",
+    "owner": "OwnerName",
+    "acres": "Shape__Area",
+    "land_use": "ParcelType",
+    "assessed_value": "TotalValue"
+  },
+  "filter": "County = 'Lee'",
+  "notes": "Statewide AR parcel polygons (AR GIS Office CAMA). Not a legal boundary; tax valuation use. Filtered to Lee county. Situs address (AdrLabel) is sparsely populated in source so not mapped. Updated twice a year.",
+  "verification": {
+    "verified_at": 1792048535105,
+    "counties": [
+      "05077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

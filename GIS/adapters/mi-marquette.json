@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-marquette",
+  "publisher": "Marquette County, MI (parcel data as shared by county, hosted by forrest.town_IMBA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/oOYhhFJlpjePln8M/arcgis/rest/services/Marquette_Parcel_Risk_Analysis/FeatureServer/181",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26103"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNER1",
+    "acres": "ACRES",
+    "land_use": "PROP_CLASS",
+    "assessed_value": "SEV"
+  },
+  "notes": "Parcel attributes copied from county 2023 parcel/assessment data; trail-risk analysis fields ignored. Situs address (PROP_ADD) is sparse for vacant/mine land so not mapped. Source coordinates are EPSG:26916; service reprojects to 4326 on request.",
+  "verification": {
+    "verified_at": 1792049982653,
+    "counties": [
+      "26103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

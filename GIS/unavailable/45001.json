@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "45001",
+  "reason": "login-required",
+  "evidence": [
+    "https://smpesri.scdot.org/arcgis/rest/services/GISMapping/SC_Parcels/MapServer/0",
+    "https://smpesri.scdot.org/arcgis/rest/services/GISMapping/SC_Parcels/FeatureServer/0",
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=613&LayerID=10508&PageTypeID=2&PageID=4483",
+    "https://abbevillecountysc.com/assessor/"
+  ],
+  "note": "Abbeville County parcels are published only through the qPublic/Schneider viewer (Cloudflare-blocked to automated access, no public REST endpoint found) and an SCDOT-hosted SC_Parcels ArcGIS service that returns 'Token Required' for both MapServer/0 and FeatureServer/0. No public queryable parcel service or file was found; remaining sources are paid vendor products.",
+  "recorded_at": 1792051590226,
+  "recheck_after": 1807603590226,
+  "model": "claude-haiku-5-5"
+}

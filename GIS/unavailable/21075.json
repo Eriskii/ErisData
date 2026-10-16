@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21075",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.qpublic.net/ky/fulton/index.php?case=13",
+    "https://www.qpublic.net/ky/fulton/",
+    "https://www.dynamospatial.com/c/fulton-county-ky/parcel-data",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0"
+  ],
+  "note": "Fulton County KY (21075): no public queryable ArcGIS REST or WFS parcel service found. The county PVA parcel lookup is hosted on qPublic (Schneider, HTML viewer, no REST endpoint). KYTC PVA availability layer and KGS list of county PVA parcel services do not include Fulton. Parcel polygons are sold only by third-party vendors (Dynamo Spatial, Mapping Solutions GIS, Equator Studios). ArcGIS Hub and Online searches returned no Fulton KY parcel service.",
+  "recorded_at": 1792049874639,
+  "recheck_after": 1807601874639,
+  "model": "claude-haiku-5-5"
+}

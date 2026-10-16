@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "la-st-james",
+  "publisher": "St. James Parish Assessor",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/UgFir2NPOBP6GiJV/arcgis/rest/services/Tax_Parcels_View_2/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22093"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "TAXPAYER",
+    "acres": "CALC_ACRE",
+    "land_use": "Assessment",
+    "assessed_value": "Assessed_V"
+  },
+  "notes": "St. James Parish Assessor tax parcels (Tax_Parcels_View_2), public ArcGIS feature layer. Site address field Physical_A is sparse, so omitted.",
+  "verification": {
+    "verified_at": 1792049860607,
+    "counties": [
+      "22093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "46075",
+  "reason": "no-public-gis",
+  "evidence": [
+    "http://ims.districtiii.org/JONES/",
+    "https://gis.districtiii.org/arcgis/rest/services/JONES_COUNTY_LAYERS2/MapServer/8",
+    "https://www.countyoffice.org/sd-jones-county-gis-maps/"
+  ],
+  "note": "Jones County SD parcels were listed once as 'Parcels - SD - Jones County' (GDITAdmin) at gis.districtiii.org JONES_COUNTY_LAYERS2/MapServer/8, but that host now returns 404 for the service and all its paths; ims.districtiii.org/JONES/ says the viewer has moved and gives no new URL; districtiii.org redirects. No other public parcel service for Jones County found in ArcGIS Online/Hub searches; Regrid tiles are not queryable and commercial parcel downloads are not public services.",
+  "recorded_at": 1792051672336,
+  "recheck_after": 1807603672336,
+  "model": "claude-haiku-5-5"
+}

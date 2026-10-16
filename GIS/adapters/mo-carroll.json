@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mo-carroll",
+  "publisher": "Apex Missouri Parcels (PEP2025), Carroll County MO entries",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/6hR3ncgZytDB2gKA/arcgis/rest/services/Apex_Missouri_Parcels/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29033"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Landowner",
+    "address": "Address",
+    "acres": "Calc_Acre"
+  },
+  "filter": "County = 'Carroll County'",
+  "notes": "Partial statewide Apex Missouri parcel dataset; only 38 Carroll County records, not the full county roll. Status field is an outreach status. No land use or assessed value.",
+  "verification": {
+    "verified_at": 1792051058429,
+    "counties": [
+      "29033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "va-rappahannock",
+  "publisher": "Piedmont Environmental Council (Piedmont Data Viewer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/mTaShYKffyWc5uRb/arcgis/rest/services/Layers_WFL1/FeatureServer/21",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51157"
+    ]
+  },
+  "fields": {
+    "apn": "MAP_NUMBER_1",
+    "owner": "OWNER_NAME",
+    "acres": "ACRES"
+  },
+  "notes": "Parcel layer from PEC Piedmont Data Viewer public ArcGIS service; Rappahannock County has no county GIS parcel service. Owner mailing address fields are OWNER_ADDRESS1/OWNER_CITY/OWNER_STATE/OWNER_ZIP; no site address published.",
+  "verification": {
+    "verified_at": 1792053089245,
+    "counties": [
+      "51157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

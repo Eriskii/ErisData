@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "26149",
+  "reason": "login-required",
+  "evidence": [
+    "https://stjosephcountymi.gov/government/geographic-information-systems-gis/maps-data/gis-data",
+    "https://app.fetchgis.com/?currentMap=stjo",
+    "https://maps.macog.com/arcgis/rest/services/MACOG/gs_StJoseph_Property_2020B/MapServer",
+    "https://form.jotform.com/261524429537057"
+  ],
+  "note": "St. Joseph County MI publishes parcels only as a Basic GIS Data Package behind a request form (emailed download link), with no public queryable service. FetchGIS viewer exposes no REST endpoint. The MACOG gs_StJoseph_Property_2020B MapServer (SJC Parcels layer 4) exists but returns 'Token Required' over http and https, so it is not public.",
+  "recorded_at": 1792050043911,
+  "recheck_after": 1807602043911,
+  "model": "claude-haiku-5-5"
+}

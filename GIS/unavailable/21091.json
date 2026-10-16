@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21091",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://experience.arcgis.com/experience/72aafdeca4c747508f47235ee93801f3",
+    "https://beacon.schneidercorp.com/?site=HancockCountyIN",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=json",
+    "https://www.arcgis.com/sharing/rest/content/items/72aafdeca4c747508f47235ee93801f3/data?f=json"
+  ],
+  "note": "Hancock County KY parcels are only reachable through viewers: the county Parcel Viewer (Experience app, Atlas Geographic Data, no public parcel service URL in its item data) and Schneider Beacon/qPublic. The Kentucky state server (kygisserver) publishes county PVA parcels only for Webster County (Ky_PVA_Webster_Parcels), none for Hancock. No public REST or download for Hancock parcels found; commercial sellers only.",
+  "recorded_at": 1792049928394,
+  "recheck_after": 1807601928394,
+  "model": "claude-haiku-5-5"
+}

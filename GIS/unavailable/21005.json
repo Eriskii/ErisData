@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21005",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx",
+    "https://qpublic.net/ky/anderson/",
+    "https://andersoncounty.ky.gov/government/Pages/PVA.aspx",
+    "https://revenue.ky.gov/Property/Mapping-Services/Pages/default.aspx",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=json"
+  ],
+  "note": "Anderson County KY parcels are only viewable through the Schneider qPublic viewer (behind Cloudflare; no public REST service found). The state kygisserver hosts PVA parcels only for Webster County. Bulk parcel data is sold via the PVA/KY Dept of Revenue with fees; Regrid and Rockford Map are paid. ArcGIS Hub/Online searches for Anderson County KY parcels returned nothing.",
+  "recorded_at": 1792049382147,
+  "recheck_after": 1807601382147,
+  "model": "claude-haiku-5-5"
+}

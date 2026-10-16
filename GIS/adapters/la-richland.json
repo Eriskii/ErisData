@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "la-richland",
+  "publisher": "Richland Parish, LA (via ArcGIS Online parcels layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/fe3XWHMASK948q2c/ArcGIS/rest/services/RichlandParcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22083"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OWNERNAME",
+    "acres": "Acres",
+    "assessed_value": "Assessed_V"
+  },
+  "notes": "Parcel layer hosted on ArcGIS Online by GDITAdmin; site address fields are mostly blank so address is not mapped; ParcelNumb also holds the parcel number",
+  "verification": {
+    "verified_at": 1792049864567,
+    "counties": [
+      "22083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

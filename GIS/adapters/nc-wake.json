@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-wake",
+  "publisher": "Wake County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.wake.gov/arcgis/rest/services/Property/Parcels/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37183"
+    ]
+  },
+  "fields": {
+    "apn": "PIN_NUM",
+    "owner": "OWNER",
+    "address": "SITE_ADDRESS",
+    "acres": "DEED_ACRES",
+    "land_use": "TYPE_AND_USE",
+    "assessed_value": "TOTAL_VALUE_ASSD"
+  },
+  "notes": "Wake County parcels, CC BY 4.0 per Wake open data portal; updated daily",
+  "verification": {
+    "verified_at": 1792051382083,
+    "counties": [
+      "37183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

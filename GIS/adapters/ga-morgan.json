@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-morgan",
+  "publisher": "Morgan County GA (ArcGIS Online, parcels as of 2018)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/mr2xH531NAL4tt7e/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13211"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "address": "STREET_NAM",
+    "acres": "TOTALACRES",
+    "land_use": "ZONINGCODE",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Morgan County GA parcels as of 9/30/2018 (dated snapshot). No owner field in source.",
+  "verification": {
+    "verified_at": 1792049436252,
+    "counties": [
+      "13211"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

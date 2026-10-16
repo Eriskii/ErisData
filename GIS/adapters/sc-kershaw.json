@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "sc-kershaw",
+  "publisher": "Kershaw County GIS (KershawGIS, ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/kyYrMHheB5jkAnFA/arcgis/rest/services/Parcels_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "45055"
+    ]
+  },
+  "fields": {
+    "apn": "PRSNTP_ID",
+    "acres": "taxTotalAc"
+  },
+  "notes": "Kershaw County SC parcel polygons hosted on ArcGIS Online by KershawGIS. Owner, address, land use and value fields are not published in this layer.",
+  "verification": {
+    "verified_at": 1792051578337,
+    "counties": [
+      "45055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

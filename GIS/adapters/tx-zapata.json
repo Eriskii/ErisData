@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-zapata",
+  "publisher": "Zapata CAD (Zapata County Appraisal District)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/poXnfPDnR34RXAaR/arcgis/rest/services/ZapataCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48505"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "addr_line1",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Zapata CAD public ArcGIS web service; parcels layer of CAD web service. Address is owner mailing line 1 (situs fields are mostly empty).",
+  "verification": {
+    "verified_at": 1792051765696,
+    "counties": [
+      "48505"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

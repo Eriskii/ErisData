@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nc-carteret",
+  "publisher": "Carteret County GIS Division",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgisweb.carteretcountync.gov/arcgis/rest/services/Layers/Parceldata/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37031"
+    ]
+  },
+  "fields": {
+    "apn": "PIN15",
+    "owner": "OWNER",
+    "acres": "GISacres",
+    "land_use": "Use_desc",
+    "assessed_value": "Total_EMV"
+  },
+  "notes": "County parcel boundaries from Carteret County GIS; source in NC State Plane ft (wkid 102719), served as WGS84. Site address (PropertyAddress) is blank for many unaddressed parcels, so it is not mapped. Public ArcGIS service.",
+  "verification": {
+    "verified_at": 1792051348609,
+    "counties": [
+      "37031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

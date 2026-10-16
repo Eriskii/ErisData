@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-san-patricio",
+  "publisher": "San Patricio County Appraisal District (SanPatricioCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/EPyTHdGc5BhnbNty/arcgis/rest/services/SanPatricioCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48409"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Appraisal district CAD web service; parcels layer of ~49k features",
+  "verification": {
+    "verified_at": 1792051736999,
+    "counties": [
+      "48409"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

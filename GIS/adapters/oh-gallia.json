@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "oh-gallia",
+  "publisher": "Gallia County GIS via Ohio ODNR OGRIP statewide parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ohiodnr.gov/arcgis/rest/services/OIT_Services/odnr_landbase_v2/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39053"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "CALC_ACRES"
+  },
+  "filter": "COUNTY = 'Gallia'",
+  "notes": "Statewide ODNR parcel layer, filtered to Gallia rows; COUNTY values are title case. Owner names are empty for Gallia in this layer; no address, land use or value fields provided.",
+  "verification": {
+    "verified_at": 1792051718096,
+    "counties": [
+      "39053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

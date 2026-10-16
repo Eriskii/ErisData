@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "22017",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://gissrv1.romlc.net/arcgis/rest/services/WebMaps/LA_Assessors/MapServer/3",
+    "https://gissrv1.romlc.net/arcgis/rest/services/WebMaps/LA_Assessors/MapServer",
+    "https://caddo.gov/public-works/maps-for-download/",
+    "https://caddo.gov/about-public-works/#GIS",
+    "https://gis-nlcog.hub.arcgis.com/maps/6293532d5f0c4356a132ca5f06760365"
+  ],
+  "note": "Caddo Parish has no public parcel service found. The only ArcGIS parcel layer ('Parcels - LA - Caddo Parish', romlc LA_Assessors MapServer/3) returns 'Token Required'. Parish Public Works refers GIS requests to NLCOG (no public service found) and parcel data to the Assessor (actdatascout.com returns a 403 WAF error, no public download). Commercial vendors (Dynamo Spatial, Regrid, Equator) are not county-published, so not used.",
+  "recorded_at": 1792049867729,
+  "recheck_after": 1807601867729,
+  "model": "claude-haiku-5-5"
+}

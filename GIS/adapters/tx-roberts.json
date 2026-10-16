@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "tx-roberts",
+  "publisher": "TxGIO StratMap Texas Land Parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48393"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "acres": "GIS_AREA"
+  },
+  "filter": "COUNTY = 'Roberts'",
+  "notes": "TxGIO StratMap from Roberts Appraisal District; owner/address blank in source for sampled parcels",
+  "verification": {
+    "verified_at": 1792054236159,
+    "counties": [
+      "48393"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

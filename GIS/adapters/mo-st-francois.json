@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-st-francois",
+  "publisher": "St. Francois County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.semogis.com/server/rest/services/StFrancois_CO/StFranCo_PublicBase/MapServer/39",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29187"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUMBER",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDRESS",
+    "acres": "CALC_AC"
+  },
+  "notes": "Hosted by SEMO GIS (maps.semogis.com) for St. Francois County; public parcel layer from StFranCo_PublicBase",
+  "verification": {
+    "verified_at": 1792051062350,
+    "counties": [
+      "29187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "wi-douglas",
+  "publisher": "Douglas County, WI (Superior/Douglas County GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/M6mTSTOW6MNBXtBj/arcgis/rest/services/Douglas_County_Wisconsin_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55031"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO",
+    "owner": "LastName",
+    "address": "PROPERTYAD",
+    "acres": "Acres",
+    "land_use": "LANDCLASS",
+    "assessed_value": "TOTVAL"
+  },
+  "notes": "Superior/Douglas County GIS cadastral layer; owner field is LastName (first name in FirstName, co-owner in COOWNER)",
+  "verification": {
+    "verified_at": 1792045204569,
+    "counties": [
+      "55031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

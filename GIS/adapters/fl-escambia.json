@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-escambia",
+  "publisher": "Escambia County Property Appraiser",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismaps.myescambia.com/arcgis/rest/services/Individual_Layers/parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12033"
+    ]
+  },
+  "fields": {
+    "apn": "REFNUM",
+    "owner": "OWNER",
+    "address": "SITEADDR",
+    "acres": "LANDSIZE",
+    "land_use": "DORCD",
+    "assessed_value": "CURRMKT"
+  },
+  "notes": "Escambia County Property Appraiser parcels, updated monthly; county-hosted MapServer layer 0",
+  "verification": {
+    "verified_at": 1792048762970,
+    "counties": [
+      "12033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

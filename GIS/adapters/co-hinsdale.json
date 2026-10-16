@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "co-hinsdale",
+  "publisher": "Colorado OIT GIS Team (Colorado Public Parcels composite), Hinsdale County records",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08053"
+    ]
+  },
+  "fields": {
+    "apn": "parcel_id",
+    "owner": "owner",
+    "address": "situsAdd",
+    "acres": "landAcres",
+    "land_use": "landUseDsc",
+    "assessed_value": "asedValTot"
+  },
+  "filter": "countyName = 'Hinsdale'",
+  "notes": "Statewide composite; Hinsdale rows identified by countyName (countyFips is empty for this county).",
+  "verification": {
+    "verified_at": 1792048755168,
+    "counties": [
+      "08053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

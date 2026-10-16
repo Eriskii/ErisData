@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nm-lea",
+  "publisher": "Lea County Assessor (Portico) via ArcGIS Online",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/haQkIWW9RWRd8Arf/arcgis/rest/services/Owner_Parcels/FeatureServer/22",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35025"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELCODE",
+    "owner": "GONAM",
+    "acres": "CALC_ACRE",
+    "land_use": "GDDES",
+    "assessed_value": "GREAPV"
+  },
+  "notes": "Lea County NM Portico Owner Parcels layer (OwnerParcel); about 44,007 features; source is in NM State Plane feet, returned as GeoJSON. Site address fields are mostly empty, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792051359025,
+    "counties": [
+      "35025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

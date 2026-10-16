@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "ne-dakota",
+  "publisher": "Nebraska Tax Parcels (NebraskaMap statewide compilation, hosted by UNL)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/jzdN07B7ZhRTxuzU/arcgis/rest/services/Layers_Data_WFL1/FeatureServer/29",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31043"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "Current_Owner_Name",
+    "address": "Street_Address",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '043'",
+  "notes": "Statewide Nebraska tax parcel layer compiled from county assessor data; filtered to Dakota County (County_ID 043). address is the owner mailing address field (Street_Address) because situs address is sparsely populated in the source.",
+  "verification": {
+    "verified_at": 1792051216568,
+    "counties": [
+      "31043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

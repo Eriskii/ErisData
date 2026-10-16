@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-obrien",
+  "publisher": "Iowa Department of Homeland Security & Emergency Management (statewide 2017 parcels, hosted by University of Iowa)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19141"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME LIKE '%BRIEN%'",
+  "notes": "2017 statewide parcel layer filtered to O' BRIEN county; no address/acreage/value fields in source",
+  "verification": {
+    "verified_at": 1792049294626,
+    "counties": [
+      "19141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

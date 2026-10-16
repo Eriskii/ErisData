@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "me-waldo",
+  "publisher": "Maine Cadastral Historical Trust (MCHT) combined parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mcht.org/arcgis/rest/services/Cadastral_Planning/MCHT_Combined_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23027"
+    ]
+  },
+  "fields": {
+    "apn": "map_bk_lot",
+    "owner": "state_id",
+    "land_use": "type"
+  },
+  "filter": "cntycode = '27'",
+  "notes": "Organized towns of Waldo County from MCHT combined parcel layer; map_bk_lot is town map-block-lot; state_id is town geocode plus map-block-lot; prop_loc (street address) is sparsely filled in the source so address is not mapped; owner data not in this layer (state_id used as identifier); verify currency with towns",
+  "verification": {
+    "verified_at": 1792049918608,
+    "counties": [
+      "23027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

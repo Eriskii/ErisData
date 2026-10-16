@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "32011",
+  "reason": "tos-forbids-automation",
+  "evidence": [
+    "https://arcgis.water.nv.gov/arcgis/rest/services/BaseLayers/County_Parcels_in_Nevada/MapServer",
+    "https://arcgis.water.nv.gov/arcgis/rest/services/BaseLayers/County_Parcels_in_Nevada/MapServer?f=pjson",
+    "https://eucogis.maps.arcgis.com/apps/webappviewer/index.html"
+  ],
+  "note": "Eureka County parcels are only reachable through the Nevada DWR statewide County_Parcels MapServer (layer 0, includes Eureka). Its metadata says parcel GIS data cannot be shared or exported outside the department under NRS 250 (no subsets, no copies), and exportTilesAllowed is false, so an adapter would redistribute restricted data. The county eucogis viewer exposes no feature service. Other sources are paid commercial downloads.",
+  "recorded_at": 1792051397885,
+  "recheck_after": 1823587397885,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-ashe",
+  "publisher": "Ashe County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ashecountygov.com/arcgis/rest/services/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37009"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "Name1",
+    "address": "ParcelPropertyAddress",
+    "acres": "TotalCalculatedAcres",
+    "land_use": "LegalLandType",
+    "assessed_value": "TotalAssessedValue"
+  },
+  "notes": "Source in State Plane feet (EPSG 2264); service max 2000 records per query, page_size set to 1000.",
+  "verification": {
+    "verified_at": 1792051336115,
+    "counties": [
+      "37009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

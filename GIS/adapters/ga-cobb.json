@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-cobb",
+  "publisher": "Cobb County GIS (Tax Assessor)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cobbcounty.org/gisserver/rest/services/tax/taxassessorsdaily/mapserver/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13067"
+    ]
+  },
+  "fields": {
+    "apn": "PARID",
+    "owner": "OWNER_NAM1",
+    "address": "SITUS_ADDR",
+    "acres": "ACRES",
+    "land_use": "CLASS",
+    "assessed_value": "ASV_TOTAL"
+  },
+  "notes": "Cobb County tax assessor daily parcel layer; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792048735696,
+    "counties": [
+      "13067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

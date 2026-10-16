@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-dakota",
+  "publisher": "Dakota County GIS (MN)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis2.co.dakota.mn.us/arcgis/rest/services/DCGIS_OL_PropertyInformation/MapServer/71",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27037"
+    ]
+  },
+  "fields": {
+    "apn": "TAXPIN",
+    "owner": "FULLNAME",
+    "acres": "TOTAL_ACRES",
+    "land_use": "USE1_DESC",
+    "assessed_value": "TOTALVAL"
+  },
+  "notes": "Dakota County MN tax parcels, from county DCGIS MapServer layer 71; approx 167k features. SITEADDRESS is blank for many rural parcels, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792050887214,
+    "counties": [
+      "27037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

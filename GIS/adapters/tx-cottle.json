@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-cottle",
+  "publisher": "TxGIO / CAD statewide Texas Land Parcels (hosted by kaw106_shsu), Cottle County TX",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "48101"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "assessed_value": "MKT_VALUE"
+  },
+  "filter": "FIPS = '48101'",
+  "notes": "Statewide TxGIO-compiled CAD parcels; filtered to FIPS 48101. Land use not populated for this county.",
+  "verification": {
+    "verified_at": 1792051703859,
+    "counties": [
+      "48101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

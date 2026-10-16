@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wi-milwaukee",
+  "publisher": "Milwaukee County Land Information Office (MCLIO)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/s1wgJQKbKJihhhaT/arcgis/rest/services/Milwaukee_County_Parcels_Property_Information_view/FeatureServer/58",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55079"
+    ]
+  },
+  "fields": {
+    "apn": "TAXKEY",
+    "owner": "OWNERNAME1",
+    "address": "ADDRESS",
+    "acres": "ACRES",
+    "land_use": "DESCRIPTION"
+  },
+  "notes": "MCLIO public parcel layer; one polygon per TAXKEY; condo parcels stacked; 280k features",
+  "verification": {
+    "verified_at": 1792045220627,
+    "counties": [
+      "55079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

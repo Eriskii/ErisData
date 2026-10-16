@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-perry",
+  "publisher": "Arkansas GIS Office (Perry County assessor data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05105"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "CountyFips = '105'",
+  "notes": "Statewide Arkansas GIS Office PARCEL_POLYGON_CAMP layer; filtered to Perry County (state-county code 105). Ad valorem tax purposes; not a legal boundary. Updated twice a year.",
+  "verification": {
+    "verified_at": 1792048538334,
+    "counties": [
+      "05105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

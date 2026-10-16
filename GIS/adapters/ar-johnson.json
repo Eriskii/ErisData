@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-johnson",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program), Johnson County AR",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 6,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05071"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype"
+  },
+  "filter": "countyfips = '071'",
+  "notes": "Statewide Arkansas GIS parcel polygons (CAMA-derived); not a legal boundary. Filtered to CountyFips 071 (Johnson). Updated twice a year.",
+  "verification": {
+    "verified_at": 1792048546242,
+    "counties": [
+      "05071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

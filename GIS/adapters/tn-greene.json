@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-greene",
+  "publisher": "Greene County TN Assessor (via J_Schooley ArcGIS layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/vvyxpgJWEnRl6LgB/arcgis/rest/services/Greeneville_Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47059"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "CALC_ACRE",
+    "land_use": "LANDUSE",
+    "assessed_value": "APPRAISAL"
+  },
+  "notes": "Layer last updated 2025-01-30 from TN Property Assessor data; county-wide parcel polygons",
+  "verification": {
+    "verified_at": 1792052009770,
+    "counties": [
+      "47059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

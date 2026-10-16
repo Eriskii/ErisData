@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-brantley",
+  "publisher": "Brantley County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/86pyA5PND5NdokIc/arcgis/rest/services/Brantley_Parcels_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13025"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_No",
+    "owner": "lastname",
+    "address": "street_nam",
+    "acres": "totalacres",
+    "land_use": "land_type",
+    "assessed_value": "a_value"
+  },
+  "notes": "Hub service Brantley_Parcels_view; owner is lastname field only",
+  "verification": {
+    "verified_at": 1792048710563,
+    "counties": [
+      "13025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

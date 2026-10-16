@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-olmsted",
+  "publisher": "Olmsted County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://public.gis.olmstedcounty.gov/arcgis/rest/services/AGOL_Open_Data/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27109"
+    ]
+  },
+  "fields": {
+    "apn": "PARID",
+    "owner": "OwnerName1",
+    "address": "SiteAddrNo",
+    "acres": "DeedAcres",
+    "land_use": "LandUseDes",
+    "assessed_value": "EMVTotal"
+  },
+  "notes": "Olmsted County MN open data parcels composite; authoritative county GIS",
+  "verification": {
+    "verified_at": 1792050879998,
+    "counties": [
+      "27109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-tallapoosa",
+  "publisher": "Tallapoosa County, AL (via PowerSouth Alabama Parcel Data)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/43",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01123"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer from Alabama Parcel Data compilation (LL/Regrid-style). Tallapoosa County layer only. land_use is numeric USECODE because USEDESC is blank. Site address omitted: ADDRESS is only about 46% filled.",
+  "verification": {
+    "verified_at": 1792048412104,
+    "counties": [
+      "01123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

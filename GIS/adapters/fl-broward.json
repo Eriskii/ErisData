@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-broward",
+  "publisher": "Broward County Property Appraiser (BCPA) via Broward County GIS, parcel polygons joined to tax roll",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/JMAJrTsHNLrSsWf5/arcgis/rest/services/PARCEL_POLY_BCPA_TAXROLL/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "apn": "FOLIO",
+    "owner": "NAME_LINE_1",
+    "address": "ADDRESS_LINE_1",
+    "land_use": "USE_CODE",
+    "assessed_value": "JUST_LAND_VALUE"
+  },
+  "filter": "Shape__Area < 2000000",
+  "notes": "BCPA parcel polygons joined with tax roll (monthly). address is the owner mailing address line (ADDRESS_LINE_1); situs fields are SITUS_STREET_NUMBER/SITUS_STREET_DIRECTION/SITUS_STREET_NAME. assessed_value is just land value. Very large polygons (water/conservation areas) excluded.",
+  "verification": {
+    "verified_at": 1792048817060,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

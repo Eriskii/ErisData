@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "21021",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://maps2.bgadd.org/arcgis/rest/services/Boyle/BoyleParcelBoundary/MapServer/0",
+    "https://reportallusa.com/store/Kentucky/21021",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services"
+  ],
+  "note": "The only Boyle parcel service (BGADD maps2.bgadd.org, listed in ArcGIS Online) has been unreachable across three sessions: probes, direct GETs and 4 spec validations on https/http and other ports all fail with connection errors. No other public Boyle parcel service exists: KY state server has only Webster County, and other parcel data is paid (ReportAll, Regrid). Recorded as unavailable because no usable queryable service is currently reachable; recheck if BGADD host returns.",
+  "recorded_at": 1792049823064,
+  "recheck_after": 1807601823064,
+  "model": "claude-sonnet-5-5"
+}

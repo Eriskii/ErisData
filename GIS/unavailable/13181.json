@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "13181",
+  "reason": "login-required",
+  "evidence": [
+    "https://services6.arcgis.com/nmiAsMcP1CEqOOth/arcgis/rest/services/Parcel_Regions_w_WinGAP_CivicPlus_view/FeatureServer",
+    "https://services6.arcgis.com/nmiAsMcP1CEqOOth/arcgis/rest/services/Parcel_Regions_w_WinGAP_CivicPlus_view/FeatureServer/0",
+    "https://gis.equatorstudios.com/georgia_lincoln/",
+    "https://www.dynamospatial.com/c/lincoln-county-ga/parcel-data"
+  ],
+  "note": "The only Lincoln County GA parcel ArcGIS layer found (Lincoln County Georgia Parcels, owner lincolnpw, services6 host) returns 'Token Required' on the service root and layer /0. No public queryable parcel service or file was found. Commercial vendors (Equator, DynamoSpatial, Regrid, Acres, Rockford) sell parcels; the qPublic/Schneider viewer returned 403; arcgisserver.lincolncounty.org timed out; the Columbia County host has no Lincoln layer.",
+  "recorded_at": 1792048943005,
+  "recheck_after": 1807600943005,
+  "model": "claude-haiku-5-5"
+}

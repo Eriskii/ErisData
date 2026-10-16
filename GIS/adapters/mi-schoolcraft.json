@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mi-schoolcraft",
+  "publisher": "Schoolcraft County (Parcels2023Schoolcraft, NorthropAssessing)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/wWwid2HdqJ8HIOOi/arcgis/rest/services/Parcels2023Schoolcraft/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26153"
+    ]
+  },
+  "fields": {
+    "apn": "Name",
+    "acres": "StatedArea"
+  },
+  "notes": "2023 parcel polygons for Schoolcraft County; no owner or address fields published in this layer",
+  "verification": {
+    "verified_at": 1792050005822,
+    "counties": [
+      "26153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

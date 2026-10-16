@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-van-buren",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05141"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "acres": "Shape__Area",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '141'",
+  "notes": "Statewide Arkansas parcel polygons (CAMA); filtered to county FIPS 141 (Van Buren). Not a legal boundary. Updated twice a year. Address not mapped: adrlabel is sparsely populated.",
+  "verification": {
+    "verified_at": 1792048536676,
+    "counties": [
+      "05141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

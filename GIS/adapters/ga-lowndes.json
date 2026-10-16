@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-lowndes",
+  "publisher": "Lowndes County GA (VALOR GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.valorgis.com/arcgis/rest/services/Valor/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13185"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "LASTNAME",
+    "address": "STREET_NAM",
+    "acres": "D_ACRES",
+    "land_use": "ZONINGCODE",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Public VALOR GIS service (valorgis.com); parcel boundaries for Lowndes County",
+  "verification": {
+    "verified_at": 1792048822217,
+    "counties": [
+      "13185"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

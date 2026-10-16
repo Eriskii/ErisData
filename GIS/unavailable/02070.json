@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "02070",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services6.arcgis.com/b8wD2lL3FNc20VqC/arcgis/rest/services/Parcels_-_shapefile/FeatureServer/0",
+    "https://services1.arcgis.com/7HDiw78fcUiM2BWn/arcgis/rest/services/AK_Parcels/FeatureServer/0",
+    "https://services3.arcgis.com/gdLTz4xpy5IxwbSz/arcgis/rest/services/ParcelsOnline/FeatureServer/0"
+  ],
+  "note": "Searched ArcGIS Hub/Online. Statewide compilations (Parcels - shapefile; AK_Parcels) and the City of Dillingham ParcelsOnline service only hold parcels for City of Dillingham (and Bristol Bay Borough in the combined layer). Queries around validation point (-158.12433,59.69337) return 0 parcels in both statewide layers; spec validate failed with 0 parcels within 0.12 degrees. No census-area parcel service found outside the city.",
+  "recorded_at": 1792048511490,
+  "recheck_after": 1807600511490,
+  "model": "claude-haiku-5-5"
+}

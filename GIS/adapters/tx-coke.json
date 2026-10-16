@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-coke",
+  "publisher": "Coke Central Appraisal District (bis_cokecad ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/ffBxoPN79nRAYU6E/arcgis/rest/services/CokeCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48081"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "filter": "file_as_name IS NOT NULL",
+  "notes": "Coke CAD parcel layer; about 7,800 parcels; situs address is sparsely populated so not mapped; hood_cd empty so land_use not mapped",
+  "verification": {
+    "verified_at": 1792051673479,
+    "counties": [
+      "48081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

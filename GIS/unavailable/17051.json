@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "17051",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/FayetteILFeatures/FeatureServer/3",
+    "https://portico.sidwellco.com/server/rest/services/FayetteILParcelFabricService/FeatureServer",
+    "https://www.fayettecountyillinois.gov/county-offices/supervisor-of-assessments/",
+    "https://fayettecad.org/gis-data-downloads"
+  ],
+  "note": "Fayette County IL parcels are not published as an open queryable service. The only ArcGIS parcel item found (GDITAdmin FayetteILFeatures, services.arcgis.com) returns 'Invalid URL' for every request. The county's Sidwell portal (portico.sidwellco.com) requires a token for its services and no Fayette service appears in its public directory. The CAD download zip (fayettecad.org) yields 0 parcels in the validation sample box and no readable attributes. Other sources are commercial (Regrid, Dynamo, Acres, Rockford Map).",
+  "recorded_at": 1792049060965,
+  "recheck_after": 1807601060965,
+  "model": "claude-haiku-5-5"
+}

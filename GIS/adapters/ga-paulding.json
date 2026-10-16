@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-paulding",
+  "publisher": "Paulding County GIS (via ga_paulding_shp feature service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/qTQ6qYkHpxlu0G82/arcgis/rest/services/ga_paulding_shp/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13223"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnumb",
+    "owner": "owner",
+    "address": "address",
+    "acres": "gisacre",
+    "assessed_value": "parval"
+  },
+  "notes": "Parcel layer compiled from county data; land use codes mostly blank in source",
+  "verification": {
+    "verified_at": 1792048833056,
+    "counties": [
+      "13223"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

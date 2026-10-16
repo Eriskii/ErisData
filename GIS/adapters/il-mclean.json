@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "il-mclean",
+  "publisher": "McLean County GIS Consortium (McGIS) via ArcGIS Online",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/utVR6GjejYAZciWt/arcgis/rest/services/McLean_County_Parcels_2022/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17113"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "acres": "COMPUTED_A"
+  },
+  "notes": "CC BY 4.0 per McGIS; data retrieved March 2022; no owner or address fields in this layer",
+  "verification": {
+    "verified_at": 1792048966756,
+    "counties": [
+      "17113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

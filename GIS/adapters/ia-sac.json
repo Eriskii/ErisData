@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-sac",
+  "publisher": "Iowa DHS/HSEMD statewide parcels (Sac County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19161"
+    ]
+  },
+  "fields": {
+    "apn": "UNPARCELID",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'Sac'",
+  "notes": "Statewide 2017 parcel layer filtered to Sac County",
+  "verification": {
+    "verified_at": 1792049291567,
+    "counties": [
+      "19161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

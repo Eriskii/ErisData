@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "nm-san-juan",
+  "publisher": "San Juan County, NM GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Iq7du96UAXAOM1at/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35045"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNO"
+  },
+  "notes": "County Parcels layer (SDE.Parcels) referenced by OpenAddresses PR 8697; only APN field available",
+  "verification": {
+    "verified_at": 1792051376091,
+    "counties": [
+      "35045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-saunders",
+  "publisher": "Saunders County GIS (gWorks WebGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Saunders_County_NE_Assessor/MapServer/165",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31155"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "Parcels layer from Saunders County assessor gWorks WebGIS; only PID and acres exposed; no owner/address fields in this layer. Map is marked approximate and not for official use.",
+  "verification": {
+    "verified_at": 1792051175573,
+    "counties": [
+      "31155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

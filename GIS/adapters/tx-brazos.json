@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-brazos",
+  "publisher": "Brazos County Texas (via Brazos County Parcels feature service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/82iS1Pc7dgs3LFZv/arcgis/rest/services/Brazos_County_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48041"
+    ]
+  },
+  "fields": {
+    "apn": "geo_id",
+    "owner": "file_as_na",
+    "acres": "land_acres",
+    "land_use": "state_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Appraisal-district style parcel layer from Brazos CAD data; geo_id is the parcel geographic ID. Situs address is split across situs_num/situs_st_1/situs_st_2 and is not mapped.",
+  "verification": {
+    "verified_at": 1792051655416,
+    "counties": [
+      "48041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

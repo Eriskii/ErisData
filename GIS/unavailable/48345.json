@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "48345",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "https://services6.arcgis.com/nolmkcNXcNYRF7iO/arcgis/rest/services/Parcel_Boundaries/FeatureServer/0",
+    "https://services5.arcgis.com/FmxVFcLfGZgh8t6m/arcgis/rest/services/Motley_County_Web_Map_WFL1/FeatureServer",
+    "https://www.taxnetusa.com/texas/motley/",
+    "https://www.dynamospatial.com/c/motley-county-tx/parcel-data"
+  ],
+  "note": "Motley County (48345) has no public queryable tax parcel service found. The statewide TxGIO/CAD Texas Land Parcels layer (services2 kaw106_shsu) returns query errors for FIPS 48345 (same error as a nonexistent FIPS, unlike Cottle 48101 which returns features) and timed out on validation; the statewide Parcel_Boundaries layer has no Motley rows; the county ArcGIS web map service has only polling places, addresses, county outline and precincts, no parcels. Motley CAD is website-only (Pro-subscription map viewer); parcel data is sold via vendors (Dynamo, Regrid, texascountygisdata).",
+  "recorded_at": 1792053416360,
+  "recheck_after": 1807605416360,
+  "model": "claude-haiku-5-5"
+}

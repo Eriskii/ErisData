@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-brazoria",
+  "publisher": "Brazoria County Appraisal District (via TNRIS StratMap land parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/lqRTrQp2HrfnJt8U/arcgis/rest/services/stratmap22_landparcels_48039_lp/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48039"
+    ]
+  },
+  "fields": {
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "assessed_value": "MKT_VALUE"
+  },
+  "filter": "FIPS = '48039'",
+  "notes": "Derived from Brazoria CAD parcels, distributed via TNRIS StratMap annual land parcel program; tax year 2022 attributes; Prop_ID and GEO_ID are often blank in source",
+  "verification": {
+    "verified_at": 1792051661020,
+    "counties": [
+      "48039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

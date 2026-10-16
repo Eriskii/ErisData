@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-bibb",
+  "publisher": "Macon-Bibb County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/zPFLSOZ5HzUzzTQb/ArcGIS/rest/services/ParcelsCAMA/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13021"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NO",
+    "owner": "LASTNAME",
+    "address": "SITEADDRES",
+    "acres": "CALC_ACRE",
+    "land_use": "DIGCLASS",
+    "assessed_value": "CURR_VAL"
+  },
+  "notes": "Macon-Bibb consolidated government CAMA parcel layer; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792048700648,
+    "counties": [
+      "13021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

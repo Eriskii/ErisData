@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29023",
+  "reason": "login-required",
+  "evidence": [
+    "https://butlercountymo.com/assessors-office/",
+    "https://butler.integritygis.com/",
+    "https://services2.integritygis.com/arcgis/rest/services/MO/Butler_Assessor_Data/MapServer",
+    "https://www.dynamospatial.com/c/butler-county-mo/parcel-data"
+  ],
+  "note": "Butler County MO's only parcel source is the Integrity GIS Geocortex viewer (butler.integritygis.com, Parcel_Public layer); its Integrity ArcGIS server returns 'Token Required' for the MO services, and the viewer hosts are unreachable. The maps.butlercountyauditor.org layer earlier attempts used is Butler County, Ohio's, not Missouri's. Other Butler MO parcel data is commercial only (Regrid, Dynamo, ReportAll).",
+  "recorded_at": 1792051380325,
+  "recheck_after": 1807603380325,
+  "model": "claude-sonnet-5-5"
+}

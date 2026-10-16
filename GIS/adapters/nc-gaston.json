@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-gaston",
+  "publisher": "Gaston County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gastoncountync.gov/publicgis/rest/services/PublicGIS/Parcels/MapServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37071"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "CURR_NAME1",
+    "address": "WHOLE_ADDRESS",
+    "acres": "CALCAC",
+    "land_use": "property_use",
+    "assessed_value": "TOTVAL"
+  },
+  "notes": "Parcels joined to DevNet CAMA table; metadata dated 2025-08-30; county disclaimer terms apply",
+  "verification": {
+    "verified_at": 1792051359565,
+    "counties": [
+      "37071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

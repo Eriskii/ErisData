@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ky-breathitt",
+  "publisher": "Breathitt County, KY (parcels 2023, hosted by dougcurl)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/9Dz5quHPmab2pMtb/arcgis/rest/services/Breathitt_Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21025"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "Name_1",
+    "address": "Property_1",
+    "acres": "ACRES",
+    "assessed_value": "REAL_ESTAT"
+  },
+  "notes": "Breathitt County Parcels 2023 hosted on ArcGIS Online; fields as published",
+  "verification": {
+    "verified_at": 1792049351473,
+    "counties": [
+      "21025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

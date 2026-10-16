@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "48011",
+  "reason": "login-required",
+  "evidence": [
+    "https://feature.geographic.texas.gov/arcgis/rest/services/Parcels/stratmap24_land_parcels_48/MapServer (returns 'Token Required')",
+    "https://armstrongcad.org/home/map (interactive map names no public parcel service)",
+    "https://www.taxnetusa.com/texas/armstrong/ (GIS map Pro-subscription only)",
+    "https://texascountygisdata.com/product/armstrong-county-gis-shapefile-and-property-data/ (paid shapefile)"
+  ],
+  "note": "Armstrong County Appraisal District publishes no public queryable parcel service or free file. The only public-agency parcel layer (TxGIO StratMap) is token-gated, and commercial vendors (Regrid, Acres, TaxNet, Equator, reportallusa) sell parcel data behind paywalls. No open ArcGIS service for Armstrong County was found in Hub/Online searches.",
+  "recorded_at": 1792051699836,
+  "recheck_after": 1807603699836,
+  "model": "claude-haiku-5-5"
+}

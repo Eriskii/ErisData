@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-dallas",
+  "publisher": "Dallas Central Appraisal District via TxGIO DataHub (BIS Consultants), hosted by PWilliamsGIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/6dxqrE38upDMg1va/arcgis/rest/services/Dallas_Co_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48113"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "assessed_value": "MKT_VALUE"
+  },
+  "notes": "CAD parcel data via TxGIO statewide parcel program; annual refresh; GIS_AREA not mapped (reads 0 for many parcels)",
+  "verification": {
+    "verified_at": 1792051680233,
+    "counties": [
+      "48113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

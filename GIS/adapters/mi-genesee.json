@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mi-genesee",
+  "publisher": "Genesee County GIS (GCDCWWS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/PrYwGqAi1wKjoFb1/arcgis/rest/services/Parcels2025County/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26049"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "OwnName",
+    "address": "PropStreet",
+    "acres": "AcreCalcNM",
+    "land_use": "PropClass",
+    "assessed_value": "Assessment"
+  },
+  "notes": "County parcel layer from Genesee County GIS hub; Web Mercator geometry",
+  "verification": {
+    "verified_at": 1792049924943,
+    "counties": [
+      "26049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

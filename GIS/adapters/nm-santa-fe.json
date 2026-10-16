@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "nm-santa-fe",
+  "publisher": "Santa Fe County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sfcomaps.santafecountynm.gov/restsvc/rest/services/TaxParcelsDB/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35049"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownernme1",
+    "address": "siteaddress",
+    "land_use": "usedscrp",
+    "assessed_value": "cntassdval"
+  },
+  "notes": "Santa Fe County tax parcels, TaxParcelsDB MapServer layer 0; maxRecordCount 2000",
+  "verification": {
+    "verified_at": 1792051339690,
+    "counties": [
+      "35049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

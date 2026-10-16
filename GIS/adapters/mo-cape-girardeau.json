@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mo-cape-girardeau",
+  "publisher": "Cape Girardeau County GIS (SEMO GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.semogis.com/server/rest/services/CapeGirardeau_CO/CapeCo_PublicBase/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29031"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "Main_Name",
+    "address": "Main_Locat",
+    "acres": "CALC_ACRE"
+  },
+  "verification": {
+    "verified_at": 1792051066116,
+    "counties": [
+      "29031"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

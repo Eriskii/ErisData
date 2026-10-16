@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "08063",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0 (statewide composite): 0 features for countyFips=08063, countyName='Kit Carson' and LIKE '%Carson%'; point query at -102.60188,39.30583 returns nothing, while Yuma (08125) returns 11,862 records",
+    "http://162.221.202.11/mapguide/kitcarson/index.php (county assessor MapGuide viewer, not a REST service)",
+    "https://kitcarsoncountyco-assessor.tylerhost.net/assessor/web/ (assessor Tyler portal, no GIS service)",
+    "https://www.dynamospatial.com/c/kit-carson-county-co/parcel-data (commercial shapefile only, paid order)"
+  ],
+  "note": "Searched ArcGIS Hub/Online for Kit Carson parcels (nothing found). Probed the state parcel composite, which has no Kit Carson features. The county's only public parcel map is a MapGuide viewer, not a queryable service. Other sources are paid downloads.",
+  "recorded_at": 1792048801141,
+  "recheck_after": 1807600801141,
+  "model": "claude-haiku-5-5"
+}

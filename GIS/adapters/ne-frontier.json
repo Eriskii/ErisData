@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "ne-frontier",
+  "publisher": "Frontier County GIS (Sidwell)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/Frontier_County_Nebraska/FeatureServer/32",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31063"
+    ]
+  },
+  "fields": {
+    "apn": "PID"
+  },
+  "notes": "Layer exposes only OBJECTID, PID, Shape__Area, Shape__Length; no owner/address/value fields published on this layer.",
+  "verification": {
+    "verified_at": 1792051113735,
+    "counties": [
+      "31063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

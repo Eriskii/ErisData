@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wy-teton",
+  "publisher": "Wyoming Department of Revenue / Teton County Assessor (Wyoming Statewide Parcel Viewer layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/r0iJ85SKZ4zAzz3P/arcgis/rest/services/Wyoming_Parcels_for_2026/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56039"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnb",
+    "owner": "ownername1",
+    "address": "locationad",
+    "assessed_value": "assessedva"
+  },
+  "filter": "jurisdicti = 'TETON'",
+  "notes": "Statewide WY parcel layer compiled from county assessor tax rolls, filtered to jurisdiction TETON. Tax year 2026 snapshot.",
+  "verification": {
+    "verified_at": 1792051880037,
+    "counties": [
+      "56039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

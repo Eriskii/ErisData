@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "tn-hardin",
+  "publisher": "Hardin County TN Tax Assessor (via JCBurgess ArcGIS Hub)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/QuuhNNKD3xQ6RqEv/arcgis/rest/services/Hardin_Parcels_(Public)/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47071"
+    ]
+  },
+  "fields": {
+    "apn": "ID",
+    "address": "ADDRESS"
+  },
+  "notes": "Hardin County TN Assessor public parcels layer; only ID, ADDRESS, SUBDIV, LOT fields exposed",
+  "verification": {
+    "verified_at": 1792052079366,
+    "counties": [
+      "47071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

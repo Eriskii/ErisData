@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wy-washakie",
+  "publisher": "Washakie County Wyoming (assessor) via ArcGIS Online",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/ZaepYkZEwJCIdB2c/arcgis/rest/services/PublishParcel2/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56043"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNB",
+    "owner": "NAME1",
+    "address": "ADDRESS1",
+    "acres": "ACRES"
+  },
+  "notes": "Layer dated 2020 tax year; PIDN and ACCOUNTNO also available",
+  "verification": {
+    "verified_at": 1792051804895,
+    "counties": [
+      "56043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

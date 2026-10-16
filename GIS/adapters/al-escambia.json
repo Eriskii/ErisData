@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-escambia",
+  "publisher": "Escambia County, AL (via Alabama Parcel Data, ArcGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/22",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01053"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "acres": "GISACRE",
+    "land_use": "USECODE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer 22 of Alabama Parcel Data FeatureServer (PowerSouth); Escambia County only, 33329 features. Site address field ADDRESS is populated for many parcels but blank for many rural/vacant ones, so it is not mapped.",
+  "verification": {
+    "verified_at": 1792048346038,
+    "counties": [
+      "01053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

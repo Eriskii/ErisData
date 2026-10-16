@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "fl-bay",
+  "publisher": "Bay County Property Appraiser (via Bay County Parcels feature service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/QB0VWfqR9MD4lF0F/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12005"
+    ]
+  },
+  "fields": {
+    "apn": "A1RENUM",
+    "owner": "A2OWNAME",
+    "address": "DSITEADDR",
+    "acres": "DTAXACRES",
+    "land_use": "DORAPPDESC",
+    "assessed_value": "VAPTOTAL"
+  },
+  "notes": "Bay County Property Appraiser parcels; maxRecordCount 2000 (page_size 1000 used). Public feature service linked from the PA parcel item.",
+  "verification": {
+    "verified_at": 1792048686527,
+    "counties": [
+      "12005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

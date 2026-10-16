@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21133",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=LetcherCountyKY&Layer=Parcels&PageType=Search",
+    "https://www.qpublic.net/ky/letcher/"
+  ],
+  "note": "Letcher County KY (21133): no public ArcGIS REST or file parcel service found. KYTC PVA availability layer lists LETCHER as 'Without Ownership'. The state kygisserver publishes PVA parcel services only for Webster County. Letcher's only online parcel viewer is the Schneider qPublic app (Cloudflare-blocked, no documented REST endpoint). Other sources (Regrid, Equator Studios, Acres, Dynamo, Rockford) are paid downloads or non-queryable tiles.",
+  "recorded_at": 1792049938071,
+  "recheck_after": 1807601938071,
+  "model": "claude-haiku-5-5"
+}

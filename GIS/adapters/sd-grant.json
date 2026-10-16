@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sd-grant",
+  "publisher": "First District GIS (Grant County, SD MapNet)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Grant/grantmapnetpro/FeatureServer/16",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46051"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL",
+    "owner": "TAXPAYER_NAME",
+    "acres": "TOTAL_ACRES",
+    "land_use": "Prop_Cls_1",
+    "assessed_value": "TOTAL_AV"
+  },
+  "notes": "First District GIS MapNet public service for Grant County SD; parcel polygons layer 16 Grant Parcels. Address field (INQ_STREET_NAME) sparsely populated so omitted.",
+  "verification": {
+    "verified_at": 1792051628035,
+    "counties": [
+      "46051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-llano",
+  "publisher": "Llano Central Appraisal District",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/3fXpNNO2cx0O3RtY/arcgis/rest/services/LlanoCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48299"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Llano CAD web service (BIS). Parcels layer of LlanoCADWebService MXD. land_use not populated in source.",
+  "verification": {
+    "verified_at": 1792051714423,
+    "counties": [
+      "48299"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

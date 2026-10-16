@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "fips": "40023",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://publicrecords.netronline.com/state/OK/county/choctaw",
+    "https://map.netronline.com/oklahoma-choctaw/40023",
+    "https://www.acres.com/plat-map/map/ok/choctaw-county-ok",
+    "https://app.regrid.com/store/us/ok/choctaw",
+    "https://www.dynamospatial.com/c/choctaw-county-ok/parcel-data",
+    "https://gis.equatorstudios.com/oklahoma_choctaw/",
+    "https://tiles.arcgis.com/tiles/KzeiCaQsMoeCfoCq/arcgis/rest/services/Regrid_Nationwide_Parcel_Boundaries_v1/MapServer/0"
+  ],
+  "note": "No public county parcel service found for Choctaw County OK (FIPS 40023). Searches of ArcGIS Hub/Online, county and state GIS, OWRB and OU CSA REST directories found no parcel polygon layer. Parcels are offered only by commercial vendors (Regrid, Acres, Dynamo, Equator, Rockford, Mapping Solutions). The Regrid nationwide ArcGIS service is tile-only with no query endpoint (query returns 404). The OWRB Parcels map service is unreachable.",
+  "recorded_at": 1792051605903,
+  "recheck_after": 1807603605903,
+  "model": "claude-haiku-5-5"
+}

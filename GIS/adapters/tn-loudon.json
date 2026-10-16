@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-loudon",
+  "publisher": "Loudon County GIS (via TN County Parcel Map, HNTBCorp)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/38",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47105"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_53_PARCELID",
+    "owner": "Assessment_Data_53_OWNER",
+    "address": "Assessment_Data_53_ADDRESS",
+    "acres": "Assessment_Data_53_CALCAC",
+    "land_use": "Assessment_Data_53_LANDUSE",
+    "assessed_value": "Assessment_Data_53_ASSESSMENT"
+  },
+  "notes": "Loudon County parcels joined with assessor data; layer is county-specific (Loudon_Parcels), no filter needed.",
+  "verification": {
+    "verified_at": 1792052298784,
+    "counties": [
+      "47105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

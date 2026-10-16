@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sc-sumter",
+  "publisher": "Sumter County GIS (SC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.sumter-sc.com/server/rest/services/BaseMaps/Sumter_City_County/MapServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45085"
+    ]
+  },
+  "fields": {
+    "apn": "parid",
+    "owner": "owner_name",
+    "address": "parcel_address_one",
+    "acres": "Calculated_ACREAGE",
+    "land_use": "JURISDICTION",
+    "assessed_value": "assessed_value_building"
+  },
+  "notes": "Sumter County SC assessor parcel layer; weekly extract",
+  "verification": {
+    "verified_at": 1792051576917,
+    "counties": [
+      "45085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

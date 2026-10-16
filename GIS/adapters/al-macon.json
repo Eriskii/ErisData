@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "al-macon",
+  "publisher": "Macon County, AL (via Alabama Parcel Data, PowerSouth/ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VUsVQlvugJlIRS3I/arcgis/rest/services/Alabama_Parcel_Data/FeatureServer/30",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01087"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "acres": "GISACRE",
+    "assessed_value": "PARVAL"
+  },
+  "notes": "Layer 30 of PowerSouth Alabama_Parcel_Data service; Macon County only; 20055 features; source in EPSG:26916, served as WGS84 via geoJSON. Situs address and land use fields are almost entirely blank in source, so not mapped.",
+  "verification": {
+    "verified_at": 1792048420998,
+    "counties": [
+      "01087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

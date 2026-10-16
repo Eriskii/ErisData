@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mi-mason",
+  "publisher": "Mason County, Michigan (Equalization)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/eojfSqF7rM94Z7MZ/arcgis/rest/services/Parcels_2026/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26105"
+    ]
+  },
+  "fields": {
+    "apn": "pnum",
+    "owner": "OwnerName",
+    "address": "Propaddr",
+    "acres": "GISAC",
+    "land_use": "Propertycl",
+    "assessed_value": "Sev"
+  },
+  "notes": "Layer from Mason County MI ArcGIS web map (Parcels 2026).",
+  "verification": {
+    "verified_at": 1792049961287,
+    "counties": [
+      "26105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

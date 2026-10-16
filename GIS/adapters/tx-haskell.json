@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-haskell",
+  "publisher": "Haskell CAD",
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://gisdata.pandai.com/pamaps02/rest/services/Haskell/HaskellCADPublic/MapServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "48207"
+    ]
+  },
+  "fields": {
+    "apn": "HaskellCADWeb.DBO.TaxParcels.Name",
+    "owner": "HaskellCADWeb.DBO.Accounts.Owner_Name",
+    "acres": "HaskellCADWeb.DBO.Accounts.Acres",
+    "land_use": "HaskellCADWeb.DBO.Accounts.Primary_Category_Code"
+  },
+  "notes": "Source MapServer lacks pagination; single query capped at maxRecordCount 1000 of 9432 parcels, so coverage is PARTIAL. Re-point if Pandai enables paging.",
+  "verification": {
+    "verified_at": 1792051796290,
+    "counties": [
+      "48207"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

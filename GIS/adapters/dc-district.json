@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "dc-district",
+  "publisher": "District of Columbia OCFO Real Property Tax Administration / DC GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Property_and_Land_WebMercator/FeatureServer/39",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "states": [
+      "DC"
+    ]
+  },
+  "fields": {
+    "apn": "SSL"
+  },
+  "notes": "District of Columbia Tax Lots (assessment and taxation lots, A&T), polygon layer of about 30,867 features. SSL = Square-Suffix-Lot identifier. Layer has no owner, address or assessed value fields; those are in other OCFO datasets. STATEDAREA is square feet and CALCULATEDAREA is empty, so acres is not mapped.",
+  "verification": {
+    "verified_at": 1792048246209,
+    "counties": [
+      "11001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

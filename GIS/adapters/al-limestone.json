@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "al-limestone",
+  "publisher": "Limestone County AL (via ALS DWG parcel compilation, ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/y6YW10u0XkJDr4YY/arcgis/rest/services/Parcels_North_Alabama/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01083"
+    ]
+  },
+  "fields": {
+    "apn": "Handle",
+    "land_use": "Layer"
+  },
+  "notes": "Limestone County layer from multi-county ALS DWG parcel service; owner/address/value not present in this layer",
+  "verification": {
+    "verified_at": 1792048352025,
+    "counties": [
+      "01083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

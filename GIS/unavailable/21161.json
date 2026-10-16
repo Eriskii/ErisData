@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21161",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=MasonCountyKY&Layer=Parcels&PageType=Search",
+    "https://www.dynamospatial.com/c/mason-county-ky/parcel-data",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=sitemap",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0"
+  ],
+  "note": "Mason County KY (21161) parcels are published only through the Schneider qPublic PVA viewer (Cloudflare-protected, no public ArcGIS REST service found) and commercial vendors (Dynamo, Acres, Regrid, Equator), which are paid or licensed. The Kentucky state server kygisserver has PVA parcel services only for Webster County (Ky_PVA_Webster_Parcels_WGS84WM); a Mason equivalent returns not found. ArcGIS Hub/Online searches for Mason parcels returned no public feature service.",
+  "recorded_at": 1792049938514,
+  "recheck_after": 1807601938514,
+  "model": "claude-haiku-5-5"
+}

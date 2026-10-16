@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ar-phillips",
+  "publisher": "Arkansas GIS Office (County Assessor Mapping Program, statewide parcel polygons)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 32,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05107"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '107'",
+  "notes": "Statewide AR polygon layer, not a legal boundary; CAMA-linked parcels. Phillips county fips is 107 in this layer. Data updated twice a year.",
+  "verification": {
+    "verified_at": 1792048537171,
+    "counties": [
+      "05107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

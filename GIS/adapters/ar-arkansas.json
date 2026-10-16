@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-arkansas",
+  "publisher": "Arkansas GIS Office (statewide Planning_Cadastre parcels, filtered to Arkansas County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 17,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05001"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "county = 'Arkansas'",
+  "notes": "Statewide AR parcel layer; filtered to Arkansas County by county field. Public service.",
+  "verification": {
+    "verified_at": 1792048478611,
+    "counties": [
+      "05001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

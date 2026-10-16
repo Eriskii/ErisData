@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-hall",
+  "publisher": "Hall County Appraisal District (HallCAD) via pandai",
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://gisdata.pandai.com/pamaps02/rest/services/Hall/HallCADClient/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "48191"
+    ]
+  },
+  "fields": {
+    "apn": "HallCADWeb.DBO.TaxParcels.Name",
+    "owner": "HallCADWeb.DBO.AccountsConfidential.Owner_Name",
+    "acres": "HallCADWeb.DBO.AccountsConfidential.Acres",
+    "land_use": "HallCADWeb.DBO.AccountsConfidential.Primary_Category_Code"
+  },
+  "notes": "HallCAD public GIS parcel layer (pandai MapServer, layer 0; query endpoint refuses paging so the full unpaged GeoJSON query is used). Attributes joined from HallCAD appraisal accounts. Situs address and assessed value are sparse or empty in this layer and are omitted.",
+  "verification": {
+    "verified_at": 1792051738101,
+    "counties": [
+      "48191"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

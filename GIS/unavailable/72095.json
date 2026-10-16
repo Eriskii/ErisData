@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "fips": "72095",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_feb_2025/MapServer"
+  ],
+  "note": "CRIM publishes statewide Parcelario polygons (crim_parcelas 2018, crim_feb_2025) on sigejp.pr.gov, but both services return HTTP 500 'Service not started' on every request (metadata, query, count), across repeated attempts. Other CRIM hosts (satasgis.crimpr.net, sige.pr.gov, sigela.pr.gov) do not respond. No Maunabo-specific parcel service found; parcel data is not currently queryable.",
+  "recorded_at": 1792052038212,
+  "recheck_after": 1807604038212,
+  "model": "claude-haiku-5-5"
+}

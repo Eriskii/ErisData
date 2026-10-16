@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-lake-of-the-woods",
+  "publisher": "Lake of the Woods County (via UMN hosted layer)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/8df8p0NlLFEShl0r/arcgis/rest/services/LOTW_and_ROSEAU_PARCELS_WFL1/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27077"
+    ]
+  },
+  "fields": {
+    "apn": "county_pin",
+    "owner": "tax_name",
+    "acres": "acres_poly",
+    "land_use": "useclass1",
+    "assessed_value": "emv_total"
+  },
+  "notes": "Hosted UMN copy of county parcels; MnGeo statewide layer has unstable paging",
+  "verification": {
+    "verified_at": 1792050982309,
+    "counties": [
+      "27077"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

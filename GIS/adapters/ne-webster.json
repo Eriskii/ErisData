@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-webster",
+  "publisher": "Webster County NE Assessor (gWorks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Webster_County_NE_Assessor/MapServer/285",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31181"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "acres"
+  },
+  "notes": "County assessor GIS parcels layer, Webster County NE. Limited attributes.",
+  "verification": {
+    "verified_at": 1792051347025,
+    "counties": [
+      "31181"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-little-river",
+  "publisher": "Arkansas GIS Office (State GIS Office, Assessor Mapping Program)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05081"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '081'",
+  "notes": "Statewide AR parcel polygons from State GIS Office; not a legal boundary; CAMA-matched parcels only; countyfips is 3-digit county code; Shape__Area is square metres so acres not mapped",
+  "verification": {
+    "verified_at": 1792048533852,
+    "counties": [
+      "05081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

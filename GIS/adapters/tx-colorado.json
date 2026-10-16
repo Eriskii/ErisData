@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-colorado",
+  "publisher": "Colorado County Appraisal District (BIS CAD web service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/kLPk1FdZyvjjB3o2/arcgis/rest/services/ColoradoCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48089"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "BIS CAD web service for Colorado CAD; about 23k parcels; situs address sparse so not mapped",
+  "verification": {
+    "verified_at": 1792051662368,
+    "counties": [
+      "48089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

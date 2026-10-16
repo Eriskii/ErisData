@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13071",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services.arcgis.com/ISpzx3B5ZsVA6e1Z/ArcGIS/rest/services/Colquitt_Parcels/FeatureServer/0",
+    "https://www.arcgis.com/sharing/rest/search?q=Colquitt%20parcels%20owner%3AGDITAdmin&f=json",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=ColquittCountyGA&Layer=Parcels&PageType=Search"
+  ],
+  "note": "Only public parcel item found (ArcGIS Online 'Parcels - GA - Colquitt County', owner GDITAdmin, extent matches county) is catalogued but its FeatureServer endpoint returns HTTP 400 'Invalid URL' for every request, including metadata and query; spec validation query also fails with 400 Bad Request. County viewer (qPublic/Schneider) returns a 403 bot-check page and is not a documented public REST service. Commercial sources (Regrid, DynamoSpatial) are paid downloads.",
+  "recorded_at": 1792048790337,
+  "recheck_after": 1807600790337,
+  "model": "claude-haiku-5-5"
+}

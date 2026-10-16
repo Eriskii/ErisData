@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "pa-philadelphia",
+  "publisher": "City of Philadelphia (DOR Parcels 202402, via PASDA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/CityPhilly/MapServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42101"
+    ]
+  },
+  "fields": {
+    "apn": "TENCODE",
+    "owner": "OWNER1",
+    "address": "ADDRESS",
+    "land_use": "BC_LANDUSE"
+  },
+  "notes": "Philadelphia DOR parcel layer (2024 snapshot) hosted by PASDA. Area field Shape__Are is in square feet; not mapped as acres.",
+  "verification": {
+    "verified_at": 1792051545931,
+    "counties": [
+      "42101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "17023",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.clarkcountyil.org/departments/SupervisorsAssessments/city-maps",
+    "https://beacon.schneidercorp.com/Application.aspx?AppID=1150&LayerID=30673&PageTypeID=1&PageID=12429",
+    "https://portico.mygisonline.com/html5/",
+    "https://gisserver2.ccgisonline.com/server/rest/services/BASELAYERS/PARCELS/MapServer/0"
+  ],
+  "note": "Clark County IL (17023) parcels are published only through vendor viewers: Schneider Beacon (AppID 1150) and Sidwell Portico (portico.mygisonline.com, Geocortex; its REST endpoints return 500). No public ArcGIS/WFS/bulk parcel service for Clark County IL was found. The ccgisonline.com BASELAYERS/PARCELS service looks like a match but is Clark County, Kentucky (lon about -84.2, lat about 38.0), not Illinois.",
+  "recorded_at": 1792049014961,
+  "recheck_after": 1807601014961,
+  "model": "claude-haiku-5-5"
+}

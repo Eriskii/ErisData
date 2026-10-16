@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sc-darlington",
+  "publisher": "Darlington County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/8FJikaProY6O3ncx/arcgis/rest/services/PARCELS/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45031"
+    ]
+  },
+  "fields": {
+    "apn": "MBP",
+    "owner": "Name_1",
+    "address": "Address_1",
+    "acres": "GIS_ACRES",
+    "land_use": "LANDUSE",
+    "assessed_value": "ASSESSED_V"
+  },
+  "notes": "Darlington County GIS parcel layer (services5 mpeshoff_darco). Source spatial reference is state plane feet; runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792051584215,
+    "counties": [
+      "45031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

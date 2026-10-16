@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tn-houston",
+  "publisher": "Houston County GIS (via TN statewide parcel compilation, RCSPlanners/HNTB)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rD2ylXRs80UroD90/arcgis/rest/services/TN_County_Parcel_Map/FeatureServer/47",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47083"
+    ]
+  },
+  "fields": {
+    "apn": "Assessment_Data_42_PARCELID",
+    "owner": "Assessment_Data_42_OWNER",
+    "address": "Assessment_Data_42_ADDRESS",
+    "acres": "Parcels_CALC_ACRE",
+    "land_use": "Assessment_Data_42_LANDUSE",
+    "assessed_value": "Assessment_Data_42_APPRAISAL"
+  },
+  "notes": "Layer 47 of TN_County_Parcel_Map; Houston County parcels joined to assessment data; 6341 features",
+  "verification": {
+    "verified_at": 1792052110405,
+    "counties": [
+      "47083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nm-bernalillo",
+  "publisher": "Bernalillo County GIS (Platted Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://pdsgismaps.bernco.gov/server/rest/services/BERNCOBASEMAP/BC_Platted_Parcels/MapServer/245",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35001"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "SUBDIVISION",
+    "address": "ADDRESS",
+    "acres": "GISACRES"
+  },
+  "notes": "Platted parcel base map from Bernalillo County GIS; owner not provided in source (SUBDIVISION mapped as subdivision name only); county open data.",
+  "verification": {
+    "verified_at": 1792051355837,
+    "counties": [
+      "35001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

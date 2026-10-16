@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-kinney",
+  "publisher": "Kinney County Appraisal District (KinneyCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/TltnQBadFEhlQvkR/arcgis/rest/services/KinneyCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48271"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Kinney CAD public ArcGIS service; parcel polygons with appraisal attributes",
+  "verification": {
+    "verified_at": 1792051707129,
+    "counties": [
+      "48271"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

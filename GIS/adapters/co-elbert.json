@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "co-elbert",
+  "publisher": "Elbert County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.elbertcounty-co.gov/data/rest/services/Tax_Parcels_of_Elbert_County_Colorado/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08039"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "owner1",
+    "acres": "statedarea",
+    "land_use": "proptype",
+    "assessed_value": "ttlassdval"
+  },
+  "notes": "Elbert County tax parcels, updated weekly; public layer from county maps server. Situs address is blank for many vacant parcels, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792048677759,
+    "counties": [
+      "08039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

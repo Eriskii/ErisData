@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "22021",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.actdatascout.com/Map/Index?countyId=22021",
+    "http://caldwellassessor.com/",
+    "https://www.gis-portal.org/la-caldwell-parish/",
+    "https://app.regrid.com/store/us/la/caldwell",
+    "https://services8.arcgis.com/g1eUGM6NUcD0Fk5p/arcgis/rest/services/LandGrid_Parcels/FeatureServer"
+  ],
+  "note": "Caldwell Parish (22021) has no public queryable parcel service I could find. The assessor's parcel map is a vendor viewer (actDataScout) that returned HTTP 403 from a WAF and exposes no service URL. ArcGIS Online and Hub searches found no Caldwell parcel FeatureServer. The LandGrid Louisiana parcel service requires a token. Regrid is commercial and its nationwide map service is not queryable.",
+  "recorded_at": 1792049957745,
+  "recheck_after": 1807601957745,
+  "model": "claude-haiku-5-5"
+}

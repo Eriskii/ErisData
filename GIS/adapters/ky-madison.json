@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ky-madison",
+  "publisher": "Madison County GeoHub",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/vr7o7tw2Aw3SpBdd/arcgis/rest/services/County_Zoning_Hub/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21151"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "acres": "Acres",
+    "land_use": "Zoning"
+  },
+  "notes": "County zoning hub parcel layer; no owner/address attributes",
+  "verification": {
+    "verified_at": 1792049939058,
+    "counties": [
+      "21151"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

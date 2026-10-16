@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "or-yamhill",
+  "publisher": "City of Newberg GIS (Yamhill County taxlots)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://portal.newbergoregon.gov/server/rest/services/OpenGOV_Service/MapServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41071"
+    ]
+  },
+  "fields": {
+    "apn": "MapTaxlot",
+    "owner": "OWNER1",
+    "address": "SITUS1"
+  },
+  "notes": "Yamhill County taxlots hosted by City of Newberg; 43154 features. Acreage field left unmapped (parcel_area mostly empty).",
+  "verification": {
+    "verified_at": 1792051505372,
+    "counties": [
+      "41071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

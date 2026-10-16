@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40035",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.dynamospatial.com/c/craig-county-ok/parcel-data",
+    "https://app.datacrosspoint.com/properties/craig",
+    "https://ogidev.okmaps.org/OGI/RestDataAccessItem.aspx?UUID=7c55e990-048e-499d-a20c-58fc5b730562",
+    "https://www.gismaps.org/ok-craig-county/"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Craig County OK parcels. No county-run parcel REST service or downloadable file found. Parcel data is sold by commercial vendors (Dynamo Spatial shapefile, Rockford Map, Mapping Solutions); the assessor portal (Landmark GSI datacrosspoint) serves vector tiles with no public service; the state OGI statewide parcel layer is view-only WMS, not downloadable, and not an ArcGIS REST parcel service. Regrid nationwide service is an aggregator with no queryable field metadata.",
+  "recorded_at": 1792051534473,
+  "recheck_after": 1807603534473,
+  "model": "claude-haiku-5-5"
+}

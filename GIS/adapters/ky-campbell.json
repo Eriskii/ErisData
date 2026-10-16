@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ky-campbell",
+  "publisher": "Campbell County PVA via LINK-GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.linkgis.org/server/rest/services/CC_KC_PCTheme/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21037"
+    ]
+  },
+  "fields": {
+    "apn": "PIDN",
+    "owner": "OWNER_NAME_1",
+    "address": "PROPERTY_LOCATION_STREET",
+    "acres": "LOT_ACRE",
+    "land_use": "LAND_USE",
+    "assessed_value": "TOTAL_ASSESSMENT"
+  },
+  "notes": "Campbell County KY PVA parcels served by LINK-GIS (maps.linkgis.org)",
+  "verification": {
+    "verified_at": 1792049382291,
+    "counties": [
+      "21037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

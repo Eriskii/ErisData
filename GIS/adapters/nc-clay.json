@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nc-clay",
+  "publisher": "NC OneMap (static copy by WEI)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/n5rY677NVyRuW3Ht/arcgis/rest/services/NC_OneMap_Parcels/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37043"
+    ]
+  },
+  "fields": {
+    "apn": "parno",
+    "owner": "ownname",
+    "address": "siteadd",
+    "acres": "gisacres",
+    "assessed_value": "parval"
+  },
+  "filter": "stcntyfips = '37043'",
+  "notes": "Static copy of NC OneMap parcels; may lag source",
+  "verification": {
+    "verified_at": 1792051547171,
+    "counties": [
+      "37043"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

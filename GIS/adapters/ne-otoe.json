@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-otoe",
+  "publisher": "Otoe County GIS (gWorks)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis2.gworks.com/arcgis/rest/services/Otoe_County_NE_Roads/MapServer/8",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "31131"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "ACRES"
+  },
+  "notes": "Parcel layer from the county gWorks map service; no owner or address fields published in this layer",
+  "verification": {
+    "verified_at": 1792051322092,
+    "counties": [
+      "31131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

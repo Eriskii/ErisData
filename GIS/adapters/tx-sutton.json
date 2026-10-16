@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-sutton",
+  "publisher": "Sutton County Appraisal District (SuttonCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/lNDBBxMu9YPq0R2u/arcgis/rest/services/SuttonCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48435"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Appraisal district parcel layer; situs address mostly empty in source so not mapped",
+  "verification": {
+    "verified_at": 1792051752235,
+    "counties": [
+      "48435"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

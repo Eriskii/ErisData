@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21231",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://kygeonet.ky.gov/pva/wayne/viewer.htm",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services?f=pjson",
+    "https://waynecounty.ky.gov/eo/Pages/pva.aspx"
+  ],
+  "note": "Searched ArcGIS Hub/Online, the Wayne County KY open data site, and the KY state ArcGIS server. The Wayne PVA viewer link returns 404; the state server publishes PVA parcels only for Webster County. The Wayne County ArcGIS items found (services1.arcgis.com 7k5pwykhBf04bSfy and b6rkZNtCd6Mx2gvB) are Michigan's Wayne County, not Kentucky. Wayne County KY parcels appear only on Schneider Beacon/qPublic, a non-queryable viewer, and commercial vendors.",
+  "recorded_at": 1792049960924,
+  "recheck_after": 1807601960924,
+  "model": "claude-haiku-5-5"
+}

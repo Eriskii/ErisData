@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-kendall",
+  "publisher": "Kendall Appraisal District (via BIS Consultants ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/AugxDVA2CqlsdRYC/arcgis/rest/services/KendallCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48259"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Kendall CAD parcel layer; native EPSG 2278 reprojected by service; situs_street is street name only (situs_num separate)",
+  "verification": {
+    "verified_at": 1792051706039,
+    "counties": [
+      "48259"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

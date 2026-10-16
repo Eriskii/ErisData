@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-bollinger",
+  "publisher": "Bollinger County, MO",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Vn2AABxp7qIdWLwq/arcgis/rest/services/BollingerData_gdb/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29017"
+    ]
+  },
+  "fields": {
+    "apn": "parcel",
+    "owner": "ownername",
+    "address": "situs",
+    "acres": "mapacres"
+  },
+  "notes": "Hosted by county GDIT admin on ArcGIS Online; 12518 features; source CRS 3857",
+  "verification": {
+    "verified_at": 1792050895928,
+    "counties": [
+      "29017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

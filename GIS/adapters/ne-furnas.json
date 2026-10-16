@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-furnas",
+  "publisher": "Furnas County Assessor (GeoWorks hosted)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Furnas_County_NE_Assessor/MapServer/37",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31065"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "Acres"
+  },
+  "notes": "Parcels layer of Furnas County NE assessor MapServer; source CRS 3857; no owner/address fields published in this layer",
+  "verification": {
+    "verified_at": 1792051150497,
+    "counties": [
+      "31065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

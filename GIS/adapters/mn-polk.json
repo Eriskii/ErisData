@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-polk",
+  "publisher": "Polk County GIS (MN)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.polk.mn.us/arcgis/rest/services/Assessor/TaxParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27119"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "owner": "CurOwnerName",
+    "acres": "GIS_Acres"
+  },
+  "notes": "Polk County MN TaxParcels feature service, combines parcel polygons with CAMA/tax data. Situs address PropAdd is blank for many rural parcels (about 22% filled in sample), so not mapped; TaxAddr is owner mailing address. No public land use or assessed value field in layer.",
+  "verification": {
+    "verified_at": 1792050897629,
+    "counties": [
+      "27119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

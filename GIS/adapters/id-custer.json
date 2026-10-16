@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "id-custer",
+  "publisher": "Idaho Department of Water Resources (compiled from Custer County assessor parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.idwr.idaho.gov/hosting/rest/services/Reference/Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16037"
+    ]
+  },
+  "fields": {
+    "apn": "PIN"
+  },
+  "filter": "COUNTY = 'Custer' AND PIN NOT IN ('BLM','USFS','STATE')",
+  "notes": "Statewide IDWR compilation of county assessor parcels; filtered to COUNTY = Custer and excluding BLM, USFS and STATE public-land polygons. Restricted from sharing outside IDWR per service metadata. Owner field is empty in source, so not mapped.",
+  "verification": {
+    "verified_at": 1792048990203,
+    "counties": [
+      "16037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

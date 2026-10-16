@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-bosque",
+  "publisher": "Bosque County Central Appraisal District (via ArcGIS Online BosqueCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/9fwv8ViFcx3zYmIW/arcgis/rest/services/BosqueCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48035"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Bosque CAD parcel layer; ArcGIS Online public service",
+  "verification": {
+    "verified_at": 1792051646398,
+    "counties": [
+      "48035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

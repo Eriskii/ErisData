@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ks-osage",
+  "publisher": "Osage County KS GIS (lkmap open records parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/yGerJCngvNpaN2km/arcgis/rest/services/OsageCoKS_ParcelsOpenRecords/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20139"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "PrimaryOwn",
+    "address": "SitusAddre",
+    "acres": "ACRES",
+    "land_use": "PropTypeCo"
+  },
+  "notes": "Osage County KS open-records parcel layer hosted by lkmap; no filter needed",
+  "verification": {
+    "verified_at": 1792049589504,
+    "counties": [
+      "20139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

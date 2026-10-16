@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ga-whitfield",
+  "publisher": "Whitfield County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.whitfieldcountyga.com/server/rest/services/Parcels_and_Development/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13313"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_FUL",
+    "owner": "lastname",
+    "address": "address1",
+    "acres": "totalacres",
+    "land_use": "land_type",
+    "assessed_value": "land_value"
+  },
+  "notes": "Public county ArcGIS service; source spatial reference 102667 (GA State Plane feet)",
+  "verification": {
+    "verified_at": 1792048842807,
+    "counties": [
+      "13313"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

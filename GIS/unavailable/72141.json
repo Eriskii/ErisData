@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72141",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0?f=json",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_feb_2025/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services"
+  ],
+  "note": "CRIM lists its Puerto Rico parcelario services (crim_parcelas, 2018; crim_feb_2025) in the SIGEJP ArcGIS folder, but both return HTTP 500 'Service not started' on every query, so no usable parcel service is reachable. No other public parcel service covers Utuado: the Ponce PARCELAS layer is Ponce-only and the Utuado ArcGIS items found are boundaries, analysis files or landslide layers. CRIM parcel data reportedly is not freely shared.",
+  "recorded_at": 1792052173513,
+  "recheck_after": 1807604173513,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wa-whitman",
+  "publisher": "Whitman County GIS (via ArcGIS Online, Parcel Data & TaxSifter Map)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/eoLFybJXLOtInQXJ/arcgis/rest/services/Parcel_Data___TaxSifter_Map_WFL1/FeatureServer/19",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53075"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNumber",
+    "owner": "Last_Name",
+    "acres": "TotalAcres"
+  },
+  "notes": "Whitman County parcel polygons published by county PW admin on ArcGIS Online. Fields limited: no address or assessed value.",
+  "verification": {
+    "verified_at": 1792053118214,
+    "counties": [
+      "53075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

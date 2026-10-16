@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "or-deschutes",
+  "publisher": "Deschutes County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.deschutes.org/arcgis/rest/services/OpenData/TablesFD/MapServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "41017"
+    ]
+  },
+  "fields": {
+    "apn": "TAXLOT"
+  },
+  "notes": "Deschutes County Taxlot layer from OpenData TablesFD (county-hosted). Owner and address live in separate assessor tables not joined here; DIAL links to the county assessor record.",
+  "verification": {
+    "verified_at": 1792051477721,
+    "counties": [
+      "41017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

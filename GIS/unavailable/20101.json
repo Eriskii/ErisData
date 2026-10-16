@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20101",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://ks-gis-lane.publicaccessnow.com/crs/",
+    "http://www.lane.kansasgis.com/",
+    "https://publicrecords.onlinesearches.com/KS_Lane.htm",
+    "https://www.dynamospatial.com/c/lane-county-ks/parcel-data"
+  ],
+  "note": "Lane County KS parcels are only viewable through the county's Aumentum parcel search portal (ks-gis-lane.publicaccessnow.com), a search form with no GIS export or ArcGIS REST service; registered access goes through the Appraiser's Office. The legacy lane.kansasgis.com site lists no service URLs. The state ORKA portal provides county parcels only by request, and the KS_ORKA_Extras service has no Lane County parcel layer. Lane County parcel polygons are otherwise sold by commercial vendors. No public queryable county parcel service was found.",
+  "recorded_at": 1792049403031,
+  "recheck_after": 1807601403031,
+  "model": "claude-haiku-5-5"
+}

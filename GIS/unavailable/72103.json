@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72103",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0?f=json",
+    "https://sige.pr.gov/server/rest/services/crim/crim_parcelas/FeatureServer/0",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_feb_2025/MapServer?f=json"
+  ],
+  "note": "CRIM Parcelario (2018) is listed in the sigejp.pr.gov crim folder but every query returns HTTP 500 'Service crim/crim_parcelas/MapServer not started' (checked repeatedly, including via spec validate). Other PR/Naguabo parcel services found are non-tax-parcel or non-PR. No other public queryable Naguabo parcel service or file located.",
+  "recorded_at": 1792052072849,
+  "recheck_after": 1807604072849,
+  "model": "claude-haiku-5-5"
+}

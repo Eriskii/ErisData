@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-cleveland",
+  "publisher": "Cleveland County NC GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.clevelandcounty.com/arcgis/rest/services/Tax/Tax/MapServer/1",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "37045"
+    ]
+  },
+  "fields": {
+    "apn": "GIS_PIN",
+    "owner": "GIS_Owner1",
+    "acres": "GIS_Calculated_Acres"
+  },
+  "notes": "Cleveland County GIS tax parcel area layer; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792051436548,
+    "counties": [
+      "37045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

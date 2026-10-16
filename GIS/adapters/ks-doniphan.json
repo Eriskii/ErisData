@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ks-doniphan",
+  "publisher": "Doniphan County (HDR)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/04HiymDgLlsbhaV4/arcgis/rest/services/DoniphanCounty/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20043"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_NUM",
+    "owner": "PartyName",
+    "address": "SitusAddre",
+    "acres": "CalcAcres"
+  },
+  "notes": "Eastern part clip only (~1650 parcels)",
+  "verification": {
+    "verified_at": 1792049282982,
+    "counties": [
+      "20043"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

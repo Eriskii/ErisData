@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-hudspeth",
+  "publisher": "Hudspeth County Appraisal District",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/TCoMB3SwAXtBwSdM/arcgis/rest/services/HudspethCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48229"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Hudspeth County Appraisal District public ArcGIS Online web service, Parcels layer. Situs address and land use fields are largely empty in source.",
+  "verification": {
+    "verified_at": 1792051700183,
+    "counties": [
+      "48229"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

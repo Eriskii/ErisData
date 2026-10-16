@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ks-jefferson",
+  "publisher": "Jefferson County KS GIS (JFKS GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.jfksgis.us/server/rest/services/AppParcelLocator/Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20087"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUM",
+    "owner": "PartyName",
+    "address": "PropertyAddress",
+    "acres": "ACRES",
+    "land_use": "PropertyTypeDesc",
+    "assessed_value": "FinalTotal"
+  },
+  "notes": "Public ArcGIS service from Jefferson County KS GIS parcel locator; ParcelOrion layer",
+  "verification": {
+    "verified_at": 1792049334692,
+    "counties": [
+      "20087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "al-colbert",
+  "publisher": "Colbert County GIS (AL_Colbert_Parcels, cwelch_IVT)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/uujCiiEZAflDbdxE/arcgis/rest/services/Colbert_County_Parcels/FeatureServer/39",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01033"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "acres": "LAND_ACRES",
+    "assessed_value": "ASSD_VAL"
+  },
+  "notes": "Colbert County AL tax parcels. Site address is split across SITE_NBR/SITE_DIR/SITE_STR and is sparsely filled, so not mapped; owner not in layer.",
+  "verification": {
+    "verified_at": 1792048482573,
+    "counties": [
+      "01033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

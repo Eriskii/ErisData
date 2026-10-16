@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "45067",
+  "reason": "login-required",
+  "evidence": [
+    "https://smpesri.scdot.org/arcgis/rest/services/GISMapping/SC_Parcels/MapServer/32",
+    "https://marionsc.wthgis.com/",
+    "https://arcweb.dnr.sc.gov/server/rest/services/Hosted/SC_County_Parcel_Viewers/FeatureServer/0"
+  ],
+  "note": "Marion County SC parcels: the only Marion parcel polygon layer found (SCDOT SC_Parcels MapServer/32) returns 'Token Required'. The county viewer (marionsc.wthgis.com, Think GIS) exposes no public REST endpoint (ArcGIS root 404s). The SCDNR statewide parcel-viewer directory has no geometry and only links to viewers. Commercial sources (Regrid, Dynamo) are paid.",
+  "recorded_at": 1792051657749,
+  "recheck_after": 1807603657749,
+  "model": "claude-haiku-5-5"
+}

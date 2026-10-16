@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sc-newberry",
+  "publisher": "Newberry County GIS (AGOL ParcelPolygons)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/79iRfY7qdh2smreu/arcgis/rest/services/Newberry_Parcels/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45071"
+    ]
+  },
+  "fields": {
+    "apn": "TMS",
+    "owner": "Name_1",
+    "address": "Street_Nam",
+    "acres": "GIS_ACRES",
+    "land_use": "LUDescr",
+    "assessed_value": "Tot_Assess"
+  },
+  "notes": "Hosted layer; county service PropertyParcel was down",
+  "verification": {
+    "verified_at": 1792051653856,
+    "counties": [
+      "45071"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "me-washington",
+  "publisher": "Maine Office of GIS / Maine Parcels (organized towns)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/0EOqWPtpCmgQr2ay/arcgis/rest/services/Parcels___Organized/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23029"
+    ]
+  },
+  "fields": {
+    "apn": "state_id"
+  },
+  "filter": "county = 'Washington'",
+  "notes": "Organized towns only; st_area_sh is square meters",
+  "verification": {
+    "verified_at": 1792050000289,
+    "counties": [
+      "23029"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tn-warren",
+  "publisher": "Tennessee Office of Information Resources / TNMAP (STS-GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YuVBSS7Y1of2Qud1/arcgis/rest/services/Tennessee_Property_Boundaries_Public_Use/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47177"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "DEEDAC"
+  },
+  "filter": "COUNTY_NAME = 'WARREN'",
+  "notes": "Statewide TN property boundaries public use layer, filtered to Warren County",
+  "verification": {
+    "verified_at": 1792052686706,
+    "counties": [
+      "47177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

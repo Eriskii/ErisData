@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "40093",
+  "reason": "paywalled",
+  "evidence": [
+    "https://app.regrid.com/store/us/ok/major",
+    "https://www.actdatascout.com/RealProperty/Oklahoma/Major",
+    "https://publicrecords.netronline.com/state/OK/county/major",
+    "https://owrb.csa.ou.edu/server/rest/services/Hazard/Floodplain_CTP/MapServer",
+    "https://owrb.csa.ou.edu/server/rest/services/Hazard/Parcels/MapServer",
+    "https://okmaps.org/ogi/search.aspx"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Major County OK parcels. No public queryable parcel service found. Regrid's Major County data is a licensed product (shapefile needs Pro account; its nationwide ArcGIS layer returns 404 on query). Commercial assessor portal actdatascout returns 403. NETR map is a proprietary viewer with no ArcGIS source. OWRB Parcels service requires a token. OU-hosted OWRB floodplain service has parcel sublayers only for Noble and Ottawa counties. OK Maps statewide parcels are view-only. Major County's official site lists no GIS viewer.",
+  "recorded_at": 1792051715977,
+  "recheck_after": 1823587715977,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "mn-hennepin",
+  "publisher": "Hennepin County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.hennepin.us/arcgis/rest/services/HennepinData/LAND_PROPERTY/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27053"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "OWNER_NM",
+    "address": "STREET_NM",
+    "acres": "PARCEL_AREA",
+    "land_use": "PR_TYP_NM1",
+    "assessed_value": "TAXABLE_VAL_TOT"
+  },
+  "notes": "Hennepin County open parcel data; PARCEL_AREA is likely square feet; address split across HOUSE_NO and STREET_NM",
+  "verification": {
+    "verified_at": 1792050879238,
+    "counties": [
+      "27053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

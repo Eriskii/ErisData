@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ga-butts",
+  "publisher": "Butts County GA (via ArcGIS Hub)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/NJH5XZkcw7MLsnAI/arcgis/rest/services/Parcels_Butts_County_GA/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13035"
+    ]
+  },
+  "fields": {
+    "apn": "GSI_PIN",
+    "owner": "F_v_ON",
+    "acres": "DEED_ACRES",
+    "land_use": "ParcelType"
+  },
+  "notes": "Public Butts County GA parcel layer hosted on ArcGIS Online; owner and address fields not published in this layer.",
+  "verification": {
+    "verified_at": 1792048716402,
+    "counties": [
+      "13035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

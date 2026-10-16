@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-polk",
+  "publisher": "Arkansas GIS Office (Polk County CAMA parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/6",
+    "page_size": 8,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05113"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "acres": "Shape__Area",
+    "land_use": "parceltype",
+    "assessed_value": "assessvalue"
+  },
+  "filter": "countyfips = '113' AND county = 'Polk'",
+  "notes": "Statewide AGIS parcel polygons (not a legal boundary); filtered to Polk County (countyfips 113); updated twice a year",
+  "verification": {
+    "verified_at": 1792048582609,
+    "counties": [
+      "05113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "29133",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services2.arcgis.com/kNS2ppBA4rwAQQZy/ArcGIS/rest/services/Missouri_County_GIS_Resources/FeatureServer/0 (Mississippi row: 'No GIS Resources Found')",
+    "https://gis.mo.gov/arcgis01/rest/services/OA/FMDCrealEstate_allParcels/MapServer/0 (listed as Parcels - MO - Statewide but returns 404)",
+    "https://www.acres.com/plat-map/map/mo/mississippi-county-mo (commercial viewer, no public service)",
+    "https://gis.equatorstudios.com/missouri_mississippi/ (commercial download only)"
+  ],
+  "note": "Searched ArcGIS Hub/Online, MSDIS open data and REST directories, Missouri state GIS, and county GIS resource directory. No public queryable parcel service or file for Mississippi County MO was found; the only parcel sources are commercial (Acres, Regrid, Equator, Dynamo) or behind a 404.",
+  "recorded_at": 1792051046688,
+  "recheck_after": 1807603046688,
+  "model": "claude-haiku-5-5"
+}

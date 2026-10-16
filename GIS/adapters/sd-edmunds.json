@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sd-edmunds",
+  "publisher": "Edmunds County, SD (via First District GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Edmunds/AutoCompleteTop10/MapServer/0",
+    "page_size": 10,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46045"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNER1",
+    "acres": "LEGAL_ACRE",
+    "land_use": "LAND_CODE",
+    "assessed_value": "TOTAL_TV"
+  },
+  "notes": "Edmunds County MapNet parcel layer; maxRecordCount 10; site address field PROPERTY_A is sparsely filled so not mapped",
+  "verification": {
+    "verified_at": 1792051594239,
+    "counties": [
+      "46045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

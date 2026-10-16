@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-keokuk",
+  "publisher": "Iowa Department of Homeland Security & Emergency Management (hosted by University of Iowa), Keokuk County subset",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19107"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'KEOKUK'",
+  "notes": "2017 statewide parcel layer filtered to Keokuk County; no address, acreage or value fields in source",
+  "verification": {
+    "verified_at": 1792049290271,
+    "counties": [
+      "19107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

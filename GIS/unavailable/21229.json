@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21229",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0 (WASHINGTON: ownershipStatus 'Not Yet Available')",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services (only Ky_PVA_Webster_Parcels among PVA parcel services; no Washington County PVA service)",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp (Washington County not listed among KYDGI-published PVA parcel services)",
+    "https://beacon.schneidercorp.com/?site=WashingtonCountyKY (Schneider Beacon viewer, proprietary, no public ArcGIS REST service; returned 403)"
+  ],
+  "note": "Searched ArcGIS Hub/Online, KyGovMaps/KYDGI kygisserver folders, KYTC PVA availability layer, and county/vendor sites. Washington County KY parcels are not published as a public queryable service; the KYTC PVA availability layer marks it 'Not Yet Available' and the only county viewer found is a Schneider Beacon app with no public API.",
+  "recorded_at": 1792049949466,
+  "recheck_after": 1807601949466,
+  "model": "claude-haiku-5-5"
+}

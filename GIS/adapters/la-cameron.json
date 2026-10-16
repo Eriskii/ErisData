@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "la-cameron",
+  "publisher": "Cameron Parish GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/mI6oAOl02j67RDtJ/arcgis/rest/services/Parcels_Cameron_Parish/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22023"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "OWNER",
+    "acres": "GISACRE",
+    "land_use": "USEDESC",
+    "assessed_value": "TOTALASSES"
+  },
+  "filter": "Shape__Area < 300000",
+  "notes": "Parcel layer hosted by ldl14 on ArcGIS Online. Polygons above about 75 acres (Shape__Area >= 300000 m2) are excluded because their geometry is far larger than the parcel record and places them away from their parcel. Site address field ADDRESS is sparse, so not mapped.",
+  "verification": {
+    "verified_at": 1792049919725,
+    "counties": [
+      "22023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

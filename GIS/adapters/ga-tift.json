@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-tift",
+  "publisher": "Tift County GIS (via SGRC sgrcmaps alma)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.sgrcmaps.com/alma/rest/services/Tift/Tift_Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13277"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNum",
+    "owner": "OwnerName",
+    "address": "Situs"
+  },
+  "notes": "Tift County GA parcel polygons from SGRC ALMA server; about 19,194 features; source spatial reference is GA East State Plane feet (wkid 2240/102667).",
+  "verification": {
+    "verified_at": 1792048840424,
+    "counties": [
+      "13277"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

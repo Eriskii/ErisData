@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "20025",
+  "reason": "login-required",
+  "evidence": [
+    "https://orkahub.kansasgis.org/pages/request",
+    "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/ORKA_Status_20180201/FeatureServer/0",
+    "https://www.kansasgis.org/orka/intro.cfm?countyName=Clark",
+    "https://publicrecords.netronline.com/state/KS/county/clark"
+  ],
+  "note": "Clark County KS (20025): no public parcel polygon service found. Statewide ORKA status layer lists Clark as 'ORKA Private'; ORKA parcel data requires registration and a county request. The county's ArcGIS viewer (clarkcountyks.maps.arcgis.com) exposed no feature service. Other hits were Clark County NV or IN, or commercial Regrid/Rockford products (paid, not public).",
+  "recorded_at": 1792049296878,
+  "recheck_after": 1807601296878,
+  "model": "claude-haiku-5-5"
+}

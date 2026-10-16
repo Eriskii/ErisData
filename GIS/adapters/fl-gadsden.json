@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "fl-gadsden",
+  "publisher": "Leon County GIS (Cityworks overlay of FDOR parcels for Gadsden and Wakulla)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cotinter.leoncountyfl.gov/cotinter/rest/services/Vector/COT_OverlayParcels_OtherServiceAreas_D_WM/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12039"
+    ]
+  },
+  "fields": {
+    "apn": "TAXID",
+    "owner": "OWNER",
+    "address": "ADDRESS"
+  },
+  "filter": "JURISDICTION LIKE '%GADSDEN%'",
+  "notes": "Derived from FDOR parcel download dated March 2023; JURISDICTION distinguishes Gadsden from Wakulla",
+  "verification": {
+    "verified_at": 1792049092825,
+    "counties": [
+      "12039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

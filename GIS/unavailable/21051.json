@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21051",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?AppID=1158&LayerID=31227&PageTypeID=2&PageID=12633",
+    "https://claycountyky.com/departments/property-valuation-administrator/",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0"
+  ],
+  "note": "Clay County KY (21051): no public ArcGIS REST or file parcel service found. Searched ArcGIS Hub/Online, the KYTC PVA availability layer, the kygisserver.ky.gov WGS84WM services directory (only Webster County has a PVA parcel service), KGS and platbookmapper PVA lists, and the county site. Clay's PVA parcel viewer is a qPublic (Schneider) site, not an ArcGIS REST service, and its pages are behind a Cloudflare interstitial. Other sources are commercial (Acres, AcreValue, Rockford Map, Regrid, ReportAllUSA).",
+  "recorded_at": 1792049475355,
+  "recheck_after": 1807601475355,
+  "model": "claude-haiku-5-5"
+}

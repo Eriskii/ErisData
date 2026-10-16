@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "sc-oconee",
+  "publisher": "Oconee County GIS (SC)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcserver2.oconeesc.com/arcgis/rest/services/PARCELDATA_owner_Assr/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45073"
+    ]
+  },
+  "fields": {
+    "apn": "TMS_NUMBER",
+    "owner": "current_owner",
+    "address": "owner_street",
+    "acres": "GIS_ACRES"
+  },
+  "notes": "Oconee County SC parcel polygons with owner mailing info; source SRS 2273. Address field is owner mailing street, not site address.",
+  "verification": {
+    "verified_at": 1792051579926,
+    "counties": [
+      "45073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

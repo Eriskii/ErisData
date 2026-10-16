@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "22045",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://gis-ipg.hub.arcgis.com/",
+    "https://atlas.geoportalmaps.com/iberia",
+    "https://www.arcgis.com/sharing/rest/content/items/f8173e935c8242fe8edbacfba81b4abc?f=json",
+    "https://gis.iberiagov.net/server/rest/services/Parcels/AssessorServiceMay2020/MapServer/0"
+  ],
+  "note": "Iberia's only parcel services (gis.iberiagov.net AssessorServiceMay2020 and services.geoportalmaps.com Iberia_Parcels_DB) are not queryable: the first refuses all connections (http answers with a parked-domain 404), the second returns 404 for every REST path. The assessor viewer moved to iberia.geosync.io, which is a JS app with no public service URL. The parish hub lists no parcel layer. Re-check if either host returns.",
+  "recorded_at": 1792051064120,
+  "recheck_after": 1807603064120,
+  "model": "claude-sonnet-5-5"
+}

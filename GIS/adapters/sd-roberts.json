@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sd-roberts",
+  "publisher": "Roberts County, SD (First District Association MapNet)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Roberts/robertsmapnetpro/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46109"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNER",
+    "address": "PROPERTY_A",
+    "acres": "acres",
+    "land_use": "CODE_NAME",
+    "assessed_value": "ASSESSED_T"
+  },
+  "notes": "Public MapNet parcel layer; attributes as published. Paid GIS agreement exists for extended data; this layer is the public service.",
+  "verification": {
+    "verified_at": 1792051637268,
+    "counties": [
+      "46109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

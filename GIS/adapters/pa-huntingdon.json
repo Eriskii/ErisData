@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "pa-huntingdon",
+  "publisher": "Huntingdon County Mapping Department (via ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/liWtJPxLI3mlx8pH/arcgis/rest/services/Property_Lines/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42061"
+    ]
+  },
+  "fields": {
+    "apn": "TAXIDNUM",
+    "owner": "Owner_Name",
+    "address": "Property_A",
+    "acres": "Acres",
+    "land_use": "LANDUSE",
+    "assessed_value": "Total_Valu"
+  },
+  "notes": "Parcels with CAMA data; Huntingdon County Mapping Department, PA_AgMaps_Admin",
+  "verification": {
+    "verified_at": 1792051527297,
+    "counties": [
+      "42061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

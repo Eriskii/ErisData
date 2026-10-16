@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-sibley",
+  "publisher": "Sibley County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.sibleycounty.gov/arcgis/rest/services/Land_Information/RecordedDocParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27143"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "owner": "TAXPAYER_NAME",
+    "acres": "GIS_ACRES",
+    "land_use": "CLASSIFICATIONS"
+  },
+  "notes": "Sibley County MN tax parcels (Tax Parcels layer, RecordedDocParcels service). Owner is the taxpayer (mailing) name. PROPERTY_ADDRESS is populated for very few parcels in the source, so address is not mapped.",
+  "verification": {
+    "verified_at": 1792050919740,
+    "counties": [
+      "27143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

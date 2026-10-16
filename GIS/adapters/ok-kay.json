@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ok-kay",
+  "publisher": "Oklahoma Geographic Information Office (OGI) statewide parcels, county assessor data",
+  "source": {
+    "kind": "wfs",
+    "url": "https://okmaps.org/geoserver/ogi_wms/ows",
+    "type_name": "ogi_wms:current_statewide_parcels",
+    "version": "2.0.0",
+    "page_size": 1000,
+    "lat_lon": false
+  },
+  "coverage": {
+    "counties": [
+      "40071"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "owner",
+    "acres": "acres"
+  },
+  "filter": "county = 'Kay'",
+  "notes": "Statewide OGI parcel layer filtered to county Kay. View-only per metadata; WFS GetFeature returns GeoJSON. No situs address field in source.",
+  "verification": {
+    "verified_at": 1792051472778,
+    "counties": [
+      "40071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ok-mcintosh",
+  "publisher": "Oklahoma Office of Geographic Information (OGI) statewide parcels, McIntosh County extract",
+  "source": {
+    "kind": "wfs",
+    "url": "https://okmaps.org/geoserver/wfs",
+    "type_name": "ogi_wms:current_statewide_parcels",
+    "version": "2.0.0",
+    "page_size": 1000,
+    "lat_lon": false
+  },
+  "coverage": {
+    "counties": [
+      "40091"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "owner",
+    "acres": "acres"
+  },
+  "filter": "county = 'McIntosh'",
+  "notes": "Statewide OGI parcel layer served via GeoServer WFS; filtered to county=McIntosh (about 27,369 parcels). Acres often null. No site address field in layer. Verify licence/terms at okmaps.org.",
+  "verification": {
+    "verified_at": 1792051584244,
+    "counties": [
+      "40091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

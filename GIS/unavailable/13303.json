@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13303",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://services.arcgis.com/ISpzx3B5ZsVA6e1Z/ArcGIS/rest/services/Washington_Parcels/FeatureServer/0",
+    "https://qpublic.schneidercorp.com/Application.aspx?App=WashingtonCountyGA&Layer=Parcels&PageType=Search",
+    "https://www.qpublic.net/ga/washington/"
+  ],
+  "note": "Only candidate county parcel service found (GDITAdmin 'Parcels - GA - Washington County', Washington_Parcels/FeatureServer/0) is listed in ArcGIS search but every request (metadata, query, with or without token) returns HTTP 400 'Invalid URL', and the validator's query fails with 400; it is absent from the host's services directory. The county's official parcel viewer is qPublic (Schneider), which is not a public REST service (403 on fetch, no endpoint exposed). No other Washington County GA parcel service found in ArcGIS Hub/Online searches.",
+  "recorded_at": 1792048993066,
+  "recheck_after": 1807600993066,
+  "model": "claude-haiku-5-5"
+}

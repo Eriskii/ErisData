@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-gregg",
+  "publisher": "Gregg County Appraisal District (GCAD) via GreggCADWebService",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/GGLRLGImTaR7VQAH/arcgis/rest/services/GreggCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48183"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "situs_street",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "GCAD certified parcel polygons; public ArcGIS service",
+  "verification": {
+    "verified_at": 1792051687741,
+    "counties": [
+      "48183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

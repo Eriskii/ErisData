@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "01063",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.arcgis.com/sharing/rest/search?q=title:%22Parcels%20-%20AL%20-%20Greene%20County%22&f=json",
+    "https://services7.arcgis.com/deoj2Y8l1tBr7P5X/arcgis/rest/services/GreeneAL/FeatureServer/5",
+    "https://services7.arcgis.com/deoj2Y8l1tBr7P5X/arcgis/rest/services?f=json"
+  ],
+  "note": "Greene County AL parcel layer 'Parcels - AL - Greene County' (GreeneAL FeatureServer, owner GDITAdmin; also an sstelly copy) is listed publicly with a Greene County-matching extent, but every REST request (services, layer 0, layer 5, FeatureServer root) returns 'Item does not exist or is inaccessible' (CONT_0001). Other searches (ArcGIS Hub/Online for Greene County AL parcels, Alabama parcels, neighbouring Tuscaloosa and Sumter) found no other county parcel service; the county website host was unreachable. Only a third-party Regrid nationwide layer exists, which is not county-published and whose query endpoint returns 404.",
+  "recorded_at": 1792048379604,
+  "recheck_after": 1807600379604,
+  "model": "claude-haiku-5-5"
+}

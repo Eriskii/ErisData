@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "27067",
+  "reason": "paywalled",
+  "evidence": [
+    "https://www.kcmn.us/departments/geographic_information_systems/index.php",
+    "https://gis.kcmn.us/arcgis/rest/services/Kandiyohi/Boundaries/MapServer/1",
+    "https://gis.data.mn.gov/datasets/plan-parcels-open-metadata-2"
+  ],
+  "note": "County sells bulk parcel data via a paid request form; statewide open parcels flag is false for Kandiyohi. The county's only public parcel layers (Boundaries/MapServer/1, 911/MapServer/4, Test/MapServer/1, PublicMailingKandi) have supportsPagination=false: MapServer refuses resultOffset/resultRecordCount and the FeatureServer ignores resultOffset (same page returned twice), so the 29,766 parcels cannot be read by the paged adapter (max 1000 per unpaged query); WFS returns HTTP 400.",
+  "recorded_at": 1792051071619,
+  "recheck_after": 1823587071619,
+  "model": "claude-sonnet-5-5"
+}

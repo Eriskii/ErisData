@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "fips": "40063",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://www.acrevalue.com/plat-map/OK/Hughes/",
+    "https://maps.acres.com/plat-map/map/ok/hughes-county-ok",
+    "https://app.regrid.com/store/us/ok/hughes",
+    "https://publicrecords.netronline.com/state/OK/county/hughes",
+    "https://app.datacrosspoint.com/properties/hughes",
+    "https://csagis-uok.opendata.arcgis.com/maps/8b2328ff01fc482488543838b2e480e8/about",
+    "https://okmaps.org/OGI/xmlmetadatadownload.aspx?LayerUUID=1484707a-712a-4447-96a9-5a38affc600e"
+  ],
+  "note": "Searched ArcGIS Hub/Online and web for Hughes County OK parcels. No county-run parcel service found. Hughes County parcels appear only in commercial viewers (Acres, AcreValue, NETR, DataCrossPoint, Regrid paid store, Rockford, Dynamo). The statewide OK Maps parcel layer is WMS view-only with no download or REST endpoint. Regrid nationwide ArcGIS tile MapServer has no queryable endpoint (query returns 404). OWRB parcel MapServer unreachable. CSA Hughes hub has no parcel layer.",
+  "recorded_at": 1792051541718,
+  "recheck_after": 1807603541718,
+  "model": "claude-haiku-5-5"
+}

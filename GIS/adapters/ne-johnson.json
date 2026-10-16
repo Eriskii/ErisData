@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ne-johnson",
+  "publisher": "Nebraska OCIO Statewide Parcels",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ne.gov/Enterprise/rest/services/StatewideParcelsExternal/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31097"
+    ]
+  },
+  "fields": {
+    "apn": "Parcel_ID",
+    "acres": "GIS_Acres",
+    "land_use": "Classification_Code",
+    "assessed_value": "Total_Assessed_Value"
+  },
+  "filter": "County_ID = '097'",
+  "notes": "Statewide parcels 2025, filtered to Johnson; no owner field; situs address empty",
+  "verification": {
+    "verified_at": 1792051359403,
+    "counties": [
+      "31097"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

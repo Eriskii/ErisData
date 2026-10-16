@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-irion",
+  "publisher": "TxGIO StratMap Land Parcels (Texas_Land_Parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iDGPUUUgFO4fjN9P/arcgis/rest/services/Texas_Land_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48235"
+    ]
+  },
+  "fields": {
+    "apn": "Prop_ID",
+    "owner": "OWNER_NAME",
+    "address": "SITUS_ADDR",
+    "acres": "GIS_AREA",
+    "assessed_value": "MKT_VALUE"
+  },
+  "filter": "FIPS = '48235'",
+  "notes": "TxGIO statewide parcels from Irion appraisal district data, tax year 2024",
+  "verification": {
+    "verified_at": 1792053553527,
+    "counties": [
+      "48235"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

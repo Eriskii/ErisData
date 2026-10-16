@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "fips": "22081",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://redriverassessor.org/",
+    "https://redriverparishassessor.org/",
+    "https://www.actdatascout.com/Map/Index?countyId=22081",
+    "https://atlas.geoportalmaps.com/redriver",
+    "https://github.com/openaddresses/openaddresses/issues/8607",
+    "https://www.dynamospatial.com/c/red-river-parish-la/parcel-data",
+    "https://www.acres.com/plat-map/map/la/red-river-parish-la"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web. Red River parcels are sold by vendors (Dynamo Spatial, ACRES, Equator Studios, ReportAllUSA, Regrid). The assessor parcel map is an ACT DataScout viewer that returned a WAF 403 to automated access, with no discoverable public REST endpoint. The atlas.geoportalmaps.com viewer exposes no REST service. The LandGrid parcel FeatureServer requires a token. The OpenAddresses Red River source is 911 addresses only. The Regrid nationwide layer's query endpoint returned 404.",
+  "recorded_at": 1792049971649,
+  "recheck_after": 1807601971649,
+  "model": "claude-haiku-5-5"
+}

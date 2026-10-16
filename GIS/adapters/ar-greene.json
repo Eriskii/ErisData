@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ar-greene",
+  "publisher": "Arkansas GIS Office (county assessor parcel data, Greene County)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/MapServer/6",
+    "page_size": 200,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05055"
+    ]
+  },
+  "fields": {
+    "apn": "parcelid",
+    "owner": "ownername",
+    "address": "adrlabel",
+    "land_use": "parceltype",
+    "assessed_value": "totalvalue"
+  },
+  "filter": "countyfips = '055'",
+  "notes": "Statewide Arkansas parcel polygons (not a legal boundary); filter to Greene County via countyfips 055. Updated twice a year.",
+  "verification": {
+    "verified_at": 1792048545985,
+    "counties": [
+      "05055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

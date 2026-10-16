@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ga-wilkinson",
+  "publisher": "Wilkinson County GA (CivQuest parcel data via ArcGIS Online, jamie_cvg)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ue5fMdTkPeHLCobS/arcgis/rest/services/Wilkinson_GA_gdb/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13319"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelID",
+    "owner": "OwnerName",
+    "address": "PropertyAddress",
+    "acres": "GISAcres",
+    "land_use": "PropertyClassCode"
+  },
+  "notes": "Layer is county-specific (CountyFIPS 13319); about 7,849 parcels; no filter needed",
+  "verification": {
+    "verified_at": 1792048868623,
+    "counties": [
+      "13319"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

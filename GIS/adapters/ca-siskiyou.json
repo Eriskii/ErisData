@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ca-siskiyou",
+  "publisher": "Siskiyou County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/JmPiYilyU1x5zuxM/arcgis/rest/services/Siskiyou_Parcels_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06093"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "acres": "Acres",
+    "land_use": "LandUse1"
+  },
+  "notes": "Public Siskiyou County parcel layer (Open Data Hub). 53,720 features. Owner and address not published in this layer.",
+  "verification": {
+    "verified_at": 1792048662376,
+    "counties": [
+      "06093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

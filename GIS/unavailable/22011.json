@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "22011",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://www.bpassessor.com/",
+    "https://www.actdatascout.com/Map/Index?countyId=22011",
+    "https://atlas.geoportalmaps.com/beauregard",
+    "https://www.dynamospatial.com/c/beauregard-parish-la/parcel-data",
+    "https://app.regrid.com/store/us/la/beauregard"
+  ],
+  "note": "Searched ArcGIS Hub/Online and the web for Beauregard Parish (22011) parcels. No public ArcGIS REST parcel service or file download was found. The parish assessor's GIS map (bpassessor.com) is served by ACT DataScout (actdatascout.com/Map/Index?countyId=22011), which returned a WAF 403 and exposes no documented service endpoint. The geoportalmaps atlas is an index page with no service URLs. The ArcGIS items found for Beauregard are parish boundaries, AADT, wildfire perimeters, and a 6-feature forestry stand layer, not parcels. Other parcel sources (Dynamo Spatial, Mapping Solutions, Acres, Regrid) are paid downloads or commercial viewers.",
+  "recorded_at": 1792049948559,
+  "recheck_after": 1807601948559,
+  "model": "claude-haiku-5-5"
+}

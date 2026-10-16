@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "21131",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://qpublic.schneidercorp.com/Application.aspx?App=LeslieCountyKY&Layer=Parcels&PageType=Search",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp"
+  ],
+  "note": "Leslie County KY parcels are published only through a commercial Schneider qPublic viewer (returns HTTP 403 to automated access), with no public ArcGIS REST service or file download. The Kentucky state server (kygisserver.ky.gov WGS84WM_Services) has PVA parcel services only for Webster and a few other counties; no Leslie County service (probed Ky_PVA_Leslie_Parcels_WGS84WM: not found). ArcGIS Hub and Online searches for Leslie County parcels returned nothing relevant.",
+  "recorded_at": 1792049877328,
+  "recheck_after": 1807601877328,
+  "model": "claude-haiku-5-5"
+}

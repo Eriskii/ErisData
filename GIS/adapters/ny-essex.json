@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ny-essex",
+  "publisher": "Essex County NY GIS (Real Property Tax Services)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://essex-gis.co.essex.ny.us/arcgis/rest/services/NY_County_Essex/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36031"
+    ]
+  },
+  "fields": {
+    "apn": "PRINTKEY",
+    "owner": "OWNER",
+    "address": "ADDRESS",
+    "acres": "ACRES",
+    "land_use": "CLASS",
+    "assessed_value": "TOTALAV"
+  },
+  "notes": "Essex County NY parcel layer from county GIS viewer; 2021 metadata; PIN/SBL also available",
+  "verification": {
+    "verified_at": 1792051356247,
+    "counties": [
+      "36031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

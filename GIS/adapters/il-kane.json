@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "il-kane",
+  "publisher": "Kane County GIS (KaneCountyILGIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/oRKmdBXD6EbdmVgJ/arcgis/rest/services/Mapbase_SDEDATA_Parcels_Legal_v2025/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17089"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "TaxName",
+    "address": "SiteAddress",
+    "acres": "RecordedAcreage",
+    "land_use": "UseCode"
+  },
+  "notes": "Kane County IL parcels, from ArcGIS Online org KaneCountyILGIS; interpreted from recorded legal descriptions. TaxName holds owner name as listed on tax roll.",
+  "verification": {
+    "verified_at": 1792048942720,
+    "counties": [
+      "17089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

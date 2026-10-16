@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "29013",
+  "reason": "login-required",
+  "evidence": [
+    "https://services8.integritygis.com/arcgis/rest/services/MO/Bates_Assessor_Data/MapServer",
+    "https://services8.integritygis.com/arcgis/rest/services/Public",
+    "https://landrecords.us/documentation/coverage/counties/29-013-bates"
+  ],
+  "note": "Bates County assessor parcel layers are hosted on services8.integritygis.com (MO/Bates_Assessor_Data/MapServer, the service behind the Geocortex Bates_County_MO sites). Probing it returns 'Token Required', so the parcel polygons are not publicly queryable. The Public, Utilities, Anno and Locators folders hold no parcel service. The only other Bates parcel sources found are paid commercial downloads (landrecords.us, dynamospatial, countygismaps), which do not count as county publication.",
+  "recorded_at": 1792050925223,
+  "recheck_after": 1807602925223,
+  "model": "claude-haiku-5-5"
+}

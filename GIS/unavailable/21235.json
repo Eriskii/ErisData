@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "21235",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://qpublic.net/ky/whitley/",
+    "https://qpublic.net/ky/whitley/search.html",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services"
+  ],
+  "note": "Searched ArcGIS Hub/Online, KyGeoNet, KYGeoportal and KGS service lists. The only Kentucky state-hosted county PVA parcel services found are Webster, Barren, Caldwell, Nelson, Pendleton, Spencer, Trimble, Wayne, Hardin; no Whitley parcel service exists. Whitley PVA parcels are viewable only via the qPublic (Schneider) site, which exposes no public ArcGIS REST parcel service; other Whitley parcel sources are commercial (Regrid, Dynamo, Equatorstudios, acres).",
+  "recorded_at": 1792049911672,
+  "recheck_after": 1807601911672,
+  "model": "claude-haiku-5-5"
+}

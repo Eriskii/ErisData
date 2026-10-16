@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sd-beadle",
+  "publisher": "Beadle County, SD (via 1stdistrict.org ArcGIS server)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Beadle/beadleparcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46005"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "OWNER_NAME",
+    "address": "PROPERTY_A",
+    "acres": "LEGAL_ACRE",
+    "land_use": "CODE_NAME",
+    "assessed_value": "TOTAL_AV"
+  },
+  "notes": "Parcel polygons from county GIS parcel layer; spatial reference 3454 (SD State Plane/ NAD83 Albers). Sales/ownership attributes as published.",
+  "verification": {
+    "verified_at": 1792051589036,
+    "counties": [
+      "46005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

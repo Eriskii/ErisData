@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "ky-warren",
+  "publisher": "Bowling Green-Warren County Planning Commission (CCPC) / Warren County PVA",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://webgis.bgky.org/server/rest/services/WARCO/Parcel_Reference/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21227"
+    ]
+  },
+  "fields": {
+    "apn": "PVA_PARCEL",
+    "owner": "Name",
+    "address": "full_property_add",
+    "acres": "ACRES",
+    "land_use": "LAND_USE"
+  },
+  "notes": "Parcel_Reference layer from CCPC webgis; owner/mail fields from PVA data. Source spatial ref 2247 (KY single zone ftUS); runtime requests lon/lat.",
+  "verification": {
+    "verified_at": 1792049837999,
+    "counties": [
+      "21227"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

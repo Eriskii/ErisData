@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "ia-calhoun",
+  "publisher": "Iowa DHS&EM statewide parcels (Calhoun County extract)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kd9gaiUExYqUbnoq/arcgis/rest/services/Iowa_Parcels_2017/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19025"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELNUMB",
+    "owner": "DEEDHOLDER",
+    "land_use": "PARCELCLAS"
+  },
+  "filter": "COUNTYNAME = 'CALHOUN'",
+  "notes": "Calhoun County rows of the statewide 2017 Iowa parcel layer; county-filtered. No address or assessed value in source.",
+  "verification": {
+    "verified_at": 1792049378883,
+    "counties": [
+      "19025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

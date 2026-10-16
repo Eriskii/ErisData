@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-coleman",
+  "publisher": "Coleman County Appraisal District (via ColemanCADWebService)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/OgPvbw2eXM4rhmEX/arcgis/rest/services/ColemanCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48083"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Coleman CAD public web service; parcel polygons with appraisal attributes; situs address mostly blank in source so not mapped",
+  "verification": {
+    "verified_at": 1792051669045,
+    "counties": [
+      "48083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

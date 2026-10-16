@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "72093",
+  "reason": "login-required",
+  "evidence": [
+    "https://catastro.crimpr.net/server/rest/services/Parcelario?f=json",
+    "https://catastro.crimpr.net/server/rest/services",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "http://www.satasgis.crimpr.net/crimgis/rest/services/Mapas/Parcelas/MapServer/0"
+  ],
+  "note": "CRIM (owner of all PR parcels) now serves its Parcelario folder at catastro.crimpr.net/server/rest/services/Parcelario behind 'Token Required' (499). The older public copies are gone: sigejp.pr.gov crim_parcelas/crim_feb_2025 return 'Service not started' (500, folder now empty), and satasgis.crimpr.net returns 404 / sige.pr.gov does not connect. No other public service covers Maricao (Public_Parcels_Poly has no features there; geoserver2.pr.gov WFS has no parcel type).",
+  "recorded_at": 1792052271322,
+  "recheck_after": 1807604271322,
+  "model": "claude-sonnet-5-5"
+}

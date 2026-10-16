@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "nv-carson-city",
+  "publisher": "Carson City GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/C0ejqMIMxJZHALms/arcgis/rest/services/Ownership/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32510"
+    ]
+  },
+  "fields": {
+    "apn": "APN",
+    "owner": "Legal_Owne",
+    "address": "Phy_Addr",
+    "acres": "Total_Acre",
+    "land_use": "LU",
+    "assessed_value": "NetAssedVa"
+  },
+  "notes": "Carson City GIS Ownership parcels layer (Carson City ArcGIS Online org). Parcels shown by ownership; source CC GIS open data.",
+  "verification": {
+    "verified_at": 1792051336205,
+    "counties": [
+      "32510"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

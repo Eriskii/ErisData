@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "ky-bullitt",
+  "publisher": "Bullitt County, KY (ky_bullitt_shp parcel layer, hosted on ArcGIS Online)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Mb0o8MCHnPZwXv5t/arcgis/rest/services/ky_bullitt_shp_(1)/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21029"
+    ]
+  },
+  "fields": {
+    "apn": "parcelnumb",
+    "owner": "owner",
+    "address": "address",
+    "acres": "gisacre",
+    "land_use": "usedesc",
+    "assessed_value": "parval"
+  },
+  "notes": "Parcel polygons with PVA attributes; hosted item by third party upload; no filter needed",
+  "verification": {
+    "verified_at": 1792049359636,
+    "counties": [
+      "21029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

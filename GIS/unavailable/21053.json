@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fips": "21053",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://app.fetchgis.com/?currentMap=clinton",
+    "https://portal.fetchgis.com/",
+    "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/KYTC_County_PVA_Availability_Web_Part/FeatureServer/0",
+    "https://kgs.uky.edu/kgsmap/kgsgeoportal/servicedescriptions.asp",
+    "https://www.acres.com/plat-map/map/ky/clinton-county-ky"
+  ],
+  "note": "Searched ArcGIS Hub/Online and KY state services (kygisserver PVA parcel services list has Webster, Barren, etc. but no Clinton). KYTC PVA availability layer marks Clinton as 'Without Ownership'. Only parcel viewer is FetchGIS (no public service URL found; portal is login-gated). Other Clinton parcel sources are commercial plat-map sites.",
+  "recorded_at": 1792049441895,
+  "recheck_after": 1807601441895,
+  "model": "claude-haiku-5-5"
+}

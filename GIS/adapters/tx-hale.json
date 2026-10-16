@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "tx-hale",
+  "publisher": "Hale Central Appraisal District (via BIS Consultants)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/MsKAwpqiJD1YHM2q/arcgis/rest/services/HaleCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48189"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "addr_line2",
+    "acres": "legal_acreage",
+    "land_use": "hood_cd",
+    "assessed_value": "market"
+  },
+  "notes": "Hale CAD public ArcGIS web service (parcels layer of CAD web map). address is the owner mailing address line 2, since situs fields are sparsely filled.",
+  "verification": {
+    "verified_at": 1792051691132,
+    "counties": [
+      "48189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

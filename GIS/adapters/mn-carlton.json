@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mn-carlton",
+  "publisher": "Carlton County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.carlton.mn.us/arcgis/rest/services/AGOL/AGO_InternalViewer/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27017"
+    ]
+  },
+  "fields": {
+    "apn": "PARCELID",
+    "owner": "OWNAME",
+    "acres": "APDEED",
+    "land_use": "TPCLS1",
+    "assessed_value": "ESTTOTVAL"
+  },
+  "notes": "County GIS parcel layer from the Carlton County ArcGIS server (AGO_InternalViewer service). Physical address (PHYSADDR) is blank for many parcels, so it is not mapped.",
+  "verification": {
+    "verified_at": 1792050878765,
+    "counties": [
+      "27017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

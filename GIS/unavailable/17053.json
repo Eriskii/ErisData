@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "fips": "17053",
+  "reason": "paywalled",
+  "evidence": [
+    "https://ford-il.bhamaps.com/",
+    "https://ford-il.bhamaps.com/arcgis/rest/services",
+    "https://portico.mygisonline.com/html5/",
+    "https://www.mappingsolutionsgis.com/ford-county-illinois-gis-parcel-data/",
+    "https://app.regrid.com/store/us/il/buy",
+    "https://gis.equatorstudios.com/illinois_ford/"
+  ],
+  "note": "Ford County IL (17053): no public parcel polygon service found. The county's REACH/Sidwell viewers (ford-il.bhamaps.com, portico.mygisonline.com) show no parcel REST endpoint; the bhamaps ArcGIS REST root returns 403 AccessDenied. ArcGIS Hub/Online searches found only basemap, roads, structures and buildings layers, no parcels. Parcel polygons are sold only commercially (MappingSolutionsGIS about 300 USD with license restrictions, Regrid, Equator Studios download portal, Rockford Map Publishers quote), so no public queryable service or free file exists. Did not work around the 403.",
+  "recorded_at": 1792048944339,
+  "recheck_after": 1823584944339,
+  "model": "claude-haiku-5-5"
+}

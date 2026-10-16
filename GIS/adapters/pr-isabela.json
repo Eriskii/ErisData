@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pr-isabela",
+  "publisher": "Puerto Rico Junta de Planificacion / CRIM (Isabela Cali Vigente parcels)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/Planes_territoriales/isabela_pt/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72071"
+    ]
+  },
+  "fields": {
+    "apn": "NUM_CATASTRO",
+    "land_use": "clasi"
+  },
+  "notes": "Layer carries CRIM cadastral number per polygon (NUM_CATASTRO) with land-plan zoning fields; no owner, address or assessed value in this layer. Source coordinates EPSG:32161.",
+  "verification": {
+    "verified_at": 1792051942869,
+    "counties": [
+      "72071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

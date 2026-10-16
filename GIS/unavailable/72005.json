@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "72005",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer",
+    "https://sigejp.pr.gov/server/rest/services/crim/crim_parcelas/MapServer/0",
+    "https://www.arcgis.com/home/item.html?id=177a03ea0b31411cafe5596fe710790d"
+  ],
+  "note": "CRIM's Parcelario service (crim/crim_parcelas, 'Parcelarios Crim 2018') is listed in the sigejp.pr.gov directory but every request returns HTTP 500 'Service crim/crim_parcelas/MapServer not started' (MapServer, layer 0, /layers, /query, lowercase path, repeated over the session). Alternate hosts (sige.pr.gov FeatureServer, satasgis.crimpr.net Parcelas/ParcelasEtiquetas) were unreachable. Only commercial Aguadilla parcel sources were found (Regrid, landrecords.us, dynamospatial); no other public county parcel service in ArcGIS Hub/Online searches.",
+  "recorded_at": 1792051878881,
+  "recheck_after": 1807603878881,
+  "model": "claude-haiku-5-5"
+}

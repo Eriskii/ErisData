@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "va-botetourt",
+  "publisher": "Botetourt County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/6h5xc2eGkGuRiFia/arcgis/rest/services/Botco_Current_GIS_gdb/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51023"
+    ]
+  },
+  "fields": {
+    "apn": "LRSNum",
+    "owner": "Owner1",
+    "address": "LocAddr",
+    "acres": "LegalAc",
+    "land_use": "PCDesc",
+    "assessed_value": "TotVal1"
+  },
+  "notes": "Botetourt County open data (Botco_Current_GIS_gdb); parcels layer 14",
+  "verification": {
+    "verified_at": 1792052627794,
+    "counties": [
+      "51023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

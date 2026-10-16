@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "tx-runnels",
+  "publisher": "Runnels Central Appraisal District (via TNRIS statewide parcel program, Southwest Data Solutions)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/ZBhj1vSHtyYLR1HF/arcgis/rest/services/Runnels_Parcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48399"
+    ]
+  },
+  "fields": {
+    "apn": "SW_dbo_b_1",
+    "owner": "SW_dbo__12",
+    "address": "SW_dbo__14",
+    "acres": "SW_dbo_b_8"
+  },
+  "notes": "Runnels CAD parcels hosted by RunnelsCAD; mailing address in address field. Some rows carry Burnet County legal descriptions.",
+  "verification": {
+    "verified_at": 1792051766204,
+    "counties": [
+      "48399"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

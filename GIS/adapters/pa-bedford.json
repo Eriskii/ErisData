@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pa-bedford",
+  "publisher": "Bedford County PA (via PASDA)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/BedfordCounty/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42009"
+    ]
+  },
+  "fields": {
+    "apn": "Name",
+    "owner": "OWNER_NAME",
+    "acres": "ACRES",
+    "land_use": "LAND_USE_C",
+    "assessed_value": "TOT_VAL"
+  },
+  "notes": "PASDA 2023 Bedford County parcel layer; public service",
+  "verification": {
+    "verified_at": 1792051507494,
+    "counties": [
+      "42009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

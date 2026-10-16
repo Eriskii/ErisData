@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "sc-colleton",
+  "publisher": "Colleton County GIS",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/m0cnLGKdhwao8WvM/arcgis/rest/services/Public_Data_Rev25/FeatureServer/0",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45029"
+    ]
+  },
+  "fields": {
+    "apn": "PIN",
+    "owner": "OwnerName1",
+    "address": "PropertyAddress",
+    "acres": "Acreage",
+    "land_use": "PropertyClass"
+  },
+  "notes": "Colleton County public parcel layer (Public_Data_Rev25). Owner 2 in OwnerName2; tax district in TaxDistrict.",
+  "verification": {
+    "verified_at": 1792052694753,
+    "counties": [
+      "45029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

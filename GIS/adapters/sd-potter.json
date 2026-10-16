@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "sd-potter",
+  "publisher": "Potter County GIS (District III)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.districtiii.org/server/rest/services/POTTER_COUNTY_WEB_LAYERS/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46107"
+    ]
+  },
+  "fields": {
+    "apn": "PARCEL_ID",
+    "owner": "CAMA_OWNERNAME",
+    "address": "CAMA_SITE_ADDRESS",
+    "acres": "CAMA_ACRES",
+    "assessed_value": "VAL_TOTAL_VALUE_1"
+  },
+  "filter": "FEATURE_TYPE = 'PARCEL'",
+  "notes": "County parcel layer from District III ArcGIS server (CAMA attributes joined). Public.",
+  "verification": {
+    "verified_at": 1792051642400,
+    "counties": [
+      "46107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

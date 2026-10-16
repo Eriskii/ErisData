@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "al-lauderdale",
+  "publisher": "Lauderdale County AL (KCS GIS)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://web5.kcsgis.com/kcsgis/rest/services/Lauderdale/Public/MapServer/120",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01077"
+    ]
+  },
+  "fields": {
+    "apn": "ParcelNum",
+    "owner": "Owner",
+    "address": "PhysAddr",
+    "acres": "CalculatedAcres",
+    "assessed_value": "TotalAssdValue"
+  },
+  "notes": "County parcel layer from KCS GIS public MapServer; service covers Lauderdale County. Land use omitted (sparsely populated).",
+  "verification": {
+    "verified_at": 1792048348273,
+    "counties": [
+      "01077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

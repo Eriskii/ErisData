@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "tx-cherokee",
+  "publisher": "Cherokee Central Appraisal District (via BIS Consultants ArcGIS service)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/tyTfZP6fpe41IyyO/arcgis/rest/services/CherokeeCADWebService/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48073"
+    ]
+  },
+  "fields": {
+    "apn": "prop_id_text",
+    "owner": "file_as_name",
+    "address": "addr_line2",
+    "acres": "legal_acreage",
+    "assessed_value": "market"
+  },
+  "notes": "Cherokee CAD parcels; 46924 features. address is the owner mailing line (addr_line2), situs_street is only partly filled.",
+  "verification": {
+    "verified_at": 1792051679274,
+    "counties": [
+      "48073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "fips": "13149",
+  "reason": "login-required",
+  "evidence": [
+    "https://services7.arcgis.com/shlUlNKW81IHLNtJ/arcgis/rest/services/HeardCountyParcels/FeatureServer",
+    "https://services7.arcgis.com/shlUlNKW81IHLNtJ/arcgis/rest/services/HeardCountyParcels/FeatureServer/0",
+    "https://services7.arcgis.com/shlUlNKW81IHLNtJ/arcgis/rest/services/Heard_County_Boundary/FeatureServer/0"
+  ],
+  "note": "Heard County GA publishes its tax parcel polygons as ArcGIS Online feature service HeardCountyParcels (org shlUlNKW81IHLNtJ), but every layer on that org, including the parcel layer and Heard_County_Boundary, returns 'Token Required' on probe. The parcel data is behind a login/token, so it is not openly queryable. Other sources found are commercial (Dynamo Spatial, Rockford Map, Regrid) or the Schneider qPublic viewer, which is Cloudflare-blocked and not a documented public REST service. No public Heard County parcel service or file was found.",
+  "recorded_at": 1792048834456,
+  "recheck_after": 1807600834456,
+  "model": "claude-haiku-5-5"
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "40019",
+  "reason": "no-public-gis",
+  "evidence": [
+    "https://ogidev.okmaps.org/OGI/RestDataAccessItem.aspx?UUID=8776cad6-dc17-49b1-8524-e30adb59d8dc",
+    "https://ogidev.okmaps.org/OGI/RestDataAccessItem.aspx?UUID=7c55e990-048e-499d-a20c-58fc5b730562",
+    "https://cartercountyok.us/deparments/ancillary_offices/gis_mapping.php",
+    "http://carter.oklahoma.usassessor.com/Shared/base/LiteSearch/Search.php"
+  ],
+  "note": "OK Maps lists a 2015 Carter County Parcels layer with no service URL. The statewide parcels layer is view-only or WMS with no download. The county GIS page links only to an assessor search (usassessor.com), which could not be reached and exposes no ArcGIS service. The OWRB parcel MapServer timed out. The Regrid nationwide service is commercial and its license restricts this use. Wrong-county hits (Dumfries VA parcels) were rejected.",
+  "recorded_at": 1792051652025,
+  "recheck_after": 1807603652025,
+  "model": "claude-haiku-5-5"
+}

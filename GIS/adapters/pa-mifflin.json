@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "pa-mifflin",
+  "publisher": "Mifflin County GIS (via PASDA, PA Spatial Data Access)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/MifflinCounty/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42087"
+    ]
+  },
+  "fields": {
+    "apn": "ACCOUNT",
+    "acres": "DEED_ACRES"
+  },
+  "notes": "PASDA 2025 Mifflin County parcel layer; no owner/address/land-use fields published in this service; county notes data is not for legal use and requires a data-sharing agreement",
+  "verification": {
+    "verified_at": 1792051534781,
+    "counties": [
+      "42087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

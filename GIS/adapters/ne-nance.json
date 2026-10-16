@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "ne-nance",
+  "publisher": "Nance County GIS (via gis2.gworks.com)",
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis2.gworks.com/arcgis/rest/services/Nance_County_NE_Assessor/Mapserver/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31125"
+    ]
+  },
+  "fields": {
+    "apn": "PID",
+    "acres": "Acres"
+  },
+  "notes": "Nance County NE assessor parcels; only PID and Acres fields published",
+  "verification": {
+    "verified_at": 1792051132546,
+    "counties": [
+      "31125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}
