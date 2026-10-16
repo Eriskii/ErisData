@@ -23,3 +23,9 @@ working paging and filled fields.
 [ErisMaps](https://github.com/Eriskii/ErisMaps) draws parcels through this registry, and
 ErisGISScraper keeps it current (`eris-gis-scraper run --recheck`). Tax-map parcels are
 approximate, not survey boundaries.
+
+## License
+
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): use, share and adapt it for any
+purpose, crediting ErisData. The license covers this registry; the sources its adapters point
+at keep their own terms, noted in each adapter.
