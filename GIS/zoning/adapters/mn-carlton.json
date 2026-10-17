@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-carlton",
+  "publisher": "Carlton County GIS",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://gis.co.carlton.mn.us/arcgis/rest/services/Internal_Mapping_Application/IMAPP_Public/MapServer/31/query?where=OBJECTID%3C%3E27&outFields=*&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "27017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDESC"
+  },
+  "notes": "County zoning layer 31 (IMAPP_Public) as GeoJSON query; OBJECTID 27 excluded (self-intersecting). County does not zone Moose Lake, Wrenshall, Carlton.",
+  "verification": {
+    "verified_at": 1792184415881,
+    "counties": [
+      "27017"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

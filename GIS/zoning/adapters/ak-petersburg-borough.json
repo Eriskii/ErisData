@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ak-petersburg-borough",
+  "publisher": "Petersburg Borough parcels (copy hosted by planning consultant on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/736PU2r8uJwEOjhj/arcgis/rest/services/Petersburg_Proposed_Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02195"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "filter": "ZONING IS NOT NULL",
+  "notes": "Last resort: parcel layer carrying each parcel current ZONING attribute (also P_Zone_cat = draft proposed category, not mapped). Unofficial copy of borough parcel data in a consultant ArcGIS Online org, covers Service Area 1 only (~4,590 parcels). Official borough Geodecisions service parcelviewer.geodecisions.com/arcgis/rest/services/Petersburg/Public/MapServer/4 was unreachable.",
+  "verification": {
+    "verified_at": 1792184425158,
+    "counties": [
+      "02195"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

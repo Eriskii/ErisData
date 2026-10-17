@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ga-floyd",
+  "publisher": "Rome-Floyd GIS (City of Rome ArcGIS organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/nV67H1IJR8GS6SAA/arcgis/rest/services/CurrentZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "13115"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Name"
+  },
+  "notes": "Rome-Floyd zoning districts, City of Rome organization. Some source polygons fail validity checks.",
+  "verification": {
+    "verified_at": 1792184364124,
+    "counties": [
+      "13115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "mi-jackson",
+  "publisher": "Jackson County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mijackson.org/countygis/rest/services/Zoning/ZoningDistrict/FeatureServer/1",
+    "page_size": 28,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26075"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "link": "ORDLINK",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Countywide layer of base zoning districts from county GIS; overlay districts are in layer 0 and are excluded. Jurisdiction field names the city/township.",
+  "verification": {
+    "verified_at": 1792184270209,
+    "counties": [
+      "26075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

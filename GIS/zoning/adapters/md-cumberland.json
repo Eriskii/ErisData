@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "md-cumberland",
+  "publisher": "City of Cumberland, MD (Community Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/xgrurMrDRUBNMBEV/arcgis/rest/services/2023ZoningLayers/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24001"
+    ]
+  },
+  "fields": {
+    "zone": "Z_abbrev",
+    "zone_name": "ZONE"
+  },
+  "notes": "City of Cumberland official zoning districts, current as of June 17, 2023; hosted by the city in ArcGIS Online",
+  "verification": {
+    "verified_at": 1792184372001,
+    "counties": [
+      "24001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

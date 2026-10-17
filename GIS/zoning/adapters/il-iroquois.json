@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "il-iroquois",
+  "publisher": "Iroquois County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/6FZQl5a5SiSFMv8P/arcgis/rest/services/ZoningDistricts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "17075"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDist",
+    "zone_name": "SecondaryZ"
+  },
+  "notes": "Iroquois County dissolved zoning districts (ZoningDistricts layer, 11 polygons)",
+  "verification": {
+    "verified_at": 1792184365151,
+    "counties": [
+      "17075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

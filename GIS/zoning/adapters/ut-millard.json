@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-millard",
+  "publisher": "Millard County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/QC2hl4ZX79rxxXwV/arcgis/rest/services/Zoning_July/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE"
+  },
+  "filter": "FID <> 87",
+  "notes": "Millard County ArcGIS Online Zoning_July. Filter excludes FID 87, one very large AG-20 polygon (~2,200 km2) whose geometry is invalid/unrepairable and fails the location check; AG-20 areas covered by that polygon are therefore missing. No jurisdiction or link fields.",
+  "verification": {
+    "verified_at": 1792184384558,
+    "counties": [
+      "49027"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

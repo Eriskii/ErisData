@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-cidra",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/calificacion/cali_vige/MapServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "OBJECTID >= 2352372 AND OBJECTID <= 2376163",
+  "notes": "JP statewide current zoning layer (cali_vige); Cidra rows are the contiguous OBJECTID block 2352372-2376163 (23,792 features, same as municipio = Cidra). OBJECTID range used because it is indexed and faster than the municipio text filter.",
+  "verification": {
+    "verified_at": 1792184442976,
+    "counties": [
+      "72041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

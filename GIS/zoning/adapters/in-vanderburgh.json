@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "in-vanderburgh",
+  "publisher": "Area Plan Commission of Evansville and Vanderburgh County",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.evansvillegis.com/arcgis_server/rest/services/PROPERTY/ZONING/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18163"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "link": "Rec_Ord",
+    "zone": "Zoning_District"
+  },
+  "notes": "APC zoning layer for City of Evansville and unincorporated Vanderburgh County",
+  "verification": {
+    "verified_at": 1792184267132,
+    "counties": [
+      "18163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

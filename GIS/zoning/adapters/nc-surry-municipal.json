@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "nc-surry-municipal",
+  "publisher": "Surry County GIS",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://gis.co.surry.nc.us/arcgis/rest/services/basemap/MapServer/8/query?where=1%3D1&outFields=OBJECTID,ZONING,ZONING_NAME,MUNICIPALITY&orderByFields=OBJECTID&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "37171"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "zone": "ZONING",
+    "zone_name": "ZONING_NAME"
+  },
+  "notes": "Surry County municipal zoning (towns within county); query URL with orderByFields because unordered paging is unstable",
+  "verification": {
+    "verified_at": 1792184502746,
+    "counties": [
+      "37171"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

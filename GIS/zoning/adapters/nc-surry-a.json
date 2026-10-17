@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "nc-surry-a",
+  "publisher": "Surry County GIS",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://gis.co.surry.nc.us/arcgis/rest/services/basemap/MapServer/9/query?where=OBJECTID%3C%3D101147&outFields=OBJECTID,DISTRICT,ZONING_NAME&orderByFields=OBJECTID&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "37171"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT",
+    "zone_name": "ZONING_NAME"
+  },
+  "notes": "Surry County unincorporated zoning (part 1 of 2: OBJECTID <= 101147); query URL on county ArcGIS MapServer with orderByFields because unordered paging is unstable and server caps at 1000 records",
+  "verification": {
+    "verified_at": 1792184500649,
+    "counties": [
+      "37171"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

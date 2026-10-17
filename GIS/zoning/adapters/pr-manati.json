@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-manati",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/Analisis_cali_MIL1/MapServer/7",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "72091"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "municipio = 'Manatí'",
+  "notes": "JP Análisis calificación PR layer (MapServer layer 7) filtered to Manatí; parcel-level polygons from the Junta de Planificación.",
+  "verification": {
+    "verified_at": 1792184391941,
+    "counties": [
+      "72091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

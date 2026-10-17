@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-millard-delta",
+  "publisher": "Delta City (Landbase viewer ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/W8xg4vuAjWf8mncU/arcgis/rest/services/Landbase_Layers_Viewer/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49027"
+    ]
+  },
+  "fields": {
+    "link": "INFOLINK",
+    "zone": "ZONE_TYPE",
+    "zone_name": "ZONENAME"
+  },
+  "verification": {
+    "verified_at": 1792184396916,
+    "counties": [
+      "49027"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

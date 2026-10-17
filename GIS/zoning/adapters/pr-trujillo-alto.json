@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "pr-trujillo-alto",
+  "publisher": "Junta de Planificación de Puerto Rico (JP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sigejp.pr.gov/server/rest/services/Analisis_cali_MIL1/MapServer/7",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipio",
+    "zone": "cali",
+    "zone_name": "descrip"
+  },
+  "filter": "municipio = 'Trujillo Alto'",
+  "notes": "JP Calificación statewide layer; filtered to municipio Trujillo Alto. Earlier validations on cali_vige timed out.",
+  "verification": {
+    "verified_at": 1792184336737,
+    "counties": [
+      "72139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

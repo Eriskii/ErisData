@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mi-st-clair-county",
+  "publisher": "St. Clair County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.stclaircounty.org/geocortex_wa/rest/services/PlanZone/Zoning_2020/MapServer/0",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "26147"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ComCode",
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Gen"
+  },
+  "notes": "County best-known zoning 2020 layer (MapServer); jurisdiction is the community code",
+  "verification": {
+    "verified_at": 1792184415920,
+    "counties": [
+      "26147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

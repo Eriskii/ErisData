@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mo-west-plains",
+  "publisher": "City of West Plains GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.westplains.net/arcgis/rest/services/CityBaseMaps/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29091"
+    ]
+  },
+  "fields": {
+    "zone": "zone_",
+    "zone_name": "description"
+  },
+  "filter": "objectid <> 40 AND objectid <> 79",
+  "notes": "City of West Plains zoning only (not unincorporated Howell County). Filter excludes objectid 40 (malformed R1 polygon) and objectid 79, which makes the server page consistently.",
+  "verification": {
+    "verified_at": 1792185433784,
+    "counties": [
+      "29091"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

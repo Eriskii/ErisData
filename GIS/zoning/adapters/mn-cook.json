@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-cook",
+  "publisher": "Cook County GIS (MN)",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://services.arcgis.com/L3KwVADPEG6iD24f/arcgis/rest/services/Zone_Districts/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&maxAllowableOffset=0.0002&geometryPrecision=6&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "27031"
+    ]
+  },
+  "fields": {
+    "link": "REQUIREMENTS",
+    "zone": "DISTRICT",
+    "zone_name": "FULLDISTRICTNAME"
+  },
+  "verification": {
+    "verified_at": 1792185261539,
+    "counties": [
+      "27031"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

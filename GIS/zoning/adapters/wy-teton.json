@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "wy-teton",
+  "publisher": "Teton County, WY (copy of county zoning districts hosted on ArcGIS Online by haileyvaughn1)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/2gKap7KMz7fy1U4a/arcgis/rest/services/county_zoning/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56039"
+    ]
+  },
+  "fields": {
+    "link": "ldr_plan",
+    "zone": "zoning",
+    "zone_name": "ldrsection"
+  },
+  "notes": "Unofficial copy: a personal ArcGIS Online item by haileyvaughn1 holding Teton County WY zoning (LDR section and zone codes such as R3) with 432 polygons, apparently from the county zoning shapefile at maps.terragis.net. Official county zoning is only a shapefile download there, which the validator cannot read. Town of Jackson zones may be absent. ldrsection is an LDR section number, not a district name.",
+  "verification": {
+    "verified_at": 1792184389862,
+    "counties": [
+      "56039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

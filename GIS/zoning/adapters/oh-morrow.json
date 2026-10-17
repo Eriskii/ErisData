@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "oh-morrow",
+  "publisher": "Morrow County GIS",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://gis.morrowcountyohio.gov/arcgis/rest/services/Morrow_POL_Layers_WGS1984/MapServer/9/query?where=1%3D1&outFields=*&outSR=4326&maxAllowableOffset=0.0005&returnGeometry=true&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "39117"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DSC_ZONE"
+  },
+  "filter": "ZONING <> 'City'",
+  "notes": "County GIS zoning layer; ZONING=City is a placeholder for city-zoned land and is excluded. Geometry generalized about 50 m to reduce invalid rings.",
+  "verification": {
+    "verified_at": 1792184350362,
+    "counties": [
+      "39117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

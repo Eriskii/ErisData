@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "md-allegany",
+  "publisher": "Allegany County GIS (Planning & Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/dQQCC5HsocVNGmxM/arcgis/rest/services/Zoning_Districts_V260817CC/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24001"
+    ]
+  },
+  "fields": {
+    "zone": "zone"
+  },
+  "verification": {
+    "verified_at": 1792184355832,
+    "counties": [
+      "24001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "va-covington-city",
+  "publisher": "City of Covington, VA GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/iHHNnoG9grsZGMQS/arcgis/rest/services/Covington_PublicGIS_Lyrs_WFL1/FeatureServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51580"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "LABEL"
+  },
+  "filter": "OBJECTID <> 1",
+  "notes": "City of Covington zoning districts; excludes placeholder feature ZONING=? (OBJECTID 1)",
+  "verification": {
+    "verified_at": 1792184399835,
+    "counties": [
+      "51580"
+    ],
+    "model": "claude-sonnet-5-5",
+    "rung": 1
+  }
+}

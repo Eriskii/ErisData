@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "fips": "18133",
+  "reason": "viewer-only",
+  "evidence": [
+    "https://putnamin.wthgis.com/",
+    "https://co.putnam.in.us/building-and-planning",
+    "https://mgrcmaps.org/arcgis/rest/services/PutnamCounty/PutnamZoningPublisher/MapServer/2",
+    "https://www.mgrcmaps.org/arcgis/rest/services/PutnamCounty/SatLayer/MapServer/info"
+  ],
+  "note": "County zoning is shown only in the Think GIS viewer (putnamin.wthgis.com) and a PDF map; Greencastle's is a 2017 PDF. The backing ArcGIS service (mgrcmaps.org PutnamZoningPublisher, layer 2 Secondary Zoning Class) is unreachable: all requests and validator queries fail, and the Web Adaptor reports the server cannot be reached. No other queryable zoning layer found.",
+  "recorded_at": 1792184561640,
+  "recheck_after": 1807736561640,
+  "model": "claude-sonnet-5-5"
+}
