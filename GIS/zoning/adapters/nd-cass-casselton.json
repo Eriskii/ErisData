@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nd-cass-casselton",
+  "publisher": "City of Casselton (zoning map hosted by Moore Engineering)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/unxYrwb3eK5uevNZ/arcgis/rest/services/Casselton_Zoning_Map_WFL1/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38017"
+    ]
+  },
+  "fields": {
+    "zone": "Zone2",
+    "zone_name": "Zone"
+  },
+  "notes": "City of Casselton zoning map; parcel-level polygons (GISPIN parcel id). zone = Zone2 district code, zone_name = Zone description. Casselton city limits only.",
+  "extent": [
+    -97.25301740878243,
+    46.86163561913027,
+    -97.16911282140121,
+    46.92697009592969
+  ],
+  "verification": {
+    "verified_at": 1792280210940,
+    "counties": [
+      "38017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

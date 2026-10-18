@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mo-barry-seligman",
+  "publisher": "City of Seligman, Missouri (zoning layer published by its GIS consultant, aeincmo)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Ch1uR5ouFf8JDpk6/arcgis/rest/services/SeligmanZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Seligman zoning districts, 143 polygons, last-updated field LASTUPDATE; published by aeincmo, the city GIS account, not the county. Covers Seligman city limits only.",
+  "extent": [
+    -93.95074050349459,
+    36.50644429263945,
+    -93.92820067976632,
+    36.53714093805975
+  ],
+  "verification": {
+    "verified_at": 1792279512594,
+    "counties": [
+      "29009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

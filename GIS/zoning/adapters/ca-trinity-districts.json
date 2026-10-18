@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-trinity-districts",
+  "publisher": "Trinity County Planning Department (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/32siQkg0O6da8zFF/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06105"
+    ]
+  },
+  "fields": {
+    "link": "ZONING_URL",
+    "zone": "ZD_CODE",
+    "zone_name": "ZONING_DESCRIPT"
+  },
+  "notes": "Adopted county base zoning district layer for unincorporated Trinity County (44 districts). Polygons reported invalid by county; validation determines use. Parcel-level fallback is ca-trinity.",
+  "extent": [
+    -123.63433720866809,
+    39.97053095195966,
+    -122.43803356555824,
+    41.369108992969544
+  ],
+  "verification": {
+    "verified_at": 1792277424276,
+    "counties": [
+      "06105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

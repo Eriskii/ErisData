@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-logan-broadwell",
+  "publisher": "Logan County GIS (Illinois) - Village of Broadwell zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/pPTAs43AFhhk0pXQ/arcgis/rest/services/Logan_County_Districts_and_Zoning/FeatureServer/51",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17107"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Broadwell zoning districts, as published in the Logan County GIS zoning layers (layer 51 of the county Logan_County_Districts_and_Zoning service). Layer covers Broadwell only.",
+  "extent": [
+    -89.44746652692314,
+    40.06334788832462,
+    -89.4378038275176,
+    40.07075464765282
+  ],
+  "verification": {
+    "verified_at": 1792278109397,
+    "counties": [
+      "17107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

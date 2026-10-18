@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "me-york-old-orchard-beach",
+  "publisher": "Town of Old Orchard Beach, Maine (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/RZTrYQP8JmfsPLQG/arcgis/rest/services/Zoning_Public/FeatureServer/27",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "FullName"
+  },
+  "notes": "Town of Old Orchard Beach General Zoning layer (33 features) published by the town on its ArcGIS org. Minimum lot and dimensional fields exist but are not mapped. Overlay layer Zoning_Overlay_Public is separate and not used.",
+  "extent": [
+    -70.42515181643248,
+    43.49602675257232,
+    -70.35359196307184,
+    43.55358376098134
+  ],
+  "verification": {
+    "verified_at": 1792279354991,
+    "counties": [
+      "23031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

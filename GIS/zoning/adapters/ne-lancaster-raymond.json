@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ne-lancaster-raymond",
+  "publisher": "Village of Raymond via Lincoln-Lancaster County GIS (Planning Dept)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lincoln.ne.gov/public/rest/services/Planning/DevRevZoningandRegulations/MapServer/16",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONE"
+  },
+  "notes": "Village of Raymond zoning districts from the Lincoln/Lancaster Planning Dept public GIS (layer 16 Raymond Zoning). OVERLAY field marks overlay districts; zone_name not provided by source.",
+  "extent": [
+    -96.8056592813747,
+    40.93901074055087,
+    -96.75776164464595,
+    40.97330130402746
+  ],
+  "verification": {
+    "verified_at": 1792279470379,
+    "counties": [
+      "31109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

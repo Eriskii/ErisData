@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wa-king-des-moines",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), City of Des Moines",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "link": "ReferenceURL",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '033' AND Jurisdiction = 'Des Moines'",
+  "notes": "State Zoning Atlas compilation of Des Moines zoning districts, Des Moines only. Filtered to King County (COUNTYFP 033).",
+  "extent": [
+    -122.33562415585196,
+    47.340403816519114,
+    -122.29186150895896,
+    47.43117333719856
+  ],
+  "verification": {
+    "verified_at": 1792281959114,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

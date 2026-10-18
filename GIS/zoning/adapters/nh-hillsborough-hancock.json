@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nh-hillsborough-hancock",
+  "publisher": "NH Zoning Atlas (Upstate GIS / NH Office of Planning and Development), Town of Hancock",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Zoning_Atlas_Full_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33011"
+    ]
+  },
+  "fields": {
+    "zone": "AbbreviatedDistrict",
+    "zone_name": "Full_District_Name"
+  },
+  "filter": "County = 'Hillsborough' AND Jurisdiction = 'Hancock'",
+  "notes": "Statewide NH Zoning Atlas full districts layer, filtered to Hancock. Overlay districts flagged in Overlay field, not mapped.",
+  "extent": [
+    -72.06269458013912,
+    42.93004495217416,
+    -71.93059915207765,
+    43.01876635010514
+  ],
+  "verification": {
+    "verified_at": 1792279763611,
+    "counties": [
+      "33011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ct-newlondon-colchester",
+  "publisher": "Southeastern CT Council of Governments (SCCOG) - Town of Colchester zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/c8bwOPjaFB6olbad/arcgis/rest/services/Colchester_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09180"
+    ]
+  },
+  "fields": {
+    "link": "FileLink",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Colchester zoning, hosted by SCCOG (sccogMaps) regional GIS; single-town layer (TownName field).",
+  "extent": [
+    -72.46657192118096,
+    41.51812528835049,
+    -72.2185074124124,
+    41.618504808301935
+  ],
+  "verification": {
+    "verified_at": 1792278300899,
+    "counties": [
+      "09180"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "pa-erie-summit",
+  "publisher": "Summit Township (Erie County, PA) via summittwp ArcGIS Online Zoning Map",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/zySdTph8Y5rKWbNM/arcgis/rest/services/Current_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42049"
+    ]
+  },
+  "fields": {
+    "zone": "LAND_USE"
+  },
+  "notes": "Summit Township zoning districts (Current_Zoning layer, 36 features) from the township Zoning Map web app (summittwp.maps.arcgis.com, owner Summit Township). Zone field LAND_USE holds the district code; no separate name field.",
+  "extent": [
+    -80.12603269982131,
+    41.998961971270816,
+    -79.99341572898396,
+    42.083287353496885
+  ],
+  "verification": {
+    "verified_at": 1792280303459,
+    "counties": [
+      "42049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

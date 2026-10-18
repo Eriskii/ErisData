@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "mt-missoula-county",
+  "publisher": "Missoula County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.missoulacounty.us/arcgis/rest/services/Base/Zoning2/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30063"
+    ]
+  },
+  "fields": {
+    "link": "zoningdoclink",
+    "zone": "basedistrictabbrv",
+    "zone_name": "new_fullzoning"
+  },
+  "notes": "Missoula County unincorporated base zoning districts (county Zoning Regulations). basedistrictabbrv holds a long code (e.g. 02.C.02.BASE.02.03.R.BAS); the district code is its 7th dot-part. new_fullzoning holds the district name. Some features carry city-annexed or county right-of-way domain codes; exclude those if they appear.",
+  "extent": [
+    -114.3134644806417,
+    46.747932826024034,
+    -113.8493763525713,
+    47.05105801242171
+  ],
+  "verification": {
+    "verified_at": 1792279376786,
+    "counties": [
+      "30063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

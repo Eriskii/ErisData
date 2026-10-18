@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-montgomery-englewood",
+  "publisher": "City of Englewood, Ohio (GIS ZoningMap service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/SppGusURNy21aScr/arcgis/rest/services/ZoningMap/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39113"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Class"
+  },
+  "notes": "City of Englewood zoning from the ZoningMap FeatureServer (Zoning layer), parcel-level (one feature per tax parcel, PARID) with the district code in Zone_Class; Description and Comments not mapped.",
+  "extent": [
+    -84.34399437240853,
+    39.83243004453147,
+    -84.26616998560945,
+    39.89187419465964
+  ],
+  "verification": {
+    "verified_at": 1792276329587,
+    "counties": [
+      "39113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

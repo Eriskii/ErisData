@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ar-benton-gravette",
+  "publisher": "City of Gravette, AR (zoning layer hosted by NWARPC ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/Gravette_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05007"
+    ]
+  },
+  "fields": {
+    "link": "Doc",
+    "zone": "zone_abv"
+  },
+  "notes": "City of Gravette zoning districts, 225 features. zone_abv holds the district abbreviation. Ordinance holds ordinance reference, not mapped. Layer linked from the city planning page (gravettear.gov).",
+  "extent": [
+    -94.47364934508248,
+    36.39666546456235,
+    -94.28579384133097,
+    36.47027625974836
+  ],
+  "verification": {
+    "verified_at": 1792277538104,
+    "counties": [
+      "05007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

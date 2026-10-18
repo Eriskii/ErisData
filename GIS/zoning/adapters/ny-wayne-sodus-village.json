@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-wayne-sodus-village",
+  "publisher": "Wayne County GIS (Village of Sodus zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.wayne.ny.us/arcgis/rest/services/Sodus_Village_Zoning/FeatureServer/69",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36117"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Class",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "Village of Sodus (not the town) zoning, standardized by Wayne County GIS / GTG 2024.",
+  "extent": [
+    -77.07579808390635,
+    43.227658787013645,
+    -77.0493455336704,
+    43.24714083894545
+  ],
+  "verification": {
+    "verified_at": 1792279755619,
+    "counties": [
+      "36117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

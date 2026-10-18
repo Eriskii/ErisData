@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-vernon-hillsboro",
+  "publisher": "City of Hillsboro, WI (ArcGIS Online, hillsborowi)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/1FkMXRw840ul2jcI/arcgis/rest/services/Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55123"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "City of Hillsboro zoning districts published by the city on ArcGIS Online. ZONEDESC and OrdinanceRef are empty in the source, so only zone is mapped. Some polygons have null zone codes.",
+  "extent": [
+    -90.35252607844136,
+    43.638625227764145,
+    -90.3175884802021,
+    43.68054485192527
+  ],
+  "verification": {
+    "verified_at": 1792281268996,
+    "counties": [
+      "55123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

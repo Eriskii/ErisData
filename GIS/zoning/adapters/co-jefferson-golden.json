@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-jefferson-golden",
+  "publisher": "City of Golden GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://data.cityofgolden.net/server/rest/services/Publishing_ViewOnly/Zoning/FeatureServer/25",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08059"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "City of Golden zoning (Title 18 use zones), official city layer on the City of Golden open data server; boundaries not survey accurate. Golden city limits extend into Jefferson County.",
+  "extent": [
+    -105.24052475606896,
+    39.70060191386505,
+    -105.16197390696868,
+    39.79233492532007
+  ],
+  "verification": {
+    "verified_at": 1792277593551,
+    "counties": [
+      "08059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-stratford",
+  "publisher": "Town of Stratford GIS (served via MetroCOG maps server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.ctmetro.org/server/rest/services/Stratford/Stratford_Zoning_GeneralCode/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09120"
+    ]
+  },
+  "fields": {
+    "zone": "CurrentZone"
+  },
+  "notes": "Town of Stratford zoning polygons (CurrentZone = district code) from the Stratford_Zoning_GeneralCode service.",
+  "extent": [
+    -73.1754129367936,
+    41.041862367327695,
+    -73.03452865362402,
+    41.26939331344881
+  ],
+  "verification": {
+    "verified_at": 1792277582076,
+    "counties": [
+      "09120"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

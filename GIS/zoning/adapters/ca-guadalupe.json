@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-guadalupe",
+  "publisher": "City of Guadalupe (zoning as compiled in the California Statewide Zoning South layer, State of California Office of Land Use and Climate Innovation)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_South/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06083"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'SBA' AND Jurisdiction = 'Guadalupe'",
+  "notes": "State of California statewide zoning compilation (South layer), not hosted by the city. Guadalupe rows were digitized from a 2017 PDF zoning map, so they may predate the 2042 General Plan zoning amendments.",
+  "extent": [
+    -120.59125184042928,
+    34.94715504956406,
+    -120.55809849797592,
+    34.97484988189467
+  ],
+  "verification": {
+    "verified_at": 1792277551891,
+    "counties": [
+      "06083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

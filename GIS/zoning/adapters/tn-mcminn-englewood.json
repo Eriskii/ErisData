@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-mcminn-englewood",
+  "publisher": "Southeast Tennessee Development District (for City of Englewood, TN)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Englewood_Zoning_12082021/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47107"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "City of Englewood zoning districts, published by SETDD for the city. Single-jurisdiction layer.",
+  "extent": [
+    -84.50209522776983,
+    35.40520224895926,
+    -84.47009532059643,
+    35.440638260060155
+  ],
+  "verification": {
+    "verified_at": 1792280426602,
+    "counties": [
+      "47107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

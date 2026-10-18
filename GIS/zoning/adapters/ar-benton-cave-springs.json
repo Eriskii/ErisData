@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ar-benton-cave-springs",
+  "publisher": "City of Cave Springs, AR (hosted by NWARPC ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/Cave_Springs_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05007"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "zone",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "City of Cave Springs zoning districts, adopted Sept 24, 2024; layer maintained by NWARPC for the city and linked from the city website (cavespringsar.gov). Ordinance holds ordinance reference. Single-jurisdiction layer. Some features may be overlay in Other_District field; not used.",
+  "extent": [
+    -94.25581938498334,
+    36.23812662885731,
+    -94.18860310413324,
+    36.32513336801263
+  ],
+  "verification": {
+    "verified_at": 1792277410213,
+    "counties": [
+      "05007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

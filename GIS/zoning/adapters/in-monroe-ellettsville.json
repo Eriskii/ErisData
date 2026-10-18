@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "in-monroe-ellettsville",
+  "publisher": "Town of Ellettsville / Monroe County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.monroe.in.us/server/rest/services/Ellettsville_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18105"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Label"
+  },
+  "notes": "Town of Ellettsville zoning districts, served by Monroe County GIS (layer Ellettsville Zoning, 103 polygons). Zone_Desc is blank for nearly all districts, so no zone_name is mapped.",
+  "extent": [
+    -86.65915166925085,
+    39.20809519232782,
+    -86.57835157079555,
+    39.26683821311704
+  ],
+  "verification": {
+    "verified_at": 1792278276474,
+    "counties": [
+      "18105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

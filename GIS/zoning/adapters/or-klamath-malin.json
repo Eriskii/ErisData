@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "or-klamath-malin",
+  "publisher": "Oregon DLCD (statewide zoning, City of Malin jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41035"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Malin'",
+  "notes": "Statewide DLCD zoning layer filtered to the City of Malin (ownerName). Zone is the DLCD generalized state zoning class (orZCode), not the city code.",
+  "extent": [
+    -121.41811818022356,
+    42.00589513572516,
+    -121.39856752665438,
+    42.02167634802471
+  ],
+  "verification": {
+    "verified_at": 1792280045146,
+    "counties": [
+      "41035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

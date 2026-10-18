@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tn-shelby-millington",
+  "publisher": "City of Millington GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/JlLNTdD1g3ijbt4O/arcgis/rest/services/Millington_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47157"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "TYPE"
+  },
+  "notes": "City of Millington zoning districts, hosted on the city ArcGIS Online account (c.yoders@millingtontn.gov). Polygon layer with 4,135 features, parcel-level polygons carrying district code in ZONING and description in TYPE; owner fields also present and not used.",
+  "extent": [
+    -89.95677250353617,
+    35.29285990495641,
+    -89.84566243007231,
+    35.38765037797426
+  ],
+  "verification": {
+    "verified_at": 1792280856995,
+    "counties": [
+      "47157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

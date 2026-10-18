@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-pitt-fountain",
+  "publisher": "Pitt County GIS (Town of Fountain zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pittcountync.gov/gis/rest/services/Permitting/PermitDisplayMap/MapServer/21",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37147"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Pitt County GIS permitting display map layer of Town of Fountain zoning polygons; covers Fountain only.",
+  "extent": [
+    -77.66192881465223,
+    35.64812947366104,
+    -77.59614285965932,
+    35.69311381009597
+  ],
+  "verification": {
+    "verified_at": 1792279912599,
+    "counties": [
+      "37147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-hawthorne",
+  "publisher": "City of Hawthorne (zoning from California Governor's Office of Planning and Research statewide zoning, South)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_South/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code"
+  },
+  "filter": "County = 'LAN' AND Jurisdiction = 'Hawthorne'",
+  "notes": "State of California (OPR) statewide zoning compilation, South; LA County cities carry County code LAN. Filtered to Hawthorne. Source districts are SCAG-compiled (2019); zone_name not provided (Description empty).",
+  "extent": [
+    -118.37858506622152,
+    33.893361432436336,
+    -118.31301790859273,
+    33.934463127358754
+  ],
+  "verification": {
+    "verified_at": 1792277957889,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

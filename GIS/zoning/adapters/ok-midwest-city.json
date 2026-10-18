@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ok-midwest-city",
+  "publisher": "City of Midwest City GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.midwestcityok.org/arcgis/rest/services/OpenData/CurrentZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40109"
+    ]
+  },
+  "fields": {
+    "link": "ZoningOrdNo",
+    "zone": "CurrentZoning"
+  },
+  "filter": "HistoricalFlag = 'N'",
+  "notes": "City of Midwest City CurrentZoning layer from the city GIS hub. Filtered to current (non-historical) features. ZoningOrdNo is an ordinance number, not a URL. Zone codes include PUD and SUP variants; base districts are the codes before the SUP suffix. Overlay and flood layers are not included.",
+  "extent": [
+    -97.42543036919403,
+    35.43277094105979,
+    -97.29087461047864,
+    35.515053736270765
+  ],
+  "verification": {
+    "verified_at": 1792280067482,
+    "counties": [
+      "40109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

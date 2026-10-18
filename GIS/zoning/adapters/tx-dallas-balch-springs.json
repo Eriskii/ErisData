@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-dallas-balch-springs",
+  "publisher": "City of Balch Springs GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HmZrfXtpyBP9VLYQ/arcgis/rest/services/FAKE_Zoning_Map_DELETE_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48113"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Code",
+    "zone_name": "Zoning"
+  },
+  "notes": "Last resort: a parcel layer (Zoning_Parcels) of City of Balch Springs parcels whose attributes carry each parcel zoning, not a district polygon layer. Service name contains FAKE/DELETE; confirm it stays published.",
+  "extent": [
+    -96.64028688166802,
+    32.68972120881926,
+    -96.57492137189217,
+    32.74878896875462
+  ],
+  "verification": {
+    "verified_at": 1792280808284,
+    "counties": [
+      "48113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

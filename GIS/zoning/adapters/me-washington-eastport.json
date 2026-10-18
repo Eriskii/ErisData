@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "me-washington-eastport",
+  "publisher": "City of Eastport (zoning districts copy, UMaine Machias GIS Lab, ummgis ArcGIS Online, 2016)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Hi6kEmQzn9cl2oYk/arcgis/rest/services/Eastport_Parcel_and_Zoning_Data/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23029"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Eastport city zoning districts (2016 layer) published by the UMaine Machias GIS Lab (ummgis) on ArcGIS Online; a copy made for the town, not the city own server. The city links its own Zoning Map and Planning Map from eastport-me.gov. Single jurisdiction, all features Eastport. Zone codes as published.",
+  "extent": [
+    -67.04752429617643,
+    44.87482200194753,
+    -66.98332389830298,
+    44.947171309890344
+  ],
+  "verification": {
+    "verified_at": 1792278803884,
+    "counties": [
+      "23029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

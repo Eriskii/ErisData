@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "ut-box-elder-corinne",
+  "publisher": "Corinne City (zoning compiled in a generalized Utah planning layer)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49003"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "city = 'Corinne'",
+  "notes": "Unofficial copy: a third-party generalized statewide planning layer (AOG BRAG, Utah AGRC), not hosted by Corinne City; filtered to Corinne rows. Check the source date and link before relying on it.",
+  "extent": [
+    -112.1491083165904,
+    41.53468105921577,
+    -112.0885488894595,
+    41.56868415300484
+  ],
+  "verification": {
+    "verified_at": 1792281531362,
+    "counties": [
+      "49003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

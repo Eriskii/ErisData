@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-madera-city",
+  "publisher": "City of Madera (via California Statewide Zoning, Governor's Office of Land Use and Climate Innovation)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06039"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'MAD' AND Jurisdiction = 'Madera'",
+  "notes": "Statewide zoning compilation (OPR, CaliforniaZoning10_17_24), city of Madera records only. Official state-compiled copy of the city zoning; the city itself sells GIS under a licensing agreement.",
+  "extent": [
+    -120.18346484664664,
+    36.927441558786846,
+    -120.01026158131909,
+    37.006123149529905
+  ],
+  "verification": {
+    "verified_at": 1792277328740,
+    "counties": [
+      "06039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

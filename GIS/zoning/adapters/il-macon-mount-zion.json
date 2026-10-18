@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-macon-mount-zion",
+  "publisher": "Village of Mt. Zion GIS (mtziongis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/AGWzFLX80TUpTIfH/arcgis/rest/services/Zoning_View_Layer/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17115"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONECLASS"
+  },
+  "notes": "Village of Mt. Zion zoning districts, hosted by village ArcGIS account. ZONECODE is a coded-value domain; ZONECLASS holds the classification text.",
+  "extent": [
+    -88.91553266292433,
+    39.744847180878274,
+    -88.85853251431406,
+    39.8047219474296
+  ],
+  "verification": {
+    "verified_at": 1792278214685,
+    "counties": [
+      "17115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

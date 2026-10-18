@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-grundy-minooka",
+  "publisher": "Village of Minooka (hosted by Kendall County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Minooka_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17063"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "zoning"
+  },
+  "notes": "Village of Minooka zoning districts, hosted by Kendall County GIS for the village; the village extends into Grundy, Will and Kendall counties, and the features in Grundy are the ones this county uses.",
+  "extent": [
+    -88.34012734835179,
+    41.41829728514663,
+    -88.23421312469729,
+    41.49153409593527
+  ],
+  "verification": {
+    "verified_at": 1792278108658,
+    "counties": [
+      "17063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

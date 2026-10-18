@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-summit-fairlawn",
+  "publisher": "Summit County GIS (Fairlawn zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/21",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Fairlawn layer from Summit County GIS ZoningNov2025 service (layer 21). Only zone code and Ord_No present; no district name field.",
+  "extent": [
+    -81.6575359015071,
+    41.10887644313835,
+    -81.58727343391848,
+    41.15007501266208
+  ],
+  "verification": {
+    "verified_at": 1792276102385,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

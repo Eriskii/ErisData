@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-bulloch-statesboro",
+  "publisher": "City of Statesboro (ArcGIS Online, Bulloch GIS organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/ubipOx65ptjBcDZM/arcgis/rest/services/ZoningDistricts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City Zoning Map layer for the City of Statesboro, 289 features, last-updated and last-editor fields present. Served from the same host as the county zoning_change_map layer.",
+  "extent": [
+    -81.80811925452971,
+    32.38495257532554,
+    -81.73121528027313,
+    32.48895049286286
+  ],
+  "verification": {
+    "verified_at": 1792277744492,
+    "counties": [
+      "13031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

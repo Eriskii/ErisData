@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-montgomery-kettering",
+  "publisher": "City of Kettering, Ohio (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://portal.ketteringoh.org/server/rest/services/GISData/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39113"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_ID",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "City of Kettering zoning districts from the city GIS portal (GISData/Zoning).",
+  "extent": [
+    -84.21570866861407,
+    39.65371119795043,
+    -84.09961183576272,
+    39.73664721848109
+  ],
+  "verification": {
+    "verified_at": 1792276021166,
+    "counties": [
+      "39113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

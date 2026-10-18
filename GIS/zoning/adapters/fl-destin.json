@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "fl-destin",
+  "publisher": "City of Destin, FL (Planning and Zoning_WFL1 service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/pzsl4efLIySC22jh/arcgis/rest/services/Planning_and_Zoning_WFL1/FeatureServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12091"
+    ]
+  },
+  "fields": {
+    "link": "ZoningFactSheet",
+    "zone": "Zone_ABBR",
+    "zone_name": "Zone_"
+  },
+  "notes": "City of Destin zoning districts (layer 17 Zoning, 369 polygons) in the city planning service alongside the city limits and CRA layers; Destin only. Zoning factsheet links to cityofdestin.com.",
+  "extent": [
+    -86.51579780048705,
+    30.37879693862165,
+    -86.39722752458228,
+    30.417694100551717
+  ],
+  "verification": {
+    "verified_at": 1792277725942,
+    "counties": [
+      "12091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

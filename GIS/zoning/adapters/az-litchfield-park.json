@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "az-litchfield-park",
+  "publisher": "City of Litchfield Park (zoning via AZGeo-hosted layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/clPWQMwZfdWn4MQZ/arcgis/rest/services/LitchfieldPark_Zoning_03232026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04013"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE__ZONING_",
+    "zone": "CITY_ZONING",
+    "zone_name": "CITY_ZONING"
+  },
+  "notes": "Parcel-based layer: one feature per parcel with the parcel zoning in CITY_ZONING (ZONING also present). No district polygons or district name attribute, so zone_name repeats the code. Hosted by the state AZGeo ArcGIS organization (sjohnson_azgeo) and used by the Litchfield Park ArcGIS web app; used because no district layer is published. City limits only.",
+  "extent": [
+    -112.3794720740486,
+    33.48601496051969,
+    -112.3240590187423,
+    33.51908096371897
+  ],
+  "verification": {
+    "verified_at": 1792277614093,
+    "counties": [
+      "04013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

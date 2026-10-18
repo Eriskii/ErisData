@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-dos-palos",
+  "publisher": "City of Dos Palos (zoning districts via California Statewide Zoning, Governor's Office of Land Use and Climate Innovation)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06047"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'MER' AND Jurisdiction = 'Dos Palos'",
+  "notes": "State-hosted statewide zoning compilation (CaliforniaZoning north layer); filtered to County MER, Jurisdiction Dos Palos. Fields Code and Description.",
+  "extent": [
+    -120.66280926890146,
+    36.97457950471341,
+    -120.61766653186422,
+    36.99639723020648
+  ],
+  "verification": {
+    "verified_at": 1792277325941,
+    "counties": [
+      "06047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

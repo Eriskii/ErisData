@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "al-tuscaloosa-woodstock",
+  "publisher": "Town of Woodstock, AL (via West Alabama Regional Commission ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/4FkF0FRfs3fLDICE/arcgis/rest/services/Woodstock_Zoning_2026/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01125"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Woodstock Zoning 2026 layer linked from the town site 2026 zoning map. Parcel-based: 935 parcel polygons with ZONING attribute on each (last-resort parcel-with-zoning layer, no separate district layer published). Town spans Bibb and Tuscaloosa counties.",
+  "extent": [
+    -87.19177966917542,
+    33.173338827956,
+    -87.07444042349692,
+    33.29640093315515
+  ],
+  "verification": {
+    "verified_at": 1792277279895,
+    "counties": [
+      "01125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

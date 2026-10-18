@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-wayne-eureka",
+  "publisher": "Wayne County GIS (Town of Eureka zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/q2nSlChj7QgGTANO/arcgis/rest/services/Eureka_Zoning/FeatureServer/41",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37191"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID"
+  },
+  "notes": "Town of Eureka zoning districts, published by Wayne County GIS. Zone codes only; no name field in source.",
+  "extent": [
+    -77.90154749383436,
+    35.52120318724343,
+    -77.85144258791402,
+    35.561919573880175
+  ],
+  "verification": {
+    "verified_at": 1792279899748,
+    "counties": [
+      "37191"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

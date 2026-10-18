@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-cache-amalga",
+  "publisher": "Cache County GIS (Amalga Town zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/City_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city_name",
+    "zone": "zone_code",
+    "zone_name": "zone_type"
+  },
+  "filter": "city_name = 'AMALGA'",
+  "notes": "Amalga zoning from Cache County City_Zoning service (layer per city; every layer returns the same 19-city table, filtered on city_name). Covers Amalga only.",
+  "extent": [
+    -111.9179468846998,
+    41.82691671697834,
+    -111.87935749999268,
+    41.89631540112944
+  ],
+  "verification": {
+    "verified_at": 1792280877545,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

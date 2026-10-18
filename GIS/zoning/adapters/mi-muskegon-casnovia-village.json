@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-muskegon-casnovia-village",
+  "publisher": "Muskegon County GIS (Village of Casnovia zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.muskegoncountygis.com/arcgis/rest/services/Zoning_Viewer/Zoning_Viewer/MapServer/107",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26121"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "County GIS Zoning_Viewer service; Village of Casnovia base zoning districts (layer 107).",
+  "extent": [
+    -85.80058271669614,
+    43.226931928117104,
+    -85.79052478842344,
+    43.24159825064
+  ],
+  "verification": {
+    "verified_at": 1792275430795,
+    "counties": [
+      "26121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

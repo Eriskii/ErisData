@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-modesto",
+  "publisher": "City of Modesto GIS (via gis.modestogov.com external layers)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.modestogov.com/hosting/rest/services/ExternalServices/Map_Layer_Service_External/MapServer/27",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06099"
+    ]
+  },
+  "fields": {
+    "zone": "ZON_LGND"
+  },
+  "notes": "City of Modesto Zoning layer on the city GIS server (928 features). Zone codes only; district names and ordinance links are mostly empty in the source.",
+  "extent": [
+    -121.11369377511268,
+    37.478539449204455,
+    -120.90040699264026,
+    37.71242733948772
+  ],
+  "verification": {
+    "verified_at": 1792277420863,
+    "counties": [
+      "06099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

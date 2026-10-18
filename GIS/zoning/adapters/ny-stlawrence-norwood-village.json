@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-stlawrence-norwood-village",
+  "publisher": "St. Lawrence County / DANC GIS (Village of Norwood zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/63",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36089"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Village of Norwood layer from DANC regional zoning service (one layer per municipality). Ordinance links not populated.",
+  "extent": [
+    -75.01597387475671,
+    44.7305143966035,
+    -74.97907320851422,
+    44.76306007818325
+  ],
+  "verification": {
+    "verified_at": 1792279654464,
+    "counties": [
+      "36089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-greenwich",
+  "publisher": "Greenwich parcel data via CTECO (UConn), from the CT OPM/COG parcel collection",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cteco.uconn.edu/ctmaps/rest/services/Parcels/Parcels_tiled/MapServer/165",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09190"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Last resort: parcel layer carrying each parcel zoning attribute (ZONING), not a district polygon layer; Greenwich district layer is not reachable from here. Blank ZONING means unzoned or unknown.",
+  "extent": [
+    -73.72842295275083,
+    40.9799255300977,
+    -73.55400480561214,
+    41.144524401661826
+  ],
+  "verification": {
+    "verified_at": 1792277853812,
+    "counties": [
+      "09190"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

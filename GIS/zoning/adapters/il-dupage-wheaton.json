@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-dupage-wheaton",
+  "publisher": "City of Wheaton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/YyIQHvpylgCY7DEY/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17043"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Wheaton zoning districts (city-published, ArcGIS Online org WheatonAdmin). Wheaton only.",
+  "extent": [
+    -88.15177038421581,
+    41.818387657346754,
+    -88.07520973387832,
+    41.88957108712216
+  ],
+  "verification": {
+    "verified_at": 1792278146906,
+    "counties": [
+      "17043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

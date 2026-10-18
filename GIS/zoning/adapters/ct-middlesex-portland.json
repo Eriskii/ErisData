@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-middlesex-portland",
+  "publisher": "RiverCOG (Lower Connecticut River Valley Council of Governments), Town of Portland zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uH7GnAlGDzMooG4B/arcgis/rest/services/RiverCOG_Regional_Zoning/FeatureServer/16",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09130"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "P_ZONE"
+  },
+  "notes": "Portland layer from RiverCOG regional zoning service; ZONING holds the district code, P_ZONE the zone name or description",
+  "extent": [
+    -72.64674808023011,
+    41.556720234579736,
+    -72.53000242524847,
+    41.642885857167165
+  ],
+  "verification": {
+    "verified_at": 1792277532303,
+    "counties": [
+      "09130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

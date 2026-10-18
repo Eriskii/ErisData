@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-oakland-waterford",
+  "publisher": "Charter Township of Waterford GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kRCuM0PjgVVVv4tK/arcgis/rest/services/Zoning_Master/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26125"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Zoning_Des"
+  },
+  "notes": "Waterford Charter Township zoning master layer published by township GIS admin. Covers Waterford Township only.",
+  "extent": [
+    -83.44612810594815,
+    42.61276713579572,
+    -83.325624241948,
+    42.7058026814949
+  ],
+  "verification": {
+    "verified_at": 1792275438319,
+    "counties": [
+      "26125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

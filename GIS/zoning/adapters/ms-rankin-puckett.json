@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ms-rankin-puckett",
+  "publisher": "City of Puckett (via CMPDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Puckett_Feature_Layer/FeatureServer/32",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28121"
+    ]
+  },
+  "fields": {
+    "zone": "puckettzoning"
+  },
+  "filter": "municipality = 'Puckett'",
+  "notes": "Parcel-based polygons with zoning attributes (last resort: no district layer found for Puckett). CMPDD-hosted (HTTP only). Filtered to municipality = Puckett; puckettzoning holds the city code, rankinzoning the county code for the same parcel. Some Puckett parcels have a blank zone.",
+  "extent": [
+    -89.79921953247332,
+    32.06499162573504,
+    -89.76388474665697,
+    32.105408999422515
+  ],
+  "verification": {
+    "verified_at": 1792279272369,
+    "counties": [
+      "28121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

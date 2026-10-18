@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "id-post-falls",
+  "publisher": "City of Post Falls GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.postfalls.gov/server/rest/services/GIS2/LandUse/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16055"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Post Falls base zoning layer (LandUse MapServer layer 5, title Zoning); 1239 polygons; city limits only. zone holds district codes. No zone_name or link field in the layer.",
+  "extent": [
+    -117.04328476305484,
+    47.69216479172817,
+    -116.85620441050328,
+    47.767342325460575
+  ],
+  "verification": {
+    "verified_at": 1792278007849,
+    "counties": [
+      "16055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-travis-sunset-valley",
+  "publisher": "City of Sunset Valley (city ArcGIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/OgRe4OZB9AeIkKmc/arcgis/rest/services/2022_SSV_Parcel_Maps_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48453"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "SV__ADDRESS",
+    "zone": "SV__ZONING"
+  },
+  "notes": "Last resort: a parcel layer, not a district layer; each parcel carries its zoning district in SV__ZONING (as of Feb 2022). Parcels in City of Sunset Valley only.",
+  "extent": [
+    -97.82988973481095,
+    30.2141620226886,
+    -97.80390061037872,
+    30.240557780732143
+  ],
+  "verification": {
+    "verified_at": 1792280737084,
+    "counties": [
+      "48453"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

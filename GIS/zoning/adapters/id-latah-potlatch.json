@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "id-latah-potlatch",
+  "publisher": "City of Potlatch (via Latah County GIS Municipalities service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.latah.id.us/arcgis/rest/services/Municipalities/MapServer/22",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16057"
+    ]
+  },
+  "fields": {
+    "zone": "Label"
+  },
+  "notes": "City of Potlatch zoning layer hosted on Latah County GIS Municipalities service (layer 22, 22 features). Zone code in Label; no usable description field.",
+  "extent": [
+    -116.9072372627868,
+    46.916223753631016,
+    -116.88548933009216,
+    46.93171499580415
+  ],
+  "verification": {
+    "verified_at": 1792278019676,
+    "counties": [
+      "16057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-rowan-cleveland",
+  "publisher": "Rowan County GIS (Town of Cleveland zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rowancountync.gov/arcgis/rest/services/Public/Alll_Zoning/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37159"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "notes": "Town of Cleveland zoning hosted on Rowan County GIS; overlay in overlay field",
+  "extent": [
+    -80.71411971764067,
+    35.706212944749886,
+    -80.64834926802833,
+    35.76107052400545
+  ],
+  "verification": {
+    "verified_at": 1792279900519,
+    "counties": [
+      "37159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

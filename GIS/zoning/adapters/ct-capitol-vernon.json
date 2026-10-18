@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-capitol-vernon",
+  "publisher": "Town of Vernon GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.vernon-ct.gov/arcgis/rest/services/Boundaries/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09110"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE"
+  },
+  "notes": "Town of Vernon zoning polygons (Boundaries/Zoning MapServer layer 0, 114 features). zone = ZONE_TYPE; no zone name field in source.",
+  "extent": [
+    -72.50767703995865,
+    41.79851174666434,
+    -72.41850223136936,
+    41.87479438162984
+  ],
+  "verification": {
+    "verified_at": 1792277738506,
+    "counties": [
+      "09110"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

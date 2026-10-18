@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ks-mulvane",
+  "publisher": "City of Mulvane, Kansas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/oXYiywfeFWIPu8JL/arcgis/rest/services/Zoning_(Public)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20173"
+    ]
+  },
+  "fields": {
+    "zone": "Classification",
+    "zone_name": "Description"
+  },
+  "notes": "Mulvane city zoning layer from the city Mulvane Map viewer (ArcGIS Experience). Mulvane city limits only. Notes field holds remarks; no ordinance link field.",
+  "extent": [
+    -97.35068063068181,
+    37.4384894856071,
+    -97.21930142280765,
+    37.5100403831749
+  ],
+  "verification": {
+    "verified_at": 1792279331169,
+    "counties": [
+      "20173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

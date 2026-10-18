@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-dupage-darien",
+  "publisher": "City of Darien GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ujU8BLaouMWRzTbX/arcgis/rest/services/Darien_Zoning_Map_2022/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17043"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CLASS_2018",
+    "zone_name": "ZONING_DESCRIPTIONS"
+  },
+  "notes": "Last resort: Darien Zoning Map 2022 service, layer Zoning Class Parcels Fill; attributes are per parcel (MULTIPIN_HIGHPIN) carrying ZONING_CLASS_2018 and ZONING_DESCRIPTIONS, not district polygons. Darien city publishes it.",
+  "extent": [
+    -88.03056089544626,
+    41.70017911775264,
+    -87.94501217072356,
+    41.768848458388085
+  ],
+  "verification": {
+    "verified_at": 1792278264263,
+    "counties": [
+      "17043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "wi-buffalo-town-gilmanton",
+  "publisher": "Buffalo County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/4fskj6X2QqYEBVyr/arcgis/rest/services/Zoning_Buffalo_County/FeatureServer/36",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55011"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "link": "LINK",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "MUNICIPALITY = 'Town of Gilmanton'",
+  "notes": "Buffalo County zoning districts for towns participating in county zoning (layer 36, Participating=Yes). Published by Buffalo County GIS.",
+  "extent": [
+    -91.77203639971555,
+    44.42224256409079,
+    -91.65006040555765,
+    44.51021152347463
+  ],
+  "verification": {
+    "verified_at": 1792281177674,
+    "counties": [
+      "55011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

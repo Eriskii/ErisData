@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-fremont",
+  "publisher": "City of Fremont GIS Division",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/AVso4yDITKsybTJg/arcgis/rest/services/Zoning_Class/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_DIST",
+    "zone_name": "ZP_DIST"
+  },
+  "notes": "City of Fremont Zoning Class layer (existing zoning; proposed fields not mapped). Overlays in OL_* fields not mapped. Zone_name is the zoning/planned district label.",
+  "extent": [
+    -122.15473565933928,
+    37.4513161288817,
+    -121.86974151832044,
+    37.60796107159566
+  ],
+  "verification": {
+    "verified_at": 1792277295317,
+    "counties": [
+      "06001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

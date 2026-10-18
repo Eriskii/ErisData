@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-erie-holland",
+  "publisher": "Erie County GIS (OGIS) - Town of Holland zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.erie.gov/server/rest/services/OGIS/Holland/MapServer/23",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36029"
+    ]
+  },
+  "fields": {
+    "zone": "Name"
+  },
+  "notes": "Town of Holland only. Zoning layer served by Erie County OGIS; only 10 features, Name holds district codes and labels (R-1, R-2, HighwayBusiness, GeneralBusiness, Manufacturing). Other Holland layers on the same service are overlays and not used. zone_name not mapped because Name holds the code.",
+  "extent": [
+    -78.58104643639948,
+    42.605818691008906,
+    -78.46170243577843,
+    42.694020713687415
+  ],
+  "verification": {
+    "verified_at": 1792279792105,
+    "counties": [
+      "36029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

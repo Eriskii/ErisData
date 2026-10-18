@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-jefferson-henderson",
+  "publisher": "Town of Henderson (via DANC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/39",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36045"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Town of Henderson zoning districts from the DANC GIS host. Single-jurisdiction layer; PDF_Link not mapped.",
+  "extent": [
+    -76.29931163558874,
+    43.80825470258269,
+    -76.09798392397643,
+    43.90691692056171
+  ],
+  "verification": {
+    "verified_at": 1792279742205,
+    "counties": [
+      "36045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

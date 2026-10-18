@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "va-loudoun-round-hill",
+  "publisher": "Town of Round Hill (hosted by Loudoun County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://logis.loudoun.gov/gis/rest/services/COL/pol_connect/MapServer/27",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51107"
+    ]
+  },
+  "fields": {
+    "zone": "RH_ZONE"
+  },
+  "notes": "Town of Round Hill base zoning districts, county-hosted layer ZoningRoundHill; covers only the Town of Round Hill.",
+  "extent": [
+    -77.7899955863328,
+    39.12347894688754,
+    -77.76097897930423,
+    39.13925698664739
+  ],
+  "verification": {
+    "verified_at": 1792280951464,
+    "counties": [
+      "51107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

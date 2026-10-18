@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "mi-chippewa-superior",
+  "publisher": "Eastern Upper Peninsula Regional Planning and Development Commission (Chippewa County Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/r3fID69a2yHQdVc4/arcgis/rest/services/Chippewa_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26033"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Township",
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Class"
+  },
+  "filter": "Township = 'Superior'",
+  "notes": "Superior Township, from the EUP regional commission county-wide zoning layer; the Township attribute names each township. Zone_Class is the class, Zone_Code the district code.",
+  "extent": [
+    -84.8648171065236,
+    46.33167473224874,
+    -84.48884342971215,
+    46.42976658235193
+  ],
+  "verification": {
+    "verified_at": 1792275291601,
+    "counties": [
+      "26033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

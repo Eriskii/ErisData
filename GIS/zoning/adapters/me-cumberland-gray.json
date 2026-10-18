@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "me-cumberland-gray",
+  "publisher": "Gray, Maine (copy hosted by Douglaswebster, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/6rdFM2yuFcLY3Shu/arcgis/rest/services/General_Zoning_Polygons_Updated_2023/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23005"
+    ]
+  },
+  "fields": {
+    "zone": "BASEZONE"
+  },
+  "notes": "Copy of Gray, Maine base zoning polygons (93 features, 2023 update) uploaded to ArcGIS Online by an individual account (Douglaswebster), not the town; no official town service found. Town publishes Chapter 402 zoning ordinance and map as PDF. Only zone code available; no zone name or ordinance link.",
+  "extent": [
+    -70.44632171760166,
+    43.8199357284262,
+    -70.25358513720441,
+    43.95579386546259
+  ],
+  "verification": {
+    "verified_at": 1792278989573,
+    "counties": [
+      "23005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

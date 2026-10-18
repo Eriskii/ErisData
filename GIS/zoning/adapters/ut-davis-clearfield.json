@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-davis-clearfield",
+  "publisher": "Clearfield City (ClearfieldGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/v0kJH5eNqLU1DwuT/arcgis/rest/services/ZoningZoningOverlay/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Description"
+  },
+  "notes": "Clearfield City zoning districts (base zoning layer in the city ZoningZoningOverlay service; overlays are a separate layer)",
+  "extent": [
+    -112.05519777474692,
+    41.07463128303578,
+    -111.9869722757738,
+    41.12552403533093
+  ],
+  "verification": {
+    "verified_at": 1792280847849,
+    "counties": [
+      "49011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

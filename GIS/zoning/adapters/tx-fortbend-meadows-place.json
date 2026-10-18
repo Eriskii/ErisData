@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-fortbend-meadows-place",
+  "publisher": "City of Meadows Place GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/eIiwebkNsfh7iMGF/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48157"
+    ]
+  },
+  "fields": {
+    "zone": "Type"
+  },
+  "notes": "City of Meadows Place zoning districts, hosted by the city GIS account, published 08/01/2018 (may be dated). Only a type attribute, no ordinance links.",
+  "extent": [
+    -95.5982120591384,
+    29.643801219161837,
+    -95.57129045685504,
+    29.66041230649289
+  ],
+  "verification": {
+    "verified_at": 1792280670602,
+    "counties": [
+      "48157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

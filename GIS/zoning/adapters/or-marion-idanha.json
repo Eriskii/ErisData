@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-marion-idanha",
+  "publisher": "Oregon DLCD (statewide zoning, Idanha records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Idanha'",
+  "notes": "Statewide DLCD zoning layer filtered to the City of Idanha (ownerName Idanha); standardized state zone codes. State copy, not the city own layer.",
+  "extent": [
+    -122.11760977100532,
+    44.69494833699731,
+    -122.06065040517625,
+    44.713103844013645
+  ],
+  "verification": {
+    "verified_at": 1792280387674,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

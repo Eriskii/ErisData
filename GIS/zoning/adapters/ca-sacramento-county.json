@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-sacramento-county",
+  "publisher": "Sacramento County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/5NARefyPVtAeuJPU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06067"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONE_CODE",
+    "zone_name": "DESCRIPTION"
+  },
+  "filter": "JURISDICTION = 'UNINCORPORATED'",
+  "notes": "Sacramento County unincorporated zoning only (JURISDICTION = UNINCORPORATED); overlays in OVERLAY_1..3 not mapped",
+  "extent": [
+    -121.8632428813531,
+    38.01422738262785,
+    -121.01667265134051,
+    38.736918526364136
+  ],
+  "verification": {
+    "verified_at": 1792277359825,
+    "counties": [
+      "06067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

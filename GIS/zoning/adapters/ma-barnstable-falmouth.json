@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-barnstable-falmouth",
+  "publisher": "Town of Falmouth GIS (GPV_Zoning service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.falmouthma.gov/arcgis/rest/services/GPV_Zoning/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "ZONE_"
+  },
+  "notes": "Town of Falmouth base zoning districts from the Town GIS service (layer 10 Zoning, 226 features). Overlay districts are in other layers and not used. Town-only layer.",
+  "extent": [
+    -70.68762412542648,
+    41.51489511531586,
+    -70.49812947632753,
+    41.65841428942196
+  ],
+  "verification": {
+    "verified_at": 1792279247659,
+    "counties": [
+      "25001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

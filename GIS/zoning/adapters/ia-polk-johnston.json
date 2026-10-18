@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ia-polk-johnston",
+  "publisher": "City of Johnston, Iowa",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/YrQLciwZwGSxFk55/arcgis/rest/services/Zoning_Designation_Public/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_DIS"
+  },
+  "filter": "IsOverlay = 0",
+  "notes": "City of Johnston zoning classification layer (base districts; overlay rows with IsOverlay=1 excluded). Covers Johnston city limits. ORDLink holds only PDF file names, so no link mapped.",
+  "extent": [
+    -93.78519360645961,
+    41.652280737919135,
+    -93.664620294637,
+    41.75412695459882
+  ],
+  "verification": {
+    "verified_at": 1792278967357,
+    "counties": [
+      "19153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-geauga-auburn-township",
+  "publisher": "Geauga County GIS (Auburn Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gcgis.geauga.oh.gov/arcgis/rest/services/Planning/Zoning/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39055"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_LABEL",
+    "zone_name": "ZONING"
+  },
+  "notes": "Auburn Township zoning layer from the county Planning/Zoning service; one layer per municipality in Geauga County.",
+  "extent": [
+    -81.2983773735721,
+    41.347329359664776,
+    -81.19051113306135,
+    41.42553386099194
+  ],
+  "verification": {
+    "verified_at": 1792275785792,
+    "counties": [
+      "39055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

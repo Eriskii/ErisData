@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "id-twinfalls-buhl",
+  "publisher": "City of Buhl, Idaho",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/2lFfYsoBD697ZuE3/arcgis/rest/services/Official_Buhl_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CODE",
+    "zone_name": "ZONING_Description"
+  },
+  "notes": "City of Buhl official zoning districts (313 polygons). City limits only; no jurisdiction field. No link field in source.",
+  "extent": [
+    -114.81182532156186,
+    42.57801820619401,
+    -114.71185930542984,
+    42.62679903848653
+  ],
+  "verification": {
+    "verified_at": 1792278058205,
+    "counties": [
+      "16083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

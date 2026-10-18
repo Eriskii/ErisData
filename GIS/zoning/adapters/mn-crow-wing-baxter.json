@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-crow-wing-baxter",
+  "publisher": "City of Baxter (GIS, via ArcGIS Online organization tdeboer_baxtermn)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/56rp0OXOzhB8oMb7/arcgis/rest/services/Land_Use_(Public)/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27035"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Baxter Zoning layer from the city Land Use (Public) service; covers the City of Baxter only. zonetype is a subtype code, not mapped.",
+  "extent": [
+    -94.32830941100285,
+    46.29048632138869,
+    -94.2188476526565,
+    46.38775969346089
+  ],
+  "verification": {
+    "verified_at": 1792278940078,
+    "counties": [
+      "27035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

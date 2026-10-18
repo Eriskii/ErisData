@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-highland",
+  "publisher": "Utah County GIS (Highland City Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/49",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_HI_LABEL",
+    "zone_name": "ZONE_HI_DESC"
+  },
+  "notes": "Highland Town zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 49, 81 features).",
+  "extent": [
+    -111.83067605721692,
+    40.40202089283858,
+    -111.74482909007769,
+    40.464856825637945
+  ],
+  "verification": {
+    "verified_at": 1792280884991,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

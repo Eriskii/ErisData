@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "in-wayne-spring-grove",
+  "publisher": "Town of Spring Grove, Indiana (hosted by Wayne County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb4.co.wayne.in.us/arcgis/rest/services/Hosted/County_Wide_Zoning/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18177"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Name"
+  },
+  "notes": "From the Wayne County GIS County_Wide_Zoning service, layer 8 (5 polygons, 3 districts with codes).",
+  "extent": [
+    -84.89778193841397,
+    39.8419424048077,
+    -84.88476375428579,
+    39.85156258659669
+  ],
+  "verification": {
+    "verified_at": 1792278357450,
+    "counties": [
+      "18177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

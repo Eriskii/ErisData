@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-wayne-savannah",
+  "publisher": "Wayne County GIS (Town of Savannah zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.wayne.ny.us/arcgis/rest/services/Savannah_Zoning/FeatureServer/67",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36117"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Class",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "Town of Savannah zoning, standardized by Wayne County GIS / GTG 2024.",
+  "extent": [
+    -76.81227752320733,
+    43.021153537310475,
+    -76.70237616280181,
+    43.13177330612392
+  ],
+  "verification": {
+    "verified_at": 1792279761779,
+    "counties": [
+      "36117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

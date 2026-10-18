@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ok-rogers-owasso",
+  "publisher": "City of Owasso (zoning layer on the city ArcGIS organization, 2021 map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/VJvqwZ3JnU52C9ua/arcgis/rest/services/CityZoningMap05Oct2021_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40131"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE_CITY"
+  },
+  "notes": "City of Owasso zoning districts, from the city ArcGIS organization layer dated 20 April 2021 (zoningOwasso20April2021). Owasso lies mostly in Tulsa County; this layer holds the city zoning. ZONE_TYPE_CITY holds the district code. No ordinance link in source. Possibly superseded by a newer city map.",
+  "extent": [
+    -95.90211518268497,
+    36.249301791451344,
+    -95.70439723202249,
+    36.33680068798159
+  ],
+  "verification": {
+    "verified_at": 1792280163739,
+    "counties": [
+      "40131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

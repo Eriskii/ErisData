@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-sullivan-bluffcity",
+  "publisher": "Bluff City, TN (zoning copy by markstevans, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/duOXQT76rrwCBokY/arcgis/rest/services/Bluff_City_Zoning_July_2017/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47163"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "Copy of the Bluff City zoning map (July 2017) uploaded to ArcGIS Online by markstevans; not hosted by the city, which has not published an official layer. Predates the ordinance amendments through October 2023. Covers Bluff City only; zone code field Zone_Curre, no zone name field.",
+  "extent": [
+    -82.31639463553242,
+    36.41977895493935,
+    -82.25063670667238,
+    36.47737438570671
+  ],
+  "verification": {
+    "verified_at": 1792280659397,
+    "counties": [
+      "47163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

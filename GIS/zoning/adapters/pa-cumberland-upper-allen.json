@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-upper-allen",
+  "publisher": "Cumberland County Planning Department (Upper Allen Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/28",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Upper Allen Township zoning layer from the county GIS Zoning_Basemap service; digitized by the county from municipal paper maps, may not be the official adopted maps.",
+  "extent": [
+    -77.02174827198965,
+    40.14763345813429,
+    -76.92097923498137,
+    40.21216532198888
+  ],
+  "verification": {
+    "verified_at": 1792280097632,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

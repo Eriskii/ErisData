@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-burke-rutherford-college",
+  "publisher": "Town of Rutherford College (via Burke County municipal zoning feature service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/axQ4OCSpcxALIQsV/arcgis/rest/services/Municipal_Zoning_FS/FeatureServer/76",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37023"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID"
+  },
+  "notes": "Town of Rutherford College base zoning districts, from the Burke County municipal zoning feature service. Only 5 features; CITY_NAME and LAND_USE are blank, so no district name.",
+  "extent": [
+    -81.54528832954139,
+    35.72377171510338,
+    -81.50710352565059,
+    35.80486657053592
+  ],
+  "verification": {
+    "verified_at": 1792279742493,
+    "counties": [
+      "37023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-atherton",
+  "publisher": "Town of Atherton (Planning, ArcGIS Online organization iwagoladmin_atherton)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/M2JnqYO98uNEpQ0u/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06081"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "descr"
+  },
+  "notes": "Town of Atherton zoning districts (142 polygons), published by the town planning viewer account. zone_name is the description field.",
+  "extent": [
+    -122.23466683604654,
+    37.42397761329524,
+    -122.16694267682227,
+    37.47687391319026
+  ],
+  "verification": {
+    "verified_at": 1792277566966,
+    "counties": [
+      "06081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

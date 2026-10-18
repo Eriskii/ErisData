@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-douglas-parker",
+  "publisher": "Town of Parker GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/gJ4Ua6egqE4IMu3C/arcgis/rest/services/Zoning_to_Web_Service/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08035"
+    ]
+  },
+  "fields": {
+    "link": "PD_DOC",
+    "zone": "ZONING",
+    "zone_name": "PD_USE1"
+  },
+  "notes": "Town of Parker zoning districts (Zoning_to_Web_Service layer 2) from the Town of Parker ArcGIS Online organization. ZONING holds district code; PD_USE1 is planned development use; PD_DOC the PD document. Covers Town of Parker only.",
+  "extent": [
+    -104.8310948512134,
+    39.45255716004503,
+    -104.70792017868212,
+    39.56621245297245
+  ],
+  "verification": {
+    "verified_at": 1792277461304,
+    "counties": [
+      "08035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-toombs-lyons",
+  "publisher": "City of Lyons (hosted via City of Lyons View, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/City_of_Lyons_View/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13279"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "Zoning LIKE '%:%'",
+  "notes": "City of Lyons zoning districts only (Lyons city limits); county unincorporated land not covered. Served by HOGARC Lyons Zoning Viewer. Blank and null polygons excluded.",
+  "extent": [
+    -82.35042760786163,
+    32.17290589520925,
+    -82.28561937761523,
+    32.27260978523996
+  ],
+  "verification": {
+    "verified_at": 1792277993923,
+    "counties": [
+      "13279"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

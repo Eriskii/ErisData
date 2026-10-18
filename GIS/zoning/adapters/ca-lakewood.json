@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-lakewood",
+  "publisher": "City of Lakewood (mikjenk ArcGIS service, Lakewood CA zoning designations)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/bkaqPVf76HqGHC0b/arcgis/rest/services/Zoning_Designations/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Lakewood zoning designations layer (Lakewood CA, city-published ArcGIS Online service). Only a zone code field.",
+  "extent": [
+    -118.16779182963506,
+    33.820046909632495,
+    -118.05899021693402,
+    33.86912434864202
+  ],
+  "verification": {
+    "verified_at": 1792277643357,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

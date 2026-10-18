@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "md-north-beach",
+  "publisher": "Maryland Department of Planning (state generalized zoning, North Beach jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdpgis.mdp.state.md.us/arcgis/rest/services/PlanningCadastre/Generalized_Zoning_2025/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24009"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "GENZONE"
+  },
+  "filter": "JURSCODE = 'CALV' AND MUNICIPALITY_NAME = 'NORTH BEACH'",
+  "notes": "State generalized zoning (2020 update), statewide compilation; zone holds generalized categories (e.g. MIXED USE, COMMERCIAL), not the town's own district codes. Town publishes no queryable layer found; Town Code on ecode360 has the official map.",
+  "extent": [
+    -76.54442948329363,
+    38.702475809833736,
+    -76.52860067127529,
+    38.7140985709878
+  ],
+  "verification": {
+    "verified_at": 1792278788205,
+    "counties": [
+      "24009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

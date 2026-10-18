@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ar-washington-lincoln",
+  "publisher": "City of Lincoln, AR (NWARPC-hosted ArcGIS Online layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/Lincoln_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05143"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "descrp"
+  },
+  "notes": "City of Lincoln zoning districts, city limits only; Ord_No holds ordinance number; Scan_Docs are local paths",
+  "extent": [
+    -94.44022011086135,
+    35.9330649345502,
+    -94.37598820718044,
+    35.97216261667579
+  ],
+  "verification": {
+    "verified_at": 1792277319535,
+    "counties": [
+      "05143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

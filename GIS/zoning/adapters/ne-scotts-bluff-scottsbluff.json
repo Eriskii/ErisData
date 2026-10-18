@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ne-scotts-bluff-scottsbluff",
+  "publisher": "City of Scottsbluff, NE",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/6RcoyosSEOhbwUNg/arcgis/rest/services/Official_City_Zoning_Novotx/FeatureServer/148",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31157"
+    ]
+  },
+  "fields": {
+    "zone": "FIRST_ZTYP"
+  },
+  "notes": "City of Scottsbluff official zoning (city-owned ArcGIS org, Official City Zoning layer, 285 polygons). Zone codes in FIRST_ZTYP; ORDINANCE_NO gives adopting ordinance; no description field.",
+  "extent": [
+    -103.73653495857414,
+    41.83235090365948,
+    -103.5961728973291,
+    41.921110238441365
+  ],
+  "verification": {
+    "verified_at": 1792279555798,
+    "counties": [
+      "31157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

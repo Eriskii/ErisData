@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "id-caribou-soda-springs",
+  "publisher": "Caribou County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/qnw9CxcuDG55fwTB/arcgis/rest/services/Zoning_and_Land_Use_PUBLIC/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16029"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "SSCityZone",
+    "zone": "SSCityZone",
+    "zone_name": "Zone"
+  },
+  "filter": "CountyZone = 'City'",
+  "notes": "Layer 0 of the county Zoning_and_Land_Use_PUBLIC service; CountyZone=City marks Soda Springs city zones (SSCityZone holds city district codes, Zone the district name). Zone_Class sparse.",
+  "extent": [
+    -111.63316045635682,
+    42.626651092062566,
+    -111.5593501688274,
+    42.681724681834346
+  ],
+  "verification": {
+    "verified_at": 1792277986090,
+    "counties": [
+      "16029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

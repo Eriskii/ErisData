@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mo-st-charles-st-peters",
+  "publisher": "City of St. Peters, MO (GIS Viewer service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stpetersmo.net/server/rest/services/Viewer/Zoning_Viewer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29183"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID",
+    "zone_name": "ZONE_DESIGN"
+  },
+  "notes": "City of St. Peters zoning districts from the city own GIS viewer service (1121 features).",
+  "extent": [
+    -90.67648001931566,
+    38.72132866357002,
+    -90.54922278402745,
+    38.830609403691
+  ],
+  "verification": {
+    "verified_at": 1792279460207,
+    "counties": [
+      "29183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

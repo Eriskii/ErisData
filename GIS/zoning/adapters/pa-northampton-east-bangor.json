@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-northampton-east-bangor",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; East Bangor Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND NAME = 'East Bangor Borough'",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to East Bangor Borough by NAME. Zone codes carry a municipal prefix; taken from ZN_MUNI_CD. Link not mapped: the layer holds no ordinance links.",
+  "extent": [
+    -75.19773513277826,
+    40.872406621237324,
+    -75.17555849413424,
+    40.8922457412751
+  ],
+  "verification": {
+    "verified_at": 1792280500713,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

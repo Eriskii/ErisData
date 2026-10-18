@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-oakley",
+  "publisher": "City of Oakley (agiffin_pw ArcGIS org, Jurisdiction GP Land Use Designations and Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/4usxdjWKL0Lq9x6D/arcgis/rest/services/Jurisdiction_GP_Land_Use_Designations_and_Zoning/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06013"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "GPLU"
+  },
+  "notes": "City of Oakley zoning districts from the Jurisdiction GP Land Use Designations and Zoning service (layer 7 Oakley Zoning). Zoning field holds the district code; GPLU is the general plan land use, not the zone name. Single-jurisdiction layer.",
+  "extent": [
+    -121.75664154104972,
+    37.96809603413928,
+    -121.6223424337322,
+    38.02236652938916
+  ],
+  "verification": {
+    "verified_at": 1792277630715,
+    "counties": [
+      "06013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

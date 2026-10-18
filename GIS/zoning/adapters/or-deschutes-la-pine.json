@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "or-deschutes-la-pine",
+  "publisher": "City of La Pine (zoning layer hosted on ArcGIS Online by nhartgtpdr)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/ifOjxuV6c7rBc9xy/arcgis/rest/services/La_Pine_Zoning/FeatureServer/20",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of La Pine zoning as published on ArcGIS Online by user nhartgtpdr (titled Deschutes County 02/02/2026); not hosted by the city or county itself, so official is false. 63 districts in EPSG:2270; no zone name field; ORDINANCE filled for only about a third of districts, so not mapped as link.",
+  "extent": [
+    -121.51630711045318,
+    43.6596887003757,
+    -121.45239906252915,
+    43.71826443658219
+  ],
+  "verification": {
+    "verified_at": 1792280016348,
+    "counties": [
+      "41017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

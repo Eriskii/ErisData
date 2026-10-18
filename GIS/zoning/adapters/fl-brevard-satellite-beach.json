@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-brevard-satellite-beach",
+  "publisher": "City of Satellite Beach GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/6oVY31bK6DOd0VbR/arcgis/rest/services/City_of_Satellite_Beach_Map_v1_0/FeatureServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12009"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Descr"
+  },
+  "notes": "City of Satellite Beach zoning districts (Zoning layer of the city Map v1_0 service). Covers Satellite Beach only.",
+  "extent": [
+    -80.61476930904404,
+    28.15749173149948,
+    -80.58484924494506,
+    28.1980280083836
+  ],
+  "verification": {
+    "verified_at": 1792278228671,
+    "counties": [
+      "12009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

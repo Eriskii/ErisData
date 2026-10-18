@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-dallas-irving",
+  "publisher": "City of Irving GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/OfsJXUlu8pSkbl7B/arcgis/rest/services/Planning_and_Zoning/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48113"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "BaseDistrict",
+    "zone_name": "District"
+  },
+  "notes": "City of Irving Approved Zoning layer (base zoning districts with ordinance references; PUD rows carry the base district in BaseDistrict). Covers Irving only.",
+  "extent": [
+    -97.03509567824709,
+    32.77112627820826,
+    -96.88757108728211,
+    32.95479717744543
+  ],
+  "verification": {
+    "verified_at": 1792280620579,
+    "counties": [
+      "48113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

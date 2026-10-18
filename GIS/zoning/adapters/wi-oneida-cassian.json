@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-oneida-cassian",
+  "publisher": "Oneida County GIS (Town of Cassian zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.oneidacountywi.gov/arcgis/rest/services/Oneview/ZoningLandUse/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55085"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "filter": "MUNICIPALITY = 'CASSIAN'",
+  "notes": "Town of Cassian zoning districts from the county Oneview ZoningLandUse service, Zoning Districts layer (county-wide layer holding 20 towns, filtered to one). Boundaries approximate per county disclaimer.",
+  "extent": [
+    -89.79620803630517,
+    45.64473826318061,
+    -89.54848588082014,
+    45.73255122349368
+  ],
+  "verification": {
+    "verified_at": 1792281514505,
+    "counties": [
+      "55085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

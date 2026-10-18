@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-west-brunswick",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for West Brunswick Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/63_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNIS",
+    "zone": "ZONE",
+    "zone_name": "DESCRPT"
+  },
+  "notes": "Municipal zoning for West Brunswick Township (MUNIS 63), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.18498620012636,
+    40.61581916449885,
+    -76.15691242129874,
+    40.64341180597034
+  ],
+  "verification": {
+    "verified_at": 1792280343569,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

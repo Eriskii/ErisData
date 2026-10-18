@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-englewood",
+  "publisher": "City of Englewood (copy by Ayres Associates on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/wDLeIqfs18hKdUWd/arcgis/rest/services/Zoning2022/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08005"
+    ]
+  },
+  "fields": {
+    "link": "Regulation",
+    "zone": "NEWZONE",
+    "zone_name": "DSCRPT"
+  },
+  "notes": "Unofficial copy: uploaded to ArcGIS Online by consultant Ayres Associates (OkeefeA_AyresAGO), described as City of Englewood zoning districts; the city publishes its own zoning map and parcel app but no queryable city layer was found.",
+  "extent": [
+    -105.03495084215942,
+    39.61683445880307,
+    -104.9594501110675,
+    39.6786900833682
+  ],
+  "verification": {
+    "verified_at": 1792277733335,
+    "counties": [
+      "08005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

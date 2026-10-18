@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ks-ford-dodge-city",
+  "publisher": "City of Dodge City, Kansas (GIS, ArcGIS Online account darylr)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Ea5sGov7N8Ppv5tn/arcgis/rest/services/Planning/FeatureServer/26",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20057"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Dodge City base zoning districts polygons (173 features, codes such as C2 in ZONE; MAPKEY and Ordinance also present). Hosted in the city GIS organization. City limits only.",
+  "extent": [
+    -100.06961302170268,
+    37.714462863466,
+    -99.93799289089806,
+    37.80926081078198
+  ],
+  "verification": {
+    "verified_at": 1792278522046,
+    "counties": [
+      "20057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

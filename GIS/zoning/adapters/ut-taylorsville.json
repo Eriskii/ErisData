@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "ut-taylorsville",
+  "publisher": "Salt Lake County Surveyors Office (combined municipal zoning, 2023)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/DJP723NX3ukQ2LtF/ArcGIS/rest/services/Salt_Lake_County_Zoning_2023_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49035"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipali",
+    "link": "ordinance_",
+    "zone": "municipal_",
+    "zone_name": "zone_descr"
+  },
+  "filter": "municipali = 'Taylorsville'",
+  "notes": "Salt Lake County combined municipal zoning layer (SLCO Surveyors Office, 2023), filtered to Taylorsville; jurisdiction field municipali.",
+  "extent": [
+    -111.99153675095684,
+    40.629859253999896,
+    -111.90803094548237,
+    40.68622547190278
+  ],
+  "verification": {
+    "verified_at": 1792281317028,
+    "counties": [
+      "49035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

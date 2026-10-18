@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "az-pinal-casa-grande",
+  "publisher": "City of Casa Grande GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://rogue.casagrandeaz.gov/arcgis/rest/services/Planning/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04021"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Casa Grande Planning zoning layer; 25 districts. Only the zone code is published, no description.",
+  "extent": [
+    -111.91222843748888,
+    32.77751917217049,
+    -111.61019881893183,
+    32.996527753514904
+  ],
+  "verification": {
+    "verified_at": 1792277259478,
+    "counties": [
+      "04021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

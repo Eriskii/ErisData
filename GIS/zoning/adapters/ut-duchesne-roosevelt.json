@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-duchesne-roosevelt",
+  "publisher": "Roosevelt City (Roosevelt City - Planning ArcGIS Online service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/evcTw38geUYNxGxr/arcgis/rest/services/Roosevelt_City___Planning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49013"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Description"
+  },
+  "notes": "Roosevelt City zoning districts only (38 features), published by Roosevelt City planning on its ArcGIS Online service.",
+  "extent": [
+    -110.06802001236215,
+    40.262286568975256,
+    -109.97292846258443,
+    40.333726164506494
+  ],
+  "verification": {
+    "verified_at": 1792280744119,
+    "counties": [
+      "49013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

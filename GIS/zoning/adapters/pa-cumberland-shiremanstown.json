@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-shiremanstown",
+  "publisher": "Cumberland County Planning Department (Shiremanstown Borough zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/24",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Shiremanstown Borough zoning layer from the county GIS Zoning_Basemap service; digitized by the county from municipal paper maps, may not be the official adopted maps. ZoneType also available.",
+  "extent": [
+    -76.96488112759747,
+    40.217679338159954,
+    -76.94550399763475,
+    40.226390138216594
+  ],
+  "verification": {
+    "verified_at": 1792280205364,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

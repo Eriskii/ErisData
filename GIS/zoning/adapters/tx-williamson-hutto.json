@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-williamson-hutto",
+  "publisher": "City of Hutto GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/YZhxlqU7ABWQBGTG/arcgis/rest/services/Hutto_Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48491"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Hutto zoning districts (city limits; Williamson County). City-only layer.",
+  "extent": [
+    -97.58908515270755,
+    30.49380535912536,
+    -97.48308013366724,
+    30.59947730234083
+  ],
+  "verification": {
+    "verified_at": 1792280850924,
+    "counties": [
+      "48491"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

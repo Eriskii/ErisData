@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sd-codington-henry",
+  "publisher": "Town of Henry (1st District MapNet, Codington County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Codington/codingtonmapnetpro/MapServer/38",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46029"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT",
+    "zone_name": "LABEL2"
+  },
+  "notes": "Town of Henry zoning districts from the county MapNet service; layer holds Henry only.",
+  "extent": [
+    -97.47239398175125,
+    44.8742166752265,
+    -97.4579430239192,
+    44.883858045272994
+  ],
+  "verification": {
+    "verified_at": 1792280318108,
+    "counties": [
+      "46029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

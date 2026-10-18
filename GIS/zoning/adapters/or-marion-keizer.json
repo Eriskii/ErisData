@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-marion-keizer",
+  "publisher": "Oregon DLCD (statewide zoning, Keizer records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Keizer'",
+  "notes": "Statewide DLCD zoning layer filtered to the City of Keizer (ownerName Keizer); standardized state zone codes.",
+  "extent": [
+    -123.0571425855618,
+    44.97296870055349,
+    -122.991317402139,
+    45.03723218432843
+  ],
+  "verification": {
+    "verified_at": 1792280086610,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

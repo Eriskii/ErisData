@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-stjoseph-three-rivers",
+  "publisher": "City of Three Rivers (hosted ArcGIS service, City of Three Rivers Zoning Map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/G71IOdqVWODMAQU5/arcgis/rest/services/trzoning/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26149"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Label",
+    "zone_name": "ZONE"
+  },
+  "notes": "City of Three Rivers zoning districts only (Zoning_Class layer of the city zoning map service). ZONE holds code and description together; Zone_Label holds the code.",
+  "extent": [
+    -85.66082854789173,
+    41.92519664233282,
+    -85.58065796716218,
+    41.96987005169709
+  ],
+  "verification": {
+    "verified_at": 1792275434306,
+    "counties": [
+      "26149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

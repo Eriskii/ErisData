@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-scott-prior-lake",
+  "publisher": "City of Prior Lake (Interactive Zoning Map, priorlake.maps.arcgis.com)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/5INybaMvgevywmou/arcgis/rest/services/Zoning_1_Pub/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27139"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_1",
+    "zone_name": "ZoningLbl"
+  },
+  "notes": "Prior Lake parcel-level zoning (layer named Parcel_Zoning_2020, 11,277 features) served from the city web map Interactive Official Zoning Map; a parcel layer carrying each parcel zoning, used as the city district layer. Shoreland overlay is a separate field and not used.",
+  "extent": [
+    -93.51206631825853,
+    44.688534923641726,
+    -93.37993555789416,
+    44.76127815244361
+  ],
+  "verification": {
+    "verified_at": 1792279094926,
+    "counties": [
+      "27139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

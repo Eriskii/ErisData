@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "pa-allegheny-bethel-park",
+  "publisher": "Municipality of Bethel Park (municipal GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/ptmAvweveinujaUS/arcgis/rest/services/Public_View___Zoning_and_Parcels_and_Addresses/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Bethel Park zoning districts from the municipality public view service (PRT base layer). Bethel Park only.",
+  "extent": [
+    -80.07598847259911,
+    40.28683925410398,
+    -79.9965069044,
+    40.35975162252403
+  ],
+  "verification": {
+    "verified_at": 1792280160894,
+    "counties": [
+      "42003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-bristol-westport",
+  "publisher": "Town of Westport (base zoning hosted by SRPEDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/euKKjtGUuDiy24vy/arcgis/rest/services/Westport_Base_Zoning_May_2024/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGDIST"
+  },
+  "notes": "Westport base zoning districts, May 2024 Town Meeting changes included; SRPEDD serves for the Town. The layer has one district name field only (ZONINGDIST, e.g. Business), so zone holds the district name. Overlays not included.",
+  "extent": [
+    -71.13908500882125,
+    41.47918066382585,
+    -71.02060927259654,
+    41.69298498618818
+  ],
+  "verification": {
+    "verified_at": 1792278950912,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

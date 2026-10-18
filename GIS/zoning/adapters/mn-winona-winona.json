@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "mn-winona-winona",
+  "publisher": "Winona County GIS (city of Winona zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services4.arcgis.com/JRjQuFG9VKLnZxt7/arcgis/rest/services/Winona_Zoning_Project_gdb/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27169"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWN_CITY",
+    "zone": "ZONING_ID",
+    "zone_name": "ZONING"
+  },
+  "filter": "TOWN_CITY = 'Winona'",
+  "notes": "City of Winona zoning districts from the county Zoning_County_Municipalities layer (FeatureServer/0), filtered to TOWN_CITY = Winona. ZONING_ID holds the city district code (B-2, R-1), ZONING the district name. The layer also holds other municipalities and Wilson Township (saved separately).",
+  "extent": [
+    -91.720427078009,
+    43.976885628513514,
+    -91.59983225366162,
+    44.12927937086064
+  ],
+  "verification": {
+    "verified_at": 1792279193264,
+    "counties": [
+      "27169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

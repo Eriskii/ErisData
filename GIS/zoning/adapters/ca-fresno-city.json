@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-fresno-city",
+  "publisher": "City of Fresno (GIS Hub, Zoning GIS Hub)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/WkBUojyNPhsWOk1W/arcgis/rest/services/Zoning_GIS_Hub/FeatureServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06019"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Fresno zoning. Parcel-level polygons (one record per APN) carrying each parcel zone code, so a last-resort parcel layer; overlay in ZoningOverlay. Source: City of Fresno GIS Hub, owner FresnoGIS.",
+  "extent": [
+    -119.93689855852097,
+    36.66248171754295,
+    -119.64950321996788,
+    36.91140576627346
+  ],
+  "verification": {
+    "verified_at": 1792277312728,
+    "counties": [
+      "06019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

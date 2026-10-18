@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-schoharie-middleburgh-village",
+  "publisher": "Village of Middleburgh (via Schoharie County GIS, VHB)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://spatialags.vhb.com/arcgis/rest/services/20327_Schoharie/NY_County_Schoharie/MapServer/58",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36095"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Middleburgh zoning district layer from the Schoharie County GIS map service (hosted by VHB for the county).",
+  "extent": [
+    -74.34029866942262,
+    42.58562632910829,
+    -74.31616175430693,
+    42.610301780806935
+  ],
+  "verification": {
+    "verified_at": 1792279639954,
+    "counties": [
+      "36095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

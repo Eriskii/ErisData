@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-norfolk-wellesley",
+  "publisher": "Town of Wellesley GIS (MapWellesley)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/f6G5SbcwuEVmR1CW/arcgis/rest/services/Open_Data_Layers/FeatureServer/26",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25021"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Town of Wellesley zoning districts (single town), from the town open data layers on ArcGIS Online. Overlay districts are in a separate layer (FeatureServer/25) and are not used.",
+  "extent": [
+    -71.32987182017865,
+    42.26947372557811,
+    -71.2274768954218,
+    42.32819361746155
+  ],
+  "verification": {
+    "verified_at": 1792279093672,
+    "counties": [
+      "25021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

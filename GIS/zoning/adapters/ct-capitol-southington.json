@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-capitol-southington",
+  "publisher": "Town of Southington GIS (hosted by Tighe & Bond)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://hostingdata2.tighebond.com/arcgis/rest/services/SouthingtonCT/SouthingtonDynamicPro/MapServer/51",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09110"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Southington Zoning layer from the town GIS MapServer (layer 51 of SouthingtonDynamicPro). Only 20 polygons; ZONING holds the district code. Zone name not provided.",
+  "extent": [
+    -72.94556845377399,
+    41.54498782918455,
+    -72.81427905606068,
+    41.65607179062864
+  ],
+  "verification": {
+    "verified_at": 1792277660744,
+    "counties": [
+      "09110"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

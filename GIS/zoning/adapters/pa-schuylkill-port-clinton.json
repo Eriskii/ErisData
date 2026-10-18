@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-port-clinton",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Port Clinton Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/18_zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "munis",
+    "zone": "zone",
+    "zone_name": "descrpt"
+  },
+  "notes": "Municipal zoning for Port Clinton Borough (MUNIS 18), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.23323884724415,
+    40.60700220194852,
+    -76.10506187576847,
+    40.695827272381926
+  ],
+  "verification": {
+    "verified_at": 1792280312462,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

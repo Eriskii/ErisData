@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-summit-copley",
+  "publisher": "Summit County GIS (Copley Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/24",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "Copley Township layer from Summit County GIS ZoningNov2025 service (layer 24). zone_name is a general category (residential, PUD); DISTRICT_N is blank.",
+  "extent": [
+    -81.68791380613122,
+    41.06146644982424,
+    -81.58758101410574,
+    41.13620863057477
+  ],
+  "verification": {
+    "verified_at": 1792276153005,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

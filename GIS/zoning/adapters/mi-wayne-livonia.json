@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-wayne-livonia",
+  "publisher": "City of Livonia (copy on ArcGIS Online, allthingsspatial account)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/EvDRLcHhbHG5BnwT/arcgis/rest/services/Livonia_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26163"
+    ]
+  },
+  "fields": {
+    "zone": "NEW_ZONE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Unofficial copy: uploaded to ArcGIS Online by a personal account (allthingsspatial), not the city. Used because the city viewer (mapweb.ci.livonia.mi.us Livonia_Viewer_LGIM) has no zoning district layer. Polygon district layer, 2332 features. zone from NEW_ZONE (ZONECLASS is blank). Last updated date unknown.",
+  "extent": [
+    -83.43493002456117,
+    42.351621784879576,
+    -83.31158782665841,
+    42.44277368689498
+  ],
+  "verification": {
+    "verified_at": 1792274496541,
+    "counties": [
+      "26163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

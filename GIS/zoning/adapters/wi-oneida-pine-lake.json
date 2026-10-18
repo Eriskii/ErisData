@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-oneida-pine-lake",
+  "publisher": "Oneida County GIS (Town of Pine Lake zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.oneidacountywi.gov/arcgis/rest/services/Oneview/ZoningLandUse/MapServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55085"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "zone": "District"
+  },
+  "filter": "MUNICIPALITY = 'PINE LAKE'",
+  "notes": "Town of Pine Lake zoning districts from the county Oneview ZoningLandUse service, Zoning Districts layer (county-wide layer holding 20 towns, filtered to one). Boundaries approximate per county disclaimer.",
+  "extent": [
+    -89.49219223592873,
+    45.64438775903993,
+    -89.30079914239559,
+    45.732266081278176
+  ],
+  "verification": {
+    "verified_at": 1792281465546,
+    "counties": [
+      "55085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

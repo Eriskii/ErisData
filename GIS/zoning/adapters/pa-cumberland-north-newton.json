@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-north-newton",
+  "publisher": "Cumberland County Planning Department (North Newton Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/18",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "North Newton Township zoning layer from the county GIS Zoning_Basemap service; digitized by the county from municipal paper maps, may not be the official adopted maps. ZoneType also available.",
+  "extent": [
+    -77.5093803039641,
+    40.091838906456,
+    -77.39079378568056,
+    40.19289997453556
+  ],
+  "verification": {
+    "verified_at": 1792280218306,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

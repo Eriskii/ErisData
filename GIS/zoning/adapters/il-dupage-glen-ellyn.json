@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "il-dupage-glen-ellyn",
+  "publisher": "Village of Glen Ellyn (copy hosted by a consultant account on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/rNrGj3CxKnr9E71f/arcgis/rest/services/Glen_Ellyn_ZoningVGE_20260924/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17043"
+    ]
+  },
+  "fields": {
+    "link": "ZONINGDOCU",
+    "zone": "ZONED",
+    "zone_name": "ZONINGDESC"
+  },
+  "notes": "Village of Glen Ellyn zoning districts. Attributes are the village database itself (SOURCE VGE, village staff editors, Title 10 ordinance citations, Community Development phone 630-547-5250); created 2013, modified 2021, so existing zoning, not the proposed map. Hosted in ArcGIS Online under ssuder_ZoneCo; the village publishes its official map only as PDF. Glen Ellyn only.",
+  "extent": [
+    -88.09076356465033,
+    41.83032471697834,
+    -88.02715605604148,
+    41.90156604749948
+  ],
+  "verification": {
+    "verified_at": 1792278305573,
+    "counties": [
+      "17043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

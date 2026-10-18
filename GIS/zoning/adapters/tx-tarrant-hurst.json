@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-tarrant-hurst",
+  "publisher": "City of Hurst GIS (ArcGIS Hub open data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/DYDcFoEIJXAqmt4r/arcgis/rest/services/ZoningOpenData/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48439"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Hurst zoning districts, open data layer (updated August 2023). Only the ZONING code is published.",
+  "extent": [
+    -97.21227977485096,
+    32.80484940211104,
+    -97.1374415885523,
+    32.889206773039405
+  ],
+  "verification": {
+    "verified_at": 1792281105908,
+    "counties": [
+      "48439"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

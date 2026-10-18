@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-south-newton",
+  "publisher": "Cumberland County Planning Department (South Newton Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/26",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "South Newton Township zoning layer from the county GIS Zoning_Basemap service; digitized by the county from municipal paper maps, may not be the official adopted maps. ZoneType also available.",
+  "extent": [
+    -77.44742218840888,
+    40.00340397176291,
+    -77.35276576774075,
+    40.11900045147051
+  ],
+  "verification": {
+    "verified_at": 1792280209182,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

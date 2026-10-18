@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mo-platte-city",
+  "publisher": "City of Platte City, MO",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ji2hJlB9RmHn0um4/arcgis/rest/services/Platte_City_MO_Zoning_and_Landuse_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29165"
+    ]
+  },
+  "fields": {
+    "zone": "LABEL",
+    "zone_name": "LAYER"
+  },
+  "notes": "Platte City zoning layer from the city GIS Zoning_and_Landuse view; 64 features. Field mapping to be checked against sample attributes.",
+  "extent": [
+    -94.8031113356546,
+    39.341825388409355,
+    -94.73868246204063,
+    39.37727370631468
+  ],
+  "verification": {
+    "verified_at": 1792279360107,
+    "counties": [
+      "29165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

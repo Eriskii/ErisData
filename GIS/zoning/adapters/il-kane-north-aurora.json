@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-kane-north-aurora",
+  "publisher": "Village of North Aurora (parcel layer with zoning attributes, hosted by village ArcGIS organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/YttIV0aZc5xfG8B4/arcgis/rest/services/North_Aurora_Zoning_Map_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17089"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Des"
+  },
+  "notes": "Parcel layer (North_Aurora_Parcels_Jan_2024_Joined) carrying each parcel zoning in Zoning and Zoning_Des; used as the only queryable zoning source found. Dissolve by zone for districts. Village zoning map is PDF only (2026 map). Map is dated Jan 2024 parcels.",
+  "extent": [
+    -88.40024189302348,
+    41.788673879688595,
+    -88.29888166656761,
+    41.832947232615645
+  ],
+  "verification": {
+    "verified_at": 1792278159144,
+    "counties": [
+      "17089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

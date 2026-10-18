@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-branford",
+  "publisher": "South Central CT Regional Council of Governments (SCRCOG), compiled 2018 zoning, hosted by OpenCommunitiesAlliance1",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/bDIODuUqvoiS6i6c/arcgis/rest/services/SCRCOG_Zoning_2018_gdb/FeatureServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09170"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Copy of SCRCOG 2018 regional zoning compilation on ArcGIS Online (item by OpenCommunitiesAlliance1), not the town server; Branford layer only (BRANFORD_ZONING). ZONING holds district code; no district name published in this layer. Compiled 2018, may predate amendments.",
+  "extent": [
+    -72.86424186006171,
+    41.240866001837034,
+    -72.72712377506845,
+    41.32415169432058
+  ],
+  "verification": {
+    "verified_at": 1792277592215,
+    "counties": [
+      "09170"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

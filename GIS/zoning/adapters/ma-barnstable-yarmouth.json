@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-barnstable-yarmouth",
+  "publisher": "Cape Cod Commission (for Town of Yarmouth)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-services.capecodcommission.org/arcgis/rest/services/ePermit/ePermit_Yarmouth/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25001"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT"
+  },
+  "notes": "Town of Yarmouth zoning districts, served by the Cape Cod Commission ePermit service; town-only layer",
+  "extent": [
+    -70.27501001560238,
+    41.608198495132335,
+    -70.1589513605548,
+    41.728928133455334
+  ],
+  "verification": {
+    "verified_at": 1792279094319,
+    "counties": [
+      "25001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

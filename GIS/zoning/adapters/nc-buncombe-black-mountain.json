@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-buncombe-black-mountain",
+  "publisher": "Town of Black Mountain (via Buncombe County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.buncombecounty.org/arcgis/rest/services/bcmapimage2_A/MapServer/31",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37021"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode"
+  },
+  "notes": "Town of Black Mountain zoning districts, published by Buncombe County GIS (bcmapimage2 service, layer 31 Town of Black Mountain Zoning).",
+  "extent": [
+    -82.36993216104477,
+    35.58218778657457,
+    -82.29921537128125,
+    35.64439633526818
+  ],
+  "verification": {
+    "verified_at": 1792279727460,
+    "counties": [
+      "37021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

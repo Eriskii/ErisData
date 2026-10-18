@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-iowa-barneveld",
+  "publisher": "Village of Barneveld (barneveldGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/RdkPF6RyvQRLjoru/arcgis/rest/services/Zoning_View_Only/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55049"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "Zoning"
+  },
+  "filter": "Zoning <> 'None'",
+  "notes": "Village of Barneveld zoning published Feb 2024 (ZoningParcelsV10): parcel-level polygons carrying each parcel zoning code in Zoning; a parcel layer, used because it is the village own zoning layer. zone_name not populated in source.",
+  "extent": [
+    -89.9107651674867,
+    42.99511609976103,
+    -89.88302238284808,
+    43.01390311413627
+  ],
+  "verification": {
+    "verified_at": 1792281183332,
+    "counties": [
+      "55049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

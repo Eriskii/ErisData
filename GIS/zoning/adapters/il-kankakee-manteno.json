@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-kankakee-manteno",
+  "publisher": "Village of Manteno (hosted via Kankakee County GIS webmap)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/VYrEjSsDHxMxl6fT/arcgis/rest/services/MantenoZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17091"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Village of Manteno zoning districts, from the Manteno Zoning webmap published under Kankakee County GIS.",
+  "extent": [
+    -87.88229724671305,
+    41.20676858107301,
+    -87.80976311117539,
+    41.276429087028134
+  ],
+  "verification": {
+    "verified_at": 1792278183972,
+    "counties": [
+      "17091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

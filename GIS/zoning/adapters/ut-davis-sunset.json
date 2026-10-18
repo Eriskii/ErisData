@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-davis-sunset",
+  "publisher": "Sunset City (zoning viewer draws from WFRC-account LAA_Community_Zoning service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/taguadKoI1XFwivx/arcgis/rest/services/LAA_Community_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49011"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "PARCEL_CITY",
+    "link": "URL",
+    "zone": "Zone"
+  },
+  "filter": "PARCEL_CITY = 'Sunset'",
+  "notes": "Sunset City zoning districts from the LAA_Community_Zoning layer, which holds several small Utah towns (Hooper, Huntsville, Rush Valley, Sunset, Vernon); filtered to Sunset. Served from a WFRC-account ArcGIS Online host that Sunset's own Experience zoning map (sunset-ut.com) draws from. No zone_name published. Sunset is in Davis County.",
+  "extent": [
+    -112.03717609938629,
+    41.12532728859769,
+    -112.02101927826553,
+    41.152735607117705
+  ],
+  "verification": {
+    "verified_at": 1792281304118,
+    "counties": [
+      "49011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ny-suffolk-islip",
+  "publisher": "Town of Islip GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/pr2e24t5n8AbuWLm/arcgis/rest/services/ISLIP_ZONING_2263/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36103"
+    ]
+  },
+  "fields": {
+    "link": "ECODE",
+    "zone": "ZONING",
+    "zone_name": "GENERALZON"
+  },
+  "notes": "Town of Islip zoning polygons from Town GIS (ewarner_islipgis). Town of Islip only. zone = ZONING code; zone_name = general class (Residential, Commercial...); link = ecode360 ordinance URL.",
+  "extent": [
+    -73.31943926476752,
+    40.62066495318108,
+    -73.03622131249374,
+    40.83393017027674
+  ],
+  "verification": {
+    "verified_at": 1792279671314,
+    "counties": [
+      "36103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

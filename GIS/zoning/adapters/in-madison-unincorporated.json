@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "in-madison-unincorporated",
+  "publisher": "Madison County Indiana (zoning served by Heartland MPO / MCCOG)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://heartlandmpo.com/arcgis/rest/services/Zoning/County_Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18095"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Madison County unincorporated zoning districts (DBO.countyZoning), served by Heartland MPO (MCCOG) ArcGIS server. No jurisdiction field; covers county land outside the cities and towns. No ordinance links in source.",
+  "extent": [
+    -85.86620349098426,
+    39.943516848229535,
+    -85.57531087542095,
+    40.37982366508634
+  ],
+  "verification": {
+    "verified_at": 1792278397084,
+    "counties": [
+      "18095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

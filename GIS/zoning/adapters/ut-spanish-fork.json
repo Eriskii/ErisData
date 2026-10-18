@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-spanish-fork",
+  "publisher": "Spanish Fork City (via Utah County GIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/60",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_SF_LABEL",
+    "zone_name": "ZONE_SF_DESC"
+  },
+  "notes": "Spanish Fork City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 60).",
+  "extent": [
+    -111.6986278168239,
+    40.06411192424815,
+    -111.57471402600152,
+    40.17330345123662
+  ],
+  "verification": {
+    "verified_at": 1792280820083,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

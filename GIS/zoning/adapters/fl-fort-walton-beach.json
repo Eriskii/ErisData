@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "fl-fort-walton-beach",
+  "publisher": "City of Fort Walton Beach, FL (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.fwb.org/arcgis/rest/services/Maps/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12091"
+    ]
+  },
+  "fields": {
+    "link": "Zoning_Hyperlink",
+    "zone": "Zoning",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "City of Fort Walton Beach official zoning layer from the city GIS server (Maps/Zoning). Zoning field holds the district code; Zoning_Desc its description; Zoning_Hyperlink the ordinance link where filled.",
+  "extent": [
+    -86.67438644759127,
+    30.400143593157303,
+    -86.58691945584286,
+    30.472463630574673
+  ],
+  "verification": {
+    "verified_at": 1792277770994,
+    "counties": [
+      "12091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

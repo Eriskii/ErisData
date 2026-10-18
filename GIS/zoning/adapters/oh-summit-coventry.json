@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-summit-coventry",
+  "publisher": "Summit County GIS (Coventry Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/23",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "Coventry Township layer from Summit County GIS ZoningNov2025 service (layer 23). zone_name is a general category; DISTRICT_N is blank.",
+  "extent": [
+    -81.58905949204595,
+    40.98783202846049,
+    -81.49154088778073,
+    41.02994458881718
+  ],
+  "verification": {
+    "verified_at": 1792276156235,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

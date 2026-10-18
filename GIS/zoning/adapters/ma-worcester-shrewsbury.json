@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-worcester-shrewsbury",
+  "publisher": "Town of Shrewsbury GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/GjUxfmthUNq7qjt9/arcgis/rest/services/ZoningWithSetbacks/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25027"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "ZONEDIST"
+  },
+  "notes": "Town of Shrewsbury base zoning districts (ZoningWithSetbacks layer on the town GIS portal); covers Shrewsbury only.",
+  "extent": [
+    -71.76826765131806,
+    42.24129516312334,
+    -71.65917446334596,
+    42.33241579898574
+  ],
+  "verification": {
+    "verified_at": 1792278920465,
+    "counties": [
+      "25027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

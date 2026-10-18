@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-brevard-indian-harbour-beach",
+  "publisher": "Indian Harbour Beach GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/p4PcsTDMX7kob6sh/arcgis/rest/services/IHB_Zoning_LandUse_AGOL/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12009"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Des"
+  },
+  "notes": "Indian Harbour Beach zoning from the IHB_Zoning_LandUse_AGOL service, IHB Zoniing layer; parcel-based polygons (carry each parcel zoning, from the city parcel layer) rather than a dissolved district layer. Covers Indian Harbour Beach only.",
+  "extent": [
+    -80.61277676524804,
+    28.13835036781696,
+    -80.580615723834,
+    28.17230561782308
+  ],
+  "verification": {
+    "verified_at": 1792278234298,
+    "counties": [
+      "12009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

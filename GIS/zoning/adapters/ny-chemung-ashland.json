@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ny-chemung-ashland",
+  "publisher": "Town of Ashland / Southern Tier Central Regional Planning (STC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/qO6xd1V1VbSyViir/arcgis/rest/services/Ashland_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36015"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "filter": "Muni_Name = 'Ashland'",
+  "notes": "Last resort: parcel layer (about 532 parcels, Town of Ashland) carrying each parcel zoning in Zoning (name, e.g. Agricultural Rural Residential); District field is empty. No standalone district layer found. Hosted by STC regional planning GIS.",
+  "extent": [
+    -76.81236444845923,
+    42.00116185474072,
+    -76.70221532267989,
+    42.056643357971325
+  ],
+  "verification": {
+    "verified_at": 1792279651509,
+    "counties": [
+      "36015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-broward-plantation",
+  "publisher": "City of Plantation GIS (PGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://pgis.plantation.org/arcgis/rest/services/Maps/PGIS/MapServer/30",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "zone": "Text_"
+  },
+  "notes": "City of Plantation Zoning layer (Maps/PGIS MapServer layer 30), city limits only. Zoning code in Text_ (e.g. B-3P, RS-3D, RM-24U). No zone name field.",
+  "extent": [
+    -80.33029394087819,
+    26.092653902668037,
+    -80.19697326229695,
+    26.160857450924546
+  ],
+  "verification": {
+    "verified_at": 1792278104283,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

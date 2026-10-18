@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-mchenry-mchenry",
+  "publisher": "City of McHenry, IL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/qtsuHpPKHCUd5VFD/arcgis/rest/services/Zoning_Read_Only/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17111"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_District"
+  },
+  "notes": "City of McHenry zoning districts, read-only view published by the city (viewer: mchenry.maps.arcgis.com Zoning app). City limits only.",
+  "extent": [
+    -88.34550134588156,
+    42.299354487594755,
+    -88.23212939268574,
+    42.37140318166081
+  ],
+  "verification": {
+    "verified_at": 1792278327059,
+    "counties": [
+      "17111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

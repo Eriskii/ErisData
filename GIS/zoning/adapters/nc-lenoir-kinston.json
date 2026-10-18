@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-lenoir-kinston",
+  "publisher": "City of Kinston Planning (Kinston Public Services ArcGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/oHyVM17u2FMyV4oB/arcgis/rest/services/Kinston_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37107"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Kinston zoning districts layer (1303 features). ZONING holds district code. City of Kinston limits only.",
+  "extent": [
+    -77.67463901329047,
+    35.21288596078176,
+    -77.50022994284443,
+    35.337562190655674
+  ],
+  "verification": {
+    "verified_at": 1792279845724,
+    "counties": [
+      "37107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

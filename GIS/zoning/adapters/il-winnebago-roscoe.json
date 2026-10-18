@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-winnebago-roscoe",
+  "publisher": "Village of Roscoe (via Winnebago County GIS, EcDev service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/44ad70f78c864e2ab40134c3866e3838/rest/services/EcDev/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17201"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClass",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "Village of Roscoe zoning districts, served from the Winnebago County GIS public EcDev MapServer. About 409 features.",
+  "extent": [
+    -89.06002789981281,
+    42.383318890215904,
+    -88.96003135082864,
+    42.47891848573674
+  ],
+  "verification": {
+    "verified_at": 1792278401408,
+    "counties": [
+      "17201"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

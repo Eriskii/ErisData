@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "ky-shelby-simpsonville",
+  "publisher": "City of Simpsonville, KY (hosted by Triple S Planning Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/VqPd1Ybcc46AvijK/arcgis/rest/services/SimpsonvilleZoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21211"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Zoning_Reg",
+    "link": "Zone_Link",
+    "zone": "Zone_ID",
+    "zone_name": "Zone_Label"
+  },
+  "filter": "Zoning_Reg = 'Simpsonville'",
+  "notes": "Simpsonville city zoning districts from the Triple S Shelby County zoning web map service. Zoning_Reg names the jurisdiction; filtered to Simpsonville (a few Shelby County records are mixed in and excluded).",
+  "extent": [
+    -85.36991251467559,
+    38.199674345505,
+    -85.32422330639989,
+    38.23205561394372
+  ],
+  "verification": {
+    "verified_at": 1792278713952,
+    "counties": [
+      "21211"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-genola",
+  "publisher": "Utah County GIS (Genola City Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/47",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_GE_LABEL",
+    "zone_name": "ZONE_GE_DESC"
+  },
+  "notes": "Genola City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 47, 49 features). Single-jurisdiction layer, no filter needed.",
+  "extent": [
+    -111.88146766001576,
+    39.95252874053968,
+    -111.8007214103054,
+    40.054967110600835
+  ],
+  "verification": {
+    "verified_at": 1792280945246,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wa-king-issaquah",
+  "publisher": "City of Issaquah GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://apps.issaquahwa.gov/server/rest/services/General_Mapservices/planning/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "City of Issaquah zoning districts (MapServer layer 7); Issaquah only.",
+  "extent": [
+    -122.10115419591618,
+    47.508328966446975,
+    -121.9848911056186,
+    47.577932658064285
+  ],
+  "verification": {
+    "verified_at": 1792281435175,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

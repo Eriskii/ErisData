@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "or-douglas-riddle",
+  "publisher": "Douglas County GIS (City of Riddle zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.douglas.or.us/server/rest/services/Planning/DC_City_Zones/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Douglas County GIS layer of City of Riddle zoning districts (one of several city layers in DC_City_Zones). Only zone name is published; no separate code field.",
+  "extent": [
+    -123.37695696044352,
+    42.94608841394317,
+    -123.34681700112236,
+    42.96386921239344
+  ],
+  "verification": {
+    "verified_at": 1792280096672,
+    "counties": [
+      "41019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

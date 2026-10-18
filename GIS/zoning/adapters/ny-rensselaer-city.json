@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-rensselaer-city",
+  "publisher": "City of Rensselaer, NY (City GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/8T9oLChn87ExnqDl/arcgis/rest/services/City_of_Rensselaer_Data/FeatureServer/25",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36083"
+    ]
+  },
+  "fields": {
+    "zone": "District_I",
+    "zone_name": "District_N"
+  },
+  "notes": "City of Rensselaer base zoning districts, polygon layer from the city data service. Single jurisdiction, so no jurisdiction field needed.",
+  "extent": [
+    -73.75694146666801,
+    42.61588411711877,
+    -73.70247226595387,
+    42.67021207741126
+  ],
+  "verification": {
+    "verified_at": 1792279639453,
+    "counties": [
+      "36083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

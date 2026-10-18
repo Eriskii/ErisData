@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-goodhue-goodhue",
+  "publisher": "City of Goodhue (hosted by Goodhue County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://publicmaps.co.goodhue.mn.us/arcgis/rest/services/GCUGGIS/GH_CityZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27049"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "City of Goodhue zoning districts (GH_CityZoning on Goodhue County GIS server; extent is the city of Goodhue). Single-city layer, keyed by PIN.",
+  "extent": [
+    -92.64142891857055,
+    44.390670845961985,
+    -92.61107573846786,
+    44.40536518529444
+  ],
+  "verification": {
+    "verified_at": 1792279016582,
+    "counties": [
+      "27049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-dade-city",
+  "publisher": "City of Dade City (Community & Economic Development, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/mmyQNjK0vr6nAsug/arcgis/rest/services/Zoning/FeatureServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12101"
+    ]
+  },
+  "fields": {
+    "zone": "ZON_LBL",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Dade City zoning districts, hosted on the city account on ArcGIS Online (layer 17, 108 polygons; extent around Dade City). Not in the saved layers.",
+  "extent": [
+    -82.2411672660399,
+    28.30654675770451,
+    -82.16094778842313,
+    28.383318508126784
+  ],
+  "verification": {
+    "verified_at": 1792277734956,
+    "counties": [
+      "12101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

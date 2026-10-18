@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-dallas-garland",
+  "publisher": "City of Garland GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps2.garlandtx.gov/server1/rest/services/PLANNING/ZONING/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48113"
+    ]
+  },
+  "fields": {
+    "zone": "BASE_ZONE",
+    "zone_name": "BASEZONING"
+  },
+  "notes": "City of Garland GDC zoning districts; BASE_ZONE is the base district (PD rows carry PD base codes); PD number in PD_NUM. Covers Garland.",
+  "extent": [
+    -96.70775974576425,
+    32.82945072201992,
+    -96.52959081593242,
+    32.98651760390725
+  ],
+  "verification": {
+    "verified_at": 1792280580588,
+    "counties": [
+      "48113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

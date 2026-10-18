@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-allegheny-hampton",
+  "publisher": "Hampton Township (Department of Community Development Public View, ArcGIS Online account marcpatti)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/cMgmhwu0L5CeOOoS/arcgis/rest/services/Department_of_Community_Development_Public_View/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Copy hosted on a personal ArcGIS Online account (marcpatti), not the township account; Hampton Township only, assumed from the layer contents (65 districts, RA one-acre, RC quarter-acre). Verify with the township. Zone codes and descriptions as published.",
+  "extent": [
+    -79.99120908013779,
+    40.55302264280707,
+    -79.91448009044558,
+    40.616279180048515
+  ],
+  "verification": {
+    "verified_at": 1792280428469,
+    "counties": [
+      "42003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

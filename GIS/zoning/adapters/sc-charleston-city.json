@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sc-charleston-city",
+  "publisher": "City of Charleston",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/tQaXW7Zb1Vphzvgd/arcgis/rest/services/Base_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45019"
+    ]
+  },
+  "fields": {
+    "link": "ORDNO",
+    "zone": "ZONE_BASE"
+  },
+  "notes": "City of Charleston base zoning districts (python_chs ArcGIS Online account, Base Zoning layer). Includes overlays? No: base zoning only per item description. ORDNO is ordinance number, not a URL.",
+  "extent": [
+    -80.18588816353102,
+    32.67285232197831,
+    -79.79713081666276,
+    32.97344155070899
+  ],
+  "verification": {
+    "verified_at": 1792280362352,
+    "counties": [
+      "45019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

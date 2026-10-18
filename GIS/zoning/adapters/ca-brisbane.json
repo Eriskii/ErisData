@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-brisbane",
+  "publisher": "City of Brisbane (city ArcGIS Online organization cityofbrisbane)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/UGpGSV1ugL0pHSgX/arcgis/rest/services/BrisbaneZoningDistricts_052024/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06081"
+    ]
+  },
+  "fields": {
+    "link": "Hyperlink",
+    "zone": "Abbreviati",
+    "zone_name": "Descriptio"
+  },
+  "notes": "City of Brisbane zoning districts, approved by City Council 12/05/2024; 21 polygons.",
+  "extent": [
+    -122.42656475389408,
+    37.67173251895756,
+    -122.37682972334338,
+    37.708413008532595
+  ],
+  "verification": {
+    "verified_at": 1792277612610,
+    "counties": [
+      "06081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

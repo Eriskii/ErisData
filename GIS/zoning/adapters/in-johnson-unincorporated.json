@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "in-johnson-unincorporated",
+  "publisher": "Johnson County GIS (County Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/s5B7dXoVjGiD4IBE/arcgis/rest/services/CountyZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18081"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "AGENCY",
+    "link": "URL",
+    "zone": "CODE",
+    "zone_name": "CLASS"
+  },
+  "filter": "AGENCY = 'Johnson County'",
+  "notes": "Unincorporated Johnson County zoning from the county GIS CountyZoning service; AGENCY=Johnson County rows are county districts, other AGENCY values are city limits, buffers and military land and are excluded",
+  "extent": [
+    -86.2540316881559,
+    39.34177753897815,
+    -85.95023853820189,
+    39.63839154552467
+  ],
+  "verification": {
+    "verified_at": 1792278315255,
+    "counties": [
+      "18081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

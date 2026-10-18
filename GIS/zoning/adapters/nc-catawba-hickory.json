@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-catawba-hickory",
+  "publisher": "City of Hickory",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.hickorync.gov/server/rest/services/Zoning_Overlays/Hickory_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37035"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Description"
+  },
+  "notes": "City of Hickory base zoning districts; General_Zoning is the general class. Single-city layer.",
+  "extent": [
+    -81.419224829552,
+    35.61260268189118,
+    -81.23052396964232,
+    35.80766607584599
+  ],
+  "verification": {
+    "verified_at": 1792279778236,
+    "counties": [
+      "37035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

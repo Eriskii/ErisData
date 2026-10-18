@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sc-lancaster-van-wyck",
+  "publisher": "Town of Van Wyck (zoning layer hosted by Catawba COG)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/h9JHFVWvWofKfQhH/arcgis/rest/services/Van_Wyck_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45057"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "OldZone"
+  },
+  "notes": "Town of Van Wyck zoning districts (7 polygons), published by catawba_cog. Zoning holds the current district code; OldZone the prior code. Town-limit layer, no jurisdiction field.",
+  "extent": [
+    -80.87920158581994,
+    34.8049856691978,
+    -80.79059675903073,
+    34.88572740808377
+  ],
+  "verification": {
+    "verified_at": 1792280276251,
+    "counties": [
+      "45057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

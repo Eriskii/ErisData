@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-wapato",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), City of Wapato",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53077"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '077' AND Jurisdiction = 'Wapato'",
+  "notes": "Washington State Zoning Atlas (Commerce) statewide layer, filtered to City of Wapato. No per-district ordinance link in the source.",
+  "extent": [
+    -120.43291118209387,
+    46.43313666375034,
+    -120.40689735369692,
+    46.45536902584946
+  ],
+  "verification": {
+    "verified_at": 1792281167401,
+    "counties": [
+      "53077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

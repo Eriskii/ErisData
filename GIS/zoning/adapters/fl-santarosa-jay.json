@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-santarosa-jay",
+  "publisher": "Town of Jay, FL (hosted on Santa Rosa County ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Eg4L1xEv2R3abuQd/arcgis/rest/services/TownOfJayZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12113"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT"
+  },
+  "notes": "Town of Jay zoning districts, 515 polygons, updated 03/30/2020 per service title; only zone code mapped, no name field.",
+  "extent": [
+    -87.1670923454406,
+    30.938093262114727,
+    -87.14040560415184,
+    30.96039572187042
+  ],
+  "verification": {
+    "verified_at": 1792277705038,
+    "counties": [
+      "12113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

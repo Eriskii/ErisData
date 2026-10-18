@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-draper",
+  "publisher": "Draper City (via Utah County GIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/44",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_DR_LABEL",
+    "zone_name": "ZONE_DR_DESC"
+  },
+  "notes": "Draper City zoning districts for the part of Draper inside Utah County, published by Utah County GIS on its CommercialAppraiser MapServer (layer 44, 32 features; the rest of Draper is in Salt Lake County).",
+  "extent": [
+    -111.89317358954824,
+    40.45149258399056,
+    -111.78306673160635,
+    40.49379701840858
+  ],
+  "verification": {
+    "verified_at": 1792280839431,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

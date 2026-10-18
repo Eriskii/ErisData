@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-wilkes-county-unincorporated",
+  "publisher": "Wilkes County GIS (HMWebSite WebMap2023)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wilkescounty.net/arcgis/rest/services/HMWebSite/WebMap2023/MapServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37193"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Wilkes County zoning districts (codes C-S, H-B, L-1, R-15, R-15R, R-20, R-20A) from the county GIS web map layer Wilkes County Zones; county unincorporated land. Zone descriptions not in the layer.",
+  "extent": [
+    -81.3598345842152,
+    36.0780424644146,
+    -80.87116746131439,
+    36.28163286703311
+  ],
+  "verification": {
+    "verified_at": 1792279911183,
+    "counties": [
+      "37193"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

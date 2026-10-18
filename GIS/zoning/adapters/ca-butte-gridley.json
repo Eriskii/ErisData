@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-butte-gridley",
+  "publisher": "City of Gridley (hosted by CSU Chico Geographic Information Center)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://nspdcwebsrv.csuchico.edu/nspdcarcsrv01/rest/services/City_of_Gridley/Gridley_Planning_Public/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06007"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_Gridley"
+  },
+  "notes": "City of Gridley Zoning layer from the city planning MapServer on CSU Chico GIC server. Covers City of Gridley only. No district name field; zone is the zoning code.",
+  "extent": [
+    -121.71852251597394,
+    39.34669776088305,
+    -121.62562920766422,
+    39.39249685071853
+  ],
+  "verification": {
+    "verified_at": 1792277467882,
+    "counties": [
+      "06007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

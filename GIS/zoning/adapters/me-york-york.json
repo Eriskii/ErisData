@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "me-york-york",
+  "publisher": "Town of York, Maine (GIS, CAI_YorkME ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/3WqUflJyxCOQjBCT/arcgis/rest/services/York_ME_Town_Zones/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23031"
+    ]
+  },
+  "fields": {
+    "zone": "zone"
+  },
+  "notes": "Town of York, ME base zoning districts (layer Base Zones 2024, 46 features) published by the town on ArcGIS Online. Only the district code is published; no name field. Single-jurisdiction town layer.",
+  "extent": [
+    -70.75780271873062,
+    43.10030823989553,
+    -70.5756669224247,
+    43.260772079651694
+  ],
+  "verification": {
+    "verified_at": 1792279004443,
+    "counties": [
+      "23031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

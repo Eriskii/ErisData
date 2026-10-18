@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "or-polk-independence",
+  "publisher": "Oregon DLCD (statewide zoning compilation, City of Independence records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41053"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "link": "codeRef",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "unitOwner = '1163064'",
+  "notes": "DLCD statewide zoning compilation sliced to City of Independence (unitOwner 1163064). Zone is the state-standardized code (orZCode); local codes are blank in this copy.",
+  "extent": [
+    -123.2166201664732,
+    44.8363674094599,
+    -123.17497360694472,
+    44.872719242057386
+  ],
+  "verification": {
+    "verified_at": 1792280085502,
+    "counties": [
+      "41053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

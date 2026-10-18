@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sd-yankton-city-etj",
+  "publisher": "City of Yankton, SD (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/aVepqWph7Jkj1aWl/arcgis/rest/services/ETJZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46135"
+    ]
+  },
+  "fields": {
+    "zone": "Layer",
+    "zone_name": "Layer"
+  },
+  "notes": "City of Yankton extraterritorial (ETJ) zoning, 2025 categories; 19 polygons on unincorporated county land within the city ETJ. Zone field Layer holds the district code as published; no separate name field.",
+  "extent": [
+    -97.43911142769146,
+    42.85947522211457,
+    -97.34491866143975,
+    42.93265014283708
+  ],
+  "verification": {
+    "verified_at": 1792280440430,
+    "counties": [
+      "46135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

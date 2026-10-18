@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-north-redington-beach",
+  "publisher": "Pinellas County GIS (for the Town of North Redington Beach)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_N_Red_Beach_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "link": "NOTES",
+    "zone": "ZONING"
+  },
+  "notes": "Town of North Redington Beach zoning hosted by Pinellas County GIS; JURISDICTION names the town. Source is in EPSG:3857 and the runtime requests lon/lat.",
+  "extent": [
+    -82.82878601650856,
+    27.813776432952732,
+    -82.81534388187349,
+    27.82786699278621
+  ],
+  "verification": {
+    "verified_at": 1792277950931,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

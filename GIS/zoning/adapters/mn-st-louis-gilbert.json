@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mn-st-louis-gilbert",
+  "publisher": "City of Gilbert, MN (zoning copy hosted by St. Louis County GIS, PLN_ZoningReview)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stlouiscountymn.gov/server2/rest/services/PLN_ZoningReview/ADMIN_ZoningGilbert/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27137"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE"
+  },
+  "notes": "City of Gilbert zoning districts as hosted on St. Louis County GIS review service; the service carries a disclaimer that it is not official zoning, so consult the city. City only. 38 features; zone names not filled.",
+  "extent": [
+    -92.50380077517354,
+    47.45689675450509,
+    -92.43283290865112,
+    47.53129699770297
+  ],
+  "verification": {
+    "verified_at": 1792279528317,
+    "counties": [
+      "27137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

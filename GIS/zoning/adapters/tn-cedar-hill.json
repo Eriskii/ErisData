@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tn-cedar-hill",
+  "publisher": "Robertson County Regional Planning Commission (via APSU GIS, RobertsonPlanningZoning service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://apnsgis4.apsu.edu/arcgis/rest/services/Robertson/RobertsonPlanningZoning/MapServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47147"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "zoning"
+  },
+  "notes": "Town of Cedar Hill zoning districts, 272 polygons, from the RobertsonPlanningZoning service (layer CedarHillZoning). Digitized from a paper map in 2014; the service errors on queries that name fields, so the request must use outFields=*.",
+  "extent": [
+    -87.01171268763404,
+    36.54238354529372,
+    -86.992011077875,
+    36.56237080113086
+  ],
+  "verification": {
+    "verified_at": 1792280507415,
+    "counties": [
+      "47147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

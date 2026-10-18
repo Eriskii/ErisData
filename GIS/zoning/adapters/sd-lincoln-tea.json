@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sd-lincoln-tea",
+  "publisher": "City of Tea",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/w9bQiB3uBRBK569Y/arcgis/rest/services/Tea_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46083"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Tea zoning layer published by the city (ArcGIS org CityofTea). ZonDesc is empty; zone codes only.",
+  "extent": [
+    -96.8466830564946,
+    43.43849653282764,
+    -96.7971911654037,
+    43.47614760259096
+  ],
+  "verification": {
+    "verified_at": 1792280575075,
+    "counties": [
+      "46083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

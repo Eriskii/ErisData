@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "nj-warren-independence",
+  "publisher": "Warren County Planning Department (NJ)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/4mb1fO9eRe47EZZx/arcgis/rest/services/Warren_County_Zoning/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "zone": "ZONE",
+    "zone_name": "ZONE_DESCR"
+  },
+  "filter": "Municipality = 'Independence'",
+  "notes": "Warren County Zoning county-wide buildout-analysis map (22 municipalities); filtered to Independence Township. Source is county planning dept, not the township itself.",
+  "extent": [
+    -74.92801994068638,
+    40.8361448794546,
+    -74.8160562471808,
+    40.92898951514037
+  ],
+  "verification": {
+    "verified_at": 1792279591391,
+    "counties": [
+      "34041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

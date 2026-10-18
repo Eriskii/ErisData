@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-green-lake-berlin",
+  "publisher": "City of Berlin (zoning viewer layer, Green Lake County ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/1vGw4uwtqJDFzWrg/arcgis/rest/services/Zoning_view/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55047"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Berlin zoning (codes A-1, B-1, B-2, C-1, C-2, M-1..M-3, R-1..R-3, RR-1) carried per parcel (ParcelNum), not district polygons; layer is the Zoning Viewer Map layer linked from cityofberlin.net. Parcel-level fallback because no district layer is published.",
+  "extent": [
+    -88.98070309802857,
+    43.9478341823079,
+    -88.92141155121169,
+    43.99796347760198
+  ],
+  "verification": {
+    "verified_at": 1792281177121,
+    "counties": [
+      "55047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

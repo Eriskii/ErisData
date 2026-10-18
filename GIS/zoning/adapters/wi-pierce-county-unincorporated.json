@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-pierce-county-unincorporated",
+  "publisher": "Pierce County WI Land Management",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.pierce.wi.us/arcgis/rest/services/Pierce_Public_BaseData/MapServer/50",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55093"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "ZONINGCLASS",
+    "zone_name": "ZONE_DES"
+  },
+  "notes": "Pierce County county-zoned districts for unincorporated towns (county GIS, Pierce_Public_BaseData County Zoning layer)",
+  "extent": [
+    -92.8095875503391,
+    44.52524726856649,
+    -92.12462106669443,
+    44.87553877517282
+  ],
+  "verification": {
+    "verified_at": 1792281320686,
+    "counties": [
+      "55093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

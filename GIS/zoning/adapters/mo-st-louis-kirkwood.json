@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mo-st-louis-kirkwood",
+  "publisher": "City of Kirkwood, MO (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.kirkwoodmo.org/arcgis/rest/services/Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29189"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEKW",
+    "zone_name": "Description"
+  },
+  "notes": "City of Kirkwood zoning districts (layer 3 of the city Zoning MapServer, which also carries parcels). Kirkwood only.",
+  "extent": [
+    -90.4540803888161,
+    38.54841642695133,
+    -90.39074589684962,
+    38.606597115651695
+  ],
+  "verification": {
+    "verified_at": 1792279398373,
+    "counties": [
+      "29189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-boone-county",
+  "publisher": "Boone County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.boonecountyil.org/arcgis/rest/services/County_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17007"
+    ]
+  },
+  "fields": {
+    "zone": "zoning_cde",
+    "zone_name": "zoning_dsc"
+  },
+  "notes": "Boone County unincorporated zoning districts (County_Zoning layer, 366 polygons), served by Boone County GIS. Covers unincorporated county land only; Belvidere is separate.",
+  "extent": [
+    -88.94096466508792,
+    42.152326301773485,
+    -88.70546811085441,
+    42.49507587672111
+  ],
+  "verification": {
+    "verified_at": 1792278063337,
+    "counties": [
+      "17007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

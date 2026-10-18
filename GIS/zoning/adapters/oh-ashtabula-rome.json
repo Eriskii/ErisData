@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "oh-ashtabula-rome",
+  "publisher": "Ashtabula County Planning / NEOSCC zoning survey (parcelmap.ashtabulacounty.us neoscc_zoning_map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://parcelmap.ashtabulacounty.us/arcgis/rest/services/neoscc_zoning_map/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39007"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CTV",
+    "zone": "Zoning",
+    "zone_name": "NEOSCC_Zoning"
+  },
+  "filter": "CTV = 'Rome Township'",
+  "notes": "Rome Township only. Parcel-level layer (about 1,245 parcels for Rome), a county-hosted NEOSCC zoning survey; zone holds the zoning name (Zoning), zone_name the NEOSCC category (NEOSCC_Zoning); Zoning_Code is blank for Rome. Dissolve by zone for district boundaries. Last resort: no district-polygon layer found. Same service also holds other townships; filter by CTV.",
+  "extent": [
+    -80.90450470414484,
+    41.57137953651172,
+    -80.8097002291653,
+    41.64299054199067
+  ],
+  "verification": {
+    "verified_at": 1792275928521,
+    "counties": [
+      "39007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

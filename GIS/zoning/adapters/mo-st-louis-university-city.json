@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mo-st-louis-university-city",
+  "publisher": "City of University City, MO (city staff GIS, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/WDEr9Y4mYuchWtm7/arcgis/rest/services/University_City_Zoning_Districts/FeatureServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29189"
+    ]
+  },
+  "fields": {
+    "zone": "ZON_ABBR_1",
+    "zone_name": "ZON_ABBR"
+  },
+  "notes": "Parcel-level layer: each feature is a parcel carrying its zoning district (ZON_ABBR_1 code, ZON_ABBR description), no separate district polygons published; last resort. Native spatial reference 102696, so query must request outSR=4326.",
+  "extent": [
+    -90.36652315987104,
+    38.645977210133466,
+    -90.29743021066503,
+    38.683214485918995
+  ],
+  "verification": {
+    "verified_at": 1792279669614,
+    "counties": [
+      "29189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

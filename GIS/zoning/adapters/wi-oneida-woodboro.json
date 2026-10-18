@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-oneida-woodboro",
+  "publisher": "Oneida County GIS (Town of Woodboro zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.oneidacountywi.gov/arcgis/rest/services/Oneview/ZoningLandUse/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55085"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "filter": "MUNICIPALITY = 'WOODBORO'",
+  "notes": "Town of Woodboro zoning districts from the county Oneview ZoningLandUse service, Zoning Districts layer (county-wide layer holding 20 towns, filtered to one). Boundaries approximate per county disclaimer.",
+  "extent": [
+    -89.67278598972743,
+    45.55566031893811,
+    -89.54831680551031,
+    45.64511873634719
+  ],
+  "verification": {
+    "verified_at": 1792281599456,
+    "counties": [
+      "55085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

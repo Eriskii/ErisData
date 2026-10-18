@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-nwhills-salisbury",
+  "publisher": "Town of Salisbury (QDSGIS-hosted layer for the town)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/arcgis/rest/services/CT_Salisbury_Adv_Viewer_Layers/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09160"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "filter": "ZONING IS NOT NULL",
+  "notes": "Salisbury Zoning layer from the town GIS advanced viewer layers (QDSGIS consultant account); features with blank ZONING dropped. No zone name field.",
+  "extent": [
+    -73.4982209439833,
+    41.91786321130942,
+    -73.33906221917799,
+    42.05111702996108
+  ],
+  "verification": {
+    "verified_at": 1792277593641,
+    "counties": [
+      "09160"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

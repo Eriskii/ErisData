@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-carter-watauga",
+  "publisher": "Town of Watauga (copy hosted by markstevans, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/duOXQT76rrwCBokY/arcgis/rest/services/July_2017_WataugaTN_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47019"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "Unofficial copy: personal ArcGIS Online item by markstevans (July 2017 Watauga zoning); no official Watauga zoning layer found. 14 features. Zone_Curre holds district code. No ordinance link.",
+  "extent": [
+    -82.30266268895336,
+    36.357755807107225,
+    -82.27815643745994,
+    36.38196626151554
+  ],
+  "verification": {
+    "verified_at": 1792280417532,
+    "counties": [
+      "47019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "mi-chippewa-kinross",
+  "publisher": "Eastern Upper Peninsula Regional Planning and Development Commission (Chippewa County Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/r3fID69a2yHQdVc4/arcgis/rest/services/Chippewa_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26033"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Township",
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Class"
+  },
+  "filter": "Township = 'Kinross'",
+  "notes": "Kinross Charter Township, from the EUP regional commission county-wide zoning layer (Chippewa County Zoning, 7235 features); the Township attribute names each township. Zone_Class is the class, Zone_Code the district code.",
+  "extent": [
+    -84.9894186999971,
+    46.24420303475985,
+    -84.38390366826583,
+    46.33232262095746
+  ],
+  "verification": {
+    "verified_at": 1792275284563,
+    "counties": [
+      "26033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

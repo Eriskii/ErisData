@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "il-will-beecher",
+  "publisher": "South Suburban Mayors and Managers Association (SSMMA) regional zoning inventory, for Village of Beecher",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/kZsOWCED80XbRyJ0/arcgis/rest/services/SSMMA_Zoning_Inventory_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17197"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Typ",
+    "zone_name": "ZoningDesc"
+  },
+  "filter": "GeoMuni = 'Beecher' AND County = 'Will'",
+  "notes": "Parcel-level zoning inventory (one record per parcel, PID), not a district polygon layer: last resort because no Beecher district layer is published. Regional SSMMA inventory on SSMMA ArcGIS Online org. Not official: copy hosted by a municipal association.",
+  "extent": [
+    -87.63746830634278,
+    41.335014406687755,
+    -87.59697881731812,
+    41.36995873145194
+  ],
+  "verification": {
+    "verified_at": 1792279046320,
+    "counties": [
+      "17197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

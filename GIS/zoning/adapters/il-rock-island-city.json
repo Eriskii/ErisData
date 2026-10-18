@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-rock-island-city",
+  "publisher": "City of Rock Island (ArcGIS Online, douglakg)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/MnSL3OxrZYrc6w4v/arcgis/rest/services/Zoning_Online2/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17161"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDist",
+    "zone_name": "Label"
+  },
+  "notes": "City of Rock Island zoning, parcel-keyed polygons (RICO_PARCE); one row per parcel, so districts repeat. Source is the city account on ArcGIS Online; city-branded. Covers City of Rock Island only.",
+  "extent": [
+    -90.65381138877541,
+    41.41496850011726,
+    -90.53222511170368,
+    41.51328027072709
+  ],
+  "verification": {
+    "verified_at": 1792278167169,
+    "counties": [
+      "17161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

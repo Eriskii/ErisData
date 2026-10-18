@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "id-blaine-bellevue",
+  "publisher": "City of Bellevue, Idaho",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/bEDUeysO4ha7KRMZ/arcgis/rest/services/City_of_Bellevue__Idaho_Zoning_Map_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16013"
+    ]
+  },
+  "fields": {
+    "zone": "Abbr",
+    "zone_name": "layer"
+  },
+  "notes": "City of Bellevue official zoning districts (Zoning layer of the city zoning map service).",
+  "extent": [
+    -114.27264305686936,
+    43.45045294679653,
+    -114.2279390592027,
+    43.494980192241066
+  ],
+  "verification": {
+    "verified_at": 1792278005745,
+    "counties": [
+      "16013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

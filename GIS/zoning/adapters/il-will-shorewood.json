@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-will-shorewood",
+  "publisher": "Village of Shorewood Community Development (GIS, via ArcGIS Online Shorewood Zoning Map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/3d5f9d31193246b0bd265869e193758b/rest/services/Shorewood_Community_Development/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17197"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Village of Shorewood zoning districts (Shorewood Zoning MapServer layer behind the village interactive zoning map). zone = ZONING code; no description field.",
+  "extent": [
+    -88.24648468361504,
+    41.485320194166576,
+    -88.17878188695461,
+    41.54540444013906
+  ],
+  "verification": {
+    "verified_at": 1792278526152,
+    "counties": [
+      "17197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

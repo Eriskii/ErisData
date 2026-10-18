@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ks-douglas-eudora",
+  "publisher": "Douglas County GIS (City of Eudora zoning, EUD 2022)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.dgcoks.gov/server/rest/services/Zoning/MapServer/20",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20045"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Juris",
+    "zone": "Zoning"
+  },
+  "notes": "City of Eudora zoning districts hosted by Douglas County GIS. Zoning holds district class with description (e.g. C - Commercial, I - Industrial); no separate code or name field. Parcel IDs in Name.",
+  "extent": [
+    -95.12231014567135,
+    38.90881576575424,
+    -95.06999505385154,
+    38.95109352623432
+  ],
+  "verification": {
+    "verified_at": 1792278489787,
+    "counties": [
+      "20045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

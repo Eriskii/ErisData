@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ky-madison-unincorporated",
+  "publisher": "Madison County Fiscal Court (County Zoning Hub)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/vr7o7tw2Aw3SpBdd/arcgis/rest/services/County_Zoning_Hub/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21151"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "USE_NAME"
+  },
+  "notes": "Madison County KY county zoning layer from the County GeoHub (County_Zoning_Hub, layer Zoning). Covers county zoning; INCORP and BEREA_JUR fields flag incorporated areas, which may be present in rows; check report.",
+  "extent": [
+    -84.52564763151324,
+    37.51528649436029,
+    -84.0737686464345,
+    37.9175394059611
+  ],
+  "verification": {
+    "verified_at": 1792278986012,
+    "counties": [
+      "21151"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

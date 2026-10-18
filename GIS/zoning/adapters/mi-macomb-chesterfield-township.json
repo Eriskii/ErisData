@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-macomb-chesterfield-township",
+  "publisher": "Chesterfield Township (ClearZoning map, ArcGIS Online account 6352kjohnson)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/kzRWJJL3OQPL75j9/arcgis/rest/services/Zoning_view/FeatureServer/23",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26099"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "Parcel-level layer (one polygon per parcel, 17987 features) carrying each parcel zoning in ZoneCode/ZoningDesc; used as a last resort because no district-level layer was found. Hosted by the township on its ArcGIS Online organization, public-view copy of Zoning_2026.",
+  "extent": [
+    -82.8616748404744,
+    42.628738461576376,
+    -82.72897148246358,
+    42.72252042826054
+  ],
+  "verification": {
+    "verified_at": 1792275330148,
+    "counties": [
+      "26099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

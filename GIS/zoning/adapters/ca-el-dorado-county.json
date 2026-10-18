@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-el-dorado-county",
+  "publisher": "El Dorado County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/UHg8l1wC48WQyDSO/arcgis/rest/services/ZoningAll/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDES",
+    "zone_name": "ZONEDES"
+  },
+  "notes": "County of El Dorado unincorporated zoning districts (ZoningAll layer, 8521 features); fields checked in report",
+  "extent": [
+    -121.15137869107508,
+    38.491532603512965,
+    -119.8711591451706,
+    39.081337208632426
+  ],
+  "verification": {
+    "verified_at": 1792277254415,
+    "counties": [
+      "06017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-chino",
+  "publisher": "County of San Bernardino (combined incorporated and unincorporated zoning layer, City of Chino slice)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services/Combined_Zoning_Extra_Data/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION_NAME",
+    "zone": "ZONING_CODE"
+  },
+  "filter": "JURISDICTION_NAME = 'CITY OF CHINO'",
+  "notes": "County-hosted combined zoning layer (county org), filtered to City of Chino (1305 polygons). Zone names not populated in source, so only the zone code is mapped.",
+  "extent": [
+    -117.73548750990118,
+    33.92413025765989,
+    -117.59979900269478,
+    34.04838577299618
+  ],
+  "verification": {
+    "verified_at": 1792277938322,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

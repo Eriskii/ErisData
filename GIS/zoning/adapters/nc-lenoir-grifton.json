@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-lenoir-grifton",
+  "publisher": "Pitt County GIS (Town of Grifton zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pittcountync.gov/gis/rest/services/Permitting/PermitDisplayMap/MapServer/23",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37107"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "NAME"
+  },
+  "notes": "Town of Grifton zoning districts, served by Pitt County GIS; the town spans Pitt and Lenoir counties, so districts in the Lenoir part are the ones that matter here.",
+  "extent": [
+    -77.47243060051767,
+    35.34845327274379,
+    -77.39002651073501,
+    35.43616096509004
+  ],
+  "verification": {
+    "verified_at": 1792279889298,
+    "counties": [
+      "37107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

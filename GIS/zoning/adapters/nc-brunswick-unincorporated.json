@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nc-brunswick-unincorporated",
+  "publisher": "Brunswick County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geo.brunswickcountync.gov/arcgis/rest/services/Mapping/AllZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37019"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZCODE",
+    "zone": "ZCODE"
+  },
+  "filter": "ZCODE LIKE 'CO-%'",
+  "notes": "County unincorporated zoning districts (ZCODE prefix CO-) from the county AllZoning layer; the sibling nc-brunswick spec excludes these because one polygon fails the validity check. No zone_name or ordinance link published.",
+  "extent": [
+    -78.65133040412066,
+    33.847976940850664,
+    -77.92620827398207,
+    34.374524854036174
+  ],
+  "verification": {
+    "verified_at": 1792279720567,
+    "counties": [
+      "37019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

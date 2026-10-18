@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-broward-pembroke-pines",
+  "publisher": "City of Pembroke Pines Planning Department (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/OlJkQnf39yF1a7pM/arcgis/rest/services/Planning_and__Zoning_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "zone": "NEW_ZONING",
+    "zone_name": "New_ZON_DE"
+  },
+  "notes": "City of Pembroke Pines Planning web map (city GIS account) Zoning layer. City limits only.",
+  "extent": [
+    -80.44172443544365,
+    25.99212667963371,
+    -80.2131695250559,
+    26.060958597042593
+  ],
+  "verification": {
+    "verified_at": 1792277706267,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

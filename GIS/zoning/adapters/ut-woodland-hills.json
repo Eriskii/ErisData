@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-woodland-hills",
+  "publisher": "Utah County GIS (Woodland Hills City Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/63",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_WH_LABEL",
+    "zone_name": "ZONE_WH_DESC"
+  },
+  "notes": "Woodland Hills City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 63, 28 features). Single-jurisdiction layer, no filter needed.",
+  "extent": [
+    -111.67256424066936,
+    39.99530467677928,
+    -111.63946118869195,
+    40.031792314561535
+  ],
+  "verification": {
+    "verified_at": 1792280938413,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

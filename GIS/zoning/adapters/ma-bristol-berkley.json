@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-bristol-berkley",
+  "publisher": "Town of Berkley (base zoning hosted by SRPEDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/euKKjtGUuDiy24vy/arcgis/rest/services/Berkley_Base_Zoning_Dec_2017/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Berkley base zoning, December 2017, hosted by SRPEDD for the Town. ZONECODE holds the district code, ZONE_DESC the name. Overlay layers in separate services, excluded.",
+  "extent": [
+    -71.11860389664925,
+    41.783036313537245,
+    -71.00744344842829,
+    41.87291085957352
+  ],
+  "verification": {
+    "verified_at": 1792279445950,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

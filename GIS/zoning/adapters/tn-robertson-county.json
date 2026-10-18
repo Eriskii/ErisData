@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tn-robertson-county",
+  "publisher": "Robertson County Regional Planning Commission (via APSU GIS, RobertsonPlanningZoning service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://apnsgis4.apsu.edu/arcgis/rest/services/Robertson/RobertsonPlanningZoning/MapServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47147"
+    ]
+  },
+  "fields": {
+    "zone": "zoning_1",
+    "zone_name": "zone_id"
+  },
+  "notes": "Robertson County base zoning districts (layer RobertsonZoning, about 14,776 polygons, county zoning codes such as AG-2). Covers unincorporated county land; city-zoned areas may be included or cut away. Hosted by APSU GIS for the county.",
+  "extent": [
+    -87.15155177684822,
+    36.34699730637484,
+    -86.56965315639266,
+    36.65229527545009
+  ],
+  "verification": {
+    "verified_at": 1792280534635,
+    "counties": [
+      "47147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

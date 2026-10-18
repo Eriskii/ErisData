@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ga-dekalb-doraville",
+  "publisher": "City of Doraville GA",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HPK9d3vzjakSFUjJ/arcgis/rest/services/ZoningZones/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13089"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "ZONE_ID",
+    "zone_name": "ZDistNm"
+  },
+  "notes": "City of Doraville zoning district polygons (ZoningZones, updated 9/19/25) hosted in the city ArcGIS org. Covers City of Doraville only.",
+  "extent": [
+    -84.29080091576358,
+    33.88166821954516,
+    -84.23767995592213,
+    33.930354995061236
+  ],
+  "verification": {
+    "verified_at": 1792278001418,
+    "counties": [
+      "13089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

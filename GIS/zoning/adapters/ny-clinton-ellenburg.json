@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-clinton-ellenburg",
+  "publisher": "Town of Ellenburg (copy on ArcGIS Online by CutterL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/33FPYaVQYNa7sFJ5/arcgis/rest/services/Clinton_County_Zoning_WFL1/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36019"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Copy hosted on ArcGIS Online by CutterL (personal item), not an official town service; one layer of the Clinton County zoning compilation, covers Town of Ellenburg only.",
+  "extent": [
+    -74.00657229896757,
+    44.75691823099408,
+    -73.76493643392456,
+    44.964943675204616
+  ],
+  "verification": {
+    "verified_at": 1792279597273,
+    "counties": [
+      "36019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

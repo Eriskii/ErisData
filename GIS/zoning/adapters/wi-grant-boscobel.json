@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-grant-boscobel",
+  "publisher": "City of Boscobel (via SW Wisconsin Regional Planning Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/OwVO8oKCUjTngz5f/arcgis/rest/services/Boscobel_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55043"
+    ]
+  },
+  "fields": {
+    "link": "OrdinanceLink",
+    "zone": "Zoning"
+  },
+  "notes": "Layer named Boscobel_Future_Land_Use but carries a Zoning field per parcel (about 1,557 parcels); zone is parcel zoning designation. Check values.",
+  "extent": [
+    -90.72117257270884,
+    43.12247979169317,
+    -90.65629407549838,
+    43.17043533789019
+  ],
+  "verification": {
+    "verified_at": 1792281143561,
+    "counties": [
+      "55043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

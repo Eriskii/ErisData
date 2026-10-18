@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-hardin-sour-lake",
+  "publisher": "City of Sour Lake, TX (Planning & Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/1e3vcVfosbiFn7dv/arcgis/rest/services/Sour_lake_Zoning_Map_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48199"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Abbr",
+    "zone_name": "Zone"
+  },
+  "notes": "City of Sour Lake zoning districts, published by the city via its ArcGIS zoning map (bhansen@cityofsourlake.gov). Layer 0 of the zoning map service; other layers are city limits and parcels.",
+  "extent": [
+    -94.42434411436545,
+    30.116917297143463,
+    -94.38308879809269,
+    30.15527383851881
+  ],
+  "verification": {
+    "verified_at": 1792280588740,
+    "counties": [
+      "48199"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

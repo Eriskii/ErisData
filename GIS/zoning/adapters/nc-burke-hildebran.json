@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-burke-hildebran",
+  "publisher": "Town of Hildebran (via Burke County municipal zoning feature service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/axQ4OCSpcxALIQsV/arcgis/rest/services/Municipal_Zoning_FS/FeatureServer/74",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37023"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID"
+  },
+  "notes": "Town of Hildebran base zoning districts, from the Burke County municipal zoning feature service. Single-jurisdiction layer; the layer carries no district description (LAND_USE is blank).",
+  "extent": [
+    -81.4461738802107,
+    35.705857606541244,
+    -81.39988767048207,
+    35.73354750685375
+  ],
+  "verification": {
+    "verified_at": 1792279780220,
+    "counties": [
+      "37023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ms-rankin-pearl",
+  "publisher": "City of Pearl (via CMPDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Pearl_Viewer_Feature_Service/FeatureServer/38",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28121"
+    ]
+  },
+  "fields": {
+    "link": "Ord_PDF_Li",
+    "zone": "Zoning2026",
+    "zone_name": "Zoning2024"
+  },
+  "notes": "Adopted Pearl Zoning 2024 layer, parcel-based polygons (about 11,300 features), CMPDD-hosted (HTTP only). zone uses the 2026 zoning attribute; zoning2024 holds the 2024 code. zone_name is not a district name, so it is set to the older code field; verify.",
+  "extent": [
+    -90.16764954399429,
+    32.23544878898473,
+    -90.0377865053032,
+    32.327712322771426
+  ],
+  "verification": {
+    "verified_at": 1792279244981,
+    "counties": [
+      "28121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

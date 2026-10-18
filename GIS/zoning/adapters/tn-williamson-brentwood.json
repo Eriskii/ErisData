@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-williamson-brentwood",
+  "publisher": "City of Brentwood, TN GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.brentwoodtn.gov/arcgis/rest/services/Datasets/AdministrativeAreas/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47187"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Brentwood zoning districts (city GIS server, Datasets/AdministrativeAreas MapServer layer 9). Zone code in Zoning field; no zone name or ordinance link published in the layer.",
+  "extent": [
+    -86.87720940804596,
+    35.93160324295117,
+    -86.68588636870838,
+    36.0473453650372
+  ],
+  "verification": {
+    "verified_at": 1792280531593,
+    "counties": [
+      "47187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ia-johnson-oxford",
+  "publisher": "Johnson County GIS (Oxford layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.johnsoncountyiowa.gov/arcgis/rest/services/Zoning_City/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZONING_DISTRICT_LABEL",
+    "zone_name": "ZONING_DISTRICT_FULLNAME"
+  },
+  "notes": "City of Oxford zoning districts from Johnson County Zoning_City service; OVERLAY field marks overlay districts",
+  "extent": [
+    -91.79927448609172,
+    41.71254018535816,
+    -91.77873400106826,
+    41.73649962140291
+  ],
+  "verification": {
+    "verified_at": 1792278396453,
+    "counties": [
+      "19103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

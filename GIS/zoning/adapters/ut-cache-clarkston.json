@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-cache-clarkston",
+  "publisher": "Cache County GIS (Clarkston City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/City_Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city_name",
+    "zone": "zone_code",
+    "zone_name": "zone_type"
+  },
+  "filter": "city_name = 'CLARKSTON'",
+  "notes": "Clarkston city zoning from Cache County City_Zoning service (layer per city; every layer returns the same 19-city table, filtered on city_name). Covers Clarkston only.",
+  "extent": [
+    -112.05936894709292,
+    41.91190046265023,
+    -112.03700775183698,
+    41.929068728131064
+  ],
+  "verification": {
+    "verified_at": 1792280874420,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

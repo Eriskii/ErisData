@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-tarrant-burleson",
+  "publisher": "City of Burleson GIS (Open GIS Data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.burlesontx.com/server/rest/services/Open_GIS_Data/OpenData/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48439"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CLASS"
+  },
+  "notes": "City of Burleson zoning districts (city open data). Burleson lies mostly in Johnson County; only its Tarrant County part is covered. SOURCE field notes the map year (some polygons from a 1997 map).",
+  "extent": [
+    -97.43227752686875,
+    32.43268211054666,
+    -97.2470913950562,
+    32.57284241258281
+  ],
+  "verification": {
+    "verified_at": 1792281162065,
+    "counties": [
+      "48439"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

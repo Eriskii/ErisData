@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-redington-shores",
+  "publisher": "Pinellas County GIS (for the Town of Redington Shores)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_Redington_Shores_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONING"
+  },
+  "notes": "Town of Redington Shores zoning hosted by Pinellas County GIS; JURISDICTION names the town.",
+  "extent": [
+    -82.83738813455587,
+    27.82234630748113,
+    -82.81897479068165,
+    27.836843259353316
+  ],
+  "verification": {
+    "verified_at": 1792277913324,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

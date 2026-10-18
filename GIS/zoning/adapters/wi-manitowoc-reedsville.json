@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-manitowoc-reedsville",
+  "publisher": "Village of Reedsville (via CedarCorp)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/hxi0xsSkg0fqj2cp/arcgis/rest/services/ReedsvilleZoning/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55071"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Reedsville zoning districts (Reedsville Zoning layer, CedarCorp-hosted for the village). Layer is the village only; ParcelNumb/Split are parcel attributes, not used.",
+  "extent": [
+    -87.96432287731318,
+    44.14501914359015,
+    -87.93353102454932,
+    44.16073286471894
+  ],
+  "verification": {
+    "verified_at": 1792281188114,
+    "counties": [
+      "55071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

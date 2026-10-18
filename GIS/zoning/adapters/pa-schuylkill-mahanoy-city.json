@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-mahanoy-city",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Mahanoy City Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/26_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "descrpt"
+  },
+  "notes": "Municipal zoning for Mahanoy City Borough (MUNIS 26), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.22386969389858,
+    40.76864490127599,
+    -76.02005396120215,
+    40.82834903956377
+  ],
+  "verification": {
+    "verified_at": 1792280234996,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

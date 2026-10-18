@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-marion-aurora",
+  "publisher": "Oregon DLCD (statewide zoning, Aurora records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Aurora'",
+  "notes": "Statewide DLCD zoning layer filtered to the City of Aurora (ownerName Aurora); standardized state zone codes. State copy, not the city own layer.",
+  "extent": [
+    -122.76728265654074,
+    45.216201542950216,
+    -122.7488439609864,
+    45.23788067982229
+  ],
+  "verification": {
+    "verified_at": 1792280291508,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

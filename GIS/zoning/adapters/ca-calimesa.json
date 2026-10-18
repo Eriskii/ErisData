@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-calimesa",
+  "publisher": "City of Calimesa (zoning compiled by SCAG, Zoning_poly_RV)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.scag.ca.gov/scaggis/rest/services/LDX/Zoning_poly_RV/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZN24_CITY"
+  },
+  "filter": "CITY = 'Calimesa'",
+  "notes": "SCAG regional compiled city zoning (YEAR_ZN 2024), parcel-level polygons. Zone codes are the city codes in ZN24_CITY (e.g. R-E, D-V-S). No name or ordinance link field.",
+  "extent": [
+    -117.12986009479177,
+    33.95368026462204,
+    -116.98933036165027,
+    34.00478114083181
+  ],
+  "verification": {
+    "verified_at": 1792278172038,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

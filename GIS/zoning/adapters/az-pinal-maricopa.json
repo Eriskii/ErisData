@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-pinal-maricopa",
+  "publisher": "City of Maricopa GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/MlfUGd2UJYefAS7v/arcgis/rest/services/Zoning_View/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04021"
+    ]
+  },
+  "fields": {
+    "zone": "Abbreviation",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Maricopa Zoning_View layer on the city ArcGIS Online organization (linked from the city Zoning web app); 207 features; city limits only.",
+  "extent": [
+    -112.1348193914832,
+    32.95405125579817,
+    -111.911992613326,
+    33.08801042779207
+  ],
+  "verification": {
+    "verified_at": 1792277414060,
+    "counties": [
+      "04021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

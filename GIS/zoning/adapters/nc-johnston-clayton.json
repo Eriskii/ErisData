@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-johnston-clayton",
+  "publisher": "Town of Clayton Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cw2.townofclaytonnc.org/gis/rest/services/Planning/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37101"
+    ]
+  },
+  "fields": {
+    "zone": "Abreviation",
+    "zone_name": "Zoning"
+  },
+  "notes": "Town of Clayton zoning districts, town-published layer on the town GIS server. Zone code from the Abreviation field. Clayton town zoning only.",
+  "extent": [
+    -78.54441897665441,
+    35.592130955366805,
+    -78.3656677863032,
+    35.72021987731524
+  ],
+  "verification": {
+    "verified_at": 1792279931870,
+    "counties": [
+      "37101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

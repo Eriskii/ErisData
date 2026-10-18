@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ar-benton-pea-ridge",
+  "publisher": "City of Pea Ridge GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/2ici6pJwbjpfPsbB/arcgis/rest/services/Zoning_Pea_Ridge/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05007"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "zone_",
+    "zone_name": "Descript"
+  },
+  "notes": "City of Pea Ridge official zoning layer, updated after ordinance adoption. zone_ holds district code; Ordinance holds ordinance reference.",
+  "extent": [
+    -94.16303567368364,
+    36.40885997778708,
+    -94.07654566577276,
+    36.4993098880158
+  ],
+  "verification": {
+    "verified_at": 1792277343368,
+    "counties": [
+      "05007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

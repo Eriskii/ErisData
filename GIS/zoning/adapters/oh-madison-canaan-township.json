@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-madison-canaan-township",
+  "publisher": "Canaan Township, Madison County, Ohio (zoning layer published on ArcGIS Online by poswalt)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Wz3RgwtkgJCGuhMd/arcgis/rest/services/CanaanZoning/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39097"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Copy hosted on an individual ArcGIS Online account (poswalt), titled Zoning for Canaan Township, Madison County, Ohio; not on an official county or township host. 97 polygons, single township, no jurisdiction field. Used because no official queryable layer was found.",
+  "extent": [
+    -83.38363229068338,
+    40.003936525665864,
+    -83.20905502745728,
+    40.08502139113042
+  ],
+  "verification": {
+    "verified_at": 1792275908953,
+    "counties": [
+      "39097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

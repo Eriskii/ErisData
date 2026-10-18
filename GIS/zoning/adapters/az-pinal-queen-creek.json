@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-pinal-queen-creek",
+  "publisher": "Town of Queen Creek",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/t16ZiY9Utsg4bsyA/arcgis/rest/services/Queen_Creek_Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Queen Creek own zoning districts layer; the town lies mostly in Maricopa County, only its Pinal County portion belongs to this county.",
+  "extent": [
+    -111.7033182540004,
+    33.14669573976187,
+    -111.5114609030436,
+    33.30050506887133
+  ],
+  "verification": {
+    "verified_at": 1792277292080,
+    "counties": [
+      "04021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

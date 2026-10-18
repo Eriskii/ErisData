@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-douglas-villa-rica",
+  "publisher": "City of Villa Rica",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/dW3WG2w9z33TTLpl/arcgis/rest/services/Map/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13097"
+    ]
+  },
+  "fields": {
+    "zone": "Proposed_Z",
+    "zone_name": "Proposed_Z"
+  },
+  "notes": "City of Villa Rica interactive map layer Zoning Districts (city of Villa Rica; spans Carroll and Douglas counties).",
+  "extent": [
+    -84.9725063061999,
+    33.675285733253276,
+    -84.86207051465713,
+    33.76021976743387
+  ],
+  "verification": {
+    "verified_at": 1792278055557,
+    "counties": [
+      "13097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

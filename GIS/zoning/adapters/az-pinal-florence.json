@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-pinal-florence",
+  "publisher": "Town of Florence",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/46wD0ZNLGkFjYDrl/arcgis/rest/services/Zoning09152025/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_COD",
+    "zone_name": "ZONING_DES"
+  },
+  "notes": "Town of Florence zoning districts layer on the Town ArcGIS Online account (victor.cantu_TOF), Sept 2025 version.",
+  "extent": [
+    -111.5164631999084,
+    32.980166529528695,
+    -111.30134713244423,
+    33.162308059925856
+  ],
+  "verification": {
+    "verified_at": 1792277577705,
+    "counties": [
+      "04021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

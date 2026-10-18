@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ut-davis-kaysville",
+  "publisher": "Kaysville City GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://webmaps.kaysvillecity.com/arcgis/rest/services/Base/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49011"
+    ]
+  },
+  "fields": {
+    "zone": "NAME1_"
+  },
+  "notes": "Kaysville City base zoning layer (layer 1 of Base/Zoning MapServer; the MU overlay is layer 0 and is excluded). City limits only. zone_name not published (NAME2_ blank).",
+  "extent": [
+    -111.9947030512343,
+    40.99441305899979,
+    -111.89887891408478,
+    41.06014659180989
+  ],
+  "verification": {
+    "verified_at": 1792280918881,
+    "counties": [
+      "49011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

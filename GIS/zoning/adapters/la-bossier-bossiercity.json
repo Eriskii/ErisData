@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "la-bossier-bossiercity",
+  "publisher": "City of Bossier City (MPC map service, Bossier City Engineering)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/jh7pbmmfSzUSNziy/arcgis/rest/services/MPC/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE1"
+  },
+  "notes": "Bossier City zoning from the MPC map service Zoning layer (40,777 features); ZONE1 holds code and description, e.g. R-A (Residential Agricultural). Jurisdiction field absent: assumed to be Bossier City only, verify against city limits.",
+  "extent": [
+    -93.76460008085832,
+    32.390654240961055,
+    -93.53059240608432,
+    32.631953647414186
+  ],
+  "verification": {
+    "verified_at": 1792278705024,
+    "counties": [
+      "22015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

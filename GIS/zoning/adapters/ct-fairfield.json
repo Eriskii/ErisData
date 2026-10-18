@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-fairfield",
+  "publisher": "Town of Fairfield GIS (served via MetroCOG maps server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.ctmetro.org/server/rest/services/Fairfield/Fairfield_Landuse/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09120"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Town of Fairfield zoning districts from the Fairfield_Landuse service (layer Zoning Districts). Zone holds district code; no description field.",
+  "extent": [
+    -73.33869548880104,
+    41.117219580738464,
+    -73.2173087573797,
+    41.232257076597506
+  ],
+  "verification": {
+    "verified_at": 1792277577376,
+    "counties": [
+      "09120"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

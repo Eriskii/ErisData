@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-sunnyvale",
+  "publisher": "City of Sunnyvale GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/IBwZaktrBtZuqQmg/arcgis/rest/services/Zoning/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06085"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Sunnyvale zoning districts (layer 4 Zoning District). Sunnyvale only; Zoning holds the district code.",
+  "extent": [
+    -122.0652125759544,
+    37.3329274788428,
+    -121.98248878550471,
+    37.449201742328256
+  ],
+  "verification": {
+    "verified_at": 1792277562142,
+    "counties": [
+      "06085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

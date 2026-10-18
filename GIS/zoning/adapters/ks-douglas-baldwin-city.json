@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ks-douglas-baldwin-city",
+  "publisher": "Douglas County GIS (Baldwin City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.dgcoks.gov/server/rest/services/Zoning/MapServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20045"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Layer 14 (Zoning) of the Douglas County GIS Zoning service, which is titled Baldwin and Eudora; this layer has no jurisdiction field and is taken to be the City of Baldwin City (it lies in Baldwin City at -95.17,38.75). 75 districts. Zone holds district codes such as R-LD, CP-4, R-2, RP-3. No name field.",
+  "extent": [
+    -95.21531703416126,
+    38.75284119389038,
+    -95.1562220629613,
+    38.80220968580876
+  ],
+  "verification": {
+    "verified_at": 1792278499211,
+    "counties": [
+      "20045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

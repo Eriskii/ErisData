@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "or-cave-junction",
+  "publisher": "Oregon DLCD (statewide zoning, City of Cave Junction jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41033"
+    ]
+  },
+  "fields": {
+    "link": "codeRef",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Cave Junction'",
+  "notes": "Statewide DLCD zoning compiled from local jurisdictions; filtered to City of Cave Junction (ownerName). zone is the state-standard code (orZCode); localZCode/localZDesc hold local codes, empty for this city.",
+  "extent": [
+    -123.66947141328328,
+    42.151114919559475,
+    -123.6259603087545,
+    42.18391799320046
+  ],
+  "verification": {
+    "verified_at": 1792280028256,
+    "counties": [
+      "41033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-clinton-peru",
+  "publisher": "Town of Peru (copy on ArcGIS Online by CutterL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/33FPYaVQYNa7sFJ5/arcgis/rest/services/Peru_Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36019"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Copy hosted on ArcGIS Online by CutterL (personal item), not an official town service; covers Town of Peru only.",
+  "extent": [
+    -73.73119301717941,
+    44.523558703404646,
+    -73.40192024938827,
+    44.631632281706054
+  ],
+  "verification": {
+    "verified_at": 1792279585765,
+    "counties": [
+      "36019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-union-indian-trail",
+  "publisher": "Town of Indian Trail GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/7YUdLQ8pDBKU1XYI/arcgis/rest/services/Indian_Trail_Zonings/FeatureServer/45",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37179"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Indian Trail official zoning map layer (as of 2026); town limits. Municipal districts only; ZONING holds district code.",
+  "extent": [
+    -80.7270131209264,
+    35.016691491015706,
+    -80.57520341549655,
+    35.13267657488951
+  ],
+  "verification": {
+    "verified_at": 1792279927855,
+    "counties": [
+      "37179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

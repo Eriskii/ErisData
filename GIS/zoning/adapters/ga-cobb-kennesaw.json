@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-cobb-kennesaw",
+  "publisher": "City of Kennesaw GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/XwGh5SYpBlXQGJEB/arcgis/rest/services/ZoningOverlays/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13067"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_1"
+  },
+  "notes": "City of Kennesaw base zoning polygons (ZoningOverlays Zoning_Poly, 249 features). No district name field populated; zone holds the district code.",
+  "extent": [
+    -84.64731068074973,
+    33.98696313509853,
+    -84.58112515431061,
+    34.06690096429863
+  ],
+  "verification": {
+    "verified_at": 1792277806434,
+    "counties": [
+      "13067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

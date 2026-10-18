@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ct-newlondon-preston",
+  "publisher": "Southeastern CT Council of Governments (SCCOG) - Town of Preston zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/c8bwOPjaFB6olbad/arcgis/rest/services/Preston_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09180"
+    ]
+  },
+  "fields": {
+    "link": "FileLink",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Preston zoning, hosted by SCCOG (sccogMaps) regional GIS; single-town layer (TownName field).",
+  "extent": [
+    -72.0778237056473,
+    41.46565473949603,
+    -71.90260417166449,
+    41.569278503083815
+  ],
+  "verification": {
+    "verified_at": 1792277983225,
+    "counties": [
+      "09180"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

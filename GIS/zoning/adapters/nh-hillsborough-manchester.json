@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nh-hillsborough-manchester",
+  "publisher": "City of Manchester, NH (city GIS, MapGeo ArcGIS Server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ags.manchesternh.gov/agsgis7/rest/services/MapGeoWMS/Zoning_030126/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONENAME",
+    "zone_name": "Full_Name"
+  },
+  "notes": "City of Manchester NH zoning districts effective March 1, 2026, from the city GIS MapGeo service. Overlay districts flagged in OVERLAY field, which is not mapped.",
+  "extent": [
+    -71.51327383634974,
+    42.89014471472711,
+    -71.37490915494014,
+    43.05188258426927
+  ],
+  "verification": {
+    "verified_at": 1792279626401,
+    "counties": [
+      "33011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

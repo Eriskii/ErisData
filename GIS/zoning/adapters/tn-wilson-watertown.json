@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-wilson-watertown",
+  "publisher": "City of Watertown, TN (layer hosted on Wilson County GIS ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/0lW6bjFI0RIjy5uB/arcgis/rest/services/Watertown/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47189"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Watertown zoning polygons (Zoning layer of the Watertown and City Limits service). Zone code in ZONING (R-1, I-1, B-2, POS, etc.). Layer also carries parcel attributes; zone code is the district. Watertown city limits only.",
+  "extent": [
+    -86.16511597459056,
+    36.09266653337436,
+    -86.12101981401746,
+    36.11101285214946
+  ],
+  "verification": {
+    "verified_at": 1792280523940,
+    "counties": [
+      "47189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-plymouth-marshfield",
+  "publisher": "Town of Marshfield (zoning layer published via GPI, provided by the Town)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/lKZdAVbtfKOm7YR7/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25023"
+    ]
+  },
+  "fields": {
+    "zone": "Layer"
+  },
+  "notes": "Marshfield zoning, 33 features, a CAD-derived layer published 2019 (GPI, provided by Town of Marshfield). The zone code is the CAD layer name in Layer; zone names are not published. Polylines converted from a zoning-map DWG, so coverage is rough.",
+  "extent": [
+    -70.78860017675166,
+    42.057156911683926,
+    -70.63755011047762,
+    42.16493940756583
+  ],
+  "verification": {
+    "verified_at": 1792278952954,
+    "counties": [
+      "25023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-barnstable-orleans",
+  "publisher": "Cape Cod Commission (for Town of Orleans)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-services.capecodcommission.org/arcgis/rest/services/ePermit/epermit_Orleans/MapServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Town of Orleans zoning districts (2024), served by the Cape Cod Commission ePermit service; town-only layer",
+  "extent": [
+    -70.02417095601274,
+    41.72251909821555,
+    -69.92596587912976,
+    41.81528642998806
+  ],
+  "verification": {
+    "verified_at": 1792279081546,
+    "counties": [
+      "25001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

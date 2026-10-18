@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sc-horry-aynor",
+  "publisher": "Town of Aynor, SC (via WRCOG)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/GE9ucOFrMIud01KI/arcgis/rest/services/Aynor_Zoning_Districts_view/FeatureServer/37",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45051"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode"
+  },
+  "notes": "Town of Aynor zoning districts (Aynor_Zoning_2025_Rev_2025_10), per Ord. 24-02 revision; the view layer, not the overlays layer (layer 0).",
+  "extent": [
+    -79.22947579656415,
+    33.983402652565246,
+    -79.18949406195783,
+    34.01744038260267
+  ],
+  "verification": {
+    "verified_at": 1792280361632,
+    "counties": [
+      "45051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

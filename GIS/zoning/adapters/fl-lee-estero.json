@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-lee-estero",
+  "publisher": "Lee County GIS (Department of Community Development), Village of Estero zoning copy",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismapserver.leegov.com/gisserver910/rest/services/Layers/DCD_Zoning/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12071"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "GeneralZoning"
+  },
+  "notes": "Village of Estero zoning districts as hosted in Lee County DCD_Zoning service (sublayer 5). Publisher describes municipal zoning layers in this service as historic; last verify dates in VERIFYDATE. Village own map page unreachable this pass.",
+  "extent": [
+    -81.86354562487496,
+    26.38932373191788,
+    -81.7238074929369,
+    26.46387378603052
+  ],
+  "verification": {
+    "verified_at": 1792277913051,
+    "counties": [
+      "12071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

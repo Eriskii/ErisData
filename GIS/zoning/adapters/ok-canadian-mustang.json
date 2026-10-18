@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ok-canadian-mustang",
+  "publisher": "City of Mustang, OK GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/gbzZfTaSTnfRdQPt/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "City of Mustang zoning districts from the city ArcGIS service; covers Mustang city limits. 225 features. ZONE_CLASS and Comments also present.",
+  "extent": [
+    -97.77761532628325,
+    35.37720336853644,
+    -97.67147835777011,
+    35.406295106142174
+  ],
+  "verification": {
+    "verified_at": 1792280026300,
+    "counties": [
+      "40017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

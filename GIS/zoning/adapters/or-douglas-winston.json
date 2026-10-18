@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-douglas-winston",
+  "publisher": "Oregon DLCD (statewide zoning compilation, City of Winston jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41019"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Winston'",
+  "notes": "State DLCD compilation; ownerName = Winston city. Zone codes are state-standard orZCode values.",
+  "extent": [
+    -123.45511425866503,
+    43.10339837686347,
+    -123.39359059509816,
+    43.14716716501768
+  ],
+  "verification": {
+    "verified_at": 1792280081744,
+    "counties": [
+      "41019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

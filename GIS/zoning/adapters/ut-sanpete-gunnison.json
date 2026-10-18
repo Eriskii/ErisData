@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-sanpete-gunnison",
+  "publisher": "Utah AGRC (state) generalized zoning, Gunnison",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49039"
+    ]
+  },
+  "fields": {
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county LIKE '%Sanpete%' AND city LIKE 'Gunnison%'",
+  "notes": "Utah AGRC statewide generalized zoning layer; Gunnison city features only. gen_zone holds the generalized category; source_zone is the city code.",
+  "extent": [
+    -111.83566526205831,
+    39.13786710708122,
+    -111.78857477856349,
+    39.17157541682039
+  ],
+  "verification": {
+    "verified_at": 1792280854144,
+    "counties": [
+      "49039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

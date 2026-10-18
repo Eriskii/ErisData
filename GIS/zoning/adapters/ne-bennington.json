@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ne-bennington",
+  "publisher": "City of Bennington, Nebraska (via Douglas County GIS / DCGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://dcgis.org/server/rest/services/Hosted/Bennington_Zoning_and_Future_Land_Use_view/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31055"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zonecode",
+    "zone_name": "zonename"
+  },
+  "notes": "City of Bennington base zoning districts, layer Bennington Zoning (58 features). The overlay field marks overlay districts (AO, CMD, DDO, HO) with overlay=YES; they are not base zones. Layer 0 in the same service is future land use and is not used.",
+  "extent": [
+    -96.21608710724708,
+    41.339250185318186,
+    -96.11991003417836,
+    41.39315145345633
+  ],
+  "verification": {
+    "verified_at": 1792279472826,
+    "counties": [
+      "31055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

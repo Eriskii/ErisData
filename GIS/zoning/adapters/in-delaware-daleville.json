@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "in-delaware-daleville",
+  "publisher": "Town of Daleville (layer in ArcGIS Online account kyleajohnson, used by the town zoning web map)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/VyRjdyMziYNF5Bwe/arcgis/rest/services/DalevilleZoningWeb/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18035"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Daleville town zoning districts, from the ArcGIS web map embedded on the town zoning map page (dalevilleindiana.org); the item is in a personal ArcGIS Online account, so official=false. No jurisdiction or description field; all features are Daleville. Source EPSG:2965.",
+  "extent": [
+    -85.5760752206547,
+    40.103609991935755,
+    -85.5304854126007,
+    40.136492546402174
+  ],
+  "verification": {
+    "verified_at": 1792278246553,
+    "counties": [
+      "18035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

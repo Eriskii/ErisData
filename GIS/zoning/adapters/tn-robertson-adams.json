@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tn-robertson-adams",
+  "publisher": "Robertson County Regional Planning Commission (via APSU GIS, RobertsonPlanningZoning service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://apnsgis4.apsu.edu/arcgis/rest/services/Robertson/RobertsonPlanningZoning/MapServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47147"
+    ]
+  },
+  "fields": {
+    "link": "comments",
+    "zone": "zoning_1",
+    "zone_name": "zone_id"
+  },
+  "notes": "City of Adams zoning districts, 50 polygons, from the RobertsonPlanningZoning service (layer AdamsZoning). zoning holds the ordinance code (RA) and zoning_1 the standard code (R-40). comments is a processing note, not an ordinance link.",
+  "extent": [
+    -87.08968002377269,
+    36.565981580663184,
+    -87.03524195945076,
+    36.602393305521176
+  ],
+  "verification": {
+    "verified_at": 1792280496456,
+    "counties": [
+      "47147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

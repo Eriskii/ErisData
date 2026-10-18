@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-turner-districts",
+  "publisher": "Turner County GA / South Georgia Regional Commission (zoning for county and cities)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HA2thkMWRBDb77XN/arcgis/rest/services/TurnerZoning/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13287"
+    ]
+  },
+  "fields": {
+    "zone": "ZOTXT"
+  },
+  "notes": "Base zoning districts for Turner County and the cities of Ashburn, Rebecca and Sycamore per service description; layer has no jurisdiction field, so city and county polygons are not separable by attribute. Zone codes include CBD, DC, R1A, etc. Layer named Zoning, Ashburn but service description says all of Turner County and its cities. No zone_name field.",
+  "extent": [
+    -83.8033833690051,
+    31.564570797893296,
+    -83.45219500010577,
+    31.854766079134713
+  ],
+  "verification": {
+    "verified_at": 1792277967767,
+    "counties": [
+      "13287"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

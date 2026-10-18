@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-sanbruno",
+  "publisher": "City of San Bruno (zoning layer hosted in city ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/iLsFVn6d1pmqKEfA/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06081"
+    ]
+  },
+  "fields": {
+    "link": "DocumentURL",
+    "zone": "Zoning"
+  },
+  "notes": "City of San Bruno zoning districts (Zoning + Bayhill overlay layer; overlay is a separate layer 0, not used). Item owned by patrickk_SanBruno ArcGIS Online account.",
+  "extent": [
+    -122.47296744749644,
+    37.6046976517543,
+    -122.4002743170135,
+    37.64226637738786
+  ],
+  "verification": {
+    "verified_at": 1792277388287,
+    "counties": [
+      "06081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

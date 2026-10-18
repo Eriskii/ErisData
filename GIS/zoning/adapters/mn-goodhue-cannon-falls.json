@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-goodhue-cannon-falls",
+  "publisher": "City of Cannon Falls (hosted by Goodhue County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://publicmaps.co.goodhue.mn.us/arcgis/rest/services/GCUGGIS/CannonFallsZoing/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27049"
+    ]
+  },
+  "fields": {
+    "zone": "DIST",
+    "zone_name": "TYPE"
+  },
+  "notes": "City of Cannon Falls zoning districts; DIST holds district code, TYPE its description. Single-city layer.",
+  "extent": [
+    -92.9359286315995,
+    44.479023221158336,
+    -92.87596564135492,
+    44.54329792480397
+  ],
+  "verification": {
+    "verified_at": 1792278950799,
+    "counties": [
+      "27049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

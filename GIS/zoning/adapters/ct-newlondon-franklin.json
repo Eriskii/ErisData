@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ct-newlondon-franklin",
+  "publisher": "Southeastern CT Council of Governments (SCCOG) - Town of Franklin zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/c8bwOPjaFB6olbad/arcgis/rest/services/Franklin_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09180"
+    ]
+  },
+  "fields": {
+    "link": "FileLink",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Franklin zoning, hosted by SCCOG (sccogMaps) regional GIS; single-town layer (TownName field).",
+  "extent": [
+    -72.19416408690229,
+    41.56309904175825,
+    -72.10386833430432,
+    41.66588563296948
+  ],
+  "verification": {
+    "verified_at": 1792277989678,
+    "counties": [
+      "09180"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

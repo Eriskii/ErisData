@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wa-toppenish",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), City of Toppenish",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53077"
+    ]
+  },
+  "fields": {
+    "link": "ReferenceURL",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '077' AND Jurisdiction = 'Toppenish'",
+  "notes": "Washington State Zoning Atlas (Commerce) statewide layer, filtered to City of Toppenish.",
+  "extent": [
+    -120.33594527877712,
+    46.36411072326469,
+    -120.28158609261688,
+    46.40041401880944
+  ],
+  "verification": {
+    "verified_at": 1792281141180,
+    "counties": [
+      "53077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

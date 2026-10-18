@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wa-clallam-unincorporated",
+  "publisher": "Clallam County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/noCZ2SM2C0rVag8y/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53009"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "ZONECODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "filter": "City = ' ' AND Tribe = ' '",
+  "notes": "Clallam County Zoning layer (CCC Title 33), county-published; filtered to unincorporated county land, where City and Tribe are blank. Holds the county zoning districts for unincorporated land.",
+  "extent": [
+    -124.7799654943461,
+    47.81972559282934,
+    -122.9058134957364,
+    48.43064531598832
+  ],
+  "verification": {
+    "verified_at": 1792281096780,
+    "counties": [
+      "53009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-kings-avenal",
+  "publisher": "City of Avenal (copy hosted by anabelreynoso on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/1VYuxkCc7AKRMcHI/arcgis/rest/services/Avenal_Shapefiles/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06031"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Rev",
+    "zone_name": "Zoning"
+  },
+  "notes": "Personal ArcGIS Online upload (Avenal_Shapefiles, owner anabelreynoso), not the city own host; used because no official queryable Avenal zoning layer was found. Zoning_2018_0322 layer, dated 2018. Covers Avenal city zoning; GP1 holds general plan land use.",
+  "extent": [
+    -120.16670175614144,
+    35.96403914762302,
+    -120.05725035683814,
+    36.102129737027695
+  ],
+  "verification": {
+    "verified_at": 1792277322574,
+    "counties": [
+      "06031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

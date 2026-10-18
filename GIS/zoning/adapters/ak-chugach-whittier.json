@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ak-chugach-whittier",
+  "publisher": "City of Whittier GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/bJ7zMMbMv45WoBgc/arcgis/rest/services/Zoning_(Polygon)/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02063"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Whittier GIS zoning polygons (121 features, layer 6 of the Zoning (Polygon) service). The Zoning field holds the district name (e.g. Single Family Residential); no separate code field. Class field is empty.",
+  "extent": [
+    -148.73868218233423,
+    60.77054195838208,
+    -148.6583203783388,
+    60.784878301103475
+  ],
+  "verification": {
+    "verified_at": 1792277200494,
+    "counties": [
+      "02063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

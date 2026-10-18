@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-emerald-isle",
+  "publisher": "Town of Emerald Isle (via Carteret County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgisweb.carteretcountync.gov/arcgis/rest/services/Layers/Emerald_Isle_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37031"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Town of Emerald Isle zoning districts, hosted on the Carteret County ArcGIS server; single-jurisdiction layer, 8 features. No zone name field.",
+  "extent": [
+    -77.09946592743351,
+    34.64340053118019,
+    -76.90950137803391,
+    34.68454379987392
+  ],
+  "verification": {
+    "verified_at": 1792279755231,
+    "counties": [
+      "37031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

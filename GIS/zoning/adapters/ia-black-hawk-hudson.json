@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ia-black-hawk-hudson",
+  "publisher": "City of Hudson (digitized in Iowa State University GIS Facility statewide zoning compilation)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19013"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Hudson'",
+  "notes": "Copy: Iowa State University GIS Facility statewide compilation; Hudson polygons were digitized by hand from the city ordinance (source field: Digitized by bu), not published by the city as a GIS layer. Official zoning map is kept at Hudson City Hall (Ordinance 887). Filtered to city = Hudson.",
+  "extent": [
+    -92.47589820921128,
+    42.395580027518605,
+    -92.41709018868092,
+    42.46467997873258
+  ],
+  "verification": {
+    "verified_at": 1792278388057,
+    "counties": [
+      "19013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

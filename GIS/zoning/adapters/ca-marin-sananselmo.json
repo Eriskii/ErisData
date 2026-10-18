@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-marin-sananselmo",
+  "publisher": "Town of San Anselmo (via Marin County open data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/T8eS7sop5hLmgRRH/ArcGIS/rest/services/Zoning_of_San_Anselmo/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06041"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "San Anselmo town zoning districts, published by Marin County open data (services6 host). Land use designations over assessor parcels.",
+  "extent": [
+    -122.58698779146737,
+    37.967229743672355,
+    -122.54992376559868,
+    38.00002114790179
+  ],
+  "verification": {
+    "verified_at": 1792277364004,
+    "counties": [
+      "06041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

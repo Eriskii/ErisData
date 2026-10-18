@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-larimer-johnstown",
+  "publisher": "Town of Johnstown, CO",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/dLSpoSuiU8QkkRAK/arcgis/rest/services/ZoningDistricts/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08069"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "JTZone",
+    "zone_name": "DISTRICT_NAME"
+  },
+  "notes": "Town of Johnstown zoning districts (town ArcGIS Online account adminjohnstown). The town straddles Larimer and Weld counties; this layer covers the whole town.",
+  "extent": [
+    -105.00326116823756,
+    40.278385800538054,
+    -104.8763747182647,
+    40.42189224717203
+  ],
+  "verification": {
+    "verified_at": 1792277474154,
+    "counties": [
+      "08069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

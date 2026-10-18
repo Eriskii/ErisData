@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ia-dubuque-cascade",
+  "publisher": "City of Cascade (copy hosted on a personal ArcGIS Online account, thalvors; 2017 preliminary zone map)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/F0eFMri3OWS05kGc/arcgis/rest/services/CascadeIAZoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19061"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZONECLASS"
+  },
+  "filter": "County = 'Dubuque'",
+  "notes": "Unofficial copy: ArcGIS Online item by user thalvors, Cascade IA Zoning (preliminary 2017 zone map, Cascade is in Dubuque and Jones counties); layer covers the Dubuque County part only via County field. Official false. Vintage 2017; no city GIS found.",
+  "extent": [
+    -91.02842108796779,
+    42.29560122250116,
+    -90.98079489750894,
+    42.31021191113751
+  ],
+  "verification": {
+    "verified_at": 1792278833468,
+    "counties": [
+      "19061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

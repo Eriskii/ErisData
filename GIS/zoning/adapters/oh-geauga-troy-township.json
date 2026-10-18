@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-geauga-troy-township",
+  "publisher": "Geauga County GIS (Troy Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gcgis.geauga.oh.gov/arcgis/rest/services/Planning/Zoning/FeatureServer/18",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39055"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_LABEL",
+    "zone_name": "ZONING"
+  },
+  "notes": "Troy Township zoning layer from the county Planning/Zoning service; one layer per municipality in Geauga County.",
+  "extent": [
+    -81.1913234592423,
+    41.34741515071027,
+    -81.0989964679873,
+    41.426056524054154
+  ],
+  "verification": {
+    "verified_at": 1792275776592,
+    "counties": [
+      "39055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

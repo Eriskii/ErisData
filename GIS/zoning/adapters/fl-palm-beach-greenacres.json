@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-palm-beach-greenacres",
+  "publisher": "City of Greenacres GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8uR4EgOk3nsP1tP5/arcgis/rest/services/GAZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "12099"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Desc_"
+  },
+  "notes": "City of Greenacres current zoning (GAZoning FeatureServer layer 0, city staff account). Source CRS 3857. About 10,174 features; several per parcel, so it may be parcel-level. zone from Code, zone_name from Desc_.",
+  "extent": [
+    -80.15747519641766,
+    26.59253941204363,
+    -80.1059300359999,
+    26.6660379396502
+  ],
+  "verification": {
+    "verified_at": 1792278061847,
+    "counties": [
+      "12099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

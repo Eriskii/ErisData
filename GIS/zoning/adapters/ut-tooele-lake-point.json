@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-tooele-lake-point",
+  "publisher": "Tooele County GIS (Lake Point City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://tcgisws.tooeleco.gov/server/rest/services/Zoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49045"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Descript"
+  },
+  "notes": "Lake Point City zoning districts as hosted by Tooele County GIS (layer Zoning_LakePoint, 19 polygons). Lake Point incorporated Nov 2022; layer is Lake Point-only.",
+  "extent": [
+    -112.29074621454625,
+    40.65275046974317,
+    -112.22831016897622,
+    40.71845665202521
+  ],
+  "verification": {
+    "verified_at": 1792280807122,
+    "counties": [
+      "49045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

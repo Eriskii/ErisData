@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-millard-leamington",
+  "publisher": "Utah AGRC (state) generalized zoning, Leamington Town",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49027"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county = 'Millard' AND city = 'Leamington'",
+  "notes": "Utah AGRC statewide generalized municipal zoning; rows for Leamington only. No ordinance link field populated.",
+  "extent": [
+    -112.30199951898544,
+    39.5244710074045,
+    -112.2686066331778,
+    39.538023342165715
+  ],
+  "verification": {
+    "verified_at": 1792280875886,
+    "counties": [
+      "49027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nm-taos-questa",
+  "publisher": "Village of Questa (zoning layer hosted by sitesswgis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/BLe9lNhgJ5d7eHXy/arcgis/rest/services/Questa_Simplified_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35055"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneAbbrv",
+    "zone_name": "ZoneDescr"
+  },
+  "notes": "Village of Questa simplified zoning districts (10 polygons), matching Ordinance 2026-158 zoning map per village site. Layer published by sitesswgis; confirm it is the village-authorized copy.",
+  "extent": [
+    -105.63888245265468,
+    36.686065943605314,
+    -105.56512892448548,
+    36.741947013516906
+  ],
+  "verification": {
+    "verified_at": 1792279584705,
+    "counties": [
+      "35055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

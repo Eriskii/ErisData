@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ar-benton-bella-vista",
+  "publisher": "City of Bella Vista, AR (zoning layer published by city planning, Bella Vista Adopted Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/R1y0KUYXFx6JVUNp/arcgis/rest/services/Bella_Vista_Adopted_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05007"
+    ]
+  },
+  "fields": {
+    "zone": "Z_Cat_FNI",
+    "zone_name": "ZningCdIfo"
+  },
+  "notes": "City of Bella Vista zoning map adopted 9/22/25 (code reform). Layer named Zoning_May_9_2025 with 40,247 features carrying PARCELID, so it is parcel-level zoning rather than district polygons; zone from Z_Cat_FNI. Use with care: features may repeat per parcel. Zoning Code Information field is used as zone_name.",
+  "extent": [
+    -94.37674716570787,
+    36.412742143844895,
+    -94.16029917584119,
+    36.50355864226761
+  ],
+  "verification": {
+    "verified_at": 1792277438476,
+    "counties": [
+      "05007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

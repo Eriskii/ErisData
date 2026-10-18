@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-san-bernardino-city",
+  "publisher": "City of San Bernardino (zoning carried in the County Combined Zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services/Combined_Zoning_Extra_Data/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION_NAME",
+    "zone": "ZONING_CODE"
+  },
+  "filter": "JURISDICTION_NAME = 'CITY OF SAN BERNARDINO'",
+  "notes": "County-hosted combined incorporated and unincorporated zoning layer (county org), filtered to the City of San Bernardino. Zone names are not populated in the source. The city own Zoning_2022 service did not answer.",
+  "extent": [
+    -117.40364252454364,
+    34.049842017623945,
+    -117.1641810715156,
+    34.234774394185614
+  ],
+  "verification": {
+    "verified_at": 1792277477167,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "or-malheur-adrian",
+  "publisher": "Oregon DLCD (statewide zoning compilation), City of Adrian zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41045"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "link": "codeRef",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Adrian'",
+  "notes": "Statewide DLCD zoning compilation (2023 effective dates); city of Adrian polygons selected by ownerName. zone is the state standard code (orZCode); local codes are blank in this source.",
+  "extent": [
+    -117.07575699751136,
+    43.73698629058887,
+    -117.0656321667924,
+    43.74441216498803
+  ],
+  "verification": {
+    "verified_at": 1792280212743,
+    "counties": [
+      "41045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

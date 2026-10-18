@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "md-wicomico-mardela-springs",
+  "publisher": "Maryland Department of Planning (Generalized Zoning 2025, Wicomico County municipalities): Town of Mardela Springs",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdpgis.mdp.state.md.us/arcgis/rest/services/PlanningCadastre/Generalized_Zoning_2025/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24045"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "GENZONE"
+  },
+  "filter": "JURSCODE = 'WICO' AND MUNICIPALITY_NAME = 'MARDELA SPRINGS'",
+  "notes": "State generalized zoning 2025: generalized categories (GENZONE), not the town's own district codes. EPSG 26985 source.",
+  "extent": [
+    -75.76347956407508,
+    38.450770347680354,
+    -75.74516156987829,
+    38.46421488623934
+  ],
+  "verification": {
+    "verified_at": 1792278849324,
+    "counties": [
+      "24045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

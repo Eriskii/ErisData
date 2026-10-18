@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-sumner-millersville",
+  "publisher": "City of Millersville, TN (Millersville_Zoning_view, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/jcrrmnzMsBOEAFJp/arcgis/rest/services/Millersville_Zoning_view/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47165"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_2021"
+  },
+  "notes": "City of Millersville zoning, published March 2023 from GNRC data; zone codes are the coded values (SR-1, GC, MFR, etc.). No jurisdiction field; layer is Millersville only.",
+  "extent": [
+    -86.76438831731151,
+    36.34808315967664,
+    -86.66338863063156,
+    36.43474842788945
+  ],
+  "verification": {
+    "verified_at": 1792280495816,
+    "counties": [
+      "47165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

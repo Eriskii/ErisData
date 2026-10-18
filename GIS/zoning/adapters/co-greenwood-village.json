@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-greenwood-village",
+  "publisher": "City of Greenwood Village",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://online.greenwoodvillage.com/server/rest/services/City/GreenwoodVillage_GeneralMapViewer_Web/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08005"
+    ]
+  },
+  "fields": {
+    "link": "ZONING_ORD_LINK",
+    "zone": "ZONING",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "City of Greenwood Village zoning from the city general mapviewer service; ZONING_ORD_LINK links the zoning ordinance",
+  "extent": [
+    -104.98089469019776,
+    39.587600191727105,
+    -104.8477160333414,
+    39.64633034057812
+  ],
+  "verification": {
+    "verified_at": 1792277712243,
+    "counties": [
+      "08005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

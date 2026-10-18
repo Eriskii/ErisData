@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "fl-broward-deerfield-beach",
+  "publisher": "City of Deerfield Beach GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/yJ4j7ns7W6juha0m/arcgis/rest/services/DFB_Zoning/FeatureServer/44",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "link": "WEBLINK",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Deerfield Beach zoning districts (DFB_Zoning service, layer 44 Zoning), implements the city LDC. City limits only.",
+  "extent": [
+    -80.17015044161994,
+    26.27415467631769,
+    -80.07427910186986,
+    26.32826723870131
+  ],
+  "verification": {
+    "verified_at": 1792277767403,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

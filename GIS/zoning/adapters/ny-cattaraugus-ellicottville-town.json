@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-cattaraugus-ellicottville-town",
+  "publisher": "Town of Ellicottville (EllicottvilleAdmin ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/b912698b2ffd46e8b11d7423bbeecb28/rest/services/EllicottvilleArcGISOnlineFS/MapServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36009"
+    ]
+  },
+  "fields": {
+    "zone": "zonedesc",
+    "zone_name": "zonedesc"
+  },
+  "notes": "Town of Ellicottville zoning districts, 42 features, published by the town GIS (ArcGIS Online org). Zone code and description both in zonedesc.",
+  "extent": [
+    -78.69703349550313,
+    42.25896528954184,
+    -78.5829808178334,
+    42.380823696178325
+  ],
+  "verification": {
+    "verified_at": 1792279599265,
+    "counties": [
+      "36009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

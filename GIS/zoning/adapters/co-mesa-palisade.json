@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "co-mesa-palisade",
+  "publisher": "Town of Palisade GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/WyC9ojqxKuw9YecQ/arcgis/rest/services/Zoning_Designations_Viewer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08077"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Palisade current zoning designations (Town web map layer Zoning). Town land only. No district names published; zone holds the code.",
+  "extent": [
+    -108.38033061754513,
+    39.09743610746576,
+    -108.32653875995334,
+    39.11974293098666
+  ],
+  "verification": {
+    "verified_at": 1792277549307,
+    "counties": [
+      "08077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

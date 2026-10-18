@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-chemung-horseheads-village",
+  "publisher": "Village of Horseheads / Southern Tier Central Regional Planning (STC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/qO6xd1V1VbSyViir/arcgis/rest/services/VofHHSDS/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36015"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Last resort: parcel layer (about 2,500 parcels) carrying each parcel zoning code in Zoning; no standalone district layer found for the Village of Horseheads. Hosted by STC regional planning GIS.",
+  "extent": [
+    -76.85366584583686,
+    42.14442364670584,
+    -76.79535877336548,
+    42.190305882177086
+  ],
+  "verification": {
+    "verified_at": 1792279620670,
+    "counties": [
+      "36015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

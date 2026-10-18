@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-northampton-roseto",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Roseto Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND NAME = 'Roseto Borough'",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Roseto Borough by NAME. Zone codes carry a municipal prefix; taken from ZN_MUNI_CD. Link not mapped: the layer holds no ordinance links.",
+  "extent": [
+    -75.23017994130564,
+    40.868243441904376,
+    -75.21030974910248,
+    40.886221586635365
+  ],
+  "verification": {
+    "verified_at": 1792280487725,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

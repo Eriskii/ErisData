@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-laurens-dexter",
+  "publisher": "Town of Dexter, GA (Laurens County Wide View host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/Town_of_Dexter_View/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13175"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Dexter zoning from DexterZoning layer; polygons are parcel-based (carry Parcel_No), zone holds district code. No zone name or link field in source.",
+  "extent": [
+    -83.06729112551479,
+    32.42601997813993,
+    -83.05020879446694,
+    32.440561334181325
+  ],
+  "verification": {
+    "verified_at": 1792277852252,
+    "counties": [
+      "13175"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

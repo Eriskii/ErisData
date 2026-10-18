@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-summit-boston-heights",
+  "publisher": "Summit County GIS (Boston Heights zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/27",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "Boston Heights village layer from Summit County GIS ZoningNov2025 service (layer 27). zone_name is a general category; DISTRICT_N may hold more detail.",
+  "extent": [
+    -81.53385528189376,
+    41.22637548543453,
+    -81.48862530013076,
+    41.28305988387615
+  ],
+  "verification": {
+    "verified_at": 1792276223746,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

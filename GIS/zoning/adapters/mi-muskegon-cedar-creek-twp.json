@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-muskegon-cedar-creek-twp",
+  "publisher": "Muskegon County GIS (Cedar Creek Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.muskegoncountygis.com/arcgis/rest/services/Zoning_Viewer/Zoning_Viewer/MapServer/30",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26121"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "County GIS Zoning_Viewer service; Cedar Creek Township base zoning districts (layer 30). Overlay layer 29 not used.",
+  "extent": [
+    -86.15808358673985,
+    43.2933712959484,
+    -86.03888001437753,
+    43.38220422057102
+  ],
+  "verification": {
+    "verified_at": 1792275387460,
+    "counties": [
+      "26121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

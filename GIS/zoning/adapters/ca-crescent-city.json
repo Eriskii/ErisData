@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-crescent-city",
+  "publisher": "California Office of Land Use and Climate Innovation (statewide zoning, City of Crescent City jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'DNO' AND Jurisdiction = 'Crescent City'",
+  "notes": "State OPR statewide zoning layer (compiled from city PDF zoning maps, 2017 source for Crescent City); county code DNO. Only the Crescent City features are used; the county unincorporated land is covered by ca-del-norte-coastal and ca-del-norte-noncoastal.",
+  "extent": [
+    -124.21658215252576,
+    41.74373585286429,
+    -124.14207300196377,
+    41.85842112006907
+  ],
+  "verification": {
+    "verified_at": 1792277290307,
+    "counties": [
+      "06015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

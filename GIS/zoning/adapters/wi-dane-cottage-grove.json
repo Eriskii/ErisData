@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-dane-cottage-grove",
+  "publisher": "Village of Cottage Grove",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tC0EbIUGqN0051mz/arcgis/rest/services/Zoning_Public/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Village of Cottage Grove public zoning layer, hosted on the village ArcGIS Online account.",
+  "extent": [
+    -89.23459736397061,
+    43.06487124032997,
+    -89.17949355105173,
+    43.12272904849969
+  ],
+  "verification": {
+    "verified_at": 1792281324596,
+    "counties": [
+      "55025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

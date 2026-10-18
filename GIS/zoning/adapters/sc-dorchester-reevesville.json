@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sc-dorchester-reevesville",
+  "publisher": "Dorchester County GIS (Town of Reevesville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.dorchestercounty.net/hosting/rest/services/General_Data/Town_Zoning_Public/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45035"
+    ]
+  },
+  "fields": {
+    "zone": "REEV_ZONE"
+  },
+  "filter": "REEV_ZONE IS NOT NULL",
+  "notes": "Town of Reevesville zoning districts from the county Town_Zoning_Public service (layer named REEVESVILLE ZONING). The layer holds all towns in one table; the zone code is in REEV_ZONE, and the filter keeps rows with a Reevesville code. No zone_name or link field.",
+  "extent": [
+    -80.6590317079197,
+    33.18931369838125,
+    -80.63280829281918,
+    33.21360451826328
+  ],
+  "verification": {
+    "verified_at": 1792280303426,
+    "counties": [
+      "45035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

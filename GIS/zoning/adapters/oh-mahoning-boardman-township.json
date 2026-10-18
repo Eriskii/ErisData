@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-mahoning-boardman-township",
+  "publisher": "Boardman Township (via TJK_Boardman_Twp ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/83mdIslxmlQBF91q/arcgis/rest/services/Zoning_FL/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39099"
+    ]
+  },
+  "fields": {
+    "link": "MAP_LINK",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DISC"
+  },
+  "notes": "Boardman Township zoning districts, updated 3/14/2026, published by the township. Single-township layer, no jurisdiction field needed.",
+  "extent": [
+    -80.71297512402964,
+    40.98667044004488,
+    -80.61318752875268,
+    41.061908162869074
+  ],
+  "verification": {
+    "verified_at": 1792275910879,
+    "counties": [
+      "39099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

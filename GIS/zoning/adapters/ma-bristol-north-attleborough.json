@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-bristol-north-attleborough",
+  "publisher": "Town of North Attleborough (base zoning hosted by SRPEDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/euKKjtGUuDiy24vy/arcgis/rest/services/North_Attleborough_MP_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "North Attleborough base zoning (2020, MP zoning dissolved to 15 features), hosted by SRPEDD for the Town. ZONING holds the district code. No name field. Overlays and Flex district in separate services, excluded.",
+  "extent": [
+    -71.38144044202832,
+    41.91482921647076,
+    -71.26874522217112,
+    42.01446365227175
+  ],
+  "verification": {
+    "verified_at": 1792279424008,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

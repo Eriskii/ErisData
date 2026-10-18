@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-peoria-elmwood",
+  "publisher": "City of Elmwood (via Peoria County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.peoriacounty.gov/arcgis/rest/services/DP/Zoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17143"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Elmwood zoning districts, hosted by Peoria County GIS (DP/Zoning MapServer layer 2).",
+  "extent": [
+    -89.98066451708044,
+    40.77063055614244,
+    -89.94682345705009,
+    40.79264509601844
+  ],
+  "verification": {
+    "verified_at": 1792278285519,
+    "counties": [
+      "17143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "mn-chisago-harris",
+  "publisher": "City of Harris",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/d7mHA2IFwT8F3eVO/arcgis/rest/services/Zoning_Harris_2021_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27025"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "City",
+    "zone": "ZoneCode",
+    "zone_name": "Description"
+  },
+  "notes": "City of Harris zoning (2021 zoning, view layer published by the city).",
+  "extent": [
+    -93.02256781997868,
+    45.556955939077696,
+    -92.93949154243549,
+    45.644127480010305
+  ],
+  "verification": {
+    "verified_at": 1792278962321,
+    "counties": [
+      "27025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

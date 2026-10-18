@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "or-umatilla-milton-freewater",
+  "publisher": "City of Milton-Freewater (layer on Umatilla County ArcGIS organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/tNPgIZWOB0Efvm0g/arcgis/rest/services/Milton_Freewater_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41059"
+    ]
+  },
+  "fields": {
+    "zone": "MERGE_SRC",
+    "zone_name": "MERGE_SRC"
+  },
+  "notes": "Milton-Freewater zoning districts (277 polygons) on the Umatilla County ArcGIS organization host. Zone code and name are combined in MERGE_SRC as City of Milton-Freewater\\CODE, Name; Zone and Zone_Code are blank.",
+  "extent": [
+    -118.4134810073103,
+    45.90638398031317,
+    -118.3670281459782,
+    45.96384968047658
+  ],
+  "verification": {
+    "verified_at": 1792280077357,
+    "counties": [
+      "41059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

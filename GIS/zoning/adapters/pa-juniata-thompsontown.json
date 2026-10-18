@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "pa-juniata-thompsontown",
+  "publisher": "Juniata County GIS (Thompsontown Borough zoning, from Juniata_Base_Layers)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ue5fMdTkPeHLCobS/arcgis/rest/services/Juniata_Base_Layers/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42067"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Dis"
+  },
+  "notes": "Thompsontown Borough zoning districts only, from the county Juniata_Base_Layers service. Zone code is in the Zoning_Dis field; no zone name field.",
+  "extent": [
+    -77.24522864065285,
+    40.55978400449808,
+    -77.22530306205576,
+    40.56936334747362
+  ],
+  "verification": {
+    "verified_at": 1792280151255,
+    "counties": [
+      "42067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "nh-strafford-barrington",
+  "publisher": "Town of Barrington NH via NH Zoning Atlas (NH Office of Planning and Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Atlas_Zoning_Districts_Buildable/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "33017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "AbbreviatedDistrict",
+    "zone_name": "Full_District_Name"
+  },
+  "filter": "County = 'Strafford' AND Jurisdiction = 'Barrington' AND Overlay = 'No'",
+  "notes": "NH Zoning Atlas copy (statewide, maintained by NH OPD/Upstate GIS), Barrington only; Town AxisGIS viewer requires a token so no official queryable layer; Full_District_Name is sparse; geojson=false needed for valid geometry",
+  "extent": [
+    -71.1340801211966,
+    43.137606375203376,
+    -70.95202960311471,
+    43.290087663582696
+  ],
+  "verification": {
+    "verified_at": 1792279564049,
+    "counties": [
+      "33017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

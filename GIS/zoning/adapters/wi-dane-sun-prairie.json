@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-dane-sun-prairie",
+  "publisher": "City of Sun Prairie",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/rNrGj3CxKnr9E71f/arcgis/rest/services/Sun_Prairie_Zoning_Layers_v2/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55025"
+    ]
+  },
+  "fields": {
+    "zone": "P_Zoning"
+  },
+  "notes": "Parcel-level layer: each tax parcel carries its zoning in P_Zoning (E_Zoning is the east-side field); no separate district polygons found. Published from the city Hub zoning item, service owner ssuder_ZoneCo.",
+  "extent": [
+    -89.28812396444997,
+    43.150309028697905,
+    -89.17426461172849,
+    43.213510901070435
+  ],
+  "verification": {
+    "verified_at": 1792281363438,
+    "counties": [
+      "55025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

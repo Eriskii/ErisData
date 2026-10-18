@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-chemung-elmira-city",
+  "publisher": "City of Elmira / Southern Tier Central Regional Planning (STC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/qO6xd1V1VbSyViir/arcgis/rest/services/Elmira_City_Zoning_Map/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36015"
+    ]
+  },
+  "fields": {
+    "zone": "LUCLASS",
+    "zone_name": "Zoning_1"
+  },
+  "notes": "City of Elmira zoning districts hosted by STC regional planning GIS (Elmira Zoning Map, 2022). Single-city layer.",
+  "extent": [
+    -76.84233319688076,
+    42.06483722059323,
+    -76.77580154958018,
+    42.120228336140165
+  ],
+  "verification": {
+    "verified_at": 1792279585877,
+    "counties": [
+      "36015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ga-dekalb-chamblee",
+  "publisher": "City of Chamblee GA",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Wa5u3F8BOztWahRv/arcgis/rest/services/Tax_Parcels_Zoning/FeatureServer/34",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13089"
+    ]
+  },
+  "fields": {
+    "link": "DefURL",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Chamblee official zoning (TaxParcelZoning layer in Chamblee GIS org), parcel-based polygons each carrying its zoning class. Covers City of Chamblee only.",
+  "extent": [
+    -84.32234625119159,
+    33.83760011750419,
+    -84.27285285764273,
+    33.91970215007626
+  ],
+  "verification": {
+    "verified_at": 1792277978588,
+    "counties": [
+      "13089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

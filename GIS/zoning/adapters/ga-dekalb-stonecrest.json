@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-dekalb-stonecrest",
+  "publisher": "City of Stonecrest GA GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/2Oj4p0oK7rnTYNHA/arcgis/rest/services/Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13089"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "City of Stonecrest official zoning (Zoning_view, parcel-based polygons each carrying ZONECLASS; updated as rezonings pass council). Covers City of Stonecrest only.",
+  "extent": [
+    -84.20155170151311,
+    33.616208494403935,
+    -84.07504651354964,
+    33.75837233713443
+  ],
+  "verification": {
+    "verified_at": 1792278107034,
+    "counties": [
+      "13089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

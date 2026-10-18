@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ks-saline-salina",
+  "publisher": "City of Salina zoning copy (ArcGIS Online, Salina_Zoning_Final)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/djZgF6YJCuO8rbmH/arcgis/rest/services/Salina_Zoning_Final/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20169"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdicti",
+    "zone": "ZONING",
+    "zone_name": "Full_Distr"
+  },
+  "filter": "Jurisdicti = 'Salina'",
+  "notes": "Copy of Salina zoning uploaded to ArcGIS Online by an individual account (owner suffix __kstate), not published by the City of Salina; used because no official City of Salina zoning layer was found in its GIS pages. Layer also holds 25 features for other jurisdictions, excluded by filter. Zone codes such as A-1 match Salina Municipal Code Article III.",
+  "extent": [
+    -97.6778656978907,
+    38.76156552875312,
+    -97.55718088180716,
+    38.89679058543299
+  ],
+  "verification": {
+    "verified_at": 1792278551119,
+    "counties": [
+      "20169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tn-williamson-unincorporated",
+  "publisher": "Williamson County, TN GIS (county ArcGIS organization, CountyMap_gdb)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/hkhKI6Qq7rjvBjZU/arcgis/rest/services/CountyMap_gdb/FeatureServer/21",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47187"
+    ]
+  },
+  "fields": {
+    "zone": "ZONES",
+    "zone_name": "ZONES"
+  },
+  "notes": "Williamson County unincorporated zoning districts (2013 layer, CountyMap_gdb Zones_2013). Zone field holds code and name together, e.g. RP- 1 - Rural Preservation - 1; no separate code field. Covers unincorporated county only; the cities are separate layers. Not the Zones_1988 layer.",
+  "extent": [
+    -87.21469177380489,
+    35.6964147071702,
+    -86.59919391710872,
+    36.052729259080586
+  ],
+  "verification": {
+    "verified_at": 1792280577484,
+    "counties": [
+      "47187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

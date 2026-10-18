@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-oceanside",
+  "publisher": "City of Oceanside Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.oceansideca.org/gis/rest/services/WebService/Planning_Hub/FeatureServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06073"
+    ]
+  },
+  "fields": {
+    "link": "Zone_Descr_Link",
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Descr"
+  },
+  "notes": "City of Oceanside Land Use and Zoning, Planning_Hub web service (ZONING layer). Overlay zones are in separate attributes.",
+  "extent": [
+    -117.39984078131572,
+    33.15309130609954,
+    -117.23688418759976,
+    33.29999889455667
+  ],
+  "verification": {
+    "verified_at": 1792277462951,
+    "counties": [
+      "06073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

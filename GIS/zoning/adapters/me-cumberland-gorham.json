@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "me-cumberland-gorham",
+  "publisher": "Town of Gorham, Maine (GIS, Zoning layer by town GIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/WhX8lGSdDIPBmcvx/arcgis/rest/services/Zoning/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE1",
+    "zone_name": "ZONE1"
+  },
+  "notes": "Gorham Zoning Districts layer (91 features) from the town GIS account on ArcGIS Online. ZONE1 holds the district code (e.g. SR-MH, UREXP); no separate name or ordinance link field. Source in EPSG:102684.",
+  "extent": [
+    -70.5474335199244,
+    43.61433089162093,
+    -70.37778575263683,
+    43.81713001543823
+  ],
+  "verification": {
+    "verified_at": 1792279166861,
+    "counties": [
+      "23005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

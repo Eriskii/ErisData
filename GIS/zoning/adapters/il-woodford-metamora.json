@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-woodford-metamora",
+  "publisher": "Village of Metamora (via Hometown Consulting ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/vkxUMlLZxOyS1ilH/arcgis/rest/services/Zoning_(Metamora)/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17203"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Metamora zoning districts, hosted by Hometown Consulting on ArcGIS Online and linked from the village permits page (GIS Zoning Map). All features are Metamora (Client=METAMORA); polygons coded Unincorporated are non-village land in the layer. No jurisdiction field needed: single village.",
+  "extent": [
+    -89.4277767034264,
+    40.75542159420995,
+    -89.31190331586342,
+    40.83563820030174
+  ],
+  "verification": {
+    "verified_at": 1792278292254,
+    "counties": [
+      "17203"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

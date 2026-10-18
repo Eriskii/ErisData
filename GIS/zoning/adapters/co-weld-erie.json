@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-weld-erie",
+  "publisher": "Town of Erie GIS (eags.erieco.gov OpenData service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://eags.erieco.gov/arcgis/rest/services/OpenData/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08123"
+    ]
+  },
+  "fields": {
+    "zone": "PROP_ZONE",
+    "zone_name": "ZONEDESCRIPTION"
+  },
+  "notes": "Town of Erie Zoning layer (layer 8) of the Town's Erie Open Data service. Town of Erie only; the town spans Weld and Boulder counties. ZONEDESCRIPTION mostly repeats the code; PD parcels carry PUD ordinance references in other fields. Link field not filled for most features, so not mapped.",
+  "extent": [
+    -105.10474611882856,
+    40.00044528033368,
+    -104.98094259652028,
+    40.10225934051672
+  ],
+  "verification": {
+    "verified_at": 1792277893269,
+    "counties": [
+      "08123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

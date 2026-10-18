@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ny-franklin-harrietstown-town",
+  "publisher": "Franklin County NY (DANC GIS, Town of Harrietstown zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/Franklin_Special_Dis_Zoning_P_24/MapServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36033"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Town",
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Town of Harrietstown base zoning districts from the DANC GIS county zoning service; village of Saranac Lake not included (saved separately). No ordinance links in the layer.",
+  "extent": [
+    -74.41433205021866,
+    44.10531176237151,
+    -74.08113696265809,
+    44.4188370664419
+  ],
+  "verification": {
+    "verified_at": 1792279656500,
+    "counties": [
+      "36033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

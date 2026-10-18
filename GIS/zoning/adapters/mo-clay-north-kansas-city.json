@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mo-clay-north-kansas-city",
+  "publisher": "City of North Kansas City, Missouri (NKC GIS web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/4pUQwepNbrOvTwvd/arcgis/rest/services/NKC_Zoning_2024/FeatureServer/30",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29047"
+    ]
+  },
+  "fields": {
+    "zone": "NKC_Zone_Code",
+    "zone_name": "NKC_Zone_Description"
+  },
+  "notes": "City of North Kansas City zoning districts (NKC_Zoning_2024), from the city web map msummers_NKC_GIS. CP_Zoning_Code/CP_Zone_Description are a comprehensive-plan equivalent; NKC_Zone_Code is the zoning code used. Single-jurisdiction layer, 15 districts.",
+  "extent": [
+    -94.5869567444416,
+    39.1233177795906,
+    -94.53107967169439,
+    39.15522765147941
+  ],
+  "verification": {
+    "verified_at": 1792279560394,
+    "counties": [
+      "29047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

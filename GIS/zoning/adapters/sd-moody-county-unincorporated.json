@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sd-moody-county-unincorporated",
+  "publisher": "Moody County GIS (1stDistrict host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Moody/moodymapnet/MapServer/32",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "LABEL"
+  },
+  "notes": "Moody County unincorporated-area base zoning districts (MapServer/32 County Zoning, 45 features). Not the commercial-only layer 33 already saved.",
+  "extent": [
+    -96.88925977556754,
+    43.84750422408312,
+    -96.45272709689144,
+    44.19679140303396
+  ],
+  "verification": {
+    "verified_at": 1792280336851,
+    "counties": [
+      "46101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

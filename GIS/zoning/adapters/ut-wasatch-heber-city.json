@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-wasatch-heber-city",
+  "publisher": "Heber City (GIS, hosted on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/OaQlLqKJW3ki0q5w/arcgis/rest/services/Heber_City_Zoning_Areas_WFL1/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49051"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "ZONE",
+    "zone_name": "Name"
+  },
+  "notes": "Heber City zoning districts (24 features) from Heber City Zoning Areas_WFL1 service; single-jurisdiction layer so no jurisdiction field.",
+  "extent": [
+    -111.44458791981488,
+    40.47148637561779,
+    -111.31883614265308,
+    40.59539978248361
+  ],
+  "verification": {
+    "verified_at": 1792280837726,
+    "counties": [
+      "49051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-schoharie-sharon-town",
+  "publisher": "Town of Sharon (via Schoharie County GIS, VHB)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://spatialags.vhb.com/arcgis/rest/services/20327_Schoharie/NY_County_Schoharie/MapServer/47",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36095"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_"
+  },
+  "notes": "Town of Sharon zoning district layer from the Schoharie County GIS map service (hosted by VHB for the county).",
+  "extent": [
+    -74.66816714725981,
+    42.7302279664876,
+    -74.51324234858257,
+    42.82914506510837
+  ],
+  "verification": {
+    "verified_at": 1792279633620,
+    "counties": [
+      "36095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

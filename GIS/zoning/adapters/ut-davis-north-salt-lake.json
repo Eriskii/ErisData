@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ut-davis-north-salt-lake",
+  "publisher": "North Salt Lake City (unofficial copy: ArcGIS Online item NorthSaltLake_Zoning by a Jacobs staff account)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/eNX73FDxjlKFtCtH/arcgis/rest/services/NorthSaltLake_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49011"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode"
+  },
+  "notes": "Unofficial copy, not the city: an ArcGIS Online item by a Jacobs staff account. Parcel-level layer (one feature per parcel, keyed by ParcelTaxI) whose ZoningCode carries each parcel zone; used as last resort. zone_name not published; SIMPLIFIED field not mapped. City limits only.",
+  "extent": [
+    -111.96613907700218,
+    40.81964893501824,
+    -111.87230746861142,
+    40.86627502324513
+  ],
+  "verification": {
+    "verified_at": 1792281362691,
+    "counties": [
+      "49011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

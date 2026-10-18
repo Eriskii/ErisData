@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-marion-dunnellon",
+  "publisher": "City of Dunnellon (copy hosted by ArcGIS Online account nharris_mcpa)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/zh4IrtLvSvA0sfub/arcgis/rest/services/Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12083"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Unofficial copy: personal ArcGIS Online account nharris_mcpa (Zoning Data for Reach), layer Zoning - Dunnellon; no official City of Dunnellon zoning layer was reachable (city site returns 403). Zone codes only, no name or ordinance link.",
+  "extent": [
+    -82.4851060184227,
+    29.021321141005473,
+    -82.38533728052374,
+    29.08293466428801
+  ],
+  "verification": {
+    "verified_at": 1792277772111,
+    "counties": [
+      "12083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

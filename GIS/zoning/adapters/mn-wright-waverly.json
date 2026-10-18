@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "mn-wright-waverly",
+  "publisher": "Wright County GIS (aggregated city zoning, City of Waverly)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/CiQCvRGImIxsaFnM/arcgis/rest/services/City_Zoning_in_Wright_County/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27171"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Muncipality",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDesc"
+  },
+  "filter": "Muncipality = 'CITY OF WAVERLY'",
+  "notes": "Wright County GIS layer aggregating parcel-level zoning for the cities in Wright County; filtered to City of Waverly. Jurisdiction field spelled Muncipality in source. Lambert projection; runtime requests lon/lat.",
+  "extent": [
+    -94.00521890662746,
+    45.0465345249955,
+    -93.93995031944486,
+    45.083108127419216
+  ],
+  "verification": {
+    "verified_at": 1792279428198,
+    "counties": [
+      "27171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

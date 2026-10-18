@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-harris-bellaire",
+  "publisher": "City of Bellaire",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/JcKlHMbLZfUPp860/arcgis/rest/services/City_of_Bellaire_Zones/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48201"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Distr"
+  },
+  "notes": "City of Bellaire zoning districts (City_of_Bellaire_Zones layer, city-hosted). Entirely within Harris County. Layer has no name or ordinance field.",
+  "extent": [
+    -95.48445611370781,
+    29.689443129955983,
+    -95.44725609997695,
+    29.72575570838907
+  ],
+  "verification": {
+    "verified_at": 1792280950459,
+    "counties": [
+      "48201"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

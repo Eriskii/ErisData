@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ny-monroe-webster",
+  "publisher": "Town of Webster (compiled in Monroe County Municipal Zoning layer)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Ue34o2qxc9h430hV/arcgis/rest/services/Monroe_County_Municipal_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36055"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "zone": "ZONE_ABBR",
+    "zone_name": "ZONING"
+  },
+  "filter": "MUNICIPALITY = 'Webster'",
+  "notes": "Copy of Monroe County Municipal Zoning (MC_Zoning_All_Municipalities, recorded by Monroe County 11 Nov 2020) hosted on a personal ArcGIS Online account (stuart.jordan_urochester / jzollweg), not a county service. Town of Webster rows only; Webster Village excluded.",
+  "extent": [
+    -77.538047547022,
+    43.19514150959144,
+    -77.3733870764778,
+    43.27815706350481
+  ],
+  "verification": {
+    "verified_at": 1792279739900,
+    "counties": [
+      "36055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

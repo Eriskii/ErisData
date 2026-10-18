@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-onondaga-manlius",
+  "publisher": "Town of Manlius (via Town of Manlius Public Mapping Viewer, Labella PC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/krSNOBBGf8rF7cNp/arcgis/rest/services/Town_of_Manlius_Public_Mapping_Viewer_V2_WFL1/FeatureServer/57",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36067"
+    ]
+  },
+  "fields": {
+    "zone": "Category",
+    "zone_name": "Label"
+  },
+  "notes": "Town of Manlius zoning districts (Jan 2025), 17 district polygons from the town public mapping viewer; the Village entry covers the Villages of Minoa, Fayetteville and Manlius and is not a district code.",
+  "extent": [
+    -76.04249490547578,
+    42.98525944951406,
+    -75.91021567893995,
+    43.12294523149448
+  ],
+  "verification": {
+    "verified_at": 1792279611484,
+    "counties": [
+      "36067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

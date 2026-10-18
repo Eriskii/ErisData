@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-essex-beverly",
+  "publisher": "City of Beverly, MA (Beverly_Zoning_gdb, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/7QzH6ekj4Ahg1dNd/arcgis/rest/services/Beverly_Zoning_gdb/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "Description"
+  },
+  "notes": "City of Beverly zoning districts (base zoning, layer 0; overlays in layer 1 excluded). Hosted under the bkipswich ArcGIS Online account; published by the city as its 2024 zoning map.",
+  "extent": [
+    -70.9223430508366,
+    42.53885996121323,
+    -70.79324885777865,
+    42.59152262117189
+  ],
+  "verification": {
+    "verified_at": 1792278955786,
+    "counties": [
+      "25009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

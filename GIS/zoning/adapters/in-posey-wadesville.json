@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "in-posey-wadesville",
+  "publisher": "Posey County GIS / Town of Wadesville zoning (PoseyIN_Adds_Zoning service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/jBeGgtzv02uT84fC/arcgis/rest/services/PoseyIN_Adds_Zoning/FeatureServer/5",
+    "page_size": 1995,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18129"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Typ"
+  },
+  "notes": "Town of Wadesville zoning districts only, from the Posey County permitting system zoning service (same host as the saved Mount Vernon layer). zone is the district code (Zoning_Typ). Feature_Na holds parcel-style IDs, not mapped. No jurisdiction field: the whole layer is Wadesville.",
+  "extent": [
+    -87.79120272360099,
+    38.09668241862678,
+    -87.78211571948432,
+    38.11101739466398
+  ],
+  "verification": {
+    "verified_at": 1792278311487,
+    "counties": [
+      "18129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

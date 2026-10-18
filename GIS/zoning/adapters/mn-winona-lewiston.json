@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "mn-winona-lewiston",
+  "publisher": "Winona County GIS (city of Lewiston zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services4.arcgis.com/JRjQuFG9VKLnZxt7/arcgis/rest/services/Winona_Zoning_Project_gdb/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27169"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWN_CITY",
+    "zone": "ZONING_ID",
+    "zone_name": "ZONING"
+  },
+  "filter": "TOWN_CITY = 'Lewiston'",
+  "notes": "City of Lewiston zoning districts from the county Zoning_County_Municipalities layer (FeatureServer/0), filtered to TOWN_CITY = Lewiston. ZONING_ID holds the district code, ZONING the name.",
+  "extent": [
+    -91.88909511151414,
+    43.96612510572551,
+    -91.8539967214271,
+    43.99156438833733
+  ],
+  "verification": {
+    "verified_at": 1792279250985,
+    "counties": [
+      "27169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

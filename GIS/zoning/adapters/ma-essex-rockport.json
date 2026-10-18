@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-essex-rockport",
+  "publisher": "Town of Rockport, MA (rcraig_RockportMA ArcGIS Online, Zoning Map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/M3HWiWPZtHfjKOLc/arcgis/rest/services/Zoning_Map_updated_WFL1/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE"
+  },
+  "notes": "Town of Rockport general zoning map published by the town assessor account on ArcGIS Online; layer 9 Zoning, 108 polygons. No district name field in the source.",
+  "extent": [
+    -70.64397665949791,
+    42.62602221954669,
+    -70.57317729851137,
+    42.69278045666484
+  ],
+  "verification": {
+    "verified_at": 1792279065110,
+    "counties": [
+      "25009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

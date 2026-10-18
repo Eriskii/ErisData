@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-juneau-new-lisbon",
+  "publisher": "City of New Lisbon, WI (Zoning view layer, nlclerk1)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/M6G5iEO3XfYCP7A8/arcgis/rest/services/Zoning_view/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55057"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of New Lisbon zoning map view layer published by the City clerk, public viewing copy. About 15% of polygons have no zone code; no ordinance link published.",
+  "extent": [
+    -90.1924492928472,
+    43.86038408349836,
+    -90.12216724907306,
+    43.89252803200742
+  ],
+  "verification": {
+    "verified_at": 1792281181606,
+    "counties": [
+      "55057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

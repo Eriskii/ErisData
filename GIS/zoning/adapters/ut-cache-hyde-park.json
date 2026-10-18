@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-cache-hyde-park",
+  "publisher": "Cache County GIS (Hyde Park City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/City_Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city_name",
+    "zone": "zone_code",
+    "zone_name": "zone_type"
+  },
+  "filter": "city_name = 'HYDE PARK'",
+  "notes": "Hyde Park city zoning from Cache County City_Zoning service, which holds all 19 Cache County cities in one table; the filter selects Hyde Park. density field also present.",
+  "extent": [
+    -111.84706729280607,
+    41.78143193610426,
+    -111.77563977312202,
+    41.820412713250754
+  ],
+  "verification": {
+    "verified_at": 1792280803696,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

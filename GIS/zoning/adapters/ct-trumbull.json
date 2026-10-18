@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-trumbull",
+  "publisher": "Town of Trumbull (served via MetroCOG maps server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.ctmetro.org/server/rest/services/Trumbull/Trumbull_Parcels_NAD83/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09120"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Trumbull planning zoning districts polygons (48 features) from the Trumbull parcels service on the MetroCOG server; Zone holds district code. No description field populated.",
+  "extent": [
+    -73.27521626742625,
+    41.220222027838126,
+    -73.14071734481549,
+    41.299377351850765
+  ],
+  "verification": {
+    "verified_at": 1792277528997,
+    "counties": [
+      "09120"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

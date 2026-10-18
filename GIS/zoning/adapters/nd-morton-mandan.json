@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nd-morton-mandan",
+  "publisher": "City of Mandan GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/wrXMuRbr2WUut1G0/arcgis/rest/services/Zoning_Public/FeatureServer/118",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38059"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "CODE",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "City of Mandan zoning districts (city limits; Mandan zoning public layer by MandanGIS). Status field available: STATUS.",
+  "extent": [
+    -100.98751730976008,
+    46.766621376912425,
+    -100.82126104968698,
+    46.89001292074385
+  ],
+  "verification": {
+    "verified_at": 1792279914459,
+    "counties": [
+      "38059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

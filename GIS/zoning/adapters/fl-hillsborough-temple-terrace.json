@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-hillsborough-temple-terrace",
+  "publisher": "Temple Terrace (zoning layer served by Hillsborough City-County Planning Commission PIMA GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.tpcmaps.org/arcgis/rest/services/pigi/pigiTT/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12057"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Temple Terrace zoning, from the Planning Commission GIS TT Zoning layer. Source is parcel-level (carries FOLIO/SITE_ADDR), so each feature is a parcel with its zoning code; a last resort, no district name or ordinance link in the layer.",
+  "extent": [
+    -82.4017297445957,
+    28.012874675770473,
+    -82.34770405663994,
+    28.071094221263447
+  ],
+  "verification": {
+    "verified_at": 1792277651042,
+    "counties": [
+      "12057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-elk-ridge",
+  "publisher": "Utah County GIS (Elk Ridge City Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/46",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ER_LABEL",
+    "zone_name": "ZONE_ER_DESC"
+  },
+  "notes": "Elk Ridge City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 46, 52 features). Single-jurisdiction layer, no filter needed.",
+  "extent": [
+    -111.70115397470504,
+    39.9836415479605,
+    -111.65628430365334,
+    40.03088863247006
+  ],
+  "verification": {
+    "verified_at": 1792280941713,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

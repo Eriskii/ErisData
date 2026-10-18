@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-jefferson-watertown",
+  "publisher": "Jefferson County GIS (City of Watertown base zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.jeffersoncountywi.gov/arcgis/rest/services/Zoning/Muni_Zoning/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55055"
+    ]
+  },
+  "fields": {
+    "zone": "MUNI_ZONES"
+  },
+  "notes": "City of Watertown base zoning, the part inside Jefferson County, from the Jefferson County Muni_Zoning service. MUNI_ZONES holds the district code; no name or ordinance link field published.",
+  "extent": [
+    -88.7690299483805,
+    43.14706427302666,
+    -88.68878980986015,
+    43.19802022519218
+  ],
+  "verification": {
+    "verified_at": 1792281247164,
+    "counties": [
+      "55055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

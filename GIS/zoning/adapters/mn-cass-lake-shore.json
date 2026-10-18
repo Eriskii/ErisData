@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-cass-lake-shore",
+  "publisher": "City of Lake Shore (Cass County GIS Municipalities service)",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://cassweb.casscountymn.gov/arcgis/rest/services/Municipalities/MapServer/29/query?where=1%3D1&outFields=*&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "27021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Layer 29 of the county Municipalities service, after the City of Lake Shore label layer; no pagination support, full query in one request. Only 13 of 23 districts carry a code",
+  "verification": {
+    "verified_at": 1792279015477,
+    "counties": [
+      "27021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

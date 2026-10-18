@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-dupage-clarendon-hills",
+  "publisher": "Village of Clarendon Hills (2020 interactive zoning map, village ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/cnI60UwnKJOhQqOd/arcgis/rest/services/ClarendonHillsInteractiveZoningMap2020/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17043"
+    ]
+  },
+  "fields": {
+    "zone": "PROPCLASS1"
+  },
+  "notes": "Last resort: a parcel layer (about 2,900 features, one per parcel), not district polygons. Zone is the PROPCLASS1 field labelled ZONING CLASSIFICATION in the source. Village of Clarendon Hills only.",
+  "extent": [
+    -87.97086421723012,
+    41.78147042226242,
+    -87.94631703986097,
+    41.810643788219544
+  ],
+  "verification": {
+    "verified_at": 1792278735926,
+    "counties": [
+      "17043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

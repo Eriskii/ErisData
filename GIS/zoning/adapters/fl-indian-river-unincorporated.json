@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "fl-indian-river-unincorporated",
+  "publisher": "Indian River County Community Development (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.ircgov.com/server3/rest/services/Planning/IRC_Zoning_MS/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12061"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE",
+    "zone": "ZONING_ABV",
+    "zone_name": "ZONING"
+  },
+  "notes": "County unincorporated area only; cities (Vero Beach, Sebastian) are separate layers. Zoning district polygons, 638 features.",
+  "extent": [
+    -80.88105144106844,
+    27.556977505153757,
+    -80.32154191774309,
+    27.860252385566707
+  ],
+  "verification": {
+    "verified_at": 1792277623939,
+    "counties": [
+      "12061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mi-saginaw-frankenmuth-city",
+  "publisher": "City of Frankenmuth (layer uploaded to ArcGIS Online by szampar1)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/7k5pwykhBf04bSfy/arcgis/rest/services/City_of_Frankenmuth/FeatureServer/35",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26145"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "Copy on ArcGIS Online by user szampar1, not confirmed official; the city publishes its zoning map only as a PDF. Layer frank_city_zoning_final is a parcel-level layer with a zoning attribute per parcel (1915 features); zone is the parcel zoning code. Saginaw County FIPS 26145.",
+  "extent": [
+    -83.76136220392661,
+    43.31050399950133,
+    -83.71100737364353,
+    43.350255338700805
+  ],
+  "verification": {
+    "verified_at": 1792275562293,
+    "counties": [
+      "26145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

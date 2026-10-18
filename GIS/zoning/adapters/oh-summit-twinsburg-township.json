@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-summit-twinsburg-township",
+  "publisher": "Summit County GIS (Twinsburg Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "Twinsburg Township layer from Summit County GIS ZoningNov2025 service (layer 0). zone_name is a general category; DISTRICT_N may hold more detail.",
+  "extent": [
+    -81.48107930608528,
+    41.27630287208614,
+    -81.39102340165707,
+    41.34908404992646
+  ],
+  "verification": {
+    "verified_at": 1792276234982,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

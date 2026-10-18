@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-frederick",
+  "publisher": "Town of Frederick GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.frederickco.gov/arcgis/rest/services/Zoning_Designation/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08123"
+    ]
+  },
+  "fields": {
+    "link": "CODE_LINK",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONING"
+  },
+  "notes": "Town of Frederick Zoning Designation layer; ZONE_CODE holds the district code, ZONING the zoning name; overlays in OVERLAY_CODE. Town of Frederick only.",
+  "extent": [
+    -105.04233630199217,
+    40.079838111304774,
+    -104.88585604952728,
+    40.160616784796936
+  ],
+  "verification": {
+    "verified_at": 1792277616075,
+    "counties": [
+      "08123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

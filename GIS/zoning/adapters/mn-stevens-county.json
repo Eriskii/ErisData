@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-stevens-county",
+  "publisher": "Stevens County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.stevens.mn.us/arcgis/rest/services/Zoning/Zoning/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27149"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Stevens County unincorporated-land zoning districts from Stevens County GIS (249 features). Distinct from the City of Morris layer.",
+  "extent": [
+    -96.25644957936424,
+    45.40857129727643,
+    -95.7458720416792,
+    45.763581209864746
+  ],
+  "verification": {
+    "verified_at": 1792279155888,
+    "counties": [
+      "27149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

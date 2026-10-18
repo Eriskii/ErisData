@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-king-maple-valley",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), City of Maple Valley",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '033' AND Jurisdiction = 'Maple Valley'",
+  "notes": "State Zoning Atlas compilation of Maple Valley zoning districts, Maple Valley only (COUNTYFP 033).",
+  "extent": [
+    -122.06576336592246,
+    47.3405075818294,
+    -121.99835265565775,
+    47.3971451700166
+  ],
+  "verification": {
+    "verified_at": 1792282037065,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

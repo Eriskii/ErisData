@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-granville-stovall",
+  "publisher": "Town of Stovall (via Granville County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/dT3Tew5pivPd2bWH/arcgis/rest/services/Granville_Static/FeatureServer/50",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37077"
+    ]
+  },
+  "fields": {
+    "zone": "NAME_ABB",
+    "zone_name": "NAME"
+  },
+  "notes": "Town of Stovall zoning districts from Granville County GIS service (Stovall_Zoning). Zone code from NAME_ABB, district name from NAME.",
+  "extent": [
+    -78.6095288253459,
+    36.40163859335632,
+    -78.55488116228541,
+    36.456093906656065
+  ],
+  "verification": {
+    "verified_at": 1792279788461,
+    "counties": [
+      "37077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

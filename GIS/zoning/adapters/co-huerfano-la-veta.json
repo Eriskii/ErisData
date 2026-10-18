@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-huerfano-la-veta",
+  "publisher": "Town of La Veta (ArcGIS Online, townoflaveta)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/OL4l0d0nqkPLdUpe/arcgis/rest/services/La_Veta_Zones/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08055"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "Zone_Name",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Town of La Veta zoning districts, hosted by the town on ArcGIS Online; 163 polygons, town-wide. Zone_Name holds the zone (verify); Block_Name is a block field, not used.",
+  "extent": [
+    -105.0167352576634,
+    37.495416330680065,
+    -104.99783271471163,
+    37.5149311735776
+  ],
+  "verification": {
+    "verified_at": 1792277462757,
+    "counties": [
+      "08055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

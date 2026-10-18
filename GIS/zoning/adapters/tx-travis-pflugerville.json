@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-travis-pflugerville",
+  "publisher": "City of Pflugerville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.pflugervilletx.gov/arcgis/rest/services/Planning/Zoning_Districts/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48453"
+    ]
+  },
+  "fields": {
+    "link": "enCode",
+    "zone": "ZOINING_TY",
+    "zone_name": "ZONING_DES"
+  },
+  "notes": "City of Pflugerville base zoning districts (Zoning_Districts MapServer layer 0). Source field name ZOINING_TY is misspelled in source. Link field is a encode-360 ordinance link.",
+  "extent": [
+    -97.67092739130103,
+    30.380585294751217,
+    -97.49769303529507,
+    30.502336792924492
+  ],
+  "verification": {
+    "verified_at": 1792280740339,
+    "counties": [
+      "48453"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

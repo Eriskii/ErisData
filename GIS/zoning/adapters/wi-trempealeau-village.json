@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-trempealeau-village",
+  "publisher": "Village of Trempealeau",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/cqHJZMbXoaOT0XrP/arcgis/rest/services/ZoningV/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55121"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "Code",
+    "zone_name": "CurrentZ"
+  },
+  "notes": "Village of Trempealeau zoning districts (zoningT layer), hosted on the village ArcGIS organization. Village is not in the county layer.",
+  "extent": [
+    -91.45110554196911,
+    43.98416946660231,
+    -91.41003786589113,
+    44.02018652631063
+  ],
+  "verification": {
+    "verified_at": 1792281303280,
+    "counties": [
+      "55121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

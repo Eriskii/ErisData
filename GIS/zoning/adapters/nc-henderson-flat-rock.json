@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-henderson-flat-rock",
+  "publisher": "Village of Flat Rock (via Henderson County GISWeb)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.hendersoncountync.gov/arcgis/rest/services/GISWeb/Primary_GISWeb_Layers/MapServer/79",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37089"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Village of Flat Rock zoning districts, hosted on Henderson County GISWeb; maintained by the Village (county metadata last updated 2019). Zone holds the district code only.",
+  "extent": [
+    -82.50205610423112,
+    35.239992866737516,
+    -82.418980563134,
+    35.29871247276363
+  ],
+  "verification": {
+    "verified_at": 1792279814922,
+    "counties": [
+      "37089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

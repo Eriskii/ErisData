@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-st-croix-new-richmond",
+  "publisher": "City of New Richmond",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/poSTG6MCE9vGMWJV/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55109"
+    ]
+  },
+  "fields": {
+    "link": "ZO_Link",
+    "zone": "Zoning"
+  },
+  "notes": "City of New Richmond zoning, served as parcel polygons (parcel layer, last resort) carrying each parcel zoning in the Zoning field; City-hosted org poSTG6MCE9vGMWJV, linked from the city zoning map viewer. Some rows are non-parcel (DOT, ROW).",
+  "extent": [
+    -92.59140409826428,
+    45.08979087558648,
+    -92.46648304930208,
+    45.16241886166166
+  ],
+  "verification": {
+    "verified_at": 1792281276759,
+    "counties": [
+      "55109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

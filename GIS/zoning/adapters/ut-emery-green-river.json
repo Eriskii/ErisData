@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "ut-emery-green-river",
+  "publisher": "Utah AGRC (state generalized municipal zoning), Green River City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county LIKE '%Emery%' AND city = 'Green River'",
+  "notes": "Utah AGRC statewide generalized zoning layer (state-published compilation of city zoning); filtered to Green River city. Generalized category in gen_zone.",
+  "extent": [
+    -110.30879385846562,
+    38.94971657040106,
+    -110.00267203379336,
+    39.04646955624017
+  ],
+  "verification": {
+    "verified_at": 1792280864438,
+    "counties": [
+      "49015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

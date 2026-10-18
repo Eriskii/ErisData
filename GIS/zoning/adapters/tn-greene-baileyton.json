@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-greene-baileyton",
+  "publisher": "Town of Baileyton (zoning layer hosted by markstevans, ArcGIS Online; source First Tennessee Development District)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/duOXQT76rrwCBokY/arcgis/rest/services/August_2017_Baileyton_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47059"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "Unofficial ArcGIS Online copy of the Baileyton zoning map, August 2017, hosted by user markstevans; linked from the First Tennessee Development District zoning page (ftdd.org/zoning). Single-jurisdiction layer, 13 polygons. Zone_Curre holds district codes.",
+  "extent": [
+    -82.84354176766762,
+    36.31134186405224,
+    -82.81359853723475,
+    36.34981271342816
+  ],
+  "verification": {
+    "verified_at": 1792280421360,
+    "counties": [
+      "47059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

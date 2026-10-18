@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-brevard-titusville",
+  "publisher": "City of Titusville Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.titusville.com/arcgis/rest/services/CommunityDevelopment/MapServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12009"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code"
+  },
+  "notes": "City of Titusville zoning districts; covers Titusville only.",
+  "extent": [
+    -80.87168827379044,
+    28.49356417363601,
+    -80.77767229009352,
+    28.651813918751905
+  ],
+  "verification": {
+    "verified_at": 1792277684869,
+    "counties": [
+      "12009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

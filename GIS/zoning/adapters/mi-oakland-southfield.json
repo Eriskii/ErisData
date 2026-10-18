@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-oakland-southfield",
+  "publisher": "City of Southfield GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/qcf08LpwJxcX3XGa/arcgis/rest/services/ZoningDistricts_PublicView/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26125"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Southfield public zoning districts view (Zoning layer). Covers Southfield only.",
+  "extent": [
+    -83.31969969770257,
+    42.44232332283307,
+    -83.20080502590149,
+    42.51734363147891
+  ],
+  "verification": {
+    "verified_at": 1792275355201,
+    "counties": [
+      "26125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

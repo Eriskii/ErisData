@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-orleans-medina",
+  "publisher": "Village of Medina (via Village of Medina Public GIS, ArcGIS Online org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/25c2dc5c79474448b8807edaf77a37f6/rest/services/MedinaArcGISOnlineZoning/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36073"
+    ]
+  },
+  "fields": {
+    "zone": "zoneclass"
+  },
+  "notes": "Village of Medina existing zoning districts, from the village public GIS (medina-ny.maps.arcgis.com) Zoning Districts service, layer Existing Zoning; 180 features. Overlay districts are a separate layer (MapServer/0), not used.",
+  "extent": [
+    -78.41552027810374,
+    43.20387446206094,
+    -78.3700929565023,
+    43.23419337969106
+  ],
+  "verification": {
+    "verified_at": 1792279643986,
+    "counties": [
+      "36073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

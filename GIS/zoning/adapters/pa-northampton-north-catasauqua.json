@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-northampton-north-catasauqua",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; North Catasauqua Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND MUNICODE = 36",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to North Catasauqua Borough by municipality code 36. Zone codes carry a municipal prefix. Link not mapped: the layer holds no ordinance links.",
+  "extent": [
+    -75.48419964931107,
+    40.65566707477378,
+    -75.46227792058454,
+    40.67105172318758
+  ],
+  "verification": {
+    "verified_at": 1792280411763,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

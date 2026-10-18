@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ar-pulaski-sherwood",
+  "publisher": "City of Sherwood, AR",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/TYC03dQ8ZCOCi5CP/arcgis/rest/services/Zoning/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05119"
+    ]
+  },
+  "fields": {
+    "link": "Hyperlink",
+    "zone": "ZONING",
+    "zone_name": "Description"
+  },
+  "notes": "City of Sherwood zoning districts, published by the city on ArcGIS Online. Covers Sherwood only.",
+  "extent": [
+    -92.24646959778774,
+    34.79969737903791,
+    -92.1613833550103,
+    34.91177678439032
+  ],
+  "verification": {
+    "verified_at": 1792277253123,
+    "counties": [
+      "05119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

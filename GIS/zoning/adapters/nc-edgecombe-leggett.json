@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-edgecombe-leggett",
+  "publisher": "Town of Leggett (via Edgecombe County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.edgecombecountync.gov/arcgis/rest/services/webmap/MapServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37065"
+    ]
+  },
+  "fields": {
+    "zone": "ALPHA"
+  },
+  "notes": "Town of Leggett zoning layer from the Edgecombe County webmap MapServer, layer 14. Single-jurisdiction layer; zone code in ALPHA, no district name field.",
+  "extent": [
+    -77.58912230645888,
+    35.98218126166136,
+    -77.57110334902524,
+    35.9968353250839
+  ],
+  "verification": {
+    "verified_at": 1792279782629,
+    "counties": [
+      "37065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ne-antelope-brunswick",
+  "publisher": "Antelope County NE Assessor GIS (Brunswick city zoning, inside corporate limits)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/bRhJe4i6arzgfrvF/arcgis/rest/services/Antelope_County_NE_Assessor_PRO/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31003"
+    ]
+  },
+  "fields": {
+    "zone": "Label"
+  },
+  "notes": "Village of Brunswick zoning districts inside corporate limits, from the county assessor GIS hosted copy (layer 7 Brunswick Zoning Inside). Zone codes in Label (e.g. TA, C-1); LAYER holds codes like Z-C1-CORP. Layer 6 (Brunswick Zoning Outside) not included.",
+  "extent": [
+    -97.980500668613,
+    42.33169245815648,
+    -97.96077848353691,
+    42.34259581476652
+  ],
+  "verification": {
+    "verified_at": 1792279436848,
+    "counties": [
+      "31003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

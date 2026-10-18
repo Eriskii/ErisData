@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ga-houston-perry",
+  "publisher": "City of Perry (EnerGov zoning layer, ArcGIS copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/RxsJNr2SJZqc8NIv/arcgis/rest/services/EnerGov/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13153"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "1=1",
+  "notes": "Copy hosted under a personal ArcGIS Online account (emersonchew_Perry), not confirmed as the City of Perry own service; Zoning layer of Perry EnerGov service, 7851 features with PIN field (may be parcel-level).",
+  "extent": [
+    -83.78772852248058,
+    32.41606144479967,
+    -83.62601228402526,
+    32.540231525548165
+  ],
+  "verification": {
+    "verified_at": 1792277855678,
+    "counties": [
+      "13153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

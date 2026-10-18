@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-palm-beach-delray-beach",
+  "publisher": "City of Delray Beach GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mydelraybeach.com/arcgis/rest/services/EnterpriseGIS_View/GIS_View/FeatureServer/21",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12099"
+    ]
+  },
+  "fields": {
+    "zone": "ABRV",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "City of Delray Beach GIS_View FeatureServer layer 21 Zoning (city-published, public host). LEGND_DESC holds code plus name; NOTES holds rezoning ordinance history.",
+  "extent": [
+    -80.13053288763567,
+    26.42087651808037,
+    -80.05581814686137,
+    26.491426153432105
+  ],
+  "verification": {
+    "verified_at": 1792277943425,
+    "counties": [
+      "12099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

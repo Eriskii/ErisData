@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-newport",
+  "publisher": "Town of Newport (via Carteret County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgisweb.carteretcountync.gov/arcgis/rest/services/Layers/Newport_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "37031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Town of Newport zoning districts, hosted on the Carteret County ArcGIS server; single-jurisdiction layer, 205 features.",
+  "extent": [
+    -76.9330997086081,
+    34.744466759188704,
+    -76.7994395393706,
+    34.835789889112014
+  ],
+  "verification": {
+    "verified_at": 1792279749462,
+    "counties": [
+      "37031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

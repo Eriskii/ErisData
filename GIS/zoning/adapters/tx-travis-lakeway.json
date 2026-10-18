@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-travis-lakeway",
+  "publisher": "City of Lakeway GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Ovzem8VyXkJhfTgz/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48453"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "label",
+    "zone_name": "district_class"
+  },
+  "notes": "City of Lakeway zoning districts (Zoning_Districts FeatureServer layer 0). Single-jurisdiction layer.",
+  "extent": [
+    -98.04194720911778,
+    30.31790368023981,
+    -97.94232365603672,
+    30.390624819321832
+  ],
+  "verification": {
+    "verified_at": 1792281200063,
+    "counties": [
+      "48453"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

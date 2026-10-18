@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "al-orange-beach",
+  "publisher": "City of Orange Beach",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/GWcL4L1LrmhPd7DI/arcgis/rest/services/Orange_Beach_Onsite_Review/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01003"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE"
+  },
+  "notes": "City of Orange Beach Zoning layer (layer 4 of Orange_Beach_Onsite_Review, a city project hosted on a consultant account). TYPE carries the district code.",
+  "extent": [
+    -87.65363456313072,
+    30.254767466939327,
+    -87.5147104832133,
+    30.341046067422223
+  ],
+  "verification": {
+    "verified_at": 1792277267812,
+    "counties": [
+      "01003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

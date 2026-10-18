@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-henderson-laurel-park",
+  "publisher": "Town of Laurel Park (via Henderson County GISWeb)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.hendersoncountync.gov/arcgis/rest/services/GISWeb/Primary_GISWeb_Layers/MapServer/82",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37089"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Town of Laurel Park zoning districts and ETJ, hosted on Henderson County GISWeb. Zone holds the district code; ETJ areas may appear in the same layer.",
+  "extent": [
+    -82.54097162053806,
+    35.29536830762594,
+    -82.47649888438015,
+    35.331009267413094
+  ],
+  "verification": {
+    "verified_at": 1792279810668,
+    "counties": [
+      "37089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-fulton-atlanta",
+  "publisher": "City of Atlanta Department of City Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.atlantaga.gov/dpcd/rest/services/LandUsePlanning/LandUsePlanning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13121"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Atlanta base zoning districts (Zoning District layer). Covers only City of Atlanta land. ZONEDESC holds municode links, not names.",
+  "extent": [
+    -84.55158948634748,
+    33.64751549074861,
+    -84.28948133969499,
+    33.887015855301776
+  ],
+  "verification": {
+    "verified_at": 1792277852083,
+    "counties": [
+      "13121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

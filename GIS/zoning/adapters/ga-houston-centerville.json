@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-houston-centerville",
+  "publisher": "City of Centerville (Middle Georgia Regional Commission hosted zoning map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services/City_of_Centerville_Zoning_Map_WFL1/FeatureServer/19",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Centerville zoning web map; Centerville Zoning layer, one feature per parcel carrying the parcel zoning code (parcel-level, not dissolved districts). The layer covers Centerville only. Zone codes raw, not zone-name mapped.",
+  "extent": [
+    -83.70893978934932,
+    32.617964315405004,
+    -83.65874654384076,
+    32.66257078707875
+  ],
+  "verification": {
+    "verified_at": 1792277905402,
+    "counties": [
+      "13153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

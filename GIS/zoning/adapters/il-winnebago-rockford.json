@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-winnebago-rockford",
+  "publisher": "City of Rockford GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://rockgis.rockfordil.gov/arcgissvr/rest/services/Rockford_Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17201"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDist",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "City of Rockford base zoning districts (city layer; not county-wide).",
+  "extent": [
+    -89.24007150175285,
+    42.141497459970594,
+    -88.93974186245754,
+    42.34071360987798
+  ],
+  "verification": {
+    "verified_at": 1792278194097,
+    "counties": [
+      "17201"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

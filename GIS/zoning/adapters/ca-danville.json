@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-danville",
+  "publisher": "Town of Danville (ArcGIS Online account mguenther_DanvilleCA)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Q1ummDfB2x5H3vGe/arcgis/rest/services/Zoning_Clean/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Danville Zoning District layer (Zoning_Clean service, layer 9), Danville town limits, published from the Town's own ArcGIS Online account. No jurisdiction field; all records are Danville.",
+  "extent": [
+    -122.02685178335796,
+    37.779703448639346,
+    -121.8914799380238,
+    37.84774054457013
+  ],
+  "verification": {
+    "verified_at": 1792277823618,
+    "counties": [
+      "06013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

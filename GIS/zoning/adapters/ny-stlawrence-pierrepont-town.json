@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-stlawrence-pierrepont-town",
+  "publisher": "St. Lawrence County / DANC GIS (Town of Pierrepont zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/66",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36089"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Town of Pierrepont layer from DANC regional zoning service (one layer per municipality). Ordinance links (PDF_Link) not populated, so no link field.",
+  "extent": [
+    -75.09683617445586,
+    44.45649045288392,
+    -74.93748234895727,
+    44.62681269801083
+  ],
+  "verification": {
+    "verified_at": 1792279726497,
+    "counties": [
+      "36089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

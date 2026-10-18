@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "mn-cass-walker",
+  "publisher": "City of Walker (Cass County GIS Municipalities service)",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://cassweb.casscountymn.gov/arcgis/rest/services/Municipalities/MapServer/72/query?where=1%3D1&outFields=*&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "27021"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_ID",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Layer 72 of the county Municipalities service (Zoning Classification), sampled at the City of Walker (47.10N, -94.59W); no pagination support, full query in one request",
+  "verification": {
+    "verified_at": 1792279031587,
+    "counties": [
+      "27021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

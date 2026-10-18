@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-wyoming-warsaw-village",
+  "publisher": "Village of Warsaw (Wyoming County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Sq7KUOgahdDkqoAp/arcgis/rest/services/AGOL_Village_Warsaw_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36121"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "notes": "Village of Warsaw zoning districts, published by Wyoming County GIS organization (jcraigmile_wyco).",
+  "extent": [
+    -78.15735462105283,
+    42.72451463297546,
+    -78.12423454479583,
+    42.7610790005708
+  ],
+  "verification": {
+    "verified_at": 1792279760544,
+    "counties": [
+      "36121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

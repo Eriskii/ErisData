@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-delaware-ostrander",
+  "publisher": "Village of Ostrander, Ohio (zoning layer hosted on Delaware County ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ziXVKVy3BiopMCCU/arcgis/rest/services/Village_of_Ostrander_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39041"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Ostrander zoning districts from Delaware County organization ArcGIS Online, 80 features. No district name field.",
+  "extent": [
+    -83.22196963939454,
+    40.25904417836847,
+    -83.19285782689425,
+    40.279390220194465
+  ],
+  "verification": {
+    "verified_at": 1792275815932,
+    "counties": [
+      "39041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

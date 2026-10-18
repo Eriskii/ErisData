@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-schuyler-odessa",
+  "publisher": "Schuyler County GIS (Village of Odessa zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/wGGTeQ7ADSSKDWnb/arcgis/rest/services/Village_of_Odessa_Zoning2/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36097"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Name"
+  },
+  "notes": "Village of Odessa zoning, hosted on the Schuyler County ArcGIS services account. Layer is in NY State Plane (wkid 102716); service reprojects to WGS84.",
+  "extent": [
+    -76.80269803576252,
+    42.32722356686118,
+    -76.77596699991372,
+    42.342490535897994
+  ],
+  "verification": {
+    "verified_at": 1792279618054,
+    "counties": [
+      "36097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

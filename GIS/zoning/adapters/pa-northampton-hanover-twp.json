@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "pa-northampton-hanover-twp",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Hanover Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "link": "Municipal_Website",
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND MUNICODE = 22",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Northampton municipality code 22 = Hanover Township (hanovertwp-nc.org). Zone codes carry a municipal prefix. Link field is the municipal website, not the ordinance text.",
+  "extent": [
+    -75.43048443681148,
+    40.633117425605555,
+    -75.3725566507978,
+    40.69426940010968
+  ],
+  "verification": {
+    "verified_at": 1792280232334,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

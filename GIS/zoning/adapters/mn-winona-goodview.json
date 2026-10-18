@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "mn-winona-goodview",
+  "publisher": "Winona County GIS (city of Goodview zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services4.arcgis.com/JRjQuFG9VKLnZxt7/arcgis/rest/services/Winona_Zoning_Project_gdb/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27169"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWN_CITY",
+    "zone": "ZONING_ID",
+    "zone_name": "ZONING"
+  },
+  "filter": "TOWN_CITY = 'Goodview'",
+  "notes": "City of Goodview zoning districts from the county Zoning_County_Municipalities layer (FeatureServer/0), filtered to TOWN_CITY = Goodview. ZONING_ID holds the district code, ZONING the name.",
+  "extent": [
+    -91.76039963943128,
+    44.052268192976534,
+    -91.68946663002741,
+    44.09374657686025
+  ],
+  "verification": {
+    "verified_at": 1792279243001,
+    "counties": [
+      "27169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

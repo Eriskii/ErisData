@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-seneca-eden",
+  "publisher": "Seneca County Auditor GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/b8eHPJ5KRnX3dHNa/arcgis/rest/services/EdenZoningLayer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39147"
+    ]
+  },
+  "fields": {
+    "zone": "TWPZoning"
+  },
+  "notes": "Eden Township, unincorporated Seneca County only. Published by the Seneca County Auditor GIS office.",
+  "extent": [
+    -83.18981149711398,
+    40.992981176072085,
+    -83.07371510981626,
+    41.08074823350957
+  ],
+  "verification": {
+    "verified_at": 1792276149244,
+    "counties": [
+      "39147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

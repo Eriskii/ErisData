@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nc-randolph-county",
+  "publisher": "Randolph County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.randolphcountync.gov/arcgis/rest/services/PW/PW_ParcelMap/FeatureServer/31",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37151"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DIST"
+  },
+  "notes": "Randolph County zoning districts layer; JURISDICTION names each municipality or county area; BASECODE also present",
+  "extent": [
+    -80.06684461161205,
+    35.50566844718267,
+    -79.5419804022489,
+    35.92066972358224
+  ],
+  "verification": {
+    "verified_at": 1792279872680,
+    "counties": [
+      "37151"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

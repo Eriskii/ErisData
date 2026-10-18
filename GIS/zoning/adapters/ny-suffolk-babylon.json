@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-suffolk-babylon",
+  "publisher": "Town of Babylon Planning (TOB_Planning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/u68hBtg9YrRh9HYX/arcgis/rest/services/opengov_feature_service/FeatureServer/111",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36103"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "Zone_Code1"
+  },
+  "notes": "Town of Babylon TOB_Zoning_Districts (Town planning account opengov_feature_service, layer 111). Zone code only, no name field; link = code URL. Town of Babylon only; villages are not in this layer. Source CRS 6539 (NY Long Island ftUS).",
+  "extent": [
+    -73.43995752555132,
+    40.60483343302254,
+    -73.26246085679949,
+    40.785160740425376
+  ],
+  "verification": {
+    "verified_at": 1792279993724,
+    "counties": [
+      "36103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

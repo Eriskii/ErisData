@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-denton-the-colony",
+  "publisher": "City of The Colony GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.thecolonytx.gov/arcgis/rest/services/PlanningZoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48121"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "ZONING"
+  },
+  "notes": "City of The Colony zoning districts (PlanningZoning MapServer layer 2). PD field holds planned development numbers; no zone name field. Ordinance field holds ordinance number.",
+  "extent": [
+    -96.96102436416267,
+    33.04653980139017,
+    -96.84138093594095,
+    33.13727920516927
+  ],
+  "verification": {
+    "verified_at": 1792280623471,
+    "counties": [
+      "48121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ne-lancaster-sprague",
+  "publisher": "Village of Sprague (zoning via Lincoln-Lancaster County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lincoln.ne.gov/public/rest/services/Planning/DevRevZoningandRegulations/MapServer/18",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONE"
+  },
+  "notes": "Village of Sprague zoning districts from Lincoln/Lancaster Planning Dept public GIS (layer 18 Sprague Zoning). OVERLAY field marks overlay districts; zone_name not provided by source.",
+  "extent": [
+    -96.76725979596864,
+    40.60953884483804,
+    -96.72111879539304,
+    40.64301285840033
+  ],
+  "verification": {
+    "verified_at": 1792279501300,
+    "counties": [
+      "31109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

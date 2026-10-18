@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-erie-clarence",
+  "publisher": "Town of Clarence (TOCPlanning2 ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/11apH55kQxcs4p4P/arcgis/rest/services/Town_of_Clarence_2026_Data/FeatureServer/10",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36029"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Cla"
+  },
+  "notes": "Town of Clarence base Zoning layer from the Town 2026 data service (layer 10); zone holds the district class. Overlay layer 9 not used.",
+  "extent": [
+    -78.69693997201558,
+    42.954678179358375,
+    -78.5760710029746,
+    43.09733445431598
+  ],
+  "verification": {
+    "verified_at": 1792279954203,
+    "counties": [
+      "36029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

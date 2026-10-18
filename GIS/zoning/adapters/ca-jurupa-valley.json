@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-jurupa-valley",
+  "publisher": "SCAG compiled city zoning (Jurupa Valley)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.scag.ca.gov/scaggis/rest/services/LDX/Zoning_poly_RV/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZN24_CITY"
+  },
+  "filter": "CITY = 'Jurupa Valley'",
+  "notes": "SCAG 2024 compiled city zoning (YEAR_ZN 2024), parcel-level polygons; city codes in ZN24_CITY. No name or ordinance link field.",
+  "extent": [
+    -117.55366717324168,
+    33.949465204317264,
+    -117.36716386960192,
+    34.03439368539875
+  ],
+  "verification": {
+    "verified_at": 1792278339889,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

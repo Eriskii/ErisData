@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-delaware-shawnee-hills",
+  "publisher": "Village of Shawnee Hills, Ohio (zoning layer hosted on Delaware County ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ziXVKVy3BiopMCCU/arcgis/rest/services/shawneehillszon/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39041"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DSC_ZONE"
+  },
+  "notes": "Village of Shawnee Hills zoning districts from Delaware County organization ArcGIS Online, 60 features.",
+  "extent": [
+    -83.14509554253132,
+    40.15235446974476,
+    -83.12832364208235,
+    40.167201239296546
+  ],
+  "verification": {
+    "verified_at": 1792275764709,
+    "counties": [
+      "39041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

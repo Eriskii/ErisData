@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "me-cumberland-bridgton",
+  "publisher": "Town of Bridgton, Maine (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/u6ji7FwySp1Vr9ra/arcgis/rest/services/Bridgton/FeatureServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23005"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Zoning layer from the Town of Bridgton WebGIS (View Only Layers service, layer 17, 359 features). Zoning attribute holds the district code; source in EPSG:26919. Shoreland overlays are separate layers and are not used.",
+  "extent": [
+    -70.86840937457683,
+    43.94525104370289,
+    -70.64592426880593,
+    44.139913588600976
+  ],
+  "verification": {
+    "verified_at": 1792279157894,
+    "counties": [
+      "23005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

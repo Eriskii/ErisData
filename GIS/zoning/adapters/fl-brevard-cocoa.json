@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-brevard-cocoa",
+  "publisher": "City of Cocoa GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Tex1uhbqnOZPx6qT/arcgis/rest/services/Public_View_Cocoa_Zoning_with_Split_Lots_June_2023_view/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12009"
+    ]
+  },
+  "fields": {
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "City of Cocoa zoning, public view June 2023 layer with split lots; zone codes are blank on some unassigned parcels, so only the zone description is mapped. Covers Cocoa only.",
+  "extent": [
+    -80.82925316829514,
+    28.345527351888578,
+    -80.72003579341164,
+    28.422761963421927
+  ],
+  "verification": {
+    "verified_at": 1792277716308,
+    "counties": [
+      "12009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

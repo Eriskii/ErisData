@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-winneconne-village",
+  "publisher": "Village of Winneconne (via Winnebago County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://wcgis3.co.winnebago.wi.us/wings/rest/services/LandUsePlanning/ZoningCompositeVillageOfWinneconne/MapServer/24",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONEJURIS",
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Village of Winneconne zoning districts, hosted by Winnebago County GIS; village only (Town of Winneconne is separate).",
+  "extent": [
+    -88.73357085237267,
+    44.09483401992581,
+    -88.69108535582882,
+    44.1214969113363
+  ],
+  "verification": {
+    "verified_at": 1792281350976,
+    "counties": [
+      "55139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

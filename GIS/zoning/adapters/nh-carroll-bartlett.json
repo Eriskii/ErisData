@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "nh-carroll-bartlett",
+  "publisher": "NH Office of Planning and Development / NH Zoning Atlas (upstategis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Atlas_Zoning_Districts_Buildable/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33003"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "AbbreviatedDistrict",
+    "zone_name": "Full_District_Name"
+  },
+  "filter": "County = 'Carroll' AND Overlay = 'No' AND Jurisdiction = 'Bartlett'",
+  "notes": "Statewide NH Zoning Atlas layer, filtered to Carroll County town Bartlett (Overlay = No). Compiled by the state from municipal ordinances; not the town own service.",
+  "extent": [
+    -71.31991347496114,
+    44.0551568271913,
+    -71.0953752969926,
+    44.13965572920707
+  ],
+  "verification": {
+    "verified_at": 1792279568775,
+    "counties": [
+      "33003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

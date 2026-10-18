@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-weber-hooper",
+  "publisher": "Hooper City (digitized by Wasatch Front Regional Council LAA program)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/taguadKoI1XFwivx/arcgis/rest/services/LAA_Community_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49057"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "Zone",
+    "zone_name": "GLU"
+  },
+  "filter": "PARCEL_CITY = 'Hooper'",
+  "notes": "Hooper City zoning digitized by WFRC through its Local Administrative Advisor (LAA) program; layer also holds other towns, filtered to Hooper. Zone is the district code; GLU is the general land use category.",
+  "extent": [
+    -112.36912105742265,
+    41.15262922653642,
+    -112.08095480215675,
+    41.21291596020547
+  ],
+  "verification": {
+    "verified_at": 1792281534788,
+    "counties": [
+      "49057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

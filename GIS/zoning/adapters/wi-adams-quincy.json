@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-adams-quincy",
+  "publisher": "Adams County Planning and Zoning (Town of Quincy)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/cmcEK45KcVMmaCd7/arcgis/rest/services/Town_of_Quincy_Comprehensive_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55001"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Quincy only (not in wi-adams). Parcel-level layer: each feature is a parcel (GISPIN) carrying its town zoning code in Zoning; no zone name or ordinance link fields. Ord_Date and Ord_Num not mapped.",
+  "extent": [
+    -89.95484641999997,
+    43.81843616480701,
+    -89.8372457791038,
+    43.966572727549185
+  ],
+  "verification": {
+    "verified_at": 1792281216145,
+    "counties": [
+      "55001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

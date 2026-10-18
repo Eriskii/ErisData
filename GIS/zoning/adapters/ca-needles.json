@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-needles",
+  "publisher": "County of San Bernardino (combined zoning layer, City of Needles slice)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services/Combined_Zoning_Extra_Data/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CODE",
+    "zone_name": "ZONING_DESC"
+  },
+  "filter": "JURISDICTION_NAME = 'CITY OF NEEDLES'",
+  "notes": "County-hosted combined zoning layer (county org), filtered to City of Needles (47 polygons).",
+  "extent": [
+    -114.66801915534732,
+    34.7470086541153,
+    -114.55573516011194,
+    34.9250226699205
+  ],
+  "verification": {
+    "verified_at": 1792278138270,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

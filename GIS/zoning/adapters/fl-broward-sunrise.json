@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-broward-sunrise",
+  "publisher": "City of Sunrise GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.sunrisefl.gov/erp/rest/services/ENERGOV/ENERGOV_MASTER_DISPLAY1/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE"
+  },
+  "notes": "City of Sunrise Zoning Districts layer (ENERGOV_MASTER_DISPLAY1 map service, layer 13). City limits only. Only ZONECODE attribute (e.g. B-2, PDD).",
+  "extent": [
+    -80.36589443858071,
+    26.10158821920147,
+    -80.22628488063334,
+    26.194225684179756
+  ],
+  "verification": {
+    "verified_at": 1792277889706,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "co-el-paso-green-mountain-falls",
+  "publisher": "El Paso County GIS (consolidated zoning, Town of Green Mountain Falls entries)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.elpasoco.com/arcgis2/rest/services/Public/ZoningConsolidatedEPC/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Zoning_Orig",
+    "zone_name": "ZoningOrig_Desc"
+  },
+  "filter": "Jurisdiction = 'Green Mountain Falls'",
+  "notes": "County-hosted consolidated zoning layer; this spec keeps only Jurisdiction = Green Mountain Falls (Town of Green Mountain Falls).",
+  "extent": [
+    -105.02765175165229,
+    38.926905133958634,
+    -105.00894290450395,
+    38.94162657678882
+  ],
+  "verification": {
+    "verified_at": 1792277491264,
+    "counties": [
+      "08041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

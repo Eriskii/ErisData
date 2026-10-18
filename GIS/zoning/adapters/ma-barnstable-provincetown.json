@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-barnstable-provincetown",
+  "publisher": "Cape Cod Commission (for Town of Provincetown)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-services.capecodcommission.org/arcgis/rest/services/ePermit/ePermit_Provincetown/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Provincetown zoning layer served by the Cape Cod Commission ePermit service; 14 features; town-only layer; some districts coded as Cape Cod National Seashore (TYPE)",
+  "extent": [
+    -70.24624770168757,
+    42.01931022715734,
+    -70.1461750772076,
+    42.082977772943885
+  ],
+  "verification": {
+    "verified_at": 1792279086472,
+    "counties": [
+      "25001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

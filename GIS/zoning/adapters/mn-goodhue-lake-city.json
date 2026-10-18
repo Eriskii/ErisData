@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-goodhue-lake-city",
+  "publisher": "City of Lake City (hosted by Goodhue County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://publicmaps.co.goodhue.mn.us/arcgis/rest/services/GCUGGIS/LC_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27049"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoneType"
+  },
+  "notes": "City of Lake City zoning districts, hosted on Goodhue County GIS server. Single-city layer; ZoneDesc is an unused integer.",
+  "extent": [
+    -92.31074419415006,
+    44.42128890657857,
+    -92.23827404117509,
+    44.48672100326295
+  ],
+  "verification": {
+    "verified_at": 1792278953676,
+    "counties": [
+      "27049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

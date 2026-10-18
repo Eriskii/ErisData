@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ny-warren-lake-george-town",
+  "publisher": "Warren County GIS (Town of Lake George zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Fg3XpDIUTR3JZZES/arcgis/rest/services/LakeGeorgeZoning_MASTER/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36113"
+    ]
+  },
+  "fields": {
+    "link": "ZONE_URL",
+    "zone": "ZONE",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "Town of Lake George zoning maintained by Warren County GIS. Single-town layer.",
+  "extent": [
+    -73.7718496388299,
+    43.37228520729951,
+    -73.67822922444014,
+    43.5103012007221
+  ],
+  "verification": {
+    "verified_at": 1792279670355,
+    "counties": [
+      "36113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

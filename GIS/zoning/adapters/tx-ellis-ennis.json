@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-ellis-ennis",
+  "publisher": "City of Ennis (GIS hosted by Halff)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.halff.com/ags/rest/services/Ennis/Ennis_Zoning_Public/MapServer/576",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48139"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "Type"
+  },
+  "notes": "City of Ennis zoning districts only. Layer is the Zoning Color Coded layer of Ennis_Zoning_Public; zone from ZoningCode. Type field used as name; verify in report.",
+  "extent": [
+    -96.76018368609759,
+    32.261566755971565,
+    -96.44645385719588,
+    32.43439100675545
+  ],
+  "verification": {
+    "verified_at": 1792280616708,
+    "counties": [
+      "48139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

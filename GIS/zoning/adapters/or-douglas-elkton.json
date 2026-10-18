@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "or-douglas-elkton",
+  "publisher": "Douglas County GIS (City of Elkton zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.douglas.or.us/server/rest/services/Planning/DC_City_Zones/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Douglas County GIS layer of City of Elkton zoning districts (one of several city layers in DC_City_Zones). Only ZONE published; no separate district name field.",
+  "extent": [
+    -123.57608488457676,
+    43.6319931632118,
+    -123.56114307929768,
+    43.64464418207941
+  ],
+  "verification": {
+    "verified_at": 1792280123801,
+    "counties": [
+      "41019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

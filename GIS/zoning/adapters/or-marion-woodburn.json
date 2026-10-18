@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "or-marion-woodburn",
+  "publisher": "City of Woodburn (GIS Online Zoning Map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ci.woodburn.or.us/arcgis/rest/services/Online_Zoning_Map/MapServer/126",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_CLASS"
+  },
+  "notes": "City of Woodburn zoning, taxlot-based polygons from the city Online Zoning Map MapServer layer 126 (Woodburn Zoning).",
+  "extent": [
+    -122.89839714996296,
+    45.12668305686862,
+    -122.82093793071422,
+    45.16503592228392
+  ],
+  "verification": {
+    "verified_at": 1792280056564,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

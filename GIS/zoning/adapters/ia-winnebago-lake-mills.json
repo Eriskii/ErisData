@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ia-winnebago-lake-mills",
+  "publisher": "Iowa State University compilation of Iowa city zoning (hosted by ISU), Lake Mills rows",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19189"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Lake Mills'",
+  "notes": "Unofficial copy: ISU compilation of Iowa city zoning (as of 2/27/25), Lake Mills rows digitized by NM. The City of Lake Mills publishes its zoning map only as a document (docview.aspx) and a zoninghub viewer with no queryable layer found. No ordinance link field in source.",
+  "extent": [
+    -93.55242198367363,
+    43.4010247411979,
+    -93.51748461671043,
+    43.43033074291526
+  ],
+  "verification": {
+    "verified_at": 1792278479348,
+    "counties": [
+      "19189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

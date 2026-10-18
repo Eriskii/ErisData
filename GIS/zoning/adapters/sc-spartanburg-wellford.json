@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sc-spartanburg-wellford",
+  "publisher": "Town of Wellford (zoning layer published by its consultant, summiteg, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/1ttwkTr24vz3npzH/arcgis/rest/services/WellfordZoning_Jan2026_WFL1/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45083"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Cla"
+  },
+  "notes": "Parcel-level layer (Zoning-Jan_2025: parcel attributes plus zoning class column), used as last resort since Wellford publishes no district layer; zone is Zoning_Cla. Published by the Town of Wellford consultant account (summiteg) on ArcGIS Online.",
+  "extent": [
+    -82.11959013184604,
+    34.92122146293737,
+    -82.03402677854064,
+    34.9991502140126
+  ],
+  "verification": {
+    "verified_at": 1792280293277,
+    "counties": [
+      "45083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

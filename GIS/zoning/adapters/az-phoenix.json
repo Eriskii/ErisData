@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-phoenix",
+  "publisher": "City of Phoenix Planning and Development (EGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.phoenix.gov/pub/rest/services/Public/Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Phoenix zoning boundaries (city limits only), digitized 1991 and updated as land is rezoned. ZONING holds the district code (e.g. C-2, S-1); overlay-style SP suffixes are in REDEFINE1. No separate district name attribute, so zone_name repeats the code.",
+  "extent": [
+    -112.3259765655656,
+    33.289971370648736,
+    -111.92547084061978,
+    33.91869345830944
+  ],
+  "verification": {
+    "verified_at": 1792277206254,
+    "counties": [
+      "04013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

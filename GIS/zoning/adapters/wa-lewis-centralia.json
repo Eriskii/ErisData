@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "wa-lewis-centralia",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), City of Centralia",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "link": "ReferenceURL",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '041' AND Jurisdiction = 'Centralia'",
+  "notes": "Statewide WA Zoning Atlas prototype layer, filtered to Lewis County jurisdiction Centralia (city zoning published by Commerce). Centralia zoning maps are on cityofcentralia.com.",
+  "extent": [
+    -123.03537189541032,
+    46.69155236975719,
+    -122.92398261322248,
+    46.76453398507903
+  ],
+  "verification": {
+    "verified_at": 1792281005189,
+    "counties": [
+      "53041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-blythe",
+  "publisher": "City of Blythe (zoning compiled by SCAG, Zoning_poly_RV)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.scag.ca.gov/scaggis/rest/services/LDX/Zoning_poly_RV/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZN24_CITY"
+  },
+  "filter": "CITY = 'Blythe'",
+  "notes": "SCAG regional compiled city zoning (YEAR_ZN 2024), parcel-level polygons. Zone codes are the city codes in ZN24_CITY (e.g. R-L-1, R-L-2). No name or ordinance link field.",
+  "extent": [
+    -114.9386476175402,
+    33.540116570982775,
+    -114.51549113173576,
+    33.694841405689715
+  ],
+  "verification": {
+    "verified_at": 1792278008945,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-stamford",
+  "publisher": "City of Stamford GIS (StamfordGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/V28nrLFIbcYZbnPl/arcgis/rest/services/City_of_Stamford_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09190"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Stamford zoning districts, 375 polygons, city GIS layer. ZONE_Type and DesignDistrict hold overlay/design districts and are not used. Single-jurisdiction layer.",
+  "extent": [
+    -73.6343022502963,
+    41.01617139269671,
+    -73.49684875480608,
+    41.18023880865128
+  ],
+  "verification": {
+    "verified_at": 1792277574652,
+    "counties": [
+      "09190"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

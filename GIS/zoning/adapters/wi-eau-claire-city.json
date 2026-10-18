@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "wi-eau-claire-city",
+  "publisher": "City of Eau Claire (zoning layer hosted by Wisconsin PSC, Western Wisconsin GIS)",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://maps.psc.wi.gov/server/rest/services/Electric/WesternWisconsin_5CE158/MapServer/22/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "55035"
+    ]
+  },
+  "fields": {
+    "zone": "zoning_cla",
+    "zone_name": "DescAssume"
+  },
+  "notes": "City of Eau Claire zoning, 2015 vintage, served by Wisconsin PSC Western Wisconsin map service (layer also holds other western Wisconsin zoning; City of Eau Claire districts are the Eau Claire-named ones, CountyName = Eau Claire). Verify currency against city of Eau Claire planning.",
+  "verification": {
+    "verified_at": 1792281155662,
+    "counties": [
+      "55035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

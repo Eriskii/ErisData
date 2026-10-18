@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-kane-batavia",
+  "publisher": "City of Batavia, IL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://webapps.bataviail.gov/arcgis25/rest/services/External/ZONING_20/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17089"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_CLASS"
+  },
+  "notes": "City of Batavia base zoning districts (BATAVIA ZONING DISTRICTS layer). Overlays are a separate layer (MapServer/0) and are not used. Covers the city, which spans Kane and DuPage counties. zone_name holds the district class code (e.g. R0, R3); no link field is filled.",
+  "extent": [
+    -88.36498417890553,
+    41.81667859012922,
+    -88.25969399705517,
+    41.87127547543856
+  ],
+  "verification": {
+    "verified_at": 1792278329918,
+    "counties": [
+      "17089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "fl-lee-cape-coral",
+  "publisher": "City of Cape Coral GIS (CapeGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://capeims.capecoral.gov/arcgis/rest/services/AGOL/Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12071"
+    ]
+  },
+  "fields": {
+    "link": "LDR_Hyperlink",
+    "zone": "LMLUZN",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "City of Cape Coral zoning from the city own AGOL Zoning service (capeims.capecoral.gov); current, unlike the county historic copy.",
+  "extent": [
+    -82.09174438756794,
+    26.525207224215983,
+    -81.90022801099585,
+    26.770048004710468
+  ],
+  "verification": {
+    "verified_at": 1792277706713,
+    "counties": [
+      "12071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-stlawrence-rensselaer-falls-village",
+  "publisher": "St. Lawrence County Planning / DANC GIS (Village of Rensselaer Falls zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/69",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36089"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp"
+  },
+  "notes": "Village of Rensselaer Falls layer from DANC regional zoning service (one layer per municipality). zone_name (ZnTypFl) is empty in the source, so only zone is mapped. Ordinance links (PDF_Link) not populated.",
+  "extent": [
+    -75.32735812265307,
+    44.58534391837307,
+    -75.31052010052689,
+    44.596564849027594
+  ],
+  "verification": {
+    "verified_at": 1792279787971,
+    "counties": [
+      "36089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

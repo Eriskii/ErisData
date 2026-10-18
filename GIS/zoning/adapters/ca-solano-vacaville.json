@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-solano-vacaville",
+  "publisher": "City of Vacaville (hosted by Solano County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://solanocountygis.com/server/rest/services/Aumentum/AumentumInternal/MapServer/19",
+    "page_size": 10,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06095"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "City of Vacaville zoning districts, served from Solano County Aumentum MapServer layer 19. Covers only the City of Vacaville.",
+  "extent": [
+    -122.03179400701572,
+    38.30817042425762,
+    -121.89689204715296,
+    38.417033071725314
+  ],
+  "verification": {
+    "verified_at": 1792277507963,
+    "counties": [
+      "06095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

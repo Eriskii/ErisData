@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-dukes-aquinnah",
+  "publisher": "Dukes County GIS (mvdukes) - Aquinnah zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/FNsEJ848HT5uDOHD/arcgis/rest/services/duk_zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "PRIM_USE"
+  },
+  "notes": "Town of Aquinnah zoning district layer, hosted by Dukes County GIS; layer 0 of duk_zoning service (one layer per town).",
+  "extent": [
+    -70.83927238912058,
+    41.312739043839635,
+    -70.76519315265925,
+    41.35609725159668
+  ],
+  "verification": {
+    "verified_at": 1792278826046,
+    "counties": [
+      "25007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

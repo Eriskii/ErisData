@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-chemung-elmira-heights",
+  "publisher": "Village of Elmira Heights / Southern Tier Central Regional Planning (STC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/qO6xd1V1VbSyViir/arcgis/rest/services/VofElmiraHeights/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36015"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "DistrictName"
+  },
+  "notes": "Last resort: this layer is a parcel layer (one feature per parcel, about 1,900) carrying each parcel zoning in Zoning and DistrictName; no standalone district layer found for the Village of Elmira Heights. Hosted by STC regional planning GIS.",
+  "extent": [
+    -76.83976216912497,
+    42.118093656579624,
+    -76.81075797231524,
+    42.13473449944135
+  ],
+  "verification": {
+    "verified_at": 1792279592169,
+    "counties": [
+      "36015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

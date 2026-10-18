@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-wake-garner",
+  "publisher": "Town of Garner (via Wake County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.wake.gov/arcgis/rest/services/Planning/Zoning/MapServer/19",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37183"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS"
+  },
+  "notes": "Town of Garner zoning districts, served by Wake County GIS. CLASS holds the district code.",
+  "extent": [
+    -78.7065714086193,
+    35.61711370677936,
+    -78.50761381721232,
+    35.741699196568554
+  ],
+  "verification": {
+    "verified_at": 1792279939591,
+    "counties": [
+      "37183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

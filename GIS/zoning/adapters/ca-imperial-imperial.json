@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-imperial-imperial",
+  "publisher": "SCAG (Southern California Association of Governments) compiled city zoning, Zoning_poly_IM",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.scag.ca.gov/scaggis/rest/services/LDX/Zoning_poly_IM/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06025"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZN24_CITY",
+    "zone_name": "ZN24_SCAG"
+  },
+  "filter": "CITY = 'Imperial'",
+  "notes": "Copy hosted by SCAG (regional planning agency), not the City of Imperial itself; the city publishes a PDF zoning map. Parcel-level 2024 zoning codes as compiled by SCAG; ZN24_CITY is the city code, ZN24_SCAG the SCAG standard category. Used because no official city layer is queryable. City of Imperial limits only.",
+  "extent": [
+    -115.59522697950185,
+    32.8177062926741,
+    -115.53466287093003,
+    32.87662548062408
+  ],
+  "verification": {
+    "verified_at": 1792277390806,
+    "counties": [
+      "06025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

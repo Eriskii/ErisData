@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-calumet-sherwood",
+  "publisher": "Village of Sherwood (via Calumet County Land Information Office)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://calmaps.co.calumet.wi.us/server/rest/services/ZoningMunicipal/MapServer/22",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55015"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Abbreviation",
+    "zone_name": "Zoning"
+  },
+  "notes": "Village of Sherwood zoning districts from the Calumet County municipal zoning service (layer 22). zone_name taken from the Zoning attribute, which holds the district name.",
+  "extent": [
+    -88.30816689153596,
+    44.157256464586936,
+    -88.24670056575752,
+    44.190933543026205
+  ],
+  "verification": {
+    "verified_at": 1792281210028,
+    "counties": [
+      "55015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

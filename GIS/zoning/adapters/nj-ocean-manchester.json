@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nj-ocean-manchester",
+  "publisher": "Manchester Township (zoning web map, hosted by CGrossRVE on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/CtqtskKS8sLHdIkJ/arcgis/rest/services/Manchester_Twp_Zoning_Map/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34029"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "region",
+    "zone": "zone",
+    "zone_name": "desc_"
+  },
+  "notes": "Manchester Township zoning districts (98 features, layer Zoning in the Manchester_Twp_Zoning_Map service that backs the township web zoning map). Region field holds CAFRA/Pinelands area flag, not a municipality, so jurisdiction is not used. Host is a consultant-run ArcGIS Online org (RVE); township publishes its adopted map as PDF (Ordinance 24-009, 2024).",
+  "extent": [
+    -74.4968593035191,
+    39.85467748503958,
+    -74.23111195696859,
+    40.05581575454437
+  ],
+  "verification": {
+    "verified_at": 1792279897742,
+    "counties": [
+      "34029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

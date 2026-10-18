@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-essex-north-andover",
+  "publisher": "Town of North Andover, MA (GIS map service, GeneralCodeMapLink)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/5jnMzPajOXsbciTU/arcgis/rest/services/GeneralCodeMapLink/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Town of North Andover zoning districts (layer 1 Zoning; overlays in layer 0 excluded). Hosted by the town for its permit map service.",
+  "extent": [
+    -71.14638722422565,
+    42.60393545494217,
+    -71.02155719340199,
+    42.74120819668758
+  ],
+  "verification": {
+    "verified_at": 1792279003030,
+    "counties": [
+      "25009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nc-mecklenburg-matthews",
+  "publisher": "Town of Matthews",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Ueg5beFsCRb0dUTQ/arcgis/rest/services/Zoning_Districts/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37119"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipal",
+    "zone": "basedistCD",
+    "zone_name": "base_des"
+  },
+  "notes": "Town of Matthews zoning districts (Matthews Zoning Data, town open data). basedistCD holds base district code incl. (CD) conditional suffix. Layer 4 of the service.",
+  "extent": [
+    -80.76354438681327,
+    35.0813812101386,
+    -80.65454335731219,
+    35.1730704256912
+  ],
+  "verification": {
+    "verified_at": 1792279972754,
+    "counties": [
+      "37119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

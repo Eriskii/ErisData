@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-butte-paradise",
+  "publisher": "Town of Paradise (hosted by CSU Chico Geographic Information Center)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://nspdcwebsrv.csuchico.edu/nspdcarcsrv01/rest/services/Town_of_Paradise/Town_of_Paradise_Web_External/MapServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06007"
+    ]
+  },
+  "fields": {
+    "zone": "zn_paradis",
+    "zone_name": "lu_paradis"
+  },
+  "notes": "Town of Paradise Zoning layer from the Town web external MapServer on CSU Chico GIC server. zone_name field is Land Use, not a zone description; mapped as a secondary attribute. Covers Town of Paradise only.",
+  "extent": [
+    -121.65533275453508,
+    39.72398928847482,
+    -121.56152002456017,
+    39.80179529222456
+  ],
+  "verification": {
+    "verified_at": 1792277430676,
+    "counties": [
+      "06007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-racine-wind-point",
+  "publisher": "Village of Wind Point (via Racine County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.racinecounty.com/arcgis/rest/services/Zoning/WindPointZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Village of Wind Point zoning districts from the county Zoning folder.",
+  "extent": [
+    -87.78215065710448,
+    42.7695220928386,
+    -87.7571333712649,
+    42.79491476610448
+  ],
+  "verification": {
+    "verified_at": 1792281251905,
+    "counties": [
+      "55101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

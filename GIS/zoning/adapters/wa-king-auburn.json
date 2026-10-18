@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-king-auburn",
+  "publisher": "City of Auburn GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.auburnwa.gov/mapping/rest/services/Planning/Planning/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "link": "ZONINGCODELINK",
+    "zone": "ZONINGNAME",
+    "zone_name": "ZONINGDEFINITION"
+  },
+  "notes": "City of Auburn zoning districts, Auburn only (King County part of the city). Zone field holds the zoning name code.",
+  "extent": [
+    -122.28216216670587,
+    47.239935351874266,
+    -122.1434769769985,
+    47.35495646677881
+  ],
+  "verification": {
+    "verified_at": 1792281110217,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-wood-rossford",
+  "publisher": "City of Rossford, Ohio",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/5SKFN23wp6XAncuQ/arcgis/rest/services/Map/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39173"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Rossford own ArcGIS Online service (publisher taudet@rossfordohio.com). Parcel-level layer: each parcel carries its zoning code in Zoning, so codes repeat per parcel; no separate district polygon layer found. Rossford is a city, so the whole layer is city land.",
+  "extent": [
+    -83.59289233755116,
+    41.53885862902822,
+    -83.54162852009158,
+    41.618047414612604
+  ],
+  "verification": {
+    "verified_at": 1792276145200,
+    "counties": [
+      "39173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

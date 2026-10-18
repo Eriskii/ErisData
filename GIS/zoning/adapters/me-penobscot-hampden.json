@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "me-penobscot-hampden",
+  "publisher": "Town of Hampden, Maine (HampdenPlanner)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/LPbn007C4SUI0Z1s/arcgis/rest/services/Zoning/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23019"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneSymbol",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Town of Hampden unofficial zoning map layer (Zoning2015, last amended October 2015), published by the town planner on its ArcGIS Online organization. Base districts only; overlay layers in the same service are not used.",
+  "extent": [
+    -68.96720613593588,
+    44.680483448158256,
+    -68.78278171557443,
+    44.783573836010746
+  ],
+  "verification": {
+    "verified_at": 1792278783047,
+    "counties": [
+      "23019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

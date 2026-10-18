@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-franklin-perry-township",
+  "publisher": "Franklin County Economic Development & Planning (EDPGIS), for Perry Township",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/7r2Wl09a1Apy459r/arcgis/rest/services/Perry_Twp_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Perry Township zoning from the county EDPGIS host (Perry_Twp_Zoning, last updated 2008 or 2009). Parcel-level polygons with PID; ZONING holds the district code only, no name field. Last resort for a district layer.",
+  "extent": [
+    -83.11146591210407,
+    40.00431146746955,
+    -83.04045023741094,
+    40.13881354459699
+  ],
+  "verification": {
+    "verified_at": 1792276151736,
+    "counties": [
+      "39049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

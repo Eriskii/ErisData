@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-marion-belleview",
+  "publisher": "City of Belleview (zoning districts layer, ArcGIS Online account tkukitz)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/NrTbmOHEuJ2GZWam/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Belleview zoning districts, linked from the city Belleview Map Viewers and the Marion County GIS portal; city-wide.",
+  "extent": [
+    -82.09061047717194,
+    29.02587833374872,
+    -82.03250087330927,
+    29.084266639756088
+  ],
+  "verification": {
+    "verified_at": 1792277641113,
+    "counties": [
+      "12083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nj-passaic-wayne",
+  "publisher": "Township of Wayne (Wayne_EnerGov GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/rDs9j9S06t6vk2zd/arcgis/rest/services/Wayne_EnerGov/FeatureServer/125",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "LAND_USE"
+  },
+  "notes": "Wayne Township zoning layer from the township EnerGov GIS service (layer Zoning, 305 features). zone_name is the LAND_USE category, not the district description. Only Wayne land.",
+  "extent": [
+    -74.28928461465529,
+    40.88272224583488,
+    -74.19579189899666,
+    41.01385116198729
+  ],
+  "verification": {
+    "verified_at": 1792279638033,
+    "counties": [
+      "34031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

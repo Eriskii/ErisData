@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-schoharie-schoharie-town",
+  "publisher": "Town of Schoharie (via Schoharie County GIS, VHB)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://spatialags.vhb.com/arcgis/rest/services/20327_Schoharie/NY_County_Schoharie/MapServer/42",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36095"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Schoharie zoning district layer from the Schoharie County GIS map service (hosted by VHB for the county).",
+  "extent": [
+    -74.387666748116,
+    42.6281607963022,
+    -74.24106998250282,
+    42.719105176925154
+  ],
+  "verification": {
+    "verified_at": 1792279630657,
+    "counties": [
+      "36095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

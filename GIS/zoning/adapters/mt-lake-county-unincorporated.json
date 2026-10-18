@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "mt-lake-county-unincorporated",
+  "publisher": "Lake County GIS (Zoning_Districts layer, county zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/qQ6tqy9VSUry3ySt/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30047"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "DISTRICT",
+    "zone": "SUBDISTRIC"
+  },
+  "filter": "DISTRICT IN ('East Shore','Finley Point','Kings Point','Kootenai Lodge','Lake Mary Ronan','Lower Bug Creek','Masumola','Melita Island','Merritt Ranch Sub District A','Merritt Ranch Sub District B','South of Ronan','Stoneridge','Swan Sites','Upper West Shore')",
+  "notes": "County GIS-hosted layer (services2.arcgis.com/qQ6tqy9VSUry3ySt, Lake County). Unincorporated county zoning districts (named subdivisions and areas such as Finley Point, Swan Sites, Upper West Shore, Lake Mary Ronan); SUBDISTRIC holds the district code, blank for some. Filtered to county areas, excluding City of Polson, City of Ronan, and St. Ignatius rows. Some polygons have a blank SUBDISTRIC, so zone is missing there.",
+  "extent": [
+    -114.59626131145838,
+    47.48874209160909,
+    -113.87329574650012,
+    48.03595382793654
+  ],
+  "verification": {
+    "verified_at": 1792279557890,
+    "counties": [
+      "30047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

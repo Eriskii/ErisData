@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-san-ramon",
+  "publisher": "City of San Ramon Planning Department (enCodePlus)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.sanramon.ca.gov/server/rest/services/enCodePlus/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06013"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Code_ECP",
+    "zone_name": "Zoning_Desc_ECP"
+  },
+  "notes": "City of San Ramon zoning districts (city limits), enCodePlus layer.",
+  "extent": [
+    -122.00370484992436,
+    37.722820663521645,
+    -121.8769780950014,
+    37.79510637127324
+  ],
+  "verification": {
+    "verified_at": 1792277386540,
+    "counties": [
+      "06013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-middlesex-westbrook",
+  "publisher": "RiverCOG (Lower Connecticut River Valley Council of Governments), Town of Westbrook zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uH7GnAlGDzMooG4B/arcgis/rest/services/RiverCOG_Regional_Zoning/FeatureServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09130"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Westbrook layer from RiverCOG regional zoning service",
+  "extent": [
+    -72.5138723114641,
+    41.2549496197683,
+    -72.41627420980515,
+    41.347953511590525
+  ],
+  "verification": {
+    "verified_at": 1792277547233,
+    "counties": [
+      "09130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

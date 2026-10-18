@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-wyoming-middlebury",
+  "publisher": "Town of Middlebury (Wyoming County GIS organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Sq7KUOgahdDkqoAp/arcgis/rest/services/AGOL_Middlebury_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36121"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Middlebury zoning districts, published by Wyoming County GIS organization (jcraigmile_wyco). Single-jurisdiction layer; 5 features.",
+  "extent": [
+    -78.19188699926691,
+    42.782270825185805,
+    -78.07339657233999,
+    42.87048934251411
+  ],
+  "verification": {
+    "verified_at": 1792279813961,
+    "counties": [
+      "36121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

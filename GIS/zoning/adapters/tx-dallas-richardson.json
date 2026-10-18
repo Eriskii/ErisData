@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-dallas-richardson",
+  "publisher": "City of Richardson GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.cor.gov/arcgis/rest/services/DevelopmentServices/ZoningDistricts/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48113"
+    ]
+  },
+  "fields": {
+    "link": "CZOLOC",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Richardson zoning districts (general reference; the Comprehensive Zoning Ordinance governs). Special-use points and sub-districts are separate layers. Covers Richardson.",
+  "extent": [
+    -96.76967278287478,
+    32.921436196376874,
+    -96.61292948494307,
+    33.0071762949667
+  ],
+  "verification": {
+    "verified_at": 1792280641087,
+    "counties": [
+      "48113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

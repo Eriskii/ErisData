@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ne-lancaster-waverly",
+  "publisher": "City of Waverly via Lincoln-Lancaster County GIS (Planning Dept)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lincoln.ne.gov/public/rest/services/Planning/DevRevZoningandRegulations/MapServer/19",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONE"
+  },
+  "notes": "Waverly zoning districts from the Lincoln/Lancaster Planning Dept public GIS (layer 19 Waverly Zoning). OVERLAY field marks overlay districts; zone_name not provided by source.",
+  "extent": [
+    -96.56385435001961,
+    40.8819364924734,
+    -96.49214914959991,
+    40.95063819300075
+  ],
+  "verification": {
+    "verified_at": 1792279441950,
+    "counties": [
+      "31109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

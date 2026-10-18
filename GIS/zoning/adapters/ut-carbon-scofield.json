@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ut-carbon-scofield",
+  "publisher": "Scofield Town (via Carbon County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.carbon.utah.gov/arcgis/rest/services/CountyGeneralMap/Zoning/MapServer/7",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Scofield zoning layer hosted by Carbon County GIS; covers the Town of Scofield only; maintained as the town submits changes. No district name field.",
+  "extent": [
+    -111.17301900855529,
+    39.70035506321398,
+    -111.1540174178362,
+    39.73282168374794
+  ],
+  "verification": {
+    "verified_at": 1792280739099,
+    "counties": [
+      "49007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-pender-st-helena",
+  "publisher": "Pender County GIS (Village of St. Helena zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pendercountync.gov/arcgis/rest/services/LayersPro/MapServer/40",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37141"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "St. Helena zoning districts, hosted by Pender County GIS. Zone code only; no description field.",
+  "extent": [
+    -77.96595538789254,
+    34.485582464782496,
+    -77.88052340145273,
+    34.5418777891947
+  ],
+  "verification": {
+    "verified_at": 1792279848981,
+    "counties": [
+      "37141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

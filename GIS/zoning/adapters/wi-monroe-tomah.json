@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-monroe-tomah",
+  "publisher": "City of Tomah, WI (Tomah Zoning View, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Vf2lYNnxN2JD6hEv/arcgis/rest/services/Tomah_Zoning_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55081"
+    ]
+  },
+  "fields": {
+    "link": "Dist_Info",
+    "zone": "Zoning_Label"
+  },
+  "filter": "PLACENAME = 'CITY OF TOMAH'",
+  "notes": "City of Tomah zoning view from the city ArcGIS Online organization. Parcel-level polygons carrying the district code in Zoning_Label (R-1, B, M-1 etc.); the zoning attribute is on tax parcels, so it is a parcel-based layer. Filter to the city by PLACENAME.",
+  "extent": [
+    -90.53860327123057,
+    43.953845856741914,
+    -90.45952732806579,
+    44.02634007961682
+  ],
+  "verification": {
+    "verified_at": 1792281214973,
+    "counties": [
+      "55081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

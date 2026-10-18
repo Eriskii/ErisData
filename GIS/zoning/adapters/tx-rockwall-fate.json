@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-rockwall-fate",
+  "publisher": "City of Fate GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/mIjkbg9M3daAUJvr/arcgis/rest/services/Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48397"
+    ]
+  },
+  "fields": {
+    "link": "OrdinanceLink",
+    "zone": "ZoningAbbreviation",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Fate Zoning Districts layer (city GIS, updated 2026), about 10,900 polygons, some split by property. Fate lies in Rockwall, Kaufman and Collin counties; the layer is the city-wide zoning.",
+  "extent": [
+    -96.42105081161152,
+    32.91072774106435,
+    -96.33806426861784,
+    32.98399039490845
+  ],
+  "verification": {
+    "verified_at": 1792280818191,
+    "counties": [
+      "48397"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

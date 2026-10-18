@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-pierce-prescott",
+  "publisher": "City of Prescott WI",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/7k4XO8fMqBgu2iiK/arcgis/rest/services/2025_Zoning_Map/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55093"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "DSCRTP"
+  },
+  "notes": "City of Prescott zoning (parcel-level polygons from city ArcGIS Online org, 2025 zoning map)",
+  "extent": [
+    -92.80455963183961,
+    44.734662317660074,
+    -92.7613139418451,
+    44.768632412506534
+  ],
+  "verification": {
+    "verified_at": 1792281272513,
+    "counties": [
+      "55093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

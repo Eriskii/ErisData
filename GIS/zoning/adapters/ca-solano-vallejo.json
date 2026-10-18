@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-solano-vallejo",
+  "publisher": "City of Vallejo (KCI_DoITGIS hosted, Solano County)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/SCn6czzcqKAFwdGU/arcgis/rest/services/Vallejo_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06095"
+    ]
+  },
+  "fields": {
+    "zone": "zone_20402"
+  },
+  "notes": "City of Vallejo zoning districts. Covers only the City of Vallejo.",
+  "extent": [
+    -122.3678259998693,
+    38.06010550762655,
+    -122.15352521774903,
+    38.218742255326845
+  ],
+  "verification": {
+    "verified_at": 1792277502375,
+    "counties": [
+      "06095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

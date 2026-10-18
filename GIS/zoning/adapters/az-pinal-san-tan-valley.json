@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-pinal-san-tan-valley",
+  "publisher": "Town of San Tan Valley",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/q8sarOko6mCDwiGm/arcgis/rest/services/Zoning_SanTanValley/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04021"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_STV",
+    "zone_name": "Zoning_STV_Label"
+  },
+  "notes": "Town of San Tan Valley first zoning map (Baker consultant-hosted). ZONING is coded; Zoning_STV holds the district code.",
+  "extent": [
+    -111.61715491945452,
+    33.12880753697417,
+    -111.46943987188044,
+    33.263775739493795
+  ],
+  "verification": {
+    "verified_at": 1792277225080,
+    "counties": [
+      "04021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

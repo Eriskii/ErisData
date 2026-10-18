@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-bristol-easton",
+  "publisher": "Town of Easton GIS (EastonGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/G6TP4SnXQoFs2r0T/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Easton base zoning districts (EastonGIS Zoning_Districts), from the Town zoning bylaw. Overlay districts are in a separate service and are not included.",
+  "extent": [
+    -71.16868169657657,
+    41.985066266961155,
+    -71.05471753078528,
+    42.09554759285206
+  ],
+  "verification": {
+    "verified_at": 1792278844758,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

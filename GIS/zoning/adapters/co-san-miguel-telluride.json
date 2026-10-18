@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "co-san-miguel-telluride",
+  "publisher": "San Miguel County GIS (Town of Telluride zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aXqye4IXyXsdIpPb/arcgis/rest/services/SanMiguelZoning/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08113"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONE_AUTH",
+    "link": "NOTES",
+    "zone": "LUCZONE",
+    "zone_name": "ZONING"
+  },
+  "filter": "ZONE_AUTH = 'TOWN OF TELLURIDE'",
+  "notes": "Hosted by San Miguel County ArcGIS Online org; layer covers county, Town of Telluride and Town of Norwood. Filtered to Telluride. zone from LUCZONE; verify ZONING field meaning.",
+  "extent": [
+    -107.87175506578578,
+    37.90468335109796,
+    -107.8002894972379,
+    37.95228363101577
+  ],
+  "verification": {
+    "verified_at": 1792277519394,
+    "counties": [
+      "08113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

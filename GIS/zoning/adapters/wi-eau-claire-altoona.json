@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wi-eau-claire-altoona",
+  "publisher": "City of Altoona (zoning districts, parcel-attributed layer in the Eau Claire County community web map account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/6BRT0hUL8iO45rPG/arcgis/rest/services/Zoning_Districts_View/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55035"
+    ]
+  },
+  "fields": {
+    "link": "Zone_Code_URL",
+    "zone": "Zone_Dist",
+    "zone_name": "Zone_Desc"
+  },
+  "filter": "Zone_Dist IS NOT NULL",
+  "notes": "Altoona zoning. Parcel-attributed zoning districts (last resort layer type): each row is a parcel carrying its district code; only parcels with a Zone_Dist value are kept. Layer is the Base Zoning Districts layer of the Eau Claire County community web map (item 3fe4a5bfad4045f4ba866154e9a68f23). Zone_Code_URL links Altoona municipal code Title 19. Coverage may be partial; the layer also holds the overlay_zone field, not mapped.",
+  "extent": [
+    -91.4684261384101,
+    44.77841255212578,
+    -91.38841009448784,
+    44.82352591708193
+  ],
+  "verification": {
+    "verified_at": 1792281210367,
+    "counties": [
+      "55035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

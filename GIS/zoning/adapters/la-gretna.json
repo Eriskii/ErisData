@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "la-gretna",
+  "publisher": "City of Gretna, Louisiana (My Government Online GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/3OuwdDUqRzQS6PA4/arcgis/rest/services/Zoning_View/FeatureServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22051"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_UDC"
+  },
+  "notes": "City of Gretna zoning districts layer (Zoning_View, 9,243 features); the zone code is ZONING_UDC; CUR_LU and FUT_LU are land use fields, not used. Gretna is a city in Jefferson Parish.",
+  "extent": [
+    -90.06970485073144,
+    29.866507006286504,
+    -90.03666042693321,
+    29.938203217294372
+  ],
+  "verification": {
+    "verified_at": 1792278724383,
+    "counties": [
+      "22051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

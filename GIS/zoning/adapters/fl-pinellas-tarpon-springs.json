@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-tarpon-springs",
+  "publisher": "City of Tarpon Springs (hosted on ArcGIS Online by city staff)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uPEHWbHQ6349r7Xq/arcgis/rest/services/Zoning_2025/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "zone": "curr_code",
+    "zone_name": "curr_zone"
+  },
+  "notes": "City of Tarpon Springs zoning districts as of December 2025, city staff ArcGIS Online organization. lgcy_code and lgcy_zone hold legacy codes and are not mapped.",
+  "extent": [
+    -82.84819876499995,
+    28.112968169000055,
+    -82.70540639699999,
+    28.17341404000007
+  ],
+  "verification": {
+    "verified_at": 1792277998623,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

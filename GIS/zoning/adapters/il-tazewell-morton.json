@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "il-tazewell-morton",
+  "publisher": "Village of Morton GIS Data and Mapping",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/1N8MvzKOD4JGoLTu/arcgis/rest/services/MortonZoning_AGOL/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17179"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONECLASS"
+  },
+  "filter": "VILLAGELIMITS = 'Y'",
+  "notes": "Village of Morton zoning districts (layer Zoning Districts, MortonZoning_AGOL). VILLAGELIMITS Y marks land inside the village; N rows are outside it and are excluded by the filter. ZONECLASS codes carry descriptions in its coded domain (B-1 Professional Office, B-2 General Business, B-3 Highway and Service Commercial, I-1, I-2, R-1, R-1A, R-2, R-3, R-4, R-S, MH). Code None = Not Specified.",
+  "extent": [
+    -89.51660996961556,
+    40.583033513967465,
+    -89.42176946199723,
+    40.66219107765074
+  ],
+  "verification": {
+    "verified_at": 1792278304007,
+    "counties": [
+      "17179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

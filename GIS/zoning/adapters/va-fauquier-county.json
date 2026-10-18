@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "va-fauquier-county",
+  "publisher": "Fauquier County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/oAoeYJ1kqmAwcEC2/arcgis/rest/services/Zoning_Districts_DL/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51061"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "Fauquier County zoning districts for unincorporated county land (county-published layer). ZONEDESC is blank, so only zone code is mapped. Town of Warrenton is saved separately.",
+  "extent": [
+    -78.13126653836939,
+    38.40919821362885,
+    -77.53132344920476,
+    39.01372933557682
+  ],
+  "verification": {
+    "verified_at": 1792280908612,
+    "counties": [
+      "51061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

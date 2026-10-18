@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "md-wicomico-willards",
+  "publisher": "Maryland Department of Planning (Generalized Zoning 2025, Wicomico County municipalities): Town of Willards",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdpgis.mdp.state.md.us/arcgis/rest/services/PlanningCadastre/Generalized_Zoning_2025/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24045"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "GENZONE"
+  },
+  "filter": "JURSCODE = 'WICO' AND MUNICIPALITY_NAME = 'WILLARDS'",
+  "notes": "State generalized zoning 2025: generalized categories (GENZONE), not the town's own district codes. EPSG 26985 source.",
+  "extent": [
+    -75.3609173966498,
+    38.38277819082408,
+    -75.3345761211758,
+    38.40369421055872
+  ],
+  "verification": {
+    "verified_at": 1792278856955,
+    "counties": [
+      "24045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

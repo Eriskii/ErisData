@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-fresno-parlier",
+  "publisher": "City of Parlier (zoning layer from FresnoCOG Active Transportation update, on Fehr and Peers data review server, copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://devapps.fehrandpeers.com/devgis/rest/services/RS/RS234248_Data_Review/FeatureServer/27",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "Zonin_Condensed"
+  },
+  "notes": "Non-official copy: a consultant data-review service (Fehr and Peers, RS234248_Data_Review) holding the FresnoCOG 2023 active transportation update data. The city publishes its zoning only as a map in its code (Chapter 18.08), so nothing official is queryable. Parcel-level records keyed by NO_APN, with ZONE the zone code, so a last-resort parcel layer. Parlier only.",
+  "extent": [
+    -119.57478711458954,
+    36.59589602203228,
+    -119.51628493315772,
+    36.622195754675246
+  ],
+  "verification": {
+    "verified_at": 1792277581344,
+    "counties": [
+      "06019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

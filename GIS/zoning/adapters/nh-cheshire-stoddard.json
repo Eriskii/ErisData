@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "nh-cheshire-stoddard",
+  "publisher": "NH Zoning Atlas (Upstate GIS / NH Office of Planning and Development), Town of Stoddard",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Zoning_Atlas_Full_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "AbbreviatedDistrict",
+    "zone_name": "Full_District_Name"
+  },
+  "filter": "County = 'Cheshire' AND Jurisdiction = 'Stoddard'",
+  "notes": "Statewide NH Zoning Atlas district layer (state OPD / Upstate GIS), filtered to Stoddard in Cheshire County. Not a town-hosted layer.",
+  "extent": [
+    -72.20022034167934,
+    43.01836053350889,
+    -72.03342939952404,
+    43.13242984002332
+  ],
+  "verification": {
+    "verified_at": 1792279739811,
+    "counties": [
+      "33005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

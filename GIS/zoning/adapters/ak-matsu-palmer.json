@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ak-matsu-palmer",
+  "publisher": "Matanuska-Susitna Borough GIS (City of Palmer zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.matsugov.us/map/rest/services/OpenData/Administrative_Zoning_Palmer/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02170"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_DES",
+    "zone_name": "DESCR"
+  },
+  "notes": "City of Palmer, Alaska base zoning districts, published by the Mat-Su Borough GIS (OpenData). Layer 1 is the zoning district polygons; layer 0 holds exception points and is not used. 50 polygons.",
+  "extent": [
+    -149.1636091005726,
+    61.574135730209406,
+    -149.07240925004794,
+    61.62831609818408
+  ],
+  "verification": {
+    "verified_at": 1792277205863,
+    "counties": [
+      "02170"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

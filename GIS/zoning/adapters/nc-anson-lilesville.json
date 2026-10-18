@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-anson-lilesville",
+  "publisher": "Town of Lilesville (via Anson County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ansoncountygis.com/arcgis/rest/services/ZoningLayers/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37007"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict",
+    "zone_name": "ZoningDistrictDef"
+  },
+  "notes": "Town of Lilesville zoning from Anson County GIS ZoningLayers MapServer layer 2 (Lilesville Zoning).",
+  "extent": [
+    -79.9934224584178,
+    34.96029116727657,
+    -79.97560433070534,
+    34.9749426365118
+  ],
+  "verification": {
+    "verified_at": 1792279665368,
+    "counties": [
+      "37007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

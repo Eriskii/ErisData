@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-humboldt-arcata",
+  "publisher": "City of Arcata GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/jU4YVDLdY8n9WFKw/arcgis/rest/services/LUC_Zoning_(Public)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06023"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE6_2017",
+    "zone_name": "ZONE6_2017"
+  },
+  "notes": "City of Arcata LUC Zoning (public). Single-jurisdiction layer (Arcata). zone_name duplicates zone code; no description field present. Coastal zone attribute CSTALZONE not mapped.",
+  "extent": [
+    -124.11075705023636,
+    40.780738080752975,
+    -123.98758476026012,
+    40.91164165528124
+  ],
+  "verification": {
+    "verified_at": 1792277290298,
+    "counties": [
+      "06023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-el-paso",
+  "publisher": "City of El Paso GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.elpasotexas.gov/dev/rest/services/Planning/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48141"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "LABEL"
+  },
+  "notes": "City of El Paso zoning polygons (base districts, incl. SC special-conditions suffixes); ZONE_ holds code, LABEL the full label, ZONELABEL the base district; city GIS open data",
+  "extent": [
+    -106.636068122965,
+    31.62253972308825,
+    -106.1991483682874,
+    32.00173140535366
+  ],
+  "verification": {
+    "verified_at": 1792280564355,
+    "counties": [
+      "48141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

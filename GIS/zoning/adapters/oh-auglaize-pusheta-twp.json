@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-auglaize-pusheta-twp",
+  "publisher": "Auglaize County GIS / Pusheta Township",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.auglaizecounty.org/arcgis/rest/services/Zoning/Pusheta/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Name",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Pusheta Township (unincorporated) zoning districts; Zone_Name carries the district label",
+  "extent": [
+    -84.22323337742442,
+    40.481383306918154,
+    -84.10549837367239,
+    40.55660436970528
+  ],
+  "verification": {
+    "verified_at": 1792275700813,
+    "counties": [
+      "39011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

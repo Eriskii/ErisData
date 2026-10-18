@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-glendora",
+  "publisher": "City of Glendora (city GIS, Zoning_Glendora service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofglendora.org/arcgis/rest/services/Data/Zoning_Glendora/FeatureServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_1",
+    "zone_name": "ZONING_N_1"
+  },
+  "notes": "City of Glendora zoning districts (Zoning updated 2023 service, layer 26). ZONING_1 is the district code and ZONING_N_1 its name; the blank ZONING and ZONING_NAM fields are not used. Overlays are in the OVERLAY fields.",
+  "extent": [
+    -117.89006259700211,
+    34.10562575100124,
+    -117.79385453700208,
+    34.17966693600116
+  ],
+  "verification": {
+    "verified_at": 1792278345292,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

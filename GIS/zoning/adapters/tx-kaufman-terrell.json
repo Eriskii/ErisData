@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-kaufman-terrell",
+  "publisher": "City of Terrell (layer behind Terrell Maps 2.0 ArcGIS app; hosted in ArcGIS Online account krisnheather1)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/k1eQaOGZAVVR0bMw/arcgis/rest/services/ZONING/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48257"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Terrell zoning districts, the layer behind the Terrell Maps 2.0 zoning page (cityofterrell.org). Hosted on a city staff member personal ArcGIS Online account, so not an official service; 2017-era Zoning Map item. No link or zone name field.",
+  "extent": [
+    -96.37816158280131,
+    32.67465840687728,
+    -96.16339106923317,
+    32.79984730556147
+  ],
+  "verification": {
+    "verified_at": 1792280675997,
+    "counties": [
+      "48257"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

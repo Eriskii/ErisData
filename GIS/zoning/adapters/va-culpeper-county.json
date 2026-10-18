@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "va-culpeper-county",
+  "publisher": "Culpeper County GIS (Hurt & Proffitt WebGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.webgis.net/arcgis/rest/services/VA/CulpeperWebGIS_Pro_new/MapServer/215",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "51047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "filter": "ZONING <> 'NO DATA' AND ZONING <> 'ROW' AND ZONING <> 'WATER'",
+  "notes": "Culpeper County official WebGIS (county-branded viewer hosted by Hurt & Proffitt at webgis.net), layer Zoning: base county zoning districts (A1, RA, RR, R1-R4, VC, CC, CS, LI, HI, PUD, PBD). Covers unincorporated county only; Town of Culpeper is a separate layer. No zone name or ordinance link fields in source. Filter drops NO DATA, ROW and WATER polygons.",
+  "extent": [
+    -78.2321831438596,
+    38.30852577932561,
+    -77.61907348925023,
+    38.698887840200605
+  ],
+  "verification": {
+    "verified_at": 1792280929032,
+    "counties": [
+      "51047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

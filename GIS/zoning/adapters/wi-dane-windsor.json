@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-dane-windsor",
+  "publisher": "Village of Windsor",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/xI5Bx8vCq103peQY/arcgis/rest/services/VillageData_PublicView/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55025"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT"
+  },
+  "notes": "Village of Windsor GIS public view layers; zoning is layer 2.",
+  "extent": [
+    -89.36307294355525,
+    43.194665752125395,
+    -89.24397013804891,
+    43.28221321721469
+  ],
+  "verification": {
+    "verified_at": 1792281313525,
+    "counties": [
+      "55025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

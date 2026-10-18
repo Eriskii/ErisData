@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ia-bremer-denver",
+  "publisher": "Iowa State University Iowa Zoning Guide (compiled from City of Denver zoning ordinance; source INRCOG GIS)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19017"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Denver'",
+  "notes": "Copy in Iowa State University zoning compilation (zoning_districts_all_data_v2, source INRCOG GIS), rows where city is Denver (fips7 1920035). Not the city own GIS; no official Denver layer found.",
+  "extent": [
+    -92.34957681931098,
+    42.65689466712165,
+    -92.31767973574821,
+    42.68119497456589
+  ],
+  "verification": {
+    "verified_at": 1792278343880,
+    "counties": [
+      "19017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

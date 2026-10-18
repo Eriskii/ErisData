@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-monroe",
+  "publisher": "Cumberland County Planning Department (Monroe Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Monroe Township zoning layer from the county GIS Zoning_Basemap service; digitized by the county from municipal paper maps, may not be the official adopted maps.",
+  "extent": [
+    -77.1236328415123,
+    40.10934667927332,
+    -77.01203606737576,
+    40.20971009508859
+  ],
+  "verification": {
+    "verified_at": 1792280100633,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

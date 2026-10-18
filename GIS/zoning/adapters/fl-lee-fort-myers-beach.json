@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-lee-fort-myers-beach",
+  "publisher": "Lee County GIS (Department of Community Development), Town of Fort Myers Beach zoning copy",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismapserver.leegov.com/gisserver910/rest/services/Layers/DCD_Zoning/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12071"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Fort Myers Beach zoning districts as hosted in Lee County DCD_Zoning service (sublayer 6). Publisher describes municipal zoning layers in this service as historic; last updated 2014. zone_name not published (GeneralZoning mostly empty). Town own maps are PDFs only.",
+  "extent": [
+    -81.97111131024651,
+    26.400156725525974,
+    -81.87964838460502,
+    26.468675617805836
+  ],
+  "verification": {
+    "verified_at": 1792277907675,
+    "counties": [
+      "12071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

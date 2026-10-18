@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "md-carroll-westminster",
+  "publisher": "Maryland Department of Planning (Generalized Zoning 2025, City of Westminster records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/njFNhDsUCentVYJW/arcgis/rest/services/Generalized_Zoning_2025_Draft/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "ZONING",
+    "zone_name": "GENZONE"
+  },
+  "filter": "JURSCODE = 'CARR' AND MUNICIPALITY_NAME = 'WESTMINSTER'",
+  "notes": "State of Maryland Generalized Zoning 2025 (draft) layer, a statewide dataset holding local zoning codes (ZONING, e.g. W-B) for Westminster. Filtered to Carroll County records of Westminster. No link field.",
+  "extent": [
+    -77.0471202924575,
+    39.54650455445278,
+    -76.95922940007085,
+    39.62045413980387
+  ],
+  "verification": {
+    "verified_at": 1792278812904,
+    "counties": [
+      "24013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

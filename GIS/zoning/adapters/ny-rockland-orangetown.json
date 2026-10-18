@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ny-rockland-orangetown",
+  "publisher": "Town of Orangetown (zoning layer compiled by AKRF, hosted on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/NbZxijYF6JgLi4dp/arcgis/rest/services/Zoning___January_2022/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36087"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUN_NAME",
+    "zone": "MUNI_ZONE",
+    "zone_name": "MUNI_DESC"
+  },
+  "filter": "MUN_NAME = 'Orangetown'",
+  "notes": "Copy uploaded to ArcGIS Online by kmack_AKRF, January 2022 (not the Town's own host); Orangetown zoning districts. Used because no official queryable Orangetown layer was found; Town publishes only PDF zoning maps. Verify currency against the Town zoning map (2018, South Nyack 2022).",
+  "extent": [
+    -74.05083212254934,
+    40.99689826898594,
+    -73.87860510620877,
+    41.09772828923172
+  ],
+  "verification": {
+    "verified_at": 1792279670162,
+    "counties": [
+      "36087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

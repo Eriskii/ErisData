@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-bristol-dighton",
+  "publisher": "Town of Dighton (base zoning hosted by SRPEDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/euKKjtGUuDiy24vy/arcgis/rest/services/Dighton_Zoning/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Dighton base zoning districts, hosted by SRPEDD for the Town. Zone holds the district code; no name field. Overlay layers (Village, Marijuana, Mixed Use, Medical, Industrial) in the same service, excluded.",
+  "extent": [
+    -71.20391076656767,
+    41.78919214567871,
+    -71.108072018562,
+    41.88184815136319
+  ],
+  "verification": {
+    "verified_at": 1792279454046,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

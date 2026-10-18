@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "co-el-paso-manitou-springs",
+  "publisher": "El Paso County GIS (consolidated zoning, City of Manitou Springs entries)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.elpasoco.com/arcgis2/rest/services/Public/ZoningConsolidatedEPC/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Zoning_Orig",
+    "zone_name": "ZoningOrig_Desc"
+  },
+  "filter": "Jurisdiction = 'Manitou'",
+  "notes": "County-hosted consolidated zoning layer; this spec keeps only Jurisdiction = Manitou (City of Manitou Springs).",
+  "extent": [
+    -104.94031340676509,
+    38.84261488789264,
+    -104.88638644717848,
+    38.86795073173867
+  ],
+  "verification": {
+    "verified_at": 1792277549426,
+    "counties": [
+      "08041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

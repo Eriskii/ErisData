@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ia-hardin-ackley",
+  "publisher": "Ackley, Iowa (digitized in Iowa State University research zoning compilation)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19083"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Ackley'",
+  "notes": "Copy from Iowa State University research compilation of digitized city zoning (not the city itself); Ackley city zoning, Hardin County portion. Same host layer as ia-butler, filtered to Ackley.",
+  "extent": [
+    -93.06612038712274,
+    42.53626563779799,
+    -93.02691237629824,
+    42.565852641760934
+  ],
+  "verification": {
+    "verified_at": 1792278395343,
+    "counties": [
+      "19083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

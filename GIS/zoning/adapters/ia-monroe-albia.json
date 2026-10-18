@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ia-monroe-albia",
+  "publisher": "Iowa State University Extension, Online Guide to Iowa Zoning (copy of City of Albia zoning districts)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19135"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Albia'",
+  "notes": "Unofficial copy: ISU Extension Online Guide to Iowa Zoning layer, city = Albia (city of Albia publishes only a PDF ordinance, no queryable map). Layer digitized by TZ. Verify district codes against the city ordinance (A-1, R-1 to R-3, B-1, B-2, I-1).",
+  "extent": [
+    -92.83051769155611,
+    40.991130907967595,
+    -92.75910373571288,
+    41.054533668804915
+  ],
+  "verification": {
+    "verified_at": 1792278438063,
+    "counties": [
+      "19135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

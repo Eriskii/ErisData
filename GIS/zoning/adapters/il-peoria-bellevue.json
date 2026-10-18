@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-peoria-bellevue",
+  "publisher": "Village of Bellevue (via Peoria County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.peoriacounty.gov/arcgis/rest/services/DP/Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17143"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "Zoning"
+  },
+  "notes": "Village of Bellevue zoning districts, hosted by Peoria County GIS (DP/Zoning MapServer layer 3).",
+  "extent": [
+    -89.69367460056893,
+    40.67406507528919,
+    -89.64812626573197,
+    40.70850897723236
+  ],
+  "verification": {
+    "verified_at": 1792278281827,
+    "counties": [
+      "17143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

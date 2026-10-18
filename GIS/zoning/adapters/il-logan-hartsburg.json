@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-logan-hartsburg",
+  "publisher": "Logan County GIS (Illinois) - Village of Hartsburg zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/pPTAs43AFhhk0pXQ/arcgis/rest/services/Logan_County_Districts_and_Zoning/FeatureServer/53",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17107"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Hartsburg zoning districts, as published in the Logan County GIS zoning layers (layer 53 of the county Logan_County_Districts_and_Zoning service). Layer covers Hartsburg only.",
+  "extent": [
+    -89.44647494363555,
+    40.24682202365028,
+    -89.43680927039006,
+    40.25396512255185
+  ],
+  "verification": {
+    "verified_at": 1792278132795,
+    "counties": [
+      "17107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

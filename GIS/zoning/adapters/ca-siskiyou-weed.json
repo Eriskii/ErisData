@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-siskiyou-weed",
+  "publisher": "California Office of Land Use and Climate Innovation (statewide zoning compilation, City of Weed jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06093"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'SIS' AND Jurisdiction = 'Weed'",
+  "notes": "Statewide zoning compilation (CaliforniaZoning10_17_24_north), filtered to City of Weed. Jurisdiction field holds city name.",
+  "extent": [
+    -122.40156923555858,
+    41.3833296214167,
+    -122.35463293749642,
+    41.44332515573142
+  ],
+  "verification": {
+    "verified_at": 1792277416754,
+    "counties": [
+      "06093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

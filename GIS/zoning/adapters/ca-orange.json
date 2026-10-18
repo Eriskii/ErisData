@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-orange",
+  "publisher": "City of Orange (copy hosted by an individual on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HsWup310bJE1lcGa/arcgis/rest/services/Orange_Zoning_Layer_2_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_USE_CODE",
+    "zone_name": "ZONING"
+  },
+  "notes": "Unofficial: a copy of the City of Orange zoning layer uploaded to ArcGIS Online by an individual (sarahleung), not the city. Used because the city publishes no queryable zoning service (its GIS is a viewer).",
+  "extent": [
+    -117.90580556965608,
+    33.76589723739129,
+    -117.72977174733668,
+    33.84841486019609
+  ],
+  "verification": {
+    "verified_at": 1792278000241,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

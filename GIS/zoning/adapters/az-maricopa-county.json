@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-maricopa-county",
+  "publisher": "Maricopa County Planning and Development (PlanNet)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.maricopa.gov/arcgis/rest/services/PND/PlanNet/MapServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE"
+  },
+  "notes": "Maricopa County unincorporated zoning districts (JURIS = COUNTY on every feature). Layer named Zoning in PlanNet; the county layer also carries Maricopa County Islands. Districts are the county codes.",
+  "extent": [
+    -113.35867029725416,
+    32.49902856723413,
+    -111.03400059022007,
+    34.04847001069618
+  ],
+  "verification": {
+    "verified_at": 1792277308293,
+    "counties": [
+      "04013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

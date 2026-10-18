@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "or-polk-monmouth",
+  "publisher": "Oregon DLCD (statewide zoning compilation, City of Monmouth records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41053"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "link": "codeRef",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "unitOwner = '1163156'",
+  "notes": "DLCD statewide zoning compilation sliced to City of Monmouth (unitOwner 1163156). Zone is the state-standardized code (orZCode); local codes are blank in this copy.",
+  "extent": [
+    -123.25810503733535,
+    44.82991380573081,
+    -123.20972736814532,
+    44.86453529347184
+  ],
+  "verification": {
+    "verified_at": 1792280095325,
+    "counties": [
+      "41053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

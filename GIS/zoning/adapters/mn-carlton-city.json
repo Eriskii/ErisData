@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mn-carlton-city",
+  "publisher": "City of Carlton, MN (CarltonMNGIS organization on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/hZtgmFnQvdxrwQnP/arcgis/rest/services/Zoning_Carlton_VIEW_ONLY/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "City of Carlton zoning districts, 23 polygons (13 with geometry checked). Served from the city viewer organization; zone descriptions (ZONEDESC) are empty, so only the district code is mapped.",
+  "extent": [
+    -92.48223123258227,
+    46.64138175680479,
+    -92.37497133706037,
+    46.677999425626815
+  ],
+  "verification": {
+    "verified_at": 1792278920113,
+    "counties": [
+      "27017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

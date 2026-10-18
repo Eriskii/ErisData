@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-concord",
+  "publisher": "City of Concord (agiffin_pw ArcGIS org, Jurisdiction GP Land Use Designations and Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/4usxdjWKL0Lq9x6D/arcgis/rest/services/Jurisdiction_GP_Land_Use_Designations_and_Zoning/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06013"
+    ]
+  },
+  "fields": {
+    "link": "ZONEURL",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Concord zoning districts, Concord city limits, from the Jurisdiction GP Land Use Designations and Zoning service (layer 5 Concord Zoning). Single-jurisdiction layer, no jurisdiction field.",
+  "extent": [
+    -122.0907295385768,
+    37.90441788580165,
+    -121.92254836843298,
+    38.05840058967906
+  ],
+  "verification": {
+    "verified_at": 1792277662458,
+    "counties": [
+      "06013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

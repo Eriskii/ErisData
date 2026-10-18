@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-tarrant-euless",
+  "publisher": "City of Euless GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps3.eulesstx.gov/arcgis/rest/services/Zoning_Districts/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48439"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "CODE2"
+  },
+  "notes": "City of Euless Zoning Districts (city GIS map service, Euless Map Atlas). CODE holds the zoning category code; CODE2 the translated category. Public, no key.",
+  "extent": [
+    -97.1559992035939,
+    32.810004484702,
+    -97.0331730073939,
+    32.8823267688682
+  ],
+  "verification": {
+    "verified_at": 1792281267749,
+    "counties": [
+      "48439"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

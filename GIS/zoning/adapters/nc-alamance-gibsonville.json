@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-alamance-gibsonville",
+  "publisher": "Piedmont Triad Regional Council (Town of Gibsonville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.ptrc.org/arcgis/rest/services/Municipal/Gibsonville_Zoning_20230104/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTI",
+    "zone": "ZONING"
+  },
+  "notes": "Town of Gibsonville zoning districts as of 1/4/23, hosted by Piedmont Triad Regional Council (maps.ptrc.org). Town of Gibsonville also has an interactive zoning map on its site. No zone name field.",
+  "extent": [
+    -79.57419028357833,
+    36.06953251565471,
+    -79.52023629594798,
+    36.128622858382165
+  ],
+  "verification": {
+    "verified_at": 1792279702211,
+    "counties": [
+      "37001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

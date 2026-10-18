@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-marion-whitwell",
+  "publisher": "City of Whitwell, TN (SETD hosted, via Marion County interactive map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Corporate_Zoning_08152024_Dissolve/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47115"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "City of Whitwell zoning districts (dated 8.15.2024), hosted by Southeast Tennessee Development District (SETDD). Single-jurisdiction layer, 8 features. Zone field holds district code.",
+  "extent": [
+    -85.54187634903089,
+    35.16354544531514,
+    -85.49696680779226,
+    35.22020499169321
+  ],
+  "verification": {
+    "verified_at": 1792280491988,
+    "counties": [
+      "47115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

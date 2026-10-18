@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-granville-oxford",
+  "publisher": "City of Oxford (via Granville County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/dT3Tew5pivPd2bWH/arcgis/rest/services/Granville_Static/FeatureServer/45",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37077"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "Zoning IS NOT NULL AND Zoning <> ' '",
+  "notes": "City of Oxford zoning from Granville County GIS service (OxfordZoning2024). A parcel layer whose Zoning attribute carries each parcel district; last resort, no separate district layer found. Only zone code published; no zone name or ordinance link. Parcels with blank Zoning excluded by filter.",
+  "extent": [
+    -78.62944660236941,
+    36.26394697580247,
+    -78.54548021701406,
+    36.35607574017365
+  ],
+  "verification": {
+    "verified_at": 1792279773373,
+    "counties": [
+      "37077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

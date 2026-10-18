@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-dallas-addison",
+  "publisher": "Town of Addison GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.addisontx.gov/arcgis/rest/services/Planning_Development/Landbase/FeatureServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48113"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Town of Addison UDC zoning districts (UDC_Zoning layer); base districts in ZONE_CODE",
+  "extent": [
+    -96.8556933365789,
+    32.933369294480855,
+    -96.80766753604397,
+    32.98720495010133
+  ],
+  "verification": {
+    "verified_at": 1792280763196,
+    "counties": [
+      "48113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

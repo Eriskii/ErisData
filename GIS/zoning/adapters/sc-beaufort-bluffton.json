@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sc-beaufort-bluffton",
+  "publisher": "Town of Bluffton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/emqdvAOVfTSmahz0/arcgis/rest/services/Zoning_Districts_Bluffton_Live/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_ABV",
+    "zone_name": "ZONING"
+  },
+  "notes": "Live Town of Bluffton zoning districts layer (ArcGIS Online item by rjcoleman, the Town of Bluffton zoning service). Covers the Town of Bluffton only. ZONING holds the district name and ZONING_ABV the abbreviation code.",
+  "extent": [
+    -81.01623627930708,
+    32.12639975029935,
+    -80.84798380558006,
+    32.29091978064619
+  ],
+  "verification": {
+    "verified_at": 1792280231796,
+    "counties": [
+      "45013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

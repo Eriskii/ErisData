@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-kendall-oswego",
+  "publisher": "Village of Oswego GIS (hosted on Kendall County server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/OswegoERPMap/MapServer/35",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17093"
+    ]
+  },
+  "fields": {
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "Village of Oswego zoning districts (UDO_Zoning_Classification also present). Layer is Oswego-only per its OswegoERP hosted service name; no jurisdiction field.",
+  "extent": [
+    -88.41847523430047,
+    41.63735601752943,
+    -88.26030197933385,
+    41.71923986665556
+  ],
+  "verification": {
+    "verified_at": 1792278120437,
+    "counties": [
+      "17093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-santa-ana",
+  "publisher": "City of Santa Ana GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.santa-ana.org/server/rest/services/Public/PBA_ZoningClassifications/FeatureServer/0",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Santa Ana zoning districts; ZONECLASS the district code, ZONEDESC its description.",
+  "extent": [
+    -117.94396080173809,
+    33.69279181305239,
+    -117.83131724549528,
+    33.782884647193036
+  ],
+  "verification": {
+    "verified_at": 1792277384012,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

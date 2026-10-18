@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-cache-river-heights",
+  "publisher": "Cache County GIS (River Heights City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/City_Zoning/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city_name",
+    "zone": "zone_code",
+    "zone_name": "zone_type"
+  },
+  "filter": "city_name = 'RIVER HEIGHTS'",
+  "notes": "River Heights city zoning from Cache County City_Zoning service (layer per city; every layer returns the same 19-city table, filtered on city_name). Covers River Heights only.",
+  "extent": [
+    -111.83254481441604,
+    41.715042656458344,
+    -111.80345612598624,
+    41.72959496038581
+  ],
+  "verification": {
+    "verified_at": 1792280854101,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

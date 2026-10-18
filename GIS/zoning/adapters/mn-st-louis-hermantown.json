@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-st-louis-hermantown",
+  "publisher": "City of Hermantown, MN",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/oSxm2i1nknyKAKyP/arcgis/rest/services/HT_Zoning_02062017/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "27137"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "zone_desc"
+  },
+  "notes": "City of Hermantown zoning districts (HT_Admin, layer dated 2017). City only.",
+  "extent": [
+    -92.30288498489732,
+    46.76329434989455,
+    -92.17339629976203,
+    46.85167484125626
+  ],
+  "verification": {
+    "verified_at": 1792279660464,
+    "counties": [
+      "27137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

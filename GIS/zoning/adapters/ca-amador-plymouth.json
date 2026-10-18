@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-amador-plymouth",
+  "publisher": "City of Plymouth (zoning as compiled in the California Statewide Zoning North dataset, State OPR)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'AMA' AND Jurisdiction = 'Plymouth'",
+  "notes": "City of Plymouth zoning districts from the California Statewide Zoning North compilation (California Office of Land Use and Climate Innovation, version 1.2, 2018 source). Rows filtered to County AMA and Jurisdiction Plymouth. Sparse: only a handful of polygons carried in the compilation. Not a city-hosted service.",
+  "extent": [
+    -120.89031271344228,
+    38.464529143138094,
+    -120.8285074666614,
+    38.49724411321252
+  ],
+  "verification": {
+    "verified_at": 1792277288132,
+    "counties": [
+      "06005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

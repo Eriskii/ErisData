@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-calumet-brothertown",
+  "publisher": "Town of Brothertown (via Calumet County Land Information Office)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://calmaps.co.calumet.wi.us/server/rest/services/ZoningMunicipal/MapServer/20",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "Zoning",
+    "zone_name": "Zoning_Name"
+  },
+  "notes": "Township of Brothertown zoning districts from the Calumet County municipal zoning service (layer 20). MUNI is TBRO for the township.",
+  "extent": [
+    -88.32786883883713,
+    43.93726749749455,
+    -88.15053040171478,
+    44.00067081989515
+  ],
+  "verification": {
+    "verified_at": 1792281198509,
+    "counties": [
+      "55015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

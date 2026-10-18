@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-geauga-russell-township",
+  "publisher": "Geauga County GIS (Russell Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gcgis.geauga.oh.gov/arcgis/rest/services/Planning/Zoning/FeatureServer/15",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39055"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_LABEL",
+    "zone_name": "ZONING"
+  },
+  "notes": "Russell Township zoning layer from the county Planning/Zoning service; one layer per municipality in Geauga County.",
+  "extent": [
+    -81.39158480466725,
+    41.43229156360633,
+    -81.29707591584713,
+    41.500522994867495
+  ],
+  "verification": {
+    "verified_at": 1792275783793,
+    "counties": [
+      "39055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

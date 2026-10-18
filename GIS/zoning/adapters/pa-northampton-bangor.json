@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-northampton-bangor",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Bangor Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND MUNICODE = 4",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Bangor Borough by municipality code 4. Zone codes carry a municipal prefix. Link not mapped: the layer holds no ordinance links.",
+  "extent": [
+    -75.22414552448444,
+    40.85488628881468,
+    -75.19528477403647,
+    40.87923960998191
+  ],
+  "verification": {
+    "verified_at": 1792280407493,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

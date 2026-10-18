@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-union-waxhaw",
+  "publisher": "Town of Waxhaw GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/Sa3FPjCP8681JQgz/arcgis/rest/services/Official_Zoning_gdb/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37179"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Waxhaw official zoning, April 2026. Town-wide; Zoning field holds district code. No district name field.",
+  "extent": [
+    -80.7882155539166,
+    34.897965614354746,
+    -80.68084711996097,
+    34.97595680577438
+  ],
+  "verification": {
+    "verified_at": 1792279940795,
+    "counties": [
+      "37179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

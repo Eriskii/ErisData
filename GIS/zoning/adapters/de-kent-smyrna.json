@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "de-kent-smyrna",
+  "publisher": "Town of Smyrna (zoning layer maintained by JMT for the Town)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/oS5ru2iHb8I5vlTv/arcgis/rest/services/SmyrnaZoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "10001"
+    ]
+  },
+  "fields": {
+    "link": "ZoningMap",
+    "zone": "ZONING_DISTRICT",
+    "zone_name": "ZONING_DISTRICT"
+  },
+  "notes": "Town of Smyrna existing zoning (Existing Zoning layer of SmyrnaZoning service; Proposed Zoning is a separate layer and not used). Smyrna spans Kent and New Castle counties; COUNTY field used to keep Kent parcels only if present.",
+  "extent": [
+    -75.63261500751257,
+    39.25758949277876,
+    -75.57704407958326,
+    39.33235111824867
+  ],
+  "verification": {
+    "verified_at": 1792277578939,
+    "counties": [
+      "10001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

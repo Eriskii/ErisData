@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-piedmont-statewide-copy",
+  "publisher": "Piedmont (from California statewide zoning compilation, personal ArcGIS Online copy by 1860040_CAL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "Jurisdiction = 'Piedmont' AND County = 'ALA'",
+  "notes": "Unofficial copy: statewide zoning compilation (CaliforniaZoning10_17_24, 535 jurisdictions) hosted on a personal ArcGIS Online account, used because Piedmont publishes only a PDF zoning map. Filtered to Piedmont. Verify against the city PDF before relying on it.",
+  "extent": [
+    -122.2494034649528,
+    37.81240337851227,
+    -122.21029051744492,
+    37.83314908156089
+  ],
+  "verification": {
+    "verified_at": 1792277428296,
+    "counties": [
+      "06001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

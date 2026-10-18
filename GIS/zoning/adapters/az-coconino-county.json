@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-coconino-county",
+  "publisher": "Coconino County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Rlvx5g8pKeK13apH/arcgis/rest/services/County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE",
+    "zone_name": "ZONINGDESCRIPTION"
+  },
+  "notes": "Coconino County unincorporated zoning districts (county land; incorporated cities not included per county layer). No ordinance link field populated.",
+  "extent": [
+    -113.32680659402504,
+    34.31670019032021,
+    -110.71660901820492,
+    36.996256467277625
+  ],
+  "verification": {
+    "verified_at": 1792277258707,
+    "counties": [
+      "04005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

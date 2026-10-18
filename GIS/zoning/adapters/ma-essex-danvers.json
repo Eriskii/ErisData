@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-essex-danvers",
+  "publisher": "Town of Danvers, MA (Danvers GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.danversma.gov/danversexternal/rest/services/DanversMA_OpsLayers/MapServer/23",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25009"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE",
+    "zone_name": "DESCRIPT"
+  },
+  "notes": "Town of Danvers zoning layer from the town operational GIS; 443 features. Field TYPE holds the district code and DESCRIPT the description (verify on validation).",
+  "extent": [
+    -71.00313907338892,
+    42.54064334046904,
+    -70.9081475873179,
+    42.61336028398087
+  ],
+  "verification": {
+    "verified_at": 1792278931324,
+    "counties": [
+      "25009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sc-york-tega-cay",
+  "publisher": "City of Tega Cay (zoning layer hosted by Catawba Regional COG)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/h9JHFVWvWofKfQhH/arcgis/rest/services/CityofTegaCaySC_Zoning/FeatureServer/2",
+    "page_size": 78,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45091"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode"
+  },
+  "notes": "City of Tega Cay base zoning districts (Zoning_TegaCay, FeatureServer/2 of the City zoning service hosted by Catawba COG). Zone code in ZoningCode; NAME is mostly blank so not mapped. No ordinance link published.",
+  "extent": [
+    -81.03924521064577,
+    35.01894123740999,
+    -80.9848937953883,
+    35.06471339519779
+  ],
+  "verification": {
+    "verified_at": 1792280424886,
+    "counties": [
+      "45091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

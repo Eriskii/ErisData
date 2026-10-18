@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-san-jacinto",
+  "publisher": "City of San Jacinto GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis01.city.sanjacintoca.gov/server/rest/services/Zoning/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "zone": "Zon2022",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "City of San Jacinto zoning (Zon2022 code, DESCRIPTION name) on parcels: 16,492 features, one per parcel or split, so a parcel-level layer used as the city district layer. Overlay in ZonOVERLAY not mapped. Layer 7 of the city Zoning service.",
+  "extent": [
+    -117.06047401437986,
+    33.751396657632434,
+    -116.91064360839128,
+    33.86917501241976
+  ],
+  "verification": {
+    "verified_at": 1792277646122,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

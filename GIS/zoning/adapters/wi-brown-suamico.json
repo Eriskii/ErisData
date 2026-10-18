@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-brown-suamico",
+  "publisher": "Village of Suamico (Public Suamico Zoning Viewer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/ad8q99MFlcZQ8ixH/arcgis/rest/services/Public_Suamico_Zoning_Viewer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55009"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Parcel layer (one feature per parcel) carrying each parcel base zoning in Zoning; no district polygon layer found. Last resort. Village of Suamico.",
+  "extent": [
+    -88.13118719107135,
+    44.58128362893184,
+    -87.97440438645042,
+    44.677741011477806
+  ],
+  "verification": {
+    "verified_at": 1792281208070,
+    "counties": [
+      "55009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

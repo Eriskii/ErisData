@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-sanpete-fountain-green",
+  "publisher": "Utah AGRC (state) generalized zoning, Fountain Green",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49039"
+    ]
+  },
+  "fields": {
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county LIKE '%Sanpete%' AND city LIKE 'Fountain Green%'",
+  "notes": "Utah AGRC statewide generalized zoning layer; Fountain Green city features only. gen_zone holds the generalized category; source_zone is the city code.",
+  "extent": [
+    -111.650849485554,
+    39.61895581624471,
+    -111.6290826517814,
+    39.63726563224469
+  ],
+  "verification": {
+    "verified_at": 1792280857276,
+    "counties": [
+      "49039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

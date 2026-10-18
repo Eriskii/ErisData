@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-scottsdale",
+  "publisher": "City of Scottsdale GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.scottsdaleaz.gov/arcgis/rest/services/OpenData/MapServer/24",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "04013"
+    ]
+  },
+  "fields": {
+    "zone": "full_zoning",
+    "zone_name": "comparable_zoning"
+  },
+  "notes": "City of Scottsdale zoning boundaries (city limits only), City of Scottsdale open data. full_zoning holds the district code; comparable_zoning is the generalized category.",
+  "extent": [
+    -111.96091585095186,
+    33.44762899857317,
+    -111.75606380935892,
+    33.900476702980484
+  ],
+  "verification": {
+    "verified_at": 1792277297885,
+    "counties": [
+      "04013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

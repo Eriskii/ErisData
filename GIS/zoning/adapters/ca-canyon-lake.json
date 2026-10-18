@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-canyon-lake",
+  "publisher": "City of Canyon Lake (zoning compiled by SCAG, Zoning_poly_RV)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.scag.ca.gov/scaggis/rest/services/LDX/Zoning_poly_RV/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZN24_CITY"
+  },
+  "filter": "CITY = 'Canyon Lake'",
+  "notes": "SCAG regional compiled city zoning (YEAR_ZN 2024), parcel-level polygons. Zone codes are the city codes in ZN24_CITY (e.g. R-3, ER-1). No name or ordinance link field.",
+  "extent": [
+    -117.28418308572611,
+    33.67031822977875,
+    -117.23498862582716,
+    33.713916582009205
+  ],
+  "verification": {
+    "verified_at": 1792278159635,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

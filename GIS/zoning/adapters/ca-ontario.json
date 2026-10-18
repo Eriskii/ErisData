@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-ontario",
+  "publisher": "City of Ontario (zoning carried in the County Combined Zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services/Combined_Zoning_Extra_Data/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION_NAME",
+    "zone": "ZONING_CODE"
+  },
+  "filter": "JURISDICTION_NAME = 'CITY OF ONTARIO'",
+  "notes": "County-hosted combined incorporated and unincorporated zoning layer (county org), filtered to the City of Ontario. Zone names not populated in source. City own GeoHub zoning layer was not found as a queryable service.",
+  "extent": [
+    -117.68326266824693,
+    33.9751536393587,
+    -117.52401582546922,
+    34.09349714689528
+  ],
+  "verification": {
+    "verified_at": 1792277483945,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

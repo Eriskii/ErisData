@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-muskegon-ravenna-village",
+  "publisher": "Muskegon County GIS (Village of Ravenna zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.muskegoncountygis.com/arcgis/rest/services/Zoning_Viewer/Zoning_Viewer/MapServer/103",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26121"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "County GIS Zoning_Viewer service; Village of Ravenna base zoning districts (layer 103).",
+  "extent": [
+    -85.95547735711664,
+    43.17770547177893,
+    -85.92397817160673,
+    43.19859525275695
+  ],
+  "verification": {
+    "verified_at": 1792275445182,
+    "counties": [
+      "26121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

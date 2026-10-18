@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-omro",
+  "publisher": "City of Omro (via Winnebago County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://wcgis3.co.winnebago.wi.us/wings/rest/services/LandUsePlanning/ZoningCompositeCityOfOmro/MapServer/24",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONEJURIS",
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Omro zoning districts, hosted by Winnebago County GIS; city only (Town of Omro is separate).",
+  "extent": [
+    -88.7561804995748,
+    44.0199015248072,
+    -88.70909312600779,
+    44.05351504851024
+  ],
+  "verification": {
+    "verified_at": 1792281324272,
+    "counties": [
+      "55139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

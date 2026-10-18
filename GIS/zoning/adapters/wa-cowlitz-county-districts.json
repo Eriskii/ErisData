@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wa-cowlitz-county-districts",
+  "publisher": "Cowlitz County Building & Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cowlitzwa.gov/ccserver/rest/services/BuildPlanning/Zoning_County_Only/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CODE",
+    "zone_name": "FIRST_ZONING_DESCRIPTION"
+  },
+  "notes": "County zoning district layer for unincorporated Cowlitz County only (14 features), EPSG:2927. Complements the parcel layer wa-cowlitz-county. Source notes say polygons may be invalid; check geometry.",
+  "extent": [
+    -123.21831396239926,
+    45.85439225037779,
+    -122.23947826234787,
+    46.38804083242625
+  ],
+  "verification": {
+    "verified_at": 1792281099559,
+    "counties": [
+      "53015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

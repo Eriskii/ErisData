@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-neenah",
+  "publisher": "City of Neenah GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ci.neenah.wi.us/maps/rest/services/PUBLIC/Intranet_GIS/MapServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MuniCode",
+    "zone": "ZoningDistrict"
+  },
+  "notes": "City of Neenah zoning districts layer; city-only (Neenah is partly in Winnebago County).",
+  "extent": [
+    -88.53389362179783,
+    44.13429737571575,
+    -88.43408596617152,
+    44.195765868639505
+  ],
+  "verification": {
+    "verified_at": 1792281337857,
+    "counties": [
+      "55139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

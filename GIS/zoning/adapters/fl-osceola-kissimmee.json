@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-osceola-kissimmee",
+  "publisher": "City of Kissimmee GIS (Zoning_Districts service on cw.kissimmee.gov)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cw.kissimmee.gov/arcgis/rest/services/Zoning_Districts/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12097"
+    ]
+  },
+  "fields": {
+    "link": "DocumentLink",
+    "zone": "ZONING_COD"
+  },
+  "notes": "City of Kissimmee base zoning districts (city limits only). ZONING_COD = district code. Layer has 101 features. Lot standards (HEIGHT, FAR, LOT_AREA) not mapped.",
+  "extent": [
+    -81.48575198766872,
+    28.250547825382323,
+    -81.3057247537241,
+    28.348310732784434
+  ],
+  "verification": {
+    "verified_at": 1792277701624,
+    "counties": [
+      "12097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

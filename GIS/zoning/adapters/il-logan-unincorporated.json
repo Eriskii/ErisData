@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-logan-unincorporated",
+  "publisher": "Logan County GIS (Illinois)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/pPTAs43AFhhk0pXQ/arcgis/rest/services/Logan_County_Districts_and_Zoning/FeatureServer/56",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Township_1",
+    "zone": "Zoning_ID"
+  },
+  "notes": "Logan County unincorporated zoning districts, from layer 56 of the county Logan_County_Districts_and_Zoning service. Zoning_ID holds the district code; the layer also carries FEMA flood fields (FLD_ZONE, FLOODWAY), which are not mapped. Township_1 names the township, not a municipality.",
+  "extent": [
+    -89.6062939375678,
+    39.915734439817285,
+    -89.13733628575505,
+    40.327487598204115
+  ],
+  "verification": {
+    "verified_at": 1792278238742,
+    "counties": [
+      "17107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

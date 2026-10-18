@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-broward-parkland",
+  "publisher": "City of Parkland (Parklandeng ArcGIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/dEuVlS3WgXNFkGxk/arcgis/rest/services/Zoning_2022_General/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Zon_Desc"
+  },
+  "notes": "City of Parkland Zoning 2022 (general) layer, 121 features, city limits only. Published under the city ArcGIS account Parklandeng.",
+  "extent": [
+    -80.29734903414523,
+    26.286472807721065,
+    -80.2021183955446,
+    26.35518082075603
+  ],
+  "verification": {
+    "verified_at": 1792278281916,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-navajo-snowflake",
+  "publisher": "Town of Snowflake (via Snowflake ArcGIS Online zoning web app)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/swHZ7O7FED8pck7y/arcgis/rest/services/Land_Zoning_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04017"
+    ]
+  },
+  "fields": {
+    "zone": "Snowflake_Zoning",
+    "zone_name": "Snowflake_Overlay_Short"
+  },
+  "notes": "Parcel layer from the Town of Snowflake public zoning web app (snowflake.maps.arcgis.com, item 5b0a8692725844df8b93385167703d18); each parcel carries its Snowflake_Zoning district code, so it is a parcel-level zoning layer used as the only queryable source. zone_name holds the overlay short code (NA where none), not a district name. Covers Town of Snowflake only.",
+  "extent": [
+    -110.1671398979004,
+    34.47919820327532,
+    -110.01328905295708,
+    34.57172815363989
+  ],
+  "verification": {
+    "verified_at": 1792277289323,
+    "counties": [
+      "04017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-hayward",
+  "publisher": "City of Hayward GIS (HaywardGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/VRO5V8PH7DzSE6AU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_",
+    "zone_name": "ZONING_DETAIL"
+  },
+  "filter": "ZONING_ <> 'County'",
+  "notes": "City of Hayward official zoning layer (HaywardGIS). zone from ZONING_, zone_name from ZONING_DETAIL. Rows labelled County (unincorporated) excluded. Combining districts (COMB_DISTRICT), special design districts and overlays not mapped. Served in Web Mercator.",
+  "extent": [
+    -122.21822664788986,
+    37.54626687019245,
+    -121.9203973480634,
+    37.68996056367448
+  ],
+  "verification": {
+    "verified_at": 1792277462231,
+    "counties": [
+      "06001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

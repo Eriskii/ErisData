@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-lassen-unincorporated",
+  "publisher": "Lassen County Planning / GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/8f55f383e2e840deaad26e2acda2c902/rest/services/LandRecords/Planning_General_Features/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06035"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE",
+    "zone": "ZONING_1"
+  },
+  "notes": "County zoning layer (Zoning, 7128 polygons) from the county Planning_General_Features MapServer, the layer the county zoning web map draws. Covers unincorporated Lassen County; no jurisdiction field, so Susanville polygons may be present; ZONING_1 is the base zone (MASTER_ZONE is the master zone code), ORDINANCE is an ordinance number, not a URL. Combining overlays in COMBINING_1..3.",
+  "extent": [
+    -121.346138636245,
+    39.70525155795122,
+    -119.95697042863144,
+    41.19955386460612
+  ],
+  "verification": {
+    "verified_at": 1792277371257,
+    "counties": [
+      "06035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

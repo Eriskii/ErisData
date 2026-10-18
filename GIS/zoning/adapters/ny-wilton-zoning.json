@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-wilton-zoning",
+  "publisher": "Town of Wilton (base map service, Wilton_Base_Map_WFL1)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/V0dLY6yBhaHrPYac/arcgis/rest/services/Wilton_Base_Map_WFL1/FeatureServer/10",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36091"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Wilton zoning districts from the town base map service; 20 features; zone names not in layer, codes only",
+  "extent": [
+    -73.78766975545963,
+    43.09215338385401,
+    -73.66752559018639,
+    43.205096846159115
+  ],
+  "verification": {
+    "verified_at": 1792279626375,
+    "counties": [
+      "36091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

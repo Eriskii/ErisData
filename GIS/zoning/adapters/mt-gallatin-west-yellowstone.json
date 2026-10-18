@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mt-gallatin-west-yellowstone",
+  "publisher": "Town of West Yellowstone (Shaze_SPP ArcGIS Online map layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/xXX4ENZCCWYAP7wG/arcgis/rest/services/Town_of_West_Yellowstone_Zoning_Map_2_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30031"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Parcel-based: each feature is a tax parcel (county assessor fields) carrying the parcel zoning code in Zoning and its description in ZoningDescription; no separate district polygons were found. Last-resort layer; West Yellowstone town limits only in practice.",
+  "extent": [
+    -111.11834924282128,
+    44.65401476690184,
+    -111.09719309771842,
+    44.672305454977845
+  ],
+  "verification": {
+    "verified_at": 1792279417568,
+    "counties": [
+      "30031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

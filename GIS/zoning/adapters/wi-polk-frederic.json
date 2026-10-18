@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-polk-frederic",
+  "publisher": "Village of Frederic GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XzOgqjXGmvnuPSRG/arcgis/rest/services/Base_Layers/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55095"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Frederic zoning districts, from the village Base_Layers service (layer Zoning, 716 features). Single-jurisdiction layer; no zone name field.",
+  "extent": [
+    -92.4813184504439,
+    45.6378822808492,
+    -92.45283727115181,
+    45.66857825469109
+  ],
+  "verification": {
+    "verified_at": 1792281244942,
+    "counties": [
+      "55095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

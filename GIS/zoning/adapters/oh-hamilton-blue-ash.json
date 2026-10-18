@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-hamilton-blue-ash",
+  "publisher": "City of Blue Ash / Hamilton County CAGIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cagisonline.hamilton-co.org/arcgis/rest/services/Countywide_Layers/Zoning/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39061"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONE_DESCRIPTION"
+  },
+  "notes": "CAGIS Countywide_Layers Zoning MapServer layer 13, Blue Ash City Zoning. Single-city layer; JURISDICTION is blank in the source, so not mapped.",
+  "extent": [
+    -84.41680039453404,
+    39.216528101205874,
+    -84.35356466917654,
+    39.28136278301139
+  ],
+  "verification": {
+    "verified_at": 1792275873854,
+    "counties": [
+      "39061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

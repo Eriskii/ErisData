@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "ut-emery-cleveland",
+  "publisher": "Utah AGRC (state generalized municipal zoning), Cleveland Town",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county LIKE '%Emery%' AND city = 'Cleveland'",
+  "notes": "Utah AGRC statewide generalized zoning layer (state-published compilation of city zoning); filtered to Cleveland. Generalized category in gen_zone.",
+  "extent": [
+    -110.87151406754352,
+    39.345404414003546,
+    -110.83665032984776,
+    39.354210459859665
+  ],
+  "verification": {
+    "verified_at": 1792280867443,
+    "counties": [
+      "49015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-middlesex-newton",
+  "publisher": "City of Newton GIS (NewtonGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.newtonma.gov/server/rest/services/Data/MapServer/24",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25017"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "POLY_TYPE"
+  },
+  "notes": "City of Newton base zoning districts layer (MapServer 24, 2,346 features, last data update 2015). Zoning holds district codes such as SR1-SR3, MR1-MR4, BU, MU, LMD, MAN, ORD, PUB. POLY_TYPE is polygon type, not a district name; zone_name may be unhelpful.",
+  "extent": [
+    -71.27046716545203,
+    42.28290328345196,
+    -71.15668406590527,
+    42.36800748237481
+  ],
+  "verification": {
+    "verified_at": 1792278902295,
+    "counties": [
+      "25017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

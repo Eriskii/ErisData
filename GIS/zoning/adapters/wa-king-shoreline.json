@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wa-king-shoreline",
+  "publisher": "City of Shoreline GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.shorelinewa.gov/server/rest/services/PublicFacing/PropertyInformation/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "CURR_ZONE",
+    "zone_name": "Zoning_description"
+  },
+  "notes": "City of Shoreline zoning designations (current layer, layer 15), Shoreline only. Layer 24 is the 2022 snapshot with ZONINGURL.",
+  "extent": [
+    -122.39521632614218,
+    47.73251257620224,
+    -122.29154612903582,
+    47.77931921241779
+  ],
+  "verification": {
+    "verified_at": 1792281166796,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

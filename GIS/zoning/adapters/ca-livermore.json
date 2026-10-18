@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-livermore",
+  "publisher": "City of Livermore Community Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb.cityoflivermore.net/arcgis/rest/services/CommunityDevelopment/Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06001"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Livermore Zoning Districts layer; overlay zones (separate layer 2) not mapped.",
+  "extent": [
+    -121.84883171530768,
+    37.621519196380085,
+    -121.69537544222112,
+    37.73254089195403
+  ],
+  "verification": {
+    "verified_at": 1792277282324,
+    "counties": [
+      "06001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

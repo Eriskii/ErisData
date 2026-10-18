@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sc-greenville-fountain-inn",
+  "publisher": "City of Fountain Inn (zoning layer by Stewart Inc. for the city)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/zHNS16tz3znqN3gM/arcgis/rest/services/FI_Zoning_Swipe_Map_gdb/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45045"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Existing Fountain Inn zoning, current as of 10/8/25, published by the city consultant Stewart Inc. Fountain Inn city only.",
+  "extent": [
+    -82.24664562999462,
+    34.66503009805897,
+    -82.17229029712784,
+    34.748259751995214
+  ],
+  "verification": {
+    "verified_at": 1792280306734,
+    "counties": [
+      "45045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

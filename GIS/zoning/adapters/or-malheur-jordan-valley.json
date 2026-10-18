@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "or-malheur-jordan-valley",
+  "publisher": "Oregon DLCD (statewide zoning compilation), City of Jordan Valley zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41045"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "link": "codeRef",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Jordan Valley'",
+  "notes": "Statewide DLCD zoning compilation (2023 effective dates); city of Jordan Valley polygons selected by ownerName. zone is the state standard code (orZCode); local codes are blank in this source.",
+  "extent": [
+    -117.08550364108896,
+    42.94418309821964,
+    -117.0309872867942,
+    42.98812274023789
+  ],
+  "verification": {
+    "verified_at": 1792280194868,
+    "counties": [
+      "41045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

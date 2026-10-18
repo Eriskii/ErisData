@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-south-salt-lake",
+  "publisher": "South Salt Lake City (SSLC Zoning Public layer, city ArcGIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/3nLdZUaMqOeKxP26/arcgis/rest/services/Zoning_Districts/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49035"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "South Salt Lake City zoning districts (90 features), layer Zoning Districts of the city ArcGIS account, as used in the city Map Explorer (SSLC Zoning Public). Overlay districts are in a separate layer and not used.",
+  "extent": [
+    -111.9287766379598,
+    40.68630163299047,
+    -111.87105871501365,
+    40.72603020402481
+  ],
+  "verification": {
+    "verified_at": 1792281994596,
+    "counties": [
+      "49035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-el-monte",
+  "publisher": "City of El Monte (ElMonte_ArcGISOnline_view, elmonteca ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/yKHnFAkzI0Kh3fXn/arcgis/rest/services/ElMonte_ArcGISOnline_view/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "PROP_ZONE"
+  },
+  "notes": "City of El Monte Zoning layer from the city ArcGIS Online view; zone holds the zoning code. No zone name field.",
+  "extent": [
+    -118.04675036405364,
+    34.07128248248749,
+    -118.03035234144212,
+    34.07869728574874
+  ],
+  "verification": {
+    "verified_at": 1792277601472,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-williamson-liberty-hill",
+  "publisher": "City of Liberty Hill (maintained by Pape-Dawson Engineers GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/qwMz1Ra8Qny9RDxC/arcgis/rest/services/Zoning_241031/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48491"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "SHORT_DESC"
+  },
+  "notes": "City of Liberty Hill zoning boundaries, published by the city via Pape-Dawson Engineers GIS. Hosted on ArcGIS Online. City-only layer.",
+  "extent": [
+    -97.97221129388646,
+    30.62861808459651,
+    -97.83159962757196,
+    30.714013355164074
+  ],
+  "verification": {
+    "verified_at": 1792280912390,
+    "counties": [
+      "48491"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

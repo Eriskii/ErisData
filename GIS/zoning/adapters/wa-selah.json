@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "wa-selah",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), City of Selah",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53077"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "link": "ReferenceURL",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '077' AND Jurisdiction = 'Selah'",
+  "notes": "Washington State Zoning Atlas (Commerce) statewide layer, filtered to City of Selah.",
+  "extent": [
+    -120.56232083947982,
+    46.62393920157194,
+    -120.51107035348122,
+    46.6727888090005
+  ],
+  "verification": {
+    "verified_at": 1792281199014,
+    "counties": [
+      "53077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

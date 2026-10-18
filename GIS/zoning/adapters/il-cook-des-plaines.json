@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "il-cook-des-plaines",
+  "publisher": "City of Des Plaines (GIS Consortium publication)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/uRp89l90TnovtJpf/arcgis/rest/services/CDP_GISC_PUBLISH_CMV_FGDB_202204_View/FeatureServer/34",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17031"
+    ]
+  },
+  "fields": {
+    "link": "WEBLINK",
+    "zone": "ZONED",
+    "zone_name": "ZONINGDESCRIPTION"
+  },
+  "notes": "Des Plaines zoning districts (vw_DRV_CMV_Zoning_POLY, GIS Consortium-hosted view behind the city web zoning map). Covers Des Plaines only. Districts named in ZONINGDESCRIPTION; link is the city code section.",
+  "extent": [
+    -87.95021998530943,
+    41.99535012304111,
+    -87.85981465416081,
+    42.079822720066026
+  ],
+  "verification": {
+    "verified_at": 1792278140461,
+    "counties": [
+      "17031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

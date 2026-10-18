@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-avon",
+  "publisher": "Town of Avon GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kQJrz0VPtbNiqAV4/arcgis/rest/services/Zoning_Town_of_Avon_view/FeatureServer/41",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08037"
+    ]
+  },
+  "fields": {
+    "link": "ZoningCode",
+    "zone": "Zoning",
+    "zone_name": "ZoningFull"
+  },
+  "notes": "Town of Avon zoning districts (town limits, within Eagle County). DistrictTy holds the district type. ZoningCode holds a municode link.",
+  "extent": [
+    -106.55613199614277,
+    39.62246649767888,
+    -106.44399114074692,
+    39.67179101480867
+  ],
+  "verification": {
+    "verified_at": 1792277480076,
+    "counties": [
+      "08037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

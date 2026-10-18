@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wa-prosser",
+  "publisher": "City of Prosser GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/XsJlQdGk2nRJazuv/arcgis/rest/services/ZoningDesignations/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53005"
+    ]
+  },
+  "fields": {
+    "zone": "Class",
+    "zone_name": "Description"
+  },
+  "notes": "City of Prosser zoning class designations (37 polygons), Benton County; served from the city ArcGIS Online organization. Zoning_Ord holds the ordinance number.",
+  "extent": [
+    -119.80977950792148,
+    46.18550464620914,
+    -119.70917482948566,
+    46.22907791373002
+  ],
+  "verification": {
+    "verified_at": 1792281147579,
+    "counties": [
+      "53005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-lake-fruitland-park",
+  "publisher": "Lake County GIS (MAUI public service for City of Fruitland Park)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lakecountyfl.gov/lakegis/rest/services/MAUI/FruitlandPark_Zoning_Public/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12069"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Zoning_Des"
+  },
+  "notes": "City of Fruitland Park zoning districts, county-hosted public MapServer. Not the same as fl-lake-cities (City code 2 has no features there).",
+  "extent": [
+    -81.95350518938073,
+    28.835878797337653,
+    -81.88505901640393,
+    28.88935766345977
+  ],
+  "verification": {
+    "verified_at": 1792277952406,
+    "counties": [
+      "12069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

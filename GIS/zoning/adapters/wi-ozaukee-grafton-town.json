@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-ozaukee-grafton-town",
+  "publisher": "Town of Grafton (zoning layer hosted by consultant Stantec on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/DN2fPfpggEPlLhP6/arcgis/rest/services/Current_Zoning_view/FeatureServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55089"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Name",
+    "zone": "LAYER"
+  },
+  "filter": "Name = 'Town of Grafton'",
+  "notes": "Layer Current_Zoning_view (layer 17, Current Zoning) holds several Ozaukee jurisdictions in field Name; this spec keeps Town of Grafton only. Zone codes in LAYER (A-1, A-2, B-1, M-1, etc.). Some features have null Name and are excluded. No district name or ordinance link in source. Hosted by Stantec for the Town; linked from the Town of Grafton links page.",
+  "extent": [
+    -87.96599697157765,
+    43.27975806078481,
+    -87.87707917538398,
+    43.368923332080165
+  ],
+  "verification": {
+    "verified_at": 1792281511925,
+    "counties": [
+      "55089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

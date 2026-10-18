@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "id-blaine-ketchum",
+  "publisher": "City of Ketchum GIS (ketchumgis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Du5HbCSCJ3Dxz51s/arcgis/rest/services/Ketchum_Zoning_Layers/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16013"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Ketchum zoning districts (Zoning Districts layer of Ketchum Zoning Layers service). Overlay layers in same service not used. Fields: Zone, Government.",
+  "extent": [
+    -114.41207934146728,
+    43.65934853600886,
+    -114.35109905606708,
+    43.71303860150011
+  ],
+  "verification": {
+    "verified_at": 1792278111515,
+    "counties": [
+      "16013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ks-bel-aire",
+  "publisher": "City of Bel Aire, Kansas (Zoning view, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/irlzzfZJ4my5Nj53/arcgis/rest/services/Bel_Aire_Zoning_view/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20173"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Bel Aire zoning colors layer (BelAire_Zoning_Colors, 219 polygons, Zone field holds the district code, Approved and Updated dates present), published by the city planning consultant in the Bel Aire Zoning view service. Bel Aire city limits only. No zone name or ordinance link field.",
+  "extent": [
+    -97.28114053016515,
+    37.7514251706864,
+    -97.18949805788617,
+    37.796353855628055
+  ],
+  "verification": {
+    "verified_at": 1792278890257,
+    "counties": [
+      "20173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-dewitt-farmer-city",
+  "publisher": "City of Farmer City (zoning lookup layer by MaurerStutzGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/cegbFWRopG1y5wiH/arcgis/rest/services/Farmer_City_Zone_Map_WFL1/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17039"
+    ]
+  },
+  "fields": {
+    "zone": "TSC_Zoning_Code",
+    "zone_name": "zoneLongName"
+  },
+  "notes": "Parcel layer (not a district layer) carrying each parcel zoning code; used as last resort. Feeds the City of Farmer City zoning lookup app. Dissolve by zone if needed.",
+  "extent": [
+    -88.66306187886812,
+    40.23137801862661,
+    -88.62260722591358,
+    40.261711643971864
+  ],
+  "verification": {
+    "verified_at": 1792278087176,
+    "counties": [
+      "17039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

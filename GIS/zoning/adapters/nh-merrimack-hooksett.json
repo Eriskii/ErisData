@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "nh-merrimack-hooksett",
+  "publisher": "NH Zoning Atlas (Upstate GIS / NH Office of Planning and Development), Hooksett",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Atlas_Zoning_Districts_Buildable/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "AbbreviatedDistrict",
+    "zone_name": "Full_District_Name"
+  },
+  "filter": "County = 'Merrimack' AND Overlay = 'No' AND Jurisdiction = 'Hooksett'",
+  "notes": "Hooksett town zoning districts taken from the state NH Zoning Atlas statewide buildable-districts layer; overlay districts excluded",
+  "extent": [
+    -71.51760817338018,
+    43.00924152769402,
+    -71.36162993876194,
+    43.121025470840486
+  ],
+  "verification": {
+    "verified_at": 1792279495458,
+    "counties": [
+      "33013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

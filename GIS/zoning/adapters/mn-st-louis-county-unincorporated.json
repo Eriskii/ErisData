@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "mn-st-louis-county-unincorporated",
+  "publisher": "St. Louis County, MN (Enterprise GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stlouiscountymn.gov/server2/rest/services/GeneralUse/Open_Data/MapServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27137"
+    ]
+  },
+  "fields": {
+    "zone": "USE_",
+    "zone_name": "DESCRIPTIO"
+  },
+  "filter": "USE_ IS NOT NULL",
+  "notes": "St. Louis County zoning (Zoning Ordinance 62) for county-administered unincorporated areas; features marked Non Jurisdiction Area (city land) are excluded by the filter. USE_ holds generic use classes (RES, MU, ...), NOTATION rarely filled.",
+  "extent": [
+    -93.09878100612663,
+    46.75980355976682,
+    -91.75676361029002,
+    48.63154901759562
+  ],
+  "verification": {
+    "verified_at": 1792279062266,
+    "counties": [
+      "27137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

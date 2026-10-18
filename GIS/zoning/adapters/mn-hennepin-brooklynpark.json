@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-hennepin-brooklynpark",
+  "publisher": "City of Brooklyn Park GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://servergis.brooklynpark.org/arcgis/rest/services/Public/Districts_Zones/MapServer/24",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27053"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Brooklyn Park Zoning Codes layer (Districts_Zones MapServer/24), 314 features; city-only, no jurisdiction field.",
+  "extent": [
+    -93.40231883762812,
+    45.06554302926789,
+    -93.27844298836311,
+    45.1520354240319
+  ],
+  "verification": {
+    "verified_at": 1792279045785,
+    "counties": [
+      "27053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

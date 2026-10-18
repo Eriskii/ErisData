@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-muskegon-montague",
+  "publisher": "Muskegon County GIS (City of Montague zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.muskegoncountygis.com/arcgis/rest/services/Zoning_Viewer/Zoning_Viewer/MapServer/66",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "26121"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "County GIS Zoning_Viewer service; City of Montague base zoning districts (layer 66).",
+  "extent": [
+    -86.37618710221889,
+    43.39052110751515,
+    -86.34597235002133,
+    43.42972083293365
+  ],
+  "verification": {
+    "verified_at": 1792275322976,
+    "counties": [
+      "26121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

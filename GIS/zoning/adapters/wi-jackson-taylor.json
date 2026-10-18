@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-jackson-taylor",
+  "publisher": "Village of Taylor (Jackson County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/G9tkBzRKbAqaotWr/arcgis/rest/services/Zoning_Taylor_public/FeatureServer/41",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55053"
+    ]
+  },
+  "fields": {
+    "link": "HYPERLINK",
+    "zone": "MAJORITYZONED"
+  },
+  "notes": "Village of Taylor parcel-level zoning: each feature is a tax parcel whose MAJORITYZONED holds its base district code (R1, R2, R3, B1, A1); MULTIZONING flags split parcels. Single-jurisdiction layer (AUTHORITY names the village). No zone_name field.",
+  "extent": [
+    -91.13070518993223,
+    44.31642234322344,
+    -91.11028992543098,
+    44.3273663063731
+  ],
+  "verification": {
+    "verified_at": 1792281154578,
+    "counties": [
+      "55053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

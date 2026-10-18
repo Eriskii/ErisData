@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-richmond",
+  "publisher": "City of Richmond GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geoweb02.ci.richmond.ca.us/arcgis/rest/services/CORZoning_REST/MapServer/59",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "06013"
+    ]
+  },
+  "fields": {
+    "zone": "PROP_ZONE",
+    "zone_name": "PROP_DESCP"
+  },
+  "notes": "City of Richmond zoning districts (city limits). Retry of earlier paging failure.",
+  "extent": [
+    -122.4356013077133,
+    37.89382176749551,
+    -122.24344911947958,
+    38.01260385905572
+  ],
+  "verification": {
+    "verified_at": 1792277411404,
+    "counties": [
+      "06013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

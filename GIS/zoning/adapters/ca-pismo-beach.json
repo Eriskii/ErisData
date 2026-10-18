@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-pismo-beach",
+  "publisher": "City of Pismo Beach",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.pismobeach.org/server/rest/services/PlanningData/PISMO_BEACH_PARCELS/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06079"
+    ]
+  },
+  "fields": {
+    "zone": "zoning222_code",
+    "zone_name": "zoning22_designation"
+  },
+  "notes": "Last resort: no base district layer published; this is the city parcel layer whose attributes carry each parcel zoning (zoning222_code / zoning22_designation, current). Parcel-level, one row per parcel, not district polygons; dissolve by zone when displayed. Coastal zone parcels may carry a different code set; zoning83/zoning98 fields are older codes and are not used.",
+  "extent": [
+    -120.71552588861414,
+    35.12845704752703,
+    -120.60473302704028,
+    35.182181005576325
+  ],
+  "verification": {
+    "verified_at": 1792277496589,
+    "counties": [
+      "06079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

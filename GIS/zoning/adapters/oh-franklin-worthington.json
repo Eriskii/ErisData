@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-franklin-worthington",
+  "publisher": "City of Worthington GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.worthington.org/arcgis/rest/services/EnerGov/DisplayMap/MapServer/20",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39049"
+    ]
+  },
+  "fields": {
+    "zone": "DBO.ZoningDistricts.Zoning_Symbol",
+    "zone_name": "DBO.ZoningDistricts.Zoning_District"
+  },
+  "notes": "City of Worthington zoning districts from EnerGov display map (Zoning layer with joined district attributes).",
+  "extent": [
+    -83.05531458902033,
+    40.07424444696867,
+    -82.99572438562278,
+    40.11518796565249
+  ],
+  "verification": {
+    "verified_at": 1792275827562,
+    "counties": [
+      "39049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

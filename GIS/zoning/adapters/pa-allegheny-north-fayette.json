@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "pa-allegheny-north-fayette",
+  "publisher": "Township of North Fayette (municipal GIS, Base_Map_for_Web service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/b6Yz3vwhbD35udZY/arcgis/rest/services/Base_Map_for_Web/FeatureServer/25",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "North Fayette Township zoning districts from the township GIS base map service (layer Zoning District, 39 features). Zone code only, no name field. Overlay districts are a separate layer (24), not included. Township only.",
+  "extent": [
+    -80.2988175867414,
+    40.37024672784652,
+    -80.16600170484321,
+    40.45972388013855
+  ],
+  "verification": {
+    "verified_at": 1792280308675,
+    "counties": [
+      "42003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

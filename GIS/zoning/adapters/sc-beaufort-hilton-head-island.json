@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sc-beaufort-hilton-head-island",
+  "publisher": "Town of Hilton Head Island GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.hiltonheadislandsc.gov/server/rest/services/Planning/Zoning/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45013"
+    ]
+  },
+  "fields": {
+    "zone": "NEW_ZONE",
+    "zone_name": "NEW_ZONE_NAME"
+  },
+  "notes": "Town of Hilton Head Island zoning districts layer (Planning/Zoning MapServer layer 6, 563 polygons, Web Mercator). Covers the Town only; the town map PDF is effective Oct 2014, updated June 2025.",
+  "extent": [
+    -80.82858449495168,
+    32.10836471529566,
+    -80.66887753146268,
+    32.2711599362833
+  ],
+  "verification": {
+    "verified_at": 1792280264602,
+    "counties": [
+      "45013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

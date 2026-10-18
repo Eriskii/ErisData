@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-jefferson-littleton",
+  "publisher": "City of Littleton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/lJUBf9F1fZJRB4zT/arcgis/rest/services/Zoning_District/FeatureServer/195",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08059"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Littleton zoning districts; city limits extend into Arapahoe and Jefferson counties. ZONECLASS holds the district code (e.g. MFR/PL-O).",
+  "extent": [
+    -105.11107766284822,
+    39.535642814992165,
+    -104.97278322643388,
+    39.62977051200144
+  ],
+  "verification": {
+    "verified_at": 1792277521853,
+    "counties": [
+      "08059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

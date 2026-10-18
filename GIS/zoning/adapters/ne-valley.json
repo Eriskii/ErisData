@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ne-valley",
+  "publisher": "City of Valley, Nebraska (via Douglas County GIS / DCGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://dcgis.org/server/rest/services/Hosted/Valley_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31055"
+    ]
+  },
+  "fields": {
+    "zone": "zonedevabr",
+    "zone_name": "zonedevdes"
+  },
+  "notes": "City of Valley zoning, from the DCGIS Valley Zoning layer (about 2,474 rows, one per parcel carrying its zoning, so districts repeat). The county layer ne-douglas holds only Valley joint areas; this layer covers the city.",
+  "extent": [
+    -96.41817284346142,
+    41.27556969341876,
+    -96.29773115845528,
+    41.35933062951911
+  ],
+  "verification": {
+    "verified_at": 1792279509209,
+    "counties": [
+      "31055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-jefferson-whitewater",
+  "publisher": "Jefferson County GIS (City of Whitewater base zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.jeffersoncountywi.gov/arcgis/rest/services/Zoning/Muni_Zoning/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55055"
+    ]
+  },
+  "fields": {
+    "zone": "MUNI_ZONES"
+  },
+  "notes": "City of Whitewater base zoning, the part inside Jefferson County, from the Jefferson County Muni_Zoning service. MUNI_ZONES holds the district code; no name or ordinance link field published.",
+  "extent": [
+    -88.76327477360378,
+    42.84191529419056,
+    -88.69839583214802,
+    42.86503610973533
+  ],
+  "verification": {
+    "verified_at": 1792281253116,
+    "counties": [
+      "55055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-iowa-cobb",
+  "publisher": "Village of Cobb (SW Wisconsin Regional Planning Commission, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/OwVO8oKCUjTngz5f/arcgis/rest/services/Cobb_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55049"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Cobb zoning, parcel-level polygons carrying each parcel zoning code in Zoning (a parcel layer; used because it is the village zoning layer published via SWWRPC). Found in the SWWRPC municipal zoning web map (item a4a45e0ff95d47ec87acbbe4c12a11e1). zone_name not populated in source.",
+  "extent": [
+    -90.34225080238805,
+    42.95768809900082,
+    -90.3173339267831,
+    42.97290048741572
+  ],
+  "verification": {
+    "verified_at": 1792281352929,
+    "counties": [
+      "55049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

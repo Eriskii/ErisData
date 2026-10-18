@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "or-polk-falls-city",
+  "publisher": "Oregon DLCD (statewide zoning compilation, City of Falls City records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41053"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "link": "codeRef",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "unitOwner = '1162976'",
+  "notes": "DLCD statewide zoning compilation sliced to City of Falls City (unitOwner 1162976). Zone is the state-standardized code (orZCode); local codes are blank in this copy.",
+  "extent": [
+    -123.45058354713908,
+    44.857982644247016,
+    -123.4234955441442,
+    44.8755004690897
+  ],
+  "verification": {
+    "verified_at": 1792280090196,
+    "counties": [
+      "41053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

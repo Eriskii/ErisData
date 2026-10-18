@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-vineyard",
+  "publisher": "Utah County GIS (Vineyard Town Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/62",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_VI_LABEL",
+    "zone_name": "ZONE_VI_DESC"
+  },
+  "notes": "Vineyard town zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 62, 50 features).",
+  "extent": [
+    -111.76431184418438,
+    40.27858024441736,
+    -111.73247576210098,
+    40.33348984599825
+  ],
+  "verification": {
+    "verified_at": 1792280906885,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

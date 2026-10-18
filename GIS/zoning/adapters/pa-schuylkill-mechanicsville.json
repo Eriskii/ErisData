@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-mechanicsville",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Mechanicsville Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/61_zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "descrpt"
+  },
+  "notes": "Municipal zoning for Mechanicsville Borough (MUNIS 61), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.24723388461945,
+    40.85043976406842,
+    -76.22196619321588,
+    40.86132459723857
+  ],
+  "verification": {
+    "verified_at": 1792280404213,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

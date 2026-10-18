@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-emery-clawson",
+  "publisher": "Utah AGRC (state generalized municipal zoning), Clawson City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "gen_zone"
+  },
+  "filter": "city = 'Clawson'",
+  "notes": "Utah AGRC statewide generalized zoning layer (state-published compilation of city zoning); filtered to Clawson city. Generalized category in gen_zone.",
+  "extent": [
+    -111.10832240981784,
+    39.124920873501075,
+    -111.07090160205226,
+    39.15085716381327
+  ],
+  "verification": {
+    "verified_at": 1792281084195,
+    "counties": [
+      "49015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

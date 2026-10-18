@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-palmdale",
+  "publisher": "City of Palmdale (Mapping Palmdale GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver.cityofpalmdale.org/arcgis/rest/services/Planning_Zoning/PlanningZoning/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Cod"
+  },
+  "notes": "Parcel layer (Assessor parcels, Palmdale city service) carrying each parcel zoning code in Zoning_Cod; no separate base-zoning district polygon layer found in the city service (ZoningOverlay layer 4 is overlays only). Last-resort parcel-attribute source; zone name not provided.",
+  "extent": [
+    -118.32429930485732,
+    34.494537475878374,
+    -117.9162014542274,
+    34.660774774228386
+  ],
+  "verification": {
+    "verified_at": 1792277433137,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

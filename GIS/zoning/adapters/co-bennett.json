@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "co-bennett",
+  "publisher": "Town of Bennett (ArcGIS Online townofbennett)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/YAV8LFovsNlTJPVD/arcgis/rest/services/Zoning/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08005"
+    ]
+  },
+  "fields": {
+    "link": "ZoningCodeLink",
+    "zone": "ZoningCode",
+    "zone_name": "ZoningType"
+  },
+  "filter": "County = 'Arapahoe'",
+  "notes": "Town of Bennett zoning districts (Town of Bennett ArcGIS Online org, feeds the Town zoning app). Layer also covers Adams County portion, filtered to County = Arapahoe. PD_Number holds planned development numbers. Some rows have null County.",
+  "extent": [
+    -104.41541546994586,
+    39.69436867394198,
+    -104.37795166171492,
+    39.7096609373944
+  ],
+  "verification": {
+    "verified_at": 1792277920348,
+    "counties": [
+      "08005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

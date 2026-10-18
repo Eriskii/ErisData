@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "md-worcester-berlin",
+  "publisher": "Maryland Department of Planning (Generalized Zoning 2025), Berlin",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdpgis.mdp.state.md.us/arcgis/rest/services/PlanningCadastre/Generalized_Zoning_2025/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24047"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "ABBREVIATION",
+    "zone_name": "GENZONE"
+  },
+  "filter": "JURSCODE = 'WORC' AND MUNICIPALITY_NAME = 'BERLIN'",
+  "notes": "State generalized zoning compiled by Maryland Department of Planning (2025 version) from Berlin zoning; generalized categories, not the town ordinance codes. Only Berlin rows used.",
+  "extent": [
+    -75.2348373919538,
+    38.30802275939768,
+    -75.17763381135114,
+    38.355106767015066
+  ],
+  "verification": {
+    "verified_at": 1792278945030,
+    "counties": [
+      "24047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

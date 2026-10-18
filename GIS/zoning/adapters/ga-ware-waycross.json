@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-ware-waycross",
+  "publisher": "City of Waycross (Planning & Zoning, via City Zoning Fall 2025 ArcGIS Online item)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/4KTa81XD0giaGgLC/arcgis/rest/services/City_Zoning_Fall_2025_WFL04012026/FeatureServer/21",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13299"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "City of Waycross base zoning districts (Zoning layer, 138 polygons), from the city owner account e_tomlin_waycrossga; the city zones separately from unincorporated Ware County. Source item title City Zoning Fall 2025.",
+  "extent": [
+    -82.4156278235876,
+    31.161828454054636,
+    -82.31099022397464,
+    31.24606010134961
+  ],
+  "verification": {
+    "verified_at": 1792277943916,
+    "counties": [
+      "13299"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wa-kelso",
+  "publisher": "City of Kelso",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/gRNsRXD0AdIQq0re/arcgis/rest/services/Official_Zoning_Kelso_2022_05_03/FeatureServer/193",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGABBR",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Kelso official zoning (adopted 2022-05-03), from the city GIS public map; 106 features, EPSG:2286 native.",
+  "extent": [
+    -122.92509497113592,
+    46.08222156383692,
+    -122.85636685760652,
+    46.16726401739764
+  ],
+  "verification": {
+    "verified_at": 1792281018682,
+    "counties": [
+      "53015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-fortbend-fulshear",
+  "publisher": "City of Fulshear GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/k1ZyjVw1fpWcwy7h/arcgis/rest/services/ZONING_NEWER/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48157"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Distr",
+    "zone_name": "Zone_Rev"
+  },
+  "notes": "City of Fulshear zoning map layer (most recent, Jan 2026); few polygons (9 features) so may be partial. Layer is in Fort Bend and possibly Harris/Waller ETJ areas; filter not applied.",
+  "extent": [
+    -95.9304959851643,
+    29.64343971876473,
+    -95.8449538764834,
+    29.734380073112384
+  ],
+  "verification": {
+    "verified_at": 1792280642206,
+    "counties": [
+      "48157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

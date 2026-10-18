@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ia-hardin-unincorporated",
+  "publisher": "Hardin County GIS (via Schneider Geospatial)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/09JsFDXeRqZYiaZt/arcgis/rest/services/ZoningDistricts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19083"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT",
+    "zone_name": "NAME"
+  },
+  "notes": "Hardin County unincorporated zoning districts (county zoning does not apply inside incorporated cities); 105 polygons; DISTRICT codes C, M, R, A etc. Source has no jurisdiction field.",
+  "extent": [
+    -93.44411850609588,
+    42.20837987143372,
+    -92.99959201157543,
+    42.566697331923706
+  ],
+  "verification": {
+    "verified_at": 1792278377009,
+    "counties": [
+      "19083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

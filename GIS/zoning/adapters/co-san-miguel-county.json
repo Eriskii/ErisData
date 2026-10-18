@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "co-san-miguel-county",
+  "publisher": "San Miguel County GIS (unincorporated county zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aXqye4IXyXsdIpPb/arcgis/rest/services/SanMiguelZoning/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08113"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONE_AUTH",
+    "zone": "LUCZONE",
+    "zone_name": "ZONING"
+  },
+  "filter": "ZONE_AUTH = 'SAN MIGUEL COUNTY'",
+  "notes": "Hosted by San Miguel County ArcGIS Online org; layer also covers Telluride and Norwood (filtered out). Parcel-level records of unincorporated county zoning; zone from LUCZONE codes, zone_name from ZONING. No ordinance links in source.",
+  "extent": [
+    -109.04295041325749,
+    37.773562231004696,
+    -107.73302577597364,
+    38.15473341860776
+  ],
+  "verification": {
+    "verified_at": 1792277577454,
+    "counties": [
+      "08113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

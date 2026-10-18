@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-cabarrus-locust",
+  "publisher": "Cabarrus County GIS (City of Locust zoning, county open data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://location.cabarruscounty.us/arcgisservices/rest/services/opendata/MapServer/39",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Locust zoning districts from Cabarrus County open data MapServer layer 39 (8 features only; may be partial).",
+  "extent": [
+    -80.47368081738374,
+    35.24532056673735,
+    -80.42690196460757,
+    35.312480891105956
+  ],
+  "verification": {
+    "verified_at": 1792279784075,
+    "counties": [
+      "37025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

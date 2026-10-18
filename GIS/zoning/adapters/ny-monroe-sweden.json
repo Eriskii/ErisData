@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ny-monroe-sweden",
+  "publisher": "Town of Sweden (compiled in Monroe County Municipal Zoning layer)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Ue34o2qxc9h430hV/arcgis/rest/services/Monroe_County_Municipal_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36055"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "zone": "ZONE_ABBR"
+  },
+  "filter": "MUNICIPALITY = 'Sweden'",
+  "notes": "Copy of Monroe County Municipal Zoning (MC_Zoning_All_Municipalities, recorded by Monroe County 11 Nov 2020) hosted on a personal ArcGIS Online account (stuart.jordan_urochester / jzollweg), not a county service. Town of Sweden rows only. zone_name empty in source; zone is the abbreviation only.",
+  "extent": [
+    -77.99772515649803,
+    43.13208080196117,
+    -77.86461652255848,
+    43.220419392563954
+  ],
+  "verification": {
+    "verified_at": 1792279752682,
+    "counties": [
+      "36055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

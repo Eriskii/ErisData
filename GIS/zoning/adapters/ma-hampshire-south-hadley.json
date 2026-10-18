@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-hampshire-south-hadley",
+  "publisher": "Pioneer Valley Planning Commission (JLUS zoning layer for the Town of South Hadley)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/JOJ3LXzkOX5MOLCK/arcgis/rest/services/JLUS_Zoning_SouthHadley/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "PRIM_USE"
+  },
+  "notes": "South Hadley base zoning from a PVPC Joint Land Use Study (JLUS) layer; 61 features; ZONECODE holds the district code, PRIM_USE the primary use category. Regional planning commission copy, not the town own GIS.",
+  "extent": [
+    -72.62441159183238,
+    42.211348027878714,
+    -72.52623852325252,
+    42.3058428417122
+  ],
+  "verification": {
+    "verified_at": 1792278848250,
+    "counties": [
+      "25015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

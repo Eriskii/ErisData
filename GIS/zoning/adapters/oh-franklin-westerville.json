@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-franklin-westerville",
+  "publisher": "City of Westerville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://webgis.westerville.org/public/rest/services/PlanningDevelopment/Zoning/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Westerville zoning districts (ZONING field holds district code). Layer also includes pending/historic entries in ORD_NO; no jurisdiction field needed.",
+  "extent": [
+    -82.97155845712999,
+    40.08898067720678,
+    -82.88041724815164,
+    40.15158324158852
+  ],
+  "verification": {
+    "verified_at": 1792275831868,
+    "counties": [
+      "39049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

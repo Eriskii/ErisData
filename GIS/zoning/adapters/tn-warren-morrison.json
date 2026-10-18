@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-warren-morrison",
+  "publisher": "Town of Morrison, TN (via Upper Cumberland Development District)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/EMZFDxQzNQloLbAf/arcgis/rest/services/Morrison_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47177"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Town of Morrison zoning districts, updated 10/5/2023, served by UCDD GIS for the town; single jurisdiction layer so no filter needed.",
+  "extent": [
+    -85.94071740559987,
+    35.589433323594854,
+    -85.8584101660077,
+    35.633436348908575
+  ],
+  "verification": {
+    "verified_at": 1792280577771,
+    "counties": [
+      "47177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

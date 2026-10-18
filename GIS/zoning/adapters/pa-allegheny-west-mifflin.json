@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "pa-allegheny-west-mifflin",
+  "publisher": "Borough of West Mifflin (municipal ArcGIS account westmifflinpa)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tnw4QeCeHfxphFfl/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42003"
+    ]
+  },
+  "fields": {
+    "zone": "LOCALZONE"
+  },
+  "notes": "West Mifflin Borough zoning districts from the borough ArcGIS account; 61 features. Zone code only, no name field. Borough only.",
+  "extent": [
+    -79.96731238847086,
+    40.317513260054795,
+    -79.84587173377284,
+    40.40281105813395
+  ],
+  "verification": {
+    "verified_at": 1792280264745,
+    "counties": [
+      "42003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

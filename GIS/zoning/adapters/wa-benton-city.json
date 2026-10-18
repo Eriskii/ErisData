@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "wa-benton-city",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), Benton City records",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "link": "ReferenceURL",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "Jurisdiction = 'Benton City'",
+  "notes": "Benton City records from the statewide WA Zoning Atlas (Commerce), not the city own GIS. Benton City zoning districts only.",
+  "extent": [
+    -119.50499949136028,
+    46.24252099811474,
+    -119.4535204947024,
+    46.286615854356
+  ],
+  "verification": {
+    "verified_at": 1792281129580,
+    "counties": [
+      "53005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

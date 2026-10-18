@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nm-lincoln-carrizozo",
+  "publisher": "Town of Carrizozo (draft zoning map prepared by Sites Southwest)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/BLe9lNhgJ5d7eHXy/arcgis/rest/services/Carrizozo_Zoning__Draft_09_07_26_WFL1/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "Draft 2026 zoning designations for Town of Carrizozo prepared by Sites Southwest from Town zoning information and Lincoln County Assessor parcel data; records are parcel-level polygons carrying zoning codes, Valle del Sol phases included; draft for planning reference.",
+  "extent": [
+    -105.89234942997672,
+    33.62723398247465,
+    -105.78113438446496,
+    33.65973225155051
+  ],
+  "verification": {
+    "verified_at": 1792279563436,
+    "counties": [
+      "35027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

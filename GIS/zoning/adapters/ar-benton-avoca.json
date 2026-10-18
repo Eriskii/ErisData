@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ar-benton-avoca",
+  "publisher": "City of Avoca, AR (zoning layer by NWARPC ArcGIS Online organization, titled Official Zoning Avoca)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/Avoca_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05007"
+    ]
+  },
+  "fields": {
+    "zone": "zone_",
+    "zone_name": "ZONE_ABV"
+  },
+  "notes": "City of Avoca zoning districts, 11 features; zone_ holds district code, ZONE_ABV the abbreviation. Ord holds ordinance reference; Hyperlink holds ordinance link, not mapped.",
+  "extent": [
+    -94.08882974899016,
+    36.3840773106079,
+    -94.05661214795485,
+    36.40907877244248
+  ],
+  "verification": {
+    "verified_at": 1792277461314,
+    "counties": [
+      "05007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

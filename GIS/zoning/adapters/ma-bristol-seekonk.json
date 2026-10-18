@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-bristol-seekonk",
+  "publisher": "Town of Seekonk (copy in a hosted permitting service, account DavidCabral)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/6aWsCLE9KA7SkNB5/arcgis/rest/services/Hosted_Data_Layer_Seekonk/FeatureServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_COD"
+  },
+  "notes": "Unofficial copy: a personal ArcGIS Online account (DavidCabral) hosts Seekonk town permitting layers, incl. a zoning polygon layer. Used because no official queryable Seekonk zoning service was found. No name field.",
+  "extent": [
+    -71.34766177639956,
+    41.77488901976111,
+    -71.29203726444376,
+    41.90374219965652
+  ],
+  "verification": {
+    "verified_at": 1792279039380,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "il-lake-fox-lake",
+  "publisher": "Village of Fox Lake (Lake County GIS web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/MKJI1IzdI5RxIY6T/arcgis/rest/services/CommunityDevelopmentData/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17097"
+    ]
+  },
+  "fields": {
+    "link": "ZONINGDOCUMENT",
+    "zone": "ZONED",
+    "zone_name": "ZONINGDESCRIPTION"
+  },
+  "notes": "Fox Lake Zoning layer from the Lake County GIS web map (f5ccf795511647aa9109237d2a4f0d28). Covers Fox Lake village; verify single-jurisdiction content in report.",
+  "extent": [
+    -88.21876424531219,
+    42.35787639728898,
+    -88.14712109151074,
+    42.49511370954917
+  ],
+  "verification": {
+    "verified_at": 1792278325750,
+    "counties": [
+      "17097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

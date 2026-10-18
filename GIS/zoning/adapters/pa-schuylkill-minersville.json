@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-minersville",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Borough of Minersville)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/35_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "descrpt"
+  },
+  "notes": "Municipal zoning for Minersville Borough (MUNIS 35), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.12518719956509,
+    40.574014338494955,
+    -75.99459391674164,
+    40.69656951268691
+  ],
+  "verification": {
+    "verified_at": 1792280237300,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

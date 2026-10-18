@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-dekalb-sycamore",
+  "publisher": "DeKalb County GIS (City of Sycamore parcels with zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/hEXJrPwm89CLXBYe/arcgis/rest/services/Sycamore_Zoning_ParcelsUpdated/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17037"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code_Alternate2",
+    "zone_name": "Zoning_Des"
+  },
+  "notes": "Last resort: parcel layer carrying each parcel zoning (Zoning_Cat category, Zoning_Des description), no separate district layer found; Sycamore city parcels only, 8,983 features. Hosted by county GIS for the City of Sycamore.",
+  "extent": [
+    -88.73434809143046,
+    41.95505027542787,
+    -88.63149771075722,
+    42.03991825356242
+  ],
+  "verification": {
+    "verified_at": 1792278091285,
+    "counties": [
+      "17037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

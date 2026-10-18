@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sc-jasper-ridgeland",
+  "publisher": "Jasper County GIS (Ridgeland Transect Zone layer, county web app)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/oJaBluQKw5aLHpzj/arcgis/rest/services/JasperCountyWebApp_WFL1/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45053"
+    ]
+  },
+  "fields": {
+    "zone": "Transect"
+  },
+  "filter": "Transect LIKE 'T%'",
+  "notes": "City of Ridgeland SmartCode transect zones from the county web app layer. Parcel-keyed layer (Map_Number); only parcels with a transect code (T3, T4...) are kept; most parcels blank, so coverage is partial. Zone = Transect.",
+  "extent": [
+    -81.04415286431903,
+    32.404109040126,
+    -80.9166423174712,
+    32.52092213818298
+  ],
+  "verification": {
+    "verified_at": 1792280249372,
+    "counties": [
+      "45053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

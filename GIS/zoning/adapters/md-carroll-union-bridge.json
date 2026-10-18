@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "md-carroll-union-bridge",
+  "publisher": "Maryland Department of Planning (Generalized Zoning 2025, Town of Union Bridge records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/njFNhDsUCentVYJW/arcgis/rest/services/Generalized_Zoning_2025_Draft/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "ZONING",
+    "zone_name": "GENZONE"
+  },
+  "filter": "JURSCODE = 'CARR' AND MUNICIPALITY_NAME = 'UNION BRIDGE'",
+  "notes": "State of Maryland Generalized Zoning 2025 (draft) layer, statewide dataset holding local zoning codes in ZONING. Filtered to Carroll County records of Union Bridge. No link field.",
+  "extent": [
+    -77.1877297354079,
+    39.55931393460494,
+    -77.16096341421795,
+    39.58660364895107
+  ],
+  "verification": {
+    "verified_at": 1792278859579,
+    "counties": [
+      "24013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

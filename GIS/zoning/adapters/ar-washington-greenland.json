@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ar-washington-greenland",
+  "publisher": "City of Greenland, AR (NWARPC-hosted ArcGIS Online layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/GreenlandZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05143"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "Descr_"
+  },
+  "notes": "City of Greenland zoning districts, city limits only; Ord_No holds ordinance number; Descr_ is a generic map-adoption note in this layer",
+  "extent": [
+    -94.21644686082465,
+    35.96771427888166,
+    -94.16389901594788,
+    36.02076412168989
+  ],
+  "verification": {
+    "verified_at": 1792277364033,
+    "counties": [
+      "05143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

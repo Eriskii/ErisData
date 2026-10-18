@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ok-choctaw",
+  "publisher": "City of Choctaw GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/OPfBLGenvsi4i1lB/arcgis/rest/services/Choctaw_Base_Map/FeatureServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40109"
+    ]
+  },
+  "fields": {
+    "zone": "CurrentZoning",
+    "zone_name": "UpdatedZoning"
+  },
+  "notes": "City of Choctaw Zoning - Currently Active layer from the city Choctaw_Base_Map service. UpdatedZoning combines code and description. Ordinance links are not filled, so no link is mapped. PUD parcels carry the underlying district in PUDUnderlyingZoning. Other base map layers are not included.",
+  "extent": [
+    -97.33551460652856,
+    35.421245683377286,
+    -97.22132772775811,
+    35.53655243739016
+  ],
+  "verification": {
+    "verified_at": 1792280102946,
+    "counties": [
+      "40109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

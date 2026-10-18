@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-seneca-hopewell",
+  "publisher": "Seneca County Auditor GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/b8eHPJ5KRnX3dHNa/arcgis/rest/services/HopewellZoningLayer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39147"
+    ]
+  },
+  "fields": {
+    "zone": "TWPZoning"
+  },
+  "notes": "Hopewell Township, unincorporated Seneca County only. Published by the Seneca County Auditor GIS office.",
+  "extent": [
+    -83.30491155474452,
+    41.079749860919726,
+    -83.18889592581205,
+    41.16767223366658
+  ],
+  "verification": {
+    "verified_at": 1792276155362,
+    "counties": [
+      "39147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

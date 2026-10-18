@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-marin-sausalito",
+  "publisher": "City of Sausalito (via Marin County GIS MarinMap)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.marinpublic.com/arcgis/rest/services/MarinMap2/Open_Data_Download/MapServer/123",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06041"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Sausalito city zoning districts served by Marin County GIS MarinMap. Zoning field holds the district code; no description field in source.",
+  "extent": [
+    -122.5118032563984,
+    37.84318981197752,
+    -122.47531665874784,
+    37.8735237529802
+  ],
+  "verification": {
+    "verified_at": 1792277358401,
+    "counties": [
+      "06041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

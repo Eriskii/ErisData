@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-mesa-fruita",
+  "publisher": "City of Fruita GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/EHbirLYcjMmLybPA/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08077"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Link"
+  },
+  "notes": "City of Fruita zoning districts (ZoningLIVE layer), city land only. Official City of Fruita GIS hosted service. Field Link holds the district name, not an ordinance URL.",
+  "extent": [
+    -108.79905072950466,
+    39.123599756404865,
+    -108.682598913137,
+    39.182434592399694
+  ],
+  "verification": {
+    "verified_at": 1792277470833,
+    "counties": [
+      "08077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

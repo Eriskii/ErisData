@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-carver-chaska",
+  "publisher": "City of Chaska (Carver County GIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.carver.mn.us/arcgis_ca/rest/services/Chaska/Chaska_Planning_Zoning/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "City of Chaska zoning districts only; city limits, not unincorporated county land. Some polygons have no zoning code.",
+  "extent": [
+    -93.6634962579412,
+    44.772295955364086,
+    -93.5605913861042,
+    44.8636142256012
+  ],
+  "verification": {
+    "verified_at": 1792278914842,
+    "counties": [
+      "27019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

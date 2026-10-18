@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "in-clark-jeffersonville",
+  "publisher": "City of Jeffersonville",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/NuZplX0yD9b0Mx90/arcgis/rest/services/jeff_zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18019"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "City of Jeffersonville zoning layer (jeff_zoning service, owner jpbrashear, source City of Jeffersonville). Covers Jeffersonville city and its fringe as the city zones it; zone code only, no name field. Spatial reference 2244 reprojected by server.",
+  "extent": [
+    -85.75747013308747,
+    38.26716528982191,
+    -85.63451851788179,
+    38.40152979973974
+  ],
+  "verification": {
+    "verified_at": 1792278288881,
+    "counties": [
+      "18019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

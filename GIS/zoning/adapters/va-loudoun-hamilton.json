@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "va-loudoun-hamilton",
+  "publisher": "Town of Hamilton (hosted by Loudoun County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://logis.loudoun.gov/gis/rest/services/COL/pol_connect/MapServer/22",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51107"
+    ]
+  },
+  "fields": {
+    "zone": "HA_ZONE"
+  },
+  "notes": "Town of Hamilton base zoning districts, county-hosted layer ZoningHamilton; covers only the Town of Hamilton.",
+  "extent": [
+    -77.6723062481096,
+    39.13166853206846,
+    -77.65462642049395,
+    39.1390462863437
+  ],
+  "verification": {
+    "verified_at": 1792280920478,
+    "counties": [
+      "51107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-hays-dripping-springs",
+  "publisher": "City of Dripping Springs",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/XnTA1N5QxtOFa9o8/ArcGIS/rest/services/CODS_Public_Map/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48209"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Abbreviation",
+    "zone_name": "Zoning_District"
+  },
+  "filter": "Zoning_Abbreviation IS NOT NULL",
+  "notes": "City of Dripping Springs interactive map, Zoning_2023 layer (as of March 2023). Only records with a district code are used; most other records have blank zoning fields in the source. Covers city limits.",
+  "extent": [
+    -98.17240615801067,
+    30.152556329899102,
+    -97.99105278511968,
+    30.224161382270324
+  ],
+  "verification": {
+    "verified_at": 1792280618365,
+    "counties": [
+      "48209"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

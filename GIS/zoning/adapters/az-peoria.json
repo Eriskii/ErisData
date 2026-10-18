@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-peoria",
+  "publisher": "City of Peoria GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.peoriaaz.gov/arcgis/rest/services/CD/Peoria_Zoning/MapServer/20",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_CODE"
+  },
+  "notes": "City of Peoria zoning districts (city limits only), City of Peoria planning GIS. ORD_NUM carries the ordinance number and CASE_NUM the case.",
+  "extent": [
+    -112.44812652410609,
+    33.550219871636415,
+    -112.20238786336245,
+    33.95736117114637
+  ],
+  "verification": {
+    "verified_at": 1792277338547,
+    "counties": [
+      "04013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

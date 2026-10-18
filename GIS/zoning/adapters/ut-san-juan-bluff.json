@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-san-juan-bluff",
+  "publisher": "Town of Bluff, Utah (zoning districts via Utah AGRC generalized zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49037"
+    ]
+  },
+  "fields": {
+    "link": "statute",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county = 'San Juan' AND city = 'Bluff' AND gen_zone IS NOT NULL",
+  "notes": "Statewide generalized zoning layer (Utah AGRC org). Bluff districts only; overlay rows (gen_zone null) excluded. Source zoning from Town of Bluff ordinance 2025-09-12 and maps.",
+  "extent": [
+    -109.6926247213758,
+    37.215845636176695,
+    -109.45710557574704,
+    37.33281042450546
+  ],
+  "verification": {
+    "verified_at": 1792280848520,
+    "counties": [
+      "49037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

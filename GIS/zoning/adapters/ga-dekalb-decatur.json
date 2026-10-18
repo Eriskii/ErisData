@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ga-dekalb-decatur",
+  "publisher": "City of Decatur GA",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/36QtML6Mf01B1N0W/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13089"
+    ]
+  },
+  "fields": {
+    "link": "MUNICODEURL",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Decatur authoritative zoning districts (decatur_admin). Covers City of Decatur only.",
+  "extent": [
+    -84.31581459428656,
+    33.750938821610255,
+    -84.27534346357453,
+    33.793657243474925
+  ],
+  "verification": {
+    "verified_at": 1792277827727,
+    "counties": [
+      "13089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

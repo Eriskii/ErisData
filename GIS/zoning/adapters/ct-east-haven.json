@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-east-haven",
+  "publisher": "South Central CT Regional Council of Governments (SCRCOG), compiled 2018 zoning, hosted by OpenCommunitiesAlliance1",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/bDIODuUqvoiS6i6c/arcgis/rest/services/SCRCOG_Zoning_2018_gdb/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09170"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Copy of SCRCOG 2018 regional zoning compilation on ArcGIS Online (item by OpenCommunitiesAlliance1), not the town server; East Haven layer only (EAST_HAVEN_ZONING). ZONING holds district code; no district name published in this layer. Compiled 2018, may predate amendments.",
+  "extent": [
+    -72.90090469844625,
+    41.24196308878281,
+    -72.81754101852037,
+    41.363944183666376
+  ],
+  "verification": {
+    "verified_at": 1792277577315,
+    "counties": [
+      "09170"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

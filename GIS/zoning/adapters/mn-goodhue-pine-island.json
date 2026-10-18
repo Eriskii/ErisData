@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-goodhue-pine-island",
+  "publisher": "City of Pine Island (hosted by Goodhue County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://publicmaps.co.goodhue.mn.us/arcgis/rest/services/GCUGGIS/PineIslandZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27049"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Type"
+  },
+  "notes": "City of Pine Island zoning districts, hosted on Goodhue County GIS server. Single-city layer.",
+  "extent": [
+    -92.67160634841338,
+    44.17303257309002,
+    -92.5430725651155,
+    44.21719091092238
+  ],
+  "verification": {
+    "verified_at": 1792278956853,
+    "counties": [
+      "27049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

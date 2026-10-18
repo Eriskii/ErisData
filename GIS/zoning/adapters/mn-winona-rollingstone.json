@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "mn-winona-rollingstone",
+  "publisher": "Winona County GIS (city of Rollingstone zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services4.arcgis.com/JRjQuFG9VKLnZxt7/arcgis/rest/services/Winona_Zoning_Project_gdb/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27169"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWN_CITY",
+    "zone": "ZONING_ID",
+    "zone_name": "ZONING"
+  },
+  "filter": "TOWN_CITY = 'Rollingstone'",
+  "notes": "City of Rollingstone zoning districts from the county Zoning_County_Municipalities layer (FeatureServer/0), filtered to TOWN_CITY = Rollingstone (city, not Rollingstone Township). ZONING_ID holds the district code, ZONING the name.",
+  "extent": [
+    -91.83365199228577,
+    44.09475605988342,
+    -91.80795748725932,
+    44.10461270297371
+  ],
+  "verification": {
+    "verified_at": 1792279266547,
+    "counties": [
+      "27169"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

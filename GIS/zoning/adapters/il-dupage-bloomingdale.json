@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "il-dupage-bloomingdale",
+  "publisher": "Village of Bloomingdale (2026 Zoning Boundaries, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/nHwZFPzhWRbCrBdy/arcgis/rest/services/Zoning_Boundaries/FeatureServer/16",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17043"
+    ]
+  },
+  "fields": {
+    "link": "ORIDNANCE1",
+    "zone": "ZONING_DISTRICT",
+    "zone_name": "ZONE_"
+  },
+  "notes": "Village of Bloomingdale 2026 zoning district polygons; hosted on the village ArcGIS Online account. ORIDNANCE1 holds the ordinance reference (misspelled in source). Bloomingdale only.",
+  "extent": [
+    -88.14019588318972,
+    41.930446670599,
+    -88.04969305523541,
+    41.96918189744505
+  ],
+  "verification": {
+    "verified_at": 1792278565387,
+    "counties": [
+      "17043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

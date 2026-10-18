@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ia-carter-lake",
+  "publisher": "City of Carter Lake (via Pottawattamie County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pottcounty-ia.gov/arcgis/rest/services/Hosted/Carter_Lake_Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19155"
+    ]
+  },
+  "fields": {
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "Carter Lake, Iowa zoning districts (18 polygons) from the Pottawattamie County GIS hosted layer.",
+  "extent": [
+    -95.93036614327012,
+    41.271901031529794,
+    -95.90390437695532,
+    41.30134512387855
+  ],
+  "verification": {
+    "verified_at": 1792278414663,
+    "counties": [
+      "19155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

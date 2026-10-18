@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ia-poweshiek-montezuma",
+  "publisher": "Iowa State University GIS Facility (statewide zoning compilation), City of Montezuma districts",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19157"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Montezuma'",
+  "notes": "ISU GIS Facility statewide zoning compilation, city = Montezuma only (7 features). Not the city's own service; the city publishes its zoning map as a PDF/web page.",
+  "extent": [
+    -92.54701113780618,
+    41.57430358717901,
+    -92.50685666918487,
+    41.59246098511173
+  ],
+  "verification": {
+    "verified_at": 1792278455006,
+    "counties": [
+      "19157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

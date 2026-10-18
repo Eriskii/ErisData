@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-denton-trophy-club",
+  "publisher": "Denton County GIS (for Town of Trophy Club)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/oTsZYNubyv7xK5yP/arcgis/rest/services/TrophyClub_Zoning_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48121"
+    ]
+  },
+  "fields": {
+    "zone": "DistCode"
+  },
+  "notes": "Town of Trophy Club zoning districts, published by Denton County GIS as a public view (TrophyClub_Zoning_Public). Zone names and ordinance fields are mostly empty, so only the district code is mapped.",
+  "extent": [
+    -97.21729899327075,
+    32.98497767574869,
+    -97.16725018699661,
+    33.024517744015775
+  ],
+  "verification": {
+    "verified_at": 1792280826243,
+    "counties": [
+      "48121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

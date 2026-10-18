@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wa-stevens-marcus",
+  "publisher": "Stevens County GIS (Town of Marcus zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stevenscountywa.gov/server/rest/services/Stevens_County_Zoning_Data/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53065"
+    ]
+  },
+  "fields": {
+    "zone_name": "NAME"
+  },
+  "notes": "Town of Marcus zoning districts from the Stevens County zoning data service (layer 7). Single-city layer; zone code not present separately, name field used.",
+  "extent": [
+    -118.07289677409952,
+    48.6620026079595,
+    -118.04968206968036,
+    48.667785593950605
+  ],
+  "verification": {
+    "verified_at": 1792281005203,
+    "counties": [
+      "53065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

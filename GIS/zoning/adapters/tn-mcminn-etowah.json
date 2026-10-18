@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-mcminn-etowah",
+  "publisher": "Southeast Tennessee Development District (for City of Etowah, TN)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Etowah_Zoning_05262023/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47107"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "City of Etowah zoning districts, published by SETDD (regional development district GIS) for the city. Single-jurisdiction layer.",
+  "extent": [
+    -84.54438964313951,
+    35.312420779370335,
+    -84.5156859804098,
+    35.38092739719944
+  ],
+  "verification": {
+    "verified_at": 1792280423689,
+    "counties": [
+      "47107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

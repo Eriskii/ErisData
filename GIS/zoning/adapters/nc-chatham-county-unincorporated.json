@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-chatham-county-unincorporated",
+  "publisher": "Chatham County Planning (county zoning, unincorporated areas)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.chathamcountync.gov/opendataagol/rest/services/LandUsePlanning/Chatham_CountyZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37037"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClassification"
+  },
+  "notes": "Chatham County unincorporated zoning, derived from the county parcel layer. Also carries Siler City and Pittsboro ETJ boundaries and unzoned polygons; those ETJ/unzoned features may duplicate town layers.",
+  "extent": [
+    -79.55828800206368,
+    35.51504577638529,
+    -78.90606331791193,
+    35.87707373101454
+  ],
+  "verification": {
+    "verified_at": 1792279871043,
+    "counties": [
+      "37037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

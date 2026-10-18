@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mi-grand-traverse-garfield",
+  "publisher": "Charter Township of Garfield GIS (Garfield Map Center)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/gvUbtcxGrAbcs79h/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26055"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Charter Township of Garfield only. Layer is parcel-based (one feature per parcel, parcel ID in PARCELID); zoning in Zoning as code plus name, e.g. A - Agricultural. PRIMEZONE is a tax class, not mapped.",
+  "extent": [
+    -85.69681712784624,
+    44.686203347583714,
+    -85.57507002346442,
+    44.77551072809488
+  ],
+  "verification": {
+    "verified_at": 1792275326301,
+    "counties": [
+      "26055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

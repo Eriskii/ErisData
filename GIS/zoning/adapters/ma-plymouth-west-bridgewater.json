@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-plymouth-west-bridgewater",
+  "publisher": "Town of West Bridgewater GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/aFGYimPIwM7Z4nt2/arcgis/rest/services/WB_Zoning/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25023"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_"
+  },
+  "notes": "West Bridgewater zoning districts from the town WB_Zoning service (7 polygons)",
+  "extent": [
+    -71.07004778154034,
+    41.98240694467208,
+    -70.97839704100222,
+    42.05527107960977
+  ],
+  "verification": {
+    "verified_at": 1792279463345,
+    "counties": [
+      "25023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

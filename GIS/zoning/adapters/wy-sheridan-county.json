@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wy-sheridan-county",
+  "publisher": "Sheridan County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/V4b98G4pSkzvUam9/arcgis/rest/services/Zoning_view/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56033"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "Zoning <> 'Corporate Limits'",
+  "notes": "Sheridan County unincorporated zoning districts (Agricultural, Airport, Commercial 1/2, Industrial 1/2, PUD, Rural Residential, Urban Residential), from the county GIS hub. Corporate Limits polygons excluded. No jurisdiction field; the layer is county-only land.",
+  "extent": [
+    -107.91158745249842,
+    44.55052931681755,
+    -105.99984961740616,
+    45.00102884745182
+  ],
+  "verification": {
+    "verified_at": 1792281338960,
+    "counties": [
+      "56033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

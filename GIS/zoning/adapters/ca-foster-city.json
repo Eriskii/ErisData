@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-foster-city",
+  "publisher": "City of Foster City (city GIS, parcels with zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/CYn8XGt0yVlPlS5X/arcgis/rest/services/Foster_City_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06081"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClass",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "Last resort: no district polygon layer found. A parcel layer from the city account whose attributes carry each parcel zoning; one row per parcel (9935), so districts repeat. Zone from ZoningClass, name from ZoningDesc.",
+  "extent": [
+    -122.2877715394554,
+    37.533499573394664,
+    -122.24729928801216,
+    37.5769167849041
+  ],
+  "verification": {
+    "verified_at": 1792277577382,
+    "counties": [
+      "06081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

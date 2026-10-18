@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-ramsey-roseville",
+  "publisher": "City of Roseville MN GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/aH2Uzd6LSv1SEo1I/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27123"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Feature"
+  },
+  "notes": "City of Roseville zoning layer (city ArcGIS Online organization, Zoning map ordinance 2021). Layer holds one feature per parcel with its zoning district in Zoning; verify Feature field is a usable description before submit. Layer name Zoning; BRT overlay is separate layer 0 (not used).",
+  "extent": [
+    -93.20796607803707,
+    44.99178226490342,
+    -93.10605948710604,
+    45.03591930367135
+  ],
+  "verification": {
+    "verified_at": 1792279086642,
+    "counties": [
+      "27123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

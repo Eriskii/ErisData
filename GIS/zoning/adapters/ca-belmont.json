@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-belmont",
+  "publisher": "City of Belmont",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.belmont.gov/arcgis/rest/services/OpenData/OpenData/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06081"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "City of Belmont zoning districts from the city open data service. CITY field present; all rows expected to be Belmont.",
+  "extent": [
+    -122.32896294003416,
+    37.497103803336,
+    -122.26104353864775,
+    37.53396295961842
+  ],
+  "verification": {
+    "verified_at": 1792277455612,
+    "counties": [
+      "06081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

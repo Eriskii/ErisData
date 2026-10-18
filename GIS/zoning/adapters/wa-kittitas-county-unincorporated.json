@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-kittitas-county-unincorporated",
+  "publisher": "Kittitas County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.kittitas.wa.us/kcgis/rest/services/COMPAS/zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53037"
+    ]
+  },
+  "fields": {
+    "link": "Code_Hyperlink",
+    "zone": "zone_name",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Kittitas County official zoning (County Zoning layer, 150 features; unincorporated county land). ZONECLASS is empty, so the district name in zone_name is used as the zone code.",
+  "extent": [
+    -121.46519153951672,
+    46.736153357133794,
+    -119.92568903230476,
+    47.59661007798318
+  ],
+  "verification": {
+    "verified_at": 1792281075412,
+    "counties": [
+      "53037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

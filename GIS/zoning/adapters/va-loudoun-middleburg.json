@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "va-loudoun-middleburg",
+  "publisher": "Town of Middleburg (hosted by Loudoun County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://logis.loudoun.gov/gis/rest/services/COL/pol_connect/MapServer/25",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51107"
+    ]
+  },
+  "fields": {
+    "zone": "MB_ZONE"
+  },
+  "notes": "Town of Middleburg base zoning districts, county-hosted layer ZoningMiddleburg; covers only the Town of Middleburg.",
+  "extent": [
+    -77.7595997301174,
+    38.96288782641918,
+    -77.72538756325878,
+    38.980601217262965
+  ],
+  "verification": {
+    "verified_at": 1792280943569,
+    "counties": [
+      "51107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

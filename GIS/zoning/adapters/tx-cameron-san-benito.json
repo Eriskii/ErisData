@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-cameron-san-benito",
+  "publisher": "City of San Benito GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/InGQckaecgS7hpa8/arcgis/rest/services/COSB_ZONING_DISTRICTS_230901/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48061"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of San Benito zoning districts, hosted on the city staff ArcGIS Online org (COSB_ZONING_DISTRICTS_230901). Single field Zoning holds district name with code; no name or link field.",
+  "extent": [
+    -97.72518678569742,
+    26.050578917861426,
+    -97.58993808588126,
+    26.172324041074862
+  ],
+  "verification": {
+    "verified_at": 1792280524631,
+    "counties": [
+      "48061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-jefferson-adams",
+  "publisher": "Town of Adams (via DANC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/32",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36045"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Town of Adams zoning districts from the DANC GIS host (FDC_Special_Districts_Zoning layer 32). Single-jurisdiction layer; PDF_Link not mapped (empty). Includes overlay districts (e.g. Aquifer Recharge Area Overlay) mixed with base districts.",
+  "extent": [
+    -76.10718316820139,
+    43.79797589228948,
+    -75.96914593446304,
+    43.902329325116526
+  ],
+  "verification": {
+    "verified_at": 1792279813918,
+    "counties": [
+      "36045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

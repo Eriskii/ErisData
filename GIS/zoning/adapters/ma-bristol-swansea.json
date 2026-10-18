@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-bristol-swansea",
+  "publisher": "Town of Swansea (base zoning hosted by SRPEDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/euKKjtGUuDiy24vy/arcgis/rest/services/Swansea_BaseZoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Swansea base zoning, 2021-10-08 layer, hosted by SRPEDD for the Town. Overlays not included.",
+  "extent": [
+    -71.31655100893344,
+    41.70832220609924,
+    -71.15298556796276,
+    41.816866484286045
+  ],
+  "verification": {
+    "verified_at": 1792279243175,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

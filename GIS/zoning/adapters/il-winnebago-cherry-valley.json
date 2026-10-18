@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-winnebago-cherry-valley",
+  "publisher": "Village of Cherry Valley (via Winnebago County GIS, EcDev service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/44ad70f78c864e2ab40134c3866e3838/rest/services/EcDev/MapServer/10",
+    "page_size": 12,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "17201"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningType",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "Village of Cherry Valley zoning districts, served from the Winnebago County GIS public EcDev MapServer. Only about 12 features; 10 of 12 centroids fall inside the county.",
+  "extent": [
+    -89.0235381031025,
+    42.15766361778821,
+    -88.91817902178855,
+    42.27436507494623
+  ],
+  "verification": {
+    "verified_at": 1792278468720,
+    "counties": [
+      "17201"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

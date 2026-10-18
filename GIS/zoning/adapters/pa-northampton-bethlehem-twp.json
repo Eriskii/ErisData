@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "pa-northampton-bethlehem-twp",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Bethlehem Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "NAME",
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND NAME = 'Bethlehem Township'",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Bethlehem Township by NAME. Zone codes carry a municipal prefix. Link field is not mapped.",
+  "extent": [
+    -75.37476926894935,
+    40.630120964979824,
+    -75.26817629441832,
+    40.69235716826993
+  ],
+  "verification": {
+    "verified_at": 1792280341628,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

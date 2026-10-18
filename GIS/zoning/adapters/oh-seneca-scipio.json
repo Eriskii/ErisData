@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-seneca-scipio",
+  "publisher": "Seneca County Auditor GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/b8eHPJ5KRnX3dHNa/arcgis/rest/services/ScipioZoningLayer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39147"
+    ]
+  },
+  "fields": {
+    "zone": "TWPZoning"
+  },
+  "notes": "Scipio Township, unincorporated Seneca County only. Published by the Seneca County Auditor GIS office.",
+  "extent": [
+    -83.07459054068171,
+    41.08072536432488,
+    -82.95739531083191,
+    41.16926368725089
+  ],
+  "verification": {
+    "verified_at": 1792276140259,
+    "counties": [
+      "39147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

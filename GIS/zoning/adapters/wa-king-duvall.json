@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-king-duvall",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), City of Duvall",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '033' AND Jurisdiction = 'Duvall'",
+  "notes": "State Zoning Atlas compilation of Duvall zoning districts, Duvall only (COUNTYFP 033).",
+  "extent": [
+    -121.99750841213738,
+    47.720290374339875,
+    -121.943904642526,
+    47.75122850837593
+  ],
+  "verification": {
+    "verified_at": 1792282067646,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

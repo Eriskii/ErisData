@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-buncombe-weaverville",
+  "publisher": "Town of Weaverville",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/lA7fMEY4qaPiZF6g/arcgis/rest/services/Zoning_ForApp/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37021"
+    ]
+  },
+  "fields": {
+    "zone": "Code"
+  },
+  "notes": "Town of Weaverville generalized zoning classifications on Buncombe parcel boundaries, published by town staff account. Layer carries only a code field.",
+  "extent": [
+    -82.58552392386173,
+    35.66959756653452,
+    -82.51514298747611,
+    35.72086795824274
+  ],
+  "verification": {
+    "verified_at": 1792279709008,
+    "counties": [
+      "37021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

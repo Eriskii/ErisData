@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-macon-highlands",
+  "publisher": "Town of Highlands, NC",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/QCc0b3j3pCXrMzys/arcgis/rest/services/Zoning_01_2025/FeatureServer/31",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37113"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT",
+    "zone_name": "Description"
+  },
+  "notes": "Town of Highlands zoning districts (Zoning 01 2025), hosted on the town ArcGIS Online org (highlandsnc.maps.arcgis.com viewer). Covers the Town of Highlands only, which lies partly in Macon County. No jurisdiction field.",
+  "extent": [
+    -83.2327974258859,
+    35.029513404018864,
+    -83.1496257407193,
+    35.07679458602891
+  ],
+  "verification": {
+    "verified_at": 1792279841005,
+    "counties": [
+      "37113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

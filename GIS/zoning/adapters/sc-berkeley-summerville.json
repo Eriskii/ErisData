@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sc-berkeley-summerville",
+  "publisher": "Town of Summerville (parcel layer carrying zoning class, Town ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/0zSnoqwLCR3i1Yfw/arcgis/rest/services/Zoning_View_Layer/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45015"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Class"
+  },
+  "filter": "County = 'BERKELEY'",
+  "notes": "Last resort: no Town district layer was found; this is the Town of Summerville parcel layer whose Zone_Class field carries each parcel zoning class (not a district polygon layer). Filtered to parcels in Berkeley County portion. Zone_Class includes some non-zoning values (PL, ROW, Null) that should be treated as such. Layer dated 2025 per its service.",
+  "extent": [
+    -80.18708591056338,
+    33.02182809896643,
+    -80.14083290639404,
+    33.08917440054462
+  ],
+  "verification": {
+    "verified_at": 1792280219524,
+    "counties": [
+      "45015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

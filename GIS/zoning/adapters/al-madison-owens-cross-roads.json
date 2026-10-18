@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "al-madison-owens-cross-roads",
+  "publisher": "Madison County GIS (Owens Cross Roads zoning layer, county AL47 GAMA web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://web3.kcsgis.com/kcsgis/rest/services/Madison/AL47_GAMAWeb/MapServer/126",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01089"
+    ]
+  },
+  "fields": {
+    "zone": "Proposed_Z"
+  },
+  "notes": "City of Owens Cross Roads zoning districts as held in the Madison County GIS reference map service (layer OXR Zoning, 1454 polygons). Zone code is in Proposed_Z (e.g. ER, TC, RR); no description field. Attribute is named Proposed_Z, so the layer may carry proposed rather than adopted zoning; the county GIS is the only queryable source found.",
+  "extent": [
+    -86.5084001792963,
+    34.54948512978282,
+    -86.4144950578705,
+    34.61779794955077
+  ],
+  "verification": {
+    "verified_at": 1792277230939,
+    "counties": [
+      "01089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

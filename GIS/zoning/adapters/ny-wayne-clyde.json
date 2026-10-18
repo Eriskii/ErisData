@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-wayne-clyde",
+  "publisher": "Wayne County GIS (Village of Clyde zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.wayne.ny.us/arcgis/rest/services/Clyde_Zoning/FeatureServer/56",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36117"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Class",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "Village of Clyde zoning, standardized by Wayne County GIS / GTG 2024.",
+  "extent": [
+    -76.88539291431704,
+    43.07313082691723,
+    -76.85537888786297,
+    43.095124817114225
+  ],
+  "verification": {
+    "verified_at": 1792279750502,
+    "counties": [
+      "36117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

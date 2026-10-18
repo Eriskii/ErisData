@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-mclean-heyworth",
+  "publisher": "Village of Heyworth (via ArcGIS Online, HeyworthIL_Admin)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Jhy7YL3quHgSmJsA/arcgis/rest/services/Zoning_Heyworth_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17113"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdctn",
+    "zone": "Zoning0409"
+  },
+  "notes": "Village of Heyworth zoning layer published by the village. Zone field Zoning0409 is the zoning code; ZoningProp is proposed zoning and is not used.",
+  "extent": [
+    -89.03544869862175,
+    40.280148433739825,
+    -88.9584314352584,
+    40.337810375888154
+  ],
+  "verification": {
+    "verified_at": 1792278126382,
+    "counties": [
+      "17113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

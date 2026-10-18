@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "wa-lewis-napavine",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), City of Napavine",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "link": "ReferenceURL",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '041' AND Jurisdiction = 'Napavine'",
+  "notes": "Statewide WA Zoning Atlas prototype layer, filtered to Lewis County jurisdiction Napavine.",
+  "extent": [
+    -122.92234560984174,
+    46.5670980375471,
+    -122.86604881395256,
+    46.61084732916972
+  ],
+  "verification": {
+    "verified_at": 1792281018340,
+    "counties": [
+      "53041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

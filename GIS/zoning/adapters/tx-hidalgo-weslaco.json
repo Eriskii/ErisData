@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-hidalgo-weslaco",
+  "publisher": "City of Weslaco GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/9yzEIJbAp0HzkDjg/arcgis/rest/services/WESLACO_ZONING_DISTRICTS/FeatureServer/106",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48215"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "City of Weslaco zoning districts, layer WESLACO_ZONING_DISTRICTS_250611_260217 (standardized by AIM GIS Solutions from city data, 2025-2026). Single-city layer, no jurisdiction field. Layer also carries CAD/HCAD fields; use CODE and DISTRICT only.",
+  "extent": [
+    -98.0224730122458,
+    26.096212083291796,
+    -97.94941993990444,
+    26.213655087046018
+  ],
+  "verification": {
+    "verified_at": 1792280678112,
+    "counties": [
+      "48215"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

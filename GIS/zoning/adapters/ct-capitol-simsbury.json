@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-capitol-simsbury",
+  "publisher": "Town of Simsbury GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/GaMMT4zu91fXvO6I/arcgis/rest/services/Zoning/FeatureServer/67",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09110"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Simsbury Zoning and Planning data hosted on ArcGIS Online (Simsbury_TH account), Zoning layer 111 polygons. zone = ZONING; no zone name field in source.",
+  "extent": [
+    -72.87658600160702,
+    41.81620591167436,
+    -72.7588668254078,
+    41.92066714693915
+  ],
+  "verification": {
+    "verified_at": 1792277764765,
+    "counties": [
+      "09110"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

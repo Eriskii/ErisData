@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "md-wicomico-delmar",
+  "publisher": "Maryland Department of Planning (Generalized Zoning 2025, Wicomico County municipalities): Town of Delmar",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdpgis.mdp.state.md.us/arcgis/rest/services/PlanningCadastre/Generalized_Zoning_2025/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24045"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "GENZONE"
+  },
+  "filter": "JURSCODE = 'WICO' AND MUNICIPALITY_NAME = 'DELMAR'",
+  "notes": "State generalized zoning 2025: generalized categories (GENZONE), not the town's own district codes; the town publishes only static PDF zoning maps. EPSG 26985 source.",
+  "extent": [
+    -75.58815967118187,
+    38.42746354416891,
+    -75.5324398416576,
+    38.456198790809275
+  ],
+  "verification": {
+    "verified_at": 1792278841392,
+    "counties": [
+      "24045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

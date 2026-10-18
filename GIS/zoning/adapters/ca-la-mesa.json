@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-la-mesa",
+  "publisher": "City of La Mesa GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/iYP51zxNr6TITn6r/arcgis/rest/services/ZoningOverlay/FeatureServer/88",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06073"
+    ]
+  },
+  "fields": {
+    "link": "ORD_URL",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "City of La Mesa council-adopted zoning (Zoning layer of the city ZoningOverlay service; parcel-level polygons carrying the zone). Overlay districts are in a separate layer (89) and not used.",
+  "extent": [
+    -117.05385959213528,
+    32.743598633817335,
+    -116.9816338320684,
+    32.796183830049266
+  ],
+  "verification": {
+    "verified_at": 1792277526705,
+    "counties": [
+      "06073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

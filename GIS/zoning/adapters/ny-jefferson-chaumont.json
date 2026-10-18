@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-jefferson-chaumont",
+  "publisher": "Village of Chaumont (via DANC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/35",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36045"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Village of Chaumont zoning districts from the DANC GIS host (FDC_Special_Districts_Zoning layer 35). Single-jurisdiction layer; PDF_Link not mapped (empty).",
+  "extent": [
+    -76.14885555059551,
+    44.05621363622504,
+    -76.11675836564811,
+    44.07716273900044
+  ],
+  "verification": {
+    "verified_at": 1792279803861,
+    "counties": [
+      "36045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

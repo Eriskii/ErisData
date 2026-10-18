@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ia-marshall-marshalltown",
+  "publisher": "City of Marshalltown (Zoning - Final layer, Bolton & Menk, Marshalltown ArcGIS Online org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/7WRZWVaTK828hbiZ/arcgis/rest/services/Zoning_Final/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19127"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDist",
+    "zone_name": "Description"
+  },
+  "notes": "City of Marshalltown zoning polygons, December 2022 (Bolton & Menk), hosted in the city ArcGIS Online org. ProposedZoningDist is not the current zone; use ZoningDist. Covers city of Marshalltown only.",
+  "extent": [
+    -92.9703572218043,
+    41.99610192898552,
+    -92.83396363707084,
+    42.07092826939528
+  ],
+  "verification": {
+    "verified_at": 1792278384026,
+    "counties": [
+      "19127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

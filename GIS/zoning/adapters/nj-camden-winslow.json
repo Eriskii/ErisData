@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nj-camden-winslow",
+  "publisher": "Winslow Township (CS_Winslow ArcGIS Online org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/sm4Xf4yN8UfC4qMG/arcgis/rest/services/Winslow_Zoning_/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "Winslow Township zoning districts, 101 polygons. ZONE_ holds the district code; GROUP_ is a broader category; PMA is the Pinelands management area. Township-published layer.",
+  "extent": [
+    -75.01611302794441,
+    39.60783242051512,
+    -74.79980254136794,
+    39.78531346344358
+  ],
+  "verification": {
+    "verified_at": 1792279683738,
+    "counties": [
+      "34007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

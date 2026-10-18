@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-brevard-rockledge",
+  "publisher": "City of Rockledge (Planning_Zoning_FLU_Hosted, public zoning map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/DiqQTpGSIFghI3eM/arcgis/rest/services/Planning_Zoning_FLU_Hosted/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12009"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Rockledge zoning, parcel-based polygons carrying each parcel zoning in Zoning (e.g. R2 - Single Family); covers Rockledge only. Published by the city via its public zoning and future land use map.",
+  "extent": [
+    -80.79668522253883,
+    28.277975215082023,
+    -80.70054527992154,
+    28.349576727594076
+  ],
+  "verification": {
+    "verified_at": 1792278003826,
+    "counties": [
+      "12009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

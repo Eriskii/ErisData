@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "va-loudoun-lovettsville",
+  "publisher": "Town of Lovettsville (hosted by Loudoun County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://logis.loudoun.gov/gis/rest/services/COL/pol_connect/MapServer/24",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51107"
+    ]
+  },
+  "fields": {
+    "zone": "LV_ZONE"
+  },
+  "notes": "Town of Lovettsville base zoning districts, county-hosted layer ZoningLovettsville; covers only the Town of Lovettsville.",
+  "extent": [
+    -77.64909703149982,
+    39.25664943466349,
+    -77.63001334059102,
+    39.2858243004145
+  ],
+  "verification": {
+    "verified_at": 1792280935227,
+    "counties": [
+      "51107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

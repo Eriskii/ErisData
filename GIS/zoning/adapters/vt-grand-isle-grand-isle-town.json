@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "vt-grand-isle-grand-isle-town",
+  "publisher": "Vermont Agency of Commerce and Community Development / VCGI Vermont Zoning Atlas (statewide layer, Grand Isle town rows)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/rnCtPMpypTkqwvYT/arcgis/rest/services/Vermont_Zoning_Public_View/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "50013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JXTN",
+    "zone": "ABB_DIST_NAME",
+    "zone_name": "DIST_NAME"
+  },
+  "filter": "COUNTY = 'Grand Isle' AND JXTN = 'Grand Isle'",
+  "notes": "Statewide Vermont Zoning Atlas layer, filtered to Grand Isle County rows with jurisdiction Grand Isle (town). Not a Grand Isle town server copy. Only Grand Isle town rows used; North and South Hero are in saved layers.",
+  "extent": [
+    -73.35344186312918,
+    44.67722869638873,
+    -73.24220259571084,
+    44.770372912707046
+  ],
+  "verification": {
+    "verified_at": 1792280857327,
+    "counties": [
+      "50013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

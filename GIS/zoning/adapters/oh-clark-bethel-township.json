@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-clark-bethel-township",
+  "publisher": "Clark County, Ohio (county zoning for Bethel Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ago.clarkcountyohio.gov/ccoarcgis/rest/services/BHA/AGS_Clark_Zones/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39023"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWNSHIP",
+    "zone": "ZONING",
+    "zone_name": "ZONINGDESC"
+  },
+  "notes": "Unincorporated Bethel Township zoning districts, county-administered; layer of the Clark County AGS_Clark_Zones service.",
+  "extent": [
+    -84.05387539973711,
+    39.84953935280877,
+    -83.89302471247291,
+    39.95233735414165
+  ],
+  "verification": {
+    "verified_at": 1792275610973,
+    "counties": [
+      "39023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

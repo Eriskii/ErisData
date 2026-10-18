@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "pa-snyder-west-beaver",
+  "publisher": "Union County GIS (ArcGIS Online organization; zoning districts compiled for Union and Snyder County municipalities)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/oX0kbxItOpLtURFa/arcgis/rest/services/ZoningDistrict/FeatureServer/107",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "COUNTY = 'Snyder County' AND MUNICIPALITY = 'West Beaver Township'",
+  "notes": "West Beaver Township, Snyder County, served from the Union County GIS compilation layer (shared with pa-union, which filters to Union County). Only Snyder records with MUNICIPALITY = West Beaver Township are used.",
+  "extent": [
+    -77.30006767237188,
+    40.69869470183784,
+    -77.22542527719088,
+    40.775745181873866
+  ],
+  "verification": {
+    "verified_at": 1792280199645,
+    "counties": [
+      "42109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

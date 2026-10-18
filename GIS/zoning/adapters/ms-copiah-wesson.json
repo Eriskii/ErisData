@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ms-copiah-wesson",
+  "publisher": "Central Mississippi Planning and Development District (for City of Wesson)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Wesson_Feature_Layer/FeatureServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28029"
+    ]
+  },
+  "fields": {
+    "zone": "zone"
+  },
+  "notes": "CMPDD hosted layer for City of Wesson; base Zoning polygons, 27 features, zone attribute only (no name or ordinance link). Served over http.",
+  "extent": [
+    -90.41401941332872,
+    31.68341562642643,
+    -90.37568087624948,
+    31.715066957105375
+  ],
+  "verification": {
+    "verified_at": 1792279158598,
+    "counties": [
+      "28029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

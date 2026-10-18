@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-will-frankfort",
+  "publisher": "Village of Frankfort GIS (Public Data Map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/SOVgyYCFVBkOrKDZ/arcgis/rest/services/Zoning_Dissolve/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17197"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Frankfort zoning districts, dissolved layer (Zoning_Dissolve FeatureServer layer 2) behind the Frankfort Public Data Map. zone = Zoning code; no description field.",
+  "extent": [
+    -87.94653061270562,
+    41.41898558802309,
+    -87.7469239000134,
+    41.55557776260352
+  ],
+  "verification": {
+    "verified_at": 1792278689498,
+    "counties": [
+      "17197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-polk-bartow",
+  "publisher": "City of Bartow (Development layers hosted on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/1wJDvJrOmH0GVxt1/arcgis/rest/services/City_of_Bartow_Development/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12105"
+    ]
+  },
+  "fields": {
+    "zone": "ZON"
+  },
+  "notes": "City of Bartow zoning districts only (city limits). Zone code from ZON; no district name field in the source. ZON_ORD holds an ordinance reference, not a link. Layer is in a city-owned ArcGIS Online organization.",
+  "extent": [
+    -81.89405300511822,
+    27.79528330884078,
+    -81.74618550251702,
+    27.974920390719628
+  ],
+  "verification": {
+    "verified_at": 1792277746011,
+    "counties": [
+      "12105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

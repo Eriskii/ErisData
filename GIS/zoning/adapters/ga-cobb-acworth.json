@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-cobb-acworth",
+  "publisher": "City of Acworth GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/AkJuRTalqccxOHLu/arcgis/rest/services/ZoningData_View_Layer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13067"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Acworth zoning districts (ZoningData_View_Layer, 84 polygons). Acworth spans Cobb and Bartow; this layer covers the city.",
+  "extent": [
+    -84.72274044751502,
+    34.02710527187639,
+    -84.62405509046276,
+    34.078955443407786
+  ],
+  "verification": {
+    "verified_at": 1792277776707,
+    "counties": [
+      "13067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

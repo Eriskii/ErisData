@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "or-douglas-canyonville",
+  "publisher": "Douglas County GIS (City of Canyonville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.douglas.or.us/server/rest/services/Planning/DC_City_Zones/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Douglas County GIS layer of City of Canyonville zoning districts (Zoning Canyonville, in DC_City_Zones). Only zone code and name combined in ZONE; no separate district name field.",
+  "extent": [
+    -123.30136408206025,
+    42.91741045327992,
+    -123.26552040479083,
+    42.94921189550029
+  ],
+  "verification": {
+    "verified_at": 1792280063970,
+    "counties": [
+      "41019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

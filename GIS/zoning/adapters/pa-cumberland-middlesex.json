@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-middlesex",
+  "publisher": "Cumberland County Planning Department (Middlesex Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Middlesex Township zoning layer from the county GIS Zoning_Basemap service; digitized by the county from municipal paper maps, may not be the official adopted maps. ZoneType also available.",
+  "extent": [
+    -77.18623322121542,
+    40.19476237813962,
+    -77.08392877336053,
+    40.30176501439334
+  ],
+  "verification": {
+    "verified_at": 1792280150707,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

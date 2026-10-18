@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wa-king-sammamish",
+  "publisher": "City of Sammamish GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.sammamishwa.gov/arcgis/rest/services/Planning/Zoning2016_2/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Sammamish 2016 zoning (Zoning 2016 layer, MapServer layer 4 of the Planning Zoning2016_2 service); Sammamish only. Zone code only; no district name is filled. Snapshot as published by the city.",
+  "extent": [
+    -122.09199851337,
+    47.553603594768006,
+    -121.94280239982074,
+    47.657246506916294
+  ],
+  "verification": {
+    "verified_at": 1792281731380,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

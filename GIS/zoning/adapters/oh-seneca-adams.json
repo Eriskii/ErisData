@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-seneca-adams",
+  "publisher": "Seneca County Auditor GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/b8eHPJ5KRnX3dHNa/arcgis/rest/services/AdamsZoningLayer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39147"
+    ]
+  },
+  "fields": {
+    "zone": "TWPZoning1"
+  },
+  "notes": "Adams Township, unincorporated Seneca County only. Published by the Seneca County Auditor GIS office.",
+  "extent": [
+    -83.07426427154057,
+    41.16858697952745,
+    -82.95592340078672,
+    41.25689668934061
+  ],
+  "verification": {
+    "verified_at": 1792276145396,
+    "counties": [
+      "39147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

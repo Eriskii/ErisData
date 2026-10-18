@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ar-harrison-rzl",
+  "publisher": "City of Harrison GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/WVavmwsE30Ujoqgb/arcgis/rest/services/HARRISON_FILE_GDB_viewer/FeatureServer/32",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05009"
+    ]
+  },
+  "fields": {
+    "zone": "Label"
+  },
+  "notes": "City of Harrison zoning; the city publishes one layer per district (this is RZL zero lot line residential only), so this spec is partial.",
+  "extent": [
+    -93.14161058424003,
+    36.228710158513564,
+    -93.10624631488824,
+    36.25448845232374
+  ],
+  "verification": {
+    "verified_at": 1792277337005,
+    "counties": [
+      "05009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

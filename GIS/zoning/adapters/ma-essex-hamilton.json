@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-essex-hamilton",
+  "publisher": "Town of Hamilton, MA (bkipswich ArcGIS Online, HamiltonMA_Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/7QzH6ekj4Ahg1dNd/arcgis/rest/services/HamiltonMA_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "PRIM_USE"
+  },
+  "notes": "Hamilton MA zoning districts, 10 features, hosted under the bkipswich ArcGIS Online account (same host as Beverly). zone_name maps PRIM_USE (primary use), which may not be a district description; verify on validation.",
+  "extent": [
+    -70.92004780933699,
+    42.59341490054199,
+    -70.8007990104208,
+    42.66036409917234
+  ],
+  "verification": {
+    "verified_at": 1792279250988,
+    "counties": [
+      "25009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

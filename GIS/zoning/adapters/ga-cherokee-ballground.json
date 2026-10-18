@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-cherokee-ballground",
+  "publisher": "City of Ball Ground GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/CAVmSZdRT9pdZgEk/arcgis/rest/services/Zoning_August_2024/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13057"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Description"
+  },
+  "notes": "City of Ball Ground zoning as of August 2024, parcel-based polygons carrying the city zoning code; city limits only.",
+  "extent": [
+    -84.4157927250136,
+    34.31097918953846,
+    -84.32491702014663,
+    34.370933209798416
+  ],
+  "verification": {
+    "verified_at": 1792277783151,
+    "counties": [
+      "13057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

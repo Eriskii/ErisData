@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wi-wood-county-municipal",
+  "publisher": "Wood County Planning & Zoning (Land Records Viewer, Municipal Zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.woodcountywi.gov/gis/rest/services/LandRecordsViewer/LandRecordsViewer/MapServer/32",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55141"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "zone": "ZoningCode",
+    "zone_name": "ZoningLabel"
+  },
+  "filter": "Municipality NOT IN ('City of Wisconsin Rapids', 'City of Marshfield')",
+  "notes": "County-hosted Municipal Zoning layer (LandRecordsViewer MapServer layer 32) covering Wood County cities, villages and towns that zone: Nekoosa, Pittsville, Biron, Port Edwards village and town, Auburndale, Hewitt, Vesper, Milladore, Arpin, Rudolph, Saratoga, Grand Rapids, Rock, Sigel, Dexter, Lincoln, Cameron, Seneca, Marshfield town and others. City of Wisconsin Rapids and City of Marshfield excluded as already saved. Ordinance links mostly absent; map PDFs are per-municipality. Jurisdiction field: Municipality.",
+  "extent": [
+    -90.31656271376234,
+    44.247513097429625,
+    -89.72264633559199,
+    44.68563746443816
+  ],
+  "verification": {
+    "verified_at": 1792281346424,
+    "counties": [
+      "55141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

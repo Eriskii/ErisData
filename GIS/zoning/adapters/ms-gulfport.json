@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ms-gulfport",
+  "publisher": "City of Gulfport GIS (COG_Zoning, Traditional Code Appendix A)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/pOPaG0zaJUnBvD2F/arcgis/rest/services/COG_Zoning1/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28047"
+    ]
+  },
+  "fields": {
+    "link": "ORD_NUM",
+    "zone": "ZONE_NAME",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "City of Gulfport traditional-code zoning districts (Appendix A); hybrid and smart-code areas are separate layers in the same service (COG_Zoning1 layers 1 and 3) and are not included here. ORD_NUM holds the ordinance number, not a URL.",
+  "extent": [
+    -89.13672785233018,
+    30.343191468732673,
+    -89.00112366484755,
+    30.500095898541858
+  ],
+  "verification": {
+    "verified_at": 1792279275874,
+    "counties": [
+      "28047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

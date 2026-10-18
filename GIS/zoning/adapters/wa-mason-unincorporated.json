@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wa-mason-unincorporated",
+  "publisher": "Mason County GIS (MasonGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/jJDDJN0XbP5tQU8H/arcgis/rest/services/Public_Map_Viewer/FeatureServer/31",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53045"
+    ]
+  },
+  "fields": {
+    "zone": "DEV_CODE",
+    "zone_name": "DESCRIP"
+  },
+  "notes": "Mason County development areas (county zoning outside the city and UGAs, the unincorporated county land) from MasonGIS Public Map Viewer layer 31 Development Areas. Not in the saved UGA layers.",
+  "extent": [
+    -123.5246805446286,
+    47.07466114220601,
+    -122.78267522226255,
+    47.62057502799539
+  ],
+  "verification": {
+    "verified_at": 1792281051768,
+    "counties": [
+      "53045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

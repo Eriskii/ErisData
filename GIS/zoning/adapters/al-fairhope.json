@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "al-fairhope",
+  "publisher": "City of Fairhope (Master_COF_ZoningDistrict, city GIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Px78HKZXDdJTUWYm/arcgis/rest/services/Master_COF_ZoningDistrict/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01003"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZONEClassification"
+  },
+  "notes": "City of Fairhope zoning districts. 12,909 features; Zoning holds the district code, ZONEClassification the long name. Setback and height fields also present.",
+  "extent": [
+    -87.92533921397201,
+    30.4437334475775,
+    -87.83357038793648,
+    30.58201442727226
+  ],
+  "verification": {
+    "verified_at": 1792277549241,
+    "counties": [
+      "01003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

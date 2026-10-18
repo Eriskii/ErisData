@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-tipton-atoka",
+  "publisher": "Town of Atoka (tiptongis00 ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/dpcWjCfPyDdLMs5n/arcgis/rest/services/atoka_zoning_town/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47167"
+    ]
+  },
+  "fields": {
+    "zone": "Con_Zone"
+  },
+  "notes": "Town of Atoka zoning layer published by Tipton County GIS account; Con_Zone holds district codes (ATC, FAR, HC, I, MR, ...). Placetypes is a comprehensive-plan placetype field, not used as zone name.",
+  "extent": [
+    -89.85854486608326,
+    35.38913894869,
+    -89.69600249659317,
+    35.47359620953364
+  ],
+  "verification": {
+    "verified_at": 1792280477368,
+    "counties": [
+      "47167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

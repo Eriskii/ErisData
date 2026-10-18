@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-humboldt-fortuna",
+  "publisher": "City of Fortuna (FortunaGIS, OpenGOV data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/u6XhJdibUCrTMiLd/arcgis/rest/services/Fortuna_OpenGOV_gdb/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06023"
+    ]
+  },
+  "fields": {
+    "link": "PZ_URL",
+    "zone": "PZ",
+    "zone_name": "PZ_DESC"
+  },
+  "notes": "City of Fortuna zoning, from the city OpenGOV geodatabase. PZ is the principal zone; combining zones in CZ (not mapped). Single-jurisdiction layer (Fortuna).",
+  "extent": [
+    -124.16875628168606,
+    40.55574772303737,
+    -124.12125712912987,
+    40.61087979385665
+  ],
+  "verification": {
+    "verified_at": 1792277317731,
+    "counties": [
+      "06023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

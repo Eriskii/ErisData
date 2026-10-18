@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-martin-indiantown",
+  "publisher": "Village of Indiantown GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/fwjLUNzkr85qH0zV/arcgis/rest/services/voi_zoning_public/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12085"
+    ]
+  },
+  "fields": {
+    "zone": "Abbrev",
+    "zone_name": "zoning"
+  },
+  "notes": "Village of Indiantown zoning as of 11/30/2020 (Village-hosted ArcGIS Online account); 210 features",
+  "extent": [
+    -80.56909724823147,
+    27.008118160325925,
+    -80.40261482722049,
+    27.067743557500354
+  ],
+  "verification": {
+    "verified_at": 1792277662459,
+    "counties": [
+      "12085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

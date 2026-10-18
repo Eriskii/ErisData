@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-broward-pompano-beach",
+  "publisher": "City of Pompano Beach (zoning web map service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/HnPbdNoPBNAJ6Oel/arcgis/rest/services/ZoningWebMapService2022/FeatureServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "City of Pompano Beach Zoning Districts layer (2022 zoning web map service), the source of the city zoning web map. City limits only. Overlay districts are in other layers of the service and are not used. ZONEDESC mostly empty, so no zone_name.",
+  "extent": [
+    -80.19557912237445,
+    26.205938746221157,
+    -80.08088545614008,
+    26.298198821151708
+  ],
+  "verification": {
+    "verified_at": 1792277700287,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

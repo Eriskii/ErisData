@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ia-dubuque-peosta",
+  "publisher": "City of Peosta (via Iowa State University Online Guide to Iowa Zoning compilation)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19061"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "fips7 = '1962130'",
+  "notes": "Iowa State University zoning compilation (Online Guide to Iowa Zoning), not published by the City of Peosta; unofficial compilation copy, official false. City of Peosta site links its zoning map (PNG) only; no city GIS service found. Vintage per ISU compilation.",
+  "extent": [
+    -90.87102775097529,
+    42.43135675991893,
+    -90.8211157368221,
+    42.4620947637633
+  ],
+  "verification": {
+    "verified_at": 1792278791764,
+    "counties": [
+      "19061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

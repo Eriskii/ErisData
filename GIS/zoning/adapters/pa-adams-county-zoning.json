@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "pa-adams-county-zoning",
+  "publisher": "Adams County Office of Planning & Development, GIS Division",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapping.adamscountypa.gov/arcgis/rest/services/AGOL/SLD_Review_Layers/MapServer/127",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Inc_Muni",
+    "zone": "ABBR",
+    "zone_name": "ZONING"
+  },
+  "filter": "Inc_Muni <> 'Gettysburg'",
+  "notes": "County-hosted zoning districts layer (Adams County GIS, public, no token) covering 35 municipalities: Abbottstown, Arendtsville, Bendersville, Berwick, Biglerville, Bonneauville, Butler, Carroll Valley, Conewago, Cumberland, East Berlin, Fairfield, Franklin, Freedom, Germany, Hamilton, Hamiltonban, Highland, Huntington, Latimore, Liberty, Littlestown, McSherrystown, Menallen, Mount Joy, Mount Pleasant, New Oxford, Oxford, Reading, Straban, Tyrone, Union, York Springs. Gettysburg excluded (saved separately). Subtype holds a broader category.",
+  "extent": [
+    -77.47223735181018,
+    39.71759459196347,
+    -76.95245353253652,
+    40.071001236223395
+  ],
+  "verification": {
+    "verified_at": 1792280216644,
+    "counties": [
+      "42001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nj-ocean-little-egg-harbor",
+  "publisher": "Little Egg Harbor Township (layer by CGrossRVE, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/CtqtskKS8sLHdIkJ/arcgis/rest/services/Little_Egg_Zoning/FeatureServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34029"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning__fu"
+  },
+  "notes": "Little Egg Harbor Township zoning districts; copy uploaded to ArcGIS Online by CGrossRVE, not confirmed as the township own service. Zone field holds the district code as published; no name field.",
+  "extent": [
+    -74.41890419887936,
+    39.503424567047254,
+    -74.27253335519076,
+    39.77331478912599
+  ],
+  "verification": {
+    "verified_at": 1792279552746,
+    "counties": [
+      "34029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-fulton-sandy-springs",
+  "publisher": "City of Sandy Springs GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis2.sandyspringsga.gov/arcgis/rest/services/OpenData/General_Reference/MapServer/127",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13121"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Sandy Springs zoning (amended 4-17-2018) from the city open-data service. Parcel-keyed polygons (ParcelID) carrying each parcel zoning; zone_name maps the Zoning code field.",
+  "extent": [
+    -84.44712886207526,
+    33.87670459930997,
+    -84.25828875522743,
+    34.01017590296448
+  ],
+  "verification": {
+    "verified_at": 1792277844134,
+    "counties": [
+      "13121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

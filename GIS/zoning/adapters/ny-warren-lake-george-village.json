@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ny-warren-lake-george-village",
+  "publisher": "Warren County GIS (Village of Lake George zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Fg3XpDIUTR3JZZES/arcgis/rest/services/WCNY_LakeGeorgeVillageZoning_MASTER_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36113"
+    ]
+  },
+  "fields": {
+    "link": "ZONE_URL",
+    "zone": "Zone",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Village of Lake George zoning maintained by Warren County GIS at the direction of the Lake George Planning Office. Single-village layer.",
+  "extent": [
+    -73.72164090150262,
+    43.41616441521498,
+    -73.70656816931157,
+    43.43620680379235
+  ],
+  "verification": {
+    "verified_at": 1792279682653,
+    "counties": [
+      "36113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

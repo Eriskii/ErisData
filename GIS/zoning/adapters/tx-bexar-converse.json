@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-bexar-converse",
+  "publisher": "City of Converse, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/3a4poN3APQssFeVt/arcgis/rest/services/Zoning02092026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48029"
+    ]
+  },
+  "fields": {
+    "zone": "LandUseDes"
+  },
+  "notes": "City of Converse zoning districts (city limits only; Converse ETJ not included). zone taken from LandUseDes, which holds the district (e.g. R-1 Single Family); the Zoning attribute is blank for most parcels. Served from the city ArcGIS org; linked from the city planning page.",
+  "extent": [
+    -98.34220133891297,
+    29.46765994711798,
+    -98.26941126102908,
+    29.53852994753994
+  ],
+  "verification": {
+    "verified_at": 1792280604582,
+    "counties": [
+      "48029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

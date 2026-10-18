@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ar-benton-decatur",
+  "publisher": "City of Decatur, AR (zoning layer hosted by NWARPC ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/DecaturZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05007"
+    ]
+  },
+  "fields": {
+    "zone": "zone"
+  },
+  "notes": "City of Decatur zoning districts, 40 features; zone holds district code. Ordinance holds ordinance reference; not mapped.",
+  "extent": [
+    -94.48670991975683,
+    36.3214017319106,
+    -94.43281185677084,
+    36.36731873302048
+  ],
+  "verification": {
+    "verified_at": 1792277476558,
+    "counties": [
+      "05007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

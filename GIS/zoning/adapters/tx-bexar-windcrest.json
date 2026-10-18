@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "tx-bexar-windcrest",
+  "publisher": "City of Windcrest, TX (layer copy by user sexton62, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/STSFXj2JHNBaLeDL/arcgis/rest/services/Zoning_Map_WFL1/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48029"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "City_Nam",
+    "zone": "Zoning",
+    "zone_name": "Description"
+  },
+  "filter": "City_Nam = 'Windcrest'",
+  "notes": "Unofficial copy published under an individual ArcGIS account (sexton62) in a Zoning_Map_WFL1 service; the city of Windcrest publishes its zoning map as a PDF (2023). Only a handful of district polygons; verify completeness against the city map before relying on it. City limits only.",
+  "extent": [
+    -98.39981250401271,
+    29.496589608542138,
+    -98.36274457574575,
+    29.527012613167138
+  ],
+  "verification": {
+    "verified_at": 1792281358293,
+    "counties": [
+      "48029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

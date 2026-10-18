@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-whittier",
+  "publisher": "City of Whittier GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/ep2P4aOWGVVBct0i/arcgis/rest/services/ZoningLandUse_Web/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "SYMBOL",
+    "zone_name": "DEFINITION"
+  },
+  "notes": "City of Whittier zoning from the city ZoningLandUse public web app layer (updated 2022).",
+  "extent": [
+    -118.0723192852222,
+    33.92801461304825,
+    -117.96512436965295,
+    34.005115472384304
+  ],
+  "verification": {
+    "verified_at": 1792277734133,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-erie-amherst",
+  "publisher": "Town of Amherst GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.amherst.ny.us/server/rest/services/BASE/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36029"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "descriptin"
+  },
+  "notes": "Town of Amherst only (not the Village of Williamsville, which is a separate layer on the same server). Base zoning districts from the Town BASE_Zoning layer; NCD and front type are overlays/attributes.",
+  "extent": [
+    -78.8323882259024,
+    42.94588644323991,
+    -78.69682920387837,
+    43.087246177170904
+  ],
+  "verification": {
+    "verified_at": 1792279668687,
+    "counties": [
+      "36029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

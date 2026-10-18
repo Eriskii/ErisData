@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-rockwall-royse-city",
+  "publisher": "City of Royse City (digitized by Pape-Dawson)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.pape-dawson.com/server2/rest/services/PD_GIS_Webmap/PD_GIS_WebMap__DFW_External/MapServer/342",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48397"
+    ]
+  },
+  "fields": {
+    "zone": "Symbol"
+  },
+  "notes": "Royse City zoning districts, digitized by the city engineer Pape-Dawson from the 2022 city zoning map PDF and hosted on its public web map service; only the zone code Symbol is given, no name field. Royse City spans Rockwall, Collin and Hunt counties.",
+  "extent": [
+    -96.37036363903835,
+    32.91866949516037,
+    -96.24064725209614,
+    33.02079993938703
+  ],
+  "verification": {
+    "verified_at": 1792280827070,
+    "counties": [
+      "48397"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

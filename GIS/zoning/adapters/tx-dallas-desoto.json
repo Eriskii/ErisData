@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-dallas-desoto",
+  "publisher": "City of DeSoto GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/QHqdbIhWBJLlMbGN/arcgis/rest/services/Zoning_DeSoto/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48113"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of DeSoto designated zoning districts; layer covers DeSoto only",
+  "extent": [
+    -96.9092958347075,
+    32.564614448696766,
+    -96.82104525325283,
+    32.64779619691414
+  ],
+  "verification": {
+    "verified_at": 1792280569454,
+    "counties": [
+      "48113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

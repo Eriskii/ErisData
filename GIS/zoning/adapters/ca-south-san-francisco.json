@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-south-san-francisco",
+  "publisher": "City of South San Francisco GIS (Open Data Portal)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/inY93B27l4TSbT7h/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06081"
+    ]
+  },
+  "fields": {
+    "zone": "Zonecode",
+    "zone_name": "Zone"
+  },
+  "notes": "City of South San Francisco zoning districts, 840 polygons, from the city GIS org (same account as its open data portal Zoning dataset). Zone_name field holds the district name where filled.",
+  "extent": [
+    -122.47252250897684,
+    37.63367990512013,
+    -122.3733846486256,
+    37.6740300956953
+  ],
+  "verification": {
+    "verified_at": 1792277529960,
+    "counties": [
+      "06081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

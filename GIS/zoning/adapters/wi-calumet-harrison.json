@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-calumet-harrison",
+  "publisher": "Village of Harrison (via Calumet County Land Information Office)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://calmaps.co.calumet.wi.us/server/rest/services/ZoningMunicipal/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55015"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Type"
+  },
+  "notes": "Village of Harrison zoning districts from the Calumet County municipal zoning service (layer 1). zone_name holds the broad use class (e.g. General Agriculture), not the district code.",
+  "extent": [
+    -88.40446937591206,
+    44.12204422392338,
+    -88.24356382900636,
+    44.24455522016065
+  ],
+  "verification": {
+    "verified_at": 1792281206335,
+    "counties": [
+      "55015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

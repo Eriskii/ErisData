@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-harris-la-porte",
+  "publisher": "City of La Porte GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/K8W2oZWmBOVHwjhP/arcgis/rest/services/ZONING_AUG_2018_Web_AppBuilder_Single_Services/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48201"
+    ]
+  },
+  "fields": {
+    "link": "link",
+    "zone": "zoning",
+    "zone_name": "label"
+  },
+  "notes": "City of La Porte zoning districts (city limits); layer last updated Jan 2023. Ordinance links point to Municode.",
+  "extent": [
+    -95.11440168680612,
+    29.614205203962076,
+    -94.9915080933325,
+    29.713068972794023
+  ],
+  "verification": {
+    "verified_at": 1792280709084,
+    "counties": [
+      "48201"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

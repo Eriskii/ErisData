@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ny-warren-bolton",
+  "publisher": "Warren County GIS (Town of Bolton zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Fg3XpDIUTR3JZZES/arcgis/rest/services/WCNYBoltonZoning_MASTERview/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36113"
+    ]
+  },
+  "fields": {
+    "link": "ZONE_URL",
+    "zone": "ZONE",
+    "zone_name": "NAME"
+  },
+  "filter": "ZONE <> 'NYS'",
+  "notes": "Town of Bolton zoning maintained by Warren County GIS at the direction of the Bolton Planning and Zoning Office. New York State land polygons (ZONE NYS) are excluded; they are state land, not town districts.",
+  "extent": [
+    -73.75145882084033,
+    43.477049784578014,
+    -73.53169973970763,
+    43.67512967840202
+  ],
+  "verification": {
+    "verified_at": 1792279828937,
+    "counties": [
+      "36113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

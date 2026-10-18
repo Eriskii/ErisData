@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-summit-richfield-village",
+  "publisher": "Summit County GIS (Richfield Village zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "filter": "GOVERNMENT = 'Richfield'",
+  "notes": "Richfield Village layer from Summit County GIS ZoningNov2025 service (layer 8), filtered to GOVERNMENT Richfield because the layer also holds blank rows. zone_name is a general category; DISTRICT_N may hold more detail.",
+  "extent": [
+    -81.6693986010663,
+    41.20186323720232,
+    -81.61007552237942,
+    41.2780467124691
+  ],
+  "verification": {
+    "verified_at": 1792276246552,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

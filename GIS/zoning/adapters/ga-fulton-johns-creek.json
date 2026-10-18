@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ga-fulton-johns-creek",
+  "publisher": "City of Johns Creek GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/bqfNVPUK3HOnCFmA/arcgis/rest/services/Zoning_Current/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13121"
+    ]
+  },
+  "fields": {
+    "link": "LinkOrdinance",
+    "zone": "ZoningClassAbbrev",
+    "zone_name": "ZoningClass"
+  },
+  "notes": "City of Johns Creek current zoning classes (Fulton County open data copy of the city layer, CC BY 4.0). Polygons for the city only.",
+  "extent": [
+    -84.28629056275692,
+    33.985512308603006,
+    -84.09806098363576,
+    34.09034909680075
+  ],
+  "verification": {
+    "verified_at": 1792277859534,
+    "counties": [
+      "13121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-montgomery-moraine",
+  "publisher": "City of Moraine, Ohio (GIS hosted on City of Kettering portal)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://portal.ketteringoh.org/server/rest/services/Moraine/Moraine_Zoning_Districts/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39113"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Moraine zoning from the Moraine_Zoning_Districts service on the City of Kettering GIS portal. Layer is parcel-level (one feature per tax parcel, TAXPINNO) with the district code in Zoning; ZONING is the district code as the city names it. Ordinace_N and Pre_Zoning are ordinance and prior-zoning fields, not mapped.",
+  "extent": [
+    -84.31843913866666,
+    39.672318567322435,
+    -84.19822814951607,
+    39.73084196346183
+  ],
+  "verification": {
+    "verified_at": 1792276178037,
+    "counties": [
+      "39113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

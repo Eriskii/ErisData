@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-monroe-sparta-et",
+  "publisher": "City of Sparta, WI (ET zoning, spartawigis ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/ob3iBq0CA0JS6eE3/arcgis/rest/services/ETL_Zoning_Layers_view/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55081"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "City of Sparta extraterritorial (ET) zoning districts in the towns around Sparta, from the City of Sparta ArcGIS Online organization. Every district here is Sparta ET zoning; MCD_NAME (town name) is filled for only about 37% of districts, so no jurisdiction field is mapped. Complements wi-monroe-sparta (city only).",
+  "extent": [
+    -90.85615540372837,
+    43.9063281865848,
+    -90.76009083937991,
+    43.97509994846504
+  ],
+  "verification": {
+    "verified_at": 1792281339323,
+    "counties": [
+      "55081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

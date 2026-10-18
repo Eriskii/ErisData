@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-uintah-ballard",
+  "publisher": "Ballard City (ballardwatergis ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/EhJwKHGE3OlJ1Apo/arcgis/rest/services/Ballard_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "NAME"
+  },
+  "notes": "Ballard City zoning districts, 18 polygons, hosted by Ballard city water GIS account on ArcGIS Online. Single-jurisdiction layer.",
+  "extent": [
+    -109.9781910815268,
+    40.25784599117171,
+    -109.91451547668586,
+    40.331816878924414
+  ],
+  "verification": {
+    "verified_at": 1792280827299,
+    "counties": [
+      "49047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

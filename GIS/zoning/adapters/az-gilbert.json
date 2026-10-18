@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-gilbert",
+  "publisher": "Town of Gilbert GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.gilbertaz.gov/arcgis/rest/services/OD/Growth_Development_Maps_1/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04013"
+    ]
+  },
+  "fields": {
+    "zone": "ZCODE",
+    "zone_name": "Description"
+  },
+  "notes": "Town of Gilbert zoning districts (town limits only), Town of Gilbert open data.",
+  "extent": [
+    -111.84224357484312,
+    33.20460106542047,
+    -111.68551939487104,
+    33.38596237902328
+  ],
+  "verification": {
+    "verified_at": 1792277234497,
+    "counties": [
+      "04013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

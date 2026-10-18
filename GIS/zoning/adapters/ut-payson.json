@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-payson",
+  "publisher": "Payson City (via Utah County GIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/54",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_PA_LABEL",
+    "zone_name": "ZONE_PA_DESC"
+  },
+  "notes": "Payson City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 54).",
+  "extent": [
+    -111.81581563939868,
+    39.99785987691025,
+    -111.68647771591316,
+    40.07084175841688
+  ],
+  "verification": {
+    "verified_at": 1792280861037,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

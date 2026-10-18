@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "co-fremont-florence",
+  "publisher": "City of Florence, CO",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/6dlTKiNBlhxkWcVv/arcgis/rest/services/Florence_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08043"
+    ]
+  },
+  "fields": {
+    "zone": "labl"
+  },
+  "notes": "City of Florence base zoning districts (layer FlorenceZoningDist202409, 138 features). Florence only; no zone name field in the source. Blank-label features may appear.",
+  "extent": [
+    -105.14448871419722,
+    38.3630009974388,
+    -105.06900069794328,
+    38.43891565459656
+  ],
+  "verification": {
+    "verified_at": 1792277533852,
+    "counties": [
+      "08043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

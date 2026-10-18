@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-lee-sanibel",
+  "publisher": "City of Sanibel GIS (SanibelGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/OnCt8XFWOgmkvMJE/arcgis/rest/services/Sanibel_Future_Land_Use_Map_Series_Ecological_Zones_Map_1989/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12071"
+    ]
+  },
+  "fields": {
+    "zone": "ECO_ZONE",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "City of Sanibel zoning districts: the Sanibel official zoning map, digitized from the 1989 Future Land Use Map Series ecological zones by the city planning department. DIST_TYP gives district type. Titled as a future land use series; the city describes it as its official zoning map.",
+  "extent": [
+    -82.18295096127207,
+    26.42175728207455,
+    -82.0137865545002,
+    26.49371866123158
+  ],
+  "verification": {
+    "verified_at": 1792277684886,
+    "counties": [
+      "12071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

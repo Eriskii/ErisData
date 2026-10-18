@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "id-ada-kuna",
+  "publisher": "City of Kuna (copy by Sam_Feist, ArcGIS Online, behind city Kuna Idaho Zoning map)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/zGDMrUABi5rG1bng/arcgis/rest/services/ONLINE_ZONING_TEST_view/FeatureServer/78",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Personal ArcGIS Online copy (owner Sam_Feist, layer named ONLINE_ZONING_TEST), March 2024 Kuna zoning; the city experience d0f89e0c3152469b848ff53d19c90a18 is the official viewer but its service could not be identified. Carries zone code only; all features are Kuna city land.",
+  "extent": [
+    -116.47648857639211,
+    43.4143284564916,
+    -116.25396587663934,
+    43.56270135819921
+  ],
+  "verification": {
+    "verified_at": 1792278013513,
+    "counties": [
+      "16001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

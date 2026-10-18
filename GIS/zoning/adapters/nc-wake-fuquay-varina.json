@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-wake-fuquay-varina",
+  "publisher": "Town of Fuquay-Varina (via Wake County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.wake.gov/arcgis/rest/services/Planning/Zoning/MapServer/18",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37183"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS"
+  },
+  "notes": "Town of Fuquay-Varina zoning districts, served by Wake County GIS. CLASS holds the district code.",
+  "extent": [
+    -78.86781657401653,
+    35.541272668782696,
+    -78.67600862553535,
+    35.6734035677527
+  ],
+  "verification": {
+    "verified_at": 1792279936941,
+    "counties": [
+      "37183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "sd-brown-aberdeen",
+  "publisher": "City of Aberdeen GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/H3Xuuu0h4PaTeWwU/arcgis/rest/services/Zoning/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46013"
+    ]
+  },
+  "fields": {
+    "link": "ord_url",
+    "zone": "class",
+    "zone_name": "descriptio"
+  },
+  "notes": "City of Aberdeen zoning districts (city-published, Aberdeen org); layer covers the city only. Zone codes such as C-2 with descriptions.",
+  "extent": [
+    -98.53247750899999,
+    45.42301731159972,
+    -98.3485525918286,
+    45.50097587500005
+  ],
+  "verification": {
+    "verified_at": 1792280324872,
+    "counties": [
+      "46013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

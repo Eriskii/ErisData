@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-summit-macedonia",
+  "publisher": "Summit County GIS (Macedonia zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "GOVERNMENT",
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "City of Macedonia layer from Summit County GIS ZoningNov2025 service (layer 17). GENERAL is a general category; DISTRICT_N may hold more detail.",
+  "extent": [
+    -81.53137480975565,
+    41.276920734222,
+    -81.46368643476124,
+    41.35044355976628
+  ],
+  "verification": {
+    "verified_at": 1792276094283,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

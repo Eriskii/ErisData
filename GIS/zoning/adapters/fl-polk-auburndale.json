@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-polk-auburndale",
+  "publisher": "City of Auburndale (MapAuburndale ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/o0eokD8valYePyMB/arcgis/rest/services/Auburndale_Zoning/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12105"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_ABREV"
+  },
+  "notes": "City of Auburndale zoning, 2023 layer. Parcel-level: one record per parcel (PARCELID) carrying its zoning code in ZN_ABREV; no district name or ordinance link in source. Setbacks in FrntStbk/SideStbk/RearStbk.",
+  "extent": [
+    -81.84653514235612,
+    27.75349833273851,
+    -81.37592155027409,
+    28.186574429801237
+  ],
+  "verification": {
+    "verified_at": 1792278128886,
+    "counties": [
+      "12105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

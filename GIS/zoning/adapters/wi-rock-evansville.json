@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-rock-evansville",
+  "publisher": "City of Evansville (Evansville Zoning Map viewer, services9 ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Li1xGtjCeJ5md4wb/arcgis/rest/services/Evansville_Zoning_Historic_ViewLayer/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55105"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Evansville WI base zoning districts (City Zoning layer behind the city Evansville Zoning Map, owner EvansvilleWI). Historic district overlay is a separate layer (FeatureServer/0), not used. No district name field; zone holds the full district name.",
+  "extent": [
+    -89.331722379862,
+    42.76400038292127,
+    -89.25961737585604,
+    42.79308790888071
+  ],
+  "verification": {
+    "verified_at": 1792281540410,
+    "counties": [
+      "55105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

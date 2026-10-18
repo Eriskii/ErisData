@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-fulton-alpharetta",
+  "publisher": "City of Alpharetta (AlphaGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://alphagis.alpharetta.ga.us/arcgis/rest/services/ZoningDistricts/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13121"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict"
+  },
+  "notes": "City of Alpharetta zoning districts (AlphaGIS). Only the district code is published; no description field.",
+  "extent": [
+    -84.35951347402356,
+    34.0281078067895,
+    -84.20122382351893,
+    34.11943068907713
+  ],
+  "verification": {
+    "verified_at": 1792277863489,
+    "counties": [
+      "13121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-oswego-city",
+  "publisher": "City of Oswego, NY (zoning served via Maplink OS0092)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/MkUfAWaYm2SQf4Qa/arcgis/rest/services/OS0092_Zoning_09212022_C_Oswego_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36075"
+    ]
+  },
+  "fields": {
+    "zone": "Abb_Zone",
+    "zone_name": "Zone"
+  },
+  "notes": "City of Oswego base zoning districts (2022 Maplink/ZoningHub version). Districts such as TN1, UR, PD.",
+  "extent": [
+    -76.53741401519265,
+    43.42840617450126,
+    -76.46942848344622,
+    43.48135781658004
+  ],
+  "verification": {
+    "verified_at": 1792279630990,
+    "counties": [
+      "36075"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-brazoria-angleton",
+  "publisher": "City of Angleton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/KGWVkDBbmA3Jt2Ut/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48039"
+    ]
+  },
+  "fields": {
+    "link": "OrdinanceNo",
+    "zone": "ZoningDesig"
+  },
+  "notes": "City of Angleton zoning districts (city limits only), as of 02/10/2021 per service title. Layer 1 of the Zoning service; SUP and other layers excluded. OrdinanceNo holds the ordinance number, not a URL.",
+  "extent": [
+    -95.4654057747275,
+    29.123599271788283,
+    -95.39034355986627,
+    29.260880096272484
+  ],
+  "verification": {
+    "verified_at": 1792280568780,
+    "counties": [
+      "48039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

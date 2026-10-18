@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-davis-centerville",
+  "publisher": "Centerville City GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/rdQPhMjJQVUQCDzu/arcgis/rest/services/Zoning/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49011"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoneDescription"
+  },
+  "notes": "Centerville City Zone Districts layer (layer 4 of the city Zoning FeatureServer; overlays and historic district are other layers, excluded). City limits only.",
+  "extent": [
+    -111.9160612909503,
+    40.90364414064321,
+    -111.85336095249346,
+    40.95485598586287
+  ],
+  "verification": {
+    "verified_at": 1792281085984,
+    "counties": [
+      "49011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

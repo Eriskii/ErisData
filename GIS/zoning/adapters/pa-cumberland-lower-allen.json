@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-lower-allen",
+  "publisher": "Cumberland County Planning Department (Lower Allen Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Lower Allen Township zoning layer from the county GIS Zoning_Basemap service; digitized by the county from municipal paper maps, may not be the official adopted maps. A separate Lower Allen Township Zoning layer (services9.arcgis.com/Vgz09AKGm0VOIH8X) is described as officially adopted districts.",
+  "extent": [
+    -76.9850774555818,
+    40.16183206978835,
+    -76.86767743593784,
+    40.23887125658007
+  ],
+  "verification": {
+    "verified_at": 1792280086582,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

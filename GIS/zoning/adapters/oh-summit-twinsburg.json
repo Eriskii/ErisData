@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-summit-twinsburg",
+  "publisher": "Summit County GIS (Twinsburg zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "GOVERNMENT",
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "City of Twinsburg layer from Summit County GIS ZoningNov2025 service (layer 1). GENERAL is a general category; DISTRICT_N may hold more detail.",
+  "extent": [
+    -81.49001518878761,
+    41.28251540490414,
+    -81.39953103605606,
+    41.34982691016186
+  ],
+  "verification": {
+    "verified_at": 1792276097701,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

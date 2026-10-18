@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nd-mountrail-new-town",
+  "publisher": "City of New Town (Master Zoning Layer, digitized by AE2S from city zoning map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/0JnuEhcN49lHQYao/arcgis/rest/services/Master_Zoning_Layer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38061"
+    ]
+  },
+  "fields": {
+    "zone": "Type"
+  },
+  "notes": "New Town, ND layer hosted under the NewTownAdministration ArcGIS Online account; 38 polygons digitized from the city PDF zoning map (AE2S, 2022). Zone codes like CO - Commercial, RE - Residential. No zone name field.",
+  "extent": [
+    -102.52644299580922,
+    47.966833895414595,
+    -102.44069784118528,
+    48.00905760958274
+  ],
+  "verification": {
+    "verified_at": 1792279945192,
+    "counties": [
+      "38061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

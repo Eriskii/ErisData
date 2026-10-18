@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nc-gaston-stanley",
+  "publisher": "Gaston County GIS (Town of Stanley zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gastoncountync.gov/publicgis/rest/services/PublicGIS/Zoning/MapServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "TYPE",
+    "zone_name": "NAME"
+  },
+  "notes": "Town of Stanley zoning districts served by the Gaston County PublicGIS zoning service; JURISDICTION names the town; ETJ attribute also present",
+  "extent": [
+    -81.1238044913811,
+    35.32538949999726,
+    -81.04551992572657,
+    35.38004587149843
+  ],
+  "verification": {
+    "verified_at": 1792279814557,
+    "counties": [
+      "37071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-dolores",
+  "publisher": "Town of Dolores (served by Montezuma County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-server.co.montezuma.co.us/arcgis/rest/services/TownOfMancos/TownOfMancos_PlanningMap/MapServer/16",
+    "page_size": 250,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "08083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_Dolores"
+  },
+  "filter": "ZONE_Dolores IS NOT NULL",
+  "notes": "Town of Dolores zoning districts, stored on the county-hosted planning map layer 16 (a Mancos-named service) as ZONE_Dolores; filtered to parcels with a Dolores zone code. Parcel-based polygons. Town of Dolores publishes its map as PDF; this layer is the queryable copy served by Montezuma County GIS.",
+  "extent": [
+    -108.51815647375362,
+    37.46906715635225,
+    -108.48256500536178,
+    37.47984657487476
+  ],
+  "verification": {
+    "verified_at": 1792277491264,
+    "counties": [
+      "08083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

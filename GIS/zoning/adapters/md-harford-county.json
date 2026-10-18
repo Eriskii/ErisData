@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "md-harford-county",
+  "publisher": "Harford County Government (Planning and Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/q8r0H9SbF6PzNpYE/arcgis/rest/services/2017Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24025"
+    ]
+  },
+  "fields": {
+    "zone": "CLASSIFICATION"
+  },
+  "notes": "Harford County 2025 zoning classifications (county unincorporated land). Incorporated municipalities are in their own layers; check whether features outside them.",
+  "extent": [
+    -76.57145245008658,
+    39.38977903604002,
+    -76.0812757866282,
+    39.72295728476686
+  ],
+  "verification": {
+    "verified_at": 1792278833009,
+    "counties": [
+      "24025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

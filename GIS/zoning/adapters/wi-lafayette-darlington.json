@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wi-lafayette-darlington",
+  "publisher": "Lafayette County GIS (municipal zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lafayettecountywi.org/arcgis/rest/services/Services/Zoning/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55065"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "AUTHORITY",
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "AUTHORITY = 'CITY OF DARLINGTON'",
+  "notes": "City of Darlington zoning from the Lafayette County Municipal Zoning layer (county GIS server); 22 features, all AUTHORITY CITY OF DARLINGTON",
+  "extent": [
+    -90.14187697657142,
+    42.65713509416712,
+    -90.10155871727869,
+    42.6937444789397
+  ],
+  "verification": {
+    "verified_at": 1792281461950,
+    "counties": [
+      "55065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

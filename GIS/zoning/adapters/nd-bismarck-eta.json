@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nd-bismarck-eta",
+  "publisher": "Burleigh County GIS (City of Bismarck zoning in area removed from Bismarck ETA)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/8r0lsT7QHelkANsD/arcgis/rest/services/Zoning_Removed_From_Bismarck_ETA_Burleigh_County_ND/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "LABEL"
+  },
+  "notes": "City of Bismarck zoning districts in the area removed from the Bismarck extraterritorial area, published by Burleigh County. Conditions field holds conditional-district flag.",
+  "extent": [
+    -100.89564896131502,
+    46.70732938244538,
+    -100.64463436033776,
+    46.92526337672216
+  ],
+  "verification": {
+    "verified_at": 1792280610503,
+    "counties": [
+      "38015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

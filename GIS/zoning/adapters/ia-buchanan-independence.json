@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ia-buchanan-independence",
+  "publisher": "City of Independence, Iowa (GIS Hub Zoning_view)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/fzDLiP8WlHKP2SAn/arcgis/rest/services/Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19019"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code"
+  },
+  "notes": "City of Independence, Iowa zoning districts from the city GIS Hub (IndependenceIA). Single-city layer; no zone name field.",
+  "extent": [
+    -91.95327375876317,
+    42.44303156521469,
+    -91.86760047790249,
+    42.49119073733346
+  ],
+  "verification": {
+    "verified_at": 1792278348216,
+    "counties": [
+      "19019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

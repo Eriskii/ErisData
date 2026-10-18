@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ne-adams-hastings",
+  "publisher": "City of Hastings, NE (Hastings GIS, hosted on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/TYPEVuuXULssEXx8/arcgis/rest/services/Hastings_Proposed_Zoning_Adjusted_7_20_26/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "District"
+  },
+  "notes": "City of Hastings zoning districts from the city zoning update layer titled Proposed Zoning Adjusted 7_20_26; adoption status not verified. ZONE_ is the current code; ProZone holds the proposed code, DistrictZo another code; District holds use descriptions. Feature count 11640 (possibly one polygon per parcel). Jurisdiction is Hastings only.",
+  "extent": [
+    -98.4692418052951,
+    40.56167754029448,
+    -98.29823212922342,
+    40.647917046786255
+  ],
+  "verification": {
+    "verified_at": 1792279437644,
+    "counties": [
+      "31001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

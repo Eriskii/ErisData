@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-delaware-galena",
+  "publisher": "Village of Galena, Ohio (zoning layer hosted on Delaware County ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ziXVKVy3BiopMCCU/arcgis/rest/services/Village_of_Galena_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39041"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DSC_ZONE"
+  },
+  "notes": "Village of Galena zoning districts from Delaware County organization ArcGIS Online, 104 features.",
+  "extent": [
+    -82.90221251588808,
+    40.20948332561857,
+    -82.86117438515164,
+    40.23347462615667
+  ],
+  "verification": {
+    "verified_at": 1792275812911,
+    "counties": [
+      "39041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

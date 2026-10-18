@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "id-chubbuck",
+  "publisher": "City of Chubbuck GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofchubbuck.us/arcgis/rest/services/FeatureClasses/Landuse/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16005"
+    ]
+  },
+  "fields": {
+    "zone": "Landuse_Category"
+  },
+  "notes": "City of Chubbuck zoning polygons (172 features). Landuse_Category is a numeric code, not a name. Code-to-district legend from the layer renderer: 0 Creative Community; 1 Agriculture (A); 2 Dense Residential (R-4); 3 General Commercial (C-2); 4 Industrial (I); 5 Limited Commercial (C-1); 6 Limited Residential - P (R-2P); 7 Limited Residential (R-2); 8 Planned Unit Development (PUD); 9 Single Family Residential (R-1); 10 County; 11 Creative Community-Northside Crossing (CC-NC); 12 Creative Community-Harvest Springs (CC-HS); 13 Highway Corridor (HC); 14 Village (V). Zone holds the code number, so map it through this legend.",
+  "extent": [
+    -112.5108080296772,
+    42.90577833005867,
+    -112.41294763811838,
+    42.94951814954229
+  ],
+  "verification": {
+    "verified_at": 1792278048325,
+    "counties": [
+      "16005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

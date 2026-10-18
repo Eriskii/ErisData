@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-mifflin-kistler",
+  "publisher": "Mifflin County GIS (Kistler Borough zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mifflincountypa.gov/arcgis/rest/services/Hosted/Kistler_zoning_101326/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42087"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "ZONE"
+  },
+  "notes": "Kistler Borough zoning districts from the county GIS hosted service (Kistler_zoning_101326). CODE holds the district code (e.g. VR-C, A-R); ZONE holds the district name. 5 features.",
+  "extent": [
+    -77.87217074798586,
+    40.37132781892991,
+    -77.85979275484318,
+    40.38278658996481
+  ],
+  "verification": {
+    "verified_at": 1792280146523,
+    "counties": [
+      "42087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

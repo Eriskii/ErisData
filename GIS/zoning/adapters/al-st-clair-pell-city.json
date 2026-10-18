@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "al-st-clair-pell-city",
+  "publisher": "City of Pell City, AL (zoning layer hosted on ArcGIS Online by City Clerk account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/sDjgoGMPUUVvrWSe/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01115"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "filter": "CITYPARCEL = 'Y'",
+  "notes": "Parcel-level layer (last resort): each parcel carries its Pell City ZONING code (source description Parcels_StClair11_PellCity062011, so may be dated; edits through 2024). No zone name or ordinance link field; ORDINANCE holds ordinance number for some parcels. CITY is the owner mailing city, not the jurisdiction; CITYPARCEL=Y marks parcels inside the city.",
+  "extent": [
+    -86.3280587344199,
+    33.53235051516097,
+    -86.19264224912867,
+    33.62499531870156
+  ],
+  "verification": {
+    "verified_at": 1792277235747,
+    "counties": [
+      "01115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

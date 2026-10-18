@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "md-washington-williamsport",
+  "publisher": "Washington County (MD) GIS, Town of Williamsport zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.washco-md.net/arcgis/rest/services/Towns/Zoning_WI/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24043"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Williamsport zoning districts only, hosted by Washington County GIS (Towns/Zoning_WI). 15 features; no district name field, Calc_Acreage holds acreage.",
+  "extent": [
+    -77.82938802520854,
+    39.58773686238394,
+    -77.80591995886849,
+    39.60905907851659
+  ],
+  "verification": {
+    "verified_at": 1792278876585,
+    "counties": [
+      "24043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-summit-silver-lake",
+  "publisher": "Summit County GIS (Silver Lake village zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "Silver Lake village layer from Summit County GIS ZoningNov2025 service (layer 5). zone_name is a general category; DISTRICT_N may hold more detail.",
+  "extent": [
+    -81.47073290585787,
+    41.14428088728208,
+    -81.44950062965655,
+    41.174155207333826
+  ],
+  "verification": {
+    "verified_at": 1792276242547,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

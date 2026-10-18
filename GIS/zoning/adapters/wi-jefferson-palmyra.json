@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-jefferson-palmyra",
+  "publisher": "Jefferson County GIS (Village of Palmyra base zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.jeffersoncountywi.gov/arcgis/rest/services/Zoning/Muni_Zoning/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55055"
+    ]
+  },
+  "fields": {
+    "zone": "MUNI_ZONES"
+  },
+  "notes": "Village of Palmyra base zoning from the Jefferson County Muni_Zoning service. MUNI_ZONES holds the district code; no name or ordinance link field published.",
+  "extent": [
+    -88.63124138208158,
+    42.86200960045943,
+    -88.57096362249243,
+    42.89335624244875
+  ],
+  "verification": {
+    "verified_at": 1792281261329,
+    "counties": [
+      "55055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

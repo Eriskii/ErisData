@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wv-kanawha-dunbar",
+  "publisher": "Regional Intergovernmental Council (RIC), City of Dunbar zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/fVcw4GvGXZ2a5g3r/arcgis/rest/services/RIC_Zoning_General_Map_WFL1/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54039"
+    ]
+  },
+  "fields": {
+    "zone": "Zones"
+  },
+  "notes": "City of Dunbar zoning as compiled by the Regional Intergovernmental Council (RIC) in its public ArcGIS service. Only the zone code is provided; no description field. Covers the city only.",
+  "extent": [
+    -81.76045688199883,
+    38.35614526169152,
+    -81.70759381200376,
+    38.388841113632424
+  ],
+  "verification": {
+    "verified_at": 1792281102902,
+    "counties": [
+      "54039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

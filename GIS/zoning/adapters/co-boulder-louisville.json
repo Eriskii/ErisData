@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-boulder-louisville",
+  "publisher": "City of Louisville GIS (Planning and Land Use)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.louisvilleco.gov/arcgis/rest/services/Planning/Planning2020/MapServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08013"
+    ]
+  },
+  "fields": {
+    "zone": "District",
+    "zone_name": "ZoneLabel"
+  },
+  "notes": "City of Louisville Zoning layer from the city Planning and Land Use MapServer (154 features). Louisville city limits extend into Boulder County and Broomfield County.",
+  "extent": [
+    -105.18936871678132,
+    39.939511242654966,
+    -105.10710902355726,
+    39.99835299635125
+  ],
+  "verification": {
+    "verified_at": 1792277571006,
+    "counties": [
+      "08013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

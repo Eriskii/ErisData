@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "sc-darlington-city",
+  "publisher": "City of Darlington / Darlington County GIS (gistech_darco)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/8FJikaProY6O3ncx/arcgis/rest/services/DARLINGTON_ZONING/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45031"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZONE",
+    "zone_name": "CITY_ZONE"
+  },
+  "filter": "CITY = 'DARLINGTON'",
+  "notes": "City of Darlington base zoning, hosted on the county GIS ArcGIS org; 9 features. Zone codes BI, CC, GC, LI, OR, R-10, R-6, R-8, RG.",
+  "extent": [
+    -79.90077694959284,
+    34.279402768852286,
+    -79.83227131715105,
+    34.321830215809015
+  ],
+  "verification": {
+    "verified_at": 1792280257863,
+    "counties": [
+      "45031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

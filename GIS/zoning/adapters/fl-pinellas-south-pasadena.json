@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-south-pasadena",
+  "publisher": "Forward Pinellas / Pinellas County GIS (for the City of South Pasadena)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_South_Pasadena_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of South Pasadena zoning map maintained by Forward Pinellas, hosted by Pinellas County GIS. Single-city layer with no jurisdiction attribute.",
+  "extent": [
+    -82.75027364407494,
+    27.743705631779616,
+    -82.7314707377056,
+    27.76350345821876
+  ],
+  "verification": {
+    "verified_at": 1792277888079,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

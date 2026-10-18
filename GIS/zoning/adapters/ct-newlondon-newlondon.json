@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ct-newlondon-newlondon",
+  "publisher": "Southeastern CT Council of Governments (SCCOG) - City of New London zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/c8bwOPjaFB6olbad/arcgis/rest/services/New_London_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09180"
+    ]
+  },
+  "fields": {
+    "link": "FileLink",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of New London zoning, hosted by SCCOG regional GIS; single-town layer. 21 features.",
+  "extent": [
+    -72.12840817526599,
+    41.304622627642914,
+    -72.08718732824899,
+    41.38549092898834
+  ],
+  "verification": {
+    "verified_at": 1792277554616,
+    "counties": [
+      "09180"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

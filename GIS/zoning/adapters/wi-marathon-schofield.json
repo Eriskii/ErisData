@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-marathon-schofield",
+  "publisher": "City of Schofield (zoning layer used by City Property Viewer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/C2VJ8j4yRkBzQc4D/arcgis/rest/services/Current_Zoning_8_17/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55073"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Cod"
+  },
+  "notes": "City of Schofield zoning districts (layer Zoning_Schofield_9_2017_Merge), served under the City Property Viewer. Only the district code is published; no name or ordinance link.",
+  "extent": [
+    -89.6401840787984,
+    44.90160935469146,
+    -89.5896680468219,
+    44.93080357575586
+  ],
+  "verification": {
+    "verified_at": 1792281768269,
+    "counties": [
+      "55073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

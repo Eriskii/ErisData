@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mi-wayne-hamtramck",
+  "publisher": "City of Hamtramck (McKenna parcel and zoning data, ArcGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/DAi79NctcAvQq1Gd/arcgis/rest/services/Hamtramck2021ParcelMaster___Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26163"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Parcel-level layer (no separate district polygons published): each parcel carries its 2021 zoning district in Zoning. Last resort; data dates from 2021. Published by McKenna (city parcel viewer consultant) on ArcGIS.",
+  "extent": [
+    -83.07663778578348,
+    42.379469669748026,
+    -83.0400203118889,
+    42.40908480211165
+  ],
+  "verification": {
+    "verified_at": 1792274427962,
+    "counties": [
+      "26163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

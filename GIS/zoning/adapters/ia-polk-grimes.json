@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ia-polk-grimes",
+  "publisher": "City of Grimes GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.grimesiowa.gov/gisserver/rest/services/DevServ/Zoning_Public/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19153"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "zoning_description"
+  },
+  "notes": "City of Grimes current zoning districts (DevServ Zoning_Public). Covers Grimes city limits. Layer 2 (overlay districts) deliberately not used.",
+  "extent": [
+    -93.84820116153797,
+    41.63298343030643,
+    -93.75602227408339,
+    41.71746953961448
+  ],
+  "verification": {
+    "verified_at": 1792278550908,
+    "counties": [
+      "19153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

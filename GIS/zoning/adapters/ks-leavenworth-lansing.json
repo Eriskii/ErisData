@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ks-leavenworth-lansing",
+  "publisher": "City of Lansing, KS (Lansing_Zoning_07132026 on services9.arcgis.com, owner khanne@lansingks.org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/1bWTvtvBCBaErVYC/arcgis/rest/services/Lansing_Zoning_07132026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20103"
+    ]
+  },
+  "fields": {
+    "link": "Unified_Development_Ordinance",
+    "zone": "Zoning_District_Update",
+    "zone_name": "Zoning_Dist_Text_Update"
+  },
+  "notes": "City of Lansing official zoning layer 2026 (Lansing Official Zoning). 15 features. Lansing city only.",
+  "extent": [
+    -94.96813542673608,
+    39.200964922268795,
+    -94.82627795979985,
+    39.27640743826609
+  ],
+  "verification": {
+    "verified_at": 1792278756126,
+    "counties": [
+      "20103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

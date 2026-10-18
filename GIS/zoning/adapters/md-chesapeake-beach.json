@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "md-chesapeake-beach",
+  "publisher": "Maryland Department of Planning (state generalized zoning, Chesapeake Beach jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdpgis.mdp.state.md.us/arcgis/rest/services/PlanningCadastre/Generalized_Zoning_2025/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24009"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "GENZONE"
+  },
+  "filter": "JURSCODE = 'CALV' AND MUNICIPALITY_NAME = 'CHESAPEAKE BEACH'",
+  "notes": "State generalized zoning (2020 update), statewide compilation; zone holds generalized categories (e.g. MIXED USE, COMMERCIAL), not the town's own district codes. Town publishes no queryable layer found; Town Code ecode360 Chapter 290 has the official map.",
+  "extent": [
+    -76.5654618197524,
+    38.66779173178996,
+    -76.52978876302613,
+    38.703131704932126
+  ],
+  "verification": {
+    "verified_at": 1792278791754,
+    "counties": [
+      "24009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

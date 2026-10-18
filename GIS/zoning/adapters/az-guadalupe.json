@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "az-guadalupe",
+  "publisher": "Town of Guadalupe (zoning by parcel, copy on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/MdyCMZnX1raZ7TS3/arcgis/rest/services/Guadalupe_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Guadalupe. Only layer found: zoning carried per parcel (one feature per parcel, PG_APN/APN), no district polygons or district name attribute, so zone holds the ZONING value. Published under an ArcGIS Online account (jrhoward), not a town server: a copy, parcel-based, used because no district layer exists.",
+  "extent": [
+    -111.96909070572704,
+    33.35640460696186,
+    -111.95639462348394,
+    33.37809635388707
+  ],
+  "verification": {
+    "verified_at": 1792277460030,
+    "counties": [
+      "04013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

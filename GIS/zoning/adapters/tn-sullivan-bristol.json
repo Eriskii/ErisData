@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tn-sullivan-bristol",
+  "publisher": "City of Bristol, TN GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/nnPdUHKQP39nTRCn/arcgis/rest/services/bristol_zoning_updated/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47163"
+    ]
+  },
+  "fields": {
+    "zone": "zone_abrv",
+    "zone_name": "zonenamlc"
+  },
+  "notes": "City of Bristol TN zoning districts (bristol_zoning_Erase layer) from the city open data web map. Covers Bristol city limits only (part of the city lies in Washington County too). zone_name is the lowercase long name field zonenamlc.",
+  "extent": [
+    -82.32594164913664,
+    36.46199324911173,
+    -82.09707543936511,
+    36.60171731804728
+  ],
+  "verification": {
+    "verified_at": 1792280627485,
+    "counties": [
+      "47163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

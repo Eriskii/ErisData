@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-guilford",
+  "publisher": "South Central CT Regional Council of Governments (SCRCOG), compiled 2018 zoning, hosted by OpenCommunitiesAlliance1",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/bDIODuUqvoiS6i6c/arcgis/rest/services/SCRCOG_Zoning_2018_gdb/FeatureServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09170"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Copy of SCRCOG 2018 regional zoning compilation on ArcGIS Online (item by OpenCommunitiesAlliance1), not the town server; Guilford layer only (GUILFORD_ZONING). ZONING holds district code; DESCRIPTION the broad use class. Compiled 2018, may predate amendments.",
+  "extent": [
+    -72.7473982443812,
+    41.24227668818838,
+    -72.6317356833306,
+    41.433854780618205
+  ],
+  "verification": {
+    "verified_at": 1792277601604,
+    "counties": [
+      "09170"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

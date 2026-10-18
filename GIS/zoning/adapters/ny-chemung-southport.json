@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-chemung-southport",
+  "publisher": "Town of Southport / Southern Tier Central Regional Planning (STC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/qO6xd1V1VbSyViir/arcgis/rest/services/Southport_Zoning_Map/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36015"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Southport zoning districts hosted by STC regional planning GIS. Single-town layer; no district name field.",
+  "extent": [
+    -76.96616021475012,
+    42.001121800338595,
+    -76.76679115199836,
+    42.080803586410504
+  ],
+  "verification": {
+    "verified_at": 1792279567813,
+    "counties": [
+      "36015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

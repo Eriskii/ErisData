@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-cook-oak-park",
+  "publisher": "Village of Oak Park, IL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/4cff1aaefa364b57b8c70d5c606f2088/rest/services/VOP/AGOL_VOP_Project/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONED",
+    "zone_name": "ZONINGDESCRIPTION"
+  },
+  "notes": "Village of Oak Park Zoning Districts layer (VOP AGOL_VOP_Project MapServer, layer 8), from the village Zoning Districts web map. Covers Oak Park only.",
+  "extent": [
+    -87.80591061629346,
+    41.86494583884255,
+    -87.77385652413287,
+    41.90926108196423
+  ],
+  "verification": {
+    "verified_at": 1792278494242,
+    "counties": [
+      "17031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

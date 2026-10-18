@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-arapahoe-unincorporated",
+  "publisher": "Arapahoe County GIS (ArapaMAP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.arapahoegov.com/arcgis/rest/services/ArapaMAP/MapServer/352",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08005"
+    ]
+  },
+  "fields": {
+    "link": "HYPERLINK",
+    "zone": "ZONING"
+  },
+  "notes": "Arapahoe County unincorporated zoning from ArapaMAP layer Zoning - Unincorporated County. Covers unincorporated county only (cities excluded). Some features may be inactive per ACTIVE field.",
+  "extent": [
+    -105.0541317209166,
+    39.55335045335489,
+    -103.70217841681722,
+    39.75271181217606
+  ],
+  "verification": {
+    "verified_at": 1792277514780,
+    "counties": [
+      "08005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

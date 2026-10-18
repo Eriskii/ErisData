@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mn-brown-new-ulm",
+  "publisher": "City of New Ulm (ArcGIS Online copy, 2022 Zoning, by carrieq)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/V0aadQ5fktNa6V0X/arcgis/rest/services/2022_Zoning/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27015"
+    ]
+  },
+  "fields": {
+    "zone": "STRING"
+  },
+  "notes": "Unofficial copy: ArcGIS Online item 2022 Zoning uploaded by an individual account (carrieq / Soren.Peterson), not the City of New Ulm. Used because New Ulm publishes its zoning only as PDF maps. Zone codes (I-1, B-1, R-1...) and coordinates match New Ulm. Layer 3 Zoning Districts, 103 polygons, one district per feature; no jurisdiction field, all features are New Ulm. No zone_name or link published.",
+  "extent": [
+    -94.51678508183112,
+    44.275882555464776,
+    -94.4139325908063,
+    44.351199748710705
+  ],
+  "verification": {
+    "verified_at": 1792278917033,
+    "counties": [
+      "27015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

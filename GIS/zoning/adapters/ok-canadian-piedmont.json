@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ok-canadian-piedmont",
+  "publisher": "City of Piedmont, OK (Zoning Data, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/OJ8CIjB2a1JPYuG7/arcgis/rest/services/Piedmont_Zoning_Data/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40017"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_District"
+  },
+  "notes": "City of Piedmont zoning boundaries, from the city public zoning map item (Piedmont Public Zoning Map). Covers Piedmont city limits. Zoning blank for some polygons; ordinance links empty.",
+  "extent": [
+    -97.83395491517608,
+    35.62370736468974,
+    -97.673970453161,
+    35.747593589556494
+  ],
+  "verification": {
+    "verified_at": 1792279945832,
+    "counties": [
+      "40017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

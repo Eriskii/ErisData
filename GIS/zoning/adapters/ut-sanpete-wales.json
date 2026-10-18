@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-sanpete-wales",
+  "publisher": "Utah AGRC (state generalized zoning), Wales",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49039"
+    ]
+  },
+  "fields": {
+    "zone": "source_zone",
+    "zone_name": "gen_zone"
+  },
+  "filter": "county LIKE '%Sanpete%' AND city LIKE 'Wales%'",
+  "notes": "Utah AGRC statewide generalized zoning layer; Wales town features only (city name stored with trailing space). gen_zone holds the generalized category; source_zone is the city code.",
+  "extent": [
+    -111.64071652174482,
+    39.47888658943862,
+    -111.6313853712728,
+    39.491069058745474
+  ],
+  "verification": {
+    "verified_at": 1792281079385,
+    "counties": [
+      "49039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-milwaukee-st-francis",
+  "publisher": "City of St. Francis (copy hosted by a personal ArcGIS Online account)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/2AE3l8FnJdrF0RNP/arcgis/rest/services/Zoning_View_ONLY/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55079"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance_Link",
+    "zone": "Zoning_Code",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "Unofficial copy: personal ArcGIS Online item (owner bill.pinnow), no official St. Francis service found. Ordinance links point to ecode360 St. Francis Chapter 455. Parcel-level polygons (TAXKEY/ADDRESS) carrying Zoning_Code; St. Francis city only, as the ordinance links indicate. Verify before relying on it.",
+  "extent": [
+    -87.89985937444192,
+    42.958551047390394,
+    -87.84694340129631,
+    42.9920029442871
+  ],
+  "verification": {
+    "verified_at": 1792281620532,
+    "counties": [
+      "55079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

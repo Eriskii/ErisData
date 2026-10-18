@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-hays-woodcreek",
+  "publisher": "City of Woodcreek (copy hosted by jacobswellspring.org on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/NYBb8GS1tDodacOa/arcgis/rest/services/Woodcreek_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48209"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "notes": "Unofficial copy: ArcGIS Online item Woodcreek_Zoning by user jacobswellspring.org, not the city GIS. Official city zoning map is a PDF at woodcreektx.gov/DocumentCenter/View/525. Zoning field holds district names (e.g. Single Family 1, Planned Development) with no separate code field; parcel-level polygons. Covers Woodcreek city limits.",
+  "extent": [
+    -98.1301838583687,
+    30.008626719348023,
+    -98.09266954790151,
+    30.035329442804027
+  ],
+  "verification": {
+    "verified_at": 1792280791575,
+    "counties": [
+      "48209"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

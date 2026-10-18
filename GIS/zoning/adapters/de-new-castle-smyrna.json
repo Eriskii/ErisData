@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "de-new-castle-smyrna",
+  "publisher": "Town of Smyrna (parcel layer with zoning, via ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/rle0MZUQbRoIpmfe/arcgis/rest/services/Zoning_2024/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "10003"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "PROPCITY",
+    "zone": "ZONING_DISTRICT",
+    "zone_name": "ZONING"
+  },
+  "filter": "COUNTY LIKE '%NEW%'",
+  "notes": "Parcel-based layer: each parcel carries its zoning district (last resort; not a district polygon layer). Town of Smyrna parcels, New Castle County part only. Smyrna town is mostly in Kent County, which is saved separately as de-kent-smyrna.",
+  "extent": [
+    -75.6403010135674,
+    39.30804824914058,
+    -75.5976519180814,
+    39.33922215121984
+  ],
+  "verification": {
+    "verified_at": 1792277803857,
+    "counties": [
+      "10003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

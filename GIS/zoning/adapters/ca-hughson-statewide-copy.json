@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-hughson-statewide-copy",
+  "publisher": "Hughson (from California statewide zoning compilation, personal ArcGIS Online copy by 1860040_CAL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06099"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'STA' AND Jurisdiction = 'Hughson'",
+  "notes": "Personal ArcGIS Online copy of the California statewide zoning compilation; not published by the City of Hughson. City links its zoning map and code from cityofhughsonca.gov/planning. Source and Date fields vary by record.",
+  "extent": [
+    -120.88406841430788,
+    37.58752556873576,
+    -120.85176782997736,
+    37.62892653555158
+  ],
+  "verification": {
+    "verified_at": 1792277519614,
+    "counties": [
+      "06099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-marion-gervais",
+  "publisher": "Oregon DLCD (statewide zoning, Gervais records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Gervais'",
+  "notes": "Statewide DLCD zoning layer filtered to the City of Gervais (ownerName Gervais); standardized state zone codes. State copy, not the city own layer.",
+  "extent": [
+    -122.90540107309504,
+    45.101056127243645,
+    -122.88675961430636,
+    45.11552241297334
+  ],
+  "verification": {
+    "verified_at": 1792280275971,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ar-benton-siloam-springs",
+  "publisher": "City of Siloam Springs GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.siloamsprings.com/server/rest/services/Production_Data/Zoning_Parcel_Information/MapServer/82",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05007"
+    ]
+  },
+  "fields": {
+    "link": "HYPERLINK",
+    "zone": "zoning"
+  },
+  "notes": "City of Siloam Springs zoning districts (layer 82 Zoning, zoning = district code; OverlayZN holds overlay, not used). Includes some ROW polygons (zoning = ROW) which are not districts.",
+  "extent": [
+    -94.57538817512027,
+    36.10673278759237,
+    -94.4250109636801,
+    36.25340493840977
+  ],
+  "verification": {
+    "verified_at": 1792277253390,
+    "counties": [
+      "05007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

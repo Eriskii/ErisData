@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-dane-black-earth",
+  "publisher": "Village of Black Earth",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/55sXBh3W2Xyxievt/arcgis/rest/services/Zoning_ViewLayer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55025"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "CATEGORY"
+  },
+  "notes": "Village of Black Earth zoning districts, from the village web map item cfdb19062b1d4ef2992b063f0cf28abb (Zoning_ViewLayer on services6 55sXBh3W2Xyxievt, 121 polygons).",
+  "extent": [
+    -89.75783277308405,
+    43.12070024766052,
+    -89.73920949819983,
+    43.14430370555189
+  ],
+  "verification": {
+    "verified_at": 1792281832657,
+    "counties": [
+      "55025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-racine-waterford",
+  "publisher": "Village of Waterford (via Racine County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.racinecounty.com/arcgis/rest/services/Zoning/WaterfordVillageZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CLASS",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Village of Waterford zoning districts from the county Zoning folder. ZONING_CLASS values are inconsistent in places (e.g. V OF WATER); ZONE_DESC is the reliable district name.",
+  "extent": [
+    -88.23937192447545,
+    42.745492132019834,
+    -88.19407394704443,
+    42.78161639408193
+  ],
+  "verification": {
+    "verified_at": 1792281270637,
+    "counties": [
+      "55101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

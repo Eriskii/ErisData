@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "al-mobile-semmes",
+  "publisher": "City of Semmes (Zoning_20220721 layer, linked from City Map Experience)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/gKYD01T1k1jHtJVh/arcgis/rest/services/Zoning_20220721/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01097"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT_1"
+  },
+  "notes": "Semmes city zoning districts; parcel-level polygons with zoning district in DISTRICT_1. Linked from the city GIS map experience. No ordinance link field populated.",
+  "extent": [
+    -88.2919841905744,
+    30.37429021505654,
+    -88.00225939578004,
+    31.08686600645563
+  ],
+  "verification": {
+    "verified_at": 1792277290894,
+    "counties": [
+      "01097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

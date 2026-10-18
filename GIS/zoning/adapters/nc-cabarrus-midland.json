@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-cabarrus-midland",
+  "publisher": "Cabarrus County GIS (Town of Midland zoning, county open data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://location.cabarruscounty.us/arcgisservices/rest/services/opendata/MapServer/40",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE",
+    "zone_name": "Zoning_Typ"
+  },
+  "notes": "Town of Midland zoning districts from Cabarrus County open data MapServer layer 40 (110 features).",
+  "extent": [
+    -80.62348377910459,
+    35.1898950744131,
+    -80.46145542133547,
+    35.31886106720618
+  ],
+  "verification": {
+    "verified_at": 1792279728647,
+    "counties": [
+      "37025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

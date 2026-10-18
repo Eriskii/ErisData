@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mi-cass-cassopolis",
+  "publisher": "Village of Cassopolis (via Wightman & Associates ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/avL8hQc2tV6sLqHs/arcgis/rest/services/Cassopolis_Area_Land_Data/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CLASS"
+  },
+  "notes": "Village of Cassopolis zoning districts, polygons; 989 features. Hosted in consultant (Wightman) ArcGIS Online item for the village. No zone name field.",
+  "extent": [
+    -86.0348919598585,
+    41.89710790021304,
+    -85.98669247385196,
+    41.92306115073382
+  ],
+  "verification": {
+    "verified_at": 1792275282480,
+    "counties": [
+      "26027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

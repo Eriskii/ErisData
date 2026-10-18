@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-geauga-burton-village",
+  "publisher": "Geauga County GIS (Burton Village zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gcgis.geauga.oh.gov/arcgis/rest/services/Planning/Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39055"
+    ]
+  },
+  "fields": {
+    "zone_name": "ZONING"
+  },
+  "notes": "Burton Village zoning layer from the county Planning/Zoning service; single-jurisdiction layer. ZONE_LABEL is empty for all districts, so only zone_name (ZONING, which holds the district name) is mapped; no district code is published.",
+  "extent": [
+    -81.16267257116243,
+    41.463353697807555,
+    -81.13585983303652,
+    41.47845912579765
+  ],
+  "verification": {
+    "verified_at": 1792275849874,
+    "counties": [
+      "39055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

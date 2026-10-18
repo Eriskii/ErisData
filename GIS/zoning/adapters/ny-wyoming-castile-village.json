@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-wyoming-castile-village",
+  "publisher": "Village of Castile (Wyoming County GIS organization copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Sq7KUOgahdDkqoAp/arcgis/rest/services/VillageofCastileZoning_Publish/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36121"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "notes": "Village of Castile zoning districts. Item titled Village of Castile Zoning - unofficial map, in the Wyoming County GIS ArcGIS Online organization (abijl_wyco); not confirmed as the adopted map.",
+  "extent": [
+    -78.06868714349181,
+    42.62131870946147,
+    -78.04001412339018,
+    42.63915432666277
+  ],
+  "verification": {
+    "verified_at": 1792279769923,
+    "counties": [
+      "36121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

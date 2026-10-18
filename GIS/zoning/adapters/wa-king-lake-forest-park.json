@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wa-king-lake-forest-park",
+  "publisher": "City of Lake Forest Park GIS (gisintern_LFP ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/LD3i16TenysvoOyS/arcgis/rest/services/City_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "KCA_ZONING"
+  },
+  "notes": "Parcel-based polygons (about 5,000 features) carrying the King County assessor zoning designation (KCA_ZONING) per parcel; no district name field. Lake Forest Park only. Used as a parcel-level zoning layer because the city publishes no separate district polygons.",
+  "extent": [
+    -122.31383758618816,
+    47.733742377354645,
+    -122.2686122886722,
+    47.777336467281806
+  ],
+  "verification": {
+    "verified_at": 1792281801095,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

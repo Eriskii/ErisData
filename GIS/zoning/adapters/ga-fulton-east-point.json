@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-fulton-east-point",
+  "publisher": "City of East Point GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/CPLm4MuWYjfnA2R9/arcgis/rest/services/Current_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13121"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of East Point current zoning layer (EastPointGIS hosted). Parcel-keyed polygons carrying each area zoning.",
+  "extent": [
+    -84.53591401141567,
+    33.62513976112214,
+    -84.41497770678399,
+    33.705931357167515
+  ],
+  "verification": {
+    "verified_at": 1792277947631,
+    "counties": [
+      "13121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

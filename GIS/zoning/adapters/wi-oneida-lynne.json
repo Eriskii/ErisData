@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-oneida-lynne",
+  "publisher": "Oneida County GIS (Town of Lynne zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.oneidacountywi.gov/arcgis/rest/services/Oneview/ZoningLandUse/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55085"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "filter": "MUNICIPALITY = 'LYNNE'",
+  "notes": "Town of Lynne zoning districts from the county Oneview ZoningLandUse service, Zoning Districts layer (county-wide layer holding 20 towns, filtered to one). Boundaries approximate per county disclaimer.",
+  "extent": [
+    -90.04509816047715,
+    45.55464759246624,
+    -89.80911343878205,
+    45.73254098289288
+  ],
+  "verification": {
+    "verified_at": 1792281532681,
+    "counties": [
+      "55085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

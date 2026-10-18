@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-geauga-huntsburg-township",
+  "publisher": "Geauga County GIS (Huntsburg Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gcgis.geauga.oh.gov/arcgis/rest/services/Planning/Zoning/FeatureServer/10",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39055"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_LABEL",
+    "zone_name": "ZONING"
+  },
+  "notes": "Huntsburg Township zoning layer from the county Planning/Zoning service; one layer per municipality in Geauga County.",
+  "extent": [
+    -81.10054935493513,
+    41.50114447989779,
+    -81.00286242545238,
+    41.57163121706537
+  ],
+  "verification": {
+    "verified_at": 1792275787983,
+    "counties": [
+      "39055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

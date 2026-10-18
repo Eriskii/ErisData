@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-summit-lakemore",
+  "publisher": "Summit County GIS (Lakemore Village zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/18",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "filter": "GOVERNMENT = 'Lakemore'",
+  "notes": "Lakemore Village layer from Summit County GIS ZoningNov2025 service (layer 18), filtered to GOVERNMENT Lakemore because the layer also holds blank rows. zone_name is a general category; DISTRICT_N may hold more detail.",
+  "extent": [
+    -81.44501705881436,
+    41.01182677987615,
+    -81.40092306868982,
+    41.03027202112701
+  ],
+  "verification": {
+    "verified_at": 1792276254454,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

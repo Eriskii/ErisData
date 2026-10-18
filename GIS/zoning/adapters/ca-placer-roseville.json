@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-placer-roseville",
+  "publisher": "City of Roseville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ags.roseville.ca.us/arcgis/rest/services/PublicServices/PropertyInformationToolLayers/MapServer/30",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06061"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE_NO",
+    "zone": "ZN_CODE1",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Roseville zoning boundary (Zoning Boundary layer). Single jurisdiction: Roseville. ORDINANCE_NO is an ordinance reference, not a URL.",
+  "extent": [
+    -121.44731762856706,
+    38.716341172299295,
+    -121.2153343842562,
+    38.82454678015362
+  ],
+  "verification": {
+    "verified_at": 1792277369156,
+    "counties": [
+      "06061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

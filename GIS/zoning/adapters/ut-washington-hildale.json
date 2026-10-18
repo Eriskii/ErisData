@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-washington-hildale",
+  "publisher": "Washington County GIS (City of Hildale zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://agisprodvm.washco.utah.gov/arcgis/rest/services/Zoning/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49053"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE",
+    "zone_name": "GEN_ZONE"
+  },
+  "notes": "City of Hildale zoning districts, hosted by Washington County GIS; one jurisdiction per layer (SOURCE holds Hildale). zone_name is the general category (GEN_ZONE) because DESCRIPTION is null in source.",
+  "extent": [
+    -113.05285694739068,
+    36.99897839377763,
+    -112.94835020938966,
+    37.02658369129015
+  ],
+  "verification": {
+    "verified_at": 1792280862995,
+    "counties": [
+      "49053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

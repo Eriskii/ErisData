@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-warren-hamilton-twp",
+  "publisher": "Hamilton Township, Warren County, Ohio (HamiltonTownshipOH ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/v3AreMu9g6qSIzIb/arcgis/rest/services/Zoning_Parcels_Hamilton_Twp_2021/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39165"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Parcel layer (2021 Zoning Parcels, derived from Warren County tax parcels joined with township zoning codes by Hamilton Township); last resort since no district layer exists. Covers Hamilton Township only, one feature per parcel. Zone holds the zoning code.",
+  "extent": [
+    -84.2670739306929,
+    39.262985533804994,
+    -84.14618273634683,
+    39.368714526679334
+  ],
+  "verification": {
+    "verified_at": 1792276207819,
+    "counties": [
+      "39165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-king-bellevue",
+  "publisher": "City of Bellevue GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-web.bellevuewa.gov/gisext/rest/services/Planning/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "link": "ORDNUM",
+    "zone": "Zoning",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Bellevue zoning districts (Zoning layer). Bellevue only. ORDNUM is the ordinance number, not a URL.",
+  "extent": [
+    -122.22279497008016,
+    47.534965175465906,
+    -122.0872055149682,
+    47.66073546857512
+  ],
+  "verification": {
+    "verified_at": 1792281081684,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

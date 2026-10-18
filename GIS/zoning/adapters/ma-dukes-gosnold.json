@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-dukes-gosnold",
+  "publisher": "Dukes County GIS (mvdukes) - Gosnold zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/FNsEJ848HT5uDOHD/arcgis/rest/services/duk_zoning/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "PRIM_USE"
+  },
+  "notes": "Town of Gosnold zoning district layer, hosted by Dukes County GIS; layer 3 of duk_zoning service (one layer per town).",
+  "extent": [
+    -70.95106908338832,
+    41.407766995255926,
+    -70.67508329405294,
+    41.5230137095194
+  ],
+  "verification": {
+    "verified_at": 1792278816428,
+    "counties": [
+      "25007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

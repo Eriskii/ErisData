@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-vista",
+  "publisher": "City of Vista",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/usWxeh2AMSZvdpAg/arcgis/rest/services/City_of_Vista_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06073"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "City of Vista zoning, hosted ArcGIS service on the city zoning map (uploaded by a city consultant account). Detail codes in DetailCode/DetailDesc.",
+  "extent": [
+    -117.28816918504074,
+    33.13139607629981,
+    -117.19226623944728,
+    33.23848516437422
+  ],
+  "verification": {
+    "verified_at": 1792277476821,
+    "counties": [
+      "06073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

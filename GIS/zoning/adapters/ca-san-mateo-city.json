@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-san-mateo-city",
+  "publisher": "City of San Mateo Planning (city ArcGIS organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/g26Y0m7OCdjU0ObA/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06081"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "City of San Mateo base zoning districts from the city ArcGIS organization (Zoning_Districts layer, 1471 polygons, 271 with geometry checked). ZONEDESC is empty, so no district name.",
+  "extent": [
+    -122.35578612375984,
+    37.51318221298768,
+    -122.27494796157616,
+    37.60019064876037
+  ],
+  "verification": {
+    "verified_at": 1792277752913,
+    "counties": [
+      "06081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

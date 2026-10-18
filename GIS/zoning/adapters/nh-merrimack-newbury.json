@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nh-merrimack-newbury",
+  "publisher": "NH Zoning Atlas (Upstate GIS / NH Office of Planning and Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Atlas_Zoning_Districts_Buildable/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "AbbreviatedDistrict"
+  },
+  "filter": "County = 'Merrimack' AND Overlay = 'No' AND Jurisdiction = 'Newbury'",
+  "notes": "Newbury town zoning districts taken from the state NH Zoning Atlas statewide buildable-districts layer; overlay districts excluded. Zone names sparse in source, only district code mapped.",
+  "extent": [
+    -72.09056749605523,
+    43.25716870181124,
+    -71.95225991903665,
+    43.3834761133253
+  ],
+  "verification": {
+    "verified_at": 1792279674228,
+    "counties": [
+      "33013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

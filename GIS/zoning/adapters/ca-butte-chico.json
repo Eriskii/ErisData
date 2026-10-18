@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-butte-chico",
+  "publisher": "City of Chico",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/7db16eca65ec4b8c9ce5a14ef3cfe866/rest/services/CityofChico_SDEonly/Public_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06007"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "City of Chico Public Zoning layer (City of Chico GIS web map). zone is the base zoning code; overlay codes in Zoning Overlay are not mapped. Covers City of Chico only.",
+  "extent": [
+    -121.91211216522876,
+    39.673803602904975,
+    -121.71238501854846,
+    39.81755442788005
+  ],
+  "verification": {
+    "verified_at": 1792277403000,
+    "counties": [
+      "06007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

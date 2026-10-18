@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nj-ocean-ocean-township",
+  "publisher": "Ocean Township (Ocean County) - copy hosted by nwilgruberTM on ArcGIS Online",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/NxhW0fEHZ6xRFY3R/arcgis/rest/services/Ocean_Township/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34029"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningID"
+  },
+  "notes": "Copy in ArcGIS Online by nwilgruberTM, not confirmed as the township own service; the layer is a 21-feature Zoning polygon layer with only ZoningID (district code, up to 6 chars). Sibling layers in the same service are the township flood/utility data. Township publishes zoning maps as PDF.",
+  "extent": [
+    -74.34327474243867,
+    39.76240707194164,
+    -74.16964466748577,
+    39.828951141217225
+  ],
+  "verification": {
+    "verified_at": 1792279710943,
+    "counties": [
+      "34029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

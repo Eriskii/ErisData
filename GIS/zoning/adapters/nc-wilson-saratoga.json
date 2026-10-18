@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-wilson-saratoga",
+  "publisher": "Wilson County GIS (Town of Saratoga zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wilson-co.com/arcgis/rest/services/Templets/ARCGIS_Templet/MapServer/25",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37195"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Saratoga zoning districts, from the Wilson County template map service.",
+  "extent": [
+    -77.80249187109563,
+    35.63042736617033,
+    -77.74734319063538,
+    35.67214193049307
+  ],
+  "verification": {
+    "verified_at": 1792279944698,
+    "counties": [
+      "37195"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

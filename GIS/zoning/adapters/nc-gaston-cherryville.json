@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nc-gaston-cherryville",
+  "publisher": "Gaston County GIS (City of Cherryville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gastoncountync.gov/publicgis/rest/services/PublicGIS/Zoning/MapServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "TYPE",
+    "zone_name": "NAME"
+  },
+  "notes": "City of Cherryville zoning districts served by the Gaston County PublicGIS zoning service; JURISDICTION names the city; ETJ attribute also present",
+  "extent": [
+    -81.42515492499741,
+    35.34621073372186,
+    -81.31930514297018,
+    35.418908117768105
+  ],
+  "verification": {
+    "verified_at": 1792279802466,
+    "counties": [
+      "37071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

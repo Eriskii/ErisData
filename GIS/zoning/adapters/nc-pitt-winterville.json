@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-pitt-winterville",
+  "publisher": "Pitt County GIS (Town of Winterville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pittcountync.gov/gis/rest/services/Permitting/PermitDisplayMap/MapServer/26",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37147"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Pitt County GIS permitting display map layer of Town of Winterville zoning polygons; covers Winterville only. RESIDENTIAL field not mapped.",
+  "extent": [
+    -77.43982196220706,
+    35.486948432605914,
+    -77.36230107775002,
+    35.55671843765722
+  ],
+  "verification": {
+    "verified_at": 1792279889703,
+    "counties": [
+      "37147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-washington-hartford-town",
+  "publisher": "Town of Hartford (zoning layer hosted by CedarCorp on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/hxi0xsSkg0fqj2cp/arcgis/rest/services/ZoningHartford_PublicView/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55131"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCur"
+  },
+  "notes": "Town of Hartford (towns, not the City of Hartford). Parcel-level layer (one feature per tax parcel, with owner and TaxKey) carrying current zoning in ZoningCur; zoning-2008 in Zoning08. Parcel layer used as last resort; SplitZoning flags parcels split between districts.",
+  "extent": [
+    -88.41970633167085,
+    43.28102663627352,
+    -88.29828795360305,
+    43.370495280788205
+  ],
+  "verification": {
+    "verified_at": 1792281652020,
+    "counties": [
+      "55131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

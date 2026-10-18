@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-washington-trenton",
+  "publisher": "Washington County GIS (Town of Trenton zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.washcowisco.gov/server/rest/services/Zoning/Local_Zoning/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55131"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CODE"
+  },
+  "notes": "Town of Trenton zoning districts, served by Washington County GIS (Local_Zoning service). Layer holds only the Town of Trenton.",
+  "extent": [
+    -88.16419223555006,
+    43.36664125567039,
+    -88.03719859944987,
+    43.45650980082407
+  ],
+  "verification": {
+    "verified_at": 1792281471120,
+    "counties": [
+      "55131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

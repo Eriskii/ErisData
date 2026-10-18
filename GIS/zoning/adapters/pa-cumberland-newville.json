@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-newville",
+  "publisher": "Cumberland County Planning Department (Newville Borough zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Newville Borough zoning layer from the county GIS Zoning_Basemap service; digitized by the county from municipal paper maps, may not be the official adopted maps. ZoneType also available.",
+  "extent": [
+    -77.4105154909467,
+    40.164500592938765,
+    -77.3933376824091,
+    40.177913135321425
+  ],
+  "verification": {
+    "verified_at": 1792280211457,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

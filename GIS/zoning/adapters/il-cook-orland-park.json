@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-cook-orland-park",
+  "publisher": "Village of Orland Park GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/sVDuYsm37AMvFL49/arcgis/rest/services/OP_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17031"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Orland Park Zoning Manual layer (village ArcGIS org). Parcel-level polygons (about 19,000 PINs) carrying each parcel zone code in Zone; a parcel layer, used because no district-polygon layer is queryable. Covers Orland Park only. No zone name field.",
+  "extent": [
+    -87.91196691386828,
+    41.55224542095541,
+    -87.7892688408677,
+    41.65288044551177
+  ],
+  "verification": {
+    "verified_at": 1792278303470,
+    "counties": [
+      "17031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

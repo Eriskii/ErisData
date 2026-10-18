@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-calumet-brillion",
+  "publisher": "City of Brillion (via Calumet County Land Information Office)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://calmaps.co.calumet.wi.us/server/rest/services/ZoningMunicipal/MapServer/18",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55015"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Description"
+  },
+  "notes": "City of Brillion zoning districts from the Calumet County municipal zoning service (layer 18).",
+  "extent": [
+    -88.09967989123933,
+    44.14611506086817,
+    -88.0436098069691,
+    44.19211478037098
+  ],
+  "verification": {
+    "verified_at": 1792281182282,
+    "counties": [
+      "55015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

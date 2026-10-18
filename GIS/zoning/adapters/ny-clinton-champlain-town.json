@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-clinton-champlain-town",
+  "publisher": "Town of Champlain (copy on ArcGIS Online by CutterL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/33FPYaVQYNa7sFJ5/arcgis/rest/services/Clinton_County_Zoning_WFL1/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36019"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Copy hosted on ArcGIS Online by CutterL (personal item), not an official town service; one layer of the Clinton County zoning compilation, covers Town of Champlain only.",
+  "extent": [
+    -73.52150383468113,
+    44.90476236383512,
+    -73.35093873821917,
+    45.01032712144213
+  ],
+  "verification": {
+    "verified_at": 1792279589339,
+    "counties": [
+      "36019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

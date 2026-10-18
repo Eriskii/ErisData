@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-muskegon-white-river-twp",
+  "publisher": "Muskegon County GIS (White River Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.muskegoncountygis.com/arcgis/rest/services/Zoning_Viewer/Zoning_Viewer/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26121"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "County GIS Zoning_Viewer service; White River Township base zoning districts (layer 1).",
+  "extent": [
+    -86.46187682863048,
+    43.37545054491908,
+    -86.39571418207412,
+    43.47251285706696
+  ],
+  "verification": {
+    "verified_at": 1792275379442,
+    "counties": [
+      "26121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

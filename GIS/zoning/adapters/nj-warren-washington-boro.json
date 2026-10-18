@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nj-warren-washington-boro",
+  "publisher": "Warren County Planning Department (NJ)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/4mb1fO9eRe47EZZx/arcgis/rest/services/Warren_County_Zoning_Map_WFL1/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "zone": "ZONE",
+    "zone_name": "ZONE_DESCR"
+  },
+  "notes": "Washington Borough zoning layer from the county WFL1 zoning map service; one municipality only.",
+  "extent": [
+    -74.99959128654166,
+    40.7445226483761,
+    -74.96188082279862,
+    40.76869927347833
+  ],
+  "verification": {
+    "verified_at": 1792279576475,
+    "counties": [
+      "34041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

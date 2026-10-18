@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-fresno-kerman",
+  "publisher": "City of Kerman (zoning layer by mmedinamilam on ArcGIS Online, copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/BCw0CZqkOLVQQ8gY/arcgis/rest/services/Kerman_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZON_ABBR"
+  },
+  "notes": "Non-official copy: personal ArcGIS Online item by mmedinamilam, titled Kerman Zoning (Zoning (Master)); the city publishes its zoning only as PDF and code. Parcel-level polygons (APN) with ZONING the zone code, so a last-resort parcel layer. Kerman only.",
+  "extent": [
+    -120.08846419751325,
+    36.701773333690184,
+    -120.0240646837666,
+    36.7462417887672
+  ],
+  "verification": {
+    "verified_at": 1792277641505,
+    "counties": [
+      "06019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

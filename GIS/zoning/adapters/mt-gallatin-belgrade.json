@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mt-gallatin-belgrade",
+  "publisher": "City of Belgrade (adopted zoning 07/19/23, hosted by CTA Group)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/APaURdy0qM8mwYJw/arcgis/rest/services/Belgrade_Zoning_Adopted_071923/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TEXT",
+    "zone_name": "ZONE_NAME_"
+  },
+  "notes": "City of Belgrade adopted zoning districts (071923). Single-jurisdiction layer; Belgrade city limits only. Layer 0/1 are airport overlays, not mapped.",
+  "extent": [
+    -111.2270126764554,
+    45.7430662212109,
+    -111.10998260286124,
+    45.81672766282529
+  ],
+  "verification": {
+    "verified_at": 1792279384440,
+    "counties": [
+      "30031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

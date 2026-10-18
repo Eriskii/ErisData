@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "or-marion-turner",
+  "publisher": "City of Turner, Oregon (ArcGIS planning map, TurnerZoning2025_dis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/IKUCWhYQFTu5bCRS/arcgis/rest/services/TurnerZoning2025_dis/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Turner zoning districts from the city planning map (2025). Only the zone code is in the layer; no description field.",
+  "extent": [
+    -122.96346048712714,
+    44.83529869631717,
+    -122.9399404561212,
+    44.86309039808939
+  ],
+  "verification": {
+    "verified_at": 1792280192938,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

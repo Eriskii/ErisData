@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "me-york-hollis",
+  "publisher": "Town of Hollis, Maine (zoning layer hosted by Southern Maine Planning & Development Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/EDmXP1QjmSmZlvBw/arcgis/rest/services/hollis_zoning_poly/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23031"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWN",
+    "zone": "ZONE_NAME",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Hollis base zoning districts (6 features) on SMPDC ArcGIS services; ZONE_NAME holds district codes (RR3, RR2, NHRCZ, Hollis Center Village, North Hollis Village); no separate name field. Single-jurisdiction town layer. Date unknown.",
+  "extent": [
+    -70.68353751051427,
+    43.56127098805934,
+    -70.55051697372443,
+    43.70438789363999
+  ],
+  "verification": {
+    "verified_at": 1792279270282,
+    "counties": [
+      "23031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

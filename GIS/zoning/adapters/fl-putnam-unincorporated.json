@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-putnam-unincorporated",
+  "publisher": "Putnam County GIS (unincorporated zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.putnam-fl.com/arcserver/rest/services/Hosted/Zoning__Unincorporated/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12107"
+    ]
+  },
+  "fields": {
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "Zoning districts for unincorporated Putnam County, 24 features, served by Putnam County GIS",
+  "extent": [
+    -82.05947644223413,
+    29.338490646320807,
+    -81.45283085995291,
+    29.840182082358556
+  ],
+  "verification": {
+    "verified_at": 1792277764511,
+    "counties": [
+      "12107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

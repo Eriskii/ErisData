@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mt-gallatin-manhattan",
+  "publisher": "Town of Manhattan (Shaze_SPP ArcGIS Online map layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/xXX4ENZCCWYAP7wG/arcgis/rest/services/ManhattanParcels/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30031"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Parcel-based last resort: each feature is a tax parcel (county assessor fields) with its zoning code in Zoning; no zone name field. Manhattan town limits only in practice. A draft Manhattan_MT_Zoning_Update_WFL1 service exists split into one layer per district, not used.",
+  "extent": [
+    -111.35366052737118,
+    45.84669861322131,
+    -111.3165843968344,
+    45.87786830506556
+  ],
+  "verification": {
+    "verified_at": 1792279430095,
+    "counties": [
+      "30031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-racine-elmwood-park",
+  "publisher": "Village of Elmwood Park (via Racine County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.racinecounty.com/arcgis/rest/services/Zoning/ElmwoodParkZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Village of Elmwood Park zoning districts from the county Zoning folder; only 4 features.",
+  "extent": [
+    -87.82789714024915,
+    42.689446388737224,
+    -87.81626464117913,
+    42.69587630357897
+  ],
+  "verification": {
+    "verified_at": 1792281277047,
+    "counties": [
+      "55101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

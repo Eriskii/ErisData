@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "md-carroll-sykesville",
+  "publisher": "Maryland Department of Planning (Generalized Zoning 2025, Town of Sykesville records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/njFNhDsUCentVYJW/arcgis/rest/services/Generalized_Zoning_2025_Draft/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "ZONING",
+    "zone_name": "GENZONE"
+  },
+  "filter": "JURSCODE = 'CARR' AND MUNICIPALITY_NAME = 'SYKESVILLE'",
+  "notes": "State of Maryland Generalized Zoning 2025 (draft) layer, statewide dataset holding local zoning codes in ZONING. Filtered to Carroll County records of Sykesville. No link field.",
+  "extent": [
+    -76.98643920588782,
+    39.35808113211733,
+    -76.95853991938473,
+    39.38733676516113
+  ],
+  "verification": {
+    "verified_at": 1792278835748,
+    "counties": [
+      "24013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

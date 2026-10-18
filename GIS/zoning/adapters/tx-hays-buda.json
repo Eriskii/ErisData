@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-hays-buda",
+  "publisher": "City of Buda GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/vXZW4vAaPRr14z2s/ArcGIS/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48209"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Category",
+    "zone_name": "Zoning_Description"
+  },
+  "notes": "City of Buda Current Zoning layer (127 features), since the 2017 UDC rewrite; covers Buda city limits. Zoning_Category holds the district code.",
+  "extent": [
+    -97.90163892739695,
+    30.038966913861756,
+    -97.80745943624144,
+    30.126168629374867
+  ],
+  "verification": {
+    "verified_at": 1792280621053,
+    "counties": [
+      "48209"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

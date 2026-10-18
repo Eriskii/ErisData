@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-vanzandt-wills-point",
+  "publisher": "City of Wills Point, TX (ETCOG-hosted GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.etcog.org/arcgis/rest/services/WILLSPOINT/WILLS_POINT_ZONING_Public/FeatureServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48467"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneDist"
+  },
+  "notes": "City of Wills Point zoning districts, served by East Texas Council of Governments for the City. Attributes are CAD-sourced (prop_id_text, situs fields): each polygon carries its zoning code in ZoneDist; DistDes (description) is empty. Single-city layer.",
+  "extent": [
+    -96.0364569530171,
+    32.69626766844243,
+    -95.95550073110321,
+    32.726233885427604
+  ],
+  "verification": {
+    "verified_at": 1792280736791,
+    "counties": [
+      "48467"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-calumet-town-chilton",
+  "publisher": "Town of Chilton (via Calumet County Land Information Office)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://calmaps.co.calumet.wi.us/server/rest/services/ZoningMunicipal/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55015"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningAbbreviation",
+    "zone_name": "ZoningLabel"
+  },
+  "notes": "Town of Chilton zoning districts from the Calumet County municipal zoning service (layer 2). Town-level layer; not held by wi-calumet (its MUNI codes do not include the Town of Chilton).",
+  "extent": [
+    -88.23735600651024,
+    44.00007793449343,
+    -88.1499714074365,
+    44.12207735408058
+  ],
+  "verification": {
+    "verified_at": 1792281218985,
+    "counties": [
+      "55015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

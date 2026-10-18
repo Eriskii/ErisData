@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-windsor",
+  "publisher": "Town of Windsor GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/0z17zZWWifqrYfyb/arcgis/rest/services/M10b_Zoning_WFL1/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08123"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Town of Windsor zoning layer (Zoning sublayer of M10b_Zoning_WFL1 service published by the Town of Windsor account). Town of Windsor only.",
+  "extent": [
+    -104.99151463117808,
+    40.40704932487026,
+    -104.84143775732308,
+    40.547882164968605
+  ],
+  "verification": {
+    "verified_at": 1792277636829,
+    "counties": [
+      "08123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

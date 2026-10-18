@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-calumet-potter",
+  "publisher": "Village of Potter (via Calumet County Land Information Office)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://calmaps.co.calumet.wi.us/server/rest/services/ZoningMunicipal/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55015"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "Zoning"
+  },
+  "notes": "Village of Potter zoning districts from the Calumet County municipal zoning service (layer 3).",
+  "extent": [
+    -88.11143429283068,
+    44.11678888786746,
+    -88.08576729881025,
+    44.124219333428705
+  ],
+  "verification": {
+    "verified_at": 1792281215050,
+    "counties": [
+      "55015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

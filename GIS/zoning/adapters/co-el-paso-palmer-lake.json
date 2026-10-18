@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "co-el-paso-palmer-lake",
+  "publisher": "El Paso County GIS (consolidated zoning, Town of Palmer Lake entries)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.elpasoco.com/arcgis2/rest/services/Public/ZoningConsolidatedEPC/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Zoning_Orig",
+    "zone_name": "ZoningOrig_Desc"
+  },
+  "filter": "Jurisdiction = 'Palmer Lake'",
+  "notes": "County-hosted consolidated zoning layer; this spec keeps only Jurisdiction = Palmer Lake (Town of Palmer Lake).",
+  "extent": [
+    -104.92384699501146,
+    39.09824300407471,
+    -104.87400172608768,
+    39.12988013344398
+  ],
+  "verification": {
+    "verified_at": 1792277539536,
+    "counties": [
+      "08041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

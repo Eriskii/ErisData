@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-wilson-sharpsburg",
+  "publisher": "Wilson County GIS (Town of Sharpsburg zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wilson-co.com/arcgis/rest/services/Templets/ARCGIS_Templet/MapServer/27",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37195"
+    ]
+  },
+  "fields": {
+    "zone": "CODE"
+  },
+  "notes": "Town of Sharpsburg zoning districts (Wilson County portion), from the county template map service. OLD_CODE holds previous zoning; not mapped.",
+  "extent": [
+    -77.83903121526684,
+    35.844515439096554,
+    -77.81134238856184,
+    35.86702793877175
+  ],
+  "verification": {
+    "verified_at": 1792279936655,
+    "counties": [
+      "37195"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

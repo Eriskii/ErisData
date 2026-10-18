@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-smith-winona",
+  "publisher": "Smith County GIS (Winona zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.smithcountymapsite.org/publicgis/rest/services/Maps/LandUse_Zoning/MapServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48423"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Winona zoning, approximate boundaries from Smith County map site LandUse_Zoning service; covers Winona only",
+  "extent": [
+    -95.19395890733963,
+    32.47881812912966,
+    -95.15929116495165,
+    32.50481237473397
+  ],
+  "verification": {
+    "verified_at": 1792280673271,
+    "counties": [
+      "48423"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

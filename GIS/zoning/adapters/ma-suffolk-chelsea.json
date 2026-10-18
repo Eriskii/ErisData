@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-suffolk-chelsea",
+  "publisher": "City of Chelsea GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/diuwWhOq89A0FdTw/arcgis/rest/services/City_of_Chelsea_Map_Layers/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "City of Chelsea Map Layers FeatureServer, Zoning layer (27 features). Base zoning districts for Chelsea, MA.",
+  "extent": [
+    -71.05542197056636,
+    42.38389855560476,
+    -71.00872733688895,
+    42.414218750593726
+  ],
+  "verification": {
+    "verified_at": 1792278863905,
+    "counties": [
+      "25025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

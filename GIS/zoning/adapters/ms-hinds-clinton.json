@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ms-hinds-clinton",
+  "publisher": "City of Clinton, MS (via Central Mississippi Planning and Development District)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Clinton_Feature_Layer/FeatureServer/32",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28049"
+    ]
+  },
+  "fields": {
+    "zone": "zoning2017",
+    "zone_name": "zoning2011"
+  },
+  "notes": "Layer 32 Zoning of CMPDD-hosted Clinton_Feature_Layer; a parcel layer carrying each parcel zoning code (Zoning2017 current, Zoning2011 prior); no jurisdiction field, all features are Clinton. zone_name is the prior-cycle code, not a description.",
+  "extent": [
+    -90.3990636601151,
+    32.2934855777129,
+    -90.27423519828046,
+    32.40053795161611
+  ],
+  "verification": {
+    "verified_at": 1792279157740,
+    "counties": [
+      "28049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

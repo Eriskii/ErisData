@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-summit-northfield-village",
+  "publisher": "Summit County GIS (Northfield Village zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "Northfield Village layer from Summit County GIS ZoningNov2025 service (layer 12). zone_name is a general category; DISTRICT_N may hold more detail.",
+  "extent": [
+    -81.53953320849243,
+    41.32858639505693,
+    -81.51870682382584,
+    41.35063506982304
+  ],
+  "verification": {
+    "verified_at": 1792276250490,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sc-sullivans-island",
+  "publisher": "Town of Sullivan's Island (zoning map, ArcGIS dashboard service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/xKvDQ9PmaqgzOpn2/arcgis/rest/services/Zoning_2026_WFL1/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Sullivan's Island 2026 zoning map (service titled Zoning map for Sullivan's Island, SC), linked from the Town mapping services page. 5 district polygons. No zone_name or ordinance link field.",
+  "extent": [
+    -79.86685450733668,
+    32.75061749234341,
+    -79.8073413930777,
+    32.786976738922405
+  ],
+  "verification": {
+    "verified_at": 1792280523586,
+    "counties": [
+      "45019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

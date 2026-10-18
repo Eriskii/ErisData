@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-weber-washington-terrace",
+  "publisher": "Washington Terrace City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/sMj1neC09IyFfcfV/arcgis/rest/services/zones_2020alligned/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49057"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "Zone",
+    "zone_name": "PurposeAndIntent"
+  },
+  "notes": "Washington Terrace City zoning districts (zones_2020aligned layer behind the city zoning map web map 7707e8ae9d644a8daeb2175d23d8dfa6). 9 features citywide. Link field points to municipalcodeonline ordinance sections. Includes ANNEX and PRIV RD codes.",
+  "extent": [
+    -111.994512524614,
+    41.1501674752161,
+    -111.9568159481642,
+    41.185396198107895
+  ],
+  "verification": {
+    "verified_at": 1792281512955,
+    "counties": [
+      "49057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

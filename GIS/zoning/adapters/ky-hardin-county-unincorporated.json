@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ky-hardin-county-unincorporated",
+  "publisher": "Hardin County Planning and Development (HCPDC) / Hardin County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/0lcDOI9cfUh0KYbz/arcgis/rest/services/Hardin_County_Zoning_Map_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21093"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT"
+  },
+  "notes": "Hardin County zoning map (MasterZone layer, county planning commission). County zoning districts for unincorporated county land; no jurisdiction field. DISTRICT is the current district (DISTRICT_1 is the prior one). CLASS is blank, so zone_name not mapped. City Limits is layer 1 of the same service, not used.",
+  "extent": [
+    -86.27720490830261,
+    37.43810485193302,
+    -85.67617907873421,
+    37.99983394638952
+  ],
+  "verification": {
+    "verified_at": 1792278763781,
+    "counties": [
+      "21093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

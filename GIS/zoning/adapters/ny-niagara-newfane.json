@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-niagara-newfane",
+  "publisher": "Town of Newfane (NewfaneAdmin, Newfane Public GIS ArcGIS Online org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/a026cbf9d3704c7fb1baa3fdd93cbb62/rest/services/NewfaneAGOL/MapServer/19",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36063"
+    ]
+  },
+  "fields": {
+    "zone": "district"
+  },
+  "notes": "Town of Newfane zoning districts, layer titled Existing Zoning (read only) on the town public GIS. 314 features. No zone_name or link field.",
+  "extent": [
+    -78.75548039445827,
+    43.21800656207082,
+    -78.63426948714701,
+    43.35767615464671
+  ],
+  "verification": {
+    "verified_at": 1792279707219,
+    "counties": [
+      "36063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

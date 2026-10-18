@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "la-mandeville",
+  "publisher": "City of Mandeville GIS (chadwhaley311 ArcGIS Online hosted zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/h1LBEEg2MI7tkz4N/arcgis/rest/services/Zoning/FeatureServer/132",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22103"
+    ]
+  },
+  "fields": {
+    "zone": "ZON_CLASS",
+    "zone_name": "ZON_DESCR"
+  },
+  "notes": "City of Mandeville zoning districts, one feature per lot (lot-level layer carrying the district on each lot). Published via the city Public GIS Viewer. Covers City of Mandeville only.",
+  "extent": [
+    -90.15716521423258,
+    30.348079550254297,
+    -90.03463224304527,
+    30.40420752440478
+  ],
+  "verification": {
+    "verified_at": 1792278881229,
+    "counties": [
+      "22103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

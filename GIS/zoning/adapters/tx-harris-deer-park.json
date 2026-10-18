@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-harris-deer-park",
+  "publisher": "City of Deer Park GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.deerparktx.gov/arcgis/rest/services/WGS84/Zoning_WGS84/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48201"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Deer Park zoning districts (Zoning_All layer, 301 polygons). Zoning holds the district description, Code the district code. City limits only.",
+  "extent": [
+    -95.14504608334036,
+    29.663950889828396,
+    -95.08705676400378,
+    29.74625098841584
+  ],
+  "verification": {
+    "verified_at": 1792281078157,
+    "counties": [
+      "48201"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

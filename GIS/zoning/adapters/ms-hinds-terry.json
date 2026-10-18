@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ms-hinds-terry",
+  "publisher": "Town of Terry, MS (via Central Mississippi Planning and Development District)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Terry_Feature_Layer/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28049"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "zoning"
+  },
+  "notes": "Zoning layer of CMPDD-hosted Terry_Feature_Layer",
+  "extent": [
+    -90.33134039264424,
+    32.06818141305022,
+    -90.27102048373496,
+    32.13556244146946
+  ],
+  "verification": {
+    "verified_at": 1792279166650,
+    "counties": [
+      "28049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

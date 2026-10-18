@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-lee-sanford",
+  "publisher": "City of Sanford (zoning layer hosted by consultant Timmons Group on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4fG3YBzBoefRGq66/arcgis/rest/services/Zoning_Dissolved/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37105"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_UDO"
+  },
+  "notes": "Sanford NC zoning, dissolved, from a copy by andrew.barron@timmons.com (Timmons Group, consultant to Sanford) on ArcGIS Online; not on a city server. Zone codes are Sanford codes (C-1, C-2, CBD), distinct from the county UDO layer. Its title says it is unclear whether it reflects the recent rezoning effort.",
+  "extent": [
+    -79.36044608752168,
+    35.3068391714028,
+    -78.97027835344373,
+    35.62796481155701
+  ],
+  "verification": {
+    "verified_at": 1792279853413,
+    "counties": [
+      "37105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

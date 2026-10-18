@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "me-cumberland-yarmouth",
+  "publisher": "Town of Yarmouth, Maine (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/e7fCBeHPBHmU4xuE/arcgis/rest/services/Zoning_Read_Only/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23005"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Town of Yarmouth zoning districts, hosted on the town ArcGIS Online organization (57 polygons). No zone name or ordinance link field published.",
+  "extent": [
+    -70.22780414697954,
+    43.74627996961679,
+    -70.0905782834795,
+    43.8430836015928
+  ],
+  "verification": {
+    "verified_at": 1792278926115,
+    "counties": [
+      "23005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

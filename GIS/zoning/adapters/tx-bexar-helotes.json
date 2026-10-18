@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-bexar-helotes",
+  "publisher": "City of Helotes, TX (layer copy by user Jstanford_helotes)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/lAPGIujsIaHW1L0u/arcgis/rest/services/HELOTES_ZONING/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48029"
+    ]
+  },
+  "fields": {
+    "zone": "COH_zone"
+  },
+  "filter": "COH_zone <> 'OTHER JURISDICTION' AND COH_zone <> ' '",
+  "notes": "Parcel-level layer (CAD owner fields) carrying each parcel City of Helotes zone in COH_zone; the layer covers all county parcels, so the filter keeps only parcels zoned by Helotes (OTHER JURISDICTION rows dropped). Last resort: no district layer found on the city site. Copy published under an individual ArcGIS account, not the city.",
+  "extent": [
+    -98.7463779537365,
+    29.51640491577064,
+    -98.66279415630781,
+    29.638453677726773
+  ],
+  "verification": {
+    "verified_at": 1792280652880,
+    "counties": [
+      "48029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

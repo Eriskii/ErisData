@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-orleans-gaines",
+  "publisher": "Town of Gaines (Orleans County GIS host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/AGRzZ0TKgr5syAM6/arcgis/rest/services/GainesZoningRevised/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36073"
+    ]
+  },
+  "fields": {
+    "zone": "Name"
+  },
+  "notes": "Town of Gaines zoning districts (RA Residential/Agricultural, C, CH) from the Town of Gaines Zoning Local Law (Dec 2019), served on the Orleans County ArcGIS host; 3 features.",
+  "extent": [
+    -78.29847228871942,
+    43.251545658784885,
+    -78.11557695510466,
+    43.308323283607834
+  ],
+  "verification": {
+    "verified_at": 1792279639782,
+    "counties": [
+      "36073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

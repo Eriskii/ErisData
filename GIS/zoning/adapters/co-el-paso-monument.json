@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "co-el-paso-monument",
+  "publisher": "El Paso County GIS (consolidated zoning, Town of Monument entries)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.elpasoco.com/arcgis2/rest/services/Public/ZoningConsolidatedEPC/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Zoning_Orig",
+    "zone_name": "ZoningOrig_Desc"
+  },
+  "filter": "Jurisdiction = 'Monument'",
+  "notes": "County-hosted consolidated zoning layer; this spec keeps only Jurisdiction = Monument.",
+  "extent": [
+    -104.8858025379838,
+    39.04208547362797,
+    -104.79420712591951,
+    39.11222073832235
+  ],
+  "verification": {
+    "verified_at": 1792277479951,
+    "counties": [
+      "08041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "in-wayne-centerville",
+  "publisher": "Town of Centerville, Indiana (hosted by Wayne County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb4.co.wayne.in.us/arcgis/rest/services/Hosted/County_Wide_Zoning/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18177"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "CodeDesc"
+  },
+  "notes": "Centerville zoning from the Wayne County GIS County_Wide_Zoning service, layer 7 (147 polygons). Some polygons carry ordinance 2-Mile in the Ordinance field, so the two-mile fringe may be included.",
+  "extent": [
+    -85.04308920983989,
+    39.77970718078419,
+    -84.95769764904834,
+    39.86259146927316
+  ],
+  "verification": {
+    "verified_at": 1792278354693,
+    "counties": [
+      "18177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

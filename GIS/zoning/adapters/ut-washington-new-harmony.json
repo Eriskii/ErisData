@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-washington-new-harmony",
+  "publisher": "Washington County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://agisprodvm.washco.utah.gov/arcgis/rest/services/Zoning/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49053"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "SOURCE",
+    "zone": "ZONINGCODE",
+    "zone_name": "GEN_ZONE"
+  },
+  "notes": "Town of New Harmony zoning districts, hosted by Washington County GIS; one jurisdiction per layer (SOURCE holds New Harmony). DESCRIPTION is null in source, so zone_name is the general category GEN_ZONE.",
+  "extent": [
+    -113.37795835835848,
+    37.23006071937777,
+    -113.29135278870764,
+    37.486458618079226
+  ],
+  "verification": {
+    "verified_at": 1792280917021,
+    "counties": [
+      "49053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

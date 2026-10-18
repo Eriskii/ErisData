@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-monroe-islamorada",
+  "publisher": "Village of Islamorada GIS (ISLA ZONING dissolved zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/SaNl2PQPK6JCBCbN/arcgis/rest/services/ISLAZONING170731/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12087"
+    ]
+  },
+  "fields": {
+    "zone": "ISLAZONING"
+  },
+  "notes": "Village of Islamorada zoning districts, dissolved by district code (ISLA ZONING layer published by the Village ArcGIS organization; the layer name carries a 2017 date). Zone holds the district code; no zone name or ordinance link. The parcel-level Village BaseZoning layer is the alternative if this one is stale.",
+  "extent": [
+    -80.74810923185603,
+    24.844093241842824,
+    -80.529517446035,
+    25.013088225515403
+  ],
+  "verification": {
+    "verified_at": 1792277690387,
+    "counties": [
+      "12087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

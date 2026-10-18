@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-patterson-statewide-copy",
+  "publisher": "Patterson (from California statewide zoning compilation, personal ArcGIS Online copy by 1860040_CAL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06099"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'STA' AND Jurisdiction = 'Patterson'",
+  "notes": "Personal ArcGIS Online copy of the California statewide zoning compilation; not published by the City of Patterson. City publishes zoning only as PDF district documents (pattersonca.gov/157). Source and Date fields vary by record.",
+  "extent": [
+    -121.20621898600425,
+    37.45520384613125,
+    -121.11267773796408,
+    37.4982277292756
+  ],
+  "verification": {
+    "verified_at": 1792277503499,
+    "counties": [
+      "06099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

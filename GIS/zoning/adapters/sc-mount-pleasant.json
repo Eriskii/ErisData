@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sc-mount-pleasant",
+  "publisher": "Town of Mount Pleasant GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.tompsc.com/arcgis/rest/services/Parcel_Search_New/MPSC_Zoning_New/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45019"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "ZONINGVALU"
+  },
+  "notes": "Town of Mount Pleasant official zoning layer (Town code 156.022 names the GIS zoning layer the official map). Polygon layer of parcels carrying each parcel zoning (PARCEL_ID); SPLITZONED flags split-zoned parcels. Layer covers Town limits only.",
+  "extent": [
+    -79.90839470805679,
+    32.764760313428326,
+    -79.66755515731673,
+    32.995071244211125
+  ],
+  "verification": {
+    "verified_at": 1792280236828,
+    "counties": [
+      "45019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

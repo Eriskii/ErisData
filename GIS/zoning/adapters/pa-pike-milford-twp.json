@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-pike-milford-twp",
+  "publisher": "Milford Township (zoning in a composite copy on ArcGIS Online by user Gsabwa)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/q8sarOko6mCDwiGm/arcgis/rest/services/Dingman_Zoning_Districts/FeatureServer/94",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "DISTRICT",
+    "zone_name": "UPDT_ZON"
+  },
+  "filter": "DISTRICT = 'Milford twp'",
+  "notes": "Unofficial copy: a composite Pike County municipal zoning layer hosted on ArcGIS Online by user Gsabwa, not the township or county service; it holds Blooming Grove, Delaware, Dingman, Milford B, Milford twp, Porter and Shohola districts in DISTRICT. Filtered to Milford Township (Pike), not the borough. District names are in UPDT_ZON; the ZONING and ZONE_ABBR codes are blank for this township.",
+  "extent": [
+    -74.90544632720021,
+    41.323325197319114,
+    -74.81618233370612,
+    41.361731215152595
+  ],
+  "verification": {
+    "verified_at": 1792280234580,
+    "counties": [
+      "42103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

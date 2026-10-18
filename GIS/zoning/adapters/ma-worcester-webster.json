@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-worcester-webster",
+  "publisher": "Town of Webster, MA (WebsterZoning layer, WebsterSewerAdmin ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/MBj2FFnrAYXfBNP2/arcgis/rest/services/WebsterZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25027"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID",
+    "zone_name": "Description"
+  },
+  "notes": "Town of Webster base zoning districts; covers Webster only. Source dated 2018 per Hub page; ZoneName holds bare numbers so Description is used for zone_name. Source CRS state plane (wkid 102686).",
+  "extent": [
+    -71.88969422567212,
+    42.023307753667126,
+    -71.8045491634222,
+    42.092856382934016
+  ],
+  "verification": {
+    "verified_at": 1792278986709,
+    "counties": [
+      "25027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

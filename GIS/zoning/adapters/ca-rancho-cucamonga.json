@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-rancho-cucamonga",
+  "publisher": "City of Rancho Cucamonga",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/bF44QtfoYZDGo7TK/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDesignation",
+    "zone_name": "GeneralDescription"
+  },
+  "notes": "City of Rancho Cucamonga zoning districts (city GIS account). Single-city layer.",
+  "extent": [
+    -117.63802818691973,
+    34.07703912446204,
+    -117.47967295948249,
+    34.180367792123825
+  ],
+  "verification": {
+    "verified_at": 1792277408531,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-box-elder-perry",
+  "publisher": "Perry City (via consultant ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/QdlehUncXjEmQYtI/arcgis/rest/services/PC_PLPZ_Zoning_20190130/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49003"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "Perry City Zoning layer (91 polygons) hosted on the city consultant ArcGIS Online organization; file dated 2019 (20190130) so may predate later rezonings. Zone_Name also available.",
+  "extent": [
+    -112.07850908268442,
+    41.439235480659946,
+    -112.00542383044764,
+    41.491857746345495
+  ],
+  "verification": {
+    "verified_at": 1792280811817,
+    "counties": [
+      "49003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

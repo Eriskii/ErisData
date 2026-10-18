@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-collin-princeton",
+  "publisher": "City of Princeton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/KL1aiRJt0tw3BM7h/arcgis/rest/services/City_of_Princeton_Updated20220815_WFL2/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48085"
+    ]
+  },
+  "fields": {
+    "link": "Muni_Code_Link",
+    "zone": "Zone",
+    "zone_name": "PD_Name"
+  },
+  "notes": "City of Princeton zoning districts (city limits). Zone holds district code (PD = planned development, PD_Num/PD_Name identify the PD).",
+  "extent": [
+    -96.54284520091775,
+    33.10180998895393,
+    -96.42790631727014,
+    33.24329385755157
+  ],
+  "verification": {
+    "verified_at": 1792280718006,
+    "counties": [
+      "48085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ar-benton-highfill",
+  "publisher": "City of Highfill, AR (zoning layer hosted by NWARPC ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/Highfill_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05007"
+    ]
+  },
+  "fields": {
+    "zone": "zone_"
+  },
+  "notes": "City of Highfill zoning districts (Highfill_Zoning layer, 229 features, adopted zoning map prepared by NWARPC); linked from the city planning page. zone_ holds district code. Descript (description) is mostly empty, so not mapped. Ordinance holds ordinance reference, not mapped.",
+  "extent": [
+    -94.38373095201536,
+    36.233796687228626,
+    -94.26875677107621,
+    36.324693613417345
+  ],
+  "verification": {
+    "verified_at": 1792277446400,
+    "counties": [
+      "05007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

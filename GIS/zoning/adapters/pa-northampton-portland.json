@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-northampton-portland",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Portland Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND NAME = 'Portland Borough'",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Portland Borough by NAME. Zone codes carry a municipal prefix; taken from ZN_MUNI_CD. Link not mapped: the layer holds no ordinance links.",
+  "extent": [
+    -75.10747277882291,
+    40.913673945958344,
+    -75.08754560860945,
+    40.930677325392246
+  ],
+  "verification": {
+    "verified_at": 1792280490967,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

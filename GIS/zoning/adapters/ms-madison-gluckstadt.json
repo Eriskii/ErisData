@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ms-madison-gluckstadt",
+  "publisher": "City of Gluckstadt, MS (via Central Mississippi Planning & Development District)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/server/rest/services/Hosted/Gluckstadt_Feature_Layer/FeatureServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28089"
+    ]
+  },
+  "fields": {
+    "link": "ord_pdf_li",
+    "zone": "zoning",
+    "zone_name": "descriptio"
+  },
+  "notes": "Layer Zoning_12_16_2021 in CMPDD Gluckstadt_Feature_Layer; city of Gluckstadt zoning districts adopted 12/16/2021. zone_name field DESCRIPTIO; link is ordinance PDF.",
+  "extent": [
+    -90.1405160318152,
+    32.4995363195592,
+    -90.0642516448042,
+    32.55707896545126
+  ],
+  "verification": {
+    "verified_at": 1792279387115,
+    "counties": [
+      "28089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

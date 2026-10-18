@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-iredell-davidson",
+  "publisher": "Iredell County GIS (Town of Davidson portion in Iredell zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.iredellcountync.gov/server/rest/services/Data/Zoning/MapServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37097"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDIC",
+    "zone": "ZONING"
+  },
+  "notes": "Town of Davidson portion within Iredell County, served by Iredell County GIS (MapServer layer 6, 3 features). Covers only the part of Davidson inside Iredell.",
+  "extent": [
+    -80.85707027950168,
+    35.5098565902832,
+    -80.83861077976005,
+    35.51932576003184
+  ],
+  "verification": {
+    "verified_at": 1792279827442,
+    "counties": [
+      "37097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

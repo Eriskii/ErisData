@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-dupage-villa-park",
+  "publisher": "Village of Villa Park GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/c296f22648eb4511bfe2fd9e2557c7b8/rest/services/ENG_Zoning/Zoning_Districts/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17043"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CODE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Village of Villa Park zoning districts (Village ENG_Zoning service, linked from the village zoning web map). Villa Park only.",
+  "extent": [
+    -88.00775921096101,
+    41.85820045285578,
+    -87.9568365248766,
+    41.91733866416816
+  ],
+  "verification": {
+    "verified_at": 1792278273138,
+    "counties": [
+      "17043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

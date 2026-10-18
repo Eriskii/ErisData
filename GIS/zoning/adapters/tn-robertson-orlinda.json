@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tn-robertson-orlinda",
+  "publisher": "Robertson County Regional Planning Commission (via APSU GIS, RobertsonPlanningZoning service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://apnsgis4.apsu.edu/arcgis/rest/services/Robertson/RobertsonPlanningZoning/MapServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47147"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "zone_id"
+  },
+  "notes": "City of Orlinda zoning districts, 63 polygons, from the RobertsonPlanningZoning service (layer OrlindaZoning). The zone field holds the ordinance code (IA, CA, RA) and zoning holds the standard code (I-1, C-1, R-40).",
+  "extent": [
+    -86.76079020490569,
+    36.57686711978333,
+    -86.58921198287877,
+    36.621213386008066
+  ],
+  "verification": {
+    "verified_at": 1792280504641,
+    "counties": [
+      "47147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

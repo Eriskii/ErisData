@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-weber-farr-west",
+  "publisher": "Farr West City (FWC zoning layer, ArcGIS Online item used on the city general plan page)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/QdlehUncXjEmQYtI/arcgis/rest/services/FWC_PLPZ_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49057"
+    ]
+  },
+  "fields": {
+    "link": "WebLink",
+    "zone": "Zone",
+    "zone_name": "Description"
+  },
+  "notes": "Farr West zoning layer linked from the city general plan page (Farr West Zoning item on ArcGIS Online, hosted by a consulting account serving the city).",
+  "extent": [
+    -112.0549158397662,
+    41.25982312200006,
+    -112.00798610399994,
+    41.33791477500006
+  ],
+  "verification": {
+    "verified_at": 1792280891434,
+    "counties": [
+      "49057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-dupage-burr-ridge",
+  "publisher": "Village of Burr Ridge (Property Zoning Public, village ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/55JaHxBzqQBTWeG7/arcgis/rest/services/Property_Zoning_Public/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17043"
+    ]
+  },
+  "fields": {
+    "zone": "ThemeDist"
+  },
+  "notes": "Village of Burr Ridge zoning district polygons from the village Property Zoning public view app. Burr Ridge only; the village spans DuPage and Cook counties, so some polygons may fall in Cook County. No district name field.",
+  "extent": [
+    -87.94483988998745,
+    41.698767086619725,
+    -87.88603799297725,
+    41.78954804724384
+  ],
+  "verification": {
+    "verified_at": 1792278698112,
+    "counties": [
+      "17043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

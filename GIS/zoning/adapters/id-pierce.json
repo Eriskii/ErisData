@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "id-pierce",
+  "publisher": "Clearwater County GIS (City of Pierce zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/bkAz0G7Qq4dmkYCg/arcgis/rest/services/PierceZoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16035"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "LABEL_NAME"
+  },
+  "notes": "City of Pierce zoning districts, published by the Clearwater County GIS repository; 13 polygons. Covers the city only.",
+  "extent": [
+    -115.80666703486526,
+    46.48384476820205,
+    -115.79084887999176,
+    46.505169729055915
+  ],
+  "verification": {
+    "verified_at": 1792277963917,
+    "counties": [
+      "16035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

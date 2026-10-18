@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-seneca-jackson",
+  "publisher": "Seneca County Auditor GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/b8eHPJ5KRnX3dHNa/arcgis/rest/services/JacksonZoningLayer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39147"
+    ]
+  },
+  "fields": {
+    "zone": "TWPZoning"
+  },
+  "notes": "Jackson Township, unincorporated Seneca County only. Published by the Seneca County Auditor GIS office.",
+  "extent": [
+    -83.42086622383589,
+    41.166685372039545,
+    -83.30322570009699,
+    41.25501794679083
+  ],
+  "verification": {
+    "verified_at": 1792276152312,
+    "counties": [
+      "39147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

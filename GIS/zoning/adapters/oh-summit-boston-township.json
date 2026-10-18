@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-summit-boston-township",
+  "publisher": "Summit County GIS (Boston Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/26",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Boston Township layer from Summit County GIS ZoningNov2025 service (layer 26). Only the zone code is published; no district name field.",
+  "extent": [
+    -81.59199238482203,
+    41.201913617906904,
+    -81.48832226794896,
+    41.278316638763584
+  ],
+  "verification": {
+    "verified_at": 1792276177335,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ny-albany-colonie-village",
+  "publisher": "Albany County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/mBzcjj7yrA6fBe9F/arcgis/rest/services/AlbanyCountyZoningBoundaries/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municip",
+    "zone": "ZoneAbb",
+    "zone_name": "Zone"
+  },
+  "filter": "Municip = 'Village of Colonie'",
+  "notes": "Albany County zoning boundaries layer (Ken.Galluccio_rptsa), covering all municipalities; filtered to the Village of Colonie.",
+  "extent": [
+    -73.85788987426903,
+    42.70198015633931,
+    -73.80794003754168,
+    42.73665626882874
+  ],
+  "verification": {
+    "verified_at": 1792279700316,
+    "counties": [
+      "36001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

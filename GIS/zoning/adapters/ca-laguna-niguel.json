@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-laguna-niguel",
+  "publisher": "California Governor's Office of Planning and Research (statewide zoning, South)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_South/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'ORA' AND Jurisdiction = 'Laguna Niguel'",
+  "notes": "State OPR California Statewide Zoning (South), compiled from 535 of 539 jurisdictions, 2024 snapshot. Filtered to Laguna Niguel within County ORA. Used because the city does not publish a queryable zoning layer that was found.",
+  "extent": [
+    -117.74018372972986,
+    33.48738653234177,
+    -117.67252294502514,
+    33.571046352344204
+  ],
+  "verification": {
+    "verified_at": 1792277775194,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

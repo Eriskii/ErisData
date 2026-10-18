@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-will-romeoville",
+  "publisher": "Village of Romeoville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.romeoville.org/arcgis/rest/services/OpenGov/OpenGovAddressParcels/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17197"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Description"
+  },
+  "notes": "Village of Romeoville Zoning Districts layer (PIN-keyed, 18849 features; may be parcel-level zoning). Official village GIS.",
+  "extent": [
+    -88.16451465328171,
+    41.59179566447479,
+    -88.02848641855432,
+    41.684349908511614
+  ],
+  "verification": {
+    "verified_at": 1792278231573,
+    "counties": [
+      "17197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

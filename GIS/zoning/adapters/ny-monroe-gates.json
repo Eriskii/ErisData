@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ny-monroe-gates",
+  "publisher": "Town of Gates (compiled in Monroe County Municipal Zoning layer)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Ue34o2qxc9h430hV/arcgis/rest/services/Monroe_County_Municipal_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36055"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "zone": "ZONE_ABBR",
+    "zone_name": "ZONING"
+  },
+  "filter": "MUNICIPALITY = 'Gates'",
+  "notes": "Copy of Monroe County Municipal Zoning (MC_Zoning_All_Municipalities, recorded by Monroe County 11 Nov 2020) hosted on a personal ArcGIS Online account (stuart.jordan_urochester / jzollweg), not a county service. Town of Gates rows only.",
+  "extent": [
+    -77.7545884501424,
+    43.12466504565169,
+    -77.650069900273,
+    43.179819247975885
+  ],
+  "verification": {
+    "verified_at": 1792279744720,
+    "counties": [
+      "36055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

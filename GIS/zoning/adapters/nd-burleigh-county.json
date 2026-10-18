@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nd-burleigh-county",
+  "publisher": "Burleigh County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/8r0lsT7QHelkANsD/arcgis/rest/services/Zoning_Burleigh_County_ND/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "LEGEND"
+  },
+  "notes": "Burleigh County zoning districts in the county zoning jurisdiction (unincorporated townships), published by Burleigh County. No jurisdiction field. No ordinance link populated in source.",
+  "extent": [
+    -100.9655857793056,
+    46.654457958032935,
+    -100.11263713762943,
+    47.32703503229816
+  ],
+  "verification": {
+    "verified_at": 1792281773178,
+    "counties": [
+      "38015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

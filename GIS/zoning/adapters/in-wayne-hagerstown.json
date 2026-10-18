@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "in-wayne-hagerstown",
+  "publisher": "Town of Hagerstown, Indiana (hosted by Wayne County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb4.co.wayne.in.us/arcgis/rest/services/Hosted/County_Wide_Zoning/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18177"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Town",
+    "zone": "Code"
+  },
+  "notes": "From the Wayne County GIS County_Wide_Zoning service, layer 6 (23 polygons). TwoMile field flags two-mile fringe polygons (Y) that are not in-town zoning.",
+  "extent": [
+    -85.2008752678173,
+    39.88083492401817,
+    -85.1077941200064,
+    39.941922716015455
+  ],
+  "verification": {
+    "verified_at": 1792278351897,
+    "counties": [
+      "18177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

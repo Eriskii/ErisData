@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sc-lexington-cayce",
+  "publisher": "City of Cayce GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/JecvNllxC2o6ameZ/arcgis/rest/services/Cayce_Zoning_2026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45063"
+    ]
+  },
+  "fields": {
+    "zone": "New_Zoning",
+    "zone_name": "Description"
+  },
+  "notes": "City of Cayce Unified Zoning 2026 layer, published by city GIS account tshafer_CityofCayce; 14 districts.",
+  "extent": [
+    -81.16064422767434,
+    33.908015645451684,
+    -80.9805616999243,
+    33.99063975601374
+  ],
+  "verification": {
+    "verified_at": 1792280279638,
+    "counties": [
+      "45063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

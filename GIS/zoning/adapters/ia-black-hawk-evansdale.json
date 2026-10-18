@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ia-black-hawk-evansdale",
+  "publisher": "City of Evansdale (via INRCOG GIS, in Iowa State University GIS Facility statewide zoning compilation)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19013"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Evansdale'",
+  "notes": "Iowa State University GIS Facility statewide compilation; Evansdale polygons carry source INRCOG GIS (Black Hawk county regional planning commission). Filtered to city = Evansdale.",
+  "extent": [
+    -92.30999414274105,
+    42.44917411584984,
+    -92.2374854046712,
+    42.48356417386604
+  ],
+  "verification": {
+    "verified_at": 1792278368702,
+    "counties": [
+      "19013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

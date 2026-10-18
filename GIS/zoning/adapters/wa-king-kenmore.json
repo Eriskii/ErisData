@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wa-king-kenmore",
+  "publisher": "City of Kenmore GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gwa.kenmorewa.gov/arcgis/rest/services/Zoning/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Class_2022"
+  },
+  "notes": "City of Kenmore zoning (Zone_Class_2022), Kenmore only. Layer 10 of the city Zoning service. ComPln_Des_2022 is the comprehensive plan designation, not mapped.",
+  "extent": [
+    -122.2708848614094,
+    47.72554107677609,
+    -122.21875554119268,
+    47.77709260973531
+  ],
+  "verification": {
+    "verified_at": 1792281318274,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

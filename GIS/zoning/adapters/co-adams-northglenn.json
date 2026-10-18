@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-adams-northglenn",
+  "publisher": "City of Northglenn (zoning layer by consultant MeadHunt)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/2gKap7KMz7fy1U4a/arcgis/rest/services/Northglenn_Zoning/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08001"
+    ]
+  },
+  "fields": {
+    "zone": "local_zon",
+    "zone_name": "local_zon"
+  },
+  "notes": "City of Northglenn zoning districts; layer has 13 polygons.",
+  "extent": [
+    -105.01574019851247,
+    39.867900703554035,
+    -104.9445110850686,
+    39.92177835253822
+  ],
+  "verification": {
+    "verified_at": 1792277496839,
+    "counties": [
+      "08001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

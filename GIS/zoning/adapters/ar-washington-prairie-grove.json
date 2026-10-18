@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ar-washington-prairie-grove",
+  "publisher": "City of Prairie Grove, AR (zoning map hosted on Garver ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/eNPJk90aMrXNOKF8/arcgis/rest/services/Prairie_Grove_Zoning_Map/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05143"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CLASS",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "City of Prairie Grove zoning map, 115 polygons, city limits only; published by consultant Garver on ArcGIS Online for the city; ORD_NO holds ordinance number on only some features (not mapped); NOTES and approval date also present.",
+  "extent": [
+    -94.35384721378875,
+    35.957216193418105,
+    -94.26267454473074,
+    36.02508690261886
+  ],
+  "verification": {
+    "verified_at": 1792277500321,
+    "counties": [
+      "05143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

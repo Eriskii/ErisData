@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-covina",
+  "publisher": "City of Covina (Covina_GIS, Zoning and General Land Use service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/nzGFbmT76gMzTNvU/arcgis/rest/services/Covina_Zoning_and_General_Land_Use_WFL1/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "City of Covina zoning districts (Zoning layer of the city Zoning and General Land Use service). Overlays and specific plans are separate layers.",
+  "extent": [
+    -117.92711387423296,
+    34.068350364209124,
+    -117.84148694464432,
+    34.106898614839466
+  ],
+  "verification": {
+    "verified_at": 1792278334076,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

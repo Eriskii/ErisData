@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-trumbull-warren",
+  "publisher": "City of Warren, Ohio (ej_warrencity ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/gYp0KPTbBYXOxIqN/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39155"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_1"
+  },
+  "notes": "City of Warren zoning under Ordinance 12713/17 (last amendment 2021). Only 11 polygons in layer. Zone field ZONING_1; no zone name or link field.",
+  "extent": [
+    -80.89431621171488,
+    41.21029373178581,
+    -80.73941113228076,
+    41.273072141194426
+  ],
+  "verification": {
+    "verified_at": 1792276238788,
+    "counties": [
+      "39155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

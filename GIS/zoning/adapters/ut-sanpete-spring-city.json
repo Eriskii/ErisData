@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-sanpete-spring-city",
+  "publisher": "Utah AGRC (state) generalized zoning, Spring City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49039"
+    ]
+  },
+  "fields": {
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county LIKE '%Sanpete%' AND city LIKE 'Spring City%'",
+  "notes": "Utah AGRC statewide generalized zoning layer; Spring City features only (city name stored with trailing space). No ordinance link in source. gen_zone holds the generalized category; source_zone is the city code.",
+  "extent": [
+    -111.50209249644917,
+    39.46902688495124,
+    -111.47783294356653,
+    39.49166241398442
+  ],
+  "verification": {
+    "verified_at": 1792280865879,
+    "counties": [
+      "49039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

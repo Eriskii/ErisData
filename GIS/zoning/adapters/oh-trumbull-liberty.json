@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-trumbull-liberty",
+  "publisher": "Liberty Township, Trumbull County (Trumbull County Planning Commission ArcGIS org, TruCoPC2)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/hZLCglriI6Fb0Kuc/arcgis/rest/services/LibertyZoning20250820/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39155"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Liberty Township zoning districts only (Trumbull County, OH), 384 polygons, from the county planning commission ArcGIS org web map Liberty Township Zoning (updated Aug 2025). Zone field ZONING holds the district code.",
+  "extent": [
+    -80.71153653222963,
+    41.13334354533053,
+    -80.61613469519139,
+    41.203122218493554
+  ],
+  "verification": {
+    "verified_at": 1792276149027,
+    "counties": [
+      "39155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

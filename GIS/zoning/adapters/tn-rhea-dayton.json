@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-rhea-dayton",
+  "publisher": "City of Dayton / Southeast Tennessee Development District",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Dayton_Zoning_08122025/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47143"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "City of Dayton zoning districts only, hosted by SETDD planning staff; Rhea County does not zone unincorporated land. Only zone code is mapped; no name or ordinance link in the layer.",
+  "extent": [
+    -85.06373954831564,
+    35.44584214572802,
+    -84.97257466582246,
+    35.54889099102888
+  ],
+  "verification": {
+    "verified_at": 1792280453766,
+    "counties": [
+      "47143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

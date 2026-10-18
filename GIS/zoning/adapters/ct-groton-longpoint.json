@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-groton-longpoint",
+  "publisher": "Town of Groton GIS (Districts2020 service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.groton-ct.gov/arcgis/rest/services/Districts2020/MapServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09180"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDIST",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "Groton Long Point (borough) zoning from the Town of Groton 2020 districts service, sublayer 16. 3 districts.",
+  "extent": [
+    -72.01925959310765,
+    41.306482774574725,
+    -72.00183938406947,
+    41.321481483258545
+  ],
+  "verification": {
+    "verified_at": 1792277620915,
+    "counties": [
+      "09180"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

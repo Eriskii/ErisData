@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "md-washington-county",
+  "publisher": "Washington County (MD) Planning & Zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/uxxyl33jRTSmjre5/arcgis/rest/services/Washington_County_Zoning/FeatureServer/21",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24043"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Full"
+  },
+  "notes": "County zoning districts for unincorporated Washington County (county-wide layer; municipal zoning such as Hagerstown is separate). Source: county GIS Open Data Hub, Planning Zones and Overlays service.",
+  "extent": [
+    -78.3645994326004,
+    39.31252292327007,
+    -77.46578290754607,
+    39.72924722203727
+  ],
+  "verification": {
+    "verified_at": 1792278825283,
+    "counties": [
+      "24043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

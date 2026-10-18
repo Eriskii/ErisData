@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-comal-schertz",
+  "publisher": "City of Schertz, Texas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.schertz.com/hosting/rest/services/PublicFolder/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48091"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "CNTYNAME = 'C'",
+  "notes": "City of Schertz current zoning districts; city spans Bexar, Comal and Guadalupe counties; filtered to the Comal part where CNTYNAME = C.",
+  "extent": [
+    -98.31186453880878,
+    29.59966022493882,
+    -98.1915332046657,
+    29.667589515012512
+  ],
+  "verification": {
+    "verified_at": 1792280675050,
+    "counties": [
+      "48091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

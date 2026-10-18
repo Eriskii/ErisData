@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-fulton-canton",
+  "publisher": "City of Canton, IL (via City zoning map ArcGIS layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/wPuCb9fMQ2XEp67U/arcgis/rest/services/Canton_Zoning_Map/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17057"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Classification"
+  },
+  "notes": "City of Canton zoning districts, dissolved polygons (16 features), used by the city zoning lookup app. Single zoning class field; no separate code or ordinance link.",
+  "extent": [
+    -90.15191710476306,
+    40.443747652235565,
+    -89.8861359995227,
+    40.65480054088027
+  ],
+  "verification": {
+    "verified_at": 1792278125162,
+    "counties": [
+      "17057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

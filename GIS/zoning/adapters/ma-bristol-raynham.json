@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-bristol-raynham",
+  "publisher": "Town of Raynham (base zoning hosted by SRPEDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/euKKjtGUuDiy24vy/arcgis/rest/services/Raynham_BaseZoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_DIST"
+  },
+  "notes": "Raynham base zoning, hosted by SRPEDD for the Town. ZONE_DIST holds the district code; no separate name field. Overlays (Water Resource Protection, RMMD) in separate services, excluded.",
+  "extent": [
+    -71.09305544084931,
+    41.88297305547824,
+    -70.99034119548182,
+    41.990858343862335
+  ],
+  "verification": {
+    "verified_at": 1792279270261,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

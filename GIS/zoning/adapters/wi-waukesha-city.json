@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-waukesha-city",
+  "publisher": "City of Waukesha",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.waukesha-wi.gov/server/rest/services/Geocortex/ParcelBasemap/MapServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55133"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDescription"
+  },
+  "notes": "City of Waukesha Zoning layer (ParcelBasemap map service, layer 18); the city publishes it as open data. Overlay districts are in layer 17 and are not used.",
+  "extent": [
+    -88.33035938605323,
+    42.927435402033794,
+    -88.15448351237625,
+    43.071281280278534
+  ],
+  "verification": {
+    "verified_at": 1792281507865,
+    "counties": [
+      "55133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

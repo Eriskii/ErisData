@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "in-fishers",
+  "publisher": "City of Fishers Planning & Zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.fishers.in.us/arcgis/rest/services/Zoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18057"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "Zoning"
+  },
+  "notes": "City of Fishers zoning districts (Zoning MapServer layer 2).",
+  "extent": [
+    -86.07431946744875,
+    39.92684691902348,
+    -85.86195908866053,
+    40.001372770439225
+  ],
+  "verification": {
+    "verified_at": 1792278294360,
+    "counties": [
+      "18057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

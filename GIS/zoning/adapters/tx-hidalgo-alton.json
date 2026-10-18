@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-hidalgo-alton",
+  "publisher": "City of Alton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/S9P7ekrLYcX5SF2z/arcgis/rest/services/COA_ZONING_DISTRICTS_WFS/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48215"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Alton zoning districts (city limits). Layer COA_ZONING_DISTRICTS_240416 published by City of Alton (aimgis_coa). Description field is empty, so no zone_name.",
+  "extent": [
+    -98.3451323374907,
+    26.264993491856615,
+    -98.27327204347539,
+    26.31967779331202
+  ],
+  "verification": {
+    "verified_at": 1792280628722,
+    "counties": [
+      "48215"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

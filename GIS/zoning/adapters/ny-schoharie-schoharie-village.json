@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-schoharie-schoharie-village",
+  "publisher": "Village of Schoharie (via Schoharie County GIS, VHB)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://spatialags.vhb.com/arcgis/rest/services/20327_Schoharie/NY_County_Schoharie/MapServer/51",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36095"
+    ]
+  },
+  "fields": {
+    "zone": "LUAname"
+  },
+  "notes": "Village of Schoharie zoning district layer from the Schoharie County GIS map service (hosted by VHB for the county). Zone field to be confirmed.",
+  "extent": [
+    -74.33015483394556,
+    42.652486936355274,
+    -74.29908158365173,
+    42.680176965696624
+  ],
+  "verification": {
+    "verified_at": 1792279644867,
+    "counties": [
+      "36095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

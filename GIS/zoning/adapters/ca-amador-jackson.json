@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-amador-jackson",
+  "publisher": "City of Jackson (zoning as compiled in the California Statewide Zoning North dataset, State OPR)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'AMA' AND Jurisdiction = 'Jackson'",
+  "notes": "City of Jackson zoning districts from the California Statewide Zoning North compilation (California Office of Land Use and Climate Innovation, North layer, version 1.2, 2018 source). Rows filtered to County AMA and Jurisdiction Jackson. Not a city-hosted service; the city publishes only a static 2023 PDF zoning map and an ArcGIS Online instant app.",
+  "extent": [
+    -120.7986831216492,
+    38.330127907327565,
+    -120.75017569081638,
+    38.3722488137812
+  ],
+  "verification": {
+    "verified_at": 1792277281152,
+    "counties": [
+      "06005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

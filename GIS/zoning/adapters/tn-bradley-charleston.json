@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-bradley-charleston",
+  "publisher": "City of Charleston, TN (zoning layer hosted by Southeast Tennessee Development District)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Charleston_Zoning_21926/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Charleston, TN base zoning districts (ZONING field), served by SETDD for the city via its Charleston zoning web map. The map carries a draft-for-review disclaimer from the city. Layer has 4 polygons.",
+  "extent": [
+    -84.77120486644446,
+    35.264059274246726,
+    -84.72363763691392,
+    35.29964507830775
+  ],
+  "verification": {
+    "verified_at": 1792280384457,
+    "counties": [
+      "47011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

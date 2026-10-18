@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-santa-clara-city",
+  "publisher": "City of Santa Clara Planning Division",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map.santaclaraca.gov/maps/rest/services/LAYERS/RegionalZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06085"
+    ]
+  },
+  "fields": {
+    "zone": "ZONGDSGN",
+    "zone_name": "GPLANCRT"
+  },
+  "filter": "PARCITY = 'SANTA CLARA'",
+  "notes": "City of Santa Clara parcel-level zoning (no district polygon layer found); each parcel carries its zoning designation in ZONGDSGN, so a last resort. Filtered to parcels in the city. GPLANCRT is the General Plan designation, not zoning; it is only a fallback for zone_name.",
+  "extent": [
+    -122.00663539589408,
+    37.32280117934196,
+    -121.9293107801696,
+    37.41894430431157
+  ],
+  "verification": {
+    "verified_at": 1792277510548,
+    "counties": [
+      "06085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

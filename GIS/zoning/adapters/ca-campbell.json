@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-campbell",
+  "publisher": "City of Campbell GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.campbellca.gov/arcgis/rest/services/Planning/Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06085"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Campbell zoning districts (layer 3, Zoning Districts); overlays are in a separate layer.",
+  "extent": [
+    -121.99289762561264,
+    37.25395132181932,
+    -121.9174388130948,
+    37.307248360469714
+  ],
+  "verification": {
+    "verified_at": 1792277522126,
+    "counties": [
+      "06085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

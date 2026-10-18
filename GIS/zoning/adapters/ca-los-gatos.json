@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-los-gatos",
+  "publisher": "Town of Los Gatos (patrickk_LosGatos ArcGIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/JAU7IM34hqT9y9ew/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06085"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClass",
+    "zone_name": "ZoningDistrict"
+  },
+  "notes": "Town of Los Gatos zoning districts, last change 4/26/2024. Town-hosted service linked from the town GIS page.",
+  "extent": [
+    -122.00184687504908,
+    37.199070737101735,
+    -121.90562381929249,
+    37.26519617253915
+  ],
+  "verification": {
+    "verified_at": 1792277641370,
+    "counties": [
+      "06085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

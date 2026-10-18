@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-bristol-somerset",
+  "publisher": "Town of Somerset (base zoning hosted by SRPEDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/euKKjtGUuDiy24vy/arcgis/rest/services/Somerset_Base_Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneType",
+    "zone_name": "ZONECODE2"
+  },
+  "notes": "Somerset base zoning (layer dated 2014-07-01), hosted by SRPEDD for the Town. zone_name holds the town-prefixed zone code (e.g. 273B); no separate name field. Overlays not included.",
+  "extent": [
+    -71.19605117167305,
+    41.70655545275616,
+    -71.11894619083795,
+    41.79096741498671
+  ],
+  "verification": {
+    "verified_at": 1792279004143,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

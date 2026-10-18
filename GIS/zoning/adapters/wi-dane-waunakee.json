@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-dane-waunakee",
+  "publisher": "Village of Waunakee",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/ITFBFLQBvUvHAQ7d/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55025"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "DistrictName"
+  },
+  "notes": "Village of Waunakee zoning, parcel-level layer: each parcel carries its zoning (ZoningCode is a link to the ordinance, DistrictName the district name; District holds the code, e.g. A-1). No separate district polygons found. Served from the village web map item dd725bde64f24cc98b47618d8a8467a3, updated November 2025.",
+  "extent": [
+    -89.49146882776165,
+    43.15932287444491,
+    -89.38200617047947,
+    43.21287179331826
+  ],
+  "verification": {
+    "verified_at": 1792281835932,
+    "counties": [
+      "55025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-middlesex-durham",
+  "publisher": "RiverCOG (Lower Connecticut River Valley Council of Governments), Town of Durham zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uH7GnAlGDzMooG4B/arcgis/rest/services/RiverCOG_Regional_Zoning/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09130"
+    ]
+  },
+  "fields": {
+    "zone": "Name"
+  },
+  "notes": "Durham layer from RiverCOG regional zoning service; Name holds the district code; no district description field is filled",
+  "extent": [
+    -72.74619137743095,
+    41.42356432162082,
+    -72.60789937028785,
+    41.50005612232794
+  ],
+  "verification": {
+    "verified_at": 1792277518968,
+    "counties": [
+      "09130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

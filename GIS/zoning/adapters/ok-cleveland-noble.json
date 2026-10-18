@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ok-cleveland-noble",
+  "publisher": "City of Noble, OK (ArcGIS Online organization nobleok)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/MS4CBpGttqfqIZ1M/arcgis/rest/services/Zoning_Map_08_2026_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40027"
+    ]
+  },
+  "fields": {
+    "zone": "Current_Zone"
+  },
+  "notes": "City of Noble zoning map (Zoning Map 08.2026) from the city web map nobleok.maps.arcgis.com. Current_Zone holds district code; no description or link field. Annex_Zone and Min1_Zone etc. are not used.",
+  "extent": [
+    -97.4242055404262,
+    35.116824264539936,
+    -97.31797781518647,
+    35.16067414975046
+  ],
+  "verification": {
+    "verified_at": 1792280044886,
+    "counties": [
+      "40027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

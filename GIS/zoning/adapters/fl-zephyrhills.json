@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-zephyrhills",
+  "publisher": "City of Zephyrhills GIS (EnGov map service, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Q4fB6OTUhdN4M9BR/arcgis/rest/services/Zhills_EnGov_Map_11_2025/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12101"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Zephyrhills city-wide Euclidean zoning districts, layer 4 of the city EnGov map service (217 polygons). ZONING holds the district description, CODE the district code.",
+  "extent": [
+    -82.22914215787566,
+    28.197024567425014,
+    -82.14475356238802,
+    28.285586947905266
+  ],
+  "verification": {
+    "verified_at": 1792277863269,
+    "counties": [
+      "12101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

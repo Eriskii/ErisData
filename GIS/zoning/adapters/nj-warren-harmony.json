@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nj-warren-harmony",
+  "publisher": "Warren County Planning Department (NJ)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/4mb1fO9eRe47EZZx/arcgis/rest/services/Warren_County_Zoning_Map_WFL1/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34041"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE_DESCR"
+  },
+  "notes": "Harmony Township zoning layer from the county WFL1 zoning map service; one municipality only.",
+  "extent": [
+    -75.19601195355743,
+    40.71941754910698,
+    -75.04214723570922,
+    40.789289900440416
+  ],
+  "verification": {
+    "verified_at": 1792279631816,
+    "counties": [
+      "34041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

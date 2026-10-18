@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-licking-pataskala",
+  "publisher": "City of Pataskala, Ohio (PataskalaAdmin ArcGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/koWQgqubB6fcogq8/arcgis/rest/services/Pataskala_Zoning_2025/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39089"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCLAS"
+  },
+  "notes": "City of Pataskala base zoning districts (2025 layer, 261 features). Only the zoning class field is published; no name or ordinance link. Other layers in the same service (JEDD parcels, wards, CRA, TCOD overlay) are not base zoning.",
+  "extent": [
+    -82.77294128657776,
+    39.971238474395165,
+    -82.63382917721644,
+    40.051252388534024
+  ],
+  "verification": {
+    "verified_at": 1792275828727,
+    "counties": [
+      "39089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-cobb-smyrna",
+  "publisher": "City of Smyrna GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/hE9igMm8RoNeQRbh/arcgis/rest/services/OpenGovREST/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13067"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Name"
+  },
+  "notes": "City of Smyrna Zoning polygons (OpenGovREST layer 2, 1,275 features). Smyrna city limits; zone holds the district code.",
+  "extent": [
+    -84.56040621733102,
+    33.7965193617195,
+    -84.47020167001526,
+    33.904165403999805
+  ],
+  "verification": {
+    "verified_at": 1792277853019,
+    "counties": [
+      "13067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

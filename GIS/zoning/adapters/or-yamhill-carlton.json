@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-yamhill-carlton",
+  "publisher": "Oregon DLCD statewide zoning (Carlton records, compiled with MWVCOG)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41071"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Carlton'",
+  "notes": "State DLCD statewide zoning layer, filtered to ownerName Carlton (city). Carlton city zoning; zone = orZCode state zone code.",
+  "extent": [
+    -123.19007216235516,
+    45.28682954431389,
+    -123.1647749436926,
+    45.3018245314122
+  ],
+  "verification": {
+    "verified_at": 1792280419849,
+    "counties": [
+      "41071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

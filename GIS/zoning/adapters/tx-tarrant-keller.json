@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-tarrant-keller",
+  "publisher": "City of Keller GIS Division",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofkeller.com/arcgis/rest/services/OpenData/Keller_Zoning/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48439"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCLASS"
+  },
+  "filter": "PROPERTYTYPE = 'CITY'",
+  "notes": "City of Keller zoning districts (Keller GIS Division open data). Filtered to PROPERTYTYPE CITY; other entities such as KISD are excluded.",
+  "extent": [
+    -97.26613963441014,
+    32.892489604755674,
+    -97.1865592097816,
+    32.97035156041392
+  ],
+  "verification": {
+    "verified_at": 1792280721137,
+    "counties": [
+      "48439"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

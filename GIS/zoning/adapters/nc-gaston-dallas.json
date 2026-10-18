@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nc-gaston-dallas",
+  "publisher": "Gaston County GIS (Town of Dallas zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gastoncountync.gov/publicgis/rest/services/PublicGIS/Zoning/MapServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "TYPE",
+    "zone_name": "NAME"
+  },
+  "notes": "Town of Dallas zoning districts served by the Gaston County PublicGIS zoning service; JURISDICTION names the town; ETJ attribute also present",
+  "extent": [
+    -81.22124987855139,
+    35.29821558759918,
+    -81.13176841329656,
+    35.33999996617964
+  ],
+  "verification": {
+    "verified_at": 1792279810304,
+    "counties": [
+      "37071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "or-yamhill-dundee",
+  "publisher": "City of Dundee (zoning layer published via Mid-Willamette Valley COG GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/89BLPQl3PdPQE7iy/arcgis/rest/services/DundeeZoning_2024/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41071"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "ZonDesc"
+  },
+  "notes": "City of Dundee zoning districts, 2024 layer (10 districts) on the Mid-Willamette Valley COG ArcGIS organization, linked from the MWVCOG Dundee web map. Layer is city-only.",
+  "extent": [
+    -123.02480890940426,
+    45.26463776778379,
+    -122.98249631848827,
+    45.28605893342948
+  ],
+  "verification": {
+    "verified_at": 1792280197638,
+    "counties": [
+      "41071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

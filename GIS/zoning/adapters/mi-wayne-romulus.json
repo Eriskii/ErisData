@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-wayne-romulus",
+  "publisher": "City of Romulus, Michigan (Romulus Zoning Viewer, ArcGIS org romulus.maps.arcgis.com)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/951oL2U827gPEhSf/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26163"
+    ]
+  },
+  "fields": {
+    "link": "ZoningOrdinanceLink",
+    "zone": "ZoningCode"
+  },
+  "notes": "Parcel-level layer: 10571 features keyed by PARCEL_ID, each carrying its zoning code (ZoningCode) from the city Romulus Zoning Viewer; not separate district polygons, so a weak last resort. Zone name not published in this layer (ZoningResolution is empty). Overlay districts are a separate layer (Zoning/FeatureServer/0), not used.",
+  "extent": [
+    -83.4278264764725,
+    42.17830879846321,
+    -83.30455403343336,
+    42.26911435529408
+  ],
+  "verification": {
+    "verified_at": 1792274557196,
+    "counties": [
+      "26163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

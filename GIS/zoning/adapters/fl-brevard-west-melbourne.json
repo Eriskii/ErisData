@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "fl-brevard-west-melbourne",
+  "publisher": "City of West Melbourne GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cwm-gis.westmelbourne.org/server/rest/services/Hosted/Zoning_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12009"
+    ]
+  },
+  "fields": {
+    "link": "related_link",
+    "zone": "zoningnew",
+    "zone_name": "zoningdesc"
+  },
+  "notes": "City of West Melbourne zoning; the layer is a parcel export (Parcels_Export) carrying each parcel zoning, used because no district polygon layer is published. Covers West Melbourne only.",
+  "extent": [
+    -80.72072646727344,
+    28.03541896395335,
+    -80.63800017258438,
+    28.103359448147057
+  ],
+  "verification": {
+    "verified_at": 1792277731478,
+    "counties": [
+      "12009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

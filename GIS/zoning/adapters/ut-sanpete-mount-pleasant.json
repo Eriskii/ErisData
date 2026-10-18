@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-sanpete-mount-pleasant",
+  "publisher": "Utah AGRC (state) generalized zoning, Mount Pleasant",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49039"
+    ]
+  },
+  "fields": {
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county LIKE '%Sanpete%' AND city LIKE 'Mount Pleasant%'",
+  "notes": "Utah AGRC statewide generalized zoning layer; Mount Pleasant city features only. gen_zone holds the generalized category; source_zone is the city code.",
+  "extent": [
+    -111.48439913193566,
+    39.51906075638565,
+    -111.43749617407676,
+    39.55773924321934
+  ],
+  "verification": {
+    "verified_at": 1792280847218,
+    "counties": [
+      "49039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

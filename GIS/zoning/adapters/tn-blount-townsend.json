@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "tn-blount-townsend",
+  "publisher": "Blount County GIS (City of Townsend zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/NIOS5f3vobGvnGtD/arcgis/rest/services/Blount_County_Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47009"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ADMINNAME",
+    "link": "WebURL",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "ADMINNAME = 'Townsend'",
+  "notes": "Blount County GIS hosted feature layer holding Zoning for Alcoa, Friendsville, Maryville, Rockford, Townsend, Louisville and county; this spec takes only the City of Townsend rows (ADMINNAME = Townsend), which the saved tn-blount layer does not hold.",
+  "extent": [
+    -83.79329301974785,
+    35.664187859749894,
+    -83.7133188292268,
+    35.685875132934385
+  ],
+  "verification": {
+    "verified_at": 1792280350331,
+    "counties": [
+      "47009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

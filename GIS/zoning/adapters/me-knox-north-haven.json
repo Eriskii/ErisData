@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "me-knox-north-haven",
+  "publisher": "Town of North Haven, Maine (Knox County GIS, ArcGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/EvllkkFm8v8CygAm/arcgis/rest/services/North_Haven_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23013"
+    ]
+  },
+  "fields": {
+    "zone": "Type"
+  },
+  "notes": "North Haven Land Use Zoning (layer 1, North Haven Zoning); layer 2 is Fresh Pond Watershed, not used. Zone field Type; may need checking for district codes.",
+  "extent": [
+    -68.94482507958715,
+    44.1096653910121,
+    -68.78029003289532,
+    44.20140815112878
+  ],
+  "verification": {
+    "verified_at": 1792278843333,
+    "counties": [
+      "23013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

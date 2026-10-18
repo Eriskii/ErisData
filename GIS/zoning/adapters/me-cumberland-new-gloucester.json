@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "me-cumberland-new-gloucester",
+  "publisher": "Town of New Gloucester, Maine (GIS, ArcGIS Online web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/0ofoIwsGL57vnJK8/arcgis/rest/services/New_Gloucester_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23005"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "New Gloucester zoning layer (600 features) published in the town web map on ArcGIS Online. Zoning holds the district code (e.g. LRS); no zone name or ordinance link field published (Zone_ is almost empty). Source in Web Mercator.",
+  "extent": [
+    -70.41135668396578,
+    43.89340382912786,
+    -70.20031829031528,
+    44.0374926163894
+  ],
+  "verification": {
+    "verified_at": 1792279179870,
+    "counties": [
+      "23005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

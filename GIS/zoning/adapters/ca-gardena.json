@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-gardena",
+  "publisher": "City of Gardena (Zoning - April 2023 public layer, city GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/0LYnC2LP950VYCyM/arcgis/rest/services/Zoning_2021_PUBLIC/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Description"
+  },
+  "notes": "City of Gardena zoning districts, April 2023 public layer. Overlays are in a separate Zoning Overlay service.",
+  "extent": [
+    -118.32637249088022,
+    33.865620914334336,
+    -118.29069985375529,
+    33.916405504194444
+  ],
+  "verification": {
+    "verified_at": 1792278273144,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-franklin-new-albany",
+  "publisher": "City of New Albany, Ohio (webgis.newalbanyohio.org PublicZoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://webgis.newalbanyohio.org/arcgis/rest/services/PublicZoning/ZoningInformation/MapServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39049"
+    ]
+  },
+  "fields": {
+    "zone": "Classification"
+  },
+  "notes": "City of New Albany Zoning Districts layer (370 polygons) from the city zoning map app. Zone field Classification holds district codes (AG, CPUD, GE, IPUD, C-2, CF). No ordinance link field.",
+  "extent": [
+    -82.84613015883507,
+    40.05022337495316,
+    -82.69701194734247,
+    40.12557702711602
+  ],
+  "verification": {
+    "verified_at": 1792275933690,
+    "counties": [
+      "39049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

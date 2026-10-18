@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-summit-tallmadge",
+  "publisher": "Summit County GIS (Tallmadge zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "GOVERNMENT",
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "City of Tallmadge layer from Summit County GIS ZoningNov2025 service (layer 2). GENERAL is a general category; DISTRICT_N may hold more detail.",
+  "extent": [
+    -81.46637537511924,
+    41.06620305693704,
+    -81.39179981123094,
+    41.136254002664
+  ],
+  "verification": {
+    "verified_at": 1792276087338,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

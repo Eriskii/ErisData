@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-butler",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Butler Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/64_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNIS",
+    "zone": "ZONE",
+    "zone_name": "DESCRPT"
+  },
+  "notes": "Municipal zoning for Butler Township (MUNIS 64), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.21631631733138,
+    40.80269242622334,
+    -76.18077930533946,
+    40.82671007277979
+  ],
+  "verification": {
+    "verified_at": 1792280340366,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

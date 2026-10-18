@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-cass-backus",
+  "publisher": "City of Backus (Cass County GIS Municipalities service)",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://cassweb.casscountymn.gov/arcgis/rest/services/Municipalities/MapServer/2/query?where=1%3D1&outFields=*&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "27021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Backus Zoning layer in county Municipalities service; server does not support pagination, so the full query is fetched in one request",
+  "verification": {
+    "verified_at": 1792278997822,
+    "counties": [
+      "27021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

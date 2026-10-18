@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "co-gypsum",
+  "publisher": "Town of Gypsum (Community Map Layers, Esri-hosted view)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/C61nmQMHbO8wM80T/ArcGIS/rest/services/TownofGyspumCommunityMapLayers_view/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08037"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Des"
+  },
+  "notes": "Town of Gypsum zoning designations, one polygon per parcel (Parcel_ID) rather than dissolved districts; zone holds the designation code. Town limits within Eagle County.",
+  "extent": [
+    -107.05719360704686,
+    39.57840276027541,
+    -106.85929220550426,
+    39.66172105648872
+  ],
+  "verification": {
+    "verified_at": 1792277485088,
+    "counties": [
+      "08037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

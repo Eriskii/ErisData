@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "in-boone-whitestown",
+  "publisher": "Town of Whitestown",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/mHzLz9pyDvq3Hzze/arcgis/rest/services/Official_Zoning_Public_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18011"
+    ]
+  },
+  "fields": {
+    "zone": "TAG"
+  },
+  "notes": "Official Zoning Districts layer for the Town of Whitestown, from the town ArcGIS Online organization. Whitestown only. zone_name (TITLE) and link (ORDINANCE_NUM) are mostly empty; PUD polygons carry PUD_Name.",
+  "extent": [
+    -86.41323749381296,
+    39.92337199770678,
+    -86.3217367596057,
+    40.019732545544976
+  ],
+  "verification": {
+    "verified_at": 1792278285559,
+    "counties": [
+      "18011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

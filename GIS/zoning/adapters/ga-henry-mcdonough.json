@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-henry-mcdonough",
+  "publisher": "City of McDonough GA (mcd_Planning_view, GMC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/7ScJ8q0HhcQyXcHe/arcgis/rest/services/mcd_Planning_view/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13151"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "Descri"
+  },
+  "notes": "City of McDonough planning view service (owner ed.ditommaso_GMC_GIS). Layer is zoning classifications for the city; no jurisdiction field needed.",
+  "extent": [
+    -84.20345576257336,
+    33.402288023573476,
+    -84.0996436058677,
+    33.48262822021621
+  ],
+  "verification": {
+    "verified_at": 1792277974430,
+    "counties": [
+      "13151"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

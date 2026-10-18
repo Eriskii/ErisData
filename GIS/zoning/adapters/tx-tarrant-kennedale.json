@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-tarrant-kennedale",
+  "publisher": "City of Kennedale GIS (cityofkennedale ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/J43zlbny83oFNPXe/arcgis/rest/services/Zoning_(Editable)/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48439"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Kennedale zoning districts; the layer serves the city zoning map web app (cityofkennedale.maps.arcgis.com). Layer named Zoning (Editable) but used for viewing. Overlay districts are a separate layer and not used.",
+  "extent": [
+    -97.25313026573943,
+    32.6065500308493,
+    -97.18849756568792,
+    32.6678402184353
+  ],
+  "verification": {
+    "verified_at": 1792280991883,
+    "counties": [
+      "48439"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

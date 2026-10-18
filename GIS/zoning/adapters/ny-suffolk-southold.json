@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-suffolk-southold",
+  "publisher": "Town of Southold (Town ArcGIS Online account tosswmp)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/yqPycf1I0W5ue79N/arcgis/rest/services/Zoning_Inquiry/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Southold zoning districts from the Town of Southold ArcGIS Online account (Zoning Inquiry layer). Covers the Town of Southold only; zone code only, no district name field. Villages of Greenport and Southold are not in this layer.",
+  "extent": [
+    -72.59123795512116,
+    40.94279670600988,
+    -71.92173230962868,
+    41.30238834461226
+  ],
+  "verification": {
+    "verified_at": 1792279820351,
+    "counties": [
+      "36103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

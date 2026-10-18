@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ia-linn-hiawatha",
+  "publisher": "City of Hiawatha (adminit ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/2oSBqh7YPMGBtOVx/arcgis/rest/services/Hiawatha_Zones/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19113"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Hiawatha zoning districts (Hiawatha city limits only), from the city ArcGIS Online account adminit. Only zone code is populated; no names or ordinance links in source.",
+  "extent": [
+    -91.71652269922882,
+    42.03461244150907,
+    -91.6630567878411,
+    42.102663294301365
+  ],
+  "verification": {
+    "verified_at": 1792278397705,
+    "counties": [
+      "19113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

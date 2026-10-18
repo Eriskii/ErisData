@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-brookfield",
+  "publisher": "Town of Brookfield (CTECO parcel mirror of CT OPM/COG collection, UConn)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cteco.uconn.edu/ctmaps/rest/services/Parcels/Parcels_tiled/MapServer/162",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09190"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Last resort: parcel layer carrying each parcel zoning attribute (ZONING), not a district polygon layer; the town district layer is on brookfield.mapxpress.net, unreachable from here. Blank ZONING means unzoned or unknown.",
+  "extent": [
+    -73.44486993914975,
+    41.419626354316385,
+    -73.33123290549727,
+    41.51588702835123
+  ],
+  "verification": {
+    "verified_at": 1792277961603,
+    "counties": [
+      "09190"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

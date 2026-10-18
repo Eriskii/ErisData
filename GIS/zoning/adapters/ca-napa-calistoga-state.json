@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-napa-calistoga-state",
+  "publisher": "City of Calistoga (via California Statewide Zoning, Office of Planning and Research)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06055"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'NAP' AND Jurisdiction = 'Calistoga'",
+  "notes": "Jurisdiction-level extract of the California statewide zoning layer (OPR, North). Source Direct, 2021 q4. Only the Calistoga records are used. Used because the city-hosted Calistoga_Zoning layer on gis.countyofnapa.org was unreachable.",
+  "extent": [
+    -122.6043052383841,
+    38.56734258289573,
+    -122.55486959543616,
+    38.59791583944167
+  ],
+  "verification": {
+    "verified_at": 1792277433516,
+    "counties": [
+      "06055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

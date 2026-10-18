@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-brown-de-pere",
+  "publisher": "City of De Pere GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.deperewi.gov/arcgis/rest/services/Zoning/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55009"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningText"
+  },
+  "notes": "City of De Pere base zoning districts (Zoning field, district polygons); PreExistingPDD and overlay/amendment fields not used. City zoning ordinance Chapter 14; the GIS layer is the official zoning map per §14-10.",
+  "extent": [
+    -88.14092284511364,
+    44.39284488321838,
+    -88.01351227667675,
+    44.46615982340268
+  ],
+  "verification": {
+    "verified_at": 1792281391842,
+    "counties": [
+      "55009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

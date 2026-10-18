@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-racine-union-grove",
+  "publisher": "Village of Union Grove (via Racine County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.racinecounty.com/arcgis/rest/services/Zoning/UGZONING/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Village of Union Grove zoning districts from the county Zoning folder.",
+  "extent": [
+    -88.07362722832606,
+    42.672278133286035,
+    -88.03114259838519,
+    42.70095679397359
+  ],
+  "verification": {
+    "verified_at": 1792281275374,
+    "counties": [
+      "55101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

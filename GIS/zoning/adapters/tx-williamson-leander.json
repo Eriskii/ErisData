@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-williamson-leander",
+  "publisher": "City of Leander Planning Department",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/L0MLvN0Ay0iEjnCT/arcgis/rest/services/Leander_Current_Zoning/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48491"
+    ]
+  },
+  "fields": {
+    "zone": "Descr",
+    "zone_name": "UseDes"
+  },
+  "notes": "City of Leander current zoning (Planning Department), Williamson County. City-only layer.",
+  "extent": [
+    -97.95441907508008,
+    30.509894596039107,
+    -97.76558136739827,
+    30.642976899462617
+  ],
+  "verification": {
+    "verified_at": 1792280865626,
+    "counties": [
+      "48491"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

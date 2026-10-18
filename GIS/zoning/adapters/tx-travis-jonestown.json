@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-travis-jonestown",
+  "publisher": "City of Jonestown (jonestowntx.maps.arcgis.com web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/5LeglrBU0nahiJAW/arcgis/rest/services/Zoning_1_15_2025/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48453"
+    ]
+  },
+  "fields": {
+    "zone": "Layer",
+    "zone_name": "Layer"
+  },
+  "notes": "City of Jonestown zoning districts (Zoning Updated 4-25-2025), from the city ArcGIS Online web map. Single field Layer holds the district name with its code in parentheses, e.g. Single-Family Residential District (R-1); zone is the whole string, not split. No jurisdiction field: all features are Jonestown.",
+  "extent": [
+    -97.96770766612286,
+    30.440130085992767,
+    -97.89246755828044,
+    30.525908392468235
+  ],
+  "verification": {
+    "verified_at": 1792280896452,
+    "counties": [
+      "48453"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

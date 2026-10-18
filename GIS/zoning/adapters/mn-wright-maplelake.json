@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "mn-wright-maplelake",
+  "publisher": "Wright County GIS (aggregated city zoning, City of Maple Lake)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/CiQCvRGImIxsaFnM/arcgis/rest/services/City_Zoning_in_Wright_County/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27171"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Muncipality",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDesc"
+  },
+  "filter": "Muncipality = 'CITY OF MAPLE LAKE'",
+  "notes": "Wright County GIS layer aggregating parcel-level zoning for the cities in Wright County; filtered to City of Maple Lake.",
+  "extent": [
+    -94.0241141429592,
+    45.22062087869005,
+    -93.97947942145237,
+    45.245693733073814
+  ],
+  "verification": {
+    "verified_at": 1792279376038,
+    "counties": [
+      "27171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

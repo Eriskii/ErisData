@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ia-johnson-shueyville",
+  "publisher": "Iowa State University GIS Facility statewide zoning compilation (Shueyville district polygons, Schneider/Beacon source)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19103"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Shueyville'",
+  "notes": "Copy compiled by Iowa State University GIS Facility (Online Guide to Iowa Zoning), not the city publication; city posts its zoning map as PDF. Filter to city Shueyville.",
+  "extent": [
+    -91.66584291379621,
+    41.832999612810966,
+    -91.63181690206183,
+    41.86157661648222
+  ],
+  "verification": {
+    "verified_at": 1792278545082,
+    "counties": [
+      "19103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

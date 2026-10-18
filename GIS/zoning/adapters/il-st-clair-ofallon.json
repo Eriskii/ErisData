@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-st-clair-ofallon",
+  "publisher": "City of O'Fallon, IL (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/K8hCj4l2z1EMabnx/arcgis/rest/services/ZoningDistricts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17163"
+    ]
+  },
+  "fields": {
+    "link": "Hyperlink",
+    "zone": "ZONING"
+  },
+  "notes": "City of O'Fallon zoning districts (Zoning (Current) layer), city limits only; no zone name field.",
+  "extent": [
+    -89.96643609003644,
+    38.54730969904489,
+    -89.84828364744439,
+    38.65005101402039
+  ],
+  "verification": {
+    "verified_at": 1792278169095,
+    "counties": [
+      "17163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

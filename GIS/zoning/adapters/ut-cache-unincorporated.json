@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-cache-unincorporated",
+  "publisher": "Cache County GIS (County Zoning Base Districts, unincorporated)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "zone": "zone_primary",
+    "zone_name": "zone_primary_description"
+  },
+  "notes": "Unincorporated Cache County only. Parcel-based layer: each parcel carries its county base zone in zone_primary (no separate district polygons); used as last resort. Covers county unincorporated land, not the cities.",
+  "extent": [
+    -112.17054020172904,
+    41.36717187305382,
+    -111.40101376621006,
+    41.999592138562306
+  ],
+  "verification": {
+    "verified_at": 1792280911378,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

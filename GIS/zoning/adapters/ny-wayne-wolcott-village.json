@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-wayne-wolcott-village",
+  "publisher": "Wayne County GIS (Village of Wolcott zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.wayne.ny.us/arcgis/rest/services/Wolcott_Village_Zoning/FeatureServer/74",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36117"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Class",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "Village of Wolcott zoning, standardized by Wayne County GIS / GTG 2024.",
+  "extent": [
+    -76.8259577779048,
+    43.210135087124904,
+    -76.79977065192806,
+    43.23462854175098
+  ],
+  "verification": {
+    "verified_at": 1792279758116,
+    "counties": [
+      "36117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

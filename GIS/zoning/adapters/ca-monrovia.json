@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-monrovia",
+  "publisher": "City of Monrovia (MonroviaZoningMap_WFL, city interactive zoning map service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/FWAF6BxrbupAgJHr/arcgis/rest/services/MonroviaZoningMap_WFL/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Monrovia zoning districts (ZoningDistrict layer of the city interactive zoning map service). Specific plans are a separate layer.",
+  "extent": [
+    -118.02191759331583,
+    34.10289696453121,
+    -117.94225995206864,
+    34.19431280928446
+  ],
+  "verification": {
+    "verified_at": 1792278350620,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

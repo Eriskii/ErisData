@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "az-chandler",
+  "publisher": "CCIM/NAI Horizon copy of Chandler zoning (ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/82iS1Pc7dgs3LFZv/arcgis/rest/services/Chandler_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE"
+  },
+  "notes": "Copy of City of Chandler zoning uploaded to ArcGIS Online by a brokerage account (marketing@naihorizon.com_CCIM), not the city. Used because the city publishes no queryable zoning service found (its public zoning map is on the ETCOG hub). Polygons; district code only, no name or jurisdiction attribute.",
+  "extent": [
+    -111.97175540978428,
+    33.2039172456844,
+    -111.75551272323356,
+    33.361342607575345
+  ],
+  "verification": {
+    "verified_at": 1792277823616,
+    "counties": [
+      "04013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

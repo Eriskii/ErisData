@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-salt-lake-draper",
+  "publisher": "Draper City (GIS Division, Zoning Public layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/nAPVXppTJAHM40Se/arcgis/rest/services/Zoning_Public/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49035"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Draper City public zoning polygons (408 features), hosted on city-owned ArcGIS account; updated by city GIS. Min/max lot size and yard fields also present but not mapped.",
+  "extent": [
+    -111.92208941083884,
+    40.45139316969599,
+    -111.78306673160668,
+    40.54472411089952
+  ],
+  "verification": {
+    "verified_at": 1792281904064,
+    "counties": [
+      "49035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

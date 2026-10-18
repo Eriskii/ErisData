@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-dekalb-stone-mountain",
+  "publisher": "City of Stone Mountain GA",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/AOHzwHh2EF5JzdtC/arcgis/rest/services/StoneMountainOIZ/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13089"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Stone Mountain official Zoning layer (StoneMountainOIZ FeatureServer layer 5), from the city online interactive zoning viewer. Polygons are parcel-based, each carrying its zoning district. Covers City of Stone Mountain only.",
+  "extent": [
+    -84.18649683821833,
+    33.79000117405591,
+    -84.16075847937765,
+    33.82051283
+  ],
+  "verification": {
+    "verified_at": 1792277953070,
+    "counties": [
+      "13089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

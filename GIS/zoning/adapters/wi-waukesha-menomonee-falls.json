@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-waukesha-menomonee-falls",
+  "publisher": "Village of Menomonee Falls",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/6ol2092uypMXqKtf/arcgis/rest/services/Zoning_ArcGIS_Online/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55133"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_NAME"
+  },
+  "notes": "Village of Menomonee Falls base zoning (Base Zoning layer of the village Zoning_ArcGIS_Online service). Layers 0-2 are overlay/planned districts and are not used.",
+  "extent": [
+    -88.1856280442963,
+    43.10459770624909,
+    -88.06335579405719,
+    43.19259156226219
+  ],
+  "verification": {
+    "verified_at": 1792281409839,
+    "counties": [
+      "55133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

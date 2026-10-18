@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mt-richland-fairview",
+  "publisher": "Town of Fairview (Richland County GIS ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/7bz8iRhh1FFMhdJW/arcgis/rest/services/Fairview_Zoning/FeatureServer/49",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30083"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneLabel",
+    "zone_name": "ZoneName"
+  },
+  "filter": "",
+  "notes": "Town of Fairview zoning polygons (9 features), published by Richland County account on ArcGIS Online. CodeLink field is empty, so no link.",
+  "verification": {
+    "verified_at": 1792279436303,
+    "counties": [
+      "30083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

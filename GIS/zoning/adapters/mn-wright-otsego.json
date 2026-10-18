@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "mn-wright-otsego",
+  "publisher": "Wright County GIS (aggregated city zoning, City of Otsego)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/CiQCvRGImIxsaFnM/arcgis/rest/services/City_Zoning_in_Wright_County/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27171"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Muncipality",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDesc"
+  },
+  "filter": "Muncipality = 'CITY OF OTSEGO'",
+  "notes": "Wright County GIS layer aggregating parcel-level zoning for the cities in Wright County; filtered to City of Otsego.",
+  "extent": [
+    -93.7148426133941,
+    45.222461117926144,
+    -93.51959855330087,
+    45.30464347535267
+  ],
+  "verification": {
+    "verified_at": 1792279384154,
+    "counties": [
+      "27171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

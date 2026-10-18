@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-broward-southwest-ranches",
+  "publisher": "Town of Southwest Ranches (GIS, jbarton_southwestranches ArcGIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/ZCvq6JKHsH0ye6fu/arcgis/rest/services/SWRZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_ID",
+    "zone_name": "DESCRIPT"
+  },
+  "notes": "Town of Southwest Ranches zoning districts (SWRZoning layer, 59 features), town limits only. Served from the town GIS account behind its Town Atlas zoning layer.",
+  "extent": [
+    -80.4421539884839,
+    26.02898244274483,
+    -80.31266842433371,
+    26.064333094438297
+  ],
+  "verification": {
+    "verified_at": 1792278292877,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-summit-northfield-center-township",
+  "publisher": "Summit County GIS (Northfield Center Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "Northfield Center Township layer from Summit County GIS ZoningNov2025 service (layer 13). zone_name is a general category; DISTRICT_N may hold more detail.",
+  "extent": [
+    -81.54930358080534,
+    41.270129950945375,
+    -81.48866131386838,
+    41.32883586879278
+  ],
+  "verification": {
+    "verified_at": 1792276238865,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

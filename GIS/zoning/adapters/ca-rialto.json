@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-rialto",
+  "publisher": "City of Rialto (zoning carried in the County Combined Zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services/Combined_Zoning_Extra_Data/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION_NAME",
+    "zone": "ZONING_CODE"
+  },
+  "filter": "JURISDICTION_NAME = 'CITY OF RIALTO'",
+  "notes": "County-hosted combined incorporated and unincorporated zoning layer (county org), filtered to the City of Rialto. Zone names not populated in source.",
+  "extent": [
+    -117.43727107361134,
+    34.02439379870321,
+    -117.34065471329156,
+    34.186712266505154
+  ],
+  "verification": {
+    "verified_at": 1792277513043,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-union-stallings",
+  "publisher": "Town of Stallings GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/eIIzSLwZoq8C0D6F/ArcGIS/rest/services/Zoning_Map/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37179"
+    ]
+  },
+  "fields": {
+    "zone": "CurrentZon"
+  },
+  "notes": "Stallings Zoning Districts layer; features carry parcel attributes with the current zoning district in CurrentZon. Town-limits parcels; a parcel-based layer, used as the district source.",
+  "extent": [
+    -80.73750283071573,
+    35.05788376171158,
+    -80.60049029506114,
+    35.15101582386439
+  ],
+  "verification": {
+    "verified_at": 1792279933058,
+    "counties": [
+      "37179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

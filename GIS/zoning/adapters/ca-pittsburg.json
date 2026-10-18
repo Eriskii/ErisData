@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-pittsburg",
+  "publisher": "City of Pittsburg GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://copgissvrweb.pittsburgca.gov/arcgis/rest/services/PublicLayers/GeneralPublicGIS/FeatureServer/111",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Pittsburg zoning districts (city limits), public GIS FeatureServer.",
+  "extent": [
+    -121.98609274795795,
+    37.982453740964786,
+    -121.83365867797968,
+    38.048330147593006
+  ],
+  "verification": {
+    "verified_at": 1792277431427,
+    "counties": [
+      "06013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

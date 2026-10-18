@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-van-buren-pine-grove",
+  "publisher": "Pine Grove Township",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Iec4bqgmGvvDsnfr/arcgis/rest/services/Interactive_Zoning_Map/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26159"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TWP_CITY",
+    "zone": "Zoning"
+  },
+  "notes": "Pine Grove Township Interactive Zoning Map (township ArcGIS Online account, pinegrovetwp). Layer Zoning carries each parcel zoning code in Zoning (C1 etc.); parcel-level layer with parcel attributes, used because no district polygon layer is published. Conditional rezonings are in ConditionalZoning, not mapped.",
+  "extent": [
+    -85.88098722410332,
+    42.33019474942959,
+    -85.76239772921124,
+    42.42148810395052
+  ],
+  "verification": {
+    "verified_at": 1792275925736,
+    "counties": [
+      "26159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

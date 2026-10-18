@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-coachella",
+  "publisher": "SCAG compiled city zoning (Coachella)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.scag.ca.gov/scaggis/rest/services/LDX/Zoning_poly_RV/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZN24_CITY"
+  },
+  "filter": "CITY = 'Coachella'",
+  "notes": "SCAG 2024 compiled city zoning (YEAR_ZN 2024), parcel-level polygons; city codes in ZN24_CITY. No name or ordinance link field.",
+  "extent": [
+    -116.21681901495946,
+    33.64129953502692,
+    -116.07743100925477,
+    33.7302445464289
+  ],
+  "verification": {
+    "verified_at": 1792278289752,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

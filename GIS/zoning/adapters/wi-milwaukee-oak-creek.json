@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-milwaukee-oak-creek",
+  "publisher": "City of Oak Creek",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/IIwGw9ZnifOd3v8l/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55079"
+    ]
+  },
+  "fields": {
+    "zone": "CODE1"
+  },
+  "notes": "City of Oak Creek base zoning districts, from the city account ksmart_oakcreekwi (ZoningHub service, layer 0 Zoning_w_floodway). Only CODE1 holds district codes; zone_name not provided.",
+  "extent": [
+    -87.95234729638523,
+    42.84119463834962,
+    -87.82206293617884,
+    42.931294139336785
+  ],
+  "verification": {
+    "verified_at": 1792281230977,
+    "counties": [
+      "55079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

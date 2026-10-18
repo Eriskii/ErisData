@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-racine-rochester",
+  "publisher": "Village of Rochester (via Racine County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.racinecounty.com/arcgis/rest/services/Zoning/RochesterZoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Village of Rochester base zoning districts from the county Zoning folder (data provided to the County in 2016, may be dated). Layer 0 is an overlay and is not used.",
+  "extent": [
+    -88.30913553348223,
+    42.710351132824734,
+    -88.1878488699598,
+    42.758373116096806
+  ],
+  "verification": {
+    "verified_at": 1792281261546,
+    "counties": [
+      "55101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-wake-morrisville",
+  "publisher": "Town of Morrisville open data",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://opendata.townofmorrisville.org/explore/dataset/morrisville_zoning_20230816/download/?format=geojson&epsg=4326",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "37183"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS"
+  },
+  "notes": "Town of Morrisville zoning districts, published by the Town on its open data portal (August 2023 copy). Zone from CLASS.",
+  "verification": {
+    "verified_at": 1792280191459,
+    "counties": [
+      "37183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

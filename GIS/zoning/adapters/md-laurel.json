@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "md-laurel",
+  "publisher": "City of Laurel GIS (Zoning Map_WFL1, 2025 zoning updates)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/AwDuFhONE9qxjJjX/arcgis/rest/services/Zoning_Map_WFL1/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24033"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Landuse"
+  },
+  "notes": "City of Laurel base zoning districts (2025 updates), hosted in the city ArcGIS org by the city GIS team. Single-jurisdiction layer: all features are Laurel.",
+  "extent": [
+    -76.89356297987324,
+    39.07632627444241,
+    -76.82719384678295,
+    39.11448531318156
+  ],
+  "verification": {
+    "verified_at": 1792279025853,
+    "counties": [
+      "24033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

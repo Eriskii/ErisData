@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sd-grant-labolt",
+  "publisher": "First District GIS for Grant County / City of La Bolt",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Grant/grantmapnetpro/MapServer/41",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46051"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_DIS"
+  },
+  "notes": "City of La Bolt zoning districts, layer 41 (LaBolt Zoning) of Grant grantmapnetpro MapServer, hosted by First District GIS, Watertown SD. Single-jurisdiction layer; 9 features. Only zone code field is ZONING_DIS; no zone name field.",
+  "extent": [
+    -96.67988605045957,
+    45.048196473088126,
+    -96.67224438247993,
+    45.053077142104726
+  ],
+  "verification": {
+    "verified_at": 1792280336648,
+    "counties": [
+      "46051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

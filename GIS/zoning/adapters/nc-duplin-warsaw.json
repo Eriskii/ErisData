@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-duplin-warsaw",
+  "publisher": "Duplin County GIS (Town of Warsaw zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.duplinnc.gov/server/rest/services/GISDB/PublicAccessMainGISDB/MapServer/51",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37061"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Warsaw zoning districts, published on the Duplin County GIS public map service (layer Warsaw Zoning Districts, 240 features). Zone code only; no name or link field.",
+  "extent": [
+    -78.1500409268743,
+    34.96891924460651,
+    -78.00895752902024,
+    35.02996516624815
+  ],
+  "verification": {
+    "verified_at": 1792279797060,
+    "counties": [
+      "37061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

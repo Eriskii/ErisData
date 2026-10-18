@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-west-pennsboro",
+  "publisher": "Cumberland County Planning Department (West Pennsboro Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/31",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "West Pennsboro Township zoning layer from the county GIS Zoning_Basemap service; digitized by the county from municipal paper maps, may not be the official adopted maps. ZoneType also available.",
+  "extent": [
+    -77.41015887323681,
+    40.11813362408794,
+    -77.24371511640713,
+    40.23156604255556
+  ],
+  "verification": {
+    "verified_at": 1792280162541,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

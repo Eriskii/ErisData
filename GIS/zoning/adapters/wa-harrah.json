@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wa-harrah",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), Town of Harrah",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53077"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '077' AND Jurisdiction = 'Harrah'",
+  "notes": "Washington State Zoning Atlas (Commerce) statewide layer, filtered to Harrah. No per-district ordinance link in the source.",
+  "extent": [
+    -120.54944786188368,
+    46.3999586563951,
+    -120.5336583903387,
+    46.411645251601605
+  ],
+  "verification": {
+    "verified_at": 1792281207806,
+    "counties": [
+      "53077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

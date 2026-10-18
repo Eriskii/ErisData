@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-robeson-pembroke",
+  "publisher": "Town of Pembroke NC",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/UxvoAbEhRNR9WPzX/arcgis/rest/services/Pembroke_CurrentZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37155"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "Zone_5_15"
+  },
+  "notes": "Town of Pembroke current zoning (ExistingZoning layer), published via the Town zoning viewer (insightpdadmin). Town-limits only.",
+  "extent": [
+    -79.23186103402371,
+    34.65021732632168,
+    -79.15715249719496,
+    34.70343064394002
+  ],
+  "verification": {
+    "verified_at": 1792280137880,
+    "counties": [
+      "37155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

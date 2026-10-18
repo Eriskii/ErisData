@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-collin-sachse",
+  "publisher": "City of Sachse (layer hosted on ArcGIS Online account layermanager)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/OSORr24S2Mlvyg30/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48085"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "TYPE"
+  },
+  "notes": "Copy of the City of Sachse zoning layer, sourced from the city interactive web map, on an ArcGIS Online account (layermanager); not on a city-hosted server. ZONING holds the district description, TYPE the district code. Sachse spans Collin and Dallas counties.",
+  "extent": [
+    -96.6136304166017,
+    32.94157592155686,
+    -96.53754166991685,
+    33.004848509703116
+  ],
+  "verification": {
+    "verified_at": 1792281201171,
+    "counties": [
+      "48085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

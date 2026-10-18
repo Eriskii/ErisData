@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ks-derby",
+  "publisher": "City of Derby, Kansas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.derbyks.gov/hosting/rest/services/Derby_Zoning_Map/MapServer/100",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20173"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoneCode"
+  },
+  "notes": "City of Derby official zoning map layer (Zoning, 463 polygons). Derby city limits only.",
+  "extent": [
+    -97.29758929186627,
+    37.518341883813214,
+    -97.2159155381949,
+    37.59970843114298
+  ],
+  "verification": {
+    "verified_at": 1792278570323,
+    "counties": [
+      "20173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

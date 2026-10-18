@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-new-fairfield",
+  "publisher": "Town of New Fairfield (CTECO parcel mirror of CT OPM/COG collection, UConn)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cteco.uconn.edu/ctmaps/rest/services/Parcels/Parcels_tiled/MapServer/167",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09190"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID"
+  },
+  "notes": "Last resort: parcel layer carrying a zone attribute (ZoneID), not a district polygon layer; the town district layer is not published as a service (zoning page is 403 and the town GIS is a template viewer). Blank ZoneID means unzoned or unknown; verify ZoneID holds zoning codes.",
+  "extent": [
+    -73.53787191427392,
+    41.44047399227464,
+    -73.42631462243851,
+    41.534719202029216
+  ],
+  "verification": {
+    "verified_at": 1792277974446,
+    "counties": [
+      "09190"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

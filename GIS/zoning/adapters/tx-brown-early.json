@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-brown-early",
+  "publisher": "City of Early, Texas (ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/BkRTESQi432g3riE/arcgis/rest/services/Zoning_Districts/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48049"
+    ]
+  },
+  "fields": {
+    "zone": "E_Zoning_Code",
+    "zone_name": "E_Zone_Description"
+  },
+  "notes": "City of Early base zoning districts (62 polygons), from the city ArcGIS organization. Layer is undated in the title; sibling Early_Zoning_Prod was last updated 01/30/2023. ECP_Zoning_Code fields also exist. Ordinance text not linked in layer.",
+  "extent": [
+    -98.97469744046762,
+    31.71841280528089,
+    -98.90222645895612,
+    31.76461503513462
+  ],
+  "verification": {
+    "verified_at": 1792280605804,
+    "counties": [
+      "48049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

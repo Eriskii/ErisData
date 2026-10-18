@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "pa-northampton-palmer",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Palmer Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "NAME",
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND NAME = 'Palmer Township'",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Palmer Township by NAME. Zone codes carry a municipal prefix. Link field is not mapped.",
+  "extent": [
+    -75.28479796927759,
+    40.64577496538982,
+    -75.23302491212674,
+    40.75451612982898
+  ],
+  "verification": {
+    "verified_at": 1792280338599,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

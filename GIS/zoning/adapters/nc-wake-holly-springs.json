@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-wake-holly-springs",
+  "publisher": "Town of Holly Springs (via Wake County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.wake.gov/arcgis/rest/services/Planning/Zoning/MapServer/20",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37183"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS"
+  },
+  "notes": "Town of Holly Springs zoning districts, served by Wake County GIS. CLASS holds the district code; CU holds conditional use case.",
+  "extent": [
+    -78.9440925888045,
+    35.57631762953791,
+    -78.76754991050052,
+    35.69454722768951
+  ],
+  "verification": {
+    "verified_at": 1792279934666,
+    "counties": [
+      "37183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

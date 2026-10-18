@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-chippewa-new-auburn",
+  "publisher": "Village of New Auburn (zoning layer on the village web map, hosted in the county ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/nMZadKoFzy6dT2f8/arcgis/rest/services/New_Auburn_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDIST",
+    "zone_name": "NAME"
+  },
+  "notes": "Village of New Auburn zoning districts for parcels inside village limits (village is partly in Barron County). Source: New Auburn Zoning Map web app (chipcogis org). zone_name field NAME may hold a district name or the village name; check.",
+  "extent": [
+    -91.59315475073963,
+    45.18839503495049,
+    -91.537004493372,
+    45.21926327031675
+  ],
+  "verification": {
+    "verified_at": 1792281371992,
+    "counties": [
+      "55017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

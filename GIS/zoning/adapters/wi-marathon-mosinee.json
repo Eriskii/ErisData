@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-marathon-mosinee",
+  "publisher": "City of Mosinee zoning, served by North Central Wisconsin Regional Planning Commission (ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/pHG4ZR8FFSuCMvSA/arcgis/rest/services/Mosinee_Zoning_Layer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55073"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Parcel polygons carrying each parcel zoning from City of Mosinee, combined by NCWRPC (the city zoning viewer at ncwrpc.maps.arcgis.com is linked from the city zoning page). Last resort parcel-based layer: only the district code (Zoning) is published; no name or ordinance link.",
+  "extent": [
+    -89.73230940348118,
+    44.7549341973381,
+    -89.6343309845873,
+    44.81550478401992
+  ],
+  "verification": {
+    "verified_at": 1792281284005,
+    "counties": [
+      "55073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "md-worcester-pocomoke-city",
+  "publisher": "Maryland Department of Planning (Generalized Zoning 2025), Pocomoke City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdpgis.mdp.state.md.us/arcgis/rest/services/PlanningCadastre/Generalized_Zoning_2025/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24047"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "GENZONE",
+    "zone_name": "GENZONE_CAT"
+  },
+  "filter": "JURSCODE = 'WORC' AND MUNICIPALITY_NAME = 'POCOMOKE CITY'",
+  "notes": "State generalized zoning compiled by Maryland Department of Planning (2025 version) from Pocomoke City zoning; generalized categories, not the city ordinance codes. Only Pocomoke City rows used.",
+  "extent": [
+    -75.58408013308313,
+    38.003673744322526,
+    -75.52994285439041,
+    38.0883499229815
+  ],
+  "verification": {
+    "verified_at": 1792278922794,
+    "counties": [
+      "24047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

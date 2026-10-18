@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-polk-lake-alfred",
+  "publisher": "City of Lake Alfred (myLakeAlfred ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/VaAx8WnigGGWjIPd/arcgis/rest/services/COLA_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12105"
+    ]
+  },
+  "fields": {
+    "zone": "ZON_20"
+  },
+  "notes": "City of Lake Alfred zoning districts (city limits only), per Ord. 1440 and 1444 as amended; layer published by city staff. Zone code from ZON_20 (the source names no district description field). No ordinance link in the source; ZON_ORD holds an ordinance number, not a link.",
+  "extent": [
+    -81.75801427010366,
+    28.069635622171297,
+    -81.67363834999624,
+    28.15744402275145
+  ],
+  "verification": {
+    "verified_at": 1792277967805,
+    "counties": [
+      "12105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

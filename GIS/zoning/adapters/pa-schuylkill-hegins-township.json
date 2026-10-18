@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-hegins-township",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Hegins Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/11_zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "muni",
+    "zone": "district",
+    "zone_name": "district_n"
+  },
+  "notes": "Municipal zoning for Hegins Township (MUNIS 11), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.4201174626109,
+    40.66506366204459,
+    -76.30036211424378,
+    40.73083880518868
+  ],
+  "verification": {
+    "verified_at": 1792280295010,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

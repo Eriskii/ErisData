@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-yadkin-jonesville",
+  "publisher": "Yadkin County GIS (Town of Jonesville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yadkincountync.gov/arcgis/rest/services/CountyGISmap/MapServer/43",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37197"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JONESVILLE",
+    "zone": "ZONING"
+  },
+  "notes": "Town of Jonesville zoning from Yadkin County GIS map service (layer Jonesville Zoning); single-town layer",
+  "extent": [
+    -80.87413077059936,
+    36.20349330757599,
+    -80.7975727326965,
+    36.2541243494456
+  ],
+  "verification": {
+    "verified_at": 1792279881409,
+    "counties": [
+      "37197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

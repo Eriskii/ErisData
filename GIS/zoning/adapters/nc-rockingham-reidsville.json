@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-rockingham-reidsville",
+  "publisher": "City of Reidsville, NC",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/F05wl398YvOrLJax/arcgis/rest/services/Reidsville_Public_Zoning_Map_WFL1/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37157"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Reidsville zoning districts (Zoning_Districts layer of the city public zoning map, ArcGIS web map linked from reidsvillenc.gov). Covers the city zoning jurisdiction; ZONING holds district codes. No zone_name field.",
+  "extent": [
+    -79.7362219390852,
+    36.27824605605605,
+    -79.61609025982348,
+    36.407466203320595
+  ],
+  "verification": {
+    "verified_at": 1792279914332,
+    "counties": [
+      "37157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

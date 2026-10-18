@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-yolo-county",
+  "publisher": "Yolo County Planning (unincorporated areas)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yolocounty.gov/ext/rest/services/Public/Planning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06113"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "Descript"
+  },
+  "notes": "Unincorporated Yolo County only; cities are separate jurisdictions. Zoning districts layer.",
+  "extent": [
+    -122.42292951237904,
+    38.31325827722154,
+    -121.50111965835758,
+    38.92596492913889
+  ],
+  "verification": {
+    "verified_at": 1792277413063,
+    "counties": [
+      "06113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

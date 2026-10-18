@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-pacific-grove",
+  "publisher": "City of Pacific Grove GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-web.cityofpacificgrove.org/arcgis/rest/services/Applications/PacificGroveParcelViewer/MapServer/28",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06053"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "LU_Desc"
+  },
+  "notes": "City of Pacific Grove zoning layer from the city Parcel Viewer MapServer; features are parcels carrying the zoning code in ZONING (parcel-level attributes, last-resort form). LU_Desc is land use description, not zoning name.",
+  "extent": [
+    -121.96307830981785,
+    36.55672441196544,
+    -121.8874453434063,
+    36.63869451085349
+  ],
+  "verification": {
+    "verified_at": 1792277380949,
+    "counties": [
+      "06053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wa-granger",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), City of Granger",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53077"
+    ]
+  },
+  "fields": {
+    "link": "ReferenceURL",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '077' AND Jurisdiction = 'Granger'",
+  "notes": "Washington State Zoning Atlas (Commerce) statewide layer, filtered to City of Granger.",
+  "extent": [
+    -120.20856340296594,
+    46.33201746695362,
+    -120.17203933191745,
+    46.36062513677342
+  ],
+  "verification": {
+    "verified_at": 1792281146850,
+    "counties": [
+      "53077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

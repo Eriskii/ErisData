@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-rockwall-heath",
+  "publisher": "City of Heath (MB_HEDC ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/l0N5zBvyEchoypXj/arcgis/rest/services/Heath_Zoning_Layer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48397"
+    ]
+  },
+  "fields": {
+    "zone": "Layer",
+    "zone_name": "Full_name"
+  },
+  "notes": "City of Heath zoning layer, 87 polygons, hosted on the city account in ArcGIS Online (MB_HEDC); updated 12/15. Heath lies in Rockwall and Kaufman counties.",
+  "extent": [
+    -96.50788845190402,
+    32.811565034164055,
+    -82.28651398352869,
+    40.15576327864902
+  ],
+  "verification": {
+    "verified_at": 1792281173237,
+    "counties": [
+      "48397"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

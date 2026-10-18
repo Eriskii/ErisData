@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-sevier-county",
+  "publisher": "Sevier County GIS (SC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Qu4yM4JJvNoC2GKw/arcgis/rest/services/Zoning_Sevier_County_CURRENT_view_layer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47155"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Sevier County TN zoning layer published by SC GIS (ArcGIS Online org account dferguson_SC_GIS). Attributes: OBJECTID, Zoning only (values A-1, C-1, C-2, I-1, R-1, R-2, R2-M, PARK). Appears to be county zoning (unincorporated land); no jurisdiction field to confirm that it excludes Sevierville/Pigeon Forge.",
+  "extent": [
+    -83.80019430900646,
+    35.65762478544613,
+    -83.2543731768682,
+    36.04525248390632
+  ],
+  "verification": {
+    "verified_at": 1792280589479,
+    "counties": [
+      "47155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

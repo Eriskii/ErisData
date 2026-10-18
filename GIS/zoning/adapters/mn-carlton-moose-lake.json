@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "mn-carlton-moose-lake",
+  "publisher": "City of Moose Lake, MN (zoning layer hosted by ARDCGIS, Arrowhead Regional Development Commission, on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/XcwN27e6wZ49zF8i/arcgis/rest/services/MooselakeZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27017"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Cod",
+    "zone_name": "Zoning"
+  },
+  "filter": "Zoning_Cod <> ' '",
+  "notes": "Moose Lake city zoning districts in a copy hosted by ARDCGIS (regional planning commission) on ArcGIS Online, not the city own server; the city publishes its zoning map as a file. Records with blank Zoning_Cod are dropped. Lake fields are not zoning.",
+  "extent": [
+    -92.78281183294808,
+    46.42664538073203,
+    -92.74729771841373,
+    46.461809190452875
+  ],
+  "verification": {
+    "verified_at": 1792278948834,
+    "counties": [
+      "27017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

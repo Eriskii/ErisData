@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-hampshire-granby",
+  "publisher": "Pioneer Valley Planning Commission (JLUS zoning layer for the Town of Granby)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/JOJ3LXzkOX5MOLCK/arcgis/rest/services/JLUS_Zoning_Granby/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "PRIM_USE"
+  },
+  "notes": "Regional planning commission (PVPC) JLUS copy of Granby base zoning, 9 features; CURR_AS_OF may be dated (2004-era JLUS attributes), so codes may not match the current bylaw. PRIM_USE is the primary use category, not a district name.",
+  "extent": [
+    -72.55901186832642,
+    42.21639623088452,
+    -72.44685172102784,
+    42.3081811624528
+  ],
+  "verification": {
+    "verified_at": 1792278933672,
+    "counties": [
+      "25015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

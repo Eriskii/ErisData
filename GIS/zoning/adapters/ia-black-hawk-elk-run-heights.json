@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ia-black-hawk-elk-run-heights",
+  "publisher": "City of Elk Run Heights (via INRCOG GIS, in Iowa State University GIS Facility statewide zoning compilation)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19013"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Elk Run Heights'",
+  "notes": "Iowa State University GIS Facility statewide compilation; Elk Run Heights polygons carry source INRCOG GIS (Black Hawk county regional planning commission). Filtered to city = Elk Run Heights.",
+  "extent": [
+    -92.26818230038684,
+    42.45736828231696,
+    -92.23099098671393,
+    42.476996486444534
+  ],
+  "verification": {
+    "verified_at": 1792278379168,
+    "counties": [
+      "19013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

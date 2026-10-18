@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-los-altos",
+  "publisher": "City of Los Altos GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map.losaltosca.gov/arcgis/rest/services/Public/PublicGISLayers/MapServer/60",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06085"
+    ]
+  },
+  "fields": {
+    "link": "Muni_Code_URL",
+    "zone": "ZONING"
+  },
+  "notes": "City of Los Altos zoning districts only (ZoningDistrict layer; overlays are separate layer 61).",
+  "extent": [
+    -122.1436680941868,
+    37.321056352924664,
+    -122.04871769870024,
+    37.420392046287205
+  ],
+  "verification": {
+    "verified_at": 1792277534863,
+    "counties": [
+      "06085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

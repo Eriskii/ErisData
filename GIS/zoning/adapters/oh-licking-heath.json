@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-licking-heath",
+  "publisher": "City of Heath, Ohio (Heath GIS; zoning viewer layer Zoning2009)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/j17OE7EywSmDAZT0/arcgis/rest/services/Zoning_Features_WebApp/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39089"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Zoning2009 layer behind the City of Heath zoning map viewer (Heath.maps.arcgis.com experience); 2009-era data, 3888 features. Extent about -82.52 to -82.37, 39.99 to 40.05. Attributes include a 2007 zoning type and rezoning ordinance paths; ZONE_ID holds district codes such as R-S, M-1, R-3. Verify the layer covers only Heath before relying on it; if it proves to be Newark data, drop this spec.",
+  "extent": [
+    -82.51941920448544,
+    39.988304347621906,
+    -82.37045218548607,
+    40.05132016004046
+  ],
+  "verification": {
+    "verified_at": 1792275911096,
+    "counties": [
+      "39089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

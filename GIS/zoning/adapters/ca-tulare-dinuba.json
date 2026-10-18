@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-tulare-dinuba",
+  "publisher": "City of Dinuba",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/AEktkJZn4D4r3skv/arcgis/rest/services/Dinuba_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06107"
+    ]
+  },
+  "fields": {
+    "link": "HYPERLINK",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Dinuba zoning districts, published by the city on its ArcGIS Online org (dinubaAGOLAdmin). Covers Dinuba city limits.",
+  "extent": [
+    -119.43961175224952,
+    36.5263177848738,
+    -119.36771047698592,
+    36.57125296252235
+  ],
+  "verification": {
+    "verified_at": 1792277436320,
+    "counties": [
+      "06107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

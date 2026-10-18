@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-henderson-chandler",
+  "publisher": "City of Chandler, TX (ETCOG-hosted GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.etcog.org/arcgis/rest/services/CHANDLER/CHANDLER_ZONING_public/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48213"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Chandler zoning districts layer (ZONING DISTRICTS, layer 10 of CHANDLER_ZONING_public), hosted by ETCOG GIS. Single-jurisdiction layer.",
+  "extent": [
+    -95.49928220694277,
+    32.27871694890245,
+    -95.45356090994679,
+    32.32902504494887
+  ],
+  "verification": {
+    "verified_at": 1792280632672,
+    "counties": [
+      "48213"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

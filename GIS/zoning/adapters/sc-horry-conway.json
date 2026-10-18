@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sc-horry-conway",
+  "publisher": "City of Conway, SC GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofconway.com/arcgis/rest/services/ZONING_MAP_UPDATE/CONWAY_SC_ZONING_MAP/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45051"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE",
+    "zone": "ZONING"
+  },
+  "notes": "City of Conway zoning districts (CONWAY ZONING layer). Zone codes RA through IC per city legend; no zone name field.",
+  "extent": [
+    -79.13152742653766,
+    33.76546745177615,
+    -78.97191062180235,
+    33.91031401760083
+  ],
+  "verification": {
+    "verified_at": 1792280265507,
+    "counties": [
+      "45051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

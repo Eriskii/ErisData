@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-box-elder-tremonton",
+  "publisher": "Tremonton City (via consultant ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/QdlehUncXjEmQYtI/arcgis/rest/services/TC_PLPZ_Zoning_view/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49003"
+    ]
+  },
+  "fields": {
+    "link": "Webpage",
+    "zone": "Zone_Code",
+    "zone_name": "Description"
+  },
+  "notes": "Tremonton City Zoning layer (323 polygons) hosted on the city consultant ArcGIS Online organization, which also serves the city zoning web map. Zone_Code is the district code; Description the district name.",
+  "extent": [
+    -112.24028193624116,
+    41.68165113839584,
+    -112.1230123056727,
+    41.740651616680225
+  ],
+  "verification": {
+    "verified_at": 1792280923778,
+    "counties": [
+      "49003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

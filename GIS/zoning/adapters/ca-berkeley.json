@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-berkeley",
+  "publisher": "City of Berkeley Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofberkeley.info/arcgis/rest/services/Public/Portal_Planning/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Berkeley Zoning Districts layer from the city Community GIS portal; overlays and hillside layers not included.",
+  "extent": [
+    -122.3247915300366,
+    37.84587201194596,
+    -122.23421281129046,
+    37.9056126261313
+  ],
+  "verification": {
+    "verified_at": 1792277260109,
+    "counties": [
+      "06001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

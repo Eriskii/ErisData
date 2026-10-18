@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nc-hertford-como",
+  "publisher": "Town of Como (via Hertford County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.hertfordcounty.org/server/rest/services/Zoning/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37091"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_COD",
+    "zone_name": "ZONING"
+  },
+  "filter": "STATUS = 'Active'",
+  "notes": "Town of Como base zoning, served by Hertford County GIS; retired districts excluded by STATUS filter. ZONING_COD may be blank; ZONING holds the label.",
+  "extent": [
+    -77.02563664475343,
+    36.48622728369458,
+    -76.98898102490662,
+    36.51587172120134
+  ],
+  "verification": {
+    "verified_at": 1792279811914,
+    "counties": [
+      "37091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

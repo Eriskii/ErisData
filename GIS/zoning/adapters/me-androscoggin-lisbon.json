@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "me-androscoggin-lisbon",
+  "publisher": "Town of Lisbon, Maine (CGIS parcel viewer, cgis-solutions host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.cgis-solutions.com/arcgis/rest/services/Lisbon/LisbonParcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23001"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Description"
+  },
+  "notes": "Last resort: a parcel layer (Parcels_Joined), not a district layer. Zoning holds numeric codes 1-13 with no district names or legend, so zone codes are unlabelled assessor codes, not ordinance district codes. Lisbon zoning map (per town site) is not queryable.",
+  "extent": [
+    -70.1578602065399,
+    43.984838113243434,
+    -70.02507446005713,
+    44.0655913111876
+  ],
+  "verification": {
+    "verified_at": 1792279090606,
+    "counties": [
+      "23001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

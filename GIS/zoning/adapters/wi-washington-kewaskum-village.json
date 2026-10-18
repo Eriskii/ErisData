@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-washington-kewaskum-village",
+  "publisher": "Washington County GIS (Village of Kewaskum zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.washcowisco.gov/server/rest/services/Zoning/Local_Zoning/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55131"
+    ]
+  },
+  "fields": {
+    "zone": "TAG",
+    "zone_name": "TAG"
+  },
+  "notes": "Village of Kewaskum zoning districts, served by Washington County GIS (Local_Zoning service). TAG holds the district code; PUD and Residential Business District overlays are separate layers and not used.",
+  "extent": [
+    -88.25190701361436,
+    43.49686928679677,
+    -88.21055606119275,
+    43.531766443144924
+  ],
+  "verification": {
+    "verified_at": 1792281349862,
+    "counties": [
+      "55131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

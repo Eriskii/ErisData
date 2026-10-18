@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "co-larimer-berthoud",
+  "publisher": "Town of Berthoud (Genstreets ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/T41fJTDton7figwh/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08069"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Town of Berthoud zoning districts, hosted by the town consultant Genstreets. Layer has zone codes only, no description field. Berthoud spans Larimer and Weld counties.",
+  "extent": [
+    -105.13136200304687,
+    40.2770481543371,
+    -104.9512322453817,
+    40.34939719649077
+  ],
+  "verification": {
+    "verified_at": 1792277491265,
+    "counties": [
+      "08069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

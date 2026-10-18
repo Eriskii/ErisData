@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-rowan-spencer",
+  "publisher": "Rowan County GIS (Town of Spencer zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rowancountync.gov/arcgis/rest/services/Public/Alll_Zoning/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37159"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE"
+  },
+  "notes": "Town of Spencer zoning hosted on Rowan County GIS; zone code in TYPE",
+  "extent": [
+    -80.46106166575102,
+    35.67832018326292,
+    -80.38733167642299,
+    35.72454549350578
+  ],
+  "verification": {
+    "verified_at": 1792279893644,
+    "counties": [
+      "37159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "mi-grand-traverse-east-bay",
+  "publisher": "Charter Township of East Bay (Clearzone zoning parcels)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/dQdhSL6P5ODgVXL3/arcgis/rest/services/ParcelZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26055"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Charter Township of East Bay only. Parcel-based layer (one feature per parcel) carrying each parcel zoning district in ZONE_CODE and ZONE_DESC; used as the district source because no district-only layer is published.",
+  "extent": [
+    -85.5752215538839,
+    44.64234567290512,
+    -85.44443527596408,
+    44.7575104608042
+  ],
+  "verification": {
+    "verified_at": 1792275332958,
+    "counties": [
+      "26055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

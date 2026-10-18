@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-montgomery-harrison-twp",
+  "publisher": "Harrison Township, Montgomery County, Ohio (hosted by MVRPC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/3TIUdMHOqnLBrZEH/arcgis/rest/services/HarrisonTwpZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39113"
+    ]
+  },
+  "fields": {
+    "link": "HOT_LINK_Z",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Harrison Township zoning districts, served by MVRPC staff for the township.",
+  "extent": [
+    -84.25478698332365,
+    39.78686417266354,
+    -84.15304353508354,
+    39.83504293237554
+  ],
+  "verification": {
+    "verified_at": 1792275964666,
+    "counties": [
+      "39113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

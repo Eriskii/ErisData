@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-bristol-acushnet",
+  "publisher": "Town of Acushnet (zoning prepared by BBNEP, hosted by SRPEDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/euKKjtGUuDiy24vy/arcgis/rest/services/Acushnet_Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "TOWN_ZCODE",
+    "zone_name": "ZONING"
+  },
+  "notes": "Acushnet zoning districts (2014/2015, prepared by Buzzards Bay National Estuary Program for the Town, hosted by SRPEDD). TOWN_ZCODE holds the district code, ZONING the district name. Dated 2015; check currency.",
+  "extent": [
+    -70.94358776887532,
+    41.664018299703606,
+    -70.85738465827366,
+    41.76367972194772
+  ],
+  "verification": {
+    "verified_at": 1792279265927,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

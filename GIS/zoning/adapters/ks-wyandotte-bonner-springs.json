@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ks-wyandotte-bonner-springs",
+  "publisher": "Bonner Springs (parcel zoning layer by ModernEarthTech)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/VineY8LQ39gOVtTz/arcgis/rest/services/bonner_zonning_par/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20209"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE"
+  },
+  "notes": "Bonner Springs KS zoning, parcel polygons carrying ZONE_TYPE; a copy by a consultant (ModernEarthTech) on ArcGIS Online, not the city; last resort since no city district layer found",
+  "extent": [
+    -94.91367307797354,
+    38.99104763186401,
+    -94.83274523541697,
+    39.11726419871198
+  ],
+  "verification": {
+    "verified_at": 1792278556636,
+    "counties": [
+      "20209"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

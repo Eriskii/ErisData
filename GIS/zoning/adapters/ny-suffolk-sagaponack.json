@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-suffolk-sagaponack",
+  "publisher": "Village of Sagaponack (via Town of Southampton GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.southamptontownny.gov/gisserver/rest/services/DataServices/LandManager/MapServer/38",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESCRIPT"
+  },
+  "notes": "Village of Sagaponack zoning districts, served by the Town of Southampton GIS (Land Manager MapServer layer Sagaponack). Village of Sagaponack only. 8 features.",
+  "extent": [
+    -72.2942047598504,
+    40.90610887501891,
+    -72.24586746484415,
+    40.953166154695545
+  ],
+  "verification": {
+    "verified_at": 1792279842781,
+    "counties": [
+      "36103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

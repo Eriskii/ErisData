@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-franklin-dublin",
+  "publisher": "City of Dublin, Ohio",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapping.dublin.oh.us/arcgis/rest/services/Accela/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39049"
+    ]
+  },
+  "fields": {
+    "link": "Ord_Num",
+    "zone": "Label_Origin",
+    "zone_name": "Description"
+  },
+  "notes": "City of Dublin zoning districts (Accela-linked map service). Link field is ordinance number, not a URL.",
+  "extent": [
+    -83.20241522672748,
+    40.062989323008,
+    -83.08889791020253,
+    40.16352313929325
+  ],
+  "verification": {
+    "verified_at": 1792275769868,
+    "counties": [
+      "39049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-cache-newton",
+  "publisher": "Cache County GIS (Newton City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/City_Zoning/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city_name",
+    "zone": "zone_code",
+    "zone_name": "zone_type"
+  },
+  "filter": "city_name = 'NEWTON'",
+  "notes": "Newton city zoning from Cache County City_Zoning service (layer per city; every layer returns the same 19-city table, filtered on city_name). Covers Newton only.",
+  "extent": [
+    -112.00148684715992,
+    41.85500604420479,
+    -111.97950987516226,
+    41.86890138647786
+  ],
+  "verification": {
+    "verified_at": 1792280881119,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

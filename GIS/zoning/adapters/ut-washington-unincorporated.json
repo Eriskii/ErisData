@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ut-washington-unincorporated",
+  "publisher": "Washington County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://agisprodvm.washco.utah.gov/arcgis/rest/services/Zoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49053"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Washington County unincorporated zoning districts, hosted by Washington County GIS; one layer covers unincorporated county land only. No zone_name or jurisdiction field in source.",
+  "extent": [
+    -114.07092529567316,
+    36.98082766952984,
+    -112.891603640906,
+    37.62842795477788
+  ],
+  "verification": {
+    "verified_at": 1792280914143,
+    "counties": [
+      "49053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sc-pickens-clemson",
+  "publisher": "City of Clemson (ClemsonZoning service, Clemson University ArcGIS organization)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/x5wCko8UnSi4h0CB/arcgis/rest/services/ClemsonZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45077"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_ID"
+  },
+  "notes": "Copy hosted by Clemson University GIS account (eadams3@clemson.edu), titled Current zoning in the City of Clemson; not hosted by the City itself. Single layer of City of Clemson base zoning polygons (96 features). Only the zone code field is present; no name or ordinance link. Used because no city-hosted zoning service was found.",
+  "extent": [
+    -82.85618355476596,
+    34.65716006029442,
+    -82.77789376171387,
+    34.708903519117634
+  ],
+  "verification": {
+    "verified_at": 1792280311602,
+    "counties": [
+      "45077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

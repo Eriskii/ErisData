@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "al-morgan-priceville",
+  "publisher": "City of Priceville, AL (Zoning_Production layer, city ArcGIS Online org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/8sIdLczE0DFhZzrm/arcgis/rest/services/Zoning_Production/FeatureServer/20",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01103"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Code",
+    "zone_name": "Zone_Description"
+  },
+  "filter": "Zoning_Code IS NOT NULL",
+  "notes": "City of Priceville zoning districts from the city own ArcGIS Online org (Zoning_Production). About 222 of 5006 polygons carry a zoning code; the filter keeps only those coded polygons, since the rest are unpopulated edit features. No jurisdiction field; layer may include areas the city has added (Roberts, Morris). Source has no ordinance link field.",
+  "extent": [
+    -86.92011606242257,
+    34.49158772962613,
+    -86.84208415668388,
+    34.56424327463308
+  ],
+  "verification": {
+    "verified_at": 1792277388676,
+    "counties": [
+      "01103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

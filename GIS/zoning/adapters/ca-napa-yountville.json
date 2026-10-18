@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-napa-yountville",
+  "publisher": "Town of Yountville (Planning and Building Department)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://services3.arcgis.com/VWf7eSyliwUVwOOY/arcgis/rest/services/Zoning_Map/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06055"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Description"
+  },
+  "notes": "Town of Yountville zoning map (Zoning_Map layer, linked from the Town's myYountville ArcGIS Online Yountville Zoning Map web map). Town-wide base zoning districts. No ordinance link in the layer; Town code Chapter 17.08 on ecode360.",
+  "extent": [
+    -122.38709983712184,
+    38.3798688977178,
+    -122.35016121454036,
+    38.41344108212332
+  ],
+  "verification": {
+    "verified_at": 1792277480653,
+    "counties": [
+      "06055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

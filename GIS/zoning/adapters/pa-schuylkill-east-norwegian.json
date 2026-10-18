@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-east-norwegian",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for East Norwegian Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/42_zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESCRPT"
+  },
+  "notes": "Municipal zoning for East Norwegian Township (MUNIS 42), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.0729872572549,
+    40.613959765056826,
+    -76.04517054359972,
+    40.626630576592994
+  ],
+  "verification": {
+    "verified_at": 1792280408879,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

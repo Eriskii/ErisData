@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ga-arcade",
+  "publisher": "Jackson County GIS (City of Arcade zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/bcbi4lYRFOsss0F5/arcgis/rest/services/jackson_baselayers/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13157"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONING",
+    "zone": "zoning_arcade"
+  },
+  "filter": "ZONING = 'Arcade'",
+  "notes": "City of Arcade zoning carried in the county base-layer service; code in zoning_arcade, city parcels identified by ZONING = Arcade. Parcel-level polygons.",
+  "extent": [
+    -83.58315295328444,
+    34.03357785735716,
+    -83.50344811850981,
+    34.102266692614194
+  ],
+  "verification": {
+    "verified_at": 1792277893554,
+    "counties": [
+      "13157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

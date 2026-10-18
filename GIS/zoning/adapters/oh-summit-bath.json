@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-summit-bath",
+  "publisher": "Summit County GIS (Bath Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/28",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "filter": "GOVERNMENT = 'Bath'",
+  "notes": "Bath Township layer from Summit County GIS ZoningNov2025 service (layer 28); filtered to GOVERNMENT Bath because the layer also holds City of Akron features. zone_name is a general category; DISTRICT_N is blank.",
+  "extent": [
+    -81.68700049102263,
+    41.13520671823789,
+    -81.58657015110256,
+    41.20354189652965
+  ],
+  "verification": {
+    "verified_at": 1792276163046,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

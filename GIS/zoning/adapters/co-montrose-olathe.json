@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-montrose-olathe",
+  "publisher": "Town of Olathe (hosted on Montrose County GIS MapServer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mcmap.montrosecounty.net/server/rest/services/MontroseCounty/MapServer/63",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08085"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "Zoning",
+    "zone_name": "ZoningName"
+  },
+  "notes": "Town of Olathe zoning districts, layer 63 of the Montrose County MapServer. Single-jurisdiction layer; no jurisdiction field.",
+  "extent": [
+    -107.9994707335335,
+    38.58904107125699,
+    -107.97063896941806,
+    38.627440728238746
+  ],
+  "verification": {
+    "verified_at": 1792277481250,
+    "counties": [
+      "08085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

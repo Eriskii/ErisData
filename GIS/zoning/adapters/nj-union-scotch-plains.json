@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nj-union-scotch-plains",
+  "publisher": "Township of Scotch Plains (copy hosted on ArcGIS Online by wsg35_rutgers)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ze0XBzU1FXj94DJq/arcgis/rest/services/Scotch_Plains_Zones2/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34039"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Unofficial copy: ArcGIS Online item by wsg35_rutgers (Rutgers), not the township itself; township publishes its Zoning Map (6-6-2022) as PDF. Zone holds district codes; no district description field is filled.",
+  "extent": [
+    -74.40852883312243,
+    40.60100571023918,
+    -74.32506431444945,
+    40.67869286796783
+  ],
+  "verification": {
+    "verified_at": 1792279588568,
+    "counties": [
+      "34039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

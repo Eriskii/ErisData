@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-manhattan-beach",
+  "publisher": "City of Manhattan Beach (citymb ArcGIS account, Energov zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/mP6Ul6JKT9roxmWT/arcgis/rest/services/zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_COD"
+  },
+  "notes": "Last-resort parcel-attribute source: city Energov zoning layer carries one feature per parcel (APN), with zoning code in ZONING_COD (ZONING also present); no separate base-district polygon layer found. No zone name field. Overlay in OVERLAY_CO.",
+  "extent": [
+    -118.42296667345812,
+    33.872917876272645,
+    -118.37873368395158,
+    33.90615149807503
+  ],
+  "verification": {
+    "verified_at": 1792278310524,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

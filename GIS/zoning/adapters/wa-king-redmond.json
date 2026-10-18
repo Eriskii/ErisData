@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wa-king-redmond",
+  "publisher": "City of Redmond GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.redmond.gov/arcgis/rest/services/PV/Planning/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "d_Zone"
+  },
+  "notes": "City of Redmond zoning districts, Redmond only. d_Zone is the district code.",
+  "extent": [
+    -122.16554550389286,
+    47.62637193563992,
+    -122.03256534086648,
+    47.71725252796296
+  ],
+  "verification": {
+    "verified_at": 1792281127904,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

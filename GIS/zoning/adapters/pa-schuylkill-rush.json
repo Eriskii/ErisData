@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-rush",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Rush Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/56_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "descrpt"
+  },
+  "notes": "Municipal zoning for Rush Township (MUNIS 56), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.12450166815151,
+    40.642600075807415,
+    -76.08442421440655,
+    40.6677088077106
+  ],
+  "verification": {
+    "verified_at": 1792280225827,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

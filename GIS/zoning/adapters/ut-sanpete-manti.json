@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-sanpete-manti",
+  "publisher": "Utah AGRC (state) generalized zoning, Manti",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49039"
+    ]
+  },
+  "fields": {
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county LIKE '%Sanpete%' AND city LIKE 'Manti%'",
+  "notes": "Utah AGRC statewide generalized zoning layer; Manti city features only. gen_zone holds the generalized category; source_zone is the city code.",
+  "extent": [
+    -111.65510440425068,
+    39.24206104737452,
+    -111.6111841074666,
+    39.28701012606789
+  ],
+  "verification": {
+    "verified_at": 1792280850636,
+    "counties": [
+      "49039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

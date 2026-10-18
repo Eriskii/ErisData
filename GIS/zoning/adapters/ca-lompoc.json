@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-lompoc",
+  "publisher": "City of Lompoc (copy hosted by Keith.Kie, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/1X277wLOSNkVz4n6/arcgis/rest/services/Lompoc_ParcelsZonesGplan/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE1",
+    "zone_name": "LANDUSE01"
+  },
+  "notes": "Unofficial copy: a parcel layer with zoning on each parcel (ZONE_CODE1), uploaded to ArcGIS Online by an individual (Keith.Kie), not the City of Lompoc. Last resort: no official Lompoc district layer was found; city pages returned 403. LANDUSE01 is land use, not zone name; verify against city map.",
+  "extent": [
+    -120.51897264001867,
+    34.58091280421484,
+    -120.4106462299943,
+    34.69193328872195
+  ],
+  "verification": {
+    "verified_at": 1792277419425,
+    "counties": [
+      "06083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

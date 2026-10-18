@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ks-ellis-victoria",
+  "publisher": "City of Victoria (Hays/Ellis County GSDP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geodataportal.net/arcgis/rest/services/CityCountyData/MapServer/134",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20051"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "City",
+    "zone": "Zone",
+    "zone_name": "Zone_Descr"
+  },
+  "notes": "City of Victoria zoning districts (18 polygons) from the Hays/Ellis County GSDP, layer Victoria_Zoning. Only the city of Victoria.",
+  "extent": [
+    -99.15599419540435,
+    38.842643008619106,
+    -99.14140036865574,
+    38.86180596686171
+  ],
+  "verification": {
+    "verified_at": 1792278506304,
+    "counties": [
+      "20051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

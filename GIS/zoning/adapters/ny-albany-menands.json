@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ny-albany-menands",
+  "publisher": "Albany County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/mBzcjj7yrA6fBe9F/arcgis/rest/services/AlbanyCountyZoningBoundaries/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municip",
+    "zone": "ZoneAbb",
+    "zone_name": "Zone"
+  },
+  "filter": "Municip = 'Village of Menands'",
+  "notes": "Albany County zoning boundaries layer covering all municipalities; filtered to one village per spec.",
+  "extent": [
+    -73.75179728404198,
+    42.67394503152336,
+    -73.70939650398513,
+    42.70861096294433
+  ],
+  "verification": {
+    "verified_at": 1792279646180,
+    "counties": [
+      "36001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

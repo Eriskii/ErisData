@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "or-klamath-chiloquin",
+  "publisher": "Oregon DLCD (statewide zoning, City of Chiloquin jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41035"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Chiloquin'",
+  "notes": "Statewide DLCD zoning layer filtered to the City of Chiloquin (ownerName). Zone is the DLCD generalized state zoning class (orZCode), not the city code.",
+  "extent": [
+    -121.8816763058696,
+    42.56300430204647,
+    -121.8572744829665,
+    42.58654712506979
+  ],
+  "verification": {
+    "verified_at": 1792280053700,
+    "counties": [
+      "41035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-suffolk-revere",
+  "publisher": "City of Revere GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.revere.org/arcgis/rest/services/RevereMA/MapServer/62",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25025"
+    ]
+  },
+  "fields": {
+    "zone": "ORIG_ZONE",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "City of Revere public MapServer, Zoning layer (137 features). Base zoning districts; ORIG_ZONE holds the district code.",
+  "extent": [
+    -71.0331809131423,
+    42.38847467913961,
+    -70.96062066938224,
+    42.45011764840983
+  ],
+  "verification": {
+    "verified_at": 1792278854519,
+    "counties": [
+      "25025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

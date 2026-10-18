@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-broward-davie",
+  "publisher": "Town of Davie GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.davie-fl.gov/gis/rest/services/CommDev/PlanningZoning_Reference_wm/MapServer/19",
+    "page_size": 3000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CAT"
+  },
+  "notes": "Town of Davie zoning districts (Zoning layer of the CommDev PlanningZoning_Reference map service). Town limits only. ZONECLASS/ZONEDESC are empty; ZONING_CAT holds the district code.",
+  "extent": [
+    -80.36954894422064,
+    26.028599485188536,
+    -80.18381049432693,
+    26.12280092598215
+  ],
+  "verification": {
+    "verified_at": 1792277634697,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

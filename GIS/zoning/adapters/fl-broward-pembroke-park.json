@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-broward-pembroke-park",
+  "publisher": "Town of Pembroke Park GIS (PembrokePark_FL ArcGIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/vtilYbC3YeF6EBJ1/arcgis/rest/services/Zoning_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "Town of Pembroke Park zoning districts (Zoning_View layer, 57 features), public view of the town GIS. Town limits only.",
+  "extent": [
+    -80.1985771819682,
+    25.97293373779226,
+    -80.16598616435714,
+    25.996233597862503
+  ],
+  "verification": {
+    "verified_at": 1792278329744,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

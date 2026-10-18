@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-walker",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Walker Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/65_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNIS",
+    "zone": "ZONE",
+    "zone_name": "DESCRPT"
+  },
+  "notes": "Municipal zoning for Walker Township (MUNIS 65), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -75.98120135267781,
+    40.776051040154094,
+    -75.8718214055179,
+    40.83562225332353
+  ],
+  "verification": {
+    "verified_at": 1792280355163,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

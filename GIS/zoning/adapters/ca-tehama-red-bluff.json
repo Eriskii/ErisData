@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-tehama-red-bluff",
+  "publisher": "City of Red Bluff (hosted by CSU Chico Geographic Information Center)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://nspdcwebsrv.csuchico.edu/nspdcarcsrv01/rest/services/Tehama_County/Tehama_County_Planning_Public/MapServer/30",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Red Bluff zoning designations, served from the Tehama County planning public MapServer (CSU Chico GIC host). 159 features. Covers Red Bluff city only.",
+  "extent": [
+    -122.26682963099452,
+    40.13500780912448,
+    -122.19476489136288,
+    40.23028334280916
+  ],
+  "verification": {
+    "verified_at": 1792277539068,
+    "counties": [
+      "06103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-collin-anna",
+  "publisher": "City of Anna GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/DvFgDXTY4DS4ZXFx/arcgis/rest/services/Anna_Base_Data_Viewer/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48085"
+    ]
+  },
+  "fields": {
+    "link": "ORD1_URL",
+    "zone": "Zoning"
+  },
+  "notes": "City of Anna zoning districts from the city Base Data Viewer (city limits). Zoning holds district code.",
+  "extent": [
+    -96.64034372343777,
+    33.29861952561938,
+    -96.44024139981475,
+    33.38930936269632
+  ],
+  "verification": {
+    "verified_at": 1792280700682,
+    "counties": [
+      "48085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

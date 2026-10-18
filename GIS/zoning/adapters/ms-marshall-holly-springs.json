@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ms-marshall-holly-springs",
+  "publisher": "Holly Springs GIS repository (ArcGIS Online item owned by user Bobbarber; copy, not city-hosted)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/zxqi28jLbBeyF8Y2/arcgis/rest/services/Holly_Springs_GIS/FeatureServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28093"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "Zoning <> ''",
+  "notes": "Unofficial copy: ArcGIS Online item titled Holly Springs, Mississippi GIS, owned by the user Bobbarber, not the city. Holly Springs publishes its zoning only as a PDF map. Layer 19 is named Holly_Springs_Parcels_Final: a parcel layer whose Zoning attribute carries each parcel zoning code, not a district polygon layer. Last resort; covers the city of Holly Springs only.",
+  "extent": [
+    -89.49565249121004,
+    34.740225086761384,
+    -89.41092788691196,
+    34.80180642901986
+  ],
+  "verification": {
+    "verified_at": 1792279315463,
+    "counties": [
+      "28093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

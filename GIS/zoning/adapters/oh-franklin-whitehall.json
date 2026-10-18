@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-franklin-whitehall",
+  "publisher": "City of Whitehall, Ohio (cityofwhitehall ArcGIS Online organization, Whitehall GIS Zoning Finder)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/bs18C029OPh8Dj4p/arcgis/rest/services/Zoning_view/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE",
+    "zone_name": "ZONINGDES"
+  },
+  "notes": "City of Whitehall zoning districts (15 polygons), from the city GIS Zoning Finder ArcGIS Experience. ZONINGCODE holds district symbol, ZONINGDES the description. No ordinance link field.",
+  "extent": [
+    -82.91297208642798,
+    39.95079771598531,
+    -82.85108021619457,
+    39.986514056295064
+  ],
+  "verification": {
+    "verified_at": 1792276044050,
+    "counties": [
+      "39049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

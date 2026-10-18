@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-auglaize-noble-twp",
+  "publisher": "Auglaize County GIS / Noble Township",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.auglaizecounty.org/arcgis/rest/services/Zoning/Noble/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Name",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Noble Township (unincorporated) zoning districts; Zone_Name carries the district label.",
+  "extent": [
+    -84.45780151295263,
+    40.55179388917725,
+    -84.33720847608015,
+    40.62823063138483
+  ],
+  "verification": {
+    "verified_at": 1792275649347,
+    "counties": [
+      "39011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

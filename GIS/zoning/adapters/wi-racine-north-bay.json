@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-racine-north-bay",
+  "publisher": "Village of North Bay (via Racine County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.racinecounty.com/arcgis/rest/services/Zoning/NorthBayZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Village of North Bay zoning districts from the county Zoning folder; only 3 features.",
+  "extent": [
+    -87.7871537023058,
+    42.762532031799104,
+    -87.77546797288196,
+    42.76742654047785
+  ],
+  "verification": {
+    "verified_at": 1792281267728,
+    "counties": [
+      "55101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

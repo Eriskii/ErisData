@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "pa-northampton-stockertown",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Stockertown Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "NAME",
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND NAME = 'Stockertown Borough'",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Stockertown Borough by NAME. Zone codes carry a municipal prefix. Link field is not mapped.",
+  "extent": [
+    -75.27561388895356,
+    40.7466795375961,
+    -75.24902041752313,
+    40.764640343797616
+  ],
+  "verification": {
+    "verified_at": 1792280351373,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-northampton-lower-mt-bethel",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Lower Mt. Bethel Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND MUNICODE = 28",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Lower Mt. Bethel Township by municipality code 28. Zone codes carry a municipal prefix. Link not mapped: the layer holds no ordinance links.",
+  "extent": [
+    -75.22342252513143,
+    40.75288511558377,
+    -75.0834106667354,
+    40.84898682992783
+  ],
+  "verification": {
+    "verified_at": 1792280434715,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

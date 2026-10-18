@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-wayne-walworth",
+  "publisher": "Wayne County GIS (Town of Walworth zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.wayne.ny.us/arcgis/rest/services/Walworth_Zoning/FeatureServer/71",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36117"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Class",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "Town of Walworth zoning, standardized by Wayne County GIS / GTG 2024. Single-jurisdiction layer.",
+  "extent": [
+    -77.37501253686231,
+    43.12320365600698,
+    -77.25171011240987,
+    43.203273751871635
+  ],
+  "verification": {
+    "verified_at": 1792279672253,
+    "counties": [
+      "36117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

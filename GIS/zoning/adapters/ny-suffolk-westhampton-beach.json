@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-suffolk-westhampton-beach",
+  "publisher": "Village of Westhampton Beach (via Town of Southampton GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.southamptontownny.gov/gisserver/rest/services/DataServices/LandManager/MapServer/41",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESCRIPT"
+  },
+  "notes": "Village of Westhampton Beach zoning districts, served by the Town of Southampton GIS (Land Manager MapServer layer Westhampton Beach). Village of Westhampton Beach only.",
+  "extent": [
+    -72.68061029926852,
+    40.784145587473525,
+    -72.61361581017087,
+    40.833156067166975
+  ],
+  "verification": {
+    "verified_at": 1792279724588,
+    "counties": [
+      "36103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

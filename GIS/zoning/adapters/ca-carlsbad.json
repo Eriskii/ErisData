@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-carlsbad",
+  "publisher": "City of Carlsbad GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/7e4b62e84f5840b396a915f9b3af2ef1/rest/services/OpenData/ZoningDistrict/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06073"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Carlsbad zoning districts per 2015 General Plan update, as modified by Coastal Commission 2016; Carlsbad Open Data Portal. Coastal zone deferred-certification areas excluded from this layer.",
+  "extent": [
+    -117.35972769874398,
+    33.0605359476224,
+    -117.215916604801,
+    33.18218069447715
+  ],
+  "verification": {
+    "verified_at": 1792277448650,
+    "counties": [
+      "06073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

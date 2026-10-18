@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mn-st-louis-hibbing",
+  "publisher": "City of Hibbing, MN (Engineering, Hibbing_Zoning ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/62cCoFVo5zlCPx2m/arcgis/rest/services/Hibbing_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27137"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Hibbing zoning districts; city only. Zone code in ZONING.",
+  "extent": [
+    -93.06963613622662,
+    47.2826415791707,
+    -92.80623757869591,
+    47.544521254944115
+  ],
+  "verification": {
+    "verified_at": 1792279074325,
+    "counties": [
+      "27137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-racine-caledonia",
+  "publisher": "Village of Caledonia (via Racine County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.racinecounty.com/arcgis/rest/services/Zoning/CaledoniaZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CLASS",
+    "zone_name": "ZONING_DESC"
+  },
+  "notes": "Village of Caledonia zoning districts from the county Zoning folder; the saved county layer wi-racine excludes incorporated villages.",
+  "extent": [
+    -87.9548775111493,
+    42.75370423519992,
+    -87.77473099498859,
+    42.844366480865794
+  ],
+  "verification": {
+    "verified_at": 1792281237572,
+    "counties": [
+      "55101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

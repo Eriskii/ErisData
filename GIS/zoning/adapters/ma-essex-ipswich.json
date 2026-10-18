@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-essex-ipswich",
+  "publisher": "Town of Ipswich, MA (hannahw_IPSWICHGIS ArcGIS Online, Planning Interactive Map 3A)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/lzJzbvlwrEzfH7f5/arcgis/rest/services/Planning_Interactive_Map_3A_V2_WFL1/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Ipswich zoning layer (layer 9 Zoning) from the town GIS planning map service, 142 polygons; the other layers of that service (parcels, buffers, Residensity) are excluded.",
+  "extent": [
+    -70.96535095085494,
+    42.63419763145638,
+    -70.72592843896527,
+    42.73873272569664
+  ],
+  "verification": {
+    "verified_at": 1792279089941,
+    "counties": [
+      "25009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

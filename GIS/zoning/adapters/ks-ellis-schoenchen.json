@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ks-ellis-schoenchen",
+  "publisher": "City of Schoenchen (Hays/Ellis County GSDP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geodataportal.net/arcgis/rest/services/CityCountyData/MapServer/133",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20051"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "City",
+    "zone": "Zone",
+    "zone_name": "Zone_Descr"
+  },
+  "notes": "City of Schoenchen zoning districts (32 polygons) from the Hays/Ellis County GSDP, layer Schoenchen_Zoning. Only the city of Schoenchen.",
+  "extent": [
+    -99.33625349907693,
+    38.710087480707706,
+    -99.32929708064947,
+    38.71523781424784
+  ],
+  "verification": {
+    "verified_at": 1792278500073,
+    "counties": [
+      "20051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

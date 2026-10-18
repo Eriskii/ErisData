@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "ut-box-elder-portage",
+  "publisher": "Portage Town (via Utah planning_generalized_zoning, AOG BRAG / AGRC)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49003"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "city = 'Portage'",
+  "notes": "Unofficial copy: third-party generalized statewide planning layer (AOG BRAG, Utah AGRC), not hosted by Portage Town; filtered to Portage rows. Portage land use ordinances (May 2025) at https://portageutah.com/documents/388/Portage_Land_Use_Ordinances_May_2025.pdf",
+  "extent": [
+    -112.2627778410277,
+    41.95357135853226,
+    -112.21776153577352,
+    42.001414843360514
+  ],
+  "verification": {
+    "verified_at": 1792281767526,
+    "counties": [
+      "49003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

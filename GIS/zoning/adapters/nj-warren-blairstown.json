@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "nj-warren-blairstown",
+  "publisher": "Warren County Planning Department (NJ)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/4mb1fO9eRe47EZZx/arcgis/rest/services/Warren_County_Zoning/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "zone": "ZONE",
+    "zone_name": "ZONE_DESCR"
+  },
+  "filter": "Municipality = 'Blaistown'",
+  "notes": "Warren County Zoning county-wide buildout-analysis map (22 municipalities); filtered to Blairstown Township (spelled Blaistown in the source). Source is county planning dept, not the township itself.",
+  "extent": [
+    -75.06217458293266,
+    40.92095506904391,
+    -74.93719399130407,
+    41.04409394431537
+  ],
+  "verification": {
+    "verified_at": 1792279584911,
+    "counties": [
+      "34041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

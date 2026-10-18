@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "va-altavista-town",
+  "publisher": "Town of Altavista (AltavistaPlan ArcGIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/xfQUUFsoHxzE0NMx/arcgis/rest/services/Town_of_Altavista_Zoning_Map_WFL1/FeatureServer/44",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Altavista zoning districts, published under the town planning account AltavistaPlan (Town of Altavista Zoning Map_WFL1 service). Town zoning, not county. NOTES field reads ZONED BY THE TOWN OF ALTAVISTA. No ordinance link field populated.",
+  "extent": [
+    -79.32066473424608,
+    37.10489042261365,
+    -79.24369154417607,
+    37.156538748311405
+  ],
+  "verification": {
+    "verified_at": 1792280903765,
+    "counties": [
+      "51031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

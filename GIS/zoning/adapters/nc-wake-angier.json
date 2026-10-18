@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-wake-angier",
+  "publisher": "Town of Angier (via Wake County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.wake.gov/arcgis/rest/services/Planning/Zoning/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37183"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS"
+  },
+  "notes": "Town of Angier zoning districts, served by Wake County GIS; the town straddles Wake and Harnett counties. CLASS holds the district code.",
+  "extent": [
+    -78.77271979915102,
+    35.47460840934093,
+    -78.70677656636481,
+    35.547693849154605
+  ],
+  "verification": {
+    "verified_at": 1792279988502,
+    "counties": [
+      "37183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

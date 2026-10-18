@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-calumet-new-holstein",
+  "publisher": "City of New Holstein (via Calumet County Land Information Office)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://calmaps.co.calumet.wi.us/server/rest/services/ZoningMunicipal/MapServer/21",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55015"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Abbreviation",
+    "zone_name": "Zoning_Label"
+  },
+  "notes": "City of New Holstein zoning districts from the Calumet County municipal zoning service (layer 21).",
+  "extent": [
+    -88.1228321807813,
+    43.93518926397227,
+    -88.07215285795228,
+    43.96436123279421
+  ],
+  "verification": {
+    "verified_at": 1792281193669,
+    "counties": [
+      "55015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

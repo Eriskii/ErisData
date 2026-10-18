@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-juneau-elroy",
+  "publisher": "City of Elroy, WI (Zoning_View_Layer hosted by City of Elroy)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/fG0wlSudAkEi5Jdl/arcgis/rest/services/Zoning_View_Layer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55057"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDescription"
+  },
+  "notes": "City of Elroy zoning district polygons published by the city (hosted feature layer, last overwritten Sept 2023); one polygon per parcel carrying its zone, keyed by PARCELID. No ordinance link published.",
+  "extent": [
+    -90.28166089666836,
+    43.722986981156765,
+    -90.25281363379668,
+    43.764226210960125
+  ],
+  "verification": {
+    "verified_at": 1792281193347,
+    "counties": [
+      "55057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

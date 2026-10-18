@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ny-franklin-malone-town",
+  "publisher": "Franklin County NY (DANC GIS, Town of Malone zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/Franklin_Special_Dis_Zoning_P_24/MapServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36033"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Town",
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Town of Malone base zoning districts from the DANC GIS county zoning service; village of Malone not included. No ordinance links in the layer.",
+  "extent": [
+    -74.38048455149855,
+    44.68966435986862,
+    -74.18732928722635,
+    44.90275110222794
+  ],
+  "verification": {
+    "verified_at": 1792279651696,
+    "counties": [
+      "36033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

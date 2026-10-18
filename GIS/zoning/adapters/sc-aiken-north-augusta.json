@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "sc-aiken-north-augusta",
+  "publisher": "City of North Augusta GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.northaugustasc.gov/arcgisserver/rest/services/Planning/Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_DES"
+  },
+  "filter": "LocationCity = 'NORTH AUGUSTA'",
+  "notes": "City of North Augusta Planning Zoning layer. Parcel-level layer (12,397 features, parcel attributes plus ZONING code and ZONING_DES description); used as the district layer since no separate district polygon service was found. Filter is a guess at the city-limits field; check INSIDECITY values if it fails.",
+  "extent": [
+    -82.00338707158392,
+    33.464074497372316,
+    -81.89482245174285,
+    33.58218885808221
+  ],
+  "verification": {
+    "verified_at": 1792280196177,
+    "counties": [
+      "45003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-schenectady-niskayuna",
+  "publisher": "Town of Niskayuna (hosted ArcGIS Online by town staff)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/krSNOBBGf8rF7cNp/arcgis/rest/services/Niskayuna_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36093"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ProperName"
+  },
+  "notes": "Town of Niskayuna zoning districts, layer Zoning (49 polygons, data dated around 2008 per service name, existing conditions). Not the county layer. Attribute NAME also present.",
+  "extent": [
+    -73.91819512028458,
+    42.76428412535304,
+    -73.8040537463865,
+    42.8502532178349
+  ],
+  "verification": {
+    "verified_at": 1792279655229,
+    "counties": [
+      "36093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

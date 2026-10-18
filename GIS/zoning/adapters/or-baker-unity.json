@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-baker-unity",
+  "publisher": "Baker County Planning (Unity Zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/QNL6ESLaMOiSE2DQ/arcgis/rest/services/Unity_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "ZoneID",
+    "zone_name": "ZoneLongNa"
+  },
+  "notes": "Town of Unity zoning, published by Baker County planning; includes zoning in the UGB area. 7 features.",
+  "extent": [
+    -118.1958339257304,
+    44.43112837502917,
+    -118.17911192084748,
+    44.45916232287049
+  ],
+  "verification": {
+    "verified_at": 1792280004731,
+    "counties": [
+      "41001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

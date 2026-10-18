@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-greene-tusculum",
+  "publisher": "City of Tusculum (zoning layer hosted by markstevans, ArcGIS Online; source First Tennessee Development District)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/duOXQT76rrwCBokY/arcgis/rest/services/July_2017_Tusculum_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47059"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "Unofficial ArcGIS Online copy of the Tusculum zoning map, July 2017, hosted by user markstevans; linked from the First Tennessee Development District zoning page (ftdd.org/zoning). Single-jurisdiction layer, 22 districts. Zone_Curre holds district codes such as R-1, R-2, B-1.",
+  "extent": [
+    -82.76770586566931,
+    36.148274185727274,
+    -82.71514636304565,
+    36.20218856807578
+  ],
+  "verification": {
+    "verified_at": 1792280415301,
+    "counties": [
+      "47059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

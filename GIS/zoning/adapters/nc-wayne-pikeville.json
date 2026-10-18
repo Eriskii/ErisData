@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-wayne-pikeville",
+  "publisher": "Wayne County GIS (Town of Pikeville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/q2nSlChj7QgGTANO/arcgis/rest/services/Pikeville_Zoning/FeatureServer/45",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37191"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Town of Pikeville zoning districts, published by Wayne County GIS. Zone codes only; the source name field is blank.",
+  "extent": [
+    -78.01003476489753,
+    35.47786391384506,
+    -77.9601823212759,
+    35.516151874986754
+  ],
+  "verification": {
+    "verified_at": 1792279923763,
+    "counties": [
+      "37191"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

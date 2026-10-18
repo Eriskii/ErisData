@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ny-albany-new-scotland",
+  "publisher": "Albany County GIS (county zoning boundaries layer, Town of New Scotland)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/mBzcjj7yrA6fBe9F/arcgis/rest/services/AlbanyCountyZoningBoundaries/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municip",
+    "zone": "ZoneAbb",
+    "zone_name": "Zone"
+  },
+  "filter": "Municip = 'Town of New Scotland'",
+  "notes": "Albany County zoning boundaries layer covering all municipalities; filtered to one town per spec.",
+  "extent": [
+    -74.022981576722,
+    42.53282638083,
+    -73.85059175697502,
+    42.67050343209005
+  ],
+  "verification": {
+    "verified_at": 1792279616699,
+    "counties": [
+      "36001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

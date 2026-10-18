@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sc-spartanburg-greer",
+  "publisher": "City of Greer GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/bskBH6JV42oEWJvZ/arcgis/rest/services/Greer_UDO_ZoningMap/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45083"
+    ]
+  },
+  "fields": {
+    "zone": "Pro_Zoning"
+  },
+  "notes": "City of Greer UDO zoning map (Greer_UDO_ZoningMap_Current), city-hosted ArcGIS Online org. Only the zone code field is mapped; New_Zoning and IntlZoning_Historic also exist.",
+  "extent": [
+    -82.34711546428234,
+    34.84005764543421,
+    -82.14579428451253,
+    35.052787261204244
+  ],
+  "verification": {
+    "verified_at": 1792280274865,
+    "counties": [
+      "45083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

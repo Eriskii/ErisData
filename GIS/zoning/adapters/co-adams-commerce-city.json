@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "co-adams-commerce-city",
+  "publisher": "City of Commerce City (Parcel Finder zoning service, gisserver.c3gov.com)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisserver.c3gov.com/gisserver/rest/services/Applications/PF_Zoning_tmp/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "link": "ADCO_URL_MAP",
+    "zone": "ZONING_CODE"
+  },
+  "filter": "JURISDICTION = 'COMMERCE CITY'",
+  "notes": "Fallback: parcel-level layer (one feature per parcel with its ZONING_CODE), not a district polygon layer; the city publishes no district layer. Filtered to JURISDICTION = COMMERCE CITY to avoid duplicating unincorporated Adams County parcels. Service is a Parcel Finder (PF_) layer named Commerce City Zoning.",
+  "extent": [
+    -104.96807372781694,
+    39.78228871665236,
+    -104.65895203668808,
+    39.92975754431168
+  ],
+  "verification": {
+    "verified_at": 1792277927223,
+    "counties": [
+      "08001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

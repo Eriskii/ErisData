@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-new-hanover-wrightsville-beach",
+  "publisher": "Town of Wrightsville Beach",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/XyPkMiF0OxEhc77I/arcgis/rest/services/WrightsvilleBeachZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37129"
+    ]
+  },
+  "fields": {
+    "zone": "Name"
+  },
+  "notes": "Town of Wrightsville Beach zoning districts, published by the town on ArcGIS Online. Town layer only; Name holds the district code.",
+  "extent": [
+    -77.82798288452253,
+    34.18731205847628,
+    -77.7739832701105,
+    34.23732577063049
+  ],
+  "verification": {
+    "verified_at": 1792280045352,
+    "counties": [
+      "37129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

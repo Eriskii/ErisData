@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "il-will-plainfield",
+  "publisher": "Village of Plainfield GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/e67a7218d9434dc2be19c12571a06e2c/rest/services/Public/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17197"
+    ]
+  },
+  "fields": {
+    "link": "ORD",
+    "zone": "ZONING"
+  },
+  "filter": "SUPERSEDED IS NULL",
+  "notes": "Village of Plainfield Zoning layer (MapServer layer 1, owner VOPlainfieldGIS). ZONING = district code; ORD = ordinance reference, no description field. Filtered to unsuperseded records.",
+  "extent": [
+    -88.3026158593935,
+    41.5691499883212,
+    -88.16305754123835,
+    41.68013754113278
+  ],
+  "verification": {
+    "verified_at": 1792278893726,
+    "counties": [
+      "17197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

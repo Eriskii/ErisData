@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "co-delta-county",
+  "publisher": "Delta County (County Zoning layer hosted in Town of Paonia FLUM service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/fvV68Hcl3pQr2r3H/arcgis/rest/services/FLUM/FeatureServer/253",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08029"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Layer 253 County Zoning of the FLUM service on the Town of Paonia ArcGIS org; 21 polygons, county unincorporated zoning in the Paonia area only, not countywide. Zoning is the district code.",
+  "extent": [
+    -107.64775403893982,
+    38.83288412225157,
+    -107.55342262320472,
+    38.896512353755696
+  ],
+  "verification": {
+    "verified_at": 1792277463127,
+    "counties": [
+      "08029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

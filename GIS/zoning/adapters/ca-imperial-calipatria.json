@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-imperial-calipatria",
+  "publisher": "SCAG (Southern California Association of Governments) compiled city zoning, Zoning_poly_IM",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.scag.ca.gov/scaggis/rest/services/LDX/Zoning_poly_IM/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06025"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZN24_CITY",
+    "zone_name": "ZN24_SCAG"
+  },
+  "filter": "CITY = 'Calipatria'",
+  "notes": "Copy hosted by SCAG (regional planning agency), not the City of Calipatria itself. Parcel-level 2024 zoning codes as compiled by SCAG; ZN24_CITY is the city code, ZN24_SCAG the SCAG standard category. Used because no official city layer is queryable. Calipatria city limits only.",
+  "extent": [
+    -115.55448755377736,
+    33.112627579401156,
+    -115.47566700880029,
+    33.1773835764161
+  ],
+  "verification": {
+    "verified_at": 1792277409632,
+    "counties": [
+      "06025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

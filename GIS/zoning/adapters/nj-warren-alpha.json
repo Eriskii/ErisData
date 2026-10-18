@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nj-warren-alpha",
+  "publisher": "Warren County Planning Department (NJ)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/4mb1fO9eRe47EZZx/arcgis/rest/services/Warren_County_Zoning_Map_WFL1/FeatureServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34041"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE_DESCR"
+  },
+  "notes": "Alpha Borough zoning layer from the county WFL1 zoning map service; one municipality only.",
+  "extent": [
+    -75.17432557555512,
+    40.6430771497529,
+    -75.13414158659683,
+    40.67232396286557
+  ],
+  "verification": {
+    "verified_at": 1792279619480,
+    "counties": [
+      "34041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

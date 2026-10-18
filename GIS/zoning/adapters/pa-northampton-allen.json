@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-northampton-allen",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Allen Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND MUNICODE = 2",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Allen Township by municipality code 2. Zone codes carry a municipal prefix. Link not mapped: the layer holds no ordinance links.",
+  "extent": [
+    -75.52687971708097,
+    40.661295463699105,
+    -75.44333650355462,
+    40.738639594490024
+  ],
+  "verification": {
+    "verified_at": 1792280414993,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

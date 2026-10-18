@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "or-yamhill-sheridan",
+  "publisher": "City of Sheridan (zoning layer published via Mid-Willamette Valley COG GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/89BLPQl3PdPQE7iy/arcgis/rest/services/SheridanWebMap/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41071"
+    ]
+  },
+  "fields": {
+    "zone": "COG_ZONE",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "City of Sheridan zoning districts (Zoning layer, 7 districts) in the Sheridan web map on the Mid-Willamette Valley COG ArcGIS organization. Layer is city-only.",
+  "extent": [
+    -123.43304663597335,
+    45.08060746187243,
+    -123.37705869405671,
+    45.1099344867322
+  ],
+  "verification": {
+    "verified_at": 1792280216605,
+    "counties": [
+      "41071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

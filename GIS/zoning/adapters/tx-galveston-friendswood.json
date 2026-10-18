@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-galveston-friendswood",
+  "publisher": "City of Friendswood GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/ghs8JYGzwZM6Zl6x/arcgis/rest/services/City_of_Friendswood_Zoning_by_Parcel/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48167"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDescription"
+  },
+  "filter": "Parcel_Num NOT LIKE '1%'",
+  "notes": "City of Friendswood zoning by parcel (zoning based on ordinances), one feature per parcel carrying its district; the city spans Harris and Galveston counties, and the filter keeps Galveston-side parcels (Harris parcel numbers start with 1); parcel-level layer, the only zoning layer the city publishes",
+  "extent": [
+    -95.23347492363786,
+    29.45198948511817,
+    -95.15027077641781,
+    29.57368923573671
+  ],
+  "verification": {
+    "verified_at": 1792281169734,
+    "counties": [
+      "48167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

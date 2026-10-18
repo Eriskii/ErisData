@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "al-jefferson-hueytown",
+  "publisher": "City of Hueytown, Alabama (city ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/gI8CAHoRaPqpi2O3/arcgis/rest/services/HUEYTOWN_ZONING_MAP_WFL1/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01073"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Hueytown Zoning Map, ZONING layer (FeatureServer layer 3 of HUEYTOWN_ZONING_MAP_WFL1). Only the code field is published; no district name field.",
+  "extent": [
+    -87.07980681597147,
+    33.378092160985716,
+    -86.95355776102812,
+    33.468874435395506
+  ],
+  "verification": {
+    "verified_at": 1792277509932,
+    "counties": [
+      "01073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-kenneth-city",
+  "publisher": "Pinellas County GIS (for the Town of Kenneth City)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_Kenneth_City_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONING"
+  },
+  "notes": "Town of Kenneth City zoning hosted by Pinellas County GIS; JURISDICTION names the town.",
+  "extent": [
+    -82.73067258887863,
+    27.808227536008587,
+    -82.70819284281875,
+    27.826363905034107
+  ],
+  "verification": {
+    "verified_at": 1792277841270,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

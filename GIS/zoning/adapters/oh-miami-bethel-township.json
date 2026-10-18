@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-miami-bethel-township",
+  "publisher": "Miami County / MVRPC (Bethel Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/3TIUdMHOqnLBrZEH/arcgis/rest/services/BethelTwp_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TWP",
+    "link": "WebLink",
+    "zone": "ZONECODE"
+  },
+  "notes": "Bethel Township, Miami County OH zoning boundaries (2017), published by MVRPC staff on the regional ArcGIS org. Parcel-level polygons with ZONECODE; TWP names the township.",
+  "extent": [
+    -84.16935196865691,
+    39.87826556362252,
+    -84.04076535831145,
+    39.975982990818274
+  ],
+  "verification": {
+    "verified_at": 1792275929606,
+    "counties": [
+      "39109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

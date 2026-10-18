@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "al-madison-city",
+  "publisher": "Madison County GIS (City of Madison zoning layer, county AL47 GAMA web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://web3.kcsgis.com/kcsgis/rest/services/Madison/AL47_GAMAWeb/MapServer/114",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01089"
+    ]
+  },
+  "fields": {
+    "zone": "Name",
+    "zone_name": "Name"
+  },
+  "notes": "City of Madison zoning districts as held in the Madison County GIS reference map service (layer Madison Zoning, 272 polygons). Zone code is in Name (e.g. M-2, B2, R-2); no separate description field. Use Use_Status Current if filtering needed.",
+  "extent": [
+    -86.85105510816976,
+    34.662534826673706,
+    -86.70603821593498,
+    34.7616224200201
+  ],
+  "verification": {
+    "verified_at": 1792277209718,
+    "counties": [
+      "01089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

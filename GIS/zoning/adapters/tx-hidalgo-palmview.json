@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-hidalgo-palmview",
+  "publisher": "City of Palmview GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/pp0wkqkFnyISMkfp/arcgis/rest/services/Palmview_Zoning_Map/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48215"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Code",
+    "zone_name": "Zone_Type"
+  },
+  "notes": "City of Palmview zoning (city limits), from Palmview Zoning Map layer linked in the city ArcGIS Online organization (Palmview.maps.arcgis.com). Single-city layer. zone_name is the Zone Type field.",
+  "extent": [
+    -98.41292246965584,
+    26.21027737906053,
+    -98.35407609555445,
+    26.25625357620976
+  ],
+  "verification": {
+    "verified_at": 1792280837690,
+    "counties": [
+      "48215"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

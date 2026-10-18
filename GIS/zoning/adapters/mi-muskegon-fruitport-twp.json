@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-muskegon-fruitport-twp",
+  "publisher": "Muskegon County GIS (Fruitport Charter Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.muskegoncountygis.com/arcgis/rest/services/Zoning_Viewer/Zoning_Viewer/MapServer/53",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "26121"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "County GIS Zoning_Viewer service; Fruitport Township base zoning districts (layer 53).",
+  "extent": [
+    -86.20604503635353,
+    43.11744438604665,
+    -86.06645522438457,
+    43.20524405459038
+  ],
+  "verification": {
+    "verified_at": 1792275314825,
+    "counties": [
+      "26121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-madeira-beach",
+  "publisher": "Pinellas County GIS (for the City of Madeira Beach)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_Madeira_Beach_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONING"
+  },
+  "notes": "City of Madeira Beach zoning hosted by Pinellas County GIS; JURISDICTION names the city.",
+  "extent": [
+    -82.80695045947336,
+    27.783148185484485,
+    -82.77944809134166,
+    27.81252980927717
+  ],
+  "verification": {
+    "verified_at": 1792277827999,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

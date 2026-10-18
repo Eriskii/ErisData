@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-king-algona",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), City of Algona",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '033' AND Jurisdiction = 'Algona'",
+  "notes": "State Zoning Atlas compilation of Algona zoning districts, Algona only (COUNTYFP 033).",
+  "extent": [
+    -122.2621204310669,
+    47.268238942470305,
+    -122.23676976488416,
+    47.29353856277979
+  ],
+  "verification": {
+    "verified_at": 1792282056166,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

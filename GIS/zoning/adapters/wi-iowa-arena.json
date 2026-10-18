@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-iowa-arena",
+  "publisher": "Village of Arena (SW Wisconsin Regional Planning Commission, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/OwVO8oKCUjTngz5f/arcgis/rest/services/Arena_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55049"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Districts"
+  },
+  "notes": "Village of Arena zoning, parcel-level polygons carrying each parcel zoning code in Zoning_Districts (a parcel layer; used because it is the village zoning layer published via SWWRPC). Found in the SWWRPC municipal zoning web map (item a4a45e0ff95d47ec87acbbe4c12a11e1). zone_name not populated in source.",
+  "extent": [
+    -89.93045769730854,
+    43.156407007357856,
+    -89.89263948968348,
+    43.17167984362776
+  ],
+  "verification": {
+    "verified_at": 1792281340958,
+    "counties": [
+      "55049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nj-burlington-willingboro",
+  "publisher": "Willingboro Township (township-published zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/nf1Q285fk1PQuFqo/arcgis/rest/services/Zoning_Willingboro/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34005"
+    ]
+  },
+  "fields": {
+    "zone": "Layer",
+    "zone_name": "Entity"
+  },
+  "notes": "Willingboro Township zoning, converted from a township shapefile (CAD-style fields); 33 features. Zone code may be in Layer or Entity; check the report.",
+  "extent": [
+    -74.9320514728412,
+    39.99750758916101,
+    -74.85157960243707,
+    40.05781742570262
+  ],
+  "verification": {
+    "verified_at": 1792279607606,
+    "counties": [
+      "34005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

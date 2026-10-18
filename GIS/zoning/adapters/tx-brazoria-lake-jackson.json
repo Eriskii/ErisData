@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-brazoria-lake-jackson",
+  "publisher": "City of Lake Jackson (engineering GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/6L90KvW0ESJ4M9QG/arcgis/rest/services/Zoning_-_Public/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48039"
+    ]
+  },
+  "fields": {
+    "zone": "REZONE_TO"
+  },
+  "notes": "City of Lake Jackson current zoning, public layer by city engineering consultant. Lot-level polygons (from lot shapefile); zone code in REZONE_TO, no jurisdiction field: all features are Lake Jackson.",
+  "extent": [
+    -95.51546594007144,
+    29.004650181328937,
+    -95.38798125392928,
+    29.123337480681347
+  ],
+  "verification": {
+    "verified_at": 1792280542143,
+    "counties": [
+      "48039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-cache-logan",
+  "publisher": "Cache County GIS (Logan City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/City_Zoning/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city_name",
+    "zone": "zone_code",
+    "zone_name": "zone_type"
+  },
+  "filter": "city_name = 'LOGAN'",
+  "notes": "Logan city zoning from Cache County City_Zoning service. The service holds all 19 Cache County cities in one table, so the filter selects Logan. density field also present.",
+  "extent": [
+    -111.90225194763389,
+    41.67533379764119,
+    -111.77990817153312,
+    41.79753520338561
+  ],
+  "verification": {
+    "verified_at": 1792280790321,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-montrose-naturita",
+  "publisher": "Town of Naturita (hosted on Montrose County GIS MapServer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mcmap.montrosecounty.net/server/rest/services/MontroseCounty/MapServer/64",
+    "page_size": 100,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08085"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Name"
+  },
+  "notes": "Town of Naturita zoning districts, layer 64 of the Montrose County MapServer. Single-jurisdiction layer; no link field.",
+  "extent": [
+    -108.58522770776445,
+    38.21450997361526,
+    -108.55072279516894,
+    38.22188176090269
+  ],
+  "verification": {
+    "verified_at": 1792277472974,
+    "counties": [
+      "08085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

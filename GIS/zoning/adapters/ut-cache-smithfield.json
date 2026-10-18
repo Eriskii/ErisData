@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-cache-smithfield",
+  "publisher": "Cache County GIS (Smithfield City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/City_Zoning/MapServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city_name",
+    "zone": "zone_code",
+    "zone_name": "zone_type"
+  },
+  "filter": "city_name = 'SMITHFIELD'",
+  "notes": "Smithfield city zoning from Cache County City_Zoning service, which holds all 19 Cache County cities in one table; the filter selects Smithfield. density field also present.",
+  "extent": [
+    -111.85892695729768,
+    41.81226744391291,
+    -111.79561971108409,
+    41.85350225006674
+  ],
+  "verification": {
+    "verified_at": 1792280797456,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-henderson-logcabin",
+  "publisher": "City of Log Cabin, TX (ETCOG-hosted GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.etcog.org/arcgis/rest/services/LOGCABIN/LOGCABIN_ZONING/FeatureServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48213"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Log Cabin zoning districts layer (Zoning Districts, layer 13 of LOGCABIN_ZONING), hosted by ETCOG GIS. Single-jurisdiction layer.",
+  "extent": [
+    -96.03413383513218,
+    32.21516931636342,
+    -96.01264733368528,
+    32.23187246597346
+  ],
+  "verification": {
+    "verified_at": 1792280627647,
+    "counties": [
+      "48213"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

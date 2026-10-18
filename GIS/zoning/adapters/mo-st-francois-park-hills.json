@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mo-st-francois-park-hills",
+  "publisher": "City of Park Hills / SEMO RPC (hosted by SEMO GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.semogis.com/server/rest/services/ParkHills_CTY/ParkHills_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29187"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Park Hills zoning districts (795 polygons), hosted by SEMO GIS; single-jurisdiction layer, no zone_name field",
+  "extent": [
+    -90.5512404828562,
+    37.762442251854154,
+    -90.45233224815773,
+    37.87751345654558
+  ],
+  "verification": {
+    "verified_at": 1792279387248,
+    "counties": [
+      "29187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

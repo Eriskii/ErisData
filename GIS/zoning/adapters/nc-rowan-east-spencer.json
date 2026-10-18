@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-rowan-east-spencer",
+  "publisher": "Rowan County GIS (Town of East Spencer zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rowancountync.gov/arcgis/rest/services/Public/Alll_Zoning/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37159"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClas"
+  },
+  "notes": "Town of East Spencer zoning hosted on Rowan County GIS; overlay in Overlay field",
+  "extent": [
+    -80.4491522015562,
+    35.655709760989936,
+    -80.3954192333374,
+    35.69844207437857
+  ],
+  "verification": {
+    "verified_at": 1792279898295,
+    "counties": [
+      "37159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

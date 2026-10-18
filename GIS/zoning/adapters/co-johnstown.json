@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-johnstown",
+  "publisher": "Town of Johnstown GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.johnstownco.gov/server/rest/services/Basedata/Land_Use_and_Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08123"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "JTZone",
+    "zone_name": "DISTRICT_NAME"
+  },
+  "notes": "Town of Johnstown zoning districts; Town limits only (Johnstown partly in Larimer County too; this layer covers Town zoning).",
+  "extent": [
+    -105.00327105711456,
+    40.278392373188474,
+    -104.87638459301152,
+    40.42189883157836
+  ],
+  "verification": {
+    "verified_at": 1792277611332,
+    "counties": [
+      "08123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

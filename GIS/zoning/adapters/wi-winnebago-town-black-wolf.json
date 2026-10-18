@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wi-winnebago-town-black-wolf",
+  "publisher": "Winnebago County GIS (Town of Black Wolf zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://wcgis3.co.winnebago.wi.us/wings/rest/services/LandUsePlanning/TownZoningForSearchAndQuery/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNINAME",
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "MUNINAME = 'Town of Black Wolf'",
+  "notes": "Town of Black Wolf zoning districts from the county-hosted town zoning layer (shared by 10 towns; filtered on MUNINAME). Official county GIS. No district ordinance links published.",
+  "extent": [
+    -88.54402325833262,
+    43.89345990337347,
+    -88.44941389579837,
+    43.981161394147875
+  ],
+  "verification": {
+    "verified_at": 1792281450836,
+    "counties": [
+      "55139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

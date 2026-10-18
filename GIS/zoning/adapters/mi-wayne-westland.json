@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "mi-wayne-westland",
+  "publisher": "City of Westland, Michigan",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/y7VShPA3gGO9NJCc/arcgis/rest/services/Zoning_App_dataColor/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26163"
+    ]
+  },
+  "fields": {
+    "link": "MoreInfo",
+    "zone": "NewZoning",
+    "zone_name": "MapLabel"
+  },
+  "notes": "City of Westland zoning districts (Zoning_App_dataColor layer from the city GIS account). Westland is wholly within Wayne County.",
+  "extent": [
+    -83.43111627613301,
+    42.26729320734891,
+    -83.30775247101484,
+    42.35605169217472
+  ],
+  "verification": {
+    "verified_at": 1792273970290,
+    "counties": [
+      "26163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

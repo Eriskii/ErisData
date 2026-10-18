@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-shelby-bartlett",
+  "publisher": "City of Bartlett GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/KPTY2xv3Emy6Fy85/arcgis/rest/services/BARTLETT_STATION___ZONING_MAP_WFL1/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47157"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_ID_"
+  },
+  "notes": "City of Bartlett zoning_current layer (layer 6 of the Bartlett Station zoning map service); citywide Bartlett district polygons, 235 features. zone_name not populated in source (zoning_1 is blank).",
+  "extent": [
+    -89.88912360926966,
+    35.187783289977034,
+    -89.74282755263192,
+    35.28007133522088
+  ],
+  "verification": {
+    "verified_at": 1792280523634,
+    "counties": [
+      "47157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

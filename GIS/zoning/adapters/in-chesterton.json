@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "in-chesterton",
+  "publisher": "Town of Chesterton, Indiana",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/hWD7wpkvPnl9EogF/arcgis/rest/services/Zoning_2020/FeatureServer/0",
+    "page_size": 16,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18127"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Chesterton zoning districts, from the Town's interactive zoning map (ArcGIS web map by Town). City limits only. Zone codes only; no description field published.",
+  "extent": [
+    -87.12469549280678,
+    41.565105940383134,
+    -87.00938395292837,
+    41.645601731999626
+  ],
+  "verification": {
+    "verified_at": 1792278491700,
+    "counties": [
+      "18127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

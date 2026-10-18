@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-mission-viejo",
+  "publisher": "City of Mission Viejo (hosted by Nobel Systems for the city viewer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Va9fGkj5u0OKlcjp/arcgis/rest/services/MissionViejo_ArcGISOnline/FeatureServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TXT1",
+    "zone_name": "ZONE_TXT2"
+  },
+  "notes": "Mission Viejo zoning layer in the city Energov/ArcGIS Online service (Nobel Systems, vendor of the city zoning viewer). Confirm zone text fields.",
+  "extent": [
+    -117.69550267554467,
+    33.533828486526694,
+    -117.61961108872732,
+    33.672792717171845
+  ],
+  "verification": {
+    "verified_at": 1792277526546,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "oh-licking-liberty-township",
+  "publisher": "Licking County Planning Commission (for Liberty Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lickingcounty.gov/server/rest/services/Planning/Zoning/MapServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39089"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Township",
+    "link": "URL",
+    "zone": "ZoningClass",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Liberty Township unincorporated zoning, published by Licking County Planning Commission with permission from the township. Layer 13 of Planning/Zoning MapServer.",
+  "extent": [
+    -82.66357231480502,
+    40.11685836975691,
+    -82.56168478058346,
+    40.196107254686304
+  ],
+  "verification": {
+    "verified_at": 1792276520399,
+    "counties": [
+      "39089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

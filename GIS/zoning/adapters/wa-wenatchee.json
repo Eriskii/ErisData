@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-wenatchee",
+  "publisher": "City of Wenatchee",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.wenatcheewa.gov/server/rest/services/Zoning_2020/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53007"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "District",
+    "zone_name": "CLASS"
+  },
+  "notes": "City of Wenatchee zoning districts effective January 12, 2020 (Ordinance 2019-49), Title 10 WCC. The saved Commerce atlas holds only 14 Wenatchee zones for this county, so this official layer is added for fuller coverage.",
+  "extent": [
+    -120.37357664037958,
+    47.38447348022298,
+    -120.28155942861328,
+    47.50854111081742
+  ],
+  "verification": {
+    "verified_at": 1792281023898,
+    "counties": [
+      "53007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

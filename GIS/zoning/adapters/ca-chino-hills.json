@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-chino-hills",
+  "publisher": "City of Chino Hills (zoning carried in the County Combined Zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services/Combined_Zoning_Extra_Data/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION_NAME",
+    "zone": "ZONING_CODE"
+  },
+  "filter": "JURISDICTION_NAME = 'CITY OF CHINO HILLS'",
+  "notes": "County-hosted combined incorporated and unincorporated zoning layer (county org), filtered to the City of Chino Hills. Zone names not populated in source.",
+  "extent": [
+    -117.80279926434989,
+    33.87084393618042,
+    -117.65373362656892,
+    34.02335445095276
+  ],
+  "verification": {
+    "verified_at": 1792277575165,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

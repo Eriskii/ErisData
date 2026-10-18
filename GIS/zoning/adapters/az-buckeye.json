@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "az-buckeye",
+  "publisher": "City of Buckeye GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/sixrqw8b8BHDvWq2/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04013"
+    ]
+  },
+  "fields": {
+    "link": "OrdinanceNumber",
+    "zone": "ZoningDistrictCode",
+    "zone_name": "ZoningDistrict"
+  },
+  "notes": "City of Buckeye zoning districts (city limits), City of Buckeye open data. ZoningDistrictCode is the district code; OrdinanceNumber carries the ordinance reference where filled.",
+  "extent": [
+    -112.86104262996116,
+    33.12878389480803,
+    -112.45689267992324,
+    33.81232127031384
+  ],
+  "verification": {
+    "verified_at": 1792277406034,
+    "counties": [
+      "04013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

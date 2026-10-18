@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-jefferson-philadelphia",
+  "publisher": "Town of Philadelphia (via DANC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/44",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36045"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Town of Philadelphia zoning districts from the DANC GIS host. Single-jurisdiction layer; PDF_Link not mapped.",
+  "extent": [
+    -75.79451366445086,
+    44.086590531247715,
+    -75.61505877604866,
+    44.20665668009644
+  ],
+  "verification": {
+    "verified_at": 1792279751859,
+    "counties": [
+      "36045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

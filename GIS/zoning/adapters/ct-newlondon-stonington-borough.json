@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-newlondon-stonington-borough",
+  "publisher": "Borough of Stonington GIS (Town of Stonington StoningtonOpenGov service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stonington-ct.gov/arcgis/rest/services/StoningtonOpenGov/MapServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09180"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Borough of Stonington zoning (dated 2 March 2020), sublayer 26 of the Town of Stonington GIS service. Only zone codes are published; no descriptions or ordinance links.",
+  "extent": [
+    -71.91141608585365,
+    41.32723024358027,
+    -71.89174721556644,
+    41.3396687025357
+  ],
+  "verification": {
+    "verified_at": 1792277602819,
+    "counties": [
+      "09180"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

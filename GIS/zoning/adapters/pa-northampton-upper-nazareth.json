@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "pa-northampton-upper-nazareth",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Upper Nazareth Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "link": "Municipal_Website",
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND MUNICODE = 52",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Northampton municipality code 52 = Upper Nazareth Township. Zone codes carry a municipal prefix. Link field is the municipal website, not the ordinance text.",
+  "extent": [
+    -75.38338157938996,
+    40.71354233844524,
+    -75.27357461723527,
+    40.758392818611405
+  ],
+  "verification": {
+    "verified_at": 1792280249484,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

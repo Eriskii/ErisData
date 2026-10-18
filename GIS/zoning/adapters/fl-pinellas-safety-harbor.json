@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-safety-harbor",
+  "publisher": "City of Safety Harbor (Safety Harbor ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/mmHgYti6dbsFdG2U/arcgis/rest/services/SafetyHarborZoning_11272023/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDesc"
+  },
+  "filter": "ZoningCode <> 'Unincorporated'",
+  "notes": "City of Safety Harbor zoning districts (dated 27 Nov 2023), served from the city organization behind its Land Use Information Lookup viewer. Single-city layer; Unincorporated placeholder polygons excluded.",
+  "extent": [
+    -82.71207594919831,
+    27.97885765327607,
+    -82.67526406837149,
+    28.04876982928428
+  ],
+  "verification": {
+    "verified_at": 1792278255853,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

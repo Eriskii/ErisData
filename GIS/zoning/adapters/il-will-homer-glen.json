@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-will-homer-glen",
+  "publisher": "Village of Homer Glen GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/WrTK54mr4rGfT3zx/arcgis/rest/services/Zoning_Districts_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17197"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Village of Homer Glen Zoning Districts View layer (ArcGIS Online, owner mdahm_homerglen, updated Jan 2026). zone = ZONING code; no zone name or link field published.",
+  "extent": [
+    -88.00895681837626,
+    41.54882645574909,
+    -87.90881254945806,
+    41.644261293358525
+  ],
+  "verification": {
+    "verified_at": 1792278460454,
+    "counties": [
+      "17197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

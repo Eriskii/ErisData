@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-fortbend-sugar-land",
+  "publisher": "City of Sugar Land GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://interactivemaps.sugarlandtx.gov/512/rest/services/Planning/HomeBase/MapServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48157"
+    ]
+  },
+  "fields": {
+    "link": "PDF_Link",
+    "zone": "ZONE__",
+    "zone_name": "ZONE_DEF"
+  },
+  "notes": "City of Sugar Land zoning districts; from the city HomeBase planning MapServer. Source CRS is state plane feet (wkid 102740), service handles reprojection.",
+  "extent": [
+    -95.70065686245503,
+    29.511784955400778,
+    -95.57795850840614,
+    29.663787090857987
+  ],
+  "verification": {
+    "verified_at": 1792280552299,
+    "counties": [
+      "48157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

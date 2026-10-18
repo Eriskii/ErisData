@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "ut-emery-orangeville",
+  "publisher": "Utah AGRC (state generalized municipal zoning), Orangeville City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county LIKE '%Emery%' AND city = 'Orangeville'",
+  "notes": "Utah AGRC statewide generalized zoning layer (state-published compilation of city zoning); filtered to Orangeville city. Generalized category in gen_zone.",
+  "extent": [
+    -111.07675792879412,
+    39.21315182792885,
+    -111.04318224962452,
+    39.24574934944718
+  ],
+  "verification": {
+    "verified_at": 1792280861093,
+    "counties": [
+      "49015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

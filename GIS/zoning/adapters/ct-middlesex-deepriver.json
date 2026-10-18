@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-middlesex-deepriver",
+  "publisher": "RiverCOG (Lower Connecticut River Valley Council of Governments)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uH7GnAlGDzMooG4B/arcgis/rest/services/RiverCOG_Regional_Zoning/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09130"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Town of Deep River zoning from RiverCOG regional zoning service; no description field",
+  "extent": [
+    -72.52393270664989,
+    41.333950928997794,
+    -72.38271289442109,
+    41.40207563835697
+  ],
+  "verification": {
+    "verified_at": 1792277588018,
+    "counties": [
+      "09130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-hays-wimberley",
+  "publisher": "City of Wimberley (copy hosted by nglaiser on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/gvKKPGIdO9ZNOCHV/arcgis/rest/services/City_Web_Map/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48209"
+    ]
+  },
+  "fields": {
+    "zone": "Dist"
+  },
+  "notes": "Unofficial copy: ArcGIS Online item City of Wimberley Web Map 1 by user nglaiser, titled Zoning base map; the city site planning page returned 404 so no official queryable layer was found. Zone field Dist holds district codes (R1, C1, PF, etc.). Covers Wimberley city limits; 2327 features; no zone name field.",
+  "extent": [
+    -98.13246113205533,
+    29.938896485007024,
+    -98.04326078451582,
+    30.016755391449077
+  ],
+  "verification": {
+    "verified_at": 1792280728946,
+    "counties": [
+      "48209"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

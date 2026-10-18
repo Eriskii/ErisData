@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-marin-tiburon",
+  "publisher": "Town of Tiburon (via Marin County open data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/T8eS7sop5hLmgRRH/arcgis/rest/services/Zoning_of_Tiburon/FeatureServer/124",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06041"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Tiburon town zoning districts published by Marin County open data (services6 host), last updated March 2023.",
+  "extent": [
+    -122.5083152976821,
+    37.840746753199475,
+    -122.41845803421197,
+    37.930675972059035
+  ],
+  "verification": {
+    "verified_at": 1792277377867,
+    "counties": [
+      "06041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

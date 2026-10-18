@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "md-hyattsville",
+  "publisher": "City of Hyattsville GIS (cohgis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/C8MAhNIV9pLl1tVX/arcgis/rest/services/Zoning_Hyattsville/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24033"
+    ]
+  },
+  "fields": {
+    "link": "Zoning_URL",
+    "zone": "CLASS",
+    "zone_name": "CLASS_DESC"
+  },
+  "notes": "City of Hyattsville zoning districts, single jurisdiction (all features are Hyattsville). ZONE_TYPE is a numeric type code; CLASS is the district code.",
+  "extent": [
+    -76.97468061368606,
+    38.94385043864808,
+    -76.93730697733642,
+    38.98500055489686
+  ],
+  "verification": {
+    "verified_at": 1792279172426,
+    "counties": [
+      "24033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-solano-rio-vista",
+  "publisher": "City of Rio Vista (hosted by Solano County GIS / KCI)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/SCn6czzcqKAFwdGU/arcgis/rest/services/City_of_Rio_Vista_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06095"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "zonedesc"
+  },
+  "notes": "City of Rio Vista zoning districts. Covers only the City of Rio Vista.",
+  "extent": [
+    -121.73265441865168,
+    38.14241163233607,
+    -121.6677078980469,
+    38.20508079432664
+  ],
+  "verification": {
+    "verified_at": 1792277532151,
+    "counties": [
+      "06095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

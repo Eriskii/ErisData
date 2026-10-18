@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-escondido",
+  "publisher": "City of Escondido",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/eJcVbjTyyZIzZ5Ye/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06073"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Escondido parcel-based zoning data (parcel layer carrying each parcel zoning; last resort since no district layer found). Zone name not provided.",
+  "extent": [
+    -117.14662932313009,
+    33.05684403212224,
+    -116.95718837896824,
+    33.22521274821773
+  ],
+  "verification": {
+    "verified_at": 1792277413151,
+    "counties": [
+      "06073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

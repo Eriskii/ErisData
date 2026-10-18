@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-fountain-valley",
+  "publisher": "California Governor's Office of Planning and Research (statewide zoning, South)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_South/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'ORA' AND Jurisdiction = 'Fountain Valley'",
+  "notes": "State OPR California Statewide Zoning (South), compiled from 535 of 539 jurisdictions, 2024 snapshot. Filtered to Fountain Valley within County ORA. City zoning page links only a PDF map and a public portal with no zoning layer.",
+  "extent": [
+    -117.98042216335388,
+    33.686876454025935,
+    -117.91524093634418,
+    33.73351591261003
+  ],
+  "verification": {
+    "verified_at": 1792277823625,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

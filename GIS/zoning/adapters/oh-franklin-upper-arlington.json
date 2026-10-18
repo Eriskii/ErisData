@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-franklin-upper-arlington",
+  "publisher": "City of Upper Arlington GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/ImL8oyfZuCxsvjaT/arcgis/rest/services/Zoning_2023b/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39049"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Upper Arlington zoning, 2023 version. Parcel-based layer (about 14,000 polygons, PID per parcel) carrying each parcel zoning code; no zone name field. Last resort for a district layer; the city zoning-map viewer was not found as a separate district layer.",
+  "extent": [
+    -83.10438038527259,
+    39.9891447346606,
+    -83.04292218174523,
+    40.06568695310609
+  ],
+  "verification": {
+    "verified_at": 1792275864374,
+    "counties": [
+      "39049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

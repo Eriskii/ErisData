@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-hubley",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Hubley Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/20_zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "munis",
+    "zone": "zone",
+    "zone_name": "descrpt"
+  },
+  "notes": "Municipal zoning for Hubley Township (MUNIS 20), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.25671167941576,
+    40.6689833215991,
+    -76.18233977536451,
+    40.71419774950965
+  ],
+  "verification": {
+    "verified_at": 1792280314466,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

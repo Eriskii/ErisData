@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-springville",
+  "publisher": "Springville City (via Utah County GIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/61",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_SP_LABEL",
+    "zone_name": "ZONE_SP_DESC"
+  },
+  "notes": "Springville City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 61).",
+  "extent": [
+    -111.67430629909344,
+    40.129958976644325,
+    -111.54574616253542,
+    40.19422850766334
+  ],
+  "verification": {
+    "verified_at": 1792280851837,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

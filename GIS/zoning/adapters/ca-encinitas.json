@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-encinitas",
+  "publisher": "City of Encinitas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://coemapservices.encinitasca.gov/hypegis/rest/services/PublicServices/Encinitas_Base_Zoning/FeatureServer/0",
+    "page_size": 290,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06073"
+    ]
+  },
+  "fields": {
+    "zone": "DesignationSymbol",
+    "zone_name": "ZoneDesignation"
+  },
+  "notes": "City of Encinitas base zoning, official city ArcGIS service (hypegis). Specific plan areas carry SpecificPlanCode and PlanName.",
+  "extent": [
+    -117.31194766664996,
+    32.99909629498445,
+    -117.18722996391678,
+    33.088715032161474
+  ],
+  "verification": {
+    "verified_at": 1792277486479,
+    "counties": [
+      "06073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

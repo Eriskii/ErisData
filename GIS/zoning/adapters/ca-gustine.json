@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-gustine",
+  "publisher": "City of Gustine (zoning layer hosted by MCAG, Merced County Association of Governments)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/jUftDOfQo1g8oFan/arcgis/rest/services/Gustine_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "City of Gustine zoning layer, 2018 (single jurisdiction, 55 features). Zoning field is also present as Zoning.",
+  "extent": [
+    -121.020907820507,
+    37.23827477613301,
+    -120.95979639783532,
+    37.2666756863657
+  ],
+  "verification": {
+    "verified_at": 1792277330187,
+    "counties": [
+      "06047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

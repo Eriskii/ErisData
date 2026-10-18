@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-pomona",
+  "publisher": "City of Pomona Planning (CommunityDevelopment GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismaps.ci.pomona.ca.us/arcgis/rest/services/CommunityDevelopment/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "Label",
+    "zone_name": "Zone_Defin"
+  },
+  "notes": "City of Pomona zoning districts (CommunityDevelopment GIS MapServer). zone_name holds code plus description.",
+  "extent": [
+    -117.82876751016848,
+    34.01850436704717,
+    -117.71112146723532,
+    34.112742343272565
+  ],
+  "verification": {
+    "verified_at": 1792277440923,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

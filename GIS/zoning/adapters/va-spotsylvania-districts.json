@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "va-spotsylvania-districts",
+  "publisher": "Spotsylvania County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.spotsylvania.va.us/arcgis/rest/services/WebLogistics/Public_LGIM/MapServer/28",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51177"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "County zoning district polygon layer for unincorporated Spotsylvania (county has no incorporated towns). ZONEDESC is mostly empty, so only the zone code is mapped. Alternative to the parcel-based va-spotsylvania layer.",
+  "extent": [
+    -77.94755543948483,
+    37.98936826160252,
+    -77.36619061663133,
+    38.38003510329361
+  ],
+  "verification": {
+    "verified_at": 1792281092610,
+    "counties": [
+      "51177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

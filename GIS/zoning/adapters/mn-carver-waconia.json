@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-carver-waconia",
+  "publisher": "City of Waconia (Carver County GIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.carver.mn.us/arcgis_ca/rest/services/Waconia/Waconia_Planning_Zoning/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Waconia zoning districts only; city limits, not unincorporated county land.",
+  "extent": [
+    -93.82925088660764,
+    44.81850072532443,
+    -93.75005326296034,
+    44.86235102014432
+  ],
+  "verification": {
+    "verified_at": 1792278917821,
+    "counties": [
+      "27019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

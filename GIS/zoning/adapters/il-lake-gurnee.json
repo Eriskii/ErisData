@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "il-lake-gurnee",
+  "publisher": "Village of Gurnee (webmaps.gurnee.il.us)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://webmaps.gurnee.il.us/arcgis/rest/services/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17097"
+    ]
+  },
+  "fields": {
+    "link": "AGREEMENT_URL",
+    "zone": "ZONE_CLASS",
+    "zone_name": "ZONE_LBL"
+  },
+  "notes": "Village of Gurnee zoning classes (MapServer layer Zoning Class). Covers Gurnee only.",
+  "extent": [
+    -88.0033512506467,
+    42.32734027571262,
+    -87.88367856640221,
+    42.40404839477882
+  ],
+  "verification": {
+    "verified_at": 1792278193589,
+    "counties": [
+      "17097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

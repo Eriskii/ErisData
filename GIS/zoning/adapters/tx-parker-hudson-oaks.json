@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-parker-hudson-oaks",
+  "publisher": "City of Hudson Oaks GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/qbgLzNkDjS8hfNXf/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48367"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CLASS"
+  },
+  "notes": "City of Hudson Oaks zoning districts, from the city official public map (hudsonoaks.maps.arcgis.com). Layer has 16 features. Zone field is ZONE_CLASS; no name field.",
+  "extent": [
+    -97.72474379060057,
+    32.73011475165552,
+    -97.67388807404504,
+    32.772658767350464
+  ],
+  "verification": {
+    "verified_at": 1792280700854,
+    "counties": [
+      "48367"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

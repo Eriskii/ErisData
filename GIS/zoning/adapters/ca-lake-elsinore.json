@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-lake-elsinore",
+  "publisher": "City of Lake Elsinore (EnerGov GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://chaney.lake-elsinore.org/arcgisserver/rest/services/EnerGov/EnerGovMainMapV5PF/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "Descrip"
+  },
+  "notes": "City of Lake Elsinore base zoning (Zoning_1 layer, EnerGov map service).",
+  "extent": [
+    -117.42007207049484,
+    33.61862628884846,
+    -117.21681397354943,
+    33.75682737738823
+  ],
+  "verification": {
+    "verified_at": 1792277464152,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

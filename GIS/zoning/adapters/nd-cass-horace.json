@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nd-cass-horace",
+  "publisher": "City of Horace (hosted on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/JpnHr2JAtFjZLZeP/arcgis/rest/services/Horace_Zoning_Map_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "38017"
+    ]
+  },
+  "fields": {
+    "zone": "LAYER",
+    "zone_name": "Full_Name"
+  },
+  "filter": "LAYER <> '' AND Full_Name IS NOT NULL",
+  "notes": "City of Horace official zoning map service. Zoning_Districts layer; zone code in LAYER (e.g. Z SR), name in Full_Name. Features are parcel-level polygons carrying zoning; parcels without a zone code are excluded by the filter. Owner names in Name. Extra-territorial boundaries are a separate layer (FeatureServer/1), not included.",
+  "extent": [
+    -96.96863193800628,
+    46.687712092614525,
+    -96.87232614085124,
+    46.80396593108931
+  ],
+  "verification": {
+    "verified_at": 1792279930422,
+    "counties": [
+      "38017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

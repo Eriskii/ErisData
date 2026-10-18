@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-berks-reading",
+  "publisher": "City of Reading (copy on ArcGIS Online by gcoutu)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/xnOV358bj0tLwxji/arcgis/rest/services/Reading_Zoning_WFL1/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42011"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT",
+    "zone_name": "Name"
+  },
+  "notes": "Personal ArcGIS Online copy (owner gcoutu) of City of Reading zoning districts, 13 polygons; no official queryable city layer found (city publishes zoning map as PDF only). Covers City of Reading only.",
+  "extent": [
+    -75.960043967529,
+    40.29640864926975,
+    -75.8902661393639,
+    40.37124732816034
+  ],
+  "verification": {
+    "verified_at": 1792280185790,
+    "counties": [
+      "42011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

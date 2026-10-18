@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-capitol-glastonbury",
+  "publisher": "Town of Glastonbury GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisarc2022.glastonbury-ct.gov/server/rest/services/GlastonburyPublic/LandUseExB/MapServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09110"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE",
+    "zone_name": "LABEL"
+  },
+  "notes": "Town of Glastonbury Building Zones layer (base zoning districts such as RESIDENCE AA, TOWN CENTER, PLANNED AREA DEVELOPMENT). zone = TYPE code, zone_name = LABEL. Some polygons are right-of-way or flood zone overlays with null ZoneName; overlay rows are not separated.",
+  "extent": [
+    -72.64887903071852,
+    41.63273169593692,
+    -72.45183345334866,
+    41.74579440592965
+  ],
+  "verification": {
+    "verified_at": 1792277598956,
+    "counties": [
+      "09110"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

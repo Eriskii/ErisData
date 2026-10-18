@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "de-kent-county",
+  "publisher": "Kent County GIS (Delaware)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.kentcountyde.gov/server/rest/services/LandUse/PlanningData/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "10001"
+    ]
+  },
+  "fields": {
+    "link": "ZoningCodeSection",
+    "zone": "ZONEUSE"
+  },
+  "notes": "Kent County unincorporated zoning districts; ZONEUSE holds the district code",
+  "extent": [
+    -75.75997965936409,
+    38.83000490597777,
+    -75.31191376906591,
+    39.36606636141967
+  ],
+  "verification": {
+    "verified_at": 1792277667610,
+    "counties": [
+      "10001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

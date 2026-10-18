@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-outagamie-greenville",
+  "publisher": "Village of Greenville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.greenvillewi.gov/server/rest/services/CommunityDevelopment/Community_Development/MapServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55087"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneAbr",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Village of Greenville zoning layer from the village GIS Community_Development MapServer (Zoning, layer 12; parcel-keyed PIN attribute, one feature per parcel-zone). Dissolve by zone if needed. Village zoning jurisdiction.",
+  "extent": [
+    -88.6187338067891,
+    44.243697996847715,
+    -88.49622220822965,
+    44.330886781365365
+  ],
+  "verification": {
+    "verified_at": 1792281516401,
+    "counties": [
+      "55087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

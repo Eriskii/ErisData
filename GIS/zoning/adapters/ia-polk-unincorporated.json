@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ia-polk-unincorporated",
+  "publisher": "Polk County GIS (Public Works)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis5.polkcountyiowa.gov/server/rest/services/PublicWorks/Zoning_LandUse/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19153"
+    ]
+  },
+  "fields": {
+    "zone": "zdistrict",
+    "zone_name": "Zoning_District_Classification"
+  },
+  "notes": "Polk County unincorporated-area zoning districts (county land outside city limits only). zdistrict holds the district code; Zoning_District_Classification the description. Served from the county PublicWorks Zoning_LandUse MapServer.",
+  "extent": [
+    -93.81573698616546,
+    41.481454051664215,
+    -93.32750125593707,
+    41.863868336735315
+  ],
+  "verification": {
+    "verified_at": 1792278725144,
+    "counties": [
+      "19153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

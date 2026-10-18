@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-montgomery-trotwood",
+  "publisher": "City of Trotwood, Ohio (MVRPC staff, hosted on MVRPC ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/3TIUdMHOqnLBrZEH/arcgis/rest/services/TrotwoodZoning_jan20/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39113"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Trotwood zoning districts, polygon layer (29 features) served by MVRPC staff. Zoning holds the district code.",
+  "extent": [
+    -84.36875498640879,
+    39.74527426602969,
+    -84.25213999150375,
+    39.83373296301471
+  ],
+  "verification": {
+    "verified_at": 1792276204451,
+    "counties": [
+      "39113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

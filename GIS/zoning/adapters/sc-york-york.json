@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sc-york-york",
+  "publisher": "City of York (zoning layer hosted by Catawba Regional COG)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/h9JHFVWvWofKfQhH/arcgis/rest/services/CityofYorkSC_Zoning/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45091"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of York base zoning districts (layer Zoning, FeatureServer/5); overlay and corridor layers excluded. Zone code only; no name or ordinance link published. Hosted by Catawba COG for the City.",
+  "extent": [
+    -81.27071455217636,
+    34.96082269765678,
+    -81.18580840428281,
+    35.03099871449672
+  ],
+  "verification": {
+    "verified_at": 1792280353000,
+    "counties": [
+      "45091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

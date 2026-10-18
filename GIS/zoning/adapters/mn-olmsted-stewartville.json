@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-olmsted-stewartville",
+  "publisher": "City of Stewartville / Olmsted County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gweb01.co.olmsted.mn.us/arcgis/rest/services/Zoning_and_Future_Land_Use/MapServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27109"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "ZONE_DESCR"
+  },
+  "notes": "City of Stewartville zoning districts, from the Olmsted County zoning MapServer (layer titled City of Stewarville).",
+  "extent": [
+    -92.52259829581735,
+    43.83676554070568,
+    -92.46844854707538,
+    43.883520242047325
+  ],
+  "verification": {
+    "verified_at": 1792279027555,
+    "counties": [
+      "27109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

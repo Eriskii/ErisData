@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ia-crescent",
+  "publisher": "MAPA compiled copy (admin_mapa, ArcGIS Online), Crescent rows",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/CHjpJeHqytL8t8op/arcgis/rest/services/Municipal_TMA_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19155"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Zoning_Abb",
+    "zone_name": "Zoning_Code"
+  },
+  "filter": "Jurisdiction = 'Crescent' AND County = 'Pottawattamie'",
+  "notes": "Not the city of Crescent own layer: a copy in the MAPA Municipal TMA Zoning layer (admin_mapa, ArcGIS Online); Crescent rows only. Crescent publishes its zoning map only as a PDF. Map dated per Date_of_Map field (about 2013).",
+  "extent": [
+    -95.8772221166584,
+    41.352860563993616,
+    -95.85056893149867,
+    41.37642481125286
+  ],
+  "verification": {
+    "verified_at": 1792278544752,
+    "counties": [
+      "19155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

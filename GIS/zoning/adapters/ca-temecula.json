@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-temecula",
+  "publisher": "City of Temecula GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.temeculaca.gov/arcgis/rest/services/Zoning_map_service/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Temecula base zoning districts; 249 features. Layer is within city limits.",
+  "extent": [
+    -117.2065121867721,
+    33.4321603138942,
+    -117.05473688320392,
+    33.55440305658056
+  ],
+  "verification": {
+    "verified_at": 1792277356120,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

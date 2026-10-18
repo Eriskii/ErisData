@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-edgecombe-macclesfield",
+  "publisher": "Town of Macclesfield (via Edgecombe County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.edgecombecountync.gov/arcgis/rest/services/webmap/MapServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37065"
+    ]
+  },
+  "fields": {
+    "zone": "ALPHA"
+  },
+  "notes": "Town of Macclesfield zoning layer from the Edgecombe County webmap MapServer, layer 19. Single-jurisdiction layer; zone code in ALPHA, no district name field.",
+  "extent": [
+    -77.68599937820565,
+    35.74025140980872,
+    -77.65466167121794,
+    35.764220927911026
+  ],
+  "verification": {
+    "verified_at": 1792279799302,
+    "counties": [
+      "37065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

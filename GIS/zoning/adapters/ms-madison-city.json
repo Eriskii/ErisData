@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ms-madison-city",
+  "publisher": "City of Madison, MS (hosted by Central Mississippi Planning & Development District)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/server/rest/services/Hosted/Pearl_River_Valley_Feature_Layer/FeatureServer/30",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28089"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_"
+  },
+  "notes": "Layer Madison City Zoning in CMPDD Pearl_River_Valley_Feature_Layer; 175 polygons with zone codes such as A-1, RE-A, R-1. Fields are CAD-style (Entity, Handle, Layer) with Zone_City; check the zone field in the report. Published by City of Madison via CMPDD.",
+  "extent": [
+    -90.20553101820218,
+    32.42481361431106,
+    -90.05982701751189,
+    32.52366178453145
+  ],
+  "verification": {
+    "verified_at": 1792279171405,
+    "counties": [
+      "28089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

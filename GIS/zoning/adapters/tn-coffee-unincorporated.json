@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tn-coffee-unincorporated",
+  "publisher": "Coffee County Planning (zoning layer by RCSPlanners, served on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/8PmFuaCvSsknw5Z0/arcgis/rest/services/Coffee_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47031"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURIS",
+    "zone": "ZONE_"
+  },
+  "filter": "JURIS = 'COUNTY'",
+  "notes": "Coffee County unincorporated zoning districts, from the county zoning application layer by RCSPlanners. JURIS=COUNTY selects county land. Zone name field not present.",
+  "extent": [
+    -86.28099810842835,
+    35.28897481118808,
+    -85.86915476524157,
+    35.70620006154086
+  ],
+  "verification": {
+    "verified_at": 1792280373490,
+    "counties": [
+      "47031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

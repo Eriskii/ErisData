@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-smith-troup",
+  "publisher": "City of Troup, TX (zoning layer served by City of Tyler GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityoftyler.net/arcgis/rest/services/Zoning_Non_Tyler/FeatureServer/2",
+    "page_size": 100,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "48423"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Troup zoning from City of Tyler Zoning_Non_Tyler service (layer 2, 386 features; Troup lies in Smith and Cherokee counties). Single-purpose layer for Troup, no jurisdiction field.",
+  "extent": [
+    -95.15202730962244,
+    32.12682901283775,
+    -95.09744060449681,
+    32.16389020557916
+  ],
+  "verification": {
+    "verified_at": 1792280771110,
+    "counties": [
+      "48423"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "mn-anoka-blaine",
+  "publisher": "City of Blaine GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.blainemn.gov/server/rest/services/FeatureDatasets/Planning_Cadastre/FeatureServer/15",
+    "page_size": 50,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "27003"
+    ]
+  },
+  "fields": {
+    "link": "code_url",
+    "zone": "zoning",
+    "zone_name": "zoning_desc"
+  },
+  "notes": "City of Blaine Zoning polygon layer (Planning_Cadastre FeatureServer layer 15); city-only coverage",
+  "extent": [
+    -93.2669605506364,
+    45.11893145832634,
+    -93.14252633327418,
+    45.21161177792317
+  ],
+  "verification": {
+    "verified_at": 1792278910898,
+    "counties": [
+      "27003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-summit-cuyahoga-falls",
+  "publisher": "Summit County GIS (Cuyahoga Falls zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/22",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "SHORT_DESC"
+  },
+  "notes": "City of Cuyahoga Falls layer from Summit County GIS ZoningNov2025 service (layer 22, single jurisdiction).",
+  "extent": [
+    -81.58786579727854,
+    41.11690231144797,
+    -81.44885738099028,
+    41.20802220284606
+  ],
+  "verification": {
+    "verified_at": 1792276081489,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

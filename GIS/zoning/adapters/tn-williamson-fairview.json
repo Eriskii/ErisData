@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tn-williamson-fairview",
+  "publisher": "City of Fairview, TN (FairviewEngineer ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/sCdesv1knCIWF2x3/arcgis/rest/services/Fairview_Zoning_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47187"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "Zoning IS NOT NULL",
+  "notes": "City of Fairview public zoning layer, published by the city engineer on ArcGIS Online. Parcel-based: each parcel carries its zoning code in Zoning (about 4,300 of 9,700 parcels have a code; filter drops blanks). Polygons are parcels, not dissolved districts; last resort. Overlay field not used.",
+  "extent": [
+    -87.20530267353827,
+    35.82069454592434,
+    -86.95681163572807,
+    36.03604385623538
+  ],
+  "verification": {
+    "verified_at": 1792280560170,
+    "counties": [
+      "47187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ia-linn-marion",
+  "publisher": "City of Marion, Iowa (city GIS, rmurtaugh_cityofmarion account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/D5rqJ85qM97IJslY/arcgis/rest/services/Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19113"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Regulation"
+  },
+  "notes": "City of Marion zoning (ZoningAll layer of the city Zoning Map service); polygons carry parcel attributes (GPN, Assessor), so this is a parcel-level zoning layer, used as the city zoning source. Marion city limits.",
+  "extent": [
+    -91.63434883381036,
+    42.00793525185884,
+    -91.52371659150064,
+    42.0877302994925
+  ],
+  "verification": {
+    "verified_at": 1792278455870,
+    "counties": [
+      "19113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

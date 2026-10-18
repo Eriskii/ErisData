@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-yamhill-yamhill",
+  "publisher": "Oregon DLCD statewide zoning (City of Yamhill records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41071"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Yamhill'",
+  "notes": "State DLCD statewide zoning layer, filtered to ownerName Yamhill (city of Yamhill, Yamhill County). zone = orZCode state zone code.",
+  "extent": [
+    -123.19505741512666,
+    45.33287522770997,
+    -123.17614533975694,
+    45.34676260813184
+  ],
+  "verification": {
+    "verified_at": 1792280415987,
+    "counties": [
+      "41071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

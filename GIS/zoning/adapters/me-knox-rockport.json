@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "me-knox-rockport",
+  "publisher": "Town of Rockport, Maine (Knox County GIS, ArcGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/EvllkkFm8v8CygAm/arcgis/rest/services/Rockport_Planning_and_Utility_Data/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID"
+  },
+  "notes": "Rockport, ME Zoning 2024 layer from the town planning data service hosted by the Knox County GIS account; single-town layer, no jurisdiction field. Zone field holds district code only; no zone name field.",
+  "extent": [
+    -69.19652375735427,
+    44.11560703337389,
+    -69.0511771991578,
+    44.22266433621616
+  ],
+  "verification": {
+    "verified_at": 1792278848435,
+    "counties": [
+      "23013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "al-daphne",
+  "publisher": "City of Daphne",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Ezk9fcjSUkeadg6u/arcgis/rest/services/Daphne_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01003"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Class"
+  },
+  "notes": "City of Daphne zoning districts (Daphne_Zoning layer, 40 features, published by the city GIS account kathrynbond_uagis). Zone is the district code; Class is its class/description.",
+  "extent": [
+    -87.92522419246214,
+    30.567284181275937,
+    -87.78457545597347,
+    30.676641266937335
+  ],
+  "verification": {
+    "verified_at": 1792277237249,
+    "counties": [
+      "01003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

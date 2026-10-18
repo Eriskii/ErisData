@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-seneca-bloomville",
+  "publisher": "Seneca County Auditor GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/b8eHPJ5KRnX3dHNa/arcgis/rest/services/Bloomville_Village_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39147"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Village of Bloomville only. Hosted on the Seneca County Auditor ArcGIS organization; layer is parcel-style polygons with a per-parcel Zone attribute (last resort: parcel layer carrying zoning, not a district layer).",
+  "extent": [
+    -83.02224946971371,
+    41.04472828884408,
+    -83.00570952868853,
+    41.059335598627975
+  ],
+  "verification": {
+    "verified_at": 1792276159067,
+    "counties": [
+      "39147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

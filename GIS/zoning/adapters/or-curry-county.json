@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-curry-county",
+  "publisher": "Oregon DLCD (statewide zoning, Curry County unincorporated jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41015"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Curry County'",
+  "notes": "State-generalized zoning compiled by Oregon DLCD; the statewide layer, filtered to ownerName Curry County (unincorporated county land). Not the same subset as the saved city filters.",
+  "extent": [
+    -124.56645731295322,
+    41.99557801596216,
+    -123.71650083250442,
+    42.95544223238418
+  ],
+  "verification": {
+    "verified_at": 1792280018844,
+    "counties": [
+      "41015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

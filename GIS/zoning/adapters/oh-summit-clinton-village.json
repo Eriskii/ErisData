@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-summit-clinton-village",
+  "publisher": "Summit County GIS (Clinton Village zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/25",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "Clinton Village layer from Summit County GIS ZoningNov2025 service (layer 25). zone_name is a general category; DISTRICT_N may hold more detail.",
+  "extent": [
+    -81.64812621216012,
+    40.91315856232744,
+    -81.61234411505005,
+    40.943388723401824
+  ],
+  "verification": {
+    "verified_at": 1792276258689,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

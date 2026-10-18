@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-poway",
+  "publisher": "City of Poway GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://powaygis.poway.org/powaygis/rest/services/Public/PowHUB_Planning_Survey_Street_Transportation_Layers/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06073"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Poway zoning layer on the city PowHUB public map service (353 polygons).",
+  "extent": [
+    -117.08523324650128,
+    32.92697580661453,
+    -116.93998415895004,
+    33.06683131921239
+  ],
+  "verification": {
+    "verified_at": 1792277546559,
+    "counties": [
+      "06073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

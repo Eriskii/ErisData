@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-king-snoqualmie",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), City of Snoqualmie",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '033' AND Jurisdiction = 'Snoqualmie'",
+  "notes": "State Zoning Atlas compilation of Snoqualmie zoning districts, Snoqualmie only (COUNTYFP 033).",
+  "extent": [
+    -121.89342915506484,
+    47.50688036999301,
+    -121.78293131608726,
+    47.54882709192896
+  ],
+  "verification": {
+    "verified_at": 1792281973031,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-edgecombe-princeville",
+  "publisher": "Town of Princeville (via Edgecombe County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.edgecombecountync.gov/arcgis/rest/services/webmap/MapServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37065"
+    ]
+  },
+  "fields": {
+    "zone": "ALPHA"
+  },
+  "notes": "Princeville town zoning layer from the Edgecombe County webmap MapServer, layer 18. Single-jurisdiction layer; zone code in ALPHA, no district name field.",
+  "extent": [
+    -77.53916510782254,
+    35.84570132785811,
+    -77.47478771942687,
+    35.9022289385339
+  ],
+  "verification": {
+    "verified_at": 1792279786808,
+    "counties": [
+      "37065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

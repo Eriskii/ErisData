@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-beaufort-belhaven",
+  "publisher": "Town of Belhaven via Beaufort County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/oXsk9nimtmSEU8Ko/arcgis/rest/services/Beaufort_Static/FeatureServer/28",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37013"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_District"
+  },
+  "notes": "Belhaven zoning districts, 2024, served from the Beaufort County GIS Beaufort_Static service. Covers the Town of Belhaven only. No ordinance link field published.",
+  "extent": [
+    -76.64364403588378,
+    35.5324641131135,
+    -76.60234864012835,
+    35.55570225952622
+  ],
+  "verification": {
+    "verified_at": 1792279707933,
+    "counties": [
+      "37013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

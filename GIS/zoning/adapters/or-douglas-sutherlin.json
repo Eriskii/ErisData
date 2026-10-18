@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-douglas-sutherlin",
+  "publisher": "Oregon DLCD (statewide zoning compilation, City of Sutherlin jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41019"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Sutherlin'",
+  "notes": "State DLCD compilation; ownerName = Sutherlin city. Zone codes are state-standard orZCode values.",
+  "extent": [
+    -123.36286923646072,
+    43.36371544579485,
+    -123.28155812341576,
+    43.40973942859027
+  ],
+  "verification": {
+    "verified_at": 1792280072010,
+    "counties": [
+      "41019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

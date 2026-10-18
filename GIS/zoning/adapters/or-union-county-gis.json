@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "or-union-county-gis",
+  "publisher": "Union County GIS (Oregon)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/2u6YTNFrXNL3rusb/arcgis/rest/services/County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41061"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Union County county-hosted County_Zoning layer; unincorporated Union County only (A-1, A-2, R-1 etc. per county ordinance). Zone values are county zone names; no zone_name field.",
+  "extent": [
+    -118.69778153403864,
+    44.956400694197214,
+    -117.26601815042729,
+    45.86107706647712
+  ],
+  "verification": {
+    "verified_at": 1792280082105,
+    "counties": [
+      "41061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

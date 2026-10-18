@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-daggett-county",
+  "publisher": "Daggett County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/vwXcbukl07DNCbkC/arcgis/rest/services/ZoningService/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49009"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Daggett County Zoning (PZ_ZONES), county GIS (CMGIS-Daggett). Unincorporated county zoning districts; no jurisdiction field. AREA holds area names such as Indian Hills.",
+  "extent": [
+    -110.00449935120932,
+    40.661168142219545,
+    -109.039067870145,
+    41.01204697924979
+  ],
+  "verification": {
+    "verified_at": 1792280728088,
+    "counties": [
+      "49009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

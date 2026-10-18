@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-mifflin-mcveytown",
+  "publisher": "Mifflin County GIS (McVeytown Borough zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mifflincountypa.gov/arcgis/rest/services/Hosted/McVeytown_zoning_101326/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42087"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZONE",
+    "zone_name": "ZONE1"
+  },
+  "notes": "McVeytown Borough zoning districts from the county GIS hosted service (McVeytown_zoning_101326). MUNI names the municipality; ZONE holds the district code; ZONE1 the district name. 5 features.",
+  "extent": [
+    -77.74476113478406,
+    40.49550221593462,
+    -77.73786349943698,
+    40.50095228114893
+  ],
+  "verification": {
+    "verified_at": 1792280143323,
+    "counties": [
+      "42087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

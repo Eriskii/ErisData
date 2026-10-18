@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-san-marcos",
+  "publisher": "City of San Marcos GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/e7Mp0AHrN8K5Kx6X/arcgis/rest/services/hubData/FeatureServer/16",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06073"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZoneFull"
+  },
+  "notes": "City of San Marcos GIS hub hubData service, HUB_Zoning layer (base zoning; SPA codes in SpecificPlanArea/SPASubtypeCode). Verify it is San Marcos, CA only.",
+  "extent": [
+    -117.23064543887888,
+    33.08020652574516,
+    -117.1097927652754,
+    33.18855420352827
+  ],
+  "verification": {
+    "verified_at": 1792277732546,
+    "counties": [
+      "06073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

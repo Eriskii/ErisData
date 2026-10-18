@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-broward-lauderhill",
+  "publisher": "City of Lauderhill GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lauderhill-fl.gov/server/rest/services/Zoning_Map_MIL1/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS",
+    "zone_name": "DEFINITION"
+  },
+  "notes": "City of Lauderhill Zoning layer (Zoning_Map_MIL1 MapServer layer 4). City limits only.",
+  "extent": [
+    -80.26862429598832,
+    26.120996854802744,
+    -80.18569034074716,
+    26.193983963997
+  ],
+  "verification": {
+    "verified_at": 1792277919254,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

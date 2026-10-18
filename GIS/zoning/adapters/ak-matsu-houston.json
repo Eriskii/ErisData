@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ak-matsu-houston",
+  "publisher": "Matanuska-Susitna Borough GIS (City of Houston zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.matsugov.us/map/rest/services/OpenData/Administrative_Zoning_Houston/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "02170"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_NAM",
+    "zone_name": "DESCR"
+  },
+  "notes": "City of Houston, Alaska base zoning districts, published by the Mat-Su Borough GIS (OpenData). 66 polygons.",
+  "extent": [
+    -149.90386342276344,
+    61.55970066533271,
+    -149.72256064277968,
+    61.657187615204045
+  ],
+  "verification": {
+    "verified_at": 1792277201410,
+    "counties": [
+      "02170"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

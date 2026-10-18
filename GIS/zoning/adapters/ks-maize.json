@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ks-maize",
+  "publisher": "City of Maize, Kansas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/PRyeAMTgQS8gkd0F/arcgis/rest/services/2026_City_of_Maize_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20173"
+    ]
+  },
+  "fields": {
+    "zone": "AbbrLabel",
+    "zone_name": "Label"
+  },
+  "notes": "City of Maize 2026 zoning layer on the city ArcGIS Online organization (Maize zoning map). Maize city limits only.",
+  "extent": [
+    -97.49973590928269,
+    37.7369087982566,
+    -97.4268452183338,
+    37.80722565434106
+  ],
+  "verification": {
+    "verified_at": 1792279411679,
+    "counties": [
+      "20173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

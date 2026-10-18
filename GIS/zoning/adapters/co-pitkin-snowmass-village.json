@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-pitkin-snowmass-village",
+  "publisher": "Town of Snowmass Village GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.tosv.com:6443/arcgis/rest/services/CommDev/CommDev/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08097"
+    ]
+  },
+  "fields": {
+    "link": "ZoningCode",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Snowmass Village own server (CommDev folder), Zoning Districts layer; covers Snowmass Village only. ZONECLASS is the district code; ZoningCode links to Municode text; Ordinance holds the adopting ordinance.",
+  "extent": [
+    -106.98722243294029,
+    39.15595834488177,
+    -106.89086543291532,
+    39.29200406121917
+  ],
+  "verification": {
+    "verified_at": 1792277524328,
+    "counties": [
+      "08097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

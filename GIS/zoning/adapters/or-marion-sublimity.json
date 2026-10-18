@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-marion-sublimity",
+  "publisher": "Oregon DLCD (statewide zoning, Sublimity records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Sublimity'",
+  "notes": "Statewide DLCD zoning layer filtered to the City of Sublimity (ownerName Sublimity); standardized state zone codes. State copy, not the city own layer.",
+  "extent": [
+    -122.8034805107645,
+    44.81774083183462,
+    -122.78169246553796,
+    44.83831893583496
+  ],
+  "verification": {
+    "verified_at": 1792280272373,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sc-beaufort-port-royal",
+  "publisher": "Town of Port Royal (Beaufort County GIS host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.beaufortcountysc.gov/server/rest/services/ToprData/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45013"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "Town of Port Royal zoning districts (transect and PUD/military overlay districts in one layer), from the county-hosted ToprData service behind the county web map Zoning Categories - Town of Port Royal. Some CODE values are null; DISTRICT carries the name. EPSG 2273. Layer covers the Town only.",
+  "extent": [
+    -80.84412463066124,
+    32.300043251211584,
+    -80.6601949420711,
+    32.416865088173644
+  ],
+  "verification": {
+    "verified_at": 1792280342007,
+    "counties": [
+      "45013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

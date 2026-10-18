@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ut-eagle-mountain",
+  "publisher": "Eagle Mountain City (via Utah County GIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/45",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone_name": "ZONE_EM_DESC"
+  },
+  "notes": "Eagle Mountain City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 45, 2148 features). The zone code field ZONE_EM_LABEL is blank for most districts (1794 of 2148), so only the district name is mapped.",
+  "extent": [
+    -112.1310359439661,
+    40.23167039542514,
+    -111.94420300750323,
+    40.395112856995624
+  ],
+  "verification": {
+    "verified_at": 1792280817058,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

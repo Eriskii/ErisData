@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ks-haysville",
+  "publisher": "City of Haysville, Kansas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/xAh4NsLbP9wYczQ6/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20173"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zn_Desc"
+  },
+  "notes": "City of Haysville Zoning layer, published by the city GIS (Hub). One record per parcel (6,521 features, PIN/GEOCODE) with each parcel zoning in Zoning; a parcel layer used as last resort since no separate district layer was found. Haysville city limits only.",
+  "extent": [
+    -97.42675580100004,
+    37.505825105265735,
+    -97.29454420415979,
+    37.601294081403594
+  ],
+  "verification": {
+    "verified_at": 1792279014162,
+    "counties": [
+      "20173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

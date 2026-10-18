@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-erie-millcreek",
+  "publisher": "Millcreek Township (GIS, mpuda_Millcreek ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/14heYaGwikLWgdxR/arcgis/rest/services/Millcreek_Township_Public_Web_Map_6_view/FeatureServer/38",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42049"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "Zoning"
+  },
+  "notes": "Millcreek Township zoning districts layer from the township public web map. Single-jurisdiction layer.",
+  "extent": [
+    -80.21198872811263,
+    42.02868446935435,
+    -79.9902123081073,
+    42.1172614092694
+  ],
+  "verification": {
+    "verified_at": 1792280152563,
+    "counties": [
+      "42049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

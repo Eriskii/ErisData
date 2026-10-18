@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-siskiyou-fort-jones",
+  "publisher": "Siskiyou County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/JmPiYilyU1x5zuxM/arcgis/rest/services/Fort_Jones_Zoning/FeatureServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06093"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Code",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "Fort Jones zoning designations published by Siskiyou County GIS (bkonicke_siskiyou). Layer is parcel-level (carries APN and GPLU codes); zoning code per parcel. 497 features.",
+  "extent": [
+    -122.8542166606146,
+    41.598292642972375,
+    -122.82890193466972,
+    41.621894683417665
+  ],
+  "verification": {
+    "verified_at": 1792277456434,
+    "counties": [
+      "06093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

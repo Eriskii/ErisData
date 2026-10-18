@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-auglaize-salem-twp",
+  "publisher": "Auglaize County GIS / Salem Township",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.auglaizecounty.org/arcgis/rest/services/Zoning/Salem/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Name",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Salem Township (unincorporated) zoning districts; Zone_Name carries the district label; 3 features.",
+  "extent": [
+    -84.45773753504675,
+    40.62472141487841,
+    -84.33778652674242,
+    40.6867101334368
+  ],
+  "verification": {
+    "verified_at": 1792275640878,
+    "counties": [
+      "39011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

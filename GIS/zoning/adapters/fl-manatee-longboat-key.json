@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-manatee-longboat-key",
+  "publisher": "Manatee County GIS (for Town of Longboat Key)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.mymanatee.org/gisits/rest/services/opendata/Planning/MapServer/23",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12081"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Longboat Key zoning polygons, published by Manatee County GIS. Town limits only. District names not in the layer; zone holds the district code.",
+  "extent": [
+    -82.6905543762813,
+    27.327940454925585,
+    -82.58161019687059,
+    27.446964111206785
+  ],
+  "verification": {
+    "verified_at": 1792277662731,
+    "counties": [
+      "12081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

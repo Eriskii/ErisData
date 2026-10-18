@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nj-ocean-berkeley",
+  "publisher": "Berkeley Township (Berkeley_Zoning 2020 layer, hosted by CGrossRVE on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/CtqtskKS8sLHdIkJ/arcgis/rest/services/Berkeley_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34029"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUN",
+    "zone": "Zoning"
+  },
+  "notes": "Berkeley Township, 2020 zoning layer hosted on a consultant ArcGIS Online org. Parcel-style attributes (PAMS_PIN, BLOCK, LOT, OwnersName) with a Zoning field: a parcel layer carrying each parcel zoning, used as last resort. Official township zoning map is kept on file with the Clerk (ecode360).",
+  "extent": [
+    -74.33002815241677,
+    39.75904375155632,
+    -74.07102344879685,
+    39.987806876881315
+  ],
+  "verification": {
+    "verified_at": 1792279906292,
+    "counties": [
+      "34029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

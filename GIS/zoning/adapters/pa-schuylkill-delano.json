@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-delano",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Delano Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/41_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNIS",
+    "zone": "ZONE",
+    "zone_name": "DESCRPT"
+  },
+  "notes": "Municipal zoning for Delano Township (MUNIS 41), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.20974576098004,
+    40.62216200397105,
+    -76.18181705700134,
+    40.640618791982675
+  ],
+  "verification": {
+    "verified_at": 1792280359372,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

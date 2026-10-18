@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "il-cook-skokie",
+  "publisher": "Village of Skokie GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/qyXpqKs7NivAD8mD/arcgis/rest/services/Skokie_Zoning_Poly/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17031"
+    ]
+  },
+  "fields": {
+    "link": "ZONINGDOCUMENT",
+    "zone": "ZONED",
+    "zone_name": "ZONINGDESCRIPTION"
+  },
+  "notes": "Village of Skokie zoning districts polygon layer (village ArcGIS Online org, Skokie_Zoning_Poly). Covers Skokie only.",
+  "extent": [
+    -87.78109044717611,
+    42.003032900259264,
+    -87.70835738649696,
+    42.0652045387613
+  ],
+  "verification": {
+    "verified_at": 1792278685773,
+    "counties": [
+      "17031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

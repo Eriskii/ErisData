@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "al-jefferson-vestavia-hills",
+  "publisher": "City of Vestavia Hills GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/mzsa9a8wVBjop58w/arcgis/rest/services/Zoning1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01073"
+    ]
+  },
+  "fields": {
+    "link": "ZNG_ORD",
+    "zone": "VH_ZONING"
+  },
+  "filter": "VH_ZONING <> ' '",
+  "notes": "City of Vestavia Hills zoning, published as parcel polygons carrying each parcel zoning in VH_ZONING (parcel-level layer, last resort; no separate district layer found). ZONING_TYP gives type; ZNG_ORD is the ordinance reference.",
+  "extent": [
+    -86.83015713722672,
+    33.40476386351734,
+    -86.64809028684573,
+    33.50320526396219
+  ],
+  "verification": {
+    "verified_at": 1792277264067,
+    "counties": [
+      "01073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

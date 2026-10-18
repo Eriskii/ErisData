@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-grayson-lake-ray-roberts",
+  "publisher": "Grayson County GIS (Lake Ray Roberts zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.co.grayson.tx.us/arcgis/rest/services/Grayson/Development_Services_Internal/MapServer/27",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48181"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Grayson County unincorporated zoning districts within the Lake Ray Roberts zoning area only (5,000 ft shoreline buffer), not county-wide.",
+  "extent": [
+    -96.9459392581258,
+    33.41406631055592,
+    -96.82156222150316,
+    33.56034586084085
+  ],
+  "verification": {
+    "verified_at": 1792280587009,
+    "counties": [
+      "48181"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

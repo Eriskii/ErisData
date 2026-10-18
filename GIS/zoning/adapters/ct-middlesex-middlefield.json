@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-middlesex-middlefield",
+  "publisher": "RiverCOG (Lower Connecticut River Valley Council of Governments)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uH7GnAlGDzMooG4B/arcgis/rest/services/RiverCOG_Regional_Zoning/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09130"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "Town of Middlefield zoning from RiverCOG regional zoning service; ZONE is an integer code, ZONENAME the district name",
+  "extent": [
+    -72.74874225972614,
+    41.48351227883359,
+    -72.67777359773481,
+    41.54974817733935
+  ],
+  "verification": {
+    "verified_at": 1792277590924,
+    "counties": [
+      "09130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

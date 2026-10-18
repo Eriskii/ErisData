@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "co-adams-westminster",
+  "publisher": "City of Westminster (zoning layer by consultant MeadHunt)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/2gKap7KMz7fy1U4a/arcgis/rest/services/Westminster_Zoning/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08001"
+    ]
+  },
+  "fields": {
+    "zone": "local_zon"
+  },
+  "notes": "City of Westminster zoning districts from the city zoning layer hosted by its consultant MeadHunt; no district-name attribute; the city-owned MapServer Planning/Zoning has null geometry",
+  "extent": [
+    -105.1657425322457,
+    39.818014922578776,
+    -104.9877296656556,
+    39.96913464150329
+  ],
+  "verification": {
+    "verified_at": 1792277775380,
+    "counties": [
+      "08001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

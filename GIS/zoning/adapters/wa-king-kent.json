@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wa-king-kent",
+  "publisher": "City of Kent GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/AME2ELqJ7UG0JjrU/arcgis/rest/services/PUB_PLAN_ZoningDistricts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "Short_Name",
+    "zone_name": "Zoning_District"
+  },
+  "notes": "City of Kent zoning districts (KCC 15.03), Kent only; hosted on Kent organization ArcGIS Online.",
+  "extent": [
+    -122.31199463916968,
+    47.3415905522206,
+    -122.12792063978992,
+    47.44252093157255
+  ],
+  "verification": {
+    "verified_at": 1792281114400,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

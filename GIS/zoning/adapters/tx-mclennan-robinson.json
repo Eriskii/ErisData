@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-mclennan-robinson",
+  "publisher": "City of Robinson, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/Ls5quuABi3I5K4Lg/arcgis/rest/services/Zoning_2024/FeatureServer/21",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48309"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "Zoning_District"
+  },
+  "notes": "City of Robinson zoning ordinance polygons (Zoning_2024 service, owned by City of Robinson staff account). Zone = ZoneCode.",
+  "extent": [
+    -97.17739473929664,
+    31.398855157626777,
+    -97.06267717815976,
+    31.50889671295309
+  ],
+  "verification": {
+    "verified_at": 1792280810388,
+    "counties": [
+      "48309"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

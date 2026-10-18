@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-sacramento-citrus-heights",
+  "publisher": "City of Citrus Heights",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/F2vUxnlx169smga0/arcgis/rest/services/CitrusHeights_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06067"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Citrus Heights zoning only, published as parcel polygons carrying each parcel zoning designation (ZONE) rather than dissolved district polygons; no name field",
+  "extent": [
+    -121.33203378802108,
+    38.663408946635606,
+    -121.24301354524992,
+    38.7229354440633
+  ],
+  "verification": {
+    "verified_at": 1792277404132,
+    "counties": [
+      "06067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

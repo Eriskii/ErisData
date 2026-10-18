@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ar-washington-west-fork",
+  "publisher": "City of West Fork, AR (NWARPC-hosted ArcGIS Online layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/West_Fork_Zoning_Official/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05143"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "City of West Fork official zoning districts, city limits only; Ordinance field holds ordinance number; document links mostly blank",
+  "extent": [
+    -94.20828407570761,
+    35.893852866426045,
+    -94.15459183867834,
+    35.96827363701752
+  ],
+  "verification": {
+    "verified_at": 1792277352857,
+    "counties": [
+      "05143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

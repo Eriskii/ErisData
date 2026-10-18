@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-bexar-schertz",
+  "publisher": "City of Schertz, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.schertz.com/hosting/rest/services/PublicFolder/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48029"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "CNTYNAME = 'B'",
+  "notes": "City of Schertz current zoning districts; CNTYNAME B = the Bexar County part of the city (Schertz also extends into Guadalupe and Comal counties, which other specs cover).",
+  "extent": [
+    -98.29388062937028,
+    29.467557311500485,
+    -98.18606624813448,
+    29.55690761761769
+  ],
+  "verification": {
+    "verified_at": 1792280699620,
+    "counties": [
+      "48029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

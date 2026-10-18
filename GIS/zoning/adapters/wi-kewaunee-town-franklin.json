@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-kewaunee-town-franklin",
+  "publisher": "Kewaunee County Land Information (Town of Franklin zoning, county public view)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/OVykjebCTL9ZTdn8/arcgis/rest/services/Kewaunee_County_Zoning_public_view/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55061"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Kewaunee County Zoning public view, layer 6 = Town of Franklin only. Only zone code field published; no name or ordinance link.",
+  "extent": [
+    -87.76867011711114,
+    44.324667661511626,
+    -87.64066430236566,
+    44.417073045294835
+  ],
+  "verification": {
+    "verified_at": 1792281190119,
+    "counties": [
+      "55061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

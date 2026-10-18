@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-norfolk-braintree",
+  "publisher": "Town of Braintree GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/wMoJraMZWuVPEmGK/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25021"
+    ]
+  },
+  "fields": {
+    "zone": "LAYER"
+  },
+  "notes": "Town of Braintree only (single-town layer). Published by braintreema on ArcGIS Online. LAYER holds district codes (ResA, ResB, ResC, COMM, GBD, HBD, BWLD, Cluster1, Cluster2, OpenSpace); no district-name field.",
+  "extent": [
+    -71.04947824829769,
+    42.168335332945645,
+    -70.96134570427058,
+    42.23864504453831
+  ],
+  "verification": {
+    "verified_at": 1792278879079,
+    "counties": [
+      "25021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

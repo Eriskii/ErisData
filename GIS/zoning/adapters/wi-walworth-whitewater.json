@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-walworth-whitewater",
+  "publisher": "City of Whitewater",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/1BOMy3PNdECswnJ5/arcgis/rest/services/Zoning_2019/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55127"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_ID1",
+    "zone_name": "SimpleZone"
+  },
+  "notes": "City of Whitewater zoning from the city ArcGIS Online organization (2019 layer). Features are zoned parcels carrying each parcel zoning code; used as a last resort since no district-level layer was found. Zone code in Zoning_ID1.",
+  "extent": [
+    -88.77710479337867,
+    42.81220719496399,
+    -88.68882044416034,
+    42.86456349283763
+  ],
+  "verification": {
+    "verified_at": 1792281330469,
+    "counties": [
+      "55127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

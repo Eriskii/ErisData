@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "id-ada-eagle",
+  "publisher": "Ada County GIS (AdaCountyGIS, Ada County Zoning Districts layer, City of Eagle entries)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/dgGjZc6xAH5m5JyP/arcgis/rest/services/Zoning/FeatureServer/22",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "BASEZONE",
+    "zone_name": "ZONING"
+  },
+  "filter": "CITY = 'City of Eagle'",
+  "notes": "Ada County Zoning Districts layer hosted by Ada County GIS (AdaCountyGIS account); holds several jurisdictions named in CITY; filtered to City of Eagle. Eagle city zoning, as the county holds it.",
+  "extent": [
+    -116.46421911281196,
+    43.66232197655616,
+    -116.23791381707495,
+    43.80791936390872
+  ],
+  "verification": {
+    "verified_at": 1792278188257,
+    "counties": [
+      "16001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

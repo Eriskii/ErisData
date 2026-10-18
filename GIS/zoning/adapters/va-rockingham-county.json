@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "va-rockingham-county",
+  "publisher": "Rockingham County (zoning layer hosted by Central Shenandoah Planning District Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/VkOe3q7u7LGe1XcE/arcgis/rest/services/Zoning_202111190951289901/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51165"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE",
+    "zone": "ZONING"
+  },
+  "notes": "County zoning for unincorporated Rockingham County only (the layer excludes the seven towns). Layer described as county zoning, 2021 vintage. Dataset owner jeremy_CSPDC; the county GIS page lists zoning shapefiles as free download.",
+  "extent": [
+    -79.22434102351797,
+    38.20687298859267,
+    -78.4857426361906,
+    38.85023010553723
+  ],
+  "verification": {
+    "verified_at": 1792281105285,
+    "counties": [
+      "51165"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

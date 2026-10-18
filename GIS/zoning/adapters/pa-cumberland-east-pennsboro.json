@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-east-pennsboro",
+  "publisher": "Cumberland County Planning Department (East Pennsboro Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "East Pennsboro Township zoning layer from the county GIS Zoning_Basemap service; digitized by the county from municipal paper maps, may not be the official adopted maps.",
+  "extent": [
+    -76.97656945833019,
+    40.22873085214026,
+    -76.90988228110444,
+    40.328913561477314
+  ],
+  "verification": {
+    "verified_at": 1792280090367,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

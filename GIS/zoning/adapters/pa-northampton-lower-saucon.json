@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "pa-northampton-lower-saucon",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Lower Saucon Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "NAME",
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND NAME = 'Lower Saucon Township'",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Lower Saucon Township by NAME. Zone codes carry a municipal prefix. Link field is not mapped.",
+  "extent": [
+    -75.40442178594832,
+    40.5367668539213,
+    -75.2269675428495,
+    40.64551286178227
+  ],
+  "verification": {
+    "verified_at": 1792280344787,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

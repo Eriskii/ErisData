@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-bladen-county",
+  "publisher": "Bladen County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.bladenco.org/server/rest/services/BladenCounty/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Bladen County unincorporated-area zoning districts (county zoning). Covers unincorporated county land only; municipalities such as Elizabethtown, Bladenboro excluded.",
+  "extent": [
+    -78.90262495270755,
+    34.366465652716414,
+    -78.17250692178165,
+    34.85606775947905
+  ],
+  "verification": {
+    "verified_at": 1792279727288,
+    "counties": [
+      "37017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

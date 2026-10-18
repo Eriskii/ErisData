@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-outagamie-grand-chute",
+  "publisher": "Town of Grand Chute GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/deR2GmCznCnyAVvu/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55087"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Text"
+  },
+  "notes": "Town of Grand Chute zoning districts, 2020 layer on the town ArcGIS account (hub: Town of Grand Chute GIS). Town zones itself.",
+  "extent": [
+    -88.49662268797579,
+    44.24399500736272,
+    -88.34313786055998,
+    44.3299377544747
+  ],
+  "verification": {
+    "verified_at": 1792281645073,
+    "counties": [
+      "55087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

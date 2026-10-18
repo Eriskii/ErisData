@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nc-buncombe-woodfin",
+  "publisher": "Town of Woodfin",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/dUkMSguHjSnNcU9J/arcgis/rest/services/Woodfin_Zoning_Latest/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37021"
+    ]
+  },
+  "fields": {
+    "link": "CodeOfOrd",
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDistrict"
+  },
+  "notes": "Town of Woodfin official zoning districts, published by town staff account on ArcGIS Online",
+  "extent": [
+    -82.63498637645422,
+    35.60347035351449,
+    -82.49340718887426,
+    35.680581474713954
+  ],
+  "verification": {
+    "verified_at": 1792279773404,
+    "counties": [
+      "37021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

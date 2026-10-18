@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "ut-weber-uintah",
+  "publisher": "Utah Geospatial Resource Center / Wasatch Front Regional Council (statewide planning_generalized_zoning layer, Uintah rows)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49057"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county = 'Weber' AND city = 'Uintah'",
+  "notes": "Uintah City zoning from the UGRC/WFRC statewide generalized zoning layer (city and county rows filtered to Uintah, Weber County). Zone is the source zoning code; gen_zone is the generalized category, not used. Source map link is in source_map.",
+  "extent": [
+    -111.96062705483736,
+    41.136904140031774,
+    -111.90438476861496,
+    41.1496517849034
+  ],
+  "verification": {
+    "verified_at": 1792281299724,
+    "counties": [
+      "49057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

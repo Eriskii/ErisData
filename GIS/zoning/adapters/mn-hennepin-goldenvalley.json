@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mn-hennepin-goldenvalley",
+  "publisher": "City of Golden Valley GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.goldenvalleymn.gov/server/rest/services/GoldenMap/Golden_Planning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27053"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Golden Valley Zoning layer (parcel-tied), 8,766 features; no zone name field. City-only.",
+  "extent": [
+    -93.40048922347731,
+    44.966469925690625,
+    -93.31843337853046,
+    45.01692985394998
+  ],
+  "verification": {
+    "verified_at": 1792279039568,
+    "counties": [
+      "27053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

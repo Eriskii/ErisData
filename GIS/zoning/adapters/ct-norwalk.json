@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-norwalk",
+  "publisher": "City of Norwalk GIS (CityOfNorwalkCT)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/HfsHDBmkGwb1UtID/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09190"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Distict"
+  },
+  "notes": "Norwalk city zoning districts, 261 polygons, from the city ArcGIS Online/Hub layer (updated 2022). Single-jurisdiction layer.",
+  "extent": [
+    -73.47502877879415,
+    41.01981970232104,
+    -73.37937626109581,
+    41.17173755509272
+  ],
+  "verification": {
+    "verified_at": 1792277569840,
+    "counties": [
+      "09190"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

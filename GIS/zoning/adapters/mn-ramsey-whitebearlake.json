@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mn-ramsey-whitebearlake",
+  "publisher": "City of White Bear Lake MN (Community Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/dc85de55bb254e05bb9dcf4cd0252d4c/rest/services/WhiteBearLake/WB_Dept_CommDev_Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27123"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of White Bear Lake zoning districts (Zoning sublayer of the city Community Development MapServer behind its interactive zoning map). Single-city layer. Shoreland zoning is a separate layer (2), not used. A proposed-zoning FeatureServer also exists (services2 WB_Dept_CommDev_NewProposed_Zoning_20250917); not used because it is not the adopted map.",
+  "extent": [
+    -93.0563323515718,
+    45.03517105573137,
+    -92.97996593283739,
+    45.10228649561094
+  ],
+  "verification": {
+    "verified_at": 1792279288154,
+    "counties": [
+      "27123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-weber-huntsville",
+  "publisher": "Wasatch Front Regional Council (LAA Program digitization for Huntsville Town)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/taguadKoI1XFwivx/arcgis/rest/services/LAA_Community_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49057"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "Zone",
+    "zone_name": "GLU"
+  },
+  "filter": "PARCEL_CITY = 'Huntsville'",
+  "notes": "Huntsville Town zoning digitized by WFRC through its Local Administrative Advisor program (Huntsville Zoning web map, 2025). Zone is the district code; GLU is the general land use category. One Huntsville feature has no zone code. Layer also holds other towns filtered out here.",
+  "extent": [
+    -111.81632208339316,
+    41.245679018825214,
+    -111.7540909040136,
+    41.27155937658613
+  ],
+  "verification": {
+    "verified_at": 1792281089276,
+    "counties": [
+      "49057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

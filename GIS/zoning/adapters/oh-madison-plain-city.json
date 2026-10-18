@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-madison-plain-city",
+  "publisher": "Village of Plain City (zoning layer in Plain City ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/dCoOyvPDl4j6iT0i/arcgis/rest/services/AGOZoningMap/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39097"
+    ]
+  },
+  "fields": {
+    "zone": "Label"
+  },
+  "notes": "Plain City village zoning (service titled Plain City Zoning, dated 8/29/2019, 286 polygons), served from the village ArcGIS org that runs its Zoning Map (GIS) viewer. Zone field Label holds the district name with its code (e.g. B3 CENTRAL BUSINESS DISTRICT). Village spans Madison and Union counties. Newer draft map is split into one layer per district with no zone field, so not used.",
+  "extent": [
+    -83.30440036010692,
+    40.08919125600419,
+    -83.23854234392435,
+    40.12141715019706
+  ],
+  "verification": {
+    "verified_at": 1792276104076,
+    "counties": [
+      "39097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

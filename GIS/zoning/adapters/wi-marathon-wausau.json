@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-marathon-wausau",
+  "publisher": "Personal ArcGIS Online copy (owner ntice) of City of Wausau zoning",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/82iS1Pc7dgs3LFZv/arcgis/rest/services/WausauZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55073"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE1",
+    "zone_name": "ZONINGDESC"
+  },
+  "notes": "Unofficial copy: personal ArcGIS Online item by ntice, not the City of Wausau or county. Used because the official county-hosted Wausau zoning layer (gis.co.marathon.wi.us Wausau_Zoning/MapServer/9) was unreachable at check time. MUNI field holds the municipality.",
+  "extent": [
+    -89.76787794951107,
+    44.91918993342713,
+    -89.5731095712763,
+    45.0064729876538
+  ],
+  "verification": {
+    "verified_at": 1792281303961,
+    "counties": [
+      "55073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

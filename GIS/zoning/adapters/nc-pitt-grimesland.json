@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-pitt-grimesland",
+  "publisher": "Pitt County GIS (Town of Grimesland zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pittcountync.gov/gis/rest/services/Permitting/PermitDisplayMap/MapServer/24",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37147"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Pitt County GIS permitting display map layer of Town of Grimesland zoning polygons; covers Grimesland only. RESIDENTIAL field not mapped.",
+  "extent": [
+    -77.25008974223641,
+    35.54343785718432,
+    -77.1680551623539,
+    35.59702111519608
+  ],
+  "verification": {
+    "verified_at": 1792279931837,
+    "counties": [
+      "37147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

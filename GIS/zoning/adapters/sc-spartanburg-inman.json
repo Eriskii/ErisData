@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sc-spartanburg-inman",
+  "publisher": "City of Inman (interactive zoning map, hosted on ArcGIS Online by FradyJ)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/V7y6OwUBYsqBoMer/arcgis/rest/services/City_of_Inman_Interactive_Zoning_Map___5_25_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45083"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Inman interactive zoning map linked from cityofinman.org planning page. Layer Zoning Districts (1721 polygons) carries parcel attributes plus a Zoning code; parcel-level, used for the district code. Hosted on an individual ArcGIS Online account (FradyJ), so the city link is the basis for official status. No zone name or ordinance link fields.",
+  "extent": [
+    -82.11103935825781,
+    35.021742247539436,
+    -82.06589129663737,
+    35.06872761532074
+  ],
+  "verification": {
+    "verified_at": 1792280583851,
+    "counties": [
+      "45083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

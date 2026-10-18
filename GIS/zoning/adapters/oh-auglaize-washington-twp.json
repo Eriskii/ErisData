@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-auglaize-washington-twp",
+  "publisher": "Auglaize County GIS / Washington Township",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.auglaizecounty.org/arcgis/rest/services/Zoning/Washington/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Name",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Washington Township (unincorporated) zoning districts; Zone_Name carries the district label; 7 features.",
+  "extent": [
+    -84.34112960952821,
+    40.48036546461261,
+    -84.21967361288752,
+    40.555557750272705
+  ],
+  "verification": {
+    "verified_at": 1792275634787,
+    "counties": [
+      "39011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

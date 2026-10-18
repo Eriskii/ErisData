@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-lasalle-ottawa",
+  "publisher": "City of Ottawa, IL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/XgJAp5BrQSIEviNS/arcgis/rest/services/Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17099"
+    ]
+  },
+  "fields": {
+    "zone": "type",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Ottawa zoning districts from the city ArcGIS Online org (cityofottawa-il), Zoning layer. zone_name holds the numeric zoning group, not a description. Covers Ottawa only.",
+  "extent": [
+    -88.88907508202948,
+    41.30963062484781,
+    -88.7534532490611,
+    41.39774645834673
+  ],
+  "verification": {
+    "verified_at": 1792278161022,
+    "counties": [
+      "17099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

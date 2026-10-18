@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "co-elbert-kiowa",
+  "publisher": "Elbert County GIS (Town of Kiowa zoning)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.elbertcounty-co.gov/data/rest/services/Zoning_of_Kiowa_Colorado/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08039"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "Town of Kiowa zoning as hosted by Elbert County GIS; layer metadata marks it not authoritative; county-hosted copy of the town layer. 12 districts.",
+  "extent": [
+    -104.47476900908552,
+    39.33798537621377,
+    -104.43127750505822,
+    39.35467382668201
+  ],
+  "verification": {
+    "verified_at": 1792277431465,
+    "counties": [
+      "08039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

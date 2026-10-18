@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-northampton-wind-gap",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Wind Gap Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND NAME = 'Wind Gap Borough'",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Wind Gap Borough by NAME. Zone codes carry a municipal prefix; taken from ZN_MUNI_CD. Link not mapped: the layer holds no ordinance links.",
+  "extent": [
+    -75.30534185232646,
+    40.834521270631335,
+    -75.27977769966414,
+    40.86392577312035
+  ],
+  "verification": {
+    "verified_at": 1792280493957,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

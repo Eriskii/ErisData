@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "va-louisa-county",
+  "publisher": "Louisa County GIS (layer hosted on ArcGIS Online service Louisa_WL_D)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/JpCRGiMdPvzLX1GI/arcgis/rest/services/Louisa_WL_D/FeatureServer/51",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51109"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Layer 51 Zoning - County of Louisa in the Louisa_WL_D service on an individual ArcGIS Online account (owner msmith1914), a copy not hosted by the county; covers unincorporated Louisa County only (the towns of Louisa and Mineral are separate layers). zone_name not present in the source.",
+  "extent": [
+    -78.30773769068239,
+    37.729364798678105,
+    -77.68738279857958,
+    38.152572596534945
+  ],
+  "verification": {
+    "verified_at": 1792280958065,
+    "counties": [
+      "51109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

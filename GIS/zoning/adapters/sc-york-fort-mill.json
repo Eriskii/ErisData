@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sc-york-fort-mill",
+  "publisher": "Town of Fort Mill (zoning layer hosted by Catawba Regional COG)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/h9JHFVWvWofKfQhH/arcgis/rest/services/TownofFortMillSC_Zoning/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45091"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Fort Mill base zoning polygons (layer Zoning, FeatureServer/4 of the Town zoning service); overlays are separate layers and excluded. Zone code only; no name or ordinance link published. Catawba COG hosts the service for the Town.",
+  "extent": [
+    -80.99847656709204,
+    34.94545560445842,
+    -80.88728508701865,
+    35.066051455695934
+  ],
+  "verification": {
+    "verified_at": 1792280311033,
+    "counties": [
+      "45091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

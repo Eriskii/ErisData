@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-altamonte-springs",
+  "publisher": "City of Altamonte Springs GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://webgis.altamonte.org/gis/rest/services/EnerGov/EnerGovService/MapServer/39",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12117"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Altamonte Springs zoning districts from the city EnerGov map service (Zoning Districts layer). Zone names not published.",
+  "extent": [
+    -81.4436105207993,
+    28.63998649713367,
+    -81.34430346569185,
+    28.68959530600402
+  ],
+  "verification": {
+    "verified_at": 1792277770051,
+    "counties": [
+      "12117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

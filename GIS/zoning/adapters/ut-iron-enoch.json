@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-iron-enoch",
+  "publisher": "Enoch City (Enoch_Operator ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/BSpse1SbEam5b69x/arcgis/rest/services/Zoning_Districts_Viewer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49021"
+    ]
+  },
+  "fields": {
+    "link": "DISTINFO",
+    "zone": "Land_use",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Enoch City zoning districts viewer service (13 district polygons, city limits). Zone code taken from Land_use; check report.",
+  "extent": [
+    -113.0750721827766,
+    37.73467077197112,
+    -112.9988766918722,
+    37.79561409447376
+  ],
+  "verification": {
+    "verified_at": 1792280868128,
+    "counties": [
+      "49021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

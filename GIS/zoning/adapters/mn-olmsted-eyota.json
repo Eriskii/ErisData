@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-olmsted-eyota",
+  "publisher": "City of Eyota / Olmsted County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gweb01.co.olmsted.mn.us/arcgis/rest/services/Zoning_and_Future_Land_Use/MapServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27109"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Description"
+  },
+  "notes": "City of Eyota zoning districts, from the Olmsted County zoning MapServer. Server title is Pending; the layer is the city zoning as published there.",
+  "extent": [
+    -92.25362111588515,
+    43.97308775601297,
+    -92.21882104388669,
+    43.9992406872666
+  ],
+  "verification": {
+    "verified_at": 1792279044997,
+    "counties": [
+      "27109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-wyoming-attica-town",
+  "publisher": "Town of Attica (Wyoming County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Sq7KUOgahdDkqoAp/arcgis/rest/services/TownAttica_Zoning_Publish/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36121"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Attica zoning districts, published by Wyoming County GIS organization (abijl_wyco).",
+  "extent": [
+    -78.30772363732972,
+    42.78039595860023,
+    -78.18898734786048,
+    42.87051911702578
+  ],
+  "verification": {
+    "verified_at": 1792279750799,
+    "counties": [
+      "36121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

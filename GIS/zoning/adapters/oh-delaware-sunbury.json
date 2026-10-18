@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-delaware-sunbury",
+  "publisher": "Village of Sunbury, Ohio (zoning layer hosted on Delaware County ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ziXVKVy3BiopMCCU/arcgis/rest/services/Sunbury_City_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39041"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "City of Sunbury zoning districts from Delaware County organization ArcGIS Online (daweiliou), 343 features. Sunbury is a city; no link field.",
+  "extent": [
+    -82.94481414120743,
+    40.20777764612098,
+    -82.82447888057749,
+    40.26734462846111
+  ],
+  "verification": {
+    "verified_at": 1792275806614,
+    "counties": [
+      "39041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

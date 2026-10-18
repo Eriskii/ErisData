@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "id-bannock-county",
+  "publisher": "Bannock County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.bannockcounty.us/server/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16005"
+    ]
+  },
+  "fields": {
+    "link": "PDF_Link",
+    "zone": "Zone"
+  },
+  "filter": "Zone NOT IN ('City', 'Reservation')",
+  "notes": "Bannock County unincorporated zoning (county ordinance 1998-1). Zone holds coded districts: Ag, Comm_Gen, Industrial, Lt_Industrial, Mult_Use, Res_Rural, Res_Sub, Rec, plus land-management classes BLM, NFS and State. Rows coded City (city limits) and Reservation (Fort Hall) are excluded by the filter.",
+  "extent": [
+    -112.54502630665856,
+    42.25641609774421,
+    -111.87557509438992,
+    42.96409431274179
+  ],
+  "verification": {
+    "verified_at": 1792278076607,
+    "counties": [
+      "16005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

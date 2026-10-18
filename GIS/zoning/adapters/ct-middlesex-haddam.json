@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-middlesex-haddam",
+  "publisher": "RiverCOG (Lower Connecticut River Valley Council of Governments), Town of Haddam zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uH7GnAlGDzMooG4B/arcgis/rest/services/RiverCOG_Regional_Zoning/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09130"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Lab",
+    "zone_name": "NAME"
+  },
+  "notes": "Haddam layer from RiverCOG regional zoning service; Zoning_Lab holds the district code, NAME the district name",
+  "extent": [
+    -72.63731068705899,
+    41.41425916679742,
+    -72.45324229979987,
+    41.5196178518801
+  ],
+  "verification": {
+    "verified_at": 1792277542666,
+    "counties": [
+      "09130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

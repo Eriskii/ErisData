@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-lindon",
+  "publisher": "Utah County GIS (Lindon City Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/51",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_LI_LABEL",
+    "zone_name": "ZONE_LI_DESC"
+  },
+  "notes": "Lindon City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 51, 103 features).",
+  "extent": [
+    -111.779078660078,
+    40.32602338779616,
+    -111.65796580519104,
+    40.353840441816374
+  ],
+  "verification": {
+    "verified_at": 1792280890195,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

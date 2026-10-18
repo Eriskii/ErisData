@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nc-mecklenburg-huntersville",
+  "publisher": "Town of Huntersville",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/CADYoH7VVBN3BQHU/arcgis/rest/services/Huntersville_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37119"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNIC",
+    "link": "NOTES",
+    "zone": "ZONE_DES"
+  },
+  "notes": "Town of Huntersville zoning districts, hosted on Town ArcGIS Online account. ZONE_DES holds district code; ETJ field marks extraterritorial parcels.",
+  "extent": [
+    -80.98907005077602,
+    35.34432930058831,
+    -80.75074652607061,
+    35.45618422781338
+  ],
+  "verification": {
+    "verified_at": 1792279943571,
+    "counties": [
+      "37119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

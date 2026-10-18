@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-montgomery-west-carrollton",
+  "publisher": "City of West Carrollton, Ohio (GIS hosted on the City of Kettering portal)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://portal.ketteringoh.org/server/rest/services/GISData/WestCarrolltonZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39113"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Parcel-level layer (one feature per parcel, TAXPINNO) whose ZONING attribute carries each parcel district code; used as no district polygon layer was found. Served from the Kettering portal.",
+  "extent": [
+    -84.29062744120077,
+    39.64026365610482,
+    -84.22082224765715,
+    39.68947354113054
+  ],
+  "verification": {
+    "verified_at": 1792276042870,
+    "counties": [
+      "39113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

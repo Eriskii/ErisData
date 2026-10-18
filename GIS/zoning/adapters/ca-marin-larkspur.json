@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-marin-larkspur",
+  "publisher": "Town of Larkspur (via Marin County GIS MarinMap)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.marinpublic.com/arcgis/rest/services/MarinMap2/Policy_City_grouped/MapServer/23",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06041"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Larkspur zoning districts served by Marin County GIS MarinMap. Zoning field holds the district code; no description field in source.",
+  "extent": [
+    -122.55379888429842,
+    37.921649724031106,
+    -122.5010255977334,
+    37.95925924781161
+  ],
+  "verification": {
+    "verified_at": 1792277368106,
+    "counties": [
+      "06041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

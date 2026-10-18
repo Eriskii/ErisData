@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "co-summit-frisco",
+  "publisher": "Town of Frisco (TOF_Admin)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/C3LC7sBRBPKmkH93/arcgis/rest/services/Zoning_Layers/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08117"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_"
+  },
+  "notes": "Town of Frisco zoning districts, 15 polygons, from the Town of Frisco Zoning Layers service hosted by TOF_Admin. Zone name not in layer; PUD and historic overlays are separate layers and are not used.",
+  "extent": [
+    -106.12074062460216,
+    39.56718556299525,
+    -106.0639795515828,
+    39.598753733207246
+  ],
+  "verification": {
+    "verified_at": 1792277659730,
+    "counties": [
+      "08117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

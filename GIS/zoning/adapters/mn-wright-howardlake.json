@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "mn-wright-howardlake",
+  "publisher": "Wright County GIS (aggregated city zoning, City of Howard Lake)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/CiQCvRGImIxsaFnM/arcgis/rest/services/City_Zoning_in_Wright_County/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27171"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Muncipality",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDesc"
+  },
+  "filter": "Muncipality = 'CITY OF HOWARD LAKE'",
+  "notes": "Wright County GIS layer aggregating parcel-level zoning for the cities in Wright County; filtered to City of Howard Lake.",
+  "extent": [
+    -94.09397479246026,
+    45.02219020308081,
+    -94.0377776786849,
+    45.08327943122814
+  ],
+  "verification": {
+    "verified_at": 1792279379640,
+    "counties": [
+      "27171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "me-york-sanford",
+  "publisher": "City of Sanford, Maine (GIS, AxisGIS sync on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/r42ivGMv7dqAE150/arcgis/rest/services/General_Zoning_Data/FeatureServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23031"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "City of Sanford General Zoning districts (46 features) from the city AxisGIS data synced to ArcGIS Online by the city (Admin_Sanford). Single-jurisdiction city layer; overlays are separate layers and not used.",
+  "extent": [
+    -70.8724383420835,
+    43.33484231045862,
+    -70.64239615204846,
+    43.49197147414504
+  ],
+  "verification": {
+    "verified_at": 1792278881994,
+    "counties": [
+      "23031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

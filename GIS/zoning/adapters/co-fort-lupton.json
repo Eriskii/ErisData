@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-fort-lupton",
+  "publisher": "City of Fort Lupton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/7fqvVMRB6DcB5wXC/arcgis/rest/services/Fort_Lupton_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08123"
+    ]
+  },
+  "fields": {
+    "zone": "Class2",
+    "zone_name": "Class"
+  },
+  "notes": "City of Fort Lupton zoning only. Layer named Fort_Lupton_Zoning on the city ftluptongis account.",
+  "extent": [
+    -104.85825629178628,
+    40.02951303720053,
+    -104.73484847667764,
+    40.12022458846985
+  ],
+  "verification": {
+    "verified_at": 1792277587114,
+    "counties": [
+      "08123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-ashland-county",
+  "publisher": "Ashland County, WI (copy in Wisconsin PSC project map service)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.psc.wi.gov/server/rest/services/Electric/AshlandIronwood_4220CE183/MapServer/23",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDISTRI"
+  },
+  "notes": "Ashland County zoning (county-zoned unincorporated towns) copied in a Wisconsin PSC utility project MapServer, not the county server; 9 features. Covers county-zoned land outside cities and villages only. Official county layer not found on county open data site for query.",
+  "extent": [
+    -90.93791182291756,
+    45.97800288563265,
+    -90.29981422011899,
+    46.709084815353584
+  ],
+  "verification": {
+    "verified_at": 1792281169199,
+    "counties": [
+      "55003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-napa-st-helena",
+  "publisher": "City of St. Helena (via California Statewide Zoning, Office of Planning and Research)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06055"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'NAP' AND Jurisdiction = 'St Helena'",
+  "notes": "Jurisdiction-level extract of the California statewide zoning layer (OPR, North). Source REST (county), 2022 q2. Only the St Helena records are used. No ordinance link in the layer.",
+  "extent": [
+    -122.4930406798442,
+    38.48658017708138,
+    -122.43594794563646,
+    38.55917205129035
+  ],
+  "verification": {
+    "verified_at": 1792277428195,
+    "counties": [
+      "06055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

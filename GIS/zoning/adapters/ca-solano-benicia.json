@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-solano-benicia",
+  "publisher": "City of Benicia (hosted by Solano County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://solanocountygis.com/server/rest/services/Aumentum/AumentumInternal/MapServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06095"
+    ]
+  },
+  "fields": {
+    "zone_name": "zonedesc"
+  },
+  "notes": "City of Benicia zoning districts, served from Solano County Aumentum MapServer layer 13. Covers only the City of Benicia.",
+  "extent": [
+    -122.19965619555532,
+    38.04191540599725,
+    -122.10430626956736,
+    38.1094403103731
+  ],
+  "verification": {
+    "verified_at": 1792277528108,
+    "counties": [
+      "06095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

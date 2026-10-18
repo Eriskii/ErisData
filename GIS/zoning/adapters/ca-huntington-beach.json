@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-huntington-beach",
+  "publisher": "City of Huntington Beach (HB_GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/KaS5yngHhCOBHXdC/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "zone": "Base",
+    "zone_name": "ZoneType"
+  },
+  "notes": "City of Huntington Beach official zoning (HB_GIS account). Base zoning districts; Overlay field excluded.",
+  "extent": [
+    -118.0826403547188,
+    33.62933321802423,
+    -117.9404837320175,
+    33.75606433309339
+  ],
+  "verification": {
+    "verified_at": 1792277461440,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

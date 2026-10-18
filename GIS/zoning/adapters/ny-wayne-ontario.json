@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-wayne-ontario",
+  "publisher": "Wayne County GIS (Town of Ontario zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.wayne.ny.us/arcgis/rest/services/Ontario_Zoning/FeatureServer/62",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36117"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Class",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "Town of Ontario (Wayne County) zoning, digitized by Wayne County GIS / GTG standardization 2024 from the town 2024 zoning map. Single-jurisdiction layer.",
+  "extent": [
+    -77.37621809942002,
+    43.201840758600774,
+    -77.25197970451887,
+    43.28143924905304
+  ],
+  "verification": {
+    "verified_at": 1792279664934,
+    "counties": [
+      "36117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

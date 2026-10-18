@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-baldwin-park",
+  "publisher": "City of Baldwin Park (zoning from California Governor's Office of Planning and Research statewide zoning, South)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_South/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'LAN' AND Jurisdiction = 'Baldwin Park'",
+  "notes": "State of California (OPR) statewide zoning compilation, South; LA County cities carry County code LAN. Filtered to Baldwin Park. City publishes no service of its own found.",
+  "extent": [
+    -118.007692297976,
+    34.05568203506313,
+    -117.94299676039604,
+    34.10693596467849
+  ],
+  "verification": {
+    "verified_at": 1792277998451,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

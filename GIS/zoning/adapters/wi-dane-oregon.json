@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-dane-oregon",
+  "publisher": "Village of Oregon",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Zis1U6AMAVmy1F0N/arcgis/rest/services/Village_of_Oregon_WI_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55025"
+    ]
+  },
+  "fields": {
+    "zone": "FinalZoning"
+  },
+  "notes": "Village of Oregon zoning map layer, published from the village ArcGIS Online account (owner vande1). Zone code only, no description field.",
+  "extent": [
+    -89.42325939296785,
+    42.905240721936856,
+    -89.36516822174602,
+    42.94297354049532
+  ],
+  "verification": {
+    "verified_at": 1792281320198,
+    "counties": [
+      "55025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

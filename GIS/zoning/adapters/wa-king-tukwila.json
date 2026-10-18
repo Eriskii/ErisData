@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-king-tukwila",
+  "publisher": "City of Tukwila GIS (Open Data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/ttErFEyWkCDr9b67/arcgis/rest/services/Tukwila_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "link": "ZoningURL",
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Tukwila zoning districts, Tukwila only (King County part of the city). ZoningOverlay fields are overlays, not mapped.",
+  "extent": [
+    -122.31690636323064,
+    47.41885222070323,
+    -122.2390012712665,
+    47.53276138867334
+  ],
+  "verification": {
+    "verified_at": 1792281237899,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

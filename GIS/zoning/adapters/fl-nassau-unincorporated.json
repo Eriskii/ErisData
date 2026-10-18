@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-nassau-unincorporated",
+  "publisher": "Nassau County Planning and Growth Management (via Nassau County Property Appraiser GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/NassauCountyPublicTaxMap_MIL1/MapServer/154",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12089"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "zoning_description"
+  },
+  "notes": "Unincorporated Nassau County zoning only; covers the county own land outside Fernandina Beach, Hilliard and the Town of Callahan. Served by the Nassau County Property Appraiser GIS. No ordinance link field populated.",
+  "extent": [
+    -82.05540163926008,
+    30.27341547285791,
+    -81.4337644396579,
+    30.832788566764194
+  ],
+  "verification": {
+    "verified_at": 1792277955397,
+    "counties": [
+      "12089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

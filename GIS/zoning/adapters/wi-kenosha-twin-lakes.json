@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-kenosha-twin-lakes",
+  "publisher": "Village of Twin Lakes (via Kenosha County mapping)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapping.kenoshacountywi.gov/server/rest/services/Interactive_Mapping/Zoning/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55059"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneDist",
+    "zone_name": "Describe"
+  },
+  "notes": "Village of Twin Lakes zoning districts, served by Kenosha County GIS (Interactive_Mapping/Zoning layer 10). No ordinance link field is populated.",
+  "extent": [
+    -88.29518685782078,
+    42.493302182058706,
+    -88.19221241670823,
+    42.55031749834997
+  ],
+  "verification": {
+    "verified_at": 1792281203272,
+    "counties": [
+      "55059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

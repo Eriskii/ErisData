@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-suffolk-north-haven",
+  "publisher": "Village of North Haven (via Town of Southampton GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.southamptontownny.gov/gisserver/rest/services/DataServices/LandManager/MapServer/36",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESCRIPT"
+  },
+  "notes": "Village of North Haven zoning districts, served by the Town of Southampton GIS (Land Manager MapServer layer North Haven). Village of North Haven only. 3 features.",
+  "extent": [
+    -72.33267728680855,
+    41.00304031507022,
+    -72.29762137022144,
+    41.040899930246354
+  ],
+  "verification": {
+    "verified_at": 1792279767780,
+    "counties": [
+      "36103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

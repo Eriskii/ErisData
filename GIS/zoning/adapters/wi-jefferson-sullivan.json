@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-jefferson-sullivan",
+  "publisher": "Jefferson County GIS (Village of Sullivan base zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.jeffersoncountywi.gov/arcgis/rest/services/Zoning/Muni_Zoning/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55055"
+    ]
+  },
+  "fields": {
+    "zone": "MUNI_ZONES"
+  },
+  "notes": "Village of Sullivan base zoning from the Jefferson County Muni_Zoning service. MUNI_ZONES holds the district code; no name or ordinance link field published.",
+  "extent": [
+    -88.60104809834708,
+    43.00341433087533,
+    -88.58014745136471,
+    43.0222863996065
+  ],
+  "verification": {
+    "verified_at": 1792281240267,
+    "counties": [
+      "55055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-midvale",
+  "publisher": "Midvale City (zoning districts, city-linked ArcGIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/w3P61ZsUVtl411Ls/arcgis/rest/services/Midvale_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49035"
+    ]
+  },
+  "fields": {
+    "link": "Zoning_Inf",
+    "zone": "JURIS",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Midvale City zoning districts (109 features) on city-linked ArcGIS account (zachleavitt_utcdo). Zone code in JURIS; ordinance links point to the Midvale municipal code.",
+  "extent": [
+    -111.92148796792333,
+    40.59374725214733,
+    -111.85577397494768,
+    40.63039305270653
+  ],
+  "verification": {
+    "verified_at": 1792281949051,
+    "counties": [
+      "49035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

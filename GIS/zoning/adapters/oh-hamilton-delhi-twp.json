@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-hamilton-delhi-twp",
+  "publisher": "Delhi Township / Hamilton County CAGIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cagisonline.hamilton-co.org/arcgis/rest/services/Countywide_Layers/Zoning/MapServer/23",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39061"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONE"
+  },
+  "notes": "CAGIS Countywide_Layers Zoning MapServer layer 23, Delhi Township Zoning (Delhi Township only; TOWNSHIP field reads DELHTP).",
+  "extent": [
+    -84.69560426277882,
+    39.07708462445256,
+    -84.57906291962779,
+    39.126614600543455
+  ],
+  "verification": {
+    "verified_at": 1792275867738,
+    "counties": [
+      "39061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

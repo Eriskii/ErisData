@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-newman-statewide-copy",
+  "publisher": "Newman (from California statewide zoning compilation, personal ArcGIS Online copy by 1860040_CAL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06099"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'STA' AND Jurisdiction = 'Newman'",
+  "notes": "Personal ArcGIS Online copy of the California statewide zoning compilation; not published by the City of Newman. City publishes its zoning map only as a PDF (cityofnewman.com, 2017). Source and Date fields vary by record.",
+  "extent": [
+    -121.03794066864482,
+    37.30370489969505,
+    -121.00201076120904,
+    37.32750212215806
+  ],
+  "verification": {
+    "verified_at": 1792277510726,
+    "counties": [
+      "06099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "co-jefferson-lakewood",
+  "publisher": "City of Lakewood eGIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.lakewoodco.gov/server/rest/services/PL/LakewoodZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08059"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Lakewood zoning (Title 17) from eGIS; ZONING holds district code. Lakewood city limits within Jefferson County.",
+  "extent": [
+    -105.19983265358756,
+    39.61844751745305,
+    -105.05320604796962,
+    39.76198909231123
+  ],
+  "verification": {
+    "verified_at": 1792277467095,
+    "counties": [
+      "08059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

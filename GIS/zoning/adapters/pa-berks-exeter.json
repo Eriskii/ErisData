@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-berks-exeter",
+  "publisher": "Exeter Township, Berks County (Exeter Township GIS, ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/mZNXjWR7mlNWryGs/arcgis/rest/services/Zoning_Districts_(view)/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42011"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "Zone"
+  },
+  "notes": "Exeter Township zoning districts layer from the township viewer (exeter.maps.arcgis.com). Covers Exeter Township only; 40 polygons. Overlay districts are in a separate layer (FeatureServer/0), not used.",
+  "extent": [
+    -75.89900261491519,
+    40.26726532203027,
+    -75.77898257415083,
+    40.363441599748526
+  ],
+  "verification": {
+    "verified_at": 1792280222514,
+    "counties": [
+      "42011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

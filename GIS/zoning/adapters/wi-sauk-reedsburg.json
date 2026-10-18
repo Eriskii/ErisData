@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-sauk-reedsburg",
+  "publisher": "City of Reedsburg via Sauk County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.sauk.wi.us/arcgis/rest/services/Sauk/ZoningDistricts_CityOfReedsburg/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55111"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Reedsburg zoning districts served by Sauk County GIS. Not in the county ZoningDistricts layer. No ordinance link populated in source.",
+  "extent": [
+    -90.03479379645627,
+    43.50510960929615,
+    -89.95495309927344,
+    43.55940478820014
+  ],
+  "verification": {
+    "verified_at": 1792281242555,
+    "counties": [
+      "55111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

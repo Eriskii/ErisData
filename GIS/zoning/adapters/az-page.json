@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "az-page",
+  "publisher": "City of Page, AZ (layer by Scott_Sixis on ArcGIS Online, serving the city zoning map)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/jlVr3cAu49DkX9ri/arcgis/rest/services/Page_AZ_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04005"
+    ]
+  },
+  "fields": {
+    "link": "ZoningLink",
+    "zone": "ZoningCode",
+    "zone_name": "Zoning"
+  },
+  "notes": "City of Page zoning districts (incorporated Page only). Copy on ArcGIS Online by individual user Scott_Sixis, not a city-owned service; city publishes its map via an Experience viewer with no REST link. Used because nothing official is queryable.",
+  "extent": [
+    -111.5104452151524,
+    36.87406846701196,
+    -111.42080571680508,
+    36.939877999347345
+  ],
+  "verification": {
+    "verified_at": 1792277243099,
+    "counties": [
+      "04005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

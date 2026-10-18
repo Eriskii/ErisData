@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-sanford",
+  "publisher": "City of Sanford GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.sanfordfl.gov/server/rest/services/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12117"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Sanford official zoning districts from the city GIS Zoning MapServer.",
+  "extent": [
+    -81.34718435166415,
+    28.73884006721082,
+    -81.20180942726716,
+    28.82950868514541
+  ],
+  "verification": {
+    "verified_at": 1792277729151,
+    "counties": [
+      "12117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

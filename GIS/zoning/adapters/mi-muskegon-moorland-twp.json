@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-muskegon-moorland-twp",
+  "publisher": "Muskegon County GIS (Moorland Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.muskegoncountygis.com/arcgis/rest/services/Zoning_Viewer/Zoning_Viewer/MapServer/46",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26121"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "County GIS Zoning_Viewer service; Moorland Township base zoning districts (layer 46).",
+  "extent": [
+    -86.02790915320271,
+    43.20570616540398,
+    -85.9078873951541,
+    43.29373915660037
+  ],
+  "verification": {
+    "verified_at": 1792275436627,
+    "counties": [
+      "26121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

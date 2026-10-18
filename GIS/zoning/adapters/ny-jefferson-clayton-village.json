@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-jefferson-clayton-village",
+  "publisher": "Village of Clayton (via DANC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/37",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36045"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Village of Clayton zoning districts from the DANC GIS host (FDC_Special_Districts_Zoning layer 37). Single-jurisdiction layer; PDF_Link not mapped (empty).",
+  "extent": [
+    -76.11000486130497,
+    44.222983008826326,
+    -76.05697568186454,
+    44.246407470176706
+  ],
+  "verification": {
+    "verified_at": 1792279799977,
+    "counties": [
+      "36045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

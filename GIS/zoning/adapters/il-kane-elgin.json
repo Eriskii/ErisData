@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-kane-elgin",
+  "publisher": "City of Elgin, IL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/cf268c78b4ba4d09814f679bb094cd25/rest/services/Portal/ElginZoning_V5/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17089"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Class"
+  },
+  "notes": "City of Elgin zoning districts, published by the city staff account (cityofelgin) as Elgin Zoning, layer named ElginZoning_V3. Only a district code is published, so no zone name is mapped. Elgin also spans Cook and DuPage counties; this layer is the city-wide polygon set.",
+  "extent": [
+    -88.45455415729236,
+    41.97157405549511,
+    -88.22379323558351,
+    42.1035887641743
+  ],
+  "verification": {
+    "verified_at": 1792278339209,
+    "counties": [
+      "17089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

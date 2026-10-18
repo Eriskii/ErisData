@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-hamilton-madeira",
+  "publisher": "City of Madeira / Hamilton County CAGIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cagisonline.hamilton-co.org/arcgis/rest/services/Countywide_Layers/Zoning/MapServer/36",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39061"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONING",
+    "zone_name": "ZONE_DESCRIPTION"
+  },
+  "notes": "CAGIS Countywide_Layers Zoning MapServer layer 36, Madeira City Zoning.",
+  "extent": [
+    -84.39596328344925,
+    39.162601452849216,
+    -84.34394739366581,
+    39.20510161393825
+  ],
+  "verification": {
+    "verified_at": 1792275849442,
+    "counties": [
+      "39061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

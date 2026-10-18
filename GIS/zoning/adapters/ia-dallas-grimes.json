@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ia-dallas-grimes",
+  "publisher": "City of Grimes, Iowa (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.grimesiowa.gov/gisserver/rest/services/DevServ/Zoning_Public/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19049"
+    ]
+  },
+  "fields": {
+    "link": "ecp_district_regs",
+    "zone": "zoning",
+    "zone_name": "zoning_description"
+  },
+  "notes": "City of Grimes zoning districts (city spans Dallas and Polk counties; the layer has no county field). Overlay districts are in layer 2 and are not used. link is the EnCode Plus district regulations page.",
+  "extent": [
+    -93.84820116153797,
+    41.63298343030643,
+    -93.75602227408339,
+    41.71746953961448
+  ],
+  "verification": {
+    "verified_at": 1792278544631,
+    "counties": [
+      "19049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

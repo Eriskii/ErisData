@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-waukesha-pewaukee",
+  "publisher": "City of Pewaukee",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/oFI1njsZy1eQYeWg/arcgis/rest/services/Zoning/FeatureServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55133"
+    ]
+  },
+  "fields": {
+    "zone": "District_Name",
+    "zone_name": "Category"
+  },
+  "notes": "City of Pewaukee Zoning layer (Pewaukee-published service). Category holds the district class; District_Name the district code.",
+  "extent": [
+    -88.35410480693436,
+    43.02304550123603,
+    -88.18508120813945,
+    43.10509262612651
+  ],
+  "verification": {
+    "verified_at": 1792281450090,
+    "counties": [
+      "55133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

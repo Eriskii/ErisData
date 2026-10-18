@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-gilpin-unincorporated",
+  "publisher": "Gilpin County Community Development (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gilpincounty.org/server/rest/services/Hosted/Zoning_Districts_of_Gilpin_County_Colorado/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08047"
+    ]
+  },
+  "fields": {
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "filter": "jurisdiction IS NULL",
+  "notes": "Gilpin County zoning districts for unincorporated county land. The layer also holds City of Black Hawk and City of Central City rows and BLM, USFS and NOAA land; the filter keeps only the rows with no jurisdiction, which are the county's own unincorporated districts. Unofficial per the county GIS page for property use; county-hosted.",
+  "extent": [
+    -105.66648251177088,
+    39.74571641609732,
+    -105.39599063299596,
+    39.93841001842948
+  ],
+  "verification": {
+    "verified_at": 1792277446314,
+    "counties": [
+      "08047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-thomas-county",
+  "publisher": "Thomas County GA GIS (thomascountymaps.org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.thomascountymaps.org/arcgis/rest/services/zoning_landuse/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13275"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Thomas County GA county zoning layer, county GIS (thomascountymaps.org). Covers unincorporated county land; no jurisdiction field. Zone names not provided in the layer (zone_name left unmapped); codes follow the county zoning ordinance on Municode.",
+  "extent": [
+    -84.11940775944444,
+    30.657788493483295,
+    -83.73605904890788,
+    31.077962155388622
+  ],
+  "verification": {
+    "verified_at": 1792277990833,
+    "counties": [
+      "13275"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "me-knox-warren",
+  "publisher": "Town of Warren, Maine (Knox County GIS, ArcGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/EvllkkFm8v8CygAm/arcgis/rest/services/WarrenZoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23013"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "notes": "Warren Land Use Zoning, digitized 2019 from the town zoning map; layer 2 of WarrenZoning. Layers 0, 1, 3, 4 are maritime, village, shoreland and stream overlays, not used. Zone field District holds the district name (no code field; TYPE holds parcel type, not used).",
+  "extent": [
+    -69.27524175458208,
+    44.112713518392795,
+    -69.232684782108,
+    44.12435865320075
+  ],
+  "verification": {
+    "verified_at": 1792279023454,
+    "counties": [
+      "23013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

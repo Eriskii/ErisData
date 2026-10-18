@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-grayson-denison",
+  "publisher": "City of Denison GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://denisongis.newedgeservices.com/arcgis/rest/services/Production_Datasets/DenisonData_Public/MapServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48181"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Denison zoning districts (ZoningDistrict layer of the city public GIS). Denison city limits only; ETJ not zoned by the city.",
+  "extent": [
+    -96.68196465034141,
+    33.694990620766234,
+    -96.51679849819789,
+    33.857922065566534
+  ],
+  "verification": {
+    "verified_at": 1792280584298,
+    "counties": [
+      "48181"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

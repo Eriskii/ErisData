@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-schoharie-seward-town",
+  "publisher": "Town of Seward (via Schoharie County GIS, VHB)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://spatialags.vhb.com/arcgis/rest/services/20327_Schoharie/NY_County_Schoharie/MapServer/41",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36095"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Seward zoning district layer from the Schoharie County GIS map service (hosted by VHB for the county).",
+  "extent": [
+    -74.66012337888088,
+    42.661769256126114,
+    -74.50485637867426,
+    42.75038740639771
+  ],
+  "verification": {
+    "verified_at": 1792279637908,
+    "counties": [
+      "36095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

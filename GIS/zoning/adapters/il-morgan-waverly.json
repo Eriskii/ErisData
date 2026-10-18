@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-morgan-waverly",
+  "publisher": "City of Waverly, IL (Morgan County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/95PFahBF8eyGEfuc/arcgis/rest/services/Waverly/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17137"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Zone"
+  },
+  "notes": "City of Waverly base zoning districts, served from Morgan County GIS org (morganmaps). Layer 2 WaverlyZoning; layer 0 is city boundary, layer 1 extra territory, not used.",
+  "extent": [
+    -89.99228498491368,
+    39.562106101079046,
+    -89.91491617745125,
+    39.62186345608209
+  ],
+  "verification": {
+    "verified_at": 1792278136359,
+    "counties": [
+      "17137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wy-park-cody-commercial",
+  "publisher": "City of Cody, WY (Planning and Zoning, via ArcGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/RkVgS6sXBDRsCyQg/arcgis/rest/services/Zoning_Map_WFL1/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56029"
+    ]
+  },
+  "fields": {
+    "zone": "COMMERCIAL"
+  },
+  "notes": "City of Cody commercial zoning districts (Commercial_Layers); companion to wy-park-cody residential layer. Owner: City of Cody GIS via udye1121 account on ArcGIS Online.",
+  "extent": [
+    -109.11783978315384,
+    44.48739533368363,
+    -109.00573922157456,
+    44.55120415650541
+  ],
+  "verification": {
+    "verified_at": 1792281346639,
+    "counties": [
+      "56029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

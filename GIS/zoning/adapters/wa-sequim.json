@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wa-sequim",
+  "publisher": "City of Sequim",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/1ys59GX361EjvWii/arcgis/rest/services/Sequim_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53009"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Current"
+  },
+  "notes": "City of Sequim zoning districts, published by the city on its ArcGIS Online organization. Zone_Current holds the district code; the Current_ and Potential flags distinguish current from potential zoning. No link field is published.",
+  "extent": [
+    -123.14145067717644,
+    48.05342520976457,
+    -123.03734086739304,
+    48.102542043821266
+  ],
+  "verification": {
+    "verified_at": 1792281081122,
+    "counties": [
+      "53009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

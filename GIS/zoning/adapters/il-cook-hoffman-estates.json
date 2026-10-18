@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-cook-hoffman-estates",
+  "publisher": "Village of Hoffman Estates GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/wZbN8jfxpSCT3u1Y/arcgis/rest/services/Zoning__View_Layer/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17031"
+    ]
+  },
+  "fields": {
+    "zone": "Z_CODE",
+    "zone_name": "ZoningCode"
+  },
+  "notes": "Village of Hoffman Estates Zoning District layer (Zoning - View, village ArcGIS Online org). Covers Hoffman Estates only. Z_CODE is the district code, ZoningCode the district name; SUB_ZCODE holds subzones and is not mapped.",
+  "extent": [
+    -88.2434189150744,
+    42.02662705659646,
+    -88.05998836213614,
+    42.11794560872428
+  ],
+  "verification": {
+    "verified_at": 1792278280451,
+    "counties": [
+      "17031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

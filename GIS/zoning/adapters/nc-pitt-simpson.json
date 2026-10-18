@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-pitt-simpson",
+  "publisher": "Pitt County GIS (Town of Simpson zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pittcountync.gov/gis/rest/services/Permitting/PermitDisplayMap/MapServer/25",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37147"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "Pitt County GIS permitting display map layer of Town of Simpson zoning polygons; covers Simpson only.",
+  "extent": [
+    -77.30026242687893,
+    35.55467497982357,
+    -77.25749650686761,
+    35.59399897612026
+  ],
+  "verification": {
+    "verified_at": 1792279909028,
+    "counties": [
+      "37147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

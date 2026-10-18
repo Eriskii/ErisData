@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-middlesex-malden",
+  "publisher": "City of Malden, MA (GIS, cadastral service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/MtnqIKHuMcAgIo2K/arcgis/rest/services/zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25017"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Malden zoning layer from the city cadastral service (compiled from tax maps; item notes data last updated March 2011, schema updated 2022). Zoning holds district codes. Single-jurisdiction layer.",
+  "extent": [
+    -71.0895382288837,
+    42.412268778647885,
+    -71.02032950730953,
+    42.44496159124471
+  ],
+  "verification": {
+    "verified_at": 1792278906878,
+    "counties": [
+      "25017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-duchesne-county",
+  "publisher": "Duchesne County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.duchesnecountygis.org/server/rest/services/PUBLIC/ParcelFabric_Viewer/MapServer/0",
+    "page_size": 10000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49013"
+    ]
+  },
+  "fields": {
+    "link": "ZD_Desc_Link",
+    "zone": "Zoning_District",
+    "zone_name": "ZD_ShortDesc"
+  },
+  "notes": "Duchesne County zoning districts from the county GIS public ParcelFabric_Viewer service (layer ZoningDistricts, 292 features). Covers the unincorporated county land, not the incorporated towns.",
+  "extent": [
+    -110.90858470914176,
+    39.80098616531683,
+    -109.96396251594544,
+    40.57096349593884
+  ],
+  "verification": {
+    "verified_at": 1792280823465,
+    "counties": [
+      "49013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

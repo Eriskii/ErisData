@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-kenosha-pleasant-prairie",
+  "publisher": "Village of Pleasant Prairie (via Kenosha County mapping)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapping.kenoshacountywi.gov/server/rest/services/Interactive_Mapping/PleasantPrairieZoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55059"
+    ]
+  },
+  "fields": {
+    "link": "ZonOrdLink",
+    "zone": "Zoning"
+  },
+  "notes": "Village of Pleasant Prairie zoning districts, served by Kenosha County GIS. 1054 polygons.",
+  "extent": [
+    -87.97120229081202,
+    42.49183805365659,
+    -87.79883545104683,
+    42.57525837748281
+  ],
+  "verification": {
+    "verified_at": 1792281185061,
+    "counties": [
+      "55059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

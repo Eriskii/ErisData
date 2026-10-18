@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-tattnall-collins",
+  "publisher": "City of Collins (hosted via Tattnall County GeoData View, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/City_of_Collins_GeoData_View/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13267"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONEDESCRI"
+  },
+  "notes": "City of Collins zoning districts only (CollinsZoning layer, 30 features). Hosted by the Tattnall County GeoData View account on ArcGIS Online. No ordinance link in the source.",
+  "extent": [
+    -82.1212504676441,
+    32.16992216787803,
+    -82.09938246071025,
+    32.189912416302846
+  ],
+  "verification": {
+    "verified_at": 1792277967369,
+    "counties": [
+      "13267"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

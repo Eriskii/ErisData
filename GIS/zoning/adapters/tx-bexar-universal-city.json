@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-bexar-universal-city",
+  "publisher": "City of Universal City, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/tLBerFoAXhl0kjAy/arcgis/rest/services/UC_Zoning_2024_07_11/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48029"
+    ]
+  },
+  "fields": {
+    "link": "DOCUMENT_LINK",
+    "zone": "ZONING_DESCRIPTION"
+  },
+  "notes": "City of Universal City zoning districts (city limits), 2024 layer served from the city ArcGIS org (StormwaterWKeller). zone holds the district code and description together, e.g. R1 - Large Lot Residential.",
+  "extent": [
+    -98.33139711939491,
+    29.52600484071428,
+    -98.27382064449336,
+    29.580266203277773
+  ],
+  "verification": {
+    "verified_at": 1792280874888,
+    "counties": [
+      "48029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

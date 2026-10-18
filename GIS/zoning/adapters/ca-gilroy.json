@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-gilroy",
+  "publisher": "City of Gilroy (city GIS, justin.murtiff account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/n7NW5ijV4dJUmrID/arcgis/rest/services/Parcels_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06085"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "City",
+    "zone": "ZoneCode",
+    "zone_name": "ZClass"
+  },
+  "notes": "Parcel-level zoning from the City of Gilroy parcel view (ZoneCode holds the zoning code); a last resort, no district polygon layer found. Parcels in the city and county; filter to City = GILROY if the layer holds others.",
+  "extent": [
+    -121.64337472493509,
+    36.96571033860422,
+    -121.5146866593559,
+    37.05599362119905
+  ],
+  "verification": {
+    "verified_at": 1792277649364,
+    "counties": [
+      "06085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "or-klamath-merrill",
+  "publisher": "Oregon DLCD (statewide zoning, City of Merrill jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41035"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Merrill'",
+  "notes": "Statewide DLCD zoning layer filtered to the City of Merrill (ownerName). Zone is the DLCD generalized state zoning class (orZCode), not the city code.",
+  "extent": [
+    -121.6151758108656,
+    42.0200269855664,
+    -121.58961427820206,
+    42.030626941637806
+  ],
+  "verification": {
+    "verified_at": 1792280037533,
+    "counties": [
+      "41035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

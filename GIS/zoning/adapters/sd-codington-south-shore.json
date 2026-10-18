@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sd-codington-south-shore",
+  "publisher": "City of South Shore (1st District MapNet, Codington County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Codington/codingtonmapnetpro/MapServer/37",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46029"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT",
+    "zone_name": "LABEL2"
+  },
+  "notes": "South Shore zoning districts from the county MapNet service; layer holds South Shore only.",
+  "extent": [
+    -96.94446105104869,
+    45.10153116569246,
+    -96.91381017494476,
+    45.11061782132414
+  ],
+  "verification": {
+    "verified_at": 1792280308153,
+    "counties": [
+      "46029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

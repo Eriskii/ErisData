@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wa-lincoln-almira",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53043"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYNAME = 'Lincoln' AND COUNTYFP = '043' AND Jurisdiction = 'Almira'",
+  "notes": "Washington State Zoning Atlas (Commerce) statewide prototype layer, filtered to the Town of Almira within Lincoln County.",
+  "extent": [
+    -118.94759828212553,
+    47.706051114954015,
+    -118.91821461821029,
+    47.714021990533816
+  ],
+  "verification": {
+    "verified_at": 1792281079553,
+    "counties": [
+      "53043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

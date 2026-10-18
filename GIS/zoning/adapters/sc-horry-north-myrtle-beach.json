@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sc-horry-north-myrtle-beach",
+  "publisher": "City of North Myrtle Beach, SC",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/4S5UwtdAlT0JdkJ2/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45051"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of North Myrtle Beach zoning layer; the city labels it as of 2-25-19, so it may be out of date.",
+  "extent": [
+    -78.80544181886644,
+    33.776006608300825,
+    -78.60036409819764,
+    33.8667986960388
+  ],
+  "verification": {
+    "verified_at": 1792280307054,
+    "counties": [
+      "45051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-mountain-view",
+  "publisher": "City of Mountain View Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.mountainview.gov/arcgis/rest/services/Public/ZoningDistrict/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06085"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Mountain View zoning districts only. SUFFIX holds density/lot size suffix; zone is the zone initials.",
+  "extent": [
+    -122.11857117406886,
+    37.3536786533157,
+    -122.04406449687012,
+    37.45137971631746
+  ],
+  "verification": {
+    "verified_at": 1792277414128,
+    "counties": [
+      "06085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

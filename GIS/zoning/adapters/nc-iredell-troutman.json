@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-iredell-troutman",
+  "publisher": "Iredell County GIS (Town of Troutman zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.iredellcountync.gov/server/rest/services/Data/Zoning/MapServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37097"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDIC",
+    "zone": "ZONING"
+  },
+  "notes": "Town of Troutman zoning districts, served by Iredell County GIS (MapServer layer 2, separate from the county layer 0).",
+  "extent": [
+    -80.9436109930452,
+    35.63844333878619,
+    -80.80742536852685,
+    35.738914187862605
+  ],
+  "verification": {
+    "verified_at": 1792279820631,
+    "counties": [
+      "37097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

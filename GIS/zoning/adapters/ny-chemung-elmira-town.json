@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-chemung-elmira-town",
+  "publisher": "Town of Elmira / Southern Tier Central Regional Planning (STC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/qO6xd1V1VbSyViir/arcgis/rest/services/Town_of_Elmira_zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36015"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Last resort: parcel layer (about 3,260 parcels) carrying each parcel zoning code in Zoning; no standalone district layer found for the Town of Elmira. Hosted by STC regional planning GIS. Single-town layer.",
+  "extent": [
+    -76.86489397872522,
+    42.0448441070112,
+    -76.71930057317842,
+    42.12721965141669
+  ],
+  "verification": {
+    "verified_at": 1792279607921,
+    "counties": [
+      "36015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

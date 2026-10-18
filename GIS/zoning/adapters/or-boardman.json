@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-boardman",
+  "publisher": "Oregon DLCD (statewide zoning compilation, City of Boardman records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41049"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Boardman'",
+  "notes": "State DLCD statewide zoning compilation (ZoneOR_Gov2Pub); features owned by Boardman, generalized to state zoning classes (orZCode/orZDesc), local codes blank. Effective 2023-03-17. Boardman publishes its own UrbanForm map (boardman.urbanform.us) which was not queryable when checked.",
+  "extent": [
+    -119.72102918391444,
+    45.81621199971364,
+    -119.65433589016062,
+    45.85356690481402
+  ],
+  "verification": {
+    "verified_at": 1792280090325,
+    "counties": [
+      "41049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

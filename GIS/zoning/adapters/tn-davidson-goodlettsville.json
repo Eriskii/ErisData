@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tn-davidson-goodlettsville",
+  "publisher": "City of Goodlettsville, TN",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/qSbT66zM7qttH0fv/arcgis/rest/services/ZONINGARGISMAP/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Goodlettsville zoning districts (layer ZoningDistrict06242025, city ZONINGARGISMAP service). Covers the city only; satellite city of Goodlettsville, part in Sumner County too. Overlay layers in same service are separate and not included.",
+  "extent": [
+    -86.74226038923518,
+    36.28467275777427,
+    -86.65994533618354,
+    36.38505783271024
+  ],
+  "verification": {
+    "verified_at": 1792280380945,
+    "counties": [
+      "47037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

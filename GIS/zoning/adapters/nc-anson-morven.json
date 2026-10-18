@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-anson-morven",
+  "publisher": "Town of Morven (via Anson County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ansoncountygis.com/arcgis/rest/services/ZoningLayers/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37007"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE"
+  },
+  "notes": "Town of Morven zoning from Anson County GIS ZoningLayers MapServer layer 3 (Morven Zoning). No zone description field published.",
+  "extent": [
+    -80.0126016109226,
+    34.856515920317065,
+    -79.99071545876042,
+    34.884865664125684
+  ],
+  "verification": {
+    "verified_at": 1792279678682,
+    "counties": [
+      "37007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

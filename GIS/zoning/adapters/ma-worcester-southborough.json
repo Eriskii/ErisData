@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-worcester-southborough",
+  "publisher": "Town of Southborough, MA (AxisGIS data sync, ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/3C9IuZfVFLPdjgX8/arcgis/rest/services/AxisGISDataSync/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Zoning_Description"
+  },
+  "notes": "Town of Southborough base zoning polygons from the town AxisGIS data sync service (56 features). Covers Southborough only.",
+  "extent": [
+    -71.58520913287651,
+    42.26280180302202,
+    -71.48510979484853,
+    42.33034505925018
+  ],
+  "verification": {
+    "verified_at": 1792279273498,
+    "counties": [
+      "25027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

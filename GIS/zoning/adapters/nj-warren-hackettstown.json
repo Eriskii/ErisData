@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "nj-warren-hackettstown",
+  "publisher": "Warren County Planning Department (NJ)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/4mb1fO9eRe47EZZx/arcgis/rest/services/Warren_County_Zoning/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "zone": "ZONE",
+    "zone_name": "ZONE_DESCR"
+  },
+  "filter": "Municipality = 'Hackettstown'",
+  "notes": "Warren County Zoning county-wide buildout-analysis map (22 municipalities); filtered to Hackettstown. Source is county planning dept, not the town itself.",
+  "extent": [
+    -74.85057222924904,
+    40.82900658114516,
+    -74.80192749981735,
+    40.883394331421826
+  ],
+  "verification": {
+    "verified_at": 1792279554336,
+    "counties": [
+      "34041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

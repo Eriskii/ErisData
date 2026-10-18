@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "la-covington",
+  "publisher": "City of Covington Zoning and Planning Dept (ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/25X4t4tff35goFar/arcgis/rest/services/Zoning_Lots_260410/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Last resort: a lot-level layer (one feature per lot of record) carrying each lot current zoning code in ZONING; no separate Covington district layer is queryable. Covers City of Covington only.",
+  "extent": [
+    -90.15448534425452,
+    30.440313937371617,
+    -90.08113580146109,
+    30.506676099950237
+  ],
+  "verification": {
+    "verified_at": 1792278786455,
+    "counties": [
+      "22103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

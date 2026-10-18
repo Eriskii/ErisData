@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-carroll-villa-rica",
+  "publisher": "City of Villa Rica (interactive zoning map, Esri layer by city staff)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/dW3WG2w9z33TTLpl/arcgis/rest/services/Map/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13045"
+    ]
+  },
+  "fields": {
+    "zone": "Proposed_Z"
+  },
+  "notes": "City of Villa Rica zoning districts, from the city interactive map (layer Zoning Districts). Field Proposed_Z holds the district code (alias Zoning). Only zone field available; no zone name or ordinance link.",
+  "extent": [
+    -84.9725063061999,
+    33.675285733253276,
+    -84.86207051465713,
+    33.76021976743387
+  ],
+  "verification": {
+    "verified_at": 1792277790024,
+    "counties": [
+      "13045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

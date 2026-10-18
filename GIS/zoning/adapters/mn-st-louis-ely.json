@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mn-st-louis-ely",
+  "publisher": "City of Ely, MN (zoning copy hosted by St. Louis County GIS, PLN_ZoningReview)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stlouiscountymn.gov/server2/rest/services/PLN_ZoningReview/ZoningEly/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27137"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code"
+  },
+  "notes": "City of Ely zoning districts as hosted on St. Louis County GIS review service; the service carries a disclaimer that it is not official zoning, so consult the city. City only.",
+  "extent": [
+    -91.88202345568536,
+    47.889581936864424,
+    -91.82084245557024,
+    47.92040361506427
+  ],
+  "verification": {
+    "verified_at": 1792279179150,
+    "counties": [
+      "27137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

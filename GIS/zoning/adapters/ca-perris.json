@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-perris",
+  "publisher": "City of Perris (GIS Open Data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/LNp9QekVQ7pNnS4Q/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoneDescription"
+  },
+  "notes": "City of Perris base zoning districts from the city ArcGIS Hub Zoning layer (1,170 features). ZoneCategory also present. Consult city Planning for questions.",
+  "extent": [
+    -117.26395613233176,
+    33.713768614371666,
+    -117.17814120210484,
+    33.87078143540254
+  ],
+  "verification": {
+    "verified_at": 1792277582408,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

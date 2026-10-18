@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "id-teton-unincorporated",
+  "publisher": "Teton County GIS (unincorporated county zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/as6biEYkl7PaUM4Y/arcgis/rest/services/ZONING_CURRENT/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16081"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Density"
+  },
+  "notes": "Teton County, ID county zoning (2022 LDC), unincorporated land, from Teton County GIS ZONING_CURRENT service layer 0 County_Zoning. Density field used as zone description; zone holds the district code.",
+  "extent": [
+    -111.4009760998442,
+    43.50113863352512,
+    -111.04526025453936,
+    43.98409264960873
+  ],
+  "verification": {
+    "verified_at": 1792277993931,
+    "counties": [
+      "16081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

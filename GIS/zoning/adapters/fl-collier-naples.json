@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "fl-collier-naples",
+  "publisher": "City of Naples GIS (NaplesGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/rXoq3MI8ZjnfUJwc/arcgis/rest/services/ZoningUpdated/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12021"
+    ]
+  },
+  "fields": {
+    "link": "Documentation",
+    "zone": "Layer",
+    "zone_name": "Descript"
+  },
+  "notes": "City of Naples zoning districts (ZoningUpdated layer, reference data published by City of Naples; PD_NAME gives planned development names). Link is the Municode code of ordinances reference.",
+  "extent": [
+    -81.81708272537468,
+    26.0789243561484,
+    -81.76684479345523,
+    26.21108949451959
+  ],
+  "verification": {
+    "verified_at": 1792277584972,
+    "counties": [
+      "12021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

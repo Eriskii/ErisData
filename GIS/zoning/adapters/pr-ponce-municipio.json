@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pr-ponce-municipio",
+  "publisher": "Municipio Autónomo de Ponce (Poncegis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/QzuqnWYL9YGM618L/arcgis/rest/services/PLAN_DE_ORDENACION_gdb/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "72113"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRITOS",
+    "zone_name": "NOMBRE_DISTRITO"
+  },
+  "notes": "Municipal zoning layer ZONIFICACIÓN_PONCE_2023 from Poncegis org (Municipio de Ponce). Covers Ponce municipio only. DISTRITOS = district code; NOMBRE_DISTRITO = district name.",
+  "extent": [
+    -66.72319775231864,
+    17.881433178464537,
+    -66.50956621207546,
+    18.20828284130408
+  ],
+  "verification": {
+    "verified_at": 1792281425412,
+    "counties": [
+      "72113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

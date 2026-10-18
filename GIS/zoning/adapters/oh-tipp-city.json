@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-tipp-city",
+  "publisher": "City of Tipp City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ctR9jLYKK4X2IMhA/arcgis/rest/services/TippCity_Zoning_AGOL/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39109"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Tipp City zoning polygons published by the city (woods_TippCity ArcGIS org). Zoning holds the district code. Ordinance reference filled for only about 15 percent of polygons, so no link mapped.",
+  "extent": [
+    -84.22905151326043,
+    39.93737327652492,
+    -84.141003178829,
+    39.99304482090801
+  ],
+  "verification": {
+    "verified_at": 1792275937792,
+    "counties": [
+      "39109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nj-passaic-prospect-park",
+  "publisher": "Borough of Prospect Park (parcel-based zoning, Passaic County GIS network, Maplink_GenCode)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/MkUfAWaYm2SQf4Qa/arcgis/rest/services/PR0441_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "filter": "MUN = '1610'",
+  "notes": "Last resort: a parcel layer (PAMS_PIN, BLOCK, LOT) whose ZONE attribute carries each parcel's zoning district for Prospect Park borough (MUN code 1610; only Prospect Park codes in layer). Districts include R-1, R-2, B-C, B-G-1, B-G-2, VCR, P-LWO and two redevelopment areas. No zone_name or ordinance link field. Hosted by a vendor for Passaic County GIS parcel network.",
+  "extent": [
+    -74.18104428671332,
+    40.93008337264496,
+    -74.16721807849657,
+    40.94655026100192
+  ],
+  "verification": {
+    "verified_at": 1792279603886,
+    "counties": [
+      "34031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

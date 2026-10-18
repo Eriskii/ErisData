@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-tarrant-benbrook",
+  "publisher": "City of Benbrook (public GIS map, hosted by New Edge Services)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.newedgeservices.com/arcgis/rest/services/Benbrook/BenbrookPublicData/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48439"
+    ]
+  },
+  "fields": {
+    "zone": "Type",
+    "zone_name": "Descriptio"
+  },
+  "notes": "City of Benbrook zoning districts from the city public map service. Type holds the district code; Descriptio the district description. Title not mapped.",
+  "extent": [
+    -97.50395281099554,
+    32.64587550668928,
+    -97.41193988417625,
+    32.723595965241934
+  ],
+  "verification": {
+    "verified_at": 1792280849257,
+    "counties": [
+      "48439"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

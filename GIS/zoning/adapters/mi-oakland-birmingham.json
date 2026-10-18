@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "mi-oakland-birmingham",
+  "publisher": "City of Birmingham, Michigan (Parcel Zoning Map, via city zoning viewer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/2i4qtN4Fk33Qj2XE/arcgis/rest/services/Parcel_Zoning_Map/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26125"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "DISTRICT",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Parcel-level fallback: no district polygon layer found; each of the ~9,800 parcels carries its zoning code in DISTRICT (e.g. R2, R3) and a category in DESCRIPTION. Layer 9 is the base zoning; layers 7 and 8 are overlays and are not used. Published by the city via its City Zoning Map experience.",
+  "extent": [
+    -83.25044831783853,
+    42.53103024025486,
+    -83.1855643873093,
+    42.56637891208073
+  ],
+  "verification": {
+    "verified_at": 1792275538990,
+    "counties": [
+      "26125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

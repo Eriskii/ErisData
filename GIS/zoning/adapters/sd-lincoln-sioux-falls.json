@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "sd-lincoln-sioux-falls",
+  "publisher": "City of Sioux Falls GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.siouxfalls.gov/arcgis/rest/services/Data/Property/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46083"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCENUMBER",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESCRIPTION"
+  },
+  "notes": "City of Sioux Falls authoritative zoning polygons; city limits extend into Lincoln County, the layer has no county field, so it covers the whole city (mostly Minnehaha County).",
+  "extent": [
+    -96.87317252012474,
+    43.46080277506515,
+    -96.59414180412465,
+    43.64689028048771
+  ],
+  "verification": {
+    "verified_at": 1792280447470,
+    "counties": [
+      "46083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

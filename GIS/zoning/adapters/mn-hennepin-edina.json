@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mn-hennepin-edina",
+  "publisher": "City of Edina GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/6aeef36d107a4ff9aa765ad8d0baadfb/rest/services/Planning/Zoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27053"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Edina zoning Districts layer (Planning/Zoning MapServer/2), about 20,977 features, parcel-level with zoning code per parcel; city-only. No zone name field.",
+  "extent": [
+    -93.40154586853349,
+    44.860046093369185,
+    -93.31870318619569,
+    44.930590308169386
+  ],
+  "verification": {
+    "verified_at": 1792279050350,
+    "counties": [
+      "27053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "id-latah-deary",
+  "publisher": "City of Deary (via Latah County GIS Municipalities service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.latah.id.us/arcgis/rest/services/Municipalities/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16057"
+    ]
+  },
+  "fields": {
+    "zone": "Label"
+  },
+  "notes": "City of Deary zoning layer hosted on Latah County GIS Municipalities service (layer 4, 16 features). Zone code in Label; no usable description field.",
+  "extent": [
+    -116.56738107738298,
+    46.79457714978082,
+    -116.54610330899384,
+    46.80721706404224
+  ],
+  "verification": {
+    "verified_at": 1792278002136,
+    "counties": [
+      "16057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

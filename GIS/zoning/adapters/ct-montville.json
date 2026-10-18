@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ct-montville",
+  "publisher": "Town of Montville (SCCOG sccogMaps regional zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/c8bwOPjaFB6olbad/arcgis/rest/services/Montville_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09180"
+    ]
+  },
+  "fields": {
+    "link": "FileLink",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Montville zoning, hosted by SCCOG (sccogMaps) regional GIS; single-town layer (TownName field).",
+  "extent": [
+    -72.24284138556207,
+    41.41193456305552,
+    -72.07167680275434,
+    41.51734125571412
+  ],
+  "verification": {
+    "verified_at": 1792277653326,
+    "counties": [
+      "09180"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

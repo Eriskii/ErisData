@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-alhambra",
+  "publisher": "City of Alhambra Planning (Alhambra_Planning GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/GZCJsJngT6kRZkzb/arcgis/rest/services/Alhambra_Planning/FeatureServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Description"
+  },
+  "notes": "City of Alhambra Zoning layer from the city planning GIS service; Specific_Plan and Overlay_District are separate attributes.",
+  "extent": [
+    -118.16434777240798,
+    34.06003371406705,
+    -118.10827843098832,
+    34.11093353195808
+  ],
+  "verification": {
+    "verified_at": 1792277634801,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

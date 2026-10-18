@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wv-kanawha-nitro",
+  "publisher": "Regional Intergovernmental Council (RIC), City of Nitro zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/fVcw4GvGXZ2a5g3r/arcgis/rest/services/RIC_Zoning_General_Map_WFL1/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "54039"
+    ]
+  },
+  "fields": {
+    "zone": "Zones"
+  },
+  "notes": "City of Nitro zoning as compiled by the Regional Intergovernmental Council (RIC) in its public ArcGIS service. Only the zone code is provided; no description field. Covers the city only.",
+  "extent": [
+    -81.85039041025294,
+    38.38457242727307,
+    -81.76720673923529,
+    38.44898504181656
+  ],
+  "verification": {
+    "verified_at": 1792281105878,
+    "counties": [
+      "54039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

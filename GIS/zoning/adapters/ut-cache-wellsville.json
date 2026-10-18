@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-cache-wellsville",
+  "publisher": "Cache County GIS (Wellsville City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/City_Zoning/MapServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city_name",
+    "zone": "zone_code",
+    "zone_name": "zone_type"
+  },
+  "filter": "city_name = 'WELLSVILLE'",
+  "notes": "Wellsville city zoning from Cache County City_Zoning service, which holds all 19 Cache County cities in one table; the filter selects Wellsville. density field also present.",
+  "extent": [
+    -111.98846377094264,
+    41.57932157421261,
+    -111.8903874956433,
+    41.66191316081311
+  ],
+  "verification": {
+    "verified_at": 1792280815089,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

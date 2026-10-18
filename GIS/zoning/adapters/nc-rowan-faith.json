@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-rowan-faith",
+  "publisher": "Rowan County GIS (Town of Faith zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rowancountync.gov/arcgis/rest/services/Public/Alll_Zoning/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37159"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE"
+  },
+  "notes": "Town of Faith zoning hosted on Rowan County GIS; zone code in TYPE",
+  "extent": [
+    -80.48712058374421,
+    35.56391093781185,
+    -80.43768265040232,
+    35.60347416470475
+  ],
+  "verification": {
+    "verified_at": 1792279902770,
+    "counties": [
+      "37159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

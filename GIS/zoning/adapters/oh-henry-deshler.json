@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-henry-deshler",
+  "publisher": "Henry County Engineer (Village of Deshler zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/osmyvTbXDC07yFxn/arcgis/rest/services/DeshlerZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39069"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "NAME"
+  },
+  "notes": "Village of Deshler, OH zoning districts, published by Henry County Engineer on the county ArcGIS Online org. Layer covers Deshler only; 395 features.",
+  "extent": [
+    -83.92033184633463,
+    41.193938465330575,
+    -83.88799313854383,
+    41.21887679013321
+  ],
+  "verification": {
+    "verified_at": 1792275799403,
+    "counties": [
+      "39069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

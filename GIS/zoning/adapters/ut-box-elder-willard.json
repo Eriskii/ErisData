@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-box-elder-willard",
+  "publisher": "Willard City (consultant ArcGIS Online organization, Jones Civil)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/QdlehUncXjEmQYtI/arcgis/rest/services/WIL_PLPZ_Zoning_view/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49003"
+    ]
+  },
+  "fields": {
+    "link": "Weblink",
+    "zone": "Zoning",
+    "zone_name": "Description"
+  },
+  "notes": "Willard City Zoning layer (167 polygons) served from the city consultant ArcGIS Online organization, behind the city Zoning Map web map. Zoning is the district code; Description the district name.",
+  "extent": [
+    -112.06373934976403,
+    41.35179410158481,
+    -112.02471076164072,
+    41.44204372804515
+  ],
+  "verification": {
+    "verified_at": 1792281858210,
+    "counties": [
+      "49003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

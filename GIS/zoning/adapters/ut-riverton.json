@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ut-riverton",
+  "publisher": "Riverton City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/yvbiF5oSclyHzhNm/arcgis/rest/services/Zoning_w_Overlays/FeatureServer/2",
+    "page_size": 16,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49035"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Riverton City zoning districts, Zoning_w_Overlays layer 2 (Riverton Zoning) on city ArcGIS account; overlays in same service are not separated",
+  "extent": [
+    -112.02461839982873,
+    40.49308979906616,
+    -111.91402403361636,
+    40.54077606729838
+  ],
+  "verification": {
+    "verified_at": 1792282053803,
+    "counties": [
+      "49035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

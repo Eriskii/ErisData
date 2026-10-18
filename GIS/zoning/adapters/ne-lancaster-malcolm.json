@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ne-lancaster-malcolm",
+  "publisher": "Village of Malcolm via Lincoln-Lancaster County GIS (Planning Dept)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lincoln.ne.gov/public/rest/services/Planning/DevRevZoningandRegulations/MapServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONE"
+  },
+  "notes": "Village of Malcolm zoning districts from the Lincoln/Lancaster Planning Dept public GIS (layer 13 Malcolm Zoning). OVERLAY field marks overlay districts; zone_name not provided by source.",
+  "extent": [
+    -96.89170376541443,
+    40.889599866005824,
+    -96.84155778649804,
+    40.92757817680209
+  ],
+  "verification": {
+    "verified_at": 1792279455306,
+    "counties": [
+      "31109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

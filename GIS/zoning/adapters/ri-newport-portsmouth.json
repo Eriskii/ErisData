@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ri-newport-portsmouth",
+  "publisher": "Rhode Island Commerce / URI EDC RIGIS (municipal zoning classifications)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/S8zZg9pg23JUEexQ/arcgis/rest/services/RI_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "44005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI_NAME",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "filter": "MUNI_NAME = 'Portsmouth'",
+  "notes": "Statewide RI municipal zoning classifications from RIGIS, filtered to the Town of Portsmouth. ZONE_CODE is the town district code; ZONE_DESC its description.",
+  "extent": [
+    -71.37325571995976,
+    41.5140496132698,
+    -71.21393255285696,
+    41.666942333647626
+  ],
+  "verification": {
+    "verified_at": 1792280185049,
+    "counties": [
+      "44005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

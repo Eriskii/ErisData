@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "oh-cuyahoga-ccpc",
+  "publisher": "Cuyahoga County Planning Commission (CCPC)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/1cKSe8lh4duMZ8W0/arcgis/rest/services/CCPC__Cuyahoga_County_Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39035"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "link": "URL",
+    "zone": "MUNI_ZONE_",
+    "zone_name": "ZONE_DESI"
+  },
+  "filter": "CITY IS NOT NULL AND CITY <> 'Cleveland'",
+  "notes": "County Planning Commission generalized municipal zoning districts for Cuyahoga County (boundaries adjusted for county-wide consistency; check the city for precise zoning). Covers all Cuyahoga municipalities except Cleveland (saved separately) by CITY field; features with null CITY excluded. Not all municipalities are in it: Brecksville, East Cleveland, Independence, Linndale, North Royalton, Bentleyville are absent. CCPC data, public.",
+  "extent": [
+    -81.9717180619376,
+    41.27127974557891,
+    -81.37119896544237,
+    41.63486553992697
+  ],
+  "verification": {
+    "verified_at": 1792275680772,
+    "counties": [
+      "39035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

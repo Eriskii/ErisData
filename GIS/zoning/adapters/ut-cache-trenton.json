@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-cache-trenton",
+  "publisher": "Cache County GIS (Trenton Town zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/City_Zoning/MapServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city_name",
+    "zone": "zone_code",
+    "zone_name": "zone_type"
+  },
+  "filter": "city_name = 'TRENTON'",
+  "notes": "Trenton zoning from Cache County City_Zoning service (layer per city; every layer returns the same 19-city table, filtered on city_name). Covers Trenton only.",
+  "extent": [
+    -111.97292217542736,
+    41.88104175518816,
+    -111.90365820941354,
+    41.94111340445643
+  ],
+  "verification": {
+    "verified_at": 1792280860613,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

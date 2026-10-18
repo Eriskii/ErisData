@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-ventura-county-unincorporated",
+  "publisher": "County of Ventura GIS (Resource Management Agency)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/XJ5Tb7dTYtAMoyYT/arcgis/rest/services/Zoning_Designation/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "06111"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "County of Ventura unincorporated area zoning designations (VCZO/VCNZO); no jurisdiction field, covers unincorporated land only.",
+  "extent": [
+    -119.47836656336176,
+    34.04521583755521,
+    -118.63252481304797,
+    34.90118042188473
+  ],
+  "verification": {
+    "verified_at": 1792277464867,
+    "counties": [
+      "06111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

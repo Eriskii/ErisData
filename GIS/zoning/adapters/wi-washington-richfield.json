@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-washington-richfield",
+  "publisher": "Washington County GIS (Village of Richfield zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.washcowisco.gov/server/rest/services/Zoning/Local_Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55131"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Richfield zoning districts, served by Washington County GIS (Local_Zoning service). Layer holds only Richfield.",
+  "extent": [
+    -88.30310332698889,
+    43.1913361847457,
+    -88.1793892816848,
+    43.28981176185481
+  ],
+  "verification": {
+    "verified_at": 1792281370785,
+    "counties": [
+      "55131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

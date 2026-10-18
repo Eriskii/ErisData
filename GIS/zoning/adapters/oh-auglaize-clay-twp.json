@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-auglaize-clay-twp",
+  "publisher": "Auglaize County GIS / Clay Township",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.auglaizecounty.org/arcgis/rest/services/Zoning/Clay/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Name",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Clay Township (unincorporated) zoning districts; Zone_Name carries the district label; 4 features.",
+  "extent": [
+    -84.10895001926575,
+    40.48150193499265,
+    -83.99222069785908,
+    40.55763375286027
+  ],
+  "verification": {
+    "verified_at": 1792275620649,
+    "counties": [
+      "39011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-lodi",
+  "publisher": "City of Lodi (GIS, externalarcgis Zoning_Map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lodi.gov/externalarcgis/rest/services/AGOL/Zoning_Map/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06077"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "GPLU"
+  },
+  "filter": "City = 'Y'",
+  "notes": "City of Lodi zoning map polygons; City=Y selects parcels inside city limits (SOI=Y rows are sphere of influence, excluded). zone_name holds GPLU general plan land use, not zoning; descriptive only.",
+  "extent": [
+    -121.40372056170617,
+    38.07927573933035,
+    -121.24095094174604,
+    38.155338433126595
+  ],
+  "verification": {
+    "verified_at": 1792277524502,
+    "counties": [
+      "06077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-dupage-warrenville",
+  "publisher": "City of Warrenville (Zoning Dissolve layer, city ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/TkBKgQn8d3sPkMZo/arcgis/rest/services/Zoning_Dissolve/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17043"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "City of Warrenville zoning districts, dissolved by district (one polygon per district class), from the city ArcGIS Online account. District names are blank in the source. Warrenville only.",
+  "extent": [
+    -88.21444185129717,
+    41.799222920513095,
+    -88.14865039350485,
+    41.85055234129698
+  ],
+  "verification": {
+    "verified_at": 1792278712100,
+    "counties": [
+      "17043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

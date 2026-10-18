@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-bristol-norton",
+  "publisher": "Town of Norton (base zoning hosted by SRPEDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/euKKjtGUuDiy24vy/arcgis/rest/services/Norton_Base_Zoning_May_2021/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Norton base zoning current as of May 2021 (includes VCC district), hosted by SRPEDD for the Town. ZONE holds the district letter code; no name field. Overlays not included.",
+  "extent": [
+    -71.25950345553784,
+    41.908537581794775,
+    -71.10072976219597,
+    42.01287216649249
+  ],
+  "verification": {
+    "verified_at": 1792279010432,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

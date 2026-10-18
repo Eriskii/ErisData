@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "id-latah-genesee",
+  "publisher": "City of Genesee (via Latah County GIS Municipalities service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.latah.id.us/arcgis/rest/services/Municipalities/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16057"
+    ]
+  },
+  "fields": {
+    "zone": "Label"
+  },
+  "notes": "City of Genesee zoning layer hosted on Latah County GIS Municipalities service (layer 2, 67 features). Zone code in Label; no usable description field.",
+  "extent": [
+    -116.93875346349502,
+    46.54398433006562,
+    -116.9176331576548,
+    46.557276319121534
+  ],
+  "verification": {
+    "verified_at": 1792278010587,
+    "counties": [
+      "16057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

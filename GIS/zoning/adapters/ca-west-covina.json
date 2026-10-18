@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-west-covina",
+  "publisher": "City of West Covina Planning (GIS Hub)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/WV8ogNubjFL2BKPt/arcgis/rest/services/Zoning_Codes/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning2010",
+    "zone_name": "Area_Distr"
+  },
+  "notes": "Parcel layer (2021 zoning parcels) from the City of West Covina GIS Hub carrying each parcel zoning code in Zoning2010; last-resort parcel-attribute source since no base-zoning polygon layer is published here. Area_Distr is the area district, not the zone name.",
+  "extent": [
+    -117.97434585256327,
+    33.99547991942628,
+    -117.85139484613318,
+    34.0996253043019
+  ],
+  "verification": {
+    "verified_at": 1792277510331,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

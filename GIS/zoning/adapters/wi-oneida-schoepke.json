@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-oneida-schoepke",
+  "publisher": "Oneida County GIS (Town of Schoepke zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.oneidacountywi.gov/arcgis/rest/services/Oneview/ZoningLandUse/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55085"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "filter": "MUNICIPALITY = 'SCHOEPKE'",
+  "notes": "Town of Schoepke zoning districts from the county Oneview ZoningLandUse service, Zoning Districts layer (county-wide layer holding 20 towns, filtered to one). Boundaries approximate per county disclaimer.",
+  "extent": [
+    -89.25798234100098,
+    45.46445592751719,
+    -89.04576235262813,
+    45.55440989333658
+  ],
+  "verification": {
+    "verified_at": 1792281595485,
+    "counties": [
+      "55085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

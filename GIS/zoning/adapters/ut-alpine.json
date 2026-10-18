@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-alpine",
+  "publisher": "Utah County GIS (Alpine City Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/40",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_AL_LABEL",
+    "zone_name": "ZONE_AL_DESC"
+  },
+  "notes": "Alpine City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 40, 32 features).",
+  "extent": [
+    -111.79886631515168,
+    40.43734073467071,
+    -111.74479074815264,
+    40.49407728134624
+  ],
+  "verification": {
+    "verified_at": 1792280887655,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

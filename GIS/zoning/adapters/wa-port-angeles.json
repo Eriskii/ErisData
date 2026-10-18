@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-port-angeles",
+  "publisher": "City of Port Angeles",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofpa.us/legacy/rest/services/Planning/Planning/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53009"
+    ]
+  },
+  "fields": {
+    "link": "Hyperlink",
+    "zone": "Zoning",
+    "zone_name": "Type"
+  },
+  "notes": "City of Port Angeles Zoning COPA layer from the city legacy planning MapServer. Covers city zoning; Zoning holds the district code.",
+  "extent": [
+    -123.52562544388051,
+    48.08350482512725,
+    -123.3915396103786,
+    48.14215580573434
+  ],
+  "verification": {
+    "verified_at": 1792281075377,
+    "counties": [
+      "53009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

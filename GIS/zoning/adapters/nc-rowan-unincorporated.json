@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-rowan-unincorporated",
+  "publisher": "Rowan County GIS (Rowan County unincorporated zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rowancountync.gov/arcgis/rest/services/Public/Alll_Zoning/MapServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37159"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Rowan County own zoning for unincorporated land, hosted on Rowan County GIS; zone code in ZONING",
+  "extent": [
+    -80.77576024421245,
+    35.4962669684491,
+    -80.18489458162666,
+    35.86943805821211
+  ],
+  "verification": {
+    "verified_at": 1792279889809,
+    "counties": [
+      "37159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

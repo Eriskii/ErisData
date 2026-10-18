@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-washington-apple-valley",
+  "publisher": "Washington County GIS (Town of Apple Valley zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://agisprodvm.washco.utah.gov/arcgis/rest/services/Zoning/MapServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49053"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE",
+    "zone_name": "GEN_ZONE"
+  },
+  "notes": "Town of Apple Valley zoning districts, hosted by Washington County GIS; one jurisdiction per layer (SOURCE holds Apple Valley). zone_name is the general category (GEN_ZONE) because DESCRIPTION is null in source.",
+  "extent": [
+    -113.21901849750458,
+    37.02259633063537,
+    -113.01588568901552,
+    37.143263586860215
+  ],
+  "verification": {
+    "verified_at": 1792280887161,
+    "counties": [
+      "49053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

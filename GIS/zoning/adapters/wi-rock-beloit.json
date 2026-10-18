@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-rock-beloit",
+  "publisher": "City of Beloit (GIS, via ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/pXl5pTRkEtG8CM2r/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55105"
+    ]
+  },
+  "fields": {
+    "zone": "Classification",
+    "zone_name": "Description"
+  },
+  "notes": "City of Beloit zoning districts, city-published layer on ArcGIS Online (owner houstonk). Beloit city land only.",
+  "extent": [
+    -89.08084811548771,
+    42.49603924292057,
+    -88.94365412027965,
+    42.56842566841383
+  ],
+  "verification": {
+    "verified_at": 1792281248813,
+    "counties": [
+      "55105"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sc-dorchester-summerville",
+  "publisher": "Town of Summerville (ArcGIS Online organization, Summerville_Parcels layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/0zSnoqwLCR3i1Yfw/arcgis/rest/services/Zoning_View_Layer/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45035"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Class"
+  },
+  "filter": "Zone_Class IS NOT NULL AND Zone_Class <> ''",
+  "notes": "Last resort: no Summerville district layer was found; this is the Town of Summerville parcel layer (hosted in the Town ArcGIS Online organization) whose Zone_Class attribute carries each parcel's zoning district. Features are parcels, so districts repeat per parcel; no zone_name or link field. Covers Town of Summerville parcels only (the layer may include parcels beyond the Dorchester part).",
+  "extent": [
+    -80.24816758287585,
+    32.88976790126474,
+    -80.1217462736856,
+    33.08955726186045
+  ],
+  "verification": {
+    "verified_at": 1792280291893,
+    "counties": [
+      "45035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

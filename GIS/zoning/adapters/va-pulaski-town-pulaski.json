@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "va-pulaski-town-pulaski",
+  "publisher": "Town of Pulaski (via Pulaski County GIS, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/cnJiyVVCFyUslPPa/arcgis/rest/services/Town_Zone_09012023/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51155"
+    ]
+  },
+  "fields": {
+    "zone": "NewZoning"
+  },
+  "notes": "Town of Pulaski zoning districts, published by Pulaski County GIS (PulaskiCountyVA org), layer Town_Zoning_092023, dated 09/01/2023. No zone name or ordinance link field. Single-town layer, no jurisdiction field.",
+  "extent": [
+    -80.80173941195508,
+    37.03095080373634,
+    -80.72128740780684,
+    37.08151288790279
+  ],
+  "verification": {
+    "verified_at": 1792280952540,
+    "counties": [
+      "51155"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

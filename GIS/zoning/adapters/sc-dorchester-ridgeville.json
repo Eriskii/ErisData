@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sc-dorchester-ridgeville",
+  "publisher": "Dorchester County GIS (Town of Ridgeville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisportal.dorchestercounty.net/hosting/rest/services/General_Data/Town_Zoning_Public/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45035"
+    ]
+  },
+  "fields": {
+    "zone": "RIDG_ZONE"
+  },
+  "filter": "RIDG_ZONE IS NOT NULL",
+  "notes": "Town of Ridgeville zoning districts from the county Town_Zoning_Public service (layer named RIDGEVILLE_ZONING). The layer holds all towns in one table; the zone code is in RIDG_ZONE, and the filter keeps rows with a Ridgeville code. No zone_name or link field.",
+  "extent": [
+    -80.34725590713961,
+    33.06599959033971,
+    -80.28223742904568,
+    33.10386523262616
+  ],
+  "verification": {
+    "verified_at": 1792280308892,
+    "counties": [
+      "45035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "co-el-paso-county",
+  "publisher": "El Paso County GIS (county zoning, unincorporated)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/r1Gf4AJYRBIM0N25/arcgis/rest/services/County_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08041"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "El Paso County unincorporated zoning district layer (County_Zoning, El Paso County ArcGIS Online org).",
+  "extent": [
+    -105.0705541348008,
+    38.51902578524942,
+    -104.05163102468292,
+    39.13016735658354
+  ],
+  "verification": {
+    "verified_at": 1792277473748,
+    "counties": [
+      "08041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

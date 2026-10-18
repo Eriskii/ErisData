@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ne-lancaster-county",
+  "publisher": "Lancaster County Planning (via Lincoln-Lancaster GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lincoln.ne.gov/public/rest/services/Planning/DevRevZoningandRegulations/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONE"
+  },
+  "notes": "Lancaster County unincorporated zoning districts from the Lincoln/Lancaster Planning Dept public GIS (layer 3 County Zoning). OVERLAY field marks overlay districts.",
+  "extent": [
+    -96.91490000961909,
+    40.52287354659951,
+    -96.46186448833782,
+    41.04633141384654
+  ],
+  "verification": {
+    "verified_at": 1792279430017,
+    "counties": [
+      "31109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-delaware-ashley",
+  "publisher": "Village of Ashley, Ohio (zoning layer hosted on Delaware County ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ziXVKVy3BiopMCCU/arcgis/rest/services/ashleyzon/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39041"
+    ]
+  },
+  "fields": {
+    "link": "Zoning_Ordinance",
+    "zone": "ZONING",
+    "zone_name": "DSC_ZONE"
+  },
+  "notes": "Village of Ashley zoning districts from Delaware County organization ArcGIS Online, 103 features.",
+  "extent": [
+    -82.9641577010818,
+    40.401395031858456,
+    -82.93449666107387,
+    40.41611877897528
+  ],
+  "verification": {
+    "verified_at": 1792275809347,
+    "counties": [
+      "39041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

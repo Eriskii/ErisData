@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-middlesex-arlington",
+  "publisher": "Town of Arlington MA GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/s1Sh73K7qtP9JdrG/arcgis/rest/services/Arlington_Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25017"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "Town of Arlington zoning districts (285 features), town ArcGIS Hub. Base districts only; overlays are in a separate layer (not used).",
+  "extent": [
+    -71.2026428814651,
+    42.39741790185971,
+    -71.13221043208783,
+    42.43628787816707
+  ],
+  "verification": {
+    "verified_at": 1792279043939,
+    "counties": [
+      "25017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

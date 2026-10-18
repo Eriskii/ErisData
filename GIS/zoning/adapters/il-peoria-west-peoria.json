@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-peoria-west-peoria",
+  "publisher": "Peoria County GIS (City of West Peoria zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/iPiPjILCMYxPZWTc/arcgis/rest/services/CityofWestPeoria/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17143"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Label"
+  },
+  "notes": "City of West Peoria zoning districts, hosted by Peoria County GIS ArcGIS Online organization",
+  "extent": [
+    -89.66122227889905,
+    40.68363423192868,
+    -89.62270421193142,
+    40.71088387263672
+  ],
+  "verification": {
+    "verified_at": 1792278171814,
+    "counties": [
+      "17143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

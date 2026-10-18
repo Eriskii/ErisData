@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mo-jackson-grain-valley",
+  "publisher": "City of Grain Valley, MO (GIS, gvch ArcGIS Online org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/fhEwJP4bAkCKYxsW/arcgis/rest/services/Zoning_20260929/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29095"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "LongLabel"
+  },
+  "notes": "City of Grain Valley zoning districts, layer 1 of the city Zoning_20260929 service. Zoning = district code; LongLabel = district name. No ordinance link in the source.",
+  "extent": [
+    -94.23483885488024,
+    38.98539417243336,
+    -94.1651447343612,
+    39.06558307412679
+  ],
+  "verification": {
+    "verified_at": 1792279537025,
+    "counties": [
+      "29095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

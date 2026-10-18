@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-dupage-lombard",
+  "publisher": "Village of Lombard GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/vs0Q5ds549q7lQMm/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17043"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Class"
+  },
+  "notes": "Village of Lombard zoning districts (Lombard_GIS ArcGIS Online org). Lombard only.",
+  "extent": [
+    -88.05104291783718,
+    41.831454316257926,
+    -87.98676128165384,
+    41.91500616448268
+  ],
+  "verification": {
+    "verified_at": 1792278136175,
+    "counties": [
+      "17043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

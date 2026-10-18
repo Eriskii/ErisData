@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nm-san-juan-aztec",
+  "publisher": "City of Aztec (layer in San Juan County ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Iq7du96UAXAOM1at/arcgis/rest/services/City_Of_Aztec_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35045"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT"
+  },
+  "notes": "City of Aztec zoning only. Attribute DISTRICT holds the district code; layer has parcel-style attributes (OWNER, TAXID), so it may be a parcel-based zoning layer; no district name field.",
+  "extent": [
+    -108.0365279883826,
+    36.76476845353049,
+    -107.94224533384428,
+    36.855311893979625
+  ],
+  "verification": {
+    "verified_at": 1792279573288,
+    "counties": [
+      "35045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

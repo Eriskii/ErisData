@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-apple-valley",
+  "publisher": "Town of Apple Valley",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/FGe4g7ObpdDb0DvO/arcgis/rest/services/Zoning/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE"
+  },
+  "notes": "Town of Apple Valley official zoning designations (Town ArcGIS Hub, dataset Zoning, last updated 2023). Only the zone code is provided in the source.",
+  "extent": [
+    -117.28790584713548,
+    34.42800855716235,
+    -117.15073802306146,
+    34.647473279605926
+  ],
+  "verification": {
+    "verified_at": 1792277651761,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

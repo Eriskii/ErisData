@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nc-gaston-mcadenville",
+  "publisher": "Gaston County GIS (Town of McAdenville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gastoncountync.gov/publicgis/rest/services/PublicGIS/Zoning/MapServer/10",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "TYPE",
+    "zone_name": "NAME"
+  },
+  "notes": "McAdenville UDO zoning districts served by the Gaston County PublicGIS zoning service; JURISDICTION names the town; ETJ attribute also present",
+  "extent": [
+    -81.09359911790611,
+    35.24902670771636,
+    -81.06646033572889,
+    35.28450265849649
+  ],
+  "verification": {
+    "verified_at": 1792279848686,
+    "counties": [
+      "37071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

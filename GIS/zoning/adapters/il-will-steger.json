@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "il-will-steger",
+  "publisher": "South Suburban Mayors and Managers Association (SSMMA) regional zoning inventory, for Village of Steger",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/kZsOWCED80XbRyJ0/arcgis/rest/services/SSMMA_Zoning_Inventory_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17197"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Typ",
+    "zone_name": "ZoningDesc"
+  },
+  "filter": "GeoMuni = 'Steger' AND County = 'Will'",
+  "notes": "Parcel-level zoning inventory (one record per parcel, PID), not a district polygon layer: last resort because no Steger district layer is published. Regional SSMMA inventory hosted on SSMMA ArcGIS Online org; no official village copy queryable. Village map linked from village site is a PDF. Not official: copy hosted by a municipal association.",
+  "extent": [
+    -87.65474113203312,
+    41.458830367063435,
+    -87.61839520394577,
+    41.47003862484939
+  ],
+  "verification": {
+    "verified_at": 1792279031590,
+    "counties": [
+      "17197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

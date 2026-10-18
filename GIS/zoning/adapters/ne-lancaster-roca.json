@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ne-lancaster-roca",
+  "publisher": "Village of Roca (zoning via Lincoln-Lancaster County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lincoln.ne.gov/public/rest/services/Planning/DevRevZoningandRegulations/MapServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONE"
+  },
+  "notes": "Village of Roca zoning districts from Lincoln/Lancaster Planning Dept public GIS (layer 17 Roca Zoning). OVERLAY field marks overlay districts; zone_name not provided by source.",
+  "extent": [
+    -96.6852913146337,
+    40.63937291545353,
+    -96.63887094371772,
+    40.67564404554888
+  ],
+  "verification": {
+    "verified_at": 1792279498571,
+    "counties": [
+      "31109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

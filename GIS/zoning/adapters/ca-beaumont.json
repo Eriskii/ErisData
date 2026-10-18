@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-beaumont",
+  "publisher": "City of Beaumont (Open Data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/rUwYlNumaV2hTY7c/arcgis/rest/services/City_of_Beaumont_Open_Data_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Beaumont Open Data zoning landuse layer, last updated Feb 2021 per the hub. Parcel-level features (16,921; APN, REALUSE) carrying each parcel zoning in ZONING; a parcel layer used as the city district layer. Prop_Zone also present.",
+  "extent": [
+    -117.07141491645427,
+    33.83034592339544,
+    -116.91123943936972,
+    33.969121748053
+  ],
+  "verification": {
+    "verified_at": 1792277573028,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

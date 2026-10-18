@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "md-bel-air",
+  "publisher": "Town of Bel Air (ArcGIS Online item by cgdawson; edited by Town staff account wshah_belairmd)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/9jfGg288K34UNiRe/arcgis/rest/services/Zoning_Bel_Air_MD_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24025"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningName"
+  },
+  "notes": "Bel Air zoning as of May 2020 (edited by Town account wshah_belairmd through 2025). Copy on ArcGIS Online by cgdawson, not the Town own service; used because no official queryable Town layer was found.",
+  "extent": [
+    -76.3681694058148,
+    39.51280456518834,
+    -76.32343605322119,
+    39.552537001294624
+  ],
+  "verification": {
+    "verified_at": 1792278837337,
+    "counties": [
+      "24025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

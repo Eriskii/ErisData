@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-denton-corinth",
+  "publisher": "City of Corinth GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-portal.cityofcorinth.com/gisserver/rest/services/CorServices/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48121"
+    ]
+  },
+  "fields": {
+    "link": "Hyperlink",
+    "zone": "Zone_Code",
+    "zone_name": "Zone_Label"
+  },
+  "notes": "City of Corinth zoning districts (CorServices MapServer layer 1). Zoning_District field also present.",
+  "extent": [
+    -97.0966622001225,
+    33.121715460786255,
+    -97.0374918886513,
+    33.16393783504109
+  ],
+  "verification": {
+    "verified_at": 1792281650606,
+    "counties": [
+      "48121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

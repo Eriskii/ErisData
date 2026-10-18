@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ga-coweta-grantville",
+  "publisher": "City of Grantville GIS (georec)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/KqlaqVP5Rs5GgFBB/arcgis/rest/services/gvZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "13077"
+    ]
+  },
+  "fields": {
+    "link": "PC_LINK",
+    "zone": "Zoning",
+    "zone_name": "Descriptio"
+  },
+  "notes": "Grantville city zoning, served as a parcel layer (1794 parcels) whose Zoning attribute carries each parcel district; no separate district polygon layer found. Last-resort parcel-based source. Ordinance number in Ord_Num.",
+  "extent": [
+    -84.8718648082299,
+    33.19918962465685,
+    -84.77660255111275,
+    33.264003464529345
+  ],
+  "verification": {
+    "verified_at": 1792278128839,
+    "counties": [
+      "13077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

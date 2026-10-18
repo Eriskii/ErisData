@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sd-pennington-hill-city",
+  "publisher": "City of Hill City (hosted on Rapid City-Pennington County RapidMap)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rcgov.org/server/rest/services/PublicSites/PublicRapidMap/MapServer/80",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46103"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "CodeExplanation"
+  },
+  "notes": "Hill City zoning districts (735 features) from the Rapid City-Pennington County RapidMap service. No link field.",
+  "extent": [
+    -103.5844442276925,
+    43.91887826005208,
+    -103.54740946832165,
+    43.94473744177789
+  ],
+  "verification": {
+    "verified_at": 1792280525123,
+    "counties": [
+      "46103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

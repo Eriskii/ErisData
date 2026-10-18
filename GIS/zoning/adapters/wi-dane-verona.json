@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-dane-verona",
+  "publisher": "City of Verona (cityofverona ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/kVRAGxHNToj0mRPS/arcgis/rest/services/Zoning_2026/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55025"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_202",
+    "zone_name": "Zone_Desc_"
+  },
+  "notes": "Parcel-level layer: each parcel carries its zoning (Zoning_202 code, Zone_Desc_ description); no separate district polygons found. Zoning districts as of October 2026 per the city item description. Last resort; a current district layer was not found.",
+  "extent": [
+    -89.59288738969623,
+    42.96151298369989,
+    -89.49455402636767,
+    43.02378498236722
+  ],
+  "verification": {
+    "verified_at": 1792281681994,
+    "counties": [
+      "55025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

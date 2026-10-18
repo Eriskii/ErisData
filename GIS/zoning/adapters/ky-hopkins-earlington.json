@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ky-hopkins-earlington",
+  "publisher": "Hopkins County GIS / City of Earlington",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.hopkinscountygis.com:6443/arcgis/rest/services/EarlingtonZoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21107"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Earlington zoning districts, served by Hopkins County GIS. 42 features.",
+  "extent": [
+    -87.53111947600974,
+    37.26074918957634,
+    -87.48110143110938,
+    37.289038032650744
+  ],
+  "verification": {
+    "verified_at": 1792278683481,
+    "counties": [
+      "21107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

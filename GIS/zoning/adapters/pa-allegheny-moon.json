@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-allegheny-moon",
+  "publisher": "Moon Township (municipal GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/g8yM34Z7IOCI3L3m/arcgis/rest/services/Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42003"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "label"
+  },
+  "notes": "Moon Township zoning districts from the township ArcGIS account (administrator_moon). Moon Township only.",
+  "extent": [
+    -80.27515986264919,
+    40.45340042414774,
+    -80.1395433726026,
+    40.55860234764622
+  ],
+  "verification": {
+    "verified_at": 1792280146151,
+    "counties": [
+      "42003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

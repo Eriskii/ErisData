@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-jefferson-lyme",
+  "publisher": "Town of Lyme (via DANC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/41",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36045"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Town of Lyme zoning districts from the DANC GIS host. Single-jurisdiction layer; PDF_Link not mapped.",
+  "extent": [
+    -76.30882440110388,
+    43.96000263063248,
+    -76.07249558540404,
+    44.16004425386702
+  ],
+  "verification": {
+    "verified_at": 1792279736155,
+    "counties": [
+      "36045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

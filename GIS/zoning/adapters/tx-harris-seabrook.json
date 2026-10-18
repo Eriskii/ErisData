@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-harris-seabrook",
+  "publisher": "City of Seabrook, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/KkzTh8g0dTwlw3DH/arcgis/rest/services/Official_Zoning_Districts_March_2019/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48201"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Desktop_ZC_Abrv",
+    "zone_name": "Zoning_Desktop_Zoning_Code"
+  },
+  "notes": "City of Seabrook official zoning districts (approved by council, March 2019 layer). Seabrook also extends into Galveston County. PUD ordinance numbers in YRORDPS/VSN fields. No jurisdiction or link field.",
+  "extent": [
+    -95.05024681661003,
+    29.548029986638735,
+    -94.98747807817792,
+    29.5946822199448
+  ],
+  "verification": {
+    "verified_at": 1792280853180,
+    "counties": [
+      "48201"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "al-jefferson-homewood",
+  "publisher": "City of Homewood, Alabama (city ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/aC6pR154SayQRkkS/arcgis/rest/services/Permit_Software_Info/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01073"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Homewood zoning from the Permit_Software_Info service (Zoning layer, updated to May 2025). Polygon district layer; Homewood lies in Jefferson County. Only the district code is published; no name field.",
+  "extent": [
+    -86.8482215540657,
+    33.426510821748074,
+    -86.76796229814985,
+    33.48876577512167
+  ],
+  "verification": {
+    "verified_at": 1792277615131,
+    "counties": [
+      "01073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

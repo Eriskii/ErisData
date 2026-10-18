@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-fulton-south-fulton",
+  "publisher": "City of South Fulton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/y2BJK2GUfoTwH7py/arcgis/rest/services/CurrentZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13121"
+    ]
+  },
+  "fields": {
+    "zone": "ZClass",
+    "zone_name": "ZClassDesc"
+  },
+  "notes": "City of South Fulton current zoning layer (city hub dataset Current Zoning; service hosted under the city GIS account). Overlay field not mapped.",
+  "extent": [
+    -84.7062775741133,
+    33.526071866760546,
+    -84.45809083489256,
+    33.79052979323718
+  ],
+  "verification": {
+    "verified_at": 1792277983828,
+    "counties": [
+      "13121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-hamilton-red-bank",
+  "publisher": "Hamilton County GIS (Red Bank zoning, Live_PropertyZoning service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapsdev.hamiltontn.gov/hcwa03/rest/services/Live_PropertyZoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47065"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Red Bank zoning polygons served by Hamilton County GIS (dev host mapsdev.hamiltontn.gov). Layer holds Red Bank only; 13 features.",
+  "extent": [
+    -85.32883348033864,
+    35.074665737919084,
+    -85.26151206960625,
+    35.147891463987165
+  ],
+  "verification": {
+    "verified_at": 1792280452860,
+    "counties": [
+      "47065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

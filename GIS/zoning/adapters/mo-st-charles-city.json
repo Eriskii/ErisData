@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mo-st-charles-city",
+  "publisher": "City of St. Charles (copy hosted by Chuckwl on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/p44fQSGBTnSRR4hh/arcgis/rest/services/Zoning_q42018/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29183"
+    ]
+  },
+  "fields": {
+    "zone": "CITY_ZONE"
+  },
+  "notes": "Unofficial copy of City of St. Charles zoning districts uploaded to ArcGIS Online by a personal account (Chuckwl), dated q4 2018; no official City of St. Charles service found. Holds only city district codes (e.g. R-1E, C-2, PD-R); blank/0 values present. No name or ordinance link field.",
+  "extent": [
+    -90.67980602538904,
+    38.681255957779406,
+    -90.4247309625038,
+    38.869225015174095
+  ],
+  "verification": {
+    "verified_at": 1792279401142,
+    "counties": [
+      "29183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

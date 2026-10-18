@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-dukes-chilmark",
+  "publisher": "Dukes County GIS (mvdukes) - Chilmark zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/FNsEJ848HT5uDOHD/arcgis/rest/services/duk_zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "PRIM_USE"
+  },
+  "notes": "Town of Chilmark zoning district layer, hosted by Dukes County GIS; layer 1 of duk_zoning service (one layer per town).",
+  "extent": [
+    -70.83258787948235,
+    41.24800936624414,
+    -70.65006868849858,
+    41.41001062486771
+  ],
+  "verification": {
+    "verified_at": 1792278812712,
+    "counties": [
+      "25007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

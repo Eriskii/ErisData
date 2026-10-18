@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-butler-monroe",
+  "publisher": "City of Monroe, Ohio (GIS, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/ZpzXpUOckwsAhLFh/arcgis/rest/services/2024_Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39017"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_2024"
+  },
+  "notes": "City of Monroe zoning districts adopted April 2024. Zoning_2024 holds the district name and code as one string.",
+  "extent": [
+    -84.4371258376408,
+    39.407475087194875,
+    -84.292392149036,
+    39.47919504413347
+  ],
+  "verification": {
+    "verified_at": 1792275682170,
+    "counties": [
+      "39017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

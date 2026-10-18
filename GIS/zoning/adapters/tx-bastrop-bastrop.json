@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-bastrop-bastrop",
+  "publisher": "City of Bastrop (Place Type Zoning Districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/qOeXJdBtGknaCJC4/arcgis/rest/services/PlaceTypesCharacterDistricts/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48021"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance_",
+    "zone": "PlaceType",
+    "zone_name": "PlaceTypeDesc"
+  },
+  "notes": "City of Bastrop Zoning Place Types (replaced B3 Place Type Code, per city 2026 official zoning map). Polygon layer of 565 features, city of Bastrop only; no jurisdiction field.",
+  "extent": [
+    -97.38191164406508,
+    30.085420437179273,
+    -97.27642343837925,
+    30.139353564218847
+  ],
+  "verification": {
+    "verified_at": 1792280485396,
+    "counties": [
+      "48021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

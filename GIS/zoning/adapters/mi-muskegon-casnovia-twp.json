@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-muskegon-casnovia-twp",
+  "publisher": "Muskegon County GIS (Casnovia Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.muskegoncountygis.com/arcgis/rest/services/Zoning_Viewer/Zoning_Viewer/MapServer/50",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26121"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "County GIS Zoning_Viewer service; Casnovia Township base zoning districts (layer 50).",
+  "extent": [
+    -85.90837378457046,
+    43.184929047575174,
+    -85.72086035080197,
+    43.29312466263677
+  ],
+  "verification": {
+    "verified_at": 1792275439624,
+    "counties": [
+      "26121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

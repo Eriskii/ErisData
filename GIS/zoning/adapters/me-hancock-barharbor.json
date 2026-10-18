@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "me-hancock-barharbor",
+  "publisher": "Town of Bar Harbor (copy by coagis_org, ArcGIS Online, 2022)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/0EOqWPtpCmgQr2ay/arcgis/rest/services/Bar_Harbor_Zoning_2022/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23009"
+    ]
+  },
+  "fields": {
+    "link": "LUZO",
+    "zone": "Zone_Code",
+    "zone_name": "Zone__name"
+  },
+  "notes": "Unofficial copy of the Bar Harbor 2022 zoning districts uploaded to ArcGIS Online by coagis_org (College of the Atlantic GIS), not published by the town; the town publishes its zoning only as PDF (Official Neighborhood District Map, 2018). Covers Bar Harbor only.",
+  "extent": [
+    -68.40279287753516,
+    44.30637314388272,
+    -68.17180298246683,
+    44.44484054023339
+  ],
+  "verification": {
+    "verified_at": 1792278789905,
+    "counties": [
+      "23009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

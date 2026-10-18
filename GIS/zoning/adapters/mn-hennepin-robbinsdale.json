@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mn-hennepin-robbinsdale",
+  "publisher": "City of Robbinsdale (Community Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/03469ab0d17e418c8568f079ce99f695/rest/services/Robbinsdale/RO_Dept_CommunityDevelopment_Zoning/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27053"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Robbinsdale Zoning Districts layer (MapServer/4), parcel-level polygons with zoning code per parcel; no zone name field; city-only, covers Robbinsdale only.",
+  "extent": [
+    -93.35616266829341,
+    45.006064472330586,
+    -93.31839658231415,
+    45.040731350459716
+  ],
+  "verification": {
+    "verified_at": 1792279250971,
+    "counties": [
+      "27053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

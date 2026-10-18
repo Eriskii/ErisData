@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ne-lancaster-davey",
+  "publisher": "Village of Davey (zoning via Lincoln-Lancaster County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lincoln.ne.gov/public/rest/services/Planning/DevRevZoningandRegulations/MapServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONE"
+  },
+  "notes": "Village of Davey zoning districts from Lincoln/Lancaster Planning Dept public GIS (layer 8 Davey Zoning). OVERLAY field marks overlay districts; zone_name not provided by source.",
+  "extent": [
+    -96.69151007105498,
+    40.96563359041221,
+    -96.64683702883755,
+    41.00191477104938
+  ],
+  "verification": {
+    "verified_at": 1792279491992,
+    "counties": [
+      "31109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

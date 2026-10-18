@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-marion-jefferson",
+  "publisher": "Oregon DLCD (statewide zoning, Jefferson records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Jefferson'",
+  "notes": "Statewide DLCD zoning layer filtered to the City of Jefferson (ownerName Jefferson); standardized state zone codes. State copy, not the city own layer.",
+  "extent": [
+    -123.01751917219036,
+    44.70744091275317,
+    -122.99472622836788,
+    44.72850623940898
+  ],
+  "verification": {
+    "verified_at": 1792280283950,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

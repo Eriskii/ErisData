@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-long-beach",
+  "publisher": "City of Long Beach Development Services",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/yCArG7wGXGyWLqav/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_SYMBOL",
+    "zone_name": "GENERAL_CLASS"
+  },
+  "notes": "City of Long Beach official zoning records, published weekly from the City GIS database. Overlay field present; zone is the base zoning symbol.",
+  "extent": [
+    -118.24891575047872,
+    33.732302639914934,
+    -118.06325012307856,
+    33.88554229026278
+  ],
+  "verification": {
+    "verified_at": 1792277369805,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

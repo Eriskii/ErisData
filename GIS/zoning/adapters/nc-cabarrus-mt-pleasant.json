@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-cabarrus-mt-pleasant",
+  "publisher": "Cabarrus County GIS (Town of Mount Pleasant zoning, county open data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://location.cabarruscounty.us/arcgisservices/rest/services/opendata/MapServer/41",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE"
+  },
+  "notes": "Town of Mount Pleasant zoning districts from Cabarrus County open data MapServer layer 41 (174 features). Only zone code available.",
+  "extent": [
+    -80.49804870183902,
+    35.31935188651993,
+    -80.40723307745787,
+    35.43003441959942
+  ],
+  "verification": {
+    "verified_at": 1792279742107,
+    "counties": [
+      "37025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

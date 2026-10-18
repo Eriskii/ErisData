@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-rancho-mirage",
+  "publisher": "City of Rancho Mirage (zoning compiled by SCAG, Zoning_poly_RV)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.scag.ca.gov/scaggis/rest/services/LDX/Zoning_poly_RV/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZN24_CITY"
+  },
+  "filter": "CITY = 'Rancho Mirage'",
+  "notes": "SCAG regional compiled city zoning (YEAR_ZN 2024), parcel-level polygons. Zone codes are the city codes in ZN24_CITY (e.g. R-H, P). No name or ordinance link field.",
+  "extent": [
+    -116.47796128977508,
+    33.71375009238906,
+    -116.38782716677429,
+    33.8271187697965
+  ],
+  "verification": {
+    "verified_at": 1792278185451,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

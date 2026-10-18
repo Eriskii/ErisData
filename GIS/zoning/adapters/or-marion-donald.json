@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-marion-donald",
+  "publisher": "Oregon DLCD (statewide zoning, Donald records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Donald'",
+  "notes": "Statewide DLCD zoning layer filtered to the City of Donald (ownerName Donald); standardized state zone codes. State copy, not the city own layer.",
+  "extent": [
+    -122.84652526838828,
+    45.21497772911426,
+    -122.82976615741228,
+    45.22797225307353
+  ],
+  "verification": {
+    "verified_at": 1792280295429,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

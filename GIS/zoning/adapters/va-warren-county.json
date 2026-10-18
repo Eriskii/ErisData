@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "va-warren-county",
+  "publisher": "Warren County GIS (WarrenCoGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/iHsDjI19VqyUMCS1/arcgis/rest/services/WarrenGISUpdates/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51187"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "Warren County VA county zoning districts (unincorporated county land; Front Royal town is separate layer va-front-royal). Layer has district names only (e.g. Agricultural, Residential One, Rural Residential, Village Residential, Commercial, Industrial, Federal, State, Town, Water, ROW); zone holds the district name, no separate code or ordinance link.",
+  "extent": [
+    -78.39469174356032,
+    38.75703456220021,
+    -78.00414051433738,
+    39.03652798669408
+  ],
+  "verification": {
+    "verified_at": 1792280986324,
+    "counties": [
+      "51187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

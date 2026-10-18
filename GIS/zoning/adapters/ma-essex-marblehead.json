@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-essex-marblehead",
+  "publisher": "Town of Marblehead, MA (Marblehead Zoning and Land Use, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/3RiQsDoOeneF0Q0P/arcgis/rest/services/Marblehead_ZoningLandUse/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Town of Marblehead zoning districts (layer 1 Zoning; the LandUse layer 0 is excluded). No district name field in the source.",
+  "extent": [
+    -70.8990889824383,
+    42.4783684624681,
+    -70.81133942985406,
+    42.521513339296575
+  ],
+  "verification": {
+    "verified_at": 1792278988877,
+    "counties": [
+      "25009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

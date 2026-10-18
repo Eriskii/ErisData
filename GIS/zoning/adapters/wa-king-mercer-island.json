@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wa-king-mercer-island",
+  "publisher": "City of Mercer Island GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://chgis1.mercergov.org/arcgis/rest/services/GeoCortexServicesExternal/gcexBasemapLayers/MapServer/28",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Mercer Island zoning polygons (76 features), Mercer Island only. Layer 28 of the city GeoCortex basemap service.",
+  "extent": [
+    -122.25450649003017,
+    47.524437411212055,
+    -122.20158608068836,
+    47.59603700850042
+  ],
+  "verification": {
+    "verified_at": 1792281231375,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

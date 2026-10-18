@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-santa-monica",
+  "publisher": "City of Santa Monica GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ntb1ZybmOdA9GyKm/arcgis/rest/services/zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Santa Monica zoning districts (Districting Zones, city ArcGIS Online account smgov_agoladmin).",
+  "extent": [
+    -118.51766363258116,
+    33.99515161304392,
+    -115.27846505362756,
+    36.21963232655957
+  ],
+  "verification": {
+    "verified_at": 1792277829000,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

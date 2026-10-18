@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-wilson-lucama",
+  "publisher": "Wilson County GIS (Town of Lucama zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wilson-co.com/arcgis/rest/services/Templets/ARCGIS_Templet/MapServer/24",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37195"
+    ]
+  },
+  "fields": {
+    "zone": "ZONES"
+  },
+  "notes": "Town of Lucama zoning districts, from the Wilson County template map service.",
+  "extent": [
+    -78.03523622112722,
+    35.620877368743926,
+    -77.97750716199523,
+    35.66400636483483
+  ],
+  "verification": {
+    "verified_at": 1792279930536,
+    "counties": [
+      "37195"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

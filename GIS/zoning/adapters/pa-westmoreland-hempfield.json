@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-westmoreland-hempfield",
+  "publisher": "Hempfield Township (GTE.Hempfield ArcGIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/X5KRYRBToIX6LhWs/arcgis/rest/services/2025_Zoning_Layer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42129"
+    ]
+  },
+  "fields": {
+    "link": "ZoningOrd",
+    "zone": "Proposed_Z"
+  },
+  "notes": "Hempfield Township only. Last resort: a parcel layer (Parcel_2022, about 20,400 parcels) whose Proposed_Z attribute carries each parcel zoning district; no separate district polygon layer found in the township service. Layer name and field names suggest 2025 zoning update. link points to the township eCode360 zoning chapter.",
+  "extent": [
+    -79.70327063309827,
+    40.18435760932817,
+    -79.45877575096021,
+    40.376814583431894
+  ],
+  "verification": {
+    "verified_at": 1792280326647,
+    "counties": [
+      "42129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

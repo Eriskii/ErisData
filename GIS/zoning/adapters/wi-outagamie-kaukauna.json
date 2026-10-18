@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-outagamie-kaukauna",
+  "publisher": "City of Kaukauna (City Zoning Map, ckaukauna.maps.arcgis.com)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/6fPDyQ5OE4Q2nn7u/arcgis/rest/services/Kaukauna_Parcel/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55087"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Last resort: parcel layer whose Zone attribute carries each parcel's zoning district, from the City of Kaukauna Zoning Map web app (its Zoning Districts layer draws this service). No separate district polygon layer found. Parcel features, dissolve by zone if needed.",
+  "extent": [
+    -88.2930073508372,
+    44.243029800025035,
+    -88.19267576292808,
+    44.31603588079644
+  ],
+  "verification": {
+    "verified_at": 1792281389400,
+    "counties": [
+      "55087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

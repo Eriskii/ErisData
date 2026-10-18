@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-allegheny-mt-lebanon",
+  "publisher": "Municipality of Mt. Lebanon (GIS, mtlebanon.maps.arcgis.com)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/4sXEsxQJTWBlSKA1/arcgis/rest/services/BasemapFeatureService_ReadOnl/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Mt. Lebanon Township zoning districts from the township ArcGIS organization (Mt. Lebanon Parcels & Zoning viewer). Mt. Lebanon only, 645 features.",
+  "extent": [
+    -80.08495302229848,
+    40.34977299478233,
+    -80.01775716541123,
+    40.40251015755246
+  ],
+  "verification": {
+    "verified_at": 1792280478271,
+    "counties": [
+      "42003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

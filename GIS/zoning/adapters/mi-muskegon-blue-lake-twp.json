@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-muskegon-blue-lake-twp",
+  "publisher": "Muskegon County GIS (Blue Lake Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.muskegoncountygis.com/arcgis/rest/services/Zoning_Viewer/Zoning_Viewer/MapServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26121"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "County GIS Zoning_Viewer service; Blue Lake Township base zoning districts (layer 14).",
+  "extent": [
+    -86.27785106657689,
+    43.38220422057102,
+    -86.1573822587184,
+    43.46995585633264
+  ],
+  "verification": {
+    "verified_at": 1792275369548,
+    "counties": [
+      "26121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-marion-powells-crossroads",
+  "publisher": "Town of Powells Crossroads, TN (SETD hosted, via Marion County interactive map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Corporate_Zoning_06042026B/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47115"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "Town of Powells Crossroads zoning districts (dated 6.4.2026), hosted by Southeast Tennessee Development District (SETDD). Single-jurisdiction layer, 4 features. Zone field holds district code.",
+  "extent": [
+    -85.50839505073084,
+    35.16066789194757,
+    -85.45514239384356,
+    35.20630949361971
+  ],
+  "verification": {
+    "verified_at": 1792280513718,
+    "counties": [
+      "47115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

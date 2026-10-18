@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nj-essex-east-orange",
+  "publisher": "City of East Orange (2016 zoning limits, copy hosted on ArcGIS Online by jkennedy_SpatialDataLogic)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/DvTqoyLKkslnGFR5/arcgis/rest/services/EastOrangeZoning/FeatureServer/0",
+    "page_size": 20,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34013"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_RDA"
+  },
+  "notes": "Unofficial copy: hosted under a consultant account (SpatialDataLogic), not the city; 2016 zoning limits, 84 features. Zone_RDA holds the district code. No zone name field is filled. Verify currency against the city zoning map.",
+  "extent": [
+    -74.23827262135242,
+    40.748745556937784,
+    -74.18976060245977,
+    40.788240634622866
+  ],
+  "verification": {
+    "verified_at": 1792279703936,
+    "counties": [
+      "34013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

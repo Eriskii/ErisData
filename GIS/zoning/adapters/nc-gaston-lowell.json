@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nc-gaston-lowell",
+  "publisher": "Gaston County GIS (City of Lowell land use code)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gastoncountync.gov/publicgis/rest/services/PublicGIS/Zoning/MapServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "TYPE",
+    "zone_name": "NAME"
+  },
+  "notes": "City of Lowell zoning districts (Land Use Code) served by the Gaston County PublicGIS zoning service; JURISDICTION names the city; ETJ attribute also present",
+  "extent": [
+    -81.12204820933614,
+    35.24913536600494,
+    -81.08372473951546,
+    35.30302034478429
+  ],
+  "verification": {
+    "verified_at": 1792279825963,
+    "counties": [
+      "37071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

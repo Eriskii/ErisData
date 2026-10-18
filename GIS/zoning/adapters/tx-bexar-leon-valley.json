@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-bexar-leon-valley",
+  "publisher": "City of Leon Valley, TX (layer copy by user jstandford)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/CId9zss9qRBKDjB0/arcgis/rest/services/Default/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48029"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "AddrCty",
+    "zone": "Zoning"
+  },
+  "notes": "Parcel-level layer (owner and value fields) carrying each parcel zoning, updated Dec 2024; last resort, used because no district layer was found. Copy published under an individual ArcGIS account, not the city; the city map page could not be read. City limits only. Overlay field OVERLAY not mapped.",
+  "extent": [
+    -98.63518906407577,
+    29.47642084920491,
+    -98.5862255622581,
+    29.515648183239097
+  ],
+  "verification": {
+    "verified_at": 1792280629222,
+    "counties": [
+      "48029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

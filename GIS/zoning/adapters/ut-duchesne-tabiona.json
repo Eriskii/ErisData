@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-duchesne-tabiona",
+  "publisher": "Uintah Basin AOG (for Tabiona Town)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/5fDwKG9d6YoFpMDE/arcgis/rest/services/Tabiona_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ABBR",
+    "zone_name": "ZONE"
+  },
+  "notes": "Tabiona Town zoning districts only, hosted by Uintah Basin AOG; linked from the Tabiona town interactive map.",
+  "extent": [
+    -110.71353196010712,
+    40.349657392215434,
+    -110.70518221142716,
+    40.356962442509875
+  ],
+  "verification": {
+    "verified_at": 1792280811532,
+    "counties": [
+      "49013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

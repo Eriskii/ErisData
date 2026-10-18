@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-littleton",
+  "publisher": "City of Littleton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/lJUBf9F1fZJRB4zT/arcgis/rest/services/Zoning_District/FeatureServer/195",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08005"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Littleton zoning districts; city layer, portions of Littleton lie in Jefferson and Douglas counties.",
+  "extent": [
+    -105.11107766284822,
+    39.535642814992165,
+    -104.97278322643388,
+    39.62977051200144
+  ],
+  "verification": {
+    "verified_at": 1792277446772,
+    "counties": [
+      "08005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

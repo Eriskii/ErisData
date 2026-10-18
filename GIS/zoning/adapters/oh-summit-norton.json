@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-summit-norton",
+  "publisher": "Summit County GIS (Norton zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "GOVERNMENT",
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "City of Norton layer from Summit County GIS ZoningNov2025 service (layer 11). GENERAL is a general category.",
+  "extent": [
+    -81.68861467364181,
+    40.98205351611076,
+    -81.58884869577905,
+    41.06285888128564
+  ],
+  "verification": {
+    "verified_at": 1792276090878,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "pa-snyder-adams",
+  "publisher": "Union County GIS (ArcGIS Online organization; zoning districts compiled for Union and Snyder County municipalities)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/oX0kbxItOpLtURFa/arcgis/rest/services/ZoningDistrict/FeatureServer/107",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "COUNTY = 'Snyder County' AND MUNICIPALITY = 'Adams Township'",
+  "notes": "Adams Township, Snyder County, served from the Union County GIS compilation layer (shared with pa-union, which filters to Union County). Only Snyder records with MUNICIPALITY = Adams Township are used.",
+  "extent": [
+    -77.23682126567519,
+    40.7728624288562,
+    -77.20289845986935,
+    40.8086115534823
+  ],
+  "verification": {
+    "verified_at": 1792280204709,
+    "counties": [
+      "42109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

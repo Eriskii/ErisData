@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-tompkins-groton",
+  "publisher": "Tompkins County GIS (Town of Groton zoning, 2010 parcels)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/oJbAAWNInLrxvF0A/arcgis/rest/services/GrotonZoning2010/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36109"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZONING"
+  },
+  "notes": "Town of Groton parcel layer (2009-2010 land use data) carrying each parcel zoning in ZONING; no district polygon layer found. Parcel-based last resort, and dated 2010: the town has since adopted a new zoning map, so treat as historical.",
+  "extent": [
+    -76.45844245585293,
+    42.54534733483735,
+    -76.26119964208327,
+    42.623900569527976
+  ],
+  "verification": {
+    "verified_at": 1792279711583,
+    "counties": [
+      "36109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

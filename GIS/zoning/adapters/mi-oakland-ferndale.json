@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mi-oakland-ferndale",
+  "publisher": "City of Ferndale",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/2TPYEzbyXSiAqSUs/arcgis/rest/services/Ferndale_zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26125"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Last resort: City of Ferndale zoning map service has only a tax parcel layer (TaxParcel) whose Zoning attribute carries each parcel zoning code; no district polygon layer published. Data dated 2017. Covers Ferndale only.",
+  "extent": [
+    -83.15731001856827,
+    42.446294951284315,
+    -83.10975140556127,
+    42.4757123118761
+  ],
+  "verification": {
+    "verified_at": 1792275455801,
+    "counties": [
+      "26125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

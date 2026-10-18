@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-redondo-beach",
+  "publisher": "City of Redondo Beach (CORB Engineering, city GIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/4Y3DUWGj4Rq1ajvv/arcgis/rest/services/Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode"
+  },
+  "notes": "City of Redondo Beach zoning districts; ZoningCode is the base district. ZoningOverlay is separate. zone name (ZoningDescription) is blank for most districts, so omitted.",
+  "extent": [
+    -118.40192294521395,
+    33.81459821676651,
+    -118.35256642046016,
+    33.894615966215426
+  ],
+  "verification": {
+    "verified_at": 1792278143648,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

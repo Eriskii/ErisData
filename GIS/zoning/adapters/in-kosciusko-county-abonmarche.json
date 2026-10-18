@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "in-kosciusko-county-abonmarche",
+  "publisher": "Kosciusko County (zoning layer hosted by Abonmarche, consultant account amilne_abon)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/o5a9nldztUcivksS/arcgis/rest/services/Kosciusko_LandUse/FeatureServer/116",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18085"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE"
+  },
+  "notes": "Zoning layer 116 of the Kosciusko_LandUse service on the Abonmarche ArcGIS Online organization; 262 polygons, ZONE_TYPE holds the district name only (e.g. Agriculture). CASE_NO lists rezoning cases. Vendor-hosted for the county; the saved in-kosciusko copy appears to be the same schema.",
+  "extent": [
+    -85.88604821369509,
+    41.41313176166856,
+    -85.74759347231345,
+    41.435867249001554
+  ],
+  "verification": {
+    "verified_at": 1792278471379,
+    "counties": [
+      "18085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

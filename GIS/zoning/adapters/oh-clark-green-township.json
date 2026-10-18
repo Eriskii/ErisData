@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-clark-green-township",
+  "publisher": "Clark County, Ohio (county zoning for Green Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ago.clarkcountyohio.gov/ccoarcgis/rest/services/BHA/AGS_Clark_Zones/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39023"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWNSHIP",
+    "zone": "ZONING",
+    "zone_name": "ZONINGDESC"
+  },
+  "notes": "Unincorporated Green Township zoning districts, county-administered; layer of the Clark County AGS_Clark_Zones service.",
+  "extent": [
+    -83.86503447843755,
+    39.78018783886299,
+    -83.71049405090407,
+    39.86854129285065
+  ],
+  "verification": {
+    "verified_at": 1792275627509,
+    "counties": [
+      "39023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

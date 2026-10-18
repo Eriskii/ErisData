@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ct-newlondon-lisbon",
+  "publisher": "Southeastern CT Council of Governments (SCCOG) - Town of Lisbon zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/c8bwOPjaFB6olbad/arcgis/rest/services/Lisbon_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09180"
+    ]
+  },
+  "fields": {
+    "link": "FileLink",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Lisbon zoning, hosted by SCCOG (sccogMaps) regional GIS; single-town layer (TownName field).",
+  "extent": [
+    -72.04740452859332,
+    41.554334809130765,
+    -71.97619836475342,
+    41.64727235892182
+  ],
+  "verification": {
+    "verified_at": 1792278000205,
+    "counties": [
+      "09180"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

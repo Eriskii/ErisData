@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-rock-island-silvis",
+  "publisher": "City of Silvis, Illinois (ArcGIS Online, QCGIS_LisaM)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/iZ6GmQZ9zaRNfvWH/arcgis/rest/services/City_of_Silvis_Illinois_Zoning_Classifications/FeatureServer/44",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17161"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code"
+  },
+  "notes": "City of Silvis zoning classifications, district polygons; zone names not filled in the source. Covers City of Silvis only.",
+  "extent": [
+    -90.42625011847451,
+    41.46754959796553,
+    -90.38642869873796,
+    41.52176673713178
+  ],
+  "verification": {
+    "verified_at": 1792278274287,
+    "counties": [
+      "17161"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

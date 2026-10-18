@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-davis-west-bountiful",
+  "publisher": "West Bountiful City (copy hosted by Jacobs consultant on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/eNX73FDxjlKFtCtH/arcgis/rest/services/WestBountiful_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49011"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "PARCEL_CIT",
+    "zone": "ZONING"
+  },
+  "notes": "Unofficial copy: an ArcGIS Online item by a Jacobs staff account, not the city; a parcel layer whose ZONING attribute carries each parcel zone, used as last resort. Parcel-level, so one feature per parcel; zone_name not mapped.",
+  "extent": [
+    -111.93385290934422,
+    40.88297943229996,
+    -111.89215281821625,
+    40.9177496550297
+  ],
+  "verification": {
+    "verified_at": 1792280865412,
+    "counties": [
+      "49011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-brown-hobart",
+  "publisher": "Village of Hobart (Village ArcGIS organization, Zoning (Public) layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/wyZmtUxY8ZhqLsSC/arcgis/rest/services/Zoning_(Public)/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55009"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "zone": "Zoning"
+  },
+  "filter": "Municipality = 'VILLAGE OF HOBART'",
+  "notes": "Parcel layer (one feature per parcel) carrying each parcel base zoning in Zoning, not a district polygon layer; last resort. Village of Hobart zoning per parcel. Maintained from Brown County GIS (UpdateDate field). Overlay in separate Zoning Overlay District layer, not used.",
+  "extent": [
+    -88.19192221281745,
+    44.39170525203262,
+    -88.09701763540876,
+    44.583254533461776
+  ],
+  "verification": {
+    "verified_at": 1792281315445,
+    "counties": [
+      "55009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

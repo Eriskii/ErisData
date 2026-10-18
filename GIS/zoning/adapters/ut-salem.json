@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-salem",
+  "publisher": "Utah County GIS (Salem City Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/57",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_SA_LABEL",
+    "zone_name": "ZONE_SA_DESC"
+  },
+  "notes": "Salem City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 57, 114 features).",
+  "extent": [
+    -111.7172796333856,
+    40.011444610858135,
+    -111.61603832760584,
+    40.08542178281565
+  ],
+  "verification": {
+    "verified_at": 1792280903760,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

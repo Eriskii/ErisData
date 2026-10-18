@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-santacruz-watsonville",
+  "publisher": "City of Watsonville (hosted on ArcGIS Online by City GIS team)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/HVKk0mXWDGCVpolG/arcgis/rest/services/Watsonville/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06087"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Watsonville zoning layer, 21 polygons in the hosted Watsonville service; attributes sit beside canopy statistics. Verify it is base zoning before relying on it.",
+  "extent": [
+    -121.82805898346446,
+    36.8836244913611,
+    -121.73176519473324,
+    36.95791508287857
+  ],
+  "verification": {
+    "verified_at": 1792277394509,
+    "counties": [
+      "06087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

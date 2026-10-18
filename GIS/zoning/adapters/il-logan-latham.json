@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-logan-latham",
+  "publisher": "Logan County GIS (Illinois) - Village of Latham zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/pPTAs43AFhhk0pXQ/arcgis/rest/services/Logan_County_Districts_and_Zoning/FeatureServer/54",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17107"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Latham zoning districts, as published in the Logan County GIS zoning layers (layer 54 of the county Logan_County_Districts_and_Zoning service). Layer covers Latham only.",
+  "extent": [
+    -89.170172163924,
+    39.96114634045527,
+    -89.15499103134424,
+    39.972136042684575
+  ],
+  "verification": {
+    "verified_at": 1792278135825,
+    "counties": [
+      "17107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

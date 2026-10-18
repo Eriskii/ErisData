@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wa-king-kirkland",
+  "publisher": "City of Kirkland GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.kirklandwa.gov/appx/rest/services/KirklandPublic/MapServer/100",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESN"
+  },
+  "notes": "City of Kirkland zoning (City Zoning layer 100 of the public KirklandPublic MapServer). Kirkland only.",
+  "extent": [
+    -122.26235888218147,
+    47.64166845717579,
+    -122.1472042706786,
+    47.741215840808465
+  ],
+  "verification": {
+    "verified_at": 1792282013600,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

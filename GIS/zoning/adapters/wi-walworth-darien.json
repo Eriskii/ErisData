@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-walworth-darien",
+  "publisher": "Village of Darien (Village ArcGIS Online org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/MM5syA5iJDxShLba/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55127"
+    ]
+  },
+  "fields": {
+    "zone": "TAG"
+  },
+  "notes": "Village of Darien zoning districts from the Village public GIS org (darienwi.maps.arcgis.com web map, layer Zoning). Zone code in TAG. District is a numeric class code and is not mapped. No zone name or ordinance link field.",
+  "extent": [
+    -88.7278763053163,
+    42.582481843846125,
+    -88.69264744946999,
+    42.61101237742005
+  ],
+  "verification": {
+    "verified_at": 1792281593921,
+    "counties": [
+      "55127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

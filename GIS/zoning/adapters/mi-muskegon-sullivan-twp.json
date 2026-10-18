@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-muskegon-sullivan-twp",
+  "publisher": "Muskegon County GIS (Sullivan Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.muskegoncountygis.com/arcgis/rest/services/Zoning_Viewer/Zoning_Viewer/MapServer/58",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26121"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "County GIS Zoning_Viewer service; Sullivan Township base zoning districts (layer 58).",
+  "extent": [
+    -86.14557586256518,
+    43.118097883301466,
+    -86.02697239815659,
+    43.206046348034896
+  ],
+  "verification": {
+    "verified_at": 1792275395038,
+    "counties": [
+      "26121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

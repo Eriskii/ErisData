@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "ut-box-elder-garland",
+  "publisher": "Garland City (zoning compiled in a generalized Utah planning layer)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49003"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "city = 'Garland'",
+  "notes": "Unofficial copy: a third-party generalized statewide planning layer (AOG BRAG, Utah AGRC), not hosted by Garland City; filtered to Garland rows compiled from the city zoning map dated 12-10-2025 (PDF). Garland publishes no queryable layer of its own.",
+  "extent": [
+    -112.18803399562482,
+    41.72251536804912,
+    -112.14220304210473,
+    41.74954888383801
+  ],
+  "verification": {
+    "verified_at": 1792281314622,
+    "counties": [
+      "49003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

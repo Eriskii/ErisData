@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-mount-holly-springs",
+  "publisher": "Cumberland County Planning Department (Mount Holly Springs Borough zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Mount Holly Springs Borough zoning layer from the county GIS Zoning_Basemap service; digitized by the county from municipal paper maps, may not be the official adopted maps. ZoneType also available.",
+  "extent": [
+    -77.19546110833642,
+    40.09539359679157,
+    -77.17412894966863,
+    40.12584658359243
+  ],
+  "verification": {
+    "verified_at": 1792280223647,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

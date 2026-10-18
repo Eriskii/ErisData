@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-monroe-greece",
+  "publisher": "Town of Greece GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.greeceny.gov/server/rest/services/GRIMS/GRIMS/FeatureServer/73",
+    "page_size": 67,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "36055"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ABBR"
+  },
+  "notes": "Town of Greece only; Zoning 2020 layer of Town GRIMS service. Zone abbreviation only.",
+  "extent": [
+    -77.75352729760816,
+    43.179276293461555,
+    -77.6155933934812,
+    43.33492947470892
+  ],
+  "verification": {
+    "verified_at": 1792279621798,
+    "counties": [
+      "36055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

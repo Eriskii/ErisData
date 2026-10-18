@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "al-lee-opelika",
+  "publisher": "City of Opelika GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/rJ3cjDyDh65fslIZ/arcgis/rest/services/Opelika_GIS_WFL1/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01081"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Opelika UseZones layer from Opelika GIS basemap service (EnerGov). Verify it is base zoning districts.",
+  "extent": [
+    -85.47241439087634,
+    32.58209768965039,
+    -85.26792453405216,
+    32.73915405114232
+  ],
+  "verification": {
+    "verified_at": 1792277228512,
+    "counties": [
+      "01081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-collin-murphy",
+  "publisher": "City of Murphy GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/lt8CbgYaNuFrQ7kB/arcgis/rest/services/Murphy_Zoning/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48085"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Description"
+  },
+  "notes": "City of Murphy zoning districts (city limits; Murphy lies in Collin and Dallas counties). Zone holds district code, Description the description; MurphyZone is a duplicate code field. Ordinance holds the ordinance number.",
+  "extent": [
+    -96.63518345114295,
+    32.98646821260382,
+    -96.59460228274096,
+    33.041246118591815
+  ],
+  "verification": {
+    "verified_at": 1792280788882,
+    "counties": [
+      "48085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-madera-county",
+  "publisher": "Madera County (unincorporated, via California Statewide Zoning, Governor's Office of Land Use and Climate Innovation)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06039"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'MAD' AND Jurisdiction = 'MAD'",
+  "notes": "Statewide zoning compilation (OPR), records tagged Jurisdiction MAD = Madera County unincorporated land. Official state-compiled copy.",
+  "extent": [
+    -120.54504058071775,
+    36.76319909490258,
+    -119.02310111537628,
+    37.778189391812546
+  ],
+  "verification": {
+    "verified_at": 1792277335156,
+    "counties": [
+      "06039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

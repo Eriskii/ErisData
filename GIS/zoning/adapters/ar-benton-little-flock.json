@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ar-benton-little-flock",
+  "publisher": "City of Little Flock, AR (zoning layer by NWARPC ArcGIS Online organization, titled Little Flock Official Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/Little_Flock_Official_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05007"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_ABV",
+    "zone_name": "Description"
+  },
+  "notes": "City of Little Flock zoning districts, 41 features; Zone_ABV holds district code, Description the name. Ordinance holds ordinance reference; Doc holds the document link, not mapped.",
+  "extent": [
+    -94.16257359588754,
+    36.356942831484865,
+    -94.11436137818151,
+    36.42086354121551
+  ],
+  "verification": {
+    "verified_at": 1792277471083,
+    "counties": [
+      "05007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

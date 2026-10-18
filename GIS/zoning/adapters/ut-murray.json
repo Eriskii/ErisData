@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "ut-murray",
+  "publisher": "Salt Lake County Surveyors Office (combined municipal zoning, 2023)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/DJP723NX3ukQ2LtF/ArcGIS/rest/services/Salt_Lake_County_Zoning_2023_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49035"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "municipali",
+    "link": "ordinance_",
+    "zone": "municipal_",
+    "zone_name": "zone_descr"
+  },
+  "filter": "municipali = 'Murray'",
+  "notes": "Salt Lake County combined municipal zoning layer (SLCO Surveyors Office, 2023), filtered to Murray; jurisdiction field municipali.",
+  "extent": [
+    -111.9320304238692,
+    40.62614776292886,
+    -111.83445106646252,
+    40.683825572259565
+  ],
+  "verification": {
+    "verified_at": 1792281553219,
+    "counties": [
+      "49035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

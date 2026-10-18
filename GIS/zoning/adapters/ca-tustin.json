@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-tustin",
+  "publisher": "City of Tustin GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/omhBSxytABi3T0US/arcgis/rest/services/Tustin_Base_Data/FeatureServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "City of Tustin Base Data, Zoning layer (city account). Tustin zoning districts only.",
+  "extent": [
+    -117.84415081866928,
+    33.69346797603165,
+    -117.75963118933078,
+    33.77355994326164
+  ],
+  "verification": {
+    "verified_at": 1792277496384,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ia-tama-dysart",
+  "publisher": "Iowa State University GIS Facility statewide zoning compilation (Dysart rows digitized from city zoning map)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19171"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Dysart'",
+  "notes": "Unofficial copy: ISU GIS Facility statewide compilation (zoning_districts_all_data_v2); Dysart rows digitized from the city zoning map (source field: Digitized by NM). Dysart city zoning is not published by the city itself as a queryable layer found; 8 district polygons.",
+  "extent": [
+    -92.31921513263855,
+    42.163047625082065,
+    -92.299159128213,
+    42.18124362889207
+  ],
+  "verification": {
+    "verified_at": 1792278418973,
+    "counties": [
+      "19171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

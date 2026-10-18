@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ut-washington-springdale",
+  "publisher": "Washington County GIS (Town of Springdale zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://agisprodvm.washco.utah.gov/arcgis/rest/services/Zoning/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49053"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE"
+  },
+  "notes": "Town of Springdale zoning districts, hosted by Washington County GIS; one jurisdiction per layer (SOURCE holds Springdale). No zone_name: GEN_ZONE and DESCRIPTION are null in source.",
+  "extent": [
+    -113.03516867399148,
+    37.160292042229,
+    -112.97854447124264,
+    37.20172596608032
+  ],
+  "verification": {
+    "verified_at": 1792280851845,
+    "counties": [
+      "49053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wa-king-seatac",
+  "publisher": "City of SeaTac GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/DLryYCwhA8W7Jq7Q/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "City of SeaTac zoning districts; SeaTac only.",
+  "extent": [
+    -122.3268184650492,
+    47.39521939532863,
+    -122.26389029307552,
+    47.48907499622414
+  ],
+  "verification": {
+    "verified_at": 1792281021656,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

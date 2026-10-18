@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-summit-munroe-falls",
+  "publisher": "Summit County GIS (Munroe Falls zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "City of Munroe Falls layer from Summit County GIS ZoningNov2025 service (layer 15). GENERAL is a general category; DISTRICT_N may hold more detail.",
+  "extent": [
+    -81.45297607920307,
+    41.12395510530908,
+    -81.41396902306275,
+    41.15250641460576
+  ],
+  "verification": {
+    "verified_at": 1792276079278,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

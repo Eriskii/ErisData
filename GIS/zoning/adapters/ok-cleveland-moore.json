@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ok-cleveland-moore",
+  "publisher": "City of Moore GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofmoore.com/arcgis/rest/services/CommunityDevelopment/Zoning/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "City of Moore base zoning districts (layer 1 of the city MapServer; layer 0 is overlays, not used). Only the zone code is available; no description or ordinance link field.",
+  "extent": [
+    -97.52156529036772,
+    35.29057990774778,
+    -97.41427751032326,
+    35.37077316505331
+  ],
+  "verification": {
+    "verified_at": 1792279960305,
+    "counties": [
+      "40027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

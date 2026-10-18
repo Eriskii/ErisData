@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-marion-ocala",
+  "publisher": "City of Ocala GIS (GeOcala)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ocalafl.org/arcgis/rest/services/Public/GrowthManagement/FeatureServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Ocala zoning polygons; city-wide, no jurisdiction field needed.",
+  "extent": [
+    -82.25179650573837,
+    29.106639805326044,
+    -82.06199886761816,
+    29.233734387775765
+  ],
+  "verification": {
+    "verified_at": 1792277632219,
+    "counties": [
+      "12083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

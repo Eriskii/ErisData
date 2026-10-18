@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-milpitas",
+  "publisher": "City of Milpitas GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/OPmRdssd8jj0bT5H/arcgis/rest/services/Zoning%20By%20Parcel/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06085"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDescription",
+    "zone_name": "ZONE_CODE1"
+  },
+  "notes": "Parcel-level zoning from the City of Milpitas (no district polygon layer found); each parcel carries its zoning in ZoningDescription, a last resort. ZONE_CODE1 is the broad category. Milpitas only; ZoningOverlay holds overlays.",
+  "extent": [
+    -121.931479285,
+    37.396363334,
+    -121.8354233,
+    37.470536732
+  ],
+  "verification": {
+    "verified_at": 1792277479899,
+    "counties": [
+      "06085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "de-sussex-milford",
+  "publisher": "City of Milford, DE",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.milford-de.gov/arcgis/rest/services/Map/MapServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "10005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Milford zoning districts from city map server (ZoningDistrict layer). Milford lies partly in Kent and Sussex counties; coverage set to Sussex. Fields: ZONECLASS code, ZONEDESC description. No jurisdiction or link field.",
+  "extent": [
+    -75.47219577772651,
+    38.87595133994114,
+    -75.36107479196808,
+    38.94941214719389
+  ],
+  "verification": {
+    "verified_at": 1792277775873,
+    "counties": [
+      "10005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

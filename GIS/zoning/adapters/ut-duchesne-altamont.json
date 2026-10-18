@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-duchesne-altamont",
+  "publisher": "Uintah Basin AOG (for Altamont Town)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/5fDwKG9d6YoFpMDE/arcgis/rest/services/AltamontZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49013"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Objectives"
+  },
+  "notes": "Altamont Town zoning districts only (18 features), hosted by Uintah Basin AOG; linked from the town zoning page viewer. zone_name is the Objectives text.",
+  "extent": [
+    -110.2941605329539,
+    40.355621029667624,
+    -110.28226531684608,
+    40.36296297311427
+  ],
+  "verification": {
+    "verified_at": 1792280779559,
+    "counties": [
+      "49013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

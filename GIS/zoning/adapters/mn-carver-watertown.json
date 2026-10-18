@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-carver-watertown",
+  "publisher": "City of Watertown (Carver County GIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.carver.mn.us/arcgis_ca/rest/services/Watertown/Watertown_CityGIS_LandUsePlanning/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27019"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict",
+    "zone_name": "ZoningDistrictDesc"
+  },
+  "notes": "City of Watertown zoning districts only; city limits, not unincorporated county land.",
+  "extent": [
+    -93.86926839886395,
+    44.948656538610834,
+    -93.81847962850526,
+    44.97416236443576
+  ],
+  "verification": {
+    "verified_at": 1792278919899,
+    "counties": [
+      "27019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

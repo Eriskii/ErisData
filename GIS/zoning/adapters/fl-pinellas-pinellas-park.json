@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-pinellas-park",
+  "publisher": "City of Pinellas Park (hosted on ArcGIS Online by city staff)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/fH2ZwfxOgb5eaBS4/arcgis/rest/services/Zoning__Pinellas_Park_03122025/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "zone": "CATEGORY",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "City of Pinellas Park zoning districts, dated 12 March 2025, city staff ArcGIS Online organization (KMarlow_PinellasPark / Adavis_PinellasPark). Queried as JSON, not GeoJSON.",
+  "extent": [
+    -82.75612375291831,
+    27.824657461151247,
+    -82.66418487656281,
+    27.89495733000799
+  ],
+  "verification": {
+    "verified_at": 1792278137840,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

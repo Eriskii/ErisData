@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-washington-germantown",
+  "publisher": "Washington County GIS (Village of Germantown zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.washcowisco.gov/server/rest/services/Zoning/Local_Zoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55131"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningName"
+  },
+  "notes": "Village of Germantown zoning districts, served by Washington County GIS (Local_Zoning service). Layer holds only Germantown.",
+  "extent": [
+    -88.18424222057064,
+    43.1906179881627,
+    -88.06071025836508,
+    43.28097505984219
+  ],
+  "verification": {
+    "verified_at": 1792281364543,
+    "counties": [
+      "55131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

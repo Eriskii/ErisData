@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "oh-licking-union-township",
+  "publisher": "Licking County Planning Commission (for Union Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lickingcounty.gov/server/rest/services/Planning/Zoning/MapServer/23",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39089"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Township",
+    "link": "URL",
+    "zone": "ZoningClass",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Union Township unincorporated zoning, published by Licking County Planning Commission with permission from the township. Layer 23 of Planning/Zoning MapServer.",
+  "extent": [
+    -82.58199835447573,
+    39.926665933971265,
+    -82.45942041498323,
+    40.041667411002685
+  ],
+  "verification": {
+    "verified_at": 1792276501339,
+    "counties": [
+      "39089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

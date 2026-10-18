@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-tempe",
+  "publisher": "City of Tempe Community Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.tempe.gov/arcgis/rest/services/Open_Data/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04013"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningCode"
+  },
+  "notes": "City of Tempe zoning districts (city limits only), City of Tempe open data.",
+  "extent": [
+    -111.97836798514244,
+    33.32004319940335,
+    -111.87753757390288,
+    33.46397989288811
+  ],
+  "verification": {
+    "verified_at": 1792277274904,
+    "counties": [
+      "04013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-goodhue-wanamingo",
+  "publisher": "City of Wanamingo (hosted by Goodhue County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://publicmaps.co.goodhue.mn.us/arcgis/rest/services/GCUGGIS/WanamingoZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27049"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "City of Wanamingo zoning districts, hosted on Goodhue County GIS server. Single-city layer.",
+  "extent": [
+    -92.80085411215178,
+    44.29049373673855,
+    -92.76687350070573,
+    44.31234567581167
+  ],
+  "verification": {
+    "verified_at": 1792278977617,
+    "counties": [
+      "27049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

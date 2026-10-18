@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-cache-cornish",
+  "publisher": "Cache County GIS (Cornish City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/City_Zoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "zone": "zone_code",
+    "zone_name": "zone_type"
+  },
+  "filter": "city_name = 'CORNISH'",
+  "notes": "Cornish city zoning from Cache County City_Zoning service (layer per city; every layer returns the same 19-city table, filtered on city_name). Covers Cornish only. density field also present in source.",
+  "extent": [
+    -111.98106617541004,
+    41.94067990824347,
+    -111.9343043386996,
+    41.998733761869
+  ],
+  "verification": {
+    "verified_at": 1792280900410,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

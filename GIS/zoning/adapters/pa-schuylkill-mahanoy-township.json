@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-mahanoy-township",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Mahanoy Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/27_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "descrpt"
+  },
+  "notes": "Municipal zoning for Mahanoy Township (MUNIS 27), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.08275944964457,
+    40.72641009303204,
+    -75.97233074935328,
+    40.81122987148721
+  ],
+  "verification": {
+    "verified_at": 1792280227973,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

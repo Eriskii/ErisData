@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-fortbend-richmond",
+  "publisher": "City of Richmond, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/riku34rn6C8cs2t5/arcgis/rest/services/CORZONINGDISTRICTS020320/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48157"
+    ]
+  },
+  "fields": {
+    "link": "ZOrdinance",
+    "zone": "Zone",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "City of Richmond official zoning districts (city-published, 2020 layer). ZOrdinance holds the ordinance reference, not necessarily a URL.",
+  "extent": [
+    -95.79326675607574,
+    29.541658749184094,
+    -95.6891752853175,
+    29.631266039725983
+  ],
+  "verification": {
+    "verified_at": 1792280598053,
+    "counties": [
+      "48157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

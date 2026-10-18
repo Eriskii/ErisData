@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-east-union",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for East Union Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/15_zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "munis",
+    "zone": "zone",
+    "zone_name": "descrpt"
+  },
+  "notes": "Municipal zoning for East Union Township (MUNIS 15), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.09845727419241,
+    40.85880641963597,
+    -75.95787718500254,
+    40.91322891492642
+  ],
+  "verification": {
+    "verified_at": 1792280299475,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

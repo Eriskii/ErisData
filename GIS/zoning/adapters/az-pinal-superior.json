@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-pinal-superior",
+  "publisher": "Town of Superior",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/I9CmIIXed3rYyHrA/arcgis/rest/services/TownOfSuperiorZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04021"
+    ]
+  },
+  "fields": {
+    "zone": "Layer_1",
+    "zone_name": "Name_1"
+  },
+  "notes": "Town of Superior official zoning map layer, hosted by the town consultant (Willdan) on ArcGIS Online. Zone code is in Layer_1 (e.g. AR Zone); name in Name_1.",
+  "extent": [
+    -111.1352117270754,
+    33.27270403976216,
+    -111.07859447052668,
+    33.299256770180364
+  ],
+  "verification": {
+    "verified_at": 1792277494964,
+    "counties": [
+      "04021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

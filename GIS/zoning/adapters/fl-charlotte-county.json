@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-charlotte-county",
+  "publisher": "Charlotte County GIS (Community Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://agis3.charlottecountyfl.gov/arcgis/rest/services/Essentials/CCGISLayers/MapServer/43",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE_"
+  },
+  "notes": "Charlotte County unincorporated zoning districts (county-only land; Punta Gorda is in fl-punta-gorda). ZONE_ and ZONE field contents to be checked; REZONE/CONDITIONS are overlays of rezonings.",
+  "extent": [
+    -82.54322183582268,
+    26.76728517644037,
+    -81.56262986291549,
+    27.03517941935974
+  ],
+  "verification": {
+    "verified_at": 1792277563156,
+    "counties": [
+      "12015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

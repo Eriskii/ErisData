@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "or-coquille",
+  "publisher": "City of Coquille GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Mg5lKoVeyQMwwiX3/arcgis/rest/services/Coquille_Upload_March24/FeatureServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_3J"
+  },
+  "notes": "City of Coquille own zoning districts (Coquille_Zoning_2024, from the city ArcGIS upload March 2024). Zone_3J holds the district code; no separate name field.",
+  "extent": [
+    -124.22344076106286,
+    43.16166733140201,
+    -124.15982170946047,
+    43.19554250124765
+  ],
+  "verification": {
+    "verified_at": 1792280021142,
+    "counties": [
+      "41011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

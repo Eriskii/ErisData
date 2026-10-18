@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-weber-south-ogden",
+  "publisher": "South Ogden City (SOC Zoning viewer, SOC_CITY_ZONING layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/gnwKTIlsyM6xFjvI/arcgis/rest/services/SOC_CITY_ZONING/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49057"
+    ]
+  },
+  "fields": {
+    "zone": "NAME",
+    "zone_name": "SHORTDESC"
+  },
+  "notes": "South Ogden City zoning, from the SOC Zoning map linked on the city information packets page (Wasatch Civil ArcGIS app). 68 features. Field SHORTDESC is a short description; no ordinance link field.",
+  "extent": [
+    -111.98300286805808,
+    41.14921000736296,
+    -111.92891053862512,
+    41.19810637422887
+  ],
+  "verification": {
+    "verified_at": 1792280996242,
+    "counties": [
+      "49057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

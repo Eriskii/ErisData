@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ia-dubuque-dyersville",
+  "publisher": "City of Dyersville (unofficial copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/EFPIj2kdGjxuT0iO/arcgis/rest/services/Dyersville_Zoning_2019/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19061"
+    ]
+  },
+  "fields": {
+    "zone": "ID_2019",
+    "zone_name": "NAME"
+  },
+  "notes": "Unofficial copy: personal ArcGIS Online item by mmichel52040 of Dyersville 2019 zoning districts. No official city service found. 2019 vintage. zone from ID_2019, zone_name from NAME (filled for only part of districts).",
+  "extent": [
+    -91.17503292952647,
+    42.453972277390704,
+    -91.05014231714796,
+    42.504469940828656
+  ],
+  "verification": {
+    "verified_at": 1792278565949,
+    "counties": [
+      "19061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

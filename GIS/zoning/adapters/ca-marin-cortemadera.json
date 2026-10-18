@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-marin-cortemadera",
+  "publisher": "Town of Corte Madera (via Marin County GIS MarinMap)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.marinpublic.com/arcgis/rest/services/MarinMap2/Open_Data_Download/MapServer/115",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06041"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Corte Madera town zoning districts served by Marin County GIS MarinMap. Zoning field holds the district code; no description field in source.",
+  "extent": [
+    -122.53947828189568,
+    37.9066996563023,
+    -122.4776738795006,
+    37.942620817473326
+  ],
+  "verification": {
+    "verified_at": 1792277372740,
+    "counties": [
+      "06041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

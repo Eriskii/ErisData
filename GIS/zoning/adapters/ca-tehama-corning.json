@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-tehama-corning",
+  "publisher": "City of Corning (hosted by CSU Chico Geographic Information Center)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://nspdcwebsrv.csuchico.edu/nspdcarcsrv01/rest/services/Tehama_County/Tehama_County_Planning_Public/MapServer/21",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZN_DEF"
+  },
+  "notes": "City of Corning zoning, served from the Tehama County planning public MapServer (CSU Chico GIC host). 496 features. Covers Corning city only.",
+  "extent": [
+    -122.20494118488834,
+    39.90280223482882,
+    -122.16008548364748,
+    39.95739021898419
+  ],
+  "verification": {
+    "verified_at": 1792277531788,
+    "counties": [
+      "06103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

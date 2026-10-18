@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wi-winnebago-town-clayton",
+  "publisher": "Winnebago County GIS (Town of Clayton zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://wcgis3.co.winnebago.wi.us/wings/rest/services/LandUsePlanning/TownZoningForSearchAndQuery/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNINAME",
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "MUNINAME = 'Town of Clayton'",
+  "notes": "Town of Clayton zoning districts from the county-hosted town zoning layer (shared by 10 towns; filtered on MUNINAME). Official county GIS. No district ordinance links published.",
+  "extent": [
+    -88.64518509080986,
+    44.155291492020616,
+    -88.52371727502567,
+    44.24400779636668
+  ],
+  "verification": {
+    "verified_at": 1792281443670,
+    "counties": [
+      "55139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

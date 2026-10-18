@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wi-winnebago-town-wolf-river",
+  "publisher": "Winnebago County GIS (Town of Wolf River zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://wcgis3.co.winnebago.wi.us/wings/rest/services/LandUsePlanning/TownZoningForSearchAndQuery/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNINAME",
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "MUNINAME = 'Town of Wolf River'",
+  "notes": "Town of Wolf River zoning districts from the county-hosted town zoning layer (shared by 10 towns; filtered on MUNINAME). Official county GIS. No district ordinance links published.",
+  "extent": [
+    -88.8867785738966,
+    44.1556551263462,
+    -88.76481971683273,
+    44.24338326540823
+  ],
+  "verification": {
+    "verified_at": 1792281541728,
+    "counties": [
+      "55139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-iredell-harmony",
+  "publisher": "Iredell County GIS (Town of Harmony zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.iredellcountync.gov/server/rest/services/Data/Zoning/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37097"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDIC",
+    "zone": "ZONING"
+  },
+  "notes": "Town of Harmony zoning districts, served by Iredell County GIS (MapServer layer 4, separate from the county layer 0).",
+  "extent": [
+    -80.78855179608091,
+    35.94727527605869,
+    -80.76214824703858,
+    35.97045503977623
+  ],
+  "verification": {
+    "verified_at": 1792279823439,
+    "counties": [
+      "37097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

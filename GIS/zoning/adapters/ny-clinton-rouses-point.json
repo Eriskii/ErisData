@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-clinton-rouses-point",
+  "publisher": "Village of Rouses Point (copy on ArcGIS Online by CutterL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/33FPYaVQYNa7sFJ5/arcgis/rest/services/Clinton_County_Zoning_WFL1/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36019"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Copy hosted on ArcGIS Online by CutterL (personal item), not an official village service; one layer of the Clinton County zoning compilation, covers Village of Rouses Point only.",
+  "extent": [
+    -73.379576564494,
+    44.97322930846906,
+    -73.35257796091489,
+    45.010557701208064
+  ],
+  "verification": {
+    "verified_at": 1792279582540,
+    "counties": [
+      "36019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

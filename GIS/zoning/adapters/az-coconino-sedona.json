@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "az-coconino-sedona",
+  "publisher": "City of Sedona (zoning layer hosted by Yavapai County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.yavapaiaz.gov/ArcGIS/rest/services/Zoning/MapServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Sedona zoning districts, served from Yavapai County GIS host. City straddles Coconino and Yavapai; validator found all sampled districts centroids in Coconino. Sedona own host gaia.sedonaaz.gov unreachable from validator. ORDINANCE_LINK filled for only 9 of 55 so not mapped.",
+  "extent": [
+    -111.90101686444918,
+    34.81424201511713,
+    -111.74288676993866,
+    34.89023301813271
+  ],
+  "verification": {
+    "verified_at": 1792277397246,
+    "counties": [
+      "04005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

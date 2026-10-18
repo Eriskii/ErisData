@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wi-winnebago-town-rushford",
+  "publisher": "Winnebago County GIS (Town of Rushford zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://wcgis3.co.winnebago.wi.us/wings/rest/services/LandUsePlanning/TownZoningForSearchAndQuery/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55139"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNINAME",
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "MUNINAME = 'Town of Rushford'",
+  "notes": "Town of Rushford zoning districts from the county-hosted town zoning layer (shared by 10 towns; filtered on MUNINAME). Official county GIS. No district ordinance links published.",
+  "extent": [
+    -88.8863722644265,
+    43.974693619241215,
+    -88.74493543749837,
+    44.06937862314704
+  ],
+  "verification": {
+    "verified_at": 1792281460321,
+    "counties": [
+      "55139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

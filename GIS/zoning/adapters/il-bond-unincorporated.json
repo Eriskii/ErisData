@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "il-bond-unincorporated",
+  "publisher": "Bond County zoning (hosted on City of Greenville GIS portal)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://portal.greenvilleillinois.com/cog_server/rest/services/Bond_County_Zones/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17005"
+    ]
+  },
+  "fields": {
+    "link": "File_",
+    "zone": "Zone_Designation",
+    "zone_name": "Zone_Designation"
+  },
+  "notes": "County zoning districts for unincorporated Bond County, served from the City of Greenville ArcGIS portal (Bond_County_Zones); organized by township/section folders. Notes1/Note2 may carry extra text.",
+  "extent": [
+    -89.63927881960493,
+    38.740539632276096,
+    -89.25024326196906,
+    39.02837549235364
+  ],
+  "verification": {
+    "verified_at": 1792278111468,
+    "counties": [
+      "17005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

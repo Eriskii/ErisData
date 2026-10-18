@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-palm-beach-wellington",
+  "publisher": "Village of Wellington GIS (Planning, Zoning and Building)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis01.wellingtonfl.gov/arcgis/rest/services/PZB/PZB/MapServer/36",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12099"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Village of Wellington own host, PZB/PZB MapServer layer 36 Zoning (56 polygons, source CRS 2881). Layer also includes some non-Wellington overlay-style features (e.g. STA (SFWMD)); the Wellington-only districts are the ones with PUD and village codes. Alternate copy: Services/Zoning/MapServer/0.",
+  "extent": [
+    -80.36390760658612,
+    26.592340196326205,
+    -80.17421681600905,
+    26.7097771596255
+  ],
+  "verification": {
+    "verified_at": 1792277860179,
+    "counties": [
+      "12099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

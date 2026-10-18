@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "md-frederick-city",
+  "publisher": "City of Frederick GIS (SpiresGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://spires.cityoffrederick.com/ArcGIS/rest/services/Zoning/MapServer/14",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "24021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_BASE",
+    "zone_name": "ZONING_BASE"
+  },
+  "notes": "City of Frederick base zoning (ZONING_BASE holds the base district code, e.g. R-8, DR, PB). Layer is a union with overlays; ZONING_OVERLAY holds overlay codes and is not used for zone. Source is the city SpiresGIS Zoning MapServer layer 14.",
+  "extent": [
+    -77.47865288032695,
+    39.3923003199352,
+    -77.34497780916735,
+    39.48878025896627
+  ],
+  "verification": {
+    "verified_at": 1792278833821,
+    "counties": [
+      "24021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

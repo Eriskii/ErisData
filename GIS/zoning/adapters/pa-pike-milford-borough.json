@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-pike-milford-borough",
+  "publisher": "Milford Borough (zoning in a composite copy on ArcGIS Online by user Gsabwa)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/q8sarOko6mCDwiGm/arcgis/rest/services/Dingman_Zoning_Districts/FeatureServer/94",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "DISTRICT",
+    "zone_name": "UPDT_ZON"
+  },
+  "filter": "DISTRICT = 'Milford B'",
+  "notes": "Unofficial copy: a composite Pike County municipal zoning layer hosted on ArcGIS Online by user Gsabwa, not the borough or county service. Filtered to Milford Borough (DISTRICT value Milford B). District names are in UPDT_ZON; ZONING and ZONE_ABBR are blank.",
+  "extent": [
+    -74.8117745847146,
+    41.316164262737665,
+    -74.79556043150225,
+    41.32385355314149
+  ],
+  "verification": {
+    "verified_at": 1792280257815,
+    "counties": [
+      "42103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

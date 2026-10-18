@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "al-tallapoosa-tallassee",
+  "publisher": "City of Tallassee (layer hosted by ArcGIS Hub user vreader_alhub)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/jF2q3LPxL7PETdYk/arcgis/rest/services/TALLASSEE_ZONING_012626_WFL1/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01123"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE_DESCR"
+  },
+  "notes": "Copy of City of Tallassee zoning (Jan 2026 upload, ArcGIS Hub account vreader_alhub); the city publishes no queryable layer, only PDF maps. Layer 4 City of Tallassee Zoning, 495 features; city spans Elmore and Tallapoosa counties, so the Tallapoosa share is what this county uses. Source in web mercator.",
+  "extent": [
+    -85.94487579979396,
+    32.45019021540601,
+    -85.84107827016543,
+    32.58723657167975
+  ],
+  "verification": {
+    "verified_at": 1792277253840,
+    "counties": [
+      "01123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

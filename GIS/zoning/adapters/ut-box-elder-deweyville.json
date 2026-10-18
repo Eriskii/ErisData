@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-box-elder-deweyville",
+  "publisher": "Town of Deweyville (consultant ArcGIS Online organization, Jones Civil)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/QdlehUncXjEmQYtI/arcgis/rest/services/DWY_PLPZ_Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49003"
+    ]
+  },
+  "fields": {
+    "link": "Weblink",
+    "zone": "Zone_Code",
+    "zone_name": "Description"
+  },
+  "notes": "Town of Deweyville Zoning layer (8 polygons) served from the town consultant ArcGIS Online organization, behind the town public zoning web map. Zone_Code is the district code; Zoning holds a related label.",
+  "extent": [
+    -112.1221348714305,
+    41.669240831854,
+    -112.0651074627181,
+    41.71676667440842
+  ],
+  "verification": {
+    "verified_at": 1792281905190,
+    "counties": [
+      "49003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

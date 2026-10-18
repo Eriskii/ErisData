@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-hamilton-harrison",
+  "publisher": "City of Harrison, Ohio (personal ArcGIS Online copy by JimLeslie; parcel layer carrying zoning)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/rNwqJl5Q0eeBvp4u/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39061"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Unofficial copy on ArcGIS Online by an individual (JimLeslie), not the City of Harrison. Parcel-level layer (owner and tax fields) whose Zoning attribute carries each parcel districts code (R-1, R-4, M-1, DRD, JEDD, OA, ODOT and others); used as last resort because the city publishes its zoning map only as a scanned PDF and a GIS link that could not be reached. No zone name or link field. Blank Zoning values are parcels with no district.",
+  "extent": [
+    -84.82149241365836,
+    39.22506059249655,
+    -84.75018339190456,
+    39.29069557938512
+  ],
+  "verification": {
+    "verified_at": 1792276035581,
+    "counties": [
+      "39061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

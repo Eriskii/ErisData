@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "mi-oakland-milford-village",
+  "publisher": "Village of Milford (zoning map, hosted on Oakland County ArcGIS Online organization by Giffels Webster)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/GE4Idg9FL97XBa3P/arcgis/rest/services/Zoning_Layers_view/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26125"
+    ]
+  },
+  "fields": {
+    "link": "CZLink",
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Village of Milford zoning districts (Clearzoning layer, Zoning_Layers_view layer 12, 2646 parcel-level polygons). Covers Milford Village only; layers 1, 11, 19 are overlay, conditional zoning and village boundary and are not used. Null ZONECODE on one feature.",
+  "extent": [
+    -83.61657492969866,
+    42.57234157622842,
+    -83.5845724052066,
+    42.60171865006875
+  ],
+  "verification": {
+    "verified_at": 1792275750063,
+    "counties": [
+      "26125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

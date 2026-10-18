@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "co-adams-brighton",
+  "publisher": "City of Brighton (Community Development, Public Zoning Layers)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.brightonco.gov/public/rest/services/Dept_Com_Dev/Public_Zoning_Layers/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_Type"
+  },
+  "notes": "City of Brighton zoning districts from the city Public_Zoning_Layers MapServer (layer 4, Zoning). Zone code is ZONE_Type; PUD districts carry PUD_name. No district link attribute is published.",
+  "extent": [
+    -104.8605203930994,
+    39.89900968441046,
+    -104.71611370435232,
+    40.03345865479562
+  ],
+  "verification": {
+    "verified_at": 1792277944452,
+    "counties": [
+      "08001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

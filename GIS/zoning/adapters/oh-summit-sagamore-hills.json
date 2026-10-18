@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-summit-sagamore-hills",
+  "publisher": "Summit County GIS (Sagamore Hills zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "Sagamore Hills layer from Summit County GIS ZoningNov2025 service (layer 6). zone_name is a general category; DISTRICT_N is blank.",
+  "extent": [
+    -81.5999065703571,
+    41.2760936684127,
+    -81.53063630245691,
+    41.351283225616456
+  ],
+  "verification": {
+    "verified_at": 1792276170432,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-summit-richfield-township",
+  "publisher": "Summit County GIS (Richfield Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "Richfield Township layer from Summit County GIS ZoningNov2025 service (layer 7). zone_name is a general category; DISTRICT_N is blank.",
+  "extent": [
+    -81.68596554622421,
+    41.201384080253256,
+    -81.58949014627123,
+    41.278452876793786
+  ],
+  "verification": {
+    "verified_at": 1792276173731,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

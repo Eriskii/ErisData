@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-placer-lincoln",
+  "publisher": "City of Lincoln GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/ojAwglArv2d3JM03/arcgis/rest/services/Lincoln_General_Plan_and_Zoning_Data/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06061"
+    ]
+  },
+  "fields": {
+    "link": "ZONINGDOC",
+    "zone": "ZONING",
+    "zone_name": "ZONINGLABEL"
+  },
+  "notes": "City of Lincoln Zoning layer (hosted, COL_GIS/CityofLincolnCA). Single jurisdiction: Lincoln. ZONINGDOC is a document name, not a URL.",
+  "extent": [
+    -121.40608798378408,
+    38.838617892309074,
+    -121.22674853981692,
+    38.948294527839515
+  ],
+  "verification": {
+    "verified_at": 1792277484534,
+    "counties": [
+      "06061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

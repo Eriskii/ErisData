@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-marion-mount-angel",
+  "publisher": "Oregon DLCD (statewide zoning, Mount Angel records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Mount Angel'",
+  "notes": "Statewide DLCD zoning layer filtered to the City of Mount Angel (ownerName Mount Angel); standardized state zone codes. State copy, not the city own layer.",
+  "extent": [
+    -122.81191068856458,
+    45.05988224404892,
+    -122.78451805248378,
+    45.079438653080906
+  ],
+  "verification": {
+    "verified_at": 1792280267366,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

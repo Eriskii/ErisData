@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-piqua",
+  "publisher": "City of Piqua GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/kZPPWTIJ6kOFJTWc/arcgis/rest/services/Zoning_Districts_public_view/FeatureServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39109"
+    ]
+  },
+  "fields": {
+    "zone": "CPZoneDist"
+  },
+  "notes": "City of Piqua (Code Piqua) zoning district layer, parcel-level polygons carrying each parcel zoning district in CPZoneDist; city-published public view. Covers whole city; filter not applied.",
+  "extent": [
+    -84.29849722277159,
+    40.08963764052178,
+    -84.18568528587286,
+    40.186274077148795
+  ],
+  "verification": {
+    "verified_at": 1792275921144,
+    "counties": [
+      "39109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

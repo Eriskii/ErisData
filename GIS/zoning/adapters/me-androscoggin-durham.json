@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "me-androscoggin-durham",
+  "publisher": "Town of Durham, Maine (ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/wo5fW92fw29t7IR3/arcgis/rest/services/Zoning_2025/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23001"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "Town of Durham zoning districts, adopted 2025 (Zoning_2025 layer 0 Zoning, 9 districts). Shoreland and overlay layers in the same service are excluded.",
+  "extent": [
+    -70.23019809764915,
+    43.905570262966904,
+    -70.03305730245908,
+    44.022292036164835
+  ],
+  "verification": {
+    "verified_at": 1792278892155,
+    "counties": [
+      "23001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

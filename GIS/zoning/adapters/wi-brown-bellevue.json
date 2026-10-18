@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-brown-bellevue",
+  "publisher": "Village of Bellevue",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://esriweb.villageofbellevuewi.gov/arcgis/rest/services/Public_Access/Public_Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Village of Bellevue zoning districts; WellHeadProtection is an overlay field, not used; zone_name field is mostly empty",
+  "extent": [
+    -88.02009609342664,
+    44.43445547820058,
+    -87.88703190102649,
+    44.48892524381936
+  ],
+  "verification": {
+    "verified_at": 1792281192512,
+    "counties": [
+      "55009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

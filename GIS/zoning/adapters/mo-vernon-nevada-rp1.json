@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mo-vernon-nevada-rp1",
+  "publisher": "City of Nevada, MO (unofficial copy by zhub_72B, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/myp8bDxHJxM0bkMg/arcgis/rest/services/RP1_Zoning/FeatureServer/0",
+    "page_size": 37,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29217"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Unofficial copy: ArcGIS Online personal item by zhub_72B holding only the RP-1 parcels of City of Nevada, MO (74 features; Zoning holds the district code for every feature). Addition holds subdivision names, not jurisdictions. No official city or county zoning service was found; the city site zoning map is a vendor viewer (Zoning-Hub) with no public service behind it.",
+  "extent": [
+    -94.37820252894849,
+    37.811816637345466,
+    -94.36825384285672,
+    37.845085422590515
+  ],
+  "verification": {
+    "verified_at": 1792279527583,
+    "counties": [
+      "29217"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

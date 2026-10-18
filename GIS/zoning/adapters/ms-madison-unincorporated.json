@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ms-madison-unincorporated",
+  "publisher": "Madison County, MS (Planning and Zoning; parcel layer hosted by CMPDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Madison_County_Map/FeatureServer/27",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28089"
+    ]
+  },
+  "fields": {
+    "zone": "zone_2025"
+  },
+  "filter": "MUNIC IS NULL",
+  "notes": "Last resort: a parcel layer (Zoning, county parcel roll) carrying each parcel zoning code in ZONE_2025 (ZONE_2019 older). No district polygon layer found for the county. Filtered to parcels with no municipality code (MUNIC null), i.e. unincorporated Madison County.",
+  "extent": [
+    -90.45040211576234,
+    32.398201540862935,
+    -89.72838913252062,
+    32.88653282791696
+  ],
+  "verification": {
+    "verified_at": 1792279307650,
+    "counties": [
+      "28089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-peoria-peoria-heights",
+  "publisher": "Village of Peoria Heights (via Tri-County Regional Planning Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/pPTAs43AFhhk0pXQ/arcgis/rest/services/Peoria_Heights_Zone_Boundaries/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17143"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Village of Peoria Heights zone boundary polygons published by TCRPC; ZONE holds the district code. Not the parcel layer (Peoria_Heights_Zoning_20260826 layer 15 carries ZONE on parcels and was not used).",
+  "extent": [
+    -89.59110815089183,
+    40.72862509394217,
+    -89.55205968537527,
+    40.76076406320647
+  ],
+  "verification": {
+    "verified_at": 1792278289288,
+    "counties": [
+      "17143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-monroe",
+  "publisher": "Town of Monroe GIS (served via MetroCOG maps server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.ctmetro.org/server/rest/services/Monroe/Monroe_Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09120"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Town of Monroe zoning districts (Zone = district code) from Monroe_Zoning service; 2 of 89 polygons invalid.",
+  "extent": [
+    -73.3075987214226,
+    41.29406025652793,
+    -73.15665365294399,
+    41.392297424006514
+  ],
+  "verification": {
+    "verified_at": 1792277585811,
+    "counties": [
+      "09120"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-oneida-pelican",
+  "publisher": "Oneida County GIS (Town of Pelican zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.oneidacountywi.gov/arcgis/rest/services/Oneview/ZoningLandUse/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55085"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "filter": "MUNICIPALITY = 'PELICAN'",
+  "notes": "Town of Pelican zoning districts from the county Oneview ZoningLandUse service, Zoning Districts layer (county-wide layer holding 20 towns, filtered to one). Boundaries approximate per county disclaimer.",
+  "extent": [
+    -89.43046439325975,
+    45.5541477812447,
+    -89.23627395320118,
+    45.64497948217908
+  ],
+  "verification": {
+    "verified_at": 1792281552420,
+    "counties": [
+      "55085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

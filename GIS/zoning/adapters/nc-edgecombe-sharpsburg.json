@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-edgecombe-sharpsburg",
+  "publisher": "Town of Sharpsburg (via Edgecombe County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.edgecombecountync.gov/arcgis/rest/services/webmap/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37065"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Town of Sharpsburg zoning layer from the Edgecombe County webmap MapServer, layer 13. Single-jurisdiction layer; zone code in Zone, no district name field.",
+  "extent": [
+    -77.8463954914717,
+    35.84617286808361,
+    -77.80961514254024,
+    35.88964598099251
+  ],
+  "verification": {
+    "verified_at": 1792279795739,
+    "counties": [
+      "37065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

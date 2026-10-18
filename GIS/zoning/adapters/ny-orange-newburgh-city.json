@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-orange-newburgh-city",
+  "publisher": "City of Newburgh (zoning 2020 layer compiled by Vassar College, hosted on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/HXuDXoXgsUiaeXTG/arcgis/rest/services/Newburgh_NRI_Zoning/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36071"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_DIS"
+  },
+  "notes": "City of Newburgh only. Copy by Vassar College (Newburgh NRI project) on ArcGIS Online, not the city own service; city publishes only a PDF zoning map. Layer 4 of Newburgh_NRI_Zoning; other layers there are overlays and are not used.",
+  "extent": [
+    -74.04857594324528,
+    41.4878085359072,
+    -74.00365219060642,
+    41.51941191713682
+  ],
+  "verification": {
+    "verified_at": 1792279687293,
+    "counties": [
+      "36071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

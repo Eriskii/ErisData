@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-seminole",
+  "publisher": "Pinellas County GIS (for the City of Seminole)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_Seminole_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONING"
+  },
+  "notes": "City of Seminole zoning districts, hosted by Pinellas County GIS; JURISDICTION names the city.",
+  "extent": [
+    -82.81980631427945,
+    27.808047724166222,
+    -82.75404770329784,
+    27.87560916652272
+  ],
+  "verification": {
+    "verified_at": 1792277803866,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

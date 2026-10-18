@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-tarrant-colleyville",
+  "publisher": "City of Colleyville (COCGIS ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/sBPeNRqI2rE8sfwz/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48439"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode"
+  },
+  "notes": "City of Colleyville zoning districts from the city ArcGIS org. ZoneCode holds the district code. Same service also holds future land use and TIF layers, which are not used.",
+  "extent": [
+    -97.18736633388465,
+    32.85931791852061,
+    -97.09934511539147,
+    32.92387780135743
+  ],
+  "verification": {
+    "verified_at": 1792280887140,
+    "counties": [
+      "48439"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

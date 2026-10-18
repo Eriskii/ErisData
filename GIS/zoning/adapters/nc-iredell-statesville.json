@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-iredell-statesville",
+  "publisher": "Iredell County GIS (City of Statesville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.iredellcountync.gov/server/rest/services/Data/Zoning/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37097"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDIC",
+    "zone": "ZONING"
+  },
+  "notes": "City of Statesville zoning districts, served by Iredell County GIS (MapServer layer 1, separate from the county layer 0).",
+  "extent": [
+    -80.98444113480546,
+    35.71292628702492,
+    -80.7777158794649,
+    35.85890716405032
+  ],
+  "verification": {
+    "verified_at": 1792279817878,
+    "counties": [
+      "37097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

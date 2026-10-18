@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-geauga-munson-township",
+  "publisher": "Munson Township (copy hosted on ArcGIS Online by akobus2021)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/otmFGc3Z1CITN3V3/arcgis/rest/services/Geauga_County_Township_Zoning_WFL1/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39055"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "COMMUNITY"
+  },
+  "notes": "Unofficial copy of Munson Township zoning uploaded to ArcGIS Online by akobus2021; used because no official queryable Munson layer exists in the county Planning/Zoning service. ZONING holds the district code; COMMUNITY is mapped as zone_name as published.",
+  "extent": [
+    -81.29708629278487,
+    41.49971478714519,
+    -81.19059046072017,
+    41.570275368748305
+  ],
+  "verification": {
+    "verified_at": 1792275918149,
+    "counties": [
+      "39055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

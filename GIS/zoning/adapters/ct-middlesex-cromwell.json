@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-middlesex-cromwell",
+  "publisher": "RiverCOG (Lower Connecticut River Valley Council of Governments), Town of Cromwell zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uH7GnAlGDzMooG4B/arcgis/rest/services/RiverCOG_Regional_Zoning/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09130"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "DESCR"
+  },
+  "notes": "Cromwell layer from RiverCOG regional zoning service; ZONE_CODE is the district code, DESCR the description",
+  "extent": [
+    -72.71592998324192,
+    41.572116532629394,
+    -72.61153197935288,
+    41.64005475694151
+  ],
+  "verification": {
+    "verified_at": 1792277523980,
+    "counties": [
+      "09130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

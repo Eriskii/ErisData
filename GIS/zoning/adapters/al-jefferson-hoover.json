@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "al-jefferson-hoover",
+  "publisher": "City of Hoover, Alabama (Planning, via city ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/LmhR4UJYxC4YhccG/arcgis/rest/services/Zoning_Map_2025_WFL1/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01073"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Hoover Zoning Map 2025 (city account jason.cope_hooveralabama), Zoning layer. Hoover spans Jefferson and Shelby counties; this layer covers the city.",
+  "extent": [
+    -86.92598750543925,
+    33.26728523941962,
+    -86.60883067787705,
+    33.468724326478586
+  ],
+  "verification": {
+    "verified_at": 1792277477908,
+    "counties": [
+      "01073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

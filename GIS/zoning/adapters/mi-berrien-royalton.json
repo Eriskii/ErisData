@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mi-berrien-royalton",
+  "publisher": "Royalton Township (roytwp ArcGIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/QfmBxFbJlOQwolFZ/arcgis/rest/services/Zoning_Classes_2024_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26021"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Class"
+  },
+  "notes": "Last resort: a parcel layer (about 2,500 parcels) whose Zoning_Class field carries each parcel zoning class code; no separate district polygon layer found. Covers Royalton Township only. Township-published 2024 view.",
+  "extent": [
+    -86.46856568208995,
+    41.9841028862773,
+    -86.37654595794757,
+    42.072750584320936
+  ],
+  "verification": {
+    "verified_at": 1792275509014,
+    "counties": [
+      "26021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

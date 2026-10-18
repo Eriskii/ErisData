@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-smith-bullard",
+  "publisher": "Bullard Zoning feature service on ArcGIS Online (owner ldowney_911District)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/KgTmADyzXWOLUPKd/arcgis/rest/services/Bullard_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48423"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Copy of Bullard zoning on ArcGIS Online, owner ldowney_911District, not the city site; used because the City of Tyler mirror of Bullard fails paging. Official: false.",
+  "extent": [
+    -95.35397546772144,
+    32.11954612994424,
+    -95.28933612660092,
+    32.16494929821585
+  ],
+  "verification": {
+    "verified_at": 1792280763803,
+    "counties": [
+      "48423"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "oh-licking-hartford-township",
+  "publisher": "Licking County Planning Commission (for Hartford Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lickingcounty.gov/server/rest/services/Planning/Zoning/MapServer/10",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39089"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Township",
+    "link": "URL",
+    "zone": "ZoningClass",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Hartford Township unincorporated zoning, published by Licking County Planning Commission with permission from the township. Layer 10 of Planning/Zoning MapServer.",
+  "extent": [
+    -82.75659653827577,
+    40.19584512451191,
+    -82.6520523952918,
+    40.27718316181885
+  ],
+  "verification": {
+    "verified_at": 1792276517601,
+    "counties": [
+      "39089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

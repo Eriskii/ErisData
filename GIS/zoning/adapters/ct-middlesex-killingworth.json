@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-middlesex-killingworth",
+  "publisher": "RiverCOG (Lower Connecticut River Valley Council of Governments)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uH7GnAlGDzMooG4B/arcgis/rest/services/RiverCOG_Regional_Zoning/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09130"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneName"
+  },
+  "notes": "Town of Killingworth zoning from RiverCOG regional zoning service; ZoneID is empty, so ZoneName (e.g. Commercial, Large Business Zone) is the district name and code",
+  "extent": [
+    -72.65476323480115,
+    41.309862462857105,
+    -72.51127456676512,
+    41.44261546234392
+  ],
+  "verification": {
+    "verified_at": 1792277584730,
+    "counties": [
+      "09130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

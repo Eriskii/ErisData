@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "az-navajo-taylor",
+  "publisher": "Town of Taylor (via Taylor ArcGIS Online zoning web app)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/BQqY7kU6eXJGiB93/arcgis/rest/services/Parcels_(Zoning)_Public_Hosted_View/FeatureServer/0",
+    "page_size": 399,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04017"
+    ]
+  },
+  "fields": {
+    "zone": "TaylorZoneCode"
+  },
+  "notes": "Parcel layer from the Town of Taylor zoning web app (taylor-az.maps.arcgis.com, item 84388f6ad5a745989d4adbb3a393bdc2); each parcel carries a numeric TaylorZoneCode (no district name or ordinance link published), so it is a parcel-level zoning layer used as the only queryable source. Covers Town of Taylor parcels only; test APNs excluded by the viewer definition expression.",
+  "extent": [
+    -110.26987515327122,
+    34.2999796531342,
+    -110.00651803592288,
+    34.499347850596386
+  ],
+  "verification": {
+    "verified_at": 1792277283353,
+    "counties": [
+      "04017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

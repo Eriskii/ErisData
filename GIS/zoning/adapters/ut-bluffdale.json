@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-bluffdale",
+  "publisher": "City of Bluffdale",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/ojBMkFlpg5ujUNtB/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49035"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "Layer",
+    "zone_name": "Descrip"
+  },
+  "notes": "City of Bluffdale zoning district boundaries (Zoning Polygons layer of the city Zoning service, apbluffdale). Neighborhood boundaries are in layer 1 and are not used.",
+  "extent": [
+    -111.9917451783143,
+    40.4298088181225,
+    -111.89963212132018,
+    40.5005528835162
+  ],
+  "verification": {
+    "verified_at": 1792281813406,
+    "counties": [
+      "49035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

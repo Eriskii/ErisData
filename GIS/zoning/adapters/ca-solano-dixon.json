@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-solano-dixon",
+  "publisher": "City of Dixon (hosted by Solano County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://solanocountygis.com/server/rest/services/Aumentum/AumentumInternal/MapServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06095"
+    ]
+  },
+  "fields": {
+    "zone": "zone_ex"
+  },
+  "notes": "City of Dixon zoning districts, served from Solano County Aumentum MapServer layer 14. Covers only the City of Dixon.",
+  "extent": [
+    -121.86758392982648,
+    38.423835755126625,
+    -121.79848293061552,
+    38.48897399271937
+  ],
+  "verification": {
+    "verified_at": 1792277492284,
+    "counties": [
+      "06095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

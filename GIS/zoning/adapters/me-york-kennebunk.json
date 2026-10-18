@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "me-york-kennebunk",
+  "publisher": "Town of Kennebunk, Maine (zoning layer hosted by Southern Maine Planning & Development Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/EDmXP1QjmSmZlvBw/arcgis/rest/services/Zoning_Kennebunk/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE"
+  },
+  "notes": "Town of Kennebunk zoning districts (37 features), hosted on SMPDC ArcGIS services. Single-jurisdiction layer.",
+  "extent": [
+    -70.66852497262703,
+    43.33617158814166,
+    -70.4737539909436,
+    43.457876328831766
+  ],
+  "verification": {
+    "verified_at": 1792278954303,
+    "counties": [
+      "23031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

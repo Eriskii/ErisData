@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-tulare-porterville",
+  "publisher": "City of Porterville",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/KUb9MOaWQkVh1cNC/arcgis/rest/services/Zoning_District/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06107"
+    ]
+  },
+  "fields": {
+    "link": "DocURL",
+    "zone": "ZONING"
+  },
+  "notes": "City of Porterville zoning districts from the city ArcGIS org (gis@ci.porterville.ca.us). Covers Porterville city limits.",
+  "extent": [
+    -119.09871279757736,
+    36.00773719342942,
+    -118.9109943999311,
+    36.120059090137936
+  ],
+  "verification": {
+    "verified_at": 1792277492597,
+    "counties": [
+      "06107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

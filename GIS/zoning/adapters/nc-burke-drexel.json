@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-burke-drexel",
+  "publisher": "Town of Drexel (via Burke County municipal zoning feature service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/axQ4OCSpcxALIQsV/arcgis/rest/services/Municipal_Zoning_FS/FeatureServer/71",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37023"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID",
+    "zone_name": "LAND_USE"
+  },
+  "notes": "Town of Drexel base zoning districts, from the Burke County municipal zoning feature service. Single-jurisdiction layer; CITY_NAME field available.",
+  "extent": [
+    -81.63506252657989,
+    35.74137226170225,
+    -81.58252374953034,
+    35.776092214584594
+  ],
+  "verification": {
+    "verified_at": 1792279783789,
+    "counties": [
+      "37023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

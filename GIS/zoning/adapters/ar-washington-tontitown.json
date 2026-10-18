@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ar-washington-tontitown",
+  "publisher": "City of Tontitown, AR (NWARPC-hosted ArcGIS Online layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/TontitownZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05143"
+    ]
+  },
+  "fields": {
+    "zone": "LAYER"
+  },
+  "notes": "City of Tontitown zoning districts, city limits only; LAYER holds district code; Ord_No mostly blank; document links not usable",
+  "extent": [
+    -94.3045391559918,
+    36.12014079388655,
+    -94.20055517054406,
+    36.2043133933797
+  ],
+  "verification": {
+    "verified_at": 1792277356721,
+    "counties": [
+      "05143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

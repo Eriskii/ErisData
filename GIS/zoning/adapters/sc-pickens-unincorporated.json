@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sc-pickens-unincorporated",
+  "publisher": "Pickens County GIS (EnerGov_AGOL service, DevelopmentZones layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/59960rq18IxUcAVI/arcgis/rest/services/Energov_AGOL/FeatureServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45077"
+    ]
+  },
+  "fields": {
+    "zone": "Dev_area",
+    "zone_name": "Dev_area"
+  },
+  "notes": "Pickens County development zones (unincorporated county land; Agricultural Heritage, Appalachian Heritage, Gateway, Natural Heritage, Community Center areas per the 2023 county development standards). Zone and zone_name both hold the development area name; no ordinance link field. Source is in Web Mercator; runtime requests lon/lat.",
+  "extent": [
+    -82.94364667411786,
+    34.6559209901799,
+    -82.47637338056141,
+    35.08595060469413
+  ],
+  "verification": {
+    "verified_at": 1792280319359,
+    "counties": [
+      "45077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

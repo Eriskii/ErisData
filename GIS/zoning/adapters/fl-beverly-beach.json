@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-beverly-beach",
+  "publisher": "Flagler County GIS (Town of Beverly Beach zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/hSKL9bYjhP4rHxSD/arcgis/rest/services/Beverly_Beach_Zoning/FeatureServer/860",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12035"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "Town of Beverly Beach zoning districts, published by Flagler County GIS (FCMAPS); adopted zoning districts; updated 10/2026",
+  "extent": [
+    -81.15231917688878,
+    29.50935025249272,
+    -81.14096449601823,
+    29.5248172430962
+  ],
+  "verification": {
+    "verified_at": 1792277596638,
+    "counties": [
+      "12035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

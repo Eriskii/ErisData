@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "az-mesa",
+  "publisher": "City of Mesa GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/1gVyYKfYgW5Nxb1V/arcgis/rest/services/Zoning/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04013"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "Zoning",
+    "zone_name": "Description"
+  },
+  "notes": "City of Mesa zoning polygons (city limits only), from the City of Mesa ArcGIS organization. Ordinance and Previous_Zoning attributes also present.",
+  "extent": [
+    -111.89362144693106,
+    33.27752245991974,
+    -111.5808337045175,
+    33.51229702759981
+  ],
+  "verification": {
+    "verified_at": 1792277311620,
+    "counties": [
+      "04013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-tattnall-cobbtown",
+  "publisher": "City of Cobbtown (hosted via Tattnall County GeoData View, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/City_of_Cobbtown_GeoData_View/FeatureServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13267"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONINGDESC"
+  },
+  "notes": "City of Cobbtown zoning districts (CobbtownZoning layer, 15 features). Hosted by the Tattnall County GeoData View account on ArcGIS Online. Not the CobbtownZoning_Unapproved layer (FeatureServer/1). No ordinance link in the source.",
+  "extent": [
+    -82.14701147902053,
+    32.27403618915897,
+    -82.13075947410155,
+    32.287124191926225
+  ],
+  "verification": {
+    "verified_at": 1792277940766,
+    "counties": [
+      "13267"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

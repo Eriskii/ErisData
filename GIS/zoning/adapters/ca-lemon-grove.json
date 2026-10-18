@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-lemon-grove",
+  "publisher": "City of Lemon Grove",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/D1qgPMtsRENpZIBr/arcgis/rest/services/Zoning___STA_Overlay/FeatureServer/50",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06073"
+    ]
+  },
+  "fields": {
+    "link": "URL_LINK",
+    "zone": "ZONE",
+    "zone_name": "LABEL"
+  },
+  "notes": "City of Lemon Grove official zoning districts (parcel-level polygons), from the city Zoning & STA Overlay service. Use layer 50 (Parcel), not the STA overlay layer 0 or the dissolved layer 51. Special Treatment Area overlays excluded.",
+  "extent": [
+    -117.06462960465784,
+    32.715110282002904,
+    -117.01417471522386,
+    32.74952975299438
+  ],
+  "verification": {
+    "verified_at": 1792277626158,
+    "counties": [
+      "06073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

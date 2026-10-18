@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ar-washington-farmington",
+  "publisher": "City of Farmington, AR (NWARPC-hosted ArcGIS Online layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/Farmington_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05143"
+    ]
+  },
+  "fields": {
+    "zone": "new_zone"
+  },
+  "notes": "City of Farmington zoning districts (new_zone = current district; old_zone = prior code), city limits only; no district description field; ord and Scanned fields hold ordinance references",
+  "extent": [
+    -94.28559220626137,
+    35.99924797528466,
+    -94.2225794332915,
+    36.069718063427445
+  ],
+  "verification": {
+    "verified_at": 1792277322195,
+    "counties": [
+      "05143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

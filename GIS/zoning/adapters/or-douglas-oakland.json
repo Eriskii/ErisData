@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "or-douglas-oakland",
+  "publisher": "Douglas County GIS (City of Oakland zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.douglas.or.us/server/rest/services/Planning/DC_City_Zones/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Douglas County GIS layer of City of Oakland zoning districts (one of several city layers in DC_City_Zones). Only ZONE published; no separate district name field.",
+  "extent": [
+    -123.3126707567622,
+    43.413520588802754,
+    -123.27684364476956,
+    43.435759963375574
+  ],
+  "verification": {
+    "verified_at": 1792280127492,
+    "counties": [
+      "41019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

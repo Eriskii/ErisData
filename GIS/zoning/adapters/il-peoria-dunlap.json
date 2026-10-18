@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-peoria-dunlap",
+  "publisher": "Tri-County Regional Planning Commission (Village of Dunlap zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/pPTAs43AFhhk0pXQ/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17143"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Village of Dunlap zoning districts, created by TCRPC from the village map (parcel-based per the service description)",
+  "extent": [
+    -89.68839316607097,
+    40.82754038166299,
+    -89.65217199154755,
+    40.867962593214024
+  ],
+  "verification": {
+    "verified_at": 1792278154679,
+    "counties": [
+      "17143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

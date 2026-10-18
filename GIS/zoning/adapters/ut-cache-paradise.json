@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-cache-paradise",
+  "publisher": "Cache County GIS (Paradise City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/City_Zoning/MapServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city_name",
+    "zone": "zone_code",
+    "zone_name": "zone_type"
+  },
+  "filter": "city_name = 'PARADISE'",
+  "notes": "Paradise city zoning from Cache County City_Zoning service (layer per city; every layer returns the same 19-city table, filtered on city_name). Covers Paradise only.",
+  "extent": [
+    -111.84708174527286,
+    41.55357552664376,
+    -111.82284697602287,
+    41.57971588190436
+  ],
+  "verification": {
+    "verified_at": 1792280870447,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

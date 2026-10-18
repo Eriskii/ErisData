@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "or-douglas-yoncalla",
+  "publisher": "Douglas County GIS (City of Yoncalla zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.douglas.or.us/server/rest/services/Planning/DC_City_Zones/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Douglas County GIS layer of City of Yoncalla zoning districts (one of several city layers in DC_City_Zones). Only zone name is published; no separate code field.",
+  "extent": [
+    -123.29832592759428,
+    43.59081775828177,
+    -123.2758429079752,
+    43.613420300293704
+  ],
+  "verification": {
+    "verified_at": 1792280092315,
+    "counties": [
+      "41019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

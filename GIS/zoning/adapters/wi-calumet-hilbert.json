@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-calumet-hilbert",
+  "publisher": "Village of Hilbert (via Calumet County Land Information Office)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://calmaps.co.calumet.wi.us/server/rest/services/ZoningMunicipal/MapServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55015"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "Village of Hilbert zoning districts from the Calumet County municipal zoning service (layer 17).",
+  "extent": [
+    -88.1767424606368,
+    44.13083642805649,
+    -88.14884094959706,
+    44.154508303364146
+  ],
+  "verification": {
+    "verified_at": 1792281202726,
+    "counties": [
+      "55015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

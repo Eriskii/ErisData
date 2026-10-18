@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-indio",
+  "publisher": "City of Indio (mygis.indio.org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mygis.indio.org/city/rest/services/Zoning_2022_and_Hwy111_SP_Join/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "zone": "New_Zoning"
+  },
+  "notes": "City of Indio zoning (2022 Unified Development Code) joined to parcels: one feature per parcel carrying New_Zoning; a parcel-level layer used as the city district layer (last resort). Overlay fields not mapped.",
+  "extent": [
+    -116.30124945545084,
+    33.671091689322026,
+    -116.16415057416027,
+    33.81654137811083
+  ],
+  "verification": {
+    "verified_at": 1792277618192,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

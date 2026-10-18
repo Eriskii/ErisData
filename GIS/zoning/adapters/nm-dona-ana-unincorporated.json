@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nm-dona-ana-unincorporated",
+  "publisher": "Doña Ana County GIS Division",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/JMIoqakAkedEx0oU/arcgis/rest/services/UDC_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35013"
+    ]
+  },
+  "fields": {
+    "link": "DocLink",
+    "zone": "Zoning"
+  },
+  "notes": "Doña Ana County Unified Development Code zoning districts (unincorporated county and UDC area); PrevZone holds superseded codes and is not mapped. Layer lacks zone name field.",
+  "extent": [
+    -107.31160418014784,
+    31.780018153850815,
+    -106.3392798319368,
+    33.051741512665544
+  ],
+  "verification": {
+    "verified_at": 1792279547641,
+    "counties": [
+      "35013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

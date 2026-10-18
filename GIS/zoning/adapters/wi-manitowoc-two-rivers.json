@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-manitowoc-two-rivers",
+  "publisher": "City of Two Rivers (zoning layer in city web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/ZNYU9ysVgADcg8Pt/arcgis/rest/services/Zoning1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55071"
+    ]
+  },
+  "fields": {
+    "link": "WebLink",
+    "zone": "ZONECODE"
+  },
+  "notes": "City of Two Rivers zoning districts, layer used by the city zoning web map (ArcGIS Online). Layer is the city only if its features all fall within Two Rivers; check report.",
+  "extent": [
+    -87.63036172039077,
+    44.12267227973475,
+    -87.54376455009383,
+    44.1826617747995
+  ],
+  "verification": {
+    "verified_at": 1792281197955,
+    "counties": [
+      "55071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

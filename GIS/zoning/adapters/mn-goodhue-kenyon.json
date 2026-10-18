@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-goodhue-kenyon",
+  "publisher": "City of Kenyon (hosted by Goodhue County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://publicmaps.co.goodhue.mn.us/arcgis/rest/services/GCUGGIS/KenyonZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27049"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "City of Kenyon zoning districts, hosted on Goodhue County GIS server. Single-city layer.",
+  "extent": [
+    -93.00561091867786,
+    44.26197356693103,
+    -92.97006655955927,
+    44.283762688192425
+  ],
+  "verification": {
+    "verified_at": 1792278967669,
+    "counties": [
+      "27049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-auglaize-german-twp",
+  "publisher": "Auglaize County GIS / German Township",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.auglaizecounty.org/arcgis/rest/services/Zoning/German/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Name",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "German Township (unincorporated) zoning districts; Zone_Name carries the district label; 10 features.",
+  "extent": [
+    -84.45656180182803,
+    40.42053036626344,
+    -84.3378975488258,
+    40.467692908929536
+  ],
+  "verification": {
+    "verified_at": 1792275632309,
+    "counties": [
+      "39011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

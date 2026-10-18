@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "id-caribou-county",
+  "publisher": "Caribou County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/qnw9CxcuDG55fwTB/arcgis/rest/services/Zoning_and_Land_Use_PUBLIC/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16029"
+    ]
+  },
+  "fields": {
+    "link": "Notes",
+    "zone": "CountyZone",
+    "zone_name": "Zone"
+  },
+  "filter": "CountyZone <> 'City'",
+  "notes": "Layer 0 of county Zoning_and_Land_Use_PUBLIC service; county unincorporated zoning (CountyZone not City; codes AG, IND etc.). Zone holds district name. Zone_Class sparse.",
+  "extent": [
+    -112.15008248618348,
+    42.41110861621643,
+    -111.03769712477904,
+    43.024977133209504
+  ],
+  "verification": {
+    "verified_at": 1792278071420,
+    "counties": [
+      "16029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

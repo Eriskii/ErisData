@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-pender-topsail-beach",
+  "publisher": "Pender County GIS (Town of Topsail Beach zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pendercountync.gov/arcgis/rest/services/LayersPro/MapServer/42",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37141"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_"
+  },
+  "notes": "Town of Topsail Beach zoning districts, hosted by Pender County GIS. Zone code only; no description field.",
+  "extent": [
+    -77.66064912062774,
+    34.34260682306278,
+    -77.59347560604232,
+    34.394909485844444
+  ],
+  "verification": {
+    "verified_at": 1792279847419,
+    "counties": [
+      "37141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

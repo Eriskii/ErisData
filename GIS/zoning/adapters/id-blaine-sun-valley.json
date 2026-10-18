@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "id-blaine-sun-valley",
+  "publisher": "City of Sun Valley (via Sun Valley Zoning Map web app)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/EnV60CNPaeEPPS2P/arcgis/rest/services/SV_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16013"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "City of Sun Valley zoning districts only, from the city web map (sunvalley.maps.arcgis.com). Layer has no name or link field.",
+  "extent": [
+    -114.36126057888572,
+    43.63996208823451,
+    -114.3064086261082,
+    43.72340649794544
+  ],
+  "verification": {
+    "verified_at": 1792277987557,
+    "counties": [
+      "16013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

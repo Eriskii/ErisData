@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wa-king-burien",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), City of Burien",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "link": "ReferenceURL",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '033' AND Jurisdiction = 'Burien'",
+  "notes": "State Zoning Atlas compilation of Burien zoning districts, Burien only (COUNTYFP 033).",
+  "extent": [
+    -122.38401785097746,
+    47.431133025661815,
+    -122.29226847730249,
+    47.50701972146522
+  ],
+  "verification": {
+    "verified_at": 1792281954097,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

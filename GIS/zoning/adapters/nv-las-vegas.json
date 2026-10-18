@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nv-las-vegas",
+  "publisher": "City of Las Vegas Office of GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/F1v0ufATbBQScMtY/ArcGIS/rest/services/ZONING/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "City of Las Vegas official zoning layer from the city GIS (ZONE code per parcel record, about 209k records; a parcel-level layer, the city Official Zoning Map governs). The county copy (Clark County OpenData MapServer/7, 94 district polygons) failed server-side geometry queries, so this city layer is used.",
+  "extent": [
+    -115.42421668241056,
+    36.12895787887938,
+    -115.06064535810272,
+    36.410534609936455
+  ],
+  "verification": {
+    "verified_at": 1792279519439,
+    "counties": [
+      "32003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

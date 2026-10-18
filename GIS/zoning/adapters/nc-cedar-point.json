@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-cedar-point",
+  "publisher": "Town of Cedar Point (ArcGIS web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/1mTorngRwcQEdT7U/arcgis/rest/services/Zoning_072826/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37031"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Town of Cedar Point zoning districts, from the town ArcGIS Online organization web map (Zoning_072826). Single-jurisdiction layer; no zone name field.",
+  "extent": [
+    -77.1125712134522,
+    34.673073844911976,
+    -77.06757272903755,
+    34.71197606331763
+  ],
+  "verification": {
+    "verified_at": 1792279823484,
+    "counties": [
+      "37031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-nwhills-harwinton",
+  "publisher": "Town of Harwinton (flo_publisher ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/DjfAyvUwdiY6gnFC/arcgis/rest/services/Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09160"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Harwinton CT zoning districts layer (9 polygons), from the town GIS web map account. Zoning map PDF at harwinton.gov/DocumentCenter/View/153.",
+  "extent": [
+    -73.12074018604265,
+    41.70685520873271,
+    -72.99902371728889,
+    41.798820987295095
+  ],
+  "verification": {
+    "verified_at": 1792277609992,
+    "counties": [
+      "09160"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

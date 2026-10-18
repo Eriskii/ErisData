@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-sonoma-rohnert-park",
+  "publisher": "City of Rohnert Park (via Sonoma County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://socogis.sonomacounty.ca.gov/map/rest/services/OWTSPublic/Zoning_City_Rohnert_Park/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06097"
+    ]
+  },
+  "fields": {
+    "zone": "PROPOSED_Z"
+  },
+  "notes": "City of Rohnert Park base zoning, hosted by Sonoma County GIS. Only the district code field is available; no name or ordinance link field.",
+  "extent": [
+    -122.73119693230964,
+    38.31438050257424,
+    -122.6667956726956,
+    38.37237519034016
+  ],
+  "verification": {
+    "verified_at": 1792277468300,
+    "counties": [
+      "06097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

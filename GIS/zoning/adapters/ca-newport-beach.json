@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-newport-beach",
+  "publisher": "City of Newport Beach GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://nbgis.newportbeachca.gov/arcgis/rest/services/EmployeeMasterMap/MapServer/80",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "link": "ZONING_CODE_LINK",
+    "zone_name": "ZONING_DESCRIPTION"
+  },
+  "notes": "City of Newport Beach official zoning layer (Employee Master Map service, Zoning layer). Zone code field ZONING is blank for planned-community parcels, so only the description is mapped as zone_name. Base zoning; overlays are separate layers and not used.",
+  "extent": [
+    -117.95887497249656,
+    33.5625532481481,
+    -117.78337283349052,
+    33.672543442385994
+  ],
+  "verification": {
+    "verified_at": 1792277921869,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

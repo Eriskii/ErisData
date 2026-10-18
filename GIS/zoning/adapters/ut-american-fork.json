@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-american-fork",
+  "publisher": "American Fork City (via Utah County GIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/41",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_AF_LABEL",
+    "zone_name": "ZONE_AF_DESC"
+  },
+  "notes": "American Fork City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 41).",
+  "extent": [
+    -111.83650372684642,
+    40.33940231980774,
+    -111.76342203439344,
+    40.411756764968594
+  ],
+  "verification": {
+    "verified_at": 1792280855725,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

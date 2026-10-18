@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-lafayette-county",
+  "publisher": "Lafayette County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lafayettecountywi.org/arcgis/rest/services/Services/Zoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "55065"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "County zoning for the zoned towns of Lafayette County (unincorporated land), parcel-based polygons with PARCELID, one per parcel; county GIS server refuses geoJSON so JSON is used",
+  "extent": [
+    -90.42690052027275,
+    42.50569753938296,
+    -89.8373130869428,
+    42.81482329393531
+  ],
+  "verification": {
+    "verified_at": 1792281459630,
+    "counties": [
+      "55065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

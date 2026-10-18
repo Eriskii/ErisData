@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "pa-allegheny-monroeville",
+  "publisher": "Municipality of Monroeville (municipal GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/8FOQ9nDvQJjqML1o/arcgis/rest/services/Monroeville_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Monroeville zoning districts from the municipality GIS (PRT base layer view). Monroeville only.",
+  "extent": [
+    -79.82216174100702,
+    40.38395833855236,
+    -79.70235944441454,
+    40.46307264687341
+  ],
+  "verification": {
+    "verified_at": 1792280189178,
+    "counties": [
+      "42003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

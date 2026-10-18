@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-franklin-marble-cliff",
+  "publisher": "Village of Marble Cliff, Ohio (marblecliff ArcGIS Online, zoning map viewer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/UwSNkrOP38AISEzz/arcgis/rest/services/Parcel_Lines_MC_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39049"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneType",
+    "zone_name": "ZoneType"
+  },
+  "notes": "Village of Marble Cliff zoning from the village zoning map viewer. Parcel-based layer (283 polygons, PARCELID per parcel) carrying each parcel zoning type in ZoneType; no separate district-name field, so zone_name repeats the code. Last resort for a district layer; the village map was last updated 2015 per the village site.",
+  "extent": [
+    -83.06930429975891,
+    39.977761273652064,
+    -83.05686194325861,
+    39.99123125871899
+  ],
+  "verification": {
+    "verified_at": 1792276083851,
+    "counties": [
+      "39049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

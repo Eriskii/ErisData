@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-brown-ashwaubenon",
+  "publisher": "Village of Ashwaubenon",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/K1ZJOhstdXxW7Uqd/arcgis/rest/services/AshwaubenonZoning_VIEW/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "FullZoningName"
+  },
+  "notes": "Village of Ashwaubenon base zoning districts (Base Zoning field); overlay in separate DUAL_ZONE field",
+  "extent": [
+    -88.1497453246371,
+    44.44520887110433,
+    -88.0378884513596,
+    44.50932624745669
+  ],
+  "verification": {
+    "verified_at": 1792281157215,
+    "counties": [
+      "55009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

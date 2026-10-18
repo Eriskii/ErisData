@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-clark-enon",
+  "publisher": "Clark County, Ohio (zoning for Village of Enon)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ago.clarkcountyohio.gov/ccoarcgis/rest/services/BHA/AGS_Clark_Zones/MapServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39023"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "zone": "ZONING",
+    "zone_name": "ZONINGDESC"
+  },
+  "notes": "Village of Enon zoning districts, hosted by Clark County; layer 17 of the Clark County AGS_Clark_Zones service.",
+  "extent": [
+    -83.94543089991076,
+    39.84308237906883,
+    -83.92374035243527,
+    39.885595408988166
+  ],
+  "verification": {
+    "verified_at": 1792275641413,
+    "counties": [
+      "39023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

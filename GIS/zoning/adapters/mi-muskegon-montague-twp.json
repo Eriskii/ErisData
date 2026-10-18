@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-muskegon-montague-twp",
+  "publisher": "Muskegon County GIS (Montague Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.muskegoncountygis.com/arcgis/rest/services/Zoning_Viewer/Zoning_Viewer/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26121"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "County GIS Zoning_Viewer service; Montague Township base zoning districts (layer 6).",
+  "extent": [
+    -86.39718003873445,
+    43.37236283591493,
+    -86.27719075849096,
+    43.47251285616715
+  ],
+  "verification": {
+    "verified_at": 1792275383626,
+    "counties": [
+      "26121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

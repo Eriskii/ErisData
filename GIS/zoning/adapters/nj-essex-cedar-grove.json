@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nj-essex-cedar-grove",
+  "publisher": "Township of Cedar Grove (Zoning Viewer Map, ArcGIS Online, Cedargrove_Admin)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/S05wnU5Qvf3rNuY3/arcgis/rest/services/Zoning_Viewer_Map_WFL1/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34013"
+    ]
+  },
+  "fields": {
+    "link": "Website_Link",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneLabel"
+  },
+  "notes": "Cedar Grove Township zoning viewer layer, titled Zoning (Depreciated) in the viewer service; 148 features. Zone code and description per district. Sourced from the township viewer account; no jurisdiction field needed (single-municipality layer).",
+  "extent": [
+    -74.25159486122648,
+    40.83332606237592,
+    -74.20519584773022,
+    40.88099714870563
+  ],
+  "verification": {
+    "verified_at": 1792279602397,
+    "counties": [
+      "34013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

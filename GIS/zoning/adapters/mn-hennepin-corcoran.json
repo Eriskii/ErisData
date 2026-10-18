@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-hennepin-corcoran",
+  "publisher": "City of Corcoran (Stantec-hosted Zoning Districts view)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/DN2fPfpggEPlLhP6/arcgis/rest/services/Corcoran_Zoning_Districts_view/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27053"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "City of Corcoran zoning districts (view layer, 4,286 features, parcel-level polygons carrying zoning code per parcel), hosted by consultant Stantec for the City. Covers Corcoran only.",
+  "extent": [
+    -93.64750712000262,
+    45.06505174919768,
+    -93.521134608813,
+    45.15307084366409
+  ],
+  "verification": {
+    "verified_at": 1792279426089,
+    "counties": [
+      "27053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

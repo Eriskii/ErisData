@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-lake-lake-forest",
+  "publisher": "City of Lake Forest (GIS, via CLF AGOL project service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/c9b16d17c60d4f67862833f6f301121f/rest/services/CLF/AGOL_CLF_Project/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17097"
+    ]
+  },
+  "fields": {
+    "zone": "ZONED",
+    "zone_name": "ZONINGDESCRIPTION"
+  },
+  "notes": "City of Lake Forest zoning districts (Zoning_POLY, 113 features), from the city web map (CLF AGOL project service). Covers Lake Forest city only. ZONINGDOCUMENT empty in sampled features, so no link mapped.",
+  "extent": [
+    -87.90148936827049,
+    42.20338194235827,
+    -87.80624573253532,
+    42.27983453976408
+  ],
+  "verification": {
+    "verified_at": 1792278449839,
+    "counties": [
+      "17097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

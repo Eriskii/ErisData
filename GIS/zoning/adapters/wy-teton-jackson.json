@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wy-teton-jackson",
+  "publisher": "Town of Jackson, WY (via Teton County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/6ukHJ1QHS9lvQoRO/arcgis/rest/services/WY_Teton_Zoning_view/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "56039"
+    ]
+  },
+  "fields": {
+    "link": "ordinance",
+    "zone": "zoning"
+  },
+  "notes": "Town of Jackson base zoning districts (TOJ_Zoning layer, 109 polygons) from Teton County GIS WY_Teton_Zoning_view. zoning holds the district code (e.g. NL-1, NM-2, TS-1); suffix is a qualifier, ldrsection an LDR section number, not mapped. Covers Town of Jackson only; county unincorporated land is in the saved wy-teton layer.",
+  "extent": [
+    -110.81340990116922,
+    43.45819166697643,
+    -110.73764893916176,
+    43.490465578492206
+  ],
+  "verification": {
+    "verified_at": 1792281359910,
+    "counties": [
+      "56039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

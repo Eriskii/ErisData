@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-jefferson-leray",
+  "publisher": "Town of LeRay (via DANC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/40",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36045"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Town of LeRay zoning districts from the DANC GIS host (its Jefferson County town layers). Single-jurisdiction layer; PDF_Link is empty so no link is mapped.",
+  "extent": [
+    -75.88006712553042,
+    43.9817321218451,
+    -75.72016456428823,
+    44.17471062116983
+  ],
+  "verification": {
+    "verified_at": 1792279714233,
+    "counties": [
+      "36045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

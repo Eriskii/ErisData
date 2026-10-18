@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-treasure-island",
+  "publisher": "Pinellas County GIS (for the City of Treasure Island)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_Treasure_Island_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONING"
+  },
+  "notes": "City of Treasure Island zoning hosted by Pinellas County GIS; JURISDICTION names the city.",
+  "extent": [
+    -82.78357510399123,
+    27.738730626294085,
+    -82.75401752913078,
+    27.78865783875332
+  ],
+  "verification": {
+    "verified_at": 1792277833172,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

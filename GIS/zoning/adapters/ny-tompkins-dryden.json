@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-tompkins-dryden",
+  "publisher": "Tompkins County GIS (Town of Dryden zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/oJbAAWNInLrxvF0A/arcgis/rest/services/Dryden_Zoning/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36109"
+    ]
+  },
+  "fields": {
+    "zone": "NewZoning"
+  },
+  "notes": "Town of Dryden 2019 zoning. Parcel layer (ZoningParcel) carrying each parcel zoning in NewZoning; no district polygon layer found. Last resort per parcel-layer rule; hosted by Tompkins County GIS.",
+  "extent": [
+    -76.45400512340547,
+    42.39624603109137,
+    -76.25383436493804,
+    42.550496001390606
+  ],
+  "verification": {
+    "verified_at": 1792279637606,
+    "counties": [
+      "36109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

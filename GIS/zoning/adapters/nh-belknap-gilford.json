@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nh-belknap-gilford",
+  "publisher": "NH Zoning Atlas (Saint Anselm / UpstateGIS), Gilford records",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Atlas_Zoning_Districts_Buildable/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Abbreviated_District_Name"
+  },
+  "filter": "County = 'Belknap' AND Overlay = 'No' AND Jurisdiction = 'Gilford'",
+  "notes": "Statewide NH Zoning Atlas layer, filtered to Gilford records in Belknap County; overlays excluded. Atlas maintained by Saint Anselm / UpstateGIS. Full district names are mostly empty so only the abbreviated code is mapped.",
+  "extent": [
+    -71.45834537572976,
+    43.48480846381136,
+    -71.31612077644161,
+    43.636100678425834
+  ],
+  "verification": {
+    "verified_at": 1792279501171,
+    "counties": [
+      "33001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

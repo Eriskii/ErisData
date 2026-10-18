@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ia-benton-urbana",
+  "publisher": "Urbana, Iowa (zoning as compiled in Iowa State University GIS Facility statewide zoning compilation, Schneider/Beacon GIS source)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19011"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Urbana'",
+  "notes": "Copy compiled by the ISU GIS Facility, not the city; no official queryable layer found. Per-record source: Schneider/Beacon GIS. Not official. No per-district ordinance link field.",
+  "extent": [
+    -91.910482931514,
+    42.21808959771902,
+    -91.8658938531358,
+    42.24769131905019
+  ],
+  "verification": {
+    "verified_at": 1792278425666,
+    "counties": [
+      "19011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

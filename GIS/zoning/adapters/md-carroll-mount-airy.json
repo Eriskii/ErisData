@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "md-carroll-mount-airy",
+  "publisher": "Maryland Department of Planning (Generalized Zoning 2025, Town of Mount Airy records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/njFNhDsUCentVYJW/arcgis/rest/services/Generalized_Zoning_2025_Draft/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "ZONING",
+    "zone_name": "GENZONE"
+  },
+  "filter": "JURSCODE = 'CARR' AND MUNICIPALITY_NAME = 'MOUNT AIRY'",
+  "notes": "State of Maryland Generalized Zoning 2025 (draft) layer, statewide dataset holding local zoning codes in ZONING. Filtered to Carroll County records of Mount Airy. No link field.",
+  "extent": [
+    -77.16781444746714,
+    39.35939143161783,
+    -77.11888733170106,
+    39.401240217759565
+  ],
+  "verification": {
+    "verified_at": 1792278840329,
+    "counties": [
+      "24013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

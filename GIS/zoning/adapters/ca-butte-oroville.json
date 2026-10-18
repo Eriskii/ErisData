@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-butte-oroville",
+  "publisher": "City of Oroville (hosted by CSU Chico Geographic Information Center)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://nspdcwebsrv.csuchico.edu/nspdcarcsrv01/rest/services/City_of_Oroville/OROVILLE_PLANNING/MapServer/13",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06007"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "jurisdiction",
+    "zone": "zoning"
+  },
+  "notes": "City of Oroville Zoning Designation layer from the city planning MapServer on CSU Chico GIC server; jurisdiction field is always Oroville. Covers City of Oroville only.",
+  "extent": [
+    -121.639799177749,
+    39.44145872874378,
+    -121.50237018578484,
+    39.538867146482694
+  ],
+  "verification": {
+    "verified_at": 1792277437241,
+    "counties": [
+      "06007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

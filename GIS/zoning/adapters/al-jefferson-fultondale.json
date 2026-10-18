@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "al-jefferson-fultondale",
+  "publisher": "Fultondale, Alabama via Regional Planning Commission of Greater Birmingham (RPCGB ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/WUxqOZ70v5sx9tgs/arcgis/rest/services/FultondaleZoning2021/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01073"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING2021"
+  },
+  "notes": "Parcel-level layer (last resort): each parcel polygon carries its zoning in ZONING2021 (2021 zoning); no separate district layer found. Published by the Regional Planning Commission of Greater Birmingham account for the City of Fultondale.",
+  "extent": [
+    -86.84880548152981,
+    33.57848143967256,
+    -86.73930546546111,
+    33.68171834463299
+  ],
+  "verification": {
+    "verified_at": 1792277534562,
+    "counties": [
+      "01073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

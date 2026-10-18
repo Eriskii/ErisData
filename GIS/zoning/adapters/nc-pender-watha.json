@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-pender-watha",
+  "publisher": "Pender County GIS (Town of Watha zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pendercountync.gov/arcgis/rest/services/LayersPro/MapServer/43",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37141"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_"
+  },
+  "notes": "Town of Watha zoning districts, hosted by Pender County GIS. Zone code only; no description field.",
+  "extent": [
+    -77.9920187339904,
+    34.62042778542929,
+    -77.92798255208271,
+    34.68267499038363
+  ],
+  "verification": {
+    "verified_at": 1792279836559,
+    "counties": [
+      "37141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

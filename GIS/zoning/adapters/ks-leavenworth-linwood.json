@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ks-leavenworth-linwood",
+  "publisher": "City of Linwood, KS (Linwood_Zoning, ArcGIS Online item by jbegle)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/YvdlPN5z971EmeG3/arcgis/rest/services/Linwood_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20103"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Copy uploaded to ArcGIS Online by an individual (jbegle), not the city. Parcel-level polygons (FULL_PID parcel ID) with a Zoning attribute per parcel, 223 features. Used only because no official city district layer is queryable.",
+  "extent": [
+    -95.0511537566109,
+    38.99579701072924,
+    -95.023800739302,
+    39.01264854676558
+  ],
+  "verification": {
+    "verified_at": 1792278786768,
+    "counties": [
+      "20103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

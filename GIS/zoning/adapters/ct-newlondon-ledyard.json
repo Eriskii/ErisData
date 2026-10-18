@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ct-newlondon-ledyard",
+  "publisher": "Southeastern CT Council of Governments (SCCOG) - Town of Ledyard zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/c8bwOPjaFB6olbad/arcgis/rest/services/Ledyard_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09180"
+    ]
+  },
+  "fields": {
+    "link": "FileLink",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Ledyard zoning, hosted by SCCOG regional GIS; single-town layer. 12 features.",
+  "extent": [
+    -72.09420215282674,
+    41.39768695850198,
+    -71.94264225455761,
+    41.48747821123642
+  ],
+  "verification": {
+    "verified_at": 1792277711466,
+    "counties": [
+      "09180"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

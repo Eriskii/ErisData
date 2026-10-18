@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-guadalupe-schertz",
+  "publisher": "City of Schertz GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.schertz.com/hosting/rest/services/PublicFolder/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48187"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "CNTYNAME = 'G'",
+  "notes": "City of Schertz current base zoning districts (city limits; city spans Guadalupe and Bexar counties; filtered to Guadalupe portion by CNTYNAME = G). No ordinance links published in the layer.",
+  "extent": [
+    -98.29665546109231,
+    29.54015236572437,
+    -98.17677097030686,
+    29.64404301490466
+  ],
+  "verification": {
+    "verified_at": 1792280583198,
+    "counties": [
+      "48187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "id-ada-garden-city",
+  "publisher": "Ada County GIS (AdaCountyGIS, Ada County Zoning Districts layer, City of Garden City entries)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/dgGjZc6xAH5m5JyP/arcgis/rest/services/Zoning/FeatureServer/22",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "BASEZONE",
+    "zone_name": "ZONING"
+  },
+  "filter": "CITY = 'City of Garden City'",
+  "notes": "Ada County Zoning Districts layer hosted by Ada County GIS (AdaCountyGIS account); holds several jurisdictions named in CITY; filtered to City of Garden City.",
+  "extent": [
+    -116.31413838798429,
+    43.61872733048952,
+    -116.23145268941605,
+    43.68277741342096
+  ],
+  "verification": {
+    "verified_at": 1792278202561,
+    "counties": [
+      "16001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

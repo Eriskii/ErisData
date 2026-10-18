@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-douglas-reedsport",
+  "publisher": "Oregon DLCD (statewide zoning compilation, City of Reedsport jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41019"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Reedsport'",
+  "notes": "State DLCD compilation; ownerName = Reedsport city. Zone codes are state-standard orZCode values.",
+  "extent": [
+    -124.13949756977344,
+    43.68641159237339,
+    -124.07286116273332,
+    43.726020955001935
+  ],
+  "verification": {
+    "verified_at": 1792280076695,
+    "counties": [
+      "41019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

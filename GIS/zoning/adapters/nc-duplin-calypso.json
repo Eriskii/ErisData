@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-duplin-calypso",
+  "publisher": "Duplin County GIS (Town of Calypso zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.duplinnc.gov/server/rest/services/GISDB/PublicAccessMainGISDB/MapServer/48",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37061"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Town of Calypso zoning districts, published on the Duplin County GIS public map service (Calypso Zoning Districts, 97 features). Zone code only.",
+  "extent": [
+    -78.13479068411205,
+    35.129724670061684,
+    -78.07431595058446,
+    35.179386719550045
+  ],
+  "verification": {
+    "verified_at": 1792279802956,
+    "counties": [
+      "37061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

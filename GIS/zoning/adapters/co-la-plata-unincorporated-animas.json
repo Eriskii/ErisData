@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-la-plata-unincorporated-animas",
+  "publisher": "La Plata County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.lpcgov.org/arcgis/rest/services/JS_website/Map_Pro/MapServer/157",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08067"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDIST_1",
+    "zone_name": "NAME"
+  },
+  "notes": "La Plata County unincorporated zoning districts (Animas Valley area): only 3 districts published - Hermosa Creek, Bruce Lane, Hermosa/Animas Valley. Covers part of unincorporated county only; zone is the numeric district code as published (ZONEDIST_1).",
+  "extent": [
+    -107.84993559830905,
+    37.387077646778685,
+    -107.82440248662056,
+    37.427010992144
+  ],
+  "verification": {
+    "verified_at": 1792277486180,
+    "counties": [
+      "08067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

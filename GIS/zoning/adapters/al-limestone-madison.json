@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "al-limestone-madison",
+  "publisher": "City of Madison, AL (served via Madison County GIS host kcsgis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://web3.kcsgis.com/kcsgis/rest/services/Madison/AL47_GAMAWeb/MapServer/114",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01083"
+    ]
+  },
+  "fields": {
+    "zone": "Name"
+  },
+  "notes": "City of Madison zoning districts (layer 114 Madison Zoning, Use_Status Current, 272 features) in the Madison County GIS MapServer; the city straddles Madison and Limestone counties. Covers the city only. Zone codes such as R-1, B-2, M-1; some blank names. No jurisdiction or zone_name field in source.",
+  "extent": [
+    -86.85105510816976,
+    34.662534826673706,
+    -86.70603821593498,
+    34.7616224200201
+  ],
+  "verification": {
+    "verified_at": 1792277217646,
+    "counties": [
+      "01083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

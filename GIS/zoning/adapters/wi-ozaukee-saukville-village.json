@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-ozaukee-saukville-village",
+  "publisher": "Village of Saukville",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/aH0XIcyuuGlXRYPC/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55089"
+    ]
+  },
+  "fields": {
+    "link": "Information",
+    "zone": "STRING"
+  },
+  "notes": "Village of Saukville zoning districts (121 features), hosted on the village ArcGIS account. Zone code field STRING; Information holds ordinance text reference.",
+  "extent": [
+    -87.96898935406118,
+    43.35949304101869,
+    -87.91485545686636,
+    43.40465684391988
+  ],
+  "verification": {
+    "verified_at": 1792281296130,
+    "counties": [
+      "55089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

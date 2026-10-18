@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ga-talmo",
+  "publisher": "Jackson County GIS (Town of Talmo zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/bcbi4lYRFOsss0F5/arcgis/rest/services/jackson_baselayers/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13157"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONING",
+    "zone": "zoning_talmo"
+  },
+  "filter": "ZONING = 'Talmo'",
+  "notes": "City of Talmo zoning carried in the county base-layer service; code in zoning_talmo, city parcels identified by ZONING = Talmo. Parcel-level polygons.",
+  "extent": [
+    -83.74595545309528,
+    34.1665192616961,
+    -83.69677993373422,
+    34.203664994699935
+  ],
+  "verification": {
+    "verified_at": 1792277897465,
+    "counties": [
+      "13157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ct-newlondon-eastlyme",
+  "publisher": "Southeastern CT Council of Governments (SCCOG) - Town of East Lyme zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/c8bwOPjaFB6olbad/arcgis/rest/services/East_Lyme_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09180"
+    ]
+  },
+  "fields": {
+    "link": "FileLink",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of East Lyme zoning, hosted by SCCOG regional GIS; single-town layer. 19 features.",
+  "extent": [
+    -72.28222250533508,
+    41.28564133028891,
+    -72.17662706363629,
+    41.443566213628706
+  ],
+  "verification": {
+    "verified_at": 1792277725515,
+    "counties": [
+      "09180"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

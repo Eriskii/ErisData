@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-wilson-sims",
+  "publisher": "Wilson County GIS (Town of Sims zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wilson-co.com/arcgis/rest/services/Templets/ARCGIS_Templet/MapServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37195"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_TYP"
+  },
+  "notes": "Town of Sims zoning districts, from the Wilson County template map service.",
+  "extent": [
+    -78.07995220154166,
+    35.742399743210036,
+    -78.04500439245078,
+    35.77590561446384
+  ],
+  "verification": {
+    "verified_at": 1792279942083,
+    "counties": [
+      "37195"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

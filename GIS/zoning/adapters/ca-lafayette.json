@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-lafayette",
+  "publisher": "City of Lafayette (nzittel ArcGIS Online account; source of the City's official Zoning and Land Use web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/N3iR6DMX9yR8o1uS/arcgis/rest/services/LAFAYETTE_ZONING_GC_EXTRACT_2017_10_24/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06013"
+    ]
+  },
+  "fields": {
+    "link": "ZONELINK",
+    "zone": "CODE"
+  },
+  "notes": "City of Lafayette zoning, extract dated 2017-10-24 (GC extract) on the City's account; it is the layer behind the City's Zoning and Land Use web map. No district-name field, so zone_name is not mapped. Lafayette city limits.",
+  "extent": [
+    -122.16521634273,
+    37.84926638846,
+    -122.07798723047202,
+    37.939333883849706
+  ],
+  "verification": {
+    "verified_at": 1792277896686,
+    "counties": [
+      "06013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

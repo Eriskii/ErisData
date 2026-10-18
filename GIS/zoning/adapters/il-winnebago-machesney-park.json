@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-winnebago-machesney-park",
+  "publisher": "Village of Machesney Park (via Winnebago County GIS, EcDev service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/44ad70f78c864e2ab40134c3866e3838/rest/services/EcDev/MapServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17201"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningClas"
+  },
+  "notes": "Village of Machesney Park zoning (Ordinance 20-24 official map), served from the Winnebago County GIS public EcDev MapServer used by the village viewer. Only about 12 features in the layer; check completeness.",
+  "extent": [
+    -89.07374233351099,
+    42.32409988444042,
+    -88.95094863299366,
+    42.40181907829306
+  ],
+  "verification": {
+    "verified_at": 1792278397632,
+    "counties": [
+      "17201"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

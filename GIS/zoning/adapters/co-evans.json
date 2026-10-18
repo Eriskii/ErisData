@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-evans",
+  "publisher": "City of Evans GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Kw0m8JWrOz8nwkzg/arcgis/rest/services/EvansZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08123"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Evans zoning only (within Weld County). Updated March 2025.",
+  "extent": [
+    -104.8039739592023,
+    40.32593776819746,
+    -104.6776601255276,
+    40.392583398927
+  ],
+  "verification": {
+    "verified_at": 1792277634209,
+    "counties": [
+      "08123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

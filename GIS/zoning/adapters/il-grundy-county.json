@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-grundy-county",
+  "publisher": "Grundy County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.grundyco.org/arcgis/rest/services/CountyWebsiteMaps/CountyZoningBaseLayer_SPIE/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17063"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Grundy County unincorporated zoning districts (county-wide layer; county zoning only)",
+  "extent": [
+    -88.59596665484786,
+    41.10830296588775,
+    -88.2408950510778,
+    41.461514599694304
+  ],
+  "verification": {
+    "verified_at": 1792278156216,
+    "counties": [
+      "17063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

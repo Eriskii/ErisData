@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-collin-richardson",
+  "publisher": "City of Richardson GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.cor.gov/arcgis/rest/services/DevelopmentServices/ZoningDistricts/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48085"
+    ]
+  },
+  "fields": {
+    "link": "CZOLOC",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Richardson zoning districts (general reference layer, city limits; Richardson spans Dallas and Collin counties). ZONECLASS holds district code, ZONEDESC the description; CZOLOC links the Comprehensive Zoning Ordinance PDF.",
+  "extent": [
+    -96.76967278287478,
+    32.921436196376874,
+    -96.61292948494307,
+    33.0071762949667
+  ],
+  "verification": {
+    "verified_at": 1792280763769,
+    "counties": [
+      "48085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

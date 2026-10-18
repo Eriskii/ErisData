@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ny-franklin-tupper-lake-town",
+  "publisher": "Franklin County NY (DANC GIS, Town of Tupper Lake zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/Franklin_Special_Dis_Zoning_P_24/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36033"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Town",
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Town of Tupper Lake base zoning districts from the DANC GIS county zoning service; village of Tupper Lake not included. No ordinance links in the layer.",
+  "extent": [
+    -74.56837670581268,
+    44.09605994583293,
+    -74.37385359918416,
+    44.39724424201357
+  ],
+  "verification": {
+    "verified_at": 1792279661835,
+    "counties": [
+      "36033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

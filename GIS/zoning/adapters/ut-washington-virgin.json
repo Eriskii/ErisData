@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-washington-virgin",
+  "publisher": "Washington County GIS (Town of Virgin zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://agisprodvm.washco.utah.gov/arcgis/rest/services/Zoning/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49053"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE",
+    "zone_name": "GEN_ZONE"
+  },
+  "notes": "Town of Virgin zoning districts, hosted by Washington County GIS; one jurisdiction per layer (SOURCE holds Virgin). zone_name is the general category (GEN_ZONE) because DESCRIPTION is null in source.",
+  "extent": [
+    -113.25650459535969,
+    37.170087983198265,
+    -113.1449722237367,
+    37.2158448907453
+  ],
+  "verification": {
+    "verified_at": 1792280880876,
+    "counties": [
+      "49053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-walnut-creek",
+  "publisher": "City of Walnut Creek zoning districts (copy on ArcGIS Online by scheechov)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/0IC8hha3hgQkmGoa/arcgis/rest/services/Walnut_Creek_Zoning/FeatureServer/105",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "ZONEDESC NOT LIKE 'UNINCORPORATED%'",
+  "notes": "Unofficial copy: uploaded to ArcGIS Online by scheechov, not hosted by the City of Walnut Creek (the city publishes its zoning map as PDF and interactive map only). Layer ZoningDistrictV2: ZONECLASS district code, ZONEDESC description. Filter drops records labelled UNINCORPORATED (county land). Walnut Creek city limits.",
+  "extent": [
+    -122.10042124159015,
+    37.8418613661243,
+    -121.97901460595324,
+    37.94660615181639
+  ],
+  "verification": {
+    "verified_at": 1792277706827,
+    "counties": [
+      "06013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

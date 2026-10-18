@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "tn-washington-unincorporated",
+  "publisher": "Washington County, TN GIS (unincorporated areas)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/nLnrKGwI08veJ5uu/arcgis/rest/services/ZoningMap/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47179"
+    ]
+  },
+  "fields": {
+    "link": "URL",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "ZONECLASS <> 'JB'",
+  "notes": "County zoning for the unincorporated areas of Washington County; updated as needed. Filter drops the one JB record, which is the Town of Jonesborough boundary rather than county zoning.",
+  "extent": [
+    -82.7155681702669,
+    36.08789207063099,
+    -82.29574973782287,
+    36.45311038512832
+  ],
+  "verification": {
+    "verified_at": 1792280658252,
+    "counties": [
+      "47179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

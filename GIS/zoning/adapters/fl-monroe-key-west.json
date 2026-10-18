@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-monroe-key-west",
+  "publisher": "City of Key West GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/aIpcLPHSEqH4LbLl/arcgis/rest/services/Zoning_all_info/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12087"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Key West zoning districts (Zoning_all_info layer on the City ArcGIS organization). Zone is the ZONING district code (CM, PS, ...). zonecode is a numeric internal id and is not used. Setback and coverage attributes present but not mapped.",
+  "extent": [
+    -81.81586518585054,
+    24.54404567175483,
+    -81.7349676122466,
+    24.599298772028295
+  ],
+  "verification": {
+    "verified_at": 1792277782410,
+    "counties": [
+      "12087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

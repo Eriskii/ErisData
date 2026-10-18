@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-oneida-lake-tomahawk",
+  "publisher": "Oneida County GIS (Town of Lake Tomahawk zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.oneidacountywi.gov/arcgis/rest/services/Oneview/ZoningLandUse/MapServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55085"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "zone": "District"
+  },
+  "filter": "MUNICIPALITY = 'LAKE TOMAHAWK'",
+  "notes": "Town of Lake Tomahawk zoning districts from the county Oneview ZoningLandUse service, Zoning Districts layer (county-wide layer holding 20 towns, filtered to one). Boundaries approximate per county disclaimer.",
+  "extent": [
+    -89.67351318234012,
+    45.70288425294732,
+    -89.53526780881573,
+    45.81811944700478
+  ],
+  "verification": {
+    "verified_at": 1792281471334,
+    "counties": [
+      "55085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

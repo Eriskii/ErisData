@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mi-wayne-lincoln-park",
+  "publisher": "City of Lincoln Park, Michigan",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/xJvlcOU5Vdf86o1L/arcgis/rest/services/LP_Zoning_ArcGIS_Online_070318/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26163"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Parcel-level layer (no separate district polygons published): each parcel carries its 2018 zoning district in Zoning (2007 in Zoning_07). Last resort; data dates from 2018. Published by the city on its ArcGIS account, linked from its public interactive zoning map.",
+  "extent": [
+    -83.20320125933094,
+    42.22052241715544,
+    -83.15649952402356,
+    42.27148201766942
+  ],
+  "verification": {
+    "verified_at": 1792274108936,
+    "counties": [
+      "26163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

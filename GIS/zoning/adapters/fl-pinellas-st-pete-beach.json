@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-st-pete-beach",
+  "publisher": "City of St. Pete Beach (CDD Master Map, ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/F3eqpl8ixwADS2P2/arcgis/rest/services/CDD_Master_WFL1/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of St. Pete Beach Zoning polygon layer from the city CDD Master Map (services8, city staff org). Overlays are a separate layer (ID 2) and not used. Source in EPSG:3857; runtime requests lon/lat.",
+  "extent": [
+    -82.76039639419568,
+    27.68222541869032,
+    -82.72563029593422,
+    27.75860668968812
+  ],
+  "verification": {
+    "verified_at": 1792278397455,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

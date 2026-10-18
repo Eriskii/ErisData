@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-kenosha-somers",
+  "publisher": "Village and Town of Somers (via Kenosha County mapping)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapping.kenoshacountywi.gov/server/rest/services/Interactive_Mapping/Zoning/MapServer/15",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55059"
+    ]
+  },
+  "fields": {
+    "link": "ClickLink",
+    "zone": "TAG",
+    "zone_name": "DistDescText"
+  },
+  "notes": "Village and Town of Somers zoning districts, served by Kenosha County GIS (Interactive_Mapping/Zoning layer 15).",
+  "extent": [
+    -87.96500641777803,
+    42.58929193543717,
+    -87.80582793048265,
+    42.67075659548585
+  ],
+  "verification": {
+    "verified_at": 1792281212868,
+    "counties": [
+      "55059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

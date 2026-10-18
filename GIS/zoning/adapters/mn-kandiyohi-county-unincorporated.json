@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "id": "mn-kandiyohi-county-unincorporated",
+  "publisher": "Kandiyohi County GIS",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://gis.kcmn.us/arcgis/rest/services/Kandiyohi/Environmental/MapServer/6/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "27067"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "Shortname",
+    "zone_name": "Zoning"
+  },
+  "notes": "Kandiyohi County zoning layer for unincorporated county land (407 features), published by county GIS. Read in one GeoJSON request because paged queries are refused.",
+  "verification": {
+    "verified_at": 1792279027105,
+    "counties": [
+      "27067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

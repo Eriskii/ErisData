@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-monterey-city",
+  "publisher": "City of Monterey (zoning attributes on parcel copy by ArcGIS Online user uoglick)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/LpAdN0lUykfqxx7m/arcgis/rest/services/zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06053"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCRIP"
+  },
+  "filter": "CITY = 'MONTEREY'",
+  "notes": "Not an official city layer: a copy hosted on ArcGIS Online by user uoglick (personal account). Parcel-level polygons (APN) carrying the City of Monterey zoning code in ZONING; last-resort form. City of Monterey zoning districts are otherwise not published as a queryable layer. DESCRIP and ZONING_COD may be empty or inconsistent; verify against city zoning code.",
+  "extent": [
+    -121.92644799159504,
+    36.5716335921976,
+    -121.80602917843446,
+    36.61855933578833
+  ],
+  "verification": {
+    "verified_at": 1792277679024,
+    "counties": [
+      "06053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

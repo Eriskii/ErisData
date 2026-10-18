@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-new-castle",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for New Castle Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/13_zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "munis",
+    "zone": "zone",
+    "zone_name": "descrpt"
+  },
+  "notes": "Municipal zoning for New Castle Township (MUNIS 13), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.62468532144108,
+    40.60084585370888,
+    -76.39413566525931,
+    40.69383010525656
+  ],
+  "verification": {
+    "verified_at": 1792280297214,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

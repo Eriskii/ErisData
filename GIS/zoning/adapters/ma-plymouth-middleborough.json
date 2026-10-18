@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-plymouth-middleborough",
+  "publisher": "Town of Middleborough (base zoning, hosted by SRPEDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/euKKjtGUuDiy24vy/arcgis/rest/services/Middleborough_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25023"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE",
+    "zone_name": "ZONINGDESC"
+  },
+  "notes": "Middleborough base zoning, 18 polygons, from a 2022 base layer published by the Southeastern Regional Planning and Economic District (SRPEDD) on its ArcGIS services. Single-town layer.",
+  "extent": [
+    -70.99997337156807,
+    41.79422020103259,
+    -70.76318203774554,
+    41.96637351778982
+  ],
+  "verification": {
+    "verified_at": 1792278941684,
+    "counties": [
+      "25023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

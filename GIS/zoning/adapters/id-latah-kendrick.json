@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "id-latah-kendrick",
+  "publisher": "City of Kendrick (via Latah County GIS Municipalities service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.latah.id.us/arcgis/rest/services/Municipalities/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16057"
+    ]
+  },
+  "fields": {
+    "zone": "Label"
+  },
+  "notes": "City of Kendrick zoning layer hosted on Latah County GIS Municipalities service (layer 3, 20 features). Zone code in Label; no usable description field.",
+  "extent": [
+    -116.66948964022988,
+    46.60475547978387,
+    -116.64197015932902,
+    46.62160055268804
+  ],
+  "verification": {
+    "verified_at": 1792278016844,
+    "counties": [
+      "16057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "pa-lackawanna-benton",
+  "publisher": "Benton Township, Lackawanna County (hosted on Wyoming County GIS ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/0POQ0PQT9pHLMnL2/arcgis/rest/services/BentonZONING/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42069"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Benton Township only (single-jurisdiction layer, 5 features). Zone code only; no district name or ordinance link in the layer.",
+  "extent": [
+    -75.7742982892888,
+    41.555944222096855,
+    -75.64751635127708,
+    41.64227173496972
+  ],
+  "verification": {
+    "verified_at": 1792280113434,
+    "counties": [
+      "42069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

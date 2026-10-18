@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-oneida-minocqua",
+  "publisher": "Oneida County GIS (Town of Minocqua zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.oneidacountywi.gov/arcgis/rest/services/Oneview/ZoningLandUse/MapServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55085"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY",
+    "zone": "District"
+  },
+  "filter": "MUNICIPALITY = 'MINOCQUA'",
+  "notes": "Town of Minocqua zoning districts from the county Oneview ZoningLandUse service, Zoning Districts layer (county-wide layer holding 20 towns, filtered to one). Boundaries approximate per county disclaimer.",
+  "extent": [
+    -90.04626434800659,
+    45.73036502147402,
+    -89.67336933958376,
+    45.89873257364387
+  ],
+  "verification": {
+    "verified_at": 1792281253632,
+    "counties": [
+      "55085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

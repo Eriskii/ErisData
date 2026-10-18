@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nh-merrimack-epsom",
+  "publisher": "NH Zoning Atlas (Upstate GIS / NH Office of Planning and Development), Epsom",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Atlas_Zoning_Districts_Buildable/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "AbbreviatedDistrict"
+  },
+  "filter": "County = 'Merrimack' AND Overlay = 'No' AND Jurisdiction = 'Epsom'",
+  "notes": "Epsom town zoning districts taken from the state NH Zoning Atlas statewide buildable-districts layer; overlay districts excluded. Zone names sparse in source, only district code mapped.",
+  "extent": [
+    -71.41656323920273,
+    43.162207210299165,
+    -71.26195843377835,
+    43.268109680042635
+  ],
+  "verification": {
+    "verified_at": 1792279618983,
+    "counties": [
+      "33013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wa-stevens-chewelah",
+  "publisher": "Stevens County GIS (City of Chewelah zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stevenscountywa.gov/server/rest/services/Stevens_County_Zoning_Data/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53065"
+    ]
+  },
+  "fields": {
+    "zone_name": "name"
+  },
+  "notes": "City of Chewelah zoning districts from the Stevens County zoning data service (layer 2). Single-city layer; the NAME field holds the district name, no separate zone code published.",
+  "extent": [
+    -117.7721536377267,
+    48.26862652311648,
+    -117.69310236017868,
+    48.323600091400856
+  ],
+  "verification": {
+    "verified_at": 1792281027355,
+    "counties": [
+      "53065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

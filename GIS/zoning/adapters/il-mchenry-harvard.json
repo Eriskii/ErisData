@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-mchenry-harvard",
+  "publisher": "City of Harvard, IL (via city ArcGIS Online web map 2023 City of Harvard Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/oelefyzCn621G64q/arcgis/rest/services/Enriched_harvard_zoning_180822/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17111"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "District"
+  },
+  "notes": "City of Harvard zoning districts, the layer behind the city 2023 zoning web map. Layer name suggests an Esri enrichment copy dated 2018; verify currency with city. Harvard city limits only.",
+  "extent": [
+    -88.66099117834243,
+    42.396032064516376,
+    -88.56964201542823,
+    42.46578259747093
+  ],
+  "verification": {
+    "verified_at": 1792278266152,
+    "counties": [
+      "17111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

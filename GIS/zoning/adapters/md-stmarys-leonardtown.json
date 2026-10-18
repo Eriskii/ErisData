@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "md-stmarys-leonardtown",
+  "publisher": "Maryland Department of Planning (state generalized zoning, Leonardtown jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdpgis.mdp.state.md.us/arcgis/rest/services/PlanningCadastre/Generalized_Zoning_2025/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24037"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "GENZONE",
+    "zone_name": "GENZONE_CAT"
+  },
+  "filter": "JURSCODE = 'STMA' AND MUNICIPALITY_NAME = 'LEONARDTOWN'",
+  "notes": "State generalized zoning (Maryland Dept. of Planning, 2025 version); Leonardtown features are the town's generalized categories (2020 update), not its own district codes. Town publishes its zoning map only as PDF.",
+  "extent": [
+    -76.66652675506435,
+    38.28002315772614,
+    -76.61456438543867,
+    38.3249629937711
+  ],
+  "verification": {
+    "verified_at": 1792278817152,
+    "counties": [
+      "24037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

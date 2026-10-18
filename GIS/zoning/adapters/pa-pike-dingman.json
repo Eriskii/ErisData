@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "pa-pike-dingman",
+  "publisher": "Dingman Township (zoning in a composite copy on ArcGIS Online by user Gsabwa)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/q8sarOko6mCDwiGm/arcgis/rest/services/Dingman_Zoning_Districts/FeatureServer/94",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "DISTRICT",
+    "zone": "ZONE_ABBR",
+    "zone_name": "ZONING"
+  },
+  "filter": "DISTRICT = 'Dingman'",
+  "notes": "Unofficial copy: a composite Pike County municipal zoning layer hosted on ArcGIS Online by user Gsabwa, not the township or county service; it holds Blooming Grove, Delaware, Dingman, Milford B, Milford twp, Porter and Shohola districts in DISTRICT. Filtered to Dingman Twp. Dingman Twp publishes its own zoning map only as an image.",
+  "extent": [
+    -75.04493632055427,
+    41.27729676312266,
+    -74.79257959080468,
+    41.39039747833581
+  ],
+  "verification": {
+    "verified_at": 1792280230666,
+    "counties": [
+      "42103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

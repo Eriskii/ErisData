@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-national-city",
+  "publisher": "SDSU student copy of National City parcels with zoning (Sage Project), hosted on ArcGIS Online",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/SIYkiqjmENweC50g/arcgis/rest/services/National_City_Parcels_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06073"
+    ]
+  },
+  "fields": {
+    "zone": "NCZONED"
+  },
+  "notes": "Unofficial copy: personal ArcGIS Online item by cdare2691_SDSUGeo (SDSU student project), not the City of National City. Used because the city publishes zoning only as a PDF map and its interactive map points to a non-city item; the city zoning service could not be identified. Parcel-level polygons carrying each parcel zone in NCZONED (National City Zoning). Zone name not provided. Copy may be out of date relative to the city ordinance.",
+  "extent": [
+    -117.12197255777502,
+    32.64313996357356,
+    -117.0490256038096,
+    32.69342558314545
+  ],
+  "verification": {
+    "verified_at": 1792277831577,
+    "counties": [
+      "06073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

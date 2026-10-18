@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-san-patricio-ingleside-on-the-bay",
+  "publisher": "Ingleside on the Bay, Texas (hosted by NLRGIS ArcGIS account)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/GuzKGtwBFbX83DiX/ArcGIS/rest/services/Ingleside_on_the_Bay_Zoning/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48409"
+    ]
+  },
+  "fields": {
+    "zone": "class"
+  },
+  "notes": "Ingleside on the Bay city zoning districts, 34 polygons, found on ArcGIS Hub via NLRGIS-owned service; city ownership of the host not confirmed, so official=false. No zone_name or link field.",
+  "extent": [
+    -97.22742245380442,
+    27.82184251752736,
+    -97.21579707723488,
+    27.838046155334418
+  ],
+  "verification": {
+    "verified_at": 1792280849072,
+    "counties": [
+      "48409"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

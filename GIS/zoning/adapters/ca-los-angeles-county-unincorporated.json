@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-los-angeles-county-unincorporated",
+  "publisher": "Los Angeles County Department of Regional Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.gis.lacounty.gov/arcgis/rest/services/DRP/Open_Data/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "NAME",
+    "zone": "ZONE",
+    "zone_name": "Z_NAME"
+  },
+  "notes": "Zoning for UNINCORPORATED Los Angeles County only (county-held land; incorporated cities excluded). jurisdiction field NAME is the community name; Z_CATEGORY gives general class; Z_DESC gives description.",
+  "extent": [
+    -118.9535328565984,
+    32.796717908570656,
+    -117.6441086460392,
+    34.82353651660422
+  ],
+  "verification": {
+    "verified_at": 1792277411292,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

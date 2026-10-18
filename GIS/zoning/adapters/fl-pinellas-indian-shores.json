@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-indian-shores",
+  "publisher": "Pinellas County GIS (for the City of Indian Shores)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_Indian_Shores_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONING"
+  },
+  "notes": "City of Indian Shores zoning hosted by Pinellas County GIS; JURISDICTION names the city. Source in Web Mercator; runtime requests lon/lat. No ordinance link in source.",
+  "extent": [
+    -82.85064033062513,
+    27.83661914984789,
+    -82.83501185358945,
+    27.87179010948197
+  ],
+  "verification": {
+    "verified_at": 1792278516464,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

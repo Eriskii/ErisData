@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-mancos",
+  "publisher": "Town of Mancos (served by Montezuma County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-server.co.montezuma.co.us/arcgis/rest/services/TownOfMancos/TownOfMancos_PlanningMap/MapServer/16",
+    "page_size": 250,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "08083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_Mancos"
+  },
+  "filter": "ZONE_Mancos IS NOT NULL",
+  "notes": "Town of Mancos zoning districts, stored on the county-hosted town planning map layer 16 (Mancos Zoning) as ZONE_Mancos; filtered to parcels with a Mancos zone code. Parcel-based polygons.",
+  "extent": [
+    -108.30493450248328,
+    37.341226084459954,
+    -108.28162386725874,
+    37.3524296570409
+  ],
+  "verification": {
+    "verified_at": 1792277487484,
+    "counties": [
+      "08083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

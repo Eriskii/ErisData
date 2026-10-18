@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mn-goodhue-zumbrota",
+  "publisher": "City of Zumbrota (hosted by Goodhue County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://publicmaps.co.goodhue.mn.us/arcgis/rest/services/GCUGGIS/ZumbrotaZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27049"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code"
+  },
+  "notes": "City of Zumbrota zoning districts, hosted on Goodhue County GIS server. Single-city layer; no description field.",
+  "extent": [
+    -92.69655445639104,
+    44.275913240936816,
+    -92.65016877006855,
+    44.31839143482516
+  ],
+  "verification": {
+    "verified_at": 1792278947493,
+    "counties": [
+      "27049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

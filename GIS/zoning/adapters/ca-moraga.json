@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-moraga",
+  "publisher": "Town of Moraga Planning (Moraga_Planning ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/xLuiwIVVBKkNT0vQ/arcgis/rest/services/Moraga_Zoning_(Public)/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06013"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Final"
+  },
+  "notes": "Town of Moraga zoning districts, town limits, public Moraga Zoning layer published by the Town. Zoning_Final is the base district; Zone_Overlay is overlay and not mapped. No district-name field in the source.",
+  "extent": [
+    -122.15929514877764,
+    37.80774162690725,
+    -122.08693638825848,
+    37.876374167040794
+  ],
+  "verification": {
+    "verified_at": 1792277657887,
+    "counties": [
+      "06013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

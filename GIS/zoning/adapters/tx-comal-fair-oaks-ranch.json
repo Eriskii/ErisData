@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-comal-fair-oaks-ranch",
+  "publisher": "City of Fair Oaks Ranch, Texas",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Cnwpb7mZuifVHE6A/arcgis/rest/services/Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48091"
+    ]
+  },
+  "fields": {
+    "zone": "Designation",
+    "zone_name": "Description"
+  },
+  "notes": "City of Fair Oaks Ranch official zoning districts (public view of city zoning layer). City spans Bexar, Kendall and Comal counties; this spec covers the whole layer.",
+  "extent": [
+    -98.67285090874896,
+    29.713568197963372,
+    -98.60681103835577,
+    29.785253208851213
+  ],
+  "verification": {
+    "verified_at": 1792280652475,
+    "counties": [
+      "48091"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

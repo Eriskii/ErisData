@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-broward-dania-beach",
+  "publisher": "City of Dania Beach (ArcGIS Online account of the city zoning web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://services6.arcgis.com/GlEnqdgm3eQv6Ys5/arcgis/rest/services/DaniaBeach_Zoning_WFL/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_1"
+  },
+  "notes": "Dania Beach 2012 Zoning Update districts (layer 0 of DaniaBeach_Zoning_WFL, the city official zoning web map, ArcGIS Online item d8f9280e...). City limits only. Dated January 2012; no zone name field filled.",
+  "extent": [
+    -80.20794851873623,
+    26.03331542960128,
+    -80.11093145103924,
+    26.09148250235534
+  ],
+  "verification": {
+    "verified_at": 1792277993953,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

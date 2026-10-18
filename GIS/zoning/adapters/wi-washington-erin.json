@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-washington-erin",
+  "publisher": "Washington County GIS (Town of Erin zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.washcowisco.gov/server/rest/services/Zoning/Local_Zoning/MapServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55131"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE"
+  },
+  "notes": "Town of Erin zoning districts, served by Washington County GIS (Local_Zoning service). Layer holds only the Town of Erin. Includes STREETS AND HIGHWAYS polygons (ZONE_CODE) which are road right-of-way, not a district.",
+  "extent": [
+    -88.42152924284605,
+    43.19226568400887,
+    -88.29762516836948,
+    43.28306617108314
+  ],
+  "verification": {
+    "verified_at": 1792281386600,
+    "counties": [
+      "55131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

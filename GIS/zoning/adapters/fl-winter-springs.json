@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-winter-springs",
+  "publisher": "City of Winter Springs GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/hbtBppF7t3PpouVf/arcgis/rest/services/Planning_WFL1/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12117"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE"
+  },
+  "notes": "City of Winter Springs base zoning districts (Planning_WFL1 Zoning layer). TYPE holds the district code; zone name not published. Overlays are in separate layers.",
+  "extent": [
+    -81.3269022611659,
+    28.656356108458706,
+    -81.2087491128431,
+    28.7303248429526
+  ],
+  "verification": {
+    "verified_at": 1792277726658,
+    "counties": [
+      "12117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

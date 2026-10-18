@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "pa-columbia-berwick",
+  "publisher": "Borough of Berwick (zoning layer hosted by SEDA-COG for the borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/6NNMHuq8MYlPbI46/arcgis/rest/services/BERWICK_ZONING/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42037"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "Z_CODE",
+    "zone_name": "Z_NAME"
+  },
+  "filter": "COUNTY = 'Columbia' AND MUNI = 'Berwick Borough'",
+  "notes": "Berwick Borough base zoning districts; layer owner bbuck_seda_cog (SEDA-COG). Layer has MUNI and COUNTY fields; filtered to Columbia County Berwick Borough. Borough zoning ordinance 2026 at berwickborough.org.",
+  "extent": [
+    -76.27108289022027,
+    41.0394263255031,
+    -76.22849802664159,
+    41.07416447672794
+  ],
+  "verification": {
+    "verified_at": 1792280157191,
+    "counties": [
+      "42037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-will-channahon",
+  "publisher": "Village of Channahon Community Development (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/b55bc9445c034b878ac75ad4e36c7dfc/rest/services/Channahon_Community_Development/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17197"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Village of Channahon zoning districts (Channahon Zoning MapServer layer 1, owner mdahm_channahon). zone = ZONE code; no description field. Layer 0 holds only an overlay polygon.",
+  "extent": [
+    -88.38376350889614,
+    41.376319883792256,
+    -88.17247505256451,
+    41.4862967294655
+  ],
+  "verification": {
+    "verified_at": 1792278557366,
+    "counties": [
+      "17197"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

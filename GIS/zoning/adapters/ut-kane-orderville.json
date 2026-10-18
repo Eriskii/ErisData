@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-kane-orderville",
+  "publisher": "Town of Orderville (Zoning Viewer, ArcGIS Online org orderville.maps.arcgis.com; linked from orderville.utah.gov zoning map page)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/CLXK9iXHucSFjpqm/arcgis/rest/services/Zoning_Viewer/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49025"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Orderville town land use zones layer (88 polygons) from the town Zoning Viewer web map. Town boundary is FeatureServer/0 (NAME=Orderville). Zone codes include AG, A-R, C-1, I-1, MH, OS, R-1, R-1A, R-2, RRC.",
+  "extent": [
+    -112.69395405135818,
+    37.21582863878403,
+    -112.61540299052665,
+    37.29415338180434
+  ],
+  "verification": {
+    "verified_at": 1792280824074,
+    "counties": [
+      "49025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

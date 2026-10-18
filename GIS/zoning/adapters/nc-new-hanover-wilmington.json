@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-new-hanover-wilmington",
+  "publisher": "City of Wilmington GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wilmingtonnc.gov/arcgis/rest/services/Planning/Zoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37129"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Wilmington zoning districts (dissolved from zoning cases layer); city layer only, no jurisdiction field. Codes only, no zone names; Legacy=Yes rows are legacy cases.",
+  "extent": [
+    -77.95779245624738,
+    34.1227325513214,
+    -77.789147505157,
+    34.29125334581093
+  ],
+  "verification": {
+    "verified_at": 1792279914189,
+    "counties": [
+      "37129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

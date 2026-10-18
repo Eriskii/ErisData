@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-douglas-lone-tree",
+  "publisher": "City of Lone Tree GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/M6RDkiPo9JtEo7N6/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08035"
+    ]
+  },
+  "fields": {
+    "link": "mun_link",
+    "zone": "mun_code",
+    "zone_name": "mun_full"
+  },
+  "notes": "City of Lone Tree zoning boundaries (Zoning FeatureServer layer 1, city ArcGIS Online org). zone is the municipal code district letter; zone_name the district description. Covers Lone Tree only.",
+  "extent": [
+    -104.9092185904823,
+    39.50643366771549,
+    -104.8294977640218,
+    39.565994076642625
+  ],
+  "verification": {
+    "verified_at": 1792277481558,
+    "counties": [
+      "08035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

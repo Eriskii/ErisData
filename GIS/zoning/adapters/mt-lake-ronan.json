@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "mt-lake-ronan",
+  "publisher": "Lake County GIS (Zoning_Districts layer, City of Ronan districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/qQ6tqy9VSUry3ySt/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30047"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "DISTRICT",
+    "zone": "SUBDISTRIC"
+  },
+  "filter": "DISTRICT = 'City of Ronan'",
+  "notes": "County GIS-hosted layer (services2.arcgis.com/qQ6tqy9VSUry3ySt, Lake County). Holds City of Ronan districts A Residential, B Residential, C Commercial, D Industrial in SUBDISTRIC; filtered to DISTRICT = City of Ronan. No ordinance link field.",
+  "extent": [
+    -114.118617700727,
+    47.5125393840234,
+    -114.079695784047,
+    47.54164206827869
+  ],
+  "verification": {
+    "verified_at": 1792279545787,
+    "counties": [
+      "30047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "co-jefferson-arvada",
+  "publisher": "City of Arvada GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/eQyVgDz2cjhzbzN7/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08059"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Arvada zoning districts (Arvada city limits in Jefferson and Adams counties). Published by the city.",
+  "extent": [
+    -105.30384118302484,
+    39.78412918884345,
+    -105.04057147122964,
+    39.890934404333855
+  ],
+  "verification": {
+    "verified_at": 1792277474904,
+    "counties": [
+      "08059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

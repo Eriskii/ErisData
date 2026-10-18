@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-outagamie-hortonville",
+  "publisher": "Village of Hortonville (Village ArcGIS organization, Zoning Districts view)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/5ymDhfq2anA5Rwls/arcgis/rest/services/Zoning_Districts_view/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55087"
+    ]
+  },
+  "fields": {
+    "link": "OrdLink",
+    "zone": "ZoneCode",
+    "zone_name": "Zone"
+  },
+  "notes": "Village of Hortonville zoning districts (Zoning_2023 layer) from the village ArcGIS organization, linked from its Zoning Viewer app.",
+  "extent": [
+    -88.67285627603624,
+    44.315733029974254,
+    -88.61354885621711,
+    44.35607563126753
+  ],
+  "verification": {
+    "verified_at": 1792281426580,
+    "counties": [
+      "55087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

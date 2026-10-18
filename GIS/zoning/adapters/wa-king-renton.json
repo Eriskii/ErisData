@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wa-king-renton",
+  "publisher": "City of Renton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gismaps.rentonwa.gov/as03/rest/services/Operational/ZoningAndLanduse/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Renton zoning districts; Renton only. Zone is the zone code; no district name field is filled, so none mapped.",
+  "extent": [
+    -122.25560313097638,
+    47.42248986300159,
+    -122.11881775219209,
+    47.54022988421242
+  ],
+  "verification": {
+    "verified_at": 1792281132762,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

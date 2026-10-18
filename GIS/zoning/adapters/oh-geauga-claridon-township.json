@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-geauga-claridon-township",
+  "publisher": "Geauga County GIS (Claridon Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gcgis.geauga.oh.gov/arcgis/rest/services/Planning/Zoning/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39055"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_LABEL",
+    "zone_name": "ZONING"
+  },
+  "notes": "Claridon Township zoning layer from the county Planning/Zoning service; single-jurisdiction layer.",
+  "extent": [
+    -81.19092718530646,
+    41.500539903783206,
+    -81.09993258404508,
+    41.57154006891726
+  ],
+  "verification": {
+    "verified_at": 1792275836033,
+    "counties": [
+      "39055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

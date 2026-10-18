@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-mapleton",
+  "publisher": "Utah County GIS (Mapleton City Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/52",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_MA_LABEL",
+    "zone_name": "ZONE_MA_DESC"
+  },
+  "notes": "Mapleton City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 52, 196 features).",
+  "extent": [
+    -111.61526558012606,
+    40.071675686449886,
+    -111.54151063253036,
+    40.14930443722778
+  ],
+  "verification": {
+    "verified_at": 1792280895841,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

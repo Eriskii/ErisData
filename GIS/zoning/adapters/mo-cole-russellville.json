@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mo-cole-russellville",
+  "publisher": "City of Russellville / MidMO GIS (Cole County)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.midmogis.org/server/rest/services/ColeCO/OtherCommunities/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29051"
+    ]
+  },
+  "fields": {
+    "link": "ORD",
+    "zone": "ZONING"
+  },
+  "notes": "City of Russellville zoning districts, MidMO GIS ColeCO OtherCommunities MapServer layer 0; only 3 features in layer. Single-jurisdiction layer, no jurisdiction field.",
+  "extent": [
+    -92.45121152081872,
+    38.50304332487652,
+    -92.43044121128956,
+    38.52088538877218
+  ],
+  "verification": {
+    "verified_at": 1792279313029,
+    "counties": [
+      "29051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

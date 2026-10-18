@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-suffolk-sag-harbor",
+  "publisher": "Village of Sag Harbor (via Town of Southampton GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.southamptontownny.gov/gisserver/rest/services/DataServices/LandManager/MapServer/39",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESCRIPT"
+  },
+  "notes": "Village of Sag Harbor zoning districts, served by the Town of Southampton GIS (Land Manager MapServer layer SagHarbor). Village of Sag Harbor only.",
+  "extent": [
+    -72.31520187597097,
+    40.98516832500969,
+    -72.266026999165,
+    41.005370586366624
+  ],
+  "verification": {
+    "verified_at": 1792279719352,
+    "counties": [
+      "36103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

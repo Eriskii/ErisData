@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "nc-wake-zebulon",
+  "publisher": "Town of Zebulon (via Wake County GIS open data)",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://data-wake.opendata.arcgis.com/datasets/Wake::zebulon-zoning.geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "37183"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS"
+  },
+  "notes": "Town of Zebulon zoning districts, Wake County open data copy of the Wake County GIS layer (MapServer/27). Zone from CLASS.",
+  "verification": {
+    "verified_at": 1792280236434,
+    "counties": [
+      "37183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

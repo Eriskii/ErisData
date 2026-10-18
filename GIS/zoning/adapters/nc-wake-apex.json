@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-wake-apex",
+  "publisher": "Town of Apex GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/nry3yyvaEfskMEXA/arcgis/rest/services/Zoning_Conditions/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "37183"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS",
+    "zone_name": "NAME"
+  },
+  "notes": "Town of Apex zoning districts, published by the Town of Apex on ArcGIS Online (Zoning Districts, Zoning_Conditions service). CLASS holds the district code; NAME holds the district name or case reference.",
+  "extent": [
+    -78.96900637246081,
+    35.66478782653308,
+    -78.80221066366413,
+    35.77876920752891
+  ],
+  "verification": {
+    "verified_at": 1792280161204,
+    "counties": [
+      "37183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-oconto-suring",
+  "publisher": "Oconto County GIS (Village of Suring zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://oc17maps.co.oconto.wi.us/arcgis/rest/services/SOLO/OcontoCo_Overlays/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55083"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Suring zoning districts from the Oconto County GIS overlays service; zone is the district code. No zone name or ordinance link in source.",
+  "extent": [
+    -88.39239117415075,
+    44.99168608234152,
+    -88.35606897552809,
+    45.00987444632964
+  ],
+  "verification": {
+    "verified_at": 1792281220901,
+    "counties": [
+      "55083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

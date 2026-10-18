@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-geauga-thompson-township",
+  "publisher": "Geauga County GIS (Thompson Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gcgis.geauga.oh.gov/arcgis/rest/services/Planning/Zoning/FeatureServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39055"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_LABEL",
+    "zone_name": "ZONING"
+  },
+  "notes": "Thompson Township zoning layer from the county Planning/Zoning service; single-jurisdiction layer.",
+  "extent": [
+    -81.10226172475058,
+    41.64146515667748,
+    -81.0026568915124,
+    41.71477193348613
+  ],
+  "verification": {
+    "verified_at": 1792275833951,
+    "counties": [
+      "39055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

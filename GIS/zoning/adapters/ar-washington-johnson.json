@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ar-washington-johnson",
+  "publisher": "City of Johnson, AR (ArcGIS Online layer by NWARPC/cscarlat04)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/JohnsonZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05143"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Description"
+  },
+  "notes": "City of Johnson zoning map adopted 02/11/2020 plus rezonings; 79 polygons; city limits only; Ordinance field holds ordinance number; ScannedDoc links are local file paths, not usable",
+  "extent": [
+    -94.20256212990385,
+    36.1172981115691,
+    -94.14781279056108,
+    36.1497327065875
+  ],
+  "verification": {
+    "verified_at": 1792277295765,
+    "counties": [
+      "05143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

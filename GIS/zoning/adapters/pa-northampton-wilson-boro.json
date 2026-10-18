@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-northampton-wilson-boro",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Wilson Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND MUNICODE = 61",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Wilson Borough by municipality code 61. Zone codes carry a municipal prefix. Link not mapped: the layer holds no ordinance links.",
+  "extent": [
+    -75.25256956019342,
+    40.664606281843504,
+    -75.2313778387202,
+    40.702345053329715
+  ],
+  "verification": {
+    "verified_at": 1792280426003,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

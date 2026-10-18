@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-murrieta",
+  "publisher": "SCAG compiled city zoning (Murrieta)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.scag.ca.gov/scaggis/rest/services/LDX/Zoning_poly_RV/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZN24_CITY"
+  },
+  "filter": "CITY = 'Murrieta'",
+  "notes": "SCAG 2024 compiled city zoning (YEAR_ZN 2024), parcel-level polygons; city codes in ZN24_CITY. No name or ordinance link field.",
+  "extent": [
+    -117.28031055450816,
+    33.51329028213731,
+    -117.11881701936235,
+    33.64144947319248
+  ],
+  "verification": {
+    "verified_at": 1792278323607,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

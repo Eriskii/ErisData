@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "mo-cass-raymore",
+  "publisher": "City of Raymore, MO",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Xl0cAd6WMhA7fHTz/arcgis/rest/services/RaymoreGIS2386_Z/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29037"
+    ]
+  },
+  "fields": {
+    "link": "LINK",
+    "zone": "ZONING_UDO",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "City of Raymore zoning districts (Raymore only); served from the city RaymoreGIS ArcGIS Online org.",
+  "extent": [
+    -94.4994815555717,
+    38.7501155837571,
+    -94.40088457593906,
+    38.8416287543071
+  ],
+  "verification": {
+    "verified_at": 1792279357177,
+    "counties": [
+      "29037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

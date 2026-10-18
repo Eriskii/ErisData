@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-coaldale",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Borough of Coaldale)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/37_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "descrpt"
+  },
+  "notes": "Municipal zoning for Coaldale Borough (MUNIS 37), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -75.98709433775049,
+    40.6764836254946,
+    -75.75766986502919,
+    40.80747467308262
+  ],
+  "verification": {
+    "verified_at": 1792280232732,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

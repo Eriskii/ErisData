@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "pa-northampton-nazareth",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Nazareth Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "link": "Municipal_Website",
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND MUNICODE = 35",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Northampton municipality code 35 = Nazareth Borough. Zone codes carry a municipal prefix. Link field is the municipal website, not the ordinance text.",
+  "extent": [
+    -75.33081367036446,
+    40.73056411393877,
+    -75.29708208322509,
+    40.75208627806442
+  ],
+  "verification": {
+    "verified_at": 1792280236834,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

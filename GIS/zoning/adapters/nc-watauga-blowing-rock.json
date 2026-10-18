@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-watauga-blowing-rock",
+  "publisher": "Town of Blowing Rock (BRPlanner ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/qWbsNTne6eidnUv9/arcgis/rest/services/BlowingRock_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37189"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "Descript"
+  },
+  "notes": "Town of Blowing Rock zoning districts, published by the town planner (BRPlanner). 54 features in layer, 49 with geometry in Watauga. Ordinance link field ZoningOrdinance is sparsely filled, so not mapped.",
+  "extent": [
+    -81.70235940812007,
+    36.11150477587795,
+    -81.64585236206776,
+    36.154411900443094
+  ],
+  "verification": {
+    "verified_at": 1792279910165,
+    "counties": [
+      "37189"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

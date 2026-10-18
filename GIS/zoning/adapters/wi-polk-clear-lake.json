@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-polk-clear-lake",
+  "publisher": "Village of Clear Lake",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/1PZmkk2mSW5b055Q/arcgis/rest/services/ClearLake_Zoning_Public_View/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55095"
+    ]
+  },
+  "fields": {
+    "zone": "Label"
+  },
+  "notes": "Village of Clear Lake zoning public view (ClearLake_Zoning), hosted on village ArcGIS Online org; linked from the village zoning map instant app. Layer has parcel-style attributes (PIN, PARCELID, OWNERNME1); zone from Label. Verify Label holds district codes.",
+  "extent": [
+    -92.28610440266904,
+    45.23787561616233,
+    -92.249664893549,
+    45.28118659402367
+  ],
+  "verification": {
+    "verified_at": 1792281325428,
+    "counties": [
+      "55095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

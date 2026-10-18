@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "id-ammon",
+  "publisher": "City of Ammon (hosted on Bonneville County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.bonnevillecountyidaho.gov/hosted/rest/services/Ammon/COA_PlanningView/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Description"
+  },
+  "notes": "City of Ammon zoning districts, layer Zoning in the COA_PlanningView service on the Bonneville County GIS host (Ammon folder). Ammon city limits only.",
+  "extent": [
+    -111.984422223779,
+    43.43871091801197,
+    -111.89750182434142,
+    43.518569742054446
+  ],
+  "verification": {
+    "verified_at": 1792278060760,
+    "counties": [
+      "16019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "al-jefferson-trussville",
+  "publisher": "Michael Hughes (personal ArcGIS Online copy of City of Trussville zoning)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/XUHAS9qNvO1kgyag/arcgis/rest/services/TrussvilleZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01073"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "Zoning IS NOT NULL",
+  "notes": "Unofficial copy: 2018 ArcGIS Online parcel-level map by an individual (mikehughes) with Jefferson County and City of Trussville data; parcels carry zoning in Zoning. No official queryable Trussville layer found.",
+  "extent": [
+    -86.65258670662894,
+    33.56819347550676,
+    -86.52392547013322,
+    33.72238495927102
+  ],
+  "verification": {
+    "verified_at": 1792277329773,
+    "counties": [
+      "01073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

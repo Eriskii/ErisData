@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-kings-unincorporated",
+  "publisher": "Kings County GIS (Community Development Agency)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/24gLq1DBBzDfd0cZ/arcgis/rest/services/Zoning_2035___Kings_County_copy_test/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "TYPE"
+  },
+  "notes": "Kings County zoning 2035 layer (service named copy_test, on the county own ArcGIS host). Zone = ZONING (2035 code); Zone93 holds the 1993 code. CURRNT_ORD holds the ordinance section. Layer holds Hanford-area polygons too, so check overlap with the Hanford layer before use.",
+  "extent": [
+    -120.31521881978722,
+    35.78880653077416,
+    -119.47443044990676,
+    36.4889442325485
+  ],
+  "verification": {
+    "verified_at": 1792277367811,
+    "counties": [
+      "06031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

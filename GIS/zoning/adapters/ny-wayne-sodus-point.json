@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-wayne-sodus-point",
+  "publisher": "Wayne County GIS (Village of Sodus Point zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.wayne.ny.us/arcgis/rest/services/SodusPoint_Zoning/FeatureServer/70",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36117"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Class",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "Village of Sodus Point zoning, standardized by Wayne County GIS / GTG 2024.",
+  "extent": [
+    -77.01434697210308,
+    43.25106022496123,
+    -76.97000534538967,
+    43.27746081485298
+  ],
+  "verification": {
+    "verified_at": 1792279768212,
+    "counties": [
+      "36117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

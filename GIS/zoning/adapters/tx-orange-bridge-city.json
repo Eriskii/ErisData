@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-orange-bridge-city",
+  "publisher": "City of Bridge City (zoning layer published by Orange County Appraisal District, ocadocad)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/HiTjmoyc4HjgiceA/arcgis/rest/services/CityofBCZoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48361"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneLabel",
+    "zone_name": "ZONE"
+  },
+  "notes": "Bridge City, TX base zoning districts; single-city layer, no jurisdiction field. Hosted on ocadocad (Orange County Appraisal District) ArcGIS org. zone_name holds the district name with code prefix. No ordinance link field filled.",
+  "extent": [
+    -93.8867941779902,
+    30.003439136853945,
+    -93.80909853783496,
+    30.05441699893509
+  ],
+  "verification": {
+    "verified_at": 1792280678665,
+    "counties": [
+      "48361"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

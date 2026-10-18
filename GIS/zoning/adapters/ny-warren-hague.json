@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ny-warren-hague",
+  "publisher": "Warren County GIS (Town of Hague zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Fg3XpDIUTR3JZZES/arcgis/rest/services/Hague_Zoning_view/FeatureServer/171",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36113"
+    ]
+  },
+  "fields": {
+    "link": "ZONE_URL",
+    "zone": "ZONE",
+    "zone_name": "Descr"
+  },
+  "notes": "Town of Hague zoning, created and maintained by Warren County GIS at the direction of the Town of Hague Zoning Office. Single-town layer.",
+  "extent": [
+    -73.64747798636937,
+    43.64519309023969,
+    -73.46380135401911,
+    43.80340629298337
+  ],
+  "verification": {
+    "verified_at": 1792279721261,
+    "counties": [
+      "36113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

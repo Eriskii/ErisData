@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "in-adams-decatur",
+  "publisher": "Adams County GIS (City of Decatur zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://adamsingis.adams.in.us/arcgis/rest/services/Decatur/Zoning/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18001"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Type",
+    "zone_name": "Zoning_Description"
+  },
+  "notes": "Decatur city zoning served from Adams County GIS Decatur/Zoning; layer 4 (named R-1) returns all 319 Decatur district features",
+  "extent": [
+    -84.96518874134516,
+    40.81626328059333,
+    -84.89008443454188,
+    40.84969462857357
+  ],
+  "verification": {
+    "verified_at": 1792278354978,
+    "counties": [
+      "18001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

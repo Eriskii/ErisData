@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-northampton-west-easton",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; West Easton Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND NAME = 'West Easton Borough'",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to West Easton Borough by NAME. Zone codes carry a municipal prefix; taken from ZN_MUNI_CD. Link not mapped: the layer holds no ordinance links.",
+  "extent": [
+    -75.24190551490128,
+    40.66750932941584,
+    -75.2307635965219,
+    40.684450932274466
+  ],
+  "verification": {
+    "verified_at": 1792280502566,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

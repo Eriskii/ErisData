@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-garfield-parachute",
+  "publisher": "Town of Parachute (2024 zoning update, hosted by CPSLLC on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uSdJCyZB78QSJIZf/arcgis/rest/services/Parachute_Zoning_2024_Update/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08045"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DISTRICT"
+  },
+  "filter": "ZONE IS NOT NULL AND ZONE <> ''",
+  "notes": "Parachute 2024 zoning update, parcel layer carrying each parcel zoning in ZONE and DISTRICT; a copy hosted by CPSLLC on ArcGIS Online, not confirmed as the town own service. Parcel-level, last resort, filtered to parcels with a zone; the paraco Proposed 2024 layer is not adopted and was not used.",
+  "extent": [
+    -108.0737458923296,
+    39.42257978656103,
+    -108.01324600081198,
+    39.46722935925478
+  ],
+  "verification": {
+    "verified_at": 1792277532964,
+    "counties": [
+      "08045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

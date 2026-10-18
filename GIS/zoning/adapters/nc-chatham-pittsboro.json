@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nc-chatham-pittsboro",
+  "publisher": "Town of Pittsboro (via Chatham County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisservices.chathamcountync.gov/opendataagol/rest/services/LandUsePlanning/Chatham_PittsboroZoning/MapServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37037"
+    ]
+  },
+  "fields": {
+    "link": "Comments",
+    "zone": "ZoningClassification",
+    "zone_name": "ZoningClassification"
+  },
+  "notes": "Town of Pittsboro zoning districts including the Pittsboro ETJ, hosted by Chatham County GIS (opendataagol). Conditional use attribute in ConditionalUse.",
+  "extent": [
+    -79.25271420941147,
+    35.655878784432495,
+    -79.08468331322922,
+    35.779880976693214
+  ],
+  "verification": {
+    "verified_at": 1792279724791,
+    "counties": [
+      "37037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

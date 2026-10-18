@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-cobb-powder-springs",
+  "publisher": "City of Powder Springs (copy hosted by tgarver7, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/hpvhAmRP1z50gTbO/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13067"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Unofficial: personal ArcGIS Online item by tgarver7 (Powder Springs Zoning, last updated 6/06/2022; layer Zoning_2025, 96 polygons). Used because the city GIS page links no zoning service. Zone holds the district code; no name field.",
+  "extent": [
+    -84.72461402906708,
+    33.83104948877887,
+    -84.63038456813034,
+    33.888989467929136
+  ],
+  "verification": {
+    "verified_at": 1792277998859,
+    "counties": [
+      "13067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

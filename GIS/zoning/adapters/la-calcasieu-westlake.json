@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "la-calcasieu-westlake",
+  "publisher": "City of Westlake (via Calcasieu Parish GIS host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://lak-dc-arcgis2.cppj.net/arcgis/rest/services/DEPTS/Westlake/MapServer/34",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "TYPE"
+  },
+  "notes": "City of Westlake zoning districts, layer Westlake Zoning on the Parish GIS server (lak-dc-arcgis2.cppj.net). CITY field holds the municipality. Source layer spatial reference EPSG:26915.",
+  "extent": [
+    -93.2835461356353,
+    30.23237585915861,
+    -93.22047948649667,
+    30.28624140605713
+  ],
+  "verification": {
+    "verified_at": 1792278734245,
+    "counties": [
+      "22019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

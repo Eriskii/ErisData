@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "mn-wright-stmichael",
+  "publisher": "Wright County GIS (aggregated city zoning, City of St. Michael)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/CiQCvRGImIxsaFnM/arcgis/rest/services/City_Zoning_in_Wright_County/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27171"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Muncipality",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDesc"
+  },
+  "filter": "Muncipality = 'CITY OF SAINT MICHAEL'",
+  "notes": "Wright County GIS layer aggregating parcel-level zoning for the cities in Wright County; filtered to City of Saint Michael.",
+  "extent": [
+    -93.76602613538498,
+    45.15070632209968,
+    -93.55303270994354,
+    45.238432231990686
+  ],
+  "verification": {
+    "verified_at": 1792279363754,
+    "counties": [
+      "27171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

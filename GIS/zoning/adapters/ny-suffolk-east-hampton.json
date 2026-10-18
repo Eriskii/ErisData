@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-suffolk-east-hampton",
+  "publisher": "Town of East Hampton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://eh-gis.ehamptonny.gov/arcgis/rest/services/Basemaps/EHPublicMapLayers/MapServer/28",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36103"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of East Hampton EH Zoning Boundaries (public map layer 28). Zone code only, no name field. Covers the Town of East Hampton; incorporated villages (e.g., East Hampton Village) are not in this layer. Source CRS 2263.",
+  "extent": [
+    -72.28679966491678,
+    40.91730373285248,
+    -71.8545365331367,
+    41.12712948068791
+  ],
+  "verification": {
+    "verified_at": 1792279937877,
+    "counties": [
+      "36103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

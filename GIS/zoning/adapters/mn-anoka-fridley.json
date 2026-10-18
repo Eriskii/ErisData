@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mn-anoka-fridley",
+  "publisher": "City of Fridley GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sv-arcgissql01.ci.fridley.mn.us/arcgis/rest/services/Hosted/Parcels_hosted/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27003"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "Parcel layer (not a district layer) carrying each parcel zoning label in field zoning (e.g. R-1 - One-Family Dwelling District); used as last resort because Fridley publishes no district polygon service (its web map draws zoning from this parcel layer). Zone code and name combined in one field, no ordinance link.",
+  "extent": [
+    -93.29530492630984,
+    45.035473849069106,
+    -93.22717230240043,
+    45.124559650760595
+  ],
+  "verification": {
+    "verified_at": 1792279001016,
+    "counties": [
+      "27003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-chippewa-stanley",
+  "publisher": "City of Stanley (draft layer hosted on ArcGIS Online by an individual, jduan)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VRN2bGr6Ezohdszr/arcgis/rest/services/City_of_Stanley_DRAFT_Zoning_Map_WFL1/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55017"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Dis"
+  },
+  "notes": "Unofficial copy: DRAFT Zoning Map for the City of Stanley dated 2/17/2021 on ArcGIS Online, owned by an individual; the city publishes its official zoning map only as a viewer and PDF (adopted March 15, 2021). Layer is a parcel layer carrying Zoning_Dis per parcel, so it is a last resort. Single jurisdiction (City of Stanley); no zone_name field.",
+  "extent": [
+    -90.97863910033465,
+    44.944356559131016,
+    -90.90081886993897,
+    44.9740647939559
+  ],
+  "verification": {
+    "verified_at": 1792281203355,
+    "counties": [
+      "55017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-fulton-milton",
+  "publisher": "City of Milton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.miltonga.gov/arcgis/rest/services/Zoning/FeatureServer/59",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13121"
+    ]
+  },
+  "fields": {
+    "zone": "ClassAbbr",
+    "zone_name": "Class"
+  },
+  "notes": "City of Milton zoning districts from the city GIS Zoning service (current status filter not applied).",
+  "extent": [
+    -84.396411482763,
+    34.07705320179608,
+    -84.24486425508934,
+    34.18625925408459
+  ],
+  "verification": {
+    "verified_at": 1792277923779,
+    "counties": [
+      "13121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

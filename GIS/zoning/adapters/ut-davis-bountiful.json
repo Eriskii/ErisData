@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-davis-bountiful",
+  "publisher": "Bountiful City (ArcGIS Online, FastorgaBountiful)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/75ZabfWnpfFexe2T/arcgis/rest/services/Bountiful_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "Bountiful City zoning districts; 18 features",
+  "extent": [
+    -111.90220835972454,
+    40.83294207987756,
+    -111.81537641858448,
+    40.910295289390184
+  ],
+  "verification": {
+    "verified_at": 1792280773040,
+    "counties": [
+      "49011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

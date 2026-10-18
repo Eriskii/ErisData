@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-door-town-union",
+  "publisher": "Door County Land Information Office (Town of Union zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.door.wi.us/arcgis/rest/services/Town_of_Union_Zoning/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55029"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning2024"
+  },
+  "notes": "Town of Union own zoning districts (Town of Union Zoning, 2024), served by the county GIS map service; single-town layer, so no jurisdiction field. Zone codes only; no district name field.",
+  "extent": [
+    -87.73649024982923,
+    44.67577465908852,
+    -87.64091573072045,
+    44.76360585012099
+  ],
+  "verification": {
+    "verified_at": 1792281266580,
+    "counties": [
+      "55029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

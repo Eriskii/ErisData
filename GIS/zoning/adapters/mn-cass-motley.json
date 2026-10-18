@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-cass-motley",
+  "publisher": "City of Motley (Cass County GIS Municipalities service)",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://cassweb.casscountymn.gov/arcgis/rest/services/Municipalities/MapServer/33/query?where=1%3D1&outFields=*&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "27021"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Layer 33 of the county Municipalities service, placed after the City of Motley label layer; no pagination support, full query in one request",
+  "verification": {
+    "verified_at": 1792279007099,
+    "counties": [
+      "27021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

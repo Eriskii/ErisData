@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-logan-emden",
+  "publisher": "Logan County GIS (Illinois) - Village of Emden zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/pPTAs43AFhhk0pXQ/arcgis/rest/services/Logan_County_Districts_and_Zoning/FeatureServer/52",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17107"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Emden zoning districts, as published in the Logan County GIS zoning layers (layer 52 of the county Logan_County_Districts_and_Zoning service). Layer covers Emden only.",
+  "extent": [
+    -89.48912601676746,
+    40.29372353791553,
+    -89.48029530368397,
+    40.304745479466035
+  ],
+  "verification": {
+    "verified_at": 1792278127269,
+    "counties": [
+      "17107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

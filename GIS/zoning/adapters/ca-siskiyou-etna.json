@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-siskiyou-etna",
+  "publisher": "California Office of Land Use and Climate Innovation (statewide zoning compilation, City of Etna jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06093"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'SIS' AND Jurisdiction = 'Etna'",
+  "notes": "Statewide zoning compilation (CaliforniaZoning10_17_24_north), filtered to Etna. Jurisdiction field holds city name.",
+  "extent": [
+    -122.90726230600694,
+    41.451623752755694,
+    -122.88185123486528,
+    41.466425692671976
+  ],
+  "verification": {
+    "verified_at": 1792277407120,
+    "counties": [
+      "06093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

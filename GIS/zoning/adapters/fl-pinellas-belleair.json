@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-belleair",
+  "publisher": "Pinellas County GIS (for the Town of Belleair)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_Belleair_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONING"
+  },
+  "notes": "Town of Belleair zoning hosted by Pinellas County GIS; JURISDICTION names the town.",
+  "extent": [
+    -82.8270302724972,
+    27.92262239716191,
+    -82.79983049688224,
+    27.952672994555225
+  ],
+  "verification": {
+    "verified_at": 1792277837887,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

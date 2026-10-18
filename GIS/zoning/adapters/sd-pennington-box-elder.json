@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sd-pennington-box-elder",
+  "publisher": "City of Box Elder (ArcGIS Online organization, zoning dissolve layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/yYNRibtGzPR9oviv/arcgis/rest/services/Zoning_Dissolve_20191015/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46103"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Box Elder zoning, dissolved by zone (2019 snapshot, 430 features). Zone holds district code. Notes field is mostly empty; no description field.",
+  "extent": [
+    -103.15382788952093,
+    44.079234703096006,
+    -102.99616240352748,
+    44.16720003251413
+  ],
+  "verification": {
+    "verified_at": 1792280344065,
+    "counties": [
+      "46103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

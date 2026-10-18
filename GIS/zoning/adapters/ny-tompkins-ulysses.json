@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ny-tompkins-ulysses",
+  "publisher": "Tompkins County GIS (Town of Ulysses zoning, 2019)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/oJbAAWNInLrxvF0A/arcgis/rest/services/UlyssesZoning_2019/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36109"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "Zone",
+    "zone_name": "Zone_"
+  },
+  "notes": "Town of Ulysses zoning districts, 2019 map, hosted by Tompkins County GIS; Zone holds the district code, Zone_ a second code field.",
+  "extent": [
+    -76.69621312625917,
+    42.478018177927176,
+    -76.53268101438795,
+    42.549213896906146
+  ],
+  "verification": {
+    "verified_at": 1792279678673,
+    "counties": [
+      "36109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

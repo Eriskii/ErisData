@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-holladay",
+  "publisher": "Holladay City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/mGvwEqK9FI5j4ecF/arcgis/rest/services/Holladay_Zoning_Map_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49035"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE_DESCR"
+  },
+  "notes": "City of Holladay zoning map, layer zones_Sept2022 on the city-linked ArcGIS account (holladay.maps.arcgis.com; service current as of September 2022). No ordinance link field.",
+  "extent": [
+    -111.85449228983155,
+    40.63048548646328,
+    -111.78642256345098,
+    40.687112101207305
+  ],
+  "verification": {
+    "verified_at": 1792281797992,
+    "counties": [
+      "49035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

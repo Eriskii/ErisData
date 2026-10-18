@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "md-wicomico-pittsville",
+  "publisher": "Maryland Department of Planning (Generalized Zoning 2025, Wicomico County municipalities): Town of Pittsville",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mdpgis.mdp.state.md.us/arcgis/rest/services/PlanningCadastre/Generalized_Zoning_2025/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24045"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "GENZONE"
+  },
+  "filter": "JURSCODE = 'WICO' AND MUNICIPALITY_NAME = 'PITTSVILLE'",
+  "notes": "State generalized zoning 2025: generalized categories (GENZONE), not the town's own district codes. EPSG 26985 source.",
+  "extent": [
+    -75.427639399894,
+    38.38490913288151,
+    -75.38934908720485,
+    38.4072266976123
+  ],
+  "verification": {
+    "verified_at": 1792278860258,
+    "counties": [
+      "24045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

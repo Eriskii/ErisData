@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wa-stevens-kettle-falls",
+  "publisher": "Stevens County GIS (City of Kettle Falls zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stevenscountywa.gov/server/rest/services/Stevens_County_Zoning_Data/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53065"
+    ]
+  },
+  "fields": {
+    "zone": "zonecode",
+    "zone_name": "name"
+  },
+  "notes": "City of Kettle Falls zoning districts from the Stevens County zoning data service (layer 4). Single-city layer.",
+  "extent": [
+    -118.0788246974416,
+    48.595022362739144,
+    -118.04562062466728,
+    48.61464745236445
+  ],
+  "verification": {
+    "verified_at": 1792281050965,
+    "counties": [
+      "53065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

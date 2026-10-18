@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "or-benton-philomath",
+  "publisher": "Oregon DLCD statewide zoning compilation (Philomath portion)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41003"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "unitOwner = '1147639'",
+  "notes": "State DLCD compiled zoning for Philomath (ownerName Philomath, unitOwner 1147639). Codes are DLCD generalized classes (orZCode), not Philomath local codes; Philomath publishes only a PDF zoning map.",
+  "extent": [
+    -123.38396711773258,
+    44.53198858642563,
+    -123.33461467045808,
+    44.5541506028953
+  ],
+  "verification": {
+    "verified_at": 1792280028064,
+    "counties": [
+      "41003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

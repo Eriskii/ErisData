@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-bristol-freetown",
+  "publisher": "Town of Freetown (base zoning hosted by SRPEDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/euKKjtGUuDiy24vy/arcgis/rest/services/Freetown_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Freetown zoning districts, hosted by SRPEDD for the Town. ZONE holds the district code, ZONE_DESC the name. Planned Mixed Use District layer in a separate service, excluded.",
+  "extent": [
+    -71.12059336980376,
+    41.7112873988268,
+    -70.9066910490344,
+    41.81790519242198
+  ],
+  "verification": {
+    "verified_at": 1792279450228,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

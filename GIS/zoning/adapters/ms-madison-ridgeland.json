@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ms-madison-ridgeland",
+  "publisher": "City of Ridgeland, MS (parcel layer with zoning, hosted by CMPDD for Madison County)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Madison_County_Map/FeatureServer/27",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28089"
+    ]
+  },
+  "fields": {
+    "zone": "zone_2025"
+  },
+  "filter": "MUNIC = 'R'",
+  "notes": "Last resort: a parcel layer carrying each parcel zoning code (ZONE_2025) in the county parcel roll hosted by CMPDD; filtered to MUNIC R (Ridgeland). No district polygon layer found for Ridgeland; Ridgeland publishes only a PDF zoning map and a viewer showing parcels.",
+  "extent": [
+    -90.24377069845316,
+    32.39934859344135,
+    -90.06310063071489,
+    32.45917118730113
+  ],
+  "verification": {
+    "verified_at": 1792279302965,
+    "counties": [
+      "28089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

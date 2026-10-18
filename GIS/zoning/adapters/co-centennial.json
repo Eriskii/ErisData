@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-centennial",
+  "publisher": "City of Centennial",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.centennialco.gov/arcgis/rest/services/Planning/Official_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08005"
+    ]
+  },
+  "fields": {
+    "link": "URL_1",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Centennial official zoning districts (last data update 2019 per portal); Centennial lies wholly in Arapahoe County",
+  "extent": [
+    -104.9882255432659,
+    39.565954806880754,
+    -104.72618526193465,
+    39.638416280435926
+  ],
+  "verification": {
+    "verified_at": 1792277669725,
+    "counties": [
+      "08005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

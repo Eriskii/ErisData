@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-buncombe-montreat",
+  "publisher": "Town of Montreat (via Buncombe County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.buncombecounty.org/arcgis/rest/services/bcmapimage2_A/MapServer/19",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37021"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Montreat zoning, published by Buncombe County GIS (bcmapimage2 layer 19, Montreat Zoning).",
+  "extent": [
+    -82.32604311927705,
+    35.63515453115839,
+    -82.27509982722498,
+    35.68481724655577
+  ],
+  "verification": {
+    "verified_at": 1792279730765,
+    "counties": [
+      "37021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

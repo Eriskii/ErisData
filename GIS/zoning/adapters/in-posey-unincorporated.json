@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "in-posey-unincorporated",
+  "publisher": "Posey County Area Plan Commission (PoseyIN_Adds_Zoning service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/jBeGgtzv02uT84fC/arcgis/rest/services/PoseyIN_Adds_Zoning/FeatureServer/2",
+    "page_size": 1995,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18129"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Typ"
+  },
+  "notes": "Posey County unincorporated zoning districts only, from the county permitting system zoning service (same host as the saved Mount Vernon layer). zone is the district code (Zoning_Typ). No jurisdiction field: the whole layer is unincorporated county land.",
+  "extent": [
+    -88.09731688633946,
+    37.77296348655582,
+    -87.68815457850164,
+    38.230383725948535
+  ],
+  "verification": {
+    "verified_at": 1792278299461,
+    "counties": [
+      "18129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

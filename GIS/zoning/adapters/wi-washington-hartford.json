@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-washington-hartford",
+  "publisher": "Washington County GIS (City of Hartford zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.washcowisco.gov/server/rest/services/Zoning/Local_Zoning/MapServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55131"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Hartford zoning districts, served by Washington County GIS (Local_Zoning service). Layer holds only the city of Hartford.",
+  "extent": [
+    -88.43978633008854,
+    43.28771777968963,
+    -88.2987133549841,
+    43.354716017166865
+  ],
+  "verification": {
+    "verified_at": 1792281367549,
+    "counties": [
+      "55131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

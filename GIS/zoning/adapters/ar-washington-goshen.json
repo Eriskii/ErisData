@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ar-washington-goshen",
+  "publisher": "City of Goshen, AR (NWARPC-hosted ArcGIS Online layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/Goshen_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05143"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "cityname",
+    "zone": "zone",
+    "zone_name": "zone_name"
+  },
+  "notes": "City of Goshen zoning districts hosted on NWARPC ArcGIS Online organization; 21 features; cityname holds the municipality name",
+  "extent": [
+    -94.05882875303037,
+    36.07627577271175,
+    -93.95291137279288,
+    36.127177477434536
+  ],
+  "verification": {
+    "verified_at": 1792277391075,
+    "counties": [
+      "05143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

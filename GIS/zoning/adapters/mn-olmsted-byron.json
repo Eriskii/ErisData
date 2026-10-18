@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-olmsted-byron",
+  "publisher": "City of Byron / Olmsted County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gweb01.co.olmsted.mn.us/arcgis/rest/services/Zoning_and_Future_Land_Use/MapServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27109"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning_Description"
+  },
+  "notes": "City of Byron zoning districts, from the Olmsted County zoning MapServer.",
+  "extent": [
+    -92.67780696456013,
+    44.025043529322886,
+    -92.60824311943693,
+    44.05436837275222
+  ],
+  "verification": {
+    "verified_at": 1792279032890,
+    "counties": [
+      "27109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "va-accomack-onancock",
+  "publisher": "Town of Onancock (zoning layer hosted by H&P)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/EgRYg3loxMRTrXjT/arcgis/rest/services/Town_Zoning_SpecialUse_Designation/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51001"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode"
+  },
+  "notes": "Onancock town zoning map (Town of Onancock ArcGIS Online webmap 44976055df5741c3ae5ddb97e6c77201). ZoningDesc is empty in the source, so zone_name is not mapped. Special-use overlay fields SpUseCode/SpUseDesc not mapped.",
+  "verification": {
+    "verified_at": 1792280882762,
+    "counties": [
+      "51001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-fortbend-stafford",
+  "publisher": "City of Stafford, TX (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Ga5PFntoooL0Dlwu/arcgis/rest/services/CoS_ZoningDesignations_11222022/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48157"
+    ]
+  },
+  "fields": {
+    "link": "CODE_LINK",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESCR"
+  },
+  "notes": "City of Stafford zoning designations (updated 4/1/2025). Stafford spans Fort Bend and Harris counties; the layer is city-wide, so features may include Harris County land. Source CRS state plane feet (wkid 102740).",
+  "extent": [
+    -95.59937717362027,
+    29.597754548142532,
+    -95.52557223376226,
+    29.649529563862373
+  ],
+  "verification": {
+    "verified_at": 1792280725790,
+    "counties": [
+      "48157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

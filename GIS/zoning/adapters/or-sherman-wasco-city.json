@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "or-sherman-wasco-city",
+  "publisher": "Oregon DLCD statewide zoning compilation (Oregon Zoning layer, City of Wasco)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41055"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Wasco' AND ownerType = 'City'",
+  "notes": "Statewide DLCD zoning compilation (state GEOHub Oregon Zoning), filtered to the City of Wasco in Sherman County. zone is the state-standardized code (orZCode); localZCode/localZDesc hold the city code where filled. Duplicate polygons per unit may occur. Not in or-sherman, which holds Sherman County, Moro and Grass Valley only.",
+  "extent": [
+    -120.70800626777508,
+    45.5843041317885,
+    -120.68709999805168,
+    45.59891411213171
+  ],
+  "verification": {
+    "verified_at": 1792280094425,
+    "counties": [
+      "41055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

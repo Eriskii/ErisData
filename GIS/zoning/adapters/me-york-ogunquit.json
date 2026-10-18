@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "me-york-ogunquit",
+  "publisher": "Town of Ogunquit, Maine (zoning layer hosted by Southern Maine Planning & Development Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/EDmXP1QjmSmZlvBw/arcgis/rest/services/Zoning_Ogunquit/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23031"
+    ]
+  },
+  "fields": {
+    "zone": "Full_Descr"
+  },
+  "notes": "Ogunquit zoning districts (156 features) on SMPDC ArcGIS services. Full_Descr holds the district description; ShoreZoneA holds shoreland zone designation, not used.",
+  "extent": [
+    -70.65126624333551,
+    43.2292244433392,
+    -70.58129815715968,
+    43.27159855600987
+  ],
+  "verification": {
+    "verified_at": 1792279406691,
+    "counties": [
+      "23031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

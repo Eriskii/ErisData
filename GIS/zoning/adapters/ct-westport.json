@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-westport",
+  "publisher": "Town of Westport (AxisGIS data sync, CAI Technologies)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/lxjwLyi2Sx6yHvMJ/arcgis/rest/services/AxisGISDataSync/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09190"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_"
+  },
+  "notes": "Town of Westport zoning districts, 104 polygons, from the town AxisGIS data sync service (CAI Technologies), the same host family as the saved Danbury layer. Zone name not in the layer. Single-jurisdiction layer.",
+  "extent": [
+    -73.38878839814782,
+    41.08190128725698,
+    -73.29612103783076,
+    41.19481120421493
+  ],
+  "verification": {
+    "verified_at": 1792277626805,
+    "counties": [
+      "09190"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

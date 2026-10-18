@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "pa-juniata-port-royal",
+  "publisher": "Juniata County GIS (Port Royal Borough zoning, from Juniata_Base_Layers)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/ue5fMdTkPeHLCobS/arcgis/rest/services/Juniata_Base_Layers/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42067"
+    ]
+  },
+  "fields": {
+    "zone": "Port_Royal"
+  },
+  "notes": "Port Royal Borough zoning districts only, from the county Juniata_Base_Layers service. Zone code is in the Port_Royal field; no zone name field. Source spatial reference 2272 (PA state plane feet).",
+  "extent": [
+    -77.39880112166806,
+    40.52655302131342,
+    -77.38089379491771,
+    40.54172766920452
+  ],
+  "verification": {
+    "verified_at": 1792280164144,
+    "counties": [
+      "42067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

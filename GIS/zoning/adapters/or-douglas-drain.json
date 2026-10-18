@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-douglas-drain",
+  "publisher": "Oregon DLCD (statewide zoning compilation, City of Drain jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41019"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Drain'",
+  "notes": "State DLCD compilation; ownerName = Drain city. Zone codes are state-standard orZCode values.",
+  "extent": [
+    -123.34096427460165,
+    43.65336218035644,
+    -123.29532827803176,
+    43.68755276498169
+  ],
+  "verification": {
+    "verified_at": 1792280033133,
+    "counties": [
+      "41019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

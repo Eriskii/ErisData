@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-wyoming-bennington",
+  "publisher": "Town of Bennington (Wyoming County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Sq7KUOgahdDkqoAp/arcgis/rest/services/AGOL_Bennington_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36121"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "notes": "Town of Bennington zoning districts, published by Wyoming County GIS organization (jcraigmile_wyco).",
+  "extent": [
+    -78.48795979368963,
+    42.78016692767466,
+    -78.30665979610743,
+    42.87018140060333
+  ],
+  "verification": {
+    "verified_at": 1792279763712,
+    "counties": [
+      "36121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

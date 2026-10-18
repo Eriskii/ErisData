@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-culver-city",
+  "publisher": "City of Culver City (Culver City Zoning layer, city GIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/xgyXRfI5pdpUa96l/arcgis/rest/services/Culver_City_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_"
+  },
+  "notes": "City of Culver City zoning districts. Only the zone code is published, no zone name field.",
+  "extent": [
+    -118.44834217833788,
+    33.97686904471416,
+    -118.36984320715383,
+    34.03493494070794
+  ],
+  "verification": {
+    "verified_at": 1792278300534,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

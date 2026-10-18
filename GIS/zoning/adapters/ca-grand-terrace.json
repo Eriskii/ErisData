@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-grand-terrace",
+  "publisher": "County of San Bernardino (combined zoning layer, City of Grand Terrace slice)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services/Combined_Zoning_Extra_Data/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CODE",
+    "zone_name": "ZONING_DESC"
+  },
+  "filter": "JURISDICTION_NAME = 'CITY OF GRAND TERRACE'",
+  "notes": "County-hosted combined zoning layer (county org), filtered to City of Grand Terrace (165 polygons).",
+  "extent": [
+    -117.33755085973544,
+    34.0182225588848,
+    -117.2908179687565,
+    34.04546356051843
+  ],
+  "verification": {
+    "verified_at": 1792278173756,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

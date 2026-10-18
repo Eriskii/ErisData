@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-dare-southern-shores",
+  "publisher": "Town of Southern Shores (copy by WHaskett, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/jespP4GywVY8PeJe/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37055"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Southern Shores Zoning Data, published 09/01/2023, hosted on ArcGIS Online by user WHaskett (not the town organization); the town zoning map is a PDF and its GIS viewer page returned 404. Only the zone code is mapped; no district name field. Covers the town only.",
+  "extent": [
+    -75.7658592489965,
+    36.09389608934461,
+    -75.70594804455176,
+    36.153242380252024
+  ],
+  "verification": {
+    "verified_at": 1792279868718,
+    "counties": [
+      "37055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

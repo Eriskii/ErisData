@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-jefferson-rutland",
+  "publisher": "Town of Rutland (via DANC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/45",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36045"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Town of Rutland zoning districts from the DANC GIS host (FDC_Special_Districts_Zoning layer 45). Single-jurisdiction layer; PDF_Link not mapped (empty).",
+  "extent": [
+    -75.85836332430932,
+    43.87851921749982,
+    -75.73263278090423,
+    44.030765631772
+  ],
+  "verification": {
+    "verified_at": 1792279821464,
+    "counties": [
+      "36045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-marin-fairfax",
+  "publisher": "Town of Fairfax (via Marin County open data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/T8eS7sop5hLmgRRH/arcgis/rest/services/Zoning_of_Fairfax/FeatureServer/116",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06041"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "GroupLabel"
+  },
+  "notes": "Fairfax town zoning districts published by Marin County open data (services6 host). ZoningDescription is empty in source; GroupLabel carries the district name.",
+  "extent": [
+    -122.6209026029392,
+    37.97269610460144,
+    -122.5791415021068,
+    38.01009917171182
+  ],
+  "verification": {
+    "verified_at": 1792277382372,
+    "counties": [
+      "06041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

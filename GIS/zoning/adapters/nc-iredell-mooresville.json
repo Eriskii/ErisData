@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-iredell-mooresville",
+  "publisher": "Iredell County GIS (Town of Mooresville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.iredellcountync.gov/server/rest/services/Data/Zoning/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37097"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDIC",
+    "zone": "ZONING"
+  },
+  "notes": "Town of Mooresville zoning districts, served by Iredell County GIS (MapServer layer 3, separate from the county layer 0). Not in the saved nc-iredell layer.",
+  "extent": [
+    -80.93415351220794,
+    35.513631730578766,
+    -80.76092905478488,
+    35.64569196130751
+  ],
+  "verification": {
+    "verified_at": 1792279815190,
+    "counties": [
+      "37097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

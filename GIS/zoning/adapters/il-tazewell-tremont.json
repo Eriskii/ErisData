@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-tazewell-tremont",
+  "publisher": "Village of Tremont, IL (zoning map layer hosted by its consultant, keson_CMTengr)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/EC9n6ldkLRcCjwPe/arcgis/rest/services/Tremont_Zoning_Map_WFL1/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17179"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Tremont zoning map layer (Zoning, 1153 polygons). Parcel-based: each polygon is a parcel carrying its zoning code, so it is a fallback, not a district layer; the village posts its zoning map only as PDF. Codes include R-1, R-2, R-3, B-1, B-2, I-1, OF, PA, N-1. Covers Tremont only.",
+  "extent": [
+    -89.50639933349605,
+    40.51442444438473,
+    -89.46646739220115,
+    40.53339555580712
+  ],
+  "verification": {
+    "verified_at": 1792278272455,
+    "counties": [
+      "17179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

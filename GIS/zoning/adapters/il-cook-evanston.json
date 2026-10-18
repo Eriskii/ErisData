@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-cook-evanston",
+  "publisher": "City of Evanston",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.cityofevanston.org/arcgis/rest/services/PropertyBrowser/MapServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17031"
+    ]
+  },
+  "fields": {
+    "link": "Website",
+    "zone": "ZONE_CODE"
+  },
+  "notes": "City of Evanston Zoning Districts layer (PropertyBrowser MapServer). Covers Evanston only; zone code only, no zone name field.",
+  "extent": [
+    -87.73291434079148,
+    42.01889140990361,
+    -87.66449818879529,
+    42.07202773203109
+  ],
+  "verification": {
+    "verified_at": 1792278060419,
+    "counties": [
+      "17031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

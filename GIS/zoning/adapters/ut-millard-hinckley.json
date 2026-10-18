@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-millard-hinckley",
+  "publisher": "Utah AGRC (state) generalized zoning, Hinckley Town",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49027"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county = 'Millard' AND city = 'Hinckley'",
+  "notes": "Utah AGRC statewide generalized municipal zoning; rows for Hinckley only. No ordinance link field populated.",
+  "extent": [
+    -112.69109526892112,
+    39.30860929400462,
+    -112.64920854935204,
+    39.353474954605105
+  ],
+  "verification": {
+    "verified_at": 1792281080624,
+    "counties": [
+      "49027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

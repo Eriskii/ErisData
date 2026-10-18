@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "pa-westmoreland-latrobe",
+  "publisher": "City of Latrobe (draft zoning layer on ArcGIS Online, jmayrolatrobe)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/p2LFC5cqq0eAJPgf/arcgis/rest/services/Latrobe_Zoning_Draft_Correct_Color/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42129"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE"
+  },
+  "notes": "City of Latrobe only. Last resort: a parcel layer (about 3,900 parcels) whose attributes carry each parcel zoning code (ZONINGCODE); ZONEDESC is blank so no zone_name. No separate district polygon layer found. Titled as a draft.",
+  "extent": [
+    -79.40400830045267,
+    40.29188641224189,
+    -79.36513196426306,
+    40.32905319727895
+  ],
+  "verification": {
+    "verified_at": 1792280257808,
+    "counties": [
+      "42129"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

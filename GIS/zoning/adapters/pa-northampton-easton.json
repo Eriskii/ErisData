@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "pa-northampton-easton",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Easton City)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "NAME",
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND NAME = 'Easton City'",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Easton City by NAME. Zone codes carry a municipal prefix. Link field is not mapped.",
+  "extent": [
+    -75.26996907670244,
+    40.64495292030447,
+    -75.1886402109258,
+    40.71706782653192
+  ],
+  "verification": {
+    "verified_at": 1792280320114,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

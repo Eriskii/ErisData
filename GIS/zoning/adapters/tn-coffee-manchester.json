@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tn-coffee-manchester",
+  "publisher": "City of Manchester, TN (zoning layer hosted in Coffee County GIS account, ArcGIS Online item by kpruitt2638)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/PCqaN0DanqMk18pL/arcgis/rest/services/ZONING_Coffee/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47031"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURIS",
+    "zone": "ZONE_"
+  },
+  "filter": "JURIS = 'MANCHESTER'",
+  "notes": "Copy of Coffee and Manchester zoning uploaded to ArcGIS Online by user kpruitt2638 (not verified as official publication); used because the city says its zoning map is not posted online. Layer holds COUNTY and MANCHESTER values in JURIS; filter keeps Manchester only. Zone name field not present.",
+  "extent": [
+    -86.13568670824408,
+    35.410832646202465,
+    -86.0057164932758,
+    35.5148526753358
+  ],
+  "verification": {
+    "verified_at": 1792280384668,
+    "counties": [
+      "47031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

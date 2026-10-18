@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mn-fillmore-chatfield",
+  "publisher": "City of Chatfield (hosted on Olmsted County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gweb01.co.olmsted.mn.us/arcgis/rest/services/Zoning_and_Future_Land_Use/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27045"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Chatfield Zoning layer (26 polygons, codes R1, R2, B1, B2, I1, I2, AG) served from Olmsted County GIS host. Chatfield is mostly in Fillmore County. No zone_name or link field; no jurisdiction field needed since the layer covers only Chatfield.",
+  "extent": [
+    -92.20437343111655,
+    43.829623799564125,
+    -92.1585323229484,
+    43.86173432209607
+  ],
+  "verification": {
+    "verified_at": 1792278979970,
+    "counties": [
+      "27045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

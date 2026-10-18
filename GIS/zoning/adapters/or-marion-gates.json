@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-marion-gates",
+  "publisher": "Oregon DLCD (statewide zoning, Gates records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Gates'",
+  "notes": "Statewide DLCD zoning layer filtered to the City of Gates (ownerName Gates); standardized state zone codes. State copy, not the city own layer.",
+  "extent": [
+    -122.43700355323188,
+    44.7513922782292,
+    -122.40629023182127,
+    44.75937629885364
+  ],
+  "verification": {
+    "verified_at": 1792280307408,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

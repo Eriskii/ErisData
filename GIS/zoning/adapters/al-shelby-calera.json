@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "al-shelby-calera",
+  "publisher": "City of Calera, AL",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/kT3YXKYAyR8joPvc/arcgis/rest/services/Zoning_view/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01117"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningBook",
+    "zone_name": "ZONING_DESC"
+  },
+  "notes": "City of Calera zoning parcels layer (Zoning_view, FeatureServer layer 4), hosted on city ArcGIS org. zone_name is coded domain ZONING_DESC; ZoningBook holds an HTML link to the ordinance page labelled with the district code (e.g. R-1 Zoning). Calera spans Shelby and Chilton counties; the coverage is Shelby portion only if features outside Shelby exist.",
+  "extent": [
+    -86.81254510269159,
+    33.05758384021186,
+    -86.65515778791016,
+    33.19057858192524
+  ],
+  "verification": {
+    "verified_at": 1792277373886,
+    "counties": [
+      "01117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

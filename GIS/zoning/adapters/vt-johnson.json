@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "vt-johnson",
+  "publisher": "Lamoille County Planning Commission",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/aYpp0a2OASkHuYP7/arcgis/rest/services/VTZONING_Johnson_shp/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "50015"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT",
+    "zone_name": "NOTE"
+  },
+  "notes": "Johnson town zoning layer published by Lamoille County Planning Commission (2019). Covers Johnson village form-based code districts (Village Storefront, Village General). Johnson town page says the town currently has no zoning regulations; treat coverage as partial.",
+  "extent": [
+    -72.68801774602332,
+    44.63011516430291,
+    -72.6701896729265,
+    44.63917583059778
+  ],
+  "verification": {
+    "verified_at": 1792280849485,
+    "counties": [
+      "50015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

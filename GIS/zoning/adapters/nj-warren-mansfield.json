@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "nj-warren-mansfield",
+  "publisher": "Warren County Planning Department (NJ)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/4mb1fO9eRe47EZZx/arcgis/rest/services/Warren_County_Zoning/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "zone": "ZONE",
+    "zone_name": "ZONE_DESCR"
+  },
+  "filter": "Municipality = 'Mansfield'",
+  "notes": "Warren County Zoning county-wide buildout-analysis map (22 municipalities); filtered to Mansfield Township. Source is county planning dept, not the township itself.",
+  "extent": [
+    -74.98264368479097,
+    40.751702725693626,
+    -74.82991542991918,
+    40.85806973439504
+  ],
+  "verification": {
+    "verified_at": 1792279581193,
+    "counties": [
+      "34041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

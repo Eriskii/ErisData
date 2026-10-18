@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ms-rankin-richland",
+  "publisher": "City of Richland (via CMPDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Richland_Feature_Layer/FeatureServer/26",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28121"
+    ]
+  },
+  "fields": {
+    "link": "zoningpdf",
+    "zone": "zoning"
+  },
+  "notes": "City of Richland zoning layer, CMPDD-hosted (HTTP only). zoningPDF holds the ordinance or map reference.",
+  "extent": [
+    -90.18745625038748,
+    32.18458960922327,
+    -90.13035846053656,
+    32.28022404959024
+  ],
+  "verification": {
+    "verified_at": 1792279250966,
+    "counties": [
+      "28121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

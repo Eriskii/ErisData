@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-rockland-ramapo",
+  "publisher": "Town of Ramapo, NY (Town GIS, ArcGIS Online account Klatskym@ramapo.org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/KKlYYASk7qBAlR7I/arcgis/rest/services/Town_of_Ramapo_Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36087"
+    ]
+  },
+  "fields": {
+    "zone": "ACAD_TEXT"
+  },
+  "notes": "Town of Ramapo zoning districts, 2017 vintage (94 polygons); no jurisdiction field, all features are Town of Ramapo. Zone code in ACAD_TEXT (e.g. R-40). Published by the Town of Ramapo GIS; no license stated. Verify currency against the Town zoning code (ecode360).",
+  "extent": [
+    -74.2344233932114,
+    41.077202968730454,
+    -74.01853003085448,
+    41.19591325633025
+  ],
+  "verification": {
+    "verified_at": 1792279792251,
+    "counties": [
+      "36087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-allegheny-penn-hills",
+  "publisher": "Municipality of Penn Hills (municipal GIS, PRT base layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/DllnbBENKfts6TQD/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_DES"
+  },
+  "notes": "Penn Hills Municipality zoning districts from the municipality ArcGIS Hub account (PHGateway). Penn Hills only. 220 features. ZONING_TYP field not mapped.",
+  "extent": [
+    -79.89178495184808,
+    40.43701754044869,
+    -79.77598428245213,
+    40.51909636098927
+  ],
+  "verification": {
+    "verified_at": 1792280394608,
+    "counties": [
+      "42003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-middlesex-chester",
+  "publisher": "RiverCOG (Lower Connecticut River Valley Council of Governments)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uH7GnAlGDzMooG4B/arcgis/rest/services/RiverCOG_Regional_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09130"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCRIPT"
+  },
+  "notes": "Town of Chester zoning from RiverCOG regional zoning service; CODE also present",
+  "extent": [
+    -72.53971475795974,
+    41.37635765210579,
+    -72.42496950066234,
+    41.43381191753686
+  ],
+  "verification": {
+    "verified_at": 1792277593440,
+    "counties": [
+      "09130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

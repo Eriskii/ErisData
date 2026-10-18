@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nv-washoe-county",
+  "publisher": "Washoe County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.washoecounty.us/arcgis/rest/services/Accela/AccelaWashoe/MapServer/22",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "RZDESCRIP"
+  },
+  "notes": "Washoe County Zoning, unincorporated Washoe County land only (Reno and Sparks are separate saved layers). Source: Washoe County Accela map service, layer Washoe County Zoning.",
+  "extent": [
+    -120.00647279105996,
+    39.165508226820414,
+    -119.17054423390802,
+    41.99754142643109
+  ],
+  "verification": {
+    "verified_at": 1792279472569,
+    "counties": [
+      "32031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

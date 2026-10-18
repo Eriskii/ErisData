@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ar-harrison-r1",
+  "publisher": "City of Harrison GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/WVavmwsE30Ujoqgb/arcgis/rest/services/HARRISON_FILE_GDB_viewer/FeatureServer/29",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05009"
+    ]
+  },
+  "fields": {
+    "zone": "Label"
+  },
+  "notes": "City of Harrison zoning; the city publishes one layer per district (this is R-1 only), so this spec is partial.",
+  "extent": [
+    -93.14945002179766,
+    36.21169102584152,
+    -93.09140369054276,
+    36.273875511814715
+  ],
+  "verification": {
+    "verified_at": 1792277324269,
+    "counties": [
+      "05009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-schoharie-esperance-village",
+  "publisher": "Village of Esperance (via Schoharie County GIS, VHB)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://spatialags.vhb.com/arcgis/rest/services/20327_Schoharie/NY_County_Schoharie/MapServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36095"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of Esperance zoning district layer from the Schoharie County GIS map service (hosted by VHB for the county).",
+  "extent": [
+    -74.26556398872373,
+    42.7556444316944,
+    -74.25200373805023,
+    42.77375831686816
+  ],
+  "verification": {
+    "verified_at": 1792279662484,
+    "counties": [
+      "36095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

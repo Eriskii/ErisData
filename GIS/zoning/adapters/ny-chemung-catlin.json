@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-chemung-catlin",
+  "publisher": "Town of Catlin / Southern Tier Central Regional Planning (STC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/qO6xd1V1VbSyViir/arcgis/rest/services/Catlin_Town_Map/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36015"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Town of Catlin zoning districts (Zoning2 layer, 2022 zoning map) hosted by STC regional planning GIS. Single-town layer; carries only the zone code, no district name field.",
+  "extent": [
+    -76.96629419840548,
+    42.19918856682288,
+    -76.84602783899257,
+    42.29361847510381
+  ],
+  "verification": {
+    "verified_at": 1792279666799,
+    "counties": [
+      "36015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

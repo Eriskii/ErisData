@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "la-donaldsonville",
+  "publisher": "City of Donaldsonville (Dville1806 ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/uFIdpuYaDoQo9kv0/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22005"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "Type"
+  },
+  "notes": "City of Donaldsonville zoning districts, published by the city via its ArcGIS Online account (linked from donaldsonville-la.gov/map). 2984 polygons; RefName mostly blank. No ordinance link field.",
+  "extent": [
+    -91.01616320248677,
+    30.07009002319337,
+    -90.95898274616411,
+    30.1091711465812
+  ],
+  "verification": {
+    "verified_at": 1792278712881,
+    "counties": [
+      "22005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

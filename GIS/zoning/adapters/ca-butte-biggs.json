@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-butte-biggs",
+  "publisher": "City of Biggs (hosted by CSU Chico Geographic Information Center)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://nspdcwebsrv.csuchico.edu/nspdcarcsrv01/rest/services/City_of_Biggs/BIGGS_WEBMAP_PLANNING/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06007"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Biggs Zoning Designation layer from the city planning MapServer on CSU Chico GIC server. Covers City of Biggs only. No district name field.",
+  "extent": [
+    -121.72572315178832,
+    39.39946595877267,
+    -121.69751055289495,
+    39.42494622884016
+  ],
+  "verification": {
+    "verified_at": 1792277464271,
+    "counties": [
+      "06007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

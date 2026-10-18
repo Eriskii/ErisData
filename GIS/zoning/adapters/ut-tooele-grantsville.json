@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ut-tooele-grantsville",
+  "publisher": "Tooele County GIS (Grantsville City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://tcgisws.tooeleco.gov/server/rest/services/Zoning/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49045"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Grantsville City zoning districts as hosted by Tooele County GIS (layer Zoning_Grantsville, 19 polygons). Grantsville also publishes PDF zoning maps only. No filter needed: layer is Grantsville-only.",
+  "extent": [
+    -112.5632302250627,
+    40.563449161836374,
+    -112.35073191383766,
+    40.694529470689666
+  ],
+  "verification": {
+    "verified_at": 1792280802979,
+    "counties": [
+      "49045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

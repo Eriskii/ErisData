@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-hillsborough-plant-city",
+  "publisher": "City of Plant City (zoning layer served by Hillsborough City-County Planning Commission GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.tpcmaps.org/arcgis/rest/services/pigi/pigiPC/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12057"
+    ]
+  },
+  "fields": {
+    "zone": "PCZONING"
+  },
+  "notes": "City of Plant City zoning districts from the Planning Commission GIS PC Zoning layer (375 polygons). No district name field.",
+  "extent": [
+    -82.18699649269354,
+    27.955928504747177,
+    -82.0556977414103,
+    28.091107434653605
+  ],
+  "verification": {
+    "verified_at": 1792277655194,
+    "counties": [
+      "12057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

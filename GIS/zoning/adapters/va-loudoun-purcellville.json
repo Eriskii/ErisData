@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "va-loudoun-purcellville",
+  "publisher": "Town of Purcellville (hosted by Loudoun County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://logis.loudoun.gov/gis/rest/services/COL/pol_connect/MapServer/26",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "51107"
+    ]
+  },
+  "fields": {
+    "zone": "PV_ZONE"
+  },
+  "notes": "Town of Purcellville base zoning districts, county-hosted layer ZoningPurcellville; covers only the Town of Purcellville. Metadata says the official map is held by the town.",
+  "extent": [
+    -77.73674767657057,
+    39.11850133535704,
+    -77.67868256923654,
+    39.16062941279168
+  ],
+  "verification": {
+    "verified_at": 1792280924547,
+    "counties": [
+      "51107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

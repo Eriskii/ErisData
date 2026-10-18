@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nc-cleveland-boiling-springs",
+  "publisher": "Cleveland County GIS (Town of Boiling Springs zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.clevelandcounty.com/arcgis/rest/services/Planning/Zoning/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37045"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municipality",
+    "zone": "ZoneType_Code",
+    "zone_name": "ZoneType_Desc"
+  },
+  "notes": "Town of Boiling Springs zoning from county Planning/Zoning MapServer layer 9; Municipality value City of Boiling Springs.",
+  "extent": [
+    -81.70351890633563,
+    35.22047064240748,
+    -81.62569847492799,
+    35.287115737404434
+  ],
+  "verification": {
+    "verified_at": 1792279748610,
+    "counties": [
+      "37045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-niagara-niagara-falls",
+  "publisher": "City of Niagara Falls (Zoning Map 2021 layer, ArcGIS Online item by Mariela197)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/qPJc1KWxyGKmi5NZ/arcgis/rest/services/Zoning/FeatureServer/41",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36063"
+    ]
+  },
+  "fields": {
+    "zone": "Code"
+  },
+  "notes": "Official Zoning boundaries, City of Niagara Falls Zoning Map 2021 (NAD83 State Plane WNY). Layer titled Zoning_Map_2021 in the service. 133 features. Zone code only; no district name or ordinance link field. Hosted on an ArcGIS Online org (services3 qPJc1KWxyGKmi5NZ), uploader Mariela197.",
+  "extent": [
+    -79.07552907548654,
+    43.07038565204278,
+    -78.94219687596262,
+    43.13249145201645
+  ],
+  "verification": {
+    "verified_at": 1792279958933,
+    "counties": [
+      "36063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

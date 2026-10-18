@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-union-gap",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), City of Union Gap",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53077"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '077' AND Jurisdiction = 'Union Gap'",
+  "notes": "Washington State Zoning Atlas (Commerce) statewide layer, filtered to City of Union Gap. No per-district ordinance link in the source.",
+  "extent": [
+    -120.55225546778424,
+    46.53166099365822,
+    -120.46448095339922,
+    46.57762713441697
+  ],
+  "verification": {
+    "verified_at": 1792281161449,
+    "counties": [
+      "53077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

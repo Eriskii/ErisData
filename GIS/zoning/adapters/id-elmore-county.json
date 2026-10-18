@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "id-elmore-county",
+  "publisher": "Elmore County, Idaho (layer hosted by Idaho State Tax Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/91hXl6NfvLGEi8x5/arcgis/rest/services/Elmore_Planning_and_Zoning/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16039"
+    ]
+  },
+  "fields": {
+    "zone": "Zoned",
+    "zone_name": "Zn_Code"
+  },
+  "notes": "Elmore County zoning districts (Land_Use layer of the county planning and zoning service), covering unincorporated county land; excludes the cities of Mountain Home and Glenns Ferry. Zoned holds district code such as AG; Zn_Code a short variant. Polygons in Idaho state plane feet (wkid 102605).",
+  "extent": [
+    -116.30401862227346,
+    42.75100234421847,
+    -114.95302105074094,
+    44.101167987686345
+  ],
+  "verification": {
+    "verified_at": 1792278050874,
+    "counties": [
+      "16039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

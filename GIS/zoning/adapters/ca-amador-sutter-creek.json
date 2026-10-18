@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-amador-sutter-creek",
+  "publisher": "City of Sutter Creek (zoning as compiled in the California Statewide Zoning North dataset, State OPR)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'AMA' AND Jurisdiction = 'Sutter Creek'",
+  "notes": "City of Sutter Creek zoning districts from the California Statewide Zoning North compilation (California Office of Land Use and Climate Innovation, version 1.2, 2018 source). Rows filtered to County AMA and Jurisdiction Sutter Creek. Not a city-hosted service; the city publishes zoning as a PDF map (General Plan Figure 3, 2019) and ordinance 373.",
+  "extent": [
+    -120.84028749359696,
+    38.358968045841486,
+    -120.78521572803004,
+    38.40365014549688
+  ],
+  "verification": {
+    "verified_at": 1792277284929,
+    "counties": [
+      "06005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-gulfport",
+  "publisher": "City of Gulfport (ArcGIS Online, Energov viewer layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/PzyKnm4YvKQg5oLs/arcgis/rest/services/Energov1_view/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "zone": "CODE"
+  },
+  "notes": "City of Gulfport zoning (GP_Zoning layer of the city Energov view, city ArcGIS Online organization). Source in Web Mercator; runtime requests lon/lat. Zone names not in source.",
+  "extent": [
+    -82.73044059325156,
+    27.732780700462214,
+    -82.68740013099894,
+    27.76457356224931
+  ],
+  "verification": {
+    "verified_at": 1792278552523,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

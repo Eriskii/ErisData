@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ia-benton-vinton",
+  "publisher": "Vinton, Iowa (zoning as compiled in Iowa State University GIS Facility statewide zoning compilation, Schneider/Beacon GIS source)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19011"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'Vinton'",
+  "notes": "Copy compiled by the ISU GIS Facility, not the city; the city publishes its zoning map only as PDF (cityofvinton.org/maps). Per-record source: Schneider/Beacon GIS. Not official. No per-district ordinance link field.",
+  "extent": [
+    -92.05545834673549,
+    42.144899324251185,
+    -91.99401517042146,
+    42.18111401279171
+  ],
+  "verification": {
+    "verified_at": 1792278430299,
+    "counties": [
+      "19011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

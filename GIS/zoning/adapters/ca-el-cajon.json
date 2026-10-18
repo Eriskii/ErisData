@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-el-cajon",
+  "publisher": "City of El Cajon Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/sNwJsChyrhgtFVFc/arcgis/rest/services/TempPlanningMap/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06073"
+    ]
+  },
+  "fields": {
+    "link": "URLMuniCode",
+    "zone": "Zone",
+    "zone_name": "Zone_Description"
+  },
+  "notes": "City of El Cajon Planning Map, Zoning layer (service TempPlanningMap, city account). Overlay zones and other planning layers excluded.",
+  "extent": [
+    -117.0113087794868,
+    32.7673510397312,
+    -116.89551163098064,
+    32.83177707168425
+  ],
+  "verification": {
+    "verified_at": 1792277520033,
+    "counties": [
+      "06073"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

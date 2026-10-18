@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mn-olmsted-dover",
+  "publisher": "City of Dover / Olmsted County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gweb01.co.olmsted.mn.us/arcgis/rest/services/Zoning_and_Future_Land_Use/MapServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27109"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE"
+  },
+  "notes": "City of Dover zoning districts, from the Olmsted County zoning MapServer. Only zone code is published, no district names.",
+  "extent": [
+    -92.14438341053847,
+    43.95523456187324,
+    -92.1237489309513,
+    43.97722720797616
+  ],
+  "verification": {
+    "verified_at": 1792279037614,
+    "counties": [
+      "27109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

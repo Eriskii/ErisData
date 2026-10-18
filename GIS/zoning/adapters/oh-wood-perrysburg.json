@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-wood-perrysburg",
+  "publisher": "City of Perrysburg, Ohio",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.ci.perrysburg.oh.us/arcgis/rest/services/Hosted/pz_zoningView/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39173"
+    ]
+  },
+  "fields": {
+    "zone": "zoning_des"
+  },
+  "notes": "City of Perrysburg own hosted zoning layer (pz_zoningView). zoning_des holds the district code (e.g. R3); name holds a parcel number. Whole layer is city land.",
+  "extent": [
+    -83.70070476313427,
+    41.49939093843218,
+    -83.58894466694889,
+    41.571718522699435
+  ],
+  "verification": {
+    "verified_at": 1792276439925,
+    "counties": [
+      "39173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

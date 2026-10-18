@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sd-lincoln-lennox",
+  "publisher": "City of Lennox (zoning maintained by Stockwell Engineers, Inc.)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/eabFgBV5QmmUajTB/arcgis/rest/services/Lennox_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46083"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Lennox city zoning served from StockwellGIS ArcGIS org; polygons are parcel-based, each carrying its parcel zoning code in Zoning. No zone description field.",
+  "extent": [
+    -96.91106389103452,
+    43.33022264526437,
+    -96.88033487467953,
+    43.36716627220781
+  ],
+  "verification": {
+    "verified_at": 1792280352270,
+    "counties": [
+      "46083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

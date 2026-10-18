@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-tooele-erda",
+  "publisher": "Tooele County GIS (Erda zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://tcgisws.tooeleco.gov/server/rest/services/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49045"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Descript"
+  },
+  "notes": "Erda township zoning districts as hosted by Tooele County GIS (layer Zoning_Erda, 63 polygons). Layer is Erda-only. No ordinance link field is filled.",
+  "extent": [
+    -112.4192361959329,
+    40.57949684701696,
+    -112.17536532294793,
+    40.659477657978805
+  ],
+  "verification": {
+    "verified_at": 1792280847351,
+    "counties": [
+      "49045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

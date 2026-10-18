@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-jefferson-cambridge",
+  "publisher": "Jefferson County GIS (Village of Cambridge base zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.jeffersoncountywi.gov/arcgis/rest/services/Zoning/Muni_Zoning/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55055"
+    ]
+  },
+  "fields": {
+    "zone": "MUNI_ZONES"
+  },
+  "notes": "Village of Cambridge base zoning from the Jefferson County Muni_Zoning service. MUNI_ZONES holds the district code; no name or ordinance link field published.",
+  "extent": [
+    -89.0127249145543,
+    43.00283031908846,
+    -89.00514682764846,
+    43.0190759014095
+  ],
+  "verification": {
+    "verified_at": 1792281234851,
+    "counties": [
+      "55055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

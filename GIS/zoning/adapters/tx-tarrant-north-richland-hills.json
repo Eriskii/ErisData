@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-tarrant-north-richland-hills",
+  "publisher": "City of North Richland Hills GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://nrhmaps.nrhtx.com/arcgis/rest/services/Tyler/EnerGov/MapServer/32",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48439"
+    ]
+  },
+  "fields": {
+    "zone": "NAME",
+    "zone_name": "DESCR"
+  },
+  "notes": "City of North Richland Hills Zoning layer (EnerGov Tyler service behind the city interactive map). NAME holds the district code; DESCR the description; BASE_ZONE is mostly empty and not used. Public, no key.",
+  "extent": [
+    -97.2645142287384,
+    32.80802393493603,
+    -97.18519731605024,
+    32.9125376220323
+  ],
+  "verification": {
+    "verified_at": 1792281310938,
+    "counties": [
+      "48439"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

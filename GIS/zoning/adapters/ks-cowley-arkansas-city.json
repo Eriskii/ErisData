@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ks-cowley-arkansas-city",
+  "publisher": "City of Arkansas City, Kansas (Planning Department, via ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/duYcbdxVVOdnGdbq/arcgis/rest/services/Zoning_Base_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20035"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClass",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "Arkansas City, KS base zoning districts as shown on the Official Zoning Map; city-only layer, no jurisdiction field. Published by city planning (ksjosh82 account on ArcGIS Online).",
+  "extent": [
+    -97.06792213515747,
+    37.038376677316954,
+    -96.99786318939184,
+    37.1401219283726
+  ],
+  "verification": {
+    "verified_at": 1792278514547,
+    "counties": [
+      "20035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

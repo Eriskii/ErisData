@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "co-sheridan",
+  "publisher": "City of Sheridan (planner_SheridanCO, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/l2tzdU7MS2RitdZd/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08005"
+    ]
+  },
+  "fields": {
+    "link": "CodeLink",
+    "zone": "DISTID",
+    "zone_name": "DISTNAME"
+  },
+  "notes": "No district layer found; this is the City of Sheridan parcel layer whose attributes carry each parcel zoning district (DISTID code, DISTNAME name). Parcel-level zoning used as last resort; polygons are parcels so dissolve by zone for districts. Not all rows have a code; blank DISTID rows are non-zoned or unassigned.",
+  "extent": [
+    -105.0346440311467,
+    39.63159775474604,
+    -105.00066945245388,
+    39.66043694423232
+  ],
+  "verification": {
+    "verified_at": 1792277833849,
+    "counties": [
+      "08005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

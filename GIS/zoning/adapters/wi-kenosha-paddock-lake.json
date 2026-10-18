@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-kenosha-paddock-lake",
+  "publisher": "Village of Paddock Lake (via Kenosha County mapping)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapping.kenoshacountywi.gov/server/rest/services/Interactive_Mapping/Zoning/MapServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55059"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneDist",
+    "zone_name": "DistDesc"
+  },
+  "notes": "Village of Paddock Lake zoning districts, served by Kenosha County GIS (Interactive_Mapping/Zoning layer 8). No ordinance link field is populated.",
+  "extent": [
+    -88.1398007778576,
+    42.549188184734675,
+    -88.06897867917962,
+    42.59104533323837
+  ],
+  "verification": {
+    "verified_at": 1792281206470,
+    "counties": [
+      "55059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

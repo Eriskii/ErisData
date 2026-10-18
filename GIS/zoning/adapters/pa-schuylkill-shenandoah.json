@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-shenandoah",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Borough of Shenandoah)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/62_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "zone": "district",
+    "zone_name": "district_n"
+  },
+  "notes": "Municipal zoning for Shenandoah Borough (MUNIS 62), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.20427745086832,
+    40.70976489597063,
+    -76.1763872765792,
+    40.73250358498737
+  ],
+  "verification": {
+    "verified_at": 1792280246836,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

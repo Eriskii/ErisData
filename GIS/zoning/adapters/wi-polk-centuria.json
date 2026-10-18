@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-polk-centuria",
+  "publisher": "Village of Centuria",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/HnRezsSianI3HrEX/arcgis/rest/services/Zoning_View/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55095"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClass"
+  },
+  "notes": "Village of Centuria zoning of parcels within the village boundary (Zoning_View, updated June 2025), from the village ArcGIS Online organization; one feature per parcel carrying its district in ZoningClass.",
+  "extent": [
+    -92.58066572993674,
+    45.4400807299214,
+    -92.53941688358272,
+    45.459941986054105
+  ],
+  "verification": {
+    "verified_at": 1792281355058,
+    "counties": [
+      "55095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

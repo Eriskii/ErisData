@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-bayfield-city",
+  "publisher": "City of Bayfield, WI (Planning Department, hosted on ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/myp8bDxHJxM0bkMg/arcgis/rest/services/Bayfield_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55007"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "District"
+  },
+  "notes": "City of Bayfield zoning districts (14 polygons), published by the city via ArcGIS Online. Served as Bayfield_Zoning FeatureServer layer 0.",
+  "extent": [
+    -90.8316224604871,
+    46.806170175820455,
+    -90.80787322618062,
+    46.82455419206976
+  ],
+  "verification": {
+    "verified_at": 1792281154785,
+    "counties": [
+      "55007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

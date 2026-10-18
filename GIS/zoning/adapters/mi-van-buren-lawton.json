@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mi-van-buren-lawton",
+  "publisher": "Village of Lawton",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/s4KfofjF9KCSiDKm/arcgis/rest/services/Zoning_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26159"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Village of Lawton zoning, served from the village ArcGIS Online account (linked from the village Zoning Map viewer). Parcel-level layer carrying each parcel zoning in ZONING; 824 features. Owner fields present, not mapped.",
+  "extent": [
+    -85.86233889809408,
+    42.156751459293474,
+    -85.82272403790195,
+    42.18036614726222
+  ],
+  "verification": {
+    "verified_at": 1792275854697,
+    "counties": [
+      "26159"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

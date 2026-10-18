@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-johnson-cleburne",
+  "publisher": "City of Cleburne GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.cleburne.net/arcgis/rest/services/BulkPublish-GISProductionInterim/CommunityZoningDistricts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48251"
+    ]
+  },
+  "fields": {
+    "link": "Hyperlink",
+    "zone": "District",
+    "zone_name": "District"
+  },
+  "notes": "City of Cleburne zoning districts (city limits; Cleburne ETJ is not zoned). Ordinance field holds ordinance reference.",
+  "extent": [
+    -97.54579189519734,
+    32.27830234520205,
+    -97.34628378802101,
+    32.450290813746115
+  ],
+  "verification": {
+    "verified_at": 1792280625670,
+    "counties": [
+      "48251"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

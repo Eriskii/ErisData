@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-menlo-park",
+  "publisher": "City of Menlo Park",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uRrQ0O3z2aaiIWYU/arcgis/rest/services/Menlo_Park_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06081"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Menlo Park base zoning districts. Only the zone code is provided; no name or ordinance link attribute.",
+  "extent": [
+    -122.23095584850824,
+    37.41677440020527,
+    -122.07851817301348,
+    37.534786271894035
+  ],
+  "verification": {
+    "verified_at": 1792277410918,
+    "counties": [
+      "06081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

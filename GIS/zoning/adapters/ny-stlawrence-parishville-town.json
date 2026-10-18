@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-stlawrence-parishville-town",
+  "publisher": "St. Lawrence County / DANC GIS (Town of Parishville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/65",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36089"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Town of Parishville layer from DANC regional zoning service (one layer per municipality). Ordinance links (PDF_Link) not populated, so no link field.",
+  "extent": [
+    -74.96763273587644,
+    44.44957737843242,
+    -74.69517162476896,
+    44.696598731035785
+  ],
+  "verification": {
+    "verified_at": 1792279717251,
+    "counties": [
+      "36089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

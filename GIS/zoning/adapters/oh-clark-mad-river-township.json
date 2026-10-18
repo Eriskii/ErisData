@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-clark-mad-river-township",
+  "publisher": "Clark County, Ohio (county zoning for Mad River Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ago.clarkcountyohio.gov/ccoarcgis/rest/services/BHA/AGS_Clark_Zones/MapServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39023"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWNSHIP",
+    "zone": "ZONING",
+    "zone_name": "ZONINGDESC"
+  },
+  "notes": "Unincorporated Mad River Township zoning districts (TOWNSHIP value Madriver), county-administered; layer of the Clark County AGS_Clark_Zones service.",
+  "extent": [
+    -84.03538656920678,
+    39.824927165622874,
+    -83.85702205766879,
+    39.922407153977154
+  ],
+  "verification": {
+    "verified_at": 1792275616792,
+    "counties": [
+      "39023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

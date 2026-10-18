@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-bristol-mansfield",
+  "publisher": "Town of Mansfield GIS (MansfieldGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/qpT7MgjvrbV0T4gd/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Town of Mansfield zoning districts, published by the Town GIS (ArcGIS Hub Zoning Map, 2024).",
+  "extent": [
+    -71.28843467988267,
+    41.973975544920215,
+    -71.15846593497292,
+    42.0615247439122
+  ],
+  "verification": {
+    "verified_at": 1792279018170,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

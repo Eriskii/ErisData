@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ky-hopkins-hanson",
+  "publisher": "Hopkins County GIS / City of Hanson",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.hopkinscountygis.com:6443/arcgis/rest/services/HansonZoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21107"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Hanson zoning districts, served by Hopkins County GIS. 73 features. Separate subsurface overlay (MapServer/1) excluded.",
+  "extent": [
+    -87.4989545740221,
+    37.405138778931885,
+    -87.45599167160697,
+    37.43389329245637
+  ],
+  "verification": {
+    "verified_at": 1792278692315,
+    "counties": [
+      "21107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

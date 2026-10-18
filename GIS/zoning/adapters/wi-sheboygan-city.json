@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-sheboygan-city",
+  "publisher": "City of Sheboygan Planning and Development (City_Zoning_Data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.sheboyganwi.gov/server/rest/services/City_Zoning_Data/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55117"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "description"
+  },
+  "notes": "City of Sheboygan base zoning districts from the city MapServer; one feature per parcel with zone code. Planned Unit Development overlay is a separate layer (MapServer/0), not used.",
+  "extent": [
+    -87.7646037994612,
+    43.67041736638648,
+    -87.69495745003998,
+    43.797555209404166
+  ],
+  "verification": {
+    "verified_at": 1792281450052,
+    "counties": [
+      "55117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-napa-american-canyon",
+  "publisher": "City of American Canyon (via California Statewide Zoning, Office of Planning and Research)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06055"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'NAP' AND Jurisdiction = 'American Canyon'",
+  "notes": "Jurisdiction-level extract of the California statewide zoning layer (OPR, North). Source REST (county), 2022 q1. Only the American Canyon records are used. Codes are the city abbreviations such as CC for Community Commercial; no ordinance link is in the layer.",
+  "extent": [
+    -122.28392077429923,
+    38.15517372811486,
+    -122.23024407619884,
+    38.208328836126185
+  ],
+  "verification": {
+    "verified_at": 1792277424112,
+    "counties": [
+      "06055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nm-san-juan-bloomfield",
+  "publisher": "City of Bloomfield (served by San Juan County ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Iq7du96UAXAOM1at/arcgis/rest/services/City_of_Bloomfield_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35045"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Parcel-based layer (2855 features, one per parcel, ZONING holds each parcel zoning code); no district name or ordinance link field. Last resort: the city publishes no district polygon layer. Hosted on San Juan County ArcGIS Online organization.",
+  "extent": [
+    -108.01078711701436,
+    36.6860391325624,
+    -107.95186031182816,
+    36.7765272020752
+  ],
+  "verification": {
+    "verified_at": 1792279633482,
+    "counties": [
+      "35045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

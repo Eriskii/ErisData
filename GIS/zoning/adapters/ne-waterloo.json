@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ne-waterloo",
+  "publisher": "Village of Waterloo, Nebraska (via Douglas County GIS / DCGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://dcgis.org/server/rest/services/Hosted/Waterloo_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31055"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "jurisdiction",
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "filter": "jurisdiction = 'WATERLOO'",
+  "notes": "Village of Waterloo zoning, from the DCGIS Waterloo Zoning layer. Rows are parcels carrying each parcel zoning (about 677 rows in the layer, one per parcel); only rows with jurisdiction WATERLOO are used, and the NO CITY county rows are excluded. No ordinance link is populated.",
+  "extent": [
+    -96.31146594045823,
+    41.27729875723426,
+    -96.27594374066784,
+    41.296128385771986
+  ],
+  "verification": {
+    "verified_at": 1792279504073,
+    "counties": [
+      "31055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "co-elbert-simla",
+  "publisher": "Elbert County GIS (Town of Simla zoning)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.elbertcounty-co.gov/data/rest/services/Zoning_of_Simla_Colorado/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08039"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "Town of Simla zoning as hosted by Elbert County GIS; layer metadata marks it not authoritative; county-hosted copy of the town layer. 4 districts.",
+  "extent": [
+    -104.09522145107682,
+    39.13503566019907,
+    -104.06838310177424,
+    39.14654248686755
+  ],
+  "verification": {
+    "verified_at": 1792277433792,
+    "counties": [
+      "08039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

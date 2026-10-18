@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-clinton-wilmington",
+  "publisher": "City of Wilmington, OH (via Clinton County RPC webmap)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/5ML1cxkkvVfOhDrS/arcgis/rest/services/ProposedZoning9/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39027"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Wilmington zoning districts as shown in the Zoning layer of the Clinton County RPC interactive zoning map (clintoncountyrpc.maps.arcgis.com); layer name says Proposed but it is the layer that map uses for Wilmington zoning. 31 district polygons. Zone codes such as DC, DT, TN, SC, LI, GI, MF, RR, PD-1, PD-2. No zone_name field.",
+  "extent": [
+    -83.86988957700248,
+    39.40042897796565,
+    -83.7630557340227,
+    39.46731246986926
+  ],
+  "verification": {
+    "verified_at": 1792275657128,
+    "counties": [
+      "39027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

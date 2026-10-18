@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-buena-park",
+  "publisher": "California Governor's Office of Planning and Research (statewide zoning, South)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_South/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'ORA' AND Jurisdiction = 'Buena Park'",
+  "notes": "State OPR California Statewide Zoning (South), compiled from 535 of 539 jurisdictions, 2024 snapshot. Filtered to Buena Park within County ORA. City Planning MapServer returned HTTP 500 when checked.",
+  "extent": [
+    -118.03725495835604,
+    33.809966031439195,
+    -117.97641599878357,
+    33.89552134038628
+  ],
+  "verification": {
+    "verified_at": 1792277793492,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

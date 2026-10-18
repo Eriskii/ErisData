@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-bell-temple",
+  "publisher": "City of Temple GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgiswap02.ci.temple.tx.us/arcgiswap02/rest/services/Base/Zoning/FeatureServer/19",
+    "page_size": 250,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48027"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE",
+    "zone": "BASE",
+    "zone_name": "BASE"
+  },
+  "notes": "City of Temple Base Zoning layer; BASE holds the base district code (zone_name duplicates the code). Covers city limits only. ORDINANCE holds an ordinance number, not a URL.",
+  "extent": [
+    -97.55756612943632,
+    30.99809171038821,
+    -97.26434194688778,
+    31.20533999208243
+  ],
+  "verification": {
+    "verified_at": 1792280589634,
+    "counties": [
+      "48027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

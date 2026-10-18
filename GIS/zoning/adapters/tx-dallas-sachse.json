@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-dallas-sachse",
+  "publisher": "City of Sachse GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/OSORr24S2Mlvyg30/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48113"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "TYPE"
+  },
+  "notes": "City of Sachse zoning layer (sourced from city interactive web map); hosted on ArcGIS Hub by city account layermanager. Sachse lies mostly in Collin County; this layer holds the Sachse polygons that fall in Dallas County.",
+  "extent": [
+    -96.6136304166017,
+    32.94157592155686,
+    -96.53754166991685,
+    33.004848509703116
+  ],
+  "verification": {
+    "verified_at": 1792281019633,
+    "counties": [
+      "48113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

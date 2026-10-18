@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "in-westfield",
+  "publisher": "City of Westfield Planning & Zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.westfield.in.gov/arcgis/rest/services/CommunityDev/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18057"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Westfield zoning districts (CommunityDev Zoning MapServer layer 1).",
+  "extent": [
+    -86.24187039076381,
+    39.998758541148995,
+    -86.08960620859564,
+    40.10168171126487
+  ],
+  "verification": {
+    "verified_at": 1792278269263,
+    "counties": [
+      "18057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

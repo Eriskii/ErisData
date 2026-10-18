@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nm-belen",
+  "publisher": "City of Belen (zoning layer on city ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/6lSd7MEuTm4psKuX/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35061"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALI",
+    "zone": "zone_name"
+  },
+  "filter": "MUNICIPALI = 'CITY OF BELEN'",
+  "notes": "City of Belen base zoning districts; layer also holds other municipalities, filtered by MUNICIPALI. zone_name holds the district code (MPD, C-1 etc.). Ordinance and Special_Zo fields are empty.",
+  "extent": [
+    -106.85247910939118,
+    34.632941837722605,
+    -106.7402177067134,
+    34.7863952778663
+  ],
+  "verification": {
+    "verified_at": 1792279608470,
+    "counties": [
+      "35061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

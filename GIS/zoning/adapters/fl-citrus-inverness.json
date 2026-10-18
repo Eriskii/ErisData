@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-citrus-inverness",
+  "publisher": "City of Inverness (GIS account GISMFM, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/7tOcoRLUBt73R0wV/arcgis/rest/services/City_of_Inverness_Zoning/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12017"
+    ]
+  },
+  "fields": {
+    "zone": "INV_FLU"
+  },
+  "notes": "Last resort: a parcel layer (PRCLKEY, LOTID, BLOCK) named City of Inverness Zoning, not a district layer. INV_FLU holds combined codes such as LD/R1 and MD/R4 (future land use / zoning); zone is the raw INV_FLU value, not split. All features are Inverness (no jurisdiction field). Owner of the account not confirmed as the city.",
+  "extent": [
+    -82.37101856183826,
+    28.818196679516372,
+    -82.3106300156125,
+    28.873225448754035
+  ],
+  "verification": {
+    "verified_at": 1792277656750,
+    "counties": [
+      "12017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

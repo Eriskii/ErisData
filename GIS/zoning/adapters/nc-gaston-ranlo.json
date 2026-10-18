@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nc-gaston-ranlo",
+  "publisher": "Gaston County GIS (Town of Ranlo zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gastoncountync.gov/publicgis/rest/services/PublicGIS/Zoning/MapServer/20",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "TYPE",
+    "zone_name": "NAME"
+  },
+  "notes": "Town of Ranlo zoning districts served by the Gaston County PublicGIS zoning service; JURISDICTION names the town; ETJ attribute also present",
+  "extent": [
+    -81.14508574586108,
+    35.27609501402137,
+    -81.10559421343872,
+    35.30854661933105
+  ],
+  "verification": {
+    "verified_at": 1792279786339,
+    "counties": [
+      "37071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

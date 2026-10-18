@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "co-summit-silverthorne",
+  "publisher": "Town of Silverthorne",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.silverthorne.org/arcgis/rest/services/Zoning_2020/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08117"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_TYP"
+  },
+  "notes": "Town of Silverthorne zoning districts (2020 layer, 12 polygons); single-town layer, so no jurisdiction field. Null ZONING_TYP on one polygon.",
+  "extent": [
+    -106.11571706791044,
+    39.62403308378402,
+    -106.05998482249746,
+    39.690359993674114
+  ],
+  "verification": {
+    "verified_at": 1792277548224,
+    "counties": [
+      "08117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

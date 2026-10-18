@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-middlesex-burlington",
+  "publisher": "Burlington MA zoning map (ArcGIS Online copy by dodson)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/BGG0OHtiXRaYFSqx/arcgis/rest/services/Burlington_Zoning_Map_WFL1/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25017"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "Zoning_Des"
+  },
+  "notes": "Unofficial copy: ArcGIS Online item by an individual account (dodson), not the Town of Burlington; the town GIS page returned 404. Burlington zoning districts, 504 features. zone from zoning code, zone_name from Zoning_Des.",
+  "extent": [
+    -71.2409062964635,
+    42.46584696108689,
+    -71.16843914254062,
+    42.544497673114186
+  ],
+  "verification": {
+    "verified_at": 1792279261773,
+    "counties": [
+      "25017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

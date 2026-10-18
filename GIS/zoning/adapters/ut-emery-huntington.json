@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "ut-emery-huntington",
+  "publisher": "Utah AGRC (state generalized municipal zoning), Huntington City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county LIKE '%Emery%' AND city = 'Huntington'",
+  "notes": "Utah AGRC statewide generalized zoning layer (state-published compilation of city zoning); filtered to Huntington city. Generalized category in gen_zone.",
+  "extent": [
+    -110.97882660623992,
+    39.3156472648325,
+    -110.94583108757824,
+    39.34320683910556
+  ],
+  "verification": {
+    "verified_at": 1792280852301,
+    "counties": [
+      "49015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

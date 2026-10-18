@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-wood-northwood",
+  "publisher": "City of Northwood, Ohio (copy by logan.dickson on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/wb4Og4gH5mvzQAIV/arcgis/rest/services/Northwood_Data/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39173"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code"
+  },
+  "notes": "Unofficial copy: ArcGIS Online item by logan.dickson (personal account), not the City of Northwood own service; the city publishes its zoning map only as a static PDF. Parcel-level layer (3967 features, parcel and zoning attributes together): each parcel carries Zone_Code, so codes repeat per parcel. Whole layer is city land. Last resort since no official district layer is queryable.",
+  "extent": [
+    -83.55630221579578,
+    41.593616721302,
+    -83.41577709949102,
+    41.619115537481086
+  ],
+  "verification": {
+    "verified_at": 1792276505427,
+    "counties": [
+      "39173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

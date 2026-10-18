@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-brea",
+  "publisher": "Southern California Association of Governments (SCAG), regional planning, 2024 zoning compiled from city zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.scag.ca.gov/scaggis/rest/services/LDX/Zoning_poly_OR/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "zone": "ZN24_CITY",
+    "zone_name": "ZN24_SCAG"
+  },
+  "filter": "CITY = 'Brea'",
+  "notes": "SCAG Local Data Exchange 2024 zoning codes at parcel level (Zoning_poly_OR), filtered to CITY Brea. ZN24_CITY is the city code, ZN24_SCAG the SCAG standardized category.",
+  "extent": [
+    -117.92890620295624,
+    33.60025802736037,
+    -117.77156673479354,
+    33.94863615408677
+  ],
+  "verification": {
+    "verified_at": 1792278156018,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

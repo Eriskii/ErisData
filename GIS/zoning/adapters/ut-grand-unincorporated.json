@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-grand-unincorporated",
+  "publisher": "Grand County, UT (copy hosted by jmurphy_GC on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/0E4njVXbuDRKPlUN/arcgis/rest/services/2021_09_17_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDESC",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "ZONEDESC <> 'MOAB CITY'",
+  "notes": "Personal ArcGIS Online copy (owner jmurphy_GC, 2021-09-17 snapshot) of Grand County unincorporated zoning; no official county service found. Zone descriptions only (no code field); MOAB CITY polygon excluded. Castle Valley town is not in this layer. Use only because no official queryable layer exists.",
+  "extent": [
+    -110.17794555377051,
+    38.49993686768629,
+    -109.05175491238114,
+    39.46212871993173
+  ],
+  "verification": {
+    "verified_at": 1792280760584,
+    "counties": [
+      "49019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

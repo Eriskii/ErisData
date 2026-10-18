@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nh-cheshire-marlborough",
+  "publisher": "Town of Marlborough, NH (SWRPC-maintained Parcel and Zoning Map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/Lh31gHjN8TojXgnP/arcgis/rest/services/Marlborough_Parcel_and_Zoning_Map_1/FeatureServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Town of Marlborough zoning districts layer from the Marlborough Parcel and Zoning Map maintained by Southwest Region Planning Commission (SWRPC) for the town; 56 features; no ordinance link field.",
+  "extent": [
+    -72.23621611468617,
+    42.84457200238264,
+    -72.13743772808337,
+    42.933797621758984
+  ],
+  "verification": {
+    "verified_at": 1792279614350,
+    "counties": [
+      "33005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

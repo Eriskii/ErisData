@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-okanogan-county",
+  "publisher": "Okanogan County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/p1XMcn4KWrkdZVeA/arcgis/rest/services/County_Zoning_2023_01_24/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53047"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "AGENCY1",
+    "zone": "ZONE",
+    "zone_name": "CODE"
+  },
+  "notes": "Okanogan County GIS zoning, amended 2023-01-24; one feature per parcel-level zone polygon; AGENCY1 names the zoning agency",
+  "extent": [
+    -120.885655027182,
+    47.93067990316866,
+    -118.83622625103833,
+    49.00024667116436
+  ],
+  "verification": {
+    "verified_at": 1792281165365,
+    "counties": [
+      "53047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

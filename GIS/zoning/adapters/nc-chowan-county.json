@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-chowan-county",
+  "publisher": "Chowan County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/nJbIFHiSnaX0z0hS/arcgis/rest/services/Chowan_Feature_Service/FeatureServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37041"
+    ]
+  },
+  "fields": {
+    "zone": "LABEL",
+    "zone_name": "ZONE"
+  },
+  "notes": "Chowan County unincorporated zoning districts (County_Zoning layer of the county GIS feature service); 77 polygons. zone is the LABEL code (e.g. RMH-25), zone_name the ZONE description. Covers unincorporated county only; Edenton is a separate layer.",
+  "extent": [
+    -76.72606688030405,
+    36.00442582914797,
+    -76.39946866311891,
+    36.353820341575656
+  ],
+  "verification": {
+    "verified_at": 1792279740600,
+    "counties": [
+      "37041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

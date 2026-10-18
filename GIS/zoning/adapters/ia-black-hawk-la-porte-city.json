@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ia-black-hawk-la-porte-city",
+  "publisher": "City of La Porte City (via Iowa State University GIS Facility statewide zoning compilation)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/XORNS2fPFySPlBgy/arcgis/rest/services/zoning_districts_all_data_v2/FeatureServer/217",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "19013"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "districtNameFull"
+  },
+  "filter": "city = 'La Porte City'",
+  "notes": "Iowa State University GIS Facility statewide compilation; La Porte City polygons carry source City of La Porte City. Filtered to city = La Porte City.",
+  "extent": [
+    -92.20594977353434,
+    42.30098100538982,
+    -92.17649966846615,
+    42.32647149646774
+  ],
+  "verification": {
+    "verified_at": 1792278374118,
+    "counties": [
+      "19013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

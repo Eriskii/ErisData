@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "md-carroll-hampstead",
+  "publisher": "Maryland Department of Planning (Generalized Zoning 2025, Town of Hampstead records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/njFNhDsUCentVYJW/arcgis/rest/services/Generalized_Zoning_2025_Draft/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNICIPALITY_NAME",
+    "zone": "ZONING",
+    "zone_name": "GENZONE"
+  },
+  "filter": "JURSCODE = 'CARR' AND MUNICIPALITY_NAME = 'HAMPSTEAD'",
+  "notes": "State of Maryland Generalized Zoning 2025 (draft) layer, statewide dataset holding local zoning codes in ZONING. Filtered to Carroll County records of Hampstead. No link field.",
+  "extent": [
+    -76.87635906366864,
+    39.58225762649835,
+    -76.83270772155771,
+    39.645449794674605
+  ],
+  "verification": {
+    "verified_at": 1792278845398,
+    "counties": [
+      "24013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

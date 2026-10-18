@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-randolph-high-point",
+  "publisher": "City of High Point GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisentapp01.highpointnc.gov/server/rest/services/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37151"
+    ]
+  },
+  "fields": {
+    "link": "DIST",
+    "zone": "ZONE"
+  },
+  "notes": "City of High Point base zoning districts (city limits; ZONE holds district code). Layer 0 of City of High Point Zoning MapServer on gisentapp01.highpointnc.gov. DIST is the ordinance reference.",
+  "extent": [
+    -80.07398358329863,
+    35.91141451126149,
+    -79.89603066781686,
+    36.09789234315054
+  ],
+  "verification": {
+    "verified_at": 1792279986684,
+    "counties": [
+      "37151"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

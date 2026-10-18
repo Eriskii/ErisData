@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-duplin-beulaville",
+  "publisher": "Duplin County GIS (Town of Beulaville zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.duplinnc.gov/server/rest/services/GISDB/PublicAccessMainGISDB/MapServer/47",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37061"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Town of Beulaville zoning districts, published on the Duplin County GIS public map service (Beulaville Zoning, 115 features). Zone code only.",
+  "extent": [
+    -77.80314065087876,
+    34.902700801870566,
+    -77.74235699032107,
+    34.94329358663453
+  ],
+  "verification": {
+    "verified_at": 1792279800961,
+    "counties": [
+      "37061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

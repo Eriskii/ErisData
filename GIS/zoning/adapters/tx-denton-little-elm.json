@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-denton-little-elm",
+  "publisher": "Town of Little Elm GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/v1tYKyscY0Ed3gpi/arcgis/rest/services/LittleElmZoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48121"
+    ]
+  },
+  "fields": {
+    "link": "Ord_Num",
+    "zone": "Type"
+  },
+  "notes": "Town of Little Elm zoning districts, Town ArcGIS org (LittleElmZoning). Zone from Type; Ord_Num is the creating ordinance number.",
+  "extent": [
+    -96.97747530096217,
+    33.13344045743299,
+    -96.88194842811075,
+    33.24550731736215
+  ],
+  "verification": {
+    "verified_at": 1792280625929,
+    "counties": [
+      "48121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-northampton-northampton-boro",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Northampton Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND MUNICODE = 38",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Northampton Borough by municipality code 38. Zone codes carry a municipal prefix (e.g. 38R-1). Link not mapped: the layer holds no ordinance links.",
+  "extent": [
+    -75.5157662152639,
+    40.66655625399756,
+    -75.47241622316055,
+    40.70443038301626
+  ],
+  "verification": {
+    "verified_at": 1792280421193,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

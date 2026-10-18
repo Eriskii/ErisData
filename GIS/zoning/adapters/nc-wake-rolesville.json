@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-wake-rolesville",
+  "publisher": "Town of Rolesville (via Wake County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.wake.gov/arcgis/rest/services/Planning/Zoning/MapServer/24",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37183"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS"
+  },
+  "notes": "Town of Rolesville zoning districts, served by Wake County GIS. CLASS holds the district code.",
+  "extent": [
+    -78.50751292250672,
+    35.87807463161227,
+    -78.419476482797,
+    35.964283186207936
+  ],
+  "verification": {
+    "verified_at": 1792279983711,
+    "counties": [
+      "37183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

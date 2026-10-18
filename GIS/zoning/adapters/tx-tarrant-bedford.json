@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-tarrant-bedford",
+  "publisher": "City of Bedford GIS (ArcGIS Hub open data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/9GbPfrQRyZbRsXU4/arcgis/rest/services/Zoning/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48439"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Bedford zoning districts from the city open data hub (Zoning layer). zone holds the district code; zone_name the description.",
+  "extent": [
+    -97.16914259544254,
+    32.82165723902814,
+    -97.09957759497551,
+    32.867915504136164
+  ],
+  "verification": {
+    "verified_at": 1792281157580,
+    "counties": [
+      "48439"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-hidalgo-san-juan",
+  "publisher": "City of San Juan GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/yQnVgFvwEiAtmsAU/arcgis/rest/services/COSJ_ZONING_DISTRICTS/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48215"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "City of San Juan zoning districts (city limits), from the city GIS online map (SAN JUAN GIS ONLINE MAP, owner cosjgis). Single-city layer, no jurisdiction field.",
+  "extent": [
+    -98.18565761932629,
+    26.081435108815917,
+    -98.12462976091699,
+    26.252473247002076
+  ],
+  "verification": {
+    "verified_at": 1792280805062,
+    "counties": [
+      "48215"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

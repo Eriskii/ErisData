@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-hampden-chicopee",
+  "publisher": "City of Chicopee (zoning layer hosted by Pioneer Valley Planning Commission, JLUS project)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/JOJ3LXzkOX5MOLCK/arcgis/rest/services/JLUS_Chicopee_Zoning_180409/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25013"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCode",
+    "zone_name": "ZoneAbrev"
+  },
+  "notes": "Chicopee base zoning polygons from a PVPC JLUS study layer (2018 data); 17787 features, possibly parcel-level or fragmented. Zone code in ZoneCode, abbreviation in ZoneAbrev.",
+  "extent": [
+    -72.62952815435911,
+    42.123717448942664,
+    -72.5131177355894,
+    42.21882664320306
+  ],
+  "verification": {
+    "verified_at": 1792278890284,
+    "counties": [
+      "25013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

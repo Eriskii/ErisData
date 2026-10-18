@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-essex-andover",
+  "publisher": "Town of Andover, MA (Andover GIS, ArcGIS Online Zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/lwCBy4rf304Mr16J/arcgis/rest/services/Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDESC",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Town of Andover zoning districts defined by Section 2.0 of Article VIII Zoning By-Law; overlay districts are in layer 0 and are excluded.",
+  "extent": [
+    -71.25618789343497,
+    42.59802116391538,
+    -71.07616710442164,
+    42.701267058266154
+  ],
+  "verification": {
+    "verified_at": 1792278944042,
+    "counties": [
+      "25009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

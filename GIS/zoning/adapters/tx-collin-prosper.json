@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-collin-prosper",
+  "publisher": "Town of Prosper GIS (Data_ProsperTX)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8ofMLzOrtxGP9wVQ/arcgis/rest/services/Planning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48085"
+    ]
+  },
+  "fields": {
+    "link": "ORD1",
+    "zone": "ZONE_",
+    "zone_name": "Zoning_Class"
+  },
+  "notes": "Town of Prosper zoning districts (pMaps Planning layer 0, town limits). ZONE_ holds district code; Zoning_Class the class; PD and SUP are overlays; ORD1/ORD2 are ordinance references. Prosper spans Collin and Denton counties.",
+  "extent": [
+    -96.89806398213847,
+    33.217069306778406,
+    -96.73192951925444,
+    33.26443829692548
+  ],
+  "verification": {
+    "verified_at": 1792280922127,
+    "counties": [
+      "48085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

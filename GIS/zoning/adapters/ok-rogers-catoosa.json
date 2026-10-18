@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ok-rogers-catoosa",
+  "publisher": "City of Catoosa (Catoosa UDC Zoning Map, ArcGIS Online item by city staff)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/nj9ncbfaytLCyS0D/arcgis/rest/services/Catoosa_UDC_Zoning_Map/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40131"
+    ]
+  },
+  "fields": {
+    "zone": "UDCDistrict",
+    "zone_name": "ZoningName"
+  },
+  "notes": "City of Catoosa Unified Development Code zoning map, adopted May 5 2026 (Ordinance 2026-457-C), effective June 4 2026. Catoosa spans Rogers and Wagoner counties; this layer is the city zoning. Ordinance link field blank in source.",
+  "extent": [
+    -95.81677058524167,
+    36.15262804954083,
+    -95.71672556685269,
+    36.21623635273481
+  ],
+  "verification": {
+    "verified_at": 1792280176505,
+    "counties": [
+      "40131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

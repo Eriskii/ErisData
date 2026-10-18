@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "oh-stark-lawrence-township",
+  "publisher": "Stark County Regional Planning Commission (Lawrence Township zoning, community zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgisa.starkcountyohio.gov/arcgis/rest/services/RegionalPlanningCommission/StarkCountyCommunityZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39151"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDescription"
+  },
+  "filter": "CVT = 'Lawrence Township' AND GeneralizedZoneType <> 'No Zoning'",
+  "notes": "Lawrence Township district polygons from the SCRPC community zoning layer (the same filter the township zoning map uses); the countywide generalized layer shows Lawrence as No Zoning. Source layer is a MapServer layer, so geojson may be unsupported; check.",
+  "extent": [
+    -81.64886883244348,
+    40.822251515647714,
+    -81.53654002276092,
+    40.91420121289068
+  ],
+  "verification": {
+    "verified_at": 1792276091593,
+    "counties": [
+      "39151"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

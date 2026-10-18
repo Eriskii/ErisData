@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-galveston-city",
+  "publisher": "City of Galveston GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.galvestontx.gov/server/rest/services/Development_Services/Planning_Development_Data/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48167"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DISTNAME"
+  },
+  "notes": "City of Galveston official Zoning Districts layer (city limits only); overlays are in a separate layer 2 and excluded; no ordinance link field is filled; 493 features",
+  "extent": [
+    -95.12561141502584,
+    29.02419695720544,
+    -94.58005849525505,
+    29.41734223957848
+  ],
+  "verification": {
+    "verified_at": 1792280857246,
+    "counties": [
+      "48167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-wickenburg",
+  "publisher": "Town of Wickenburg GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/MdyCMZnX1raZ7TS3/arcgis/rest/services/Wickenburg/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04013"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Town of Wickenburg zoning districts (town limits), hosted by the town consultant under ArcGIS Online item by jrhoward; CITY field = Wickenburg on every feature",
+  "extent": [
+    -112.83299284422314,
+    33.9320205897052,
+    -112.70226302237168,
+    34.05792160055964
+  ],
+  "verification": {
+    "verified_at": 1792277371072,
+    "counties": [
+      "04013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-yampa",
+  "publisher": "Town of Yampa (Routt County GIS host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/VxFGFP4XeHMTNgVs/arcgis/rest/services/Yampa_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08107"
+    ]
+  },
+  "fields": {
+    "zone": "Abbv_Zone",
+    "zone_name": "ZoneDist"
+  },
+  "notes": "Town of Yampa zoning districts, 7 features, hosted on Routt County GIS ArcGIS Online org.",
+  "extent": [
+    -106.91366355844156,
+    40.14858310805044,
+    -106.90231375777162,
+    40.157799946828455
+  ],
+  "verification": {
+    "verified_at": 1792277494731,
+    "counties": [
+      "08107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

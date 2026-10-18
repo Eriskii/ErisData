@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-grayson-howe",
+  "publisher": "City of Howe, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aDVuwZJfhoSYo0Ie/arcgis/rest/services/Howe_Zoning_gdb/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48181"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "ZONE_TYPE"
+  },
+  "notes": "City of Howe zoning ordinance polygons (Howe Zoning and Annexation Map, City of Howe ArcGIS org). Zone field holds district code; ZONE_TYPE used as name, verify.",
+  "extent": [
+    -96.65019218045248,
+    33.465493875181664,
+    -96.58531640130063,
+    33.538530236280785
+  ],
+  "verification": {
+    "verified_at": 1792280679206,
+    "counties": [
+      "48181"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

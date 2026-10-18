@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-broward-hollywood",
+  "publisher": "City of Hollywood FL GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.hollywoodfl.org/arcgis/rest/services/ZONING/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Hollywood zoning districts (Zoning_Hollywood layer), official city service. City limits only.",
+  "extent": [
+    -80.24840495950524,
+    25.986352401681664,
+    -80.10530722180081,
+    26.093204933345262
+  ],
+  "verification": {
+    "verified_at": 1792277601468,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

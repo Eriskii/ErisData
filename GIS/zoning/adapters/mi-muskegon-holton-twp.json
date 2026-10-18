@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-muskegon-holton-twp",
+  "publisher": "Muskegon County GIS (Holton Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.muskegoncountygis.com/arcgis/rest/services/Zoning_Viewer/Zoning_Viewer/MapServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26121"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "County GIS Zoning_Viewer service; Holton Township base zoning districts (layer 18).",
+  "extent": [
+    -86.15852704007045,
+    43.380564278409736,
+    -86.03902402923167,
+    43.46862807773861
+  ],
+  "verification": {
+    "verified_at": 1792275366041,
+    "counties": [
+      "26121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

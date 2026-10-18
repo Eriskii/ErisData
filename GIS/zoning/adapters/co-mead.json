@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-mead",
+  "publisher": "Town of Mead (InVision hosted view)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/5kW6DD3T9dIb5Pwi/arcgis/rest/services/Mead_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08123"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Mead zoning districts, a view layer published for the Town of Mead by its InVision-hosted GIS account. Mead only.",
+  "extent": [
+    -105.0461331720446,
+    40.172696655091485,
+    -104.93200862191964,
+    40.28796127971828
+  ],
+  "verification": {
+    "verified_at": 1792277653345,
+    "counties": [
+      "08123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

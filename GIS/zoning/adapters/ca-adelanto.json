@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-adelanto",
+  "publisher": "County of San Bernardino (combined incorporated and unincorporated zoning layer, City of Adelanto slice)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services/Combined_Zoning_Extra_Data/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION_NAME",
+    "zone": "ZONING_CODE"
+  },
+  "filter": "JURISDICTION_NAME = 'CITY OF ADELANTO'",
+  "notes": "County-hosted combined zoning layer (county org), filtered to City of Adelanto (109 polygons). Zone names not populated in source.",
+  "extent": [
+    -117.5077160543482,
+    34.50602260872247,
+    -117.35665299737052,
+    34.66076827580427
+  ],
+  "verification": {
+    "verified_at": 1792278066868,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

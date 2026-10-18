@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-caswell-milton",
+  "publisher": "Caswell County GIS (Milton Zoning layer, Town of Milton)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.webgis.net/arcgis/rest/services/NC/Caswell/MapServer/22",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37033"
+    ]
+  },
+  "fields": {
+    "zone": "MiltonZoning"
+  },
+  "notes": "Served by Caswell County GIS (webgis.net) as Milton Zoning layer; covers Town of Milton only; 11 features. Zone field holds district code; no name or ordinance link field. HistoricDistrict is an overlay, not used.",
+  "extent": [
+    -79.21808326704787,
+    36.52802309196598,
+    -79.20037545384764,
+    36.54193104778928
+  ],
+  "verification": {
+    "verified_at": 1792279741715,
+    "counties": [
+      "37033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

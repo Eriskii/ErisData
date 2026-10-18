@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-washington-enterprise",
+  "publisher": "Washington County GIS (City of Enterprise zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://agisprodvm.washco.utah.gov/arcgis/rest/services/Zoning/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49053"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE",
+    "zone_name": "GEN_ZONE"
+  },
+  "notes": "City of Enterprise zoning districts, hosted by Washington County GIS; one jurisdiction per layer (SOURCE holds Enterprise). zone_name is the general category (GEN_ZONE) because DESCRIPTION is null in source.",
+  "extent": [
+    -113.79134252080672,
+    37.546221409915645,
+    -113.69091298957636,
+    37.588296663161195
+  ],
+  "verification": {
+    "verified_at": 1792280874201,
+    "counties": [
+      "49053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

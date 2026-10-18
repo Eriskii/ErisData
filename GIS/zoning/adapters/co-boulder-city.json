@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-boulder-city",
+  "publisher": "City of Boulder GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.bouldercolorado.gov/arcgis/rest/services/plan/EnerGovCssTEST3/MapServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZNDESC"
+  },
+  "notes": "City of Boulder base zoning districts (city limits; Boulder County portion only relevant). Served from a city MapServer whose folder is named EnerGovCssTEST3; 383 features, same count as the city Zoning Districts open-data dataset.",
+  "extent": [
+    -105.30162329851568,
+    39.95669577121868,
+    -105.17800583759886,
+    40.0947054321616
+  ],
+  "verification": {
+    "verified_at": 1792277450839,
+    "counties": [
+      "08013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

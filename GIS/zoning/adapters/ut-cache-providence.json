@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-cache-providence",
+  "publisher": "Cache County GIS (Providence City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/City_Zoning/MapServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city_name",
+    "zone": "zone_code",
+    "zone_name": "zone_type"
+  },
+  "filter": "city_name = 'PROVIDENCE'",
+  "notes": "Providence city zoning from Cache County City_Zoning service, which holds all 19 Cache County cities in one table; the filter selects Providence. density field also present.",
+  "extent": [
+    -111.84433933447345,
+    41.683649252447715,
+    -111.79407307533252,
+    41.72123094054359
+  ],
+  "verification": {
+    "verified_at": 1792280806425,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

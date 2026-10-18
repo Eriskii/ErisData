@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-iredell-love-valley",
+  "publisher": "Iredell County GIS (Town of Love Valley zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.iredellcountync.gov/server/rest/services/Data/Zoning/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37097"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDIC",
+    "zone": "ZONING"
+  },
+  "notes": "Town of Love Valley zoning districts, served by Iredell County GIS (MapServer layer 5, separate from the county layer 0).",
+  "extent": [
+    -81.00333050648321,
+    35.97543645434066,
+    -80.96345646273673,
+    35.99758592840839
+  ],
+  "verification": {
+    "verified_at": 1792279810445,
+    "counties": [
+      "37097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

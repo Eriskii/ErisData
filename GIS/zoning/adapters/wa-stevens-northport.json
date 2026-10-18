@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wa-stevens-northport",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53065"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '065' AND Jurisdiction = 'Northport'",
+  "notes": "Northport zoning from the Washington State Zoning Atlas statewide prototype layer (Commerce), filtered to Stevens County (COUNTYFP 065) and Jurisdiction Northport. Not a Northport-hosted service.",
+  "extent": [
+    -117.79498215078804,
+    48.908778937874466,
+    -117.76718948256014,
+    48.921956791145185
+  ],
+  "verification": {
+    "verified_at": 1792281105984,
+    "counties": [
+      "53065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

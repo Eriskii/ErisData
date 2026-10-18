@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-walton-loganville",
+  "publisher": "City of Loganville, GA (hosted in Walton County development ArcGIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/ftUt0Vfnzfo0Cs96/arcgis/rest/services/Loganville_Zoning/FeatureServer/38",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13297"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Description"
+  },
+  "notes": "Loganville city zoning layer in the shane@choosewalton.com ArcGIS Online account (Walton County development), not the city own account; verify with city if needed. Description is truncated text of the district purpose.",
+  "extent": [
+    -83.91942458890436,
+    33.810775375151145,
+    -83.86083118460868,
+    33.85599663593332
+  ],
+  "verification": {
+    "verified_at": 1792278018470,
+    "counties": [
+      "13297"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

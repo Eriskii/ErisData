@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-gilpin-black-hawk",
+  "publisher": "City of Black Hawk (Interactive GIS Map, hosted by BaselinePlanning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/96knTHuONgWehboZ/arcgis/rest/services/COBH_Interactive_GIS_Map_2025_WFL1/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08047"
+    ]
+  },
+  "fields": {
+    "zone": "Layer",
+    "zone_name": "Layer"
+  },
+  "notes": "City of Black Hawk zoning districts, 65 polygons, published through the city consultant BaselinePlanning. The Layer field holds the district name with its code in parentheses, such as COMMERCIAL BUSINESS SERVICES (CBS); zone_name carries the same full text. No jurisdiction field: the whole layer is Black Hawk.",
+  "extent": [
+    -105.51855076300608,
+    39.78107910202352,
+    -105.47358911806184,
+    39.81925777308059
+  ],
+  "verification": {
+    "verified_at": 1792277442835,
+    "counties": [
+      "08047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

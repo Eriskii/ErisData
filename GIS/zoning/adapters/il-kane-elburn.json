@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-kane-elburn",
+  "publisher": "Village of Elburn (zoning layer behind the village Zoning Map GIS viewer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/fDJ9006FhYQH2oD4/arcgis/rest/services/Elburn_Zoning_Public_view/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17089"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Zoning Districts layer in the Elburn_Zoning_Public view service, which backs the village Zoning Map (GIS) viewer linked from elburn.gov. Zone_Descr is empty so no zone name is mapped. Service owner account is an individual (matteei); parcel-based polygons, some with blank zone (about 17 percent).",
+  "extent": [
+    -88.5085498417429,
+    41.84459349193174,
+    -88.39963598931925,
+    41.92524208675131
+  ],
+  "verification": {
+    "verified_at": 1792278185406,
+    "counties": [
+      "17089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

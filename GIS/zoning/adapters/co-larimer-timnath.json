@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-larimer-timnath",
+  "publisher": "Town of Timnath, CO (Zoning_Dec2025 layer on Timnath ArcGIS Online org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/3YIR96vhqaHuYDYU/arcgis/rest/services/Zoning_and_PD_Overlays/FeatureServer/21",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08069"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "Def"
+  },
+  "notes": "Town of Timnath zoning districts from the town interactive zoning map (Zoning and PD Overlays group). Base zoning polygons; PD overlays are a separate layer and not used. zone_name is the Def (definition) field.",
+  "extent": [
+    -104.9952388625752,
+    40.49170953172738,
+    -104.92665548561584,
+    40.590637946251654
+  ],
+  "verification": {
+    "verified_at": 1792277583643,
+    "counties": [
+      "08069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

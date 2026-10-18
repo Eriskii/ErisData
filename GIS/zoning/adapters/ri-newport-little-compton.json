@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ri-newport-little-compton",
+  "publisher": "Rhode Island Commerce / URI EDC RIGIS (municipal zoning classifications)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/S8zZg9pg23JUEexQ/arcgis/rest/services/RI_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "44005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI_NAME",
+    "zone": "ZONE_CODE",
+    "zone_name": "ZONE_DESC"
+  },
+  "filter": "MUNI_NAME = 'Little Compton'",
+  "notes": "Statewide RI municipal zoning classifications from RIGIS, filtered to the Town of Little Compton. ZONE_CODE is the town district code; ZONE_DESC its description.",
+  "extent": [
+    -71.21229788887725,
+    41.44902390929762,
+    -71.12013525227337,
+    41.56344017366546
+  ],
+  "verification": {
+    "verified_at": 1792280171174,
+    "counties": [
+      "44005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

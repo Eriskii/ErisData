@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-cedar-hills",
+  "publisher": "Utah County GIS (Cedar Hills City Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/43",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CH_LABEL",
+    "zone_name": "ZONE_CH_DESC"
+  },
+  "notes": "Cedar Hills City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 43, 53 features).",
+  "extent": [
+    -111.77346434973296,
+    40.39202304750318,
+    -111.73514134356076,
+    40.43200246398472
+  ],
+  "verification": {
+    "verified_at": 1792280898503,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

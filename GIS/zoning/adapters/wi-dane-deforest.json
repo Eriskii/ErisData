@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-dane-deforest",
+  "publisher": "Village of DeForest (DeForest Zoning_View, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/WjNrL9nk8c1mjZQg/arcgis/rest/services/DeForest_Zoning_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55025"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Village of DeForest zoning districts, 4,740 polygons, published on ArcGIS Online by account blauj5 (owner not confirmed as village staff). Zone code only, no description field. Ordinance year in ORD_YR.",
+  "extent": [
+    -89.40204781525044,
+    43.1761250438224,
+    -89.30819406779202,
+    43.286595035612294
+  ],
+  "verification": {
+    "verified_at": 1792281523986,
+    "counties": [
+      "55025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-sanpete-mayfield",
+  "publisher": "Utah AGRC (state) generalized zoning, Mayfield",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49039"
+    ]
+  },
+  "fields": {
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county LIKE '%Sanpete%' AND city LIKE 'Mayfield%'",
+  "notes": "Utah AGRC statewide generalized zoning layer; Mayfield city features only. No ordinance link published in the source. gen_zone holds the generalized category; source_zone is the city code.",
+  "extent": [
+    -111.72078176158864,
+    39.109176897224515,
+    -111.68516998560378,
+    39.134452108647686
+  ],
+  "verification": {
+    "verified_at": 1792280875524,
+    "counties": [
+      "49039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

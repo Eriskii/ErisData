@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ar-washington-elkins",
+  "publisher": "City of Elkins, AR (NWARPC-hosted ArcGIS Online layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/Elkins_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05143"
+    ]
+  },
+  "fields": {
+    "zone": "zone_type",
+    "zone_name": "zone_desc"
+  },
+  "notes": "City of Elkins zoning districts, city limits only; original field holds ordinance reference; Scanned is a document reference",
+  "extent": [
+    -94.05558385191175,
+    35.98981316499858,
+    -94.00253973897934,
+    36.04270876980351
+  ],
+  "verification": {
+    "verified_at": 1792277360910,
+    "counties": [
+      "05143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

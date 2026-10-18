@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wa-naches",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), Town of Naches",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53077"
+    ]
+  },
+  "fields": {
+    "link": "ReferenceURL",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '077' AND Jurisdiction = 'Naches'",
+  "notes": "Washington State Zoning Atlas (Commerce) statewide layer, filtered to Naches.",
+  "extent": [
+    -120.71088212928146,
+    46.71421985186236,
+    -120.66794736717074,
+    46.73995300943644
+  ],
+  "verification": {
+    "verified_at": 1792281150269,
+    "counties": [
+      "53077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

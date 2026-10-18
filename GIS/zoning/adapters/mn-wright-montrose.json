@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "mn-wright-montrose",
+  "publisher": "Wright County GIS (aggregated city zoning, City of Montrose)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/CiQCvRGImIxsaFnM/arcgis/rest/services/City_Zoning_in_Wright_County/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27171"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Muncipality",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDesc"
+  },
+  "filter": "Muncipality = 'CITY OF MONTROSE'",
+  "notes": "Wright County GIS layer aggregating parcel-level zoning for the cities in Wright County; filtered to City of Montrose. Jurisdiction field spelled Muncipality in source. Lambert projection; runtime requests lon/lat.",
+  "extent": [
+    -93.9416903928773,
+    45.04335255324814,
+    -93.89717292315878,
+    45.08874371660562
+  ],
+  "verification": {
+    "verified_at": 1792279451778,
+    "counties": [
+      "27171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

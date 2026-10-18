@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-cass-pillager",
+  "publisher": "City of Pillager (Cass County GIS Municipalities service)",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://cassweb.casscountymn.gov/arcgis/rest/services/Municipalities/MapServer/35/query?where=1%3D1&outFields=*&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "27021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Pillager zoning layer from Cass County Municipalities service; no pagination support, full query in one request",
+  "verification": {
+    "verified_at": 1792279019582,
+    "counties": [
+      "27021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

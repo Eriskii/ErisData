@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "or-umatilla-pendleton",
+  "publisher": "City of Pendleton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/pi8Rll0S1Iwgkq8o/arcgis/rest/services/ZoningDistrict/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41059"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Pendleton zoning districts layer (60 features), published by the city on its ArcGIS Online organization.",
+  "extent": [
+    -118.89910753671089,
+    45.633489603973594,
+    -118.74420270931697,
+    45.71483257256067
+  ],
+  "verification": {
+    "verified_at": 1792280089034,
+    "counties": [
+      "41059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

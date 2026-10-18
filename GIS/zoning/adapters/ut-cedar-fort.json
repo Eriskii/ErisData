@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-cedar-fort",
+  "publisher": "Utah County GIS (Cedar Fort City Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/42",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_CF_LABEL",
+    "zone_name": "ZONE_CF_DESC"
+  },
+  "notes": "Cedar Fort City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 42, 18 features). Single-jurisdiction layer, no filter needed.",
+  "extent": [
+    -112.15549781882254,
+    40.29786479231269,
+    -112.05938629979433,
+    40.391811403478336
+  ],
+  "verification": {
+    "verified_at": 1792280928238,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

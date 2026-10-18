@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-cook-niles",
+  "publisher": "Village of Niles GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/eKbgg5Yj4kqyKR88/arcgis/rest/services/Zoning_(Public)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Village of Niles Zoning (Public) layer, village ArcGIS org (services3 eKbgg5Yj4kqyKR88). Covers Niles only. Zone code only; no zone name or ordinance field.",
+  "extent": [
+    -87.8553730190772,
+    41.99986870328228,
+    -87.76694697730127,
+    42.06200517697569
+  ],
+  "verification": {
+    "verified_at": 1792278318593,
+    "counties": [
+      "17031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

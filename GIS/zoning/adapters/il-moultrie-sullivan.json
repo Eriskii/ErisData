@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-moultrie-sullivan",
+  "publisher": "City of Sullivan GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://sullivanmaps.com/arcgis/rest/services/SullivanGIS/Zoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17139"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS"
+  },
+  "notes": "City of Sullivan, IL zoning layer from the city GIS (SullivanGIS/Zoning MapServer, layer 2; used in the city Zoning web map). Polygons carry zone code ZONECLASS; ZONEDESC is empty. Parcel-keyed (PIN) polygons, so one per parcel rather than dissolved districts.",
+  "extent": [
+    -88.63270075076618,
+    39.559213449653555,
+    -88.59034349672636,
+    39.610962271293026
+  ],
+  "verification": {
+    "verified_at": 1792278176639,
+    "counties": [
+      "17139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

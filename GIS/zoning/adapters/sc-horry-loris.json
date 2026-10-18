@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sc-horry-loris",
+  "publisher": "City of Loris, SC (via WRCOG)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/GE9ucOFrMIud01KI/arcgis/rest/services/Loris_Zoning_Districts/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "45051"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "City of Loris zoning districts (Loris_Zoning_Districts layer 5), maintained by the regional planning staff for the city; updated 08/2026.",
+  "extent": [
+    -78.92195096563394,
+    34.03823152013446,
+    -78.8550848765127,
+    34.095519223566185
+  ],
+  "verification": {
+    "verified_at": 1792280328226,
+    "counties": [
+      "45051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

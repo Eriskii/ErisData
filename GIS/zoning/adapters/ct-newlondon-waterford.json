@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ct-newlondon-waterford",
+  "publisher": "Town of Waterford (SCCOG sccogMaps regional zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/c8bwOPjaFB6olbad/arcgis/rest/services/Waterford_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09180"
+    ]
+  },
+  "fields": {
+    "link": "FileLink",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Town of Waterford zoning, hosted by SCCOG (sccogMaps) regional GIS; single-town layer (TownName field).",
+  "extent": [
+    -72.21929817689913,
+    41.299211701058105,
+    -72.095382792435,
+    41.42746777825971
+  ],
+  "verification": {
+    "verified_at": 1792277661060,
+    "counties": [
+      "09180"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

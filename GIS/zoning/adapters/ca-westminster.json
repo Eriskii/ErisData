@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-westminster",
+  "publisher": "City of Westminster GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://map.westminster-ca.gov/server/rest/services/Zoning_Map_MIL1/MapServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "ZONEDEF2"
+  },
+  "notes": "City of Westminster official zoning map service (Zoning_Map_MIL1). Base zoning districts.",
+  "extent": [
+    -118.04332390544864,
+    33.720754886356616,
+    -117.94462160164088,
+    33.77402294063793
+  ],
+  "verification": {
+    "verified_at": 1792277491257,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

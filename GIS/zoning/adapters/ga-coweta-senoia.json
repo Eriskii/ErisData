@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-coweta-senoia",
+  "publisher": "City of Senoia (Goodwyn Mills Cawood GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/7ScJ8q0HhcQyXcHe/arcgis/rest/services/sen_ZoningMap/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13077"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zone"
+  },
+  "notes": "City of Senoia zoning; parcel-based layer (2215 parcels) whose Zoning attribute carries each parcel district; no separate district polygon layer found. Zone field also present; check which carries the district code.",
+  "extent": [
+    -84.59220658667545,
+    33.27800186626661,
+    -84.5214591606414,
+    33.34305272972029
+  ],
+  "verification": {
+    "verified_at": 1792278264598,
+    "counties": [
+      "13077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

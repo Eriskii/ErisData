@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ny-albany-new-ravena",
+  "publisher": "Albany County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/mBzcjj7yrA6fBe9F/arcgis/rest/services/AlbanyCountyZoningBoundaries/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municip",
+    "zone": "ZoneAbb",
+    "zone_name": "Zone"
+  },
+  "filter": "Municip = 'Village of New Ravena'",
+  "notes": "Albany County zoning boundaries layer covering all municipalities; filtered to one village per spec.",
+  "extent": [
+    -73.82711450864907,
+    42.46114385081932,
+    -73.79934532398293,
+    42.50254839095274
+  ],
+  "verification": {
+    "verified_at": 1792279666976,
+    "counties": [
+      "36001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

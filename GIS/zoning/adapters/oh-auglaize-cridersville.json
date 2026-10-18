@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-auglaize-cridersville",
+  "publisher": "Auglaize County GIS / Village of Cridersville",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.auglaizecounty.org/arcgis/rest/services/Zoning/Cridersville/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Name",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Village of Cridersville zoning districts; Zone_Name carries the district label; 15 features.",
+  "extent": [
+    -84.16238486397349,
+    40.64248506912519,
+    -84.1266424381429,
+    40.65767636397299
+  ],
+  "verification": {
+    "verified_at": 1792275624550,
+    "counties": [
+      "39011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

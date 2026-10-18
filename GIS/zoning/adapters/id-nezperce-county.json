@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "id-nezperce-county",
+  "publisher": "Nez Perce County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.nezperce.id.us/arcgis/rest/services/Public/Planning/MapServer/16",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16069"
+    ]
+  },
+  "fields": {
+    "zone": "Z_ABBR",
+    "zone_name": "ZONING"
+  },
+  "notes": "Nez Perce County unincorporated zoning districts (county Planning MapServer layer 16, 198 features). Mixed categories: some CITY polygons and Lewiston ACI codes (R1A, MXD-NL) appear. ORD_NUM is an ordinance number, not a URL, so no link is mapped.",
+  "extent": [
+    -117.06927012815024,
+    45.852718624270246,
+    -116.35437244944872,
+    46.63278955458324
+  ],
+  "verification": {
+    "verified_at": 1792278000140,
+    "counties": [
+      "16069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

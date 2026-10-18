@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ny-albany-rensselaerville",
+  "publisher": "Albany County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/mBzcjj7yrA6fBe9F/arcgis/rest/services/AlbanyCountyZoningBoundaries/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municip",
+    "zone": "ZoneAbb",
+    "zone_name": "Zone"
+  },
+  "filter": "Municip = 'Town of Rensselaerville'",
+  "notes": "Albany County zoning boundaries layer covering all municipalities; filtered to one town per spec.",
+  "extent": [
+    -74.2644902939037,
+    42.4067522106742,
+    -74.08998717578504,
+    42.55161291430006
+  ],
+  "verification": {
+    "verified_at": 1792279653126,
+    "counties": [
+      "36001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

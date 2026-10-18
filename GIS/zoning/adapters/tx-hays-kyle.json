@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-hays-kyle",
+  "publisher": "City of Kyle GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofkyle.com/server/rest/services/Location_Check/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48209"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance",
+    "zone": "Z_Code",
+    "zone_name": "Description"
+  },
+  "notes": "City of Kyle Zoning layer from the Location_Check MapServer; polygons are parcel-level, each carrying its zoning code. Ordinance holds the ordinance number. Covers Kyle city limits.",
+  "extent": [
+    -97.97553195643243,
+    29.929806479792205,
+    -97.8034287239596,
+    30.06001414787691
+  ],
+  "verification": {
+    "verified_at": 1792280623758,
+    "counties": [
+      "48209"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

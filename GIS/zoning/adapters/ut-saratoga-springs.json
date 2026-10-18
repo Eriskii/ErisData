@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-saratoga-springs",
+  "publisher": "Saratoga Springs City (via Utah County GIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/59",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_SR_LABEL",
+    "zone_name": "ZONE_SR_DESC"
+  },
+  "notes": "Saratoga Springs City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 59).",
+  "extent": [
+    -111.9785520934738,
+    40.2602993377374,
+    -111.85576247105782,
+    40.41699796961256
+  ],
+  "verification": {
+    "verified_at": 1792280835821,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

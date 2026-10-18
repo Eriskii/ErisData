@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-fayetteville",
+  "publisher": "City of Fayetteville GA GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/cYdGvS3rAv77unWU/arcgis/rest/services/City_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13113"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Fayetteville Official Zoning Map, City_Zoning layer (ArcGIS Online org of the city). Parcel-level polygons carrying each parcel zoning in ZONING; city limits only. Main Street overlay layer not used.",
+  "extent": [
+    -84.53598582680695,
+    33.41262633548423,
+    -84.42114923728063,
+    33.5012771722698
+  ],
+  "verification": {
+    "verified_at": 1792277865672,
+    "counties": [
+      "13113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

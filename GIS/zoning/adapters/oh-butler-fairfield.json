@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-butler-fairfield",
+  "publisher": "City of Fairfield, Ohio (IT-GIS / Planning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.fairfield-city.org/cofgis/rest/services/PlaningZoning2021/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Fairfield zoning districts (2021 planning layer). Check attribute names in report.",
+  "extent": [
+    -84.63192550507154,
+    39.29913562057337,
+    -84.47631190163976,
+    39.3677888078891
+  ],
+  "verification": {
+    "verified_at": 1792275674453,
+    "counties": [
+      "39017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

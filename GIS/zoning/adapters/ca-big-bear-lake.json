@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-big-bear-lake",
+  "publisher": "City of Big Bear Lake",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/safmkHh6IfIYbpgO/arcgis/rest/services/Zoning_2023_v2/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING_LABEL"
+  },
+  "notes": "City of Big Bear Lake zoning districts (city ArcGIS account), 2023 version.",
+  "extent": [
+    -116.962452286572,
+    34.2239919080341,
+    -116.76968440103497,
+    34.27099994773897
+  ],
+  "verification": {
+    "verified_at": 1792277626197,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

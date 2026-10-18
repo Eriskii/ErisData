@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ne-dodge-county",
+  "publisher": "Dodge County GIS (gWorks)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserver01.gworks.com/arcgis/rest/services/Dodge_County_NE_PZ/MapServer/9",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "31053"
+    ]
+  },
+  "fields": {
+    "zone": "Label",
+    "zone_name": "Layer"
+  },
+  "notes": "Dodge County unincorporated county zoning districts (County Zoning layer of the county PZ service); 35 polygons. Covers unincorporated land only, not the incorporated cities.",
+  "extent": [
+    -96.90641352674814,
+    41.39289990091762,
+    -96.32376152899106,
+    41.74271059332513
+  ],
+  "verification": {
+    "verified_at": 1792279440811,
+    "counties": [
+      "31053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

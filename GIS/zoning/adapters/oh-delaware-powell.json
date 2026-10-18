@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-delaware-powell",
+  "publisher": "City of Powell, Ohio (parcel zoning layer on powellplanning ArcGIS Online account)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/WtnoqHd1LxUAVbvU/arcgis/rest/services/Proposed_Powell_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39041"
+    ]
+  },
+  "fields": {
+    "zone": "Zon_District"
+  },
+  "notes": "Last resort: parcel layer (5852 parcels) joining current zoning to proposed zoning from a planning consultant; zone is the current district code in Zon_District (New_Zoning holds the proposed code and is not used). Copy hosted on powellplanning ArcGIS Online account, not the city GIS; city page links zoning code only.",
+  "extent": [
+    -83.11872623543735,
+    40.140485902884414,
+    -83.04256680103934,
+    40.200653590130464
+  ],
+  "verification": {
+    "verified_at": 1792275778599,
+    "counties": [
+      "39041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

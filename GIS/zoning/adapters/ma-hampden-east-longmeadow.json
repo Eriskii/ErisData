@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-hampden-east-longmeadow",
+  "publisher": "Town of East Longmeadow GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.eastlongmeadowma.gov/arcgis/rest/services/OpenGov/MapServer/91",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25013"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneCodeText"
+  },
+  "notes": "Town of East Longmeadow ArcGIS Zoning layer (OpenGov MapServer 91), 606 polygons; zone code in ZoneCodeText, numeric ZoneCode also present. No zone name field.",
+  "extent": [
+    -72.53968292800784,
+    42.03421407696922,
+    -72.45829040192626,
+    42.08972180571366
+  ],
+  "verification": {
+    "verified_at": 1792279035262,
+    "counties": [
+      "25013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

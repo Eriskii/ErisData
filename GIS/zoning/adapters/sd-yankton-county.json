@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sd-yankton-county",
+  "publisher": "Yankton County GIS (via Planning and Development District III / county staff)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Iz7mflZV1DVFSE2G/arcgis/rest/services/ZONING_DISTRICTS/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46135"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Yankton County zoning districts (107 polygons), unincorporated county land; hosted by Yankton County (Harry Redman, YCOEM service account). Zone names not in layer.",
+  "extent": [
+    -97.6532451879844,
+    42.7994387525436,
+    -97.14095039375202,
+    43.1822979104829
+  ],
+  "verification": {
+    "verified_at": 1792280343877,
+    "counties": [
+      "46135"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

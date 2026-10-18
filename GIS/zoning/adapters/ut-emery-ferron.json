@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "ut-emery-ferron",
+  "publisher": "Utah AGRC (state generalized municipal zoning), Ferron City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county LIKE '%Emery%' AND city = 'Ferron'",
+  "notes": "Utah AGRC statewide generalized zoning layer (state-published compilation of city zoning); filtered to Ferron city. Generalized category in gen_zone.",
+  "extent": [
+    -111.15261508627708,
+    39.063049042772406,
+    -111.10622901738353,
+    39.11601580303298
+  ],
+  "verification": {
+    "verified_at": 1792280858254,
+    "counties": [
+      "49015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

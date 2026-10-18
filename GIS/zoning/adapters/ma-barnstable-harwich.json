@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-barnstable-harwich",
+  "publisher": "Cape Cod Commission (for Town of Harwich)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-services.capecodcommission.org/arcgis/rest/services/ePermit/ePermit_Harwich/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "PRIM_USE"
+  },
+  "notes": "Town of Harwich zoning districts, served by the Cape Cod Commission ePermit service; 39 features; town-only layer",
+  "extent": [
+    -70.13504989302825,
+    41.65342159101048,
+    -69.99172150798182,
+    41.73082226289656
+  ],
+  "verification": {
+    "verified_at": 1792279000812,
+    "counties": [
+      "25001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

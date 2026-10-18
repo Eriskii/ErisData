@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-box-elder-bear-river-city",
+  "publisher": "Bear River City (via consultant ArcGIS host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/QdlehUncXjEmQYtI/arcgis/rest/services/BRV_PLPZ_Zoning/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49003"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Description"
+  },
+  "notes": "Bear River City Zoning layer (6 polygons) hosted on the city consultant ArcGIS Online organization. Zone_Code is the district code; ZONE holds a related label.",
+  "extent": [
+    -112.13500223399797,
+    41.59035199153982,
+    -112.111520227726,
+    41.62544851071698
+  ],
+  "verification": {
+    "verified_at": 1792280779084,
+    "counties": [
+      "49003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

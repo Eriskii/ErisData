@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mi-wayne-taylor",
+  "publisher": "City of Taylor, Michigan GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityoftaylor.com/server/rest/services/Planning/Zoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26163"
+    ]
+  },
+  "fields": {
+    "zone": "PrimaryZone"
+  },
+  "notes": "City of Taylor official GIS server (Planning/Zoning MapServer). Layer 2 Zoning Label: polygon zoning districts with PrimaryZone and SecondarZone. Layer 3 (Zoning) is parcel-level (24140 features) and not used.",
+  "extent": [
+    -83.31022559890847,
+    42.180701764597416,
+    -83.22684375916798,
+    42.27045720943268
+  ],
+  "verification": {
+    "verified_at": 1792275582949,
+    "counties": [
+      "26163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

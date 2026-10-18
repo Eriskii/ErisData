@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "md-worcester-snow-hill",
+  "publisher": "Town of Snow Hill, Maryland (GIS via Eastern Shore Regional GIS Cooperative)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/X3lKekbdaBmNjCHu/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24047"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "DESCTOWN",
+    "zone": "ZONING_1"
+  },
+  "filter": "DESCTOWN = 'WORC Snow Hill'",
+  "notes": "Town of Snow Hill zoning districts from ESRGCoop-hosted layer (Zoning_Districts, Town Code Description). Parcel-based polygons carrying zoning; only Snow Hill rows used.",
+  "extent": [
+    -75.40574671206257,
+    38.15254420724041,
+    -75.37563706185928,
+    38.18852182319218
+  ],
+  "verification": {
+    "verified_at": 1792278840106,
+    "counties": [
+      "24047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

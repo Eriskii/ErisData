@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-butler-liberty-twp",
+  "publisher": "Liberty Township, Butler County, Ohio (personal ArcGIS Online copy by bbehrmann)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/5SXgkhfkO6lvDdCE/arcgis/rest/services/LibertyZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Unofficial copy: Liberty Township zoning classifications uploaded to ArcGIS Online by an individual (bbehrmann); no township server found. Liberty publishes its zoning map only as a reference PDF in its Map Room. ZONING holds district code.",
+  "extent": [
+    -84.480180160672,
+    39.36591737157257,
+    -84.34024729008024,
+    39.43558794218384
+  ],
+  "verification": {
+    "verified_at": 1792275727763,
+    "counties": [
+      "39017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

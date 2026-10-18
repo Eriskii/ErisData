@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-tazewell-washington",
+  "publisher": "City of Washington, IL (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/KvhR4yxUNNPvtbwc/arcgis/rest/services/Zoning_PublicView/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17179"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Washington zoning districts, layer Zoning in Zoning_PublicView. Zoning holds coded values (domain LR_Zoning_1): 1 AG-1 (Agriculture), 2 CE (Country Estates), 3 R-1A (Single Family Residential), 4 R-1 (1 and 2 Family Residential), 5 R-2 (Multifamily Residential), 6 C-1 (Local Retail), 7 C-2 (General Retail), 8 C-3 (Service Retail), 9 I-1 (Light Industrial), 10 I-2 (Heavy Industrial). Covers the city of Washington only.",
+  "extent": [
+    -89.48393720942491,
+    40.67470905441057,
+    -89.3728110245822,
+    40.73502745711625
+  ],
+  "verification": {
+    "verified_at": 1792278239249,
+    "counties": [
+      "17179"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

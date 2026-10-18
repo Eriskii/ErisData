@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-mendocino-willits",
+  "publisher": "City of Willits (Planwest Partners, GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/dTrQ9byAhii6tVQ2/arcgis/rest/services/Willits_GPLU_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06045"
+    ]
+  },
+  "fields": {
+    "zone": "Primary_LU",
+    "zone_name": "LU_Desc"
+  },
+  "notes": "City of Willits zoning/general plan layer hosted by Planwest Partners; Primary_LU holds the land use designation code",
+  "extent": [
+    -123.3744587376156,
+    39.36968478885249,
+    -123.29794601017166,
+    39.45646103865903
+  ],
+  "verification": {
+    "verified_at": 1792277320817,
+    "counties": [
+      "06045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

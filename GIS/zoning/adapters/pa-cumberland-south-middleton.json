@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-south-middleton",
+  "publisher": "Cumberland County Planning Department (South Middleton Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/27",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "South Middleton Township zoning layer from the county GIS Zoning_Basemap service; digitized by the county from municipal paper maps, may not be the official adopted maps.",
+  "extent": [
+    -77.24829337205672,
+    40.03705811384849,
+    -77.07951044756621,
+    40.20068245761282
+  ],
+  "verification": {
+    "verified_at": 1792280092401,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

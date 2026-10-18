@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-clinton-schuyler-falls",
+  "publisher": "Town of Schuyler Falls (copy on ArcGIS Online by CutterL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/33FPYaVQYNa7sFJ5/arcgis/rest/services/Clinton_County_Zoning_WFL1/FeatureServer/13",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36019"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Copy hosted on ArcGIS Online by CutterL (personal item), not an official town service; one layer of the Clinton County zoning compilation, covers Town of Schuyler Falls only.",
+  "extent": [
+    -73.66200829526349,
+    44.61561322978059,
+    -73.49510355500412,
+    44.705884241434035
+  ],
+  "verification": {
+    "verified_at": 1792279574189,
+    "counties": [
+      "36019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

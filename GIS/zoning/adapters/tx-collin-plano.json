@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-collin-plano",
+  "publisher": "City of Plano GIS (Map It Plano)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://maps.planogis.org/arcgiswad/rest/services/OpenData/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48085"
+    ]
+  },
+  "fields": {
+    "zone": "ZN",
+    "zone_name": "IMS_ZONE"
+  },
+  "notes": "City of Plano base zoning districts (Open Data Zoning layer, city limits). ZN holds district code; IMS_ZONE the description; PD holds planned development number. Plano spans Collin and Denton counties.",
+  "extent": [
+    -96.86081844272972,
+    32.996414263927896,
+    -96.61061185068588,
+    33.127019955254234
+  ],
+  "verification": {
+    "verified_at": 1792280873772,
+    "counties": [
+      "48085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

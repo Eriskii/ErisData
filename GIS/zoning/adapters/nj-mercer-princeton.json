@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nj-mercer-princeton",
+  "publisher": "Municipality of Princeton (Princeton Zoning Viewer source layer, GIS account of Ian Henderson / PrincetonNJ)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/YDej7f2G8aXR0FNl/arcgis/rest/services/2026_Zoning_Update_Draft_For_Review/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34021"
+    ]
+  },
+  "fields": {
+    "link": "ORDLINK",
+    "zone": "Zone",
+    "zone_name": "ZONING_CAT"
+  },
+  "notes": "Layer Zoning_Authoritative (67 base district polygons) in the municipality of Princeton account, the source of the Princeton Zoning Viewer on princetonnj.gov; the service folder name says 2026 draft, but its layer is labelled authoritative and links to adopted ordinances. Zone values have trailing CR/LF in places; trim them. ZONING_CAT is a category (e.g. AFFORDABLE HOUSING), not a district name. Covers Princeton municipality only.",
+  "extent": [
+    -74.72209562624276,
+    40.30475765148789,
+    -74.61730100882902,
+    40.39111241859303
+  ],
+  "verification": {
+    "verified_at": 1792279671433,
+    "counties": [
+      "34021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

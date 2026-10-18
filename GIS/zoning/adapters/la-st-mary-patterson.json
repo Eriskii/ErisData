@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "la-st-mary-patterson",
+  "publisher": "City of Patterson (unofficial copy hosted by J-Mann)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/NaE1rjvJf3JdTAkI/arcgis/rest/services/Patterson_Zones_View_Layer/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22101"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Unofficial copy: personal ArcGIS Online account (J-Mann), not the City of Patterson. Parcel-level polygons (3,724 features, address/lot/block fields) with a Zone attribute holding district codes (R-6, R-10, R-T, M, C, B, I); used as a last resort because the City publishes its zoning maps only as PDFs. Covers the City of Patterson only. Not verified against the city ordinance; no zone_name or ordinance link field.",
+  "extent": [
+    -91.32316204809378,
+    29.67309850624437,
+    -91.29177096161203,
+    29.71096250806175
+  ],
+  "verification": {
+    "verified_at": 1792278816211,
+    "counties": [
+      "22101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

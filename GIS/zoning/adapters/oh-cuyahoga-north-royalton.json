@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-cuyahoga-north-royalton",
+  "publisher": "City of North Royalton, Ohio (Northroyalton_GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/qUJXAbAaFkiJqkXN/arcgis/rest/services/City_of_North_Royalton_Community_Map_WFL1/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39035"
+    ]
+  },
+  "fields": {
+    "link": "zonelink",
+    "zone": "zoneclass",
+    "zone_name": "zonedesc"
+  },
+  "notes": "City of North Royalton community map layer 3 (Zoning). Base zoning districts for the city; 23 features. Heights in height field, permitted uses in permittedu.",
+  "extent": [
+    -81.78531665319225,
+    41.27643126345988,
+    -81.70445280234411,
+    41.350944551198765
+  ],
+  "verification": {
+    "verified_at": 1792275724985,
+    "counties": [
+      "39035"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

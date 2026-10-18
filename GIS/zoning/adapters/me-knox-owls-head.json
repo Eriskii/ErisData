@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "me-knox-owls-head",
+  "publisher": "Town of Owls Head, Maine (Knox County GIS, ArcGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/EvllkkFm8v8CygAm/arcgis/rest/services/Owls_Head_Zoning/FeatureServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23013"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Owls Head Zoning, vintage 2022 (adopted 2023), sourced from the Town of Owls Head; single-town layer.",
+  "extent": [
+    -69.13385199859825,
+    44.03209008411254,
+    -69.03152451168353,
+    44.095085271661105
+  ],
+  "verification": {
+    "verified_at": 1792278853156,
+    "counties": [
+      "23013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

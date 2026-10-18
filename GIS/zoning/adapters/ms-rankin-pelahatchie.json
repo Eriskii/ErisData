@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ms-rankin-pelahatchie",
+  "publisher": "Town of Pelahatchie (via CMPDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Pelahatchie_Feature_Layer/FeatureServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28121"
+    ]
+  },
+  "fields": {
+    "link": "Zone_link",
+    "zone": "ZONE",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "Pelahatchie Zoning layer, CMPDD-hosted (HTTP only); town-only layer.",
+  "extent": [
+    -89.88545713808612,
+    32.27860890024647,
+    -89.72969982110706,
+    32.3462194880101
+  ],
+  "verification": {
+    "verified_at": 1792279240730,
+    "counties": [
+      "28121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "id-teton-victor",
+  "publisher": "Teton County GIS (City of Victor zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/as6biEYkl7PaUM4Y/arcgis/rest/services/ZONING_CURRENT/FeatureServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16081"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_New",
+    "zone_name": "ZONE_Description"
+  },
+  "notes": "City of Victor zoning, from Teton County GIS ZONING_CURRENT service (layer 4 Victor City Zoning). Single-jurisdiction layer.",
+  "extent": [
+    -111.1411858665036,
+    43.5851063939424,
+    -111.086417264139,
+    43.61947648703287
+  ],
+  "verification": {
+    "verified_at": 1792277989702,
+    "counties": [
+      "16081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

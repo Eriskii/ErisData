@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-essex-peabody",
+  "publisher": "City of Peabody, MA (Peabody_AGOL ArcGIS Online map service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/tQKfnpcqzsMZwerj/arcgis/rest/services/Peabody_AGOL/FeatureServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25009"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Peabody zoning districts (layer 14 Zoning; the Zoning Labels and DDR/HP overlay layers are excluded). No district name field in the source.",
+  "extent": [
+    -71.03539028673384,
+    42.49459767642586,
+    -70.91240644685539,
+    42.57039975016389
+  ],
+  "verification": {
+    "verified_at": 1792279015669,
+    "counties": [
+      "25009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-marion-kimball",
+  "publisher": "Town of Kimball, TN (SETD hosted, via Marion County interactive map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/KimballZoning82426/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47115"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "Town of Kimball zoning districts, hosted by Southeast Tennessee Development District (SETDD). Single-jurisdiction layer, 5 features. Zone field holds district code.",
+  "extent": [
+    -85.71857607243625,
+    35.02905516515149,
+    -85.64408308384353,
+    35.06603579928047
+  ],
+  "verification": {
+    "verified_at": 1792280499915,
+    "counties": [
+      "47115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

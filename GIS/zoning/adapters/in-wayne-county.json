@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "in-wayne-county",
+  "publisher": "Wayne County, Indiana GIS (unincorporated county zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisweb4.co.wayne.in.us/arcgis/rest/services/Hosted/County_Wide_Zoning/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18177"
+    ]
+  },
+  "fields": {
+    "zone": "Code"
+  },
+  "notes": "Wayne County unincorporated zoning from the Wayne County GIS County_Wide_Zoning service, layer 5 (79 polygons). Zone code only; no name field in source. ZONEJURIS and AGENCY fields exist and may distinguish jurisdictions.",
+  "extent": [
+    -85.22191137231809,
+    39.713090862053576,
+    -84.81069691131697,
+    40.00813666292508
+  ],
+  "verification": {
+    "verified_at": 1792278362531,
+    "counties": [
+      "18177"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

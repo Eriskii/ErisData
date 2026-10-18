@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ga-nicholson",
+  "publisher": "Jackson County GIS (City of Nicholson zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/bcbi4lYRFOsss0F5/arcgis/rest/services/jackson_baselayers/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13157"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONING",
+    "zone": "zoning_nicholson"
+  },
+  "filter": "ZONING = 'Nicholson'",
+  "notes": "City of Nicholson zoning carried in the county base-layer service; code in zoning_nicholson, city parcels identified by ZONING = Nicholson. Parcel-level polygons.",
+  "extent": [
+    -83.45231260254702,
+    34.091464006596404,
+    -83.40067390814792,
+    34.136447104333065
+  ],
+  "verification": {
+    "verified_at": 1792277865773,
+    "counties": [
+      "13157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

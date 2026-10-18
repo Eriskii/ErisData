@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-lake-north-chicago",
+  "publisher": "City of North Chicago (planning, via city ArcGIS Online account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/dUVPCTd3mmy0bK3k/arcgis/rest/services/Zoning_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17097"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_DIS"
+  },
+  "notes": "City of North Chicago zoning district layer (Zoning District, 5185 parcel-level polygons, one per PIN); zone is the district code. Hosted by city staff account on ArcGIS Online. Covers North Chicago city only.",
+  "extent": [
+    -87.89950951895331,
+    42.28804865957811,
+    -87.82586471815415,
+    42.341535844333144
+  ],
+  "verification": {
+    "verified_at": 1792278542021,
+    "counties": [
+      "17097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

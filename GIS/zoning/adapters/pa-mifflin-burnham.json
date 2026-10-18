@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-mifflin-burnham",
+  "publisher": "Mifflin County GIS (Burnham Borough zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.mifflincountypa.gov/arcgis/rest/services/Hosted/zvBurnham_viewOnly/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42087"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "TYPE"
+  },
+  "notes": "Burnham Borough zoning districts from the county GIS hosted view-only service (GISVector.DBO.burnham_zoning). ZONE is numeric; TYPE holds the district description. 20 features.",
+  "extent": [
+    -77.57802638705209,
+    40.62170144622952,
+    -77.54641587954399,
+    40.649043543560865
+  ],
+  "verification": {
+    "verified_at": 1792280135567,
+    "counties": [
+      "42087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

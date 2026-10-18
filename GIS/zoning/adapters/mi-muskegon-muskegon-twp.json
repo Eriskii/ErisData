@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-muskegon-muskegon-twp",
+  "publisher": "Muskegon County GIS (Muskegon Charter Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.muskegoncountygis.com/arcgis/rest/services/Zoning_Viewer/Zoning_Viewer/MapServer/37",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "26121"
+    ]
+  },
+  "fields": {
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "notes": "County GIS Zoning_Viewer service; Muskegon Charter Township base zoning districts (layer 37).",
+  "extent": [
+    -86.26176508573873,
+    43.20486078110795,
+    -86.14377767187223,
+    43.29607500951751
+  ],
+  "verification": {
+    "verified_at": 1792275310439,
+    "counties": [
+      "26121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

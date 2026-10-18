@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-wilkes-north-wilkesboro",
+  "publisher": "Town of North Wilkesboro (NWPlanner town web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Ln79nASXXta396ZQ/arcgis/rest/services/NorthWilkesboro_TownWebMap/FeatureServer/21",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37193"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoneDescript"
+  },
+  "notes": "Town of North Wilkesboro base zoning districts from the town public web map (NWPlanner). Covers the town only; ETJ not included as a jurisdiction layer.",
+  "extent": [
+    -81.2189803660328,
+    36.13530494433309,
+    -81.08147820655708,
+    36.21461716067637
+  ],
+  "verification": {
+    "verified_at": 1792279894783,
+    "counties": [
+      "37193"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-olmsted-townships",
+  "publisher": "Olmsted County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gweb01.co.olmsted.mn.us/arcgis/rest/services/Zoning_and_Future_Land_Use/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27109"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "LABEL"
+  },
+  "notes": "Olmsted County zoning for the unincorporated townships, from the Olmsted County zoning MapServer (Township Zoning layer). Covers only land outside the cities.",
+  "extent": [
+    -92.68942675985703,
+    43.83099475317971,
+    -92.07426344527764,
+    44.19557513431784
+  ],
+  "verification": {
+    "verified_at": 1792279024273,
+    "counties": [
+      "27109"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

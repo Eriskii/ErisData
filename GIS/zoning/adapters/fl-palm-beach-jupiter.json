@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-palm-beach-jupiter",
+  "publisher": "Town of Jupiter GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/pQrVKbO4a0hhA72L/arcgis/rest/services/TOJ_Planning_GIS_2025_2_gdb/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12099"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCR"
+  },
+  "notes": "Town of Jupiter planning GIS geodatabase (Town hub, March 2025 release), layer toj_zoning, 360 polygons. Source CRS web mercator.",
+  "extent": [
+    -80.18137887868967,
+    26.882478293313536,
+    -80.05682076717038,
+    26.970879689157833
+  ],
+  "verification": {
+    "verified_at": 1792277922804,
+    "counties": [
+      "12099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

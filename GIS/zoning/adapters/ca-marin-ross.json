@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-marin-ross",
+  "publisher": "Town of Ross (via Marin County open data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/T8eS7sop5hLmgRRH/arcgis/rest/services/Zoning_of_Ross/FeatureServer/120",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06041"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "District"
+  },
+  "notes": "Town of Ross zoning districts published by Marin County open data (services6 host); tied to Town zoning ordinance, updated March 2023.",
+  "extent": [
+    -122.58282416057662,
+    37.95483507930243,
+    -122.54042174899482,
+    37.97374471745395
+  ],
+  "verification": {
+    "verified_at": 1792277415303,
+    "counties": [
+      "06041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

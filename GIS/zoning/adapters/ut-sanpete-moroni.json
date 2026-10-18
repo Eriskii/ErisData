@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-sanpete-moroni",
+  "publisher": "Utah AGRC (state) generalized zoning, Moroni",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49039"
+    ]
+  },
+  "fields": {
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county LIKE '%Sanpete%' AND city LIKE 'Moroni%'",
+  "notes": "Utah AGRC statewide generalized zoning layer; Moroni city features only (city name stored with trailing space). No ordinance link published in the source. gen_zone holds the generalized category; source_zone is the city code.",
+  "extent": [
+    -111.59649121374052,
+    39.51976370308165,
+    -111.56881067772032,
+    39.534576355517245
+  ],
+  "verification": {
+    "verified_at": 1792280863219,
+    "counties": [
+      "49039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

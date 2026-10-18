@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-pleasant-grove",
+  "publisher": "Pleasant Grove City (via Utah County GIS server)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/55",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_PG_LABEL",
+    "zone_name": "ZONE_PG_DESC"
+  },
+  "notes": "Pleasant Grove City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 55).",
+  "extent": [
+    -111.77433466308868,
+    40.344336740943966,
+    -111.69619189291272,
+    40.413929771797015
+  ],
+  "verification": {
+    "verified_at": 1792280848135,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

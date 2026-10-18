@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-brevard-malabar",
+  "publisher": "Town of Malabar (land use and zoning feature service, Applied Ecology for the town)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/UteZaUNFn6dZLkez/arcgis/rest/services/TownOfMalabar_LandUse_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12009"
+    ]
+  },
+  "fields": {
+    "zone": "Current_Zoning"
+  },
+  "notes": "Town of Malabar current zoning, parcel-based polygons (from the property appraiser parcel layer) carrying each parcel zoning in Current_Zoning; covers Malabar only. Linked from the town web map Town of Malabar Land Use and Zoning.",
+  "extent": [
+    -80.6223407055173,
+    27.968419131505943,
+    -80.543968464162,
+    28.0128034453236
+  ],
+  "verification": {
+    "verified_at": 1792277984166,
+    "counties": [
+      "12009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-racine-sturtevant",
+  "publisher": "Village of Sturtevant (via Racine County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.racinecounty.com/arcgis/rest/services/Zoning/SturtevantZoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CLASS",
+    "zone_name": "ZONING_DESCRIPTION"
+  },
+  "notes": "Village of Sturtevant zoning districts from the county Zoning folder.",
+  "extent": [
+    -87.92525965542308,
+    42.683131449440694,
+    -87.87936908786412,
+    42.71998912675324
+  ],
+  "verification": {
+    "verified_at": 1792281272910,
+    "counties": [
+      "55101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

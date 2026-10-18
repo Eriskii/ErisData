@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "mn-isanti-county",
+  "publisher": "Isanti County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.isanti.mn.us/arcgis/rest/services/Zoning/Zoning_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27059"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONENAME"
+  },
+  "filter": "ZONING NOT LIKE 'City of%'",
+  "notes": "Isanti County zoning layer: county-zoned unincorporated land (A/R, shoreland, business, industry overlays); city-named placeholder polygons excluded. Zone codes in ZONING, names in ZONENAME; ZONINGLBL is short label.",
+  "extent": [
+    -93.5136708745708,
+    45.41173053316594,
+    -93.0195755397392,
+    45.73435408646229
+  ],
+  "verification": {
+    "verified_at": 1792278965302,
+    "counties": [
+      "27059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-greene-mosheim",
+  "publisher": "Town of Mosheim (zoning layer hosted by markstevans, ArcGIS Online; source First Tennessee Development District)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/duOXQT76rrwCBokY/arcgis/rest/services/Mosheim_July_2017_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47059"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "Unofficial ArcGIS Online copy of the Mosheim zoning map, July 2017, hosted by user markstevans; source First Tennessee Development District (ftdd.org/zoning). Single-jurisdiction layer, 68 polygons. Zone_Curre holds district codes.",
+  "extent": [
+    -83.07966620616604,
+    36.16697532746362,
+    -82.8859981883392,
+    36.2428682140278
+  ],
+  "verification": {
+    "verified_at": 1792280409552,
+    "counties": [
+      "47059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

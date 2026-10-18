@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-redlands",
+  "publisher": "City of Redlands",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/FLM8UAw9y5MmuVTV/arcgis/rest/services/Redlands_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Redlands zoning districts from the city GeoHub. CATEGORY holds the broad category.",
+  "extent": [
+    -117.24963898953231,
+    34.00295736753347,
+    -117.05213643499542,
+    34.10293237733941
+  ],
+  "verification": {
+    "verified_at": 1792277432119,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

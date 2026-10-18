@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-cathedral-city",
+  "publisher": "City of Cathedral City GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gissrv.cathedralcity.gov/arcgis/rest/services/DS_gispublic/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Desc"
+  },
+  "notes": "City of Cathedral City base zoning districts.",
+  "extent": [
+    -116.50240015669732,
+    33.75593623197893,
+    -116.40534608999695,
+    33.8912933623024
+  ],
+  "verification": {
+    "verified_at": 1792277468958,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

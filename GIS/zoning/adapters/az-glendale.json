@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-glendale",
+  "publisher": "City of Glendale GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/9fVTQQSiODPjLUTa/arcgis/rest/services/Glendale_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04013"
+    ]
+  },
+  "fields": {
+    "zone": "BASE_ZONE",
+    "zone_name": "LEDEND"
+  },
+  "notes": "City of Glendale zoning polygons (city limits only). BASE_ZONE is the base district; OVERLAY and CONDITIONA carry overlays and conditional zoning.",
+  "extent": [
+    -112.44517810240576,
+    33.507557921283095,
+    -112.15144558549832,
+    33.69797986675068
+  ],
+  "verification": {
+    "verified_at": 1792277707349,
+    "counties": [
+      "04013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

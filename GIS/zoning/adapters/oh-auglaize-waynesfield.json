@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-auglaize-waynesfield",
+  "publisher": "Auglaize County GIS / Village of Waynesfield",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.auglaizecounty.org/arcgis/rest/services/Zoning/Waynesfield/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39011"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Name",
+    "zone_name": "Zone_Name"
+  },
+  "notes": "Village of Waynesfield zoning districts; Zone_Name carries the district label; 78 features.",
+  "extent": [
+    -83.98416155958424,
+    40.59623564122528,
+    -83.96175363429927,
+    40.61533591358898
+  ],
+  "verification": {
+    "verified_at": 1792275627825,
+    "counties": [
+      "39011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

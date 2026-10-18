@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-morro-bay",
+  "publisher": "City of Morro Bay",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/rKG38ry4c8XnLWyS/arcgis/rest/services/Morro%20Bay%20Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06079"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "LABEL"
+  },
+  "notes": "City of Morro Bay current zoning layer, city limits only, hosted by the City of Morro Bay ArcGIS organization. CODE is the base district (blank for some polygons); LABEL adds combining suffixes such as PD or SP. OVERLAY1-4 hold overlay districts, not used.",
+  "extent": [
+    -120.87419012946032,
+    35.3403928919846,
+    -120.81802026194892,
+    35.41578387542813
+  ],
+  "verification": {
+    "verified_at": 1792277405940,
+    "counties": [
+      "06079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

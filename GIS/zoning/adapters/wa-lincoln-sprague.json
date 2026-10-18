@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wa-lincoln-sprague",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53043"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYNAME = 'Lincoln' AND COUNTYFP = '043' AND Jurisdiction = 'Sprague'",
+  "notes": "Washington State Zoning Atlas (Commerce) statewide prototype layer, filtered to the City of Sprague within Lincoln County.",
+  "extent": [
+    -117.98614875506476,
+    47.293755777363614,
+    -117.9619840736418,
+    47.30731036731122
+  ],
+  "verification": {
+    "verified_at": 1792281084142,
+    "counties": [
+      "53043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

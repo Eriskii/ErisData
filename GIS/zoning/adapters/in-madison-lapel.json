@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "in-madison-lapel",
+  "publisher": "Town of Lapel (zoning attributes in MCCOG-published Lapel zoning layer)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/WO41K9zxsNclVVfS/arcgis/rest/services/LapelZoning/FeatureServer/22",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18095"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDesc"
+  },
+  "notes": "Lapel zoning (Lapel_Zoning_2020) in an ArcGIS Online account (rmlawson2) behind the MCCOG Lapel Interactive Zoning Map. Parcel-level layer (1484 features with State_PIN and address), so zoning is carried per parcel rather than as district polygons; a last-resort copy, not confirmed as the town own copy.",
+  "extent": [
+    -85.86305375084785,
+    40.002282275904456,
+    -85.81472481937323,
+    40.08164786315734
+  ],
+  "verification": {
+    "verified_at": 1792278344477,
+    "counties": [
+      "18095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

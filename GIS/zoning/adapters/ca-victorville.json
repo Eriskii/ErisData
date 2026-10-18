@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-victorville",
+  "publisher": "City of Victorville",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/8Fll56KQwYKXAi7m/arcgis/rest/services/OpenDataMapService/FeatureServer/10",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "zone": "ZONENAME",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Victorville Current City Zoning from its Open Data Map Service.",
+  "extent": [
+    -117.46905615070128,
+    34.43584127791897,
+    -117.25150235500872,
+    34.64583237503813
+  ],
+  "verification": {
+    "verified_at": 1792277402096,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

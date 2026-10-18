@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "il-sangamon-springfield",
+  "publisher": "City of Springfield, Illinois (PW GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.springfield.il.us/server/rest/services/PW_Zoning/parcelZonesView/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17167"
+    ]
+  },
+  "fields": {
+    "zone": "SYMBOL",
+    "zone_name": "SYMBOL"
+  },
+  "filter": "SYMBOL IS NOT NULL",
+  "notes": "City of Springfield zoning areas, 25 district polygons; SYMBOL holds the district code and description together (e.g. R-1 Single-Family Residence District), so zone and zone_name both carry it. Excludes features with null symbol.",
+  "extent": [
+    -89.7727877532131,
+    39.65272865196014,
+    -89.56812702673547,
+    39.87480996194354
+  ],
+  "verification": {
+    "verified_at": 1792278177301,
+    "counties": [
+      "17167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

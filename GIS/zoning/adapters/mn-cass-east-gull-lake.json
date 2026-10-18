@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "id": "mn-cass-east-gull-lake",
+  "publisher": "City of East Gull Lake (Cass County GIS Municipalities service)",
+  "official": true,
+  "source": {
+    "kind": "bulk-download",
+    "url": "https://cassweb.casscountymn.gov/arcgis/rest/services/Municipalities/MapServer/10/query?where=1%3D1&outFields=*&f=geojson",
+    "format": "geojson",
+    "epsg": 4326
+  },
+  "coverage": {
+    "counties": [
+      "27021"
+    ]
+  },
+  "fields": {
+    "zone": "ZType"
+  },
+  "notes": "probe to identify jurisdiction",
+  "verification": {
+    "verified_at": 1792279024246,
+    "counties": [
+      "27021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

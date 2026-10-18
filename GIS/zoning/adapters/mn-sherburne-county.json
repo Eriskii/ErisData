@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-sherburne-county",
+  "publisher": "Sherburne County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.sherburne.mn.us/arcgis4/rest/services/OpenData/Zoning/FeatureServer/21",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27141"
+    ]
+  },
+  "fields": {
+    "zone": "ZONEDESC",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Sherburne County zoning districts (county-administered, unincorporated townships); 68 features; zone code and description share one field ZONEDESC.",
+  "extent": [
+    -94.15368720892488,
+    45.24571248982325,
+    -93.50976901361292,
+    45.56019683403606
+  ],
+  "verification": {
+    "verified_at": 1792279079633,
+    "counties": [
+      "27141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

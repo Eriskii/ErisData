@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-middlesex-clinton",
+  "publisher": "RiverCOG (Lower Connecticut River Valley Council of Governments), Town of Clinton zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uH7GnAlGDzMooG4B/arcgis/rest/services/RiverCOG_Regional_Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09130"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Clinton layer from RiverCOG regional zoning service; Zone holds the district code",
+  "extent": [
+    -72.58625733738573,
+    41.25477447210289,
+    -72.48573644932515,
+    41.34148514770425
+  ],
+  "verification": {
+    "verified_at": 1792277527132,
+    "counties": [
+      "09130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

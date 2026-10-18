@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mo-jasper-carl-junction",
+  "publisher": "City of Carl Junction (hosted by aeincmo, ArcGIS Online demo view)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/Ch1uR5ouFf8JDpk6/arcgis/rest/services/Carl_Junction_Zoning_Demo_view/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29097"
+    ]
+  },
+  "fields": {
+    "zone": "FullZoning",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Copy from ArcGIS Online item Carl Junction Zoning Demo view by aeincmo (a consultant demo, not a city-hosted service); layer 8 Zoning, 360 features, city of Carl Junction zoning only. Used because no official city zoning layer was found. FullZoning combines description and code.",
+  "extent": [
+    -94.58139133685074,
+    37.143161596169136,
+    -94.51028924825063,
+    37.198374227902995
+  ],
+  "verification": {
+    "verified_at": 1792279360249,
+    "counties": [
+      "29097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

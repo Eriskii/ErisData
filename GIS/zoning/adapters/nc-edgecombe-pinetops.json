@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-edgecombe-pinetops",
+  "publisher": "Town of Pinetops (via Edgecombe County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.edgecombecountync.gov/arcgis/rest/services/webmap/MapServer/17",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37065"
+    ]
+  },
+  "fields": {
+    "zone": "ALPHA"
+  },
+  "notes": "Town of Pinetops zoning layer from the Edgecombe County webmap MapServer, layer 17. Single-jurisdiction layer; zone code in ALPHA, no district name field.",
+  "extent": [
+    -77.66192024880402,
+    35.766906462579236,
+    -77.61557739615819,
+    35.815582859647115
+  ],
+  "verification": {
+    "verified_at": 1792279790268,
+    "counties": [
+      "37065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ny-warren-lake-luzerne",
+  "publisher": "Warren County GIS (Town of Lake Luzerne zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Fg3XpDIUTR3JZZES/arcgis/rest/services/WCNY_LakeLuzerneZoning_MASTER_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36113"
+    ]
+  },
+  "fields": {
+    "link": "ZONE_URL",
+    "zone": "ZONE",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Town of Lake Luzerne zoning maintained by Warren County GIS at the direction of the Town Zoning Office. Single-town layer.",
+  "extent": [
+    -73.88517809710696,
+    43.22234396812523,
+    -73.7375629639469,
+    43.409111637296
+  ],
+  "verification": {
+    "verified_at": 1792279675366,
+    "counties": [
+      "36113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

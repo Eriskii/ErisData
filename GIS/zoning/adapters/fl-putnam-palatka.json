@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-putnam-palatka",
+  "publisher": "Putnam County GIS (City of Palatka zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/YZc1OyqL6jbIOeOv/arcgis/rest/services/MunicipalZoning_CityOfPalatka_hub/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12107"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Palatka zoning, hosted by Putnam County GIS open data (21 features)",
+  "extent": [
+    -81.72957843981274,
+    29.607304755907936,
+    -81.62628735053387,
+    29.682837248479157
+  ],
+  "verification": {
+    "verified_at": 1792277707335,
+    "counties": [
+      "12107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

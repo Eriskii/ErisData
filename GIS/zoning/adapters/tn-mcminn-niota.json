@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-mcminn-niota",
+  "publisher": "Southeast Tennessee Development District (for Town of Niota, TN)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Niota_Zoning_6102026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47107"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "Town of Niota zoning districts, published by SETDD for the town. Single-jurisdiction layer.",
+  "extent": [
+    -84.5694959841401,
+    35.496774713726225,
+    -84.53008392176461,
+    35.55156150029458
+  ],
+  "verification": {
+    "verified_at": 1792280420240,
+    "counties": [
+      "47107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

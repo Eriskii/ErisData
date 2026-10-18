@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-putnam-algood",
+  "publisher": "City of Algood, TN (zoning hosted by Upper Cumberland Development District)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/EMZFDxQzNQloLbAf/arcgis/rest/services/Algood_Zoning_220802/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47141"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Algood zoning only, served by UCDD. Layer has 1853 features.",
+  "extent": [
+    -85.46196386818951,
+    36.17245475274969,
+    -85.41887348064085,
+    36.2244263828358
+  ],
+  "verification": {
+    "verified_at": 1792280578479,
+    "counties": [
+      "47141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

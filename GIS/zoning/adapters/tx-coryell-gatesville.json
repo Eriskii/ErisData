@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-coryell-gatesville",
+  "publisher": "City of Gatesville GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/Qn3O4mfJuuSGkp8w/arcgis/rest/services/Zoning_2021_10/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48099"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "filter": "Zoning <> ''",
+  "notes": "City of Gatesville zoning districts (Zoning_2021.10), from the city Gatesville Zoning Map web app (gatesvilletx.maps.arcgis.com). Polygons with blank Zoning are dropped. City limits; ETJ is a separate layer and is not included.",
+  "extent": [
+    -97.79868790627361,
+    31.384592653455694,
+    -97.69337170302207,
+    31.51375901895819
+  ],
+  "verification": {
+    "verified_at": 1792280546348,
+    "counties": [
+      "48099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

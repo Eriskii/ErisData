@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "al-elmore-coosada",
+  "publisher": "Town of Coosada (zoning joined to parcels, hosted by vreader_alhub)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/jF2q3LPxL7PETdYk/arcgis/rest/services/COOSADA_ZONING_012626_213_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01051"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_COOSADA",
+    "zone_name": "ZONING_COOSADA"
+  },
+  "filter": "PCL_CITY = 'COOSADA' AND ZONING_COOSADA IS NOT NULL AND ZONING_COOSADA <> ''",
+  "notes": "Parcel layer (50,916 parcels) carrying Town of Coosada zoning as ZONING_COOSADA, found on the vreader_alhub ArcGIS Online account; a parcel layer, used as last resort. Zone code and description are the same full name (e.g. RESIDENTIAL - 20,000 AC LOTS (R-2)). Filtered to parcels in Coosada. Copy not published by the town itself.",
+  "extent": [
+    -86.35430368825547,
+    32.467813738827694,
+    -86.30730730942257,
+    32.51954186704351
+  ],
+  "verification": {
+    "verified_at": 1792277245589,
+    "counties": [
+      "01051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

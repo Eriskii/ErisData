@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "de-kent-camden",
+  "publisher": "Town of Camden (Camden Map web app, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/GRgvTueruZONVtYC/arcgis/rest/services/Camden_Map/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "10001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Camden. Layer is parcel-level: each feature is a parcel carrying its zoning in ZONING (owner fields also present), used as the last resort because no district-only layer is published. zone_name not filled (ZONECLASS empty).",
+  "extent": [
+    -75.58255763709033,
+    39.071972283142685,
+    -75.5307921628096,
+    39.12522014430963
+  ],
+  "verification": {
+    "verified_at": 1792277630119,
+    "counties": [
+      "10001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

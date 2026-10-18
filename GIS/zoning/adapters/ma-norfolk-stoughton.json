@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-norfolk-stoughton",
+  "publisher": "Town of Stoughton, MA (Zoning Study layers, ArcGIS Online account lstoughton)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/tZM2WSxWoRdvC6bE/arcgis/rest/services/Zoning_Study_1/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25021"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Stoughton MA zoning districts (ZONING_DISTRICTS layer, 60 polygons, codes such as RC, I, HB, NB, GB). Source service is the town zoning study on ArcGIS Online; layer 7 Zoning Districts Stoughton is an alternative. No zone_name field.",
+  "extent": [
+    -71.15056851114822,
+    42.07253640707915,
+    -71.0564113426026,
+    42.164330715329065
+  ],
+  "verification": {
+    "verified_at": 1792279326883,
+    "counties": [
+      "25021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

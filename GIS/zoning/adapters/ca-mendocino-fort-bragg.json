@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-mendocino-fort-bragg",
+  "publisher": "City of Fort Bragg (Zoning Map viewer, cfbca.maps.arcgis.com)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/ssZdpQ6yw1MGY9ty/arcgis/rest/services/Zoning2026/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06045"
+    ]
+  },
+  "fields": {
+    "zone": "LU_Desig",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "City of Fort Bragg Zoning Map viewer source. Parcel-level layer (APN, SITUS fields) carrying each parcel zoning code in LU_Desig and its description in ZONE_DESC; used as a last resort since no district-only layer is published. Covers city parcels only.",
+  "extent": [
+    -123.82066327178056,
+    39.418586133265656,
+    -123.77929575503047,
+    39.47030821125681
+  ],
+  "verification": {
+    "verified_at": 1792277377504,
+    "counties": [
+      "06045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

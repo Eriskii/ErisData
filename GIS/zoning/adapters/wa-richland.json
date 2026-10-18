@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wa-richland",
+  "publisher": "City of Richland GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://imaps.ci.richland.wa.us/arcgis1081/rest/services/Richland/Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "ZoneType"
+  },
+  "notes": "City of Richland zoning; no district polygon layer found, so this is the parcel layer whose ZoneType carries each parcel zoning (parcel-level, last resort). Richland city parcels only per Jurisdiction field.",
+  "extent": [
+    -119.40001513051553,
+    46.19509276202432,
+    -119.21148627674262,
+    46.397887587673075
+  ],
+  "verification": {
+    "verified_at": 1792281075386,
+    "counties": [
+      "53005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

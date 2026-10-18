@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "me-cumberland-brunswick",
+  "publisher": "Town of Brunswick, Maine (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/WTosIGSFx8SISAaB/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23005"
+    ]
+  },
+  "fields": {
+    "link": "Ordinance_Ref_URL",
+    "zone": "ZONE_",
+    "zone_name": "Zone_Descr"
+  },
+  "notes": "Town of Brunswick zoning districts, ordinance 1.4.1 (Brunswick GIS, 54 polygons).",
+  "extent": [
+    -70.08890441615773,
+    43.82225144057133,
+    -69.85487381398953,
+    43.9765108476907
+  ],
+  "verification": {
+    "verified_at": 1792278846958,
+    "counties": [
+      "23005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

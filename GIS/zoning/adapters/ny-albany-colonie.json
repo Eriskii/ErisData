@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ny-albany-colonie",
+  "publisher": "Albany County GIS (county zoning boundaries layer, Town of Colonie)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/mBzcjj7yrA6fBe9F/arcgis/rest/services/AlbanyCountyZoningBoundaries/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municip",
+    "zone": "ZoneAbb",
+    "zone_name": "Zone"
+  },
+  "filter": "Municip = 'Town of Colonie'",
+  "notes": "Albany County zoning boundaries layer covering all municipalities; filtered to one town per spec. Layer has 210 features across Albany County jurisdictions.",
+  "extent": [
+    -73.93423029707232,
+    42.675962586908355,
+    -73.69728675130547,
+    42.82198818764513
+  ],
+  "verification": {
+    "verified_at": 1792279572877,
+    "counties": [
+      "36001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

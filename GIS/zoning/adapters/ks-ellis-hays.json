@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ks-ellis-hays",
+  "publisher": "City of Hays (Hays/Ellis County GSDP)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://geodataportal.net/arcgis/rest/services/CityCountyData/MapServer/236",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20051"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "City",
+    "zone": "Zone",
+    "zone_name": "Zoning_Districts"
+  },
+  "notes": "City of Hays zoning districts (279 polygons) from the Hays/Ellis County GSDP, layer Hays Zoning. Only the city of Hays.",
+  "extent": [
+    -99.4036233137921,
+    38.81161047764493,
+    -99.23294414910573,
+    38.94521011531285
+  ],
+  "verification": {
+    "verified_at": 1792278503724,
+    "counties": [
+      "20051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

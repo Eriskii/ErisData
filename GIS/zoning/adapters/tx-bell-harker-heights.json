@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-bell-harker-heights",
+  "publisher": "City of Harker Heights GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/qPRPoKDqQxUx8Mun/arcgis/rest/services/HH_City_Webmap_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48027"
+    ]
+  },
+  "fields": {
+    "link": "File_Link",
+    "zone": "ZONING_CODE",
+    "zone_name": "DEFINITION"
+  },
+  "notes": "City of Harker Heights Zoning Districts layer from the city webmap.",
+  "extent": [
+    -97.68589764850745,
+    31.01249780297303,
+    -97.58869888376036,
+    31.100404316021727
+  ],
+  "verification": {
+    "verified_at": 1792280585436,
+    "counties": [
+      "48027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

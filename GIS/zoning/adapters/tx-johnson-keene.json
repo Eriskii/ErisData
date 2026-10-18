@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "tx-johnson-keene",
+  "publisher": "City of Keene GIS (Layers_view service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/JWu1dgdretKC6eqW/arcgis/rest/services/Layers_view/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48251"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY_JURIS",
+    "zone": "ZoningClass",
+    "zone_name": "ZoningClass"
+  },
+  "filter": "UPPER(CITY_JURIS) LIKE '%KEENE%'",
+  "notes": "Parcel-based fallback: no Keene district polygon layer was found; this is a parcel layer (appraisal parcels) whose ZoningClass attribute carries each parcel zoning for the City of Keene (CITY_JURIS = CITY OF KEENE). Last resort. No ordinance link published.",
+  "extent": [
+    -97.35450102000463,
+    32.36857456137106,
+    -97.27819829613826,
+    32.43390908059531
+  ],
+  "verification": {
+    "verified_at": 1792280708213,
+    "counties": [
+      "48251"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

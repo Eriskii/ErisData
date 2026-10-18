@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-geauga-bainbridge-township",
+  "publisher": "Bainbridge Township (copy hosted on ArcGIS Online by akobus2021)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/otmFGc3Z1CITN3V3/arcgis/rest/services/Geauga_County_Township_Zoning_WFL1/FeatureServer/19",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39055"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_LABEL",
+    "zone_name": "ZONING"
+  },
+  "notes": "Unofficial copy of Bainbridge Township zoning uploaded to ArcGIS Online by akobus2021; used because the county Planning/Zoning Bainbridge layer fails paging checks.",
+  "extent": [
+    -81.39195504249898,
+    41.34733039041045,
+    -81.29740450261149,
+    41.42513483282215
+  ],
+  "verification": {
+    "verified_at": 1792275770379,
+    "counties": [
+      "39055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

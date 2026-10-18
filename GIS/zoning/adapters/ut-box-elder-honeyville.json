@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "ut-box-elder-honeyville",
+  "publisher": "Honeyville City (Interactive Zoning Map layer, Utah planning_generalized_zoning service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 500,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49003"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "city = 'Honeyville'",
+  "notes": "Layer used by the Honeyville Interactive Zoning Map (city web map, Honeyville Zoning Districts). Generalized multi-city layer; filtered to Honeyville rows. Source date 2019-era; link is the city drawings page.",
+  "extent": [
+    -112.12849226337494,
+    41.598467676745685,
+    -112.04525907958356,
+    41.6699688270105
+  ],
+  "verification": {
+    "verified_at": 1792281299086,
+    "counties": [
+      "49003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

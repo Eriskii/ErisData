@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-palm-beach-palm-springs",
+  "publisher": "Village of Palm Springs (compiled GIS layers, ArcGIS Online account uyen_ddecllc)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/ZbVPNfkTF89LEyGa/arcgis/rest/services/Village_of_Palm_Springs_Compiled_GIS_Layers_WFL1/FeatureServer/43",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12099"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Landuse"
+  },
+  "notes": "Copy of Village of Palm Springs compiled GIS layers hosted on an ArcGIS Online account (uyen_ddecllc), not the village host; layer Zoning_Palm_Springs (layer 43), 5580 features, may be parcel-level (has PCN parcel control number). Landuse field is land use not zone name; zone_name may be empty. Source CRS 3857.",
+  "extent": [
+    -80.11336275686196,
+    26.603348915928255,
+    -80.08063348610264,
+    26.66502941354434
+  ],
+  "verification": {
+    "verified_at": 1792278156285,
+    "counties": [
+      "12099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

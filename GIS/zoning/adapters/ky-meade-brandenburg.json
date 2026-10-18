@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ky-meade-brandenburg",
+  "publisher": "City of Brandenburg, KY",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/53Rh4REWlaSyx2Ks/arcgis/rest/services/City_of_Brandenburg_Zoning_WFL1/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21163"
+    ]
+  },
+  "fields": {
+    "zone": "ZONETYPE",
+    "zone_name": "Definition"
+  },
+  "notes": "City of Brandenburg (county seat) base zoning districts, from the city ArcGIS Online organization (City of Brandenburg Zoning_WFL1). Zone code in ZONETYPE (Current_Zo is mostly blank). Definition is mostly the city name; the district name is in the city ordinance 393.",
+  "extent": [
+    -86.21288803613452,
+    37.97482513470904,
+    -86.14465796298312,
+    38.02002526173447
+  ],
+  "verification": {
+    "verified_at": 1792278706455,
+    "counties": [
+      "21163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

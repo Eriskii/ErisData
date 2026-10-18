@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-daly-city",
+  "publisher": "City of Daly City (GIS, dcpwgis account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/HGAmixalCnA5OLkS/arcgis/rest/services/Zoning_AGOL/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06081"
+    ]
+  },
+  "fields": {
+    "zone": "ZONESHORT",
+    "zone_name": "ZONEDESC"
+  },
+  "filter": "HISTORICAL = 'No'",
+  "notes": "City of Daly City zoning districts from the city GIS ArcGIS Online organization; historical polygons excluded. SPECPLAN gives specific plan overlay names.",
+  "extent": [
+    -122.50076389841298,
+    37.64928547105412,
+    -122.40558253853624,
+    37.70906571948239
+  ],
+  "verification": {
+    "verified_at": 1792277439180,
+    "counties": [
+      "06081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

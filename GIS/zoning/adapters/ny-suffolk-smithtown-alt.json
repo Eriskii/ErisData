@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-suffolk-smithtown-alt",
+  "publisher": "Town of Smithtown (copy on ArcGIS Online, Smithtown staff account rhubbs_smithtown)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Ogm3aSGq7D42VQZE/arcgis/rest/services/Smithtown_Zoning_Alt2/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Descipt"
+  },
+  "notes": "Copy of Town of Smithtown zoning on ArcGIS Online by Smithtown staff account rhubbs_smithtown; the Town official service gis-smithtownny.com was not reachable at check time. Town of Smithtown only.",
+  "extent": [
+    -73.30205418515358,
+    40.80278234423445,
+    -73.12005131866913,
+    40.92995835713115
+  ],
+  "verification": {
+    "verified_at": 1792279731601,
+    "counties": [
+      "36103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

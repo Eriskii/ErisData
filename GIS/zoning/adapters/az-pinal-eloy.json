@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-pinal-eloy",
+  "publisher": "City of Eloy",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/VfOwt1fngp5cVBlk/arcgis/rest/services/EloyZoning_view_Public/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04021"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "LongDescription"
+  },
+  "notes": "City of Eloy public zoning layer on its own ArcGIS Online organization; ShortDescription also available.",
+  "extent": [
+    -111.74032513015683,
+    32.645514832565674,
+    -111.44676172552876,
+    32.879977699907386
+  ],
+  "verification": {
+    "verified_at": 1792277338643,
+    "counties": [
+      "04021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-franklin-hilliard",
+  "publisher": "City of Hilliard GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.hilliardohio.gov/arcgis/rest/services/Hilliard/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Hilliard zoning districts (Franklin County and Franklin portion of city).",
+  "extent": [
+    -83.21439329097716,
+    39.99951807004666,
+    -83.09681367516185,
+    40.069434586607855
+  ],
+  "verification": {
+    "verified_at": 1792275774412,
+    "counties": [
+      "39049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

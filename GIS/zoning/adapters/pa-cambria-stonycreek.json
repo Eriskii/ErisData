@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "pa-cambria-stonycreek",
+  "publisher": "Stonycreek Township (Cambria County), via township online zoning map (hildebrandgis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/ARzlCaOMQolUCAWW/arcgis/rest/services/Stonycreek_Zoning_Public_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42021"
+    ]
+  },
+  "fields": {
+    "zone": "Description"
+  },
+  "notes": "Stonycreek Township only, linked from the township zoning page as its online zoning map. Zone codes R1, R2, R3, Commercial, Manufacturing. No zone name or ordinance link field.",
+  "extent": [
+    -78.92741504555013,
+    40.27525940354411,
+    -78.8590016936229,
+    40.32075322500507
+  ],
+  "verification": {
+    "verified_at": 1792280157994,
+    "counties": [
+      "42021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

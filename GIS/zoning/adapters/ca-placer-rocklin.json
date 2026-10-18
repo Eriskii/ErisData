@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-placer-rocklin",
+  "publisher": "City of Rocklin GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.rocklin.ca.us/server/rest/services/Public/LandUse/MapServer/4",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06061"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Rocklin Zoning layer from the Public/LandUse MapServer. Single jurisdiction: Rocklin.",
+  "extent": [
+    -121.2997977285665,
+    38.77029784194474,
+    -121.19031114735316,
+    38.86297952888774
+  ],
+  "verification": {
+    "verified_at": 1792277373815,
+    "counties": [
+      "06061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

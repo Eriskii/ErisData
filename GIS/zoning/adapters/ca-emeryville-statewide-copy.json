@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-emeryville-statewide-copy",
+  "publisher": "Emeryville (from California statewide zoning compilation, personal ArcGIS Online copy by 1860040_CAL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "Jurisdiction = 'Emeryville' AND County = 'ALA'",
+  "notes": "Unofficial copy: statewide zoning compilation (CaliforniaZoning10_17_24, 535 jurisdictions) hosted on a personal ArcGIS Online account, used because Emeryville publishes only a PDF zoning map. Filtered to Emeryville. Verify against the city PDF before relying on it.",
+  "extent": [
+    -122.31541216340835,
+    37.827063835801525,
+    -122.2756074403682,
+    37.84996020397083
+  ],
+  "verification": {
+    "verified_at": 1792277414950,
+    "counties": [
+      "06001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

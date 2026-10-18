@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "al-colbert-tuscumbia",
+  "publisher": "City of Tuscumbia, Alabama (via ArcGIS Online, Enjnir)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/y6YW10u0XkJDr4YY/arcgis/rest/services/Tuscumbia_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "01033"
+    ]
+  },
+  "fields": {
+    "zone": "zone"
+  },
+  "notes": "City of Tuscumbia zoning layer, hosted on the ArcGIS Online organization of the city consultant (Enjnir). Records are parcel-based (PARCEL_NO with zone classification). Covers city of Tuscumbia only.",
+  "extent": [
+    -87.75561121923562,
+    34.67958055454279,
+    -87.66632159921228,
+    34.74545521375567
+  ],
+  "verification": {
+    "verified_at": 1792277198949,
+    "counties": [
+      "01033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

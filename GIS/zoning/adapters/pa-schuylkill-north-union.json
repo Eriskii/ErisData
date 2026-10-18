@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-north-union",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for North Union Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/14_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "descrpt"
+  },
+  "notes": "Municipal zoning for North Union Township (MUNIS 14), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.68978880225842,
+    40.60994861199589,
+    -76.56506336325266,
+    40.664457535645624
+  ],
+  "verification": {
+    "verified_at": 1792280230216,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-weston",
+  "publisher": "Weston parcel data via CTECO (UConn), from the CT OPM/COG parcel collection",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://cteco.uconn.edu/ctmaps/rest/services/Parcels/Parcels_tiled/MapServer/175",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09190"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Last resort: parcel layer carrying each parcel zoning attribute (ZONING), not a district polygon layer; no Weston district layer found. Blank ZONING means unzoned or unknown.",
+  "extent": [
+    -73.42995209349095,
+    41.17449936044416,
+    -73.32306441688057,
+    41.275541624799374
+  ],
+  "verification": {
+    "verified_at": 1792277847080,
+    "counties": [
+      "09190"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

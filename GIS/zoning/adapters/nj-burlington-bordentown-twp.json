@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nj-burlington-bordentown-twp",
+  "publisher": "Bordentown Township (hosted ArcGIS, township staff)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/chwF3bwyEROFIr1k/arcgis/rest/services/Bordentown_Township_2022_Zoning_Geodatabase/FeatureServer/10",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34005"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_ABBR",
+    "zone_name": "Zone_LEGEND"
+  },
+  "notes": "Bordentown Township zoning districts, layer Zoning2022_Post_LU_Amend from the township 2022 zoning geodatabase. Density and LotSizes also present.",
+  "extent": [
+    -74.77496593797723,
+    40.113300247012184,
+    -74.67432397057443,
+    40.18365892861994
+  ],
+  "verification": {
+    "verified_at": 1792279612100,
+    "counties": [
+      "34005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

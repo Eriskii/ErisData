@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "or-benton-county",
+  "publisher": "Oregon DLCD statewide zoning compilation (Benton County unincorporated portion)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41003"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "unitOwner = '1155126'",
+  "notes": "State DLCD compiled zoning for Benton County unincorporated land (ownerName Benton County, unitOwner 1155126). Codes are DLCD generalized classes (orZCode), not county local codes; the county GIS server was unreachable.",
+  "extent": [
+    -123.81678193350884,
+    44.27654979405016,
+    -123.07254569141308,
+    44.72135436291983
+  ],
+  "verification": {
+    "verified_at": 1792280031389,
+    "counties": [
+      "41003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

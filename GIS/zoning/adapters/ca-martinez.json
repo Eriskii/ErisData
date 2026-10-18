@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-martinez",
+  "publisher": "City of Martinez (ArcGIS Online copy by thatchmoyle76)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/mnor7LfdhlmgRtHt/arcgis/rest/services/MARTINEZ_ZONING/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "06013"
+    ]
+  },
+  "fields": {
+    "zone": "CODE"
+  },
+  "notes": "Personal ArcGIS Online copy of City of Martinez zoning designations (uploaded by thatchmoyle76, not hosted by the city). Used because no official queryable layer was found. CODE is the base district code; OVERLAY ignored.",
+  "extent": [
+    -122.15899899747184,
+    37.952987105728354,
+    -122.0538533796882,
+    38.048739978696275
+  ],
+  "verification": {
+    "verified_at": 1792277334962,
+    "counties": [
+      "06013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

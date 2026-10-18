@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-washington-west-bend-town",
+  "publisher": "Washington County GIS (Town of West Bend zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.washcowisco.gov/server/rest/services/Zoning/Local_Zoning/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55131"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of West Bend zoning districts, served by Washington County GIS (Local_Zoning service). Layer holds only the Town of West Bend (its MUNINAME field names it). Conservancy overlay is a separate layer and not used.",
+  "extent": [
+    -88.28335782539317,
+    43.367527011013,
+    -88.15917037751163,
+    43.428106848901535
+  ],
+  "verification": {
+    "verified_at": 1792281360834,
+    "counties": [
+      "55131"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

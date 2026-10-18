@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "md-wicomico-fruitland",
+  "publisher": "City of Fruitland, MD (Fruitland Zoning 2017, hosted by ESRGCoop)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/X3lKekbdaBmNjCHu/arcgis/rest/services/Fruitland_Zoning_2017/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24045"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "GENZONE"
+  },
+  "filter": "MUNICIPALITY_NAME = 'FRUITLAND'",
+  "notes": "City of Fruitland zoning districts, 2017 vintage, EPSG 26985 source projection; hosted by ESRGCoop for the city. GENZONE is the generalized category.",
+  "extent": [
+    -75.65115548269593,
+    38.30200972782913,
+    -75.59982521900073,
+    38.33919709759888
+  ],
+  "verification": {
+    "verified_at": 1792278826820,
+    "counties": [
+      "24045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

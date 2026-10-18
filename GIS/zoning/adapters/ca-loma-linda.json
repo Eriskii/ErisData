@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-loma-linda",
+  "publisher": "County of San Bernardino (combined zoning layer, City of Loma Linda slice)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services/Combined_Zoning_Extra_Data/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CODE",
+    "zone_name": "ZONING_DESC"
+  },
+  "filter": "JURISDICTION_NAME = 'CITY OF LOMA LINDA'",
+  "notes": "County-hosted combined zoning layer (county org), filtered to City of Loma Linda (43 polygons).",
+  "extent": [
+    -117.27810730061452,
+    34.0178648828226,
+    -117.20764372483674,
+    34.06644016870401
+  ],
+  "verification": {
+    "verified_at": 1792278167777,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

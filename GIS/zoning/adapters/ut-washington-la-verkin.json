@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-washington-la-verkin",
+  "publisher": "Washington County GIS (City of La Verkin zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://agisprodvm.washco.utah.gov/arcgis/rest/services/Zoning/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49053"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGCODE",
+    "zone_name": "GEN_ZONE"
+  },
+  "notes": "City of La Verkin zoning districts, hosted by Washington County GIS; one jurisdiction per layer (SOURCE holds La Verkin). zone_name is the general category (GEN_ZONE) because DESCRIPTION is null in source.",
+  "extent": [
+    -113.29394083012856,
+    37.1883491491779,
+    -113.216961485879,
+    37.274016146791894
+  ],
+  "verification": {
+    "verified_at": 1792280857159,
+    "counties": [
+      "49053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mo-buchanan-stjoseph-city",
+  "publisher": "City of St. Joseph, MO (Accela_Map_WFL1 CityZoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/VRLYGFxRjcY4tEg3/arcgis/rest/services/Accela_Map_WFL1/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29021"
+    ]
+  },
+  "fields": {
+    "zone": "STJOSEPH_Z",
+    "zone_name": "ZONING_DES"
+  },
+  "notes": "Official City of St. Joseph ArcGIS service (city GIS, Accela map service), 4567 features. Covers City of St. Joseph only. No ordinance link field populated.",
+  "extent": [
+    -94.89872456037698,
+    39.697344751309295,
+    -94.74500184795052,
+    39.821330377633025
+  ],
+  "verification": {
+    "verified_at": 1792279318192,
+    "counties": [
+      "29021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

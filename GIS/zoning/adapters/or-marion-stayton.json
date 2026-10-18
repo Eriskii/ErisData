@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "or-marion-stayton",
+  "publisher": "City of Stayton (GIS Zoning view)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/SXXjryU22GsO8OEC/arcgis/rest/services/Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "COMP_PLAN"
+  },
+  "notes": "City of Stayton zoning districts from the city GIS Zoning_view layer (97 polygons). zone_name is mapped to the comprehensive plan designation field, which may not be the zone description.",
+  "extent": [
+    -122.82161423879128,
+    44.78595234420559,
+    -122.76375685770384,
+    44.82018553068492
+  ],
+  "verification": {
+    "verified_at": 1792280119228,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-collin-celina",
+  "publisher": "City of Celina GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/x4nhme9V33KOzAfr/arcgis/rest/services/Zoning_Districts_Open_Data/FeatureServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48085"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "zoning",
+    "zone_name": "PDInfo"
+  },
+  "notes": "City of Celina zoning districts (Zoning Districts Open Data, updated monthly). zoning holds the district code; PDInfo planned development info; Zoning_Ord the ordinance. Celina spans Collin and Denton counties.",
+  "extent": [
+    -96.8941201616196,
+    33.24953556009718,
+    -96.71245718604803,
+    33.40621753290586
+  ],
+  "verification": {
+    "verified_at": 1792281089266,
+    "counties": [
+      "48085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

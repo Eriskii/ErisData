@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "or-yamhill-unincorporated",
+  "publisher": "Yamhill County Planning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/toubSXwoan3LMhOW/arcgis/rest/services/PL_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41071"
+    ]
+  },
+  "fields": {
+    "zone": "zone",
+    "zone_name": "zdiscript"
+  },
+  "notes": "Yamhill County unincorporated zoning (county codes such as AF-80, EF-80, VLDR-5). Published by Yamhill County Planning (edits by hansberryb@yamhillcounty.gov) as Yamhill County Planning Zoning on ArcGIS Online; the county own server www.yamhillcountygis.com was unreachable when checked. No jurisdiction field: all features are county unincorporated land.",
+  "extent": [
+    -123.80424453583908,
+    45.05646967990492,
+    -122.8424428637515,
+    45.44741947874256
+  ],
+  "verification": {
+    "verified_at": 1792280135490,
+    "counties": [
+      "41071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

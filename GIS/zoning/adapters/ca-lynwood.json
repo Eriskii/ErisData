@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-lynwood",
+  "publisher": "City of Lynwood (zoning from California Governor's Office of Planning and Research statewide zoning, South)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_South/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code"
+  },
+  "filter": "County = 'LAN' AND Jurisdiction = 'Lynwood'",
+  "notes": "State of California (OPR) statewide zoning compilation, South; LA County cities carry County code LAN. Filtered to Lynwood. Source districts SCAG-compiled (2019); zone_name not provided.",
+  "extent": [
+    -118.23008349760852,
+    33.90499436682947,
+    -118.17811697262016,
+    33.945317814313036
+  ],
+  "verification": {
+    "verified_at": 1792278011523,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

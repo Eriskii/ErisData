@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-mchenry-algonquin",
+  "publisher": "Village of Algonquin, IL (via Houseal Lavigne planning ArcGIS service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/74bZbbuf05Ctvbzv/arcgis/rest/services/Algonquin_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17111"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCRIPT"
+  },
+  "notes": "Village of Algonquin zoning districts, published from the village planning consultant ArcGIS Online account (robstauder_hlplanning). Village limits only; portions of Algonquin lie in Kane County.",
+  "extent": [
+    -88.38367744845063,
+    42.1323851470494,
+    -88.25745054505141,
+    42.193738871858194
+  ],
+  "verification": {
+    "verified_at": 1792278163679,
+    "counties": [
+      "17111"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

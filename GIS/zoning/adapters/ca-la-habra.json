@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-la-habra",
+  "publisher": "California Governor's Office of Planning and Research (statewide zoning, South)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_South/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'ORA' AND Jurisdiction = 'La Habra'",
+  "notes": "State OPR California Statewide Zoning (South), compiled from 535 of 539 jurisdictions, 2024 snapshot. Filtered to La Habra within County ORA. City zoning pages returned HTTP 404 when checked.",
+  "extent": [
+    -117.9766067829836,
+    33.90641849246149,
+    -117.91903728590512,
+    33.94609380515067
+  ],
+  "verification": {
+    "verified_at": 1792277813001,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

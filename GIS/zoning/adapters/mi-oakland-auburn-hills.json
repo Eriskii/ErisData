@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "mi-oakland-auburn-hills",
+  "publisher": "City of Auburn Hills DPW GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/fkLHZg2ojpDnVAod/arcgis/rest/services/Auburn_Hills_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26125"
+    ]
+  },
+  "fields": {
+    "link": "ZoningOrdURL",
+    "zone": "ZONECODE",
+    "zone_name": "ZONENAME"
+  },
+  "notes": "City of Auburn Hills zoning districts, published by city DPW (Auburn_Hills_Zoning_view). Covers Auburn Hills only.",
+  "extent": [
+    -83.33037003109138,
+    42.619659028725515,
+    -83.20782220691467,
+    42.71063768870086
+  ],
+  "verification": {
+    "verified_at": 1792275425515,
+    "counties": [
+      "26125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

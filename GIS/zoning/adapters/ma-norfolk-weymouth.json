@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ma-norfolk-weymouth",
+  "publisher": "Town of Weymouth GIS (WeymouthGIS1 ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/5oxq0LCboAIVgdgN/arcgis/rest/services/Weymouth_GIS_Flags/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25021"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Authority",
+    "link": "WebLink",
+    "zone": "ZONE_"
+  },
+  "filter": "Authority = 'WEYMOUTH'",
+  "notes": "Weymouth base zoning districts (layer Zoning_BaseFlag in the town Weymouth_GIS_Flags service). The layer also holds Union Point districts under Authority SRA; the filter keeps Weymouth town districts only. No district-name field. Overlays are in layer 7 and are not used.",
+  "extent": [
+    -70.98126373030664,
+    42.13520971784463,
+    -70.91438436165846,
+    42.26368815752904
+  ],
+  "verification": {
+    "verified_at": 1792279469889,
+    "counties": [
+      "25021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

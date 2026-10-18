@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-palo-alto",
+  "publisher": "City of Palo Alto (CPA iSpatial)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/evmyRZRrsopdeog7/arcgis/rest/services/ZoningWeb/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06085"
+    ]
+  },
+  "fields": {
+    "zone": "DESIGNATIO",
+    "zone_name": "ZONE_TYPE"
+  },
+  "notes": "City of Palo Alto zoning districts only. DESIGNATIO holds the district code; ZONE_TYPE the broad category.",
+  "extent": [
+    -122.20525798433242,
+    37.2883757450206,
+    -122.08275764418306,
+    37.466302872959645
+  ],
+  "verification": {
+    "verified_at": 1792277443912,
+    "counties": [
+      "06085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

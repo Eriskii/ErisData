@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "ut-emery-castle-dale",
+  "publisher": "Utah AGRC (state generalized municipal zoning), Castle Dale City",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49015"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city",
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county LIKE '%Emery%' AND city = 'Castle Dale'",
+  "notes": "Utah AGRC statewide generalized zoning layer (state-published compilation of city zoning); filtered to Castle Dale city. Generalized category in gen_zone.",
+  "extent": [
+    -111.043440442802,
+    39.20599423567727,
+    -111.00090043008144,
+    39.2443204666435
+  ],
+  "verification": {
+    "verified_at": 1792280855329,
+    "counties": [
+      "49015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

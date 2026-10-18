@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-wayne-arcadia",
+  "publisher": "Wayne County GIS (Town of Arcadia zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.wayne.ny.us/arcgis/rest/services/Arcadia_Zoning/FeatureServer/54",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36117"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Class",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "Town of Arcadia zoning, standardized by Wayne County GIS / GTG 2024. Single-jurisdiction layer.",
+  "extent": [
+    -77.13663150869692,
+    43.01228356563335,
+    -77.03336214010783,
+    43.16200102855129
+  ],
+  "verification": {
+    "verified_at": 1792279682642,
+    "counties": [
+      "36117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

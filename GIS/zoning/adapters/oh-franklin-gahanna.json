@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-franklin-gahanna",
+  "publisher": "City of Gahanna GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.gahanna.gov/server/rest/services/GahannaConnect/GahannaConnect_PlanningandDevelopment/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39049"
+    ]
+  },
+  "fields": {
+    "zone": "NewZone",
+    "zone_name": "Description"
+  },
+  "notes": "City of Gahanna zoning districts.",
+  "extent": [
+    -82.90407648283933,
+    39.98652748692245,
+    -82.81000165601083,
+    40.05655274970905
+  ],
+  "verification": {
+    "verified_at": 1792275778015,
+    "counties": [
+      "39049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

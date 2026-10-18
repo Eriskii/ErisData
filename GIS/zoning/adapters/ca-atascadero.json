@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-atascadero",
+  "publisher": "City of Atascadero (GIS Division)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/N2rywTnpbBhelXvy/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06079"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Label"
+  },
+  "notes": "City of Atascadero General Plan / zoning layer (Zoning_diss), city limits only. zone is the district code (e.g. CN, LSF-X); Label gives code and name. Hosted in the City of Atascadero ArcGIS organization.",
+  "extent": [
+    -120.76027673528948,
+    35.415890270779634,
+    -120.5960930812233,
+    35.532614548809846
+  ],
+  "verification": {
+    "verified_at": 1792277414619,
+    "counties": [
+      "06079"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

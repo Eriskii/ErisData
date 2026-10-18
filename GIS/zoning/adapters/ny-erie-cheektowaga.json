@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-erie-cheektowaga",
+  "publisher": "Town of Cheektowaga (layer published by consultant jlynch_cmellp on ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/9qXdejD95RJW2c9F/arcgis/rest/services/Zoning_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36029"
+    ]
+  },
+  "fields": {
+    "zone": "zone_abv",
+    "zone_name": "district"
+  },
+  "notes": "Copy of the Town of Cheektowaga zoning map on ArcGIS Online, published by a consultant account (jlynch_cmellp), not the Town server; used because the Town publishes its map only as PDF. Town of Cheektowaga only.",
+  "extent": [
+    -78.7997867847779,
+    42.8635487648613,
+    -78.697069863253,
+    42.951320954043894
+  ],
+  "verification": {
+    "verified_at": 1792279699890,
+    "counties": [
+      "36029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-tulare-visalia",
+  "publisher": "City of Visalia",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/q3SI94vj8qWDxwBr/arcgis/rest/services/Public_Zoning/FeatureServer/33",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06107"
+    ]
+  },
+  "fields": {
+    "link": "Link",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Visalia zoning districts from the city ArcGIS Online org (Public_Zoning layer behind the city GIS interactive map); 2,608 features; link is the Visalia municipal code page.",
+  "extent": [
+    -119.43942015935342,
+    36.26901681703078,
+    -119.22380227515816,
+    36.37347649799445
+  ],
+  "verification": {
+    "verified_at": 1792277545694,
+    "counties": [
+      "06107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

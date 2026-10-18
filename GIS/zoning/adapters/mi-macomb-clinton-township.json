@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-macomb-clinton-township",
+  "publisher": "Clinton Township GIS (ctGISadmin)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/LWWSNCucr3D0hVDA/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26099"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Sym",
+    "zone_name": "LABEL"
+  },
+  "notes": "Clinton Township zoning districts layer (base zoning, layer 0 of Zoning service; other layers are conditional zoning, rezonings and overlays, not used).",
+  "extent": [
+    -82.9750035722852,
+    42.538603411496545,
+    -82.8557949475555,
+    42.63125012445829
+  ],
+  "verification": {
+    "verified_at": 1792275283436,
+    "counties": [
+      "26099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

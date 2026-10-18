@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-allegheny-upper-st-clair",
+  "publisher": "Township of Upper St. Clair (GIS, Cityworks master feature service, rberner_twpusc)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/XgADIppb49xTX0al/arcgis/rest/services/MasterFeatureService_ReadOnlyView/FeatureServer/35",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Upper St. Clair Township zoning districts from the township ArcGIS master feature service (ZoningDistrict layer, 147 features). Township only.",
+  "extent": [
+    -80.11996255047659,
+    40.29887304682665,
+    -80.04901682815661,
+    40.36483777532418
+  ],
+  "verification": {
+    "verified_at": 1792280535735,
+    "counties": [
+      "42003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

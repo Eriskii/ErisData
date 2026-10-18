@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-tooele-county-unincorporated",
+  "publisher": "Tooele County GIS (unincorporated county zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://tcgisws.tooeleco.gov/server/rest/services/Zoning/MapServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49045"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Descript"
+  },
+  "notes": "Tooele County unincorporated zoning districts (layer Zoning_TooeleCounty, county GIS). Layer is county-only; cities are in other layers.",
+  "extent": [
+    -114.04788910485328,
+    39.90335108344711,
+    -112.14439605893644,
+    41.07675919912557
+  ],
+  "verification": {
+    "verified_at": 1792280853455,
+    "counties": [
+      "49045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

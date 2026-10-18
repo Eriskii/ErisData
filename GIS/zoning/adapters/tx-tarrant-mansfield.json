@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-tarrant-mansfield",
+  "publisher": "City of Mansfield GIS (MansfieldTX ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/tUwpuhPn5EkXI11P/arcgis/rest/services/Mansfield_Basemap_for_Tyler_EPL/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48439"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT"
+  },
+  "notes": "City of Mansfield zoning districts from the city basemap service (MansfieldTX ArcGIS org). DISTRICT is the zoning district code. Layer also holds the case and ordinance numbers, not mapped.",
+  "extent": [
+    -97.1866296686665,
+    32.51521966610133,
+    -97.0468025703677,
+    32.61613920083083
+  ],
+  "verification": {
+    "verified_at": 1792280864065,
+    "counties": [
+      "48439"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

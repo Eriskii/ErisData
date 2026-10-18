@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wa-stevens-springdale",
+  "publisher": "Stevens County GIS (City of Springdale zoning districts)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stevenscountywa.gov/server/rest/services/Stevens_County_Zoning_Data/MapServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53065"
+    ]
+  },
+  "fields": {
+    "zone": "parceln",
+    "zone_name": "hyperlink"
+  },
+  "notes": "City of Springdale zoning districts (layer 5 of the county zoning data service). Zone code is in the PARCELN field and the district name in HYPERLINK, as published.",
+  "extent": [
+    -117.75867712937762,
+    48.0481779173039,
+    -117.734545602886,
+    48.07093009012486
+  ],
+  "verification": {
+    "verified_at": 1792281023888,
+    "counties": [
+      "53065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

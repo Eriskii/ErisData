@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-lenoir-pink-hill",
+  "publisher": "Lenoir County GIS (Town of Pink Hill zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/bDx73HOFAO3oSeDq/arcgis/rest/services/OpenGov/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37107"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Pink Hill zoning districts, published on the Lenoir County GIS OpenGov service (38 features). Zoning holds the district code. Town limits only.",
+  "extent": [
+    -77.74944430220872,
+    35.04053089981003,
+    -77.72012945265,
+    35.07725082053954
+  ],
+  "verification": {
+    "verified_at": 1792279870169,
+    "counties": [
+      "37107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "in-dearborn-unincorporated",
+  "publisher": "Dearborn County (Existing Zoning layer, Dearborn_Data service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/AeX7yhXqx2UBQyL7/arcgis/rest/services/Dearborn_Data/FeatureServer/29",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18029"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_ID",
+    "zone_name": "Zoning"
+  },
+  "filter": "Zoning <> 'INCORPORATED'",
+  "notes": "County existing zoning layer (unincorporated land; INCORPORATED polygons excluded). Hosted in the Dearborn_Data ArcGIS Online service; layer main.GIS.ExistingZoning. Codes such as A, AH, B1, B2, I1, I2, I3, R1, R2, R3, PUD, RW.",
+  "extent": [
+    -85.13260817781295,
+    38.93418478292872,
+    -84.81750969687153,
+    39.30754983814579
+  ],
+  "verification": {
+    "verified_at": 1792278247094,
+    "counties": [
+      "18029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

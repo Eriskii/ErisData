@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-duval-jacksonville-beach",
+  "publisher": "City of Jacksonville Beach (via ArcGIS account acummings_jaxbeach)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Yd24wKbBcPMKoWvP/arcgis/rest/services/Jacksonville_Beach_Zoning_v1_WFL1/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12031"
+    ]
+  },
+  "fields": {
+    "zone": "CATEGORY"
+  },
+  "notes": "City of Jacksonville Beach zoning districts (2023 layer, 79 polygons), published by a city-staff ArcGIS account. Single-jurisdiction layer. zone_name not populated in source.",
+  "extent": [
+    -81.430039863462,
+    30.252309104687395,
+    -81.38076439540666,
+    30.307736677980255
+  ],
+  "verification": {
+    "verified_at": 1792277633029,
+    "counties": [
+      "12031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

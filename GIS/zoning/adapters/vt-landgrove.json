@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "vt-landgrove",
+  "publisher": "Town of Landgrove, VT (Bennington RPC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/j4iUeJBDjMxiPkVg/arcgis/rest/services/VTZONING_Landgrove_01252024/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "50003"
+    ]
+  },
+  "fields": {
+    "zone": "ABBV",
+    "zone_name": "DISTRICT"
+  },
+  "notes": "Town of Landgrove zoning districts (2024), published by Bennington County RPC. 16 polygons. Single-jurisdiction layer.",
+  "extent": [
+    -72.86844211581888,
+    43.20451747538253,
+    -72.81930309170262,
+    43.30057714896935
+  ],
+  "verification": {
+    "verified_at": 1792280814312,
+    "counties": [
+      "50003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

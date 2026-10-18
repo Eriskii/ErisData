@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mn-sherburne-becker-township",
+  "publisher": "Becker Township (hosted by Sherburne County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/A86cpFIY5mfMGCej/arcgis/rest/services/Becker_Township_Zoning_4_11_2022/FeatureServer/108",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27141"
+    ]
+  },
+  "fields": {
+    "zone": "Twp_Zone"
+  },
+  "notes": "Becker Township zoning, from the Sherburne County ArcGIS Online organization, updated 4/11/2022. Parcel-level layer (one feature per PIN) carrying Twp_Zone per parcel; zone code only, no name or link field.",
+  "extent": [
+    -93.92336800442824,
+    45.3110073623324,
+    -93.75697980857638,
+    45.47270360874236
+  ],
+  "verification": {
+    "verified_at": 1792279266251,
+    "counties": [
+      "27141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

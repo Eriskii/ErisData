@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "il-dupage-westmont",
+  "publisher": "Village of Westmont GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/XWUAZV69Zk3cPZHa/arcgis/rest/services/Zoning_PublicView/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17043"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE2026"
+  },
+  "notes": "Last resort: Westmont Zoning_PublicView service, layer Current Zoning; per-parcel records (PIN, about 8,500 features) with one zone column per year. Uses ZONE2026 as the current code. No district name field. Westmont village publishes it as the official zoning public view.",
+  "extent": [
+    -87.99487308985053,
+    41.76470509294323,
+    -87.94826371948963,
+    41.82507654704592
+  ],
+  "verification": {
+    "verified_at": 1792278317782,
+    "counties": [
+      "17043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

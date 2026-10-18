@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-burke-rhodhiss",
+  "publisher": "Town of Rhodhiss (via Burke County GIS PublicAccessAux)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.burkenc.org/arcgis/rest/services/PublicAccessAux/MapServer/18",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37023"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_ID",
+    "zone_name": "Zoning"
+  },
+  "notes": "Town of Rhodhiss base zoning districts, from Burke County GIS (PublicAccessAux). Single-jurisdiction layer; about 150 of 555 districts fall outside the county line in the source extent.",
+  "extent": [
+    -81.44447987803804,
+    35.74856559128019,
+    -81.41972065992972,
+    35.782944479862905
+  ],
+  "verification": {
+    "verified_at": 1792279792356,
+    "counties": [
+      "37023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "me-york-kennebunkport",
+  "publisher": "Town of Kennebunkport, Maine (zoning layer hosted by Southern Maine Planning & Development Commission)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/EDmXP1QjmSmZlvBw/arcgis/rest/services/Kport_DistrictsNonShoreland/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23031"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_SYMBO",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Kennebunkport non-shoreland zoning districts (14 features) hosted on SMPDC ArcGIS services; 2018-era parcel-based data may be dated. Shoreland zoning (2009) is a separate layer and not used.",
+  "extent": [
+    -70.49260095071611,
+    43.340490539463055,
+    -70.39032264918352,
+    43.45245384837386
+  ],
+  "verification": {
+    "verified_at": 1792279078978,
+    "counties": [
+      "23031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

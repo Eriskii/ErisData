@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-waukesha-muskego",
+  "publisher": "City of Muskego",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.mapmuskego.com/arcgis/rest/services/mapPLANNING/Zoning_2/MapServer/6",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55133"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "City of Muskego zoning (MapMuskego Zoning_2 service, layer Zoning). Other layers are annotation, TID districts and CUG.",
+  "extent": [
+    -88.20066429954724,
+    42.8409051148694,
+    -88.06719412064894,
+    42.932110018960074
+  ],
+  "verification": {
+    "verified_at": 1792281562209,
+    "counties": [
+      "55133"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

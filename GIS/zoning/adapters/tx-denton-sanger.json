@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-denton-sanger",
+  "publisher": "City of Sanger GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/ovJOFQdikJNb2dMW/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48121"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Sanger zoning areas (ArcGIS account SangerTexas, layer Zoning). Zoning field holds the district code. Ordinance field is sparse and not mapped. Sanger spans Denton and Cooke counties; the layer is checked to lie in Denton County.",
+  "extent": [
+    -97.19895975296639,
+    33.32581475343386,
+    -97.1159135326895,
+    33.425153158249486
+  ],
+  "verification": {
+    "verified_at": 1792281820583,
+    "counties": [
+      "48121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

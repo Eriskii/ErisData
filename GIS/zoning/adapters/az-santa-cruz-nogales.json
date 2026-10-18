@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-santa-cruz-nogales",
+  "publisher": "City of Nogales, AZ (Planning Division, via city ArcGIS organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/BRJOZNVfgvIZho5O/arcgis/rest/services/Nogales_Zoning_Districts_August_2025_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04023"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Nogales zoning districts, 2025 update (approved by City Council Nov 6, 2024; August 2025 edition), 173 polygons. Covers the City of Nogales only. Jurisdiction is implied (single city layer). No ordinance link field.",
+  "extent": [
+    -110.977000476871,
+    31.332668593121692,
+    -110.89208387229544,
+    31.39228111194795
+  ],
+  "verification": {
+    "verified_at": 1792277188281,
+    "counties": [
+      "04023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

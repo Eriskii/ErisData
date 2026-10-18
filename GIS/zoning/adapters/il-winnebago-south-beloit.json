@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-winnebago-south-beloit",
+  "publisher": "City of South Beloit (via Winnebago County GIS, EcDev service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://utility.arcgis.com/usrsvcs/servers/44ad70f78c864e2ab40134c3866e3838/rest/services/EcDev/MapServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17201"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningClas",
+    "zone_name": "ZoningName"
+  },
+  "notes": "South Beloit base zoning districts, served from the Winnebago County GIS public EcDev MapServer.",
+  "extent": [
+    -89.08011111805925,
+    42.45691702900371,
+    -88.98254629989215,
+    42.49677087360022
+  ],
+  "verification": {
+    "verified_at": 1792278387328,
+    "counties": [
+      "17201"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

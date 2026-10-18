@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-clark-madison-township",
+  "publisher": "Clark County, Ohio (county zoning for Madison Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ago.clarkcountyohio.gov/ccoarcgis/rest/services/BHA/AGS_Clark_Zones/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39023"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TOWNSHIP",
+    "zone": "ZONING",
+    "zone_name": "ZONINGDESC"
+  },
+  "notes": "Unincorporated Madison Township zoning districts, county-administered; layer of the Clark County AGS_Clark_Zones service.",
+  "extent": [
+    -83.72042546086763,
+    39.76843462326918,
+    -83.56368241456317,
+    39.8588148022178
+  ],
+  "verification": {
+    "verified_at": 1792275619259,
+    "counties": [
+      "39023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

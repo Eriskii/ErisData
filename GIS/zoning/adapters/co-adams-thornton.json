@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-adams-thornton",
+  "publisher": "City of Thornton (zoning layer by consultant MeadHunt)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/2gKap7KMz7fy1U4a/arcgis/rest/services/Thornton_Zoning/FeatureServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08001"
+    ]
+  },
+  "fields": {
+    "zone": "local_zon",
+    "zone_name": "local_zon"
+  },
+  "notes": "City of Thornton zoning districts from the city zoning layer hosted by its consultant MeadHunt; 22 polygons.",
+  "extent": [
+    -105.01589334655408,
+    39.83107492588166,
+    -104.87749265947268,
+    40.00083873766963
+  ],
+  "verification": {
+    "verified_at": 1792277508787,
+    "counties": [
+      "08001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

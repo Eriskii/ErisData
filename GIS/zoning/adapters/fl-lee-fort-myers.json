@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-lee-fort-myers",
+  "publisher": "City of Fort Myers GIS (CFMGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/T37xMyv8DRNzouiI/arcgis/rest/services/Zoning1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12071"
+    ]
+  },
+  "fields": {
+    "zone": "District",
+    "zone_name": "DistrictName"
+  },
+  "notes": "City of Fort Myers zoning districts (Zoning1 service, CFMGIS). PUDName gives planned development names.",
+  "extent": [
+    -81.89561376380446,
+    26.547697738082498,
+    -81.75100167190955,
+    26.68932477464464
+  ],
+  "verification": {
+    "verified_at": 1792277642559,
+    "counties": [
+      "12071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

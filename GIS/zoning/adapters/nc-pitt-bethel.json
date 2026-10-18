@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-pitt-bethel",
+  "publisher": "Pitt County GIS (Town of Bethel zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pittcountync.gov/gis/rest/services/Permitting/PermitDisplayMap/MapServer/18",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37147"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Pitt County GIS permitting display map layer of Town of Bethel zoning polygons; covers Bethel only.",
+  "extent": [
+    -77.40795292314445,
+    35.78295864726268,
+    -77.33122425484996,
+    35.833315730863646
+  ],
+  "verification": {
+    "verified_at": 1792279903809,
+    "counties": [
+      "37147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

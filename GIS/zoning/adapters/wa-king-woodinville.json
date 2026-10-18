@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-king-woodinville",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), City of Woodinville",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '033' AND Jurisdiction = 'Woodinville'",
+  "notes": "State Zoning Atlas compilation of Woodinville zoning districts, Woodinville only (COUNTYFP 033).",
+  "extent": [
+    -122.1763135965018,
+    47.72391705006525,
+    -122.11075932352688,
+    47.77624700522185
+  ],
+  "verification": {
+    "verified_at": 1792282081139,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

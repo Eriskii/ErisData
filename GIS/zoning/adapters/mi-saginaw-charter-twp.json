@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-saginaw-charter-twp",
+  "publisher": "Saginaw Charter Township (layer uploaded by township account dhoff49 to ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/CmHnqlf5e6ltOCrY/arcgis/rest/services/Saginaw_Charter_Township_Selected_Vacant_Land_with_Zoning_WFL1/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26145"
+    ]
+  },
+  "fields": {
+    "zone": "Z_PRIMARY"
+  },
+  "filter": "Z_PRIMARY <> ' '",
+  "notes": "Parcel-level layer (about 14,800 features) carrying each parcel zoning in Z_PRIMARY, not a district polygon layer; last resort. Copy by ArcGIS Online user dhoff49 (not confirmed official); the township publishes its zoning map only as a PDF/map viewer. Saginaw Charter Township only. Zone codes such as R-1, B-3, A-2; blank for many parcels.",
+  "extent": [
+    -84.09620347478157,
+    43.392680335184785,
+    -83.95570379348125,
+    43.481220022157935
+  ],
+  "verification": {
+    "verified_at": 1792275377782,
+    "counties": [
+      "26145"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

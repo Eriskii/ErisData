@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-fresno-mendota",
+  "publisher": "City of Mendota (zoning layer on Fehr and Peers data review server, copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://devapps.fehrandpeers.com/devgis/rest/services/RS/RS234248_Data_Review/FeatureServer/25",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "Zoning_Condensed"
+  },
+  "notes": "Non-official copy: a consultant development/data-review service (Fehr and Peers, RS234248_Data_Review), layer flagged as under review for a 2023 city zoning update. The city publishes its zoning only as PDF/image maps, so nothing official is queryable. Zone code from ZONING; Zoning_Condensed is the condensed label. About 240 polygons, one city.",
+  "extent": [
+    -120.39578767912224,
+    36.72284569678136,
+    -120.36360822528393,
+    36.77228489268198
+  ],
+  "verification": {
+    "verified_at": 1792277565813,
+    "counties": [
+      "06019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

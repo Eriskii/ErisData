@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-summit-new-franklin",
+  "publisher": "Summit County GIS (New Franklin zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "GENERAL"
+  },
+  "notes": "New Franklin layer from Summit County GIS ZoningNov2025 service (layer 14). zone_name is a general category; DISTRICT_N is blank.",
+  "extent": [
+    -81.64864649351466,
+    40.91028456158488,
+    -81.53141723518556,
+    40.98945823039921
+  ],
+  "verification": {
+    "verified_at": 1792276166938,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

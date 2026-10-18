@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-washington-plymouth",
+  "publisher": "Town of Plymouth via Albemarle Commission GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/UUcbxEFb9dsHY8CA/arcgis/rest/services/PLYMOUTH_ZONING/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37187"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT",
+    "zone_name": "NAME"
+  },
+  "notes": "Town of Plymouth zoning districts, layer PLYMOUTH_ZONING, linked from the Town of Plymouth GIS viewer (accog.maps.arcgis.com appid 94573cce05fa4d23897bd232041775d9).",
+  "extent": [
+    -76.7863574121833,
+    35.827288528652446,
+    -76.70119625008384,
+    35.888385365830594
+  ],
+  "verification": {
+    "verified_at": 1792279899540,
+    "counties": [
+      "37187"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

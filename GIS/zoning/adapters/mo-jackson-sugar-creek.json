@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mo-jackson-sugar-creek",
+  "publisher": "City of Sugar Creek, MO",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/2p2VGW23S6tWrlGO/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29095"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Sugar Creek, MO zoning layer (ArcGIS Online org 2p2VGW23S6tWrlGO). Check field names in report.",
+  "extent": [
+    -94.46196418057671,
+    39.10221614502035,
+    -94.32962700443339,
+    39.18204303235622
+  ],
+  "verification": {
+    "verified_at": 1792279333801,
+    "counties": [
+      "29095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

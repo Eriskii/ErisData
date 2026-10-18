@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-walton-social-circle",
+  "publisher": "City of Social Circle, GA (Community Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/LtjAOW49t0cQdmjH/arcgis/rest/services/Zoning_SocialCircle_Working/FeatureServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13297"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Cla"
+  },
+  "notes": "City of Social Circle own ArcGIS account (SocialCircleCommDev), Social Circle Zoning (UDC) layer; actively updated. Zoning_Cla holds the district code; no description field. Covers the city only.",
+  "extent": [
+    -83.75973113929285,
+    33.605485230286995,
+    -83.66513482072143,
+    33.685387795745264
+  ],
+  "verification": {
+    "verified_at": 1792277998190,
+    "counties": [
+      "13297"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

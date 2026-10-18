@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-cass",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Cass Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/25_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "muni",
+    "zone": "district",
+    "zone_name": "district_n"
+  },
+  "notes": "Municipal zoning for Cass Township (MUNIS 25), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.07054441729159,
+    40.794765850198225,
+    -75.90817357485244,
+    40.8786663281368
+  ],
+  "verification": {
+    "verified_at": 1792280347717,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

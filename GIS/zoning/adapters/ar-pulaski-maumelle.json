@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ar-pulaski-maumelle",
+  "publisher": "City of Maumelle, AR",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/AbhVwR4DmPmS0tHw/arcgis/rest/services/Maumelle_Zoning/FeatureServer/489",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05119"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Maumelle zoning districts, as of 5/2/23, hosted by the city on ArcGIS Online. Covers Maumelle only.",
+  "extent": [
+    -92.44232584660085,
+    34.815558019861946,
+    -92.34725299954547,
+    34.887612746858466
+  ],
+  "verification": {
+    "verified_at": 1792277247046,
+    "counties": [
+      "05119"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

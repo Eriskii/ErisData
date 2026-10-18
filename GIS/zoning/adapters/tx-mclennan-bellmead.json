@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-mclennan-bellmead",
+  "publisher": "City of Bellmead, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Cgi9HftnSPWACi87/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 22,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48309"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Bellmead zoning districts. Zone field holds district code or description in places (e.g. Industrial).",
+  "extent": [
+    -97.1233019847167,
+    31.572833887304174,
+    -97.06084833308648,
+    31.6318362287251
+  ],
+  "verification": {
+    "verified_at": 1792280732418,
+    "counties": [
+      "48309"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

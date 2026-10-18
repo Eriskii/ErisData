@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-yolo-woodland",
+  "publisher": "City of Woodland GIS (cowgis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cityofwoodland.org/cowgis/rest/services/External/Zoning/MapServer/12",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06113"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Code",
+    "zone_name": "Description"
+  },
+  "notes": "City of Woodland zoning districts, citywide.",
+  "extent": [
+    -121.80265686885168,
+    38.63727256033648,
+    -121.68513988846244,
+    38.70943359022835
+  ],
+  "verification": {
+    "verified_at": 1792277465752,
+    "counties": [
+      "06113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

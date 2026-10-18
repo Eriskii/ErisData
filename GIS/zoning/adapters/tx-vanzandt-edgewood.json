@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-vanzandt-edgewood",
+  "publisher": "City of Edgewood, TX (ETCOG-hosted GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.etcog.org/arcgis/rest/services/EDGEWOOD/EdgewoodZoning_Public/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48467"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Edgewood zoning districts, served by East Texas Council of Governments for the City. The CITY attribute is inconsistent (mostly codes such as CTE or blank), so no filter is applied; the layer is the city layer.",
+  "extent": [
+    -95.90041290006572,
+    32.6781580338357,
+    -95.86748899991237,
+    32.7056419995428
+  ],
+  "verification": {
+    "verified_at": 1792280732346,
+    "counties": [
+      "48467"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

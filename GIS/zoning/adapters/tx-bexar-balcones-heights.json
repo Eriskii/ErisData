@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-bexar-balcones-heights",
+  "publisher": "City of Balcones Heights, TX (ArcGIS org BalconesHeights)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/jeMcou1Vro0S6oBN/arcgis/rest/services/Parcels_City_Limits_Only/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48029"
+    ]
+  },
+  "fields": {
+    "zone": "zoning"
+  },
+  "notes": "Parcel-level layer from the city ArcGIS org (city limits only), carrying each parcel zoning district in the zoning attribute; used because no district polygon layer was found. Balcones Heights official zoning map is a 2019 PDF.",
+  "extent": [
+    -98.55942987158124,
+    29.482651371804497,
+    -98.54399793236878,
+    29.501825460843772
+  ],
+  "verification": {
+    "verified_at": 1792281124437,
+    "counties": [
+      "48029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

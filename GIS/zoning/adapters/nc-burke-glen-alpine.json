@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-burke-glen-alpine",
+  "publisher": "Town of Glen Alpine (via Burke County municipal zoning feature service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/axQ4OCSpcxALIQsV/arcgis/rest/services/Municipal_Zoning_FS/FeatureServer/72",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37023"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID"
+  },
+  "notes": "Town of Glen Alpine base zoning districts, from the Burke County municipal zoning feature service. Single-jurisdiction layer; LAND_USE is blank so no district name.",
+  "extent": [
+    -81.8106418163949,
+    35.70979008606228,
+    -81.76548586847238,
+    35.75047576782537
+  ],
+  "verification": {
+    "verified_at": 1792279787342,
+    "counties": [
+      "37023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

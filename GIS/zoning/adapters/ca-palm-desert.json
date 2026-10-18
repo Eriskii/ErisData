@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-palm-desert",
+  "publisher": "SCAG compiled city zoning (Palm Desert)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.scag.ca.gov/scaggis/rest/services/LDX/Zoning_poly_RV/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZN24_CITY"
+  },
+  "filter": "CITY = 'Palm Desert'",
+  "notes": "SCAG 2024 compiled city zoning (YEAR_ZN 2024), parcel-level polygons; city codes in ZN24_CITY. No name or ordinance link field.",
+  "extent": [
+    -116.4258087622961,
+    33.670056506151774,
+    -116.30197323058646,
+    33.81022267698593
+  ],
+  "verification": {
+    "verified_at": 1792278380684,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

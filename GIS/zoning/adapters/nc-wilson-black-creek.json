@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-wilson-black-creek",
+  "publisher": "Wilson County GIS (Town of Black Creek zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.wilson-co.com/arcgis/rest/services/Templets/ARCGIS_Templet/MapServer/23",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37195"
+    ]
+  },
+  "fields": {
+    "zone": "ZONES"
+  },
+  "notes": "Town of Black Creek zoning districts, from the Wilson County template map service.",
+  "extent": [
+    -77.95607788857565,
+    35.61469778771675,
+    -77.90828312349923,
+    35.65641901100585
+  ],
+  "verification": {
+    "verified_at": 1792279934313,
+    "counties": [
+      "37195"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

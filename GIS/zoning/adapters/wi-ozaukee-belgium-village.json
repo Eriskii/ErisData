@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-ozaukee-belgium-village",
+  "publisher": "Village of Belgium",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/RjmpxLdg045MyUow/arcgis/rest/services/Zoning_2025_ViewOnly/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55089"
+    ]
+  },
+  "fields": {
+    "link": "ORDINANCE",
+    "zone": "Zoning",
+    "zone_name": "ZONINGDESC"
+  },
+  "notes": "Village of Belgium zoning, hosted on the village ArcGIS account (view-only service name). Polygon layer, 1155 features, possibly parcel-level. Conditional use in CONDITIONALUSE.",
+  "extent": [
+    -87.8649219152122,
+    43.48648872448041,
+    -87.83010356778,
+    43.52162019052203
+  ],
+  "verification": {
+    "verified_at": 1792281406921,
+    "counties": [
+      "55089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

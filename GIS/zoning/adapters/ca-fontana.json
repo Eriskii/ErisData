@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-fontana",
+  "publisher": "City of Fontana",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/XhE4Nx2bBPScQrhF/arcgis/rest/services/Fontana_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "zone": "FINAL_ZONE"
+  },
+  "notes": "City of Fontana zoning districts; single-city layer. zone_name not populated in source.",
+  "extent": [
+    -117.52430798479271,
+    34.033486986280735,
+    -117.40147056820842,
+    34.1858735387366
+  ],
+  "verification": {
+    "verified_at": 1792277416660,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

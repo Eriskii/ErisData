@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-ryan",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Ryan Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/21_zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "munis",
+    "zone": "zone",
+    "zone_name": "descrpt"
+  },
+  "notes": "Municipal zoning for Ryan Township (MUNIS 21), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.51507253870524,
+    40.49529015740919,
+    -76.32939915027931,
+    40.59781858251235
+  ],
+  "verification": {
+    "verified_at": 1792280291882,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

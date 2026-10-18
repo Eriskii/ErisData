@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "mi-oakland-farmington-hills",
+  "publisher": "City of Farmington Hills GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/Voda7YLF8AUZO5Ro/arcgis/rest/services/Zoning_Districts_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26125"
+    ]
+  },
+  "fields": {
+    "link": "ZoningDistrictHyperlink",
+    "zone": "ZONINGCLASSIFICATION",
+    "zone_name": "ZONINGDESCRIPTION"
+  },
+  "notes": "City of Farmington Hills zoning districts, published by city GIS staff (hosted view, Zoning_Districts_View). Covers Farmington Hills only.",
+  "extent": [
+    -83.43883820285572,
+    42.438201913409806,
+    -83.3153744033515,
+    42.53040514442938
+  ],
+  "verification": {
+    "verified_at": 1792275432565,
+    "counties": [
+      "26125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-la-crosse-onalaska",
+  "publisher": "City of Onalaska GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/VMiHKHuCDWhb8bY8/arcgis/rest/services/Zoning_View/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55063"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningCodeDesc"
+  },
+  "notes": "City of Onalaska zoning districts, official city ArcGIS Online layer. City land only.",
+  "extent": [
+    -91.25091901480064,
+    43.861087086770176,
+    -91.14944559530564,
+    43.924408242142945
+  ],
+  "verification": {
+    "verified_at": 1792281306952,
+    "counties": [
+      "55063"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

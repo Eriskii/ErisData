@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ky-hopkins-mortons-gap",
+  "publisher": "Hopkins County GIS / City of Mortons Gap",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.hopkinscountygis.com:6443/arcgis/rest/services/MortonsGapZoning/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21107"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Mortons Gap zoning districts, served by Hopkins County GIS. 14 features. Separate multi-family overlay layer (MapServer/1) excluded.",
+  "extent": [
+    -87.48035615731303,
+    37.225768157518885,
+    -87.43525609844198,
+    37.25765255384843
+  ],
+  "verification": {
+    "verified_at": 1792278688230,
+    "counties": [
+      "21107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

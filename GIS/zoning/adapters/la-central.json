@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "la-central",
+  "publisher": "City of Central (IBTS GIS portal)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/wATr0UsvWt8807Pv/arcgis/rest/services/Zoning_/FeatureServer/56",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22033"
+    ]
+  },
+  "fields": {
+    "link": "More_Info",
+    "zone": "ZONING_TYP"
+  },
+  "notes": "City of Central zoning districts from the city GIS Map Portal (IBTS ArcGIS org), layer Zoning_ sublayer 56. Single-city layer; zone holds district type.",
+  "extent": [
+    -91.1032129283645,
+    30.46566459255402,
+    -90.96761630387968,
+    30.648954301691923
+  ],
+  "verification": {
+    "verified_at": 1792278754173,
+    "counties": [
+      "22033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

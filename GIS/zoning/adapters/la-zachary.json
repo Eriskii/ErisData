@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "la-zachary",
+  "publisher": "City of Zachary (hosted in EBRGIS web map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/KYvXadMcgf0K1EzK/arcgis/rest/services/Zoning_Zachary/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22033"
+    ]
+  },
+  "fields": {
+    "zone": "UDC_Zoning"
+  },
+  "notes": "City of Zachary zoning districts (UDC zoning). Single-city layer, no jurisdiction field needed. Found via the City of Zachary web map item in EBRGIS portal.",
+  "extent": [
+    -91.24691613845812,
+    30.58063683050243,
+    -91.08953215640119,
+    30.71406645368059
+  ],
+  "verification": {
+    "verified_at": 1792278726003,
+    "counties": [
+      "22033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

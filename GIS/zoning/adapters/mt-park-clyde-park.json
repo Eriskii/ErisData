@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mt-park-clyde-park",
+  "publisher": "Park County GIS (Town of Clyde Park draft zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/De8iY1SoM3l4PKku/arcgis/rest/services/ClydeParkDraftZoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "30067"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "OTHER"
+  },
+  "notes": "Town of Clyde Park zoning, published by Park County GIS as ClydeParkProposedTownZoning / ClydeParkDraftZoning (proposed draft zoning, 13 polygons; single town, no jurisdiction field). Zone names in OTHER (e.g. Residential 1); NAME holds CLYDE PARK. Draft status: confirm against adopted Clyde Park ordinance.",
+  "extent": [
+    -110.63536185393956,
+    45.8657395452263,
+    -110.5759212027411,
+    45.903010038375214
+  ],
+  "verification": {
+    "verified_at": 1792279388913,
+    "counties": [
+      "30067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

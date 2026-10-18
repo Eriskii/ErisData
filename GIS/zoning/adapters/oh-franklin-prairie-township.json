@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-franklin-prairie-township",
+  "publisher": "Franklin County Economic Development & Planning (EDPGIS), for Prairie Township",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/7r2Wl09a1Apy459r/arcgis/rest/services/Prairie_Twp_Zoning/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Prairie Township zoning from the county EDPGIS host (Prairie_Twp_Zoning, last updated 2012). Parcel-level polygons with PID; ZONING holds the district code only, no name field. Last resort for a district layer.",
+  "extent": [
+    -83.24617800750819,
+    39.88963319581827,
+    -83.11751055627147,
+    39.984243029990786
+  ],
+  "verification": {
+    "verified_at": 1792276145513,
+    "counties": [
+      "39049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

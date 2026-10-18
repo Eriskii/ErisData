@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-washington-rockville",
+  "publisher": "Washington County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://agisprodvm.washco.utah.gov/arcgis/rest/services/Zoning/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49053"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "SOURCE",
+    "zone": "ZONINGCODE",
+    "zone_name": "GEN_ZONE"
+  },
+  "notes": "Town of Rockville zoning districts, hosted by Washington County GIS; one jurisdiction per layer (SOURCE holds Rockville). DESCRIPTION is null in source, so zone_name is the general category GEN_ZONE.",
+  "extent": [
+    -113.09462577971031,
+    37.111441148285046,
+    -113.0148690836568,
+    37.17228600403115
+  ],
+  "verification": {
+    "verified_at": 1792280921204,
+    "counties": [
+      "49053"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

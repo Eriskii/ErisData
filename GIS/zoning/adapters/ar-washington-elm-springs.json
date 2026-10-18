@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ar-washington-elm-springs",
+  "publisher": "City of Elm Springs, AR (NWARPC-hosted ArcGIS Online layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/G4bYaaas92zuKaUR/arcgis/rest/services/Elm_Springs_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "05143"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "type"
+  },
+  "notes": "City of Elm Springs zoning districts, city limits only; ord holds ordinance reference",
+  "extent": [
+    -94.3005325428088,
+    36.18825114166512,
+    -94.18547537672839,
+    36.220784942808635
+  ],
+  "verification": {
+    "verified_at": 1792277367835,
+    "counties": [
+      "05143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

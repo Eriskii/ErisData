@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-clinton-plattsburgh-town",
+  "publisher": "Town of Plattsburgh (copy on ArcGIS Online by CutterL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/33FPYaVQYNa7sFJ5/arcgis/rest/services/Plattsburgh_Town_Zoning_2023/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36019"
+    ]
+  },
+  "fields": {
+    "zone": "Proposed_Z"
+  },
+  "notes": "Copy hosted on ArcGIS Online by CutterL (personal item), not an official town service; the town publishes its 2023 zoning ordinance and 2024 zoning map as PDFs at townofplattsburghny.gov. The zone field is named Proposed_Z in the copy; codes may reflect the proposed map. Covers Town of Plattsburgh base districts only; overlays (WP, PDD) are separate layers and not included. No zone name field.",
+  "extent": [
+    -73.67355651975429,
+    44.6213094138357,
+    -73.37768362696409,
+    44.74975069373116
+  ],
+  "verification": {
+    "verified_at": 1792279648507,
+    "counties": [
+      "36019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

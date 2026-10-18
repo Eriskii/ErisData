@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-wormleysburg",
+  "publisher": "Cumberland County Planning Department (Wormleysburg Borough zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/32",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Wormleysburg Borough zoning layer from the county GIS Zoning_Basemap service; digitized by the county from municipal paper maps, may not be the official adopted maps. ZoneType also available.",
+  "extent": [
+    -76.92142284333464,
+    40.24958606907349,
+    -76.89054509284472,
+    40.27199878605467
+  ],
+  "verification": {
+    "verified_at": 1792280214641,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

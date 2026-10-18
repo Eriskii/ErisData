@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-silver-spring",
+  "publisher": "Cumberland County Planning Department (Silver Spring Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/23",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Silver Spring Township zoning layer from the county GIS Zoning_Basemap service; digitized by the county from municipal paper maps, may not be the official adopted maps.",
+  "extent": [
+    -77.10847391243196,
+    40.19427254019379,
+    -77.00426885386273,
+    40.30529015018662
+  ],
+  "verification": {
+    "verified_at": 1792280106783,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

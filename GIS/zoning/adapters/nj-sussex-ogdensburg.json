@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nj-sussex-ogdensburg",
+  "publisher": "Borough of Ogdensburg (zoning map hosted by Van Clef Engineering, ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/4xHlAF85LdkWPmw2/arcgis/rest/services/Ogdensburg_Zoning_Map_WFL1/FeatureServer/5",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34037"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Ogdensburg Borough zoning districts, 39 polygons, layer from the borough zoning map item published by Van Clef Engineering on ArcGIS Online (borough engineer, treated as vendor serving the borough). Single-municipality layer, no jurisdiction field needed.",
+  "extent": [
+    -74.61461764072217,
+    41.06326183942442,
+    -74.5770721357058,
+    41.09290227111907
+  ],
+  "verification": {
+    "verified_at": 1792279815669,
+    "counties": [
+      "34037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

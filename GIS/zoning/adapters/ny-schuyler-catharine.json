@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-schuyler-catharine",
+  "publisher": "Schuyler County GIS (Town of Catharine zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/wGGTeQ7ADSSKDWnb/arcgis/rest/services/Town_of_Catharine_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36097"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Name"
+  },
+  "notes": "Town of Catharine zoning, hosted on the Schuyler County ArcGIS services account; updated 9/8/25. Layer is in NY State Plane (wkid 102716); service reprojects to WGS84.",
+  "extent": [
+    -76.79942936963178,
+    42.294241724030755,
+    -76.68793107877065,
+    42.39028379134779
+  ],
+  "verification": {
+    "verified_at": 1792279622178,
+    "counties": [
+      "36097"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-newtown",
+  "publisher": "Town of Newtown GIS (newtowngis)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/6v6OusjE9RaBLf3L/arcgis/rest/services/land_use_WFL1/FeatureServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09190"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Last resort: parcel layer carrying each parcel zoning attribute (ZONING), not a district polygon layer; the town district layer is on an unreachable mapxpress viewer. Parcels with blank ZONING are not zoned in the source.",
+  "extent": [
+    -73.37862353523778,
+    41.318343171546296,
+    -73.18345038119517,
+    41.472743071917975
+  ],
+  "verification": {
+    "verified_at": 1792277761927,
+    "counties": [
+      "09190"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

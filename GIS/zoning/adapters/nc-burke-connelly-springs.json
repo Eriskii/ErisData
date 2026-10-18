@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-burke-connelly-springs",
+  "publisher": "Town of Connelly Springs (via Burke County municipal zoning feature service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/axQ4OCSpcxALIQsV/arcgis/rest/services/Municipal_Zoning_FS/FeatureServer/70",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37023"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID"
+  },
+  "notes": "Town of Connelly Springs base zoning districts, from the Burke County municipal zoning feature service. Single-jurisdiction layer; the layer carries no district description (LAND_USE is blank).",
+  "extent": [
+    -81.52112947395625,
+    35.72562469039405,
+    -81.46481469879309,
+    35.78275894110534
+  ],
+  "verification": {
+    "verified_at": 1792279721394,
+    "counties": [
+      "37023"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

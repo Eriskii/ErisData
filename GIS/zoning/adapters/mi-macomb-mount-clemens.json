@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mi-macomb-mount-clemens",
+  "publisher": "City of Mount Clemens (AEW, Inc. hosted public zoning app)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.aewinc.com/arcgis/rest/services/MtClemens/MtClemensPublicZoningPro/MapServer/35",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26099"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Mt. Clemens zoning, layer 35 Zoning of the city public zoning app service hosted by AEW Inc. Parcel-level layer (about 6,252 features, one per parcel with PIN and ADDRESS) carrying each parcel zoning in Zoning; used as a last resort because no district-level layer was found. Zoning holds descriptive class names, not codes.",
+  "extent": [
+    -82.9020885239776,
+    42.57777604362118,
+    -82.8563431461897,
+    42.61798083709978
+  ],
+  "verification": {
+    "verified_at": 1792275435621,
+    "counties": [
+      "26099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

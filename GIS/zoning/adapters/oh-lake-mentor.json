@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-lake-mentor",
+  "publisher": "City of Mentor, Ohio (Official Zoning Map, hosted ArcGIS item by Carlino7)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/okhVtNyTOuNt9jI3/arcgis/rest/services/Official_Zoning_Map/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39085"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode"
+  },
+  "notes": "City of Mentor Official Zoning Map (Zoning_042426 layer), city-branded item; based on 2010 parcels and 1982 mylars. Only zone code mapped; no zone name field.",
+  "extent": [
+    -81.39135766452836,
+    41.63951180289999,
+    -81.29058859055833,
+    41.75890256900722
+  ],
+  "verification": {
+    "verified_at": 1792275831133,
+    "counties": [
+      "39085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

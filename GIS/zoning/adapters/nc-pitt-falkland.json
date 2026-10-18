@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-pitt-falkland",
+  "publisher": "Pitt County GIS (Town of Falkland zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.pittcountync.gov/gis/rest/services/Permitting/PermitDisplayMap/MapServer/19",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37147"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Pitt County GIS permitting display map layer of Town of Falkland zoning polygons; covers Falkland only.",
+  "extent": [
+    -77.5355034758447,
+    35.67958186590617,
+    -77.48962562221926,
+    35.7169320924214
+  ],
+  "verification": {
+    "verified_at": 1792279917293,
+    "counties": [
+      "37147"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

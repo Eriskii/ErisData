@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-kane-glendale",
+  "publisher": "Utah AGRC (generalized zoning, Glendale source data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "49025"
+    ]
+  },
+  "fields": {
+    "link": "source_map",
+    "zone": "gen_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county = 'Kane' AND city LIKE 'Glendale%'",
+  "notes": "Utah AGRC statewide generalized zoning layer; Kane County Glendale rows only (7 features). zone = generalized category; source_zone holds the town code. City names carry trailing spaces, hence LIKE.",
+  "extent": [
+    -112.63944242145443,
+    37.29323167600533,
+    -112.5740531321764,
+    37.38119103011395
+  ],
+  "verification": {
+    "verified_at": 1792281079776,
+    "counties": [
+      "49025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

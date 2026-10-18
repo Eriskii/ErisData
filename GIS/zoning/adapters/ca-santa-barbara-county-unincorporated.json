@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-santa-barbara-county-unincorporated",
+  "publisher": "County of Santa Barbara Planning and Development",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/KkJhFbLnXVqahKz2/arcgis/rest/services/Zoning_Color_Coded/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZonDescrip"
+  },
+  "notes": "County unincorporated zoning only (Article II, LUDC, Ordinance 661), not city zoning. Cities are separate layers.",
+  "extent": [
+    -120.68514267070348,
+    33.44070058346206,
+    -119.02742059171572,
+    35.127644273231695
+  ],
+  "verification": {
+    "verified_at": 1792277381864,
+    "counties": [
+      "06083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

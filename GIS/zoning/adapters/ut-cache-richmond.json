@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-cache-richmond",
+  "publisher": "Cache County GIS (Richmond City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/City_Zoning/MapServer/14",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49005"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "city_name",
+    "zone": "zone_code",
+    "zone_name": "zone_type"
+  },
+  "filter": "city_name = 'RICHMOND'",
+  "notes": "Richmond city zoning from Cache County City_Zoning service, which holds all 19 Cache County cities in one table; the filter selects Richmond. density field also present.",
+  "extent": [
+    -111.82925189867125,
+    41.90374048989603,
+    -111.7912278437692,
+    41.947111255051475
+  ],
+  "verification": {
+    "verified_at": 1792280812492,
+    "counties": [
+      "49005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ny-albany-green-island",
+  "publisher": "Albany County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/mBzcjj7yrA6fBe9F/arcgis/rest/services/AlbanyCountyZoningBoundaries/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Municip",
+    "zone": "ZoneAbb",
+    "zone_name": "Zone"
+  },
+  "filter": "Municip = 'Village of Green Island'",
+  "notes": "Albany County zoning boundaries layer covering all municipalities; filtered to one village per spec.",
+  "extent": [
+    -73.69813734259965,
+    42.73510369087854,
+    -73.68562161848065,
+    42.760695427269994
+  ],
+  "verification": {
+    "verified_at": 1792279656165,
+    "counties": [
+      "36001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

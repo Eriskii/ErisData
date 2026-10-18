@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "nj-morris-county-compiled",
+  "publisher": "Morris County Office of Planning and Preservation (county compilation of municipal zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.co.morris.nj.us/server/rest/services/Zoning/Morris_County_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34027"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MunicipalID",
+    "zone": "Zone",
+    "zone_name": "ZoneLabel"
+  },
+  "filter": "MunicipalID NOT IN ('1426', '1429')",
+  "notes": "County-wide compilation of municipal zoning maps by Morris County Planning. jurisdiction holds the NJ state municipal code (1401-1439), not a name: 1401 Boonton town through 1439. Filter excludes 1426 (Mount Olive) and 1429 (Parsippany-Troy Hills), which are saved already. Source field says Municipal Zoning Map; edit dates vary by municipality (some from 2008-2023).",
+  "extent": [
+    -74.88982048543902,
+    40.64845555098354,
+    -74.26659231370081,
+    41.0860700567204
+  ],
+  "verification": {
+    "verified_at": 1792279539867,
+    "counties": [
+      "34027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "az-pinal-apache-junction",
+  "publisher": "City of Apache Junction",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/4qIOeADCgonipFEW/arcgis/rest/services/City_of_Apache_Junction_EV_Siting_Plan_Data_Viewer_WFL1/FeatureServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04021"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Apache Junction - Zoning Districts layer inside the city EV Siting Plan data viewer on ArcGIS Online (linked from the city GIS division page). Covers city limits, which lie partly in Pinal and partly in Maricopa County; Pinal portion only in this county. Overlay field not mapped.",
+  "extent": [
+    -111.58487003829168,
+    33.30006949432756,
+    -111.4769013398177,
+    33.451381547623654
+  ],
+  "verification": {
+    "verified_at": 1792277524517,
+    "counties": [
+      "04021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

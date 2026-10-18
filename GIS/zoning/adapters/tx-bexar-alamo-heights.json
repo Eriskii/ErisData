@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-bexar-alamo-heights",
+  "publisher": "City of Alamo Heights, TX (via Maplink zoning service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/MkUfAWaYm2SQf4Qa/arcgis/rest/services/alamo_heights_zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48029"
+    ]
+  },
+  "fields": {
+    "link": "ZONING_URL",
+    "zone": "Code",
+    "zone_name": "ZONE_DESCR"
+  },
+  "notes": "City of Alamo Heights zoning districts, city limits. Published by the city vendor Maplink (the city zoning map at al6722.zoninghub.com uses the same data).",
+  "extent": [
+    -98.48207164457557,
+    29.467631337677513,
+    -98.45933675226104,
+    29.4963844318042
+  ],
+  "verification": {
+    "verified_at": 1792280668757,
+    "counties": [
+      "48029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

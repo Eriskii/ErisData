@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mo-jackson-lees-summit",
+  "publisher": "City of Lees Summit, MO",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.cityofls.net/arcgis/rest/services/Zoning/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "29095"
+    ]
+  },
+  "fields": {
+    "link": "NOTES",
+    "zone": "ZONING"
+  },
+  "notes": "City of Lee's Summit official zoning districts (layer 1, not the overlay layer 0). Source has no jurisdiction field; all features are Lees Summit.",
+  "extent": [
+    -94.4712633456342,
+    38.824065636802,
+    -94.29317740410107,
+    39.02639489352588
+  ],
+  "verification": {
+    "verified_at": 1792279394940,
+    "counties": [
+      "29095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

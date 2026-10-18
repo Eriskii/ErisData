@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-bethany",
+  "publisher": "South Central CT Regional Council of Governments (SCRCOG), compiled 2018 zoning, hosted by OpenCommunitiesAlliance1",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/bDIODuUqvoiS6i6c/arcgis/rest/services/SCRCOG_Zoning_2018_gdb/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09170"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Copy of SCRCOG 2018 regional zoning compilation on ArcGIS Online (item by OpenCommunitiesAlliance1), not the town server; Bethany layer only (BETHANY_ZONING). ZONING holds district code; DESCRIPTION repeats the code. Compiled 2018, may predate amendments.",
+  "extent": [
+    -73.04759044398494,
+    41.38848225220962,
+    -72.94077328361828,
+    41.47005448112728
+  ],
+  "verification": {
+    "verified_at": 1792277687305,
+    "counties": [
+      "09170"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-santaquin",
+  "publisher": "Utah County GIS (Santaquin City Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/58",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_SQ_LABEL",
+    "zone_name": "ZONE_SQ_DESC"
+  },
+  "notes": "Santaquin City zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 58, 87 features).",
+  "extent": [
+    -111.84319154956,
+    39.93841567471351,
+    -111.73398613748864,
+    40.00496678506075
+  ],
+  "verification": {
+    "verified_at": 1792280901130,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

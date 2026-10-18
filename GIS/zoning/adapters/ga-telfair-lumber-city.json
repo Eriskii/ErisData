@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ga-telfair-lumber-city",
+  "publisher": "City of Lumber City / HOGARC GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/HHvUPZ2XuLOAJxjR/arcgis/rest/services/City_of_Lumber_City_View/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13271"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "Zoning"
+  },
+  "filter": "Zoning IS NOT NULL AND Zoning <> ' ' AND Zoning <> 'Road'",
+  "notes": "Last resort: no base zoning district layer found for Lumber City; this layer (Lumber Zoning) is a parcel layer whose Zoning attribute carries each parcel's zoning as a description (e.g. Single Family Residential). Only parcels with a zoning value are included; most parcels are blank and are excluded.",
+  "extent": [
+    -82.70130363758987,
+    31.91044578028976,
+    -82.645667087941,
+    31.95250947961899
+  ],
+  "verification": {
+    "verified_at": 1792278061674,
+    "counties": [
+      "13271"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-albany-statewide-copy",
+  "publisher": "Albany (from California statewide zoning compilation, personal ArcGIS Online copy by 1860040_CAL)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "Jurisdiction = 'Albany' AND County = 'ALA'",
+  "notes": "Unofficial copy: statewide zoning compilation (CaliforniaZoning10_17_24, 535 jurisdictions) hosted on a personal ArcGIS Online account, used because Albany publishes only a PDF zoning map. Filtered to Albany. Verify against the city PDF before relying on it.",
+  "extent": [
+    -122.31118289505076,
+    37.88179545424794,
+    -122.28166585830736,
+    37.89896879462825
+  ],
+  "verification": {
+    "verified_at": 1792277409520,
+    "counties": [
+      "06001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

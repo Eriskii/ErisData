@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-ashtabula-township",
+  "publisher": "Ashtabula Township (Ashtabula County, OH) via branchgis72 AshtabulaTwpZoningOnline",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/tFEg7CKjyBnUNCnH/arcgis/rest/services/AshtabulaTwpZoningOnline/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39007"
+    ]
+  },
+  "fields": {
+    "zone": "District",
+    "zone_name": "Description"
+  },
+  "notes": "Ashtabula Township only; 15 district polygons. Zone names from Description; Definition also present.",
+  "extent": [
+    -80.81006026753407,
+    41.83145759568568,
+    -80.71171971571563,
+    41.92395099009095
+  ],
+  "verification": {
+    "verified_at": 1792275579578,
+    "counties": [
+      "39007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

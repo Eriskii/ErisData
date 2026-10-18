@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "oh-summit-hudson",
+  "publisher": "Summit County GIS (Hudson zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://scgis.summitoh.net/hosted/rest/services/Admin_and_Planning/ZoningNov2025/MapServer/19",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39153"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "GOVERNMENT",
+    "zone": "ZONE_",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "City of Hudson layer from Summit County GIS ZoningNov2025 service (layer 19).",
+  "extent": [
+    -81.49061051916854,
+    41.20209163562148,
+    -81.39089891584486,
+    41.27739013937731
+  ],
+  "verification": {
+    "verified_at": 1792276084590,
+    "counties": [
+      "39153"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-pinellas-indian-rocks-beach",
+  "publisher": "Pinellas County GIS (for the City of Indian Rocks Beach)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_Indian_Rocks_Beach_Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12103"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "ZONING"
+  },
+  "notes": "City of Indian Rocks Beach zoning hosted by Pinellas County GIS; JURISDICTION names the city.",
+  "extent": [
+    -82.85127497277324,
+    27.87164697407476,
+    -82.83505833043516,
+    27.909784278112745
+  ],
+  "verification": {
+    "verified_at": 1792277909948,
+    "counties": [
+      "12103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

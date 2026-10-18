@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-collin-wylie",
+  "publisher": "City of Wylie GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisapp.wylietexas.gov/portalserver/rest/services/Planning/ZoningDistricts/MapServer/81",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48085"
+    ]
+  },
+  "fields": {
+    "link": "OrdinanceNumber",
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Wylie zoning districts (city limits). ZONECLASS holds district code, ZONEDESC the description, OrdinanceNumber the ordinance reference. Wylie spans Collin and Dallas counties.",
+  "extent": [
+    -96.5966390335132,
+    32.96733609842436,
+    -96.4883010413746,
+    33.05509916314735
+  ],
+  "verification": {
+    "verified_at": 1792281105561,
+    "counties": [
+      "48085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

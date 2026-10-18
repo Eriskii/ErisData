@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-denton-argyle",
+  "publisher": "Town of Argyle GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/wAIqohJUCAtjSWaP/arcgis/rest/services/TownofArgyle_GIS_Data/FeatureServer/35",
+    "page_size": 1000,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "48121"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Town of Argyle GIS (ArcGIS Online org account TownofArgyle_GIS_Data), layer Zoning. Polygons carry a ZONING attribute per feature (parcel-attributed; last resort layer). Ordinance field is sparse and not mapped.",
+  "extent": [
+    -97.22916125883827,
+    33.0811846740918,
+    -97.13945645416395,
+    33.135121075829
+  ],
+  "verification": {
+    "verified_at": 1792281538826,
+    "counties": [
+      "48121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

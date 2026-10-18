@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-dawsonville",
+  "publisher": "City of Dawsonville GA Planning and Zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/hAql8eOvKyu8F8bU/arcgis/rest/services/Zoning_Districts/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13085"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "notes": "City of Dawsonville current zoning districts (May 2022), published by city planning on ArcGIS Online. District holds the district code; no name or ordinance link field.",
+  "extent": [
+    -84.18759929764909,
+    34.39647792930178,
+    -84.05759405455917,
+    34.46827709972399
+  ],
+  "verification": {
+    "verified_at": 1792277862023,
+    "counties": [
+      "13085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

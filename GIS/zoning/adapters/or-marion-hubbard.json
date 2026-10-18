@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-marion-hubbard",
+  "publisher": "Oregon DLCD (statewide zoning, Hubbard records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Hubbard'",
+  "notes": "Statewide DLCD zoning layer filtered to the City of Hubbard (ownerName Hubbard); standardized state zone codes. State copy; city publishes only PDF zoning maps.",
+  "extent": [
+    -122.82268863402092,
+    45.17198864333287,
+    -122.79722175953384,
+    45.19100869310398
+  ],
+  "verification": {
+    "verified_at": 1792280396221,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

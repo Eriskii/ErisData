@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ut-goshen",
+  "publisher": "Utah County GIS (Goshen Town Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.utahcounty.gov/arcgis/rest/services/Assessor/CommercialAppraiser/MapServer/48",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49049"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_GO_LABEL",
+    "zone_name": "ZONE_GO_DESC"
+  },
+  "notes": "Goshen Town zoning districts, published by Utah County GIS on its CommercialAppraiser MapServer (layer 48, 5 features). Single-jurisdiction layer, no filter needed.",
+  "extent": [
+    -111.90922964460844,
+    39.93978583068175,
+    -111.89476630690524,
+    39.9615575206115
+  ],
+  "verification": {
+    "verified_at": 1792280948249,
+    "counties": [
+      "49049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

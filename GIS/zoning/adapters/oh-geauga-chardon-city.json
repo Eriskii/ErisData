@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-geauga-chardon-city",
+  "publisher": "Geauga County GIS (Chardon City zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gcgis.geauga.oh.gov/arcgis/rest/services/Planning/Zoning/FeatureServer/4",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39055"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_LABEL",
+    "zone_name": "ZONING"
+  },
+  "notes": "Chardon city zoning layer from the county Planning/Zoning service; one layer per municipality in Geauga County.",
+  "extent": [
+    -81.23317228816515,
+    41.55508966916342,
+    -81.18749336475406,
+    41.59967643125333
+  ],
+  "verification": {
+    "verified_at": 1792275791255,
+    "counties": [
+      "39055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

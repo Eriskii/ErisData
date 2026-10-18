@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-orange",
+  "publisher": "South Central CT Regional Council of Governments (SCRCOG), compiled 2018 zoning, hosted by OpenCommunitiesAlliance1",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/bDIODuUqvoiS6i6c/arcgis/rest/services/SCRCOG_Zoning_2018_gdb/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09170"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Copy of SCRCOG 2018 regional zoning compilation on ArcGIS Online (item by OpenCommunitiesAlliance1), not the town server; Orange layer only (ORANGE_ZONING). ZONING holds district code; DESCRIPTION the broad use class. Compiled 2018, may predate amendments.",
+  "extent": [
+    -73.08672254087972,
+    41.24487867073286,
+    -72.98006606845614,
+    41.314834332165105
+  ],
+  "verification": {
+    "verified_at": 1792277609153,
+    "counties": [
+      "09170"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

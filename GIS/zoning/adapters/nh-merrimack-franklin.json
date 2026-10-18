@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "nh-merrimack-franklin",
+  "publisher": "NH Zoning Atlas (Upstate GIS / NH Office of Planning and Development), Franklin",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Atlas_Zoning_Districts_Buildable/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "AbbreviatedDistrict",
+    "zone_name": "Full_District_Name"
+  },
+  "filter": "County = 'Merrimack' AND Overlay = 'No' AND Jurisdiction = 'Franklin'",
+  "notes": "Franklin city zoning districts taken from the state NH Zoning Atlas statewide buildable-districts layer; overlay districts excluded",
+  "extent": [
+    -71.7336759865059,
+    43.37784064763836,
+    -71.62003048496223,
+    43.51661510187969
+  ],
+  "verification": {
+    "verified_at": 1792279510777,
+    "counties": [
+      "33013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ut-weber-riverdale",
+  "publisher": "Riverdale City (via Zoning FeatureServer, services9 SSDtSUDjDpVAHaBV)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/SSDtSUDjDpVAHaBV/arcgis/rest/services/Zoning/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49057"
+    ]
+  },
+  "fields": {
+    "link": "Ord_Link",
+    "zone": "ZONE_NAME",
+    "zone_name": "Zoning_Desc"
+  },
+  "notes": "Riverdale City zoning districts, linked from riverdaleut Zoning Web Map. CITY12 field present.",
+  "extent": [
+    -112.02191955006434,
+    41.15247560267843,
+    -111.97747568720246,
+    41.20056102692802
+  ],
+  "verification": {
+    "verified_at": 1792280828999,
+    "counties": [
+      "49057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "in-madison-frankton",
+  "publisher": "Town of Frankton (zoning layer hosted by Heartland MPO / MCCOG)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://heartlandmpo.com/arcgis/rest/services/Frankton_Zoning_Update_2020/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18095"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningCode",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Frankton town zoning districts (2020 update), served by Heartland MPO (MCCOG) for the Town of Frankton zoning site franktonzoning.com; 10 polygons, all Frankton.",
+  "extent": [
+    -85.7878088940293,
+    40.2101533239516,
+    -85.75776235692996,
+    40.226837422928426
+  ],
+  "verification": {
+    "verified_at": 1792278324933,
+    "counties": [
+      "18095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nj-monmouth-matawan",
+  "publisher": "Borough of Matawan, NJ (GIS Public Portal)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/hpqtuOQhfIvFm51J/arcgis/rest/services/MatawanNJ_AGO_Viewing/FeatureServer/22",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34025"
+    ]
+  },
+  "fields": {
+    "zone": "ZON_ID",
+    "zone_name": "ZON_DIST"
+  },
+  "notes": "Borough of Matawan zoning layer from the borough GIS public portal (Matawan NJ AGO viewing service). COMPZONE holds a composite zone code; ZON_ID is the district code used for zone.",
+  "extent": [
+    -74.24955834535095,
+    40.3907140772073,
+    -74.22174807052416,
+    40.43051125398144
+  ],
+  "verification": {
+    "verified_at": 1792279677706,
+    "counties": [
+      "34025"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "tn-marshall-unincorporated",
+  "publisher": "Marshall County, TN (unincorporated area zoning; layer uploaded to ArcGIS Online by kpruitt2638)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/PCqaN0DanqMk18pL/arcgis/rest/services/Marshall_County_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47117"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURIS",
+    "zone": "ZONE_",
+    "zone_name": "NAME"
+  },
+  "filter": "JURIS = 'Marshall' AND Status = 'Active'",
+  "notes": "Copy of Marshall County zoning on ArcGIS Online by personal account kpruitt2638, not a county-hosted service; JURIS is always Marshall (county unincorporated land). Status field marks Active vs Superceded; filter keeps Active. zone_name field NAME holds Marshall, no district description. Layer description says City and Town limits, but records are county zoning districts (A-1, C-1, C-2 etc.).",
+  "extent": [
+    -86.96102341658879,
+    35.25338433989875,
+    -86.60140924320359,
+    35.710797142275375
+  ],
+  "verification": {
+    "verified_at": 1792280621663,
+    "counties": [
+      "47117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

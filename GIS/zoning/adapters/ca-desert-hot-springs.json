@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-desert-hot-springs",
+  "publisher": "City of Desert Hot Springs (ArcGIS open data)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/RW9zgSBVIaMvWfEq/arcgis/rest/services/ZONING_NEW/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_CODE",
+    "zone_name": "ZONING_DESCRIPTION"
+  },
+  "notes": "City of Desert Hot Springs zoning districts (215 features). Layer described as zoning, overlays, specific plans and amendments; overlays not mapped separately.",
+  "extent": [
+    -116.63282452705457,
+    33.88057050179189,
+    -116.45732193232614,
+    33.99472342213671
+  ],
+  "verification": {
+    "verified_at": 1792277713637,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

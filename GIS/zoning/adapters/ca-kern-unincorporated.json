@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-kern-unincorporated",
+  "publisher": "Kern County Planning and Natural Resources Department (KernGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/Y8jwjGUWbRjuqpG5/arcgis/rest/services/Kern_County_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06029"
+    ]
+  },
+  "fields": {
+    "zone": "Zn_Cd1",
+    "zone_name": "Dscrptn"
+  },
+  "notes": "Kern County unincorporated zoning districts (county zoning layer; no jurisdiction field, so it is the county-administered land). Zone codes in Zn_Cd1; Comb_Zn is the combined code.",
+  "extent": [
+    -120.19868640086894,
+    34.77240129332825,
+    -117.62744277371831,
+    35.808320173612465
+  ],
+  "verification": {
+    "verified_at": 1792277316583,
+    "counties": [
+      "06029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

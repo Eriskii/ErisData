@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-bristol-dartmouth",
+  "publisher": "Town of Dartmouth (zoning map hosted by SRPEDD)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/euKKjtGUuDiy24vy/arcgis/rest/services/DartmouthMP_Zoning_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25005"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT",
+    "zone_name": "NAME"
+  },
+  "notes": "Dartmouth Base_Zoning_2015 layer from the SRPEDD-hosted Dartmouth Master Plan zoning web map (SRPEDD serves for the Town). Overlays are in other layers and are excluded.",
+  "extent": [
+    -71.07673791165398,
+    41.50447030516885,
+    -70.92736157059623,
+    41.73410644402198
+  ],
+  "verification": {
+    "verified_at": 1792278912790,
+    "counties": [
+      "25005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

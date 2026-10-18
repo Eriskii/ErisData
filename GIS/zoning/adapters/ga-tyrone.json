@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-tyrone",
+  "publisher": "Town of Tyrone GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/CAwtAHohiClrjBri/arcgis/rest/services/Tyrone_Online_Zoning_Map_WFL1/FeatureServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13113"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Tyrone online zoning map, Zoning Districts layer; parcel-level polygons carrying each parcel zoning in Zoning (NA where none). Town limits only. Parcel attributes present; zone_name not available.",
+  "extent": [
+    -84.62726745191104,
+    33.41611036622164,
+    -84.53556165334659,
+    33.53104326583656
+  ],
+  "verification": {
+    "verified_at": 1792277836736,
+    "counties": [
+      "13113"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

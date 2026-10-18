@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-kewaunee-town-pierce",
+  "publisher": "Kewaunee County Land Information (Town of Pierce zoning, county public view)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/OVykjebCTL9ZTdn8/arcgis/rest/services/Kewaunee_County_Zoning_public_view/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55061"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Kewaunee County Zoning public view, layer 2 = Town of Pierce only. Only zone code field published; no name or ordinance link.",
+  "extent": [
+    -87.52553033718057,
+    44.47130991566412,
+    -87.44578538360174,
+    44.59014206877304
+  ],
+  "verification": {
+    "verified_at": 1792281176158,
+    "counties": [
+      "55061"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

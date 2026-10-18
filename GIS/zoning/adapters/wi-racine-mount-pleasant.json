@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "wi-racine-mount-pleasant",
+  "publisher": "Village of Mount Pleasant (via ArcGIS Online, mtpleasantwi)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/gr4zwDegQUsac7I5/arcgis/rest/services/Community_Development_and_Planning/FeatureServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55101"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Village of Mount Pleasant Zoning Districts layer published by the Village (mtpleasantwi org, ArcGIS Online). Parcel-level: one feature per parcel carrying its ZONING code; no district name field, so zone only.",
+  "extent": [
+    -87.95624451947708,
+    42.66691653975629,
+    -87.78454525737834,
+    42.757860718938126
+  ],
+  "verification": {
+    "verified_at": 1792281378557,
+    "counties": [
+      "55101"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-branch",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Branch Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/36_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNIS",
+    "zone": "ZONE",
+    "zone_name": "DESCRPT"
+  },
+  "notes": "Municipal zoning for Branch Township (MUNIS 36), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.27513186399162,
+    40.77206484084635,
+    -76.1736315362044,
+    40.847666731365166
+  ],
+  "verification": {
+    "verified_at": 1792280350843,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

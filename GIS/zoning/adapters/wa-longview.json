@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-longview",
+  "publisher": "City of Longview (Public GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis3.mylongview.com/map/rest/services/LV_Public/Zoning_Public/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53015"
+    ]
+  },
+  "fields": {
+    "link": "WEBLINK",
+    "zone": "ZCLASS",
+    "zone_name": "ZDESC"
+  },
+  "notes": "City of Longview zoning districts, public map service; 119 polygons, EPSG:2927.",
+  "extent": [
+    -123.03829866338975,
+    46.10089796363535,
+    -122.89173243440386,
+    46.183524671889415
+  ],
+  "verification": {
+    "verified_at": 1792280988090,
+    "counties": [
+      "53015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

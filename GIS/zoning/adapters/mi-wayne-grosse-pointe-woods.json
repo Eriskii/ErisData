@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mi-wayne-grosse-pointe-woods",
+  "publisher": "City of Grosse Pointe Woods (interactive zoning map, hosted by AEW for Giffels Webster)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.aewinc.com/arcgis/rest/services/GrossePointeWoods/GPWZoningBasemap_Pro/MapServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "26163"
+    ]
+  },
+  "fields": {
+    "link": "CZ_Link",
+    "zone": "Zoning1"
+  },
+  "notes": "Parcel-level layer: about 7000 features, each carrying its current zoning district in Zoning1, from the city interactive zoning map (Grosse Pointe Woods Zoning App). Not separate district polygons, so a weak last resort. Source of the viewer config for the city map. Overlay districts are a separate layer (MapServer/2, Mixed Use Overlay), not used.",
+  "extent": [
+    -82.92327207065352,
+    42.41809932827984,
+    -82.87709025619951,
+    42.45179752348068
+  ],
+  "verification": {
+    "verified_at": 1792275818054,
+    "counties": [
+      "26163"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

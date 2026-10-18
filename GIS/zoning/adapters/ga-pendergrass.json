@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ga-pendergrass",
+  "publisher": "Jackson County GIS (City of Pendergrass zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/bcbi4lYRFOsss0F5/arcgis/rest/services/jackson_baselayers/FeatureServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13157"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ZONING",
+    "zone": "zoning_pendergrass"
+  },
+  "filter": "ZONING = 'Pendergrass'",
+  "notes": "City of Pendergrass zoning carried in the county base-layer service; code in zoning_pendergrass, city parcels identified by ZONING = Pendergrass. Parcel-level polygons.",
+  "extent": [
+    -83.70367825865264,
+    34.139579352599206,
+    -83.65815204043632,
+    34.1945691842362
+  ],
+  "verification": {
+    "verified_at": 1792277886112,
+    "counties": [
+      "13157"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

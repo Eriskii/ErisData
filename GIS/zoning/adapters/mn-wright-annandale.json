@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "mn-wright-annandale",
+  "publisher": "Wright County GIS (aggregated city zoning, City of Annandale)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/CiQCvRGImIxsaFnM/arcgis/rest/services/City_Zoning_in_Wright_County/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27171"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Muncipality",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneDesc"
+  },
+  "filter": "Muncipality = 'CITY OF ANNANDALE'",
+  "notes": "Wright County GIS layer aggregating parcel-level zoning for the cities in Wright County; filtered to City of Annandale. Jurisdiction field spelled Muncipality in source. Lambert projection; runtime requests lon/lat.",
+  "extent": [
+    -94.15704079510888,
+    45.242818454395085,
+    -94.08793169333846,
+    45.28319428773137
+  ],
+  "verification": {
+    "verified_at": 1792279436611,
+    "counties": [
+      "27171"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

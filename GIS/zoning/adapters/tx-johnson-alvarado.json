@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-johnson-alvarado",
+  "publisher": "City of Alvarado GIS (alvaradotx ArcGIS org)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/buaX4zIazMan3Lm0/arcgis/rest/services/Official_Zoning_Map/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48251"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningID",
+    "zone_name": "DistrictLabel"
+  },
+  "notes": "City of Alvarado official zoning map layer. Alvarado city zoning; ordinance links mostly not populated.",
+  "extent": [
+    -97.30347104902648,
+    29.50365300381784,
+    -96.30190306400755,
+    32.4374395889071
+  ],
+  "verification": {
+    "verified_at": 1792280718661,
+    "counties": [
+      "48251"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

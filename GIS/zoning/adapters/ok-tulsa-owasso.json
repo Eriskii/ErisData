@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ok-tulsa-owasso",
+  "publisher": "City of Owasso GIS (zoning layer on city ArcGIS organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/VJvqwZ3JnU52C9ua/arcgis/rest/services/CityZoningMap05Oct2021_WFL1/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "40143"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_TYPE_CITY",
+    "zone_name": "LEGEND"
+  },
+  "notes": "City of Owasso zoning districts (layer zoningOwasso20April2021, dated 2021). ZONING_COUNTY holds county zoning codes and is not mapped. No ordinance links in source.",
+  "verification": {
+    "verified_at": 1792280375808,
+    "counties": [
+      "40143"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

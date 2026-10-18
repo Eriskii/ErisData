@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "sd-codington-florence",
+  "publisher": "City of Florence (1st District MapNet, Codington County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://www.1stdistrict.org/arcgis/rest/services/Codington/codingtonmapnetpro/MapServer/39",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46029"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRICT",
+    "zone_name": "LABEL2"
+  },
+  "notes": "Town of Florence zoning districts from the county MapNet service; layer holds Florence only.",
+  "extent": [
+    -97.33357083725245,
+    45.04993679098112,
+    -97.32080655463889,
+    45.060587482637544
+  ],
+  "verification": {
+    "verified_at": 1792280315317,
+    "counties": [
+      "46029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

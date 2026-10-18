@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-stlawrence-heuvelton-village",
+  "publisher": "St. Lawrence County Planning / DANC GIS (Village of Heuvelton zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/56",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36089"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Village of Heuvelton layer from DANC regional zoning service (one layer per municipality). Ordinance links (PDF_Link) not populated, so no link field.",
+  "extent": [
+    -75.41720336551805,
+    44.60208405535112,
+    -75.39164823899173,
+    44.626695158154206
+  ],
+  "verification": {
+    "verified_at": 1792279775827,
+    "counties": [
+      "36089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

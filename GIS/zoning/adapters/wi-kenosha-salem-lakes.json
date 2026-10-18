@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-kenosha-salem-lakes",
+  "publisher": "Village of Salem Lakes (via Kenosha County mapping)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapping.kenoshacountywi.gov/server/rest/services/Interactive_Mapping/Zoning/MapServer/12",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55059"
+    ]
+  },
+  "fields": {
+    "link": "ClickLink",
+    "zone": "TAG",
+    "zone_name": "DistDescText"
+  },
+  "notes": "Village of Salem Lakes zoning districts, served by Kenosha County GIS (Interactive_Mapping/Zoning layer 12).",
+  "extent": [
+    -88.19060807953056,
+    42.4932583270708,
+    -88.06621183026198,
+    42.58484484665661
+  ],
+  "verification": {
+    "verified_at": 1792281218362,
+    "counties": [
+      "55059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

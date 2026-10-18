@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "me-cumberland-scarborough",
+  "publisher": "Southern Maine Planning & Development Commission (for Town of Scarborough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/EDmXP1QjmSmZlvBw/arcgis/rest/services/Scarborough_Parcels_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23005"
+    ]
+  },
+  "fields": {
+    "zone": "ZONES"
+  },
+  "filter": "ZONES IS NOT NULL",
+  "notes": "Last resort: a parcel layer (SMPDC, dataset last updated 2022) whose ZONES attribute carries each parcel zoning district; no district polygon layer published by Scarborough as a service. Parcel-level, so dissolve by zone for districts. MinLotSQFT and BldOut also present.",
+  "extent": [
+    -70.49198878813267,
+    43.52711118221379,
+    -70.25483563541991,
+    43.65605477912905
+  ],
+  "verification": {
+    "verified_at": 1792278785017,
+    "counties": [
+      "23005"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

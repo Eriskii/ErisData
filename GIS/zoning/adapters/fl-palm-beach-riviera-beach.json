@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-palm-beach-riviera-beach",
+  "publisher": "City of Riviera Beach (copy on ArcGIS Online by city staff account JShaw_RivieraBeach)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/M3rkbYKAc3M3lusZ/arcgis/rest/services/Riviera_Beach_ZoningandFLU2018/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12099"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "FULL_NAME"
+  },
+  "notes": "City of Riviera Beach zoning districts, 2018 vintage (layer CD_ZoningDistricts in a 2018 zoning and FLU service on the city-associated ArcGIS Online account). Source CRS 2881.",
+  "extent": [
+    -80.11964792250711,
+    26.76104816923305,
+    -80.03106474062437,
+    26.814885757225028
+  ],
+  "verification": {
+    "verified_at": 1792277735433,
+    "counties": [
+      "12099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

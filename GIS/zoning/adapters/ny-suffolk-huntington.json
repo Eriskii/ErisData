@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ny-suffolk-huntington",
+  "publisher": "Town of Huntington GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/2oXdA3cBGaaAFagN/arcgis/rest/services/ZONING/FeatureServer/2",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36103"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "Town of Huntington Zoning layer (Town ArcGIS account huntingtongis, FeatureServer layer 2). Zone = district code only; no district name field. Field Village marks incorporated-village areas where present; this layer covers the Town of Huntington only.",
+  "extent": [
+    -73.4981813699487,
+    40.750850864866855,
+    -73.2849192525681,
+    41.01836028932906
+  ],
+  "verification": {
+    "verified_at": 1792279962922,
+    "counties": [
+      "36103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

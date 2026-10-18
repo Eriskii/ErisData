@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-sacramento-rancho-cordova",
+  "publisher": "City of Rancho Cordova",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/kSSEfQQl69HmZZw6/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06067"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "City of Rancho Cordova zoning only; Zone is the district code; no name or jurisdiction field in source; ORD_NUM gives ordinance number",
+  "extent": [
+    -121.33693333372966,
+    38.50184162119248,
+    -121.18576173504404,
+    38.63417677632925
+  ],
+  "verification": {
+    "verified_at": 1792277375024,
+    "counties": [
+      "06067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

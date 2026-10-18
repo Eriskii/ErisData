@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-northampton-pen-argyl",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Pen Argyl Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_District_Code",
+    "zone_name": "Zoning_District__Desc"
+  },
+  "filter": "CountyName = 'Northampton' AND NAME = 'Pen Argyl Borough'",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Pen Argyl Borough by NAME. Zone codes carry a municipal prefix. Link not mapped: the layer holds no ordinance links.",
+  "extent": [
+    -75.26770730912568,
+    40.85563321892269,
+    -75.24101627597857,
+    40.88006990644569
+  ],
+  "verification": {
+    "verified_at": 1792280471497,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

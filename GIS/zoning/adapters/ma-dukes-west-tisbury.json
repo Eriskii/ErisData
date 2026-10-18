@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-dukes-west-tisbury",
+  "publisher": "Dukes County GIS (mvdukes) - West Tisbury zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/FNsEJ848HT5uDOHD/arcgis/rest/services/duk_zoning/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "PRIM_USE"
+  },
+  "notes": "Town of West Tisbury zoning district layer, hosted by Dukes County GIS; layer 6 of duk_zoning service (one layer per town).",
+  "extent": [
+    -70.71305423794368,
+    41.345837469199466,
+    -70.60557246538608,
+    41.46115413842799
+  ],
+  "verification": {
+    "verified_at": 1792278808239,
+    "counties": [
+      "25007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

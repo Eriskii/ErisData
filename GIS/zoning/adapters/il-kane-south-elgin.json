@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "il-kane-south-elgin",
+  "publisher": "Village of South Elgin",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/1Wj8xAact2ptcedL/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17089"
+    ]
+  },
+  "fields": {
+    "link": "OrdLink",
+    "zone": "Zoning",
+    "zone_name": "Label"
+  },
+  "notes": "Village of South Elgin zoning districts, supplied by village admin, hosted by LCSCGIS.",
+  "extent": [
+    -88.36501608493737,
+    41.96029714024473,
+    -88.26775003996008,
+    42.01279192009568
+  ],
+  "verification": {
+    "verified_at": 1792278085556,
+    "counties": [
+      "17089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

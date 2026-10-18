@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "or-yamhill-mcminnville",
+  "publisher": "City of McMinnville (GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://macgisworx.ci.mcminnville.or.us/mac_or/rest/services/Hosted/City_Zoning/FeatureServer/16",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41071"
+    ]
+  },
+  "fields": {
+    "zone": "layer"
+  },
+  "notes": "City of McMinnville zoning districts (City_Zoning hosted layer on the city GIS server, from the city open data hub). zone holds the district code (e.g. F-P). No zone_name or ordinance link field in the layer.",
+  "extent": [
+    -123.25597988304932,
+    45.182842055686145,
+    -123.128153945091,
+    45.240730550965104
+  ],
+  "verification": {
+    "verified_at": 1792280182066,
+    "counties": [
+      "41071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

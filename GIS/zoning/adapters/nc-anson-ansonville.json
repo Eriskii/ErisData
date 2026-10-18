@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-anson-ansonville",
+  "publisher": "Town of Ansonville (via Anson County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://ansoncountygis.com/arcgis/rest/services/ZoningLayers/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37007"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ID"
+  },
+  "notes": "Town of Ansonville zoning from Anson County GIS ZoningLayers MapServer layer 0 (Ansonville Zoning). No zone description field published. Excludes the ETJ layer (MapServer/1).",
+  "extent": [
+    -80.12248239214719,
+    35.092601046475025,
+    -80.09799715308164,
+    35.11775400148014
+  ],
+  "verification": {
+    "verified_at": 1792279662654,
+    "counties": [
+      "37007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

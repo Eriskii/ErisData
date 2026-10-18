@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ct-newlondon-griswold",
+  "publisher": "Southeastern CT Council of Governments (SCCOG) - Town of Griswold zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/c8bwOPjaFB6olbad/arcgis/rest/services/Griswold_Zoning/FeatureServer/0",
+    "page_size": 100,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "09180"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TownName",
+    "link": "FileLink",
+    "zone": "ZONECLASS"
+  },
+  "notes": "Town of Griswold zoning, hosted by SCCOG regional GIS; single-town layer (TownName field). 11 features. ZONEDESC is empty in the service, so no zone_name; zone codes only.",
+  "extent": [
+    -71.99167786243815,
+    41.51437987610644,
+    -71.8643162683546,
+    41.641160700950465
+  ],
+  "verification": {
+    "verified_at": 1792278874037,
+    "counties": [
+      "09180"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

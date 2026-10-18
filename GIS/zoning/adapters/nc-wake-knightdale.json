@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-wake-knightdale",
+  "publisher": "Town of Knightdale (via Wake County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.wake.gov/arcgis/rest/services/Planning/Zoning/MapServer/21",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37183"
+    ]
+  },
+  "fields": {
+    "zone": "CLASS"
+  },
+  "notes": "Town of Knightdale zoning districts, served by Wake County GIS. CLASS holds the district code; DISTRICT and DISTNAME are empty.",
+  "extent": [
+    -78.54001646121962,
+    35.74680995522607,
+    -78.43217741906014,
+    35.83983423529606
+  ],
+  "verification": {
+    "verified_at": 1792279927009,
+    "counties": [
+      "37183"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

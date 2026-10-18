@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-broome-endicott",
+  "publisher": "Village of Endicott (kheard ArcGIS Online copy of zoning layer vend_zoning)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/EEOLw7FvbUFCdg7T/arcgis/rest/services/BroomeZoning_gdb/FeatureServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36007"
+    ]
+  },
+  "fields": {
+    "zone": "Shortzone",
+    "zone_name": "Zone"
+  },
+  "notes": "Personal ArcGIS Online copy of Broome County municipal zoning by user kheard; this layer holds the Village of Endicott only. Official county zoning is a PDF (vend_zoning.pdf), so this is the only queryable copy. Not verified as official. No link field in source.",
+  "extent": [
+    -76.10586597992108,
+    42.071845054710536,
+    -76.03666635172925,
+    42.11875762886747
+  ],
+  "verification": {
+    "verified_at": 1792279632684,
+    "counties": [
+      "36007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

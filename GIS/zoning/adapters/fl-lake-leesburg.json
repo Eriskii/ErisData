@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-lake-leesburg",
+  "publisher": "City of Leesburg GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.leesburgflorida.gov/arcgis/rest/services/Planning_Zoning/P_Z_Layers/MapServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12069"
+    ]
+  },
+  "fields": {
+    "link": "ORD_NO",
+    "zone": "USE_ZONE"
+  },
+  "notes": "City of Leesburg, FL zoning districts (P_Z_Layers Zoning layer). USE_ZONE is the district code; ORD_NO is the ordinance number. Status field (Existing etc.) is kept as published.",
+  "extent": [
+    -81.95637688060475,
+    28.658410371284344,
+    -81.77065422792036,
+    28.88546104734262
+  ],
+  "verification": {
+    "verified_at": 1792277740909,
+    "counties": [
+      "12069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

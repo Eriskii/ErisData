@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-galveston-hitchcock",
+  "publisher": "City of Hitchcock GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/PyYnLy003aIw1xC3/arcgis/rest/services/Zoning_Public/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48167"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Hitchcock zoning published by Hitchcock_GIS (ArcGIS Online); zoning polygons split by parcel boundaries, so one district may appear as many features; zone code only, no zone name or ordinance link fields",
+  "extent": [
+    -95.14937212675208,
+    29.196046798166822,
+    -94.90550518072497,
+    29.379437195531313
+  ],
+  "verification": {
+    "verified_at": 1792280945361,
+    "counties": [
+      "48167"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-gordon",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Gordon Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/32_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "muni",
+    "zone": "district",
+    "zone_name": "district_n"
+  },
+  "notes": "Municipal zoning for Gordon Borough (MUNIS 32), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.06691341839345,
+    40.69877552558934,
+    -75.94534651560095,
+    40.79552321828246
+  ],
+  "verification": {
+    "verified_at": 1792280367247,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

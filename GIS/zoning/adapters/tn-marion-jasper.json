@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tn-marion-jasper",
+  "publisher": "Town of Jasper, TN (SETD hosted, via Marion County interactive map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/wdIYdjK0MpdHUMcM/arcgis/rest/services/Jasper_Zoning_1062026/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47115"
+    ]
+  },
+  "fields": {
+    "zone": "Zone_Curre"
+  },
+  "notes": "Town of Jasper zoning districts, hosted by Southeast Tennessee Development District (SETDD). Single-jurisdiction layer, 7 features. Zone field holds district code.",
+  "extent": [
+    -85.65305686662676,
+    35.02500406518599,
+    -85.57975061866854,
+    35.10377616212629
+  ],
+  "verification": {
+    "verified_at": 1792280496233,
+    "counties": [
+      "47115"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

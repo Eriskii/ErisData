@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-monroe-marathon",
+  "publisher": "City of Marathon GIS (Official Zoning, Zoning and FLUM Public View)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/Aw0N4WrtuqNFEOFX/arcgis/rest/services/Zoning_and_FLUM_(Public_View)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12087"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Marathon Official Zoning layer on the city ArcGIS organization; city-only, so no jurisdiction field. Zone is the ZONING code. RECHAR is a parcel id and not mapped; no district name field.",
+  "extent": [
+    -81.1247824462478,
+    24.686822342379894,
+    -80.93097818699074,
+    24.775286300445373
+  ],
+  "verification": {
+    "verified_at": 1792277813538,
+    "counties": [
+      "12087"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

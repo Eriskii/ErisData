@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ky-hardin-elizabethtown",
+  "publisher": "City of Elizabethtown GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.elizabethtownky.org/server/rest/services/ZoningMap/MapServer/2",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "21093"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "ZoneDesc"
+  },
+  "notes": "City of Elizabethtown zoning districts (ZoningMap MapServer layer 2, Zone). City limits only; the city-run map covers the city. Overzones and zoning amendments are separate layers, not used.",
+  "extent": [
+    -85.94882666721584,
+    37.631913840951285,
+    -85.82047079499856,
+    37.76727419732529
+  ],
+  "verification": {
+    "verified_at": 1792278707039,
+    "counties": [
+      "21093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

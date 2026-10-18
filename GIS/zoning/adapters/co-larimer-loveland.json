@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-larimer-loveland",
+  "publisher": "City of Loveland GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mapserv.cityofloveland.org/arcgis/rest/services/layers/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08069"
+    ]
+  },
+  "fields": {
+    "zone": "TYPE",
+    "zone_name": "NAME"
+  },
+  "notes": "City of Loveland zoning district boundaries (COLGIS1). Polygon layer of base zoning districts.",
+  "extent": [
+    -105.1596197621782,
+    40.34897027834834,
+    -104.96226121051228,
+    40.46575099272995
+  ],
+  "verification": {
+    "verified_at": 1792277468206,
+    "counties": [
+      "08069"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

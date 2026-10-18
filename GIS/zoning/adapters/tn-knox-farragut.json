@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tn-knox-farragut",
+  "publisher": "Town of Farragut (layer hosted on ArcGIS Online, owner lila_opd)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Ff4u1o0TAdiPJay7/arcgis/rest/services/Farragut_Zoning/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47093"
+    ]
+  },
+  "fields": {
+    "link": "CODE_URL",
+    "zone": "ZONE",
+    "zone_name": "TYPE"
+  },
+  "notes": "Town of Farragut base zoning districts (202 features, single jurisdiction so no jurisdiction field). Source: Town of Farragut ArcGIS Online account per its GIS services bid; confirm owner if possible. Layer 1 of Farragut_Zoning service.",
+  "extent": [
+    -84.23516265309043,
+    35.83350211986792,
+    -84.1294569410016,
+    35.90932071695661
+  ],
+  "verification": {
+    "verified_at": 1792280405967,
+    "counties": [
+      "47093"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

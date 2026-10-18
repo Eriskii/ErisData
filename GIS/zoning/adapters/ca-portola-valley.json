@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-portola-valley",
+  "publisher": "Town of Portola Valley (ArcGIS Online account patrickk_PortolaValley)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/LRqASGpv7gPaTEUL/arcgis/rest/services/Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06081"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Last resort: parcel layer, no district polygon layer found. Each row is a parcel carrying its zoning in Zoning, so districts repeat across parcels; no zone name field. Town parcel data published from the town-named ArcGIS Online account.",
+  "extent": [
+    -122.25448962423738,
+    37.337875136228845,
+    -122.1885838785238,
+    37.40142309234995
+  ],
+  "verification": {
+    "verified_at": 1792277593762,
+    "counties": [
+      "06081"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

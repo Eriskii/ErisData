@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-paulding-antwerp",
+  "publisher": "Village of Antwerp / Paulding County Auditor (ArcGIS Online)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/kiHlZpY4RugxH2pF/arcgis/rest/services/Antwerp_Village_Zoning/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39125"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Code",
+    "zone_name": "Zoning_Description"
+  },
+  "notes": "Village of Antwerp zoning districts, hosted by Paulding County Auditor on ArcGIS Online; 25 polygons. Village only.",
+  "extent": [
+    -84.75185744601272,
+    41.16971293469731,
+    -84.7148495699303,
+    41.19055637335128
+  ],
+  "verification": {
+    "verified_at": 1792275973664,
+    "counties": [
+      "39125"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

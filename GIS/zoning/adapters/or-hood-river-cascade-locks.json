@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-hood-river-cascade-locks",
+  "publisher": "Oregon DLCD statewide zoning compilation (Cascade Locks records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41027"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Cascade Locks'",
+  "notes": "Oregon DLCD statewide zoning feature class (OR_FRAMEWORK host), filtered to the City of Cascade Locks (ownerName Cascade Locks, unitOwner 1139422). Standardized state zone codes in orZCode/orZDesc; localZCode blank. Effective 2023-02-28.",
+  "extent": [
+    -121.90084245444606,
+    45.65831348302774,
+    -121.84014203664997,
+    45.69097997302919
+  ],
+  "verification": {
+    "verified_at": 1792280019682,
+    "counties": [
+      "41027"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

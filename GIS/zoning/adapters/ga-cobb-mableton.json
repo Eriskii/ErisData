@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-cobb-mableton",
+  "publisher": "City of Mableton (Cobb County GIS account)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/HYLRafMc4Ux6DA8c/arcgis/rest/services/Mableton_Zoning_Districts/FeatureServer/47",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13067"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict"
+  },
+  "notes": "City of Mableton zoning districts (layer 47, published from the Cobb County ArcGIS account). Zone holds the district code; StipulationsFlag marks conditional districts.",
+  "extent": [
+    -84.64124104820594,
+    33.74364033583738,
+    -84.49781328454696,
+    33.86982745016008
+  ],
+  "verification": {
+    "verified_at": 1792277917327,
+    "counties": [
+      "13067"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

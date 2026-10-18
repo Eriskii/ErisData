@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-arcadia",
+  "publisher": "City of Arcadia (zoning viewer hosted by Los Angeles County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://arcgis.gis.lacounty.gov/arcgis/rest/services/Arcadia/Zoning_Viewer/MapServer/119",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06037"
+    ]
+  },
+  "fields": {
+    "zone": "Zones"
+  },
+  "notes": "Last-resort parcel-attribute source: Arcadia zoning viewer layer 119 is parcel-joined (one feature per assessor parcel), zone code in Zones (Zones2016 and Zones2015 are older). No zone name field. Overlays are separate layers.",
+  "extent": [
+    -118.06926077751132,
+    34.087250709967584,
+    -117.99220140686695,
+    34.17945992411016
+  ],
+  "verification": {
+    "verified_at": 1792277794356,
+    "counties": [
+      "06037"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

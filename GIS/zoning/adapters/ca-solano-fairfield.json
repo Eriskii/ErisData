@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ca-solano-fairfield",
+  "publisher": "City of Fairfield (hosted by Solano County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://solanocountygis.com/server/rest/services/Aumentum/AumentumInternal/MapServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06095"
+    ]
+  },
+  "fields": {
+    "zone_name": "zonedesc"
+  },
+  "notes": "City of Fairfield zoning districts, served from Solano County Aumentum MapServer layer 15. Covers only the City of Fairfield.",
+  "extent": [
+    -122.17039242821566,
+    38.15840052986271,
+    -121.89215219595434,
+    38.312715812535544
+  ],
+  "verification": {
+    "verified_at": 1792277512538,
+    "counties": [
+      "06095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

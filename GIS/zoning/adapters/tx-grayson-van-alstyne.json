@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "tx-grayson-van-alstyne",
+  "publisher": "City of Van Alstyne, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/njrdXXbjWuwdufDW/arcgis/rest/services/Van_Alstyne_Data/FeatureServer/17",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48181"
+    ]
+  },
+  "fields": {
+    "zone": "LAYER"
+  },
+  "notes": "City of Van Alstyne Zoning layer from the city Van_Alstyne_Data service; LAYER holds the district code. No separate name field. Ordinance and annexation numbers available but not mapped.",
+  "extent": [
+    -96.61378095029757,
+    33.39957688996232,
+    -96.53636861631551,
+    33.45549477750272
+  ],
+  "verification": {
+    "verified_at": 1792280697335,
+    "counties": [
+      "48181"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

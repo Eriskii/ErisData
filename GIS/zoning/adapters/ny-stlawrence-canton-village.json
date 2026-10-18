@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-stlawrence-canton-village",
+  "publisher": "St. Lawrence County / DANC GIS (Village of Canton zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/51",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36089"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Village of Canton layer from DANC regional zoning service (one layer per municipality). Town of Canton is a separate layer. Ordinance links not populated.",
+  "extent": [
+    -75.19583275488638,
+    44.57830900906625,
+    -75.12986714375444,
+    44.6255306250557
+  ],
+  "verification": {
+    "verified_at": 1792279619985,
+    "counties": [
+      "36089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

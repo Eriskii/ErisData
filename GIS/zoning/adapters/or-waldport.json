@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "or-waldport",
+  "publisher": "SW Lincoln County Water PUD (taxlot zoning copy for City of Waldport; not the city)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/MiIvpOH5WqZfaAvr/arcgis/rest/services/ZoningCounty_City_Waldport_/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41041"
+    ]
+  },
+  "fields": {
+    "link": "REFLink",
+    "zone": "WZoning"
+  },
+  "notes": "Unofficial copy: taxlot-level zoning polygons from a water district GIS build-out layer named ZoningCounty_City_Waldport; no official queryable City of Waldport layer found (city publishes only a PDF zoning map). Parcel-level zoning, not district polygons; may include county-zoned taxlots near Waldport. Last resort.",
+  "extent": [
+    -124.08745034966306,
+    44.39259104749454,
+    -124.03713606951344,
+    44.4398838927691
+  ],
+  "verification": {
+    "verified_at": 1792280078629,
+    "counties": [
+      "41041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

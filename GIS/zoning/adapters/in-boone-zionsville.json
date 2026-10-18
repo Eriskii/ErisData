@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "in-boone-zionsville",
+  "publisher": "Town of Zionsville",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/63ac7xa0doMXB72M/arcgis/rest/services/Zionsville_Final_WFL1/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "18011"
+    ]
+  },
+  "fields": {
+    "zone": "Feature_Na"
+  },
+  "notes": "Zionsville zoning districts (56 polygons) from the town ArcGIS Online item Zionsville_Final_WFL1. Zionsville only.",
+  "extent": [
+    -86.4509328718696,
+    39.92329459027646,
+    -86.24073906184351,
+    40.0708263049652
+  ],
+  "verification": {
+    "verified_at": 1792278313086,
+    "counties": [
+      "18011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

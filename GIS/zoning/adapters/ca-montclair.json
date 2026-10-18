@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-montclair",
+  "publisher": "County of San Bernardino (combined incorporated and unincorporated zoning layer, City of Montclair slice)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services/Combined_Zoning_Extra_Data/FeatureServer/8",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION_NAME",
+    "zone": "ZONING_CODE"
+  },
+  "filter": "JURISDICTION_NAME = 'CITY OF MONTCLAIR'",
+  "notes": "County-hosted combined zoning layer (county org), filtered to City of Montclair (14 polygons). Zone names not populated in source.",
+  "extent": [
+    -117.72433566256588,
+    34.044855087658895,
+    -117.68065703930432,
+    34.096712037228684
+  ],
+  "verification": {
+    "verified_at": 1792278059317,
+    "counties": [
+      "06071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

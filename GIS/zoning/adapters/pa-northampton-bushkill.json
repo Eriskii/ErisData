@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "pa-northampton-bushkill",
+  "publisher": "Lehigh Valley Planning Commission (LV_Zoning regional compilation, Northampton municipalities; Bushkill Township)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/ZktcQDbWRlii7YHf/arcgis/rest/services/LV_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42095"
+    ]
+  },
+  "fields": {
+    "link": "Municipal_Website",
+    "zone": "ZN_MUNI_CD",
+    "zone_name": "ZN_MUNI_NM"
+  },
+  "filter": "CountyName = 'Northampton' AND MUNICODE = 8",
+  "notes": "Regional LVPC compilation (2018 snapshot), filtered to Northampton municipality code 8 = Bushkill Township. Zone codes carry a municipal prefix. Link field is the municipal website, not the ordinance text.",
+  "extent": [
+    -75.37501425299911,
+    40.74193503172402,
+    -75.27561388895356,
+    40.85824117311094
+  ],
+  "verification": {
+    "verified_at": 1792280266379,
+    "counties": [
+      "42095"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-tarrant-grapevine",
+  "publisher": "City of Grapevine GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/xSPs49inzz3yMpnd/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48439"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESCRIPTION"
+  },
+  "notes": "City of Grapevine zoning classifications and areas (cityofgrapevinehub ArcGIS Online organization).",
+  "extent": [
+    -97.1303026054626,
+    32.8801853125282,
+    -97.01562104678843,
+    32.994869661559434
+  ],
+  "verification": {
+    "verified_at": 1792280770414,
+    "counties": [
+      "48439"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

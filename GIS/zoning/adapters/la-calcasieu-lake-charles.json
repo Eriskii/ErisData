@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "la-calcasieu-lake-charles",
+  "publisher": "City of Lake Charles (via Calcasieu Parish GIS host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://lak-dc-arcgis2.cppj.net/arcgis/rest/services/LC/LC_Layers/MapServer/22",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "22019"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "City of Lake Charles zoning districts, layer Zones on the Parish GIS server (lak-dc-arcgis2.cppj.net). No district description field. PRIOR_ZONING holds the previous district. Source spatial reference EPSG:26915.",
+  "extent": [
+    -93.31708952977988,
+    30.12452849913587,
+    -93.12776167752486,
+    30.272400354003807
+  ],
+  "verification": {
+    "verified_at": 1792278752874,
+    "counties": [
+      "22019"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "ut-weber-west-haven",
+  "publisher": "West Haven City (Zone_Map_2025 layer, city ArcGIS account with West Haven parcels)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/IwhOChNUHRaWBSw0/arcgis/rest/services/Zone_Map_2025/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49057"
+    ]
+  },
+  "fields": {
+    "zone": "LAYER"
+  },
+  "filter": "LAYER <> 'City Prop - Overlay'",
+  "notes": "West Haven City Zone Map 2025 (from the city GIS zoning map viewer). The LAYER field holds the district code with a _HATCH suffix (e.g. R-1_HATCH, C-2_HATCH, MIXED USE_ORANGE, PH_HATCH); City Prop - Overlay rows are excluded. No name, description or ordinance link field in this layer.",
+  "verification": {
+    "verified_at": 1792281330070,
+    "counties": [
+      "49057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

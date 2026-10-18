@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-middlesex-essex",
+  "publisher": "RiverCOG (Lower Connecticut River Valley Council of Governments), Town of Essex zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uH7GnAlGDzMooG4B/arcgis/rest/services/RiverCOG_Regional_Zoning/FeatureServer/8",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09130"
+    ]
+  },
+  "fields": {
+    "zone": "ZONETYPE",
+    "zone_name": "ZONEDES"
+  },
+  "notes": "Essex layer from RiverCOG regional zoning service",
+  "extent": [
+    -72.47283946189754,
+    41.3240153306847,
+    -72.37127302701,
+    41.380910340416136
+  ],
+  "verification": {
+    "verified_at": 1792277553262,
+    "counties": [
+      "09130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

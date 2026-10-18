@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ga-fulton-college-park",
+  "publisher": "City of College Park GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/snkPZPJHBqHjJ0On/arcgis/rest/services/College_Park_Zoning_Map_WFL1/FeatureServer/1",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13121"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Code"
+  },
+  "notes": "City of College Park zoning map (city web map, College Park org). Dissolved district polygons; only the code is published (no description field). Coverage is City of College Park land in Fulton County.",
+  "extent": [
+    -84.52500819542114,
+    33.604084702387865,
+    -84.42841815547814,
+    33.66937674149266
+  ],
+  "verification": {
+    "verified_at": 1792278071951,
+    "counties": [
+      "13121"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

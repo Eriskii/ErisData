@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-oneida-little-rice",
+  "publisher": "Oneida County GIS (Town of Little Rice zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.oneidacountywi.gov/arcgis/rest/services/Oneview/ZoningLandUse/MapServer/7",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55085"
+    ]
+  },
+  "fields": {
+    "zone": "District"
+  },
+  "filter": "MUNICIPALITY = 'LITTLE RICE'",
+  "notes": "Town of Little Rice zoning districts from the county Oneview ZoningLandUse service, Zoning Districts layer (county-wide layer holding 20 towns, filtered to one). Boundaries approximate per county disclaimer.",
+  "extent": [
+    -89.92141844213376,
+    45.554975480491144,
+    -89.79482373023532,
+    45.73258572966192
+  ],
+  "verification": {
+    "verified_at": 1792281522714,
+    "counties": [
+      "55085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-schuylkill-haven",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Borough of Schuylkill Haven)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/34_zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "zone": "district",
+    "zone_name": "district_n"
+  },
+  "notes": "Municipal zoning for Schuylkill Haven Borough (MUNIS 34), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.29850577176029,
+    40.52249816096992,
+    -76.15400695771278,
+    40.65246543839229
+  ],
+  "verification": {
+    "verified_at": 1792280239803,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

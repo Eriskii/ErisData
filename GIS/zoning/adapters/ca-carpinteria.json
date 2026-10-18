@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ca-carpinteria",
+  "publisher": "City of Carpinteria (zoning as compiled in the California Statewide Zoning South layer, State of California Office of Land Use and Climate Innovation)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_South/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06083"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Code",
+    "zone_name": "Description"
+  },
+  "filter": "County = 'SBA' AND Jurisdiction = 'Carpinteria'",
+  "notes": "State of California statewide zoning compilation (South layer), not hosted by the city. Carpinteria rows are direct city data, dated 2022 Q1. Map: City of Carpinteria zoning map PDF (2025) on carpinteriaca.gov.",
+  "extent": [
+    -119.5427078921214,
+    34.38146461201472,
+    -119.4819810018722,
+    34.41354784497135
+  ],
+  "verification": {
+    "verified_at": 1792277540674,
+    "counties": [
+      "06083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

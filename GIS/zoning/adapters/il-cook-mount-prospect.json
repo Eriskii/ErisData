@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-cook-mount-prospect",
+  "publisher": "Village of Mount Prospect GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/bnoWk3lIexKWDb7k/arcgis/rest/services/ZONING_view/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17031"
+    ]
+  },
+  "fields": {
+    "zone": "DISTRCTS",
+    "zone_name": "ZONE_NAM"
+  },
+  "notes": "Village of Mount Prospect ZONING view layer (MP_GISAdmin, village ArcGIS org). Covers Mount Prospect only. DISTRCTS holds the district code, ZONE_NAM the name; COMBINED is not mapped.",
+  "extent": [
+    -87.9758137212037,
+    42.01955706851209,
+    -87.88845544089043,
+    42.10259516392905
+  ],
+  "verification": {
+    "verified_at": 1792278331149,
+    "counties": [
+      "17031"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

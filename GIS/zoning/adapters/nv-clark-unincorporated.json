@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nv-clark-unincorporated",
+  "publisher": "Clark County GIS (unincorporated Clark County)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/PlanningandZoning/MapServer/11",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "32003"
+    ]
+  },
+  "fields": {
+    "zone": "ZNCLASS",
+    "zone_name": "Description"
+  },
+  "notes": "Clark County unincorporated zoning from Clark County GIS open data service (Clark County Zoning sublayer, about 4052 features); covers unincorporated county land only",
+  "extent": [
+    -115.89840348961106,
+    34.996088334246245,
+    -114.03096689696233,
+    36.856311914934025
+  ],
+  "verification": {
+    "verified_at": 1792279525898,
+    "counties": [
+      "32003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

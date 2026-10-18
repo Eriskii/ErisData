@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-marion-mcintosh",
+  "publisher": "Town of McIntosh (copy hosted by ArcGIS Online account nharris_mcpa)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/zh4IrtLvSvA0sfub/arcgis/rest/services/Zoning/FeatureServer/3",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12083"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Unofficial copy: personal ArcGIS Online account nharris_mcpa (Zoning Data for Reach), layer Zoning - McIntosh; no official McIntosh zoning layer found. Zone codes only.",
+  "extent": [
+    -82.23070810123684,
+    29.44415027827394,
+    -82.21148005514404,
+    29.454993249149805
+  ],
+  "verification": {
+    "verified_at": 1792277774911,
+    "counties": [
+      "12083"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

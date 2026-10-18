@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "oh-franklin-plain-township",
+  "publisher": "Franklin County Economic Development & Planning (EDPGIS), for Plain Township",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/7r2Wl09a1Apy459r/arcgis/rest/services/Plain_Twp_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39049"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Plain Township zoning from the county EDPGIS host, layer PlainTwp_Zoning_2012_July (last updated July 2012). Parcel-level polygons with PID; Zoning holds the district code only, no name field. Last resort for a district layer.",
+  "extent": [
+    -82.86307447676987,
+    40.05086683892248,
+    -82.76162902053353,
+    40.13017803330838
+  ],
+  "verification": {
+    "verified_at": 1792276148482,
+    "counties": [
+      "39049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

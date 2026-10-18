@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "or-malheur-ontario",
+  "publisher": "Oregon DLCD (statewide zoning compilation), City of Ontario zoning",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41045"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "ownerName",
+    "link": "codeRef",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Ontario'",
+  "notes": "Statewide DLCD zoning compilation (2023 effective dates); city of Ontario polygons selected by ownerName. zone is the state standard code (orZCode); local codes are blank in this source. Malheur County unincorporated is a separate saved layer.",
+  "extent": [
+    -117.02046590018296,
+    43.99044324716239,
+    -116.9354675801891,
+    44.05136929929158
+  ],
+  "verification": {
+    "verified_at": 1792280166837,
+    "counties": [
+      "41045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

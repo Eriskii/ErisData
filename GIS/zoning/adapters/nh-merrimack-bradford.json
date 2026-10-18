@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "nh-merrimack-bradford",
+  "publisher": "NH Zoning Atlas (Upstate GIS / NH Office of Planning and Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Atlas_Zoning_Districts_Buildable/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33013"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "AbbreviatedDistrict",
+    "zone_name": "Full_District_Name"
+  },
+  "filter": "County = 'Merrimack' AND Overlay = 'No' AND Jurisdiction = 'Bradford'",
+  "notes": "Bradford town zoning districts taken from the state NH Zoning Atlas statewide buildable-districts layer; overlay districts excluded",
+  "extent": [
+    -72.05466535383505,
+    43.187745931637025,
+    -71.88131260188118,
+    43.28303597289968
+  ],
+  "verification": {
+    "verified_at": 1792279651041,
+    "counties": [
+      "33013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

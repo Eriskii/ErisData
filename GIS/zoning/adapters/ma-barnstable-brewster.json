@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ma-barnstable-brewster",
+  "publisher": "Cape Cod Commission (for Town of Brewster)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-services.capecodcommission.org/arcgis/rest/services/ePermit/ePermit_Brewster/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE"
+  },
+  "notes": "Town of Brewster zoning districts, served by the Cape Cod Commission ePermit service; 23 features; town-only layer",
+  "extent": [
+    -70.14668785730294,
+    41.70437921364826,
+    -69.99038094838035,
+    41.78984221709633
+  ],
+  "verification": {
+    "verified_at": 1792279026294,
+    "counties": [
+      "25001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

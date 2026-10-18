@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-broome-chenango",
+  "publisher": "Town of Chenango (kheard ArcGIS Online copy of zoning layer chen_zoning)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.arcgis.com/EEOLw7FvbUFCdg7T/arcgis/rest/services/BroomeZoning_gdb/FeatureServer/16",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36007"
+    ]
+  },
+  "fields": {
+    "zone": "Shortzone",
+    "zone_name": "Zone"
+  },
+  "notes": "Personal ArcGIS Online copy of Broome County municipal zoning by user kheard; this layer holds the Town of Chenango only. Official county zoning is a PDF (chen_zoning.pdf), so this is the only queryable copy. Not verified as official. No link field in source.",
+  "extent": [
+    -75.9647156821504,
+    42.138260797074516,
+    -75.82885586154555,
+    42.23988675321536
+  ],
+  "verification": {
+    "verified_at": 1792279627799,
+    "counties": [
+      "36007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

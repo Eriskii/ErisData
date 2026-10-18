@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ga-chatham-tybee-island",
+  "publisher": "City of Tybee Island",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/5E9Z93UQvSb6cGPi/arcgis/rest/services/Zoning_view/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "13051"
+    ]
+  },
+  "fields": {
+    "zone": "zoning",
+    "zone_name": "zoning_district"
+  },
+  "notes": "City of Tybee Island planning department base zoning districts layer (Zoning view). Whole layer is Tybee Island; no jurisdiction field. Ordinance link field mostly empty, so not mapped.",
+  "extent": [
+    -80.88351496586601,
+    31.985899580463492,
+    -80.83983428875533,
+    32.02907054481406
+  ],
+  "verification": {
+    "verified_at": 1792277853066,
+    "counties": [
+      "13051"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

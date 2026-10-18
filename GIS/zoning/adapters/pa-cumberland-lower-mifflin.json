@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-cumberland-lower-mifflin",
+  "publisher": "Cumberland County Planning Department (Lower Mifflin Township zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.ccpa.net/arcgiswebadaptor/rest/services/Planning/Zoning_Basemap/MapServer/10",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42041"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "MUNI",
+    "zone": "ZoneCode",
+    "zone_name": "ZoneName"
+  },
+  "notes": "Lower Mifflin Township zoning layer from the county GIS Zoning_Basemap service; digitized by the county from municipal paper maps, may not be the official adopted maps. ZoneType also available.",
+  "extent": [
+    -77.50317852404983,
+    40.183785129542386,
+    -77.35727358939924,
+    40.31456444082402
+  ],
+  "verification": {
+    "verified_at": 1792280225983,
+    "counties": [
+      "42041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

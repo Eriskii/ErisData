@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "ut-sanpete-centerfield",
+  "publisher": "Utah AGRC (state) generalized zoning, Centerfield",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/planning_generalized_zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "49039"
+    ]
+  },
+  "fields": {
+    "link": "source_map",
+    "zone": "source_zone",
+    "zone_name": "source_desc"
+  },
+  "filter": "county LIKE '%Sanpete%' AND city LIKE 'Centerfield%'",
+  "notes": "Utah AGRC statewide generalized zoning layer; Centerfield city features only. gen_zone holds the generalized category; source_zone is the city code.",
+  "extent": [
+    -111.83076401002926,
+    39.117015172480045,
+    -111.8060966328225,
+    39.1381393595235
+  ],
+  "verification": {
+    "verified_at": 1792280869006,
+    "counties": [
+      "49039"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

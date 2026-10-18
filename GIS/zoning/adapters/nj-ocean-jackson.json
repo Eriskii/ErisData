@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nj-ocean-jackson",
+  "publisher": "Jackson Township (layer by CGrossRVE, ArcGIS Online)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/CtqtskKS8sLHdIkJ/arcgis/rest/services/Jackson_Zoning_NotPinelands_2017/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34029"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_LABEL",
+    "zone_name": "ZONE_NAME"
+  },
+  "notes": "Jackson Township zoning, non-Pinelands area only (2017 map); PINELANDS field marks Pinelands land, which this layer omits. Copy uploaded to ArcGIS Online by CGrossRVE, not confirmed as the township own service; the township publishes only PDF maps.",
+  "extent": [
+    -74.46943780855533,
+    40.057291926887,
+    -74.24134073895972,
+    40.17243576847991
+  ],
+  "verification": {
+    "verified_at": 1792279573522,
+    "counties": [
+      "34029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

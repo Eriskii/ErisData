@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-suffolk-southampton",
+  "publisher": "Town of Southampton GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.southamptontownny.gov/gisserver/rest/services/DataServices/LandManager/MapServer/35",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36103"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE",
+    "zone_name": "DESCRIPT"
+  },
+  "notes": "Town of Southampton unincorporated-town zoning (Town Land Manager MapServer, Town Zoning layer). Incorporated villages are separate layers on the same service and are not included. Town of Southampton only.",
+  "extent": [
+    -72.72864136629491,
+    40.78030153073014,
+    -72.26137035089853,
+    41.01669598757273
+  ],
+  "verification": {
+    "verified_at": 1792279713098,
+    "counties": [
+      "36103"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

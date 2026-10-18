@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wi-walworth-williams-bay",
+  "publisher": "Village of Williams Bay",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/5ttC6flSN4O5o81B/arcgis/rest/services/pcdVillageZoning_PublicLayerView/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55127"
+    ]
+  },
+  "fields": {
+    "link": "ORDNCURLLINK",
+    "zone": "ZONE_OFFICIAL",
+    "zone_name": "ZONE_DESC"
+  },
+  "notes": "Village of Williams Bay zoning (Village ArcGIS Online org, linked from the Village GIS Zoning Map app, effective Jan 2023). Features are zoned parcels carrying the official zone code; legacy field ZONE_OLD is expired and not used. Covers Village land only; ETZ is not in this layer.",
+  "extent": [
+    -88.57076555726745,
+    42.562926526335715,
+    -88.51858299510086,
+    42.597564966093294
+  ],
+  "verification": {
+    "verified_at": 1792281401919,
+    "counties": [
+      "55127"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

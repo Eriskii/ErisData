@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-cupertino",
+  "publisher": "City of Cupertino GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.cupertino.org/cupgis/rest/services/Public/AmazonData/MapServer/10",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06085"
+    ]
+  },
+  "fields": {
+    "zone": "LABEL",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "City of Cupertino zoning designations only. LABEL holds the district code; TYPE the broad category.",
+  "extent": [
+    -122.09295703757007,
+    37.27816356753446,
+    -121.99478130842785,
+    37.34158785269834
+  ],
+  "verification": {
+    "verified_at": 1792277539830,
+    "counties": [
+      "06085"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

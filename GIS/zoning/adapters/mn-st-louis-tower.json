@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "mn-st-louis-tower",
+  "publisher": "City of Tower, MN (zoning copy hosted by St. Louis County GIS, PLN_ZoningReview)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.stlouiscountymn.gov/server2/rest/services/PLN_ZoningReview/Tower_Zoning/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27137"
+    ]
+  },
+  "fields": {
+    "zone": "Use_"
+  },
+  "notes": "City of Tower zoning districts as hosted on St. Louis County GIS review service; the service carries a disclaimer that it is not official zoning, so consult the city. City only.",
+  "extent": [
+    -92.30849638965412,
+    47.793438481191856,
+    -92.25484862453702,
+    47.82947040620941
+  ],
+  "verification": {
+    "verified_at": 1792279184233,
+    "counties": [
+      "27137"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

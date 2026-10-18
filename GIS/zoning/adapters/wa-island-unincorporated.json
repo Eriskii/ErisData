@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "wa-island-unincorporated",
+  "publisher": "Island County GIS (Island County Zoning, unincorporated county)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/Q2crTJYujvn27IJC/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53029"
+    ]
+  },
+  "fields": {
+    "link": "CodeLink",
+    "zone": "Zone_Abbr",
+    "zone_name": "Zone"
+  },
+  "filter": "Zone IS NOT NULL AND Zone NOT LIKE 'Oak Harbor%' AND Zone <> 'Municipality/NMUGA'",
+  "notes": "Island County unincorporated zoning (ICC 17.03) with Island County GIS. Covers county land only; city land appears as Municipality/NMUGA placeholders and Oak Harbor zones (already saved), excluded by filter. Includes UGA-Langley and NMUGA county zones. Zone_Abbr can be null for some overlays; CodeLink is a code reference field, may be a link or text.",
+  "extent": [
+    -122.77726200330169,
+    47.898762284869456,
+    -122.34787056560816,
+    48.41483480250183
+  ],
+  "verification": {
+    "verified_at": 1792281008813,
+    "counties": [
+      "53029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

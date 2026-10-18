@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "or-marion-silverton",
+  "publisher": "Oregon DLCD (statewide zoning, Silverton records)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41047"
+    ]
+  },
+  "fields": {
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Silverton'",
+  "notes": "Statewide DLCD zoning layer filtered to the City of Silverton (ownerName Silverton); standardized state zone codes. State copy, not the city own layer.",
+  "extent": [
+    -122.80365746001084,
+    44.982311201346654,
+    -122.75056131253584,
+    45.0230584457358
+  ],
+  "verification": {
+    "verified_at": 1792280368224,
+    "counties": [
+      "41047"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

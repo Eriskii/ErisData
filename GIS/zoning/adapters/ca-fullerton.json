@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-fullerton",
+  "publisher": "City of Fullerton (copy hosted on ArcGIS Online by ArcGIS Urban user Urban_Robin)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/cbDaIA5xFnHBUlC1/arcgis/rest/services/FullertonLandUse/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06059"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_ABR1",
+    "zone_name": "ZONE_DSC"
+  },
+  "notes": "Unofficial: parcel-level zoning and general plan layer for the City of Fullerton, hosted on ArcGIS Online by an individual ArcGIS Urban user, not the city. Used because the city publishes no queryable zoning service (its GIS page returned 403). Zone field is the base zone; overlays in OVERLAY1-5 are not used.",
+  "extent": [
+    -117.98619204582144,
+    33.85309748267118,
+    -117.86298103094404,
+    33.925379165903436
+  ],
+  "verification": {
+    "verified_at": 1792278048338,
+    "counties": [
+      "06059"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

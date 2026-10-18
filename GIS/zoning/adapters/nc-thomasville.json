@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nc-thomasville",
+  "publisher": "Piedmont Triad Regional Council (Thomasville NC zoning layer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.ptrc.org/arcgis/rest/services/Thomasville/Thomasville/MapServer/14",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37057"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "City of Thomasville NC zoning, hosted by Piedmont Triad Regional Council (regional planning agency serving the city). Layer has only the ZONING code; no description field, so zone_name is absent. Polygons may be dissolved by zone.",
+  "extent": [
+    -80.13795477605352,
+    35.83028080694054,
+    -80.03998343240424,
+    35.92991833865077
+  ],
+  "verification": {
+    "verified_at": 1792279842106,
+    "counties": [
+      "37057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

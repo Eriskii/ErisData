@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ca-eastvale",
+  "publisher": "SCAG compiled city zoning (Eastvale)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.scag.ca.gov/scaggis/rest/services/LDX/Zoning_poly_RV/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "CITY",
+    "zone": "ZN24_CITY"
+  },
+  "filter": "CITY = 'Eastvale'",
+  "notes": "SCAG 2024 compiled city zoning (YEAR_ZN 2024), parcel-level polygons; city codes in ZN24_CITY. No name or ordinance link field.",
+  "extent": [
+    -117.61640396082792,
+    33.907859002224576,
+    -117.54685489274227,
+    34.03337724921998
+  ],
+  "verification": {
+    "verified_at": 1792278286555,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

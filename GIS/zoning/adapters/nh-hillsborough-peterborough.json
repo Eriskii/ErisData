@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nh-hillsborough-peterborough",
+  "publisher": "Town of Peterborough, NH (TOP.GIS ArcGIS Online, Zoning 2026)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/TBWWZRJoZeMDaqgb/arcgis/rest/services/Zoning/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33011"
+    ]
+  },
+  "fields": {
+    "zone": "SHORTCODE",
+    "zone_name": "CODE"
+  },
+  "notes": "Town of Peterborough NH zoning districts (layer 6 of the town Zoning service, which also holds overlay layers 1-5; use only the districts layer). Town ArcGIS Online account.",
+  "extent": [
+    -72.00352917728233,
+    42.83378129059122,
+    -71.87521522829891,
+    42.94573211389578
+  ],
+  "verification": {
+    "verified_at": 1792279596095,
+    "counties": [
+      "33011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

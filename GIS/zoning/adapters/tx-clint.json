@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-clint",
+  "publisher": "Town of Clint, Texas (ClintTown ArcGIS Online organization)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/FJEbzUlusJ1ffGZD/arcgis/rest/services/Zoning/FeatureServer/54",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48141"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZoneType"
+  },
+  "notes": "Town of Clint zoning districts, linked from the town website Clint Zoning Map viewer. Not the ClintZoningDraft service (2025 draft ordinance). Uploaded to the town ArcGIS Online organization.",
+  "extent": [
+    -106.2478080039362,
+    31.571836337876732,
+    -106.20881779860248,
+    31.60332601118654
+  ],
+  "verification": {
+    "verified_at": 1792280663173,
+    "counties": [
+      "48141"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

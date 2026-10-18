@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nh-belknap-sanbornton",
+  "publisher": "NH Zoning Atlas (Saint Anselm / UpstateGIS), Sanbornton records",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Atlas_Zoning_Districts_Buildable/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Abbreviated_District_Name"
+  },
+  "filter": "County = 'Belknap' AND Overlay = 'No' AND Jurisdiction = 'Sanbornton'",
+  "notes": "Statewide NH Zoning Atlas layer, filtered to Sanbornton records in Belknap County; overlays excluded. Full district names mostly empty, so only the abbreviated code is mapped.",
+  "extent": [
+    -71.70426060746223,
+    43.46990188583464,
+    -71.50889528537769,
+    43.58201595045107
+  ],
+  "verification": {
+    "verified_at": 1792279548972,
+    "counties": [
+      "33001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

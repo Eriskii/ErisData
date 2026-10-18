@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ct-middlesex-easthaddam",
+  "publisher": "RiverCOG (Lower Connecticut River Valley Council of Governments), Town of East Haddam zoning (unofficial copy)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/uH7GnAlGDzMooG4B/arcgis/rest/services/RiverCOG_Regional_Zoning/FeatureServer/6",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09130"
+    ]
+  },
+  "fields": {
+    "zone": "Zone"
+  },
+  "notes": "East Haddam layer named Unofficial_Zoning in the RiverCOG regional zoning service, so it may not be the adopted map; Zone holds the district code",
+  "extent": [
+    -72.48783922961776,
+    41.42240598172141,
+    -72.30498270982649,
+    41.53976278367264
+  ],
+  "verification": {
+    "verified_at": 1792277537138,
+    "counties": [
+      "09130"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

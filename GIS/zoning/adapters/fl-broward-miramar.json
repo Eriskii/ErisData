@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "fl-broward-miramar",
+  "publisher": "City of Miramar GIS (Community & Economic Development)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/dAtAhTJ12QXYHJYN/arcgis/rest/services/MiramarZoningCondensed/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12011"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Miramar official zoning districts (condensed version of MiramarZoning). City limits only.",
+  "extent": [
+    -80.44061886272593,
+    25.95579831214707,
+    -80.2059742286031,
+    25.996453275602644
+  ],
+  "verification": {
+    "verified_at": 1792277720540,
+    "counties": [
+      "12011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

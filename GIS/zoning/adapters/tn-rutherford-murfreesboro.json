@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tn-rutherford-murfreesboro",
+  "publisher": "City of Murfreesboro (layer published on ArcGIS Online, owner data_GNRC; verify)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/pXGyp7DHTIE4RXOJ/arcgis/rest/services/Zoning_Murfreesboro/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "47149"
+    ]
+  },
+  "fields": {
+    "zone": "CODE",
+    "zone_name": "ZoneType"
+  },
+  "notes": "Murfreesboro city zoning districts, ArcGIS Online item by data_GNRC described as up to date zoning for Murfreesboro; ownership not confirmed as the city.",
+  "extent": [
+    -86.51987782881191,
+    35.76030007917601,
+    -86.32528168778674,
+    35.96056140106576
+  ],
+  "verification": {
+    "verified_at": 1792280577882,
+    "counties": [
+      "47149"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

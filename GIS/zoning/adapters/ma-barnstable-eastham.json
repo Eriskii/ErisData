@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ma-barnstable-eastham",
+  "publisher": "Cape Cod Commission (for Town of Eastham)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis-services.capecodcommission.org/arcgis/rest/services/ePermit/ePerm_Eastham/MapServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "25001"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECODE",
+    "zone_name": "DESCRIPTION"
+  },
+  "notes": "Town of Eastham zoning districts, served by the Cape Cod Commission ePermit service; 11 features; town-only layer",
+  "extent": [
+    -70.01142950758162,
+    41.79473712984581,
+    -69.93633742165784,
+    41.88063925078838
+  ],
+  "verification": {
+    "verified_at": 1792279120113,
+    "counties": [
+      "25001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

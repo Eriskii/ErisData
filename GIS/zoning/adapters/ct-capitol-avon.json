@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ct-capitol-avon",
+  "publisher": "Town of Avon (zoning layers hosted on ArcGIS Online by planning_SLR)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/ZvcJEU5PM6qt0B8f/arcgis/rest/services/Avon_Zoning_Layers/FeatureServer/7",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "09110"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_",
+    "zone_name": "DESCRIPTIO"
+  },
+  "notes": "Avon_Zoning_Classifications_original, 17 base zoning polygons, from the Avon Zoning Layers service (ArcGIS Online, account planning_SLR). Zone name from DESCRIPTIO; SLR_Long_Desc holds a longer description. Hosting account is a planning account, not confirmed as the town itself.",
+  "extent": [
+    -72.9278798989903,
+    41.75796077473856,
+    -72.79713870759392,
+    41.824974827067415
+  ],
+  "verification": {
+    "verified_at": 1792277898784,
+    "counties": [
+      "09110"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

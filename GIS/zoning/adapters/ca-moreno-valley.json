@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-moreno-valley",
+  "publisher": "City of Moreno Valley GIS (MoValGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/WgPlP3PNKC8Glejs/arcgis/rest/services/CoMV_Planning_MoVal2040Zoning_(public_view)/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "06065"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING_A",
+    "zone_name": "DESC_ORIG"
+  },
+  "notes": "City of Moreno Valley base zoning (MoVal 2040 zoning public view), city limits only. ZONING_A holds the district code; DESC_ORIG the description.",
+  "extent": [
+    -117.29652233110713,
+    33.85870739757092,
+    -117.08853763604718,
+    33.98809637525923
+  ],
+  "verification": {
+    "verified_at": 1792277406176,
+    "counties": [
+      "06065"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

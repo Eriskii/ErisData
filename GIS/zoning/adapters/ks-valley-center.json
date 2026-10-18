@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "ks-valley-center",
+  "publisher": "City of Valley Center, Kansas (Zoning Map web app, ArcGIS Experience)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/BFIOL6OOmMVZVXop/arcgis/rest/services/Zoning_data_view/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "20173"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict"
+  },
+  "notes": "City of Valley Center zoning map service behind the city ArcGIS zoning map. Layer holds one record per parcel (3,618 features, GEOCODE/AIN) with each parcel zoning district in ZoningDistrict; a parcel layer used as last resort since no separate district layer was found. Valley Center city limits only. No zone name or ordinance link field.",
+  "extent": [
+    -97.40686397034403,
+    37.79565498798946,
+    -97.33323242164052,
+    37.861626341397326
+  ],
+  "verification": {
+    "verified_at": 1792278859925,
+    "counties": [
+      "20173"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

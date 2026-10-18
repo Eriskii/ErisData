@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "md-north-east",
+  "publisher": "Town of North East, MD (GIS viewer built by ESRGC; layer hosted on ESRGC organization services)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/X3lKekbdaBmNjCHu/arcgis/rest/services/Zoning_Dissolve_updated/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "24015"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning",
+    "zone_name": "ZoningDescription"
+  },
+  "notes": "Town of North East zoning, dissolved by district (15 features) from the Town Web Map (ESRGC Co-op, item 976e51105fd243d6b29418be31ba6556, layer titled Zoning). Covers the Town of North East only. Codes as the ordinance names them; some descriptions carry overlay text. No link field published.",
+  "extent": [
+    -75.95967263545741,
+    39.58983070911819,
+    -75.91352882426283,
+    39.63621210047907
+  ],
+  "verification": {
+    "verified_at": 1792278913290,
+    "counties": [
+      "24015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

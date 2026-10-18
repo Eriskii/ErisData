@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "az-mohave-bullhead-city",
+  "publisher": "City of Bullhead City (hosted by Mohave County GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://mcgis.mohave.gov/arcgis/rest/services/BHC_Zoning_Parcels/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "04015"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Last resort: a parcel layer (28,556 parcels), not a district polygon layer; each parcel carries its zoning code in ZONING (values RS, R1S, R1L, R1MH, R2MF, RP, PAD, PL, C1, C2, C3, GC, M1, M2). No zone_name field, no link. Hosted by Mohave County GIS for the City of Bullhead City.",
+  "extent": [
+    -114.64478253318734,
+    35.04059564747851,
+    -114.45684042483856,
+    35.21147560226294
+  ],
+  "verification": {
+    "verified_at": 1792277204651,
+    "counties": [
+      "04015"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

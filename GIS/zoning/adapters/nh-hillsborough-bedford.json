@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "nh-hillsborough-bedford",
+  "publisher": "NH Zoning Atlas (Upstate GIS / NH Office of Planning and Development), Town of Bedford",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Zoning_Atlas_Full_Districts/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33011"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "AbbreviatedDistrict",
+    "zone_name": "Full_District_Name"
+  },
+  "filter": "County = 'Hillsborough' AND Jurisdiction = 'Bedford'",
+  "notes": "Statewide NH Zoning Atlas full districts layer, filtered to Bedford. Overlay districts flagged in Overlay field, not mapped.",
+  "extent": [
+    -71.61651406852016,
+    42.89611481528527,
+    -71.45229426732548,
+    42.983008587796064
+  ],
+  "verification": {
+    "verified_at": 1792279677332,
+    "counties": [
+      "33011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

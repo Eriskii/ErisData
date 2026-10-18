@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "me-knox-hope",
+  "publisher": "Town of Hope, Maine (Knox County GIS, ArcGIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/EvllkkFm8v8CygAm/arcgis/rest/services/Hope_Zoning/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23013"
+    ]
+  },
+  "fields": {
+    "zone": "ZONE_"
+  },
+  "notes": "Town of Hope Zoning 2023, sourced from the town; layer 1 of the service (layer 0 is shoreland zoning, not used).",
+  "extent": [
+    -69.25628197802696,
+    44.19889561284729,
+    -69.12131405566451,
+    44.30482675130953
+  ],
+  "verification": {
+    "verified_at": 1792278855032,
+    "counties": [
+      "23013"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

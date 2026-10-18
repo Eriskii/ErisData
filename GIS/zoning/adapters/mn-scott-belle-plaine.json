@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "mn-scott-belle-plaine",
+  "publisher": "City of Belle Plaine GIS (Zoning Map, belleplaine.maps.arcgis.com)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/skcj4vMwryWpYNmj/arcgis/rest/services/BellePlaine_Zoning_view/FeatureServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "27139"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING",
+    "zone_name": "ZONING"
+  },
+  "notes": "City of Belle Plaine Zoning layer (467 features) behind the city Interactive Official Zoning Map web app. ZONING holds the district description; no separate code field. Covers the city only.",
+  "extent": [
+    -93.8073832825542,
+    44.597093543683755,
+    -93.72535354885417,
+    44.64534851688528
+  ],
+  "verification": {
+    "verified_at": 1792279267998,
+    "counties": [
+      "27139"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

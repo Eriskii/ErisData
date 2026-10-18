@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-berks-st-lawrence",
+  "publisher": "St. Lawrence Borough (copy on ArcGIS Online by derrek143)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/eEPm5Y2Opi7FLt91/arcgis/rest/services/Zoning_Layer/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42011"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "TWPNAME",
+    "zone": "DISTRICT"
+  },
+  "filter": "TWPNAME = 'ST LAWRENCE'",
+  "notes": "Personal ArcGIS Online copy (owner derrek143) of St. Lawrence Borough zoning districts, 25 polygons; no official queryable borough layer found (borough zoning map is a static document). Covers St. Lawrence Borough only.",
+  "extent": [
+    -75.88389528392426,
+    40.31738531960991,
+    -75.853427418002,
+    40.333520220246584
+  ],
+  "verification": {
+    "verified_at": 1792280327145,
+    "counties": [
+      "42011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nj-warren-pohatcong",
+  "publisher": "Warren County Planning Department (NJ)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/4mb1fO9eRe47EZZx/arcgis/rest/services/Warren_County_Zoning_Map_WFL1/FeatureServer/3",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "34041"
+    ]
+  },
+  "fields": {
+    "zone": "Zone",
+    "zone_name": "Zone_Desci"
+  },
+  "notes": "Pohatcong Township zoning layer from the county WFL1 zoning map service; one municipality only.",
+  "extent": [
+    -75.20165417075225,
+    40.59212971101133,
+    -75.10834316451268,
+    40.686700200732176
+  ],
+  "verification": {
+    "verified_at": 1792279625038,
+    "counties": [
+      "34041"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

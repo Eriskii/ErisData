@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "nm-santa-fe-edgewood",
+  "publisher": "Town of Edgewood",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/lP6UKxwLatq4Lr5V/arcgis/rest/services/EdgewoodZoning_2026/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "35049"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "Town of Edgewood official zoning layer (EdgewoodZoning_2026, Town of Edgewood ArcGIS org). Parcel-level layer: each parcel carries its zoning in the Zoning attribute; no separate district polygons were published, so this is the last-resort parcel form. Covers the town only; Edgewood extends into Bernalillo and Torrance counties.",
+  "extent": [
+    -106.33992679128647,
+    35.04004383205025,
+    -106.1293389289728,
+    35.23844616771814
+  ],
+  "verification": {
+    "verified_at": 1792279593441,
+    "counties": [
+      "35049"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

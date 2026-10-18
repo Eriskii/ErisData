@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-weld-lochbuie",
+  "publisher": "Town of Lochbuie GIS (Interactive GIS Map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/vsW0OrQumC28RYUN/arcgis/rest/services/PUBLIC___TOWN_OF_LOCHBUIE_INTERACTIVE_GIS_MAP_WFL1/FeatureServer/11",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08123"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneShort",
+    "zone_name": "Zone"
+  },
+  "notes": "Town of Lochbuie zoning districts (Zoning sublayer of the town public interactive GIS map service). Town limits only; Lochbuie also lies in Adams County.",
+  "extent": [
+    -104.75391972063008,
+    39.99595096970768,
+    -104.69412026904652,
+    40.02966268721533
+  ],
+  "verification": {
+    "verified_at": 1792277761943,
+    "counties": [
+      "08123"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

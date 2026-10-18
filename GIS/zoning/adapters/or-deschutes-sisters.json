@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "id": "or-deschutes-sisters",
+  "publisher": "Oregon DLCD (statewide zoning, City of Sisters jurisdiction)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/8PAo5HGmvRMlF2eU/arcgis/rest/services/Zoning/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "41017"
+    ]
+  },
+  "fields": {
+    "link": "codeRef",
+    "zone": "orZCode",
+    "zone_name": "orZDesc"
+  },
+  "filter": "ownerName = 'Sisters'",
+  "notes": "State-compiled zoning (DLCD), City of Sisters portion; codes are the state-standardized orZCode. Same host layer as or-deschutes-bend and or-deschutes-redmond.",
+  "extent": [
+    -121.58410979919633,
+    44.27680324218447,
+    -121.533572875609,
+    44.30842532529727
+  ],
+  "verification": {
+    "verified_at": 1792280008259,
+    "counties": [
+      "41017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

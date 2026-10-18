@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nh-belknap-centerharbor",
+  "publisher": "NH Zoning Atlas (Saint Anselm / UpstateGIS), Center Harbor records",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/aguSsLS841Hp3EC4/arcgis/rest/services/NH_Atlas_Zoning_Districts_Buildable/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "33001"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "zone": "Abbreviated_District_Name"
+  },
+  "filter": "County = 'Belknap' AND Overlay = 'No' AND Jurisdiction = 'Center Harbor'",
+  "notes": "Statewide NH Zoning Atlas layer, filtered to Center Harbor records in Belknap County; overlays excluded. Full district names mostly empty, so only the abbreviated code is mapped.",
+  "extent": [
+    -71.58144272554108,
+    43.66447439002156,
+    -71.44961190442748,
+    43.755606463719666
+  ],
+  "verification": {
+    "verified_at": 1792279573362,
+    "counties": [
+      "33001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "tx-harris-tomball",
+  "publisher": "City of Tomball GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services2.arcgis.com/Q162lMMZLeb8KwDU/arcgis/rest/services/Tomball_Zoning/FeatureServer/5",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48201"
+    ]
+  },
+  "fields": {
+    "zone": "DistrictID",
+    "zone_name": "Zone_Descr"
+  },
+  "notes": "City of Tomball zoning districts (COT Zoning Map Current). Includes small Montgomery County portion of the city; in-county check passes for Harris. Overlay field separate.",
+  "extent": [
+    -95.66785826982746,
+    30.044541735614946,
+    -95.58219630810183,
+    30.13710119182027
+  ],
+  "verification": {
+    "verified_at": 1792280914533,
+    "counties": [
+      "48201"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

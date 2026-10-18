@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "wi-columbia-fall-river",
+  "publisher": "Village of Fall River (ArcGIS Online organization fallriverwi)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/bF4rBabm7XDDeTrC/arcgis/rest/services/Zoning_Editor_View/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "55021"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Designation",
+    "zone_name": "Zoning_Descreption"
+  },
+  "notes": "Village of Fall River zoning, served from the village Zoning Map App (fallriverwi.maps.arcgis.com). Layer is parcel-based: 850 features carry tax-parcel fields alongside zoning designation, so it is a parcel layer with zoning attributes. Many rows have null zone codes. DIST_NM reads Village of Fall River on some rows; no jurisdiction field needed since all rows are the village.",
+  "extent": [
+    -89.07468280307057,
+    43.375905259994425,
+    -89.02011419156884,
+    43.39698568199555
+  ],
+  "verification": {
+    "verified_at": 1792281385954,
+    "counties": [
+      "55021"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

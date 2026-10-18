@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "nc-ashe-jefferson",
+  "publisher": "Town of Jefferson via HCCOG GIS (AsheED_Zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/vj28eVZMB2OMIUh5/arcgis/rest/services/AsheED_Zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37009"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning_Lab",
+    "zone_name": "Zone_Descr"
+  },
+  "notes": "Town of Jefferson zoning districts (6 features), hosted by HCCOG GIS in the AsheED_Zoning service. Layer 0 of the service; no ordinance link field.",
+  "extent": [
+    -81.48969462659618,
+    36.40302221097565,
+    -81.42281631213322,
+    36.43153905657536
+  ],
+  "verification": {
+    "verified_at": 1792279680203,
+    "counties": [
+      "37009"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "fl-lake-mary",
+  "publisher": "kmorro (personal ArcGIS Online account; not the City of Lake Mary)",
+  "official": false,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services1.arcgis.com/v0YMSb0ovdJoIQKg/arcgis/rest/services/Zoning_FLU_Query_AGO_2021/FeatureServer/4",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "12117"
+    ]
+  },
+  "fields": {
+    "zone": "ZONING"
+  },
+  "notes": "Unofficial copy: a 2021 Future Land Use and Zoning query service uploaded to ArcGIS Online by an individual account (kmorro), not the City of Lake Mary. Used because the city publishes its zoning only as PDF maps. Check the layer for Lake Mary city limits before relying on it.",
+  "extent": [
+    -81.37322829429975,
+    28.72685055632625,
+    -81.30138611670883,
+    28.786808029881257
+  ],
+  "verification": {
+    "verified_at": 1792277775854,
+    "counties": [
+      "12117"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

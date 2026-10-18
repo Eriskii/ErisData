@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "tx-bexar-live-oak",
+  "publisher": "City of Live Oak, TX",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services9.arcgis.com/xdpiCgT89eSIEpbi/arcgis/rest/services/Zoning_Map_WFL1/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "48029"
+    ]
+  },
+  "fields": {
+    "link": "Code_Link",
+    "zone": "Zoning",
+    "zone_name": "District"
+  },
+  "notes": "City of Live Oak zoning map (2021 layer), city limits. Overlay in Overlay field. Code_Link points to Municode.",
+  "extent": [
+    -98.36074428853864,
+    29.530627374398364,
+    -98.31920767027673,
+    29.581036151368732
+  ],
+  "verification": {
+    "verified_at": 1792280609069,
+    "counties": [
+      "48029"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

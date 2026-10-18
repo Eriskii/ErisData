@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "wa-tieton",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), Town of Tieton",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 500,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53077"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "Jurisdiction",
+    "link": "ReferenceURL",
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '077' AND Jurisdiction = 'Tieton'",
+  "notes": "Washington State Zoning Atlas (Commerce) statewide layer, filtered to Tieton.",
+  "extent": [
+    -120.77268233920624,
+    46.69105303073371,
+    -120.73135541903224,
+    46.70942736911677
+  ],
+  "verification": {
+    "verified_at": 1792281210009,
+    "counties": [
+      "53077"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-clearfield-woodward-twp",
+  "publisher": "Clearfield County GIS (Planning Viewer)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services3.arcgis.com/QnkWuD9VDNC466fU/arcgis/rest/services/Planning_Viewer_WFL1/FeatureServer/15",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42033"
+    ]
+  },
+  "fields": {
+    "zone": "Districts",
+    "zone_name": "Descripti"
+  },
+  "notes": "Woodward Township zoning districts, 5 polygons, from the Clearfield County GIS Planning Viewer service.",
+  "extent": [
+    -78.44099660391365,
+    40.77888693097701,
+    -78.30151272173278,
+    40.91279733112522
+  ],
+  "verification": {
+    "verified_at": 1792280099678,
+    "counties": [
+      "42033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

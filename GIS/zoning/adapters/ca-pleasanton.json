@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ca-pleasanton",
+  "publisher": "City of Pleasanton Planning Division",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gisdata.cityofpleasantonca.gov/arcgisdata/rest/services/PlanningDivision/Zoning_NAD832011/MapServer/6",
+    "page_size": 25,
+    "geojson": false
+  },
+  "coverage": {
+    "counties": [
+      "06001"
+    ]
+  },
+  "fields": {
+    "zone": "DATA",
+    "zone_name": "DATA_TYPE"
+  },
+  "notes": "City of Pleasanton official zoning polygon layer (Zoning_NAD832011, layer 6). Served in a state-plane projection.",
+  "extent": [
+    -122.03244019102688,
+    37.56484243636087,
+    -121.76870430527272,
+    37.70295899474501
+  ],
+  "verification": {
+    "verified_at": 1792277331601,
+    "counties": [
+      "06001"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

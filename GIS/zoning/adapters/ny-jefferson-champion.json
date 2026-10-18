@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-jefferson-champion",
+  "publisher": "Town of Champion (via DANC GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://maps.dancgis.org/server/rest/services/FDC_Special_Districts_Zoning/MapServer/34",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36045"
+    ]
+  },
+  "fields": {
+    "zone": "ZnTyp",
+    "zone_name": "ZnTypFl"
+  },
+  "notes": "Town of Champion zoning districts from the DANC GIS host. Single-jurisdiction layer; PDF_Link not mapped (mostly empty).",
+  "extent": [
+    -75.75856494070108,
+    43.87762899491108,
+    -75.6194946880411,
+    44.0558991358645
+  ],
+  "verification": {
+    "verified_at": 1792279718166,
+    "counties": [
+      "36045"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

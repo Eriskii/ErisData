@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "id-latah-moscow",
+  "publisher": "City of Moscow (via Latah County GIS Municipalities service)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.latah.id.us/arcgis/rest/services/Municipalities/MapServer/1",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "16057"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "City of Moscow zoning layer hosted on Latah County GIS Municipalities service (layer 1, 220 features). Single-jurisdiction layer.",
+  "extent": [
+    -117.040209673533,
+    46.701003690192714,
+    -116.95900026649986,
+    46.761629927233855
+  ],
+  "verification": {
+    "verified_at": 1792278006557,
+    "counties": [
+      "16057"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "nc-gaston-mount-holly",
+  "publisher": "Gaston County GIS (Town of Mount Holly zoning)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.gastoncountync.gov/publicgis/rest/services/PublicGIS/Zoning/MapServer/16",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "37071"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "JURISDICTION",
+    "zone": "TYPE",
+    "zone_name": "NAME"
+  },
+  "notes": "Mount Holly city zoning districts served by the Gaston County PublicGIS zoning service; JURISDICTION names the town; ETJ attribute also present",
+  "extent": [
+    -81.05608111895734,
+    35.25716430980613,
+    -80.92414218216416,
+    35.372637208583676
+  ],
+  "verification": {
+    "verified_at": 1792279791273,
+    "counties": [
+      "37071"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

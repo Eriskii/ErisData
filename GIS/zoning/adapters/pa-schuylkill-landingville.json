@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pa-schuylkill-landingville",
+  "publisher": "Schuylkill County Planning, Zoning and GIS (hosted for Landingville Borough)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services.co.schuylkill.pa.us/arcgis/rest/services/Hosted/16_zoning/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42107"
+    ]
+  },
+  "fields": {
+    "jurisdiction": "munis",
+    "zone": "zone",
+    "zone_name": "descrpt"
+  },
+  "notes": "Municipal zoning for Landingville Borough (MUNIS 16), hosted by the county GIS; single-municipality layer",
+  "extent": [
+    -76.68978880225842,
+    40.49529015740919,
+    -75.75766986502919,
+    40.92156855815872
+  ],
+  "verification": {
+    "verified_at": 1792280307370,
+    "counties": [
+      "42107"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

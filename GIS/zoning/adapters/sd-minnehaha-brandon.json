@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "sd-minnehaha-brandon",
+  "publisher": "City of Brandon GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/3uEmyBZMHRKBdenz/arcgis/rest/services/Zoning_Parcels/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "46099"
+    ]
+  },
+  "fields": {
+    "zone": "Zoning"
+  },
+  "notes": "City of Brandon zoning carried on the parcel layer (no separate district polygon layer published); one feature per parcel, zone in Zoning field. Brandon city limits only.",
+  "extent": [
+    -96.62840172258208,
+    43.565504275373144,
+    -96.53589464011424,
+    43.62093282094492
+  ],
+  "verification": {
+    "verified_at": 1792280369368,
+    "counties": [
+      "46099"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

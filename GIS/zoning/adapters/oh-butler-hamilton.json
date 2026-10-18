@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "oh-butler-hamilton",
+  "publisher": "City of Hamilton, Ohio (Planning / GIS)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://gis.hamilton-oh.gov/arcgis/rest/services/PublicZoning/ZoningPublic/MapServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "39017"
+    ]
+  },
+  "fields": {
+    "zone": "ZONINGTYPE",
+    "zone_name": "Description"
+  },
+  "notes": "City of Hamilton base zoning districts within city boundary; ZONINGTYPE is the district code.",
+  "extent": [
+    -84.62783219011085,
+    39.33459005490038,
+    -84.491257651914,
+    39.45694995877135
+  ],
+  "verification": {
+    "verified_at": 1792275678318,
+    "counties": [
+      "39017"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

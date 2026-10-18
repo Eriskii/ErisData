@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "il-dupage-carol-stream",
+  "publisher": "Village of Carol Stream (GIS, via HLA-hosted ArcGIS Online item)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/74bZbbuf05Ctvbzv/arcgis/rest/services/Carol_Stream_Zoning_Districts/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "17043"
+    ]
+  },
+  "fields": {
+    "zone": "ZONED",
+    "zone_name": "ZONINGDESC"
+  },
+  "notes": "Carol Stream zoning layer published by the village and its consultant (sshrestha_hla). Last resort: attributes are per-parcel (PIN field, about 10,000 features) carrying each parcel zoning code in ZONED and description in ZONINGDESC, not clean district polygons.",
+  "extent": [
+    -88.17766336877881,
+    41.8881522988019,
+    -88.08765671324696,
+    41.942628011417575
+  ],
+  "verification": {
+    "verified_at": 1792278173124,
+    "counties": [
+      "17043"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

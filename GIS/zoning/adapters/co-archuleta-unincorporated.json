@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "co-archuleta-unincorporated",
+  "publisher": "Archuleta County GIS",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services5.arcgis.com/b1fZk1fY2MHCTEXz/arcgis/rest/services/Zoning_ArchCo_ToPS_2016/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "08007"
+    ]
+  },
+  "fields": {
+    "zone": "Parcels_zoning_des",
+    "zone_name": "Parcels_zoning_des"
+  },
+  "notes": "Archuleta County unincorporated zoning (2016 county zoning layer, 446 polygons). Covers county land outside the Town of Pagosa Springs; verify no Town polygons are included. Zone values are descriptive names (e.g. Agricultural Estate); blank values are unzoned.",
+  "extent": [
+    -107.4922723951472,
+    36.98080379423497,
+    -106.47542562345792,
+    37.43574213036786
+  ],
+  "verification": {
+    "verified_at": 1792277425781,
+    "counties": [
+      "08007"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

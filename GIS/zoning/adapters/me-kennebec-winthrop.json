@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "id": "me-kennebec-winthrop",
+  "publisher": "Town of Winthrop via Kennebec Valley Council of Governments",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services7.arcgis.com/8reqIUumvYktzomD/arcgis/rest/services/Winthrop_Maine_WFL1/FeatureServer/9",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "23011"
+    ]
+  },
+  "fields": {
+    "zone": "ZoningDistrict"
+  },
+  "notes": "Town of Winthrop only (not countywide); hosted by KVCOG. Layer WinthropZoningDistricts; zone code only, no description field.",
+  "extent": [
+    -70.0459343712974,
+    44.26708643273735,
+    -69.87651828595008,
+    44.3592803130715
+  ],
+  "verification": {
+    "verified_at": 1792278770689,
+    "counties": [
+      "23011"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

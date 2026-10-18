@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "pa-allegheny-whitehall",
+  "publisher": "Borough of Whitehall (municipal GIS, Whitehall Borough Interactive Public Map)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/A3O49kUB98Moka4Y/arcgis/rest/services/MasterFeatureService_ReadOnlyView/FeatureServer/24",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "42003"
+    ]
+  },
+  "fields": {
+    "zone": "ZONECLASS",
+    "zone_name": "ZONEDESC"
+  },
+  "notes": "Whitehall Borough zoning districts from the borough GIS master feature service (Zoning District layer, 60 features), linked from the borough Interactive Public Map. Borough only.",
+  "extent": [
+    -80.01778443195546,
+    40.343658302809274,
+    -79.95827297304912,
+    40.37952004395273
+  ],
+  "verification": {
+    "verified_at": 1792280655918,
+    "counties": [
+      "42003"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

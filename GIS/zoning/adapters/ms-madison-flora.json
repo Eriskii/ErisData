@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "ms-madison-flora",
+  "publisher": "Town of Flora, MS (zoning layer hosted by Central Mississippi Planning & Development District)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "http://gis.cmpdd.org/arcgis/rest/services/Hosted/Flora_Feature_Layer/FeatureServer/20",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "28089"
+    ]
+  },
+  "fields": {
+    "link": "pdf",
+    "zone": "zoning",
+    "zone_name": "zoning2024"
+  },
+  "notes": "Layer Flora Zoning, a parcel-based layer carrying each parcel zoning code (Zoning, Zoning2024 fields) from the Flora parcel roll, served by CMPDD for the Town. Not a pure district layer; the zone field holds the parcel zoning code.",
+  "extent": [
+    -90.33414600356086,
+    32.5165049065609,
+    -90.29164317266778,
+    32.569805829178094
+  ],
+  "verification": {
+    "verified_at": 1792279288192,
+    "counties": [
+      "28089"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

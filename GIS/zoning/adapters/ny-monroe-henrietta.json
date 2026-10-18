@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "id": "ny-monroe-henrietta",
+  "publisher": "Town of Henrietta (MapLink GenCode host)",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services8.arcgis.com/MkUfAWaYm2SQf4Qa/arcgis/rest/services/HE0056_Zoning_12032024_20241203_ZoningDistrictsNAD83wAbbrv/FeatureServer/0",
+    "page_size": 1000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "36055"
+    ]
+  },
+  "fields": {
+    "zone": "ABBR",
+    "zone_name": "Zone_"
+  },
+  "notes": "Town of Henrietta only; zoning districts from Town MapLink, Dec 2024 version. zone_name is the Zone- district label.",
+  "extent": [
+    -77.73002074208492,
+    43.01719905860752,
+    -77.55357870884677,
+    43.096880023048925
+  ],
+  "verification": {
+    "verified_at": 1792279652491,
+    "counties": [
+      "36055"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}

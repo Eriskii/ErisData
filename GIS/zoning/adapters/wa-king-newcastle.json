@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "wa-king-newcastle",
+  "publisher": "Washington State Department of Commerce (Washington State Zoning Atlas), City of Newcastle",
+  "official": true,
+  "source": {
+    "kind": "arcgis-feature",
+    "url": "https://services6.arcgis.com/tboeqGwETr5ppr5Q/arcgis/rest/services/WAZA_Prototype_Layers/FeatureServer/0",
+    "page_size": 2000,
+    "geojson": true
+  },
+  "coverage": {
+    "counties": [
+      "53033"
+    ]
+  },
+  "fields": {
+    "zone": "ZoneID",
+    "zone_name": "ZoneName"
+  },
+  "filter": "COUNTYFP = '033' AND Jurisdiction = 'Newcastle'",
+  "notes": "State Zoning Atlas compilation of Newcastle zoning districts, Newcastle only (COUNTYFP 033).",
+  "extent": [
+    -122.19516738365054,
+    47.516130990859565,
+    -122.12757743626196,
+    47.54571543269777
+  ],
+  "verification": {
+    "verified_at": 1792281940331,
+    "counties": [
+      "53033"
+    ],
+    "model": "claude-haiku-5-5",
+    "rung": 0
+  }
+}
